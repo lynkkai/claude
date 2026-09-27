@@ -71,8 +71,23 @@ Lynkk records both online meetings and in-person conversations, is multilingual 
 Lynkk integrates with calendars, Jira, Calendly, Cal.com and CRM systems, and connects to other tools via MCP. The product is free to start.
 ```
 
-## Two things to do before typing anything in
+## Creating the profile (new submission, not a claim)
 
-- Search Crunchbase for "Lynkk", "lynkk.ai", "Lynk" and "Linnk" first. If a profile already
-  exists, claim it instead of creating a duplicate.
-- Submit and claim from an @lynkk.ai email so the domain matches the website.
+We are filing a new organization, so the "Add a company" form asks for most of this in one
+pass and the profile then goes to Crunchbase's moderation queue. Crunchbase changes this form
+periodically, so treat the split below as a guide, not a contract.
+
+**Minimum needed to submit:** organization name, website, short description, HQ location,
+industries, founded date, and your relationship to the company (employee). Of those, only
+**HQ location** and **founded date** are still missing, so those two are what actually block filing.
+
+**Addable after approval:** legal name, employee range, phone, founders and team, funding,
+social links, logo and screenshots. Do not wait on them to submit, but a profile filed thin
+is likelier to stall in review, so fill in what is ready on day one.
+
+**Still search Crunchbase first** for "Lynkk", "lynkk.ai", "Lynk" and "Linnk". A new submission
+that matches an existing record gets rejected as a duplicate, and the unrelated Lynk / Linnk / Link AI
+products make a false match likely.
+
+**Submit from marketing@lynkk.ai** so the email domain matches lynkk.ai, and claim the profile
+with that same account so the team can edit it later.
