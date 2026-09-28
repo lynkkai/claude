@@ -54,11 +54,14 @@ const issue = ({ title, priority, issue, why, solution, solutionBullets }) => {
 // ---------- content ----------
 const ISSUES = [
   {
-    title: 'Only about twelve pages are being surfaced, and growth has stalled',
+    title: 'Only twelve URLs have ever been cited, and the homepage carries most of them',
     priority: 'Critical',
-    issue: 'Twelve URLs account for 100% of the AI-surface impressions in the last three months, and the homepage alone takes 62% of them. Impressions grew from 7 in July to 39 in August to 59 in September, then flattened: the last 14 days produced 34 impressions, exactly matching the 14 days before.',
-    why: 'The growth curve flattened while the page count stayed fixed. Google discovered and indexed the pages that exist, then ran out of Lynkk pages to cite. Twelve pages cannot compete in a category with hundreds of commercial queries, so this is a hard ceiling that no amount of on-page tuning will lift.',
+    issue: 'Twelve URLs appear in the AI-surface report for the last three months, and the homepage alone takes 62% of the impressions. Growth itself is healthy: impressions per day went from 0.23 in July to 1.26 in August to 2.46 in September, and is still climbing.',
+    why: 'The concentration is the problem, not the trend. Twelve cited URLs cannot cover a category with hundreds of commercial queries, and one page carrying 62% of the footprint is a single point of failure. Because growth is currently strong, the return on adding pages is higher now than it will look later.',
     solution: 'Treat page creation as the primary growth lever for the next two quarters, working through the gap list in issue 4. Before committing a content budget, run the crawl with the site graph enabled: if pages already exist but are thin, orphaned, noindexed or missing from the sitemap, the fix is completely different and much cheaper.',
+    solutionBullets: [
+      'Watch the fortnightly trend rather than reacting to it. The last two 14-day periods were flat at 34 each, but at this volume the expected swing from chance alone is about plus or minus 6, so that is not yet a plateau. One more fortnight will tell you.',
+    ],
   },
   {
     title: 'Legal pages outrank the product pages in AI answers',
@@ -86,11 +89,11 @@ const ISSUES = [
     ],
   },
   {
-    title: 'Whole page types that this category expects do not exist',
-    priority: 'Critical',
-    issue: 'Nothing resembling a pricing page, blog, about page, integration pages, security page, or any comparison or alternatives page appeared in 92 days of Search Console data or across nine searches.',
-    why: 'This is the textbook failure mode for a SaaS site: thin feature pages, no comparison content, no educational content, and no commercial-intent landing pages. Pricing is the single most common commercial query for any software brand and a frequent trigger for AI answers. Comparison pages rank, convert, and get cited. Without them, the highest-intent visitors have nowhere to land.',
-    solution: 'Build in this order, highest commercial intent first.',
+    title: 'No evidence of the page types this category expects',
+    priority: 'High, but verify the premise first',
+    issue: 'Nothing resembling a pricing page, blog, about page, integration pages, security page, or any comparison or alternatives page appeared in 92 days of Search Console data or across nine searches. This is the weakest-evidence item in this document: the export lists only pages cited in AI answers, so any of these could exist and simply never have been quoted. Check the sitemap before acting.',
+    why: 'If the pages are missing, this is the textbook failure mode for a SaaS site: thin feature pages, no comparison content, no commercial-intent landing pages. Pricing is the most common commercial query for any software brand and a frequent trigger for AI answers. If instead the pages exist and are never cited, the problem is narrower but still real: they are not good enough or not linked well enough to be surfaced, and the fix is to improve them rather than to write them.',
+    solution: 'First confirm which case applies by checking the sitemap. Then, for whatever is genuinely missing, build in this order, highest commercial intent first.',
     solutionBullets: [
       'A pricing page. Blocked on the paid tier names, prices and free-tier limits.',
       'Comparison pages against Otter, Fireflies, Granola, Fathom and tl;dv, plus alternatives pages. Write them honestly, including where the competitor wins, because that is what makes them credible and quotable.',
@@ -117,7 +120,7 @@ const ISSUES = [
   {
     title: 'India is the strongest market and is served by a single page',
     priority: 'High',
-    issue: 'India is 35% of AI-surface impressions (37 of 105), more than five times the United States (5). The Hinglish transcription page is the joint second-best page on the site, level with the meeting bot page. Independent searches confirm real competition for Hinglish and Hindi meeting notes, which means there is real demand.',
+    issue: 'India is 35% of AI-surface impressions (37 of 105), more than seven times the United States (5). The Hinglish transcription page is the joint second-best page on the site, level with the meeting bot page. Independent searches confirm real competition for Hinglish and Hindi meeting notes, which means there is real demand.',
     why: 'This is validated product-market fit showing up in search data. Code-switched Hinglish transcription is genuinely hard and most global tools treat it as an edge case, so Lynkk has a page ranking in a defensible niche from a domain with almost no authority. One page is leaving most of that on the table.',
     solution: 'Build out the India and multilingual cluster from the Hinglish page.',
     solutionBullets: [
@@ -207,23 +210,36 @@ const children = [
   }),
   new Paragraph({
     spacing: { after: 240 },
-    children: [new TextRun({ text: '27 September 2026', italics: true, color: GREY, size: 20 })],
+    children: [new TextRun({ text: '27 September 2026, revised 28 September 2026', italics: true, color: GREY, size: 20 })],
   }),
   new Paragraph({
     spacing: { after: 120, line: 276 },
     children: [new TextRun({
       text: 'Twelve issues, ordered so that the ones blocking everything else come first. '
         + 'Findings are drawn from a 92-day Google Search Console export, searches run on '
-        + '27 September 2026, and the site architecture those sources reveal.',
+        + '27 September 2026, and the site architecture those sources reveal. '
+        + 'Revised 28 September 2026 after re-checking every figure against the source data.',
       size: 21,
+    })],
+  }),
+  new Paragraph({
+    spacing: { after: 120, line: 276 },
+    children: [new TextRun({
+      text: 'One caveat worth reading before the rest. The automated crawl could not run, '
+        + 'because outbound web access was blocked. Issue 8 lists what that leaves unmeasured, '
+        + 'and robots.txt, sitemap.xml and llms.txt are among them. Those checks are pending, '
+        + 'not passing, and nothing in this document makes a claim about those files.',
+      size: 21, italics: true,
     })],
   }),
   new Paragraph({
     spacing: { after: 240, line: 276 },
     children: [new TextRun({
-      text: 'One caveat worth reading before the rest. The automated crawl could not run, '
-        + 'because outbound web access was blocked. Issue 8 lists what that leaves unmeasured. '
-        + 'Those checks are pending, not passing.',
+      text: 'Three limits on the evidence. The supporting searches were US-only, while India is '
+        + '35% of impressions. The Search Console page list is headed "Top pages", so it is a '
+        + 'ranked list and cannot prove a URL was never cited. And the export covers Google\u2019s AI '
+        + 'surfaces only, so a page that ranks well in ordinary Search but has never been quoted '
+        + 'in an AI answer does not appear in it at all.',
       size: 21, italics: true,
     })],
   }),

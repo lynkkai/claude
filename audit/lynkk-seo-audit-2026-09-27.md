@@ -15,6 +15,19 @@ Two halves to this audit.
 nine searches, and an analysis of the site architecture the export reveals. Every
 finding below marked "Evidence" is traceable to one of those.
 
+Three limits on that evidence, worth holding in mind throughout:
+
+- **The searches were US-only.** India is 35% of Lynkk's AI-surface impressions,
+  so the off-site findings in Part 2 describe the US search landscape and may
+  not hold for the market that matters most to Lynkk today.
+- **`Pages.csv` is headed "Top pages", not "all pages".** It is a ranked list,
+  so it shows which URLs were cited most, and cannot prove that no other URL was
+  ever cited or that no other page exists.
+- **The export covers AI surfaces only.** A page that ranks perfectly well in
+  ordinary Search but has never been quoted in an AI answer does not appear here
+  at all. Nothing in this report should be read as a statement about a page's
+  ordinary Search performance.
+
 **What did not run.** The automated crawl. Outbound HTTPS is blocked for every
 host in this Claude cloud environment: the egress proxy answers 403 to CONNECT,
 for lynkk.ai and for example.com alike. So nothing that needs to touch the site
@@ -29,7 +42,7 @@ was measured:
 | Heading structure, word counts, thin-content detection | Content quality signals |
 | JSON-LD structured data | Rich results and AI citation eligibility |
 | Security headers, HSTS, CSP, mixed content | 8% of the score, plus trust signals |
-| Broken links, image alt text, accessibility | 15% of the score combined |
+| Broken links, image alt text, accessibility | 23% of the score combined |
 | JS rendering: does the content exist without JavaScript | Suspected root cause of several findings below |
 
 **Do not treat the absence of a technical finding here as a pass.** Those checks
@@ -52,17 +65,20 @@ Lynkk's SEO problem is not that the site is broken. It is that the site is
 **too small to compete and too thin to be quoted**, in a category where Google
 now answers most queries itself.
 
-Health assessment: **at risk, pre-revenue in organic terms.** 105 AI-surface
-impressions across 92 days is close to a standing start. The good news is that
-the trajectory was compounding (7 in July, 39 in August, 59 in September) until
-it flattened this month, and the flattening has an identifiable cause.
+Health assessment: **early, small, and growing.** 105 AI-surface impressions
+across 92 days is close to a standing start in absolute terms. The trend
+underneath it is healthy: the daily rate roughly doubled each month, from 0.23
+in July to 1.26 in August to 2.46 in September. September is a partial month
+(24 days), so compare rates rather than totals. The constraint is not that
+growth is failing, it is that the footprint is concentrated on a handful of
+pages and there is very little of the site for Google to cite.
 
 ### Top five priorities
 
-1. **The site has roughly twelve pages Google is willing to surface, and 62% of
-   all AI-surface impressions land on the homepage.** Growth has stalled because
-   Google has run out of Lynkk pages to cite. This is the ceiling, and it is a
-   content-volume problem, not a technical one. (Finding C1)
+1. **Only twelve URLs have ever been cited in AI surfaces, and 62% of the
+   impressions land on the homepage alone.** The page inventory, not the
+   trajectory, is what caps this. Growth is currently strong, so the return on
+   adding pages is higher now than it will look later. (Finding C1)
 
 2. **Legal pages outrank product pages in AI answers.** `/terms` pulled more
    impressions than `/how-it-works`, `/features/knowledge-graph`,
@@ -124,13 +140,13 @@ data, keyword targeting and cannibalisation checks are guesswork.
 
 ---
 
-### Finding C1: the citable surface is exhausted
+### Finding C1: the cited surface is tiny and concentrated
 
-| Issue | 12 URLs account for 100% of AI-surface impressions, and the homepage takes 72 of 117 (62%) |
+| Issue | Only 12 URLs have been cited in AI surfaces at all, and the homepage takes 72 of 117 (62%) |
 |---|---|
 | **Impact** | High |
-| **Evidence** | `Pages.csv`. Monthly totals: July 7, August 39, September 59. But the last 14 days (34) exactly match the prior 14 (34). A compounding curve went flat in September while the page count stayed fixed. |
-| **Diagnosis** | Impressions grew while Google discovered and indexed the existing pages, then stopped when there was nothing left to discover. Twelve pages cannot sustain growth in a category with hundreds of commercial queries. |
+| **Evidence** | `Pages.csv` lists 12 URLs; the homepage takes 61.5% of the 117 page-level impressions. Consecutive 14-day totals across the window: 0, 5, 11, 19, 34, 34. Monthly impressions per day: July 0.23, August 1.26, September 2.46. |
+| **Diagnosis** | The concentration is the finding. Twelve cited URLs cannot cover a category with hundreds of commercial queries, and one page carrying 62% of the footprint is a single point of failure. The growth trend itself is fine: the daily rate is still climbing sharply month over month. The last two fortnights are flat at 34 each, which is worth watching but is not yet evidence of a plateau. At this volume the expected swing on 34 impressions is roughly plus or minus 6 from chance alone, so a 20% change in the true rate would be invisible. One more fortnight of data will settle it. |
 | **Fix** | Treat page creation as the primary growth lever for the next two quarters. The gap list is in Part 3. |
 | **Priority** | 1 |
 
@@ -151,7 +167,7 @@ content budget, because the fix is completely different.
 
 ### Finding C3: India is the strongest market and is served by one page
 
-| Issue | India is 35% of impressions (37 of 105), more than five times the US (5), and the Hinglish page is the joint second-best page on the site |
+| Issue | India is 35% of impressions (37 of 105), more than seven times the US (5), and the Hinglish page is the joint second-best page on the site |
 |---|---|
 | **Impact** | High (opportunity) |
 | **Evidence** | `Countries.csv`: India 37, Spain 7, UK 7, US 5, Brazil 4, Canada 4, Indonesia 4. `Pages.csv`: `/features/hinglish-transcription` 10, level with `/features/meeting-bot` 10. Independent SERP check confirms real competition for Hinglish and Hindi meeting notes (JotMe, HappyScribe, MeetMinutes, OpenNotetaker, hearlog.ai, 60db.ai, VOMO), which means there is real demand. |
@@ -210,8 +226,8 @@ simply not written down anywhere Google can find it.
 | Issue | The brand SERP is contested by at least five unrelated entities and there is no entity disambiguation |
 |---|---|
 | **Impact** | High |
-| **Evidence** | A search for "Lynkk" returns LYNKK LTD on UK Companies House, a Lagos-based crypto and bill-payment brand also called Lynkk, Instagram @lynkkup, X @LynkkHQ, the musicians Lynkk da Missin and LYNKK, and a Facebook page, alongside lynkk.ai. Separately, Google returned **two different titles** for the lynkk.ai homepage across searches: "Lynkk: AI Meeting Notes & Conversation Intelligence" and "Lynkk: Record any conversation. Get notes, tasks, and answers." |
-| **Diagnosis** | Two problems. Google has no strong entity for Lynkk the software company, so it cannot confidently disambiguate from the namesakes. And title rewriting means Google does not think the declared title answers the query, which is a direct signal to change it. `memory/lynkk-brand.md` already warns against confusion with Lynk, Lynk AI, Linnk AI and Link AI: the namesakes found here (LYNKK LTD, the Nigerian fintech, the musicians) are a different and more literal collision, because they share the exact spelling. |
+| **Evidence** | A search for "Lynkk" returns, as ranked results: LYNKK LTD on UK Companies House, Instagram @lynkkup, X @LynkkHQ, a Facebook page, the musicians Lynkk da Missin (Apple Music, Spotify) and LYNKK (SoundCloud), and lynkk.ai. A crypto and bill-payment brand of the same name, described as Lagos-based, appeared in a result summary rather than as a ranked result, so treat that one as unconfirmed. Separately, two different titles were returned for the lynkk.ai homepage across searches: "Lynkk: AI Meeting Notes & Conversation Intelligence" and "Lynkk: Record any conversation. Get notes, tasks, and answers." |
+| **Diagnosis** | Two problems. Google has no strong entity for Lynkk the software company, so it cannot confidently disambiguate from the namesakes. The two titles have two possible explanations and they need different responses: either Google is rewriting the declared title, which says it does not think that title answers the query, or the title was genuinely changed on the site between crawls and both versions are still cached. Check the live `<title>` before concluding which. `memory/lynkk-brand.md` already warns against confusion with Lynk, Lynk AI, Linnk AI and Link AI: the namesakes found here (LYNKK LTD, the Nigerian fintech, the musicians) are a different and more literal collision, because they share the exact spelling. |
 | **Fix** | Add Organization and SoftwareApplication JSON-LD on the homepage with `name`, `url`, `logo`, `description`, `applicationCategory`, and a `sameAs` array listing every owned profile: X, Instagram, Facebook, LinkedIn, Product Hunt, YouTube, and the Companies House entry if LYNKK LTD is in fact the operating company. Build an `/about` page naming the legal entity, founding year, HQ and founders. Keep one title, and make it the one that survives rewriting. |
 | **Priority** | 1 |
 | **Blocked on** | Company legal name, founding year, HQ, founders, and confirmed social links. All open items in `memory/lynkk-brand.md`. Confirm first whether the X, Instagram and Facebook accounts found are Lynkk's own and not namesakes: putting someone else's profile in `sameAs` actively worsens the disambiguation. |
@@ -238,12 +254,13 @@ Confirmed URLs, from the export: `/`, `/how-it-works`, `/download`, `/terms`,
 The URL structure itself is good: lowercase, hyphenated, readable, logically
 nested, no parameters or session IDs. Keep it.
 
-### Finding C6: the page inventory is missing most of a SaaS site
+### Finding C6: no evidence of the page types this category expects
 
-| Issue | Whole page types that this category expects are not present in any export or SERP result |
+| Issue | Page types that this category expects could not be confirmed to exist |
 |---|---|
-| **Impact** | High |
-| **Evidence** | Nothing resembling `/pricing`, `/blog`, `/about`, `/integrations`, `/security`, or any comparison or alternatives page appeared in 92 days of Search Console data or across nine searches. Absence of evidence, so confirm against the sitemap, but the pattern is consistent. |
+| **Impact** | High if the pages are missing, Medium if they exist but are never cited |
+| **Evidence** | Nothing resembling `/pricing`, `/blog`, `/about`, `/integrations`, `/security`, or any comparison or alternatives page appeared in 92 days of Search Console data or across nine searches. |
+| **Confidence** | **Low, and this is the weakest finding in the report.** The Search Console export lists only pages cited in AI surfaces, so a pricing page could exist and simply never have been quoted in an AI answer. The searches were US-only. **Check the sitemap before acting on this.** If the pages do exist, this finding converts into a much narrower one: they exist but are not being surfaced, which is a quality and linking problem rather than a build problem, and the fix is to improve them rather than to write them. |
 | **Diagnosis** | This maps almost exactly onto the known failure mode for SaaS sites: thin feature pages, no comparison or alternatives pages, no educational content, and a blog that is either missing or disconnected from the product pages. |
 | **Fix** | Build in this order, highest commercial intent first. |
 | **Priority** | 1 |
@@ -295,7 +312,7 @@ nested, no parameters or session IDs. Keep it.
 | Issue | `/features/hinglish-transcription` and `/features/meeting-bot` each earn 10 impressions and each stands alone |
 |---|---|
 | **Impact** | Medium |
-| **Evidence** | `Pages.csv`. These two pages together earn 17% of the site's AI-surface impressions, versus 62% for the homepage and under 4% each for everything else. |
+| **Evidence** | `Pages.csv`. These two pages together earn 17% of the site's AI-surface impressions, versus 62% for the homepage and under 6% each for everything else. |
 | **Diagnosis** | Both sit in genuinely competitive niches with real search demand, confirmed by the independent searches. They are the proven demand signal on this site, and neither has supporting content, internal links from related pages, or a topical cluster. |
 | **Fix** | Build a cluster around each. For meeting bot: per-platform pages (Zoom, Google Meet, Teams), bot versus bot-free capture, how to record without the bot joining. For Hinglish: per-language pages, code-switching explained, India-specific content. Cross-link the cluster into the hub page with descriptive anchor text. |
 | **Priority** | 2 |
@@ -481,3 +498,31 @@ prioritisation) and `.claude/skills/seomator-audit` (the CLI, 373 rules across
 
 Data: `memory/data/gsc-ai-features-2026-09-27/`.
 Findings carried into memory: `memory/lynkk-seo-baseline.md`.
+
+---
+
+## Errata: corrections made 2026-09-28
+
+Re-verified every numeric claim against the source CSVs. Seven corrections,
+listed so anyone who read the first version can see what moved.
+
+| # | Was | Now | Why |
+|---|---|---|---|
+| 1 | "Growth has stalled because Google has run out of Lynkk pages to cite" | "Growth is strong; the footprint is concentrated" | Not supported. Consecutive 14-day totals are 0, 5, 11, 19, 34, 34: five growth periods, one flat. Monthly impressions per day went 0.23, 1.26, 2.46 and is still climbing. One flat fortnight at n=34 is inside the noise, and the original claim inverted the story. |
+| 2 | "12 URLs account for 100% of AI-surface impressions" | "Only 12 URLs have been cited in AI surfaces at all" | `Pages.csv` is headed "Top pages". It is a ranked list, so it cannot establish a 100% share or prove no other URL was cited. |
+| 3 | Finding C6 asserted the missing pages "are not present" | Reframed as "could not be confirmed to exist", with a Low confidence row | The export lists only AI-cited pages, so a pricing page could exist and simply never have been quoted. The original wording asserted a fact not in evidence. |
+| 4 | "more than five times the US" | "more than seven times the US" | 37 divided by 5 is 7.4. |
+| 5 | "under 4% each for everything else" | "under 6% each" | `/terms` is 6 of 117, which is 5.1%. |
+| 6 | Broken links, images and accessibility "15% of the score combined" | 23% | Links 8% plus images 8% plus accessibility 7%. |
+| 7 | Method section listed no limitations | Three limits stated up front | The searches were US-only while India is 35% of impressions; `Pages.csv` is a top-N list; the export covers AI surfaces only, not ordinary Search. |
+
+Also softened: the Lagos crypto namesake is now marked unconfirmed (it came
+from a result summary, not a ranked result), and the two-titles observation now
+gives both explanations rather than assuming Google rewrote the title.
+
+### Still unverified, because the site is unreachable
+
+Every item in Part 5 remains unchecked, and `robots.txt`, `sitemap.xml` and
+`llms.txt` are among them. Outbound web access from this environment is still
+denied for every host. No claim about those files, or about anything requiring
+a page fetch, appears anywhere in this report.

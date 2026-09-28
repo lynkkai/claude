@@ -22,12 +22,19 @@ position, and no Queries.csv. Do not quote these as site-wide traffic numbers.
 | Jul 2026 | 7 impressions, 26 of 31 days at zero |
 | Aug 2026 | 39 impressions, 13 of 31 days at zero |
 | Sep 2026 (to the 24th) | 59 impressions, 2 of 24 days at zero |
-| Last 14 days vs prior 14 | 34 vs 34 (growth flattened in September) |
+| Impressions per day, by month | Jul 0.23, Aug 1.26, Sep 2.46 (still climbing) |
+| Consecutive 14-day totals | 0, 5, 11, 19, 34, 34 (flat for the last two only) |
 | Desktop / Mobile / Tablet | 71 / 32 / 2 (68% / 30% / 2%) |
 | Countries | 34, led by India 37 (35%), Spain 7, UK 7, US 5 |
 
 Page totals sum to 117 while device and country totals sum to 105. Expected
-dimension-aggregation difference in Search Console, not a data error.
+dimension-aggregation difference in Search Console, not a data error: when one
+AI answer cites two pages from the same site, each page records an impression
+while the site records one.
+
+`Pages.csv` is headed "Top pages". It is a ranked list, so it cannot be used to
+prove that a URL was never cited, and it says nothing about pages that rank in
+ordinary Search without being quoted in an AI answer.
 
 ### Pages surfaced in AI features
 
@@ -57,6 +64,9 @@ Not observed in any export or SERP result: `/pricing`, `/blog`, `/about`,
 not proven: verify against the sitemap.
 
 ## SERP observations (2026-09-27, via search, not a crawl)
+
+These searches were **US-only**. India is 35% of Lynkk's impressions, so treat
+everything in this section as a description of the US search landscape.
 
 - Google returns two different titles for the homepage across queries:
   "Lynkk: AI Meeting Notes & Conversation Intelligence" and
