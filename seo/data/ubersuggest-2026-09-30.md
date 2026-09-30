@@ -338,3 +338,20 @@ Brand SERPs (US):
   instagram "AI Meeting Recorder (@tldv.io)" #5, Zoom Marketplace #6, linkedin "tl;dv - AI Meeting Assistant" #7.
 - **granola ai** (2026-09-30): App Store "Granola - AI Meeting Notes" #2, #5, #6, #7; youtube review #4. (granola.ai
   homepage title from web search: "Granola - The AI Notepad for back-to-back meetings".)
+
+## 11. Team-requested keywords (2026-09-30, US)
+
+| Keyword | Latest | 13-mo median | Min | Max | SD | PD | CPC $ | Intent |
+|---|---|---|---|---|---|---|---|---|
+| is it illegal to record a conversation | 1,600 | 1,600 | 1,000 | 3,600 | 47 | 1 | 10.01 | Informational |
+| ai powered personal assistants | 1,900 | 1,300 | 170 | 5,400 | 35 | 1 | 8.88 | Commercial |
+| advanced ai assistant | 14,800 | 880 | 10 | 90,500 | 23 | 1 | 4.97 | Informational |
+| ai notes taker | 27,100 | 27,100 | 18,100 | 40,500 | 34 | 100 | 13.61 | Transactional (same pool as "ai note taker") |
+
+SERPs:
+- **is it illegal to record a conversation** (2026-09-30): guides.sll.texas.gov #2, otter.ai/blog/is-it-illegal-to-record-someone-without-their-permission #4,
+  romanolaw.com #5, washingtonlawhelp.org #6, mwl-law.com PDF #7, jnylaw.com #8, justia.com #9, wikipedia #10, jjkeller.com #11, reddit #13.
+- **ai powered personal assistants** (2026-09-06): simular.ai #2, reddit #3, zapier.com #4, akamai.com #6, kanerika.com #8, vellum.ai #9,
+  otter.ai/blog/ai-personal-assistant-for-work #10, gohub.vc #11.
+- **advanced ai assistant** (2026-09-03): simular.ai #2, reddit #4, zapier.com #5, akamai.com #6, vellum.ai #7, theconversation.com #8,
+  pieces.app #10, runbear.io #11, eesel.ai #14.
