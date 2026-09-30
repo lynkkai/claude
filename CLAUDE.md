@@ -14,3 +14,4 @@ These apply to all Lynkk copy, marketing text, and anything written in this repo
 
 - **Never use em dashes (—) or en dashes (–).** Use a comma, colon, parentheses, or
   split the sentence instead. Use a plain hyphen for ranges and compound words.
+- **Never link to competitors.** No hyperlinks (and no bare URLs) to competitor websites in any Lynkk article, page or copy. Name competitors in plain text only. Cite competitor facts as plain text, for example "Source: Otter pricing page, checked September 30, 2026". External links may only go to neutral authorities (government, legal, standards bodies, research) and never to a competing product.

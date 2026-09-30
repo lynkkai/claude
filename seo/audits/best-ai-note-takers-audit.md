@@ -26,8 +26,9 @@ Checked on 2026-09-30 against the uploaded skill files: `seo-article`, `seo-scor
 | FAQ answers (aeo D3) | 40-60 words, 5-10 questions | 4 of 6 under 40 | **All 6 at 47-53** |
 | FAQ schema sync (aeo D3) | Body = JSON-LD word for word | No schema | **Synced** |
 | Tables on mobile (seo-score S9) | ≤4 columns | 7 columns | **4 and 2 columns** |
-| Link count (aeo D8) | 8-14 total | 22 | **14** |
-| External authority links (seo-score S5) | ≥2 | 0 | **8 vendor sources** |
+| Link count (aeo D8) | 8-14 total | 22 | **11 (all lynkk.ai)** |
+| No competitor links (Lynkk guardrail, overrides S5) | 0 links to competitor sites | 8 vendor links (v3) | **0, checked by `scripts/check_competitor_links.py`** |
+| External authority links (seo-score S5) | ≥2, neutral sources only | 0 | **Open: add 1-2 neutral links (e.g. legal source on consent)** |
 | Dead links (seo-score S11, aeo D8) | 0 links to pages that do not exist | 5 links to unpublished /blog/ posts | **0** |
 | Link to service page (seo-article #6) | Required | Pass | Pass (/features/meeting-bot) |
 | Schema (seo-score S7) | Article, FAQPage, BreadcrumbList, inLanguage | None | **Article, ItemList, FAQPage, BreadcrumbList, en-US** |
@@ -47,7 +48,7 @@ Checked on 2026-09-30 against the uploaded skill files: `seo-article`, `seo-scor
 | Named author + bio URL (seo-score S10, aeo D7) | No author given | Author name, role, bio page |
 | E-E-A-T testing ("How we evaluated") | Tests not run | Test log, meeting count, dates, screenshots |
 | Featured image (seo-score S6) | No image file | 1200x630 image at the path in frontmatter |
-| Link liveness (seo-score S11, hard rule) | Vendor sites blocked from this environment | Check the 8 vendor links; the 6 lynkk.ai links returned 200 in Ubersuggest's crawl |
+| Link liveness (seo-score S11, hard rule) | All 11 links are lynkk.ai pages | All returned HTTP 200 in Ubersuggest's crawl; re-check at publish |
 | Inbound links live (hard gate) | Article not published | Add the 2 planned links at publish and verify |
 | G2 cannibalization via GSC | GSC not connected | Connect GSC, or accept: lynkk.ai ranks for no competing keyword today |
 | G3 depth vs SERP median | Could not fetch competitor articles | Spot-check top listicles; this draft is ~2,600 body words |
@@ -60,3 +61,15 @@ Checked on 2026-09-30 against the uploaded skill files: `seo-article`, `seo-scor
 ## Verdict
 
 On-page rules: **pass**. Publish readiness: **not yet**, until the open items above are filled.
+
+## Fact-check sources for competitor prices (internal only, never link these in the article)
+
+Checked 2026-09-30 via search results restricted to each vendor's own domain:
+- Fathom: fathom.ai/pricing
+- Otter: otter.ai/pricing
+- Fireflies: fireflies.ai/pricing
+- Granola: granola.ai/pricing
+- Jamie: meetjamie.ai/pricing
+- Read AI: read.ai/plans-pricing
+- Zoom AI Companion: news.zoom.com/zoom-ai-companion
+- Microsoft 365 Copilot: microsoft.com/en-us/microsoft-365-copilot/pricing

@@ -41,7 +41,7 @@ Google's guidance asks whether content shows **Experience, Expertise, Authoritat
 - For legal (#28) and healthcare (#29) posts: add a **named reviewer** with the right background (attorney, clinician or compliance specialist) and a "Reviewed by" line.
 
 ### Authoritativeness (show others back it up)
-- Cite primary sources: vendor pricing pages, official help docs, laws/regulations, published studies. Link them.
+- Cite primary sources. **Never hyperlink competitor sites** (vendor pricing pages, help docs, product pages): name the source in plain text with the date checked. Link only neutral authorities (laws, regulators, standards bodies, independent studies).
 - Add original data where possible (your own accuracy test, time saved, survey of your users).
 - Internal links: every post links to at least 3 related posts and one Lynkk feature page.
 - Earn links: pitch the original data (for example the accuracy test in #5) to newsletters and communities.

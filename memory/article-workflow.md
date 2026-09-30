@@ -12,6 +12,7 @@ The writer skill is installed as a project skill at `.claude/skills/seo-article/
 6. Save to `articles/<slug>.md`. Do not publish; publishing needs explicit approval.
 
 ## Lynkk-specific rules
+- **Never link to competitors** (no hyperlinks or bare URLs to competitor sites). Competitor facts are cited in plain text with the date checked; URLs for fact-checking go only in the internal handoff note.
 - Unconfirmed product facts are written as `[CONFIRM: ...]`.
 - Disclosure box + "How we tested" on listicles and comparisons.
 - Competitor prices: dated, linked to the vendor page, and marked for re-check before publish.
@@ -22,4 +23,4 @@ The writer skill is installed as a project skill at `.claude/skills/seo-article/
 - [ ] #2 Best Free AI Note Takers in the USA for 2026 (primary: free ai note taker)
 
 ## Audit step (required for every article)
-After drafting, run the mechanical audit (H1 13-15 words, meta 150-160, density 0.5-1.5%, 200-char clip has a number, sections ≤300 words, paragraphs ≤80 words, FAQ 40-60 words and schema synced, tables ≤4 columns, 8-14 links incl. ≥2 external, no links to unpublished pages, schema present, no dashes, no AI-tell words) and save the report to `seo/audits/<slug>-audit.md`.
+After drafting, run the mechanical audit (H1 13-15 words, meta 150-160, density 0.5-1.5%, 200-char clip has a number, sections ≤300 words, paragraphs ≤80 words, FAQ 40-60 words and schema synced, tables ≤4 columns, 8-14 links, zero competitor links (run `python3 scripts/check_competitor_links.py articles/<slug>.md`), external links only to neutral authorities, no links to unpublished pages, schema present, no dashes, no AI-tell words) and save the report to `seo/audits/<slug>-audit.md`.

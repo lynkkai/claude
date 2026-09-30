@@ -101,7 +101,7 @@ Lynkk helps at all 3 stages of a meeting, not only after it ends.
 
 - **Before:** it shows what was discussed last time, what is still open and who said what.
 - **During:** it joins the call and speaks when you ask. Request past context or a document and hear the answer live.
-- **After:** within about 30 seconds you get structured notes, action items with owners, CRM updates and Jira tickets.
+- **After:** within about 30 seconds you get structured notes, [action items with owners](https://lynkk.ai/features/action-items), CRM updates and Jira tickets.
 
 ### Which meetings can Lynkk record?
 
@@ -116,12 +116,12 @@ Lynkk records 5 platforms plus in-person meetings, with speaker labels on every 
 
 Lynkk turns every meeting into 1 searchable memory. Its [connected knowledge graph](https://lynkk.ai/features/knowledge-graph) links decisions, commitments and people across all your calls. Ask a question in plain English and get a cited answer that links to the exact conversation.
 
-- **Mac app:** detects calls, records both audio channels and adds push-to-talk dictation anywhere.
-- **Slack app:** ask about your meetings in any channel.
-- **Integrations:** calendar, Jira, Calendly, Cal.com, CRM and anything else through MCP.
+- **Mac app:** detects calls, records both audio channels and adds [push-to-talk dictation](https://lynkk.ai/features/dictation) anywhere.
+- **Slack app:** [ask about your meetings in any Slack channel](https://lynkk.ai/slack).
+- **Integrations:** calendar, Jira, Calendly, Cal.com, CRM and anything else through MCP. See [all Lynkk integrations](https://lynkk.ai/integrations).
 - **Privacy:** AES-256 encryption, GDPR compliance, a region you choose, and no training on your conversations.
 
-**Pricing:** start free. Pro is $15 a month, and Workspaces give the whole team Pro features. See [Lynkk pricing](https://lynkk.ai/pricing). [CONFIRM: free-plan limits, and whether $15 is per user and billed monthly or annually]
+**Pricing:** start free. Pro is $15 a month, and [Workspaces](https://lynkk.ai/features/workspaces) give the whole team Pro features. See [Lynkk pricing](https://lynkk.ai/pricing). [CONFIRM: free-plan limits, and whether $15 is per user and billed monthly or annually]
 
 ## 2. Fathom: best free recorder for video calls
 
@@ -134,7 +134,7 @@ Fathom's free plan includes unlimited recordings, transcripts and AI summaries, 
 
 **Where Lynkk goes further:** Fathom works after the meeting. Lynkk also briefs you before the call, answers live during it, and records in-person meetings, Slack and WhatsApp.
 
-**Pricing (checked September 30, 2026):** free; paid tiers from $15 to $34 per user per month. New Team and Business plans need a paid seat for every member. Source: [Fathom pricing](https://www.fathom.ai/pricing).
+**Pricing (checked September 30, 2026):** free; paid tiers from $15 to $34 per user per month. New Team and Business plans need a paid seat for every member. Source: Fathom pricing page, checked September 30, 2026.
 
 ## 3. Otter: best for live transcripts
 
@@ -147,7 +147,7 @@ Otter's free plan includes 300 transcription minutes a month, and Pro costs $8.3
 
 **Where Lynkk goes further:** Otter transcribes, while Lynkk acts. Lynkk turns meetings into CRM updates and Jira tickets, answers by voice during the call, and searches every past meeting with cited answers.
 
-**Pricing (checked September 30, 2026):** Basic free (300 min/month); Pro $8.33/user/month annual; Business $19.99/user/month annual; Enterprise custom. Source: [Otter pricing](https://otter.ai/pricing).
+**Pricing (checked September 30, 2026):** Basic free (300 min/month); Pro $8.33/user/month annual; Business $19.99/user/month annual; Enterprise custom. Source: Otter pricing page, checked September 30, 2026.
 
 ## 4. Fireflies: best for sales call libraries
 
@@ -159,7 +159,7 @@ Fireflies includes unlimited transcription on all 4 plans, and Pro costs $10 per
 
 **Where Lynkk goes further:** Lynkk adds pre-meeting context, live voice answers, in-person recording and 15+ languages. Fireflies caps recordings at 2 hours on Free and Pro.
 
-**Pricing (checked September 30, 2026):** free; Pro $10/seat/month annual; Business $19/seat/month annual; Enterprise $39/seat/month. Source: [Fireflies pricing](https://fireflies.ai/pricing).
+**Pricing (checked September 30, 2026):** free; Pro $10/seat/month annual; Business $19/seat/month annual; Enterprise $39/seat/month. Source: Fireflies pricing page, checked September 30, 2026.
 
 ## 5. Granola: best personal AI notepad
 
@@ -171,7 +171,7 @@ Granola records your device's audio without a bot and runs on 4 platforms: Mac, 
 
 **Where Lynkk goes further:** Granola is a personal notepad. Lynkk builds shared team memory, with cited answers across every meeting, Jira tickets, CRM updates and a live voice assistant.
 
-**Pricing (checked September 30, 2026):** Basic free (30-day history); Business $14/user/month; Enterprise from $35/user/month. Source: [Granola pricing](https://www.granola.ai/pricing).
+**Pricing (checked September 30, 2026):** Basic free (30-day history); Business $14/user/month; Enterprise from $35/user/month. Source: Granola pricing page, checked September 30, 2026.
 
 ## 6. Jamie: best EU-hosted bot-free notes
 
@@ -183,7 +183,7 @@ Jamie's free plan covers 10 meetings a month of up to 30 minutes each, and paid 
 
 **Where Lynkk goes further:** Lynkk lets you pick your processing region, records in-person meetings, and adds live voice answers plus Jira and CRM automation.
 
-**Pricing (checked September 30, 2026):** free; Plus €25/month; Pro €47/month; Team €39/seat/month. Source: [Jamie pricing](https://www.meetjamie.ai/pricing).
+**Pricing (checked September 30, 2026):** free; Plus €25/month; Pro €47/month; Team €39/seat/month. Source: Jamie pricing page, checked September 30, 2026.
 
 ## 7. Read AI: best for meeting analytics
 
@@ -195,7 +195,7 @@ Read AI's free plan covers 5 meetings a month, and Pro starts at $15 per user pe
 
 **Where Lynkk goes further:** Lynkk focuses on what happens next: owned action items, CRM updates, Jira tickets and cited answers from every past meeting.
 
-**Pricing (checked September 30, 2026):** free (5 meetings/month); Pro from $15/user/month annual; Enterprise on request. Source: [Read AI pricing](https://www.read.ai/plans-pricing).
+**Pricing (checked September 30, 2026):** free (5 meetings/month); Pro from $15/user/month annual; Enterprise on request. Source: Read AI pricing page, checked September 30, 2026.
 
 ## 8. Zoom AI Companion: best for Zoom-only teams
 
@@ -207,7 +207,7 @@ Zoom AI Companion costs $0 extra with paid Zoom Workplace plans and sends hosts 
 
 **Where Lynkk goes further:** Lynkk covers Zoom plus Teams, Google Meet, Slack, WhatsApp and in-person meetings, all in 1 searchable memory.
 
-**Pricing (checked September 30, 2026):** included with paid Zoom Workplace plans. Source: [Zoom announcement](https://news.zoom.com/zoom-ai-companion/).
+**Pricing (checked September 30, 2026):** included with paid Zoom Workplace plans. Source: Zoom AI Companion announcement, checked September 30, 2026.
 
 ## 9. Microsoft 365 Copilot: best for Microsoft 365 companies
 
@@ -218,7 +218,7 @@ Microsoft 365 Copilot costs $30 per user per month as an annual add-on, and it n
 
 **Where Lynkk goes further:** Lynkk starts free, Pro is $15 a month, and it covers Teams, Zoom, Google Meet, Slack, WhatsApp and in-person meetings with Jira and CRM follow-up.
 
-**Pricing (checked September 30, 2026):** $30/user/month add-on, annual commitment. Source: [Microsoft 365 Copilot pricing](https://www.microsoft.com/en-us/microsoft-365-copilot/pricing).
+**Pricing (checked September 30, 2026):** $30/user/month add-on, annual commitment. Source: Microsoft 365 Copilot pricing page, checked September 30, 2026.
 
 ## Which AI note taker is best for meetings?
 
@@ -456,7 +456,8 @@ Most AI note takers stop at a summary 1-2 minutes after the call. Lynkk prepares
 
 **Must do before publishing:**
 1. Fill every `[CONFIRM: ...]`: author, bio URL, test log and screenshots, featured image, Lynkk free-plan limits and Pro billing terms, Google Workspace eligibility, a legal source on consent laws, Reddit links, canonical URL.
-2. Verify every link is live (8 vendor links and 7 lynkk.ai links). Vendor sites are blocked from this environment, so liveness could not be checked here. The 7 lynkk.ai URLs returned HTTP 200 in Ubersuggest's crawl.
+2. Verify every link is live. All links point to lynkk.ai pages that returned HTTP 200 in Ubersuggest's crawl. No competitor links (guardrail: `python3 scripts/check_competitor_links.py`). Fact-check URLs for competitor prices are in `seo/audits/best-ai-note-takers-audit.md`, not in the article.
+2b. Optional: add 1-2 neutral authority links (for example a government or legal source on recording consent) where the `[CONFIRM]` placeholder sits.
 3. Re-check competitor prices on the vendor pages.
 4. Add the 2 inbound links listed in `inbound_links_planned` and confirm they are live.
 5. When sibling posts go live (free AI note takers, Zoom recorders, Teams, AI voice recorders, Google Meet), add links to them.
