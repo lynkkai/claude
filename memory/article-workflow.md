@@ -34,7 +34,18 @@ Batch 1 (2026-09-30): 11 drafts written, all pass `scripts/audit_article.py`. Su
 - [x] #10 zoom-ai-companion-alternatives
 - [x] #16 how-to-transcribe-zoom-meetings
 - [ ] #11-#15 Lynkk vs posts: on hold, they overlap existing lynkk.ai/compare pages (decide: update compare pages instead?)
-- [ ] Next batch: #17 dictation on Mac, #18 Word dictation, #19 voice memos, #20 Google Meet, #21-#30 use cases
+Batch 2 (2026-09-30): 10 drafts (#17-#26) written, all pass the audit. Summary: `seo/audits/batch-2-summary.md`.
+- [x] #17 dictation-on-mac
+- [x] #18 dictate-in-microsoft-word
+- [x] #19 voice-memo-transcription
+- [x] #20 google-meet-transcript
+- [x] #21 sales-conversation-intelligence
+- [x] #22 recruiting-interview-transcription
+- [x] #23 meeting-minutes-to-jira
+- [x] #24 founders-meeting-notes
+- [x] #25 meeting-knowledge-management
+- [x] #26 daily-standup-meeting
+- [ ] Next batch: #27 one-on-one meetings, #28 legal transcription, #29 medical transcription, #30 meeting minutes sample
 
 ## Tools for every article
 - `python3 scripts/build_schema.py articles/<slug>.md` builds Article/ItemList/FAQPage/Breadcrumb schema from the article (keeps FAQ schema in sync).
