@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lynkk search result preview</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',system-ui,sans-serif;background:#ffffff;color:#16181d}
+a{color:#1a0dab}a:hover{color:#0b0770}
+</style>
+</helmet>
+<div style="width: 760px; height: 240px; box-sizing: border-box; padding: 32px 40px; display: flex; flex-direction: column; gap: 10px; background: #ffffff">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #5b5f6a">How the homepage appears in search results</div>
+<div style="display: flex; align-items: center; gap: 12px; margin-top: 6px">
+<div style="width: 28px; height: 28px; border-radius: 50%; background: #e8eafb; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; color: #3346d3">L</div>
+<div style="display: flex; flex-direction: column">
+<div style="font-size: 14px; color: #16181d">Lynkk</div>
+<div style="font-size: 12px; color: #4d5156">https://lynkk.ai</div>
+</div>
+</div>
+<a href="#" style="font-size: 20px; line-height: 1.3; text-decoration: none">Lynkk: AI Note Taker &amp; Meeting Assistant for Every Call</a>
+<p style="margin: 0; font-size: 14px; line-height: 1.55; color: #4d5156">Lynkk is the AI note taker and meeting assistant for online and in-person meetings. Get notes, action items and answers in 30 seconds. Start free.</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":760,"height":240}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>
