@@ -285,3 +285,56 @@ SERPs:
 - **hinglish transcription** (IN, 2026-09-30): facebook group post #1, desisubtitles.com blog #3, x.com post #4
   ("why can't someone make a hinglish note taker?"), gistly.ai blog #5, linkedin post #6, peerlist.io #7,
   rightblogger.com tool #8, castmagic.io/tools/hindi-transcription #10, fiverr #11, facebook group #12.
+
+## 10. Homepage research (fourth pull, 2026-09-30)
+
+Lynkk homepage URL-mode audit (`site_audit`, path "/"): score 100, 0 issues (no missing H1, no empty meta
+description, no low word count, no slow load).
+
+Keyword overviews (US unless Global):
+
+| Keyword | Loc | Vol | SD | PD | CPC $ | Intent |
+|---|---|---|---|---|---|---|
+| ai powered meeting assistant | US | 40,500 | 50 | 1 | 2.49 | Commercial |
+| ai notes taker | US | 27,100 | 34 | 100 | 13.61 | Transactional |
+| meeting notetaker | US | 880 | 46 | 98 | 19.25 | Informational |
+| ai meeting recorder | US | 480 | 37 | 100 | 13.22 | Transactional |
+| ai meeting agent | US | 50 | 60 | 22 | 18.53 | Informational |
+| free ai meeting notes | US | 40 | 37 | 77 | 13.97 | Informational |
+| offline ai note taker | US | 10 | 36 | 100 | 3.09 | |
+| voice ai meeting assistant | US | 0 | 4 | 1 | 0 | |
+| lynkk | Global | 170 | null | 1 | 0 | |
+| lynkk ai | Global | 0 | null | 1 | 0 | |
+| lynk ai | US | 30 | 15 | 10 | 0 | Navigational |
+
+"ai powered meeting assistant" monthly: 8,100 (2025-08), 5,400, 9,900, 18,100, 12,100, 18,100, 60,500,
+90,500 (2026-03), 60,500, 74,000, 90,500 (2026-06), 74,000, 40,500 (2026-08).
+"lynkk" monthly (Global): 210 (2025-09), 260, 210, 210, 260 (2026-01), 170, 210, 140, 140, 90, 70, 90 (2026-08).
+
+Competitor homepage ranking keywords (`page_keywords`, US), top rows:
+- otter.ai/: otter ai transcription 4,400 (#1), ai powered meeting assistant 40,500 (#6), notetakers 1,900 (#2),
+  otter app 1,900 (#2), what is otter 1,900 (#2), meeting notetaker 880 (#1), meeting assistant 4,400 (#3),
+  otter ai meeting notes 720 (#1), record meeting notes 390 (#2), otter note taker 320 (#1), ai meeting assistant 4,400 (#6).
+- read.ai/: read 301,000 (#2), ai powered meeting assistant 40,500 (#2), ai notes taker 27,100 (#4),
+  meeting assistant 4,400 (#2), ai notetaker 2,900 (#2), ai meeting assistant 4,400 (#3), meeting notes ai 590 (#1),
+  meeting ai 1,900 (#3), ai powered meeting notes 260 (#2).
+- fireflies.ai/: fireflies ai notetaker 4,400 (#2), fireflies.ai notetaker 4,400 (#2), fireflies notetaker 1,900 (#2),
+  fireflies note taker 1,900 (#2), fireflies app 1,300 (#2), what is fireflies 1,000 (#2), meeting assistant 4,400 (#7).
+- granola.ai/: granola app 4,400 (#2), granola note taker 1,600 (#1), granola ai notes 1,600 (#1), granola download 1,300 (#1),
+  what is granola ai 590 (#2), granola ai note taking app 480 (#1).
+- fathom.ai/: fathom 90,500 (#2), fathom note taker 8,100 (#1), fathom ai note taker 5,400 (#1), fathom ai notetaker 5,400 (#1),
+  fathom video 1,900 (#1), fathom ai meeting assistant 260 (#1).
+- tldv.io/: tldv 2,400 (#1), tl dv ai notetaker 170 (#1), tldv note taker 170 (#1), what is tl dv 90 (#2).
+- krisp.ai/: krisp.ai 2,900 (#1), krisp noise suppression 1,000 (#1), krisp noise cancellation 590 (#1) (homepage is noise-cancellation focused).
+
+Brand SERPs (US):
+- **lynkk** (2026-09-30): lynkk.ai #1 ("Lynkk: AI Meeting Notes & Conversation Intelligence"), lynk.id #2 (DA 80),
+  chromewebstore.google.com/detail/lynkk/dmnbcgdjlekmcllcobbdpfoibchblecl #3, x.com/LynkkHQ #4, music.youtube.com "Lynkk" #5,
+  lynkk.in #6 ("Lynkk - Stop Losing Users. Start Recovering Revenue."), instagram.com/lynkkup (Bangalore) #7, lynkk.it #8,
+  lynk.id/login #9, lynkco.com #10.
+- **fathom ai note taker** (2026-09-04): fathom.ai/ #1 "Fathom AI Notetaker - Never Take Notes Again", reddit #3,
+  Chrome Web Store #4, youtube #6, Zoom Marketplace #8.
+- **tldv** (2026-09-06): tldv.io/ #1 "tl;dv - AI Meeting Notetaker for Zoom, Google Meet & Teams", App Store #3,
+  instagram "AI Meeting Recorder (@tldv.io)" #5, Zoom Marketplace #6, linkedin "tl;dv - AI Meeting Assistant" #7.
+- **granola ai** (2026-09-30): App Store "Granola - AI Meeting Notes" #2, #5, #6, #7; youtube review #4. (granola.ai
+  homepage title from web search: "Granola - The AI Notepad for back-to-back meetings".)
