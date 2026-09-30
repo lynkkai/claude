@@ -18,5 +18,8 @@ The writer skill is installed as a project skill at `.claude/skills/seo-article/
 - Each article needs 1-2 inbound internal links from existing lynkk.ai pages at publish time.
 
 ## Progress
-- [x] #1 Best AI Note Takers in the USA (2026) (primary: ai note taker): draft at `articles/best-ai-note-takers.md`, needs [CONFIRM] items filled
+- [x] #1 Best AI Note Takers (primary: ai note taker): draft v3 at `articles/best-ai-note-takers.md`, passed rule audit `seo/audits/best-ai-note-takers-audit.md`; needs [CONFIRM] items filled
 - [ ] #2 Best Free AI Note Takers in the USA for 2026 (primary: free ai note taker)
+
+## Audit step (required for every article)
+After drafting, run the mechanical audit (H1 13-15 words, meta 150-160, density 0.5-1.5%, 200-char clip has a number, sections ≤300 words, paragraphs ≤80 words, FAQ 40-60 words and schema synced, tables ≤4 columns, 8-14 links incl. ≥2 external, no links to unpublished pages, schema present, no dashes, no AI-tell words) and save the report to `seo/audits/<slug>-audit.md`.
