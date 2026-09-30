@@ -13,6 +13,7 @@ The writer skill is installed as a project skill at `.claude/skills/seo-article/
 
 ## Lynkk-specific rules
 - **Never link to competitors** (no hyperlinks or bare URLs to competitor sites). Competitor facts are cited in plain text with the date checked. No competitor URLs anywhere in the repo, including audit and handoff notes. Chat replies to the team must not include competitor links either.
+- External authority links: every article needs at least 2, and they must go to official government, legislative or standards sites (for example .gov, uscode.house.gov, state legislature sites, nist.gov, eur-lex.europa.eu). Confirm each page exists (search restricted to the official domain) before adding it, and click-test at publish.
 - Unconfirmed product facts are written as `[CONFIRM: ...]`.
 - Disclosure box + "How we tested" on listicles and comparisons.
 - Competitor prices: dated, cited in plain text (never linked), and marked for re-check before publish.
@@ -23,4 +24,4 @@ The writer skill is installed as a project skill at `.claude/skills/seo-article/
 - [ ] #2 Best Free AI Note Takers in the USA for 2026 (primary: free ai note taker)
 
 ## Audit step (required for every article)
-After drafting, run the mechanical audit (H1 13-15 words, meta 150-160, density 0.5-1.5%, 200-char clip has a number, sections ≤300 words, paragraphs ≤80 words, FAQ 40-60 words and schema synced, tables ≤4 columns, 8-14 links, zero competitor links (run `python3 scripts/check_competitor_links.py articles/<slug>.md`), external links only to neutral authorities, no links to unpublished pages, schema present, no dashes, no AI-tell words) and save the report to `seo/audits/<slug>-audit.md`.
+After drafting, run the mechanical audit (H1 13-15 words, meta 150-160, density 0.5-1.5%, 200-char clip has a number, sections ≤300 words, paragraphs ≤80 words, FAQ 40-60 words and schema synced, tables ≤4 columns, 8-14 links, zero competitor links (run `python3 scripts/check_competitor_links.py articles/<slug>.md`), at least 2 external links to verified government or standards sites, no links to unpublished pages, schema present, no dashes, no AI-tell words) and save the report to `seo/audits/<slug>-audit.md`.

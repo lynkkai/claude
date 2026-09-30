@@ -121,7 +121,7 @@ Lynkk turns every meeting into 1 searchable memory. Its [connected knowledge gra
 - **Integrations:** calendar, Jira, Calendly, Cal.com, CRM and anything else through MCP. See [all Lynkk integrations](https://lynkk.ai/integrations).
 - **Privacy:** AES-256 encryption, GDPR compliance, a region you choose, and no training on your conversations.
 
-**Pricing:** start free. Pro is $15 a month, and [Workspaces](https://lynkk.ai/features/workspaces) give the whole team Pro features. See [Lynkk pricing](https://lynkk.ai/pricing). [CONFIRM: free-plan limits, and whether $15 is per user and billed monthly or annually]
+**Pricing:** start free. Pro is $15 a month, and Workspaces give the whole team Pro features. See [Lynkk pricing](https://lynkk.ai/pricing). [CONFIRM: free-plan limits, and whether $15 is per user and billed monthly or annually]
 
 ## 2. Fathom: best free recorder for video calls
 
@@ -246,9 +246,11 @@ Yes, at least 3 tools here record face-to-face meetings, and Lynkk is built for 
 
 ## Are AI note takers safe to use at work?
 
-AI note takers are safe when the vendor uses strong encryption, lets you control where data is processed and follows privacy law. Lynkk uses AES-256 encryption and is GDPR compliant. It never trains models on your conversations, and it pins your workspace to the region you choose. Details are on the [Lynkk security page](https://lynkk.ai/security).
+AI note takers are safe when the vendor uses strong encryption, lets you control where data is processed and follows privacy law. Lynkk encrypts data with AES-256, the strongest key size in the [NIST Advanced Encryption Standard (FIPS 197)](https://csrc.nist.gov/pubs/fips/197/final), and complies with the [EU General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng). It never trains models on your conversations, and it pins your workspace to the region you choose. Details are on the [Lynkk security page](https://lynkk.ai/security).
 
-Recording laws also matter in the US. Some states require every participant to consent before a call is recorded, so announce your AI note taker at the start of each meeting. [CONFIRM: link to a reputable legal source on state recording consent laws]
+Recording laws also matter in the US. Federal law ([18 U.S.C. § 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511)) allows recording when 1 party to the call consents, but some states require every participant to agree. California, for example, requires the consent of all parties to record a confidential conversation under [California Penal Code § 632](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=632). The simple habit: announce your AI note taker at the start of every meeting.
+
+*This is general information, not legal advice.*
 
 ## What do Reddit users say about AI note takers?
 
@@ -457,7 +459,7 @@ Most AI note takers stop at a summary 1-2 minutes after the call. Lynkk prepares
 **Must do before publishing:**
 1. Fill every `[CONFIRM: ...]`: author, bio URL, test log and screenshots, featured image, Lynkk free-plan limits and Pro billing terms, Google Workspace eligibility, a legal source on consent laws, Reddit links, canonical URL.
 2. Verify every link is live. All links point to lynkk.ai pages that returned HTTP 200 in Ubersuggest's crawl. No competitor links (guardrail: `python3 scripts/check_competitor_links.py`). Fact-check URLs for competitor prices are in `seo/audits/best-ai-note-takers-audit.md`, not in the article.
-2b. Optional: add 1-2 neutral authority links (for example a government or legal source on recording consent) where the `[CONFIRM]` placeholder sits.
+2b. 4 external authority links added (all official government or standards sources, confirmed in search indexes on 2026-09-30): uscode.house.gov (18 U.S.C. 2511), leginfo.legislature.ca.gov (Cal. Penal Code 632), csrc.nist.gov (FIPS 197 AES), eur-lex.europa.eu (GDPR). Re-verify each loads at publish.
 3. Re-check competitor prices on the vendor pages.
 4. Add the 2 inbound links listed in `inbound_links_planned` and confirm they are live.
 5. When sibling posts go live (free AI note takers, Zoom recorders, Teams, AI voice recorders, Google Meet), add links to them.

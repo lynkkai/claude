@@ -146,6 +146,10 @@ Produce a single `.md` with frontmatter: `title`, `meta_title`, `meta_descriptio
 
 No hyperlink, bare URL or schema URL in a Lynkk article may point to a competitor's website (Otter, Fireflies, Fathom, Granola, Jamie, Read AI, Plaud, Pocket, tl;dv, Krisp, Tactiq, Notta, Gong, Zoom, Microsoft, Google product pages, or any other tool we compare against). Competitor names appear as plain text only. Competitor facts are cited as plain text ("Source: Fireflies pricing page, checked <date>"), with no URL anywhere (not in handoff notes, audits or chat replies either). External links, when needed for authority, go only to neutral sources (government, legal, standards bodies, independent research). Any competitor link found in a draft is a CRITICAL fail: remove it before scoring. This overrides the generic "2-3 external authority links" guidance where the only available source would be a competitor.
 
+## ⛔ HARD RULE (Lynkk): at least 2 verified government or standards links
+
+External authority links: every article needs at least 2, and they must go to official government, legislative or standards sites (for example .gov, uscode.house.gov, state legislature sites, nist.gov, eur-lex.europa.eu). Confirm each page exists (search restricted to the official domain) before adding it, and click-test at publish. Missing or unverified authority links are a fail, not a nice-to-have.
+
 ## ➕ Keyword expansion "bypass" (Lynkk rule)
 
 The brief's keyword list is the floor, not the ceiling. While outlining or drafting, whenever a sub-topic, H2 or FAQ suggests a search phrase that is NOT already in the brief:

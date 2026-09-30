@@ -26,9 +26,9 @@ Checked on 2026-09-30 against the uploaded skill files: `seo-article`, `seo-scor
 | FAQ answers (aeo D3) | 40-60 words, 5-10 questions | 4 of 6 under 40 | **All 6 at 47-53** |
 | FAQ schema sync (aeo D3) | Body = JSON-LD word for word | No schema | **Synced** |
 | Tables on mobile (seo-score S9) | ≤4 columns | 7 columns | **4 and 2 columns** |
-| Link count (aeo D8) | 8-14 total | 22 | **11 (all lynkk.ai)** |
+| Link count (aeo D8) | 8-14 total | 22 | **14 (10 lynkk.ai + 4 government/standards)** |
 | No competitor links (Lynkk guardrail, overrides S5) | 0 links to competitor sites | 8 vendor links (v3) | **0, checked by `scripts/check_competitor_links.py`** |
-| External authority links (seo-score S5) | ≥2, neutral sources only | 0 | **Open: add 1-2 neutral links (e.g. legal source on consent)** |
+| External authority links (seo-score S5) | ≥2, official government or standards sources only | 0 | **4: uscode.house.gov (18 U.S.C. § 2511), leginfo.legislature.ca.gov (Cal. Penal Code § 632), csrc.nist.gov (FIPS 197), eur-lex.europa.eu (GDPR)** |
 | Dead links (seo-score S11, aeo D8) | 0 links to pages that do not exist | 5 links to unpublished /blog/ posts | **0** |
 | Link to service page (seo-article #6) | Required | Pass | Pass (/features/meeting-bot) |
 | Schema (seo-score S7) | Article, FAQPage, BreadcrumbList, inLanguage | None | **Article, ItemList, FAQPage, BreadcrumbList, en-US** |
@@ -48,7 +48,7 @@ Checked on 2026-09-30 against the uploaded skill files: `seo-article`, `seo-scor
 | Named author + bio URL (seo-score S10, aeo D7) | No author given | Author name, role, bio page |
 | E-E-A-T testing ("How we evaluated") | Tests not run | Test log, meeting count, dates, screenshots |
 | Featured image (seo-score S6) | No image file | 1200x630 image at the path in frontmatter |
-| Link liveness (seo-score S11, hard rule) | All 11 links are lynkk.ai pages | All returned HTTP 200 in Ubersuggest's crawl; re-check at publish |
+| Link liveness (seo-score S11, hard rule) | 10 lynkk.ai + 4 official sources | lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; the 4 official pages are confirmed in search indexes on their official domains. Direct fetch is blocked here, so click-test all 14 at publish |
 | Inbound links live (hard gate) | Article not published | Add the 2 planned links at publish and verify |
 | G2 cannibalization via GSC | GSC not connected | Connect GSC, or accept: lynkk.ai ranks for no competing keyword today |
 | G3 depth vs SERP median | Could not fetch competitor articles | Spot-check top listicles; this draft is ~2,600 body words |
@@ -56,7 +56,7 @@ Checked on 2026-09-30 against the uploaded skill files: `seo-article`, `seo-scor
 | Named statistic every 200 words (aeo D5) | 8 sourced vendor facts; target ~13 | Add original test data once tests run |
 | External humanizer + humanize-verify script | Script path is on the original author's machine | Self-edited for plain wording; run your humanizer if you use one |
 | Lynkk free-plan limits and Pro billing terms | Not on crawled page titles | Confirm from /pricing |
-| Legal source on consent laws, Reddit links, Gemini plan eligibility | Not fetched | Add links |
+| Reddit links, Gemini plan eligibility | Not fetched | Add |
 
 ## Verdict
 
