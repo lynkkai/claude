@@ -13,7 +13,7 @@ def build(path):
     s = open(path, encoding="utf-8").read()
     s = re.sub(r'\n?<script type="application/ld\+json">.*?</script>\n?', "\n", s, flags=re.S)
     fm = s.split("---\n", 2)[1]
-    body = s.split("---\n", 2)[2]
+    body = re.sub(r"<!-- WRITER-NOTES:START -->.*?<!-- WRITER-NOTES:END -->", "", s.split("---\n", 2)[2], flags=re.S)
 
     def field(k):
         m = re.search(rf'^{k}: "?(.*?)"?\s*(#.*)?$', fm, re.M)

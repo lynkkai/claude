@@ -14,7 +14,8 @@ The writer skill is installed as a project skill at `.claude/skills/seo-article/
 ## Lynkk-specific rules
 - **Never link to competitors** (no hyperlinks or bare URLs to competitor sites). Competitor facts are cited in plain text with the date checked. No competitor URLs anywhere in the repo, including audit and handoff notes. Chat replies to the team must not include competitor links either.
 - External authority links: every article needs at least 2, and they must go to official government, legislative or standards sites (for example .gov, uscode.house.gov, state legislature sites, nist.gov, eur-lex.europa.eu). Confirm each page exists (search restricted to the official domain) before adding it, and click-test at publish.
-- Never put placeholders such as [CONFIRM], [TODO] or [TBD] in article text. If a fact is not confirmed, leave it out or state only what is verified; list open items in the internal handoff note and the audit report.
+- Never put placeholders such as [CONFIRM], [TODO] or [TBD] in article text. If a fact is not confirmed, leave it out or state only what is verified; list open items in the WRITER-NOTES block and the audit report.
+- **Internal notes go at the top of the file**, right after the frontmatter, between `<!-- WRITER-NOTES:START -->` and `<!-- WRITER-NOTES:END -->`, headed "INTERNAL NOTES FOR CONTENT WRITERS". Sections: 1. Author and images, 2. Facts to confirm (per section, using current headings), 3. Publishing checklist. The audit and schema scripts skip this block; content writers delete it before publishing. No handoff note at the bottom.
 - Disclosure box + "How we tested" on listicles and comparisons.
 - Competitor prices: dated, cited in plain text (never linked), and marked for re-check before publish.
 - Each article needs 1-2 inbound internal links from existing lynkk.ai pages at publish time.
