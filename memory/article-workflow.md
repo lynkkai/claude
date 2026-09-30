@@ -12,10 +12,10 @@ The writer skill is installed as a project skill at `.claude/skills/seo-article/
 6. Save to `articles/<slug>.md`. Do not publish; publishing needs explicit approval.
 
 ## Lynkk-specific rules
-- **Never link to competitors** (no hyperlinks or bare URLs to competitor sites). Competitor facts are cited in plain text with the date checked; URLs for fact-checking go only in the internal handoff note.
+- **Never link to competitors** (no hyperlinks or bare URLs to competitor sites). Competitor facts are cited in plain text with the date checked. No competitor URLs anywhere in the repo, including audit and handoff notes. Chat replies to the team must not include competitor links either.
 - Unconfirmed product facts are written as `[CONFIRM: ...]`.
 - Disclosure box + "How we tested" on listicles and comparisons.
-- Competitor prices: dated, linked to the vendor page, and marked for re-check before publish.
+- Competitor prices: dated, cited in plain text (never linked), and marked for re-check before publish.
 - Each article needs 1-2 inbound internal links from existing lynkk.ai pages at publish time.
 
 ## Progress

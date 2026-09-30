@@ -62,14 +62,6 @@ Checked on 2026-09-30 against the uploaded skill files: `seo-article`, `seo-scor
 
 On-page rules: **pass**. Publish readiness: **not yet**, until the open items above are filled.
 
-## Fact-check sources for competitor prices (internal only, never link these in the article)
+## Fact-check sources for competitor prices (internal only)
 
-Checked 2026-09-30 via search results restricted to each vendor's own domain:
-- Fathom: fathom.ai/pricing
-- Otter: otter.ai/pricing
-- Fireflies: fireflies.ai/pricing
-- Granola: granola.ai/pricing
-- Jamie: meetjamie.ai/pricing
-- Read AI: read.ai/plans-pricing
-- Zoom AI Companion: news.zoom.com/zoom-ai-companion
-- Microsoft 365 Copilot: microsoft.com/en-us/microsoft-365-copilot/pricing
+Prices were checked on 2026-09-30 on each vendor's own pricing page (no links kept, per the no-competitor-links rule): Fathom pricing page, Otter pricing page, Fireflies pricing page, Granola pricing page, Jamie pricing page, Read AI plans and pricing page, Zoom AI Companion announcement, Microsoft 365 Copilot pricing page. Search each by name to re-check before publishing.
