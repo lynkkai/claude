@@ -1,0 +1,5 @@
+Access check failed: 2026-09-30T17:47:59Z
+Command: curl -sSL -o /dev/null -w '%{http_code}' https://lynkk.ai/
+Result: HTTP 000, curl: (56) CONNECT tunnel failed, response 403
+Cause: the environment's outbound network proxy denied the connection to lynkk.ai (host not in the allowed network policy).
+Fix: add lynkk.ai (and www.lynkk.ai) to the environment's allowed hosts, or run the capture from a machine with open internet access.
