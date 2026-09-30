@@ -225,7 +225,7 @@ AI Companion costs $0 extra if every user already has a paid Zoom plan, while al
 
 ## How do you switch from AI Companion to Lynkk?
 
-You can switch in about 10 minutes, and you can run both side by side while you compare. These 4 steps keep every meeting covered during the move.
+You can switch in 4 steps, and you can run both side by side while you compare. These 4 steps keep every meeting covered during the move.
 
 1. **Sign up for Lynkk free** and connect your calendar.
 2. **Pick bot or bot-free recording** for your Zoom calls, and connect Teams or Google Meet if you use them.
@@ -280,6 +280,7 @@ For most teams that want follow-up done for them, yes. Lynkk works on free Zoom 
 ## Conclusion
 
 AI Companion is a useful built-in assistant for teams already paying for Zoom. If you want an assistant that works on any Zoom plan, prepares you before each meeting, answers you during it and finishes the follow-up in Jira and your CRM, Lynkk is the best Zoom AI Companion alternative. **[Start free with Lynkk](https://lynkk.ai/)**.
+
 
 
 

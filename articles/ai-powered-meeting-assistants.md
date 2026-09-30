@@ -105,7 +105,7 @@ Lynkk briefs you before every call with 3 things: what was discussed last time, 
 
 ### What does Lynkk do during a meeting?
 
-Lynkk joins the meeting and speaks when you ask it to, which makes it 1 of the few live AI meeting assistants rather than a silent recorder. Say "Hey Lynkk" to ask for past context or pull up a document, and hear the answer by voice in about the time it takes to ask a colleague.
+Lynkk joins the meeting and speaks when you ask it to, which makes it a live AI meeting assistant on 3 video platforms (Zoom, Google Meet and Teams) rather than a silent recorder. Say "Hey Lynkk" to ask for past context or pull up a document, and hear the answer by voice.
 
 - **With a bot:** the [Lynkk meeting bot for Zoom, Meet and Teams](https://lynkk.ai/features/meeting-bot) joins from your calendar.
 - **Without a bot:** the [Lynkk Chrome extension](https://lynkk.ai/features/chrome-extension) records with no extra participant.
@@ -243,7 +243,7 @@ Lynkk captures all 4 with speaker labels in 15+ languages, and links every actio
 
 ## How do you get the most from an AI meeting assistant?
 
-You get the most from an AI meeting assistant by connecting it to 3 things: your calendar, your task tool and your CRM. These 5 steps take about 10 minutes to set up.
+You get the most from an AI meeting assistant by connecting it to 3 things: your calendar, your task tool and your CRM. These 5 steps are a one-time setup.
 
 1. **Connect your calendar** so the assistant knows your upcoming meetings.
 2. **Choose bot or bot-free recording** for each type of call.
@@ -282,6 +282,7 @@ Choose Copilot if your company runs fully on Microsoft 365 and wants AI in Word,
 ## Conclusion
 
 Most tools called an AI meeting assistant only help after the call. Lynkk is the best AI-powered meeting assistant because it helps at every stage: it prepares you before the meeting, answers you during it and finishes the follow-up after it, on every platform and in person. **[Start free with Lynkk](https://lynkk.ai/)**.
+
 
 
 

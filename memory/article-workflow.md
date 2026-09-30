@@ -20,8 +20,25 @@ The writer skill is installed as a project skill at `.claude/skills/seo-article/
 - Each article needs 1-2 inbound internal links from existing lynkk.ai pages at publish time.
 
 ## Progress
-- [x] #1 Best AI Note Takers (primary: ai note taker): draft v3 at `articles/best-ai-note-takers.md`, passed rule audit `seo/audits/best-ai-note-takers-audit.md`; needs [CONFIRM] items filled
-- [ ] #2 Best Free AI Note Takers in the USA for 2026 (primary: free ai note taker)
+Batch 1 (2026-09-30): 11 drafts written, all pass `scripts/audit_article.py`. Summary: `seo/audits/batch-1-summary.md`.
+- [x] #1 best-ai-note-takers
+- [x] #2 best-free-ai-note-takers
+- [x] #3 zoom-meeting-recorders
+- [x] #4 ai-note-taker-microsoft-teams
+- [x] #5 transcribe-audio-to-text
+- [x] #6 ai-voice-recorders
+- [x] #7 ai-transcription-software
+- [x] #8 voice-to-text-apps
+- [x] #9 ai-powered-meeting-assistants
+- [x] #10 zoom-ai-companion-alternatives
+- [x] #16 how-to-transcribe-zoom-meetings
+- [ ] #11-#15 Lynkk vs posts: on hold, they overlap existing lynkk.ai/compare pages (decide: update compare pages instead?)
+- [ ] Next batch: #17 dictation on Mac, #18 Word dictation, #19 voice memos, #20 Google Meet, #21-#30 use cases
+
+## Tools for every article
+- `python3 scripts/build_schema.py articles/<slug>.md` builds Article/ItemList/FAQPage/Breadcrumb schema from the article (keeps FAQ schema in sync).
+- `python3 scripts/audit_article.py articles/<slug>.md` runs every mechanical rule (must end with 0 failed).
+- Draft long: first drafts have run ~400 words short; aim for 2,800+ on listicles.
 
 ## Audit step (required for every article)
 After drafting, run the mechanical audit (H1 13-15 words, meta 150-160, density 0.5-1.5%, 200-char clip has a number, sections ≤300 words, paragraphs ≤80 words, FAQ 40-60 words and schema synced, tables ≤4 columns, 8-14 links, zero competitor links (run `python3 scripts/check_competitor_links.py articles/<slug>.md`), at least 2 external links to verified government or standards sites, no links to unpublished pages, schema present, no dashes, no AI-tell words) and save the report to `seo/audits/<slug>-audit.md`.

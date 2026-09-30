@@ -300,6 +300,7 @@ Most AI note takers stop at a summary 1-2 minutes after the call. Lynkk prepares
 
 
 
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
