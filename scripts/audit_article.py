@@ -63,7 +63,7 @@ def main(path):
     h2 = re.findall(r"^## (.*)$", body, re.M)
     q = [h for h in h2 if h.strip().endswith("?")]
     check(len(q) >= 6, f"question H2s {len(q)} (>=6)")
-    check(any(primary.lower() in h.lower() for h in h2), "primary keyword in at least one H2")
+    check(any(primary.lower() in h.lower().replace("-", " ") for h in h2), "primary keyword in at least one H2")
     dead = [h for h in h2 if any(d in h.lower() for d in DEAD)]
     check(not dead, f"no dead headings {dead}")
 
