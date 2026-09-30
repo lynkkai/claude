@@ -39,9 +39,6 @@ pricing_checked: 2026-09-30
 status: draft (not published)
 ---
 
-<!-- WRITER-NOTES:START -->
-> **INTERNAL NOTES FOR CONTENT WRITERS. Not part of the article. Delete this whole block before publishing.**
->
 > **1. Author and images**
 > - Add a named author and a short bio (E-E-A-T requirement), then set `author` and `author_bio_url` in the frontmatter.
 > - Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
@@ -59,7 +56,6 @@ status: draft (not published)
 > 3. Re-check competitor prices on the vendor pages.
 > 4. Add the 2 inbound links listed in `inbound_links_planned` and confirm they are live.
 > 5. When sibling posts go live (free AI note takers, Zoom recorders, Teams, AI voice recorders, Google Meet), add links to them.
-<!-- WRITER-NOTES:END -->
 
 # The Best AI Note Takers in the US for 2026, Compared Online and In Person
 

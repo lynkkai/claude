@@ -37,9 +37,6 @@ pricing_checked: 2026-09-30
 status: draft (not published)
 ---
 
-<!-- WRITER-NOTES:START -->
-> **INTERNAL NOTES FOR CONTENT WRITERS. Not part of the article. Delete this whole block before publishing.**
->
 > **1. Author and images**
 > - Add a named author and a short bio (E-E-A-T requirement), then set `author` and `author_bio_url` in the frontmatter.
 > - Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
@@ -56,7 +53,6 @@ status: draft (not published)
 > 3. Re-check Zoom facts on Zoom's help center and competitor prices on each vendor's pricing page (search by name; no links kept).
 > 4. Add the 2 inbound links in `inbound_links_planned`.
 > 5. Update `seo/keyword-map-v2.md` row #3 with the primary keyword change.
-<!-- WRITER-NOTES:END -->
 
 # Top Zoom Meeting Recorders for US Teams in 2026, From Free Tools to AI Notes
 

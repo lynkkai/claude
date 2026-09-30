@@ -1,6 +1,6 @@
 # Batch 1: 11 articles, audit summary (2026-09-30)
 
-All articles pass every mechanical rule in `scripts/audit_article.py`. None are published. Articles contain no placeholders; open items live in the "Internal notes for content writers" block at the top of each article (between the WRITER-NOTES markers, deleted before publishing) and in each audit report.
+All articles pass every mechanical rule in `scripts/audit_article.py`. None are published. Articles contain no placeholders; open items live in the writer notes above the H1 of each article (deleted before publishing) and in each audit report.
 
 | # | Article | Primary keyword (vol / SD) | Words | Audit |
 |---|---|---|---|---|

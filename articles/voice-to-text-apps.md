@@ -38,9 +38,6 @@ pricing_checked: 2026-09-30
 status: draft (not published)
 ---
 
-<!-- WRITER-NOTES:START -->
-> **INTERNAL NOTES FOR CONTENT WRITERS. Not part of the article. Delete this whole block before publishing.**
->
 > **1. Author and images**
 > - Add a named author and a short bio (E-E-A-T requirement), then set `author` and `author_bio_url` in the frontmatter.
 > - Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
@@ -62,7 +59,6 @@ status: draft (not published)
 > 3. Re-check Apple, Microsoft, Google and vendor details (search by name; no links kept).
 > 4. Add the 2 inbound links in `inbound_links_planned`.
 > 5. When post #18 (dictate in Word) is live, link it from the Word Dictate section.
-<!-- WRITER-NOTES:END -->
 
 # Best Voice to Text Apps and Dictation Software in 2026 for Mac, Windows and Word
 

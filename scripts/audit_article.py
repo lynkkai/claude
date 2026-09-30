@@ -21,7 +21,7 @@ STRUCTURAL = {"FAQ", "Conclusion", "Our quick picks", "Quick picks"}
 
 def main(path):
     raw = open(path, encoding="utf-8").read()
-    s = re.sub(r"<!-- WRITER-NOTES:START -->.*?<!-- WRITER-NOTES:END -->\n*", "", raw, flags=re.S)
+    s = re.sub(r"\A(---\n.*?\n---\n).*?(?=^# )", r"\1\n", raw, count=1, flags=re.S | re.M)  # skip writer notes above the H1
     fails, notes = [], []
     fm = s.split("---\n", 2)[1]
     body = s.split("---\n", 2)[2].split("<script")[0]
@@ -115,7 +115,7 @@ def main(path):
 
     check(raw.count("\u2014") + raw.count("\u2013") == 0, "no em or en dashes (incl. writer notes)")
     check(not re.search(r"\[(CONFIRM|TODO|TBD|PLACEHOLDER)", s, re.I), "no placeholders like [CONFIRM] in the article")
-    check("WRITER-NOTES:START" in raw and raw.index("WRITER-NOTES:START") < raw.index("\n# "), "writer notes block present at the top")
+    check(all(l.startswith(">") or not l.strip() for l in raw.split("\n---\n", 2)[1].split("\n# ")[0].splitlines()), "only writer notes (quoted lines) above the H1")
     check(not re.search(r"!\[[^\]]*\]\(\s*\)", body), "no empty image links")
     tells = [t for t in TELLS if t in low]
     check(not tells, f"no AI-tell words {tells}")
