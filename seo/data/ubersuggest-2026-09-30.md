@@ -241,3 +241,47 @@ Position = organic position in the Ubersuggest response. Ubersuggest "updated_at
 Web search (not Ubersuggest) was used for knowledge-graph and workspaces pages because the SERPs above had
 none: otter.ai/chat, read.ai/search-copilot, guide.fireflies.ai Global AskFred article,
 fireflies.ai/team-collaboration, otter.ai/business, fellow.ai/enterprise.
+
+## 9. Product-page keyword checks (third pull, 2026-09-30)
+
+US (locId 2840) unless marked IN (India, locId 2356 from `location_suggest`).
+
+| Keyword | Loc | Vol | SD | Note |
+|---|---|---|---|---|
+| ai notetaker | US | 2,900 | 42 | Transactional |
+| conversation intelligence | US | 1,900 | 60 | Commercial |
+| teams ai note taker | US | 590 | 28 | Navigational |
+| action item tracker | US | 320 | 31 | Informational |
+| ai meeting summary | US | 170 | 37 | |
+| ai meeting summarizer | US | 170 | 34 | |
+| ai meeting notes app | US | 140 | 46 | |
+| meeting bot | US | 70 | 37 | |
+| meeting action items | US | 70 | 40 | |
+| google meeting bot | US | 50 | 58 | |
+| meeting bot api | US | 50 | 22 | |
+| ai note taker for mac | US | 30 | 46 | |
+| hindi transcription | US | 30 | 16 | |
+| multilingual transcription | US | 30 | 27 | |
+| zoom meeting bot | US | 20 | 26 | |
+| hinglish transcription | US | 10 | 18 | |
+| ai action items | US | 10 | 16 | |
+| ai meeting bot | US | 10 | 37 | |
+| jira meeting notes | US | 10 | 19 | |
+| meeting recorder mac | US | 0 | 12 | |
+| ai notetaker bot | US | 0 | 12 | |
+| hindi transcription | IN | 1,900 | 15 | |
+| ai note taker | IN | 1,900 | 61 | |
+| hinglish transcription | IN | 110 | 28 | |
+| hindi transcription google | IN | 9,900 | 15 | Likely Google-tool navigational intent (not verified) |
+
+SERPs:
+- **action item tracker** (US, 2026-09-10): vertex42.com template #2, read.ai article #3, smartsheet.com templates #4,
+  reddit #6, projectmanager.com #8, projectmanagement.com #9, monday.com blog #10, plaky.com #11, asana.com #14.
+- **ai notetaker** (US, 2026-09-06): read.ai/ #2 (971 est. clicks), zoom.com AI note taking #3, reddit #4,
+  metaview.ai blog #5, App Store #6, microsoft.com article #7, notegpt.io/ai-note-taker #8, Google Play #10,
+  tldv.io blog #11, otter.ai/ #13, wisprflow.ai/notetaker #14.
+- **meeting bot** (US, 2026-09-25): github.com/meetingbot #1, recall.ai/product/meeting-bot-api #3, attendee.dev #4,
+  fellow.ai blog #5, otter.ai/ #6, meetingbaas.com #7, github screenappai #8, learn.microsoft.com #9, noota.io #11.
+- **hinglish transcription** (IN, 2026-09-30): facebook group post #1, desisubtitles.com blog #3, x.com post #4
+  ("why can't someone make a hinglish note taker?"), gistly.ai blog #5, linkedin post #6, peerlist.io #7,
+  rightblogger.com tool #8, castmagic.io/tools/hindi-transcription #10, fiverr #11, facebook group #12.
