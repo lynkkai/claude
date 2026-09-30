@@ -355,3 +355,32 @@ SERPs:
   otter.ai/blog/ai-personal-assistant-for-work #10, gohub.vc #11.
 - **advanced ai assistant** (2026-09-03): simular.ai #2, reddit #4, zapier.com #5, akamai.com #6, vellum.ai #7, theconversation.com #8,
   pieces.app #10, runbear.io #11, eesel.ai #14.
+
+## 12. "AI assistant" keyword family (2026-09-30, US)
+
+`keyword_overview` + `match_keywords` (seed "ai assistant", 12,089 suggestions; top 118 by volume reviewed).
+Typical = median of the 13 monthly values returned.
+
+| Keyword | Latest | Typical | Min | Max | SD | Intent |
+|---|---|---|---|---|---|---|
+| ai assistant | 301,000 | 301,000 | 90,500 | 550,000 | 50 | Commercial |
+| conversational ai assistant | 165,000 | 110,000 | 1,000 | 673,000 | 59 | Commercial |
+| multimodal ai assistant | 110,000 | 170 | 10 | 550,000 | 26 | Informational |
+| personal ai assistant | 14,800 | 2,900 | 1,900 | 135,000 | 34 | Commercial |
+| ai assistant app | 8,100 | 5,400 | 2,900 | 27,100 | 32 | Commercial |
+| virtual ai assistant | 6,600 | 5,400 | 2,400 | 9,900 | 34 | Commercial |
+| free ai assistant | 3,600 | 1,300 | 1,000 | 22,200 | 44 | Commercial |
+| ai assistant for business | 1,300 | 480 | 260 | 5,400 | 34 | Commercial |
+| ai assistant for personal use | 1,000 | 210 | 20 | 12,100 | 30 | Informational |
+| what is an ai assistant | 720 | 720 | 590 | 1,000 | 32 | Informational |
+| private ai assistant | 590 | 50 | 30 | 6,600 | 20 | Commercial |
+| ai assistant for work | 590 | 320 | 110 | 2,900 | 30 | Informational |
+| ai assistant for mac | 390 | 320 | 30 | 1,600 | 17 | Transactional |
+| ai assistant for productivity (match_keywords only) | 60,500 | n/a | n/a | n/a | 65 | Commercial |
+
+SERPs:
+- **ai assistant** (2026-07-24): simular.ai/alternatives/ai-assistant #2 (DA 24), gemini.google/assistant #3, salesforce.com #4,
+  glean.com/ai-assistant #5 ("Enterprise AI Assistant for Work"), reddit #9, lindy.ai blog #11, App Store #12, zapier #14, uipath #15.
+- **ai assistant app** (2026-09-04): simular.ai #2, reddit #4, App Store #5, Google Play #6, arahi.ai #7, zapier #8, goodday.work #9, Slack Marketplace #10.
+- **virtual ai assistant** (2026-09-30): chatbot.therelah.com #2 (website chatbot), support.haiilo.com #4, App Store chatbot #5, reddit #6,
+  commoninja.com chatbot #10: mostly website-chatbot intent.
