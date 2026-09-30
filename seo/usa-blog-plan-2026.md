@@ -60,7 +60,7 @@ Format: primary keyword (US monthly volume / SD). "Cluster vol" = primary + seco
 | 29 | Use case | Use case | How Founders Handle Back-to-Back Meetings With One AI Teammate | team ai meeting notes (720 / 25) | ai note taker app (880 / 32), meeting notes taker (720 / 29) | 2,320 | best ai meeting notes reddit | Prep, live help and follow-up in one tool |
 | 30 | Use case | Use case | Your Meetings Are Your Knowledge Base: How Teams Build Searchable Meeting Memory | km software (720 / 21) | knowledge management software (880 / 38) | 1,600 | (low Reddit demand) | Searchable knowledge graph of all meetings |
 
-**Total cluster volume: about 135,340 US searches a month** (previous version: about 23,000 on primary keywords alone).
+**Primary keywords alone: about 72,000 US searches a month, up from about 23,000 in the previous version.** Including secondary keywords, the 30 clusters cover about 135,000.
 
 **Publish first (highest volume with SD under 30):** #8 Granola (27,100 / 29), #11 Plaud Note Pro (12,100 / 26), #1 Otter app review (3,600 / 7), #2 Otter transcript (2,900 / 19), #18 Zoom recorder (2,900 / 17), #10 Plaud vs Pocket (1,000 / 12), #20 Word dictation (1,600 / 8), #21 Voice memos (1,600 / 26).
 
