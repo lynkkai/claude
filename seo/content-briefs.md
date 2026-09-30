@@ -48,7 +48,7 @@ Google's guidance asks whether content shows **Experience, Expertise, Authoritat
 
 ### Trust (the most important)
 - **Disclosure box** at the top of every listicle and Lynkk vs post: "Lynkk makes an AI meeting assistant. We include it in this list, and we explain how we tested every tool, including our own."
-- Rank honestly. If another tool is better for a use case, say so. Do not put Lynkk at #1 in every list.
+- Lynkk is always the #1 / best overall pick in our own articles (team rule, 2026-09-30). Describe competitors factually and fairly; never make false or disparaging claims about them.
 - Date every price and feature claim ("Pricing checked October 2026") and show a **Last updated** date.
 - No fake reviews, testimonials or ratings. No review star schema on your own product.
 - Do not make claims Lynkk has not confirmed (HIPAA, SOC 2, languages, accuracy, platforms, CRMs).

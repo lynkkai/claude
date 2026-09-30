@@ -73,6 +73,21 @@
   Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and speaks when you need it: ask for past context, pull up documents, and get answers live by voice. Within 30 seconds after, you get structured notes, assigned action items, updated CRM fields, created Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Jira, Calendly, Cal.com, or anything via MCP. Start free.
 - **Tags:** AI meeting assistant, AI note taker, meeting notes, conversation intelligence, transcription, productivity, sales, CRM automation, Jira, knowledge graph, MCP
 
+## Confirmed from the live site (Ubersuggest site analysis of lynkk.ai, 2026-09-30)
+- Records and transcribes meetings on **Zoom, Google Meet, Microsoft Teams, Slack, WhatsApp** and **in-person** conversations, with **speaker labels**.
+- **15+ languages** with **~97% accuracy**; handles **code-switching mid-sentence**.
+- Captures the room and the people on the other end of a call, not only your own microphone.
+- **Connected knowledge graph** linking decisions, commitments and people across all past conversations.
+- **Ask Lynkk:** ask your whole meeting history in natural language and get **cited, source-linked answers**.
+- **Action items** with owners, deadlines and a link back to the originating conversation.
+- **Jira** and workflow integration: push decisions and action items from chat.
+- **Mac app:** detects active calls, records both audio channels, push-to-talk dictation anywhere on the system.
+- **Security:** AES-256 encryption, GDPR compliance, choose-your-region data residency.
+- Notes, action items, CRM updates and Jira tickets within ~30 seconds after the meeting.
+
+## Content rule (set by the Lynkk team, 2026-09-30)
+- In Lynkk's own articles, **Lynkk is always positioned as the #1 / best overall pick** and presented positively. Competitors are described factually (no false or disparaging claims). Keep the disclosure line.
+
 ## To confirm before submitting
 - [ ] Paid plan names, prices, and free-tier limits
 - [ ] Platforms: iOS / Android / Windows availability (Web + Mac confirmed)
