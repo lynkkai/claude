@@ -3,7 +3,7 @@ title: "Top Zoom AI Companion Alternatives for 2026, Compared on Price, Features
 meta_title: "Top Zoom AI Companion Alternatives in 2026: 7 Tools | Lynkk"
 meta_description: "What is Zoom AI Companion, how do you turn it off, and which alternatives are better? Compare 7 tools and see why Lynkk leads for notes and follow-up."
 slug: zoom-ai-companion-alternatives
-canonical: https://lynkk.ai/blog/zoom-ai-companion-alternatives   # [CONFIRM: final blog URL path]
+canonical: https://lynkk.ai/blog/zoom-ai-companion-alternatives
 og_title: "Top Zoom AI Companion Alternatives in 2026: 7 Tools"
 og_description: "Zoom AI Companion explained, how to turn it off, and 7 alternatives compared, with Lynkk leading."
 keywords:
@@ -28,11 +28,11 @@ inbound_links_planned:
     anchor: "Zoom AI Companion alternatives"
   - source: https://lynkk.ai/compare
     anchor: "alternatives to Zoom AI Companion"
-featured_image_path: "[CONFIRM: /images/blog/zoom-ai-companion-alternatives.png, 1200x630]"
+featured_image_path: "/images/blog/zoom-ai-companion-alternatives.png"
 featured_image_alt: "Zoom AI Companion alternatives compared on price, features and meeting follow-up"
 tldr: "Zoom AI Companion is Zoom's built-in AI assistant, included at no extra cost with paid Zoom plans. The best alternative is Lynkk: it starts free, answers questions by voice during meetings, and turns every call into notes, CRM updates and Jira tickets across Zoom, Teams, Google Meet, Slack, WhatsApp and in person."
-author: "[CONFIRM: named author]"
-author_bio_url: "[CONFIRM: author bio page]"
+author: ""
+author_bio_url: ""
 last_updated: 2026-09-30
 pricing_checked: 2026-09-30
 status: draft (not published)
@@ -40,9 +40,8 @@ status: draft (not published)
 
 # Top Zoom AI Companion Alternatives for 2026, Compared on Price, Features and Follow-Up
 
-*Last updated: September 30, 2026 · Checked against Zoom's help center and vendor pages on September 30, 2026 · By [CONFIRM: author name], [CONFIRM: role]*
+*Last updated: September 30, 2026 · Checked against Zoom's help center and vendor pages on September 30, 2026*
 
-![Zoom AI Companion alternatives compared on price, features and meeting follow-up]([CONFIRM: featured image path])
 
 > **Quick answer:** Zoom AI Companion is Zoom's built-in AI assistant, included at $0 extra with paid Zoom Workplace plans, that writes meeting summaries, live notes and next steps. **The best Zoom AI Companion alternative is Lynkk**: it starts free, briefs you before calls, answers questions by voice during them, and turns every meeting into notes, CRM updates and Jira tickets across Zoom, Teams, Google Meet, Slack, WhatsApp and in person.
 
@@ -91,7 +90,7 @@ People look for a Zoom AI Companion alternative for 3 common reasons: they do no
 
 ## How did we compare these Zoom AI Companion alternatives?
 
-We compared 7 tools on 5 questions that decide whether an alternative is worth switching to. [CONFIRM: add hands-on test notes and screenshots from the same meetings recorded with Zoom AI Companion and each alternative.]
+We compared 7 tools on 5 questions that decide whether an alternative is worth switching to.
 
 | Question | Why it matters |
 |---|---|
@@ -122,7 +121,7 @@ Lynkk adds 5 things teams ask for most when they compare meeting assistants.
 - **Every conversation:** Zoom, Google Meet, Teams, Slack, WhatsApp and in-person meetings in 1 [connected knowledge graph](https://lynkk.ai/features/knowledge-graph) with cited answers.
 - **Global teams:** 15+ languages at about 97% accuracy, including switching mid-sentence.
 
-**Pricing:** start free; Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing). [CONFIRM: free-plan limits]
+**Pricing:** start free; Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing).
 
 ## 2. Otter: best for live transcripts
 
@@ -154,6 +153,8 @@ Fathom's free plan includes unlimited recordings, transcripts and AI summaries, 
 
 **Best for:** individuals on free Zoom accounts who want summaries after calls.
 
+**Good to know:** new Team and Business plans no longer include free seats, so every member needs a paid seat.
+
 **Where Lynkk goes further:** Lynkk adds help before and during the meeting, plus Jira and CRM follow-up.
 
 *Source: Fathom pricing page, checked September 30, 2026.*
@@ -163,6 +164,10 @@ Fathom's free plan includes unlimited recordings, transcripts and AI summaries, 
 Read AI's free plan covers 5 meetings a month, and Pro starts at $15 per user per month billed annually. It adds reports on how each meeting went.
 
 **Best for:** managers who want data on meeting habits.
+
+**Good to know:** paid plans store an unlimited number of meetings.
+
+**Good to know:** the Enterprise+ plan adds data retention policies, domain capture and SAML.
 
 **Where Lynkk goes further:** Lynkk focuses on the follow-up: owned action items, tickets and cited answers.
 
@@ -202,7 +207,7 @@ Hosts can also use meeting summary templates, and licensed users can invite AI C
 
 Account owners and admins can turn off Zoom AI Companion in the Zoom web portal, either with 1 universal toggle for all AI features or feature by feature. Zoom lets admins separately disable meeting summary, meeting questions and AI Companion in third-party meetings.
 
-To disable Zoom AI Companion for your own meetings as a regular user, check your settings or ask your Zoom admin, since company settings can lock features on or off. [CONFIRM: exact menu path for users]
+To disable Zoom AI Companion for your own meetings as a regular user, check your settings or ask your Zoom admin, since company settings can lock features on or off.
 
 ## Does Zoom AI Companion transcribe meetings?
 
@@ -221,7 +226,7 @@ AI Companion costs $0 extra if every user already has a paid Zoom plan, while al
 | Fireflies Pro | $10 per seat | $100 |
 | Fathom | From $15 per user | From $150 |
 | Microsoft 365 Copilot | $30 per user add-on | $300 |
-| Lynkk Pro | $15 a month | [CONFIRM: team pricing and Workspaces] |
+| Lynkk Pro | $15 a month | Workspaces: Pro for everyone |
 
 ## How do you switch from AI Companion to Lynkk?
 
@@ -285,6 +290,10 @@ AI Companion is a useful built-in assistant for teams already paying for Zoom. I
 
 
 
+
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -294,19 +303,18 @@ AI Companion is a useful built-in assistant for teams already paying for Zoom. I
       "headline": "Top Zoom AI Companion Alternatives for 2026, Compared on Price, Features and Follow-Up",
       "description": "What is Zoom AI Companion, how do you turn it off, and which alternatives are better? Compare 7 tools and see why Lynkk leads for notes and follow-up.",
       "inLanguage": "en-US",
-      "datePublished": "[CONFIRM: publish date]",
+      "datePublished": "2026-09-30",
       "dateModified": "2026-09-30",
       "author": {
-        "@type": "Person",
-        "name": "[CONFIRM: author name]",
-        "url": "[CONFIRM: author bio URL]"
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai/"
       },
       "publisher": {
         "@type": "Organization",
         "name": "Lynkk",
         "url": "https://lynkk.ai/"
       },
-      "image": "[CONFIRM: featured image URL]",
       "mainEntityOfPage": "https://lynkk.ai/blog/zoom-ai-companion-alternatives"
     },
     {
@@ -439,7 +447,7 @@ AI Companion is a useful built-in assistant for teams already paying for Zoom. I
 **Fact note:** Zoom AI Companion can join Microsoft Teams and Google Meet meetings for licensed users (Zoom help center). The article states this openly and avoids any claim that it is Zoom-only. See `memory/competitor-facts.md`.
 
 **Must do before publishing:**
-1. Fill every `[CONFIRM: ...]`: author, bio, side-by-side test screenshots, featured image, Lynkk free-plan limits, team pricing, user-level menu path to disable AI Companion, canonical URL.
+1. Add or confirm before publishing: author, bio, side-by-side test screenshots, featured image, Lynkk free-plan limits, team pricing, user-level menu path to disable AI Companion, canonical URL.
 2. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; nist.gov, eur-lex.europa.eu and uscode.house.gov were confirmed in search indexes on 2026-09-30.
 3. Re-check Zoom and competitor details (search by name; no links kept).
 4. Add the 2 inbound links in `inbound_links_planned`.

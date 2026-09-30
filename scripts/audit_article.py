@@ -112,7 +112,9 @@ def main(path):
     check("/features/" in " ".join(internal) or "/use-cases/" in " ".join(internal),
           "links to a lynkk.ai feature or use-case page")
 
-    check(s.count("—") + s.count("–") == 0, "no em or en dashes")
+    check(s.count("\u2014") + s.count("\u2013") == 0, "no em or en dashes")
+    check(not re.search(r"\[(CONFIRM|TODO|TBD|PLACEHOLDER)", s, re.I), "no placeholders like [CONFIRM] anywhere in the file")
+    check(not re.search(r"!\[[^\]]*\]\(\s*\)", body), "no empty image links")
     tells = [t for t in TELLS if t in low]
     check(not tells, f"no AI-tell words {tells}")
     check("Lynkk" in body and "Lynk " not in body and "Lynk." not in body, "brand spelled Lynkk")

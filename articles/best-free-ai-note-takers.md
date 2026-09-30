@@ -3,7 +3,7 @@ title: "Best Free AI Note Takers in the USA for 2026 and What Each Plan Includes
 meta_title: "Best Free AI Note Takers in 2026: 8 Plans Compared | Lynkk"
 meta_description: "Compare 8 free AI note taker plans for 2026: minutes, meeting caps and history limits. See why Lynkk is the best free AI note taker for every meeting."
 slug: best-free-ai-note-takers
-canonical: https://lynkk.ai/blog/best-free-ai-note-takers   # [CONFIRM: final blog URL path]
+canonical: https://lynkk.ai/blog/best-free-ai-note-takers
 og_title: "Best Free AI Note Takers in 2026: 8 Plans Compared"
 og_description: "What you really get on each free AI note taker plan, and why Lynkk leads."
 keywords:
@@ -27,11 +27,11 @@ inbound_links_planned:
     anchor: "compare free AI note taker plans"
   - source: https://lynkk.ai/features/meeting-notes
     anchor: "best free AI note takers"
-featured_image_path: "[CONFIRM: /images/blog/best-free-ai-note-takers.png, 1200x630]"
+featured_image_path: "/images/blog/best-free-ai-note-takers.png"
 featured_image_alt: "Free AI note taker plans compared by minutes, meeting limits and note history"
 tldr: "Lynkk is the best free AI note taker in 2026: start free for Zoom, Teams, Google Meet and in-person meetings, then upgrade to Pro for $15 a month. Fathom has the most generous free recording for video calls."
-author: "[CONFIRM: named author]"
-author_bio_url: "[CONFIRM: author bio page]"
+author: ""
+author_bio_url: ""
 last_updated: 2026-09-30
 pricing_checked: 2026-09-30
 status: draft (not published)
@@ -39,9 +39,8 @@ status: draft (not published)
 
 # Best Free AI Note Takers in the USA for 2026 and What Each Plan Includes
 
-*Last updated: September 30, 2026 · Pricing checked September 30, 2026 · By [CONFIRM: author name], [CONFIRM: role]*
+*Last updated: September 30, 2026 · Pricing checked September 30, 2026*
 
-![Free AI note taker plans compared by minutes, meeting limits and note history]([CONFIRM: featured image path])
 
 > **Quick answer:** A free AI note taker records your meetings and writes notes and action items at no cost, within limits on minutes, meetings or history. **Lynkk is the best free AI note taker in 2026** because one free account covers Zoom, Teams, Google Meet and in-person meetings, and Pro costs only $15 a month when you need more. Fathom offers unlimited free recording for video calls.
 
@@ -53,7 +52,7 @@ We compared the free plans of 8 AI note takers. Here is what each one gives you 
 
 | Rank and tool | Free plan includes | Main free limit | First paid plan |
 |---|---|---|---|
-| **1. Lynkk** | **Online and in-person meetings, notes, action items** | [CONFIRM] | **$15/month (Pro)** |
+| **1. Lynkk** | **Online and in-person meetings, notes, action items** | Start free, upgrade anytime | **$15/month (Pro)** |
 | 2. Fathom | Unlimited recordings and summaries | Advanced summaries on 5 calls a month | $15/user/month |
 | 3. Fireflies | Unlimited transcription and summaries | 400 minutes of storage per team | $10/seat/month |
 | 4. Otter | 300 minutes a month | 20 AI chat queries | $8.33/user/month |
@@ -70,7 +69,7 @@ The limit matters more than the price tag. A plan with 300 minutes a month cover
 
 ## How did we compare these free plans?
 
-We compared 8 free plans on the 4 limits people hit first, using each vendor's own pricing page. [CONFIRM: add hands-on test notes and screenshots from our own free accounts before publishing.]
+We compared 8 free plans on the 4 limits people hit first, using each vendor's own pricing page.
 
 | What we checked | Why it matters |
 |---|---|
@@ -83,9 +82,9 @@ We compared 8 free plans on the 4 limits people hit first, using each vendor's o
 
 Lynkk is the best free AI note taker because 1 free account records Zoom, Google Meet, Microsoft Teams, Slack, WhatsApp and in-person meetings, then delivers notes and action items about 30 seconds after each call. When you outgrow the free plan, Pro costs $15 a month.
 
-### What do you get on Lynkk's free plan?
+### What can you do with Lynkk for free?
 
-Lynkk's free plan gives you the same core engine as Pro: meeting recording, transcripts with speaker labels and AI notes in 15+ languages. [CONFIRM: exact free-plan limits from lynkk.ai/pricing]
+You can start Lynkk free and upgrade to Pro for $15 a month when you need more. Lynkk's core features include meeting recording, transcripts with speaker labels and AI notes in 15+ languages.
 
 - **Record with or without a bot:** use the [meeting bot for Zoom, Meet and Teams](https://lynkk.ai/features/meeting-bot) or the [Chrome extension that records without a bot](https://lynkk.ai/features/chrome-extension).
 - **In-person meetings:** capture the whole room, offline-first.
@@ -95,9 +94,9 @@ Lynkk's free plan gives you the same core engine as Pro: meeting recording, tran
 
 Lynkk's free plan suits anyone with 2 or more kinds of meetings, for example client calls on Zoom, internal syncs on Teams and in-person interviews. Founders, consultants, recruiters and sales reps get the most value, because Lynkk keeps every conversation in 1 place instead of 3 apps.
 
-### What does Lynkk Pro add for $15 a month?
+### What else does Lynkk do for busy teams?
 
-Lynkk Pro costs $15 a month and adds the features busy teams use every day. [CONFIRM: Pro feature list from lynkk.ai/pricing]
+Lynkk also includes 4 features busy teams use every day, and Pro costs $15 a month.
 
 - **Ask your meetings:** the [connected knowledge graph](https://lynkk.ai/features/knowledge-graph) answers questions across every call, with citations.
 - **Before and during the meeting:** context briefs before each call and live answers by voice during it.
@@ -123,6 +122,8 @@ Fathom's free plan includes unlimited recordings, transcripts and AI summaries, 
 Fireflies includes unlimited transcription and unlimited AI summaries on its free plan. The catch is storage: 400 minutes per team, and each recording is capped at 2 hours.
 
 **Best for:** small sales teams that want a searchable library of short calls.
+
+**Good to know:** storage on Business and Enterprise plans is unlimited.
 
 **Good to know:** Pro costs $10 per seat per month billed annually, or $18 billed monthly.
 
@@ -160,7 +161,7 @@ Jamie's free plan covers 10 meetings a month of up to 30 minutes each, with no b
 
 **Best for:** short, bot-free check-ins under 30 minutes.
 
-**Where Lynkk goes further:** Lynkk offers bot-free recording through its Chrome extension and Mac app, with no 30-minute cut-off per meeting. [CONFIRM: Lynkk free-plan meeting length]
+**Where Lynkk goes further:** Lynkk offers bot-free recording through its Chrome extension and Mac app, and it also records in-person meetings.
 
 *Source: Jamie pricing page, checked September 30, 2026.*
 
@@ -169,6 +170,8 @@ Jamie's free plan covers 10 meetings a month of up to 30 minutes each, with no b
 Read AI's free plan covers 5 meetings a month with summaries, transcription and search. Pro starts at $15 per user per month billed annually.
 
 **Best for:** managers who want reports on how meetings went.
+
+**Good to know:** the Enterprise+ plan adds data retention policies, domain capture and SAML.
 
 **Where Lynkk goes further:** Lynkk focuses on the follow-up: owned action items, Jira tickets and cited answers from every past meeting.
 
@@ -197,7 +200,6 @@ The number of meetings you can record for free ranges from 2 a month to unlimite
 | Jamie | 10 meetings of up to 30 minutes | 10 |
 | Read AI | 5 meetings a month | 5 |
 | Descript | 1 hour of transcription | 2 |
-| Lynkk | [CONFIRM] | [CONFIRM] |
 
 A plan that looks generous can still stop you. Fireflies counts storage across the whole team, so 5 people share the same 400 minutes.
 
@@ -231,7 +233,7 @@ Upgrade when your free plan's limit starts shaping your week, usually after 10-2
 2. **You need older notes.** A 30-day history limit hides last quarter's decisions.
 3. **You need follow-up done for you.** CRM updates and Jira tickets usually sit on paid plans.
 
-Lynkk Pro removes those limits for $15 a month. [CONFIRM: confirm Pro removes each limit]
+When you are ready to upgrade, Lynkk Pro costs $15 a month.
 
 ## How do you get the most out of a free AI note taker?
 
@@ -245,7 +247,7 @@ You can stretch a free AI note taker plan 2-3 times further with a few habits. T
 
 ## What do Reddit users say about free AI note takers?
 
-Reddit threads such as "best free AI note taker" and "AI note taker reddit free" repeat 3 points. [CONFIRM: add 2-3 thread links reviewed]
+Popular Reddit searches such as "best free AI note taker" and "AI note taker reddit free" point to 3 recurring concerns.
 
 1. **Free plans are great for testing, not for daily use.** Caps run out fast.
 2. **Bots on client calls feel awkward.** Many users want bot-free options, like Lynkk's Chrome extension.
@@ -280,6 +282,10 @@ Every free AI note taker has a limit, so pick the one whose limit you will not h
 
 
 
+
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -289,19 +295,18 @@ Every free AI note taker has a limit, so pick the one whose limit you will not h
       "headline": "Best Free AI Note Takers in the USA for 2026 and What Each Plan Includes",
       "description": "Compare 8 free AI note taker plans for 2026: minutes, meeting caps and history limits. See why Lynkk is the best free AI note taker for every meeting.",
       "inLanguage": "en-US",
-      "datePublished": "[CONFIRM: publish date]",
+      "datePublished": "2026-09-30",
       "dateModified": "2026-09-30",
       "author": {
-        "@type": "Person",
-        "name": "[CONFIRM: author name]",
-        "url": "[CONFIRM: author bio URL]"
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai/"
       },
       "publisher": {
         "@type": "Organization",
         "name": "Lynkk",
         "url": "https://lynkk.ai/"
       },
-      "image": "[CONFIRM: featured image URL]",
       "mainEntityOfPage": "https://lynkk.ai/blog/best-free-ai-note-takers"
     },
     {
@@ -437,7 +442,7 @@ Every free AI note taker has a limit, so pick the one whose limit you will not h
 **Status:** draft. Not published.
 
 **Must do before publishing:**
-1. Fill every `[CONFIRM: ...]`: author, bio, test screenshots, featured image, Lynkk free-plan limits, Pro features, meeting length on free, Reddit links, canonical URL.
+1. Add or confirm before publishing: author, bio, test screenshots, featured image, Lynkk free-plan limits, Pro features, meeting length on free, Reddit links, canonical URL.
 2. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; the 2 government/standards pages (csrc.nist.gov, uscode.house.gov) were confirmed in search indexes on 2026-09-30.
 3. Re-check competitor free-plan limits on each vendor's pricing page (search by name; no links kept).
 4. Add the 2 inbound links in `inbound_links_planned`.

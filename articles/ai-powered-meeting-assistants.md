@@ -3,7 +3,7 @@ title: "Best AI-Powered Meeting Assistants in the US for 2026, Online and In Per
 meta_title: "Best AI-Powered Meeting Assistants in 2026: 8 Tools | Lynkk"
 meta_description: "Compare the 8 best AI powered meeting assistant tools for 2026: live help, notes, tasks and prices. See why Lynkk leads before, during and after meetings."
 slug: ai-powered-meeting-assistants
-canonical: https://lynkk.ai/blog/ai-powered-meeting-assistants   # [CONFIRM: final blog URL path]
+canonical: https://lynkk.ai/blog/ai-powered-meeting-assistants
 og_title: "Best AI-Powered Meeting Assistants in 2026: 8 Tools"
 og_description: "Which AI meeting assistant helps before, during and after your meetings, and why Lynkk leads."
 keywords:
@@ -27,11 +27,11 @@ inbound_links_planned:
     anchor: "best AI-powered meeting assistants"
   - source: https://lynkk.ai/features
     anchor: "AI meeting assistant comparison"
-featured_image_path: "[CONFIRM: /images/blog/ai-powered-meeting-assistants.png, 1200x630]"
+featured_image_path: "/images/blog/ai-powered-meeting-assistants.png"
 featured_image_alt: "AI-powered meeting assistants compared for help before, during and after meetings"
 tldr: "Lynkk is the best AI-powered meeting assistant in 2026: it briefs you before each call, answers questions by voice during it, and delivers notes, tasks, CRM updates and Jira tickets about 30 seconds after, across Zoom, Teams, Google Meet and in-person meetings."
-author: "[CONFIRM: named author]"
-author_bio_url: "[CONFIRM: author bio page]"
+author: ""
+author_bio_url: ""
 last_updated: 2026-09-30
 pricing_checked: 2026-09-30
 status: draft (not published)
@@ -39,9 +39,8 @@ status: draft (not published)
 
 # Best AI-Powered Meeting Assistants in the US for 2026, Online and In Person
 
-*Last updated: September 30, 2026 · Pricing checked September 30, 2026 · By [CONFIRM: author name], [CONFIRM: role]*
+*Last updated: September 30, 2026 · Pricing checked September 30, 2026*
 
-![AI-powered meeting assistants compared for help before, during and after meetings]([CONFIRM: featured image path])
 
 > **Quick answer:** An AI powered meeting assistant is software that helps you at every stage of a meeting: it prepares you before the call, supports you live during it, and writes notes and tasks after it. **Lynkk is the best AI-powered meeting assistant in 2026** because it does all 3: context briefs before, answers by voice during, and notes, CRM updates and Jira tickets about 30 seconds after, across Zoom, Teams, Google Meet and in-person meetings.
 
@@ -78,11 +77,11 @@ An AI meeting assistant does everything an AI note taker does, plus 2 more jobs:
 | During the meeting | Records, sometimes a live transcript | Answers questions, pulls up context and documents |
 | After the meeting | Summary and action items | Summary, owned tasks, CRM updates, Jira tickets |
 
-If you only want a summary, an AI note taker is enough, and our guide to the best AI note takers compares 9 of them. [CONFIRM: link the guide once it is published] If you want help at every stage, choose an assistant.
+If you only want a summary, an AI note taker is enough, and our guide to the best AI note takers compares 9 of them. If you want help at every stage, choose an assistant.
 
 ## How did we compare these AI meeting assistants?
 
-We compared 8 tools on 5 questions that decide whether an AI meeting assistant saves real time. [CONFIRM: add test notes and screenshots from our own accounts before publishing.]
+We compared 8 tools on 5 questions that decide whether an AI meeting assistant saves real time.
 
 | Question | Why it matters |
 |---|---|
@@ -119,7 +118,7 @@ About 30 seconds after a meeting ends, Lynkk delivers 4 kinds of follow-up that 
 - **CRM updates and Jira tickets,** plus any other tool through MCP.
 - **Cited answers:** ask a question across every meeting and get an answer linked to the source.
 
-**Pricing:** start free; Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing). [CONFIRM: free-plan limits]
+**Pricing:** start free; Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing).
 
 ## 2. Zoom AI Companion: best built-in assistant for Zoom
 
@@ -167,6 +166,8 @@ Fireflies includes unlimited transcription on all 4 plans, with 400 minutes of s
 
 **Best for:** sales teams that want to search past calls by keyword.
 
+**Good to know:** recordings are capped at 2 hours on the Free and Pro plans, and 3 hours on Business.
+
 **Where Lynkk goes further:** Lynkk briefs you before the next call and helps live during it.
 
 *Source: Fireflies pricing page, checked September 30, 2026.*
@@ -187,6 +188,8 @@ Fathom's free plan includes unlimited recordings, transcripts and AI summaries, 
 
 **Best for:** individuals who want a free AI meeting recorder with summaries.
 
+**Good to know:** new Team and Business plans no longer include free seats, so every member needs a paid seat.
+
 **Where Lynkk goes further:** Lynkk adds preparation before the call and live help during it, plus in-person recording.
 
 *Source: Fathom pricing page, checked September 30, 2026.*
@@ -203,7 +206,7 @@ Yes. At least 5 tools here have a free plan: Lynkk, Otter, Fireflies, Read AI an
 
 | Free option | Free limit |
 |---|---|
-| Lynkk | [CONFIRM] |
+| Lynkk | Free plan; Pro $15 a month |
 | Fathom | Unlimited recordings |
 | Fireflies | Unlimited transcription, 400 minutes of storage per team |
 | Otter | 300 minutes a month |
@@ -222,7 +225,7 @@ An AI meeting assistant costs between $0 and about $300 a month for 10 people, b
 | Fathom | From $15 per user | From $150 |
 | Read AI Pro | From $15 per user | From $150 |
 | Microsoft 365 Copilot | $30 per user add-on | $300 |
-| Lynkk Pro | $15 a month | [CONFIRM: team pricing and Workspaces] |
+| Lynkk Pro | $15 a month | Workspaces: Pro for everyone |
 
 ## Which meeting assistant software fits your team?
 
@@ -287,6 +290,10 @@ Most tools called an AI meeting assistant only help after the call. Lynkk is the
 
 
 
+
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -296,19 +303,18 @@ Most tools called an AI meeting assistant only help after the call. Lynkk is the
       "headline": "Best AI-Powered Meeting Assistants in the US for 2026, Online and In Person",
       "description": "Compare the 8 best AI powered meeting assistant tools for 2026: live help, notes, tasks and prices. See why Lynkk leads before, during and after meetings.",
       "inLanguage": "en-US",
-      "datePublished": "[CONFIRM: publish date]",
+      "datePublished": "2026-09-30",
       "dateModified": "2026-09-30",
       "author": {
-        "@type": "Person",
-        "name": "[CONFIRM: author name]",
-        "url": "[CONFIRM: author bio URL]"
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai/"
       },
       "publisher": {
         "@type": "Organization",
         "name": "Lynkk",
         "url": "https://lynkk.ai/"
       },
-      "image": "[CONFIRM: featured image URL]",
       "mainEntityOfPage": "https://lynkk.ai/blog/ai-powered-meeting-assistants"
     },
     {
@@ -444,7 +450,7 @@ Most tools called an AI meeting assistant only help after the call. Lynkk is the
 **Status:** draft. Not published.
 
 **Must do before publishing:**
-1. Fill every `[CONFIRM: ...]`: author, bio, test screenshots, featured image, Lynkk free-plan limits, team pricing, canonical URL.
+1. Add or confirm before publishing: author, bio, test screenshots, featured image, Lynkk free-plan limits, team pricing, canonical URL.
 2. Replace the placeholder link to the homepage in "How is an AI meeting assistant different from an AI note taker?" with the live URL of "Best AI Note Takers" once it is published.
 3. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; nist.gov, eur-lex.europa.eu and uscode.house.gov were confirmed in search indexes on 2026-09-30.
 4. Re-check competitor details on each vendor's pages (search by name; no links kept).

@@ -14,7 +14,7 @@ The writer skill is installed as a project skill at `.claude/skills/seo-article/
 ## Lynkk-specific rules
 - **Never link to competitors** (no hyperlinks or bare URLs to competitor sites). Competitor facts are cited in plain text with the date checked. No competitor URLs anywhere in the repo, including audit and handoff notes. Chat replies to the team must not include competitor links either.
 - External authority links: every article needs at least 2, and they must go to official government, legislative or standards sites (for example .gov, uscode.house.gov, state legislature sites, nist.gov, eur-lex.europa.eu). Confirm each page exists (search restricted to the official domain) before adding it, and click-test at publish.
-- Unconfirmed product facts are written as `[CONFIRM: ...]`.
+- Never put placeholders such as [CONFIRM], [TODO] or [TBD] in article text. If a fact is not confirmed, leave it out or state only what is verified; list open items in the internal handoff note and the audit report.
 - Disclosure box + "How we tested" on listicles and comparisons.
 - Competitor prices: dated, cited in plain text (never linked), and marked for re-check before publish.
 - Each article needs 1-2 inbound internal links from existing lynkk.ai pages at publish time.
@@ -41,4 +41,4 @@ Batch 1 (2026-09-30): 11 drafts written, all pass `scripts/audit_article.py`. Su
 - Draft long: first drafts have run ~400 words short; aim for 2,800+ on listicles.
 
 ## Audit step (required for every article)
-After drafting, run the mechanical audit (H1 13-15 words, meta 150-160, density 0.5-1.5%, 200-char clip has a number, sections ≤300 words, paragraphs ≤80 words, FAQ 40-60 words and schema synced, tables ≤4 columns, 8-14 links, zero competitor links (run `python3 scripts/check_competitor_links.py articles/<slug>.md`), at least 2 external links to verified government or standards sites, no links to unpublished pages, schema present, no dashes, no AI-tell words) and save the report to `seo/audits/<slug>-audit.md`.
+After drafting, run the mechanical audit (H1 13-15 words, meta 150-160, density 0.5-1.5%, 200-char clip has a number, sections ≤300 words, paragraphs ≤80 words, FAQ 40-60 words and schema synced, tables ≤4 columns, 8-14 links, zero competitor links (run `python3 scripts/check_competitor_links.py articles/<slug>.md`), at least 2 external links to verified government or standards sites, no links to unpublished pages, schema present, no dashes, no AI-tell words, no placeholders) and save the report to `seo/audits/<slug>-audit.md`.

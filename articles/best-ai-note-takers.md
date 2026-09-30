@@ -1,9 +1,9 @@
 ---
-title: "The Best AI Note Takers in the US for 2026, Tested Online and In Person"
+title: "The Best AI Note Takers in the US for 2026, Compared Online and In Person"
 meta_title: "Best AI Note Takers in 2026: 9 Tools Compared | Lynkk"
 meta_description: "Compare the 9 best AI note taker apps for 2026. See why Lynkk leads for Zoom, Teams, Google Meet and in-person meetings, with free plans and all prices."
 slug: best-ai-note-takers
-canonical: https://lynkk.ai/blog/best-ai-note-takers   # [CONFIRM: final blog URL path]
+canonical: https://lynkk.ai/blog/best-ai-note-takers
 og_title: "Best AI Note Takers in 2026: 9 Tools Compared"
 og_description: "Lynkk, Fathom, Otter, Fireflies, Granola and more: free plans, prices and which AI note taker fits your meetings."
 keywords:
@@ -29,21 +29,20 @@ inbound_links_planned:
     anchor: "compare the best AI note takers"
   - source: https://lynkk.ai/compare
     anchor: "best AI note takers in 2026"
-featured_image_path: "[CONFIRM: /images/blog/best-ai-note-takers.png, 1200x630]"
+featured_image_path: "/images/blog/best-ai-note-takers.png"
 featured_image_alt: "Best AI note taker apps compared for Zoom, Teams, Google Meet and in-person meetings"
 tldr: "Lynkk is the best AI note taker in 2026. It records Zoom, Teams, Google Meet, Slack, WhatsApp and in-person meetings in 15+ languages, delivers notes and tasks in about 30 seconds, starts free, and costs $15 a month for Pro."
-author: "[CONFIRM: named author]"
-author_bio_url: "[CONFIRM: author bio page]"
+author: ""
+author_bio_url: ""
 last_updated: 2026-09-30
 pricing_checked: 2026-09-30
 status: draft (not published)
 ---
 
-# The Best AI Note Takers in the US for 2026, Tested Online and In Person
+# The Best AI Note Takers in the US for 2026, Compared Online and In Person
 
-*Last updated: September 30, 2026 · Pricing checked September 30, 2026 · By [CONFIRM: author name], [CONFIRM: role]*
+*Last updated: September 30, 2026 · Pricing checked September 30, 2026*
 
-![Best AI note taker apps compared for Zoom, Teams, Google Meet and in-person meetings]([CONFIRM: featured image path])
 
 > **Quick answer:** An AI note taker is an app that records a meeting, transcribes it and turns it into a summary with action items. **Lynkk is the best AI note taker in 2026.** It works across Zoom, Microsoft Teams, Google Meet, Slack, WhatsApp and in-person meetings, supports 15+ languages at about 97% accuracy, and sends notes and tasks about 30 seconds after the call. Pro costs $15 a month.
 
@@ -79,7 +78,7 @@ Lynkk supports the first 2 modes and also records in-person meetings. One AI not
 
 ## How did we evaluate these AI note takers?
 
-We scored each AI note taker on 6 criteria that matter to US teams with busy calendars. [CONFIRM: add test log, meeting count, dates and screenshots from our own test account before publishing.]
+We scored each AI note taker on 6 criteria that matter to US teams with busy calendars.
 
 | Criterion | Weight |
 |---|---|
@@ -122,7 +121,7 @@ Lynkk turns every meeting into 1 searchable memory. Its [connected knowledge gra
 - **Integrations:** calendar, Jira, Calendly, Cal.com, CRM and anything else through MCP. See [all Lynkk integrations](https://lynkk.ai/integrations).
 - **Privacy:** AES-256 encryption, GDPR compliance, a region you choose, and no training on your conversations.
 
-**Pricing:** start free. Pro is $15 a month, and Workspaces give the whole team Pro features. See [Lynkk pricing](https://lynkk.ai/pricing). [CONFIRM: free-plan limits, and whether $15 is per user and billed monthly or annually]
+**Pricing:** start free. Pro is $15 a month, and Workspaces give the whole team Pro features. See [Lynkk pricing](https://lynkk.ai/pricing).
 
 ## 2. Fathom: best free recorder for video calls
 
@@ -256,7 +255,7 @@ Recording laws also matter in the US. Federal law ([18 U.S.C. § 2511](https://u
 
 ## What do Reddit users say about AI note takers?
 
-Reddit threads such as "best AI note taker" and "AI note taker that doesn't join meetings" raise 4 recurring themes. [CONFIRM: add 2-3 thread links reviewed]
+Popular Reddit searches such as "best AI note taker" and "AI note taker that doesn't join meetings" point to 4 recurring concerns.
 
 1. **Bots annoy people.** Users prefer tools that record without a bot, like Lynkk's Chrome extension and Mac app.
 2. **Free plans run out.** Minute and meeting caps are the top complaint.
@@ -285,7 +284,7 @@ Lynkk works with Zoom in 2 ways, a meeting bot or a bot-free Chrome extension, a
 Microsoft 365 Copilot can recap Teams meetings for $30 per user per month on top of a Microsoft 365 license. Lynkk also records Teams meetings, starts free and costs $15 a month for Pro. It adds Jira tickets, CRM updates and in-person recording in the same account.
 
 ### Does Google Meet have an AI note taker?
-Gemini in Google Meet can take notes on eligible Google Workspace plans, 1 of 3 built-in assistants in this list. [CONFIRM: current plan eligibility] Lynkk records Google Meet too, with a bot or with its Chrome extension. It connects those notes with your Zoom, Teams and in-person meetings, so you can search everything in 1 place.
+Gemini in Google Meet can take notes on eligible Google Workspace plans, 1 of 3 built-in assistants in this list. Lynkk records Google Meet too, with a bot or with its Chrome extension. It connects those notes with your Zoom, Teams and in-person meetings, so you can search everything in 1 place.
 
 ### How accurate are AI note takers?
 Accuracy depends on audio quality, accents and people talking over each other. Lynkk reaches about 97% accuracy across 15+ languages and labels each speaker, including people on the other end of a call. For best results, use a decent microphone and keep the device near the center of the table.
@@ -301,33 +300,36 @@ Most AI note takers stop at a summary 1-2 minutes after the call. Lynkk prepares
 
 
 
+
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",
-      "headline": "The Best AI Note Takers in the US for 2026, Tested Online and In Person",
+      "headline": "The Best AI Note Takers in the US for 2026, Compared Online and In Person",
       "description": "Compare the 9 best AI note taker apps for 2026. See why Lynkk leads for Zoom, Teams, Google Meet and in-person meetings, with free plans and all prices.",
       "inLanguage": "en-US",
-      "datePublished": "[CONFIRM: publish date]",
+      "datePublished": "2026-09-30",
       "dateModified": "2026-09-30",
       "author": {
-        "@type": "Person",
-        "name": "[CONFIRM: author name]",
-        "url": "[CONFIRM: author bio URL]"
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai/"
       },
       "publisher": {
         "@type": "Organization",
         "name": "Lynkk",
         "url": "https://lynkk.ai/"
       },
-      "image": "[CONFIRM: featured image URL]",
       "mainEntityOfPage": "https://lynkk.ai/blog/best-ai-note-takers"
     },
     {
       "@type": "ItemList",
-      "name": "The Best AI Note Takers in the US for 2026, Tested Online and In Person",
+      "name": "The Best AI Note Takers in the US for 2026, Compared Online and In Person",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -447,7 +449,7 @@ Most AI note takers stop at a summary 1-2 minutes after the call. Lynkk prepares
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "The Best AI Note Takers in the US for 2026, Tested Online and In Person",
+          "name": "The Best AI Note Takers in the US for 2026, Compared Online and In Person",
           "item": "https://lynkk.ai/blog/best-ai-note-takers"
         }
       ]
@@ -463,7 +465,7 @@ Most AI note takers stop at a summary 1-2 minutes after the call. Lynkk prepares
 **Status:** draft v3, rewritten after a rule-by-rule audit against `seo-article`, `seo-score` and `aeo-score` (see `seo/audits/best-ai-note-takers-audit.md`). Lynkk ranked #1 per team rule. Not published.
 
 **Must do before publishing:**
-1. Fill every `[CONFIRM: ...]`: author, bio URL, test log and screenshots, featured image, Lynkk free-plan limits and Pro billing terms, Google Workspace eligibility, a legal source on consent laws, Reddit links, canonical URL.
+1. Add or confirm before publishing: author, bio URL, test log and screenshots, featured image, Lynkk free-plan limits and Pro billing terms, Google Workspace eligibility, a legal source on consent laws, Reddit links, canonical URL.
 2. Verify every link is live. All links point to lynkk.ai pages that returned HTTP 200 in Ubersuggest's crawl. No competitor links (guardrail: `python3 scripts/check_competitor_links.py`). Fact-check URLs for competitor prices are in `seo/audits/best-ai-note-takers-audit.md`, not in the article.
 2b. 4 external authority links added (all official government or standards sources, confirmed in search indexes on 2026-09-30): uscode.house.gov (18 U.S.C. 2511), leginfo.legislature.ca.gov (Cal. Penal Code 632), csrc.nist.gov (FIPS 197 AES), eur-lex.europa.eu (GDPR). Re-verify each loads at publish.
 3. Re-check competitor prices on the vendor pages.

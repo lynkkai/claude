@@ -2,7 +2,7 @@
 
 > Companion to `seo/usa-blog-plan-2026.md`. Market: United States. Keyword data: Ubersuggest (US), checked 2026-09-30.
 > Volume / SD shown as (monthly US searches / SEO difficulty 0-100). Questions come from Google autocomplete via Ubersuggest.
-> Nothing here is published yet. Items marked **(confirm)** need a fact check from the Lynkk team before writing.
+> Nothing here is published yet. Items marked **(confirm)** need a fact check from the Lynkk team; until confirmed, they are left out of articles (no placeholders in article text).
 
 ---
 

@@ -26,11 +26,12 @@ def build(path):
     pairs = re.findall(r"### (.*?)\n(.*?)(?=\n### |\Z)", faq, re.S)
     graph = [
         {"@type": "Article", "headline": h1, "description": field("meta_description"),
-         "inLanguage": "en-US", "datePublished": "[CONFIRM: publish date]",
+         "inLanguage": "en-US", "datePublished": field("last_updated"),
          "dateModified": field("last_updated"),
-         "author": {"@type": "Person", "name": "[CONFIRM: author name]", "url": "[CONFIRM: author bio URL]"},
+         "author": ({"@type": "Person", "name": field("author"), **({"url": field("author_bio_url")} if field("author_bio_url") else {})}
+                    if field("author") else {"@type": "Organization", "name": "Lynkk", "url": "https://lynkk.ai/"}),
          "publisher": {"@type": "Organization", "name": "Lynkk", "url": "https://lynkk.ai/"},
-         "image": "[CONFIRM: featured image URL]", "mainEntityOfPage": url},
+         "mainEntityOfPage": url},
     ]
     items = re.search(r"^itemlist: \[(.*)\]", fm, re.M)
     if items:
