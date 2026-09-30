@@ -232,7 +232,7 @@ AI Companion costs $0 extra if every user already has a paid Zoom plan, while al
 You can switch in 4 steps, and you can run both side by side while you compare. These 4 steps keep every meeting covered during the move.
 
 1. **Sign up for Lynkk free** and connect your calendar.
-2. **Pick bot or bot-free recording** for your Zoom calls, and connect Teams or Google Meet if you use them.
+2. **Pick bot-free recording or the meeting bot (Pro)** for your Zoom calls, and connect Teams or Google Meet if you use them.
 3. **Connect Jira and your CRM** so action items and updates flow out automatically.
 4. **Compare 3 meetings** recorded by both tools, then turn off whichever you do not need.
 
@@ -267,7 +267,7 @@ Recording consent still applies with any tool. Federal law ([18 U.S.C. § 2511](
 Lynkk is the best Zoom AI Companion alternative in 2026. It starts free, briefs you before calls, answers questions by voice during them, and turns every meeting into notes, CRM updates and Jira tickets about 30 seconds later, across Zoom, Teams, Google Meet, Slack, WhatsApp and in person.
 
 ### Is Zoom AI Companion free?
-Zoom AI Companion costs $0 extra, but only with a paid Zoom Workplace plan. Free Zoom Basic accounts do not include it. If you use free Zoom, an alternative with a free plan such as Lynkk, Fathom or Otter adds AI notes and summaries to your meetings.
+Zoom AI Companion costs $0 extra, but only with a paid Zoom Workplace plan. Free Zoom Basic accounts do not include it. If you use free Zoom, an alternative with a free plan such as Fathom or Otter adds AI notes and summaries to your meetings, and Lynkk starts free with 5 hours of recording in total.
 
 ### Can Zoom AI Companion take notes?
 Yes. On paid plans, AI Companion does 3 note jobs: it takes live notes, writes a meeting summary with next steps and answer questions about the meeting on paid Zoom plans. Licensed users can also invite it to Microsoft Teams and Google Meet meetings. Lynkk adds Jira tickets, CRM updates and spoken answers from 1 memory of all your meetings.
@@ -365,7 +365,7 @@ AI Companion is a useful built-in assistant for teams already paying for Zoom. I
           "name": "Is Zoom AI Companion free?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Zoom AI Companion costs $0 extra, but only with a paid Zoom Workplace plan. Free Zoom Basic accounts do not include it. If you use free Zoom, an alternative with a free plan such as Lynkk, Fathom or Otter adds AI notes and summaries to your meetings."
+            "text": "Zoom AI Companion costs $0 extra, but only with a paid Zoom Workplace plan. Free Zoom Basic accounts do not include it. If you use free Zoom, an alternative with a free plan such as Fathom or Otter adds AI notes and summaries to your meetings, and Lynkk starts free with 5 hours of recording in total."
           }
         },
         {

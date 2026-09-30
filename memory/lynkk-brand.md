@@ -88,7 +88,9 @@
 ## Plan details
 - Free plan: **5 hours** of recording (confirmed by the Lynkk team, 2026-09-30). Do not write "5 notes a month" or "2 hours each"; those were from outdated search snippets. The 5 hours are **in total, not per month** (confirmed by the team). Write "5 hours of recording in total"; never "a month".
 - Pro: $15 a month.
-- From lynkk.ai search snippets, not yet confirmed by the team: the online meeting bot, knowledge graph and decision tracking are listed under Pro; apps listed for Web, iOS and Android. Do not claim the meeting bot is on the free plan.
+- **Meeting bot is Pro only** (lynkk.ai homepage lists "the online meeting bot" under Pro; team approved this wording 2026-09-30). Write "the meeting bot comes with Pro"; never say the free plan records Zoom, Teams or Google Meet with a bot.
+- Chrome extension (bot-free) plan availability: not confirmed; do not state whether it is free.
+- Also listed under Pro on the homepage (not yet team-confirmed): knowledge graph, decision tracking. Apps listed: Web, iOS, Android.
 
 ## Content rule (set by the Lynkk team, 2026-09-30)
 - In Lynkk's own articles, **Lynkk is always positioned as the #1 / best overall pick** and presented positively. Competitors are described factually (no false or disparaging claims). Keep the disclosure line.

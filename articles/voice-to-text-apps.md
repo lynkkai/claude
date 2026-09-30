@@ -214,7 +214,7 @@ The best free voice to text app is the one already built into your device: Apple
 | Google Docs voice typing | Tools > Voice typing | Only inside Google Docs |
 | Lynkk free plan | Push-to-talk on Mac | Upgrade to Pro for $15 a month |
 
-If you also want meeting transcripts, Lynkk's free plan covers dictation and meetings in 1 app.
+If you also want meeting transcripts, Lynkk covers dictation and meetings in 1 app, and you can start free.
 
 ## Which dictation software is best for Windows?
 

@@ -193,7 +193,7 @@ For regular meetings, a monthly plan is usually far cheaper than paying per minu
 
 Yes. At least 4 tools in this guide have free transcription: Lynkk's free plan with 5 hours of recording in total, Otter's 300 minutes a month, Fireflies' unlimited transcription with 400 minutes of storage, and Descript's 1 hour a month. The best transcription software free option depends on whether your audio is meetings or files.
 
-For meetings on Zoom, Teams, Google Meet and in person, Lynkk's free plan is the strongest starting point.
+For meetings on Zoom, Teams, Google Meet and in person, Lynkk is the strongest starting point: try it free with 5 hours of recording in total, then add the meeting bot with Pro.
 
 ## Which transcription software is best for meetings?
 

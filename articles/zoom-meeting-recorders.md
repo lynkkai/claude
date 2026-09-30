@@ -106,7 +106,7 @@ Zoom local recording is free on Basic (unlicensed) accounts and works on 3 deskt
 
 **Good to know:** local recordings cannot be transcribed by Zoom, so you get a video and audio file but no transcript or notes. You can change where files are saved in the Recording tab of the desktop app's settings.
 
-**Where Lynkk goes further:** Lynkk works on a free plan too, and it adds a transcript, notes and action items to every Zoom call.
+**Where Lynkk goes further:** Lynkk starts free with 5 hours of recording in total, and it adds a transcript, notes and action items to every Zoom call.
 
 *Source: Zoom help center, checked September 30, 2026.*
 
@@ -183,7 +183,7 @@ Neither type gives you action items or follow-up. That is the gap an AI Zoom mee
 
 Yes, but only 1 of Zoom's 2 recording types is free: local recording. Zoom Basic (free) accounts can record to your computer in the desktop app, while cloud recording, audio transcripts and AI Companion need a paid Zoom plan.
 
-If you want free notes as well as a recording, an AI Zoom meeting recorder such as Lynkk or Fathom adds them on a free plan.
+If you want free notes as well as a recording, an AI Zoom meeting recorder such as Fathom adds them on a free plan, and Lynkk starts free with 5 hours of recording in total.
 
 ## How do you record a meeting on Zoom?
 

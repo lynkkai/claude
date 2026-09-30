@@ -60,7 +60,7 @@ If you are on a free Zoom account, only a third-party tool like Lynkk can give y
 You can transcribe Zoom meetings with Lynkk in 4 steps, on any Zoom plan. After a one-time setup, every later meeting is transcribed automatically.
 
 1. **Sign up for Lynkk free** and connect your calendar.
-2. **Choose how to record:** the [Lynkk meeting bot for Zoom, Meet and Teams](https://lynkk.ai/features/meeting-bot) joins your Zoom calls, or the [Lynkk Chrome extension](https://lynkk.ai/features/chrome-extension) records with no bot.
+2. **Choose how to record:** the [Lynkk meeting bot for Zoom, Meet and Teams](https://lynkk.ai/features/meeting-bot) joins your Zoom calls on Pro, or the [Lynkk Chrome extension](https://lynkk.ai/features/chrome-extension) records with no bot.
 3. **Hold your Zoom meeting** as usual. Lynkk labels each speaker, including people on the other end.
 4. **Open your transcript** about 30 seconds after the call, with [AI meeting notes](https://lynkk.ai/features/meeting-notes), action items and Jira tickets.
 

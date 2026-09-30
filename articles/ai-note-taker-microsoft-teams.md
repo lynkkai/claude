@@ -174,7 +174,7 @@ Fathom's free plan includes unlimited recordings, transcripts and AI summaries, 
 
 Yes. Teams has 2 built-in Teams AI options: Microsoft 365 Copilot, a $30 per user per month add-on, and intelligent recap in Teams Premium. Without either license, Teams gives you recording and transcription, but no AI summary.
 
-Third-party tools fill that gap. A Microsoft Teams AI notes taker like Lynkk records Teams on a free plan and writes notes and action items without an extra Microsoft license.
+Third-party tools fill that gap. A Microsoft Teams AI notes taker like Lynkk records Teams and writes notes and action items without an extra Microsoft license. You can start free with 5 hours of recording in total, and the meeting bot comes with Pro at $15 a month.
 
 ## Can Copilot take meeting notes?
 
@@ -206,7 +206,7 @@ Transcripts appear in the meeting's calendar event right after the meeting. With
 You can get Teams AI meeting notes in 4 steps with Lynkk, with no Copilot license needed.
 
 1. **Sign up for Lynkk free** and connect your calendar.
-2. **Choose how to record:** the meeting bot joins automatically, or use the Chrome extension for bot-free recording.
+2. **Choose how to record:** the meeting bot (Pro) joins automatically, or use the Chrome extension for bot-free recording.
 3. **Hold your Teams meeting** as usual.
 4. **Open your notes** about 30 seconds after the call: summary, action items with owners and Jira tickets.
 
