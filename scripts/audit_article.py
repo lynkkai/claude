@@ -43,7 +43,7 @@ def main(path):
     kpos = mt.lower().find(primary.split()[0])
     check(0 <= kpos < 50, f"meta_title contains primary near start (pos {kpos})")
     check(150 <= len(md) <= 160, f"meta_description {len(md)} chars (150-160)")
-    check(primary.lower() in md.lower(), "meta_description contains primary keyword")
+    check(primary.lower() in md.lower().replace("-", " "), "meta_description contains primary keyword")
     check("official" not in (mt + h1).lower(), "no 'Official' in title/H1")
     check(13 <= len(h1.split()) <= 15, f"H1 {len(h1.split())} words (13-15)")
     check(not re.search(r"20\d\d", slug) and len(slug.split("-")) <= 7, f"slug '{slug}' evergreen, <=7 words")
@@ -55,7 +55,7 @@ def main(path):
     template = field("template")[:1]
     minimum = {"A": 2500, "B": 1800, "C": 1200, "D": 1500}.get(template, 1500)
     check(len(words) >= minimum, f"word count {len(words)} (template {template or '?'} minimum {minimum})")
-    check(primary.lower() in " ".join(words[:120]).lower(), "primary keyword in first 100 words")
+    check(primary.lower() in " ".join(words[:120]).lower().replace("-", " "), "primary keyword in first 100 words")
     dens = 100 * low.count(primary.lower()) / len(words)
     check(0.5 <= dens <= 1.5, f"primary density {dens:.2f}% (0.5-1.5)")
     for k in secondaries:

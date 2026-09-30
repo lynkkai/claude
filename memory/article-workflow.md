@@ -45,7 +45,12 @@ Batch 2 (2026-09-30): 10 drafts (#17-#26) written, all pass the audit. Summary: 
 - [x] #24 founders-meeting-notes
 - [x] #25 meeting-knowledge-management
 - [x] #26 daily-standup-meeting
-- [ ] Next batch: #27 one-on-one meetings, #28 legal transcription, #29 medical transcription, #30 meeting minutes sample
+Batch 3 (2026-09-30): final 4 drafts written, all pass the audit. Summary: `seo/audits/batch-3-summary.md`.
+- [x] #27 one-on-one-meeting
+- [x] #28 legal-transcription-service
+- [x] #29 medical-transcription-software (Lynkk HIPAA/BAA status to confirm)
+- [x] #30 meeting-minutes-sample
+- Never claim Lynkk is HIPAA compliant or signs BAAs until the team confirms it.
 
 ## Tools for every article
 - `python3 scripts/build_schema.py articles/<slug>.md` builds Article/ItemList/FAQPage/Breadcrumb schema from the article (keeps FAQ schema in sync).
