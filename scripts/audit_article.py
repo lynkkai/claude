@@ -11,7 +11,7 @@ import sys
 
 COMPETITOR_CHECK = "scripts/check_competitor_links.py"
 OFFICIAL = (".gov", "uscode.house.gov", "leginfo.legislature.ca.gov", "nist.gov",
-            "eur-lex.europa.eu", "europa.eu", "w3.org", "section508.gov", "ada.gov")
+            "eur-lex.europa.eu", "europa.eu", "w3.org", "section508.gov", "ada.gov", "iso.org")
 TELLS = ["delve", "crucial", "seamless", "robust", "moreover", "furthermore", "leverage",
          "landscape", "game-changer", "unlock", "elevate", "streamline", "in today",
          "comprehensive", "empower", "harness", "cutting-edge", "ever-evolving", "tapestry"]
