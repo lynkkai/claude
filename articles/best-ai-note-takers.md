@@ -41,7 +41,7 @@ We compared 9 AI note taker apps on where they work, what happens before and aft
 
 | Rank | Tool | Best for | Free plan | Paid from | Works in person | Helps before and during the meeting |
 |---|---|---|---|---|---|---|
-| **1** | **Lynkk** | **Best overall AI note taker** | **Yes** | [CONFIRM] | **Yes** | **Yes (context briefs + live voice answers)** |
+| **1** | **Lynkk** | **Best overall AI note taker** | **Yes** | **$15/mo (Pro)** | **Yes** | **Yes (context briefs + live voice answers)** |
 | 2 | Fathom | Free recording for online calls | Unlimited recordings | $15/user/mo | [CONFIRM] | No |
 | 3 | Otter | Live transcripts | 300 min/month | $8.33/user/mo | Yes (mobile app) | Live transcript only |
 | 4 | Fireflies | Call libraries for sales teams | 400 min storage | $10/seat/mo | [CONFIRM] | No |
@@ -58,7 +58,7 @@ An AI note taker is an app that captures meeting audio, converts it to text with
 AI meeting notes takers capture audio in three ways:
 
 - **Meeting assistant that joins the call:** records Zoom, Teams or Google Meet from inside the meeting (Lynkk, Otter, Fireflies, Read AI).
-- **Desktop or phone app:** records your device's audio without a bot in the participant list (Lynkk's Mac app, Granola, Jamie, Fathom's bot-free mode).
+- **Desktop app or browser extension:** records without a bot in the participant list (Lynkk's Mac app and Chrome extension, Granola, Jamie, Fathom's bot-free mode).
 - **Built-in platform assistant:** the meeting platform itself summarizes the call (Zoom AI Companion, Microsoft Copilot in Teams, Gemini in Google Meet).
 
 Lynkk supports the first two modes and also records in-person meetings, so one AI note taker covers every conversation.
@@ -84,15 +84,18 @@ Lynkk is the best AI note taker because it is one assistant for the whole meetin
 
 - **Before the meeting:** Lynkk surfaces what was discussed last time, what is still open and who said what, so you start every call ahead instead of cold.
 - **During the meeting:** Lynkk joins the call and speaks when you need it. Ask for past context or a document and get the answer live, by voice.
-- **After the meeting:** within about 30 seconds you get structured notes, action items with owners and deadlines, updated CRM fields and new Jira tickets.
+- **After the meeting:** within about 30 seconds you get [structured notes](https://lynkk.ai/features/meeting-notes), [action items](https://lynkk.ai/features/action-items) with owners and deadlines, updated CRM fields and new Jira tickets.
 - **Every conversation, one place:** Zoom, Google Meet, Teams, Slack, WhatsApp and in-person meetings, with speaker labels. Lynkk captures the room and the people on the other end of the call, not only your own microphone.
-- **A memory that answers back:** Lynkk links decisions, commitments and people across all your meetings in a connected knowledge graph. Ask Lynkk a question in plain English and get a cited answer that links to the exact conversation.
+- **A memory that answers back:** Lynkk links decisions, commitments and people across all your meetings in a [connected knowledge graph](https://lynkk.ai/features/knowledge-graph). Ask Lynkk a question in plain English and get a cited answer that links to the exact conversation.
 - **Built for global teams:** 15+ languages, including switching languages mid-sentence, and offline-first capture.
 - **Privacy you control:** AES-256 encryption, GDPR compliance and a choice of region, so every model behind Lynkk processes your data in the region you pick.
-- **Mac app with dictation:** detects active calls automatically, records both audio channels, and lets you dictate with push-to-talk anywhere on your Mac.
+- **Record with or without a bot:** use the [meeting bot](https://lynkk.ai/features/meeting-bot) for Zoom, Meet and Teams, or the [Chrome extension](https://lynkk.ai/features/chrome-extension) to record the same calls with no bot in the room.
+- **Mac app with dictation:** detects active calls automatically, records both audio channels, and lets you [dictate](https://lynkk.ai/features/dictation) with push-to-talk anywhere on your Mac.
+- **Ask from Slack:** the [Lynkk Slack app](https://lynkk.ai/slack) answers questions about your meetings in any channel.
+- **Your data stays yours:** conversations are never used to train anyone's model.
 - **Connect anything:** calendar, Jira, Calendly, Cal.com, CRM, and any other tool through MCP.
 
-**Pricing:** free plan available, no credit card needed to start. [CONFIRM: paid plan names and prices]
+**Pricing:** start free; Pro is $15 per month, and [Workspaces](https://lynkk.ai/features/workspaces) give the whole team Pro features. See [Lynkk pricing](https://lynkk.ai/pricing). [CONFIRM: free-plan limits and whether $15 is per user and billed monthly or annually]
 
 **[Start free with Lynkk](https://lynkk.ai/)**
 
@@ -107,7 +110,7 @@ Fathom's free plan includes unlimited recordings, transcripts and AI summaries f
 - Choice of bot or bot-free capture.
 - Clips and playlists for sharing moments from calls.
 
-**Where Lynkk goes further:** Fathom works after the meeting. Lynkk also briefs you before the call, answers questions live during it, and records in-person conversations and apps like Slack and WhatsApp.
+**Where Lynkk goes further** ([Lynkk vs Fathom](https://lynkk.ai/compare/fathom)): Fathom works after the meeting. Lynkk also briefs you before the call, answers questions live during it, and records in-person conversations and apps like Slack and WhatsApp.
 
 **Pricing (checked September 30, 2026):** Free; paid plans from $15/user/month, with published tiers from $19 to $34 per user per month. New Team and Business plans require a paid seat for every member. [Source: fathom.ai/pricing]
 
@@ -122,7 +125,7 @@ Otter's free Basic plan includes 300 transcription minutes a month, and Pro cost
 - Mobile app for recording conversations.
 - Business plan adds 6,000 minutes and unlimited file imports.
 
-**Where Lynkk goes further:** Otter transcribes; Lynkk acts. Lynkk turns the meeting into CRM updates and Jira tickets, answers questions by voice during the call, and lets you search every past meeting with cited answers. Otter's minute caps apply on every plan below Enterprise.
+**Where Lynkk goes further:** Otter transcribes; Lynkk acts (see [Lynkk vs Otter](https://lynkk.ai/compare/otter)). Lynkk turns the meeting into CRM updates and Jira tickets, answers questions by voice during the call, and lets you search every past meeting with cited answers. Otter's minute caps apply on every plan below Enterprise.
 
 **Pricing (checked September 30, 2026):** Basic free (300 min/month, 20 AI chat queries); Pro $8.33/user/month annual; Business $19.99/user/month annual; Enterprise custom. [Source: otter.ai/pricing]
 
@@ -136,7 +139,7 @@ Fireflies includes unlimited transcription and AI summaries on all 4 plans, and 
 - Unlimited transcription on every plan.
 - Large library of integrations.
 
-**Where Lynkk goes further:** Fireflies records after you invite its bot. Lynkk adds pre-meeting context, live voice answers during the call, in-person recording and 15+ languages with mid-sentence switching. Fireflies caps recordings at 2 hours on Free and Pro.
+**Where Lynkk goes further** ([Lynkk vs Fireflies](https://lynkk.ai/compare/fireflies)): Fireflies records after you invite its bot. Lynkk adds pre-meeting context, live voice answers during the call, in-person recording and 15+ languages with mid-sentence switching. Fireflies caps recordings at 2 hours on Free and Pro.
 
 **Pricing (checked September 30, 2026):** Free; Pro $10/seat/month annual ($18 monthly); Business $19/seat/month annual ($29 monthly); Enterprise $39/seat/month, annual only. [Source: fireflies.ai/pricing]
 
@@ -150,7 +153,7 @@ Granola records your device's audio without a bot and runs on Mac, Windows, iPho
 - No bot joins the meeting.
 - Enhances your own typed notes.
 
-**Where Lynkk goes further:** Granola is a personal notepad. Lynkk builds a shared memory for the whole team, with a knowledge graph, cited answers across every meeting, automatic Jira tickets and CRM updates, and a live voice assistant during calls.
+**Where Lynkk goes further** ([Lynkk vs Granola](https://lynkk.ai/compare/granola)): Granola is a personal notepad. Lynkk builds a shared memory for the whole team, with a knowledge graph, cited answers across every meeting, automatic Jira tickets and CRM updates, and a live voice assistant during calls.
 
 **Pricing (checked September 30, 2026):** Basic free (30-day history); Business $14/user/month; Enterprise from $35/user/month. [Source: granola.ai/pricing]
 
@@ -205,7 +208,7 @@ Microsoft 365 Copilot costs $30 per user per month as an add-on with an annual c
 **Strengths:**
 - Deep integration with Microsoft 365 apps.
 
-**Where Lynkk goes further:** Copilot covers Teams meetings at $30 per user per month. Lynkk starts free and covers Teams, Zoom, Google Meet, Slack, WhatsApp and in-person meetings, with Jira and CRM follow-up built in.
+**Where Lynkk goes further:** Copilot covers Teams meetings at $30 per user per month. Lynkk starts free, Pro is $15 a month, and it covers Teams, Zoom, Google Meet, Slack, WhatsApp and in-person meetings, with Jira and CRM follow-up built in.
 
 **Pricing (checked September 30, 2026):** $30/user/month add-on, annual commitment. [Source: microsoft.com/microsoft-365-copilot/pricing]
 
@@ -221,11 +224,11 @@ Lynkk is the best AI note taker for meetings because it works on every major pla
 
 ## Is there a free AI note taker?
 
-Yes. 8 of the 9 tools here offer a free option, and **Lynkk has a free plan** you can start without a credit card. Free plans differ a lot: Otter allows 300 minutes a month, Read AI 5 meetings, Jamie 10 meetings of up to 30 minutes, and Granola keeps only the last 30 days. For more detail, see our guide to the [best free AI note takers](/blog/best-free-ai-note-takers).
+Yes. 8 of the 9 tools here offer a free option, and **Lynkk has a free plan**, with Pro at $15 a month. Free plans differ a lot: Otter allows 300 minutes a month, Read AI 5 meetings, Jamie 10 meetings of up to 30 minutes, and Granola keeps only the last 30 days. For more detail, see our guide to the [best free AI note takers](/blog/best-free-ai-note-takers).
 
 ## Can an AI note taker work without joining the meeting?
 
-Yes. A bot-free AI note taker records audio on your own computer, so no extra participant appears on the call. Lynkk's Mac app detects active calls and records both audio channels without a bot, and Granola, Jamie and Fathom also offer bot-free capture.
+Yes. A bot-free AI note taker records audio on your own computer, so no extra participant appears on the call. Lynkk offers two bot-free options: a Chrome extension that records Google Meet, Zoom and Teams, and a Mac app that detects active calls and records both audio channels. Granola, Jamie and Fathom also offer bot-free capture.
 
 Bot-free tools still record other people, so the consent rules below still apply.
 
@@ -237,7 +240,7 @@ If you are weighing an app against a dedicated recorder such as Plaud or Pocket,
 
 ## Are AI note takers safe to use at work?
 
-AI note takers are safe when the vendor encrypts your data, lets you control where it is processed, and follows privacy laws. Lynkk uses AES-256 encryption, is GDPR compliant, and lets you choose the region where every model behind it processes your meetings. Before rolling out any tool, check where data is stored, who can access recordings and whether it offers the agreements your industry needs.
+AI note takers are safe when the vendor encrypts your data, lets you control where it is processed, and follows privacy laws. Lynkk uses AES-256 encryption, is GDPR compliant, never uses your conversations to train anyone's model, and lets you pin your workspace to the region where your meetings are processed. Details are on the [Lynkk security page](https://lynkk.ai/security). Before rolling out any tool, check where data is stored, who can access recordings and whether it offers the agreements your industry needs.
 
 Recording laws also matter in the US: some states require every participant to consent before a conversation is recorded, so announce your AI note taker at the start of each call. [CONFIRM: link to a reputable legal source on state recording consent laws]
 
@@ -286,7 +289,7 @@ Most AI note takers stop at a summary after the call. Lynkk prepares you before 
 
 ## Sources
 
-- Lynkk product details: https://lynkk.ai/
+- Lynkk product details: https://lynkk.ai/ , https://lynkk.ai/features , https://lynkk.ai/pricing , https://lynkk.ai/security
 - Otter.ai pricing: https://otter.ai/pricing
 - Fireflies pricing: https://fireflies.ai/pricing
 - Fathom pricing: https://www.fathom.ai/pricing
@@ -309,7 +312,8 @@ Most AI note takers stop at a summary after the call. Lynkk prepares you before 
 **Keywords:** primary in H1, meta title, meta description, first 100 words and H2s. All 4 secondaries used, plus 7 added keywords (see `keywords_added`).
 
 **Must do before publishing:**
-1. Fill every `[CONFIRM: ...]` (author, test log and screenshots, Lynkk paid pricing, competitor in-person support, legal source, Reddit links).
+1. Fill every `[CONFIRM: ...]` (author, test log and screenshots, Lynkk free-plan limits and Pro billing terms, competitor in-person support, legal source, Reddit links).
+1b. Lynkk facts now also come from the live page titles in `memory/lynkk-site-map.md` (Pro $15/month, Chrome extension, Slack app, Workspaces, no model training on conversations).
 2. Re-check competitor prices on vendor pages (gathered via search because vendor sites are blocked from this environment).
 3. Add 1-2 inbound internal links from existing lynkk.ai pages.
 4. Add `Article`, `ItemList`, `FAQPage` and `BreadcrumbList` schema.

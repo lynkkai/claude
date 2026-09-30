@@ -6,6 +6,7 @@ Brand spelling is always "Lynkk" (double k), not Lynk, Linnk, or Link AI.
 Full brand/product details and ready-to-use tool-submission copy: @memory/lynkk-brand.md
 
 Blog article workflow, skills and progress: @memory/article-workflow.md
+lynkk.ai page list and site facts: @memory/lynkk-site-map.md
 
 ## Writing rules
 
