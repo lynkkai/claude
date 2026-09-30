@@ -232,7 +232,7 @@ Accuracy drops with 3 common problems: background noise, a microphone far from y
 
 ## How do you dictate faster and with fewer errors?
 
-You can dictate faster with 5 habits that work in every voice to text app. Most people type about 40 words a minute but can speak more than 100, so small changes pay off quickly.
+You can dictate faster with 5 habits that work in every voice to text app. Most people speak faster than they type, so a few small changes to how you dictate pay off quickly.
 
 1. **Use a headset or close microphone.** It cuts background noise.
 2. **Speak in full phrases.** Pausing mid-sentence breaks punctuation.
@@ -275,6 +275,8 @@ Some do and some do not. Of the 3 free built-in tools, Windows voice typing need
 ## Conclusion
 
 Built-in tools like Apple Dictation and Windows voice typing are fine for quick messages, and Dragon suits heavy Windows dictation. For professionals who dictate and attend meetings every day, Lynkk is the best voice to text app: dictation anywhere on your Mac plus meeting transcripts, notes and tasks in 1 place. **[Start free with Lynkk](https://lynkk.ai/)**.
+
+
 
 
 <script type="application/ld+json">

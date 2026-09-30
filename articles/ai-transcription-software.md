@@ -221,7 +221,7 @@ Call transcription software for sales should also prepare reps before the next c
 
 | Sales task | Manual way | With Lynkk |
 |---|---|---|
-| Write call notes | 10-15 minutes per call | About 30 seconds, automatic |
+| Write call notes | Typed by hand after each call | About 30 seconds, automatic |
 | Update the CRM | Copy fields by hand | CRM fields updated for you |
 | Prepare for the next call | Reread old notes | Context brief before the call |
 
@@ -277,6 +277,7 @@ Lynkk transcribes 15+ languages and handles speakers who switch languages mid-se
 ## Conclusion
 
 The best AI transcription software depends on your audio: Rev and Word Transcribe for single files, Descript for editing media, Otter for live transcripts. For meetings and interviews, Lynkk leads because it records, transcribes in 15+ languages and finishes the follow-up for you. **[Start free with Lynkk](https://lynkk.ai/)**.
+
 
 
 

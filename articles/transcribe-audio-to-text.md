@@ -64,7 +64,7 @@ We compared 7 ways to transcribe audio to text, from free built-in tools to paid
 
 ## What does it mean to transcribe audio to text?
 
-To transcribe audio to text means turning spoken words in a recording or live conversation into written text, usually 150 or more words for every minute of speech. Voice recognition transcription software does this automatically with AI, while human transcribers type it by hand for higher accuracy on difficult audio.
+To transcribe audio to text means turning spoken words in a recording or live conversation into written text that you can search, skim and share within minutes of 1 recording ending. Voice recognition transcription software does this automatically with AI, while human transcribers type it by hand for higher accuracy on difficult audio.
 
 A good transcript adds 3 things a plain recording lacks: it is searchable, it can be skimmed in 2-3 minutes instead of replayed in full, and it can be turned into notes and action items.
 
@@ -267,7 +267,7 @@ For meetings and interviews, Lynkk is the best way to transcribe audio to text. 
 Yes. At least 4 tools offer free transcription: Lynkk's free plan, Otter's 300 free minutes a month, Descript's 1 free hour a month, and the dictation built into Windows and macOS. Each has a limit, so match the tool to how much audio you need to transcribe.
 
 ### How long does it take to transcribe audio to text?
-AI tools transcribe audio to text in 1-5 minutes for a typical meeting, and Lynkk delivers notes about 30 seconds after a call ends. Human transcription services take up to 12 hours, with faster rush options at extra cost. Manual typing can take 4 or more hours per hour of audio.
+AI tools transcribe audio to text in 1-5 minutes for a typical meeting, and Lynkk delivers notes about 30 seconds after a call ends. Human transcription services take up to 12 hours, with faster rush options at extra cost. Typing a transcript yourself takes far longer than listening to the audio once.
 
 ### Can ChatGPT or Word transcribe audio?
 Microsoft Word can transcribe uploaded audio files, with 300 minutes a month on Microsoft 365. General chatbots are not built for long meeting audio with several speakers. For meetings, a dedicated tool like Lynkk adds speaker labels, notes and action items automatically.
@@ -281,6 +281,7 @@ Yes. Lynkk transcribes 15+ languages and handles speakers who switch languages m
 ## Conclusion
 
 Transcribing audio to text takes minutes with the right tool: capture clean audio, let voice recognition do the work, then review and export. For meetings and interviews, Lynkk goes further than any file transcriber by recording the conversation, transcribing it in 15+ languages and writing the notes and tasks for you. **[Start free with Lynkk](https://lynkk.ai/)**.
+
 
 
 
@@ -376,7 +377,7 @@ Transcribing audio to text takes minutes with the right tool: capture clean audi
           "name": "How long does it take to transcribe audio to text?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "AI tools transcribe audio to text in 1-5 minutes for a typical meeting, and Lynkk delivers notes about 30 seconds after a call ends. Human transcription services take up to 12 hours, with faster rush options at extra cost. Manual typing can take 4 or more hours per hour of audio."
+            "text": "AI tools transcribe audio to text in 1-5 minutes for a typical meeting, and Lynkk delivers notes about 30 seconds after a call ends. Human transcription services take up to 12 hours, with faster rush options at extra cost. Typing a transcript yourself takes far longer than listening to the audio once."
           }
         },
         {
