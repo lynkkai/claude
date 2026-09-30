@@ -28,10 +28,10 @@ The actual H1 text and meta description could not be read (lynkk.ai is blocked f
 | Keyword | Vol/mo | SD | Notes |
 |---|---|---|---|
 | ai powered meeting assistant | 40,500 | 50 | **Volatile:** 5,400 (Sep 2025) to 90,500 (Mar and Jun 2026) to 40,500 (Aug 2026). Read.ai homepage #2, Otter #6 |
-| ai notes taker | 27,100 | **34** | Same volume as "ai note taker" but **lower difficulty**. Read.ai homepage #4 |
+| ai notes taker | 27,100 | 34 | **Same pool of searches as "ai note taker"** (identical monthly history and click estimates), so it is not extra volume. The lower SD is Ubersuggest's estimate for a SERP that overlaps heavily (Read AI, Otter, Notta in both); treat it as the same target. Read.ai homepage #4 |
 | ai note taker | 27,100 | 48 | Biggest stable term |
 | ai meeting assistant | 4,400 | 60 | Commercial intent. Read.ai #3, Otter #6 |
-| meeting assistant | 4,400 | 59 | Read.ai #2, Otter #3 |
+| meeting assistant | 4,400 | 59 | **Spiky:** monthly range 90 to 33,100; 13-month median 2,400. Read.ai #2, Otter #3 |
 | ai notetaker | 2,900 | 42 | Transactional. Read.ai #2 |
 | conversation intelligence | 1,900 | 60 | **In current title.** Hardest term here; trend fell from 3,600 (Mar 2025) to 590 (Feb 2026) |
 | meeting ai | 1,900 | 48 | |
@@ -47,8 +47,8 @@ The actual H1 text and meta description could not be read (lynkk.ai is blocked f
 | ai note taker for in person meetings | 480 | 40 | Online **and** in person |
 | record meeting notes | 390 | 57 | |
 | ai powered meeting notes | 260 | 49 | |
-| live ai meeting assistant | 170 | 51 | "Speaks when you need it" |
-| real time ai meeting assistant | 110 | 59 | Same |
+| live ai meeting assistant | 170 | 51 | "Speaks when you need it". **Usually 10 to 20/mo;** 170 is the latest month and there was one 1,600 spike (median 20) |
+| real time ai meeting assistant | 110 | 59 | Same. **Usually 10 to 70/mo;** one 880 spike (Apr 2026), median 30 |
 | ai meeting agent | 50 | 60 | |
 | offline ai note taker | 10 | 36 | Offline-first: little search demand |
 | voice ai meeting assistant | 0 | 4 | No demand. Explain the feature, don't target the phrase |
@@ -57,7 +57,7 @@ The actual H1 text and meta description could not be read (lynkk.ai is blocked f
 
 | Keyword | Vol/mo | Notes |
 |---|---|---|
-| lynkk (Global) | 170 | Falling: 260 (Oct 2025, Jan 2026) to 70 to 90 (Jul to Aug 2026) |
+| lynkk (Global) | 170 | Uneven: 260 (Oct 2025, Jan 2026), dipped to 70 to 90 (Jun to Aug 2026), back to 170 (Sep 2026) |
 | lynkk ai (Global) | 0 | Nobody searches the "Lynkk AI" form yet |
 | lynk ai (US) | 30 | Misspelling/competitor brand (Navigational), a brand-confusion risk |
 
@@ -121,10 +121,10 @@ recovery)** #6, instagram @lynkkup (Bangalore) #7, lynkk.it #8, Lynk & Co #10.
 
 | # | Change | Why (evidence) | Priority |
 |---|---|---|---|
-| 1 | **Rewrite the title** to pair the brand with one fixed category term. Options: **"Lynkk: AI Note Taker & Meeting Assistant for Every Call"** (55 chars) or **"Lynkk AI Note Taker: Meeting Notes Before, During, After"** (56 chars) | "ai note taker"/"ai notes taker" (27,100 each) and "ai meeting assistant" (4,400) are missing. "Conversation intelligence" is the hardest term (SD 60) and falling. Every competitor that ranks for brand+category puts the category right after the brand. [DATA] | High |
-| 2 | **Pick one brand pairing and use it site-wide:** "Lynkk AI Note Taker" (or "Lynkk AI Meeting Assistant"). Use it in the H1 or subhead, the first paragraph, footer, schema, app store and Chrome listings | Competitors' homepage traffic comes from "[brand] + category" (fathom note taker 8,100, fireflies ai notetaker 4,400). "lynkk ai" has 0 searches today, and brand searches for "lynkk" are falling. [DATA] A consistent pairing is how those searches get built. [JUDGMENT] | High |
+| 1 | **Rewrite the title** to pair the brand with one fixed category term. Options: **"Lynkk: AI Note Taker & Meeting Assistant for Every Call"** (55 chars) or **"Lynkk AI Note Taker: Meeting Notes Before, During, After"** (56 chars) | "ai note taker" (27,100; "ai notes taker" is the same pool of searches, not additive) and "ai meeting assistant" (4,400) are missing. "Conversation intelligence" is the hardest term (SD 60) and falling. Every competitor that ranks for brand+category puts the category right after the brand. [DATA] | High |
+| 2 | **Pick one brand pairing and use it site-wide:** "Lynkk AI Note Taker" (or "Lynkk AI Meeting Assistant"). Use it in the H1 or subhead, the first paragraph, footer, schema, app store and Chrome listings | Competitors' homepage traffic comes from "[brand] + category" (fathom note taker 8,100, fireflies ai notetaker 4,400). "lynkk ai" has 0 searches today, and brand searches for "lynkk" are small (170/mo) and uneven. [DATA] A consistent pairing is how those searches get built. [JUDGMENT] | High |
 | 3 | **H1: include the category term.** Keep the benefit ("Record any conversation...") as the subhead | Lynkk's visible hook in snippets is benefit-only. [WEB] Fathom and tl;dv lead with "AI Notetaker". [DATA] Exact current H1 is [UNVERIFIED]. | High |
-| 4 | **Add sections that use differentiator keywords:** "AI meeting recorder for online and in-person meetings" (480 + 480), "Live AI meeting assistant that speaks in your call" (170 + 110), "Meeting notes AI in 30 seconds" (590) | These are Lynkk's real differentiators (brand memory) *and* have search demand. [DATA] | Medium |
+| 4 | **Add sections that use differentiator keywords:** "AI meeting recorder for online and in-person meetings" (480 + 480), "Live AI meeting assistant that speaks in your call" (usually 10 to 30/mo each; explains the feature more than it captures traffic), "Meeting notes AI in 30 seconds" (590) | These are Lynkk's real differentiators (brand memory). The recorder and in-person terms have steady demand; the live-assistant terms are small. [DATA] | Medium |
 | 5 | **Add a "What is Lynkk?" FAQ block** (plus FAQ schema) | Competitors rank for "what is [brand]" (otter 1,900, fireflies 1,000, granola 590). [DATA] It also helps Google tell Lynkk apart from lynk.id / lynkk.in. [JUDGMENT] | Medium |
 | 6 | **Disambiguate the brand:** add Organization schema with `sameAs` links (x.com/LynkkHQ, Chrome Web Store listing, LinkedIn/Product Hunt once confirmed) and say "Lynkk AI meeting assistant" near the logo/footer | Page 1 for "lynkk" includes lynk.id, lynkk.in, Lynk & Co and others. [DATA] | Medium |
 | 7 | **Hand "AI meeting notes" to /features/meeting-notes** and link to it from the homepage with that anchor text | Avoids the homepage and feature page competing for the same term (cannibalization noted in the product-pages report). [JUDGMENT] | Medium |

@@ -189,7 +189,7 @@ volume-to-difficulty ratio in this audit). [JUDGMENT]
 | record google meet | 1,300 | 30 | |
 | google meet ai note taker | 590 | 40 | Google owns top spots |
 | google meet note taker | 390 | 35 | |
-| record google meet chrome extension | 140 | 36 | |
+| record google meet chrome extension | 140 | 36 | Usually 10 to 30/mo; spiked 590 to 880 (May to Jun 2026) |
 | record google meet extension | 140 | 32 | |
 | bot free ai note taker | 110 | 59 | |
 | ai note taker that doesn't join meetings | 90 | 30 | |
@@ -216,7 +216,7 @@ neither "Chrome extension" nor "note taker". [DATA] "Chrome extension" phrasing 
 
 | Keyword | Vol | SD |
 |---|---|---|
-| slack ai notes | 170 | 34 |
+| slack ai notes | 170 (usually about 30; spike months 1,600 and 170) | 34 |
 | slack ai note taking | 50 | 44 |
 | slack ai note taker | 30 | 44 |
 | slack huddle transcription | 30 | 30 |
@@ -238,8 +238,8 @@ discovery, not organic traffic.
 
 | Keyword | Vol | SD | Note |
 |---|---|---|---|
-| team ai meeting notes | 720 | 25 | Lowest SD among the 700+ terms |
-| team ai note taker | 720 | 27 | SERP: no data |
+| team ai meeting notes | 720 | 25 | Lowest SD among the 700+ terms. Data last updated Dec 2025 |
+| team ai note taker | 720 | 27 | SERP: no data. Data last updated Dec 2025; moves with the row above (likely one pool) |
 | ai note taker for teams | 590 | 29 | Likely Microsoft Teams intent mixed in |
 | team meeting notes | 390 | 43 | Informational; suggestions are mostly templates |
 | shared meeting notes | 0 | 12 | |
@@ -267,7 +267,7 @@ discovery, not organic traffic.
 | /features/chrome-extension | Yes | **High** | google meet ai note taker, bot free ai note taker | 590 / 40, 110 / 59 |
 | /features/workspaces | Yes | Medium | team ai meeting notes | 720 / 25 |
 | /features/knowledge-graph | Yes (repositioning) | Medium | none found for concept; "ai meeting assistant" as option | 0; 4,400 / 60 |
-| /slack | Light touch | Low | slack ai notes | 170 / 34 |
+| /slack | Light touch | Low | slack ai notes | 170 / 34 (usually about 30) |
 
 New pages suggested by the data: **/compare/wispr-flow** (480, SD 11), **Google Meet note taker** page
 (590, SD 40), **"How to record Google Meet"** blog post (2,400, SD 25). [DATA for volumes; pages are JUDGMENT]

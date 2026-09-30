@@ -64,3 +64,15 @@ Nothing may be presented as fact if it is only [JUDGMENT] or [UNVERIFIED].
 
 Save raw tool responses (or a faithful table of them) alongside any report under
 `seo/data/`, so every number in a report can be traced back.
+
+## 8. Check the monthly history, not just the headline number
+
+- Ubersuggest's headline volume is the latest month. Before relying on a keyword, look at its monthly history:
+  if the headline is 2x or more the median month, or the highest month is 8x or more the lowest, report the typical
+  (median) month next to the headline and call it "spiky".
+- Note the date of the latest month. If it is more than 3 months old, label the data "stale".
+
+## 9. Don't add up variants that share one pool of searches
+
+- If two keywords have identical monthly histories (for example "ai note taker" and "ai notes taker"), treat them as
+  one pool of searches: never add their volumes together, and don't present one as an easier alternative to the other.
