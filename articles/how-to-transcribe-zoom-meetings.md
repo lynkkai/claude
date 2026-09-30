@@ -39,7 +39,6 @@ status: draft (not published)
 
 *Last updated: September 30, 2026 · Checked against Zoom's help center on September 30, 2026*
 
-
 > **Quick answer:** You can transcribe Zoom meetings in 3 ways. Zoom creates an audio transcript for cloud recordings on paid plans, but only if the setting was on before the meeting. AI Companion adds a transcript with its meeting summary on paid plans. **The easiest way is Lynkk**, which transcribes Zoom on free and paid accounts in 15+ languages and adds notes and tasks about 30 seconds after the call.
 
 > **Disclosure:** This guide is published by Lynkk. Zoom steps come from Zoom's help center, checked on the date above.
@@ -147,12 +146,6 @@ Yes. Lynkk transcribes Zoom meetings in 15+ languages and handles speakers who s
 ## Conclusion
 
 Zoom's own transcript works well on paid plans, as long as the setting is on before the meeting. For a transcript on any Zoom plan, plus notes, tasks and Jira tickets about 30 seconds after the call, Lynkk is the easiest way to transcribe Zoom. **[Start free with Lynkk](https://lynkk.ai/)**.
-
-
-
-
-
-
 
 <script type="application/ld+json">
 {

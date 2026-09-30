@@ -43,7 +43,6 @@ status: draft (not published)
 
 *Last updated: September 30, 2026 · Checked against Microsoft Support and Microsoft Learn on September 30, 2026*
 
-
 > **Quick answer:** A Teams AI note taker records a Microsoft Teams meeting and turns it into a summary, decisions and action items. **Lynkk is the best Teams AI note taker in 2026** because it records Teams with or without a bot, delivers notes and Jira tickets about 30 seconds after the call, and covers Zoom, Google Meet and in-person meetings too. Microsoft's own Copilot costs $30 per user per month on top of a Microsoft 365 license.
 
 > **Disclosure:** This guide is published by Lynkk, and Lynkk is one of the tools reviewed. Microsoft details come from Microsoft Support and Microsoft Learn; other tools' details come from each vendor's own pricing page, checked on the date above.
@@ -277,17 +276,6 @@ Yes, Lynkk can. About 30 seconds after a Teams meeting, Lynkk turns decisions an
 ## Conclusion
 
 Microsoft's Teams AI features work well if you live entirely inside Microsoft 365 and can pay $30 per user per month. For everyone else, Lynkk is the best Teams AI note taker: it starts free, records Teams with or without a bot, turns meetings into Jira tickets and CRM updates, and covers Zoom, Google Meet and in-person meetings too. **[Start free with Lynkk](https://lynkk.ai/)**.
-
-
-
-
-
-
-
-
-
-
-
 
 <script type="application/ld+json">
 {

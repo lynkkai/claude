@@ -42,7 +42,6 @@ status: draft (not published)
 
 *Last updated: September 30, 2026 · Checked against Apple, Microsoft, Google and vendor pages on September 30, 2026*
 
-
 > **Quick answer:** A voice to text app turns your speech into typed text as you talk, so you can write emails, notes and documents without a keyboard. **Lynkk is the best voice to text app for professionals in 2026**: its push-to-talk dictation types anywhere on your Mac, and the same app transcribes your meetings in 15+ languages. The best free options are built in: Apple Dictation (press Fn twice), Windows voice typing (Windows key + H) and Google Docs voice typing.
 
 > **Disclosure:** This guide is published by Lynkk, and Lynkk is one of the tools reviewed. Other tools' details come from Apple Support, Microsoft Support, Google Docs Help and each vendor's own pages, checked on the date above.
@@ -280,15 +279,6 @@ Some do and some do not. Of the 3 free built-in tools, Windows voice typing need
 ## Conclusion
 
 Built-in tools like Apple Dictation and Windows voice typing are fine for quick messages, and Dragon suits heavy Windows dictation. For professionals who dictate and attend meetings every day, Lynkk is the best voice to text app: dictation anywhere on your Mac plus meeting transcripts, notes and tasks in 1 place. **[Start free with Lynkk](https://lynkk.ai/)**.
-
-
-
-
-
-
-
-
-
 
 <script type="application/ld+json">
 {

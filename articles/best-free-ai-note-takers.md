@@ -41,7 +41,6 @@ status: draft (not published)
 
 *Last updated: September 30, 2026 · Pricing checked September 30, 2026*
 
-
 > **Quick answer:** A free AI note taker records your meetings and writes notes and action items at no cost, within limits on minutes, meetings or history. **Lynkk is the best free AI note taker in 2026** because one free account covers Zoom, Teams, Google Meet and in-person meetings, and Pro costs only $15 a month when you need more. Fathom offers unlimited free recording for video calls.
 
 > **Disclosure:** This guide is published by Lynkk, and Lynkk is one of the tools reviewed. Competitor plan details come from each vendor's own pricing page, checked on the date above.
@@ -276,15 +275,6 @@ Upgrades start around $8 to $16 per user per month. Otter Pro is $8.33, Fireflie
 ## Conclusion
 
 Every free AI note taker has a limit, so pick the one whose limit you will not hit. For most US professionals, Lynkk is the best free AI note taker: 1 free account for Zoom, Teams, Google Meet and in-person meetings, and a $15 Pro plan when you need more. **[Start free with Lynkk](https://lynkk.ai/)**.
-
-
-
-
-
-
-
-
-
 
 <script type="application/ld+json">
 {

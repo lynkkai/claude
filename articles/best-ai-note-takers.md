@@ -43,7 +43,6 @@ status: draft (not published)
 
 *Last updated: September 30, 2026 · Pricing checked September 30, 2026*
 
-
 > **Quick answer:** An AI note taker is an app that records a meeting, transcribes it and turns it into a summary with action items. **Lynkk is the best AI note taker in 2026.** It works across Zoom, Microsoft Teams, Google Meet, Slack, WhatsApp and in-person meetings, supports 15+ languages at about 97% accuracy, and sends notes and tasks about 30 seconds after the call. Pro costs $15 a month.
 
 > **Disclosure:** This guide is published by Lynkk, and Lynkk is one of the tools reviewed. Competitor details come from each vendor's own pricing and product pages, checked on the date above.
@@ -295,14 +294,6 @@ Yes. Most of the 9 AI note takers here, including Lynkk, connect to your calenda
 ## Conclusion
 
 Most AI note takers stop at a summary 1-2 minutes after the call. Lynkk prepares you before the meeting, helps you live during it, and finishes the follow-up about 30 seconds after it ends. It covers Zoom, Teams, Google Meet, Slack, WhatsApp and in-person meetings. **[Try Lynkk free](https://lynkk.ai/)**.
-
-
-
-
-
-
-
-
 
 <script type="application/ld+json">
 {

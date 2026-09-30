@@ -42,7 +42,6 @@ status: draft (not published)
 
 *Last updated: September 30, 2026 · Checked against Zoom's help center and vendor pages on September 30, 2026*
 
-
 > **Quick answer:** Zoom AI Companion is Zoom's built-in AI assistant, included at $0 extra with paid Zoom Workplace plans, that writes meeting summaries, live notes and next steps. **The best Zoom AI Companion alternative is Lynkk**: it starts free, briefs you before calls, answers questions by voice during them, and turns every meeting into notes, CRM updates and Jira tickets across Zoom, Teams, Google Meet, Slack, WhatsApp and in person.
 
 > **Disclosure:** This guide is published by Lynkk, and Lynkk is one of the tools reviewed. Zoom details come from Zoom's help center and announcements; other tools' details come from each vendor's own pages, checked on the date above.
@@ -285,14 +284,6 @@ For most teams that want follow-up done for them, yes. Lynkk works on free Zoom 
 ## Conclusion
 
 AI Companion is a useful built-in assistant for teams already paying for Zoom. If you want an assistant that works on any Zoom plan, prepares you before each meeting, answers you during it and finishes the follow-up in Jira and your CRM, Lynkk is the best Zoom AI Companion alternative. **[Start free with Lynkk](https://lynkk.ai/)**.
-
-
-
-
-
-
-
-
 
 <script type="application/ld+json">
 {

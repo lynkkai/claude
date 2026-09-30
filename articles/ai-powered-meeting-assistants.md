@@ -41,7 +41,6 @@ status: draft (not published)
 
 *Last updated: September 30, 2026 · Pricing checked September 30, 2026*
 
-
 > **Quick answer:** An AI powered meeting assistant is software that helps you at every stage of a meeting: it prepares you before the call, supports you live during it, and writes notes and tasks after it. **Lynkk is the best AI-powered meeting assistant in 2026** because it does all 3: context briefs before, answers by voice during, and notes, CRM updates and Jira tickets about 30 seconds after, across Zoom, Teams, Google Meet and in-person meetings.
 
 > **Disclosure:** This guide is published by Lynkk, and Lynkk is one of the tools reviewed. Other tools' details come from each vendor's own pricing, product and help pages, checked on the date above.
@@ -285,14 +284,6 @@ Choose Copilot if your company runs fully on Microsoft 365 and wants AI in Word,
 ## Conclusion
 
 Most tools called an AI meeting assistant only help after the call. Lynkk is the best AI-powered meeting assistant because it helps at every stage: it prepares you before the meeting, answers you during it and finishes the follow-up after it, on every platform and in person. **[Start free with Lynkk](https://lynkk.ai/)**.
-
-
-
-
-
-
-
-
 
 <script type="application/ld+json">
 {
