@@ -214,3 +214,30 @@ r/Slack, #7 fellow.ai/integrations/slack (DA 46), #11 tactiq.io, #14 youtube.
   (so body copy, H1s, meta descriptions and word counts were not read directly).
 - Direct fetch of notion.com and tldv.io pages: blocked by network policy.
 - SERPs for "speech to text mac" and "team ai note taker": Ubersuggest returned no data.
+
+## 8. Competitor product-page SERPs (second pull, 2026-09-30, US, English)
+
+Only vendor product/feature/store pages are listed; blogs, listicles, forums and videos are omitted.
+Position = organic position in the Ubersuggest response. Ubersuggest "updated_at" shown per SERP.
+
+| Keyword (SERP updated) | Vendor pages found (position) |
+|---|---|
+| ai note taker (2026-09-29) | note1.ai/features/ai-note-taker (#8); rest are app stores, listicles, reddit |
+| ai meeting assistant (2026-09-05) | krisp.ai/ai-meeting-assistant/ (#2), read.ai/ (#3), otter.ai/ (#6), meeting.ai/en/p (#8), fireflies.ai/ (#9), fellow.ai/ (#15), notta.ai/en (#20) |
+| ai dictation app (2026-09-14) | wisprflow.ai/ (#5), aidictation.com/ (#10), blabby.ai/dictation-software (#17), openwhispr.com/ (#19), superwhisper.com/ (#21) |
+| dictation app mac (2026-09-30) | usevoicy.com/dictation-for-mac/ (#5), screenapp.io/features/dictation-app (#6), usevoicy.com/dictation-app/ (#25) |
+| ai note taker chrome extension (2026-09-04) | Chrome Web Store Scribbl (#1), tactiq.io/ (#2), Chrome Web Store Fireflies (#4), notta.ai/en (#5), read.ai/ (#6), otter.ai/googlemeet (#7), scribbl.co/ (#10), fellow.ai/integrations/chrome-extension (#13), zoom.com AI note taking (#16), jotme.io/google-meet/ai-note-taker (#17), tactiq.io/chrome-extension (#18), read.ai/google (#19), tldv.io/note-taker-google-meet/ (#21) |
+| bot free note taker (2026-09-30) | screenapp.io/features/google-meet-ai-notetaker (#13), screenapp.io/features/microsoft-teams-ai-notetaker (#20) |
+| slack ai notes (2026-09-15) | slack.com help article (#1), recall.ai/product/slack-huddles-api (#9), slack.com/features/ai (#16), fellow.ai/integrations/slack (#18), otter.ai/apps/slack (#20), read.ai/slack (#27) |
+| ai note taker for teams (2026-09-30) | fellow.ai/use-cases/operations (#5) |
+| ai meeting notes for teams (2026-09-30) | none (app stores and listicles only) |
+| team meeting notes app (2026-09-30) | none (app stores and listicles only) |
+| collaborative meeting notes (2026-09-30) | none (templates and unrelated results) |
+| meeting intelligence (2026-09-30) | none (unrelated results) |
+| ask ai about your meetings | No data |
+| search across meetings ai | No data |
+| meeting memory ai | No data |
+
+Web search (not Ubersuggest) was used for knowledge-graph and workspaces pages because the SERPs above had
+none: otter.ai/chat, read.ai/search-copilot, guide.fireflies.ai Global AskFred article,
+fireflies.ai/team-collaboration, otter.ai/business, fellow.ai/enterprise.
