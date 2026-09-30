@@ -247,7 +247,7 @@ Reddit threads such as "best AI note taker for Microsoft Teams" and "Otter AI vs
 
 1. **Copilot is expensive for notes alone.** Users question paying $30 per user per month only for meeting recaps.
 2. **IT approval takes time.** Some third-party bots need admin consent in the Microsoft 365 tenant.
-3. **People want 1 tool for every platform.** Teams-only AI does not help with Zoom client calls or in-person meetings.
+3. **People want 1 tool for every platform.** Many teams also hold Zoom client calls and in-person meetings.
 
 ## FAQ
 
@@ -261,7 +261,7 @@ Teams includes free recording and transcription, but 2 of its AI features cost e
 It depends on your company's Microsoft 365 settings, so check with IT first. Lynkk offers 2 ways to record Teams: a meeting bot that joins from your calendar, and a Chrome extension that records Teams in the browser with no bot in the meeting. [CONFIRM: Lynkk admin requirements]
 
 ### Does Copilot work in Zoom or Google Meet?
-Microsoft 365 Copilot's meeting recap works in Microsoft Teams, not in Zoom or Google Meet. If your company meets on 2 or more platforms, a cross-platform note taker such as Lynkk records Teams, Zoom, Google Meet and in-person meetings in 1 place.
+Microsoft 365 Copilot's meeting recap is built into Microsoft Teams meetings and needs a Copilot license. If your company meets on 2 or more platforms, a cross-platform note taker such as Lynkk records Teams, Zoom, Google Meet and in-person meetings in 1 place.
 
 ### How accurate are Teams AI meeting notes?
 Accuracy depends on audio quality, accents and people talking over each other. Lynkk transcribes Teams calls in 15+ languages at about 97% accuracy with speaker labels. For best results, ask attendees to use headsets and to avoid talking over each other on important calls.
@@ -272,6 +272,8 @@ Yes, Lynkk can. About 30 seconds after a Teams meeting, Lynkk turns decisions an
 ## Conclusion
 
 Microsoft's Teams AI features work well if you live entirely inside Microsoft 365 and can pay $30 per user per month. For everyone else, Lynkk is the best Teams AI note taker: it starts free, records Teams with or without a bot, turns meetings into Jira tickets and CRM updates, and covers Zoom, Google Meet and in-person meetings too. **[Start free with Lynkk](https://lynkk.ai/)**.
+
+
 
 
 
@@ -374,7 +376,7 @@ Microsoft's Teams AI features work well if you live entirely inside Microsoft 36
           "name": "Does Copilot work in Zoom or Google Meet?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Microsoft 365 Copilot's meeting recap works in Microsoft Teams, not in Zoom or Google Meet. If your company meets on 2 or more platforms, a cross-platform note taker such as Lynkk records Teams, Zoom, Google Meet and in-person meetings in 1 place."
+            "text": "Microsoft 365 Copilot's meeting recap is built into Microsoft Teams meetings and needs a Copilot license. If your company meets on 2 or more platforms, a cross-platform note taker such as Lynkk records Teams, Zoom, Google Meet and in-person meetings in 1 place."
           }
         },
         {

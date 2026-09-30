@@ -7,6 +7,7 @@ Full brand/product details and ready-to-use tool-submission copy: @memory/lynkk-
 
 Blog article workflow, skills and progress: @memory/article-workflow.md
 lynkk.ai page list and site facts: @memory/lynkk-site-map.md
+Verified competitor facts and claims to avoid: @memory/competitor-facts.md
 
 ## Writing rules
 

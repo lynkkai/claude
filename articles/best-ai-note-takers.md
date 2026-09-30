@@ -62,7 +62,7 @@ We compared 9 AI note taker apps on coverage, follow-up and price. Prices are th
 | 5. Granola | Personal notepad | 30-day history | $14/user/month |
 | 6. Jamie | EU-hosted bot-free notes | 10 meetings/month | €25/month |
 | 7. Read AI | Meeting analytics | 5 meetings/month | $15/user/month |
-| 8. Zoom AI Companion | Zoom-only teams | With paid Zoom | $0 extra |
+| 8. Zoom AI Companion | Zoom-first teams | With paid Zoom | $0 extra |
 | 9. Microsoft 365 Copilot | Microsoft 365 companies | No | $30/user/month |
 
 ## What is an AI note taker?
@@ -198,13 +198,14 @@ Read AI's free plan covers 5 meetings a month, and Pro starts at $15 per user pe
 
 **Pricing (checked September 30, 2026):** free (5 meetings/month); Pro from $15/user/month annual; Enterprise on request. Source: Read AI pricing page, checked September 30, 2026.
 
-## 8. Zoom AI Companion: best for Zoom-only teams
+## 8. Zoom AI Companion: best for Zoom-first teams
 
-Zoom AI Companion costs $0 extra with paid Zoom Workplace plans and sends hosts a summary after each meeting. It only works inside Zoom.
+Zoom AI Companion costs $0 extra with paid Zoom Workplace plans and sends hosts a summary after each meeting. It is built into Zoom, and licensed users can also invite it to Microsoft Teams and Google Meet meetings.
 
 **Strengths:**
 - No extra cost for paid Zoom customers.
 - Live notes during Zoom meetings.
+- Can join Teams and Google Meet meetings for licensed users.
 
 **Where Lynkk goes further:** Lynkk covers Zoom plus Teams, Google Meet, Slack, WhatsApp and in-person meetings, all in 1 searchable memory.
 
@@ -228,7 +229,7 @@ Lynkk is the best AI note taker for meetings because it works on 5 platforms plu
 - **Free recording of video calls only:** Fathom.
 - **A live transcript to read:** Otter.
 - **A recorded sales call library:** Fireflies.
-- **Every meeting on 1 platform:** Zoom AI Companion (Zoom) or Copilot (Teams).
+- **Already paying for Zoom or Microsoft 365:** Zoom AI Companion or Copilot.
 - **One assistant for every meeting, online and in person:** Lynkk.
 
 ## Is there a free AI note taker?
@@ -278,10 +279,10 @@ Answer these 5 questions before you pick an AI note taker app.
 Lynkk is the best AI note taker in 2026. It records Zoom, Teams, Google Meet, Slack, WhatsApp and in-person meetings in 15+ languages. Notes and action items arrive in about 30 seconds, and Lynkk also briefs you before each call and answers questions by voice during it.
 
 ### What is the best AI meeting notes taker for Zoom?
-Lynkk works with Zoom in 2 ways, a meeting bot or a bot-free Chrome extension, and it adds your Zoom calls to the same searchable memory as every other meeting. Zoom AI Companion costs nothing extra with paid Zoom plans, but it only works inside Zoom meetings.
+Lynkk works with Zoom in 2 ways, a meeting bot or a bot-free Chrome extension, and it adds your Zoom calls to the same searchable memory as every other meeting. Zoom AI Companion costs nothing extra with paid Zoom plans, but it needs a paid Zoom account.
 
 ### Does Microsoft Teams have an AI note taker?
-Microsoft 365 Copilot can recap Teams meetings for $30 per user per month on top of a Microsoft 365 license. Lynkk also records Teams meetings, starts free and costs $15 a month for Pro. It adds Jira tickets, CRM updates and in-person recording that Copilot does not cover.
+Microsoft 365 Copilot can recap Teams meetings for $30 per user per month on top of a Microsoft 365 license. Lynkk also records Teams meetings, starts free and costs $15 a month for Pro. It adds Jira tickets, CRM updates and in-person recording in the same account.
 
 ### Does Google Meet have an AI note taker?
 Gemini in Google Meet can take notes on eligible Google Workspace plans, 1 of 3 built-in assistants in this list. [CONFIRM: current plan eligibility] Lynkk records Google Meet too, with a bot or with its Chrome extension. It connects those notes with your Zoom, Teams and in-person meetings, so you can search everything in 1 place.
@@ -295,6 +296,7 @@ Yes. Most of the 9 AI note takers here, including Lynkk, connect to your calenda
 ## Conclusion
 
 Most AI note takers stop at a summary 1-2 minutes after the call. Lynkk prepares you before the meeting, helps you live during it, and finishes the follow-up about 30 seconds after it ends. It covers Zoom, Teams, Google Meet, Slack, WhatsApp and in-person meetings. **[Try Lynkk free](https://lynkk.ai/)**.
+
 
 
 
@@ -389,7 +391,7 @@ Most AI note takers stop at a summary 1-2 minutes after the call. Lynkk prepares
           "name": "What is the best AI meeting notes taker for Zoom?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Lynkk works with Zoom in 2 ways, a meeting bot or a bot-free Chrome extension, and it adds your Zoom calls to the same searchable memory as every other meeting. Zoom AI Companion costs nothing extra with paid Zoom plans, but it only works inside Zoom meetings."
+            "text": "Lynkk works with Zoom in 2 ways, a meeting bot or a bot-free Chrome extension, and it adds your Zoom calls to the same searchable memory as every other meeting. Zoom AI Companion costs nothing extra with paid Zoom plans, but it needs a paid Zoom account."
           }
         },
         {
@@ -397,7 +399,7 @@ Most AI note takers stop at a summary 1-2 minutes after the call. Lynkk prepares
           "name": "Does Microsoft Teams have an AI note taker?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Microsoft 365 Copilot can recap Teams meetings for $30 per user per month on top of a Microsoft 365 license. Lynkk also records Teams meetings, starts free and costs $15 a month for Pro. It adds Jira tickets, CRM updates and in-person recording that Copilot does not cover."
+            "text": "Microsoft 365 Copilot can recap Teams meetings for $30 per user per month on top of a Microsoft 365 license. Lynkk also records Teams meetings, starts free and costs $15 a month for Pro. It adds Jira tickets, CRM updates and in-person recording in the same account."
           }
         },
         {
