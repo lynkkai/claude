@@ -17,3 +17,26 @@ H1 13-15 words; meta title ≤60 with primary near the start; meta description 1
 - 3. Re-check competitor free-plan limits on each vendor's pricing page (search by name; no links kept).
 - 4. Add the 2 inbound links in `inbound_links_planned`.
 - 5. Keyword note: Ubersuggest's daily limit was reached, so `keywords_added` figures come from data pulled earlier on 2026-09-30.
+
+## Open items for content writers (moved out of the article)
+
+**1. Author and images**
+- Add a named author and a short bio (E-E-A-T requirement), then set `author` and `author_bio_url` in the frontmatter.
+- Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
+
+**2. Facts to confirm before publishing (these were left out of the article until confirmed)**
+- *Our quick picks:* Lynkk's "Main free limit" cell in the quick picks table (from lynkk.ai/pricing)
+- *How did we compare these free plans?:* Add hands-on test notes and screenshots from our own free accounts before publishing.
+- *What can you do with Lynkk for free?:* Exact free-plan limits from lynkk.ai/pricing
+- *1. Lynkk: best free AI note taker overall:* Pro feature list from lynkk.ai/pricing
+- *6. Jamie: best free bot-free option:* Lynkk free-plan meeting length
+- *How many meetings can you record on each free AI note taker?:* add a Lynkk row to the table with its free monthly limit and meetings per month
+- *When should you upgrade from a free AI note taker?:* Confirm Pro removes each limit
+- *What do Reddit users say about free AI note takers?:* Add 2-3 thread links reviewed
+
+**3. Publishing checklist**
+1. Add or confirm before publishing: author, bio, test screenshots, featured image, Lynkk free-plan limits, Pro features, meeting length on free, Reddit links, canonical URL.
+2. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; the 2 government/standards pages (csrc.nist.gov, uscode.house.gov) were confirmed in search indexes on 2026-09-30.
+3. Re-check competitor free-plan limits on each vendor's pricing page (search by name; no links kept).
+4. Add the 2 inbound links in `inbound_links_planned`.
+5. Keyword note: Ubersuggest's daily limit was reached, so `keywords_added` figures come from data pulled earlier on 2026-09-30.

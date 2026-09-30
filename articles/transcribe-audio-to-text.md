@@ -38,24 +38,6 @@ pricing_checked: 2026-09-30
 status: draft (not published)
 ---
 
-> **1. Author and images**
-> - Add a named author and a short bio (E-E-A-T requirement), then set `author` and `author_bio_url` in the frontmatter.
-> - Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
->
-> **2. Facts to confirm before publishing (these were left out of the article until confirmed)**
-> - *Our quick picks:* Price
-> - *What audio can Lynkk transcribe?:* Whether Lynkk accepts uploaded audio files
-> - *What do you get besides the transcript?:* Free-plan limits
-> - *6. Dragon Professional: best for dictation on Windows PCs:* Current price
-> - *How do you transcribe audio to text for free?:* add a Lynkk free plan row to the free-options table with its free limit
->
-> **3. Publishing checklist**
-> **Title change:** the planned title included "Accuracy Tested". No accuracy test has been run, so the claim was removed from the H1. Add it back only after the test in `seo/content-briefs.md` post #5 is done.
-> 1. Add or confirm before publishing: author, bio, featured image, Lynkk free-plan limits, whether Lynkk accepts uploaded audio files, Dragon price, canonical URL.
-> 2. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; section508.gov, ada.gov and uscode.house.gov were confirmed in search indexes on 2026-09-30.
-> 3. Re-check competitor prices and Microsoft/Apple steps on the vendor pages (search by name; no links kept).
-> 4. Add the 2 inbound links in `inbound_links_planned`.
-
 # How to Transcribe Audio to Text in 2026 With the Top Voice Recognition Software
 
 *Last updated: September 30, 2026 · Pricing checked September 30, 2026*

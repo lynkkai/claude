@@ -39,24 +39,6 @@ pricing_checked: 2026-09-30
 status: draft (not published)
 ---
 
-> **1. Author and images**
-> - Add a named author and a short bio (E-E-A-T requirement), then set `author` and `author_bio_url` in the frontmatter.
-> - Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
->
-> **2. Facts to confirm before publishing (these were left out of the article until confirmed)**
-> - *How did we compare these Teams AI note takers?:* Add hands-on test notes and screenshots from a real Teams tenant before publishing.
-> - *What does Lynkk do that Microsoft's Teams AI does not?:* Free-plan limits and team pricing
-> - *3. Teams Premium intelligent recap: AI recap without full Copilot:* Current Teams Premium price
-> - *How much does Teams AI cost for a 10-person team?:* Team pricing and Workspaces
-> - *What do Reddit users say about Teams AI note takers?:* Add 2-3 thread links reviewed
-> - *Can I use an AI note taker in Teams without admin approval?:* Lynkk admin requirements
->
-> **3. Publishing checklist**
-> 1. Add or confirm before publishing: author, bio, tenant test screenshots, featured image, Lynkk free-plan limits, team pricing, admin requirements, Teams Premium price, Reddit links, canonical URL.
-> 2. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; csrc.nist.gov, eur-lex.europa.eu and uscode.house.gov were confirmed in search indexes on 2026-09-30.
-> 3. Re-check Microsoft facts on Microsoft Support / Learn and competitor prices on each vendor's pricing page (search by name; no links kept).
-> 4. Add the 2 inbound links in `inbound_links_planned`.
-
 # Best Teams AI Note Takers for US Businesses in 2026, From Copilot to Lynkk
 
 *Last updated: September 30, 2026 · Checked against Microsoft Support and Microsoft Learn on September 30, 2026*

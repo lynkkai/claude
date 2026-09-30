@@ -38,23 +38,6 @@ pricing_checked: 2026-09-30
 status: draft (not published)
 ---
 
-> **1. Author and images**
-> - Add a named author and a short bio (E-E-A-T requirement), then set `author` and `author_bio_url` in the frontmatter.
-> - Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
->
-> **2. Facts to confirm before publishing (these were left out of the article until confirmed)**
-> - *How did we compare these Zoom AI Companion alternatives?:* Add hands-on test notes and screenshots from the same meetings recorded with Zoom AI Companion and each alternative.
-> - *What does Lynkk add for your meetings?:* Free-plan limits
-> - *How do you turn off Zoom AI Companion?:* Exact menu path for users
-> - *How much do Zoom AI Companion alternatives cost for a 10-person team?:* Team pricing and Workspaces
->
-> **3. Publishing checklist**
-> **Fact note:** Zoom AI Companion can join Microsoft Teams and Google Meet meetings for licensed users (Zoom help center). The article states this openly and avoids any claim that it is Zoom-only. See `memory/competitor-facts.md`.
-> 1. Add or confirm before publishing: author, bio, side-by-side test screenshots, featured image, Lynkk free-plan limits, team pricing, user-level menu path to disable AI Companion, canonical URL.
-> 2. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; nist.gov, eur-lex.europa.eu and uscode.house.gov were confirmed in search indexes on 2026-09-30.
-> 3. Re-check Zoom and competitor details (search by name; no links kept).
-> 4. Add the 2 inbound links in `inbound_links_planned`.
-
 # Top Zoom AI Companion Alternatives for 2026, Compared on Price, Features and Follow-Up
 
 *Last updated: September 30, 2026 · Checked against Zoom's help center and vendor pages on September 30, 2026*

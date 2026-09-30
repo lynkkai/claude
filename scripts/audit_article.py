@@ -115,7 +115,7 @@ def main(path):
 
     check(raw.count("\u2014") + raw.count("\u2013") == 0, "no em or en dashes (incl. writer notes)")
     check(not re.search(r"\[(CONFIRM|TODO|TBD|PLACEHOLDER)", s, re.I), "no placeholders like [CONFIRM] in the article")
-    check(all(l.startswith(">") or not l.strip() for l in raw.split("\n---\n", 2)[1].split("\n# ")[0].splitlines()), "only writer notes (quoted lines) above the H1")
+    check(not raw.split("\n---\n", 1)[1].split("\n# ")[0].strip(), "no internal notes in the article (open items go in the audit report)")
     check(not re.search(r"!\[[^\]]*\]\(\s*\)", body), "no empty image links")
     tells = [t for t in TELLS if t in low]
     check(not tells, f"no AI-tell words {tells}")

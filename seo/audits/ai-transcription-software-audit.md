@@ -17,3 +17,24 @@ H1 13-15 words; meta title ≤60 with primary near the start; meta description 1
 - 2. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; section508.gov, ada.gov and eur-lex.europa.eu were confirmed in search indexes on 2026-09-30.
 - 3. Re-check competitor prices on each vendor's pricing page (search by name; no links kept).
 - 4. Add the 2 inbound links in `inbound_links_planned`.
+
+## Open items for content writers (moved out of the article)
+
+**1. Author and images**
+- Add a named author and a short bio (E-E-A-T requirement), then set `author` and `author_bio_url` in the frontmatter.
+- Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
+
+**2. Facts to confirm before publishing (these were left out of the article until confirmed)**
+- *Our quick picks:* Price
+- *How did we compare this AI transcription software?:* Add test notes and screenshots from our own accounts before publishing.
+- *What does Lynkk add beyond the transcript?:* Free-plan limits
+- *7. Dragon Professional: best for dictation on Windows:* Current price
+- *How much does AI transcription software cost?:* Pro price
+- *How much does AI transcription software cost?:* Minutes included
+- *Is there free AI transcription software?:* Free-plan limits
+
+**3. Publishing checklist**
+1. Add or confirm before publishing: author, bio, test screenshots, featured image, Lynkk free-plan limits and Pro minutes, Descript Pro price, Dragon price, canonical URL.
+2. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; section508.gov, ada.gov and eur-lex.europa.eu were confirmed in search indexes on 2026-09-30.
+3. Re-check competitor prices on each vendor's pricing page (search by name; no links kept).
+4. Add the 2 inbound links in `inbound_links_planned`.

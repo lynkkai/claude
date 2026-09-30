@@ -65,3 +65,23 @@ On-page rules: **pass**. Publish readiness: **not yet**, until the open items ab
 ## Fact-check sources for competitor prices (internal only)
 
 Prices were checked on 2026-09-30 on each vendor's own pricing page (no links kept, per the no-competitor-links rule): Fathom pricing page, Otter pricing page, Fireflies pricing page, Granola pricing page, Jamie pricing page, Read AI plans and pricing page, Zoom AI Companion announcement, Microsoft 365 Copilot pricing page. Search each by name to re-check before publishing.
+
+## Open items for content writers (moved out of the article)
+
+**1. Author and images**
+- Add a named author and a short bio (E-E-A-T requirement), then set `author` and `author_bio_url` in the frontmatter.
+- Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
+
+**2. Facts to confirm before publishing (these were left out of the article until confirmed)**
+- *How did we evaluate these AI note takers?:* Add test log, meeting count, dates and screenshots from our own test account before publishing.
+- *What makes Lynkk different from other AI note takers?:* Free-plan limits, and whether $15 is per user and billed monthly or annually
+- *What do Reddit users say about AI note takers?:* Add 2-3 thread links reviewed
+- *Does Google Meet have an AI note taker?:* Current plan eligibility
+
+**3. Publishing checklist**
+1. Add or confirm before publishing: author, bio URL, test log and screenshots, featured image, Lynkk free-plan limits and Pro billing terms, Google Workspace eligibility, a legal source on consent laws, Reddit links, canonical URL.
+2. Verify every link is live. All links point to lynkk.ai pages that returned HTTP 200 in Ubersuggest's crawl. No competitor links (guardrail: `python3 scripts/check_competitor_links.py`). Fact-check URLs for competitor prices are in `seo/audits/best-ai-note-takers-audit.md`, not in the article.
+2b. 4 external authority links added (all official government or standards sources, confirmed in search indexes on 2026-09-30): uscode.house.gov (18 U.S.C. 2511), leginfo.legislature.ca.gov (Cal. Penal Code 632), csrc.nist.gov (FIPS 197 AES), eur-lex.europa.eu (GDPR). Re-verify each loads at publish.
+3. Re-check competitor prices on the vendor pages.
+4. Add the 2 inbound links listed in `inbound_links_planned` and confirm they are live.
+5. When sibling posts go live (free AI note takers, Zoom recorders, Teams, AI voice recorders, Google Meet), add links to them.

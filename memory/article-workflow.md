@@ -14,8 +14,8 @@ The writer skill is installed as a project skill at `.claude/skills/seo-article/
 ## Lynkk-specific rules
 - **Never link to competitors** (no hyperlinks or bare URLs to competitor sites). Competitor facts are cited in plain text with the date checked. No competitor URLs anywhere in the repo, including audit and handoff notes. Chat replies to the team must not include competitor links either.
 - External authority links: every article needs at least 2, and they must go to official government, legislative or standards sites (for example .gov, uscode.house.gov, state legislature sites, nist.gov, eur-lex.europa.eu). Confirm each page exists (search restricted to the official domain) before adding it, and click-test at publish.
-- Never put placeholders such as [CONFIRM], [TODO] or [TBD] in article text. If a fact is not confirmed, leave it out or state only what is verified; list open items in the writer notes above the H1 and in the audit report.
-- **Internal notes go at the top of the file**, right after the frontmatter, as quoted (">") lines above the H1, with no marker comments and no "internal notes" heading line. Sections: 1. Author and images, 2. Facts to confirm (per section, using current headings), 3. Publishing checklist. The audit and schema scripts skip everything above the H1; content writers delete it before publishing. No handoff note at the bottom.
+- Never put placeholders such as [CONFIRM], [TODO] or [TBD] in article text. If a fact is not confirmed, leave it out or state only what is verified; list open items only in the audit report.
+- **No internal notes in article files.** The article starts at the H1 right after the frontmatter. Author/image tasks, facts to confirm and the publishing checklist go only in `seo/audits/<slug>-audit.md` under "Open items for content writers". Never add writer notes, handoff notes or marker comments to the article.
 - Disclosure box + "How we tested" on listicles and comparisons.
 - Competitor prices: dated, cited in plain text (never linked), and marked for re-check before publish.
 - Each article needs 1-2 inbound internal links from existing lynkk.ai pages at publish time.

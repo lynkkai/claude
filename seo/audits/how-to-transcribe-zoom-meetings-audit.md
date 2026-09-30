@@ -17,3 +17,22 @@ H1 13-15 words; meta title ≤60 with primary near the start; meta description 1
 - 3. Re-check Zoom steps on Zoom's help center and Otter pricing (search by name; no links kept).
 - 4. Add the 2 inbound links in `inbound_links_planned`.
 - 5. Link from post #3 (Zoom meeting recorders) once both are live.
+
+## Open items for content writers (moved out of the article)
+
+**1. Author and images**
+- Add a named author and a short bio (E-E-A-T requirement), then set `author` and `author_bio_url` in the frontmatter.
+- Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
+
+**2. Facts to confirm before publishing (these were left out of the article until confirmed)**
+- *How do you transcribe Zoom meetings with Lynkk?:* Add step screenshots
+- *How do you get a Zoom transcript from a cloud recording?:* Add step screenshots and exact setting names
+- *How do you download or save a Zoom transcript?:* File format and exact download button name from Zoom's help center
+
+**3. Publishing checklist**
+**Title change:** the planned title said "Even Without Recording". Zoom's own transcript requires cloud recording, so that promise was dropped to avoid a misleading headline.
+1. Add or confirm before publishing: author, bio, step screenshots, exact Zoom setting and button names, transcript file format, featured image, canonical URL.
+2. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; section508.gov and ada.gov were confirmed in search indexes on 2026-09-30.
+3. Re-check Zoom steps on Zoom's help center and Otter pricing (search by name; no links kept).
+4. Add the 2 inbound links in `inbound_links_planned`.
+5. Link from post #3 (Zoom meeting recorders) once both are live.

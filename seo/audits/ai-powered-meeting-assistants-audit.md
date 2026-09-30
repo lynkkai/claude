@@ -18,3 +18,23 @@ H1 13-15 words; meta title ≤60 with primary near the start; meta description 1
 - 3. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; nist.gov, eur-lex.europa.eu and uscode.house.gov were confirmed in search indexes on 2026-09-30.
 - 4. Re-check competitor details on each vendor's pages (search by name; no links kept).
 - 5. Add the 2 inbound links in `inbound_links_planned`.
+
+## Open items for content writers (moved out of the article)
+
+**1. Author and images**
+- Add a named author and a short bio (E-E-A-T requirement), then set `author` and `author_bio_url` in the frontmatter.
+- Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
+
+**2. Facts to confirm before publishing (these were left out of the article until confirmed)**
+- *How is an AI meeting assistant different from an AI note taker?:* Link the guide once it is published
+- *How did we compare these AI meeting assistants?:* Add test notes and screenshots from our own accounts before publishing.
+- *What does Lynkk do after a meeting?:* Free-plan limits
+- *Is there a free AI meeting assistant?:* add a Lynkk row to the free-limit table with its free-plan limit
+- *How much does an AI meeting assistant cost for a 10-person team?:* Team pricing and Workspaces
+
+**3. Publishing checklist**
+1. Add or confirm before publishing: author, bio, test screenshots, featured image, Lynkk free-plan limits, team pricing, canonical URL.
+2. Replace the placeholder link to the homepage in "How is an AI meeting assistant different from an AI note taker?" with the live URL of "Best AI Note Takers" once it is published.
+3. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; nist.gov, eur-lex.europa.eu and uscode.house.gov were confirmed in search indexes on 2026-09-30.
+4. Re-check competitor details on each vendor's pages (search by name; no links kept).
+5. Add the 2 inbound links in `inbound_links_planned`.

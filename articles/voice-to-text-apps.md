@@ -38,28 +38,6 @@ pricing_checked: 2026-09-30
 status: draft (not published)
 ---
 
-> **1. Author and images**
-> - Add a named author and a short bio (E-E-A-T requirement), then set `author` and `author_bio_url` in the frontmatter.
-> - Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
->
-> **2. Facts to confirm before publishing (these were left out of the article until confirmed)**
-> - *Our quick picks:* Price
-> - *How did we compare these voice to text apps?:* Add test notes: dictate the same 500-word passage in each tool and record errors and time.
-> - *What else does Lynkk do beyond dictation?:* Free-plan dictation limits; Windows availability
-> - *6. Dragon Professional: best dictation software for heavy Windows users:* Current price
-> - *How much does dictation software cost?:* Price
-> - *What is the best free voice to text app?:* Lynkk free plan dictation limit for the free-options table
-> - *Which dictation software is best for Windows?:* Lynkk Windows availability
-> - *What is the best speech to text app for iPhone?:* Lynkk iPhone app availability
->
-> **3. Publishing checklist**
-> **Keyword note:** "good voice to text app" and "voice dictation software for mac" are secondaries of posts #18 and #17, so they are not targeted here.
-> 1. Add or confirm before publishing: author, bio, dictation test results, featured image, Lynkk free-plan dictation limits, Windows and iPhone availability, Dragon price, canonical URL.
-> 2. Click-test all links. lynkk.ai pages returned HTTP 200 in Ubersuggest's crawl; ada.gov, section508.gov and nist.gov were confirmed in search indexes on 2026-09-30.
-> 3. Re-check Apple, Microsoft, Google and vendor details (search by name; no links kept).
-> 4. Add the 2 inbound links in `inbound_links_planned`.
-> 5. When post #18 (dictate in Word) is live, link it from the Word Dictate section.
-
 # Best Voice to Text Apps and Dictation Software in 2026 for Mac, Windows and Word
 
 *Last updated: September 30, 2026 · Checked against Apple, Microsoft, Google and vendor pages on September 30, 2026*

@@ -156,7 +156,7 @@ The brief's keyword list is the floor, not the ceiling. While outlining or draft
 1. Look it up in Ubersuggest (`match_keywords` or `keyword_overview`, `locId 2840`) before using it.
 2. Add it if it is relevant to the article's intent, has measurable US volume, and is **not the primary keyword of another post** in `seo/keyword-map-v2.md` (no cannibalization).
 3. Use it naturally as an H2/H3, FAQ question or body phrase. Never stuff.
-4. Record every added keyword with its volume / SD in the frontmatter `keywords_added` list and in the writer notes (quoted lines between the frontmatter and the H1), so the keyword map can be updated.
+4. Record every added keyword with its volume / SD in the frontmatter `keywords_added` list and in the audit report (`seo/audits/<slug>-audit.md`; never as notes inside the article), so the keyword map can be updated.
 
 ## Important rules
 - **The brief is the contract** — do not drift from its primary keyword, cluster, intent, or link target. If the brief is wrong, fix it in `/seo-research` and regenerate — don't paper over it in the writer.
