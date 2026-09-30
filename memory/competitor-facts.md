@@ -21,5 +21,6 @@ Checked 2026-09-30 via search results restricted to each vendor's own site. Neve
 - Rev: AI $0.25/min (96%+ claimed), human $1.99/min (99%+, 12 h or less), AI delivery under 5 min, subscribers save up to 15%.
 - Descript: free 1 h/month; paid from $16/month; Creator 10 h, Pro 30 h; extra hours $2/h.
 - Plaud Note Pro: $189; 4 MEMS mics; 16.4 ft pickup; 50 h recording; 60 days standby; Starter 300 min free; Pro $99.99/yr or $17.99/mo; Unlimited $239.99/yr or $29.99/mo; 112 languages.
+- Plaud Desktop (checked 2026-09-30): bot-free desktop app for macOS and Windows that records Zoom, Teams, Google Meet, Webex and Slack calls into the Plaud account. Do not claim Plaud cannot record online meetings; safe: "Plaud uses a separate desktop app for online calls."
 - Pocket: 52 g MagSafe clip-on; core features with no mandatory subscription; Pocket Pro optional $19.99/month (first 30 days free). Device price not verified.
 - Dragon Professional v16: Windows 11 (compatible with 10); dictation + audio file transcription. Price not verified.

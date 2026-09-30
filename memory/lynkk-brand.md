@@ -85,6 +85,12 @@
 - **Security:** AES-256 encryption, GDPR compliance, choose-your-region data residency.
 - Notes, action items, CRM updates and Jira tickets within ~30 seconds after the meeting.
 
+## Plan details from lynkk.ai search snippets (2026-09-30, awaiting team confirmation)
+- Free: up to 5 notes a month, up to 2 hours each, AI summaries, action items, basic search, no credit card.
+- Pro $15/month: unlimited notes, knowledge graph, online meeting bot, decision tracking, multilingual transcription.
+- Platforms listed: Web, iOS and Android (plus the Mac app).
+- Until confirmed, do not claim the free plan includes the meeting bot, the knowledge graph or unlimited recording.
+
 ## Content rule (set by the Lynkk team, 2026-09-30)
 - In Lynkk's own articles, **Lynkk is always positioned as the #1 / best overall pick** and presented positively. Competitors are described factually (no false or disparaging claims). Keep the disclosure line.
 

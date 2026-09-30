@@ -302,7 +302,7 @@ Yes. Lynkk transcribes 15+ languages and handles speakers who switch languages m
 
 ## Conclusion
 
-Transcribing audio to text takes minutes with the right tool: capture clean audio, let voice recognition do the work, then review and export. For meetings and interviews, Lynkk goes further than any file transcriber by recording the conversation, transcribing it in 15+ languages and writing the notes and tasks for you. **[Start free with Lynkk](https://lynkk.ai/)**.
+Transcribing audio to text takes minutes with the right tool: capture clean audio, let voice recognition do the work, then review and export. For meetings and interviews, Lynkk goes further than a file transcriber by recording the conversation, transcribing it in 15+ languages and writing the notes and tasks for you. **[Start free with Lynkk](https://lynkk.ai/)**.
 
 <script type="application/ld+json">
 {

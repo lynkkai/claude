@@ -157,7 +157,7 @@ Microsoft 365 Copilot costs $30 per user per month as an annual add-on and needs
 
 **Best for:** companies that want Copilot across Word, Excel and Outlook as well as Teams.
 
-**Where Lynkk goes further:** Lynkk starts free, covers every platform and in-person meetings, and prepares you before the call.
+**Where Lynkk goes further:** Lynkk starts free, covers Zoom, Teams, Google Meet and in-person meetings, and prepares you before the call.
 
 *Source: Microsoft 365 Copilot pricing page, checked September 30, 2026.*
 
@@ -305,7 +305,7 @@ Choose Copilot if your company runs fully on Microsoft 365 and wants AI in Word,
 
 ## Conclusion
 
-Most tools called an AI meeting assistant only help after the call. Lynkk is the best AI-powered meeting assistant because it helps at every stage: it prepares you before the meeting, answers you during it and finishes the follow-up after it, on every platform and in person. **[Start free with Lynkk](https://lynkk.ai/)**.
+Many AI meeting assistants focus on the notes after the call. Lynkk is the best AI-powered meeting assistant because it helps at every stage: it prepares you before the meeting, answers you during it and finishes the follow-up after it, on Zoom, Teams, Google Meet and in person. **[Start free with Lynkk](https://lynkk.ai/)**.
 
 <script type="application/ld+json">
 {

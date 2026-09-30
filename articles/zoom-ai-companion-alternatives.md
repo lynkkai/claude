@@ -199,7 +199,7 @@ Microsoft 365 Copilot costs $30 per user per month as an annual add-on and needs
 
 **Best for:** companies moving most meetings to Microsoft Teams.
 
-**Where Lynkk goes further:** Lynkk starts free, covers every platform and in person, and prepares you before each call.
+**Where Lynkk goes further:** Lynkk starts free, covers Zoom, Teams, Google Meet and in-person meetings, and prepares you before each call.
 
 *Source: Microsoft 365 Copilot pricing page, checked September 30, 2026.*
 
@@ -265,7 +265,7 @@ The best Zoom AI Companion alternative depends on what your team does after meet
 
 | If you need | Choose |
 |---|---|
-| Notes, tasks, Jira and CRM follow-up across every platform | Lynkk |
+| Notes, tasks, Jira and CRM follow-up across Zoom, Teams, Google Meet and in person | Lynkk |
 | A live transcript to read | Otter |
 | A free recorder for Zoom | Fathom |
 | AI across Word, Excel and Outlook as well as Teams | Microsoft 365 Copilot |

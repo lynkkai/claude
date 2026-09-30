@@ -315,7 +315,7 @@ Yes. Most of the 9 AI note takers here, including Lynkk, connect to your calenda
 
 ## Conclusion
 
-Most AI note takers stop at a summary 1-2 minutes after the call. Lynkk prepares you before the meeting, helps you live during it, and finishes the follow-up about 30 seconds after it ends. It covers Zoom, Teams, Google Meet, Slack, WhatsApp and in-person meetings. **[Try Lynkk free](https://lynkk.ai/)**.
+Many AI note takers stop at a summary after the call. Lynkk prepares you before the meeting, helps you live during it, and finishes the follow-up about 30 seconds after it ends. It covers Zoom, Teams, Google Meet, Slack, WhatsApp and in-person meetings. **[Try Lynkk free](https://lynkk.ai/)**.
 
 <script type="application/ld+json">
 {
