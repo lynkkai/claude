@@ -183,7 +183,7 @@ You can transcribe audio to text free with at least 4 options in this guide, eac
 
 | Free option | Free limit | Best for |
 |---|---|---|
-| Lynkk free plan | 5 hours of recording | Meetings and in-person conversations |
+| Lynkk free plan | 5 hours of recording in total | Meetings and in-person conversations |
 | Otter Basic | 300 minutes a month | Live calls |
 | Descript Free | 1 hour a month | Short recordings to edit |
 | Windows voice typing / Mac Dictation | Unlimited, live only | Dictating your own voice |

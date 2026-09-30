@@ -86,7 +86,7 @@
 - Notes, action items, CRM updates and Jira tickets within ~30 seconds after the meeting.
 
 ## Plan details
-- Free plan: **5 hours** of recording (confirmed by the Lynkk team, 2026-09-30). Do not write "5 notes a month" or "2 hours each"; those were from outdated search snippets. Whether the 5 hours reset monthly is not confirmed, so do not add "a month".
+- Free plan: **5 hours** of recording (confirmed by the Lynkk team, 2026-09-30). Do not write "5 notes a month" or "2 hours each"; those were from outdated search snippets. The 5 hours are **in total, not per month** (confirmed by the team). Write "5 hours of recording in total"; never "a month".
 - Pro: $15 a month.
 - From lynkk.ai search snippets, not yet confirmed by the team: the online meeting bot, knowledge graph and decision tracking are listed under Pro; apps listed for Web, iOS and Android. Do not claim the meeting bot is on the free plan.
 

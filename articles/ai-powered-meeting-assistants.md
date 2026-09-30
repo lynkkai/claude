@@ -205,7 +205,7 @@ Yes. At least 5 tools here have a free plan: Lynkk, Otter, Fireflies, Read AI an
 
 | Free option | Free limit |
 |---|---|
-| Lynkk | 5 hours of recording; Pro $15 a month |
+| Lynkk | 5 hours of recording in total; Pro $15 a month |
 | Fathom | Unlimited recordings |
 | Fireflies | Unlimited transcription, 400 minutes of storage per team |
 | Otter | 300 minutes a month |

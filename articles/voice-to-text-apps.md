@@ -200,7 +200,7 @@ Dictation software ranges from $0 for built-in tools to a monthly plan for tools
 | Apple Dictation, Windows voice typing, Google Docs voice typing | Free |
 | Microsoft Word Dictate | Included with a Microsoft 365 subscription |
 | Otter | Free 300 minutes a month; Pro $8.33 per user per month |
-| Lynkk | Free plan with 5 hours of recording; Pro $15 a month |
+| Lynkk | Free plan with 5 hours of recording in total; Pro $15 a month |
 | Dragon Professional | Paid license |
 
 ## What is the best free voice to text app?

@@ -51,7 +51,7 @@ We compared the free plans of 8 AI note takers. Here is what each one gives you 
 
 | Rank and tool | Free plan includes | Main free limit | First paid plan |
 |---|---|---|---|
-| **1. Lynkk** | **Online and in-person meetings, notes, action items** | 5 hours of recording | **$15/month (Pro)** |
+| **1. Lynkk** | **Online and in-person meetings, notes, action items** | 5 hours of recording in total | **$15/month (Pro)** |
 | 2. Fathom | Unlimited recordings and summaries | Advanced summaries on 5 calls a month | $15/user/month |
 | 3. Fireflies | Unlimited transcription and summaries | 400 minutes of storage per team | $10/seat/month |
 | 4. Otter | 300 minutes a month | 20 AI chat queries | $8.33/user/month |
@@ -83,7 +83,7 @@ Lynkk is the best free AI note taker because 1 free account records Zoom, Google
 
 ### What can you do with Lynkk for free?
 
-You can start Lynkk free with 5 hours of recording and upgrade to Pro for $15 a month when you need more. Lynkk's core features include meeting recording, transcripts with speaker labels and AI notes in 15+ languages.
+You can start Lynkk free with 5 hours of recording in total and upgrade to Pro for $15 a month when you need more. Lynkk's core features include meeting recording, transcripts with speaker labels and AI notes in 15+ languages.
 
 - **Record with or without a bot:** use the [meeting bot for Zoom, Meet and Teams](https://lynkk.ai/features/meeting-bot) or the [Chrome extension that records without a bot](https://lynkk.ai/features/chrome-extension).
 - **In-person meetings:** capture the whole room, offline-first.
@@ -190,16 +190,16 @@ Descript's free plan includes 1 hour of automatic transcription a month, aimed a
 
 The number of meetings you can record for free ranges from 2 a month to unlimited, depending on the plan's limit. We converted each free plan into 30-minute meetings, the length of a typical US team call.
 
-| Free plan | Limit | About how many 30-minute meetings a month |
+| Free plan | Limit | About how many 30-minute meetings |
 |---|---|---|
-| Lynkk | 5 hours of recording | About 10 within the 5 free hours |
+| Lynkk | 5 hours of recording in total | About 10 in total |
 | Fathom | Unlimited recordings | Unlimited |
 | Granola | Unlimited meetings, 30-day history | Unlimited (older notes hidden) |
 | Fireflies | 400 minutes of storage per team | About 13 stored at a time |
-| Otter | 300 minutes a month | About 10 |
-| Jamie | 10 meetings of up to 30 minutes | 10 |
-| Read AI | 5 meetings a month | 5 |
-| Descript | 1 hour of transcription | 2 |
+| Otter | 300 minutes a month | About 10 a month |
+| Jamie | 10 meetings a month, up to 30 minutes each | 10 a month |
+| Read AI | 5 meetings a month | 5 a month |
+| Descript | 1 hour of transcription a month | 2 a month |
 
 A plan that looks generous can still stop you. Fireflies counts storage across the whole team, so 5 people share the same 400 minutes.
 
@@ -265,7 +265,7 @@ Yes. Otter's Basic plan is free and includes 300 transcription minutes a month p
 Lynkk is the best free AI note taker app for in-person meetings. It captures the whole room with speaker labels in 15+ languages and works offline-first. Granola's phone app also records in person, but its free plan only keeps 30 days of notes.
 
 ### Can I use a free AI note taker for Microsoft Teams?
-Yes. Lynkk records Microsoft Teams with a meeting bot or the bot-free Chrome extension, and you can start free with 5 hours of recording. Fathom, Fireflies and Otter also support Teams. Microsoft's own Copilot recap costs $30 per user per month on top of a Microsoft 365 license.
+Yes. Lynkk records Microsoft Teams with a meeting bot or the bot-free Chrome extension, and you can start free with 5 hours of recording in total. Fathom, Fireflies and Otter also support Teams. Microsoft's own Copilot recap costs $30 per user per month on top of a Microsoft 365 license.
 
 ### Do free AI note takers have time limits?
 Most do. Jamie stops at 30 minutes per meeting, Fireflies at 2 hours per recording, and Otter at 300 minutes a month. Read AI caps you at 5 meetings. Check the per-meeting limit if you run long workshops or interviews.
@@ -378,7 +378,7 @@ Every free AI note taker has a limit, so pick the one whose limit you will not h
           "name": "Can I use a free AI note taker for Microsoft Teams?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Lynkk records Microsoft Teams with a meeting bot or the bot-free Chrome extension, and you can start free with 5 hours of recording. Fathom, Fireflies and Otter also support Teams. Microsoft's own Copilot recap costs $30 per user per month on top of a Microsoft 365 license."
+            "text": "Yes. Lynkk records Microsoft Teams with a meeting bot or the bot-free Chrome extension, and you can start free with 5 hours of recording in total. Fathom, Fireflies and Otter also support Teams. Microsoft's own Copilot recap costs $30 per user per month on top of a Microsoft 365 license."
           }
         },
         {
