@@ -1,0 +1,431 @@
+<title>Meeting Notes Page Edits</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: an editing brief. Sticky annotated screenshot on the left, change cards on the right; stacks on narrow screens. */
+:root {
+  --bg: #f6f5f3; --surface: #ffffff; --ink: #18171a; --muted: #66626b; --line: #e3e0e4;
+  --mark: #e03a2f; --mark-soft: #fdecea; --new: #0d7a55; --new-soft: #e7f5ef; --warn: #8a5a00; --warn-soft: #fbf1dc;
+  --display: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --body: "Source Sans 3", "Segoe UI", Roboto, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #131215; --surface: #1c1b1f; --ink: #f1eff3; --muted: #a8a3ad; --line: #302e34;
+  --mark: #ff6b5e; --mark-soft: #3a1c1a; --new: #4fd1a0; --new-soft: #14302a; --warn: #f0c060; --warn-soft: #33290f; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #131215; --surface: #1c1b1f; --ink: #f1eff3; --muted: #a8a3ad; --line: #302e34;
+  --mark: #ff6b5e; --mark-soft: #3a1c1a; --new: #4fd1a0; --new-soft: #14302a; --warn: #f0c060; --warn-soft: #33290f; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 17px/1.55 var(--body); padding-inline: 20px; padding-block: 0 64px; }
+.wrap { max-width: 1240px; margin: 0 auto; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
+a { color: inherit; }
+code { font-family: var(--mono); font-size: 0.86em; }
+.eyebrow { font: 600 12px/1 var(--body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--mark); margin: 0 0 10px; }
+
+/* Masthead */
+.mast { padding-block: 48px 28px; border-bottom: 1px solid var(--line); display: grid; gap: 28px; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); align-items: end; }
+.mast h1 { font-size: clamp(34px, 5vw, 54px); line-height: 1.04; font-weight: 700; letter-spacing: -0.02em; }
+.mast .sub { color: var(--muted); max-width: 60ch; margin: 14px 0 0; }
+.mast .sub a { color: var(--ink); font-weight: 600; }
+.legend { display: grid; gap: 10px; font-size: 15px; }
+.legend div { display: flex; gap: 10px; align-items: center; }
+.dot { width: 26px; height: 26px; border-radius: 50%; background: var(--mark); color: #fff; font: 700 13px/26px var(--display); text-align: center; flex: none; }
+.sw { width: 26px; height: 18px; border-radius: 4px; flex: none; }
+.sw-now { background: var(--bg); border: 1px dashed var(--muted); }
+.sw-new { background: var(--new-soft); border: 1px solid var(--new); }
+.stats { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-top: 18px; font-size: 15px; color: var(--muted); }
+.stats b { color: var(--ink); font: 600 22px/1 var(--display); font-variant-numeric: tabular-nums; margin-right: 6px; }
+
+/* Index */
+.index { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+.index ul { list-style: none; margin: 0 auto; padding: 10px 0; display: flex; gap: 6px; overflow-x: auto; max-width: 1240px; }
+.index a { display: flex; gap: 8px; align-items: center; white-space: nowrap; text-decoration: none; font-size: 14px; padding: 6px 12px 6px 6px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); }
+.index a span { width: 22px; height: 22px; border-radius: 50%; background: var(--ink); color: var(--bg); font: 600 12px/22px var(--display); text-align: center; }
+.index a:hover, .index a:focus-visible { border-color: var(--mark); }
+
+/* Blocks */
+.block { padding-block: 40px 8px; }
+.block > h2, .screen-head h2 { font-size: clamp(24px, 3vw, 32px); font-weight: 600; letter-spacing: -0.01em; }
+.lede { color: var(--muted); margin: 8px 0 0; max-width: 62ch; }
+.confirm { list-style: none; padding: 0; margin: 18px 0 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.confirm li { background: var(--warn-soft); border-radius: var(--radius); padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start; font-size: 15px; }
+.confirm input { margin-top: 4px; accent-color: var(--warn); width: 18px; height: 18px; flex: none; }
+.confirm strong { color: var(--warn); }
+.table-wrap { overflow-x: auto; margin-top: 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child th, tr:last-child td { border-bottom: 0; }
+thead th { font: 600 12px/1.2 var(--body); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+tbody th { font-weight: 600; white-space: nowrap; }
+.cell-new { display: flex; gap: 10px; align-items: flex-start; justify-content: space-between; min-width: 280px; }
+.cell-new code { background: var(--new-soft); color: var(--ink); padding: 4px 8px; border-radius: 6px; }
+.numcell { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.bar { height: 8px; width: var(--w); min-width: 4px; background: var(--mark); border-radius: 4px; margin-top: 7px; }
+td:has(.bar) { width: 22%; min-width: 120px; }
+
+/* Screens */
+.screen { scroll-margin-top: 56px; padding-block: 48px 8px; border-top: 1px solid var(--line); margin-top: 40px; }
+.screen-head { margin-bottom: 22px; }
+.screen-body { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+.shot { margin: 0; position: sticky; top: 64px; }
+.shot img { display: block; width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--line); }
+.shot figcaption { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.changes { display: grid; gap: 16px; min-width: 0; }
+.change { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; display: grid; gap: 12px; min-width: 0; scroll-margin-top: 70px; }
+.change:target { border-color: var(--mark); box-shadow: 0 0 0 3px var(--mark-soft); }
+.change-head { display: flex; gap: 12px; align-items: center; }
+.num { width: 32px; height: 32px; border-radius: 50%; background: var(--mark); color: #fff; font: 700 15px/32px var(--display); text-align: center; flex: none; }
+.change h3 { font-size: 18px; font-weight: 600; }
+.tag { display: inline-block; font: 600 11px/1 var(--body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.tag-new { color: var(--new); }
+.now { border: 1px dashed var(--line); border-radius: 8px; padding: 10px 12px; }
+.now p { margin: 6px 0 0; color: var(--muted); font-size: 15px; text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--mark) 55%, transparent); }
+.new { background: var(--new-soft); border-left: 3px solid var(--new); border-radius: 4px 8px 8px 4px; padding: 10px 12px; }
+.new-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.new p { margin: 6px 0 0; font-weight: 600; overflow-wrap: anywhere; }
+.copy { font: 600 12px/1 var(--body); border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 6px 10px; cursor: pointer; flex: none; }
+.copy:hover, .copy:focus-visible { border-color: var(--new); }
+.copy.done { background: var(--new); color: var(--surface); border-color: var(--new); }
+.note { margin: 0; font-size: 14px; color: var(--muted); }
+.flag { margin: 0; font-size: 14px; background: var(--warn-soft); border-radius: 8px; padding: 8px 12px; display: flex; gap: 8px; flex-wrap: wrap; }
+.flag span { font-weight: 600; color: var(--warn); }
+.why { border-top: 1px solid var(--line); padding-top: 12px; display: grid; gap: 8px; }
+.why p { margin: 0; font-size: 15px; }
+.kws { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.kw { display: inline-flex; gap: 8px; align-items: baseline; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; font-size: 13px; }
+.kw-name { font-weight: 600; }
+.kw-num { font-family: var(--mono); font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.kw-none { margin: 0; font-size: 13px; color: var(--muted); }
+:focus-visible { outline: 2px solid var(--mark); outline-offset: 2px; }
+.foot { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+
+@media (max-width: 900px) {
+  .mast { grid-template-columns: 1fr; }
+  .screen-body { grid-template-columns: 1fr; }
+  .shot { position: static; }
+}
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div>
+      <p class="eyebrow">SEO content brief · lynkk.ai/features/meeting-notes</p>
+      <h1>Meeting notes page: what to change, and why</h1>
+      <p class="sub">Every red number on the screenshots below is one change. Each card shows the copy on the page now, the new copy to paste in, and the keywords it targets with US monthly searches and SEO difficulty (SD, 0 to 100) from Ubersuggest. Full keyword research: <a href="https://github.com/lynkkai/claude/blob/claude/cool-archimedes-q5gvrh/seo/meeting-notes-keyword-plan.md" target="_blank" rel="noopener">keyword plan</a>.</p>
+      <div class="stats"><span><b>22</b>changes</span><span><b>8</b>screens</span><span><b>1</b>new section</span><span><b>6</b>new FAQs</span></div>
+    </div>
+    <div class="legend" aria-label="How to read this page">
+      <div><span class="dot">7</span>Change number, same as on the screenshot</div>
+      <div><span class="sw sw-now"></span>Copy on the page now</div>
+      <div><span class="sw sw-new"></span>New copy to paste in (Copy button on each)</div>
+    </div>
+  </header>
+</div>
+
+<nav class="index" aria-label="Screens"><ul><li><a href="#screen-A"><span>A</span>Hero</a></li><li><a href="#screen-B"><span>B</span>The note, sections 01 to 03</a></li><li><a href="#screen-C"><span>C</span>The note, sections 04 and 05</a></li><li><a href="#screen-D"><span>D</span>Transcript</a></li><li><a href="#screen-E"><span>E</span>Toolbar</a></li><li><a href="#screen-F"><span>F</span>Four ways in</a></li><li><a href="#screen-G"><span>G</span>How it works and FAQ heading</a></li><li><a href="#screen-H"><span>H</span>FAQ</a></li><li><a href="#head"><span>0</span>Page head</a></li><li><a href="#cover"><span>✓</span>Keyword coverage</a></li></ul></nav>
+
+<main class="wrap">
+  <section class="block" id="confirm">
+    <p class="eyebrow">Before publishing</p>
+    <h2>Four things to confirm</h2>
+    <ul class="confirm"><li><input type="checkbox" id="cf0"><label for="cf0"><strong>Homepage title.</strong> Move the homepage away from &quot;AI Meeting Notes&quot; (to &quot;AI meeting assistant&quot;), so this page can own &quot;AI note taker&quot; and &quot;meeting notes&quot; without the two pages competing.</label></li><li><input type="checkbox" id="cf1"><label for="cf1"><strong>Minutes.</strong> The Board Meeting shape produces minutes. Needed for change 12 and the minutes FAQ.</label></li><li><input type="checkbox" id="cf2"><label for="cf2"><strong>Languages.</strong> The number of supported languages for change 11. Search snippets say &quot;15+ languages&quot;.</label></li><li><input type="checkbox" id="cf3"><label for="cf3"><strong>In-person.</strong> The Mac app records in-person meetings, not only calls. Changes 3, 16, 17 and one FAQ.</label></li></ul>
+  </section>
+
+  
+<section class="screen" id="screen-A">
+  <div class="screen-head">
+    <p class="eyebrow">Screen A · Changes 1 to 5</p>
+    <h2>Hero</h2>
+    <p class="lede">The first screen. It carries the H1 and most of the keyword weight.</p>
+  </div>
+  <div class="screen-body">
+    <figure class="shot">
+      <a href="img/A.jpg" target="_blank" rel="noopener"><img src="img/A.jpg" alt="Screenshot of the Hero section with numbered red arrows for changes 1 to 5" loading="lazy" width="1600"></a>
+      <figcaption>Red numbers match the cards. Click to open full size.</figcaption>
+    </figure>
+    <div class="changes"><article class="change" id="c1">
+<header class="change-head"><span class="num" aria-label="Change 1">1</span><h3>Eyebrow pill above the headline</h3></header>
+<div class="now"><span class="tag">Now</span><p>Meeting notes · Transcript, summary and tasks</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to</span><button type="button" class="copy" data-copy="AI note taker · Meeting notes, summaries and action items">Copy</button></div><p>AI note taker · Meeting notes, summaries and action items</p></div>
+<div class="why"><p><strong>Why:</strong> Puts the main keyword at the very top of the page, next to &quot;meeting notes&quot;.</p><ul class="kws"><li class="kw"><span class="kw-name">ai note taker</span><span class="kw-num">27,100/mo · SD 48</span></li><li class="kw"><span class="kw-name">meeting notes</span><span class="kw-num">3,600/mo · SD 29</span></li><li class="kw"><span class="kw-name">meeting notes with action items</span><span class="kw-num">210/mo · SD 12</span></li></ul></div>
+</article><article class="change" id="c2">
+<header class="change-head"><span class="num" aria-label="Change 2">2</span><h3>H1 headline</h3></header>
+<div class="now"><span class="tag">Now</span><p>The call ends. The note is already writing itself.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to (recommended)</span><button type="button" class="copy" data-copy="The AI note taker that writes your meeting notes when the call ends.">Copy</button></div><p>The AI note taker that writes your meeting notes when the call ends.</p></div>
+<p class="note">Want to keep your current line? Keep it on screen but tag it as a &lt;p&gt;, and make the eyebrow pill (change 1) the &lt;h1&gt;. Google reads the H1 tag, not the font size.</p>
+<div class="why"><p><strong>Why:</strong> The H1 is the strongest on-page signal. It now holds both target keywords and keeps the original idea.</p><ul class="kws"><li class="kw"><span class="kw-name">ai note taker</span><span class="kw-num">27,100/mo · SD 48</span></li><li class="kw"><span class="kw-name">meeting notes</span><span class="kw-num">3,600/mo · SD 29</span></li></ul></div>
+</article><article class="change" id="c3">
+<header class="change-head"><span class="num" aria-label="Change 3">3</span><h3>Intro paragraph, right of the headline</h3></header>
+<p class="flag"><span>Check first</span>Confirm the Mac app records in-person meetings.</p>
+<div class="now"><span class="tag">Now</span><p>This page is one Lynkk note, read from the top. Each section is what you get after a meeting, and the margin says what Lynkk did to write it.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to</span><button type="button" class="copy" data-copy="Lynkk is an AI notetaker for online and in-person meetings. When the call ends, you get meeting notes with an AI summary, key takeaways, decisions, action items and the full transcript. This page is one Lynkk note, read from the top, and the margin says what Lynkk did to write it.">Copy</button></div><p>Lynkk is an AI notetaker for online and in-person meetings. When the call ends, you get meeting notes with an AI summary, key takeaways, decisions, action items and the full transcript. This page is one Lynkk note, read from the top, and the margin says what Lynkk did to write it.</p></div>
+<div class="why"><p><strong>Why:</strong> The first paragraph Google reads. It adds the one-word spelling &quot;notetaker&quot; and the in-person angle that most competitors lack.</p><ul class="kws"><li class="kw"><span class="kw-name">ai notetaker</span><span class="kw-num">2,900/mo · SD 42</span></li><li class="kw"><span class="kw-name">ai note taker for in person meetings</span><span class="kw-num">480/mo · SD 40</span></li><li class="kw"><span class="kw-name">ai meeting summary</span><span class="kw-num">170/mo · SD 37</span></li><li class="kw"><span class="kw-name">meeting notes with action items</span><span class="kw-num">210/mo · SD 12</span></li></ul></div>
+</article><article class="change" id="c4">
+<header class="change-head"><span class="num" aria-label="Change 4">4</span><h3>Second button</h3></header>
+<div class="now"><span class="tag">Now</span><p>Read the note</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to</span><button type="button" class="copy" data-copy="See a sample meeting note">Copy</button></div><p>See a sample meeting note</p></div>
+<div class="why"><p><strong>Why:</strong> Button text is read as page content. A descriptive label adds &quot;meeting note&quot; at no cost.</p><ul class="kws"><li class="kw"><span class="kw-name">meeting notes</span><span class="kw-num">3,600/mo · SD 29</span></li></ul></div>
+</article><article class="change" id="c5">
+<header class="change-head"><span class="num" aria-label="Change 5">5</span><h3>Product demo</h3></header>
+<div class="new"><div class="new-top"><span class="tag tag-new">Alt text (if image or video)</span><button type="button" class="copy" data-copy="Lynkk AI note taker writing meeting notes and an AI summary after a Google Meet call">Copy</button></div><p>Lynkk AI note taker writing meeting notes and an AI summary after a Google Meet call</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Caption under the demo</span><button type="button" class="copy" data-copy="A real Lynkk note: 32-minute Google Meet call, four people, written in Hinglish.">Copy</button></div><p>A real Lynkk note: 32-minute Google Meet call, four people, written in Hinglish.</p></div>
+<p class="note">If the demo is built in HTML (not an image), skip the alt text: Google already reads the text inside it.</p>
+<div class="why"><p><strong>Why:</strong> Image search and accessibility both read alt text. The caption adds a concrete, believable detail.</p><ul class="kws"><li class="kw"><span class="kw-name">ai note taker</span><span class="kw-num">27,100/mo · SD 48</span></li><li class="kw"><span class="kw-name">ai meeting summary</span><span class="kw-num">170/mo · SD 37</span></li></ul></div>
+</article></div>
+  </div>
+</section>
+<section class="screen" id="screen-B">
+  <div class="screen-head">
+    <p class="eyebrow">Screen B · Changes 6 to 8</p>
+    <h2>The note, sections 01 to 03</h2>
+    <p class="lede">The sample note. Only the left-margin labels and short descriptions change.</p>
+  </div>
+  <div class="screen-body">
+    <figure class="shot">
+      <a href="img/B.jpg" target="_blank" rel="noopener"><img src="img/B.jpg" alt="Screenshot of the The note, sections 01 to 03 section with numbered red arrows for changes 6 to 8" loading="lazy" width="1600"></a>
+      <figcaption>Red numbers match the cards. Click to open full size.</figcaption>
+    </figure>
+    <div class="changes"><article class="change" id="c6">
+<header class="change-head"><span class="num" aria-label="Change 6">6</span><h3>&quot;Below is the note…&quot; line</h3></header>
+<div class="now"><span class="tag">Now</span><p>Below is the note, section by section. Click any time to play from there.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Make this an &lt;h2&gt;</span><button type="button" class="copy" data-copy="What&#x27;s in every AI meeting note, section by section">Copy</button></div><p>What&#x27;s in every AI meeting note, section by section</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Keep as a sub-line</span><button type="button" class="copy" data-copy="Click any time to play the call from there.">Copy</button></div><p>Click any time to play the call from there.</p></div>
+<div class="why"><p><strong>Why:</strong> The page has few real H2 headings. This one introduces the whole note and carries the keyword.</p><ul class="kws"><li class="kw"><span class="kw-name">ai meeting notes</span><span class="kw-num">1,000/mo · SD 41</span></li></ul></div>
+</article><article class="change" id="c7">
+<header class="change-head"><span class="num" aria-label="Change 7">7</span><h3>Section 02, left margin</h3></header>
+<div class="now"><span class="tag">Now</span><p>Label: The summary<br>Text: Written from the whole transcript after the call, so it reads like someone who was there wrote it for someone who was not.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Label</span><button type="button" class="copy" data-copy="AI meeting summary">Copy</button></div><p>AI meeting summary</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Text</span><button type="button" class="copy" data-copy="Lynkk summarizes the meeting from the whole transcript after the call, so it reads like someone who was there wrote it for someone who was not.">Copy</button></div><p>Lynkk summarizes the meeting from the whole transcript after the call, so it reads like someone who was there wrote it for someone who was not.</p></div>
+<p class="note">Keep the title &quot;Thirty-two minutes in two sentences.&quot;</p>
+<div class="why"><p><strong>Why:</strong> Names the feature the way people search for it.</p><ul class="kws"><li class="kw"><span class="kw-name">ai meeting summary</span><span class="kw-num">170/mo · SD 37</span></li><li class="kw"><span class="kw-name">summarize meeting</span><span class="kw-num">590/mo · SD 27</span></li></ul></div>
+</article><article class="change" id="c8">
+<header class="change-head"><span class="num" aria-label="Change 8">8</span><h3>Section 03, left margin</h3></header>
+<div class="now"><span class="tag">Now</span><p>Each takeaway carries a timestamp. Click one and the player above plays the call from there, so you can hear it in their words.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Add one line at the end</span><button type="button" class="copy" data-copy="Together with the summary, it is the meeting recap you would have written yourself.">Copy</button></div><p>Together with the summary, it is the meeting recap you would have written yourself.</p></div>
+<p class="note">Keep the label &quot;Key takeaways and topics&quot;. It already matches &quot;meeting takeaways&quot;.</p>
+<div class="why"><p><strong>Why:</strong> &quot;Meeting recap&quot; is a low-difficulty term with no other home on the page.</p><ul class="kws"><li class="kw"><span class="kw-name">meeting recap</span><span class="kw-num">390/mo · SD 26</span></li><li class="kw"><span class="kw-name">meeting takeaways</span><span class="kw-num">140/mo · SD 15</span></li></ul></div>
+</article></div>
+  </div>
+</section>
+<section class="screen" id="screen-C">
+  <div class="screen-head">
+    <p class="eyebrow">Screen C · Changes 9 to 10</p>
+    <h2>The note, sections 04 and 05</h2>
+    <p class="lede">Decisions and action items.</p>
+  </div>
+  <div class="screen-body">
+    <figure class="shot">
+      <a href="img/C.jpg" target="_blank" rel="noopener"><img src="img/C.jpg" alt="Screenshot of the The note, sections 04 and 05 section with numbered red arrows for changes 9 to 10" loading="lazy" width="1600"></a>
+      <figcaption>Red numbers match the cards. Click to open full size.</figcaption>
+    </figure>
+    <div class="changes"><article class="change" id="c9">
+<header class="change-head"><span class="num" aria-label="Change 9">9</span><h3>Section 04 (Decisions), left margin</h3></header>
+<div class="now"><span class="tag">Now</span><p>A decision is written with the context around it, so someone who missed the call knows what it rests on, and when to go back and listen.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Add one line at the end</span><button type="button" class="copy" data-copy="Send the summary and decisions as a meeting recap to anyone who missed the call.">Copy</button></div><p>Send the summary and decisions as a meeting recap to anyone who missed the call.</p></div>
+<div class="why"><p><strong>Why:</strong> Reinforces &quot;meeting recap&quot; in a second place and names a real use.</p><ul class="kws"><li class="kw"><span class="kw-name">meeting recap</span><span class="kw-num">390/mo · SD 26</span></li></ul></div>
+</article><article class="change" id="c10">
+<header class="change-head"><span class="num" aria-label="Change 10">10</span><h3>Section 05 (Action items), left margin</h3></header>
+<div class="now"><span class="tag">Now</span><p>Label: Action items<br>Bullet 2: Put them on your task board, open until someone moves them.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Label</span><button type="button" class="copy" data-copy="Action items, tracked">Copy</button></div><p>Action items, tracked</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Bullet 2</span><button type="button" class="copy" data-copy="Put them on your task board as an action item tracker, open until someone moves them.">Copy</button></div><p>Put them on your task board as an action item tracker, open until someone moves them.</p></div>
+<p class="note">Keep the title &quot;Who does what, by when.&quot; and bullets 1 and 3.</p>
+<div class="why"><p><strong>Why:</strong> &quot;Action item tracker&quot; has buyer intent and only one AI note taker (read.ai) ranks for it.</p><ul class="kws"><li class="kw"><span class="kw-name">action item tracker</span><span class="kw-num">320/mo · SD 31</span></li><li class="kw"><span class="kw-name">action item tracking</span><span class="kw-num">320/mo · SD 24</span></li><li class="kw"><span class="kw-name">meeting notes with action items</span><span class="kw-num">210/mo · SD 12</span></li></ul></div>
+</article></div>
+  </div>
+</section>
+<section class="screen" id="screen-D">
+  <div class="screen-head">
+    <p class="eyebrow">Screen D · Changes 11 to 12</p>
+    <h2>Transcript</h2>
+    <p class="lede">The transcript row, plus a new row for meeting minutes.</p>
+  </div>
+  <div class="screen-body">
+    <figure class="shot">
+      <a href="img/D.jpg" target="_blank" rel="noopener"><img src="img/D.jpg" alt="Screenshot of the Transcript section with numbered red arrows for changes 11 to 12" loading="lazy" width="1600"></a>
+      <figcaption>Red numbers match the cards. Click to open full size.</figcaption>
+    </figure>
+    <div class="changes"><article class="change" id="c11">
+<header class="change-head"><span class="num" aria-label="Change 11">11</span><h3>Section 07 (The transcript), left margin</h3></header>
+<p class="flag"><span>Check first</span>Confirm the number of languages before publishing.</p>
+<div class="new"><div class="new-top"><span class="tag tag-new">Add a fourth bullet</span><button type="button" class="copy" data-copy="Writes notes in 15+ languages, including calls that switch between them.">Copy</button></div><p>Writes notes in 15+ languages, including calls that switch between them.</p></div>
+<div class="why"><p><strong>Why:</strong> Multilingual support is a buying reason. It also supports the existing &quot;Which languages&quot; FAQ.</p><p class="kw-none">Supports conversion. No search volume of its own.</p></div>
+</article><article class="change" id="c12">
+<header class="change-head"><span class="num" aria-label="Change 12">12</span><h3>NEW section 08, inserted after the transcript</h3></header>
+<p class="flag"><span>Check first</span>Confirm the Board Meeting shape produces minutes.</p>
+<div class="new"><div class="new-top"><span class="tag tag-new">Number + label</span><button type="button" class="copy" data-copy="08  Meeting minutes">Copy</button></div><p>08  Meeting minutes</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Title (left)</span><button type="button" class="copy" data-copy="Minutes, without a minutes taker.">Copy</button></div><p>Minutes, without a minutes taker.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Text (left)</span><button type="button" class="copy" data-copy="Switch the note to the Board Meeting shape and Lynkk rewrites it as AI meeting minutes: attendees, decisions and action items with owners, ready to file.">Copy</button></div><p>Switch the note to the Board Meeting shape and Lynkk rewrites it as AI meeting minutes: attendees, decisions and action items with owners, ready to file.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Right column: minutes preview</span><button type="button" class="copy" data-copy="MEETING MINUTES
+Attendees: Maya Chen (host), Arjun Rao, Priya Nair, You
+Decision 1: Ship the new onboarding to 20% of new sign-ups on Monday.
+Decision 2: Keep the old flow behind a link for a week.
+Actions: Arjun, fix the calendar step in Safari (Fri 26 Sep). You, write the in-app note (Thu 25 Sep). Priya, set up the drop-off dashboard (Mon 29 Sep).">Copy</button></div><p>MEETING MINUTES<br>Attendees: Maya Chen (host), Arjun Rao, Priya Nair, You<br>Decision 1: Ship the new onboarding to 20% of new sign-ups on Monday.<br>Decision 2: Keep the old flow behind a link for a week.<br>Actions: Arjun, fix the calendar step in Safari (Fri 26 Sep). You, write the in-app note (Thu 25 Sep). Priya, set up the drop-off dashboard (Mon 29 Sep).</p></div>
+<div class="why"><p><strong>Why:</strong> The biggest gap on the page. The minutes keywords add about 6,000 searches a month and nothing on the page targets them today.</p><ul class="kws"><li class="kw"><span class="kw-name">ai meeting minutes</span><span class="kw-num">1,600/mo · SD 49</span></li><li class="kw"><span class="kw-name">software for meeting minutes</span><span class="kw-num">1,600/mo · SD 47</span></li><li class="kw"><span class="kw-name">meeting minutes software</span><span class="kw-num">880/mo · SD 42</span></li><li class="kw"><span class="kw-name">minutes taker</span><span class="kw-num">170/mo · SD 27</span></li><li class="kw"><span class="kw-name">board meeting minutes software</span><span class="kw-num">140/mo · SD 24</span></li></ul></div>
+</article></div>
+  </div>
+</section>
+<section class="screen" id="screen-E">
+  <div class="screen-head">
+    <p class="eyebrow">Screen E · Changes 13 to 15</p>
+    <h2>Toolbar</h2>
+    <p class="lede">Shape, Send, Share. The Shape menu is your meeting notes templates feature.</p>
+  </div>
+  <div class="screen-body">
+    <figure class="shot">
+      <a href="img/E.jpg" target="_blank" rel="noopener"><img src="img/E.jpg" alt="Screenshot of the Toolbar section with numbered red arrows for changes 13 to 15" loading="lazy" width="1600"></a>
+      <figcaption>Red numbers match the cards. Click to open full size.</figcaption>
+    </figure>
+    <div class="changes"><article class="change" id="c13">
+<header class="change-head"><span class="num" aria-label="Change 13">13</span><h3>Toolbar sub copy, right side</h3></header>
+<div class="now"><span class="tag">Now</span><p>Three buttons and a menu at the top of every note. Click them below to see what each one holds.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to</span><button type="button" class="copy" data-copy="Three buttons and a menu at the top of every note: meeting notes templates, one click to Jira, and a link to share. Click them below to see what each one holds.">Copy</button></div><p>Three buttons and a menu at the top of every note: meeting notes templates, one click to Jira, and a link to share. Click them below to see what each one holds.</p></div>
+<div class="why"><p><strong>Why:</strong> Shapes are templates. Calling them that unlocks a 22,200-a-month keyword.</p><ul class="kws"><li class="kw"><span class="kw-name">meeting notes template</span><span class="kw-num">22,200/mo · SD 49</span></li></ul></div>
+</article><article class="change" id="c14">
+<header class="change-head"><span class="num" aria-label="Change 14">14</span><h3>Shape panel title, inside the demo</h3></header>
+<div class="now"><span class="tag">Now</span><p>Summary Shapes</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to</span><button type="button" class="copy" data-copy="Meeting notes templates">Copy</button></div><p>Meeting notes templates</p></div>
+<p class="note">This is a page label only. The product UI can keep &quot;Summary Shapes&quot;.</p>
+<div class="why"><p><strong>Why:</strong> Same keyword, in a visible heading inside the demo.</p><ul class="kws"><li class="kw"><span class="kw-name">meeting notes template</span><span class="kw-num">22,200/mo · SD 49</span></li></ul></div>
+</article><article class="change" id="c15">
+<header class="change-head"><span class="num" aria-label="Change 15">15</span><h3>&quot;Shape · Pro&quot; text under the demo</h3></header>
+<div class="now"><span class="tag">Now</span><p>Rewrite the summary as one of nine built-in shapes, from Daily Stand-up to Board Meeting. Every version is kept under Summary versions.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to</span><button type="button" class="copy" data-copy="Rewrite the summary with one of nine meeting notes templates: General Meeting, Daily Stand-up, Product Review, Engineering Design, Sales Call, Customer Interview, 1:1, Board Meeting and Brainstorm. Every version is kept under Summary versions.">Copy</button></div><p>Rewrite the summary with one of nine meeting notes templates: General Meeting, Daily Stand-up, Product Review, Engineering Design, Sales Call, Customer Interview, 1:1, Board Meeting and Brainstorm. Every version is kept under Summary versions.</p></div>
+<p class="note">Send and Share text: no change.</p>
+<div class="why"><p><strong>Why:</strong> Listing every template matches long-tail searches like &quot;sales call notes&quot; and &quot;1:1 meeting notes&quot;.</p><ul class="kws"><li class="kw"><span class="kw-name">meeting notes template</span><span class="kw-num">22,200/mo · SD 49</span></li></ul></div>
+</article></div>
+  </div>
+</section>
+<section class="screen" id="screen-F">
+  <div class="screen-head">
+    <p class="eyebrow">Screen F · Changes 16 to 17</p>
+    <h2>Four ways in</h2>
+    <p class="lede">How meetings get recorded.</p>
+  </div>
+  <div class="screen-body">
+    <figure class="shot">
+      <a href="img/F.jpg" target="_blank" rel="noopener"><img src="img/F.jpg" alt="Screenshot of the Four ways in section with numbered red arrows for changes 16 to 17" loading="lazy" width="1600"></a>
+      <figcaption>Red numbers match the cards. Click to open full size.</figcaption>
+    </figure>
+    <div class="changes"><article class="change" id="c16">
+<header class="change-head"><span class="num" aria-label="Change 16">16</span><h3>&quot;Four ways in&quot; sub copy, right side</h3></header>
+<p class="flag"><span>Check first</span>Confirm in-person recording.</p>
+<div class="now"><span class="tag">Now</span><p>Record from the Mac menu bar, send a bot into the call, press record in a browser, or let your calendar send the bot for you. Every way in ends at the note above.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to</span><button type="button" class="copy" data-copy="Record online or in-person meetings from the Mac menu bar, send a bot into a Meet, Zoom or Teams call, press record in a browser, or let your calendar send the bot for you. Every way in ends at the same meeting notes.">Copy</button></div><p>Record online or in-person meetings from the Mac menu bar, send a bot into a Meet, Zoom or Teams call, press record in a browser, or let your calendar send the bot for you. Every way in ends at the same meeting notes.</p></div>
+<div class="why"><p><strong>Why:</strong> Adds the in-person angle and names the three call apps people search with.</p><ul class="kws"><li class="kw"><span class="kw-name">ai note taker for in person meetings</span><span class="kw-num">480/mo · SD 40</span></li><li class="kw"><span class="kw-name">meeting notes</span><span class="kw-num">3,600/mo · SD 29</span></li></ul></div>
+</article><article class="change" id="c17">
+<header class="change-head"><span class="num" aria-label="Change 17">17</span><h3>Mac app card subtitle</h3></header>
+<div class="now"><span class="tag">Now</span><p>Notices the call for you</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to</span><button type="button" class="copy" data-copy="Calls and in-person meetings">Copy</button></div><p>Calls and in-person meetings</p></div>
+<div class="why"><p><strong>Why:</strong> Short label, same keyword angle.</p><ul class="kws"><li class="kw"><span class="kw-name">ai note taker for in person meetings</span><span class="kw-num">480/mo · SD 40</span></li></ul></div>
+</article></div>
+  </div>
+</section>
+<section class="screen" id="screen-G">
+  <div class="screen-head">
+    <p class="eyebrow">Screen G · Changes 18 to 19</p>
+    <h2>How it works and FAQ heading</h2>
+    <p class="lede">Two headings, one word each.</p>
+  </div>
+  <div class="screen-body">
+    <figure class="shot">
+      <a href="img/G.jpg" target="_blank" rel="noopener"><img src="img/G.jpg" alt="Screenshot of the How it works and FAQ heading section with numbered red arrows for changes 18 to 19" loading="lazy" width="1600"></a>
+      <figcaption>Red numbers match the cards. Click to open full size.</figcaption>
+    </figure>
+    <div class="changes"><article class="change" id="c18">
+<header class="change-head"><span class="num" aria-label="Change 18">18</span><h3>&quot;How it works&quot; heading</h3></header>
+<div class="now"><span class="tag">Now</span><p>How a call becomes a note like this.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to</span><button type="button" class="copy" data-copy="How a call becomes meeting notes like this.">Copy</button></div><p>How a call becomes meeting notes like this.</p></div>
+<div class="why"><p><strong>Why:</strong> One-word edit that puts the keyword in an H2.</p><ul class="kws"><li class="kw"><span class="kw-name">meeting notes</span><span class="kw-num">3,600/mo · SD 29</span></li></ul></div>
+</article><article class="change" id="c19">
+<header class="change-head"><span class="num" aria-label="Change 19">19</span><h3>FAQ heading</h3></header>
+<div class="now"><span class="tag">Now</span><p>Questions about Lynkk meeting notes</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to</span><button type="button" class="copy" data-copy="Questions about the Lynkk AI note taker">Copy</button></div><p>Questions about the Lynkk AI note taker</p></div>
+<div class="why"><p><strong>Why:</strong> &quot;Meeting notes&quot; already appears often. The FAQ heading is a good place for the head term.</p><ul class="kws"><li class="kw"><span class="kw-name">ai note taker</span><span class="kw-num">27,100/mo · SD 48</span></li></ul></div>
+</article></div>
+  </div>
+</section>
+<section class="screen" id="screen-H">
+  <div class="screen-head">
+    <p class="eyebrow">Screen H · Changes 20 to 22</p>
+    <h2>FAQ</h2>
+    <p class="lede">Rename two questions and add six. Add FAQPage schema to the whole block.</p>
+  </div>
+  <div class="screen-body">
+    <figure class="shot">
+      <a href="img/H.jpg" target="_blank" rel="noopener"><img src="img/H.jpg" alt="Screenshot of the FAQ section with numbered red arrows for changes 20 to 22" loading="lazy" width="1600"></a>
+      <figcaption>Red numbers match the cards. Click to open full size.</figcaption>
+    </figure>
+    <div class="changes"><article class="change" id="c20">
+<header class="change-head"><span class="num" aria-label="Change 20">20</span><h3>First question</h3></header>
+<div class="now"><span class="tag">Now</span><p>What is in every note?</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to</span><button type="button" class="copy" data-copy="What is in every AI meeting note?">Copy</button></div><p>What is in every AI meeting note?</p></div>
+<div class="why"><p><strong>Why:</strong> Questions can show up as &quot;People also ask&quot; results when the FAQ has schema.</p><ul class="kws"><li class="kw"><span class="kw-name">ai meeting notes</span><span class="kw-num">1,000/mo · SD 41</span></li></ul></div>
+</article><article class="change" id="c21">
+<header class="change-head"><span class="num" aria-label="Change 21">21</span><h3>Free plan question</h3></header>
+<div class="now"><span class="tag">Now</span><p>What does the free plan include?</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Change to</span><button type="button" class="copy" data-copy="Is Lynkk a free AI note taking app?">Copy</button></div><p>Is Lynkk a free AI note taking app?</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Start the answer with</span><button type="button" class="copy" data-copy="Yes, you can start free.">Copy</button></div><p>Yes, you can start free.</p></div>
+<p class="note">Keep the rest of the current answer.</p>
+<div class="why"><p><strong>Why:</strong> &quot;AI note taking app&quot; has the best volume-to-difficulty of any keyword we found.</p><ul class="kws"><li class="kw"><span class="kw-name">ai note taking app</span><span class="kw-num">4,400/mo · SD 26</span></li><li class="kw"><span class="kw-name">free ai note taking app</span><span class="kw-num">720/mo · SD 38</span></li></ul></div>
+</article><article class="change" id="c22">
+<header class="change-head"><span class="num" aria-label="Change 22">22</span><h3>Six new questions at the end of the list</h3></header>
+<div class="new"><div class="new-top"><span class="tag tag-new">What is an AI notetaker?</span><button type="button" class="copy" data-copy="An AI notetaker records a meeting and writes the notes for you. Lynkk captures the call, writes a transcript with speakers and times, then turns it into meeting notes: a summary, key takeaways, decisions, action items and open questions. You read the note instead of writing it.">Copy</button></div><p>An AI notetaker records a meeting and writes the notes for you. Lynkk captures the call, writes a transcript with speakers and times, then turns it into meeting notes: a summary, key takeaways, decisions, action items and open questions. You read the note instead of writing it.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">How does an AI note taker work?</span><button type="button" class="copy" data-copy="Lynkk records through the Mac app, a meeting bot, the browser or your calendar. After the call, the recording is transcribed, each speaker is labelled, and the AI writes the summary and action items from the transcript. Every point keeps the time it was said, so you can play it back.">Copy</button></div><p>Lynkk records through the Mac app, a meeting bot, the browser or your calendar. After the call, the recording is transcribed, each speaker is labelled, and the AI writes the summary and action items from the transcript. Every point keeps the time it was said, so you can play it back.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Can Lynkk take notes in in-person meetings?</span><button type="button" class="copy" data-copy="Yes. Start a recording from the Mac app and Lynkk writes the same note for a meeting in a room as it does for a Google Meet, Zoom or Teams call.">Copy</button></div><p>Yes. Start a recording from the Mac app and Lynkk writes the same note for a meeting in a room as it does for a Google Meet, Zoom or Teams call.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Can AI write meeting minutes?</span><button type="button" class="copy" data-copy="Yes. Switch any note to the Board Meeting template and Lynkk rewrites it as meeting minutes, with attendees, decisions and action items with owners. Your original summary is kept under Summary versions.">Copy</button></div><p>Yes. Switch any note to the Board Meeting template and Lynkk rewrites it as meeting minutes, with attendees, decisions and action items with owners. Your original summary is kept under Summary versions.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Does Lynkk track action items after the meeting?</span><button type="button" class="copy" data-copy="Yes. Every action item gets an owner, a due date and a priority, and stays open on your task board until someone moves it. Press Send to turn them into Jira issues, one per item.">Copy</button></div><p>Yes. Every action item gets an owner, a due date and a priority, and stays open on your task board until someone moves it. Press Send to turn them into Jira issues, one per item.</p></div>
+<div class="new"><div class="new-top"><span class="tag tag-new">Can my whole team share meeting notes?</span><button type="button" class="copy" data-copy="Yes. Share a note with a public link you can revoke, with or without the audio, or invite people by email as Viewers. The summary is also emailed to you after every meeting.">Copy</button></div><p>Yes. Share a note with a public link you can revoke, with or without the audio, or invite people by email as Viewers. The summary is also emailed to you after every meeting.</p></div>
+<div class="why"><p><strong>Why:</strong> Each question matches a real search. Together they cover the questions competitors answer and Lynkk does not yet.</p><ul class="kws"><li class="kw"><span class="kw-name">what is an ai notetaker</span><span class="kw-num">50/mo · SD 29</span></li><li class="kw"><span class="kw-name">how does ai note taker work</span><span class="kw-num">30/mo · SD 36</span></li><li class="kw"><span class="kw-name">ai note taker for in person meetings</span><span class="kw-num">480/mo · SD 40</span></li><li class="kw"><span class="kw-name">ai for meeting minutes</span><span class="kw-num">140/mo · SD 33</span></li><li class="kw"><span class="kw-name">action item tracker</span><span class="kw-num">320/mo · SD 31</span></li><li class="kw"><span class="kw-name">team ai meeting notes</span><span class="kw-num">720/mo · SD 25</span></li></ul></div>
+</article></div>
+  </div>
+</section>
+
+  <section class="screen" id="head">
+    <div class="screen-head">
+      <p class="eyebrow">Change 0 · Not visible on the page</p>
+      <h2>Page head: set in the CMS</h2>
+      <p class="lede">These fields don't appear on screen, but Google reads them first. The title tag is what shows as the blue link in search results.</p>
+    </div>
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Field</th><th scope="col">New value</th><th scope="col">Note</th></tr></thead>
+      <tbody><tr><th scope="row">Title tag</th><td><div class="cell-new"><code>AI Note Taker for Meeting Notes &amp; Minutes | Lynkk</code><button type="button" class="copy" data-copy="AI Note Taker for Meeting Notes &amp; Minutes | Lynkk">Copy</button></div></td><td>49 characters</td></tr><tr><th scope="row">Meta description</th><td><div class="cell-new"><code>Lynkk&#x27;s AI note taker writes your meeting notes when the call ends: AI summary, decisions, action items and minutes, online or in person. Start free.</code><button type="button" class="copy" data-copy="Lynkk&#x27;s AI note taker writes your meeting notes when the call ends: AI summary, decisions, action items and minutes, online or in person. Start free.">Copy</button></div></td><td>149 characters</td></tr><tr><th scope="row">URL</th><td><div class="cell-new"><code>/features/meeting-notes</code><button type="button" class="copy" data-copy="/features/meeting-notes">Copy</button></div></td><td>Keep it. Optional: /features/ai-note-taker with a 301 redirect, while the page has no rankings yet.</td></tr><tr><th scope="row">Schema</th><td><div class="cell-new"><code>SoftwareApplication + FAQPage</code><button type="button" class="copy" data-copy="SoftwareApplication + FAQPage">Copy</button></div></td><td>SoftwareApplication: name Lynkk, category BusinessApplication, offers price 0. FAQPage: every question in the FAQ block.</td></tr><tr><th scope="row">Open Graph title</th><td><div class="cell-new"><code>AI Note Taker for Meeting Notes &amp; Minutes | Lynkk</code><button type="button" class="copy" data-copy="AI Note Taker for Meeting Notes &amp; Minutes | Lynkk">Copy</button></div></td><td>Same as the title tag.</td></tr></tbody>
+    </table></div>
+  </section>
+
+  <section class="screen" id="cover">
+    <div class="screen-head">
+      <p class="eyebrow">After the changes</p>
+      <h2>Keyword coverage</h2>
+      <p class="lede">Where each target keyword will appear once all 22 changes are live. Bars show US monthly searches.</p>
+    </div>
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Keyword</th><th scope="col" class="numcell">Searches/mo</th><th scope="col" class="numcell">SD</th><th scope="col">Volume</th><th scope="col">Appears in</th></tr></thead>
+      <tbody><tr><th scope="row">ai note taker</th><td class="numcell">27,100</td><td class="numcell">48</td><td><div class="bar" style="--w:100%"></div></td><td>Title, H1, eyebrow, FAQ heading, FAQ</td></tr><tr><th scope="row">meeting notes template</th><td class="numcell">22,200</td><td class="numcell">49</td><td><div class="bar" style="--w:82%"></div></td><td>Toolbar copy, panel title, Shape text</td></tr><tr><th scope="row">ai note taking app</th><td class="numcell">4,400</td><td class="numcell">26</td><td><div class="bar" style="--w:16%"></div></td><td>FAQ</td></tr><tr><th scope="row">meeting notes</th><td class="numcell">3,600</td><td class="numcell">29</td><td><div class="bar" style="--w:13%"></div></td><td>Title, H1, eyebrow, intro, H2s, FAQ</td></tr><tr><th scope="row">ai notetaker</th><td class="numcell">2,900</td><td class="numcell">42</td><td><div class="bar" style="--w:11%"></div></td><td>Intro, FAQ</td></tr><tr><th scope="row">ai meeting minutes</th><td class="numcell">1,600</td><td class="numcell">49</td><td><div class="bar" style="--w:6%"></div></td><td>New section 08, FAQ, meta</td></tr><tr><th scope="row">ai meeting notes</th><td class="numcell">1,000</td><td class="numcell">41</td><td><div class="bar" style="--w:4%"></div></td><td>H2, FAQ</td></tr><tr><th scope="row">team ai meeting notes</th><td class="numcell">720</td><td class="numcell">25</td><td><div class="bar" style="--w:3%"></div></td><td>FAQ</td></tr><tr><th scope="row">summarize meeting</th><td class="numcell">590</td><td class="numcell">27</td><td><div class="bar" style="--w:2%"></div></td><td>Section 02</td></tr><tr><th scope="row">ai note taker for in person meetings</th><td class="numcell">480</td><td class="numcell">40</td><td><div class="bar" style="--w:2%"></div></td><td>Intro, four ways in, Mac app card, FAQ</td></tr><tr><th scope="row">meeting recap</th><td class="numcell">390</td><td class="numcell">26</td><td><div class="bar" style="--w:2%"></div></td><td>Sections 03 and 04</td></tr><tr><th scope="row">action item tracker</th><td class="numcell">320</td><td class="numcell">31</td><td><div class="bar" style="--w:2%"></div></td><td>Section 05, FAQ</td></tr><tr><th scope="row">minutes taker</th><td class="numcell">170</td><td class="numcell">27</td><td><div class="bar" style="--w:2%"></div></td><td>Section 08</td></tr><tr><th scope="row">ai meeting summary</th><td class="numcell">170</td><td class="numcell">37</td><td><div class="bar" style="--w:2%"></div></td><td>Section 02, intro</td></tr><tr><th scope="row">meeting takeaways</th><td class="numcell">140</td><td class="numcell">15</td><td><div class="bar" style="--w:2%"></div></td><td>Section 03 (already there)</td></tr></tbody>
+    </table></div>
+  </section>
+
+  <p class="foot">Data: Ubersuggest, United States, 1 Oct 2026. Screenshots taken 1 Oct 2026. Copy keeps the page's existing voice: short, plain sentences.</p>
+</main>
+
+<script>
+document.addEventListener('click', function (e) {
+  var b = e.target.closest('.copy'); if (!b) return;
+  var t = b.getAttribute('data-copy');
+  function done() { b.textContent = 'Copied'; b.classList.add('done'); setTimeout(function () { b.textContent = 'Copy'; b.classList.remove('done'); }, 1600); }
+  function fallback() {
+    var p = b.closest('.new, .cell-new'); var el = p && p.querySelector('p, code'); if (!el) return;
+    var r = document.createRange(); r.selectNodeContents(el); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+    b.textContent = 'Selected';
+  }
+  try { navigator.clipboard.writeText(t).then(done, fallback); } catch (err) { fallback(); }
+});
+document.querySelectorAll('.confirm input').forEach(function (c) {
+  try { c.checked = localStorage.getItem('mn-' + c.id) === '1'; } catch (e) {}
+  c.addEventListener('change', function () { try { localStorage.setItem('mn-' + c.id, c.checked ? '1' : '0'); } catch (e) {} });
+});
+</script>
