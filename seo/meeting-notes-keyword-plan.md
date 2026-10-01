@@ -97,6 +97,44 @@ The page owns everything about **the notes output**: notes, summaries, recaps, m
 action items. It does not own "assistant", "recorder", "transcription" or "live" keywords
 (see the exclusion list at the end of this section).
 
+### Top 5 keywords with 1,000+ monthly searches (lead with these)
+| # | Keyword | Volume | SD | Who ranks today (US) | Why it's winnable |
+|---|---|---|---|---|---|
+| 1 | **ai note taking app** | 4,400 | 26 | Listicles, Reddit, app stores, read.ai homepage #8 | Lowest SD of any 1k+ term. A DA 6 site is #13. |
+| 2 | **meeting notes** | 3,600 | 29 | App Store "AI Meeting Notes" apps (#3, #6), meetjamie.ai blog #5, mwm.ai app page (DA 39) #9 | Google shows **apps** for this head term, so a product page fits. |
+| 3 | **ai meeting note taker** | 3,600 | 44 | simular.ai (DA 24) #2, otter.ai #5, read.ai #7, **krisp.ai/ai-note-taker product page #8**, zoom.com feature page #10 | Feature pages rank, not only homepages. |
+| 4 | **ai meeting minutes** | 1,600 | 49 | App Store apps, fellow.ai templates, **tinrec.com (DA 12) at #5 and #10**, meetingnotes.com (DA 38) | Weakest results page of the five, despite the SD score. |
+| 5 | **software for meeting minutes** | 1,600 | 47 | No results-page data in Ubersuggest | $31 CPC = strong buyer intent. Pairs with "meeting minutes software" (880) and "meeting minutes app" (880). |
+
+Also 1,000+ and on this page, as supporting terms: ai notetaker (2,900 / 42),
+ai meeting notes taker (3,600 / 49), notes ai (5,400 / 49), ai notes (5,400 / 55),
+ai note taker (27,100 / 34-48).
+
+**1,000+ keywords checked and rejected for this page:**
+| Keyword | Volume | Why not |
+|---|---|---|
+| note taking app / note taker app | 22,200 | General note apps (Evernote, OneNote, Goodnotes, iPad apps). Wrong intent. |
+| ai summarizer | 22,200 | Text and PDF summarizers (QuillBot, Grammarly). Wrong intent. |
+| meeting minutes | 9,900 | Definition searches ("what are meeting minutes"). Blog. |
+| minutes of meeting / minutes of meeting example | 1,900 / 5,400 | Examples and formats. Blog / templates. |
+| ai note maker, ai notes generator | 1,000 each | Students turning PDFs and lectures into notes. |
+| clinical notes ai | 1,900 | Medical notes. Wrong audience. |
+| ai powered meeting assistant, meeting assistant | 40,500* / 4,400 | Homepage keywords. |
+
+Note: "ai meeting minutes" shows different Google results from "ai meeting notes", so Google
+treats minutes as a separate topic. The minutes keywords (top 5 #4 and #5 plus group D below,
+about 6,000 searches/month together) can move to their own page later without competing with
+this one.
+
+Suggested title using the top 5 (54 chars):
+```
+AI Note Taking App for Meeting Notes & Minutes | Lynkk
+```
+Suggested H1:
+```
+The AI meeting note taker for notes, summaries and minutes
+```
+
 ### A. Core (title, H1, meta description)
 | Keyword | Volume | SD | Role |
 |---|---|---|---|
@@ -292,7 +330,11 @@ FAQ (feeds PAA and AI Overviews), and Lynkk should be in third-party listicles a
 `/features/ai-meeting-notes` matches the target keywords better. The page has no rankings yet, so
 a change (with a 301 redirect) costs nothing now and gets harder later.
 
-### Title tag (60 chars)
+### Title tag (54 chars)
+```
+AI Note Taking App for Meeting Notes & Minutes | Lynkk
+```
+Alternate (60 chars):
 ```
 AI Note Taking App for Meetings: Notes in 30 Seconds | Lynkk
 ```
@@ -308,7 +350,7 @@ Lynkk's AI note taker turns online and in-person meetings into AI meeting notes,
 
 ### H1
 ```
-The AI note taker that writes your meeting notes in 30 seconds
+The AI meeting note taker for notes, summaries and minutes
 ```
 
 ### Suggested H2 structure (keyword in brackets)
