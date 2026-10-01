@@ -71,7 +71,11 @@ that link back to this page (section 5).
 | Secondary | knowledge graph tool | 70 | 39 | $10.41 | Commercial intent |
 | Secondary | personal knowledge graph | 50 | 30 | $5.01 | DA 15 site ranks #5 |
 | Secondary | knowledge graph app | 20 | 26 | $5.62 | Low SD, product intent |
+| Secondary (H2) | decision log | 480 | 30 | $22.64 | The graph captures decisions; plane.so (DA 29) ranks #4 |
+| Secondary (H2) | action item tracking | 320 | 24 | $20.01 | Read AI ranks #2 with one post; variants: action tracker 320/17, action item tracker 320/31 |
+| Secondary (H2) | meeting preparation | 390 | 24 | $4.58 | Matches the "context before every call" feature |
 | Supporting | knowledge management ai | 720 | 25 | $12.68 | Low SD, high value; also gets its own blog post |
+| Supporting (FAQ) | context graph | 1,300 | 37 | $23.26 | Hot term; one FAQ mention here, full post separately |
 | Supporting | knowledge graph visualization | 170 | 19 | $13.40 | Use only if the page shows a visual graph |
 | Conditional | knowledge graph mcp | 70 | 24 | $33.31 | Use only if MCP clients can query the graph |
 | Conditional | mcp knowledge graph | 50 | 26 | $7.17 | Same |
@@ -103,6 +107,10 @@ already prepared.
 2. **How Lynkk builds your knowledge graph automatically** [knowledge graph software]
    Three steps: capture (online + in person, multilingual) → extract (people, companies,
    topics, decisions, tasks) → connect (link across every meeting, update after each call).
+   - **Every decision, logged automatically** [decision log, decision log project management]
+   - **Action items tracked across every meeting** [action item tracking, action item tracker, rolling action item list]
+   - **Walk into every meeting prepared** [meeting preparation]
+   (Three H2s added after competitor placement research; see `seo/knowledge-graph-keyword-placement.md`.)
 3. **Ask your meetings anything** [ai second brain]
    Natural-language search, answers with links to the exact moment, and live voice answers
    during a meeting.
@@ -126,6 +134,8 @@ already prepared.
     - Does it work for in-person meetings and other languages?
     - Where is my data stored and processed?
     - Is the knowledge graph free?
+    - Is this a knowledge graph or a context graph?
+    - Can Lynkk track action items and decisions across meetings?
 
 **On-page checklist**
 - [ ] Primary keyword in: title, H1, first 100 words, one H2, meta description, one image alt
