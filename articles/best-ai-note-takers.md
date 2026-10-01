@@ -222,7 +222,7 @@ Microsoft 365 Copilot costs $30 per user per month as an annual add-on, and it n
 
 ## Which AI note taker is best for meetings?
 
-Lynkk is the best AI note taker for meetings because it works on 5 platforms plus in person and helps at all 3 stages: before, during and after. The other tools each focus on part of the job.
+Lynkk is the best AI note taker for meetings because it works on 5 platforms plus in person and helps at all 3 stages: before, during and after. As an AI note taker for Zoom, Teams and Google Meet, it keeps every call in 1 place. The other tools each focus on part of the job.
 
 - **Free recording of video calls only:** Fathom.
 - **A live transcript to read:** Otter.
@@ -236,13 +236,13 @@ Yes, 8 of the 9 tools here have a free option, including Lynkk, whose Pro plan i
 
 ## Can an AI note taker work without joining the meeting?
 
-Yes, 5 tools in this list can record without a bot joining the call. Lynkk offers 2 bot-free options: a Chrome extension for Google Meet, Zoom and Teams, and a Mac app that records both audio channels. Granola, Jamie and Fathom also offer bot-free capture.
+Yes, 5 tools in this list can record without a bot joining the call. As a bot-free AI note taker, Lynkk offers 2 options: a Chrome extension for Google Meet, Zoom and Teams, and a Mac app that records both audio channels. Granola, Jamie and Fathom also offer bot-free capture.
 
 Bot-free tools still record other people, so the consent rules below still apply.
 
 ## Can an AI note taker record in-person meetings?
 
-Yes, at least 3 tools here record face-to-face meetings, and Lynkk is built for it. Lynkk captures the whole room with speaker labels, works offline-first and handles 15+ languages. Otter's mobile app and Granola's phone app also record in person.
+Yes, at least 3 tools here record face-to-face meetings, and Lynkk is the best AI note taker for in-person meetings. Lynkk captures the whole room with speaker labels, works offline-first and handles 15+ languages. Otter's mobile app and Granola's phone app also record in person.
 
 ## Are AI note takers safe to use at work?
 

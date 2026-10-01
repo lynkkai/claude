@@ -13,7 +13,7 @@ keywords:
   - zoom ai transcription             # 390 / 25
 keywords_added:                       # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30)
   - how to record meeting on zoom     # 480 / 31
-  - zoom how to record meeting        # 140 / 33
+  - zoom how to record meeting        # 140 / 33 (used in natural form: "how to record meeting on Zoom")
   - zoom automatically record meeting # 50 / 26
   - can you record meeting on zoom    # 50 / 30
   - is meeting recording free in zoom # autocomplete question
@@ -187,17 +187,17 @@ If you want free notes as well as a recording, an AI Zoom meeting recorder such 
 
 ## How do you record a meeting on Zoom?
 
-You can record a meeting on Zoom in 3 steps when you are the host or have permission. This is the quickest way for the Zoom record meeting button to work.
+Here is how to record meeting on Zoom in 3 steps when you are the host or have permission. This is the quickest way for the Zoom record meeting button to work.
 
 1. **Start or join the meeting** in the Zoom desktop app.
 2. **Click Record** in the meeting controls, then choose "Record on this computer" or "Record to the cloud" (paid plans).
 3. **Stop the recording** or end the meeting. Local files are processed after the meeting ends.
 
-To record every meeting, Zoom lets hosts turn on automatic recording in the Zoom web portal settings. An AI Zoom meeting recorder like Lynkk can also join automatically from your calendar.
+To have Zoom automatically record meeting sessions, hosts turn on automatic recording in the Zoom web portal settings. An AI Zoom meeting recorder like Lynkk can also join automatically from your calendar.
 
 ## Can you record a meeting on Zoom if you are not the host?
 
-Yes, if the host allows it. Zoom hosts have 2 options: let every participant record to their computer, or require each participant to request permission first.
+Can you record meeting on Zoom as a participant? Yes, if the host allows it. Zoom hosts have 2 options: let every participant record to their computer, or require each participant to request permission first.
 
 Bot-free tools still record other people, so the host's rules and consent laws still apply. Lynkk's meeting bot joins as a visible participant, which makes recording clear to everyone.
 

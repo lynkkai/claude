@@ -62,7 +62,7 @@ We compared 7 AI transcription software tools on what they transcribe, what they
 
 ## What is AI transcription software?
 
-AI transcription software is a program that uses speech recognition to turn spoken audio into written text without a human typist, often processing 1 hour of audio in a few minutes. Good tools transcribe an hour of audio in minutes, label each speaker and let you search, edit and export the result.
+AI transcription software is a program that uses speech recognition to turn spoken audio into written text without a human typist, often processing 1 hour of audio in a few minutes. It is also called auto transcription software. Good tools transcribe an hour of audio in minutes, label each speaker and let you search, edit and export the result.
 
 There are 3 main types. Meeting transcription software records live calls, file transcription software converts audio you upload, and dictation software types what you say as you say it.
 

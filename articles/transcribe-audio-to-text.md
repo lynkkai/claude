@@ -179,7 +179,7 @@ Windows and macOS both include $0, built-in dictation that turns your voice into
 
 ## How do you transcribe audio to text for free?
 
-You can transcribe audio to text free with at least 4 options in this guide, each with a limit. Pick the one whose limit fits your audio.
+You can transcribe audio to text free with at least 4 options in this guide, each with a limit. Every free AI transcription audio to text option caps minutes, files or features. Pick the one whose limit fits your audio.
 
 | Free option | Free limit | Best for |
 |---|---|---|
@@ -192,7 +192,7 @@ Free AI transcription of audio to text is good enough for most meetings, and AI 
 
 ## How do you transcribe audio to text in Word?
 
-You can transcribe audio to text in Microsoft Word in 4 steps with a Microsoft 365 subscription. Microsoft Word transcribes audio to text from uploaded files up to your monthly limit.
+Here is how to transcribe audio to text in Word: it takes 4 steps with a Microsoft 365 subscription. The Microsoft Word transcribe audio to text feature works on uploaded files up to your monthly limit.
 
 1. **Open Word** for the web or the Microsoft 365 app.
 2. **Select Dictate, then Transcribe.**
@@ -203,7 +203,7 @@ The monthly limit is 300 minutes of uploaded audio, or 30,000 minutes with a Cop
 
 ## Which application to transcribe audio to text should you use?
 
-The right application to transcribe audio to text depends on where your audio comes from. This table matches 5 common situations to the best tool in this guide.
+The right application to transcribe audio to text depends on where your audio comes from. Programs that transcribe audio to text fall into 3 groups: meeting tools, file transcribers and live dictation. This table matches 5 common situations to the best tool in this guide.
 
 | Your audio | Best tool | Why |
 |---|---|---|

@@ -172,13 +172,13 @@ Fathom's free plan includes unlimited recordings, transcripts and AI summaries, 
 
 ## Does Teams have an AI note taker?
 
-Yes. Teams has 2 built-in Teams AI options: Microsoft 365 Copilot, a $30 per user per month add-on, and intelligent recap in Teams Premium. Without either license, Teams gives you recording and transcription, but no AI summary.
+Yes. Teams has 2 built-in Teams AI options: Microsoft 365 Copilot, a $30 per user per month add-on, and intelligent recap in Teams Premium. Without either license, Teams gives you recording and transcription, but no Teams AI summary.
 
 Third-party tools fill that gap. A Microsoft Teams AI notes taker like Lynkk records Teams and writes notes and action items without an extra Microsoft license. You can start free with 5 hours of recording in total, and the meeting bot comes with Pro at $15 a month.
 
 ## Can Copilot take meeting notes?
 
-Yes. Copilot can take meeting notes in Teams when each user has a Microsoft 365 Copilot license ($30 per user per month) and the meeting is transcribed. Copilot meeting notes include a recap and let you ask questions about what was said.
+Yes. Copilot can take meeting notes in Teams when each user has a Microsoft 365 Copilot license ($30 per user per month) and the meeting is transcribed. Copilot meeting notes include a recap and let you ask questions about what was said. A Teams Copilot meeting summary is only available to users with that license.
 
 For a 10-person team, that is about $300 a month on top of Microsoft 365. Lynkk starts free, and Pro is $15 a month.
 
@@ -199,11 +199,11 @@ Teams AI note takers cost between $0 and about $300 a month for 10 people, based
 
 Teams saves recordings in 2 places, depending on the meeting type. Channel meeting recordings go to the channel's SharePoint site in a Recordings folder, and other meetings go to the OneDrive of the person who pressed Record.
 
-Transcripts appear in the meeting's calendar event right after the meeting. With Lynkk, notes, transcripts and action items from every Teams call sit in 1 searchable workspace instead.
+Transcripts appear in the meeting's calendar event right after the meeting. People often search "where do Teams recording go" after a call, and the answer above covers both cases. With Lynkk, notes, transcripts and action items from every Teams call sit in 1 searchable workspace instead.
 
 ## How do you get AI meeting notes in Teams?
 
-You can get Teams AI meeting notes in 4 steps with Lynkk, with no Copilot license needed.
+You can get Microsoft Teams AI meeting notes in 4 steps with Lynkk, with no Copilot license needed.
 
 1. **Sign up for Lynkk free** and connect your calendar.
 2. **Choose how to record:** the meeting bot (Pro) joins automatically, or use the Chrome extension for bot-free recording.

@@ -57,7 +57,7 @@ If you are on a free Zoom account, only a third-party tool like Lynkk can give y
 
 ## How do you transcribe Zoom meetings with Lynkk?
 
-You can transcribe Zoom meetings with Lynkk in 4 steps, on any Zoom plan. After a one-time setup, every later meeting is transcribed automatically.
+This is how to transcribe meeting in Zoom calls with Lynkk: 4 steps, on any Zoom plan. After a one-time setup, every later meeting is transcribed automatically.
 
 1. **Sign up for Lynkk free** and connect your calendar.
 2. **Choose how to record:** the [Lynkk meeting bot for Zoom, Meet and Teams](https://lynkk.ai/features/meeting-bot) joins your Zoom calls on Pro, or the [Lynkk Chrome extension](https://lynkk.ai/features/chrome-extension) records with no bot.
@@ -78,7 +78,7 @@ This is how to get Zoom transcript text from a cloud recording in 3 steps on a p
 
 You can only get a Zoom transcript after the meeting if 1 of 2 things was set up beforehand: cloud recording with audio transcription on, or a tool like Lynkk recording the call. Zoom does not transcribe past recordings retroactively.
 
-To find it:
+Here is how to find Zoom transcript after meeting recordings finish processing, which is also how to get Zoom transcript after meeting ends:
 
 - **Cloud recording transcripts** appear on the Recordings page of the Zoom web portal once processing finishes.
 - **AI Companion transcripts** come with the meeting summary, if your admin lets users keep them.
@@ -86,7 +86,7 @@ To find it:
 
 ## How do you download or save a Zoom transcript?
 
-If you are wondering how to download Zoom transcript files, there is 1 place to look on paid plans: the cloud recording's page in the Zoom web portal.
+If you are wondering how to download Zoom transcript files, there is 1 place to look on paid plans: the cloud recording's page in the Zoom web portal. That page holds the Zoom transcript download for cloud recordings, and it is also how to save Zoom transcript files for later.
 
 With Lynkk, you do not need to save transcript files by hand. Every transcript is stored in 1 searchable workspace, and you can ask a question across all your Zoom calls to get a cited answer that links to the exact moment.
 

@@ -65,7 +65,7 @@ There are 2 kinds. A device is a small piece of hardware with its own microphone
 
 ## How does an AI voice recorder work?
 
-It works in 3 stages: it captures audio, sends it to speech recognition, then asks an AI model to write a summary and tasks. Most devices record offline and sync to a phone app later, while apps like Lynkk can process the conversation about 30 seconds after it ends.
+If you are asking how does AI voice recorder work, the answer is 3 stages: it captures audio, sends it to speech recognition, then asks an AI model to write a summary and tasks. Most devices record offline and sync to a phone app later, while apps like Lynkk can process the conversation about 30 seconds after it ends.
 
 1. **Capture:** microphones record the conversation. Devices use built-in mics; apps use your laptop or phone.
 2. **Transcribe:** speech recognition turns audio into text, with speaker labels on better tools.
@@ -121,7 +121,7 @@ Plaud Note Pro costs $189 and records up to 50 hours continuously, with 4 MEMS m
 
 ## 3. Pocket: best wearable AI voice recorder
 
-Pocket is a wearable AI voice recorder that weighs 52 grams and clips on with MagSafe. Transcription, summaries, mind maps and action items come with the device, with no mandatory subscription.
+The Pocket AI voice recorder is a wearable device that weighs 52 grams and clips on with MagSafe. Transcription, summaries, mind maps and action items come with the device, with no mandatory subscription.
 
 **Best for:** people who want hands-free capture during the day, including phone calls.
 

@@ -13,7 +13,7 @@ keywords:
   - software for interview transcription       # 260 / 21
   - interview transcription software           # 210 / 40
 keywords_added:                                # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
-  - transcription software interviews          # 260 / 23
+  - transcription software interviews          # 260 / 23 (used in natural form: "transcription software for interviews")
 cluster: use-cases
 template: D (use case)
 internal_link_target: https://lynkk.ai/use-cases/user-interviews

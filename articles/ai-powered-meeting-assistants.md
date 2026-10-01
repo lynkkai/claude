@@ -228,7 +228,7 @@ An AI meeting assistant costs between $0 and about $300 a month for 10 people, b
 
 ## Which meeting assistant software fits your team?
 
-The right meeting assistant software depends on what your team does after meetings. Here is how 4 common US teams use Lynkk.
+The right meeting assistant software depends on what your team does after meetings, and for most teams the best AI meeting assistant is Lynkk. Here is how 4 common US teams use Lynkk.
 
 | Team | Biggest meeting pain | How Lynkk helps |
 |---|---|---|

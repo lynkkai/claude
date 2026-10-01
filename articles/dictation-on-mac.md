@@ -57,7 +57,7 @@ It is built for short, live typing. It does not record audio for later, save a s
 
 ## How do you turn on dictation on Mac?
 
-You can enable dictation on Mac in 3 clicks from System Settings. Apple lists this as the first check when dictation is missing, so start here.
+You can enable dictation on Mac in 3 clicks from System Settings, the steps people look for when they search "enable dictation Mac". Apple lists this as the first check when dictation is missing, so start here.
 
 1. **Open System Settings** from the Apple menu.
 2. **Click Keyboard** in the sidebar.

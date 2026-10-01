@@ -224,7 +224,7 @@ If your team uses both Mac and Windows, check that everyone can use the same too
 
 ## What is the best speech to text app for iPhone?
 
-For iPhone, Apple's built-in keyboard dictation is the $0 default, and Otter's app adds live transcripts with 300 free minutes a month. Choose based on whether you are typing your own words or recording other people.
+For iPhone, Apple's built-in keyboard dictation is the $0 speech to text app iPhone owners already have, and Otter's app adds live transcripts with 300 free minutes a month. Choose based on whether you are typing your own words or recording other people.
 
 For meetings you attend on a laptop, Lynkk records and transcribes the whole conversation with speaker labels.
 

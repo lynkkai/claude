@@ -188,7 +188,7 @@ Descript's free plan includes 1 hour of automatic transcription a month, aimed a
 
 ## How many meetings can you record on each free AI note taker?
 
-The number of meetings you can record for free ranges from 2 a month to unlimited, depending on the plan's limit. We converted each free plan into 30-minute meetings, the length of a typical US team call.
+The number of meetings you can record for free ranges from 2 a month to unlimited, depending on the plan's limit. We converted each free plan into 30-minute meetings, the length of a typical US team call. If you want an AI meeting notes taker free of charge, check this table before you sign up.
 
 | Free plan | Limit | About how many 30-minute meetings |
 |---|---|---|

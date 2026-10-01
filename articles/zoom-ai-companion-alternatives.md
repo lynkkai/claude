@@ -77,7 +77,7 @@ AI Companion covers 4 main jobs for paid Zoom users, according to Zoom's help ce
 | Tasks | Helps generate and manage tasks from meetings |
 | Third-party meetings | Joins Microsoft Teams and Google Meet meetings for licensed users |
 
-AI Companion note taking works best if your company already pays for Zoom Workplace and runs most meetings there.
+Zoom AI Companion note taking works best if your company already pays for Zoom Workplace and runs most meetings there.
 
 ## Why look for a Zoom AI Companion alternative?
 
@@ -196,7 +196,7 @@ Gemini's "Take notes for me" captures Google Meet notes in real time and saves t
 
 You use AI Companion in 3 steps on a paid Zoom account, once your admin has turned the features on. This is how to use Zoom AI Companion for a meeting summary.
 
-1. **Check it is enabled.** Account owners and admins turn AI Companion features on in the Zoom web portal.
+1. **Check it is enabled.** Account owners and admins decide how to turn on Zoom AI Companion features, in the Zoom web portal.
 2. **Start the summary or live notes** from the AI Companion controls during the meeting.
 3. **Review the Zoom AI Companion meeting summary** after the meeting, including next steps.
 
@@ -204,7 +204,7 @@ Hosts can also use meeting summary templates, and licensed users can invite AI C
 
 ## How do you turn off Zoom AI Companion?
 
-Account owners and admins can turn off Zoom AI Companion in the Zoom web portal, either with 1 universal toggle for all AI features or feature by feature. Zoom lets admins separately disable meeting summary, meeting questions and AI Companion in third-party meetings.
+Here is how to turn off Zoom AI Companion: account owners and admins switch it off in the Zoom web portal, either with 1 universal toggle for all AI features or feature by feature. Zoom lets admins separately disable meeting summary, meeting questions and AI Companion in third-party meetings.
 
 To disable Zoom AI Companion for your own meetings as a regular user, check your settings or ask your Zoom admin, since company settings can lock features on or off.
 
