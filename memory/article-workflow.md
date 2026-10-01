@@ -33,7 +33,7 @@ Batch 1 (2026-09-30): 11 drafts written, all pass `scripts/audit_article.py`. Su
 - [x] #9 ai-powered-meeting-assistants
 - [x] #10 zoom-ai-companion-alternatives
 - [x] #16 how-to-transcribe-zoom-meetings
-- [x] #11-#15 written 2026-10-01 as "best / top" alternatives listicles (Template A) that link to the existing /compare pages. Summary: `seo/audits/batch-4-summary.md`.
+- [x] #11-#15 slots filled 2026-10-01 with 5 specific how-tos (FaceTime, WhatsApp, Google Meet, Webex, Slack huddles) instead of the generic Lynkk vs / alternatives posts. Summary: `seo/audits/batch-4-summary.md`.
 Batch 2 (2026-09-30): 10 drafts (#17-#26) written, all pass the audit. Summary: `seo/audits/batch-2-summary.md`.
 - [x] #17 dictation-on-mac
 - [x] #18 dictate-in-microsoft-word
