@@ -100,7 +100,8 @@ These four queries return nearly the same SERP, so one page can rank for all of 
   filler words and adds punctuation automatically, understands you when you change your
   mind mid-sentence, 100+ languages, personal dictionary, voice shortcuts/snippets,
   coding support, syncs across Mac, Windows, iPhone, Android. Separate pages for
-  pricing, students, `/comparison/superwhisper-alternative`.
+  pricing, students, `/comparison/superwhisper-alternative`. **Since August 2026 it also
+  has a bot-free meeting Notetaker.** Full breakdown in `seo/wispr-flow-teardown.md`.
 - **VoiceInk** ([tryvoiceink.com](https://tryvoiceink.com/faq)): title tag is literally
   "VoiceInk: The Best Dictation App for macOS". Sells on privacy (runs locally on your
   Mac), "Power Mode" (different settings per app), AI cleanup, and a one-time price.
@@ -117,9 +118,11 @@ These four queries return nearly the same SERP, so one page can rank for all of 
    VoiceInk and Spokenly do.
 2. Cover the usual checklist (works in any app, cleans up filler words, punctuation,
    multilingual, privacy) so Google sees a complete page.
-3. Win on what none of them have: **dictation and meeting notes in one app**. Wispr Flow
-   only added a separate notetaker page, and the others don't do meetings at all. That is
-   the angle for both the copy and the comparison pages.
+3. Win on what a passive notetaker doesn't do. VoiceInk, Superwhisper and Willow don't
+   cover meetings at all, but Wispr Flow now does (bot-free notes, summaries, MCP). So
+   "dictation plus notes in one app" is not enough on its own. Lead with **context before
+   the call, a live voice assistant during it, CRM and Jira updates after it, in-person
+   meetings, and data residency**.
 4. Include a "Lynkk vs built-in Mac dictation" section. Half the people searching
    "voice to text mac" are looking at Apple's tool, and this section is how you reach them.
 
@@ -221,7 +224,8 @@ to dictation, and what is stored]**
 ---
 
 **[H2]** One app for dictation and meeting notes
-<!-- the differentiator: no dictation competitor has this -->
+<!-- differentiator vs VoiceInk/Superwhisper/Willow. Vs Wispr Flow (which now has a notetaker), the edge is the live voice assistant, pre-call context and CRM/Jira updates below -->
+
 
 Most people end up with two tools: a dictation app for writing and an AI notetaker for
 meetings. Lynkk does both in one Mac app.
@@ -321,9 +325,10 @@ You can start free. **[confirm: free dictation limits and paid plan name/price]*
 **[confirm number and list of languages]**
 
 **[H3] Is Lynkk a Wispr Flow alternative?**
-Yes. Like Wispr Flow, Lynkk turns your voice into clean text in any app. The difference
-is that Lynkk is also an AI meeting assistant, so dictation, meeting notes, action items
-and CRM updates live in one app with one subscription.
+Yes. Like Wispr Flow, Lynkk turns your voice into clean text in any app. Lynkk is also
+an AI meeting assistant that does more than take notes: it brings context from past
+meetings before a call, answers by voice during it, and updates your CRM and creates Jira
+tickets afterwards. You can also choose the region where your data is processed.
 
 ---
 
@@ -392,7 +397,7 @@ Paste in `<head>`. Fill in the `[confirm]` values; delete any line you can't ver
           "name": "Is Lynkk a Wispr Flow alternative?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Like Wispr Flow, Lynkk turns your voice into clean text in any app. Lynkk is also an AI meeting assistant, so dictation, meeting notes, action items and CRM updates live in one app."
+            "text": "Yes. Like Wispr Flow, Lynkk turns your voice into clean text in any app. Lynkk is also an AI meeting assistant: it brings context from past meetings before a call, answers by voice during it, and updates your CRM and creates Jira tickets afterwards."
           }
         }
       ]
@@ -413,6 +418,7 @@ In priority order:
 | # | Page | Target keyword | Vol | SD | Why |
 |---|---|---|---|---|---|
 | 1 | `/compare/wispr-flow-alternative` | wispr flow alternative (+ free / for windows variants) | 480+ | **11** | Lowest SD with real volume. getvoibe (DA 15) ranks with this |
+| 1b | `/use-cases/microsoft-word` (Dictation for Word on Mac) | dictation software for microsoft word, microsoft word dictation software | 1,600 + 1,300 | **8** / 30 | Wispr doesn't rank for it. Confirm Lynkk works in Word first |
 | 2 | `/blog/how-to-use-dictation-on-mac` | how to use mac dictation, mac dictation shortcut, mac dictation not working | 720 + 480 + 480 | 25-35 | carelesswhisper.app (DA 6) ranks with exactly this page |
 | 3 | `/blog/best-dictation-software-for-mac` | best dictation software for mac, dictation app for mac, best ai dictation app | 110-260 | 29-32 | Listicle with Lynkk listed honestly among others |
 | 4 | `/compare/lynkk-vs-superwhisper`, `/compare/lynkk-vs-voiceink` | brand vs brand | 30-50 each | ~10-15 | Cheap to write, high intent |
