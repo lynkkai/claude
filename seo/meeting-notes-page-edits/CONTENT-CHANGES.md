@@ -18,7 +18,7 @@ a keyword to text that already exists rather than replacing the design.
 | Field | Current | New |
 |---|---|---|
 | Title tag | (check current) | `AI Note Taker for Meeting Notes & Minutes \| Lynkk` (49 chars) |
-| Meta description | (check current) | `Lynkk's AI note taker writes your meeting notes when the call ends: an AI summary, key takeaways, decisions, action items and minutes, online or in person. Start free.` (154 chars) |
+| Meta description | (check current) | `Lynkk's AI note taker writes your meeting notes when the call ends: AI summary, decisions, action items and minutes, online or in person. Start free.` (149 chars) |
 | URL | /features/meeting-notes | Keep. (Optional: /features/ai-note-taker with a 301 redirect, while the page has no rankings yet.) |
 | Schema | (check current) | `SoftwareApplication` (name Lynkk, category BusinessApplication, offers price 0) + `FAQPage` for the FAQ block |
 | Open Graph title | (check current) | Same as the title tag |
