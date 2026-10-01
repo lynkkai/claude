@@ -9,9 +9,9 @@ articles in `articles/` and lynkk.ai pages that already serve the feature.
 
 | Feature (TRUTHS.md) | Best keyword found | Covered today? | Priority |
 |---|---|---|---|
-| Meeting Brief (takeaways, owners, due dates, decisions, open questions) + 9 Summary Shapes | meeting notes template (22,200 / 49); meeting notes template free (880 / 14) | No dedicated post | **High** |
+| Meeting Brief (takeaways, owners, due dates, decisions, open questions) + 9 Summary Shapes | meeting notes template (22,200 / 49); meeting notes template free (880 / 14) | **Written 2026-10-01**: `articles/meeting-notes-template.md` | Done |
 | Mac app call recording + web recording | how to record audio on mac (2,400 / 33); how do you record audio on mac (1,000 / 33) | Only per-app how-tos | **High** |
-| Summary emailed after every meeting, share link | follow up email after meeting cluster (about 950 combined, SD 5-32) | No | **High** |
+| Summary emailed after every meeting, share link | follow up email after meeting cluster (about 950 combined, SD 5-32) | **Written 2026-10-01**: `articles/follow-up-email-after-meeting.md` | Done |
 | Morning briefing email (Google Calendar) | meeting prep (390 / 19) | Mentioned in 3 posts, no dedicated post | Medium |
 | Decisions with context in every note | decision log template (320 / 37) | No | Medium |
 | Mac dictation (hold fn, Instant / Accurate / Polished) | wispr flow alternative (480 / 11); dictation app for mac (260 / 31) | #8, #17, #18 cover dictation in general | Medium |
