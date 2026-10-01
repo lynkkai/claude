@@ -47,6 +47,16 @@
 - Offline-first.
 - Web app + Mac desktop app (including dictation: text appears at your cursor as you speak, in other apps).
 
+### Dictation (Mac): confirmed from the live page, 2026-10-02
+- AI dictation for Mac: hold fn (or a key you pick), speak, let go; text is typed where the cursor is, in any app.
+- Requires Apple silicon, macOS 14.2 or later. Download for Mac, start free.
+- First draft is made on-device with Apple's model, even offline. Free plan: nothing leaves your Mac.
+- Modes chosen per app: Email, Notes, Chat, Code. Output: Instant or Polished; "Use my words" restores the raw text; Undo removes the whole insert.
+- Pro: Polished cleanup (fillers, repeats, grammar), voice edits ("shorter", "make that a list"), Hinglish (written in English letters).
+- Voice commands: "new paragraph", "scratch that", "send" (presses Return; never in Code mode).
+- Circle to capture: circle something on screen while talking; the image is pasted with the sentence.
+- Language detected automatically on each dictation. Never leaves text on the clipboard; doesn't listen in password fields.
+
 ### Privacy / compliance
 - Data residency: pick a region and every model behind Lynkk processes/answers from that region, which addresses legal & compliance concerns.
 

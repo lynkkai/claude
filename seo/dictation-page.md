@@ -9,6 +9,10 @@ SD = SEO difficulty (0-100). Vol = monthly US searches.
 > read the live page. Copy below is built from `memory/lynkk-brand.md`, Ubersuggest SERP
 > data and search results. Anything marked **[confirm]** has to be checked against the
 > real product before you publish.
+>
+> **Update 2026-10-02:** the live page has now been reviewed from screenshots. See
+> `seo/dictation-page-audit.md` for section-by-section changes to the existing page and
+> the product facts it confirmed (fn shortcut, on-device/offline, Free vs Pro).
 
 ---
 
