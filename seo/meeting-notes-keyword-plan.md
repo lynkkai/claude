@@ -71,7 +71,7 @@ page** for "notes" terms. Lynkk should split them the same way.
 | Page | Target keywords | Why |
 |---|---|---|
 | **Homepage** (lynkk.ai) | ai meeting assistant, ai powered meeting assistant, meeting assistant, meeting assistant ai, ai assistant for meetings, best ai meeting assistant | Lynkk's positioning is "one AI for the whole meeting", before, during and after. read.ai, otter.ai and meeting.ai all rank their homepages for these. |
-| **/features/meeting-notes** (this page) | ai note taking app, ai note taker / ai notes taker, ai notes, ai meeting notes, ai notetaker, meeting notes ai, ai notes taker app, meeting notetaker + the summary and action items cluster (section 4) | Same results pages as Notion's AI Meeting Notes page and read.ai. These searchers want the notes output. |
+| **/features/meeting-notes** (this page) | ai note taking app, ai note taker / ai notes taker, ai notes, ai meeting notes, ai notetaker + the summary, recap, minutes and action items groups (full list in section 4) | Same results pages as Notion's AI Meeting Notes page and read.ai. These searchers want the notes output. |
 | **Live voice assistant feature page** (during-meeting feature) | live ai meeting assistant, real time ai meeting assistant, ai meeting assistant for microsoft teams / google meet | Lynkk speaks and answers live, which most note takers can't. krisp.ai has a dedicated /ai-meeting-assistant/ page ranking #5. |
 | **Recording page** (/features/meeting-bot or a new /features/meeting-recorder) | meeting recorder (1,900, SD 32), meeting recorder and transcriber (320, SD 37), ai recorder (1,600, SD 49) | tldv.io (DA 44) is #1 for "meeting recorder" with a dedicated page. dadan.io (DA 21) and recordmeeting.com (DA 9) are in the top 13. |
 | **Blog** | best ai note taking app, best ai notes taking app, best ai meeting assistant, comparisons, templates (section 9) | "Best" keywords show listicles on page 1, not product pages. |
@@ -86,45 +86,108 @@ Lynkk is the AI-powered meeting assistant that preps you before calls, answers l
 
 ---
 
-## 4. Keyword targets for the meeting notes page
+## 4. Keyword set for the meeting notes page (owned by this page only)
 
-### Primary keywords
-| Keyword | Volume | SD | Why |
+**Rule:** every keyword below belongs to /features/meeting-notes and nowhere else. Other
+Lynkk pages can mention these words in passing, but never in their title, H1, URL or meta
+description. Spelling variants ("ai note taker", "ai notes taker", "ai notetaker") show the
+same Google results, so they all live on this one page.
+
+The page owns everything about **the notes output**: notes, summaries, recaps, minutes and
+action items. It does not own "assistant", "recorder", "transcription" or "live" keywords
+(see the exclusion list at the end of this section).
+
+### A. Core (title, H1, meta description)
+| Keyword | Volume | SD | Role |
 |---|---|---|---|
-| **ai note taking app** | 4,400 | 26 | Best volume-to-difficulty ratio found. |
-| **ai meeting notes** | 1,000 | 41 | Exact match to the page. DA 17-21 sites are in the top 10. |
+| **ai note taking app** | 4,400 | 26 | Primary. Best volume-to-difficulty ratio found. |
+| **ai meeting notes** | 1,000 | 41 | Primary. Exact match to the page. |
+| ai note taker / ai notes taker | 27,100 | 34-48 | Long-term head term. In H1. |
+| ai notes | 5,400 | 55 | Supporting. In the first paragraph. |
 
-### Long-term head terms (in title / H1, rankings come with authority)
+### B. Note taker / notes app variants (body copy, comparison section)
 | Keyword | Volume | SD |
 |---|---|---|
-| ai note taker / ai notes taker | 27,100 | 34-48 |
-| ai notes | 5,400 | 55 |
 | ai notetaker | 2,900 | 42 |
+| ai notes taker app | 880 | 20 |
+| meeting notetaker | 880 | 46 |
+| meeting notes taker | 720 | 29 |
+| team ai meeting notes | 720 | 25 |
+| free ai note taking app | 720 | 38 |
+| meeting notes ai | 590 | 39 |
+| meeting notes taking app | 320 | 22 |
+| ai powered meeting notes | 260 | 49 |
+| ai meeting notes app | 140 | 46 |
+| note taking app for meetings | 50 | 20 |
 
-### Secondary keywords (H2s, body copy, FAQ)
-| Keyword | Volume | SD | Placement |
-|---|---|---|---|
-| ai notes taker app | 880 | 20 | Body |
-| meeting notetaker | 880 | 46 | Body |
-| meeting notes taker | 720 | 29 | H2 + body |
-| team ai meeting notes | 720 | 25 | H2 (team section) |
-| free ai note taking app | 720 | 38 | Body near the free CTA |
-| meeting notes ai | 590 | 39 | Meta description / body |
-| meeting summary | 390 | 35 | H2 (summary section) |
-| meeting notes taking app | 320 | 22 | Body / comparison section |
-| ai powered meeting notes | 260 | 49 | Body |
-| meeting notes with action items | 210 | 12 | H2 (action items section) |
-| meeting minutes ai | 210 | 36 | FAQ |
-| ai meeting summary | 170 | 37 | H2 (summary section) |
-| ai meeting summarizer | 170 | 34 | Body |
-| meeting summary ai | 140 | 37 | Body |
-| ai for meeting minutes | 140 | 33 | FAQ |
-| meeting notes action items | 110 | 17 | Body |
-| ai note taker for in person meetings | 480 | 40 | H2 (in-person section). **Lynkk differentiator.** |
+### C. Summary and recap (summary H2)
+| Keyword | Volume | SD |
+|---|---|---|
+| summarize meeting | 590 | 27 |
+| meeting summary | 390 | 35 |
+| meeting recap | 390 | 26 |
+| ai meeting summary | 170 | 37 |
+| ai meeting summarizer | 170 | 34 |
+| meeting summary ai | 140 | 37 |
+| summarize meeting notes | 70 | 36 |
+| summarize meeting minutes | 40 | 37 |
+| ai summarize meeting transcript | 40 | 40 |
+| ai meeting recap | 20 | 33 |
+| ai meeting notes summary | 20 | 11 |
 
-### Keep OFF the product page (informational, use for blog: see section 9)
-"format for meeting notes" (22,200), "meeting notes minutes" (2,400), "how to take good meeting
-notes", "meeting notes template free", "best ai note taking app" (listicle results page), etc.
+### D. Meeting minutes (minutes H2 + FAQ)
+| Keyword | Volume | SD |
+|---|---|---|
+| meeting minutes app | 880 | 36 |
+| meeting minutes software | 880 | 42 |
+| meeting minutes ai | 210 | 36 |
+| minutes taker | 170 | 27 |
+| ai meeting minutes generator | 140 | 30 |
+| ai for meeting minutes | 140 | 33 |
+| board meeting minutes software | 140 | 24 |
+| free ai meeting minutes generator | 90 | 40 |
+| corporate meeting minutes software | 90 | 26 |
+| free automatic meeting minutes generator | 70 | 24 |
+| meeting minutes taker | 40 | 34 |
+
+This group adds about 2,850 searches/month on its own. If it starts ranking, it can later
+become its own page (for example /use-cases/meeting-minutes). Until then, keep it on this page
+so the two never compete.
+
+### E. Action items (action items H2)
+| Keyword | Volume | SD |
+|---|---|---|
+| meeting notes with action items | 210 | 12 |
+| meeting notes action items | 110 | 17 |
+| minutes of meeting action items | 90 | 20 |
+| meeting notes and action items | 90 | 26 |
+| action items from meeting | 70 | 32 |
+| meeting action items | 70 | 40 |
+
+### F. In-person meetings (in-person H2, Lynkk differentiator)
+| Keyword | Volume | SD |
+|---|---|---|
+| ai note taker for in person meetings | 480 | 40 |
+| ai note taking app for in person meetings | 50 | 44 |
+
+**Total for groups A-F: about 52,000 searches/month (US)**, about 27,000 of it from the
+"ai note taker" head term. Without that term the realistic near-term pool is about 25,000,
+most of it at SD under 45.
+
+### Owned by other pages (do NOT target on the meeting notes page)
+| Keyword family | Owner page |
+|---|---|
+| ai meeting assistant, ai powered meeting assistant, meeting assistant, meeting ai, ai assistant for meetings | Homepage |
+| live ai meeting assistant, real time ai meeting assistant | Live voice assistant page |
+| meeting recorder, ai recorder, meeting recorder and transcriber, record meeting notes, zoom meeting bot | Recording / meeting bot page |
+| ai transcription, transcribe meetings, interview transcription | Future transcription page |
+| ai note taker for teams / zoom / google meet, microsoft teams ai notes taker | Future integration pages |
+| best ai note taking app, best ai meeting assistant, meeting notes template, meeting recap template / email examples, action item tracking, how to take meeting notes | Blog |
+
+**Cannibalization to fix now:** the homepage title is currently "Lynkk: AI Meeting Notes &
+Conversation Intelligence" (per `memory/lynkk-brand.md`). That puts the homepage in direct
+competition with this page for "ai meeting notes". Move the homepage to the "AI meeting
+assistant" title in section 3, and let this page own "AI meeting notes".
 
 ---
 
@@ -252,19 +315,21 @@ The AI note taker that writes your meeting notes in 30 seconds
 1. **AI meeting notes, summaries and action items, automatically** [ai meeting notes, ai notes]
 2. **How Lynkk's AI note taking app works** [ai note taking app, meeting notes taker]
    Record, transcribe, structure: a 3-step visual.
-3. **Meeting notes with action items, assigned automatically** [meeting notes with action items]
+3. **Meeting notes with action items, assigned automatically** [meeting notes with action items, minutes of meeting action items]
    Show owners, due dates, and the push to Jira.
-4. **An AI meeting summary of every call: decisions, next steps, who said what** [ai meeting summary, meeting summary]
-5. **Works for online and in-person meetings** [ai note taker for in person meetings]
+4. **An AI meeting summary and recap of every call: decisions, next steps, who said what** [ai meeting summary, meeting summary, summarize meeting, meeting recap]
+5. **AI meeting minutes, generated automatically** [meeting minutes app, meeting minutes software, ai meeting minutes generator, minutes taker]
+   Formal minutes format (attendees, decisions, motions, action items) for board and corporate meetings.
+6. **Works for online and in-person meetings** [ai note taker for in person meetings]
    This is the strongest differentiator against bot-only tools. Make it a full section.
-6. **Meeting notes for your whole team** [team ai meeting notes]
+7. **Meeting notes for your whole team** [team ai meeting notes]
    Shared, searchable notes across every meeting (knowledge graph).
-7. **Send notes where the work happens** CRM fields, Jira tickets, Calendar, Calendly, Cal.com, MCP.
-8. **Multilingual and private by design** languages, data residency by region.
-9. **See a real example** an actual sample of Lynkk's notes output (screenshot plus real HTML text, so Google can read it).
-10. **Lynkk vs. other AI note taking apps** [ai note taking app, meeting notes taking app]
+8. **Send notes where the work happens** CRM fields, Jira tickets, Calendar, Calendly, Cal.com, MCP.
+9. **Multilingual and private by design** languages, data residency by region.
+10. **See a real example** an actual sample of Lynkk's notes output (screenshot plus real HTML text, so Google can read it).
+11. **Lynkk vs. other AI note taking apps** [ai note taking app, meeting notes taking app]
     Short table: before/during/after coverage, in-person, live voice assistant, data residency.
-11. **FAQ** (see below)
+12. **FAQ** (see below)
 
 Link from the page to the homepage with anchor text "AI meeting assistant", and to the live
 voice assistant page. That tells Google which page owns which keyword.
