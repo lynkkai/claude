@@ -1,5 +1,12 @@
 # Lynkk blog: catch-up batch (October 2026)
 
+> **Superseded (2026-10-01): do not publish these drafts.** They were written before the 25-article
+> bundle was found. Two duplicate existing articles (`articles/how-to-transcribe-zoom-meetings.md` and the
+> conversation intelligence keywords in `articles/sales-conversation-intelligence.md`), the others overlap
+> #1, #4 and #23, and all of them use Lynkk claims that `lynkk-post-kit/docs/TRUTHS.md` forbids (CRM,
+> regions, a speaking bot, knowledge graph, offline-first, 30-second notes). The real missing posts,
+> #11-#15, are in `articles/` (see `seo/audits/batch-4-summary.md`). This folder can be deleted.
+
 Five draft articles to cover the missed blog slots. All are `status: draft` and need a
 human review before publishing (see checklist below).
 
