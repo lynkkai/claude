@@ -104,7 +104,7 @@ A Zoom meeting is usually not transcribed for 1 of 3 reasons, all confirmed in Z
 
 Otter AI Zoom transcription works by joining your Zoom call and showing a live transcript, with 300 free minutes a month and Pro at $8.33 per user per month billed annually. It suits people who like to read along during a meeting.
 
-Lynkk goes further after the transcript: it writes structured notes, assigns action items with owners, creates Jira tickets and updates your CRM about 30 seconds after the call. *Source: Otter pricing page, checked September 30, 2026.*
+Lynkk goes further after the transcript: it writes structured notes, assigns action items with owners, and creates Jira tickets about 30 seconds after the call. *Source: Otter pricing page, checked September 30, 2026.*
 
 ## Which way to transcribe Zoom is best for you?
 
@@ -138,7 +138,7 @@ Not from Zoom's cloud recording feature, because Zoom only transcribes cloud rec
 Accuracy depends on audio quality, accents and people talking over each other. Lynkk transcribes Zoom calls at about 97% accuracy in 15+ languages, with speaker labels for everyone on the call. For best results, ask attendees to use headsets and to mute when they are not speaking.
 
 ### Does Otter work with Zoom?
-Yes. Otter joins Zoom calls and shows a live transcript, with 300 free minutes a month and Pro at $8.33 per user per month billed annually. Lynkk also works with Zoom and adds structured notes, owned action items, Jira tickets and CRM updates about 30 seconds after each call.
+Yes. Otter joins Zoom calls and shows a live transcript, with 300 free minutes a month and Pro at $8.33 per user per month billed annually. Lynkk also works with Zoom and adds structured notes, owned action items, Jira tickets about 30 seconds after each call.
 
 ### Can I transcribe Zoom meetings in other languages?
 Yes. Lynkk transcribes Zoom meetings in 15+ languages and handles speakers who switch languages mid-sentence, which suits global teams and international client calls. Check language support before you rely on any tool for a meeting that is not in English.
@@ -210,7 +210,7 @@ Zoom's own transcript works well on paid plans, as long as the setting is on bef
           "name": "Does Otter work with Zoom?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Otter joins Zoom calls and shows a live transcript, with 300 free minutes a month and Pro at $8.33 per user per month billed annually. Lynkk also works with Zoom and adds structured notes, owned action items, Jira tickets and CRM updates about 30 seconds after each call."
+            "text": "Yes. Otter joins Zoom calls and shows a live transcript, with 300 free minutes a month and Pro at $8.33 per user per month billed annually. Lynkk also works with Zoom and adds structured notes, owned action items, Jira tickets about 30 seconds after each call."
           }
         },
         {

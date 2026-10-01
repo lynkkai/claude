@@ -99,7 +99,7 @@ Lynkk also includes 4 features busy teams use every day, and Pro costs $15 a mon
 
 - **Ask your meetings:** the [connected knowledge graph](https://lynkk.ai/features/knowledge-graph) answers questions across every call, with citations.
 - **Before and during the meeting:** context briefs before each call and live answers by voice during it.
-- **Follow-up automation:** CRM updates, Jira tickets and integrations through MCP.
+- **Follow-up automation:** Jira tickets and integrations through MCP.
 - **Workspaces:** give your whole team Pro features.
 
 See the full [Lynkk pricing](https://lynkk.ai/pricing).
@@ -138,7 +138,7 @@ Yes, Otter AI is free on its Basic plan, which includes 300 transcription minute
 
 **Good to know:** the Otter AI free plan suits light users. Heavy users hit the 300-minute cap in about 2 weeks of daily 30-minute calls.
 
-**Where Lynkk goes further:** Lynkk turns meetings into Jira tickets and CRM updates, and answers questions by voice during the call.
+**Where Lynkk goes further:** Lynkk turns meetings into Jira tickets, and answers questions by voice during the call.
 
 *Source: Otter pricing page, checked September 30, 2026.*
 
@@ -231,7 +231,7 @@ Upgrade when your free plan's limit starts shaping your week, usually after 10-2
 
 1. **You hit the cap mid-month.** Minute and meeting caps are the top complaint about free plans.
 2. **You need older notes.** A 30-day history limit hides last quarter's decisions.
-3. **You need follow-up done for you.** CRM updates and Jira tickets usually sit on paid plans.
+3. **You need follow-up done for you.** Jira tickets usually sit on paid plans.
 
 When you are ready to upgrade, Lynkk Pro costs $15 a month.
 

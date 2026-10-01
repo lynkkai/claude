@@ -119,7 +119,7 @@ Care teams and patients use Lynkk in 2 ways, and both turn conversations into cl
 
 **For patients:** Lynkk helps people [record a doctor visit and keep the follow-ups](https://lynkk.ai/use-cases/doctor-visits), so instructions are not forgotten on the way home. Ask the clinician first.
 
-Lynkk transcribes 15+ languages at about 97% accuracy, encrypts data with AES-256 and lets organizations choose where data is processed, as the [Lynkk security page](https://lynkk.ai/security) explains.
+Lynkk transcribes 15+ languages at about 97% accuracy, encrypts data with AES-256 and never trains on your conversations, as the [Lynkk security page](https://lynkk.ai/security) explains.
 
 ## FAQ
 

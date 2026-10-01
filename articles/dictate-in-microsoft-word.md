@@ -115,7 +115,7 @@ You can start free with 5 hours of recording in total, and Pro is $15 a month. S
 
 Voice typing lets people who cannot use a keyboard write documents, and 1 web standard, WCAG, builds rules around speech input. The [W3C guidance on Label in Name](https://www.w3.org/WAI/WCAG21/Understanding/label-in-name) explains how speech input users control software by saying the labels they see.
 
-Dictated documents often hold personal or client details. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide for managing that data. Lynkk encrypts data with AES-256 and lets teams choose where data is processed, as the [Lynkk security page](https://lynkk.ai/security) explains.
+Dictated documents often hold personal or client details. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide for managing that data. Lynkk encrypts data with AES-256 and never trains on your conversations, as the [Lynkk security page](https://lynkk.ai/security) explains.
 
 ## FAQ
 

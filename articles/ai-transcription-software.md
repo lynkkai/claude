@@ -96,7 +96,7 @@ Lynkk transcribes 6 kinds of conversations and captures both the room and the pe
 Lynkk turns every transcript into 3 kinds of finished follow-up, which most transcription software leaves to you.
 
 - **[AI meeting notes](https://lynkk.ai/features/meeting-notes)** with a summary, decisions and next steps.
-- **Action items** with owners and deadlines, plus CRM updates and Jira tickets.
+- **Action items** with owners and deadlines, plus Jira tickets.
 - **Cited answers:** ask a question across every transcript and jump to the exact moment.
 
 **Pricing:** start free; Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing).
@@ -113,7 +113,7 @@ Otter AI transcription works in 2 ways: its meeting assistant joins your calls, 
 
 **Good to know:** Otter's Enterprise plan is custom-priced and adds HIPAA support, SSO and SCIM.
 
-**Where Lynkk goes further:** Lynkk turns each transcript into Jira tickets and CRM updates, answers by voice during the call, and records in-person meetings with 15+ languages.
+**Where Lynkk goes further:** Lynkk turns each transcript into Jira tickets, answers by voice during the call, and records in-person meetings with 15+ languages.
 
 *Source: Otter pricing page, checked September 30, 2026.*
 
@@ -219,14 +219,14 @@ Good transcription software gets 5 things right: accuracy, speaker labels, langu
 
 ## Which AI transcription software works best for sales calls?
 
-Lynkk works best for sales calls because it transcribes the call and then does 3 follow-up jobs reps usually do by hand: it writes next steps, assigns owners and updates CRM fields. Teams can see how this works in [AI notes for sales calls](https://lynkk.ai/use-cases/sales-calls).
+Lynkk works best for sales calls because it transcribes the call and then does 3 follow-up jobs reps usually do by hand: it writes next steps, assigns owners and tracks open tasks. Teams can see how this works in [AI notes for sales calls](https://lynkk.ai/use-cases/sales-calls).
 
 Call transcription software for sales should also prepare reps before the next call. Lynkk surfaces what was discussed last time, what is still open and who said what, so reps start every follow-up call with context instead of rereading old transcripts.
 
 | Sales task | Manual way | With Lynkk |
 |---|---|---|
 | Write call notes | Typed by hand after each call | About 30 seconds, automatic |
-| Update the CRM | Copy fields by hand | CRM fields updated for you |
+| Track open tasks | Kept in a separate list | Tracked in the note |
 | Prepare for the next call | Reread old notes | Context brief before the call |
 
 ## What is the best transcription software for interviews?
@@ -241,7 +241,7 @@ Choose transcription software in 4 steps, starting with where your audio comes f
 
 1. **List your audio sources:** video calls, in-person meetings, uploaded files or dictation.
 2. **Estimate your hours:** count recorded hours per person per month, then compare per-minute and monthly pricing.
-3. **Check the follow-up you need:** a transcript only, or notes, tasks, CRM updates and Jira tickets.
+3. **Check the follow-up you need:** a transcript only, or notes, tasks and Jira tickets.
 4. **Test on your own audio:** run 2-3 real meetings through a free plan before you commit.
 
 If your team mostly records meetings, Lynkk covers every source in 1 account and starts free.
@@ -254,7 +254,7 @@ The ADA also lists real-time transcription among the aids for effective communic
 
 ## How should AI transcription software protect your data?
 
-AI transcription software should encrypt your audio, let you choose where it is processed and never train AI models on your conversations. Lynkk encrypts data with AES-256, complies with the [EU General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng) and lets each workspace pick its processing region.
+AI transcription software should encrypt your audio, let you choose where it is processed and never train AI models on your conversations. Lynkk encrypts data with AES-256, complies with the [EU General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng).
 
 Before choosing any tool, check 3 things: where recordings are stored, who can access them and whether they are used for model training. Details for Lynkk are on the [Lynkk security page](https://lynkk.ai/security).
 

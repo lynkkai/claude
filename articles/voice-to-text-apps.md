@@ -84,7 +84,7 @@ Lynkk is the best voice to text app and dictation software app because its push-
 
 ### How does Lynkk dictation work?
 
-Lynkk dictation works in 3 steps: hold the push-to-talk key, speak, and your words appear at your cursor in any app on your Mac. It works in email, Slack, documents, CRM fields and browser forms.
+Lynkk dictation works in 3 steps: hold the push-to-talk key, speak, and your words appear at your cursor in any app on your Mac. It works in email, Slack, documents and browser forms.
 
 - **[AI dictation for Mac](https://lynkk.ai/features/dictation):** speak instead of type, in any app.
 - **[Download the Lynkk Mac app](https://lynkk.ai/download)** to record calls and dictate anywhere.
@@ -96,7 +96,7 @@ Lynkk also records meetings, which most dictation software cannot do. That gives
 
 - **Meeting transcripts:** Zoom, Google Meet, Teams, Slack, WhatsApp and in-person conversations, with speaker labels.
 - **[AI meeting notes](https://lynkk.ai/features/meeting-notes):** a summary, decisions and action items about 30 seconds after each call.
-- **Follow-up:** CRM updates and Jira tickets.
+- **Follow-up:** Jira tickets.
 
 **Pricing:** start free; Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing).
 
@@ -172,7 +172,7 @@ Otter's free plan includes 300 transcription minutes a month, and Pro costs $8.3
 
 **Good to know:** Otter's Enterprise plan is custom-priced and adds HIPAA support, SSO and SCIM.
 
-**Where Lynkk goes further:** Lynkk adds push-to-talk dictation anywhere on your Mac, plus Jira tickets and CRM updates from meetings.
+**Where Lynkk goes further:** Lynkk adds push-to-talk dictation anywhere on your Mac, plus Jira tickets from meetings.
 
 *Source: Otter pricing page, checked September 30, 2026.*
 
@@ -182,7 +182,7 @@ The best voice to text app depends on what you are writing and where. This table
 
 | Job | Best tool | Why |
 |---|---|---|
-| Emails, Slack and CRM notes on a Mac | Lynkk | Types at your cursor in any app |
+| Emails, Slack and documents on a Mac | Lynkk | Types at your cursor in any app |
 | Meeting notes and transcripts | Lynkk | Records the whole meeting with speaker labels |
 | Long Word documents | Word Dictate or Lynkk | Built into Word, or dictation anywhere |
 | Quick Google Docs drafts | Google Docs voice typing | Free inside Docs |
@@ -254,7 +254,7 @@ Federal agencies also follow [Section 508 guidance on captions and transcripts](
 
 A voice to text app should meet 3 privacy basics: process your speech securely, tell you where it goes and never use it to train models without your consent. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a useful checklist for judging how a vendor manages privacy risk.
 
-Lynkk encrypts data with AES-256, complies with GDPR, lets each workspace pick its processing region and never trains models on your conversations.
+Lynkk encrypts data with AES-256, complies with GDPR and never trains models on your conversations.
 
 ## FAQ
 

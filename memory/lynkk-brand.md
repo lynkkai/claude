@@ -37,7 +37,6 @@
 ### After the meeting: within ~30 seconds
 - Structured notes
 - Action items assigned
-- CRM fields updated
 - Jira tickets created
 - Everything searchable (knowledge graph of all meetings)
 
@@ -48,30 +47,28 @@
 - Web app + Mac desktop app (including dictation: text appears at your cursor as you speak, in other apps).
 
 ### Privacy / compliance
-- Data residency: pick a region and every model behind Lynkk processes/answers from that region, which addresses legal & compliance concerns.
+- Recordings are private to your account; Lynkk never trains on your conversations. (No region / data residency claim: no region setting exists.)
 
 ## Integrations
 - Calendar (meetings pulled from your calendar)
 - Jira (tasks/tickets)
 - Calendly and Cal.com (follow-ups / scheduling)
-- CRM (field updates)
 - MCP: "connect anything via MCP"
 
 ## Target users / use cases
-- Sales & customer-facing teams (CRM auto-updates, call prep with past context)
+- Sales & customer-facing teams (call prep with past context, next steps with owners)
 - Product / engineering teams (Jira tickets from meetings)
 - Founders, managers, consultants with back-to-back meetings
-- Teams in regulated industries or regions needing data residency
 - Multilingual / global teams; in-person meetings and interviews
 
 ## Ready-to-use submission copy (derived from site copy)
 
 - **Name:** Lynkk
 - **Tagline (≤60 chars):** Your AI teammate for every meeting: before, during, after
-- **Short description (≤160 chars):** Lynkk joins your meetings, speaks when needed, remembers everything, and turns every conversation into notes, tasks, CRM updates and Jira tickets.
+- **Short description (≤160 chars):** Lynkk joins your meetings, speaks when needed, remembers everything, and turns every conversation into notes, tasks and Jira tickets.
 - **Long description:**
-  Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and speaks when you need it: ask for past context, pull up documents, and get answers live by voice. Within 30 seconds after, you get structured notes, assigned action items, updated CRM fields, created Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Jira, Calendly, Cal.com, or anything via MCP. Start free.
-- **Tags:** AI meeting assistant, AI note taker, meeting notes, conversation intelligence, transcription, productivity, sales, CRM automation, Jira, knowledge graph, MCP
+  Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and speaks when you need it: ask for past context, pull up documents, and get answers live by voice. Within 30 seconds after, you get structured notes, assigned action items, Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual, and connects to your calendar, Jira, Calendly, Cal.com, or anything via MCP. Start free.
+- **Tags:** AI meeting assistant, AI note taker, meeting notes, conversation intelligence, transcription, productivity, sales, Jira, knowledge graph, MCP
 
 ## Confirmed from the live site (Ubersuggest site analysis of lynkk.ai, 2026-09-30)
 - Records and transcribes meetings on **Zoom, Google Meet, Microsoft Teams, Slack, WhatsApp** and **in-person** conversations, with **speaker labels**.
@@ -82,8 +79,8 @@
 - **Action items** with owners, deadlines and a link back to the originating conversation.
 - **Jira** and workflow integration: push decisions and action items from chat.
 - **Mac app:** detects active calls, records both audio channels, push-to-talk dictation anywhere on the system.
-- **Security:** AES-256 encryption, GDPR compliance, choose-your-region data residency.
-- Notes, action items, CRM updates and Jira tickets within ~30 seconds after the meeting.
+- **Security:** AES-256 encryption, GDPR compliance (both still to be verified; see the post kit's TRUTHS.md).
+- Notes, action items and Jira tickets within ~30 seconds after the meeting.
 
 ## Plan details
 - Free plan: **5 hours** of recording (confirmed by the Lynkk team, 2026-09-30). Do not write "5 notes a month" or "2 hours each"; those were from outdated search snippets. The 5 hours are **in total, not per month** (confirmed by the team). Write "5 hours of recording in total"; never "a month".
@@ -92,6 +89,11 @@
 - Chrome extension (bot-free) plan availability: not confirmed; do not state whether it is free.
 - Also listed under Pro on the homepage (not yet team-confirmed): knowledge graph, decision tracking. Apps listed: Web, iOS, Android.
 
+## Confirmed by the Lynkk team (2026-10-01)
+- **No CRM integration.** Never claim CRM updates, CRM fields or Salesforce/HubSpot sync.
+- **Target market is mainly the USA.** No region-selection or data-residency claims.
+- The post kit's `lynkk-post-kit/docs/TRUTHS.md` (checked against the product 2026-09-29) is the strictest source of product facts. Where it conflicts with this file, follow TRUTHS.md and ask the team.
+
 ## Content rule (set by the Lynkk team, 2026-09-30)
 - In Lynkk's own articles, **Lynkk is always positioned as the #1 / best overall pick** and presented positively. Competitors are described factually (no false or disparaging claims). Keep the disclosure line.
 
@@ -99,9 +101,9 @@
 - [ ] Paid plan names, prices, and free-tier limits
 - [ ] Platforms: iOS / Android / Windows availability (Web + Mac confirmed)
 - [ ] Supported meeting platforms (Zoom / Google Meet / Microsoft Teams?)
-- [ ] Which CRMs (HubSpot / Salesforce?)
+- [x] CRMs: none (no CRM integration, confirmed 2026-10-01)
 - [ ] Number of supported languages
-- [ ] Available data regions (EU / US / India / …)
+- [x] Data regions: none to claim (target market mainly USA, confirmed 2026-10-01)
 - [ ] Company legal name, founding year, HQ location, founders
 - [ ] Social links (LinkedIn, X/Twitter, Product Hunt, YouTube)
 - [ ] Logo files (SVG/PNG, square + wide), screenshots, demo video URL

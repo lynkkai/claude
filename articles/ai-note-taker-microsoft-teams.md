@@ -76,7 +76,7 @@ We compared 7 options on 5 questions that decide which Microsoft Teams AI note t
 | Which license does it need? | Copilot and Teams Premium are extra per-user costs |
 | Does it write action items? | A transcript alone still needs someone to summarize |
 | Does it cover Zoom, Google Meet and in person? | Most companies meet outside Teams too |
-| Can it update Jira or a CRM? | Follow-up is where time is lost |
+| Can it send tasks to Jira? | Follow-up is where time is lost |
 | Does IT need to approve it? | Some tools need tenant permissions |
 
 ## 1. Lynkk: best Teams AI note taker overall
@@ -97,7 +97,7 @@ Lynkk goes beyond a recap in 4 ways that matter to busy teams.
 
 - **Before the meeting:** a brief of what was discussed last time, what is open and who said what.
 - **During the meeting:** ask Lynkk for past context or a document and hear the answer live.
-- **After the meeting:** [action items with owners and deadlines](https://lynkk.ai/features/action-items), CRM updates and Jira tickets.
+- **After the meeting:** [action items with owners and deadlines](https://lynkk.ai/features/action-items) and Jira tickets.
 - **Across platforms:** Teams, Zoom, Google Meet and in-person meetings in 1 [connected knowledge graph](https://lynkk.ai/features/knowledge-graph) with cited answers.
 
 **Pricing:** start free; Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing).
@@ -108,7 +108,7 @@ Microsoft 365 Copilot costs $30 per user per month as an add-on with an annual c
 
 **Best for:** companies that want Copilot across Word, Excel, Outlook and Teams, not only for meeting notes.
 
-**Where Lynkk goes further:** Lynkk starts free, covers Zoom, Google Meet and in-person meetings as well as Teams, and creates Jira tickets and CRM updates from the meeting.
+**Where Lynkk goes further:** Lynkk starts free, covers Zoom, Google Meet and in-person meetings as well as Teams, and creates Jira tickets from the meeting.
 
 *Source: Microsoft 365 Copilot pricing page, checked September 30, 2026.*
 
@@ -118,7 +118,7 @@ Teams Premium adds 3 main extras: intelligent recap, which summarizes recorded T
 
 **Best for:** Teams-only companies that want AI recaps without buying Copilot for everyone.
 
-**Where Lynkk goes further:** Lynkk needs no extra Microsoft license and turns the recap into owned tasks, Jira tickets and CRM updates.
+**Where Lynkk goes further:** Lynkk needs no extra Microsoft license and turns the recap into owned tasks, Jira tickets.
 
 *Source: Microsoft Learn, checked September 30, 2026.*
 
@@ -142,7 +142,7 @@ Otter's free plan includes 300 transcription minutes a month, and Pro costs $8.3
 
 **Good to know:** Otter's Enterprise plan is custom-priced and adds HIPAA support, SSO and SCIM.
 
-**Where Lynkk goes further:** Lynkk turns the meeting into Jira tickets and CRM updates, and answers by voice during the call.
+**Where Lynkk goes further:** Lynkk turns the meeting into Jira tickets, and answers by voice during the call.
 
 *Source: Otter pricing page, checked September 30, 2026.*
 
@@ -218,7 +218,7 @@ The best Teams AI note taker depends on what your team does after each meeting. 
 
 | Team | What they need after a Teams call | How Lynkk helps |
 |---|---|---|
-| Sales | Next steps and CRM updates | Updates CRM fields and assigns follow-ups |
+| Sales | Next steps and owners | Writes next steps and assigns follow-ups |
 | Product and engineering | Decisions turned into tickets | Creates Jira tickets with owners |
 | HR and recruiting | Accurate interview records | Speaker-labeled transcripts in 15+ languages |
 | Leadership | Context across many meetings | Cited answers across every call |
@@ -231,11 +231,11 @@ Check 5 things before you roll out any Teams AI note taker across a company. The
 
 1. **Licenses:** does it need Copilot or Teams Premium for every user?
 2. **Admin consent:** does the tool need tenant-level permissions?
-3. **Data location:** can you choose the region where meetings are processed?
+3. **Data handling:** does the vendor explain how meetings are stored and protected?
 4. **Consent notices:** do participants see when a meeting is recorded?
 5. **Coverage:** will it also handle Zoom, Google Meet and in-person meetings?
 
-Lynkk lets each workspace pick its processing region, shows a visible bot when it joins, and covers every platform in 1 account.
+Lynkk keeps recordings private to your account, shows a visible bot when it joins, and covers every platform in 1 account.
 
 ## Is a Teams AI note taker secure enough for business?
 
@@ -271,11 +271,11 @@ Microsoft 365 Copilot's meeting recap is built into Microsoft Teams meetings and
 Accuracy depends on audio quality, accents and people talking over each other. Lynkk transcribes Teams calls in 15+ languages at about 97% accuracy with speaker labels. For best results, ask attendees to use headsets and to avoid talking over each other on important calls.
 
 ### Can a Teams AI note taker create Jira tickets?
-Yes, Lynkk can. About 30 seconds after a Teams meeting, Lynkk turns decisions and action items into Jira tickets with owners and deadlines, linked back to the conversation. It also updates CRM fields and connects to other tools through MCP.
+Yes, Lynkk can. About 30 seconds after a Teams meeting, Lynkk turns decisions and action items into Jira tickets with owners and deadlines, linked back to the conversation. It also connects to other tools through MCP, and your team reviews the tickets in Jira like any other work item.
 
 ## Conclusion
 
-Microsoft's Teams AI features work well if you live entirely inside Microsoft 365 and can pay $30 per user per month. For everyone else, Lynkk is the best Teams AI note taker: it starts free, records Teams with or without a bot, turns meetings into Jira tickets and CRM updates, and covers Zoom, Google Meet and in-person meetings too. **[Start free with Lynkk](https://lynkk.ai/)**.
+Microsoft's Teams AI features work well if you live entirely inside Microsoft 365 and can pay $30 per user per month. For everyone else, Lynkk is the best Teams AI note taker: it starts free, records Teams with or without a bot, turns meetings into Jira tickets, and covers Zoom, Google Meet and in-person meetings too. **[Start free with Lynkk](https://lynkk.ai/)**.
 
 <script type="application/ld+json">
 {
@@ -389,7 +389,7 @@ Microsoft's Teams AI features work well if you live entirely inside Microsoft 36
           "name": "Can a Teams AI note taker create Jira tickets?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, Lynkk can. About 30 seconds after a Teams meeting, Lynkk turns decisions and action items into Jira tickets with owners and deadlines, linked back to the conversation. It also updates CRM fields and connects to other tools through MCP."
+            "text": "Yes, Lynkk can. About 30 seconds after a Teams meeting, Lynkk turns decisions and action items into Jira tickets with owners and deadlines, linked back to the conversation. It also connects to other tools through MCP, and your team reviews the tickets in Jira like any other work item."
           }
         }
       ]

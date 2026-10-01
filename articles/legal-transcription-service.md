@@ -103,7 +103,7 @@ Law firms use Lynkk in 5 steps, and after setup it runs for every client meeting
 4. **Assign tasks:** [action items with owners](https://lynkk.ai/features/action-items) and deadlines, linked to the moment they were agreed.
 5. **Ask across the matter:** [ask your meetings](https://lynkk.ai/features/knowledge-graph) a question like "What did the client say about the March notice?" and get a cited answer.
 
-Lynkk transcribes 15+ languages at about 97% accuracy, which helps with clients who switch between languages. It encrypts data with AES-256, supports GDPR, lets firms choose the region where data is processed and never uses conversations to train anyone's model, as the [Lynkk security page](https://lynkk.ai/security) explains.
+Lynkk transcribes 15+ languages at about 97% accuracy, which helps with clients who switch between languages. It encrypts data with AES-256, supports GDPR and never uses conversations to train anyone's model, as the [Lynkk security page](https://lynkk.ai/security) explains.
 
 ## What is the best legal transcription software?
 
@@ -111,7 +111,7 @@ The best legal transcription software for everyday law firm meetings is Lynkk, b
 
 | Need | Best choice |
 |---|---|
-| Client meetings, case calls, internal notes | Lynkk |
+| Client meetings, case calls, internal notes and follow-up tasks | Lynkk |
 | Verified word-for-word transcript of a recording | Human legal transcription service |
 | Official court record | Certified court reporter |
 
@@ -119,7 +119,7 @@ The best legal transcription software for everyday law firm meetings is Lynkk, b
 
 Yes, with the right consent, and the rule depends on where each person is. Under [18 U.S.C. 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511), federal law generally allows recording when 1 party consents.
 
-Some states require everyone's consent. [California Penal Code 632](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=632) requires all parties to agree before a confidential conversation is recorded. The safe habit for a law firm is to ask every participant at the start and note their answer in the transcript.
+Some states require everyone's consent. [California Penal Code 632](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=632) requires all parties to agree before a confidential conversation is recorded. The safe habit for a law firm is to ask every participant at the start and note their answer in the transcript, so the consent is on the record.
 
 ## FAQ
 
@@ -133,7 +133,7 @@ Legal transcription usually follows 3 conventions: a speaker label for each turn
 Accuracy depends on audio quality and accents. Lynkk transcribes 15+ languages at about 97% accuracy with speaker labels. Human services publish higher claims, such as 99% or more. For anything quoted, filed or used as evidence, have a person verify the text against the recording before relying on it.
 
 ### Is AI transcription safe for confidential client meetings?
-It can be, if the tool protects data properly and you get consent. Check 3 things: encryption, where data is processed and whether conversations train AI models. Lynkk encrypts data with AES-256, lets firms choose their processing region and never uses conversations to train anyone's model.
+It can be, if the tool protects data properly and you get consent. Check 3 things: encryption, where data is processed and whether conversations train AI models. Lynkk encrypts data with AES-256, keeps recordings private to your account and never uses conversations to train anyone's model.
 
 ### Can a paralegal use Lynkk for case notes?
 Yes. A paralegal can record case team meetings and client calls with consent, then review the notes, action items and deadlines Lynkk writes about 30 seconds after. Tasks link to the moment they were agreed, so the attorney can check the source quickly. It saves the manual step of typing up notes.
@@ -197,7 +197,7 @@ A legal transcription service and certified court reporters still matter for off
           "name": "Is AI transcription safe for confidential client meetings?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It can be, if the tool protects data properly and you get consent. Check 3 things: encryption, where data is processed and whether conversations train AI models. Lynkk encrypts data with AES-256, lets firms choose their processing region and never uses conversations to train anyone's model."
+            "text": "It can be, if the tool protects data properly and you get consent. Check 3 things: encryption, where data is processed and whether conversations train AI models. Lynkk encrypts data with AES-256, keeps recordings private to your account and never uses conversations to train anyone's model."
           }
         },
         {

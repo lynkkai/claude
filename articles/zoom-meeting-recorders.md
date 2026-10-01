@@ -93,7 +93,7 @@ Lynkk records a Zoom meeting in 2 ways, so you can pick what fits each call.
 Lynkk turns a Zoom recording into work that is already done, about 30 seconds after the call ends.
 
 - **[AI meeting notes](https://lynkk.ai/features/meeting-notes)** with a transcript, summary and speaker labels in 15+ languages.
-- **Action items with owners and deadlines,** plus CRM updates and Jira tickets.
+- **Action items with owners and deadlines,** plus Jira tickets.
 - **Cited answers:** ask a question across all your Zoom calls and get an answer linked to the exact moment.
 
 **Pricing:** start free; Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing).
@@ -140,7 +140,7 @@ Otter's free plan includes 300 transcription minutes a month, and Pro costs $8.3
 
 **Best for:** people who like to read along or catch up after joining a Zoom call late.
 
-**Where Lynkk goes further:** Lynkk turns the Zoom call into CRM updates and Jira tickets, not only a transcript.
+**Where Lynkk goes further:** Lynkk turns the Zoom call into Jira tickets, not only a transcript.
 
 *Source: Otter pricing page, checked September 30, 2026.*
 
@@ -225,7 +225,7 @@ A 10-person team pays between $0 and about $150 a month for a Zoom meeting recor
 | Read AI Pro | From $15 per user | From $150 |
 | Lynkk Pro | $15 a month | Workspaces: Pro for everyone |
 
-Zoom's own cloud recording comes with any paid Zoom plan, so there is no extra recorder cost if your team already pays for Zoom. You still get no action items or CRM updates.
+Zoom's own cloud recording comes with any paid Zoom plan, so there is no extra recorder cost if your team already pays for Zoom. You still get no action items or tickets.
 
 ## What should you look for in Zoom meeting recorder software?
 
@@ -234,8 +234,8 @@ Look for 5 things before you choose Zoom meeting recorder software. The first 2 
 1. **Coverage beyond Zoom:** Teams, Google Meet and in-person meetings in the same tool.
 2. **Bot and bot-free options:** a visible bot for internal calls, no bot for client calls.
 3. **Notes you can act on:** action items with owners, not only a transcript.
-4. **Follow-up automation:** CRM updates and Jira tickets.
-5. **Privacy controls:** encryption, data region and no training on your calls.
+4. **Follow-up automation:** Jira tickets.
+5. **Privacy controls:** encryption, private notes and no training on your calls.
 
 Lynkk covers all 5.
 

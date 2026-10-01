@@ -131,7 +131,7 @@ You implement knowledge management in 6 steps, and meetings are a fast place to 
 5. **Agree on privacy rules:** decide what is recorded and who can search it.
 6. **Review after 90 days:** check whether people find answers faster.
 
-For privacy rules, the [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide. Lynkk encrypts data with AES-256, supports GDPR and lets teams choose where data is processed, as the [Lynkk security page](https://lynkk.ai/security) explains.
+For privacy rules, the [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide. Lynkk encrypts data with AES-256, supports GDPR and never trains on your conversations, as the [Lynkk security page](https://lynkk.ai/security) explains.
 
 ## FAQ
 
@@ -145,7 +145,7 @@ Not only. Knowledge management is a mix of 3 things: people, processes and techn
 A wiki stores pages that people write and update by hand, 1 page at a time. A knowledge graph links pieces of knowledge, such as decisions, people and meetings, so you can follow how they connect. Lynkk builds its knowledge graph automatically from meetings, so it stays current without anyone writing 1 extra page.
 
 ### Who can see meeting knowledge in Lynkk?
-Meeting knowledge in Lynkk is shared within your workspace, so teammates can search and ask across the meetings they have access to. Lynkk encrypts data with AES-256, supports GDPR and lets teams pick the region where data is processed. Lynkk says conversations are never used to train anyone's model.
+Meeting knowledge in Lynkk is shared within your workspace, so teammates can search and ask across the meetings they have access to. Lynkk encrypts data with AES-256, supports GDPR and lets each person mark a note Personal. Lynkk says conversations are never used to train anyone's model.
 
 ### What are the best knowledge management tools for small teams?
 Small teams usually need 2 knowledge management tools: 1 place for written documents and 1 for meeting knowledge. For meetings, Lynkk is the best choice, because it captures decisions automatically and answers questions with cited sources. It starts free with 5 hours of recording in total, and Pro is $15 a month.
@@ -209,7 +209,7 @@ Knowledge management tools work best when they capture knowledge where it is cre
           "name": "Who can see meeting knowledge in Lynkk?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Meeting knowledge in Lynkk is shared within your workspace, so teammates can search and ask across the meetings they have access to. Lynkk encrypts data with AES-256, supports GDPR and lets teams pick the region where data is processed. Lynkk says conversations are never used to train anyone's model."
+            "text": "Meeting knowledge in Lynkk is shared within your workspace, so teammates can search and ask across the meetings they have access to. Lynkk encrypts data with AES-256, supports GDPR and lets each person mark a note Personal. Lynkk says conversations are never used to train anyone's model."
           }
         },
         {

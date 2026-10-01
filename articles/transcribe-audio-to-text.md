@@ -96,7 +96,7 @@ Lynkk gives you 4 outputs from every recording, not only the raw text.
 
 - **[AI meeting notes](https://lynkk.ai/features/meeting-notes):** a summary with decisions and next steps.
 - **Action items:** owners and deadlines, linked back to the moment they were said.
-- **Follow-up:** CRM updates and Jira tickets.
+- **Follow-up:** Jira tickets.
 - **Search:** ask a question across every transcript and get a cited answer.
 
 **Pricing:** start free; Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing).

@@ -84,7 +84,7 @@ We scored each AI note taker on 6 criteria that matter to US teams with busy cal
 | Coverage: Zoom, Teams, Google Meet, other apps, in person | 20% |
 | Notes and action items: accuracy, structure, speed | 20% |
 | Help before and during the meeting | 20% |
-| Follow-up automation: CRM, Jira, task owners | 15% |
+| Follow-up automation: Jira, task owners | 15% |
 | Privacy and security | 15% |
 | Price and free plan | 10% |
 
@@ -100,7 +100,7 @@ Lynkk helps at all 3 stages of a meeting, not only after it ends.
 
 - **Before:** it shows what was discussed last time, what is still open and who said what.
 - **During:** it joins the call and speaks when you ask. Request past context or a document and hear the answer live.
-- **After:** within about 30 seconds you get structured notes, [action items with owners](https://lynkk.ai/features/action-items), CRM updates and Jira tickets.
+- **After:** within about 30 seconds you get structured notes, [action items with owners](https://lynkk.ai/features/action-items) and Jira tickets.
 
 ### Which meetings can Lynkk record?
 
@@ -117,8 +117,8 @@ Lynkk turns every meeting into 1 searchable memory. Its [connected knowledge gra
 
 - **Mac app:** detects calls, records both audio channels and adds [push-to-talk dictation](https://lynkk.ai/features/dictation) anywhere.
 - **Slack app:** [ask about your meetings in any Slack channel](https://lynkk.ai/slack).
-- **Integrations:** calendar, Jira, Calendly, Cal.com, CRM and anything else through MCP. See [all Lynkk integrations](https://lynkk.ai/integrations).
-- **Privacy:** AES-256 encryption, GDPR compliance, a region you choose, and no training on your conversations.
+- **Integrations:** calendar, Jira, Calendly, Cal.com and anything else through MCP. See [all Lynkk integrations](https://lynkk.ai/integrations).
+- **Privacy:** AES-256 encryption, GDPR compliance and no training on your conversations.
 
 **Pricing:** start free. Pro is $15 a month, and Workspaces give the whole team Pro features. See [Lynkk pricing](https://lynkk.ai/pricing).
 
@@ -144,7 +144,7 @@ Otter's free plan includes 300 transcription minutes a month, and Pro costs $8.3
 - Mobile app for recording conversations.
 - Business plan adds 6,000 minutes and unlimited file imports.
 
-**Where Lynkk goes further:** Otter transcribes, while Lynkk acts. Lynkk turns meetings into CRM updates and Jira tickets, answers by voice during the call, and searches every past meeting with cited answers.
+**Where Lynkk goes further:** Otter transcribes, while Lynkk acts. Lynkk turns meetings into Jira tickets, answers by voice during the call, and searches every past meeting with cited answers.
 
 **Pricing (checked September 30, 2026):** Basic free (300 min/month); Pro $8.33/user/month annual; Business $19.99/user/month annual; Enterprise custom. Source: Otter pricing page, checked September 30, 2026.
 
@@ -168,7 +168,7 @@ Granola records your device's audio without a bot and runs on 4 platforms: Mac, 
 - No bot joins the meeting.
 - Improves your own typed notes.
 
-**Where Lynkk goes further:** Granola is a personal notepad. Lynkk builds shared team memory, with cited answers across every meeting, Jira tickets, CRM updates and a live voice assistant.
+**Where Lynkk goes further:** Granola is a personal notepad. Lynkk builds shared team memory, with cited answers across every meeting, Jira tickets and a live voice assistant.
 
 **Pricing (checked September 30, 2026):** Basic free (30-day history); Business $14/user/month; Enterprise from $35/user/month. Source: Granola pricing page, checked September 30, 2026.
 
@@ -180,7 +180,7 @@ Jamie's free plan covers 10 meetings a month of up to 30 minutes each, and paid 
 - No bot on the call.
 - Transcripts, action items and speaker identification on the free plan.
 
-**Where Lynkk goes further:** Lynkk lets you pick your processing region, records in-person meetings, and adds live voice answers plus Jira and CRM automation.
+**Where Lynkk goes further:** Lynkk records in-person meetings, works across every major platform and adds live voice answers plus Jira follow-up.
 
 **Pricing (checked September 30, 2026):** free; Plus €25/month; Pro €47/month; Team €39/seat/month. Source: Jamie pricing page, checked September 30, 2026.
 
@@ -192,7 +192,7 @@ Read AI's free plan covers 5 meetings a month, and Pro starts at $15 per user pe
 - Unlimited meeting storage on paid plans.
 - Retention policies and SAML on Enterprise tiers.
 
-**Where Lynkk goes further:** Lynkk focuses on what happens next: owned action items, CRM updates, Jira tickets and cited answers from every past meeting.
+**Where Lynkk goes further:** Lynkk focuses on what happens next: owned action items, Jira tickets and cited answers from every past meeting.
 
 **Pricing (checked September 30, 2026):** free (5 meetings/month); Pro from $15/user/month annual; Enterprise on request. Source: Read AI pricing page, checked September 30, 2026.
 
@@ -216,7 +216,7 @@ Microsoft 365 Copilot costs $30 per user per month as an annual add-on, and it n
 **Strengths:**
 - Deep integration with Word, Excel, Outlook and Teams.
 
-**Where Lynkk goes further:** Lynkk starts free, Pro is $15 a month, and it covers Teams, Zoom, Google Meet, Slack, WhatsApp and in-person meetings with Jira and CRM follow-up.
+**Where Lynkk goes further:** Lynkk starts free, Pro is $15 a month, and it covers Teams, Zoom, Google Meet, Slack, WhatsApp and in-person meetings with Jira follow-up.
 
 **Pricing (checked September 30, 2026):** $30/user/month add-on, annual commitment. Source: Microsoft 365 Copilot pricing page, checked September 30, 2026.
 
@@ -246,7 +246,7 @@ Yes, at least 3 tools here record face-to-face meetings, and Lynkk is the best A
 
 ## Are AI note takers safe to use at work?
 
-AI note takers are safe when the vendor uses strong encryption, lets you control where data is processed and follows privacy law. Lynkk encrypts data with AES-256, the strongest key size in the [NIST Advanced Encryption Standard (FIPS 197)](https://csrc.nist.gov/pubs/fips/197/final), and complies with the [EU General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng). It never trains models on your conversations, and it pins your workspace to the region you choose. Details are on the [Lynkk security page](https://lynkk.ai/security).
+AI note takers are safe when the vendor uses strong encryption, lets you control where data is processed and follows privacy law. Lynkk encrypts data with AES-256, the strongest key size in the [NIST Advanced Encryption Standard (FIPS 197)](https://csrc.nist.gov/pubs/fips/197/final), and complies with the [EU General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng). It never trains models on your conversations. Details are on the [Lynkk security page](https://lynkk.ai/security).
 
 Recording laws also matter in the US. Federal law ([18 U.S.C. § 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511)) allows recording when 1 party to the call consents, but some states require every participant to agree. California, for example, requires the consent of all parties to record a confidential conversation under [California Penal Code § 632](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=632). The simple habit: announce your AI note taker at the start of every meeting.
 
@@ -267,9 +267,9 @@ Answer these 5 questions before you pick an AI note taker app.
 
 1. **Where do you meet?** More than 1 platform, or in person, points to a tool like Lynkk.
 2. **When do you want help?** Only after the meeting, or before and during it too?
-3. **What should happen next?** CRM updates and Jira tickets save the most time.
+3. **What should happen next?** Jira tickets save the most time.
 4. **How many languages do you use?** Look for mid-sentence language switching.
-5. **What are your privacy rules?** Check encryption, compliance and data region.
+5. **What are your privacy rules?** Check encryption, compliance and who can see each note.
 
 ## FAQ
 
@@ -280,7 +280,7 @@ Lynkk is the best AI note taker in 2026. It records Zoom, Teams, Google Meet, Sl
 Lynkk works with Zoom in 2 ways, a meeting bot or a bot-free Chrome extension, and it adds your Zoom calls to the same searchable memory as every other meeting. Zoom AI Companion costs nothing extra with paid Zoom plans, but it needs a paid Zoom account.
 
 ### Does Microsoft Teams have an AI note taker?
-Microsoft 365 Copilot can recap Teams meetings for $30 per user per month on top of a Microsoft 365 license. Lynkk also records Teams meetings, starts free and costs $15 a month for Pro. It adds Jira tickets, CRM updates and in-person recording in the same account.
+Microsoft 365 Copilot can recap Teams meetings for $30 per user per month on top of a Microsoft 365 license. Lynkk also records Teams meetings, starts free and costs $15 a month for Pro. It adds Jira tickets and in-person recording in the same account.
 
 ### Does Google Meet have an AI note taker?
 Gemini in Google Meet can take notes on eligible Google Workspace plans, 1 of 3 built-in assistants in this list. Lynkk records Google Meet too, with a bot or with its Chrome extension. It connects those notes with your Zoom, Teams and in-person meetings, so you can search everything in 1 place.
@@ -393,7 +393,7 @@ Many AI note takers stop at a summary after the call. Lynkk prepares you before 
           "name": "Does Microsoft Teams have an AI note taker?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Microsoft 365 Copilot can recap Teams meetings for $30 per user per month on top of a Microsoft 365 license. Lynkk also records Teams meetings, starts free and costs $15 a month for Pro. It adds Jira tickets, CRM updates and in-person recording in the same account."
+            "text": "Microsoft 365 Copilot can recap Teams meetings for $30 per user per month on top of a Microsoft 365 license. Lynkk also records Teams meetings, starts free and costs $15 a month for Pro. It adds Jira tickets and in-person recording in the same account."
           }
         },
         {

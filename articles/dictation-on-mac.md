@@ -126,7 +126,7 @@ You can start free with 5 hours of recording in total, and Pro is $15 a month. S
 
 Voice input matters to people who cannot type easily, and 1 web standard, WCAG, accounts for it directly. The [W3C guidance on Label in Name](https://www.w3.org/WAI/WCAG21/Understanding/label-in-name) explains how speech input users control apps by saying the words they see on screen.
 
-Your voice can also carry personal details, such as client names or health information. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide for managing that kind of data. Lynkk encrypts data with AES-256, supports GDPR and lets teams pick the region where data is processed, as the [Lynkk security page](https://lynkk.ai/security) explains.
+Your voice can also carry personal details, such as client names or health information. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide for managing that kind of data. Lynkk encrypts data with AES-256, supports GDPR and never trains on your conversations, as the [Lynkk security page](https://lynkk.ai/security) explains.
 
 ## FAQ
 

@@ -107,7 +107,7 @@ The best AI note taker for Google Meet is Lynkk, because it covers all 3 stages 
 
 - **Before:** Lynkk surfaces context from past meetings, so you know what is still open.
 - **During:** ask "Hey Lynkk" for past context and get answers live by voice.
-- **After:** [AI meeting notes](https://lynkk.ai/features/meeting-notes), action items with owners, CRM updates and Jira tickets about 30 seconds after the call.
+- **After:** [AI meeting notes](https://lynkk.ai/features/meeting-notes), action items with owners and Jira tickets about 30 seconds after the call.
 
 Lynkk transcribes 15+ languages at about 97% accuracy, and its [multilingual transcription](https://lynkk.ai/features/hinglish-transcription) handles people who switch languages mid-sentence. It connects to Google Calendar and Jira, as the [Lynkk integrations page](https://lynkk.ai/integrations) shows. Pro is $15 a month; see [Lynkk pricing](https://lynkk.ai/pricing).
 

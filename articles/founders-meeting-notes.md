@@ -108,7 +108,7 @@ Founders use Lynkk in a 5-step routine that covers every meeting in the week, on
 1. **Connect your calendar.** Lynkk sees each meeting in advance.
 2. **Read the brief** before each call, in about 1 minute.
 3. **Let Lynkk record:** the [Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) joins online calls on Pro, and the [Mac app](https://lynkk.ai/download) captures calls and in-person meetings.
-4. **Get notes about 30 seconds after:** [AI meeting notes](https://lynkk.ai/features/meeting-notes) with a summary and [action items with owners](https://lynkk.ai/features/action-items), plus CRM updates and Jira tickets.
+4. **Get notes about 30 seconds after:** [AI meeting notes](https://lynkk.ai/features/meeting-notes) with a summary and [action items with owners](https://lynkk.ai/features/action-items), plus Jira tickets.
 5. **Share with the team:** workspaces give everyone team AI meeting notes, and [Lynkk for Slack](https://lynkk.ai/slack) answers questions about meetings in any channel.
 
 Lynkk transcribes 15+ languages at about 97% accuracy, so calls with international investors and customers work the same way.
@@ -131,7 +131,7 @@ Lynkk fills items 1 to 3 from your meetings automatically, so the review takes m
 
 ## Which meeting notes taker is best for founders?
 
-The best meeting notes taker for founders is Lynkk, because it is 1 tool for every kind of meeting, and it helps before, during and after each call. It records online and in-person meetings and turns them into notes, tasks, CRM updates and Jira tickets.
+The best meeting notes taker for founders is Lynkk, because it is 1 tool for every kind of meeting, and it helps before, during and after each call. It records online and in-person meetings and turns them into notes, tasks and Jira tickets.
 
 You can start free with 5 hours of recording in total, and Pro is $15 a month; see [Lynkk pricing](https://lynkk.ai/pricing). Record with consent: under [18 U.S.C. 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511), federal law generally needs at least 1 party to agree, and some states require everyone. For handling personal data, the [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide.
 
@@ -144,7 +144,7 @@ They matter because they turn a conversation into 1 shared record of decisions a
 Team AI meeting notes are notes written by AI and shared across a workspace, so everyone sees the same decisions and action items. Lynkk writes them about 30 seconds after each meeting, and its workspaces give the whole team Pro features, so new hires can search past meetings from day 1.
 
 ### Can Gemini take meeting notes?
-Yes, on 2 kinds of Google Workspace plans. Gemini can take notes in Google Meet with "Take notes for me" on Workspace Business and Enterprise plans. Lynkk takes notes across Zoom, Google Meet, Microsoft Teams and in-person meetings, and adds a brief before each call plus Jira and CRM follow-up.
+Yes, on 2 kinds of Google Workspace plans. Gemini can take notes in Google Meet with "Take notes for me" on Workspace Business and Enterprise plans. Lynkk takes notes across Zoom, Google Meet, Microsoft Teams and in-person meetings, and adds a brief before each call plus Jira follow-up.
 
 ### How do I share meeting notes with my team?
 Share notes in 1 place your team already checks, within 24 hours of the meeting. With Lynkk, notes live in a shared workspace, action items can become Jira tickets, and anyone can ask about a meeting in Slack. That removes the step of copying notes into emails or documents.
@@ -203,7 +203,7 @@ Good notes keep founders from dropping promises between back-to-back calls. Lynk
           "name": "Can Gemini take meeting notes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, on 2 kinds of Google Workspace plans. Gemini can take notes in Google Meet with \"Take notes for me\" on Workspace Business and Enterprise plans. Lynkk takes notes across Zoom, Google Meet, Microsoft Teams and in-person meetings, and adds a brief before each call plus Jira and CRM follow-up."
+            "text": "Yes, on 2 kinds of Google Workspace plans. Gemini can take notes in Google Meet with \"Take notes for me\" on Workspace Business and Enterprise plans. Lynkk takes notes across Zoom, Google Meet, Microsoft Teams and in-person meetings, and adds a brief before each call plus Jira follow-up."
           }
         },
         {
