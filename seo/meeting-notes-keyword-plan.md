@@ -86,6 +86,116 @@ Lynkk is the AI-powered meeting assistant that preps you before calls, answers l
 
 ---
 
+## 4D. Secondary keywords for /features/meeting-notes (round 6, latest)
+
+Primary keywords (title, H1, URL) stay as in section 4B: ai note taker, ai note taking app,
+ai meeting note taker, ai powered note taking tools, ai meeting minutes, software for meeting
+minutes, meeting notes template.
+
+Secondary keywords go in **H2s, body copy, image alt text, FAQ and meta description**. Filter:
+US, SD under 50, no homepage terms (assistant), no transcription/recorder terms, no competitor
+brand names. Each one is mapped to the page section where it fits.
+
+**Spelling tip:** Google treats "notetaker" (one word) and "note taker" as related but separate
+searches, and both have volume (ai notetaker 2,900, notetaker 1,900). Use both spellings on the
+page, e.g. "AI note taker" in the H1 and "AI notetaker" in body copy and alt text.
+
+### Tier 1: 500 to 3,000 searches/month
+| Keyword | Volume | SD | Where on the page |
+|---|---|---|---|
+| ai notetaker | 2,900 | 42 | Intro paragraph, alt text |
+| notetaker / notetakers | 1,900 each | 45 | Body copy ("Lynkk is the notetaker that...") |
+| ai note taker app | 880 | 32 | "How it works" section, app download CTA |
+| ai notes taker app | 880 | 20 | Same section (Google treats it as a variant) |
+| ai note taking tools | 880 | 45 | Comparison section |
+| meeting notetaker | 880 | 46 | Intro paragraph |
+| meeting minutes app | 880 | 36 | Minutes H2 |
+| meeting minutes software | 880 | 42 | Minutes H2 body |
+| meeting notes taker | 720 | 29 | "How it works" H2 |
+| team ai meeting notes | 720 | 25 | Team H2 |
+| free ai note taking app | 720 | 38 | Free plan CTA |
+| summarize meeting | 590 | 27 | Summary H2 |
+| meeting notes ai | 590 | 39 | Meta description |
+
+### Tier 2: 100 to 500 searches/month (feature sections)
+| Keyword | Volume | SD | Section |
+|---|---|---|---|
+| ai note taker for in person meetings | 480 | 40 | In-person H2 (Lynkk differentiator) |
+| meeting summary | 390 | 35 | Summary H2 |
+| meeting recap | 390 | 26 | Summary H2 body |
+| action item tracker | 320 | 31 | Action items H2 |
+| action item tracking | 320 | 24 | Action items H2 body |
+| note taking ai apps | 320 | 35 | Comparison section |
+| meeting notes taking app | 320 | 22 | Comparison section |
+| ai powered meeting notes | 260 | 49 | Intro paragraph |
+| ai for note taking | 210 | 32 | Body copy |
+| meeting notes with action items | 210 | 12 | Action items H2 |
+| ai notetaker apps | 210 | 42 | Comparison section |
+| minutes taker | 170 | 27 | Minutes H2 |
+| ai notetaker app | 170 | 27 | App CTA |
+| ai note taking software | 170 | 38 | Comparison section |
+| ai meeting summary | 170 | 37 | Summary H2 |
+| ai meeting summarizer | 170 | 34 | Summary H2 body |
+| ai meeting minutes generator | 140 | 30 | Minutes H2 |
+| ai for meeting minutes | 140 | 33 | FAQ |
+| meeting summary ai | 140 | 37 | Summary H2 body |
+| board meeting minutes software | 140 | 24 | Minutes H2 (board meetings use case) |
+| meeting takeaways | 140 | 15 | Summary H2 ("key takeaways and decisions") |
+| ai meeting notes app | 140 | 46 | Comparison section |
+
+### Tier 3: under 100, very easy (SD under 30), good for FAQ and small sections
+| Keyword | Volume | SD | Section |
+|---|---|---|---|
+| free ai note taking tools | 90 | 16 | Free plan CTA |
+| corporate meeting minutes software | 90 | 26 | Minutes H2 |
+| minutes of meeting action items | 90 | 20 | Action items H2 |
+| meeting notes and action items | 90 | 26 | Action items H2 |
+| hubspot notetaker / hubspot meeting notetaker | 90 / 70 | 26 | CRM section (only if HubSpot is supported) |
+| what is an ai notetaker | 50 | 29 | FAQ: "What is an AI notetaker?" |
+| what is ai notetaker | 70 | 43 | Same FAQ |
+| how does ai note taker work | 30 | 36 | FAQ: "How does an AI note taker work?" |
+| ai note taker privacy | 10 | 22 | FAQ: "Is my meeting data private?" (data residency) |
+
+### Template section keywords (if Lynkk offers note formats)
+| Keyword | Volume | SD |
+|---|---|---|
+| meeting notes template free | 880 | 14 |
+| meeting notes and action items template | 320 | 24 |
+| meeting notes format template | 320 | 20 |
+| meeting minutes template action items | 390 | 31 |
+| project management meeting notes template | 260 | 14 |
+
+### Keep for integration pages, not this page (only if supported)
+| Keyword | Volume | SD |
+|---|---|---|
+| zoom ai notetaker | 1,000 | 39 |
+| microsoft teams ai notes taker | 720 | 23 |
+| ai notes taker for zoom | 590 | 24 |
+| google meet notetaker | 170 | 41 |
+| ai notetaker for teams | 140 | 29 |
+| ai notetaker for google meet | 110 | 39 |
+
+### Excluded on purpose
+- **Competitor brand terms** (fathom notetaker 8,100, fireflies ai notetaker 4,400, granola,
+  otter, jamie...): use them in "X vs Lynkk" / "X alternatives" blog posts, not this page.
+- **"best ..." terms** (best ai notetaker 390, best ai note taking app 2,400): listicle intent, blog.
+- **online notetaker (1,600, SD 27):** results are generic online note apps, not meeting tools.
+- **notetaker app (22,200, SD 28):** general note apps (Evernote, OneNote type), wrong intent.
+- **Device/hardware terms** (wearable, pen, device): Lynkk is software.
+- **Homepage terms** (ai meeting assistant, meeting assistant) and **transcription/recorder terms**.
+
+### Updated FAQ for the page (each targets a secondary keyword)
+1. What is an AI notetaker? [what is an ai notetaker]
+2. How does an AI note taker work? [how does ai note taker work]
+3. Can Lynkk take notes in in-person meetings? [ai note taker for in person meetings]
+4. Can AI write meeting minutes? [ai for meeting minutes, ai meeting minutes generator]
+5. Does Lynkk track action items after the meeting? [action item tracker, meeting notes with action items]
+6. Is there a free AI note taking app? [free ai note taking app, free ai note taking tools]
+7. Can my whole team share meeting notes? [team ai meeting notes]
+8. Is my meeting data private? [ai note taker privacy]
+
+---
+
 ## 4C. How competitors perform on the section 4B keywords (Google US results, Ubersuggest)
 
 ### Who ranks for each keyword (top 15)
