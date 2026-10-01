@@ -29,3 +29,6 @@ All 10 articles pass every mechanical rule in `scripts/audit_article.py` and the
 
 ## Common open items
 Author name and bio; featured images and screenshots; permissioned quotes and real examples (#21, #22, #24, #26); which CRMs Lynkk updates; whether the knowledge graph is Pro-only; whether Lynkk dictation and the Chrome extension are on the free plan; final blog URL paths.
+
+## Update 2026-10-01: product facts aligned with TRUTHS.md
+All articles were corrected to match `lynkk-post-kit/docs/TRUTHS.md`: no CRM, no regions, no voice answers during calls, no speed or accuracy claims, 17 languages, free meeting bot (audio only), Jira send is manual from the note, no AES-256/GDPR claims, no plan hours. `scripts/truths_check.py` now runs with the audit. Any open item above that refers to CRMs, regions or free-plan hours is closed.

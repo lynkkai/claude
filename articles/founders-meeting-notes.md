@@ -7,23 +7,23 @@ canonical: https://lynkk.ai/blog/founders-meeting-notes
 og_title: "Meeting Notes for Founders With Back-to-Back Calls"
 og_description: "How founders use 1 AI teammate for call prep, meeting notes and follow-up, plus a weekly notes template."
 keywords:
-  - meeting notes                          # primary (3,600 / SD 29)
-  - ai meeting notes                       # 1,000 / 41
-  - team ai meeting notes                  # 720 / 25
-  - meeting notes taker                    # 720 / 29
-  - taking meeting notes                   # 720 / 46
-keywords_added: []                         # none: brief extras (ai note taker app) are post #1's secondaries; Ubersuggest daily limit reached for new lookups on 2026-09-30
+ - meeting notes # primary (3,600 / SD 29)
+ - ai meeting notes # 1,000 / 41
+ - team ai meeting notes # 720 / 25
+ - meeting notes taker # 720 / 29
+ - taking meeting notes # 720 / 46
+keywords_added: [] # none: brief extras (ai note taker app) are post #1's secondaries; Ubersuggest daily limit reached for new lookups on 2026-09-30
 cluster: use-cases
 template: D (use case)
 internal_link_target: https://lynkk.ai/features/meeting-notes
 inbound_links_planned:
-  - source: https://lynkk.ai/features/meeting-notes
-    anchor: "AI meeting notes for founders"
-  - source: https://lynkk.ai/use-cases
-    anchor: "how founders handle back-to-back meetings"
+ - source: https://lynkk.ai/features/meeting-notes
+ anchor: "AI meeting notes for founders"
+ - source: https://lynkk.ai/use-cases
+ anchor: "how founders handle back-to-back meetings"
 featured_image_path: "/images/blog/founders-meeting-notes.png"
 featured_image_alt: "Founder's week of back-to-back meetings with AI meeting notes and action items"
-tldr: "Meeting notes record decisions, action items and owners so nothing is lost between calls. Founders with back-to-back meetings use AI meeting notes to skip typing, walk into each call prepared and send follow-ups the same day. Lynkk briefs you before each meeting and writes notes about 30 seconds after it."
+tldr: "Meeting notes record decisions, action items and owners so nothing is lost between calls. Founders with back-to-back meetings use AI meeting notes to skip typing, walk into each call prepared and send follow-ups the same day. Lynkk briefs you before each meeting and writes notes after it."
 author: ""
 author_bio_url: ""
 last_updated: 2026-09-30
@@ -34,7 +34,7 @@ status: draft (not published)
 
 *Last updated: September 30, 2026*
 
-> **Quick answer:** Meeting notes are a short record of what was decided, who owns each next step and when it is due. Founders with back-to-back investor, customer and hiring calls rarely have time to write them. **Lynkk works as 1 AI teammate across all of those meetings**: it briefs you before each call, answers you during it and writes meeting notes and action items about 30 seconds after it ends.
+> **Quick answer:** Meeting notes are a short record of what was decided, who owns each next step and when it is due. Founders with back-to-back investor, customer and hiring calls rarely have time to write them. **Lynkk works as 1 AI teammate across all of those meetings**: it briefs you before each call, takes notes with you during it and writes meeting notes and action items after it ends.
 
 > **Disclosure:** This guide is published by Lynkk. The week and notes below are illustrative examples.
 
@@ -99,7 +99,7 @@ Lynkk keeps Zoom, Google Meet, Microsoft Teams, Slack, WhatsApp and in-person co
 
 Yes. Lynkk prepares you before every call by surfacing context from past meetings in 3 parts: what was discussed, what is still open and who said what. You start the meeting ahead instead of cold.
 
-During the meeting, you can say "Hey Lynkk" to ask for past context or pull up a document, and get the answer live by voice. That helps when an investor asks about a number from 2 months ago, or a customer mentions a request you discussed with a colleague. You answer from the record instead of guessing, and the meeting keeps moving.
+During the meeting, live words and a note field sit on the edge of your screen on the Mac, so you can mark the moments that matter. Afterward, Ask Lynkk (Pro) answers questions like a number an investor asked for 2 months ago, with a citation that plays the recording from that moment. You answer from the record instead of guessing.
 
 ## How do founders use Lynkk as 1 AI teammate?
 
@@ -107,11 +107,11 @@ Founders use Lynkk in a 5-step routine that covers every meeting in the week, on
 
 1. **Connect your calendar.** Lynkk sees each meeting in advance.
 2. **Read the brief** before each call, in about 1 minute.
-3. **Let Lynkk record:** the [Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) joins online calls on Pro, and the [Mac app](https://lynkk.ai/download) captures calls and in-person meetings.
-4. **Get notes about 30 seconds after:** [AI meeting notes](https://lynkk.ai/features/meeting-notes) with a summary and [action items with owners](https://lynkk.ai/features/action-items), plus Jira tickets.
-5. **Share with the team:** workspaces give everyone team AI meeting notes, and [Lynkk for Slack](https://lynkk.ai/slack) answers questions about meetings in any channel.
+3. **Let Lynkk record:** the [Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) joins online calls for free (audio only), and the [Mac app](https://lynkk.ai/download) captures calls and in-person meetings.
+4. **Get notes after:** [AI meeting notes](https://lynkk.ai/features/meeting-notes) with a summary and [action items with owners](https://lynkk.ai/features/action-items), plus Jira send for action items.
+5. **Share with the team:** share a note by link or email invite for team AI meeting notes, and [Lynkk for Slack](https://lynkk.ai/slack) answers your questions about your meetings in any channel (Pro).
 
-Lynkk transcribes 15+ languages at about 97% accuracy, so calls with international investors and customers work the same way.
+Lynkk transcribes 17 languages, 4 of them in beta, so calls with international investors and customers work the same way.
 
 The routine also changes how the week feels. Instead of a Friday spent rebuilding notes from memory, the review is a 15-minute scan of decisions and open items that Lynkk already collected. Anything that slipped shows up with a link to the call where it was promised, so you can fix it before anyone has to remind you.
 
@@ -131,9 +131,9 @@ Lynkk fills items 1 to 3 from your meetings automatically, so the review takes m
 
 ## Which meeting notes taker is best for founders?
 
-The best meeting notes taker for founders is Lynkk, because it is 1 tool for every kind of meeting, and it helps before, during and after each call. It records online and in-person meetings and turns them into notes, tasks and Jira tickets.
+The best meeting notes taker for founders is Lynkk, because it is 1 tool for every kind of meeting, and it helps before, during and after each call. It records online and in-person meetings and turns them into notes and tasks you can send to Jira.
 
-You can start free with 5 hours of recording in total, and Pro is $15 a month; see [Lynkk pricing](https://lynkk.ai/pricing). Record with consent: under [18 U.S.C. 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511), federal law generally needs at least 1 party to agree, and some states require everyone. For handling personal data, the [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide.
+You can start on the Free plan, and Pro is $15 a month; see [Lynkk pricing](https://lynkk.ai/pricing). Record with consent: under [18 U.S.C. 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511), federal law generally needs at least 1 party to agree, and some states require everyone. For handling personal data, the [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide.
 
 ## FAQ
 
@@ -141,20 +141,20 @@ You can start free with 5 hours of recording in total, and Pro is $15 a month; s
 They matter because they turn a conversation into 1 shared record of decisions and next steps. Without them, people remember different outcomes and tasks slip. For founders, notes also protect relationships, because every promise to an investor, customer or candidate is written down and followed up.
 
 ### What are team AI meeting notes?
-Team AI meeting notes are notes written by AI and shared across a workspace, so everyone sees the same decisions and action items. Lynkk writes them about 30 seconds after each meeting, and its workspaces give the whole team Pro features, so new hires can search past meetings from day 1.
+Team AI meeting notes are notes written by AI that a team of up to 10 people can share, so everyone works from the same decisions and action items. Lynkk writes them after each meeting, you share a note by link or email invite, and every workspace member gets Pro.
 
 ### Can Gemini take meeting notes?
 Yes, on 2 kinds of Google Workspace plans. Gemini can take notes in Google Meet with "Take notes for me" on Workspace Business and Enterprise plans. Lynkk takes notes across Zoom, Google Meet, Microsoft Teams and in-person meetings, and adds a brief before each call plus Jira follow-up.
 
 ### How do I share meeting notes with my team?
-Share notes in 1 place your team already checks, within 24 hours of the meeting. With Lynkk, notes live in a shared workspace, action items can become Jira tickets, and anyone can ask about a meeting in Slack. That removes the step of copying notes into emails or documents.
+Share notes in 1 place your team already checks, within 24 hours of the meeting. With Lynkk, you share a note by link or email invite, action items can be sent to Jira, and you can ask Lynkk about your meetings from Slack (Pro). That removes the step of copying notes into emails or documents.
 
 ### How many meetings can an AI note taker handle?
-An AI note taker can handle as many meetings as your plan allows. Lynkk starts free with 5 hours of recording in total, which covers about 10 calls of 30 minutes. Pro at $15 a month adds the online meeting bot, so a founder's full calendar can be recorded without anyone pressing a button.
+An AI note taker can handle as many meetings as your plan allows. Lynkk starts on a Free plan, which covers about 10 calls of 30 minutes. Pro at $15 a month adds the online meeting bot, so a founder's full calendar can be recorded without anyone pressing a button.
 
 ## Conclusion
 
-Good notes keep founders from dropping promises between back-to-back calls. Lynkk is the best AI teammate for that job: it briefs you before each meeting, answers you during it and writes notes and action items about 30 seconds after it ends. **[Start free with Lynkk](https://lynkk.ai/)**.
+Good notes keep founders from dropping promises between back-to-back calls. Lynkk is the best AI teammate for that job: it briefs you before each meeting, takes notes with you during it and writes notes and action items after it ends. **[Start free with Lynkk](https://lynkk.ai/)**.
 
 <script type="application/ld+json">
 {
@@ -195,7 +195,7 @@ Good notes keep founders from dropping promises between back-to-back calls. Lynk
           "name": "What are team AI meeting notes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Team AI meeting notes are notes written by AI and shared across a workspace, so everyone sees the same decisions and action items. Lynkk writes them about 30 seconds after each meeting, and its workspaces give the whole team Pro features, so new hires can search past meetings from day 1."
+            "text": "Team AI meeting notes are notes written by AI that a team of up to 10 people can share, so everyone works from the same decisions and action items. Lynkk writes them after each meeting, you share a note by link or email invite, and every workspace member gets Pro."
           }
         },
         {
@@ -211,7 +211,7 @@ Good notes keep founders from dropping promises between back-to-back calls. Lynk
           "name": "How do I share meeting notes with my team?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Share notes in 1 place your team already checks, within 24 hours of the meeting. With Lynkk, notes live in a shared workspace, action items can become Jira tickets, and anyone can ask about a meeting in Slack. That removes the step of copying notes into emails or documents."
+            "text": "Share notes in 1 place your team already checks, within 24 hours of the meeting. With Lynkk, you share a note by link or email invite, action items can be sent to Jira, and you can ask Lynkk about your meetings from Slack (Pro). That removes the step of copying notes into emails or documents."
           }
         },
         {
@@ -219,7 +219,7 @@ Good notes keep founders from dropping promises between back-to-back calls. Lynk
           "name": "How many meetings can an AI note taker handle?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "An AI note taker can handle as many meetings as your plan allows. Lynkk starts free with 5 hours of recording in total, which covers about 10 calls of 30 minutes. Pro at $15 a month adds the online meeting bot, so a founder's full calendar can be recorded without anyone pressing a button."
+            "text": "An AI note taker can handle as many meetings as your plan allows. Lynkk starts on a Free plan, which covers about 10 calls of 30 minutes. Pro at $15 a month adds the online meeting bot, so a founder's full calendar can be recorded without anyone pressing a button."
           }
         }
       ]

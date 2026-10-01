@@ -53,6 +53,7 @@ Batch 3 (2026-09-30): final 4 drafts written, all pass the audit. Summary: `seo/
 - Never claim Lynkk is HIPAA compliant or signs BAAs until the team confirms it.
 
 ## Tools for every article
+- `python3 scripts/truths_check.py articles/<slug>.md` flags Lynkk claims that conflict with `lynkk-post-kit/docs/TRUTHS.md` (must be clean, apart from competitor-only lines it notes).
 - `python3 scripts/build_schema.py articles/<slug>.md` builds Article/ItemList/FAQPage/Breadcrumb schema from the article (keeps FAQ schema in sync).
 - `python3 scripts/audit_article.py articles/<slug>.md` runs every mechanical rule (must end with 0 failed).
 - Draft long: first drafts have run ~400 words short; aim for 2,800+ on listicles.

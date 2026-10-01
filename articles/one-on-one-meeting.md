@@ -7,22 +7,22 @@ canonical: https://lynkk.ai/blog/one-on-one-meeting
 og_title: "One-on-One Meeting Guide: Questions and Template"
 og_description: "20 questions, a sample agenda and a notes template for better 1:1s, plus AI notes that track follow-ups."
 keywords:
-  - one on one meeting                     # primary (2,400 / SD 38)
-  - one on one meeting questions           # 1,600 / 27
-  - one on one meeting template            # 1,600 / 19
-  - questions for one on one meeting       # 1,000 / 6
-  - agenda for one on one meeting          # 590 / 55
-keywords_added:                            # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
-  - sample one on one meeting agenda       # 390 / 22
-  - one on one meeting notes template      # 110 / 23
+ - one on one meeting # primary (2,400 / SD 38)
+ - one on one meeting questions # 1,600 / 27
+ - one on one meeting template # 1,600 / 19
+ - questions for one on one meeting # 1,000 / 6
+ - agenda for one on one meeting # 590 / 55
+keywords_added: # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
+ - sample one on one meeting agenda # 390 / 22
+ - one on one meeting notes template # 110 / 23
 cluster: use-cases
 template: D (use case)
 internal_link_target: https://lynkk.ai/features/action-items
 inbound_links_planned:
-  - source: https://lynkk.ai/features/action-items
-    anchor: "one-on-one meeting template"
-  - source: https://lynkk.ai/use-cases
-    anchor: "how managers run better one-on-one meetings"
+ - source: https://lynkk.ai/features/action-items
+ anchor: "one-on-one meeting template"
+ - source: https://lynkk.ai/use-cases
+ anchor: "how managers run better one-on-one meetings"
 featured_image_path: "/images/blog/one-on-one-meeting.png"
 featured_image_alt: "One-on-one meeting agenda and notes template with action items for a manager and employee"
 tldr: "A one-on-one meeting is a recurring private conversation between a manager and 1 team member about priorities, blockers, growth and feedback. Use a 5-part agenda, ask open questions and write down what each person owes. Lynkk writes the notes and tracks every 1:1 follow-up, with context from last time."
@@ -124,8 +124,8 @@ Managers use Lynkk in 5 steps so that every 1:1 starts with context and ends wit
 
 1. **Connect your calendar.** Lynkk sees each recurring 1:1.
 2. **Read the brief.** Before the meeting, Lynkk surfaces what you discussed last time, what is still open and who owns it.
-3. **Record with consent.** The [Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) joins online on Pro, or the [Mac app](https://lynkk.ai/download) records in the room.
-4. **Get notes after the call.** About 30 seconds later: [AI meeting notes](https://lynkk.ai/features/meeting-notes) with a summary and next steps.
+3. **Record with consent.** The [Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) joins online for free (audio only), or the [Mac app](https://lynkk.ai/download) records in the room.
+4. **Get notes after the call:** [AI meeting notes](https://lynkk.ai/features/meeting-notes) with a summary and next steps.
 5. **Track follow-ups.** The [Lynkk action item tracker](https://lynkk.ai/features/action-items) lists what each person owes, with a link to the moment it was agreed.
 
 You can also [ask your meetings](https://lynkk.ai/features/knowledge-graph) before a review, such as "What growth goals did Sam mention this quarter?", and get a cited answer.
@@ -147,7 +147,7 @@ Lynkk fills most of these fields from the recording, so you can listen instead o
 
 Only with clear consent, and some 1:1s should not be recorded at all. Sensitive topics like health, conflict or personal matters are often better unrecorded, and either person should be able to say no.
 
-When you do record, the law applies. Under [18 U.S.C. 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511), federal law generally needs at least 1 party to agree, and some states require everyone. Lynkk encrypts data with AES-256, as the [Lynkk security page](https://lynkk.ai/security) explains. This is not legal advice.
+When you do record, the law applies. Under [18 U.S.C. 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511), federal law generally needs at least 1 party to agree, and some states require everyone. Lynkk lets either of you mark the note Personal, as the [Lynkk security page](https://lynkk.ai/security) explains. This is not legal advice.
 
 ## FAQ
 
@@ -164,7 +164,7 @@ Avoid 2 things: turning a 1:1 into a list of complaints with no ask, and avoid d
 Use a clear, consistent title such as "Alex and Sam 1:1" or "Weekly 1:1: Alex / Sam", so both calendars show it at a glance. Add a link to the running agenda document in the invite. Consistent titles also help Lynkk recognize the recurring 1:1 and bring context from last time.
 
 ### Can AI take notes in a one-on-one meeting?
-Yes, with both people's agreement. Lynkk records the 1:1, writes notes with next steps about 30 seconds after, and brings those next steps back before the following meeting. Either person can decline recording for sensitive conversations, and the manager can still add notes by hand.
+Yes, with both people's agreement. Lynkk records the 1:1, writes notes with next steps after, and brings those next steps back before the following meeting. Either person can decline recording for sensitive conversations, and the manager can still add notes by hand.
 
 ## Conclusion
 
@@ -233,7 +233,7 @@ A good 1:1 follows a simple agenda, uses open questions and ends with next steps
           "name": "Can AI take notes in a one-on-one meeting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, with both people's agreement. Lynkk records the 1:1, writes notes with next steps about 30 seconds after, and brings those next steps back before the following meeting. Either person can decline recording for sensitive conversations, and the manager can still add notes by hand."
+            "text": "Yes, with both people's agreement. Lynkk records the 1:1, writes notes with next steps after, and brings those next steps back before the following meeting. Either person can decline recording for sensitive conversations, and the manager can still add notes by hand."
           }
         }
       ]

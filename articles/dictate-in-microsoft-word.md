@@ -7,20 +7,20 @@ canonical: https://lynkk.ai/blog/dictate-in-microsoft-word
 og_title: "How to Dictate in Microsoft Word"
 og_description: "Word's Dictate button, shortcuts, voice commands and fixes, plus when dictation software does more."
 keywords:
-  - microsoft word dictation software        # primary (1,300 / SD 30)
-  - dictation software for microsoft word    # 1,600 / 8
-  - how to dictate in word                   # 1,000 / 29
-  - dictate in word                          # 880 / 29
-keywords_added:                              # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
-  - good voice to text app                   # 590 / 21
+ - microsoft word dictation software # primary (1,300 / SD 30)
+ - dictation software for microsoft word # 1,600 / 8
+ - how to dictate in word # 1,000 / 29
+ - dictate in word # 880 / 29
+keywords_added: # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
+ - good voice to text app # 590 / 21
 cluster: dictation
 template: C (how-to)
 internal_link_target: https://lynkk.ai/features/dictation
 inbound_links_planned:
-  - source: https://lynkk.ai/features/dictation
-    anchor: "how to dictate in Word"
-  - source: https://lynkk.ai/download
-    anchor: "dictation software for Microsoft Word"
+ - source: https://lynkk.ai/features/dictation
+ anchor: "how to dictate in Word"
+ - source: https://lynkk.ai/download
+ anchor: "dictation software for Microsoft Word"
 featured_image_path: "/images/blog/dictate-in-microsoft-word.png"
 featured_image_alt: "Dictate button on the Home tab in Microsoft Word with the microphone turned on"
 tldr: "To dictate in Word, sign in with a Microsoft 365 subscription, go to Home > Dictate and speak; the shortcut is Alt + backquote on Windows and Option + F1 on Mac. Dictate needs a microphone and a reliable internet connection. Lynkk adds push-to-talk dictation in any Mac app plus meeting notes."
@@ -101,21 +101,21 @@ If none of these fixes work, test your microphone in another app. If the mic wor
 
 Yes. Besides Dictate, Word for Microsoft 365 has a separate Transcribe feature that turns recorded audio into text, with 300 minutes a month included. It accepts .wav, .mp4, .m4a and .mp3 files, and Microsoft 365 Copilot users get 30,000 minutes.
 
-Dictate is for live typing, and Transcribe is for recordings. For meetings, Lynkk goes further than both: it records the call or the room and delivers [AI meeting notes](https://lynkk.ai/features/meeting-notes), action items with owners and Jira tickets about 30 seconds after it ends. *Source: Microsoft Support, checked September 30, 2026.*
+Dictate is for live typing, and Transcribe is for recordings. For meetings, Lynkk goes further than both: it records the call or the room and delivers [AI meeting notes](https://lynkk.ai/features/meeting-notes), action items with owners you can send to Jira after it ends. *Source: Microsoft Support, checked September 30, 2026.*
 
 ## Which Microsoft Word dictation software is best?
 
 The best dictation software for Microsoft Word depends on 1 question: do you only type in Word, or all day across many apps? Word's Dictate covers the first case. For the second, Lynkk is the best choice on a Mac.
 
-As Microsoft Word dictation software, the [Lynkk Mac app](https://lynkk.ai/download) gives you push-to-talk [Lynkk dictation](https://lynkk.ai/features/dictation) that types at your cursor in Word, email, Slack or any other app. The same app records your meetings and transcribes 15+ languages at about 97% accuracy, including [multilingual transcription](https://lynkk.ai/features/hinglish-transcription) for people who switch languages mid-sentence.
+As Microsoft Word dictation software, the [Lynkk Mac app](https://lynkk.ai/download) gives you push-to-talk [Lynkk dictation](https://lynkk.ai/features/dictation) that types at your cursor in Word, email, Slack or any other app. The same app records your meetings and transcribes 17 languages, 4 of them in beta, including [multilingual transcription](https://lynkk.ai/features/hinglish-transcription) for people who switch languages mid-sentence.
 
-You can start free with 5 hours of recording in total, and Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing).
+You can start on the Free plan, and Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing).
 
 ## Why does voice typing in Word matter for accessibility and privacy?
 
 Voice typing lets people who cannot use a keyboard write documents, and 1 web standard, WCAG, builds rules around speech input. The [W3C guidance on Label in Name](https://www.w3.org/WAI/WCAG21/Understanding/label-in-name) explains how speech input users control software by saying the labels they see.
 
-Dictated documents often hold personal or client details. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide for managing that data. Lynkk encrypts data with AES-256 and never trains on your conversations, as the [Lynkk security page](https://lynkk.ai/security) explains.
+Dictated documents often hold personal or client details. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide for managing that data. Lynkk keeps recordings private to your account and never trains on your conversations, as the [Lynkk security page](https://lynkk.ai/security) explains.
 
 ## FAQ
 

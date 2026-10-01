@@ -7,23 +7,23 @@ canonical: https://lynkk.ai/blog/meeting-minutes-sample
 og_title: "Meeting Minutes Sample: Team and Board Examples"
 og_description: "2 ready-to-copy samples, the standard format, and how AI writes the first draft of your minutes."
 keywords:
-  - meeting minutes sample                 # primary (5,400 / SD 39)
-  - example meeting minutes                # 4,400 / 42
-  - meeting minutes example                # 3,600 / 36
-  - board meeting minutes sample           # 2,400 / 15
-  - sample of board meeting minutes        # 1,900 / 36
-keywords_added: []                         # none: brief secondaries already covered; Ubersuggest daily limit reached for new lookups on 2026-09-30
+ - meeting minutes sample # primary (5,400 / SD 39)
+ - example meeting minutes # 4,400 / 42
+ - meeting minutes example # 3,600 / 36
+ - board meeting minutes sample # 2,400 / 15
+ - sample of board meeting minutes # 1,900 / 36
+keywords_added: [] # none: brief secondaries already covered; Ubersuggest daily limit reached for new lookups on 2026-09-30
 cluster: use-cases
 template: D (use case)
 internal_link_target: https://lynkk.ai/features/meeting-notes
 inbound_links_planned:
-  - source: https://lynkk.ai/features/meeting-notes
-    anchor: "meeting minutes sample"
-  - source: https://lynkk.ai/features/action-items
-    anchor: "board meeting minutes sample"
+ - source: https://lynkk.ai/features/meeting-notes
+ anchor: "meeting minutes sample"
+ - source: https://lynkk.ai/features/action-items
+ anchor: "board meeting minutes sample"
 featured_image_path: "/images/blog/meeting-minutes-sample.png"
 featured_image_alt: "Meeting minutes sample for a board meeting with motions, votes and action items"
-tldr: "A meeting minutes sample shows the standard format: meeting details, attendance, approval of prior minutes, decisions or motions with results, action items with owners, and adjournment. Copy the team and board samples below. Lynkk writes the first draft of your minutes about 30 seconds after the meeting."
+tldr: "A meeting minutes sample shows the standard format: meeting details, attendance, approval of prior minutes, decisions or motions with results, action items with owners, and adjournment. Copy the team and board samples below. Lynkk writes the first draft of your minutes after the meeting."
 author: ""
 author_bio_url: ""
 last_updated: 2026-09-30
@@ -34,7 +34,7 @@ status: draft (not published)
 
 *Last updated: September 30, 2026*
 
-> **Quick answer:** A meeting minutes sample shows the standard format in 6 parts: meeting details, attendance, approval of prior minutes, decisions or motions with their results, action items with owners, and adjournment. Minutes record what was done, not every word said. Copy the team and board samples below. **Lynkk is the easiest way to automate minutes**: it writes the first draft, with decisions and action items, about 30 seconds after the meeting.
+> **Quick answer:** A meeting minutes sample shows the standard format in 6 parts: meeting details, attendance, approval of prior minutes, decisions or motions with their results, action items with owners, and adjournment. Minutes record what was done, not every word said. Copy the team and board samples below. **Lynkk is the easiest way to automate minutes**: it writes the first draft, with decisions and action items, after the meeting.
 
 > **Disclosure:** This guide is published by Lynkk. The organizations and people in the samples are fictional. This is general information, not legal advice.
 
@@ -128,12 +128,12 @@ That is also why minutes should be approved at the next meeting and stored safel
 Boards and teams automate minutes with Lynkk in 5 steps, and the secretary moves from writing to reviewing.
 
 1. **Connect the calendar** so Lynkk sees each meeting.
-2. **Record the meeting:** the [Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) joins online on Pro, and in-person meetings are captured in the room.
-3. **Get the draft minutes** about 30 seconds after, as [AI meeting notes](https://lynkk.ai/features/meeting-notes) with decisions and a summary.
+2. **Record the meeting:** the [Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) joins online for free (audio only), and in-person meetings are captured in the room.
+3. **Get the draft minutes** after, as [AI meeting notes](https://lynkk.ai/features/meeting-notes) with decisions and a summary.
 4. **Track actions** in the [Lynkk action item tracker](https://lynkk.ai/features/action-items), each linked to the moment it was agreed.
 5. **Check and approve:** the secretary edits the draft into your format, and the board approves it at the next meeting.
 
-Later, anyone can [ask your meetings](https://lynkk.ai/features/knowledge-graph) a question like "When did the board approve the budget?" and get a cited answer. Lynkk encrypts data with AES-256, as the [Lynkk security page](https://lynkk.ai/security) explains.
+Later, anyone can [ask your meetings](https://lynkk.ai/features/knowledge-graph) a question like "When did the board approve the budget?" and get a cited answer. Notes are private to your account, as the [Lynkk security page](https://lynkk.ai/security) explains.
 
 ## FAQ
 
@@ -147,14 +147,14 @@ It depends on your bylaws and state law. Many organizations approve minutes at t
 Your bylaws and procedures decide whether minutes need a signature, and 1 common practice is for the secretary to sign the minutes after the board approves them, sometimes with the chair. For team meetings, no signature is needed; sharing the minutes in 1 agreed place is enough.
 
 ### Who takes minutes at a board meeting?
-The board secretary is the 1 officer who usually takes or oversees the minutes at a board meeting, depending on your bylaws. Some boards ask staff to take notes for the secretary to review. With Lynkk, the secretary reviews a draft written about 30 seconds after the meeting instead of taking notes live.
+The board secretary is the 1 officer who usually takes or oversees the minutes at a board meeting, depending on your bylaws. Some boards ask staff to take notes for the secretary to review. With Lynkk, the secretary reviews a draft written after the meeting instead of taking notes live.
 
 ### Can AI write board meeting minutes?
-Yes. Lynkk records the meeting with consent and writes a draft with decisions, action items and a summary about 30 seconds after it ends. The secretary still checks the draft, puts it into the board's format and brings it for approval at the next meeting, so accuracy stays under human control.
+Yes. Lynkk records the meeting with consent and writes a draft after it ends, and its Board Meeting summary shape (1 of 9 on Pro) organizes decisions and action items. The secretary still checks the draft, puts it into the board's format and brings it for approval at the next meeting, so accuracy stays under human control.
 
 ## Conclusion
 
-A good meeting minutes sample gives you the structure: details, attendance, decisions, actions and adjournment. Copy the team or board sample above, and let Lynkk write the first draft about 30 seconds after each meeting so your secretary only reviews. **[Start free with Lynkk](https://lynkk.ai/)**.
+A good meeting minutes sample gives you the structure: details, attendance, decisions, actions and adjournment. Copy the team or board sample above, and let Lynkk write the first draft after each meeting so your secretary only reviews. **[Start free with Lynkk](https://lynkk.ai/)**.
 
 <script type="application/ld+json">
 {
@@ -211,7 +211,7 @@ A good meeting minutes sample gives you the structure: details, attendance, deci
           "name": "Who takes minutes at a board meeting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The board secretary is the 1 officer who usually takes or oversees the minutes at a board meeting, depending on your bylaws. Some boards ask staff to take notes for the secretary to review. With Lynkk, the secretary reviews a draft written about 30 seconds after the meeting instead of taking notes live."
+            "text": "The board secretary is the 1 officer who usually takes or oversees the minutes at a board meeting, depending on your bylaws. Some boards ask staff to take notes for the secretary to review. With Lynkk, the secretary reviews a draft written after the meeting instead of taking notes live."
           }
         },
         {
@@ -219,7 +219,7 @@ A good meeting minutes sample gives you the structure: details, attendance, deci
           "name": "Can AI write board meeting minutes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Lynkk records the meeting with consent and writes a draft with decisions, action items and a summary about 30 seconds after it ends. The secretary still checks the draft, puts it into the board's format and brings it for approval at the next meeting, so accuracy stays under human control."
+            "text": "Yes. Lynkk records the meeting with consent and writes a draft after it ends, and its Board Meeting summary shape (1 of 9 on Pro) organizes decisions and action items. The secretary still checks the draft, puts it into the board's format and brings it for approval at the next meeting, so accuracy stays under human control."
           }
         }
       ]

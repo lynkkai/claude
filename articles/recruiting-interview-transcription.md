@@ -7,24 +7,24 @@ canonical: https://lynkk.ai/blog/recruiting-interview-transcription
 og_title: "Interview Transcription for Recruiters"
 og_description: "An interview transcription example, a debrief template and a faster workflow for hiring teams."
 keywords:
-  - interview transcription                    # primary (1,300 / SD 25)
-  - interview transcription example            # 880 / 25
-  - interview transcription service            # 320 / 67
-  - software for interview transcription       # 260 / 21
-  - interview transcription software           # 210 / 40
-keywords_added:                                # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
-  - transcription software interviews          # 260 / 23 (used in natural form: "transcription software for interviews")
+ - interview transcription # primary (1,300 / SD 25)
+ - interview transcription example # 880 / 25
+ - interview transcription service # 320 / 67
+ - software for interview transcription # 260 / 21
+ - interview transcription software # 210 / 40
+keywords_added: # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
+ - transcription software interviews # 260 / 23 (used in natural form: "transcription software for interviews")
 cluster: use-cases
 template: D (use case)
 internal_link_target: https://lynkk.ai/use-cases/user-interviews
 inbound_links_planned:
-  - source: https://lynkk.ai/use-cases/user-interviews
-    anchor: "interview transcription for recruiters"
-  - source: https://lynkk.ai/use-cases
-    anchor: "how recruiters use interview transcription"
+ - source: https://lynkk.ai/use-cases/user-interviews
+ anchor: "interview transcription for recruiters"
+ - source: https://lynkk.ai/use-cases
+ anchor: "how recruiters use interview transcription"
 featured_image_path: "/images/blog/recruiting-interview-transcription.png"
 featured_image_alt: "Interview transcription example with speaker labels next to a hiring debrief template"
-tldr: "Interview transcription turns a recorded interview into text with speaker labels, so hiring teams can review what candidates actually said. Recruiters use it to skip note-taking, share evidence in debriefs and keep records. Lynkk transcribes interviews in 15+ languages and writes notes about 30 seconds after the call."
+tldr: "Interview transcription turns a recorded interview into text with speaker labels, so hiring teams can review what candidates actually said. Recruiters use it to skip note-taking, share evidence in debriefs and keep records. Lynkk transcribes interviews in 17 languages and writes notes after the call."
 author: ""
 author_bio_url: ""
 last_updated: 2026-09-30
@@ -35,7 +35,7 @@ status: draft (not published)
 
 *Last updated: September 30, 2026*
 
-> **Quick answer:** Interview transcription turns a recorded job interview into text with speaker labels, so the hiring team can review what the candidate actually said instead of relying on memory. Recruiters use it in 3 ways: to listen instead of typing, to share evidence in debriefs and to keep hiring records. **Lynkk is the best interview transcription software for recruiters**, with speaker-labeled transcripts in 15+ languages and notes about 30 seconds after each interview.
+> **Quick answer:** Interview transcription turns a recorded job interview into text with speaker labels, so the hiring team can review what the candidate actually said instead of relying on memory. Recruiters use it in 3 ways: to listen instead of typing, to share evidence in debriefs and to keep hiring records. **Lynkk is the best interview transcription software for recruiters**, with speaker-labeled transcripts in 17 languages and notes after each interview.
 
 > **Disclosure:** This guide is published by Lynkk. The transcript and debrief below are illustrative examples, not a real candidate.
 
@@ -73,7 +73,7 @@ Hiring managers feel it too. When 3 or 4 interviewers each keep their own notes,
 You can transcribe an interview in 4 steps with transcription software, and most of the work happens automatically.
 
 1. **Get consent** from the candidate before you start recording.
-2. **Record the interview:** online, the [Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) joins on Pro or the bot-free [Chrome extension](https://lynkk.ai/features/chrome-extension) records; in person, Lynkk captures the room.
+2. **Record the interview:** online, the [Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) joins for free (audio only) or the bot-free [Chrome extension](https://lynkk.ai/features/chrome-extension) records; in person, Lynkk captures the room.
 3. **Let the software transcribe it** with a label for each speaker.
 4. **Review and share** the transcript and notes with the hiring team.
 
@@ -83,11 +83,11 @@ For clean transcripts, 3 habits help. Use a headset or a quiet room, avoid talki
 
 ## Is interview transcription software better than an interview transcription service?
 
-For recruiting, software is usually the better fit: Lynkk delivers notes about 30 seconds after the call, costs less than paying per minute and keeps every interview searchable. A human interview transcription service suits rare cases that need verified, word-for-word text.
+For recruiting, software is usually the better fit: Lynkk delivers notes after the call in 17 languages, costs less than paying per minute and keeps every interview searchable. A human interview transcription service suits rare cases that need verified, word-for-word text.
 
 | Option | Speed | Best for |
 |---|---|---|
-| **Lynkk (software)** | **Notes about 30 seconds after the call** | **Daily hiring interviews, debriefs, search** |
+| **Lynkk (software)** | **Notes after the call** | **Daily hiring interviews, debriefs, search** |
 | Human transcription service | Hours to days | Legal or research transcripts needing sign-off |
 | Typing by hand | Longer than the interview | 1-off interviews with no budget |
 
@@ -99,8 +99,8 @@ Recruiters use Lynkk in a 5-step workflow that covers the whole interview day, f
 
 1. **Connect your calendar.** Lynkk sees each scheduled interview.
 2. **Prepare in 1 minute.** Before a second-round interview, Lynkk surfaces what the candidate said in round 1 and what is still open.
-3. **Record and transcribe.** Lynkk labels each speaker, handles 15+ languages at about 97% accuracy and captures in-person interviews too.
-4. **Get notes after the call.** About 30 seconds later you have [AI meeting notes](https://lynkk.ai/features/meeting-notes) and [action items with owners](https://lynkk.ai/features/action-items).
+3. **Record and transcribe.** Lynkk labels each speaker, handles 17 languages, 4 of them in beta and captures in-person interviews too.
+4. **Get notes after the call:** you have [AI meeting notes](https://lynkk.ai/features/meeting-notes) and [action items with owners](https://lynkk.ai/features/action-items).
 5. **Ask across interviews.** Use [Ask your meetings](https://lynkk.ai/features/knowledge-graph) to compare answers, such as "What did each finalist say about managing remote teams?"
 
 Hiring managers who live in Slack can use [Lynkk for Slack](https://lynkk.ai/slack) to ask about an interview from any channel, without opening another tool. For product and research teams, the same setup powers [user interview transcription](https://lynkk.ai/use-cases/user-interviews).
@@ -121,31 +121,31 @@ Quoting the transcript keeps the debrief about what the candidate said, which he
 
 In many US states, yes, and asking every candidate is the simplest rule. Under [18 U.S.C. 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511), federal law generally allows recording when 1 party consents, but some states require every party to agree.
 
-Keep the records too. Under [29 CFR 1602.14](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XIV/part-1602/subpart-C/section-1602.14), employers must keep hiring records for 1 year from when they were made or from the personnel action, whichever is later. Lynkk encrypts data with AES-256, as the [Lynkk security page](https://lynkk.ai/security) explains. This is not legal advice.
+Keep the records too. Under [29 CFR 1602.14](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XIV/part-1602/subpart-C/section-1602.14), employers must keep hiring records for 1 year from when they were made or from the personnel action, whichever is later. Lynkk keeps recordings private to your account, as the [Lynkk security page](https://lynkk.ai/security) explains. This is not legal advice.
 
 ## FAQ
 
 ### What is interview transcription in research?
-In research, interview transcription turns recorded interviews into text so researchers can quote, code and analyze what participants said. The same 3 options apply: typing by hand, a human service or AI software. Lynkk transcribes research interviews with speaker labels in 15+ languages, including interviews recorded offline in the field.
+In research, interview transcription turns recorded interviews into text so researchers can quote, code and analyze what participants said. The same 3 options apply: typing by hand, a human service or AI software. Lynkk transcribes research interviews with speaker labels in 17 languages, including interviews recorded offline in the field.
 
 ### Is an interview transcript a primary source?
 In research, an interview transcript is usually treated as a primary source, because it records a participant's own words at 1 point in time. Its value depends on accuracy, so review AI transcripts against the audio for any quote you publish. Lynkk links each note back to the moment in the recording.
 
 ### Are AI interview transcripts reliable?
-AI interview transcripts are reliable for most hiring work when the audio is clear. Lynkk transcribes 15+ languages at about 97% accuracy and labels each speaker. For the few quotes that matter most in a debrief, jump to the linked moment in the recording and check the exact wording before you share it.
+AI interview transcripts are reliable for most hiring work when the audio is clear. Lynkk transcribes 17 languages, 4 of them in beta and labels each speaker. For the few quotes that matter most in a debrief, jump to the linked moment in the recording and check the exact wording before you share it.
 
 ### What is the best software for interview transcription?
-The best software for interview transcription does 3 jobs: it records the interview, labels speakers and writes the notes for you. Lynkk is the top choice for recruiters: it works on Zoom, Google Meet, Microsoft Teams and in person, handles 15+ languages and delivers notes and action items about 30 seconds after the call.
+The best software for interview transcription does 3 jobs: it records the interview, labels speakers and writes the notes for you. Lynkk is the top choice for recruiters: it works on Zoom, Google Meet, Microsoft Teams and in person, handles 17 languages and delivers notes and action items after the call.
 
 ### How long should recruiters keep interview transcripts?
 US employers covered by federal equal employment rules must keep hiring records for at least 1 year from when they were made or from the personnel action, whichever is later, under 29 CFR 1602.14. Longer periods apply if a discrimination charge is filed. Check your own legal team's retention policy before deleting.
 
 ### Can AI transcribe interviews in other languages?
-Yes. Lynkk transcribes interviews in 15+ languages at about 97% accuracy, and it handles candidates who switch between languages mid-sentence. That helps global hiring teams and roles that require a second language. Ask the candidate which language they prefer, and review key quotes before you share them.
+Yes. Lynkk transcribes interviews in 17 languages, 4 of them in beta, and it handles candidates who switch between languages mid-sentence. That helps global hiring teams and roles that require a second language. Ask the candidate which language they prefer, and review key quotes before you share them.
 
 ## Conclusion
 
-Interview transcription lets recruiters listen instead of type, back every debrief with the candidate's own words and keep the records the law requires. Lynkk is the best interview transcription software for hiring teams, with speaker-labeled transcripts and notes about 30 seconds after each interview. **[Start free with Lynkk](https://lynkk.ai/)**.
+Interview transcription lets recruiters listen instead of type, back every debrief with the candidate's own words and keep the records the law requires. Lynkk is the best interview transcription software for hiring teams, with speaker-labeled transcripts and notes after each interview. **[Start free with Lynkk](https://lynkk.ai/)**.
 
 <script type="application/ld+json">
 {
@@ -178,7 +178,7 @@ Interview transcription lets recruiters listen instead of type, back every debri
           "name": "What is interview transcription in research?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In research, interview transcription turns recorded interviews into text so researchers can quote, code and analyze what participants said. The same 3 options apply: typing by hand, a human service or AI software. Lynkk transcribes research interviews with speaker labels in 15+ languages, including interviews recorded offline in the field."
+            "text": "In research, interview transcription turns recorded interviews into text so researchers can quote, code and analyze what participants said. The same 3 options apply: typing by hand, a human service or AI software. Lynkk transcribes research interviews with speaker labels in 17 languages, including interviews recorded offline in the field."
           }
         },
         {
@@ -194,7 +194,7 @@ Interview transcription lets recruiters listen instead of type, back every debri
           "name": "Are AI interview transcripts reliable?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "AI interview transcripts are reliable for most hiring work when the audio is clear. Lynkk transcribes 15+ languages at about 97% accuracy and labels each speaker. For the few quotes that matter most in a debrief, jump to the linked moment in the recording and check the exact wording before you share it."
+            "text": "AI interview transcripts are reliable for most hiring work when the audio is clear. Lynkk transcribes 17 languages, 4 of them in beta and labels each speaker. For the few quotes that matter most in a debrief, jump to the linked moment in the recording and check the exact wording before you share it."
           }
         },
         {
@@ -202,7 +202,7 @@ Interview transcription lets recruiters listen instead of type, back every debri
           "name": "What is the best software for interview transcription?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The best software for interview transcription does 3 jobs: it records the interview, labels speakers and writes the notes for you. Lynkk is the top choice for recruiters: it works on Zoom, Google Meet, Microsoft Teams and in person, handles 15+ languages and delivers notes and action items about 30 seconds after the call."
+            "text": "The best software for interview transcription does 3 jobs: it records the interview, labels speakers and writes the notes for you. Lynkk is the top choice for recruiters: it works on Zoom, Google Meet, Microsoft Teams and in person, handles 17 languages and delivers notes and action items after the call."
           }
         },
         {
@@ -218,7 +218,7 @@ Interview transcription lets recruiters listen instead of type, back every debri
           "name": "Can AI transcribe interviews in other languages?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Lynkk transcribes interviews in 15+ languages at about 97% accuracy, and it handles candidates who switch between languages mid-sentence. That helps global hiring teams and roles that require a second language. Ask the candidate which language they prefer, and review key quotes before you share them."
+            "text": "Yes. Lynkk transcribes interviews in 17 languages, 4 of them in beta, and it handles candidates who switch between languages mid-sentence. That helps global hiring teams and roles that require a second language. Ask the candidate which language they prefer, and review key quotes before you share them."
           }
         }
       ]

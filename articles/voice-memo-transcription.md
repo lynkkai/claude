@@ -7,21 +7,21 @@ canonical: https://lynkk.ai/blog/voice-memo-transcription
 og_title: "Voice Memo Transcription on iPhone: How It Works"
 og_description: "View, copy and search Voice Memos transcripts, fix common problems and turn memos into notes."
 keywords:
-  - voice memo transcription               # primary (1,600 / SD 36)
-  - transcribe voice memo                  # 1,600 / 26
-  - voice memos to text                    # 880 / 28
-  - iphone transcribe voice memo           # 880 / 24
-  - transcribe voice memo iphone           # 720 / 32
-keywords_added:                            # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
-  - how to transcribe voice memo on iphone # 480 / 19
+ - voice memo transcription # primary (1,600 / SD 36)
+ - transcribe voice memo # 1,600 / 26
+ - voice memos to text # 880 / 28
+ - iphone transcribe voice memo # 880 / 24
+ - transcribe voice memo iphone # 720 / 32
+keywords_added: # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
+ - how to transcribe voice memo on iphone # 480 / 19
 cluster: transcription
 template: C (how-to)
 internal_link_target: https://lynkk.ai/features/meeting-notes
 inbound_links_planned:
-  - source: https://lynkk.ai/features/meeting-notes
-    anchor: "voice memo transcription on iPhone"
-  - source: https://lynkk.ai/use-cases/field-interviews
-    anchor: "turn voice memos to text"
+ - source: https://lynkk.ai/features/meeting-notes
+ anchor: "voice memo transcription on iPhone"
+ - source: https://lynkk.ai/use-cases/field-interviews
+ anchor: "turn voice memos to text"
 featured_image_path: "/images/blog/voice-memo-transcription.png"
 featured_image_alt: "Voice memo transcription on iPhone showing the View Transcript option in the Voice Memos app"
 tldr: "iPhone 12 or later can transcribe voice memos in the Voice Memos app: tap a recording, tap More, then View Transcript, or swipe up while recording to watch it live. Transcription works in 10 languages. To turn conversations into notes and action items automatically, Lynkk records them and writes the notes for you."
@@ -95,15 +95,15 @@ For longer or regular conversations, such as client meetings, interviews or site
 
 ## What is a faster way to get notes from conversations?
 
-The faster way is to record the conversation with Lynkk instead of a voice memo, so the notes are written for you about 30 seconds after it ends. Lynkk captures in-person conversations and online meetings, labels each speaker and works offline-first.
+The faster way is to record the conversation with Lynkk instead of a voice memo, so the notes are written for you after it ends, in 17 languages. Lynkk captures in-person conversations and online meetings, labels each speaker and saves audio to disk on the Mac, so bad Wi-Fi does not lose the call.
 
 With Lynkk you get:
 
 - **Structured notes:** [AI meeting notes](https://lynkk.ai/features/meeting-notes) with a transcript and summary.
 - **Owned tasks:** an [action item tracker](https://lynkk.ai/features/action-items) with owners, deadlines and a link back to the moment it was said.
-- **15+ languages:** about 97% accuracy, with [multilingual transcription](https://lynkk.ai/features/hinglish-transcription) for speakers who switch languages.
+- **17 languages:** speaker labels, with [multilingual transcription](https://lynkk.ai/features/hinglish-transcription) for speakers who switch languages.
 
-For interviews away from the office, you can [record field interviews offline](https://lynkk.ai/use-cases/field-interviews) on a Mac and still get notes afterward. Every conversation stays in 1 searchable place, so you are not scrolling through dozens of untitled memos. You can start free with 5 hours of recording in total, and Pro is $15 a month; see [Lynkk pricing](https://lynkk.ai/pricing).
+For interviews away from the office, you can [record field interviews on a Mac](https://lynkk.ai/use-cases/field-interviews) and still get notes afterward, because audio is saved to disk even on bad Wi-Fi. Every conversation stays in 1 searchable place, so you are not scrolling through dozens of untitled memos. You can start on the Free plan, and Pro is $15 a month; see [Lynkk pricing](https://lynkk.ai/pricing).
 
 ## Is it legal to record a conversation with Voice Memos?
 
@@ -120,7 +120,7 @@ Apple Support describes 2 ways to reuse a voice memo transcription: select and c
 You need an iPhone 12 or later to transcribe voice memos in Apple's Voice Memos app, according to Apple Support. The recording also needs to be in 1 of the 10 supported languages. Older iPhones can still record memos, but they will not show the View Transcript option for those recordings.
 
 ### Can Voice Memos transcribe Chinese?
-Yes. Apple lists both Simplified Chinese and Traditional Chinese among the 10 languages that Voice Memos can transcribe on iPhone 12 or later. The other 8 are English, Spanish, Portuguese, Italian, French, German, Japanese and Korean. For 15+ languages and mixed-language speech, Lynkk is a stronger fit.
+Yes. Apple lists both Simplified Chinese and Traditional Chinese among the 10 languages that Voice Memos can transcribe on iPhone 12 or later. The other 8 are English, Spanish, Portuguese, Italian, French, German, Japanese and Korean. For 17 languages and mixed-language speech, Lynkk is a stronger fit.
 
 ### How do I search my voice memo transcripts?
 Open Voice Memos and type a word in the search field at the top of the list. Apple says search finds recordings with that text in either the title or the audio transcription, so 1 remembered word is often enough. Lynkk goes further by answering questions across all your recorded conversations.
@@ -179,7 +179,7 @@ Voice memo transcription on iPhone 12 or later is free, quick and good for perso
           "name": "Can Voice Memos transcribe Chinese?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Apple lists both Simplified Chinese and Traditional Chinese among the 10 languages that Voice Memos can transcribe on iPhone 12 or later. The other 8 are English, Spanish, Portuguese, Italian, French, German, Japanese and Korean. For 15+ languages and mixed-language speech, Lynkk is a stronger fit."
+            "text": "Yes. Apple lists both Simplified Chinese and Traditional Chinese among the 10 languages that Voice Memos can transcribe on iPhone 12 or later. The other 8 are English, Spanish, Portuguese, Italian, French, German, Japanese and Korean. For 17 languages and mixed-language speech, Lynkk is a stronger fit."
           }
         },
         {

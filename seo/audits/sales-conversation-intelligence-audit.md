@@ -23,7 +23,7 @@ H1 13-15 words; meta title ≤60 with primary near the start; meta description 1
 - Add the featured image at the path in `featured_image_path` (1200x630) with the alt text in `featured_image_alt`, and add screenshots from our own accounts.
 
 **2. Facts and evidence to add before publishing**
-- Which CRMs Lynkk updates (HubSpot, Salesforce?); a real anonymized call walkthrough with permission; a quote from a sales leader with permission.
+- A real anonymized call walkthrough with permission; a quote from a sales leader with permission.
 - Examples in the article are labeled illustrative; replace with real, permissioned examples where available.
 
 **3. Publishing checklist**

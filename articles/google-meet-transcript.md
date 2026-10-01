@@ -7,24 +7,24 @@ canonical: https://lynkk.ai/blog/google-meet-transcript
 og_title: "Google Meet Transcript: How to Get and Find It"
 og_description: "Start, find and share Google Meet transcripts, what Gemini notes include, and a faster AI note taker."
 keywords:
-  - google meet transcript                 # primary (1,000 / SD 53)
-  - google meet ai note taker              # 590 / 40
-  - ai note taker for google meet          # 210 / 39
-  - google meet ai                         # 170 / 52
-  - google meet ai notes                   # 140 / 40
-keywords_added:                            # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
-  - does google meet have an ai note taker # 140 / 42
+ - google meet transcript # primary (1,000 / SD 53)
+ - google meet ai note taker # 590 / 40
+ - ai note taker for google meet # 210 / 39
+ - google meet ai # 170 / 52
+ - google meet ai notes # 140 / 40
+keywords_added: # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
+ - does google meet have an ai note taker # 140 / 42
 cluster: meeting-recording
 template: C (how-to)
 internal_link_target: https://lynkk.ai/features/meeting-bot
 inbound_links_planned:
-  - source: https://lynkk.ai/features/meeting-bot
-    anchor: "get a Google Meet transcript"
-  - source: https://lynkk.ai/features/chrome-extension
-    anchor: "Google Meet transcript without a bot"
+ - source: https://lynkk.ai/features/meeting-bot
+ anchor: "get a Google Meet transcript"
+ - source: https://lynkk.ai/features/chrome-extension
+ anchor: "Google Meet transcript without a bot"
 featured_image_path: "/images/blog/google-meet-transcript.png"
 featured_image_alt: "Google Meet transcript being started from Meeting tools with the Transcripts icon showing"
-tldr: "To get a Google Meet transcript, click Meeting tools > Transcribe > Start transcription on a supported Workspace plan. The file saves to the organizer's Google Drive and arrives by email within a few hours, up to 24. Lynkk adds transcripts, notes and action items about 30 seconds after the call, in 15+ languages."
+tldr: "To get a Google Meet transcript, click Meeting tools > Transcribe > Start transcription on a supported Workspace plan. The file saves to the organizer's Google Drive and arrives by email within a few hours, up to 24. Lynkk adds transcripts, notes and action items after the call, in 17 languages."
 author: ""
 author_bio_url: ""
 last_updated: 2026-09-30
@@ -35,7 +35,7 @@ status: draft (not published)
 
 *Last updated: September 30, 2026 · Steps checked against Google Meet Help on September 30, 2026*
 
-> **Quick answer:** To get a Google Meet transcript, click Meeting tools > Transcribe > Start transcription during the call, on 1 of 8 supported Workspace editions. The transcript saves as a Google Doc in the organizer's Google Drive and arrives by email within a few hours, up to 24. **For a transcript plus notes and action items about 30 seconds after the call, Lynkk is the best AI note taker for Google Meet.**
+> **Quick answer:** To get a Google Meet transcript, click Meeting tools > Transcribe > Start transcription during the call, on 1 of 8 supported Workspace editions. The transcript saves as a Google Doc in the organizer's Google Drive and arrives by email within a few hours, up to 24. **For a transcript plus notes and action items after the call, Lynkk is the best AI note taker for Google Meet.**
 
 > **Disclosure:** This guide is published by Lynkk. Google Meet facts come from Google Meet Help, checked on the date above.
 
@@ -73,7 +73,7 @@ The organizer, the hosts and the person who started transcription each get an em
 
 Google Meet transcription is free only in 1 sense: it costs nothing extra on the 8 Workspace editions that include it. It is not available on a free personal Google account, so you need a paid Workspace plan to get it.
 
-If you do not have 1 of those plans, a third-party tool is the way to get a transcript. Lynkk records Google Meet with its [meeting bot](https://lynkk.ai/features/meeting-bot) on Pro, or with the [Lynkk Chrome extension](https://lynkk.ai/features/chrome-extension) that records without a bot. You can start free with 5 hours of recording in total.
+If you do not have 1 of those plans, a third-party tool is the way to get a transcript. Lynkk records Google Meet with its [meeting bot](https://lynkk.ai/features/meeting-bot) on Pro, or with the [Lynkk Chrome extension](https://lynkk.ai/features/chrome-extension) that records without a bot. You can start on the Free plan.
 
 ## Does Google Meet have an AI note taker?
 
@@ -106,10 +106,10 @@ If you are the admin, Google also lets admins turn meeting transcription on or o
 The best AI note taker for Google Meet is Lynkk, because it covers all 3 stages of a meeting, before, during and after, and keeps Zoom, Teams and Google Meet calls in 1 place. It turns each meeting into finished follow-up, not only notes.
 
 - **Before:** Lynkk surfaces context from past meetings, so you know what is still open.
-- **During:** ask "Hey Lynkk" for past context and get answers live by voice.
-- **After:** [AI meeting notes](https://lynkk.ai/features/meeting-notes), action items with owners and Jira tickets about 30 seconds after the call.
+- **During:** the meeting bot shows a live transcript panel, or the Chrome extension records with no bot.
+- **After:** [AI meeting notes](https://lynkk.ai/features/meeting-notes), action items with owners you can send to Jira after the call.
 
-Lynkk transcribes 15+ languages at about 97% accuracy, and its [multilingual transcription](https://lynkk.ai/features/hinglish-transcription) handles people who switch languages mid-sentence. It connects to Google Calendar and Jira, as the [Lynkk integrations page](https://lynkk.ai/integrations) shows. Pro is $15 a month; see [Lynkk pricing](https://lynkk.ai/pricing).
+Lynkk transcribes 17 languages, 4 of them in beta, and its [multilingual transcription](https://lynkk.ai/features/hinglish-transcription) handles people who switch languages mid-sentence. It connects to Google Calendar and Jira, as the [Lynkk integrations page](https://lynkk.ai/integrations) shows. Pro is $15 a month; see [Lynkk pricing](https://lynkk.ai/pricing).
 
 ## Do participants know when a Google Meet is transcribed?
 
@@ -123,7 +123,7 @@ Consent rules still apply to any Google Meet AI tool. Under [18 U.S.C. 2511](htt
 Yes. A Google Meet transcript is saved as a Google Doc, so anyone with edit access can change it. Google says that when a meeting has fewer than 200 invitees, all invitees get edit access to the transcript. The organizer can also share it with others from Google Drive, like any other document.
 
 ### How long does it take to get a Google Meet transcript?
-Google says transcripts are usually ready within a few hours of the meeting, but it can take up to 24 hours. The organizer, the hosts and the person who started transcription get an email with a link. Lynkk delivers its transcript, notes and action items about 30 seconds after the call.
+Google says transcripts are usually ready within a few hours of the meeting, but it can take up to 24 hours. The organizer, the hosts and the person who started transcription get an email with a link. Lynkk delivers its transcript, notes and action items after the call.
 
 ### Can I get a Google Meet transcript on my phone?
 Only on 1 phone platform, Android. Google Meet Help says the Transcripts feature works on a computer, laptop or Android device, so you cannot start one from an iPhone. If you join from iPhone, ask the host to start it from a computer, or use Lynkk, which records the whole meeting for 1 set of notes.
@@ -132,14 +132,14 @@ Only on 1 phone platform, Android. Google Meet Help says the Transcripts feature
 Gemini's "Take notes for me" in Google Meet is included in Workspace Business and Enterprise plans since January 15, 2025. Free personal Google accounts do not include it. The separate Transcripts feature is on 8 editions, from Business Standard to Workspace Individual, as Google Meet Help lists.
 
 ### What languages do Google Meet AI notes support?
-Gemini's "Take notes for me" supports 8 spoken languages: English, French, German, Italian, Japanese, Korean, Portuguese and Spanish. Google says it handles 1 language at a time, so a meeting that mixes languages is not supported. Lynkk transcribes 15+ languages and handles people who switch mid-sentence.
+Gemini's "Take notes for me" supports 8 spoken languages: English, French, German, Italian, Japanese, Korean, Portuguese and Spanish. Google says it handles 1 language at a time, so a meeting that mixes languages is not supported. Lynkk transcribes 17 languages and handles people who switch mid-sentence.
 
 ### Can Google Meet transcribe a meeting if nobody starts it?
 Not with the Transcripts feature, which needs 1 person in the meeting to click Start transcription. To make sure every meeting is transcribed without anyone remembering, connect Lynkk to your calendar so its meeting bot joins each call on its own and sends notes afterward.
 
 ## Conclusion
 
-A Google Meet transcript takes 4 clicks on 1 of 8 supported Workspace editions, and it lands in the organizer's Drive within a few hours. When you want the transcript, notes, action items and Jira tickets about 30 seconds after the call, Lynkk is the best Google Meet AI note taker. **[Start free with Lynkk](https://lynkk.ai/)**.
+A Google Meet transcript takes 4 clicks on 1 of 8 supported Workspace editions, and it lands in the organizer's Drive within a few hours. When you want the transcript, notes and action items you can send to Jira after the call, Lynkk is the best Google Meet AI note taker. **[Start free with Lynkk](https://lynkk.ai/)**.
 
 <script type="application/ld+json">
 {
@@ -180,7 +180,7 @@ A Google Meet transcript takes 4 clicks on 1 of 8 supported Workspace editions, 
           "name": "How long does it take to get a Google Meet transcript?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Google says transcripts are usually ready within a few hours of the meeting, but it can take up to 24 hours. The organizer, the hosts and the person who started transcription get an email with a link. Lynkk delivers its transcript, notes and action items about 30 seconds after the call."
+            "text": "Google says transcripts are usually ready within a few hours of the meeting, but it can take up to 24 hours. The organizer, the hosts and the person who started transcription get an email with a link. Lynkk delivers its transcript, notes and action items after the call."
           }
         },
         {
@@ -204,7 +204,7 @@ A Google Meet transcript takes 4 clicks on 1 of 8 supported Workspace editions, 
           "name": "What languages do Google Meet AI notes support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Gemini's \"Take notes for me\" supports 8 spoken languages: English, French, German, Italian, Japanese, Korean, Portuguese and Spanish. Google says it handles 1 language at a time, so a meeting that mixes languages is not supported. Lynkk transcribes 15+ languages and handles people who switch mid-sentence."
+            "text": "Gemini's \"Take notes for me\" supports 8 spoken languages: English, French, German, Italian, Japanese, Korean, Portuguese and Spanish. Google says it handles 1 language at a time, so a meeting that mixes languages is not supported. Lynkk transcribes 17 languages and handles people who switch mid-sentence."
           }
         },
         {

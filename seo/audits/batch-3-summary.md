@@ -18,3 +18,6 @@ opm.gov (performance check-ins), uscode.house.gov (28 U.S.C. 753 and 18 U.S.C. 2
 
 ## Script change
 `scripts/audit_article.py` now treats hyphens as spaces in the meta-description and first-100-words keyword checks too (it already did for density and H2s), so "one-on-one meeting" matches the keyword "one on one meeting".
+
+## Update 2026-10-01: product facts aligned with TRUTHS.md
+All articles were corrected to match `lynkk-post-kit/docs/TRUTHS.md`: no CRM, no regions, no voice answers during calls, no speed or accuracy claims, 17 languages, free meeting bot (audio only), Jira send is manual from the note, no AES-256/GDPR claims, no plan hours. `scripts/truths_check.py` now runs with the audit. Any open item above that refers to CRMs, regions or free-plan hours is closed.

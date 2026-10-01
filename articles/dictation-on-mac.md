@@ -7,27 +7,27 @@ canonical: https://lynkk.ai/blog/dictation-on-mac
 og_title: "Dictation on Mac: How to Use It and Fix It"
 og_description: "Turn on Mac dictation, use the shortcut, fix common problems and see when a dictation app does more."
 keywords:
-  - dictation on mac                     # primary (1,600 / SD 29)
-  - speech to text mac                   # 1,600 / 25
-  - how to do dictation on mac           # 1,000 / 42
-  - how do you use dictation on mac      # 720 / 35
-  - how to use dictation on mac          # 590 / 32
-keywords_added:                          # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
-  - voice dictation software for mac     # 590 / 28
-  - dictation mac not working            # 480 / 12
-  - dictation mac shortcut               # 480 / 24
-  - enable dictation mac                 # 260 / 23
+ - dictation on mac # primary (1,600 / SD 29)
+ - speech to text mac # 1,600 / 25
+ - how to do dictation on mac # 1,000 / 42
+ - how do you use dictation on mac # 720 / 35
+ - how to use dictation on mac # 590 / 32
+keywords_added: # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
+ - voice dictation software for mac # 590 / 28
+ - dictation mac not working # 480 / 12
+ - dictation mac shortcut # 480 / 24
+ - enable dictation mac # 260 / 23
 cluster: dictation
 template: C (how-to)
 internal_link_target: https://lynkk.ai/features/dictation
 inbound_links_planned:
-  - source: https://lynkk.ai/features/dictation
-    anchor: "how to use dictation on Mac"
-  - source: https://lynkk.ai/download
-    anchor: "fix dictation on Mac when it stops working"
+ - source: https://lynkk.ai/features/dictation
+ anchor: "how to use dictation on Mac"
+ - source: https://lynkk.ai/download
+ anchor: "fix dictation on Mac when it stops working"
 featured_image_path: "/images/blog/dictation-on-mac.png"
 featured_image_alt: "Dictation on Mac settings with the Fn key shortcut and microphone selected"
-tldr: "To use dictation on Mac, turn it on in System Settings > Keyboard, click where you want text and press Fn twice. If it stops working, check the setting, language, microphone and input volume. Lynkk adds push-to-talk dictation anywhere on your Mac plus meeting transcripts in 15+ languages."
+tldr: "To use dictation on Mac, turn it on in System Settings > Keyboard, click where you want text and press Fn twice. If it stops working, check the setting, language, microphone and input volume. Lynkk adds push-to-talk dictation anywhere on your Mac plus meeting transcripts in 17 languages."
 author: ""
 author_bio_url: ""
 last_updated: 2026-09-30
@@ -52,7 +52,7 @@ It is built for short, live typing. It does not record audio for later, save a s
 |---|---|---|
 | Price | $0, built in | Start free; Pro $15 a month |
 | Types at your cursor | Yes | Yes, with push-to-talk |
-| Records meetings | No | Yes, with notes in about 30 seconds |
+| Records meetings | No | Yes, with notes after the call |
 | Languages | Set 1 at a time in settings | 15+, including mid-sentence switching |
 
 ## How do you turn on dictation on Mac?
@@ -117,16 +117,16 @@ For most professionals, the best speech to text Mac upgrade is Lynkk, because 1 
 The [Lynkk Mac app](https://lynkk.ai/download) adds 3 things:
 
 - **Push-to-talk dictation anywhere:** hold the key, speak, and [Lynkk dictation](https://lynkk.ai/features/dictation) types at your cursor in any app.
-- **Meeting capture:** it detects active calls, records both audio channels and delivers [AI meeting notes](https://lynkk.ai/features/meeting-notes) with action items about 30 seconds after the call.
-- **Many languages:** 15+ languages at about 97% accuracy, with [multilingual transcription](https://lynkk.ai/features/hinglish-transcription) for people who switch languages mid-sentence.
+- **Meeting capture:** it detects active calls, records both audio channels and delivers [AI meeting notes](https://lynkk.ai/features/meeting-notes) with action items after the call.
+- **Many languages:** 17 languages, 4 of them in beta, with [multilingual transcription](https://lynkk.ai/features/hinglish-transcription) for people who switch languages mid-sentence.
 
-You can start free with 5 hours of recording in total, and Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing).
+You can start on the Free plan, and Pro is $15 a month. See [Lynkk pricing](https://lynkk.ai/pricing).
 
 ## Why does dictation matter for accessibility and privacy?
 
 Voice input matters to people who cannot type easily, and 1 web standard, WCAG, accounts for it directly. The [W3C guidance on Label in Name](https://www.w3.org/WAI/WCAG21/Understanding/label-in-name) explains how speech input users control apps by saying the words they see on screen.
 
-Your voice can also carry personal details, such as client names or health information. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide for managing that kind of data. Lynkk encrypts data with AES-256, supports GDPR and never trains on your conversations, as the [Lynkk security page](https://lynkk.ai/security) explains.
+Your voice can also carry personal details, such as client names or health information. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a free guide for managing that kind of data. Lynkk keeps recordings private to your account and never trains on your conversations, as the [Lynkk security page](https://lynkk.ai/security) explains.
 
 ## FAQ
 
@@ -146,7 +146,7 @@ Yes. Open System Settings, click Keyboard, and find the Shortcut pop-up menu in 
 Sometimes. Apple's troubleshooting page says you may need an internet connection for dictation to work, so connection is 1 of the 6 checks when it fails. If dictation stops on a weak network, reconnect and try again, or test in Notes to rule out the app you were using.
 
 ### What is the best voice dictation software for Mac?
-Apple Dictation is enough for quick messages and costs $0. For professionals who dictate all day and also sit in meetings, Lynkk is the best voice dictation software for Mac: push-to-talk typing in any app, plus meeting transcripts, notes and action items in 15+ languages, all in 1 app.
+Apple Dictation is enough for quick messages and costs $0. For professionals who dictate all day and also sit in meetings, Lynkk is the best voice dictation software for Mac: push-to-talk typing in any app, plus meeting transcripts, notes and action items in 17 languages, all in 1 app.
 
 ## Conclusion
 
@@ -223,7 +223,7 @@ Dictation on Mac is free, fast to turn on and fine for short messages, and 6 qui
           "name": "What is the best voice dictation software for Mac?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Apple Dictation is enough for quick messages and costs $0. For professionals who dictate all day and also sit in meetings, Lynkk is the best voice dictation software for Mac: push-to-talk typing in any app, plus meeting transcripts, notes and action items in 15+ languages, all in 1 app."
+            "text": "Apple Dictation is enough for quick messages and costs $0. For professionals who dictate all day and also sit in meetings, Lynkk is the best voice dictation software for Mac: push-to-talk typing in any app, plus meeting transcripts, notes and action items in 17 languages, all in 1 app."
           }
         }
       ]

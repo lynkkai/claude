@@ -1,33 +1,33 @@
 ---
 title: "How Engineering Teams Run a Faster Daily Standup Meeting in Scrum With AI Notes"
 meta_title: "Standup Meeting Guide: Agenda, Template and AI Notes | Lynkk"
-meta_description: "What a standup meeting is, how long it should last, what to say, a standup meeting template, and how AI notes turn blockers into Jira tickets automatically."
+meta_description: "What a standup meeting is, how long it should last, what to say, a standup meeting template, and how AI notes help you send blockers to Jira in 1 step."
 slug: daily-standup-meeting
 canonical: https://lynkk.ai/blog/daily-standup-meeting
 og_title: "Standup Meeting Guide: Agenda, Template and AI Notes"
 og_description: "Run a 15-minute standup, use a simple template and let AI notes turn blockers into tickets."
 keywords:
-  - standup meeting                          # primary (2,400 / SD 19); map listed "standup meeting scrum" (2,400 / 47), kept as secondary to avoid stuffing an unnatural phrase
-  - standup meeting scrum                    # 2,400 / 47
-  - daily standup meeting in scrum           # 1,900 / 49
-  - daily standup meeting                    # 1,600 / 43
-  - what is a standup meeting                # 1,000 / 42
-keywords_added:                              # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
-  - standup meeting agenda                   # 480 / 31
-  - standup meeting template                 # 390 / 28
-  - scrum standup meeting questions          # 110 / 30
-  - daily standup meeting notes              # 70 / 23
+ - standup meeting # primary (2,400 / SD 19); map listed "standup meeting scrum" (2,400 / 47), kept as secondary to avoid stuffing an unnatural phrase
+ - standup meeting scrum # 2,400 / 47
+ - daily standup meeting in scrum # 1,900 / 49
+ - daily standup meeting # 1,600 / 43
+ - what is a standup meeting # 1,000 / 42
+keywords_added: # keyword expansion bypass (Ubersuggest US, pulled 2026-09-30; daily limit reached for new lookups)
+ - standup meeting agenda # 480 / 31
+ - standup meeting template # 390 / 28
+ - scrum standup meeting questions # 110 / 30
+ - daily standup meeting notes # 70 / 23
 cluster: use-cases
 template: D (use case)
 internal_link_target: https://lynkk.ai/use-cases/team-standups
 inbound_links_planned:
-  - source: https://lynkk.ai/use-cases/team-standups
-    anchor: "how to run a daily standup meeting"
-  - source: https://lynkk.ai/features/action-items
-    anchor: "standup meeting template"
+ - source: https://lynkk.ai/use-cases/team-standups
+ anchor: "how to run a daily standup meeting"
+ - source: https://lynkk.ai/features/action-items
+ anchor: "standup meeting template"
 featured_image_path: "/images/blog/daily-standup-meeting.png"
-featured_image_alt: "Daily standup meeting notes with blockers turned into Jira tickets"
-tldr: "A standup meeting is a short daily check-in where a team shares progress toward its goal and raises blockers. In Scrum it is the Daily Scrum, a 15-minute event. Lynkk writes the standup notes, assigns owners and turns blockers into Jira tickets about 30 seconds after the meeting."
+featured_image_alt: "Daily standup meeting notes with blockers sent to Jira"
+tldr: "A standup meeting is a short daily check-in where a team shares progress toward its goal and raises blockers. In Scrum it is the Daily Scrum, a 15-minute event. Lynkk writes the standup notes, assigns owners and lets you send blockers to Jira after the meeting."
 author: ""
 author_bio_url: ""
 last_updated: 2026-09-30
@@ -38,7 +38,7 @@ status: draft (not published)
 
 *Last updated: September 30, 2026*
 
-> **Quick answer:** A standup meeting is a short daily check-in where a team shares progress, plans the next 24 hours and raises blockers. In Scrum it is called the Daily Scrum and lasts 15 minutes. **Lynkk is the best way to keep standups short**: it writes the daily standup meeting notes, assigns owners and turns blockers into Jira tickets about 30 seconds after the meeting ends.
+> **Quick answer:** A standup meeting is a short daily check-in where a team shares progress, plans the next 24 hours and raises blockers. In Scrum it is called the Daily Scrum and lasts 15 minutes. **Lynkk is the best way to keep standups short**: it writes the daily standup meeting notes, assigns owners and lets you send blockers to Jira after the meeting ends.
 
 > **Disclosure:** This guide is published by Lynkk. Scrum facts come from the 2020 Scrum Guide. The notes below are an illustrative example.
 
@@ -101,7 +101,7 @@ Engineering teams use Lynkk to take note-taking out of the standup, so the 15 mi
 
 | Step | Manual way | With Lynkk |
 |---|---|---|
-| Notes | 1 person types while listening | Written about 30 seconds after |
+| Notes | 1 person types while listening | Written after |
 | Blockers | Remembered, or not | Listed with owners |
 | Jira | Tickets created later by hand | Created from action items |
 | Catch-up | Ask a teammate | Ask the meeting history |
@@ -115,7 +115,7 @@ The workflow takes 4 steps:
 
 Over a 2-week sprint, that adds up to 10 sets of notes and a clear trail of every blocker, who owned it and when it was cleared. Sprint reviews and retrospectives start from facts instead of memory, and a new teammate can read back through the sprint in minutes.
 
-Lynkk transcribes 15+ languages at about 97% accuracy, which helps distributed teams whose members switch languages between topics. It works the same for hybrid standups, capturing people in the room and people on the call.
+Lynkk transcribes 17 languages, 4 of them in beta, which helps distributed teams whose members switch languages between topics. It works the same for hybrid standups, capturing people in the room and people on the call.
 
 ## What should a standup meeting template include?
 
@@ -124,7 +124,7 @@ A standup meeting template needs 5 fields, and Lynkk fills most of them from the
 > **Date and sprint:** Sprint 14, day 6. Goal: ship search filters.
 > **Done:** Filter API merged (Sam). Design review closed (Ana).
 > **Today:** Filter UI (Sam). Export estimate (Lee).
-> **Blockers:** Staging database is down; needs platform team (owner: Lee, Jira ticket created).
+> **Blockers:** Staging database is down; needs platform team (owner: Lee, sent to Jira).
 > **Follow-ups:** Lee and platform lead, 10 minutes after standup.
 
 Anyone who missed the standup can read this in 1 minute, or [ask your meetings](https://lynkk.ai/features/knowledge-graph) a question like "What blocked the filter work this week?" and get a cited answer.
@@ -141,14 +141,14 @@ A standup works best with a small team. The 2020 Scrum Guide says a Scrum Team i
 Standups are worth it when a team works toward a shared goal and needs to adjust daily. They cost 15 minutes and can save days of blocked work. If updates are routine, try async written check-ins on some days, and keep 1 place, such as Lynkk, where blockers and owners are tracked.
 
 ### Should you record standups?
-Recording helps teammates who miss the standup and makes blockers easy to track. Get consent first: under 18 U.S.C. 2511, federal law generally needs at least 1 party to agree, and some states require everyone. Lynkk records the standup, writes notes and turns blockers into Jira tickets about 30 seconds later.
+Recording helps teammates who miss the standup and makes blockers easy to track. Get consent first: under 18 U.S.C. 2511, federal law generally needs at least 1 party to agree, and some states require everyone. Lynkk records the standup, writes notes and lets you send each blocker to Jira as 1 issue.
 
 ### What is the difference between a standup and a status meeting?
 A standup is 15 minutes for the team to coordinate its own work, while a status meeting reports progress to someone else, often a manager. Standups focus on blockers and the next 24 hours. Status meetings tend to run longer and look backward, which is why teams keep the 2 separate.
 
 ## Conclusion
 
-A standup works when it stays under 15 minutes and blockers turn into action the same day. Lynkk makes that automatic: it writes the notes, names the owners and creates Jira tickets about 30 seconds after the standup ends. Record with consent, as [18 U.S.C. 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511) sets the federal baseline, and Lynkk encrypts data with AES-256 as defined in [NIST FIPS 197](https://csrc.nist.gov/pubs/fips/197/final). **[Start free with Lynkk](https://lynkk.ai/)**.
+A standup works when it stays under 15 minutes and blockers turn into action the same day. Lynkk makes that automatic: it writes the notes, names the owners and lets you send tasks to Jira after the standup ends. Record with consent, as [18 U.S.C. 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511) sets the federal baseline, and Lynkk keeps recordings private to your account and as defined in [NIST FIPS 197](https://csrc.nist.gov/pubs/fips/197/final). **[Start free with Lynkk](https://lynkk.ai/)**.
 
 <script type="application/ld+json">
 {
@@ -157,7 +157,7 @@ A standup works when it stays under 15 minutes and blockers turn into action the
     {
       "@type": "Article",
       "headline": "How Engineering Teams Run a Faster Daily Standup Meeting in Scrum With AI Notes",
-      "description": "What a standup meeting is, how long it should last, what to say, a standup meeting template, and how AI notes turn blockers into Jira tickets automatically.",
+      "description": "What a standup meeting is, how long it should last, what to say, a standup meeting template, and how AI notes help you send blockers to Jira in 1 step.",
       "inLanguage": "en-US",
       "datePublished": "2026-09-30",
       "dateModified": "2026-09-30",
@@ -205,7 +205,7 @@ A standup works when it stays under 15 minutes and blockers turn into action the
           "name": "Should you record standups?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Recording helps teammates who miss the standup and makes blockers easy to track. Get consent first: under 18 U.S.C. 2511, federal law generally needs at least 1 party to agree, and some states require everyone. Lynkk records the standup, writes notes and turns blockers into Jira tickets about 30 seconds later."
+            "text": "Recording helps teammates who miss the standup and makes blockers easy to track. Get consent first: under 18 U.S.C. 2511, federal law generally needs at least 1 party to agree, and some states require everyone. Lynkk records the standup, writes notes and lets you send each blocker to Jira as 1 issue."
           }
         },
         {
