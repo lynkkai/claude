@@ -86,7 +86,91 @@ Lynkk is the AI-powered meeting assistant that preps you before calls, answers l
 
 ---
 
+## 4A. Final keyword set: no overlap with the homepage (round 4, latest)
+
+**Decision:** the homepage keeps the broad "AI meeting notes / AI note taker / AI note taking
+app / meeting notes / meeting assistant" terms. The meeting notes page moves to what it does:
+**record any conversation, transcribe it, and turn it into notes, minutes and action items.**
+That gives it a keyword space the homepage does not use: transcription, record-and-transcribe,
+and meeting minutes.
+
+Filter used: volume 1,000+ and SD under 50 (US, Ubersuggest).
+
+### Primary keywords for /features/meeting-notes
+| # | Keyword | Volume | SD | Who ranks today (US) | Fit |
+|---|---|---|---|---|---|
+| 1 | **voice recorder with transcription** | 22,200 | 32 | Amazon (devices) #2, Reddit #3, Evernote audio-to-text #4, Google Play app #5, Plaud device #8, descript.com tool #9, weloty.com (DA 26) #7 | Lynkk records in-person and online conversations and transcribes them. Mixed results page (devices and apps); target the app side. |
+| 2 | **transcription app** | 3,600 | 38 | No results-page data | Direct fit. Lynkk's "unlimited free recording and transcription" is the hook. |
+| 3 | **ai transcriber** | 1,900 | 40 | turboscribe.ai (DA 43) #2, **videotranscriber.ai (DA 20) #4, audiotranscriber.io (DA 16) #8, transcribe.ai (DA 8) #9** | Weakest results page found. Several tiny sites in the top 10. |
+| 4 | **record and transcribe** | 1,600 | 47 | App Store app #2, bluedothq.com blog (DA 34) #4, **teamrelated.com (DA 12) #8**, organizingcreativity.com (DA 33) #9 | Describes the product exactly. Weak results page. |
+| 5 | **ai meeting minutes** | 1,600 | 49 | App Store apps, fellow.ai templates, **tinrec.com (DA 12) #5 and #10** | Minutes are an output of this page, not a homepage topic. |
+| 6 | **software for meeting minutes** | 1,600 | 47 | No results-page data | $31 CPC = buyers. |
+
+### Secondary keywords (1,000+, SD under 50)
+| Keyword | Volume | SD | Note |
+|---|---|---|---|
+| transcription app free | 1,000 | 42 | Use near the free CTA. |
+| auto transcription software | 1,000 | 45 | Body copy. |
+| free transcription app | 880 | 39 | Just under 1k, same intent as above. |
+| recording and transcription app | 720 | 31 | Just under 1k, exact product description. |
+| meeting minutes app / meeting minutes software | 880 each | 36 / 42 | Minutes section. |
+
+### Only if Lynkk accepts uploaded audio files
+These are "upload a file and get text" searches. Use them only if users can upload a recording.
+| Keyword | Volume | SD |
+|---|---|---|
+| transcribe audio to text | 22,200 | 46 |
+| transcribe audio to text free | 9,900 | 40 |
+| free transcribe audio to text | 3,600 | 45 |
+| ai transcription | 5,400 | 50 |
+
+### Checked and rejected (1,000+ but wrong fit)
+| Keyword | Volume | SD | Why not |
+|---|---|---|---|
+| ai voice recorder | 6,600 | 49 | Mostly hardware (Plaud, Soundcore). |
+| wearable ai voice recorder | 1,600 | 34 | Hardware. |
+| transcription software | 3,600 | 61 | SD too high. |
+| ai transcription software | 5,400 | 53 | SD over 50; revisit later. |
+| meeting transcription | 480 | 62 | Low volume and hard. |
+| how to transcribe audio to text | 2,900 | 37 | How-to: good blog post, not a product page. |
+| otter ai alternative | 480 | 34 | Low volume; comparison page later. |
+
+**Combined primary + secondary volume: about 38,000 searches/month (US)**, all at SD under 50,
+none of it overlapping the homepage.
+
+### New title, meta description and H1 for this page
+Title (57 chars):
+```
+Record & Transcribe Meetings Into Notes & Minutes | Lynkk
+```
+Alternate title (53 chars):
+```
+AI Transcription App: Meeting Notes & Minutes | Lynkk
+```
+Meta description (153 chars):
+```
+Record any conversation and Lynkk transcribes it with 97% accuracy in 15+ languages, then writes notes, minutes and action items. Free transcription app.
+```
+H1:
+```
+Record, transcribe and turn every conversation into notes and minutes
+```
+
+Suggested sections: (1) Record online or in person [voice recorder with transcription, record
+and transcribe]; (2) AI transcription in 15+ languages, 97% accurate [ai transcriber, transcription
+app]; (3) Notes and summaries in 30 seconds; (4) AI meeting minutes [ai meeting minutes, software
+for meeting minutes]; (5) Action items to Jira and CRM; (6) Free and unlimited [transcription app
+free]; (7) FAQ.
+
+Confirm the 97% / 15+ languages / unlimited free claims before publishing. If a separate
+transcription page is planned later, the transcription keywords should move there.
+
+---
+
 ## 4. Keyword set for the meeting notes page (owned by this page only)
+
+> Superseded by section 4A for the primary targets. The keywords below are still useful in
+> body copy, but section 4A decides what goes in the title, H1 and URL.
 
 **Rule:** every keyword below belongs to /features/meeting-notes and nowhere else. Other
 Lynkk pages can mention these words in passing, but never in their title, H1, URL or meta
