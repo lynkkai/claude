@@ -86,6 +86,82 @@ Lynkk is the AI-powered meeting assistant that preps you before calls, answers l
 
 ---
 
+## 4C. How competitors perform on the section 4B keywords (Google US results, Ubersuggest)
+
+### Who ranks for each keyword (top 15)
+| Keyword (volume / SD) | AI note-taker competitors ranking | Everyone else in the top 10 |
+|---|---|---|
+| **ai note taker** (27,100 / 48) | **note1.ai /features/ai-note-taker (DA 6) #8**. otter, fireflies, read.ai, krisp: **not in the top 13** | Google Play app #2, plaud.ai blog #3, App Store #5, speakwiseapp.com blog (DA 34) #6, Reddit #7, fieldy.ai blog (DA 20) #9, Microsoft Store #10 |
+| **meeting notes template** (22,200 / 49) | notion.com template #3, **noota.io template page (DA 36) #10**, meetgeek.ai blog #14 | Pinterest #4, notability #5, talaera.com (DA 37) #6, themuse #7, Etsy #9 |
+| **ai note taking app** (4,400 / 26) | read.ai homepage #8, zoom.com feature page #11 | towardsai blog #2, Reddit #3, Google Play #5, App Store #6, Medium #7, metaview.ai (DA 37) #9, laxis.com (DA 43) #10, polarnotesai.com (DA 6) #13 |
+| **ai meeting note taker** (3,600 / 44) | otter homepage #5, read.ai homepage #7, **krisp /ai-note-taker/ #8**, tldv blog #9, zoom feature page #10 | simular.ai listicle (DA 24) #2, Medium #3, Reddit #4, zapier #11 |
+| **ai powered note taking tools** (1,600 / 49) | read.ai #5, **krisp /ai-note-taker/ #8**, notta.ai #9 | Reddit #2, Medium #3, zapier #6, pcmag #7, microsoft.com #10, laxis.com #11 |
+| **ai meeting minutes** (1,600 / 49) | fellow.ai board-meeting templates #4, granola (App Store) #6, meetjamie.ai blog #8 | App Store app #2, **tinrec.com (DA 12) #5 and #10**, meetingnotes.com (DA 38) #7 |
+| **ai meeting notes** (1,000 / 41) | notion /product/ai-meeting-notes #2, read.ai #3, otter #4, **meeting.ai (DA 21) #8**, tldv blog #13 | Reddit #6, App Store #7, charitydigital #9, perfectwikiforteams (DA 17) #10 |
+| **team ai meeting notes** (720 / 25) | grain.com blog #5, happyscribe blog #6, **craftnote.com compare page (DA 7) #10** | Chrome Web Store #2, Reddit #3, zapier #7, mem.ai #9 |
+| **meeting summary** (390 / 35) | read.ai #4, **summary.ai (DA 23) #5**, krisp /ai-meeting-summary/ #8, otter blog #10, tactiq #12 | zoom support #2, Indeed #7, Microsoft support #9 |
+| **meeting recap** (390 / 26) | **noota.io recap templates (DA 36) #5**, otter blog #6, fellow blog #13, recordmeeting.com (DA 9) #14 | Microsoft support #4 and #7, Indeed #8, hive.com #11 |
+| **action item tracker** (320 / 31) | read.ai article #3 (only note-taker in top 10) | vertex42 #2, smartsheet #4, Reddit, projectmanager.com, monday.com |
+| software for meeting minutes, notes summarizer, summarize meeting | No results-page data in Ubersuggest | |
+
+### Competitor scoreboard across these keywords
+| Competitor | Keywords where it's in the top 15 | Page doing the ranking |
+|---|---|---|
+| read.ai (DA 47) | 6 of 11 | Homepage (stacks keywords in the title) + one article |
+| krisp.ai (DA 60) | 3 | /ai-note-taker/ and /ai-meeting-summary/ feature pages |
+| otter.ai (DA 66) | 4 | Homepage + blog guides (recap, summary) |
+| noota.io (DA 36) | 2 | Template pages (notes template, recap templates) |
+| notion.com (DA 65) | 2 | /product/ai-meeting-notes + a template page |
+| zoom.com (DA 88) | 2 | AI note-taking feature page |
+| fellow.ai (DA 46) | 2 | Template gallery + blog |
+| tldv.io (DA 44) | 2 | Blog listicles only |
+| **note1.ai (DA 6)** | 1, but it's the 27,100 keyword | **/features/ai-note-taker** |
+| fireflies.ai, granola, fathom | 0 to 1 | Mostly absent (granola only via its App Store listing) |
+
+### The most useful example: note1.ai
+- Domain authority **6**, only **20 referring domains** (Lynkk has 1).
+- Ranking keywords grew from **2 (Oct 2025) to 241 (Sep 2026)**.
+- Its page **/features/ai-note-taker** ranks **#8 for "ai note taker" (27,100/mo)**, the biggest
+  keyword in the space, above otter, fireflies and read.ai.
+- Site structure: one page per feature, the same /features/ pattern Lynkk uses:
+  /features/ai-note-taker, /features/ai-meeting-summaries, /features/live-transcription,
+  /features/playback, /features/google-meet-ai-note-taker, /features/ai-note-taker-for-teams,
+  /features/google-calendar-meeting-notes, /integrations/slack, plus "X vs note1" and
+  "X alternatives" blog posts.
+- Page title: "AI Note Taker & Meeting Assistant | note1".
+
+### How the ranking pages use keywords (titles)
+| Page | Title pattern |
+|---|---|
+| krisp /ai-note-taker/ | `AI Note Taker \| Meeting Notes, Transcripts & Summaries` (primary + 3 features) |
+| note1 /features/ai-note-taker | `AI Note Taker & Meeting Assistant \| note1` |
+| summary.ai homepage | `Summary AI \| AI Note Taker, Transcription & Meeting Summaries` |
+| read.ai homepage | `Meeting Summaries, Transcripts, AI Notetaker & Enterprise ...` |
+| notion /product/ai-meeting-notes | `AI Meeting Notes` + short benefit line |
+| krisp /ai-meeting-summary/ | `AI Meeting Summaries That Actually Capture What Matters` |
+| noota template pages | `Team Meeting Minutes Template`, `Meeting Recaps: Tips & Templates...` |
+
+### What this means for Lynkk
+1. **The big brands are not untouchable here.** For "ai note taker" the top 10 is app stores,
+   listicles and a DA 6 feature page. A focused /features page can get in.
+2. **Exact keyword first in the title, then 2-3 feature words.** Every ranking feature page does
+   this (krisp, note1, summary.ai). Recommended for Lynkk:
+   `AI Note Taker for Meeting Notes & Minutes | Lynkk` (49 chars), or krisp-style
+   `AI Note Taker | Meeting Notes, Summaries & Action Items | Lynkk` (63 chars, slightly long).
+3. **One page per feature wins long-tail.** note1 and krisp give summaries, transcription and each
+   integration their own page. Lynkk can start with sections on /features/meeting-notes and split
+   out /features/ai-meeting-summary later.
+4. **Template pages win the template, recap and minutes keywords** (noota, notion, fellow). A
+   small /templates section (meeting notes, minutes, recap) is the route to the 22,200/mo
+   "meeting notes template" keyword.
+5. **Get listed where the results pages already point:** Mac App Store listing (App Store pages
+   rank for 5 of these keywords), and listicles that rank and accept submissions (simular.ai,
+   speakwiseapp.com, fieldy.ai, laxis.com, metaview.ai, perfectwikiforteams.com).
+6. **Comparison posts** ("Lynkk vs Otter", "Fireflies alternatives") are how note1 and tldv build
+   the links that lift their feature pages.
+
+---
+
 ## 4B. Feature keywords + how competitors split homepage vs. feature page (round 5, latest)
 
 > Section 4A (transcription / voice recorder keywords) was **rejected by the team**: Lynkk is
