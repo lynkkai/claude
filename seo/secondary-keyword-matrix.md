@@ -1,4 +1,4 @@
-# Secondary keyword matrix (cross-checked 2026-10-01)
+# Secondary keyword matrix
 
 Volume = US monthly searches, SD = Ubersuggest SEO difficulty (Low under 30, Medium 30-49, High 50+), pulled 2026-09-30. Uses = exact-phrase count in the article body (hyphens treated as spaces). In a heading = appears in the H1, an H2 or an H3.
 
@@ -14,7 +14,7 @@ Volume = US monthly searches, SD = Ubersuggest SEO difficulty (Low under 30, Med
 | 2 | best-free-ai-note-takers | is otter ai free | 880 | 63 | High | 1 | Yes |
 | 2 | best-free-ai-note-takers | free ai meeting notes taker | 480 | 68 | High | 2 | Yes |
 | 2 | best-free-ai-note-takers | otter ai free | 480 | 56 | High | 2 | Yes |
-| 3 | zoom-meeting-recorders | zoom record meeting | 2,900 | 42 | Medium | 1 | No |
+| 3 | zoom-meeting-recorders | zoom record meeting | 2,900 | 42 | Medium | 2 | No |
 | 3 | zoom-meeting-recorders | zoom meeting recorder software | 480 | 27 | Low | 3 | Yes |
 | 3 | zoom-meeting-recorders | zoom ai transcription | 390 | 25 | Low | 2 | No |
 | 4 | ai-note-taker-microsoft-teams | microsoft teams ai notes taker | 720 | 23 | Low | 1 | No |
@@ -22,7 +22,7 @@ Volume = US monthly searches, SD = Ubersuggest SEO difficulty (Low under 30, Med
 | 4 | ai-note-taker-microsoft-teams | teams ai meeting notes | 390 | 29 | Low | 2 | Yes |
 | 4 | ai-note-taker-microsoft-teams | can copilot take meeting notes | 390 | 30 | Medium | 1 | Yes |
 | 4 | ai-note-taker-microsoft-teams | microsoft teams ai | 260 | 49 | Medium | 5 | Yes |
-| 5 | transcribe-audio-to-text | transcribe audio to text free | 9,900 | 40 | Medium | 1 | No |
+| 5 | transcribe-audio-to-text | transcribe audio to text free | 9,900 | 40 | Medium | 2 | Yes |
 | 5 | transcribe-audio-to-text | how to transcribe audio to text | 2,900 | 37 | Medium | 2 | Yes |
 | 5 | transcribe-audio-to-text | voice recognition transcription software | 1,000 | 20 | Low | 4 | Yes |
 | 5 | transcribe-audio-to-text | ai transcription free | 1,000 | 31 | Medium | 1 | No |
@@ -38,8 +38,8 @@ Volume = US monthly searches, SD = Ubersuggest SEO difficulty (Low under 30, Med
 | 8 | voice-to-text-apps | speech to text app | 2,900 | 53 | High | 5 | Yes |
 | 8 | voice-to-text-apps | dictation software | 1,900 | 32 | Medium | 16 | Yes |
 | 8 | voice-to-text-apps | dictation software app | 1,900 | 31 | Medium | 1 | No |
-| 9 | ai-powered-meeting-assistants | ai meeting assistant | 4,400 | 60 | High | 24 | Yes |
-| 9 | ai-powered-meeting-assistants | meeting assistant ai | 3,600 | 66 | High | 1 | No |
+| 9 | ai-powered-meeting-assistants | ai meeting assistant | 4,400 | 60 | High | 23 | Yes |
+| 9 | ai-powered-meeting-assistants | meeting assistant ai | 3,600 | 66 | High | 2 | Yes |
 | 9 | ai-powered-meeting-assistants | meeting recorder | 1,900 | 32 | Medium | 5 | Yes |
 | 9 | ai-powered-meeting-assistants | ai meeting recorder | 480 | 37 | Medium | 4 | Yes |
 | 10 | zoom-ai-companion-alternatives | what is zoom ai companion | 480 | 41 | Medium | 1 | Yes |
@@ -99,7 +99,7 @@ Volume = US monthly searches, SD = Ubersuggest SEO difficulty (Low under 30, Med
 | 29 | medical-transcription-software | medical dictation software | 880 | 25 | Low | 2 | Yes |
 | 29 | medical-transcription-software | dragon dictation software medical | 720 | 24 | Low | 1 | No |
 | 29 | medical-transcription-software | hipaa compliant ai note taker | 260 | 31 | Medium | 2 | Yes |
-| 30 | meeting-minutes-sample | example meeting minutes | 4,400 | 42 | Medium | 1 | No |
-| 30 | meeting-minutes-sample | meeting minutes example | 3,600 | 36 | Medium | 1 | No |
+| 30 | meeting-minutes-sample | example meeting minutes | 4,400 | 42 | Medium | 2 | Yes |
+| 30 | meeting-minutes-sample | meeting minutes example | 3,600 | 36 | Medium | 2 | No |
 | 30 | meeting-minutes-sample | board meeting minutes sample | 2,400 | 15 | Low | 3 | Yes |
 | 30 | meeting-minutes-sample | sample of board meeting minutes | 1,900 | 36 | Medium | 1 | No |

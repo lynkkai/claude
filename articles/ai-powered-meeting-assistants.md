@@ -64,9 +64,9 @@ We compared 8 AI meeting assistants on what they do before, during and after a m
 
 An AI powered meeting assistant is software that uses AI to help with the whole meeting, not only the notes. It works at 3 stages: preparing you before the call, helping you live during it, and handling the follow-up after it.
 
-Most tools marketed as an AI meeting assistant still work at 1 stage only: after the call. They record, transcribe and summarize. A true meeting assistant AI also helps you walk in prepared and get answers while the conversation is still happening.
+Many tools sold as an AI meeting assistant focus on 1 stage: after the call. They record, transcribe and summarize. A true meeting assistant AI also helps you walk in prepared and get answers while the conversation is still happening.
 
-## How is an AI meeting assistant different from an AI note taker?
+## How is a meeting assistant AI different from an AI note taker?
 
 An AI meeting assistant does everything an AI note taker does, plus 2 more jobs: it prepares you before the meeting and helps you during it. An AI note taker only records and summarizes after the call.
 

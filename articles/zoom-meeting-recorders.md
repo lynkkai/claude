@@ -168,7 +168,7 @@ Read AI's free plan covers 5 meetings a month, and Pro starts at $15 per user pe
 
 ## What is the difference between Zoom local and cloud recording?
 
-Zoom offers 2 recording types, and they differ on cost, storage and transcripts. Local recording is free and saves a file to your computer; cloud recording needs a paid plan and saves to your Zoom account.
+Zoom offers 2 recording types, and both start from the same Zoom record meeting button. They differ on cost, storage and transcripts. Local recording is free and saves a file to your computer; cloud recording needs a paid plan and saves to your Zoom account.
 
 | Feature | Local recording | Cloud recording |
 |---|---|---|

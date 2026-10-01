@@ -177,7 +177,7 @@ Windows and macOS both include $0, built-in dictation that turns your voice into
 
 *Source: Microsoft Support and Apple Support, checked September 30, 2026.*
 
-## How do you transcribe audio to text for free?
+## How can you transcribe audio to text free?
 
 You can transcribe audio to text free with at least 4 options in this guide, each with a limit. Every free AI transcription audio to text option caps minutes, files or features. Pick the one whose limit fits your audio.
 

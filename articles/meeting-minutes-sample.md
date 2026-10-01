@@ -67,9 +67,9 @@ The standard meeting minutes format follows the order of the meeting in 6 parts:
 
 Write in the past tense and a neutral voice. Record decisions and results clearly, such as "The team agreed to..." or "The motion carried 6 to 1", and leave out side conversations and opinions.
 
-## What does an example of team meeting minutes look like?
+## What do example meeting minutes for a team meeting look like?
 
-Here is 1 example meeting minutes page for a weekly team meeting. It is short, scannable and focused on decisions and owners.
+Here is 1 page of example meeting minutes for a weekly team meeting. It is short, scannable and focused on decisions and owners.
 
 > **Team:** Growth team, weekly meeting
 > **Date and time:** Tuesday, May 14, 10:00 to 10:30 am, video call
@@ -102,7 +102,7 @@ Use this board meeting minutes sample as a starting point, and check your bylaws
 
 ## How do you write minutes after a meeting?
 
-You write minutes after a meeting in 4 steps, and the best time is the same day, while memory is fresh.
+You write minutes after a meeting in 4 steps, and the best time is the same day, while memory is fresh. Keep a meeting minutes example like the 2 above open as a guide while you write.
 
 1. **Start from the agenda** and your notes or recording.
 2. **Fill in the format** above, section by section.
