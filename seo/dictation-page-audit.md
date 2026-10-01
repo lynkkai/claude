@@ -245,11 +245,11 @@ Keep the existing 9. Add these (each targets a real search):
 
 | New question | Target search (US/mo, SD) | Suggested answer (from what the page already says) |
 |---|---|---|
-| How do I use voice to text on a Mac? | how to use voice to text on mac (210, 32) | Put your cursor in any text field, hold fn (or the key you picked) and speak. Let go and the text is typed in. With Apple's built-in dictation, turn it on in System Settings > Keyboard > Dictation. |
-| Does Lynkk work offline? | (privacy intent) | Yes. The first draft is written on your Mac with Apple's on-device model, even offline. **[confirm what needs internet on Pro]** |
-| Does Lynkk replace Apple's dictation shortcut? | mac dictation shortcut (480, 28) | Apple's built-in dictation uses fn pressed twice by default. Lynkk uses hold fn, or any key you pick. **[confirm: how the two interact]** |
-| Does Lynkk work in Microsoft Word and Google Docs? | dictation software for microsoft word (1,600, **8**) | **[confirm]** Yes, it types into any text field, including Word and Google Docs in your browser. |
-| Is Lynkk a Wispr Flow alternative? | wispr flow alternative (480, **11**) | Yes. Both turn your voice into clean text in any app. Lynkk writes the first draft on your Mac, even offline, has a Code mode, circle to capture, Hinglish, and is also a meeting assistant. |
+| How do I use voice to text on a Mac? | how to use voice to text on mac (210, 32) | Download Lynkk for Mac and sign in. Click into any text field, hold fn (or the key you picked) and speak. Let go, and your words are typed where your cursor is. To use Apple's built-in dictation instead, turn it on in System Settings > Keyboard > Dictation. |
+| Does Lynkk work offline? | (privacy intent) | Yes. The first draft is written on your Mac by Apple's on-device speech model, even with no internet connection. On the free plan, nothing leaves your Mac. **[confirm: which Pro features, such as Polished and Hinglish, need a connection]** |
+| Does Lynkk replace Apple's dictation shortcut? | mac dictation shortcut (480, 28) | No, you can keep both. Apple's built-in dictation starts when you press fn (Globe) twice. Lynkk starts when you hold fn, and you can pick a different key in Lynkk's settings. **[confirm: how the two behave on the same key]** |
+| Does Lynkk work in Microsoft Word and Google Docs? | dictation software for microsoft word (1,600, **8**) | Yes. Lynkk types into any text field on your Mac, including Microsoft Word and Google Docs in your browser. Say "new paragraph" to start a new paragraph, or "scratch that" to drop the last bit. **[confirm: tested in both]** |
+| Is Lynkk a Wispr Flow alternative? | wispr flow alternative (480, **11**) | Yes. Like Wispr Flow, Lynkk turns your voice into clean text in any app. Lynkk writes the first draft on your Mac, even offline, and adds Code mode for terminals and code editors, circle to capture, and Hinglish. It is also a meeting assistant that remembers your calls. |
 
 Also: mark up all FAQ questions with **FAQPage** JSON-LD (template in
 `seo/dictation-page.md`, section 6).
