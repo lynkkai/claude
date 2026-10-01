@@ -86,7 +86,94 @@ Lynkk is the AI-powered meeting assistant that preps you before calls, answers l
 
 ---
 
-## 4A. Final keyword set: no overlap with the homepage (round 4, latest)
+## 4B. Feature keywords + how competitors split homepage vs. feature page (round 5, latest)
+
+> Section 4A (transcription / voice recorder keywords) was **rejected by the team**: Lynkk is
+> not a voice recorder or a transcription tool. Use this section instead.
+
+### How competitors keep their homepage and notes page from competing
+They give the **homepage a broad brand line** and give **"AI note taker" / "meeting notes" to
+a dedicated feature page**. Data from Ubersuggest top pages (US):
+
+| Competitor | Homepage title | Notes feature page | What the feature page ranks for |
+|---|---|---|---|
+| krisp.ai | "Voice AI for Meetings: Noise Cancellation & AI Note Taker" | /ai-note-taker/ "AI Note Taker \| Meeting Notes, Transcripts & Summaries" (1,064 visits/mo) | #8 ai meeting note taker (3,600), #8 ai powered note taking tools (1,600), #8 note taker (14,800) |
+| krisp.ai | (same) | /ai-meeting-assistant/ "The World's #1 AI Meeting Assistant" (4,069 visits/mo) | #2 ai meeting assistant (4,400), #4 meeting assistant, #5 ai powered meeting assistant |
+| notion.com | brand | /product/ai-meeting-notes "AI Meeting Notes" | #2 ai meeting notes, #3 ai notes (5,400) |
+| fireflies.ai | "#1 AI Teammate for Meetings, Email, Chat & CRM" | /mobile "AI Assistant For Your In-Person Conversations" | In-person use case |
+| fellow.ai | "Secure AI Meeting Assistant for Enterprise..." | /meeting-agenda-software "Meeting Agenda Software with AI Notes and Summaries"; /meeting-templates/ gallery | Agenda and template terms |
+| noota.io | brand | /meeting-templates/team-meeting-minutes-template | #10 meeting notes template (22,200) |
+| zoom.com | brand | /products/ai-assistant/features/ai-note-taking/ "AI note taker" | #10 ai meeting note taker, #11 ai note taking app |
+
+**Takeaway for Lynkk:** krisp runs exactly the split Lynkk needs:
+- **Homepage → "AI meeting assistant"** (matches Lynkk's "before, during and after" positioning).
+  Change the homepage title away from "AI Meeting Notes", e.g.
+  `Lynkk: AI Meeting Assistant for Before, During & After Calls` (60 chars).
+- **/features/meeting-notes → "AI note taker" + "meeting notes"** keywords.
+
+Once the homepage stops using "AI Meeting Notes" in its title, the note-taker keywords from
+sections 2-4 belong to this page with no overlap.
+
+### Feature keywords with 1,000+ searches and SD under 50 (for /features/meeting-notes)
+| Keyword | Volume | SD | Lynkk feature it maps to | Competitor proof |
+|---|---|---|---|---|
+| **meeting notes template** | 22,200 | 49 | Structured notes in a format per meeting type | notion.com template #3, **noota.io (AI notetaker, DA 36) template page #10**, talaera.com (DA 37) #6 |
+| **ai note taker** | 27,100 | 48 | Core feature | krisp /ai-note-taker/, zoom feature page |
+| **ai note taking app** | 4,400 | 26 | Core feature | zoom feature page #11, read.ai #8 |
+| **ai meeting note taker** | 3,600 | 44 | Core feature | krisp /ai-note-taker/ #8 |
+| **ai powered note taking tools** | 1,600 | 49 | Core feature | krisp /ai-note-taker/ #8 |
+| **ai meeting minutes** | 1,600 | 49 | Minutes output | tinrec.com (DA 12) #5 |
+| **software for meeting minutes** | 1,600 | 47 | Minutes output | $31 CPC (buyers) |
+| **notes summarizer** | 1,300 | 44 | AI summary | Mixed: meetings + study notes |
+
+`meeting notes template` is the biggest feature-led opportunity: if Lynkk lets users pick a
+notes format (sales call, standup, 1:1, interview, board meeting), add a "Meeting notes
+templates" section to this page and later a /templates gallery like fellow.ai and noota.io.
+Each template page links back to /features/meeting-notes.
+
+### Feature keywords under 1,000 (use as H2s, they describe Lynkk's features exactly)
+| Keyword | Volume | SD | Lynkk feature |
+|---|---|---|---|
+| team ai meeting notes | 720 | 25 | Shared, searchable team notes |
+| summarize meeting | 590 | 27 | AI summary |
+| meeting summary | 390 | 35 | AI summary |
+| meeting recap | 390 | 26 | Post-meeting recap |
+| action item tracker | 320 | 31 | Action items assigned |
+| action item tracking | 320 | 24 | Action items assigned |
+| meeting notes with action items | 210 | 12 | Action items |
+| ai meeting summary / summarizer | 170 each | 37 / 34 | AI summary |
+| meeting takeaways | 140 | 15 | Key decisions |
+
+Honest note: keywords for Lynkk's most specific features (CRM field updates, Jira tickets from
+meetings, meeting follow-ups, knowledge graph) each have **under 50 searches/month** in the US.
+Mention them on the page for conversions, but they won't drive traffic on their own.
+
+### Title and H1 for /features/meeting-notes (after the homepage switches to "AI meeting assistant")
+Title (49 chars):
+```
+AI Note Taker for Meeting Notes & Minutes | Lynkk
+```
+H1:
+```
+AI note taker that turns every meeting into notes, minutes and action items
+```
+H2s: AI meeting notes and summaries [summarize meeting, meeting summary, meeting recap] /
+Meeting notes templates for every meeting type [meeting notes template] / AI meeting minutes
+[ai meeting minutes, software for meeting minutes] / Action items, assigned and tracked
+[action item tracker, meeting notes with action items] / Notes for your whole team [team ai
+meeting notes] / Sent to your CRM and Jira / FAQ.
+
+### Rejected in this round
+| Keyword | Volume | SD | Why |
+|---|---|---|---|
+| meeting minutes template | 22,200 | 36 | Results dominated by Microsoft Word, Canva, Slack (DA 88-93). Blog/template later. |
+| ai summary generator | 1,000 | 60 | SD over 50, general text summarizers. |
+| meeting follow up email (all variants) | under 250 | | Low volume, how-to intent. |
+| sales call notes, ai note taker for sales | under 20 | | No volume. |
+
+---
+
+## 4A. (Rejected) Transcription keyword set, round 4
 
 **Decision:** the homepage keeps the broad "AI meeting notes / AI note taker / AI note taking
 app / meeting notes / meeting assistant" terms. The meeting notes page moves to what it does:
