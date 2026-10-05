@@ -1,0 +1,20 @@
+{
+  "duration": 30,
+  "voice": { "model": "kokoro-multi-lang-v1_0", "speaker": 3, "name": "af_heart (US English)", "speed": 1.05 },
+  "lines": [
+    { "id": "l1", "at": 0.30,  "text": "Your brain thinks at four hundred words a minute. Your fingers? About forty." },
+    { "id": "l2", "at": 4.95,  "text": "So every Slack reply becomes a typing marathon." },
+    { "id": "l3", "at": 8.30,  "text": "And autocorrect still sends, \"Let's shop it,\" to your CEO." },
+    { "id": "l4", "at": 12.85, "text": "Meet Lynk dictation." },
+    { "id": "l5", "at": 14.75, "text": "Just talk. Your words appear right at your cursor, in whatever app you're in. Slack, email, Jira, docs." },
+    { "id": "l6", "at": 22.75, "text": "Your keyboard finally gets a vacation." },
+    { "id": "l7", "at": 26.00, "text": "Lynk. You talk, it types. Start free at Lynk dot A I." }
+  ],
+  "sfx": {
+    "typing": [[1.0, 4.6], [8.55, 9.45]],
+    "whoosh": [4.75, 8.15, 12.65, 14.55, 22.55, 25.75],
+    "pop": [9.75, 11.15, 16.55, 18.85, 19.4, 19.95, 22.85],
+    "tick": [5.2, 5.7, 6.2, 6.7]
+  },
+  "note": "Lynkk is spelled 'Lynk' and lynkk.ai as 'Lynk dot A I' in the voice lines only, so the voice says it right."
+}
