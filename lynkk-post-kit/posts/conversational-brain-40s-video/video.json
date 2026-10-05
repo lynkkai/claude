@@ -1,0 +1,117 @@
+{
+  "duration": 40,
+  "voice": {
+    "model": "kokoro-multi-lang-v1_0",
+    "speaker": 3,
+    "name": "af_heart (US English)",
+    "speed": 1.05
+  },
+  "characters": {
+    "manager": "13 am_eric (US English)",
+    "mark": "18 am_puck (US English)"
+  },
+  "lines": [
+    {
+      "id": "m1",
+      "at": 0.3,
+      "speaker": 13,
+      "speed": 1.0,
+      "text": "So... what did we decide last week?"
+    },
+    {
+      "id": "l1",
+      "at": 2.9,
+      "text": "Ever been in a meeting where nobody remembers the last meeting?"
+    },
+    {
+      "id": "l2",
+      "at": 6.4,
+      "text": "Decisions vanish. Action items disappear."
+    },
+    {
+      "id": "l3",
+      "at": 9.4,
+      "text": "And the only record is, \"follow up,\" with three question marks... next to a cat."
+    },
+    {
+      "id": "l4",
+      "at": 13.9,
+      "text": "So give your meetings a memory."
+    },
+    {
+      "id": "l5",
+      "at": 15.9,
+      "text": "Lynk records every meeting, online or in person, and keeps track of who said what, what was decided, and what's still open."
+    },
+    {
+      "id": "l6",
+      "at": 22.9,
+      "text": "Then just ask. It answers from your own notes, and plays the exact moment it was said."
+    },
+    {
+      "id": "k1",
+      "at": 28.0,
+      "speaker": 18,
+      "speed": 1.0,
+      "text": "Sorry, my Wi-Fi died. What did I miss?"
+    },
+    {
+      "id": "l7",
+      "at": 30.7,
+      "text": "Nothing, Mark. The summary's already in your inbox."
+    },
+    {
+      "id": "l8",
+      "at": 34.4,
+      "text": "Lynk. Your meetings finally have a memory. Start free at Lynk dot A I."
+    }
+  ],
+  "sfx": {
+    "typing": [
+      [
+        0.4,
+        2.0
+      ],
+      [
+        23.0,
+        23.9
+      ]
+    ],
+    "whoosh": [
+      6.2,
+      13.7,
+      15.7,
+      22.6,
+      27.7,
+      34.0
+    ],
+    "pop": [
+      2.6,
+      7.0,
+      8.2,
+      9.1,
+      12.4,
+      16.4,
+      17.0,
+      17.5,
+      18.1,
+      18.1,
+      18.5,
+      19.6,
+      20.4,
+      21.3,
+      24.2,
+      26.3,
+      28.0,
+      31.4
+    ],
+    "tick": [
+      2.25,
+      3.05,
+      3.85,
+      4.65,
+      5.45
+    ]
+  },
+  "note": "Lynkk is spelled 'Lynk' and lynkk.ai as 'Lynk dot A I' in the voice lines only, so the voice says it right. m1 is the manager, k1 is Mark."
+}

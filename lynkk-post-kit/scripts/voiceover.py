@@ -14,7 +14,8 @@ Setup (once):
     tar xjf kokoro-multi-lang-v1_0.tar.bz2
 
 US English voices in that model: 0 to 10 are women (3 is af_heart), 11 to 19
-are men (16 is am_michael). Write "Lynk" in a line to make the voice say
+are men (16 is am_michael). A line in video.json can set its own "speaker"
+(and "speed") for a second character; otherwise it uses "voice". Write "Lynk" in a line to make the voice say
 Lynkk right; the slides keep the real spelling.
 """
 import json
@@ -40,7 +41,8 @@ def speak(cfg, model, out_dir):
     voice = cfg["voice"]
     clips = {}
     for line in cfg["lines"]:
-        audio = tts.generate(line["text"], sid=voice["speaker"], speed=voice.get("speed", 1.0))
+        # A line can set its own "speaker" and "speed" (a second character), else the post's voice.
+        audio = tts.generate(line["text"], sid=line.get("speaker", voice["speaker"]), speed=line.get("speed", voice.get("speed", 1.0)))
         samples = np.asarray(audio.samples, dtype=np.float32)
         sf.write(out_dir / f"{line['id']}.wav", samples, audio.sample_rate)
         clips[line["id"]] = samples

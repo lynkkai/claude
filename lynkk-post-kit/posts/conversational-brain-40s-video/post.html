@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Lynkk conversational brain, 40 second video · Lynkk post</title>
+<link rel="stylesheet" href="../../kit/post.css" />
+<style>
+  /* A video is one story board with seven scenes stacked inside the body.
+     window.__seek(t) (bottom of the file) poses every scene for time t, so
+     scripts/video.mjs can render it frame by frame. Open the file in a
+     browser and it plays on its own. Pattern: posts/dictation-30s-video. */
+  .post-body.stack { position: relative; padding: 0; }
+  .vscene { position: absolute; inset: 60px 48px 56px; display: flex; flex-direction: column; visibility: hidden; }
+  .vscene.center { align-items: center; justify-content: center; text-align: center; }
+  .vscene > .plate.grow { height: auto; }
+  /* A video is watched on a phone at full screen: cards on a plate play at 1.5x. */
+  .vscene .scene > .glass, .vscene .scene > .window { zoom: 1.5; }
+  .vscene .cta { padding-top: 220px; }
+  .caret { display: inline-block; width: 2px; height: 1.05em; margin-left: 2px; vertical-align: -0.15em; background: var(--gr-black); }
+
+  /* 01 · the call grid. */
+  .call { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .ptile { position: relative; aspect-ratio: 4 / 3; border-radius: 12px; background: var(--gr-coal-2); color: var(--gr-white);
+    display: grid; place-items: center; }
+  .ptile.talking .av { outline: 3px solid var(--gr-white); outline-offset: 4px; }
+  .ptile .av { display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: var(--gr-coal-3); font-size: 19px; }
+  .ptile .nm { position: absolute; left: 8px; bottom: 6px; font-size: 15px; color: rgb(255 255 255 / 0.75); }
+  .ptile .st { position: absolute; left: 50%; top: 8px; transform: translateX(-50%); white-space: nowrap; height: 24px; font-size: 15px;
+    padding: 0 9px; border-radius: 999px; background: var(--gr-white); color: var(--gr-black); display: inline-flex; align-items: center; }
+  .vscene h2 > .ink-2 { display: block; }
+  .call-foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-top: 14px; min-height: 64px; }
+  .call-foot .m-quote { padding-top: 0; }
+
+  /* 02 · the notes that aren't there. */
+  .notes .window-body { min-height: 250px; }
+  .gone { overflow: hidden; }
+  .scrawl { display: grid; grid-template-columns: 1fr 150px; align-items: center; gap: 12px; padding-top: 14px; min-height: 136px; }
+  .scrawl-t { font-size: 40px; letter-spacing: -0.01em; transform: rotate(-4deg); transform-origin: left center; }
+  .doodle { width: 150px; height: 125px; }
+  .doodle path, .doodle circle { fill: none; stroke: var(--gr-black); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+
+  /* 03 · the turn. */
+  .reveal-mark { width: 220px; height: 220px; }
+
+  /* 04 · the brief. */
+  .sources { display: flex; flex-wrap: wrap; gap: 12px; }
+  .chip.is-on { background: var(--gr-ink); color: var(--gr-bg); border-color: var(--gr-ink); }
+  .brief .m-row { display: grid; grid-template-columns: 112px 1fr; gap: 12px; padding: 10px 0; }
+  .brief .m-k { font-size: 15px; padding-top: 2px; }
+
+  /* 05 · Ask Lynkk. */
+  .ask .window-body { min-height: 300px; }
+  .bubble { margin-left: auto; width: fit-content; max-width: 80%; padding: 10px 16px; border-radius: 16px; background: var(--gr-coal); color: var(--gr-white); }
+  .answer { padding-top: 18px; }
+  .answer .m-k { display: flex; align-items: center; gap: 8px; font-size: 15px; padding-bottom: 6px; }
+  .answer .m-k i[data-mark] { width: 18px; height: 18px; }
+  .cites { display: flex; gap: 8px; padding-top: 10px; }
+  .play-row { display: flex; align-items: center; gap: 12px; padding-top: 14px; }
+  .play-row .m-btn { gap: 8px; }
+  .play-row .m-btn i[data-icon] { width: 14px; height: 14px; }
+  .scrub { flex: 1; height: 4px; border-radius: 2px; background: var(--gr-rule-day); position: relative; overflow: hidden; }
+  .scrub i { position: absolute; inset: 0 auto 0 0; width: var(--p, 0%); background: var(--gr-black); }
+  .play-row .m-k { font-size: 15px; min-width: 44px; text-align: right; }
+
+  /* 06 · Mark and the inbox. */
+  .msg { display: grid; gap: 4px; padding: 12px 0; border-bottom: 1px solid var(--gr-rule-day); }
+  .msg:last-child { border-bottom: 0; }
+  .msg .m-k { font-size: 15px; }
+  .mail { display: grid; grid-template-columns: 44px 1fr; gap: 12px; align-items: start; }
+  .mail .icon-chip { width: 44px; height: 44px; }
+  .mail .icon-chip > i { width: 20px; height: 20px; }
+</style>
+</head>
+<body>
+
+<section class="post" id="v1" data-size="story" data-count="01 / 07">
+  <main class="post-body stack" data-dots>
+
+    <!-- 01 · hook, 0 to 6.2 s. Manager: "So... what did we decide last week?" VO: "Ever been in a meeting where nobody remembers the last meeting?" -->
+    <div class="vscene" data-from="0" data-to="6.2">
+      <span class="eyebrow" data-tone="quiet" data-in="0">Monday, weekly sync</span>
+      <h2 class="t-h2"><span data-in="0.1">Last week, we decided something.</span> <span class="ink-2" data-in="2.9">Nobody remembers what.</span></h2>
+      <div class="plate plate-night scene grow mt-l" data-rings data-in="0.3" style="--card-w: 560px">
+        <div class="window">
+          <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>Weekly sync</span><span></span></div>
+          <div class="window-body">
+            <div class="call">
+              <div class="ptile" id="t-dana"><span class="av">DK</span><span class="nm">Dana</span></div>
+              <div class="ptile"><span class="av">PR</span><span class="nm">Priya</span></div>
+              <div class="ptile"><span class="av">SL</span><span class="nm">Sam</span></div>
+              <div class="ptile"><span class="av">AM</span><span class="nm">Alex</span></div>
+              <div class="ptile"><span class="av">JO</span><span class="nm">You</span></div>
+              <div class="ptile" id="t-mark"><span class="av" id="mark-av">MB</span><span class="nm" id="mark-nm">Mark</span><span class="st" id="mark-st">Frozen, allegedly</span></div>
+            </div>
+            <div class="call-foot">
+              <span class="m-quote" id="dana-line" data-type-from="0.35" data-type-to="2.1">Dana: So... what did we decide last week?</span>
+              <span class="m-chip" id="silence">Silence 0:01</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 02 · problem, 6.2 to 13.7 s. VO: "Decisions vanish. Action items disappear. And the only record is 'follow up' with three question marks... next to a cat." -->
+    <div class="vscene" data-from="6.2" data-to="13.7">
+      <span class="eyebrow" data-in="0">Last week's notes</span>
+      <h2 class="t-h2" data-in="0.1">Decisions vanish. <span class="ink-2">Tasks disappear.</span></h2>
+      <div class="plate plate-sky scene grow mt-l" data-rings data-in="0.25" style="--card-w: 560px">
+        <div class="window notes">
+          <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>Notes, weekly sync</span><span></span></div>
+          <div class="window-body">
+            <div class="m-row gone" id="gone-1"><span class="m-k">Decision</span>Ship the beta on the 21st</div>
+            <div class="m-row gone" id="gone-2"><span class="m-k">Action</span>Pricing deck, owner Mark</div>
+            <div class="m-row gone" id="gone-3"><span class="m-k">Open</span>Who sends the contract</div>
+            <div class="scrawl" id="scrawl">
+              <span class="scrawl-t" id="scrawl-t">follow up???</span>
+              <svg class="doodle" id="doodle" viewBox="0 0 120 100" aria-label="A doodle of a cat">
+                <path pathLength="1" d="M30 40 L34 16 L47 29 Q55 26 63 29 L76 16 L80 40 Q84 63 55 64 Q26 63 30 40 Z" />
+                <circle pathLength="1" cx="45" cy="43" r="2.2" />
+                <circle pathLength="1" cx="65" cy="43" r="2.2" />
+                <path pathLength="1" d="M51 51 L55 54.5 L59 51" />
+                <path pathLength="1" d="M41 51 L23 48 M41 55 L24 58 M69 51 L87 48 M69 55 L86 58" />
+                <path pathLength="1" d="M38 62 Q27 92 50 96 L62 96 Q85 92 73 62" />
+                <path pathLength="1" d="M73 90 Q101 92 97 66" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 03 · the turn, 13.7 to 15.7 s. VO: "So give your meetings a memory." -->
+    <div class="vscene center" data-from="13.7" data-to="15.7">
+      <span class="eyebrow" data-tone="quiet" data-in="0.05">Lynkk</span>
+      <i data-mark class="reveal-mark mt-xl" id="reveal-mark"></i>
+      <h2 class="t-display mt-xl" data-in="0.3">Give your meetings a memory.</h2>
+    </div>
+
+    <!-- 04 · it remembers, 15.7 to 22.6 s. VO: "Lynkk records every meeting, online or in person, and keeps track of who said what, what was decided, and what's still open." -->
+    <div class="vscene" data-from="15.7" data-to="22.6">
+      <span class="eyebrow" data-in="0">The Meeting Brief</span>
+      <h2 class="t-h2" data-in="0.1">Every meeting, kept. <span class="ink-2">Decisions and tasks too.</span></h2>
+      <div class="sources mt-m" data-in="0.3">
+        <span class="chip" data-src="0"><i data-icon="video"></i>Meeting bot</span>
+        <span class="chip" data-src="1"><i data-icon="laptop"></i>Mac app</span>
+        <span class="chip" data-src="2"><i data-icon="link"></i>Extension</span>
+        <span class="chip" data-src="3"><i data-icon="mic"></i>In person</span>
+      </div>
+      <div class="plate plate-dusk scene grow mt-m" data-rings data-in="0.25" style="--card-w: 560px">
+        <div class="glass brief" data-size="l" id="brief">
+          <div class="glass-title">Acme renewal · Meeting Brief</div>
+          <div class="glass-body">
+            <div class="m-row" data-brief="18.5"><span class="m-k">Sam · 12:04</span><span>"We'll deliver by the 15th."</span></div>
+            <div class="m-row" data-brief="19.6"><span class="m-k">Decision</span><span>Deliver to Acme by the 15th</span></div>
+            <div class="m-row" data-brief="20.4"><span class="m-k">Action</span><span>Pricing deck · Mark · Friday <span class="m-chip">High</span></span></div>
+            <div class="m-row" data-brief="21.3"><span class="m-k">Open</span><span>Who sends the contract?</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 05 · ask, 22.6 to 27.7 s. VO: "Then just ask. It answers from your own notes, and plays the exact moment it was said." -->
+    <div class="vscene" data-from="22.6" data-to="27.7">
+      <span class="eyebrow" data-in="0">Ask Lynkk · Pro</span>
+      <h2 class="t-h2" data-in="0.1">Just ask. <span class="ink-2">It answers from your notes.</span></h2>
+      <div class="plate plate-meadow scene grow mt-l" data-rings data-in="0.25" style="--card-w: 560px">
+        <div class="window ask">
+          <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>Ask Lynkk</span><span></span></div>
+          <div class="window-body">
+            <div class="bubble" id="q" data-type-from="23.0" data-type-to="23.9">What did we promise Acme?</div>
+            <div class="answer" id="answer">
+              <span class="m-k"><i data-mark></i>Lynkk</span>
+              <span class="ans" id="ans">Delivery by the 15th, and Mark owes them the pricing deck.</span>
+              <div class="cites" id="cites"><span class="m-cite">Acme renewal · 12:04</span><span class="m-cite">Tasks · Mark</span></div>
+              <div class="play-row" id="play-row"><span class="m-btn"><i data-icon="play"></i>Play from 12:04</span><span class="scrub" id="scrub"><i></i></span><span class="m-k" id="clock">12:04</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 06 · payoff, 27.7 to 34 s. Mark: "Sorry, my Wi-Fi died. What did I miss?" VO: "Nothing, Mark. The summary's already in your inbox." -->
+    <div class="vscene" data-from="27.7" data-to="34">
+      <span class="eyebrow" data-in="0">Meanwhile, Mark</span>
+      <h2 class="t-h2" data-in="0.1">Mark missed the meeting. <span class="ink-2" data-in="3.0">The summary didn't.</span></h2>
+      <div class="plate plate-field scene grow mt-l" data-rings data-in="0.25" style="--card-w: 560px">
+        <div class="glass" data-size="l">
+          <div class="glass-title">Back online</div>
+          <div class="glass-body">
+            <div class="msg" id="mark-msg"><span class="m-k">Mark · just now</span>Sorry, my Wi-Fi died. What did I miss?</div>
+            <div class="msg" id="mail">
+              <div class="mail">
+                <span class="icon-chip" data-c="orange"><i data-icon="mail"></i></span>
+                <div><span class="m-k">Inbox · from Lynkk</span><div class="m-title">Summary: Acme renewal</div>
+                  <div class="m-fine">Decisions, action items and open questions. Emailed to attendees, because you turned that on.</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 07 · CTA, 34 to 40 s. VO: "Lynkk. Your meetings finally have a memory. Start free at lynkk.ai." -->
+    <div class="vscene" data-from="34" data-to="40">
+      <div class="plate plate-ember cta" data-rings>
+        <span class="cta-tag" data-in="0.15">Start free</span>
+        <h2 class="t-display" data-in="0.6">Your meetings finally have a&nbsp;memory.</h2>
+        <p class="cta-sub" data-in="1.4">Lynkk records your meetings, writes the notes, and answers from them when you ask.</p>
+        <span class="btn" data-in="2.6">Start free at lynkk.ai</span>
+        <div class="facts" data-in="3.0">
+          <div class="fact"><span class="fact-t">In person too</span><span class="fact-b">Bot, Mac app, extension or web</span></div>
+          <div class="fact"><span class="fact-t">17 languages</span><span class="fact-b">Four of them in beta</span></div>
+          <div class="fact"><span class="fact-t">Ask Lynkk</span><span class="fact-b">Answers from your notes, Pro</span></div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</section>
+
+<script src="../../kit/post.js"></script>
+<script>
+(() => {
+  const DURATION = 40;
+  const clamp = (x) => Math.min(1, Math.max(0, x));
+  const ease = (x) => 1 - Math.pow(1 - clamp(x), 3);
+  const back = (x) => { x = clamp(x); const c = 1.6; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+  const $ = (s) => document.querySelector(s);
+  const $$ = (s) => [...document.querySelectorAll(s)];
+  const show = (el, on) => { el.style.display = on ? "" : "none"; };
+  const rise = (el, p, d = 16) => { el.style.opacity = p; el.style.transform = p < 1 ? `translateY(${(1 - p) * d}px)` : ""; };
+  const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+
+  const scenes = $$(".vscene").map((el) => ({ el, from: +el.dataset.from, to: +el.dataset.to,
+    items: [...el.querySelectorAll("[data-in]")] }));
+  const count = $(".post-top .count");
+  const pad = (n) => String(n).padStart(2, "0");
+
+  // Text that types in: keep the full string, show a slice, on a fixed uneven rhythm.
+  const rhythm = (n) => { const out = [0]; let s = 7; for (let i = 1; i <= n; i++) { s = (s * 9301 + 49297) % 233280; out.push(out[i - 1] + 0.5 + s / 233280); } return out.map((v) => v / out[n]); };
+  const typers = $$("[data-type-from]").map((el) => { const text = el.textContent; return { el, text, from: +el.dataset.typeFrom, to: +el.dataset.typeTo, steps: rhythm(text.length) }; });
+  const caret = () => '<span class="caret"></span>';
+
+  // The answer lands word by word.
+  const ans = $("#ans");
+  ans.innerHTML = ans.textContent.split(" ").map((w) => `<span class="w">${w}</span>`).join(" ");
+  const ansWords = [...ans.querySelectorAll(".w")];
+  const doodle = $$("#doodle path, #doodle circle");
+  const briefRows = $$("[data-brief]");
+  const SRC = [16.4, 17.0, 17.5, 18.1]; // "online or in person"
+
+  function seek(t) {
+    let active = 0;
+    scenes.forEach((s, i) => {
+      const last = i === scenes.length - 1;
+      let o = i === 0 ? 1 : ease((t - s.from) / 0.3);
+      if (!last) o = Math.min(o, 1 - ease((t - (s.to - 0.25)) / 0.25));
+      if (t < s.from || (!last && t >= s.to)) o = 0;
+      s.el.style.opacity = o;
+      s.el.style.visibility = o > 0 ? "visible" : "hidden";
+      if (t >= s.from) active = i;
+      for (const el of s.items) rise(el, ease((t - s.from - +el.dataset.in) / 0.45), 28);
+    });
+    if (count) count.innerHTML = `<b>${pad(active + 1)}</b> / ${pad(scenes.length)}`;
+    const blink = Math.floor(t * 2.2) % 2 === 0;
+
+    for (const ty of typers) {
+      const p = clamp((t - ty.from) / (ty.to - ty.from));
+      const n = ty.steps.findIndex((v) => v > p);
+      const shown = n < 0 ? ty.text.length : Math.max(0, n - 1);
+      const typing = p > 0 && p < 1;
+      ty.el.innerHTML = esc(ty.text.slice(0, shown)) + (typing ? caret() : "");
+      if (ty.el.id === "q") ty.el.style.opacity = t >= ty.from ? 1 : 0;
+    }
+
+    // 01 · Dana asks, the room goes quiet, Mark "freezes"
+    $("#t-dana").classList.toggle("talking", t >= 0.35 && t < 2.1);
+    const quiet = t >= 2.25;
+    const sil = $("#silence");
+    rise(sil, ease((t - 2.25) / 0.3), 8);
+    sil.textContent = `Silence 0:0${Math.min(9, 1 + Math.floor(Math.max(0, t - 2.25) / 0.8))}`;
+    const st = $("#mark-st");
+    const sp = back((t - 2.6) / 0.45);
+    st.style.opacity = clamp((t - 2.6) / 0.15);
+    st.style.transform = `translateX(-50%) scale(${0.7 + 0.3 * sp})`;
+    // Mark's avatar stops dead at an angle: the classic fake freeze.
+    $("#mark-av").style.transform = quiet ? `rotate(${-12 * ease((t - 2.4) / 0.12)}deg) translateY(${-6 * ease((t - 2.4) / 0.12)}px)` : "";
+    $("#mark-av").style.opacity = quiet ? 0.6 : 1;
+
+    // 02 · the notes vanish one by one, then the scrawl and the cat
+    [7.0, 8.2, 9.1].forEach((at, i) => {
+      const el = $(`#gone-${i + 1}`);
+      const p = ease((t - at) / 0.5);
+      el.style.opacity = 1 - p;
+      el.style.filter = p > 0 ? `blur(${p * 6}px)` : "";
+      el.style.transform = p > 0 ? `translateX(${p * 40}px)` : "";
+      // Once it has faded, the row folds away and the note closes up.
+      const c = ease((t - at - 0.45) / 0.3);
+      el.style.maxHeight = `${(1 - c) * 60}px`;
+      el.style.paddingTop = el.style.paddingBottom = `${(1 - c) * 8}px`;
+      el.style.borderBottomWidth = c >= 1 ? "0" : "";
+    });
+    const scrawl = $("#scrawl");
+    rise(scrawl, ease((t - 9.7) / 0.35), 12);
+    const sw = $("#scrawl-t");
+    const words = "follow up???";
+    sw.textContent = words.slice(0, Math.round(clamp((t - 10.6) / 0.9) * words.length));
+    doodle.forEach((p, i) => {
+      const d = clamp((t - 12.35 - i * 0.12) / 0.35);
+      p.style.strokeDasharray = "1 1";
+      p.style.strokeDashoffset = String(1 - d);
+      p.style.opacity = d > 0 ? 1 : 0; // a round cap would show a dot before the line starts
+    });
+    const dp = back((t - 12.35) / 0.5);
+    $("#doodle").style.transform = `scale(${0.85 + 0.15 * dp})`;
+
+    // 03 · the mark arrives
+    const mp = back((t - 13.8) / 0.6);
+    const mark = $("#reveal-mark");
+    mark.style.opacity = clamp((t - 13.8) / 0.25);
+    mark.style.transform = `scale(${0.55 + 0.45 * mp}) rotate(${(1 - mp) * -40}deg)`;
+
+    // 04 · ways to record light up, then the brief fills in
+    $$("[data-src]").forEach((c) => c.classList.toggle("is-on", t >= SRC[+c.dataset.src]));
+    // The brief card rises in once the ways to record have lit up.
+    rise($("#brief"), ease((t - 18.1) / 0.4), 24);
+    briefRows.forEach((r) => {
+      const p = ease((t - +r.dataset.brief) / 0.4);
+      rise(r, p, 14);
+      r.style.background = t >= +r.dataset.brief && t < +r.dataset.brief + 0.8 ? "rgb(17 17 17 / 0.05)" : "";
+    });
+
+    // 05 · the question types, the answer lands, then it plays the moment
+    const a0 = 24.2;
+    $("#answer").style.opacity = t >= a0 - 0.1 ? 1 : 0;
+    ansWords.forEach((w, k) => { w.style.opacity = ease((t - a0 - k * 0.07) / 0.18); });
+    rise($("#cites"), ease((t - 25.2) / 0.35), 10);
+    rise($("#play-row"), ease((t - 25.9) / 0.35), 10);
+    const play = clamp((t - 26.3) / 1.4);
+    $("#scrub").style.setProperty("--p", `${play * 100}%`);
+    $("#clock").textContent = `12:0${4 + Math.floor(play * 3)}`;
+
+    // 06 · Mark's message, then the summary that was already waiting
+    const mm = back((t - 28.0) / 0.45);
+    const msg = $("#mark-msg");
+    msg.style.opacity = clamp((t - 28.0) / 0.2);
+    msg.style.transform = `scale(${0.92 + 0.08 * mm})`;
+    const ml = back((t - 31.4) / 0.5);
+    const mail = $("#mail");
+    mail.style.opacity = clamp((t - 31.4) / 0.2);
+    mail.style.transform = `translateY(${(1 - ml) * 24}px)`;
+  }
+
+  window.__seek = seek;
+  window.__duration = DURATION;
+  seek(0);
+
+  // Opened in a browser: play it. The renderer sets ?still to stop this.
+  if (!new URLSearchParams(location.search).has("still")) {
+    const t0 = performance.now();
+    const tick = () => { seek(((performance.now() - t0) / 1000) % DURATION); requestAnimationFrame(tick); };
+    requestAnimationFrame(tick);
+  }
+})();
+</script>
+</body>
+</html>

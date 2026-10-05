@@ -60,3 +60,20 @@
 - The "frozen screen" gag is the running joke: set it up in the hook, pay it off in the solution and end beats.
 - On-screen captions recommended; most short-form views are on mute.
 - Avoid naming specific meeting platforms or CRMs until confirmed (see `memory/lynkk-brand.md`).
+
+---
+
+## Motion graphic version (post kit, claim-checked)
+
+The rendered video lives at `lynkk-post-kit/posts/conversational-brain-40s-video/`
+(`out/video.mp4`, US English voiceover). The post kit's `docs/TRUTHS.md` (checked
+against the product on 2026-09-29) rules out some lines above, so the video uses
+these changes:
+
+| Draft line above | In the video | Why |
+|---|---|---|
+| Lynkk answers out loud, live in the meeting | You ask Ask Lynkk (Pro) in chat after the meeting; it answers from your notes and plays the moment | Lynkk does not speak in meetings |
+| "Thirty seconds after the call" | Dropped | No speed claims |
+| "CRM updated, Jira tickets created" | Meeting Brief: decisions, action items, open questions | No CRM; Jira send is manual |
+| "Meet Lynkk's conversational brain" | "So give your meetings a memory." | Copy rules: no "Meet X"; no knowledge graph claim |
+| "It's all in your notes" | "The summary's already in your inbox." | The summary is emailed to attendees when you turn that on |
