@@ -31,6 +31,13 @@ node scripts/render.mjs posts/<name> --pdf      # checks copy, renders, audits l
 In cloud sessions Chromium is preinstalled at `/opt/pw-browsers`, so skip
 `npx playwright install` and only run `npm install`.
 
+## Videos (Reels, TikTok, Shorts)
+
+See "Make a video" in `lynkk-post-kit/README.md`. Pattern:
+`lynkk-post-kit/posts/dictation-30s-video/` (scenes + `window.__seek`, `video.json`
+for voice lines, `scripts/voiceover.py` for the US voiceover, `scripts/video.mjs`
+to render MP4). Check stills with `--stills` before the full render.
+
 ## Fonts and look
 
 - Font is **Inter** only (`kit/fonts/InterVariable.woff2`, SIL OFL), weights

@@ -41,6 +41,23 @@ node scripts/render.mjs posts/launch-week --only s2   # one slide
 npm run gallery                                       # re-render the block gallery
 ```
 
+## Make a video
+
+A video is one `story` board with scenes stacked in its body and a
+`window.__seek(t)` function that poses every scene for time `t`. Copy
+`posts/dictation-30s-video/` as the pattern (open its `post.html` in a browser
+and it plays).
+
+```bash
+python3 scripts/voiceover.py posts/<name> --model <kokoro-dir>   # out/mix.wav from video.json
+node scripts/video.mjs posts/<name> --stills 2,9.5               # PNGs at those seconds, to check
+node scripts/video.mjs posts/<name> --audio posts/<name>/out/mix.wav   # out/video.mp4
+```
+
+`video.json` holds the voice lines and their start times, the voice, and the
+sound effects. `scripts/voiceover.py` explains the one-time voice model setup.
+Needs ffmpeg. Same copy and claims rules as every post.
+
 ## With an AI coding agent
 
 Open this folder in the agent and ask for what you want, e.g.
@@ -68,7 +85,7 @@ steer.
 | `kit/fonts/` | Inter (SIL Open Font License, see OFL.txt) |
 | `gallery/` | One board per block, size and band. `gallery/out/*.png` is the visual reference |
 | `posts/example-lynkk-vs-notetakers/` | A finished 5 slide carousel with captions. Copy its patterns |
-| `scripts/` | `new.mjs`, `check.mjs`, `render.mjs` |
+| `scripts/` | `new.mjs`, `check.mjs`, `render.mjs`, and `video.mjs` + `voiceover.py` for video |
 
 ## Keeping it true
 
