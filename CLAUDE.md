@@ -11,3 +11,9 @@ These apply to all Lynkk copy, marketing text, and anything written in this repo
 
 - **Never use em dashes (—) or en dashes (–).** Use a comma, colon, parentheses, or
   split the sentence instead. Use a plain hyphen for ranges and compound words.
+
+## Social posts
+
+For any Lynkk social post or graphic, use the `lynkk-post-kit` skill
+(`.claude/skills/lynkk-post-kit/SKILL.md`). The kit itself, including the Inter
+font, design system and brand assets, is in `lynkk-post-kit/`.
