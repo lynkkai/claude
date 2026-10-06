@@ -49,15 +49,71 @@ Optional: start as **Restricted** for the first 1-2 weeks so only approved users
 
 The banners are built in the post kit: `lynkk-post-kit/posts/reddit-banner/`. Re-render with `node scripts/render.mjs posts/reddit-banner` from `lynkk-post-kit/`.
 
-## 6. Rules (Mod Tools > Rules)
+## 6. Rules (Mod Tools > Rules and Removal Reasons > Rules)
 
-1. **Be respectful.** No harassment, hate speech, or personal attacks.
-2. **Stay on topic.** Posts should relate to Lynkk, AI meeting assistants, meeting productivity, or related workflows.
-3. **No spam or unrelated self-promotion.** Promoting other products, affiliate links, or repeated low-effort posts will be removed.
-4. **Protect privacy.** Do not share meeting transcripts, recordings, or screenshots that include other people's personal or confidential information.
-5. **Bug reports and feature requests go in the right flair.** Include how you recorded (Mac app, meeting bot, Chrome extension or web), steps to reproduce, and what you expected.
-6. **Support requests about your account or billing:** email marketing@lynkk.ai instead of posting account details publicly.
-7. **No misinformation about the product.** Official answers come from users with the "Lynkk Team" flair.
+Reddit allows up to 15 rules. Each one has a name (max 100 characters), a description (max 500), what it applies to, and a report reason (max 100) that users pick when they report. Enter them in this order: the first rules are the ones people see first.
+
+### Rule 1: Be respectful. No abuse or harassment
+
+- **Description:** Treat everyone here like a colleague. No personal attacks, insults, slurs, threats, hate speech, or harassment of any kind, including in DMs that start from this subreddit. Criticism of Lynkk is welcome; attacking people is not. Do not brigade other communities or call people out by username.
+- **Applies to:** Posts and comments
+- **Report reason:** Abuse, harassment or hate
+
+### Rule 2: No adult or NSFW content
+
+- **Description:** Keep everything safe for work. No sexual content, nudity, graphic violence, or gore in posts, comments, images, usernames in screenshots, or links. This is a work tool community; assume people are reading it at their desk.
+- **Applies to:** Posts and comments
+- **Report reason:** Adult or NSFW content
+
+### Rule 3: Soft self-promotion is OK. Spam is not
+
+- **Description:** You can share your own blog post, template, video, or workflow if it is about meetings, notes, or productivity and is useful without clicking the link. Say that it is yours. Limit: one promotional post per week, and take part in the discussion. Removed: link drops, affiliate or referral links, repeated posts, asking people to DM you, and bulk AI-generated content.
+- **Applies to:** Posts and comments
+- **Report reason:** Spam or excessive self-promotion
+
+### Rule 4: Stay on topic
+
+- **Description:** Posts should relate to Lynkk, meeting notes and transcription, running better meetings, or workflows around them (tasks, Jira, calendars, dictation). General AI news or unrelated tools belong in other subreddits. Search before posting so the same question stays in one thread.
+- **Applies to:** Posts only
+- **Report reason:** Off topic or duplicate
+
+### Rule 5: Protect other people's privacy
+
+- **Description:** Do not post transcripts, recordings, notes, or screenshots that show other people's names, faces, emails, or confidential business details. Blur or crop them first. No doxxing and no sharing someone's personal information, even if it appeared in a meeting.
+- **Applies to:** Posts and comments
+- **Report reason:** Shares private or confidential information
+
+### Rule 6: Record with consent
+
+- **Description:** Follow the recording laws where you and the other participants are. Let people know when a meeting is being recorded. Posts asking how to record someone secretly or get around consent will be removed.
+- **Applies to:** Posts and comments
+- **Report reason:** Asks how to record people without consent
+
+### Rule 7: Be honest. No fake reviews or false claims
+
+- **Description:** Share real experiences. No fake reviews, invented features, or made up comparisons. If you work for Lynkk or for another meeting tool, say so. Lynkk staff use the "Lynkk Team" flair, and official answers come from them.
+- **Applies to:** Posts and comments
+- **Report reason:** Misleading, fake or undisclosed
+
+### Rule 8: No scams or impersonation
+
+- **Description:** Do not pretend to be Lynkk staff or a moderator. No phishing links, fake giveaways, or selling or sharing accounts. The Lynkk team will never ask for your password or payment details in a DM. Report anyone who does.
+- **Applies to:** Posts and comments
+- **Report reason:** Scam, phishing or impersonation
+
+### Rule 9: Keep account and billing issues private
+
+- **Description:** Do not post your email address, invoices, or account details here. For account or billing help, email marketing@lynkk.ai and the team will reply there.
+- **Applies to:** Posts and comments
+- **Report reason:** Posts personal account or billing details
+
+### Rule 10: Use the right flair
+
+- **Description:** Pick the flair that matches your post. Bug reports should say how you recorded (Mac app, meeting bot, Chrome extension, or web), the steps to reproduce, and what you expected to happen. Feature requests go in the pinned megathread when one is open.
+- **Applies to:** Posts only
+- **Report reason:** Wrong flair or missing bug details
+
+**How moderators enforce them:** first time, remove the post and send the matching removal reason. Second time, a 7 day ban. Abuse, adult content, scams, and doxxing (rules 1, 2, 5 and 8) can mean a permanent ban on the first offense.
 
 ## 7. Post flairs
 
