@@ -3,7 +3,7 @@ title: "How to Take Meeting Notes That Actually Turn Into Action"
 subtitle: "Stop recording what people said. Capture decisions, owners and deadlines, and hand the rest to software."
 slug: "meeting-notes-that-turn-into-action"
 target_keyword: "how to take good meeting notes"
-status: draft
+status: ready-for-review
 medium_tags: ["Productivity", "Meetings", "Management", "Leadership", "Work"]
 canonical_url: ""
 ---
@@ -14,7 +14,7 @@ canonical_url: ""
 
 Three weeks after a planning meeting, someone asks, "Didn't we agree to follow up with that customer?" Everyone remembers the conversation. Someone even took notes: a full page of them. But reading the page doesn't tell you who was supposed to send the email, or by when, or whether the team ever really decided anything.
 
-The notes exist. The trouble is what they recorded: the conversation, not the commitments.
+The notes exist, but they recorded the conversation instead of the commitments.
 
 Here is a simple way to fix that: a short format, a few habits for the meeting itself, and a rule for which parts to automate.
 
@@ -22,18 +22,16 @@ Here is a simple way to fix that: a short format, a few habits for the meeting i
 
 Before getting into format, settle what notes are for. They aren't a memory aid for the people who were in the room. They're for two other readers:
 
-- **The person who missed the meeting**, who needs to know what changed.
-- **You, a month from now**, after the details are gone.
+- The person who missed the meeting, who needs to know what changed.
+- You, a month from now, after the details are gone.
 
 That gives you a test for any set of notes: **could someone who wasn't there read them in two minutes and know what to do next?**
 
-If the answer is no, more detail probably won't fix it. Different detail will.
+If the answer is no, adding more detail probably won't help. The fix is changing what you write down.
 
 ## What to stop writing down
 
-Formal meetings settled this question long ago. *Robert's Rules of Order*, the standard guide for running formal meetings, advises that [minutes should record what was done at a meeting, not what was said](https://www.cityofmadison.com/attorney/committees-legislation/roberts-rules/taking-minutes). Minutes are an official record with their own rules on wording and approval, and your team's working notes don't need that formality. But the principle carries over well.
-
-With that in mind, consider dropping:
+Formal meetings have a long-standing answer to this. *Robert's Rules of Order*, the standard guide for running formal meetings, advises that [minutes should record what was done at a meeting, not what was said](https://www.cityofmadison.com/attorney/committees-legislation/roberts-rules/taking-minutes). Minutes are an official record with their own rules on wording and approval, and your team's working notes don't need that formality. But the principle carries over, so consider dropping:
 
 - **The play-by-play.** "Sam raised the timeline. Ana disagreed. Sam suggested..." A record in time order makes the reader rebuild the outcome on their own.
 - **Every opinion on the way to a decision.** The debate mattered in the room. Afterward, what matters is where it landed and, in a sentence, why.
@@ -85,7 +83,7 @@ CONTEXT
 
 (This is an illustrative example, not a real meeting.)
 
-Compare that with the version most of us write by default:
+Compare that with a more typical version:
 
 > Discussed pricing. Sam thinks team plan is underpriced, Ana concerned about existing customers. Talked about free tier, everyone agreed it's important. Need to update website and tell customers. Finance timing?
 
@@ -111,7 +109,7 @@ The notes are only the start. Three steps turn them into finished work.
 
 ## What to automate, and what to keep
 
-AI meeting tools can now record a call, transcribe it and draft a summary. That changes how much of this you need to do by hand. The useful question is no longer *whether* to automate, but *which parts*.
+AI meeting tools can now record a call, transcribe it and draft a summary. That changes how much of this you need to do by hand. So the useful question is which parts to automate.
 
 A simple rule of thumb: **automate recall, keep judgment.**
 

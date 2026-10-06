@@ -80,9 +80,9 @@ Always provide alt text and a one-line caption.
 3. Every statistic and legal claim has a source link.
 4. No item from the "To confirm" list in `memory/lynkk-brand.md` is stated as fact.
 
-## Known gaps
+## Notes
 
-- The skill's final pass calls for a `$humanizer` skill in `written-prose` mode.
-  It is not installed in this repo. Until it is, do a manual plain-language pass
-  and report the article as "draft, humanizer not run" rather than publication-ready.
+- The final language pass uses the `humanizer` skill (`.claude/skills/humanizer/`)
+  in `written-prose` mode. Its checker can be run on its own:
+  `python3 -I .claude/skills/humanizer/scripts/check_prose.py <article.md>`.
 - Drafting never authorizes publishing to Medium. Publish only on explicit request.
