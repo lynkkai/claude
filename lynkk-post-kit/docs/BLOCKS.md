@@ -176,6 +176,8 @@ The body runs in a row; no top bar or foot.
 
 For the app banner, use `<main class="post-body center">` with the brand only.
 
+**Icon**: a profile or community icon (`data-size="icon"`, 256x256): `<main class="post-body"><i data-mark></i></main>`.
+
 **CTA**: the closing plate.
 
 ```html

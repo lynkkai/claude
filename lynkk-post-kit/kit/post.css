@@ -327,5 +327,15 @@ i[data-icon] svg, i[data-mark] svg { width: 100%; height: 100%; }
 .post[data-size="banner-mobile"] .brand { gap: 18px; font-size: 48px; }
 .post[data-size="banner-mobile"] .brand > i { width: 56px; height: 56px; }
 
+/* ------------------------------------------------------------- ICON
+   Profile and community icons (256x256). Platforms crop it to a circle, so
+   the sphere stays at half the tile, well inside the crop. */
+.post[data-size="icon"] { --w: 256px; --h: 256px; grid-template-columns: minmax(0, 1fr); }
+.post[data-size="icon"] > .post-rail { display: none; }
+.post[data-size="icon"] .post-col { grid-template-rows: minmax(0, 1fr); }
+.post[data-size="icon"] .post-top, .post[data-size="icon"] .post-foot { display: none; }
+.post[data-size="icon"] .post-body { padding: 0; align-items: center; justify-content: center; }
+.post[data-size="icon"] .post-body > i[data-mark] { width: 128px; height: 128px; }
+
 /* Stills only: posts are images, nothing should be caught mid-animation. */
 .post *, .post *::before, .post *::after { animation: none !important; transition: none !important; }

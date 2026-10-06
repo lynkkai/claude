@@ -48,6 +48,7 @@ Set `data-size` on each `<section class="post">`.
 | `linkedin` | 1200 x 1200 | LinkedIn single image |
 | `banner` | 1072 x 128 | Reddit community banner (desktop) |
 | `banner-mobile` | 1080 x 128 | Reddit community banner (app) |
+| `icon` | 256 x 256 | Profile and community icons (cropped to a circle) |
 
 Everything exports at 2x (a 1080 post becomes 2160 wide). A carousel uses one
 size for every slide.

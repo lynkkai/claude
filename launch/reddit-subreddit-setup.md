@@ -42,7 +42,7 @@ Optional: start as **Restricted** for the first 1-2 weeks so only approved users
 
 | Asset | Spec | What to use |
 |---|---|---|
-| Icon / avatar | 256 x 256 px, PNG or JPG, square | The white sphere mark (`lynkk-post-kit/kit/assets/mark.svg`) on #111111 |
+| Icon / avatar | 256 x 256 px, PNG or JPG, square | `reddit-assets/reddit-icon.png` (512 x 512, white sphere on #111111, safe for the circle crop) |
 | Banner image | at least 1072 x 128 px | `reddit-assets/reddit-banner-desktop.png` (2144 x 256) |
 | Mobile banner image | at least 1080 x 128 px | `reddit-assets/reddit-banner-mobile.png` (2160 x 256) |
 | Key color | Hex code | #111111 (the night band) |
