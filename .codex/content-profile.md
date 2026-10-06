@@ -48,6 +48,11 @@ content/medium/<article-slug>/
 `-- hero-<article-slug>.png   optional
 ```
 
+For publishing, also generate `medium.html` (paste-ready rich text for the
+Medium editor) and `medium-publishing.md` (paste steps, story settings, image and
+pre-publish checklist):
+`python3 -I .claude/skills/create-medium-article/scripts/to_medium_html.py <dir>/article.md <dir>/medium.html`
+
 `article.md` starts with frontmatter:
 
 ```yaml

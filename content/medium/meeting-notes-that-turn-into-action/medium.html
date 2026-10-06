@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Take Meeting Notes That Actually Turn Into Action</title>
+<style>
+  :root { --bg: #fff; --fg: #242424; --muted: #6b6b6b; --code: #f2f2f2; --link: #1a8917; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121212; --fg: #e6e6e6; --muted: #a0a0a0; --code: #262626; --link: #6fcf72; }
+  }
+  body { background: var(--bg); color: var(--fg); margin: 0; padding: 32px 16px; }
+  main { max-width: 680px; margin: 0 auto; font: 20px/1.6 Georgia, "Times New Roman", serif; }
+  h1 { font: 700 40px/1.2 -apple-system, "Helvetica Neue", Arial, sans-serif; margin: 0 0 8px; }
+  h3 { font: 700 26px/1.3 -apple-system, "Helvetica Neue", Arial, sans-serif; margin: 40px 0 8px; }
+  h4 { font: 400 22px/1.4 -apple-system, "Helvetica Neue", Arial, sans-serif; color: var(--muted); margin: 0 0 32px; }
+  a { color: var(--link); }
+  code { background: var(--code); padding: 2px 4px; font-size: 16px; }
+  pre { background: var(--code); padding: 16px; font-size: 15px; line-height: 1.5; overflow-x: auto; }
+  blockquote { border-left: 3px solid var(--fg); margin: 0; padding-left: 20px; font-style: italic; }
+  hr { border: 0; text-align: center; margin: 40px 0; }
+  hr::after { content: "* * *"; color: var(--muted); letter-spacing: 1em; }
+</style>
+</head>
+<body>
+<main>
+<h1>How to Take Meeting Notes That Actually Turn Into Action</h1>
+<h4>Stop recording what people said. Capture decisions, owners and deadlines, and hand the rest to software.</h4>
+<p>Three weeks after a planning meeting, someone asks, "Didn't we agree to follow up with that customer?" Everyone remembers the conversation. Someone even took notes: a full page of them. But reading the page doesn't tell you who was supposed to send the email, or by when, or whether the team ever really decided anything.</p>
+<p>The notes exist, but they recorded the conversation instead of the commitments.</p>
+<p>Here is a simple way to fix that: a short format, a few habits for the meeting itself, and a rule for which parts to automate.</p>
+<h3>The two-minute test</h3>
+<p>Before getting into format, settle what notes are for. They aren't a memory aid for the people who were in the room. They're for two other readers:</p>
+<ul>
+<li>The person who missed the meeting, who needs to know what changed.</li>
+<li>You, a month from now, after the details are gone.</li>
+</ul>
+<p>That gives you a test for any set of notes: <strong>could someone who wasn't there read them in two minutes and know what to do next?</strong></p>
+<p>If the answer is no, adding more detail probably won't help. The fix is changing what you write down.</p>
+<h3>What to stop writing down</h3>
+<p>Formal meetings have a long-standing answer to this. <em>Robert's Rules of Order</em>, the standard guide for running formal meetings, advises that <a href="https://www.cityofmadison.com/attorney/committees-legislation/roberts-rules/taking-minutes">minutes should record what was done at a meeting, not what was said</a>. Minutes are an official record with their own rules on wording and approval, and your team's working notes don't need that formality. But the principle carries over, so consider dropping:</p>
+<ul>
+<li><strong>The play-by-play.</strong> "Sam raised the timeline. Ana disagreed. Sam suggested..." A record in time order makes the reader rebuild the outcome on their own.</li>
+<li><strong>Every opinion on the way to a decision.</strong> The debate mattered in the room. Afterward, what matters is where it landed and, in a sentence, why.</li>
+<li><strong>Near-verbatim quotes.</strong> Keep one only when the exact words matter, such as a customer describing a problem in their own language.</li>
+<li><strong>Things that already live somewhere else.</strong> If the numbers are in the slide deck, link the deck. Don't copy it.</li>
+<li><strong>The agenda, restated.</strong> The headings can come from the agenda. The content shouldn't repeat it.</li>
+</ul>
+<h3>The four things worth writing down</h3>
+<p>Good notes come down to four kinds of information.</p>
+<p><strong>1. Decisions.</strong> What did the group agree on? Write each one as a clear statement: "We'll launch in the EU first," not "Discussed launch regions." When it will save someone from reopening the debate, add the reason and the main option you rejected.</p>
+<p><strong>2. Action items.</strong> Every action item needs three parts:</p>
+<ul>
+<li><strong>One owner, by name.</strong> "The team" and "marketing" own nothing. If two people share a task, pick the one who answers for it.</li>
+<li><strong>A verb that describes a finished state.</strong> "Send revised quote to the customer" beats "Look into pricing."</li>
+<li><strong>A date.</strong> "Friday" is fine. "Soon" is not a date.</li>
+</ul>
+<p>If an item is missing any of the three, it isn't an action item yet. It's a hope.</p>
+<p><strong>3. Open questions.</strong> Things the group couldn't settle, each with the person who will find the answer. Without an owner, a question is likely to come back as the same discussion next time.</p>
+<p><strong>4. Context future-you will need.</strong> Constraints, numbers, a customer's exact objection, a dependency on another team. Keep this short. If it doesn't change what someone would do, leave it out.</p>
+<h3>A format you can reuse</h3>
+<p>Here is the whole thing as a template. It fits in a doc, a ticket comment, or the body of a follow-up email.</p>
+<pre>Meeting: Q4 pricing review        Date: Oct 6
+Attendees: Ana, Sam, Priya        Missing: Leo (FYI)
+
+DECISIONS
+- Keep the free tier. Reason: it drives most sign-ups.
+- Raise the team plan price for new customers only.
+
+ACTION ITEMS
+- Priya: send updated pricing page copy for review, by Thu
+- Sam: draft email to existing team customers, by Fri
+- Ana: confirm billing change with finance, by Wed
+
+OPEN QUESTIONS
+- Do annual plans get the old price at renewal? (Ana to find out)
+
+CONTEXT
+- Finance needs 2 weeks' notice before any billing change.</pre>
+<p>(This is an illustrative example, not a real meeting.)</p>
+<p>Compare that with a more typical version:</p>
+<blockquote>Discussed pricing. Sam thinks team plan is underpriced, Ana concerned about existing customers. Talked about free tier, everyone agreed it's important. Need to update website and tell customers. Finance timing?</blockquote>
+<p>Both describe the same meeting. Only the first tells Leo, who wasn't there, what changed and who to ask.</p>
+<h3>Habits that make the format work</h3>
+<p>A template helps only if you fill it in during the meeting, not from memory afterward. Three habits make that easier.</p>
+<p><strong>Tag lines as you go.</strong> Start each line with a marker: <code>D:</code> for a decision, <code>A:</code> for an action, <code>Q:</code> for an open question. Sorting them into the template afterward takes a minute.</p>
+<p><strong>Say action items out loud.</strong> When a task comes up, confirm it right then: "So Priya owns the pricing copy, by Thursday?" The question forces an owner and a date while everyone is still in the room to agree or object.</p>
+<p><strong>Save the last two minutes.</strong> Read the decisions and action items back to the group before people leave. It's a quick way to catch the moment when two people heard two different decisions.</p>
+<h3>After the meeting</h3>
+<p>The notes are only the start. Three steps turn them into finished work.</p>
+<ul>
+<li><strong>Send them the same day,</strong> ideally within the hour. Memory fades fast: a <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4492928/">2015 replication of Ebbinghaus's classic forgetting curve</a> found that most of the forgetting happened within the first day. That study measured memory for lists of nonsense syllables, not meetings, so treat it as a direction rather than a number. Still, a recap that arrives while the meeting is fresh is easier for people to check and correct.</li>
+<li><strong>Move action items to where the work lives.</strong> A task in a meeting doc is invisible to the system your team actually checks. Put it in the project tracker, the ticketing system or the CRM, assigned to the owner, with the date.</li>
+<li><strong>Start the next meeting with the last one's action items.</strong> Spend a minute asking, "Did these happen?" Asking it every time tells people the notes matter.</li>
+</ul>
+<h3>What to automate, and what to keep</h3>
+<p>AI meeting tools can now record a call, transcribe it and draft a summary. That changes how much of this you need to do by hand. So the useful question is which parts to automate.</p>
+<p>A simple rule of thumb: <strong>automate recall, keep judgment.</strong></p>
+<p><strong>Hand these to software:</strong></p>
+<ul>
+<li><strong>Capture.</strong> A transcript means you can stop trying to type and listen at the same time.</li>
+<li><strong>The first draft.</strong> A structured draft of decisions, action items and questions is faster to edit than a blank page.</li>
+<li><strong>The busywork after the call.</strong> Copying action items into a tracker, updating CRM fields, filing tickets. It's mechanical, and it's the kind of work that's easy to put off.</li>
+</ul>
+<p><strong>Keep these human:</strong></p>
+<ul>
+<li><strong>Deciding what was actually decided.</strong> A tool can only find what was said. A decision the group circled without stating plainly can slip past it, or a tool can report one that never landed.</li>
+<li><strong>Assigning ownership when it was vague.</strong> If nobody said "I'll do it," a tool can only guess. Fix that in the room with the out-loud habit above.</li>
+<li><strong>Reviewing before anything goes out.</strong> Skim the draft before it reaches the team or a customer. A wrong owner or date in a follow-up email costs more than the minute it takes to check.</li>
+</ul>
+<p>If a tool is recording, tell everyone in the meeting and follow your company's policy. In the US, some states require <a href="https://journalistsresource.org/home/recording-phone-calls-conversations-legal-guide/">consent from everyone in a conversation</a>, not just one participant, and lawsuits filed against AI note-taking companies have alleged <a href="https://www.dataprivacyandsecurityinsider.com/2026/08/ai-meeting-tools-face-wiretapping-wake-up-call/">recording meetings without participants' consent</a>. Rules vary by state and country, so check what applies to you. (This is not legal advice.)</p>
+<p>This is the gap tools like <a href="https://lynkk.ai">Lynkk</a> aim at. Within about 30 seconds of a meeting ending, it produces structured notes and assigned action items, and it can update CRM fields and create Jira tickets, so tasks reach the tools your team already uses. The judgment calls in the list above still belong to you. The tool just removes the typing and copying around them.</p>
+<h3>Start with your next meeting</h3>
+<p>You'll know your notes are working when the next meeting opens with "Did these get done?" instead of "Wait, what did we decide?"</p>
+<p>You don't need to adopt everything at once. At your next meeting, try one change: say each action item out loud with an owner and a date, and send the recap before the end of the day.</p>
+<hr>
+<p><em>Lynkk turns meetings, online or in person, into notes, action items and follow-ups automatically. It's free to start at <a href="https://lynkk.ai">lynkk.ai</a>.</em></p>
+</main>
+</body>
+</html>
