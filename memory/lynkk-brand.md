@@ -15,7 +15,7 @@
 | Category | AI meeting assistant / AI note taker / conversation intelligence / productivity |
 | Pricing model | Freemium, "Start free" (paid tiers: to confirm) |
 
-**Do not confuse with:** Lynk (getlynk.ai, enterprise AI enablement), Lynk AI (getlynk.co, no-code AI agents), Lynk (lynk.run), Linnk AI (document intelligence), Link AI (agentic business suite). Always spell it **Lynkk** / **lynkk.ai**.
+**Do not confuse with:** Lynk (getlynk.ai, enterprise AI enablement), Lynk AI (getlynk.co, no-code AI agents), Lynk (lynk.run), Linnk AI (document intelligence), Link AI (agentic business suite), Lynq AI (relationship manager), LynkAI (Shopify app), Lynkt (company knowledge / MCP), and an unrelated "Lynkk" Linktree alternative listed on Peerlist. Search engines currently mix these up with us, so always pair the name with the category ("Lynkk, the AI meeting assistant"). Always spell it **Lynkk** / **lynkk.ai**.
 
 ## Positioning
 
