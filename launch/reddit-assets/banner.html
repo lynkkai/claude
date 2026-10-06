@@ -3,114 +3,149 @@
 <head>
 <meta charset="utf-8">
 <title>Lynkk Reddit Banner</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  /* Swap these for the official Lynkk brand colors */
+  /* Layout: a meeting timeline read left to right (before, live, after), with the
+     wordmark and all phases inside the central 700px that survives Reddit's crop. */
   :root {
-    --bg-1: #0B1026;
-    --bg-2: #1B1F5E;
-    --bg-3: #3B2A8F;
-    --accent: #7C8CFF;
-    --accent-2: #B892FF;
-    --text: #FFFFFF;
-    --muted: #C9CEF5;
+    --mist: #E8EDF1;      /* cool paper ground, biased toward the ink */
+    --ink: #13233A;       /* deep navy for type and waveform */
+    --ink-soft: #5D6B7E;  /* labels, captions */
+    --rule: #C3CDD7;      /* timeline ticks and baseline */
+    --live: #E0483E;      /* recording red, used only for the live moment */
+    --done: #1F7A5C;      /* completed checks */
+    --display: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
   }
-  html, body { margin: 0; padding: 0; background: var(--bg-1); }
-  #banner {
-    position: relative;
-    overflow: hidden;
-    font-family: "Inter", system-ui, sans-serif;
-    background:
-      radial-gradient(120% 220% at 50% 50%, rgba(124,140,255,0.28) 0%, rgba(124,140,255,0) 55%),
-      linear-gradient(100deg, var(--bg-1) 0%, var(--bg-2) 45%, var(--bg-3) 100%);
+  html, body { margin: 0; padding: 0; background: var(--mist); }
+  #banner { position: relative; overflow: hidden; background: var(--mist); color: var(--ink); }
+  canvas { position: absolute; inset: 0; }
+  .layer { position: absolute; inset: 0; }
+
+  .wordmark {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    display: flex; flex-direction: column; gap: 5px;
+    padding: 6px 14px 6px 0; background: var(--mist);
   }
-  svg.graph { position: absolute; inset: 0; }
-  .content {
-    position: absolute; inset: 0;
-    display: flex; align-items: center; justify-content: center;
-    gap: 18px; color: var(--text);
+  .wordmark .name { font: 800 46px/0.9 var(--display); letter-spacing: -0.035em; }
+  .wordmark .cap { font: 500 9.5px/1 var(--mono); letter-spacing: 0.14em; color: var(--ink-soft); text-transform: uppercase; }
+
+  .phase { position: absolute; font: 500 9.5px/1 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft); white-space: nowrap; }
+  .phase b { font-weight: 500; color: var(--ink); }
+  .phase.live b { color: var(--live); }
+  .phase.live::before {
+    content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+    background: var(--live); margin-right: 6px; vertical-align: 0;
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--live) 22%, transparent);
   }
-  .mark { width: 44px; height: 44px; flex: none; }
-  .wordmark { font-weight: 800; font-size: 40px; letter-spacing: -0.02em; line-height: 1; }
-  .divider { width: 1px; height: 40px; background: rgba(255,255,255,0.3); margin: 0 6px; }
-  .tagline { display: flex; flex-direction: column; gap: 6px; }
-  .tagline .main { font-weight: 700; font-size: 19px; line-height: 1.1; }
-  .tagline .sub { font-weight: 500; font-size: 13px; color: var(--muted); letter-spacing: 0.04em; }
-  .mobile .wordmark { font-size: 34px; }
-  .mobile .mark { width: 38px; height: 38px; }
+  .context { position: absolute; display: flex; flex-direction: column; gap: 5px; }
+  .context span { display: block; height: 4px; border-radius: 2px; background: var(--rule); }
+
+  .checks { position: absolute; display: flex; flex-direction: column; gap: 5px; }
+  .check { display: flex; align-items: center; gap: 6px; font: 500 12px/1 var(--display); color: var(--ink); white-space: nowrap; }
+  .check i {
+    width: 12px; height: 12px; border-radius: 3px; background: var(--done); flex: none;
+    display: grid; place-items: center;
+  }
+  .check i::after { content: ""; width: 5px; height: 3px; border: solid var(--mist); border-width: 0 0 1.6px 1.6px; transform: translateY(-1px) rotate(-45deg); }
+
+  .mobile .wordmark { left: 50%; transform: translate(-50%, -50%); padding: 8px 16px; align-items: center; }
+  .mobile .wordmark .name { font-size: 40px; }
 </style>
 </head>
 <body>
-<div id="banner"></div>
+<div id="banner"><canvas id="c"></canvas><div class="layer" id="layer"></div></div>
 <script>
-  const params = new URLSearchParams(location.search);
-  const W = +params.get("w") || 1072;
-  const H = +params.get("h") || 128;
-  const variant = params.get("variant") || "desktop";
+  const q = new URLSearchParams(location.search);
+  const W = +q.get("w") || 1072, H = +q.get("h") || 128;
+  const variant = q.get("variant") || "desktop";
+  const dpr = window.devicePixelRatio || 1;
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
   const banner = document.getElementById("banner");
-  banner.style.width = W + "px";
-  banner.style.height = H + "px";
+  banner.style.width = W + "px"; banner.style.height = H + "px";
   banner.className = variant;
 
-  // Seeded RNG so the pattern is identical on every render
-  let seed = variant === "mobile" ? 7 : 42;
-  const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const cv = document.getElementById("c");
+  cv.width = W * dpr; cv.height = H * dpr;
+  cv.style.width = W + "px"; cv.style.height = H + "px";
+  const g = cv.getContext("2d");
+  g.scale(dpr, dpr);
 
-  // Node graph, kept sparse around the centered text
-  const nodes = [];
-  const clearW = variant === "mobile" ? 340 : 720;
-  let tries = 0;
-  while (nodes.length < 70 && tries < 5000) {
-    tries++;
-    const x = rand() * W, y = rand() * H;
-    const nearText = Math.abs(x - W / 2) < clearW / 2 && Math.abs(y - H / 2) < 46;
-    if (nearText && rand() > 0.12) continue;
-    if (nodes.some(n => Math.hypot(n.x - x, n.y - y) < 38)) continue;
-    nodes.push({ x, y, r: 1.6 + rand() * 2.6, hot: rand() > 0.82 });
+  let seed = variant === "mobile" ? 11 : 5;
+  const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const mid = H / 2;
+
+  // Timeline: baseline plus minute ticks, a taller tick every five minutes
+  function timeline(alpha) {
+    g.globalAlpha = alpha;
+    g.fillStyle = css("--rule");
+    g.fillRect(0, mid - 0.5, W, 1);
+    for (let x = 4, i = 0; x < W; x += 12, i++) {
+      const h = i % 5 === 0 ? 10 : 5;
+      g.fillRect(Math.round(x), mid + 6, 1, h);
+    }
+    g.globalAlpha = 1;
   }
 
-  let svg = `<svg class="graph" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`;
-  svg += `<defs><linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="#7C8CFF"/><stop offset="1" stop-color="#B892FF"/></linearGradient></defs>`;
-  nodes.forEach((a, i) => {
-    nodes
-      .map((b, j) => ({ b, j, d: Math.hypot(a.x - b.x, a.y - b.y) }))
-      .filter(o => o.j > i && o.d < 95)
-      .sort((p, q) => p.d - q.d)
-      .slice(0, 2)
-      .forEach(({ b, d }) => {
-        const op = (0.42 * (1 - d / 95)).toFixed(3);
-        svg += `<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" stroke="url(#ln)" stroke-width="1" opacity="${op}"/>`;
-      });
-  });
-  nodes.forEach(n => {
-    if (n.hot) svg += `<circle cx="${n.x}" cy="${n.y}" r="${n.r * 3}" fill="#B892FF" opacity="0.18"/>`;
-    svg += `<circle cx="${n.x}" cy="${n.y}" r="${n.r}" fill="${n.hot ? "#E3D6FF" : "#9AA6FF"}" opacity="${n.hot ? 0.95 : 0.55}"/>`;
-  });
-  svg += `</svg>`;
+  // Voice waveform: speech-like envelope built from a few overlapping phrases
+  function waveform(x0, x1, color, maxH, step = 4, bar = 2) {
+    g.fillStyle = color;
+    const phrases = Array.from({ length: 5 }, () => ({ c: x0 + rand() * (x1 - x0), w: 18 + rand() * 50, a: 0.45 + rand() * 0.55 }));
+    for (let x = x0; x <= x1; x += step) {
+      let env = 0.08;
+      phrases.forEach(p => { env += p.a * Math.exp(-((x - p.c) ** 2) / (2 * p.w * p.w)); });
+      const edge = Math.min(1, (x - x0) / 24, (x1 - x) / 24);
+      const h = Math.max(2, Math.min(1, env) * maxH * (0.55 + rand() * 0.45) * edge);
+      g.beginPath();
+      g.roundRect(x, mid - h / 2, bar, h, 1);
+      g.fill();
+    }
+  }
 
-  // Placeholder mark: two linked nodes. Replace with the official logo when available.
-  const mark = `
-    <svg class="mark" viewBox="0 0 48 48">
-      <rect width="48" height="48" rx="12" fill="url(#mk)"/>
-      <defs><linearGradient id="mk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C8CFF"/><stop offset="1" stop-color="#B892FF"/></linearGradient></defs>
-      <line x1="16" y1="31" x2="32" y2="17" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
-      <circle cx="16" cy="31" r="6" fill="#fff"/>
-      <circle cx="32" cy="17" r="6" fill="#fff"/>
-    </svg>`;
+  const layer = document.getElementById("layer");
 
-  const content = variant === "mobile"
-    ? `<div class="content">${mark}<div class="wordmark">Lynkk</div></div>`
-    : `<div class="content">
-         ${mark}<div class="wordmark">Lynkk</div>
-         <div class="divider"></div>
-         <div class="tagline">
-           <div class="main">Your AI teammate for every meeting</div>
-           <div class="sub">BEFORE · DURING · AFTER &nbsp;|&nbsp; LYNKK.AI</div>
-         </div>
-       </div>`;
+  if (variant === "desktop") {
+    // Safe zone: central 700px
+    const S = (W - 700) / 2;
+    timeline(1);
+    // Ghosted waveforms from earlier and later meetings, outside the safe zone
+    g.globalAlpha = 0.16; waveform(10, S - 24, css("--ink"), 40); waveform(W - S + 30, W - 12, css("--ink"), 40); g.globalAlpha = 1;
+    // Live segment
+    waveform(S + 318, S + 520, css("--ink"), 70);
+    // Small nodes where phases meet
+    [S + 300, S + 540].forEach(x => {
+      g.fillStyle = css("--mist"); g.beginPath(); g.arc(x, mid, 5, 0, 7); g.fill();
+      g.strokeStyle = css("--ink"); g.lineWidth = 1.5; g.beginPath(); g.arc(x, mid, 4, 0, 7); g.stroke();
+    });
 
-  banner.innerHTML = svg + content;
+    layer.innerHTML = `
+      <div class="wordmark" style="left:${S}px">
+        <div class="name">Lynkk</div>
+        <div class="cap">AI meeting assistant</div>
+      </div>
+      <div class="phase" style="left:${S + 210}px; top:${mid - 26}px"><b>09:55</b> Before</div>
+      <div class="context" style="left:${S + 210}px; top:${mid + 10}px">
+        <span style="width:64px"></span><span style="width:48px"></span><span style="width:56px"></span>
+      </div>
+      <div class="phase live" style="left:${S + 340}px; top:${mid - 52}px"><b>10:00</b> Live</div>
+      <div class="phase" style="left:${S + 556}px; top:${mid - 40}px"><b>+0:30</b> After</div>
+      <div class="checks" style="left:${S + 556}px; top:${mid - 20}px">
+        <div class="check"><i></i>Notes</div>
+        <div class="check"><i></i>Action items</div>
+        <div class="check"><i></i>Jira ticket</div>
+      </div>`;
+  } else {
+    timeline(0.8);
+    waveform(16, W / 2 - 120, css("--ink"), 56);
+    waveform(W / 2 + 120, W - 16, css("--ink"), 56);
+    layer.innerHTML = `
+      <div class="wordmark">
+        <div class="name">Lynkk</div>
+        <div class="cap">AI meeting assistant</div>
+      </div>`;
+  }
 </script>
 </body>
 </html>
