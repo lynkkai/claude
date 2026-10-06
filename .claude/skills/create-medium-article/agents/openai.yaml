@@ -1,0 +1,7 @@
+interface:
+  display_name: "Create Medium Article"
+  short_description: "Draft and polish a Medium-ready article"
+  default_prompt: "Use $create-medium-article to turn these authoritative project sources into a Medium-ready article."
+
+policy:
+  allow_implicit_invocation: true

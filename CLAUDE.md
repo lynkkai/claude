@@ -5,6 +5,9 @@ Brand spelling is always "Lynkk" (double k), not Lynk, Linnk, or Link AI.
 
 Full brand/product details and ready-to-use tool-submission copy: @memory/lynkk-brand.md
 
+Medium articles: use the `create-medium-article` skill. Its Lynkk profile is
+`.codex/content-profile.md` and the topic backlog is `content/medium/topic-research.md`.
+
 ## Writing rules
 
 These apply to all Lynkk copy, marketing text, and anything written in this repo.
