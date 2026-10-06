@@ -1,0 +1,96 @@
+Priority,Category,Site,Submit / start URL,Cost,Link type (verify after live),Why it fits Lynkk / notes
+High,Launch platform,Product Hunt,https://www.producthunt.com/posts/new,Free,Dofollow on product page,Copy ready in launch/producthunt-submission.md. Plan a launch day; tl;dv and Bluedot both have PH pages.
+High,Launch platform,BetaList,https://betalist.com/submit,Free (long queue) / paid skip,Dofollow,"Early-stage startup audience. Free queue can take weeks, submit early."
+High,Launch platform,Hacker News (Show HN),https://news.ycombinator.com/submit,Free,Nofollow,"Traffic and visibility, not link juice. Lead with the live voice assistant + offline-first angle."
+High,Launch platform,Indie Hackers (Products),https://www.indiehackers.com/products,Free,Varies,Product page plus founder posts about building Lynkk.
+High,Launch platform,Uneed,https://www.uneed.best/submit-a-tool,Free queue / paid skip,Dofollow (badge),Listing persists after launch day.
+High,Launch platform,Peerlist Launchpad,https://peerlist.io/launchpad,Free,Varies,Weekly launch tied to founder profile.
+Medium,Launch platform,Microlaunch,https://microlaunch.net,Free,Varies,"Month-long exposure, good for feedback."
+Medium,Launch platform,Fazier,https://fazier.com,Free / paid boost,Dofollow (badge),"Smaller daily board, easier to rank top."
+Medium,Launch platform,Tiny Startups,https://www.tinystartups.com,Free,Varies,Board + newsletter to ~20k founders.
+Medium,Launch platform,Launching Next,https://www.launchingnext.com/submit/,Free,Dofollow,"Classic startup directory, simple form."
+Medium,Launch platform,Smol Launch,https://smollaunch.com,Free (badge-verified),Dofollow with badge,Free dofollow if you add their badge.
+Medium,Launch platform,DevHunt,https://devhunt.org,Free,Dofollow,Dev-tool focused. Pitch the MCP and Jira angle.
+Medium,Launch platform,SideProjectors,https://www.sideprojectors.com,Free,Varies,Free project listing.
+Medium,Launch platform,StartupBase,https://startupbase.io,Free,Varies,Startup directory + launch.
+Medium,Launch platform,OpenHunts,https://openhunts.com,Free,Varies,Weekly launch board.
+Low,Launch platform,Kick Product,https://kickproduct.com,Free,Varies,Fair-launch SaaS board.
+Low,Launch platform,Indiehunt,https://indiehunt.io,Free,Varies,Indie launch board.
+Low,Launch platform,Earlyhunt,https://earlyhunt.com,Free,Varies,Early product discovery.
+High,AI directory,There's An AI For That,https://theresanaiforthat.com/submit/,Free basic / paid fast-track,Varies,"Biggest AI directory. Free tier still exists in 2026, review 1-2 weeks."
+High,AI directory,Toolify.ai,https://www.toolify.ai/submit,Free basic / paid fast-track,Varies,"Huge index, fast approval."
+High,AI directory,Future Tools (Matt Wolfe),https://www.futuretools.io/submit-a-tool,Free,Varies,"Curated, not guaranteed. Strong audience."
+High,AI directory,Productivity Directory,https://productivity.directory,Free,Varies,Productivity-specific: exact fit for a meeting assistant.
+High,AI directory,AI Agent Store,https://aiagentstore.ai,Free,Varies,"Lynkk acts as an agent (joins, speaks, does follow-up work). List under meeting agents."
+High,AI directory,AI Agents Directory,https://aiagentsdirectory.com,Free,Varies,Agent-focused audience.
+Medium,AI directory,Supertools (The Rundown),https://supertools.therundown.ai,Free,Varies,Linked to The Rundown AI newsletter audience.
+Medium,AI directory,AIxploria,https://www.aixploria.com,Free,Varies,Large multilingual AI directory.
+Medium,AI directory,Insidr.ai,https://www.insidr.ai/ai-tools/,Free,Varies,Business/productivity AI tools.
+Medium,AI directory,OpenTools,https://opentools.ai,Free,Varies,AI tool search + listing.
+Medium,AI directory,TopAI.tools,https://topai.tools,Free / paid tiers,Varies,Check current free option before submitting.
+Medium,AI directory,AIChief,https://aichief.com,Free,Varies,Business-focused AI directory.
+Medium,AI directory,Sales Tools AI,https://salestoolsai.top,Free,Varies,Sales niche: pitch CRM auto-updates and call prep.
+Medium,AI directory,Dofollow.Tools,https://dofollow.tools,Free,Dofollow,Explicitly offers free dofollow links.
+Medium,AI directory,AI Toolz Dir,https://www.aitoolzdir.com,Free,Dofollow (DR ~27 claimed),Free dofollow backlink offer.
+Medium,AI directory,Best of Web,https://www.bestofweb.site,Free,Dofollow,Free dofollow listing.
+Medium,AI directory,AgentHunter,https://www.agenthunter.io,Free,Varies,AI agent discovery.
+Medium,AI directory,Tool Pilot,https://www.toolpilot.ai,Free,Varies,Category-based AI tools.
+Medium,AI directory,Toolkitly,https://www.toolkitly.com,Free,Varies,AI tool listings + discussions.
+Low,AI directory,NeonRev,https://www.neonrev.com,Free,Varies,Large AI directory.
+Low,AI directory,Altern,https://altern.ai,Free,Varies,AI tools and resources.
+Low,AI directory,AI Hunt List,https://aihuntlist.com,Free,Varies,"3000+ products, 200+ categories."
+Low,AI directory,Submit AI Tools,https://submitaitools.org,Free,Varies,Simple submission form.
+Low,AI directory,EliteAI Tools,https://eliteai.tools,Free,Varies,Curated listing.
+Low,AI directory,AI Scout,https://aiscout.net,Free,Varies,General AI directory.
+Low,AI directory,All Things AI,https://allthingsai.com,Free,Varies,Curated AI resource.
+Low,AI directory,Find My AI Tool,https://findmyaitool.com,Free,Varies,Business AI tools.
+Low,AI directory,AItoolsHunt,https://aitoolshunt.com,Free,Varies,Discovery directory.
+Low,AI directory,Beyond AI Tools,https://www.beyondaitools.com,Free,Varies,Multilingual directory: matches Lynkk's multilingual angle.
+Low,AI directory,IA sur mesure (French),https://iasurmesure.com,Free,Varies,"French-language AI directory, useful if targeting EU."
+Skip (paid),AI directory,Futurepedia,https://www.futurepedia.io,Paid only in 2026,Dofollow,No longer free. Listed so the team does not waste time on it.
+High,Software review site,G2,https://sell.g2.com,Free vendor profile,Nofollow mostly,Huge buyer trust. Needs pricing info (see 'To confirm'). Ask early users for reviews.
+High,Software review site,Capterra / GetApp / Software Advice (Gartner),https://digitalmarkets.gartner.com,Free basic listing (PPC optional),Nofollow mostly,One signup covers three sites. Category: meeting management / transcription.
+High,Software review site,AlternativeTo,https://alternativeto.net,Free,Nofollow,"Add Lynkk as an alternative to Otter.ai, Fireflies, Fathom, tl;dv. High-intent traffic."
+High,Software review site,SaaSHub,https://www.saashub.com/submit,Free,Dofollow (with badge/verification),Also list as alternative to the same competitors.
+High,Software review site,TrustRadius,https://www.trustradius.com/vendors,Free vendor profile,Nofollow mostly,B2B buyer reviews.
+Medium,Software review site,SaaSworthy,https://www.saasworthy.com,Free listing,Varies,SaaS comparison site.
+Medium,Software review site,SourceForge / Slashdot,https://sourceforge.net/software/vendors/,Free vendor listing,Varies,High DR business software directory.
+Medium,Software review site,SoftwareSuggest,https://www.softwaresuggest.com,Free listing,Varies,Strong in India/APAC.
+Medium,Software review site,Tekpon,https://tekpon.com,Free listing,Varies,SaaS marketplace with reviews.
+Medium,Software review site,GoodFirms (Software),https://www.goodfirms.co,Free listing,Varies,Software + reviews.
+High,Company profile,Crunchbase,https://www.crunchbase.com,Free profile,Nofollow,"Competitors (tl;dv, Bluedot) all have one. Needs company legal name, HQ, founders."
+High,Company profile,Wellfound (AngelList),https://wellfound.com,Free company profile,Varies,Also useful for hiring.
+Medium,Company profile,F6S,https://www.f6s.com,Free,Varies,Startup profile + programs.
+Medium,Company profile,Dealroom,https://dealroom.co,Free claim,Varies,"Claim/create profile, strong in EU."
+Medium,Company profile,YourStory Companies,https://yourstory.com/companies,Free,Varies,Bluedot has a profile here. Most relevant if Lynkk is India-based.
+Medium,Company profile,LinkedIn Company Page,https://www.linkedin.com/company/setup/new/,Free,Nofollow,Brand signal and entity consistency for Google and AI search.
+High,App store / download site,Mac App Store,https://developer.apple.com/app-store/,Apple dev fee,Dofollow-equivalent (DR 99),"Bluedot and tl;dv rank from apps.apple.com. Mac app exists, confirm if it ships via App Store."
+Medium,App store / download site,Homebrew Cask,https://github.com/Homebrew/homebrew-cask,Free (PR),Listed on formulae.brew.sh,Fathom has a cask. Needs a stable downloadable .dmg and meets popularity rules.
+Medium,App store / download site,MacUpdate,https://www.macupdate.com,Free developer submission,Varies,Mac app directory.
+Medium,App store / download site,Uptodown,https://www.uptodown.com,Free,Varies,tl;dv is listed here.
+Medium,App store / download site,Softpedia,https://www.softpedia.com,Free,Varies,Download directory for Mac/Windows apps.
+Medium,App store / download site,Chrome Web Store,https://chrome.google.com/webstore/devconsole,$5 one-time,High DR,Only if Lynkk ships a browser extension. All three competitors rank from here.
+High,Integration marketplace,Atlassian Marketplace (Jira),https://marketplace.atlassian.com,Free listing,High DR,Lynkk creates Jira tickets: a listing here is very relevant.
+High,Integration marketplace,Cal.com App Store,https://cal.com/apps,Free (via partnership/PR),High DR,Lynkk integrates with Cal.com. Ask to be listed as an app/integration.
+High,Integration marketplace,Calendly Integrations,https://calendly.com/integrations,Free (partner request),High DR,Lynkk integrates with Calendly. Request a partner listing.
+Medium,Integration marketplace,HubSpot App Marketplace,https://ecosystem.hubspot.com/marketplace,Free (app review),High DR (Fathom has one),Only if HubSpot is one of the supported CRMs (to confirm).
+Medium,Integration marketplace,Zapier App Directory,https://developer.zapier.com,Free,High DR,"Build a Zapier integration, get zapier.com/apps/lynkk. Bluedot has one."
+Medium,Integration marketplace,Salesforce AppExchange,https://appexchange.salesforce.com,Security review fee,High DR,Only if Salesforce CRM is supported.
+Medium,Integration marketplace,Zoom App Marketplace,https://marketplace.zoom.us,Free,High DR,Only if Lynkk has a Zoom app.
+Medium,Integration marketplace,Slack App Directory,https://api.slack.com/apps,Free,High DR,Only if Lynkk has a Slack integration.
+Medium,MCP directory,mcp.so,https://mcp.so,Free,Varies,Only if Lynkk exposes an MCP server. Fits the 'connect anything via MCP' message.
+Medium,MCP directory,Smithery,https://smithery.ai,Free,Varies,Same: MCP server registry.
+Medium,MCP directory,Glama MCP,https://glama.ai/mcp/servers,Free,Varies,Same: MCP server registry.
+Medium,MCP directory,PulseMCP,https://www.pulsemcp.com,Free,Varies,Same: MCP server registry.
+High,Self-published content,dev.to,https://dev.to,Free,"Nofollow (but indexed, DR 84)",Competitors get links from 'Best Otter.ai alternatives 2026' posts here. Write comparison and build posts.
+High,Self-published content,Medium,https://medium.com,Free,Nofollow (DR 95),Founder story + 'AI meeting assistant that speaks in the meeting' explainer.
+Medium,Self-published content,Substack,https://substack.com,Free,Varies,Start a short newsletter on meeting productivity; also pitch existing Substacks (Wonder Tools covered Granola).
+Medium,Self-published content,Hashnode,https://hashnode.com,Free,Varies,"Engineering blog: MCP, offline-first, data residency architecture."
+Medium,Self-published content,LinkedIn Articles,https://www.linkedin.com,Free,Nofollow,Repurpose blog posts.
+Medium,Community,"Reddit (r/SaaS, r/productivity, r/sales, r/startups)",https://www.reddit.com,Free,Nofollow,Traffic and AI-search visibility. Follow each sub's self-promo rules.
+Medium,Community,Quora,https://www.quora.com,Free,Nofollow,Answer 'best AI note taker / meeting assistant' questions.
+Medium,GitHub list,Awesome AI Tools (mahseema),https://github.com/mahseema/awesome-ai-tools,Free (pull request),Nofollow (DR 96),Open a PR adding Lynkk under the meetings/productivity section.
+High,PR / journalist requests,Qwoted,https://www.qwoted.com,Free tier,Editorial dofollow,Answer journalist requests about AI at work. Earns real editorial links.
+High,PR / journalist requests,Featured.com,https://featured.com,Free tier,Editorial dofollow,Expert quotes published on high-DR sites.
+Medium,PR / journalist requests,Help a B2B Writer,https://helpab2bwriter.com,Free,Editorial dofollow,B2B writers looking for sources.
+Medium,PR / journalist requests,Source of Sources (SOS),https://www.sourceofsources.com,Free,Editorial dofollow,HARO-style requests.
