@@ -1,5 +1,13 @@
 # Lynkk.ai: Brand & Product Memory
 
+> **Superseded for product claims.** `lynkk-post-kit/docs/TRUTHS.md` (checked against the
+> product on 2026-09-29) overrides this file. Several items below came from web search and
+> are **not true**: Lynkk does not speak in meetings or answer by voice, there is no CRM
+> integration, no data-region setting, no knowledge graph screen, no MCP integration, it is
+> not offline-first, and "notes within 30 seconds" is not a claim we may make. Jira send is
+> manual. Do not reuse the positioning, feature or submission copy below without checking
+> each claim against TRUTHS.md.
+
 > Source of truth for tool/directory submissions. Collected 2026-09-27 from web search
 > results for lynkk.ai (the site itself was not directly reachable from this environment).
 > Items under "To confirm" must be filled in by the team before submitting.

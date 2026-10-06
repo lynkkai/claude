@@ -17,9 +17,9 @@ Tip: also reserve the fallbacks (create them as private) so nobody squats on the
 
 ## 2. Description (shown under the name, max 500 characters)
 
-> The official community for Lynkk (lynkk.ai), the AI meeting assistant that works before, during and after every meeting. Lynkk joins your calls, speaks when needed, remembers everything, and turns conversations into notes, action items, CRM updates and Jira tickets. Share tips, workflows, feature requests and feedback, ask questions, and hear product updates straight from the Lynkk team.
+> The official community for Lynkk (lynkk.ai), the AI meeting assistant. Lynkk records your meetings, writes the notes, pulls out the tasks, and lets you ask questions across everything you've recorded. Share tips and workflows, ask questions, request features, and hear product updates from the Lynkk team.
 
-(about 390 characters)
+(about 300 characters. Every claim is from `lynkk-post-kit/docs/TRUTHS.md`.)
 
 ## 3. Topics (pick up to 3)
 
@@ -42,9 +42,12 @@ Optional: start as **Restricted** for the first 1-2 weeks so only approved users
 
 | Asset | Spec | What to use |
 |---|---|---|
-| Icon / avatar | 256 x 256 px, PNG or JPG, square | Lynkk logo mark on a solid brand-color background |
-| Banner | 1920 x 384 px (desktop) | Logo + tagline: "Your AI teammate for every meeting: before, during, after" |
-| Key color | Hex code | Primary Lynkk brand color |
+| Icon / avatar | 256 x 256 px, PNG or JPG, square | The white sphere mark (`lynkk-post-kit/kit/assets/mark.svg`) on #111111 |
+| Banner image | at least 1072 x 128 px | `reddit-assets/reddit-banner-desktop.png` (2144 x 256) |
+| Mobile banner image | at least 1080 x 128 px | `reddit-assets/reddit-banner-mobile.png` (2160 x 256) |
+| Key color | Hex code | #111111 (the night band) |
+
+The banners are built in the post kit: `lynkk-post-kit/posts/reddit-banner/`. Re-render with `node scripts/render.mjs posts/reddit-banner` from `lynkk-post-kit/`.
 
 ## 6. Rules (Mod Tools > Rules)
 
@@ -52,7 +55,7 @@ Optional: start as **Restricted** for the first 1-2 weeks so only approved users
 2. **Stay on topic.** Posts should relate to Lynkk, AI meeting assistants, meeting productivity, or related workflows.
 3. **No spam or unrelated self-promotion.** Promoting other products, affiliate links, or repeated low-effort posts will be removed.
 4. **Protect privacy.** Do not share meeting transcripts, recordings, or screenshots that include other people's personal or confidential information.
-5. **Bug reports and feature requests go in the right flair.** Include your platform (Web / Mac), steps to reproduce, and what you expected.
+5. **Bug reports and feature requests go in the right flair.** Include how you recorded (Mac app, meeting bot, Chrome extension or web), steps to reproduce, and what you expected.
 6. **Support requests about your account or billing:** email marketing@lynkk.ai instead of posting account details publicly.
 7. **No misinformation about the product.** Official answers come from users with the "Lynkk Team" flair.
 
@@ -64,7 +67,7 @@ Optional: start as **Restricted** for the first 1-2 weeks so only approved users
 - Feature Request
 - Bug Report
 - Tips & Workflows
-- Integration (Jira / CRM / Calendar / MCP)
+- Integrations (Jira / Google Calendar / Slack)
 - Feedback
 - Discussion
 
@@ -81,13 +84,14 @@ Optional: start as **Restricted** for the first 1-2 weeks so only approved users
 
 **About / Community info:**
 
-> Lynkk is one AI across the entire meeting lifecycle.
+> Lynkk records your meetings, writes the notes, pulls out the tasks, and lets you ask questions across everything you've recorded.
 >
-> **Before:** context from past meetings, so you start ahead, not cold.
-> **During:** Lynkk joins and speaks when you need it. Ask for past context or documents, live, by voice.
-> **After (within ~30 seconds):** structured notes, assigned action items, updated CRM fields, Jira tickets, and everything searchable in a knowledge graph.
+> **Before:** with Google Calendar connected, a morning email on meeting days: who you're meeting, your last note with them, and the action items still open between you.
+> **During:** record from the Mac app (no bot joins the call), the meeting bot (Google Meet, Zoom, Teams), the Chrome extension, or the web, including in-person meetings.
+> **After:** a transcript in 17 languages (four in beta) and a Meeting Brief with takeaways, action items, decisions and open questions. Send action items to Jira from the note, one issue each.
 >
-> Works for online and in-person meetings. Multilingual. Offline-first. Choose the region where your data is processed.
+> **Ask Lynkk (Pro):** ask questions across your own notes and get answers with citations.
+> Lynkk never trains on your conversations.
 
 **Links widget:**
 
@@ -110,7 +114,7 @@ Optional: start as **Restricted** for the first 1-2 weeks so only approved users
 2. **Introduce yourself:** what's your role and how many meetings do you have a week?
 3. **Feature request megathread** (upvote ideas so the team sees priorities)
 
-Good follow-up posts: a short demo video, "how we use Lynkk for sales call prep", "Jira tickets from standups in 30 seconds", and a monthly product update.
+Good follow-up posts: a short demo video, "Recording a call on the Mac without a bot", "Sending stand-up action items to Jira from the note", and a monthly product update.
 
 ## 12. Moderator checklist
 
