@@ -15,20 +15,22 @@ after any edit with
 5. Scroll once to check that the template shows as a grey code block and the
    "typical version" example shows as a quote.
 
-## 2. Add a top image (strongly recommended)
+## 2. Add the top image
 
 Medium uses the first image as the preview thumbnail in feeds and on social
-shares. Stories without one look empty in the feed.
+shares, so add it before publishing.
 
-- Place it directly under the subtitle.
-- Wide (about 1400x788), no embedded text, no third-party logos.
-- Suggested idea: a notebook or laptop on a meeting table, shot from above.
-  Free options: Unsplash (insert from Medium's "+" menu, which adds the credit
-  automatically).
-- **Alt text** (click the image, then "Alt text"): `An open notebook on a meeting
-  table with a short list of decisions and action items.` Adjust to match the
-  image you pick.
-- **Caption:** `Good notes record what happens next, not everything that was said.`
+- **File:** `hero-meeting-notes-that-turn-into-action.png` (2800x1576, 16:9,
+  original illustration, no text or logos). The `.svg` beside it is the editable
+  source.
+- **Where:** click the empty line directly under the subtitle, click **+**, then
+  the image icon, and upload the file. Keep the default width (Medium's
+  "outset" or full-width options also work for this image).
+- **Alt text** (click the image, then "Alt text"): `Illustration: a page of
+  scribbled meeting notes on the left flows into a clean card on the right
+  listing three checked-off action items, each with an owner and a due date.`
+- **Caption** (type under the image): `Good notes record what happens next, not
+  everything that was said.`
 
 ## 3. Story settings
 
@@ -51,7 +53,7 @@ publish screen.
 - [ ] Click each of the 6 links once (4 sources, 2 to lynkk.ai). They were
       confirmed through search results, not opened directly.
 - [ ] Title and subtitle look right in the preview card.
-- [ ] Top image has alt text and a caption.
+- [ ] Top image is uploaded under the subtitle, with alt text and caption.
 - [ ] Author bio on the Medium profile mentions Lynkk (the story only has one
       closing line about it).
 - [ ] Optional: submit to a Medium publication about productivity or

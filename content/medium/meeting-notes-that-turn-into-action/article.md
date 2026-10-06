@@ -6,6 +6,9 @@ target_keyword: "how to take good meeting notes"
 status: ready-for-review
 medium_tags: ["Productivity", "Meetings", "Management", "Leadership", "Work"]
 canonical_url: ""
+hero_image: "hero-meeting-notes-that-turn-into-action.png"
+hero_alt: "Illustration: a page of scribbled meeting notes on the left flows into a clean card on the right listing three checked-off action items, each with an owner and a due date."
+hero_caption: "Good notes record what happens next, not everything that was said."
 ---
 
 # How to Take Meeting Notes That Actually Turn Into Action
