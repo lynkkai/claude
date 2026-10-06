@@ -148,6 +148,9 @@ Lynkk's job is to get **into** those pages (and the Reddit thread), not to outra
 - **SEO:** tiny keyword footprint but huge branded demand. Clean `/vs/fireflies` comparison pages that rank #2.
   Moved domain from fathom.video to fathom.ai (signal: "AI" in the entity).
 - **Lesson for Lynkk:** reviews + a generous free tier + marketplace distribution beat blogging.
+- **Update (Sep 14, 2026): acquired by Superhuman** (formerly Grammarly) to feed its Go assistant and agents with meeting context.
+  400K+ monthly users. The free plan is unchanged "for now," with no long-term statement. Fireflies published a
+  "what it means for Fathom users" post within days. Expect switching questions on Reddit and in AI answers ("Fathom alternative").
 
 ### Granola
 - **Brand-led growth:** distinctive, warm, "human" brand; rebrand + first OOH campaign; Ramp data showed it as the
