@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lynkk Reddit Banner</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  /* Swap these for the official Lynkk brand colors */
+  :root {
+    --bg-1: #0B1026;
+    --bg-2: #1B1F5E;
+    --bg-3: #3B2A8F;
+    --accent: #7C8CFF;
+    --accent-2: #B892FF;
+    --text: #FFFFFF;
+    --muted: #C9CEF5;
+  }
+  html, body { margin: 0; padding: 0; background: var(--bg-1); }
+  #banner {
+    position: relative;
+    overflow: hidden;
+    font-family: "Inter", system-ui, sans-serif;
+    background:
+      radial-gradient(120% 220% at 50% 50%, rgba(124,140,255,0.28) 0%, rgba(124,140,255,0) 55%),
+      linear-gradient(100deg, var(--bg-1) 0%, var(--bg-2) 45%, var(--bg-3) 100%);
+  }
+  svg.graph { position: absolute; inset: 0; }
+  .content {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    gap: 18px; color: var(--text);
+  }
+  .mark { width: 44px; height: 44px; flex: none; }
+  .wordmark { font-weight: 800; font-size: 40px; letter-spacing: -0.02em; line-height: 1; }
+  .divider { width: 1px; height: 40px; background: rgba(255,255,255,0.3); margin: 0 6px; }
+  .tagline { display: flex; flex-direction: column; gap: 6px; }
+  .tagline .main { font-weight: 700; font-size: 19px; line-height: 1.1; }
+  .tagline .sub { font-weight: 500; font-size: 13px; color: var(--muted); letter-spacing: 0.04em; }
+  .mobile .wordmark { font-size: 34px; }
+  .mobile .mark { width: 38px; height: 38px; }
+</style>
+</head>
+<body>
+<div id="banner"></div>
+<script>
+  const params = new URLSearchParams(location.search);
+  const W = +params.get("w") || 1072;
+  const H = +params.get("h") || 128;
+  const variant = params.get("variant") || "desktop";
+
+  const banner = document.getElementById("banner");
+  banner.style.width = W + "px";
+  banner.style.height = H + "px";
+  banner.className = variant;
+
+  // Seeded RNG so the pattern is identical on every render
+  let seed = variant === "mobile" ? 7 : 42;
+  const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+
+  // Node graph, kept sparse around the centered text
+  const nodes = [];
+  const clearW = variant === "mobile" ? 340 : 720;
+  let tries = 0;
+  while (nodes.length < 70 && tries < 5000) {
+    tries++;
+    const x = rand() * W, y = rand() * H;
+    const nearText = Math.abs(x - W / 2) < clearW / 2 && Math.abs(y - H / 2) < 46;
+    if (nearText && rand() > 0.12) continue;
+    if (nodes.some(n => Math.hypot(n.x - x, n.y - y) < 38)) continue;
+    nodes.push({ x, y, r: 1.6 + rand() * 2.6, hot: rand() > 0.82 });
+  }
+
+  let svg = `<svg class="graph" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`;
+  svg += `<defs><linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="#7C8CFF"/><stop offset="1" stop-color="#B892FF"/></linearGradient></defs>`;
+  nodes.forEach((a, i) => {
+    nodes
+      .map((b, j) => ({ b, j, d: Math.hypot(a.x - b.x, a.y - b.y) }))
+      .filter(o => o.j > i && o.d < 95)
+      .sort((p, q) => p.d - q.d)
+      .slice(0, 2)
+      .forEach(({ b, d }) => {
+        const op = (0.42 * (1 - d / 95)).toFixed(3);
+        svg += `<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" stroke="url(#ln)" stroke-width="1" opacity="${op}"/>`;
+      });
+  });
+  nodes.forEach(n => {
+    if (n.hot) svg += `<circle cx="${n.x}" cy="${n.y}" r="${n.r * 3}" fill="#B892FF" opacity="0.18"/>`;
+    svg += `<circle cx="${n.x}" cy="${n.y}" r="${n.r}" fill="${n.hot ? "#E3D6FF" : "#9AA6FF"}" opacity="${n.hot ? 0.95 : 0.55}"/>`;
+  });
+  svg += `</svg>`;
+
+  // Placeholder mark: two linked nodes. Replace with the official logo when available.
+  const mark = `
+    <svg class="mark" viewBox="0 0 48 48">
+      <rect width="48" height="48" rx="12" fill="url(#mk)"/>
+      <defs><linearGradient id="mk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C8CFF"/><stop offset="1" stop-color="#B892FF"/></linearGradient></defs>
+      <line x1="16" y1="31" x2="32" y2="17" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="16" cy="31" r="6" fill="#fff"/>
+      <circle cx="32" cy="17" r="6" fill="#fff"/>
+    </svg>`;
+
+  const content = variant === "mobile"
+    ? `<div class="content">${mark}<div class="wordmark">Lynkk</div></div>`
+    : `<div class="content">
+         ${mark}<div class="wordmark">Lynkk</div>
+         <div class="divider"></div>
+         <div class="tagline">
+           <div class="main">Your AI teammate for every meeting</div>
+           <div class="sub">BEFORE · DURING · AFTER &nbsp;|&nbsp; LYNKK.AI</div>
+         </div>
+       </div>`;
+
+  banner.innerHTML = svg + content;
+</script>
+</body>
+</html>
