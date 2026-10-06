@@ -14,7 +14,7 @@ canonical_url: ""
 
 Three weeks after a planning meeting, someone asks, "Didn't we agree to follow up with that customer?" Everyone remembers the conversation. Someone even took notes: a full page of them. But reading the page doesn't tell you who was supposed to send the email, or by when, or whether the team ever really decided anything.
 
-That's the usual way meeting notes fail. They aren't missing. They record the wrong thing. They follow the conversation when they should follow the commitments.
+The notes exist. The trouble is what they recorded: the conversation, not the commitments.
 
 Here is a simple way to fix that: a short format, a few habits for the meeting itself, and a rule for which parts to automate.
 
@@ -27,19 +27,19 @@ Before getting into format, settle what notes are for. They aren't a memory aid 
 
 That gives you a test for any set of notes: **could someone who wasn't there read them in two minutes and know what to do next?**
 
-If the answer is no, adding detail rarely helps. Most notes that fail this test already have too much detail of the wrong kind.
+If the answer is no, more detail probably won't fix it. Different detail will.
 
 ## What to stop writing down
 
-Most of the effort in note-taking goes into things nobody reads again:
+Formal meetings settled this question long ago. *Robert's Rules of Order*, the standard guide for running formal meetings, advises that [minutes should record what was done at a meeting, not what was said](https://www.cityofmadison.com/attorney/committees-legislation/roberts-rules/taking-minutes). Minutes are an official record with their own rules on wording and approval, and your team's working notes don't need that formality. But the principle carries over well.
+
+With that in mind, consider dropping:
 
 - **The play-by-play.** "Sam raised the timeline. Ana disagreed. Sam suggested..." A record in time order makes the reader rebuild the outcome on their own.
 - **Every opinion on the way to a decision.** The debate mattered in the room. Afterward, what matters is where it landed and, in a sentence, why.
 - **Near-verbatim quotes.** Keep one only when the exact words matter, such as a customer describing a problem in their own language.
 - **Things that already live somewhere else.** If the numbers are in the slide deck, link the deck. Don't copy it.
 - **The agenda, restated.** The headings can come from the agenda. The content shouldn't repeat it.
-
-Dropping these frees your attention for the part that matters.
 
 ## The four things worth writing down
 
@@ -55,7 +55,7 @@ Good notes come down to four kinds of information.
 
 If an item is missing any of the three, it isn't an action item yet. It's a hope.
 
-**3. Open questions.** Things the group couldn't settle, each with the person who will find the answer. Unowned questions quietly turn into the same discussion at the next meeting.
+**3. Open questions.** Things the group couldn't settle, each with the person who will find the answer. Without an owner, a question is likely to come back as the same discussion next time.
 
 **4. Context future-you will need.** Constraints, numbers, a customer's exact objection, a dependency on another team. Keep this short. If it doesn't change what someone would do, leave it out.
 
@@ -93,51 +93,49 @@ Both describe the same meeting. Only the first tells Leo, who wasn't there, what
 
 ## Habits that make the format work
 
-A template helps only if you fill it in during the meeting, not from memory afterward. Three habits make that easy.
+A template helps only if you fill it in during the meeting, not from memory afterward. Three habits make that easier.
 
 **Tag lines as you go.** Start each line with a marker: `D:` for a decision, `A:` for an action, `Q:` for an open question. Sorting them into the template afterward takes a minute.
 
-**Say action items out loud.** When a task comes up, confirm it right then: "So Priya owns the pricing copy, by Thursday?" That five-second question does most of the work. It forces an owner and a date while everyone is still in the room to agree or object.
+**Say action items out loud.** When a task comes up, confirm it right then: "So Priya owns the pricing copy, by Thursday?" The question forces an owner and a date while everyone is still in the room to agree or object.
 
-**Save the last two minutes.** Read the decisions and action items back to the group before people leave. It's the cheapest way to catch the moment when two people heard two different decisions.
+**Save the last two minutes.** Read the decisions and action items back to the group before people leave. It's a quick way to catch the moment when two people heard two different decisions.
 
-## After the meeting: notes are not the finish line
+## After the meeting
 
-Notes only matter if the work happens, and work doesn't happen in a notes doc.
+The notes are only the start. Three steps turn them into finished work.
 
-- **Send them the same day,** ideally within the hour. A recap that arrives while people still remember the meeting gets corrected. One that arrives three days later gets archived.
+- **Send them the same day,** ideally within the hour. Memory fades fast: a [2015 replication of Ebbinghaus's classic forgetting curve](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4492928/) found that most of the forgetting happened within the first day. That study measured memory for lists of nonsense syllables, not meetings, so treat it as a direction rather than a number. Still, a recap that arrives while the meeting is fresh is easier for people to check and correct.
 - **Move action items to where the work lives.** A task in a meeting doc is invisible to the system your team actually checks. Put it in the project tracker, the ticketing system or the CRM, assigned to the owner, with the date.
-- **Start the next meeting with the last one's action items.** Spend a minute asking, "Did these happen?" That one question shows people the notes matter more than any rule about taking them.
-
-A quick note on terms: **meeting notes** are a working tool for getting things done. **Minutes** are a formal record, often required for boards and committees, and they have their own rules on wording and approval. The format above is for the first kind.
+- **Start the next meeting with the last one's action items.** Spend a minute asking, "Did these happen?" Asking it every time tells people the notes matter.
 
 ## What to automate, and what to keep
 
 AI meeting tools can now record a call, transcribe it and draft a summary. That changes how much of this you need to do by hand. The useful question is no longer *whether* to automate, but *which parts*.
 
-Here is a simple rule: **automate recall, keep judgment.**
+A simple rule of thumb: **automate recall, keep judgment.**
 
 **Hand these to software:**
 
 - **Capture.** A transcript means you can stop trying to type and listen at the same time.
 - **The first draft.** A structured draft of decisions, action items and questions is faster to edit than a blank page.
-- **The busywork after the call.** Copying action items into a tracker, updating CRM fields, filing tickets. This is where follow-up usually dies, and it's mechanical.
+- **The busywork after the call.** Copying action items into a tracker, updating CRM fields, filing tickets. It's mechanical, and it's the kind of work that's easy to put off.
 
 **Keep these human:**
 
-- **Deciding what was actually decided.** A tool can only find what was said. A decision the group danced around without stating plainly will slip past it, or a tool will report one that never landed.
+- **Deciding what was actually decided.** A tool can only find what was said. A decision the group circled without stating plainly can slip past it, or a tool can report one that never landed.
 - **Assigning ownership when it was vague.** If nobody said "I'll do it," a tool can only guess. Fix that in the room with the out-loud habit above.
 - **Reviewing before anything goes out.** Skim the draft before it reaches the team or a customer. A wrong owner or date in a follow-up email costs more than the minute it takes to check.
 
-And if a tool is recording, tell everyone in the meeting, and follow your company's policy and local law on consent. It's basic courtesy, and in some places it's a legal requirement. (This is not legal advice.)
+If a tool is recording, tell everyone in the meeting and follow your company's policy. In the US, some states require [consent from everyone in a conversation](https://journalistsresource.org/home/recording-phone-calls-conversations-legal-guide/), not just one participant, and lawsuits filed against AI note-taking companies have alleged [recording meetings without participants' consent](https://www.dataprivacyandsecurityinsider.com/2026/08/ai-meeting-tools-face-wiretapping-wake-up-call/). Rules vary by state and country, so check what applies to you. (This is not legal advice.)
 
-This is the gap tools like [Lynkk](https://lynkk.ai) aim at. Within about 30 seconds of a meeting ending, it produces structured notes and assigned action items, and it can update CRM fields and create Jira tickets, so the follow-up happens where the work lives. The judgment calls in the list above still belong to you. The tool just removes the typing and copying around them.
+This is the gap tools like [Lynkk](https://lynkk.ai) aim at. Within about 30 seconds of a meeting ending, it produces structured notes and assigned action items, and it can update CRM fields and create Jira tickets, so tasks reach the tools your team already uses. The judgment calls in the list above still belong to you. The tool just removes the typing and copying around them.
 
-## The real measure of good notes
+## Start with your next meeting
 
-You can tell your notes are working when the next meeting opens with "Did these get done?" instead of "Wait, what did we decide?"
+You'll know your notes are working when the next meeting opens with "Did these get done?" instead of "Wait, what did we decide?"
 
-So take fewer notes, but take the right ones. Write down decisions, owners, dates and open questions, and let the rest go. Then make sure the action items leave the doc and land where the work happens.
+You don't need to adopt everything at once. At your next meeting, try one change: say each action item out loud with an owner and a date, and send the recap before the end of the day.
 
 ---
 
