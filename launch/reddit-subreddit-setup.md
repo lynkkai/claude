@@ -166,7 +166,7 @@ Reddit allows up to 15 rules. Each one has a name (max 100 characters), a descri
 
 ## 11. First posts to pin (seed content before inviting people)
 
-1. **Welcome to r/Lynkk: start here** (written: `reddit-posts/01-welcome.md`; it includes the say-hello prompt, so a separate intro thread is optional)
+1. **Welcome to r/Lynkk: start here** (written: `reddit-posts/01-welcome.txt`, plain text; it includes the say-hello prompt, so a separate intro thread is optional)
 2. **Introduce yourself:** what's your role and how many meetings do you have a week?
 3. **Feature request megathread** (upvote ideas so the team sees priorities)
 
