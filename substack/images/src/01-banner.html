@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Banner: Your AI notetaker shows up too late</title>
+<!-- Render all sizes: python3 substack/images/render.py -->
+<style>
+:root {
+  --bg: #0e1120; --bg2: #1a1f3a; --ink: #f4f3ef; --muted: #8f94b2; --dim: #3a4066;
+  --accent: #ff7a45; --accent-soft: rgba(255,122,69,.14); --good: #5ee0b0;
+  --s: 1; /* scale factor set from the window size */
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { overflow: hidden; }
+body {
+  font-family: "Inter", sans-serif; color: var(--ink);
+  background:
+    radial-gradient(calc(900px*var(--s)) calc(600px*var(--s)) at 82% 78%, rgba(255,122,69,.16), transparent 70%),
+    radial-gradient(calc(800px*var(--s)) calc(600px*var(--s)) at 10% 0%, rgba(94,110,255,.14), transparent 70%),
+    linear-gradient(160deg, var(--bg2), var(--bg));
+  display: flex; flex-direction: column; justify-content: center;
+  padding: calc(72px*var(--s)) calc(88px*var(--s));
+}
+.kicker { font-weight: 600; font-size: calc(22px*var(--s)); letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
+.kicker b { color: var(--ink); }
+h1 { font-family: "Inter Display", "Inter", sans-serif; font-weight: 800; letter-spacing: -.02em;
+  font-size: calc(118px*var(--s)); line-height: 1.02; margin-top: calc(22px*var(--s)); }
+h1 em { font-style: normal; color: var(--accent); }
+
+.timeline { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: calc(28px*var(--s));
+  margin-top: calc(96px*var(--s)); }
+.timeline::before { content: ""; position: absolute; left: 4%; right: 4%; top: 50%; height: calc(3px*var(--s));
+  background: linear-gradient(90deg, var(--dim), var(--dim) 62%, var(--accent)); z-index: 0; }
+.card { position: relative; z-index: 1; border-radius: calc(22px*var(--s)); padding: calc(28px*var(--s));
+  display: flex; align-items: center; gap: calc(22px*var(--s)); min-height: calc(150px*var(--s)); }
+.card.off { background: #121628; border: calc(2px*var(--s)) dashed var(--dim); }
+.card.on { background: linear-gradient(150deg, #2a2340, #1d1a30); border: calc(2px*var(--s)) solid var(--accent);
+  box-shadow: 0 0 calc(60px*var(--s)) rgba(255,122,69,.25); }
+.badge { flex: none; width: calc(84px*var(--s)); height: calc(84px*var(--s)); border-radius: 50%;
+  display: grid; place-items: center; }
+.off .badge { border: calc(3px*var(--s)) solid var(--dim); color: var(--muted);
+  font-family: "Inter Display"; font-weight: 800; font-size: calc(50px*var(--s)); }
+.on .badge { background: var(--accent-soft); border: calc(3px*var(--s)) solid var(--accent); }
+.on .badge svg { width: 56%; height: 56%; }
+.stage { font-weight: 700; font-size: calc(19px*var(--s)); letter-spacing: .16em; text-transform: uppercase; }
+.off .stage { color: var(--muted); }
+.on .stage { color: var(--accent); }
+.cap { font-weight: 600; font-size: calc(27px*var(--s)); line-height: 1.2; margin-top: calc(6px*var(--s)); }
+.off .cap { color: #b8bbd3; }
+.pin { position: absolute; top: calc(-50px*var(--s)); right: calc(16px*var(--s)); background: var(--accent); color: #1a1020;
+  font-weight: 700; font-size: calc(18px*var(--s)); padding: calc(7px*var(--s)) calc(16px*var(--s)); border-radius: 999px; white-space: nowrap; }
+.pin::after { content: ""; position: absolute; left: 50%; bottom: calc(-8px*var(--s)); transform: translateX(-50%);
+  border: calc(8px*var(--s)) solid transparent; border-bottom: 0; border-top-color: var(--accent); }
+.foot { display: flex; justify-content: space-between; align-items: baseline; margin-top: calc(60px*var(--s)); }
+.brand { font-family: "Inter Display"; font-weight: 800; font-size: calc(34px*var(--s)); letter-spacing: -.01em; }
+.brand span { color: var(--accent); }
+.tag { color: var(--muted); font-size: calc(22px*var(--s)); font-weight: 500; }
+
+/* Wide (1.91:1) layout for link previews: tighter vertical rhythm. */
+body.wide { padding: calc(56px*var(--s)) calc(72px*var(--s)); }
+body.wide h1 { font-size: calc(92px*var(--s)); }
+body.wide .timeline { margin-top: calc(70px*var(--s)); }
+body.wide .card { min-height: calc(120px*var(--s)); padding: calc(22px*var(--s)); }
+body.wide .foot { margin-top: calc(40px*var(--s)); }
+</style></head>
+<body>
+  <div class="kicker"><b>Lynkk</b> &nbsp;/&nbsp; Meeting Craft</div>
+  <h1>Your AI notetaker<br>shows up <em>too late.</em></h1>
+
+  <div class="timeline">
+    <div class="card off">
+      <div class="badge">?</div>
+      <div><div class="stage">Before</div><div class="cap">Walking in cold</div></div>
+    </div>
+    <div class="card off">
+      <div class="badge">?</div>
+      <div><div class="stage">During</div><div class="cap">Stuck mid-call</div></div>
+    </div>
+    <div class="card on">
+      <div class="pin">Your notetaker starts here</div>
+      <div class="badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#ff7a45" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M6 2.5h8l4 4v15H6z"/><path d="M14 2.5v4h4"/><path d="M9 11h6M9 14.5h6M9 18h3.5"/>
+        </svg>
+      </div>
+      <div><div class="stage">After</div><div class="cap">The recap</div></div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div class="brand">lynkk<span>.</span>ai</div>
+    <div class="tag">One AI for the whole meeting: before, during, after.</div>
+  </div>
+
+<script>
+  // Scale everything from a 1456px-wide design; switch to the wide layout for short canvases.
+  // Size comes from ?w=&h= (headless Chrome's viewport is not exactly --window-size).
+  const q = new URLSearchParams(location.search);
+  const w = +q.get("w") || innerWidth, h = +q.get("h") || innerHeight;
+  document.body.style.width = w + "px"; document.body.style.height = h + "px";
+  const wide = w / h > 1.6;
+  document.body.classList.toggle("wide", wide);
+  const s = wide ? Math.min(w / 1456, h / 760) : Math.min(w / 1456, h / 1048);
+  document.documentElement.style.setProperty("--s", s);
+</script>
+</body></html>

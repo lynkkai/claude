@@ -43,6 +43,13 @@ and the promo Notes. Rebuild after editing a post:
 python3 substack/build_paste_ready.py substack/articles/<post>.md
 ```
 
+## Images
+
+`substack/images/` holds banner images per post (so far: post 1), in two sizes:
+`1456x1048` for the Substack social preview and post thumbnail, and `1200x630` for LinkedIn/X
+link shares. Sources are HTML in `substack/images/src/`; edit and re-render with
+`python3 substack/images/render.py`.
+
 ## Before you hit publish (each post)
 
 - [ ] Byline set to a real person (founder or team lead). Founder voice outperforms a logo.
