@@ -18,9 +18,12 @@ const URL = 'file://' + path.join(HERE, 'video.html');
 const WORKERS = parseInt(process.env.WORKERS || '4', 10);
 
 async function openPage(browser) {
-  const page = await browser.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
+  // The kit's "wide" board is 1600 x 900; 1.2x gives 1920 x 1080 frames.
+  const page = await browser.newPage({ viewport: { width: 1600, height: 900 }, deviceScaleFactor: 1.2 });
   page.on('pageerror', e => { console.error('PAGE ERROR', e.message); process.exitCode = 1; });
-  await page.goto(URL);
+  page.on('console', m => { if (['warning', 'error'].includes(m.type())) console.error('PAGE', m.text()); });
+  await page.goto(URL, { waitUntil: 'networkidle' });
+  await page.waitForFunction(() => document.documentElement.dataset.ready === '1');
   await page.evaluate(() => document.fonts.ready);
   return page;
 }

@@ -3,6 +3,12 @@
 > Source of truth for tool/directory submissions. Collected 2026-09-27 from web search
 > results for lynkk.ai (the site itself was not directly reachable from this environment).
 > Items under "To confirm" must be filled in by the team before submitting.
+>
+> **Superseded on product claims by `lynkk-post-kit/docs/TRUTHS.md`** (checked against the
+> product on 2026-09-29). Several lines below came from web search and are ruled out there:
+> speaking or answering during the meeting, CRM updates, automatic Jira tickets, data
+> regions, a knowledge graph screen, "within 30 seconds", "offline-first". Check TRUTHS.md
+> before reusing any copy from this file.
 
 ## Identity
 

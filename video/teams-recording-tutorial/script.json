@@ -2,136 +2,144 @@
   "voice": "af_heart",
   "speed": 1.0,
   "presenter": "Ava, your Lynkk guide",
-  "note": "\"text\" is what appears in captions. \"say\" (optional) is the phonetic version sent to the TTS engine so Lynkk is pronounced \"link\".",
+  "note": "\"text\" is what appears in captions. \"say\" (optional) is the phonetic version sent to the TTS engine so Lynkk is pronounced \"link\". Every claim must be backed by lynkk-post-kit/docs/TRUTHS.md.",
   "scenes": [
     {
       "id": "intro",
       "chapter": "Intro",
-      "tail": 0.6,
+      "tail": 0.7,
       "lines": [
-        {"id": "i1", "text": "Hi, I'm Ava, your Lynkk guide.", "say": "Hi, I'm Ava, your Link guide."},
-        {"id": "i2", "text": "In the next few minutes, I'll show you how to record any Microsoft Teams meeting with Lynkk, and turn it into notes, action items, and answers, automatically.", "say": "In the next few minutes, I'll show you how to record any Microsoft Teams meeting with Link, and turn it into notes, action items, and answers, automatically."}
+        {"id": "i1", "text": "Hi, I'm Ava from Lynkk.", "say": "Hi, I'm Ava, from Link."},
+        {"id": "i2", "text": "In this tutorial, you'll learn three ways to record a Microsoft Teams meeting with Lynkk, and what you get when the call ends.", "say": "In this tutorial, you'll learn three ways to record a Microsoft Teams meeting with Link, and what you get when the call ends."}
       ]
     },
     {
       "id": "problem",
-      "chapter": "The problem with recording Teams meetings",
+      "chapter": "The problem",
       "tail": 0.8,
       "lines": [
-        {"id": "p0", "text": "First, the problem. Recording a Teams meeting sounds simple, but in practice it's full of friction."},
-        {"id": "p1", "text": "Your IT policy may switch recording off, and guests or external attendees often can't press record at all."},
-        {"id": "p2", "text": "AI recaps and smart notes usually need an extra paid license."},
-        {"id": "p3", "text": "Recordings land in OneDrive or SharePoint, where they get buried, and can even expire automatically."},
-        {"id": "p4", "text": "And let's be honest: nobody rewatches a one hour video. Action items slip, and someone still has to write the notes."},
-        {"id": "p5", "text": "Plus, conversations that happen in person are never captured at all."}
+        {"id": "p0", "text": "First, the problem."},
+        {"id": "p1", "text": "Someone has to remember to press record. And depending on your company's settings, guests often can't start a recording at all."},
+        {"id": "p2", "text": "Even when you do record, you get an hour of video that nobody has time to rewatch."},
+        {"id": "p3", "text": "And the decisions and action items stay in someone's head."}
       ]
     },
     {
-      "id": "solution",
-      "chapter": "Meet Lynkk: one AI for the whole meeting",
+      "id": "ways",
+      "chapter": "Three ways to record Teams with Lynkk",
       "tail": 0.8,
       "lines": [
-        {"id": "s1", "text": "That's where Lynkk comes in.", "say": "That's where Link comes in."},
-        {"id": "s2", "text": "Lynkk is one AI for your entire meeting.", "say": "Link is one AI for your entire meeting."},
-        {"id": "s3", "text": "Before the call, it brings back context from past meetings."},
-        {"id": "s4", "text": "During the call, it records, transcribes, and speaks when you need it."},
-        {"id": "s5", "text": "And after, it does the follow up work for you."}
+        {"id": "w1", "text": "Lynkk gives you three ways to record a Teams call.", "say": "Link gives you three ways to record a Teams call."},
+        {"id": "w2", "text": "A meeting bot that joins from the link."},
+        {"id": "w3", "text": "The Mac app, where nothing joins the call."},
+        {"id": "w4", "text": "And the Chrome extension, if you use Teams in your browser."},
+        {"id": "w5", "text": "Whichever you pick, the note comes out the same."}
       ]
     },
     {
-      "id": "step1",
+      "id": "start",
       "chapter": "Step 1: Start free",
-      "tail": 1.2,
+      "tail": 0.9,
       "lines": [
-        {"id": "a1", "text": "Let's set it up. Step one: go to lynkk.ai and click Start free.", "say": "Let's set it up. Step one: go to link dot A I, and click Start free."},
-        {"id": "a2", "text": "Create your account. It only takes a few seconds."}
+        {"id": "a1", "text": "Step one: go to lynkk.ai and start free.", "say": "Step one: go to link dot A I, and start free."},
+        {"id": "a2", "text": "The free plan includes recording and transcripts, the meeting bot, the Meeting Brief, and tasks."}
       ]
     },
     {
-      "id": "step2",
-      "chapter": "Step 2: Connect your calendar",
+      "id": "bot",
+      "chapter": "Way 1: The meeting bot",
       "tail": 1.0,
       "lines": [
-        {"id": "b1", "text": "Step two: connect your calendar."},
-        {"id": "b2", "text": "Lynkk finds your upcoming Teams meetings automatically, so you never have to remember to hit record.", "say": "Link finds your upcoming Teams meetings automatically, so you never have to remember to hit record."}
+        {"id": "b1", "text": "Way one: the meeting bot."},
+        {"id": "b2", "text": "Paste your Teams meeting link into Lynkk, or turn on calendar auto-join, and the bot joins the call for you.", "say": "Paste your Teams meeting link into Link, or turn on calendar auto-join, and the bot joins the call for you."},
+        {"id": "b3", "text": "If the meeting uses a lobby, admit it like any other guest."},
+        {"id": "b4", "text": "While it records, you can follow a live transcript. On the free plan the bot records audio. Video recording is Pro."}
       ]
     },
     {
-      "id": "step3",
-      "chapter": "Step 3: Lynkk joins and records your Teams meeting",
+      "id": "mac",
+      "chapter": "Way 2: The Mac app, no bot",
       "tail": 1.0,
       "lines": [
-        {"id": "c1", "text": "Step three: join your Teams meeting as usual.", "say": "Step three: join your Teams meeting, as usual."},
-        {"id": "c2", "text": "Lynkk joins too. If your meeting uses a lobby, just admit it.", "say": "Link joins too. If your meeting uses a lobby, just admit it."},
-        {"id": "c3", "text": "Lynkk records and transcribes every speaker, in multiple languages.", "say": "Link records and transcribes every speaker, in multiple languages."},
-        {"id": "c4", "text": "Prefer your desktop? The Lynkk Mac app detects the meeting and starts recording automatically.", "say": "Prefer your desktop? The Link Mac app detects the meeting, and starts recording automatically."}
+        {"id": "m1", "text": "Way two: the Mac app."},
+        {"id": "m2", "text": "Start your Teams call as usual. After a few seconds, a card appears in the top right: Microsoft Teams call detected. Click Record."},
+        {"id": "m3", "text": "No bot joins the call. Lynkk records both sides on separate channels, so the transcript knows which words are yours.", "say": "No bot joins the call. Link records both sides on separate channels, so the transcript knows which words are yours."},
+        {"id": "m4", "text": "A slim column on the edge of your screen shows the clock, the levels, and the live words."},
+        {"id": "m5", "text": "When the call ends, Lynkk saves the recording by itself. The Mac app is free to install on Apple silicon Macs.", "say": "When the call ends, Link saves the recording by itself. The Mac app is free to install on Apple silicon Macs."}
       ]
     },
     {
-      "id": "step4",
-      "chapter": "Step 4: Ask Lynkk live, by voice",
+      "id": "chrome",
+      "chapter": "Way 3: The Chrome extension",
+      "tail": 1.0,
+      "lines": [
+        {"id": "c1", "text": "Way three: the Chrome extension."},
+        {"id": "c2", "text": "Open your Teams meeting in a Chrome tab. A small capsule docks above the call controls. Press Record."},
+        {"id": "c3", "text": "Again, no bot. Lynkk records the tab's audio and your mic. It also works in Edge, Brave and Arc.", "say": "Again, no bot. Link records the tab's audio, and your mic. It also works in Edge, Brave, and Arc."}
+      ]
+    },
+    {
+      "id": "note",
+      "chapter": "After the call: the Meeting Brief",
+      "tail": 1.0,
+      "lines": [
+        {"id": "n1", "text": "When the call ends, every recording becomes a note."},
+        {"id": "n2", "text": "You get a transcript with speaker labels, in seventeen languages."},
+        {"id": "n3", "text": "And a Meeting Brief: key takeaways with timestamps, decisions, open questions, and action items with an owner and a due date."},
+        {"id": "n4", "text": "Click any timestamp to play the recording from that moment."}
+      ]
+    },
+    {
+      "id": "jira",
+      "chapter": "Send tasks to Jira",
+      "tail": 1.0,
+      "lines": [
+        {"id": "t1", "text": "Action items land on your task board."},
+        {"id": "t2", "text": "When you're ready, send them to Jira from the note: one issue per action item, in the project you pick."}
+      ]
+    },
+    {
+      "id": "ask",
+      "chapter": "Ask Lynkk (Pro)",
       "tail": 1.2,
       "lines": [
-        {"id": "d1", "text": "Step four: ask Lynkk anything, live.", "say": "Step four: ask Link anything, live."},
-        {"id": "d2", "text": "For example: what did we agree on pricing last week?"},
-        {"id": "d3", "text": "Lynkk answers by voice, right in the meeting, using context from your past calls.", "say": "Link answers by voice, right in the meeting, using context from your past calls."}
-      ]
-    },
-    {
-      "id": "step5",
-      "chapter": "Step 5: Notes, tasks, CRM and Jira in 30 seconds",
-      "tail": 1.2,
-      "lines": [
-        {"id": "e1", "text": "Step five: the meeting ends. Within about thirty seconds, you get structured notes,"},
-        {"id": "e2", "text": "action items with owners,"},
-        {"id": "e3", "text": "CRM fields updated,", "say": "C R M fields updated,"},
-        {"id": "e4", "text": "and Jira tickets created. No copy and paste."}
-      ]
-    },
-    {
-      "id": "step6",
-      "chapter": "Step 6: Search every meeting",
-      "tail": 1.4,
-      "lines": [
-        {"id": "f1", "text": "Every meeting is saved to your searchable knowledge graph."},
-        {"id": "f2", "text": "So weeks later, just ask, and find exactly who said what."}
+        {"id": "q1", "text": "On Pro, you can ask Lynkk questions across your notes.", "say": "On Pro, you can ask Link questions across your notes."},
+        {"id": "q2", "text": "For example: what did Acme say about the rollout date?"},
+        {"id": "q3", "text": "Lynkk answers only from your own notes, with sources, and plays the moment it was said.", "say": "Link answers only from your own notes, with sources, and plays the moment it was said."}
       ]
     },
     {
       "id": "usecases",
-      "chapter": "Use cases",
+      "chapter": "Who it's for",
       "tail": 1.0,
       "lines": [
-        {"id": "u0", "text": "So, who is this for?"},
-        {"id": "u1", "text": "Sales teams get call prep and automatic CRM updates.", "say": "Sales teams get call prep, and automatic C R M updates."},
-        {"id": "u2", "text": "Product and engineering teams turn decisions into Jira tickets."},
-        {"id": "u3", "text": "Founders and managers stay on top of back to back meetings."},
-        {"id": "u4", "text": "Consultants and recruiters capture in person conversations too."},
-        {"id": "u5", "text": "Global teams get multilingual notes."},
-        {"id": "u6", "text": "And regulated teams can choose the region where their data is processed."}
+        {"id": "u1", "text": "Sales and customer teams get a brief for every call, with next steps and owners."},
+        {"id": "u2", "text": "Product and engineering teams send decisions and tasks to Jira."},
+        {"id": "u3", "text": "On back to back days, connect Google Calendar for a morning email: who you're meeting, and what's still open."},
+        {"id": "u4", "text": "Global teams get transcripts in seventeen languages."},
+        {"id": "u5", "text": "For in-person meetings, record your mic in the browser at lynkk.ai.", "say": "For in-person meetings, record your mic in the browser, at link dot A I."},
+        {"id": "u6", "text": "And small teams can share a workspace of up to ten seats, where everyone gets Pro."}
       ]
     },
     {
       "id": "recap",
       "chapter": "Recap",
       "tail": 0.8,
-      "gap": 0.22,
       "lines": [
         {"id": "r0", "text": "Quick recap."},
-        {"id": "r1", "text": "Start free."},
-        {"id": "r2", "text": "Connect your calendar."},
-        {"id": "r3", "text": "Let Lynkk join your Teams meeting.", "say": "Let Link join your Teams meeting."},
-        {"id": "r4", "text": "Ask it questions, live."},
-        {"id": "r5", "text": "And get your notes in thirty seconds."}
+        {"id": "r1", "text": "The meeting bot: paste the Teams link, or turn on auto-join."},
+        {"id": "r2", "text": "The Mac app: click Record when the call card appears."},
+        {"id": "r3", "text": "The Chrome extension: press Record in the tab."},
+        {"id": "r4", "text": "Every call becomes a note, with a brief and tasks you can send to Jira."}
       ]
     },
     {
       "id": "outro",
-      "chapter": "Get started",
+      "chapter": "Start free",
       "tail": 3.0,
       "lines": [
         {"id": "o1", "text": "Record your next Teams meeting with Lynkk.", "say": "Record your next Teams meeting with Link."},
-        {"id": "o2", "text": "Start free today at lynkk.ai, and subscribe for more tutorials.", "say": "Start free today at link dot A I. And subscribe for more tutorials."}
+        {"id": "o2", "text": "Start free at lynkk.ai, and subscribe for more tutorials.", "say": "Start free, at link dot A I. And subscribe for more tutorials."}
       ]
     }
   ]

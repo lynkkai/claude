@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # Rebuild the whole video from script.json + video.html.
+# The look comes from ../../lynkk-post-kit (the Lynkk Grid design system); every
+# claim must be in lynkk-post-kit/docs/TRUTHS.md. Both copy checks must pass.
 # Needs: python3 (kokoro-onnx, soundfile, numpy), node + playwright (Chromium), ffmpeg.
 set -euo pipefail
 cd "$(dirname "$0")"
@@ -12,7 +14,10 @@ if [ ! -f "$KOKORO_DIR/kokoro-v1.0.onnx" ]; then
   curl -sSL -o "$KOKORO_DIR/voices-v1.0.bin" "$base/voices-v1.0.bin"
 fi
 
-KOKORO_DIR="$KOKORO_DIR" python3 build_audio.py   # voiceover, timeline, lip sync, captions.srt
+node check_script.mjs                                     # narration vs the kit's copy and claims rules
+node ../../lynkk-post-kit/scripts/check.mjs video.html     # on-screen copy, same rules
+
+KOKORO_DIR="$KOKORO_DIR" python3 build_audio.py   # voiceover, timeline, narrator levels, captions.srt
 node render.cjs                                   # frames -> build/video-silent.mp4, build/sfx.json
 python3 mix_audio.py                              # music + sound effects + voice -> build/mix.wav
 node render.cjs --thumbnail thumbnail.png

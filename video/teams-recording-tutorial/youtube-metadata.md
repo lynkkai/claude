@@ -1,68 +1,67 @@
 # YouTube upload copy: How to record a Microsoft Teams meeting with Lynkk
 
 Files to upload:
-- Video: `lynkk-how-to-record-teams-meeting.mp4` (1920x1080, 30 fps, 3:02)
-- Thumbnail: `thumbnail.png` (1920x1080, under 2 MB)
-- Subtitles: `captions.srt` (English, upload under Subtitles so viewers can turn on CC)
+- Video: `lynkk-how-to-record-teams-meeting.mp4` (1920x1080, 30 fps, 3:41)
+- Thumbnail: `thumbnail.png` (1920x1080)
+- Subtitles: `captions.srt` (English)
+
+Every claim below is from `lynkk-post-kit/docs/TRUTHS.md`. Same rules as the kit's `docs/COPY.md`: no prices, no competitor names, no speed or accuracy claims.
 
 ## Title (pick one, all under 70 characters)
 
 Primary:
 ```
-How to Record a Microsoft Teams Meeting (with AI Notes) | Lynkk
+How to Record a Microsoft Teams Meeting: 3 Ways | Lynkk Tutorial
 ```
 Alternates:
 ```
-How to Record Teams Meetings and Get AI Notes in 30 Seconds
+Record Teams Meetings Without a Bot (or With One) | Lynkk
 ```
 ```
-Record Any Teams Meeting Automatically: Step by Step Tutorial
+How to Record Teams Meetings and Get the Notes Written for You
 ```
 
 ## Description
 
 ```
-Recording a Microsoft Teams meeting sounds simple, until recording is switched off by IT, guests can't press record, AI recaps need an extra license, and the recording ends up buried in OneDrive. In this tutorial, Ava from Lynkk shows you how to record any Teams meeting with Lynkk and turn it into notes, action items and answers automatically.
+Three ways to record a Microsoft Teams meeting with Lynkk, and what you get when the call ends.
 
-What you'll learn:
-✅ Why recording Teams meetings is harder than it looks
-✅ How to set up Lynkk in a few minutes
-✅ How Lynkk joins, records and transcribes your Teams meetings
-✅ How to ask Lynkk questions live, by voice, during the call
-✅ How to get notes, action items, CRM updates and Jira tickets about 30 seconds after the call
-✅ How to search every meeting in your knowledge graph
+Way 1, the meeting bot: paste your Teams link into Lynkk, or turn on calendar auto-join. Free, audio only. Video recording is Pro.
+Way 2, the Mac app: start your Teams call, click Record on the "call detected" card. No bot joins the call. Apple silicon, macOS 14.2 or later.
+Way 3, the Chrome extension: open Teams in a Chrome tab and press Record. No bot. Also works in Edge, Brave and Arc.
+
+After the call, every recording becomes a note: a transcript with speaker labels in 17 languages, and a Meeting Brief with key takeaways, decisions, open questions and action items with owners and due dates. Send tasks to Jira from the note, one issue per action item. On Pro, Ask Lynkk answers questions from your own notes, with sources.
 
 Chapters:
 0:00 Intro
-0:12 The problem with recording Teams meetings
-0:49 Meet Lynkk: one AI for the whole meeting
-1:05 Step 1: Start free
-1:14 Step 2: Connect your calendar
-1:23 Step 3: Lynkk joins and records your Teams meeting
-1:41 Step 4: Ask Lynkk live, by voice
-1:53 Step 5: Notes, tasks, CRM and Jira in 30 seconds
-2:07 Step 6: Search every meeting
-2:16 Use cases
-2:41 Recap
-2:51 Get started
+0:10 The problem
+0:28 Three ways to record Teams with Lynkk
+0:43 Step 1: Start free
+0:53 Way 1: The meeting bot
+1:14 Way 2: The Mac app, no bot
+1:45 Way 3: The Chrome extension
+2:01 After the call: the Meeting Brief
+2:21 Send tasks to Jira
+2:31 Ask Lynkk (Pro)
+2:44 Who it's for
+3:14 Recap
+3:31 Start free
 
 Start free: https://lynkk.ai
 
-Lynkk is one AI across your entire meeting: context before the call, a live voice assistant during it, and notes, tasks, CRM updates and Jira tickets after it. Online or in person. Multilingual. Offline-first.
+Lynkk never trains on your conversations.
 
-Questions? marketing@lynkk.ai
-
-#MicrosoftTeams #MeetingNotes #AINoteTaker #Productivity #Lynkk
+#MicrosoftTeams #MeetingNotes #Productivity #Lynkk
 ```
 
 ## Tags
 
 ```
-how to record a teams meeting, record microsoft teams meeting, teams meeting recording, microsoft teams recording, teams meeting notes, ai note taker, ai meeting assistant, meeting transcription, teams transcription, meeting notes ai, lynkk, lynkk ai, crm automation, jira from meetings, sales call notes, productivity tools
+how to record a teams meeting, record microsoft teams meeting, teams meeting recording, microsoft teams recording, record teams meeting on mac, teams meeting notes, teams meeting transcript, meeting transcription, ai meeting notes, meeting notetaker, chrome extension meeting recorder, jira from meetings, lynkk, lynkk ai
 ```
 
 ## Other settings
 - Category: Science & Technology (or Howto & Style)
 - Language: English. Captions: English (upload `captions.srt`)
-- Add an end screen (last 8 seconds, 2:54 to 3:02) with a Subscribe element and a link to lynkk.ai if the channel is verified
-- Pinned comment: `Try it on your next Teams call, free: https://lynkk.ai. What should our next tutorial cover?`
+- End screen: the last 8 seconds (3:33 to 3:41), with a Subscribe element, and a link to lynkk.ai if the channel is verified
+- Pinned comment: `Which way do you record Teams: the bot, the Mac app, or the Chrome extension? Start free at https://lynkk.ai`
