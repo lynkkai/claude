@@ -1,0 +1,37 @@
+Video 4 voiceover (brand host). Read at a calm, confident pace. Scene timings are targets.
+Actor and Lynkk lines are recorded separately in the call scene.
+
+[Scene 1: Hook (0:00-0:12)]
+This sales call ended thirty seconds ago. The notes are written, the next steps are assigned, and the CRM is already updated. Nobody typed a thing.
+
+[Scene 2: The problem (0:12-0:35)]
+For most sales teams, every call ends with the same chores. Write up the notes. Update the CRM. Send the follow-up. Book the next meeting. And then the next call starts. Skip one step, and details get lost, the pipeline goes stale, and the deal goes cold.
+
+[Scene 3: What we'll show (0:35-0:50)]
+Lynkk is one AI across the entire sales call. Before it, Lynkk preps you with everything from past conversations. During it, Lynkk joins and answers questions out loud when you need it. After it, Lynkk writes the notes, assigns the tasks, and updates your CRM. Here's how that looks on a real pilot-planning call.
+
+[Scene 4: Before the call: prep in seconds (0:50-1:55)]
+Lynkk pulls your meetings from your calendar. Open today's call with Harborline, and Lynkk has already surfaced what matters from the last conversation: what was discussed, what's still open, and who said what.
+So Maya knows the security review is still pending, the pilot size isn't agreed yet, and Priya in finance owns the budget. No digging through old notes. You start the call ahead, not cold.
+
+[Scene 5: During the call: answers out loud (1:55-3:40)]
+When the call starts, Lynkk detects the meeting and joins automatically. Everyone can see Lynkk is there.
+No scrolling, no 'let me check and get back to you'. Lynkk answers live, by voice, for the whole call to hear.
+Just say 'Hey Lynkk' and ask. Lynkk can also pull up documents in the middle of the call. And when nobody needs it, Lynkk stays quiet and keeps listening.
+
+[Scene 6: After the call: done in about 30 seconds (3:40-5:20)]
+The call ends, and within about thirty seconds, Lynkk has done the after-call work.
+Structured notes, with the decisions, the risks, and the people involved.
+Action items, already assigned to the right person.
+And HubSpot is updated. Deal stage, next step, next activity date, pilot size, a summary of the call, and the new stakeholder. Maya didn't open the CRM once. Her manager sees an accurate pipeline today, not at the end of the week.
+Lynkk also drafts the follow-up, with the recap, the next steps, and a Calendly link for the next meeting. Using Cal.com instead? That works too. Maya reviews it, clicks send, and the next call is booked while the deal is still warm.
+Even the feature request Daniel mentioned goes to the product team as a Jira ticket, so it doesn't die in a sales note.
+
+[Scene 7: Search every call (5:20-5:55)]
+Because every call lands in one searchable knowledge graph, the whole team can ask questions across deals. Which prospects raised security? What objections keep coming up? It's all there, linked to the moment it was said.
+
+[Scene 8: Trust and fit (5:55-6:25)]
+You choose the region where your data is processed. Lynkk works for online calls and in-person meetings, in multiple languages, and connects to your other tools through MCP.
+
+[Scene 9: Recap and CTA (6:25-6:50)]
+Before the call, you're prepared. During the call, you get answers live. After the call, the notes, tasks, follow-up, and CRM are done. That's Lynkk for sales teams. Start free at lynkk.ai, and connect it before your next call.

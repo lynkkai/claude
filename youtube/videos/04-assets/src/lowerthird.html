@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="theme.css">
+<style>
+  .lt { position: absolute; left: 96px; bottom: 110px; display: flex; align-items: stretch; overflow: hidden; border-radius: 18px;
+    background: rgba(11,16,32,.9); box-shadow: 0 16px 50px rgba(0,0,0,.4); }
+  .bar { width: 12px; background: linear-gradient(var(--accent), var(--accent-2)); }
+  .tx { padding: 22px 40px 24px 30px; }
+  .k { font-size: 24px; font-weight: 700; color: var(--accent); letter-spacing: .14em; text-transform: uppercase; }
+  .m { font-size: 46px; font-weight: 800; letter-spacing: -0.01em; margin-top: 4px; white-space: nowrap; }
+</style></head><body class="alpha">
+<div class="lt"><div class="bar"></div><div class="tx"><div class="k" id="k"></div><div class="m" id="m"></div></div></div>
+<script src="lib.js"></script><script>
+const items = [
+  ['Before the call', 'Context from past meetings'],
+  ['During the call', 'Live answers by voice'],
+  ['After the call', 'Notes, tasks, CRM, follow-up'],
+  ['Across every deal', 'Every call, searchable'],
+];
+const [k, m] = items[+new URLSearchParams(location.search).get('i') || 0];
+$('#k').textContent = k; $('#m').textContent = m;
+window.render = (t) => {
+  const a = p(t, 0, 0.5), b = p(t, 4.3, 0.5, easeInOut);
+  const lt = $('.lt');
+  lt.style.clipPath = `inset(0 ${(1 - a) * 100}% 0 0 round 18px)`;
+  lt.style.opacity = 1 - b; lt.style.transform = `translateX(${b * -40}px)`;
+};
+</script></body></html>

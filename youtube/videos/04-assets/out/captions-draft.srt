@@ -1,0 +1,243 @@
+1
+00:00:00,300 --> 00:00:05,512
+This sales call ended thirty seconds ago. The notes are written, the
+
+2
+00:00:05,562 --> 00:00:10,773
+next steps are assigned, and the CRM is already updated. Nobody typed
+
+3
+00:00:10,823 --> 00:00:11,650
+a thing.
+
+4
+00:00:12,300 --> 00:00:17,969
+For most sales teams, every call ends with the same chores. Write
+
+5
+00:00:18,019 --> 00:00:23,688
+up the notes. Update the CRM. Send the follow-up. Book the next
+
+6
+00:00:23,738 --> 00:00:29,407
+meeting. And then the next call starts. Skip one step, and details
+
+7
+00:00:29,457 --> 00:00:34,650
+get lost, the pipeline goes stale, and the deal goes cold.
+
+8
+00:00:35,300 --> 00:00:38,450
+Lynkk is one AI across the entire sales call. Before it, Lynkk
+
+9
+00:00:38,500 --> 00:00:41,650
+preps you with everything from past conversations. During it, Lynkk joins and
+
+10
+00:00:41,700 --> 00:00:44,850
+answers questions out loud when you need it. After it, Lynkk writes
+
+11
+00:00:44,900 --> 00:00:48,050
+the notes, assigns the tasks, and updates your CRM. Here's how that
+
+12
+00:00:48,100 --> 00:00:49,650
+looks on a real pilot-planning call.
+
+13
+00:00:50,300 --> 00:00:52,759
+MAYA: Harborline: pilot planning
+
+14
+00:00:52,809 --> 00:00:58,614
+DANIEL: Priya in finance signs off on budget
+
+15
+00:00:58,664 --> 00:01:08,650
+Lynkk pulls your meetings from your calendar. Open today's call with Harborline,
+
+16
+00:01:08,700 --> 00:01:18,686
+and Lynkk has already surfaced what matters from the last conversation: what
+
+17
+00:01:18,736 --> 00:01:26,214
+was discussed, what's still open, and who said what.
+
+18
+00:01:26,264 --> 00:01:36,250
+So Maya knows the security review is still pending, the pilot size
+
+19
+00:01:36,300 --> 00:01:46,286
+isn't agreed yet, and Priya in finance owns the budget. No digging
+
+20
+00:01:46,336 --> 00:01:54,650
+through old notes. You start the call ahead, not cold.
+
+21
+00:01:55,300 --> 00:02:04,263
+When the call starts, Lynkk detects the meeting and joins automatically. Everyone
+
+22
+00:02:04,313 --> 00:02:08,018
+can see Lynkk is there.
+
+23
+00:02:08,068 --> 00:02:17,031
+DANIEL: Before we go further, remind me what we said about the pilot
+
+24
+00:02:17,081 --> 00:02:17,782
+DANIEL: length?
+
+25
+00:02:17,832 --> 00:02:26,795
+MAYA: Hey Lynkk, what did we agree on for the pilot last time?
+
+26
+00:02:26,845 --> 00:02:35,808
+LYNKK: On the last call, you agreed on a thirty-day pilot, starting after
+
+27
+00:02:35,858 --> 00:02:39,564
+LYNKK: Harborline's security review is complete.
+
+28
+00:02:39,614 --> 00:02:48,577
+No scrolling, no 'let me check and get back to you'. Lynkk
+
+29
+00:02:48,627 --> 00:02:56,087
+answers live, by voice, for the whole call to hear.
+
+30
+00:02:56,137 --> 00:03:02,847
+DANIEL: Great. Our IT team will ask about security first.
+
+31
+00:03:02,897 --> 00:03:08,105
+MAYA: Hey Lynkk, pull up our security overview.
+
+32
+00:03:08,155 --> 00:03:17,118
+Just say 'Hey Lynkk' and ask. Lynkk can also pull up documents
+
+33
+00:03:17,168 --> 00:03:26,131
+in the middle of the call. And when nobody needs it, Lynkk
+
+34
+00:03:26,181 --> 00:03:29,886
+stays quiet and keeps listening.
+
+35
+00:03:29,936 --> 00:03:38,899
+DANIEL: Could the reports export straight to our BI tool? That would be
+
+36
+00:03:38,949 --> 00:03:39,650
+DANIEL: huge.
+
+37
+00:03:40,300 --> 00:03:48,770
+The call ends, and within about thirty seconds, Lynkk has done the
+
+38
+00:03:48,820 --> 00:03:50,190
+after-call work.
+
+39
+00:03:50,240 --> 00:03:58,000
+Structured notes, with the decisions, the risks, and the people involved.
+
+40
+00:03:58,050 --> 00:04:03,680
+Action items, already assigned to the right person.
+
+41
+00:04:03,730 --> 00:04:12,200
+And HubSpot is updated. Deal stage, next step, next activity date, pilot
+
+42
+00:04:12,250 --> 00:04:20,720
+size, a summary of the call, and the new stakeholder. Maya didn't
+
+43
+00:04:20,770 --> 00:04:29,240
+open the CRM once. Her manager sees an accurate pipeline today, not
+
+44
+00:04:29,290 --> 00:04:33,500
+at the end of the week.
+
+45
+00:04:33,550 --> 00:04:42,020
+Lynkk also drafts the follow-up, with the recap, the next steps, and
+
+46
+00:04:42,070 --> 00:04:50,540
+a Calendly link for the next meeting. Using Cal.com instead? That works
+
+47
+00:04:50,590 --> 00:04:59,060
+too. Maya reviews it, clicks send, and the next call is booked
+
+48
+00:04:59,110 --> 00:05:03,320
+while the deal is still warm.
+
+49
+00:05:03,370 --> 00:05:11,840
+Even the feature request Daniel mentioned goes to the product team as
+
+50
+00:05:11,890 --> 00:05:19,650
+a Jira ticket, so it doesn't die in a sales note.
+
+51
+00:05:20,300 --> 00:05:26,505
+LYNKK: Which prospects asked about security reviews this quarter?
+
+52
+00:05:26,555 --> 00:05:35,886
+Because every call lands in one searchable knowledge graph, the whole team
+
+53
+00:05:35,936 --> 00:05:45,268
+can ask questions across deals. Which prospects raised security? What objections keep
+
+54
+00:05:45,318 --> 00:05:54,650
+coming up? It's all there, linked to the moment it was said.
+
+55
+00:05:55,300 --> 00:06:07,850
+You choose the region where your data is processed. Lynkk works for
+
+56
+00:06:07,900 --> 00:06:20,450
+online calls and in-person meetings, in multiple languages, and connects to your
+
+57
+00:06:20,500 --> 00:06:24,650
+other tools through MCP.
+
+58
+00:06:25,300 --> 00:06:32,758
+Before the call, you're prepared. During the call, you get answers live.
+
+59
+00:06:32,808 --> 00:06:40,265
+After the call, the notes, tasks, follow-up, and CRM are done. That's
+
+60
+00:06:40,315 --> 00:06:47,773
+Lynkk for sales teams. Start free at lynkk.ai, and connect it before
+
+61
+00:06:47,823 --> 00:06:49,650
+your next call.
