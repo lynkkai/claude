@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run leads:*)",
+      "Bash(uv sync:*)",
+      "Bash(open output/report.html)",
+      "Read(./**)",
+      "Edit(./work/**)",
+      "Edit(./drafts/**)"
+    ],
+    "deny": [
+      "WebFetch",
+      "Bash(curl:*)",
+      "Bash(wget:*)"
+    ]
+  }
+}

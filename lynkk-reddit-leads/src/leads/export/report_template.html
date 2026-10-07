@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reddit opportunities</title>
+<style>
+  :root { --ink:#16161a; --muted:#6b6b76; --line:#e6e6ea; --bg:#fafafb; --card:#fff; --accent:#5b57e6; --p0:#c0392b; --p1:#b9770e; --p2:#5d6d7e; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:14px/1.45 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif; color:var(--ink); background:var(--bg); }
+  header { padding:24px 32px 8px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  .sub { color:var(--muted); }
+  main { padding:8px 32px 48px; }
+  .tiles { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:12px; margin:16px 0; }
+  .tile { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 14px; }
+  .tile b { display:block; font-size:24px; }
+  .tile span { color:var(--muted); font-size:12px; }
+  .lists { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; margin-bottom:20px; }
+  .list { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 14px; }
+  .list h3 { font-size:13px; margin:0 0 8px; color:var(--muted); font-weight:600; }
+  .list ol { margin:0; padding-left:20px; }
+  .list li { margin:2px 0; }
+  .list li small { color:var(--muted); }
+  .filters { display:flex; flex-wrap:wrap; gap:8px; align-items:center; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px 12px; position:sticky; top:0; z-index:2; }
+  .filters label { font-size:12px; color:var(--muted); display:flex; gap:6px; align-items:center; }
+  select, input { font:inherit; padding:5px 8px; border:1px solid var(--line); border-radius:6px; background:#fff; }
+  input[type=number] { width:64px; }
+  input[type=search] { width:200px; }
+  button { font:inherit; padding:6px 12px; border-radius:6px; border:1px solid var(--accent); background:var(--accent); color:#fff; cursor:pointer; }
+  button.ghost { background:#fff; color:var(--accent); }
+  .count { margin-left:auto; color:var(--muted); font-size:12px; }
+  table { width:100%; border-collapse:collapse; margin-top:12px; background:var(--card); border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  th, td { text-align:left; vertical-align:top; padding:10px; border-bottom:1px solid var(--line); }
+  th { font-size:12px; color:var(--muted); font-weight:600; white-space:nowrap; background:#f4f4f6; }
+  th.sort { cursor:pointer; }
+  th.sort:after { content:" \2195"; opacity:.4; }
+  th.on:after { opacity:1; }
+  td.score { font-weight:700; font-size:16px; }
+  .pill { display:inline-block; padding:2px 8px; border-radius:999px; font-size:11px; font-weight:600; color:#fff; white-space:nowrap; }
+  .p0 { background:var(--p0); } .p1 { background:var(--p1); } .p2 { background:var(--p2); } .p3 { background:#aab; }
+  .new { display:inline-block; margin-top:4px; font-size:10px; font-weight:700; color:var(--accent); }
+  .content { max-width:520px; }
+  .content .t { font-weight:600; margin-bottom:4px; }
+  .content .b { white-space:pre-wrap; color:#333; max-height:7.5em; overflow:hidden; }
+  .content.open .b { max-height:none; }
+  .content .more { color:var(--accent); cursor:pointer; font-size:12px; }
+  .meta { color:var(--muted); font-size:12px; }
+  .pain { max-width:260px; }
+  .why { color:var(--muted); font-size:12px; margin-top:4px; }
+  a { color:var(--accent); }
+  .actions { display:flex; flex-direction:column; gap:6px; }
+  .actions button { padding:4px 8px; font-size:12px; }
+  .empty { padding:40px; text-align:center; color:var(--muted); }
+  .rules { color:var(--muted); font-size:11px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Reddit opportunities</h1>
+  <div class="sub" id="generated"></div>
+</header>
+<main>
+  <section class="tiles" id="tiles"></section>
+  <section class="lists">
+    <div class="list"><h3>Top opportunities</h3><ol id="topOpps"></ol></div>
+    <div class="list"><h3>Top keywords</h3><ol id="topKw"></ol></div>
+    <div class="list"><h3>Top subreddits</h3><ol id="topSubs"></ol></div>
+  </section>
+
+  <section class="filters">
+    <label>Intent <select id="fIntent"><option value="">All</option></select></label>
+    <label>Subreddit <select id="fSub"><option value="">All</option></select></label>
+    <label>Keyword <select id="fKw"><option value="">All</option></select></label>
+    <label>Type <select id="fType"><option value="">Posts and comments</option><option value="post">Posts</option><option value="comment">Comments</option></select></label>
+    <label>Min score <input type="number" id="fMin" min="0" max="100" value="0"></label>
+    <label><input type="checkbox" id="fNew"> New only</label>
+    <input type="search" id="fText" placeholder="Search text">
+    <span class="count" id="count"></span>
+    <button id="exportBtn">Export CSV</button>
+  </section>
+
+  <table>
+    <thead><tr>
+      <th class="sort" data-k="relevance_score">Score</th>
+      <th class="sort" data-k="intent_score">Intent</th>
+      <th>Username</th>
+      <th class="sort" data-k="subreddit">Subreddit</th>
+      <th>Content</th>
+      <th>Keyword</th>
+      <th>Pain point</th>
+      <th class="sort" data-k="created_at">Date</th>
+      <th>URL</th>
+    </tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+</main>
+
+<script>
+const DATA = /*__DATA__*/null;
+const LABEL = {
+  high_purchase_intent: "High purchase intent", tool_recommendation: "Tool recommendation",
+  comparison: "Comparison", problem_seeking_solution: "Problem, wants a solution",
+  workflow_problem: "Workflow problem", general_discussion: "General discussion", low_relevance: "Low relevance"
+};
+const PRI = { high_purchase_intent:0, tool_recommendation:0, comparison:0, problem_seeking_solution:1, workflow_problem:1, general_discussion:2, low_relevance:3 };
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let sortKey = null, sortDir = -1;
+
+function init() {
+  const s = DATA.stats;
+  $("generated").textContent = `Generated ${DATA.generated}. ${s.reviewed} of ${s.relevant} relevant items reviewed by Claude Code; the rest are scored by rules.`;
+  const tiles = [["Total results", s.total], ["Relevant", s.relevant], ["High intent", s.high], ["Medium intent", s.medium],
+                 ["Posts", s.posts], ["Comments", s.comments], ["Subreddits found", s.subreddits], ["Unique users", s.users]];
+  $("tiles").innerHTML = tiles.map(([l, v]) => `<div class="tile"><b>${v}</b><span>${l}</span></div>`).join("");
+  $("topKw").innerHTML = s.top_keywords.map(([k, n]) => `<li>${esc(k)} <small>${n}</small></li>`).join("") || "<li>None yet</li>";
+  $("topSubs").innerHTML = s.top_subreddits.map(([k, n]) => `<li>${esc(k)} <small>${n}</small></li>`).join("") || "<li>None yet</li>";
+  $("topOpps").innerHTML = DATA.rows.slice(0, 5).map(r =>
+    `<li><a href="${esc(r.reddit_url)}" target="_blank" rel="noopener">${esc(short(r.title || r.content, 70))}</a> <small>${r.relevance_score}, ${esc(r.subreddit)}</small></li>`).join("") || "<li>None yet</li>";
+
+  fill("fIntent", Object.keys(LABEL).filter(k => DATA.rows.some(r => r.intent === k)).map(k => [k, LABEL[k]]));
+  fill("fSub", uniq(DATA.rows.map(r => r.subreddit)).map(x => [x, x]));
+  fill("fKw", uniq(DATA.rows.flatMap(r => kws(r))).map(x => [x, x]));
+  ["fIntent","fSub","fKw","fType","fMin","fNew","fText"].forEach(id => $(id).addEventListener("input", render));
+  document.querySelectorAll("th.sort").forEach(th => th.addEventListener("click", () => {
+    const k = th.dataset.k;
+    sortDir = sortKey === k ? -sortDir : (k === "subreddit" ? 1 : -1);
+    sortKey = k;
+    document.querySelectorAll("th.sort").forEach(x => x.classList.toggle("on", x === th));
+    render();
+  }));
+  $("exportBtn").addEventListener("click", exportCsv);
+  render();
+}
+
+function kws(r) { return Array.isArray(r.matched_keywords) && r.matched_keywords.length ? r.matched_keywords : (r.keyword_matched ? [r.keyword_matched] : []); }
+function uniq(a) { return [...new Set(a.filter(Boolean))].sort((x, y) => x.localeCompare(y)); }
+function fill(id, opts) { $(id).insertAdjacentHTML("beforeend", opts.map(([v, l]) => `<option value="${esc(v)}">${esc(l)}</option>`).join("")); }
+function short(s, n) { s = String(s || "").replace(/\s+/g, " ").trim(); return s.length > n ? s.slice(0, n - 1) + "…" : s; }
+
+function visible() {
+  const it = $("fIntent").value, sub = $("fSub").value, kw = $("fKw").value, ty = $("fType").value;
+  const min = +$("fMin").value || 0, onlyNew = $("fNew").checked, q = $("fText").value.toLowerCase().trim();
+  let rows = DATA.rows.filter(r =>
+    (!it || r.intent === it) && (!sub || r.subreddit === sub) && (!kw || kws(r).includes(kw)) &&
+    (!ty || r.type === ty) && (r.relevance_score || 0) >= min && (!onlyNew || r._new) &&
+    (!q || [r.title, r.content, r.pain_point, r.username].join(" ").toLowerCase().includes(q)));
+  if (sortKey) {
+    rows = rows.slice().sort((a, b) => {
+      const x = a[sortKey] ?? "", y = b[sortKey] ?? "";
+      return (typeof x === "number" && typeof y === "number" ? x - y : String(x).localeCompare(String(y))) * sortDir;
+    });
+  }
+  return rows;
+}
+
+function render() {
+  const rows = visible();
+  $("count").textContent = `${rows.length} of ${DATA.rows.length} shown`;
+  if (!rows.length) { $("rows").innerHTML = `<tr><td colspan="9" class="empty">Nothing matches these filters.</td></tr>`; return; }
+  $("rows").innerHTML = rows.map((r, i) => {
+    const p = PRI[r.intent] ?? 3;
+    const title = r.type === "comment" ? `Comment on: ${r.title || r._parent_title}` : r.title;
+    return `<tr>
+      <td class="score">${r.relevance_score ?? ""}${r._new ? '<br><span class="new">NEW</span>' : ""}<div class="rules">${r.reviewed_by === "claude" ? "reviewed" : "rules only"}</div></td>
+      <td><span class="pill p${p}">${esc(LABEL[r.intent] || r.intent)}</span><div class="meta">${r.intent_score ?? ""}</div></td>
+      <td><a href="${esc(r.author_url)}" target="_blank" rel="noopener">u/${esc(r.username)}</a></td>
+      <td>${esc(r.subreddit)}<div class="meta">${esc(r.type)}</div></td>
+      <td><div class="content" id="c${i}"><div class="t">${esc(title)}</div><div class="b">${esc(r.content)}</div>
+          ${String(r.content || "").length > 400 ? `<span class="more" onclick="this.parentNode.classList.toggle('open')">Show all</span>` : ""}</div></td>
+      <td>${esc(r.keyword_matched)}</td>
+      <td class="pain">${esc(r.pain_point)}${r.reply_opportunity ? `<div class="why">${esc(r.reply_opportunity)}</div>` : ""}</td>
+      <td class="meta">${esc((r.created_at || "").slice(0, 10))}</td>
+      <td class="actions"><a href="${esc(r.reddit_url)}" target="_blank" rel="noopener">Open</a>
+          <button class="ghost" data-id="${esc(r.id)}">Copy reply context</button></td>
+    </tr>`;
+  }).join("");
+  document.querySelectorAll("button[data-id]").forEach(b => b.onclick = () => copyContext(b));
+}
+
+function contextFor(r) {
+  const lines = [
+    `Draft a Reddit reply for opportunity ${r.id}. Follow docs/REPLY.md and docs/LYNKK.md. Draft only, I will post it myself.`,
+    ``, `Subreddit: ${r.subreddit}`, `URL: ${r.reddit_url}`, `Type: ${r.type}`, `Username: u/${r.username}`,
+    `Intent: ${LABEL[r.intent] || r.intent} (${r.intent_score})`, `Pain point: ${r.pain_point || ""}`,
+    `Potential use case: ${r.potential_use_case || ""}`, `Context: ${r.context || ""}`, ``,
+  ];
+  if (r.type === "comment") {
+    lines.push(`Parent post title: ${r.title || r._parent_title}`, `Parent post: ${r.parent_post_url || ""}`,
+               `Parent post excerpt: ${r._parent_excerpt}`, ``, `Comment:`, r.content);
+  } else {
+    lines.push(`Post title: ${r.title}`, ``, `Post:`, r.content);
+  }
+  return lines.join("\n");
+}
+
+async function copyContext(btn) {
+  const r = DATA.rows.find(x => x.id === btn.dataset.id);
+  const text = contextFor(r);
+  try { await navigator.clipboard.writeText(text); }
+  catch { const t = document.createElement("textarea"); t.value = text; document.body.appendChild(t); t.select(); document.execCommand("copy"); t.remove(); }
+  const old = btn.textContent; btn.textContent = "Copied"; setTimeout(() => btn.textContent = old, 1200);
+}
+
+function csvCell(v) {
+  if (v == null) v = "";
+  if (Array.isArray(v)) v = v.join("; ");
+  let s = String(v);
+  if (/^[=+\-@\t\r]/.test(s)) s = "'" + s;
+  return '"' + s.replace(/"/g, '""') + '"';
+}
+
+function exportCsv() {
+  const rows = visible();
+  const lines = [DATA.columns.map(csvCell).join(",")].concat(rows.map(r => DATA.columns.map(c => csvCell(r[c])).join(",")));
+  const blob = new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `reddit_ai_note_opportunities_filtered_${new Date().toISOString().slice(0, 10)}.csv`;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+init();
+</script>
+</body>
+</html>

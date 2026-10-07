@@ -1,0 +1,104 @@
+# Reddit lead finder settings. Edit freely; every run reads this file.
+# Lines starting with # are comments.
+
+[search]
+# Each keyword is searched as an exact phrase. Several keywords are packed into
+# one Reddit search with OR, so adding keywords costs very few requests.
+# To search a combination instead of a phrase, write it with its own quotes,
+# for example '"meeting notes" AI' (the words must all appear). Combinations
+# get their own search, so they cost one request each.
+keywords = [
+  "AI note maker",
+  "AI note taker",
+  "AI notetaker",
+  "AI notes",
+  "AI meeting notes",
+  "AI meeting note taker",
+  "meeting notes AI",
+  "meeting transcription",
+  "meeting transcriber",
+  "AI transcription",
+  "voice notes",
+  "AI voice notes",
+  "meeting assistant",
+  "AI meeting assistant",
+  "conversation notes",
+  "automatic meeting notes",
+  "automatic transcription",
+  "meeting recorder",
+  "AI recorder",
+  "note taking AI",
+  "note-taking app",
+  "meeting summary",
+  "meeting summaries",
+  "call transcription",
+  "call notes",
+  "Zoom notes",
+  "Google Meet notes",
+  "Teams meeting notes",
+  "meeting minutes AI",
+  '"meeting notes" AI',
+]
+
+# Other meeting note products. Used to spot "alternative to X" and "X vs Y"
+# posts (they score as comparisons). They are also searched as
+# "<name> alternative". Remove any you don't want.
+competitors = [
+  "Otter", "Fireflies", "Granola", "Fathom", "tl;dv", "Read.ai", "Krisp",
+  "Notta", "Plaud", "MeetGeek", "Avoma", "Fellow", "Jamie", "Bluedot",
+]
+search_competitor_alternatives = true
+
+# "all" searches the whole of Reddit. Or list subreddits without the r/,
+# for example ["productivity", "Notion", "sales"].
+subreddits = ["all"]
+
+# How far back to look: "24h", "7d", "30d", "90d", or "custom" with since.
+time_range = "7d"
+since = ""            # only for "custom", e.g. "2026-09-01"
+
+include_posts = true
+include_comments = true
+
+# Most new candidates (items worth a review) per run: 50, 100, 250, 500 or 1000.
+max_results = 250
+
+[comments]
+# Comment threads under the best matching posts are read for comments.
+# Each thread is one request.
+max_threads_per_run = 15
+thread_min_score = 40
+
+# The latest comments in these subreddits are scanned for keywords every run.
+# They are read together, a few subreddits per request.
+watch_subreddits = [
+  "productivity", "Notion", "ObsidianMD", "Entrepreneur", "startups",
+  "SaaS", "sales", "consulting", "projectmanagement", "Zoom",
+  "ChatGPT", "artificial", "AI_Agents", "smallbusiness",
+]
+subreddits_per_request = 5
+
+[scoring]
+# Items below this rule score are dropped before review.
+review_threshold = 25
+# Only items at or above this relevance score are exported.
+min_relevance = 50
+
+[review]
+# Items handed to Claude Code per batch.
+batch_size = 10
+
+[network]
+# Reddit's public feeds allow about one request a minute without an API key.
+# The tool reads Reddit's rate-limit headers and waits as long as they say.
+# This is the minimum gap between requests on top of that.
+min_seconds_between_requests = 2
+# Hard cap on requests per run (each is about a minute).
+max_requests_per_run = 45
+# Reddit asks for a descriptive user agent. Put your Reddit username in it.
+user_agent = "macos:lynkk-reddit-leads:1.0 (lead research, read only)"
+
+[export]
+# {date} becomes today's date.
+filename = "reddit_ai_note_opportunities_{date}.csv"
+folder = "output"
