@@ -30,7 +30,7 @@ shares, so add it before publishing.
   scribbled meeting notes on the left flows into a clean card on the right
   listing three checked-off action items, each with an owner and a due date.`
 - **Caption** (type under the image): `Good notes record what happens next, not
-  everything that was said.`
+  everything that was said. (Illustration made with AI assistance.)`
 
 ## 3. Story settings
 
@@ -50,6 +50,15 @@ publish screen.
 
 ## 4. Before you click Publish
 
+- [ ] **AI disclosure (Medium policy):** the italic disclosure line under the
+      subtitle must stay within the first two paragraphs. Without it Medium limits
+      the story to your own followers. Read, fact-check and edit the story yourself
+      before publishing so the line is true.
+- [ ] **Paywall:** Medium does not allow AI-generated writing in the Partner
+      Program paywall. Publish it unlocked unless the story has been substantially
+      rewritten by a person.
+- [ ] **Image caption** keeps "(Illustration made with AI assistance.)", which
+      Medium requires for AI-made images.
 - [ ] Click each of the 6 links once (4 sources, 2 to lynkk.ai). They were
       confirmed through search results, not opened directly.
 - [ ] Title and subtitle look right in the preview card.

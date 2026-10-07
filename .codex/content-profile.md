@@ -78,12 +78,39 @@ canonical_url: ""    # set if the piece is also on lynkk.ai
 Hero image optional. Wide (about 1400x788), no embedded text, no third-party logos.
 Always provide alt text and a one-line caption.
 
+## Medium platform rules
+
+From Medium's AI content policy and distribution standards
+(https://help.medium.com/hc/en-us/articles/22576852947223):
+
+- Stories drafted with AI help carry a disclosure in the first two paragraphs.
+  Use the line: `*AI disclosure: this story was drafted with AI assistance, then
+  reviewed, fact-checked and edited by the author.*` Without it, Medium shows the
+  story only to the author's followers.
+- AI-generated writing can't go behind the Partner Program paywall.
+- AI-made images need a caption saying so: add "(Illustration made with AI
+  assistance.)".
+- Boost (wider distribution) favors stories that are constructive, original,
+  credible, well crafted and memorable. Clickbait, link farms and unsubstantiated
+  claims are excluded, so every claim needs a source or is framed as advice.
+
+## Keywords
+
+Pick one primary keyword and a handful of low-difficulty secondary keywords
+(Ubersuggest SD under about 35) from the same search cluster. Place the primary
+keyword in the title, the first 100 words, one heading and the SEO title. Use each
+secondary keyword once, only where it reads naturally (headings, template intro,
+closing). List them in frontmatter as `secondary_keywords`. Never repeat a phrase
+just for search; Medium curators treat that as low quality.
+
 ## Validation before marking ready-for-review
 
 1. Search the article for em and en dashes; there must be none.
 2. Search for misspellings of the brand (Lynk, Linnk, Link AI).
 3. Every statistic and legal claim has a source link.
 4. No item from the "To confirm" list in `memory/lynkk-brand.md` is stated as fact.
+5. The AI disclosure line is present in the first two paragraphs, and the hero
+   caption notes AI assistance.
 
 ## Notes
 

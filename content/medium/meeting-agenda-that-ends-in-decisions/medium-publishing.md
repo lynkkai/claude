@@ -24,7 +24,8 @@ after any edit with
 - **Alt text:** `Illustration: last week's notes feed into a meeting agenda where
   each item is marked with a question mark, and arrows lead to a second card where
   each question has become a checked decision with an owner.`
-- **Caption:** `A topic has no finish line. A question does.`
+- **Caption:** `A topic has no finish line. A question does. (Illustration made
+  with AI assistance.)`
 
 ## 3. Story settings
 
@@ -33,7 +34,7 @@ after any edit with
 | Preview title | How to Write a Meeting Agenda That Ends in Decisions |
 | Preview subtitle | Turn every agenda item into a question the meeting has to answer, and start with what the last meeting left open. |
 | SEO title (52 chars) | How to Write a Meeting Agenda That Ends in Decisions |
-| SEO description (152 chars) | Write each agenda item as a question, label it inform, input or decide, and start with what the last meeting left open. A reusable agenda format inside. |
+| SEO description (143 chars) | How to write a meeting agenda that ends in decisions: turn each item into a question, label it, and reuse a simple team meeting agenda example. |
 | Custom URL slug | meeting-agenda-that-ends-in-decisions |
 | Tags (max 5) | Meetings, Productivity, Management, Leadership, Teamwork |
 | Canonical link | Leave empty unless this is also published on lynkk.ai first. |
@@ -41,6 +42,15 @@ after any edit with
 
 ## 4. Before you click Publish
 
+- [ ] **AI disclosure (Medium policy):** the italic disclosure line under the
+      subtitle must stay within the first two paragraphs. Without it Medium limits
+      the story to your own followers. Read, fact-check and edit the story yourself
+      before publishing so the line is true.
+- [ ] **Paywall:** Medium does not allow AI-generated writing in the Partner
+      Program paywall. Publish it unlocked unless the story has been substantially
+      rewritten by a person.
+- [ ] **Image caption** keeps "(Illustration made with AI assistance.)", which
+      Medium requires for AI-made images.
 - [ ] Click each of the 5 links once (3 sources, 2 to lynkk.ai). The sources were
       confirmed through search results, not opened directly.
 - [ ] If the meeting notes article is already live, add a link to it in the

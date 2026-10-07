@@ -8,12 +8,14 @@ medium_tags: ["Productivity", "Meetings", "Management", "Leadership", "Work"]
 canonical_url: ""
 hero_image: "hero-meeting-notes-that-turn-into-action.png"
 hero_alt: "Illustration: a page of scribbled meeting notes on the left flows into a clean card on the right listing three checked-off action items, each with an owner and a due date."
-hero_caption: "Good notes record what happens next, not everything that was said."
+hero_caption: "Good notes record what happens next, not everything that was said. (Illustration made with AI assistance.)"
 ---
 
 # How to Take Meeting Notes That Actually Turn Into Action
 
 *Stop recording what people said. Capture decisions, owners and deadlines, and hand the rest to software.*
+
+*AI disclosure: this story was drafted with AI assistance, then reviewed, fact-checked and edited by the author.*
 
 Three weeks after a planning meeting, someone asks, "Didn't we agree to follow up with that customer?" Everyone remembers the conversation. Someone even took notes: a full page of them. But reading the page doesn't tell you who was supposed to send the email, or by when, or whether the team ever really decided anything.
 
