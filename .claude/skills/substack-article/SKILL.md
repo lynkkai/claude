@@ -106,6 +106,9 @@ list-style Note. Each must stand alone without the article and must not use dash
 - [ ] Read it as the named reader: is there anything they'd skim past? Cut it.
 
 ## Publishing notes (for the human)
+- Build a paste-ready page: `python3 substack/build_paste_ready.py substack/articles/<post>.md`
+  (needs `pip install markdown`). It writes `substack/paste-ready/<post>.html` with copy buttons
+  for every Substack field, the clean article body as rich text, button placements, and the Notes.
 - Paste from a **rendered** view (e.g. the file on GitHub, or a Markdown preview), not raw
   Markdown: Substack's editor does not convert pasted `##` or `**` reliably.
 - Set SEO title/description/slug under Settings > SEO in the post editor.

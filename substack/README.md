@@ -32,6 +32,17 @@ and post 3 ends with a teaser for post 4.
 Beyond the scheduled Notes, aim for 1-3 short Notes a day and thoughtful comments on other
 productivity, sales, and future-of-work publications. That is where most new readers come from.
 
+## Paste-ready pages
+
+`substack/paste-ready/` has one page per post (built so far: posts 1 and 2). Open it in a browser:
+it has copy buttons for every Substack field, a **Copy article** button for the clean body (rich
+text, so headers, links and lists survive the paste), where to drop the Subscribe/Share buttons,
+and the promo Notes. Rebuild after editing a post:
+
+```
+python3 substack/build_paste_ready.py substack/articles/<post>.md
+```
+
 ## Before you hit publish (each post)
 
 - [ ] Byline set to a real person (founder or team lead). Founder voice outperforms a logo.
