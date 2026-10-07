@@ -100,7 +100,9 @@ It also catches misunderstandings while everyone is still in the room, which is 
 
 We built [Lynkk](https://lynkk.ai) around the idea that the "after" of one meeting should become the "before" of the next.
 
-Before a call, Lynkk surfaces context from your past meetings with those people: what was discussed, what's still open, and who said what. If something comes up mid-call that you didn't prep for, you can ask Lynkk out loud for the past context and get the answer by voice, in the meeting. And because notes and action items are captured automatically after each meeting, the playback in the section above is already written for you.
+With Google Calendar connected, Lynkk sends a morning briefing email on days you have meetings. For each meeting it shows who you're meeting, the most recent note with those people, and how many action items are still open between you. That covers questions 1, 2 and 5 of the brief before you've opened your laptop.
+
+Every recorded meeting also gets a Meeting Brief with the decisions, the action items (owner, due date, priority) and the open questions, so the playback from the last section is already written down. And if you want to dig further, Ask Lynkk (Pro) answers questions from your own notes, with citations that open the recording at the moment it was said.
 
 You can do everything in this post by hand. Lynkk just means you don't have to do it at 2:58 pm.
 

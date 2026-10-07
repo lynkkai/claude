@@ -45,10 +45,9 @@ python3 substack/build_paste_ready.py substack/articles/<post>.md
 
 ## Images
 
-`substack/images/` holds banner images per post (so far: post 1), in two sizes:
-`1456x1048` for the Substack social preview and post thumbnail, and `1200x630` for LinkedIn/X
-link shares. Sources are HTML in `substack/images/src/`; edit and re-render with
-`python3 substack/images/render.py`.
+Banners are made with the `lynkk-post-kit` skill only, as wide (1600x900) kit posts:
+`lynkk-post-kit/posts/substack-01-banner/out/s1.png` for post 1. Upload it under Settings >
+Social preview and reuse it for LinkedIn/X shares. Alt text is in that folder's `captions.md`.
 
 ## Before you hit publish (each post)
 
@@ -66,8 +65,10 @@ link shares. Sources are HTML in `substack/images/src/`; edit and re-render with
 - [ ] Post 4 only: resolve the `todo` in its front matter first.
 - [ ] Send a test email to yourself and check it on a phone.
 
-## Still open (from `memory/lynkk-brand.md`)
+## Product claims
 
-None of the posts state pricing, supported meeting platforms, specific CRMs, number of languages,
-data regions, or certifications, because those aren't confirmed yet. Once they are, post 4's
-"Where Lynkk fits" section is the natural place to add certifications and training policy.
+Every Lynkk claim in these posts comes from `lynkk-post-kit/docs/TRUTHS.md` (checked against
+the product 2026-09-29). Run `node lynkk-post-kit/scripts/check.mjs substack/articles/<post>.md`
+before publishing. Posts 1 and 3 will show one expected flag: "Salesforce" is cited as the source
+of the State of Sales research, not as an integration. Post 4 says "ask us" for data location,
+retention and certifications because TRUTHS.md doesn't cover them.

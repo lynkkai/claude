@@ -6,13 +6,13 @@ seo_title: AI Note Taker Etiquette and Privacy: 7 Questions | Lynkk
 seo_description: How to use an AI note taker in online and in-person meetings without making people uncomfortable, and 7 privacy questions to ask any vendor first.
 slug: ai-note-taker-privacy-questions
 section: Trust
-tags: [ai note taker, privacy, data residency, gdpr, in person meetings, meeting etiquette]
+tags: [ai note taker, privacy, gdpr, in person meetings, meeting etiquette]
 reader: An ops, IT, or team lead deciding whether (and which) AI meeting tool their team should use, including for in-person meetings
 promise: You'll know how to introduce an AI to a meeting respectfully and which 7 questions separate a trustworthy tool from a risky one
 keyword: ai note taker for in person meetings
 social_image: A meeting grid with three tiles labeled "Notetaker" and one tile with a confused human, captioned "who invited them?"
 cta: Subscribe, and reply with the question your legal or IT team always asks about meeting tools
-todo: Before publishing, confirm with the team whether Lynkk can also state its model-training policy, retention controls, and certifications (SOC 2 / GDPR DPA). If yes, add one sentence each to "Where Lynkk fits". If not, leave as is.
+todo: Lynkk answers here use only lynkk-post-kit/docs/TRUTHS.md. Retention, sub-processors, data location and certifications are not in TRUTHS.md, so the post says "ask us". If the team confirms any of them, add one sentence to "Where Lynkk fits".
 ---
 
 # Ask these 7 questions before an AI joins your meeting
@@ -63,7 +63,7 @@ Online, the platform at least shows a "recording" banner or a bot in the partici
 
 That makes the verbal "ask first" more important, not less. Say it out loud at the start, and again if someone joins halfway through.
 
-It also matters legally. Rules about recording conversations differ by country and, in the US, by state: some places require the consent of everyone in the conversation, not just one person. And under GDPR, a recording or transcript that identifies people is personal data, so the lawful basis for capturing it should be settled before you hit record ([a practical overview here](https://www.spinach.ai/blog/gdpr-ai-meeting-tools-guide)). This isn't legal advice. It's a reason to ask your legal team once and write down the answer.
+It also matters legally. Rules about recording conversations differ by country and, in the US, by state: some places require the consent of everyone in the conversation, and others only the consent of one person. And under GDPR, a recording or transcript that identifies people is personal data, so the lawful basis for capturing it should be settled before you hit record ([a practical overview here](https://www.spinach.ai/blog/gdpr-ai-meeting-tools-guide)). This isn't legal advice. It's a reason to ask your legal team once and write down the answer.
 
 > In a room with no recording banner, your voice is the banner. Say it out loud.
 
@@ -73,7 +73,7 @@ Manners handle the people. These questions handle the tool. Ask them before your
 
 ### 1. Where is our data processed, and can we choose the region?
 
-Not just where it's *stored*. Where the AI models that transcribe and summarize it actually run. For teams in regulated industries or regions with data-residency rules, this is often the deciding question.
+Ask where it's *stored* and where the AI models that transcribe and summarize it actually run. For teams in regulated industries or regions with data-residency rules, this is often the deciding question.
 
 ### 2. Is our data used to train models?
 
@@ -85,7 +85,7 @@ Everyone on the invite? The whole company? Only the person who recorded? Default
 
 ### 4. How long is it kept, and can we delete it?
 
-Look for clear retention controls and real deletion, not just hiding it from the interface.
+Look for clear retention controls and real deletion. Hiding a recording from the interface doesn't count.
 
 ### 5. How do participants know it's there?
 
@@ -105,11 +105,15 @@ If a vendor can't answer one of these clearly, that's your answer.
 
 Here's how [Lynkk](https://lynkk.ai) answers some of those questions today.
 
-On **question 1**, Lynkk lets you pick a region, and every model behind Lynkk processes and answers from that region. We built it that way because it was the first thing legal and compliance teams asked us.
+On **question 2**: Lynkk never trains on your conversations. Recordings are private to your account.
 
-On **question 6**, Lynkk records in-person conversations as well as online meetings, it's multilingual, and it's offline-first, so it keeps working on a plane or in a basement meeting room.
+On **question 3**: in a company workspace, each note is either "Admins can see this note" (the default) or Personal, visible only to you. Recordings stay with the owner, and every admin read is logged. Sharing a note is your choice: a revocable link, or an invite by email.
 
-For the rest of the list, ask us directly at [marketing@lynkk.ai](mailto:marketing@lynkk.ai). You should ask every vendor all seven, including us.
+On **question 5**: you choose. The Mac app and the Chrome extension record without a bot, so nothing joins the call, which is exactly why the "ask first" rule above matters. If you'd rather the room can see it, the meeting bot joins Google Meet, Zoom and Teams as a visible participant.
+
+On **question 6**: you can record an in-person meeting from the browser at lynkk.ai, transcripts cover 17 languages (four in beta), and the Mac app writes audio to disk from the first second, so bad Wi-Fi doesn't lose the recording.
+
+For questions 1, 4 and 7, ask us directly at [marketing@lynkk.ai](mailto:marketing@lynkk.ai). You should ask every vendor all seven, including us.
 
 ## The short version
 
@@ -145,5 +149,5 @@ Reply to this email with the question your legal or IT team always asks about me
 > 3. Who sees transcripts by default?
 > 4. How long is it kept? Can we delete it?
 > 5. How do participants know it's there?
-> 6. Does it work in person and offline?
+> 6. Does it work in person and on bad Wi-Fi?
 > 7. What certifications back it up?

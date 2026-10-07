@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Lynkk dictation, 30 second video · Lynkk post</title>
+<link rel="stylesheet" href="../../kit/post.css" />
+<style>
+  /* A video is one story board with seven scenes stacked inside the body.
+     window.__seek(t) (bottom of the file) poses every scene for time t, so
+     scripts/video.mjs can render it frame by frame. Open the file in a
+     browser and it plays on its own. */
+  .post-body.stack { position: relative; padding: 0; }
+  .vscene { position: absolute; inset: 60px 48px 56px; display: flex; flex-direction: column; visibility: hidden; }
+  .vscene.center { align-items: center; justify-content: center; text-align: center; }
+  .vscene > .plate.grow { height: auto; }
+  /* A video is watched on a phone at full screen: cards on a plate play at 1.5x. */
+  .vscene .scene > .glass, .vscene .scene > .window { zoom: 1.5; }
+  .vscene .m-level { grid-template-columns: 76px 1fr; }
+  .vscene .cta { padding-top: 240px; }
+
+  /* Speed check card (scene 1). */
+  .typing { min-height: 2.8em; padding-top: 14px; }
+  .caret { display: inline-block; width: 2px; height: 1.05em; margin-left: 2px; vertical-align: -0.15em; background: var(--gr-black); }
+
+  /* Message mock (scenes 2 and 3). */
+  .msg { display: grid; gap: 4px; padding: 14px 0; border-bottom: 1px solid var(--gr-rule-day); }
+  .msg:last-child { border-bottom: 0; }
+  .msg .m-k { font-size: 0.85em; }
+  .msg-me { text-align: right; }
+  .swap { display: inline-block; border-radius: 6px; padding: 0 4px; margin: 0 -4px; }
+  .swap.hit { background: var(--gr-violet-tint); color: var(--gr-violet); }
+  .dots-typing { display: inline-flex; gap: 6px; padding: 6px 0; }
+  .dots-typing i { width: 9px; height: 9px; border-radius: 50%; background: rgb(17 17 17 / 0.35); }
+
+  /* Dictation on the Mac (scene 5): the notch island, the app window, the fn key. */
+  .mac { width: 100%; height: 100%; display: grid; grid-template-rows: auto 1fr auto; justify-items: center; gap: 36px; padding: 0 12px 8px; }
+  .island { display: inline-flex; align-items: center; gap: 14px; height: 64px; padding: 0 28px 0 22px; border-radius: 0 0 32px 32px;
+    background: var(--gr-black); color: var(--gr-white); font-size: 22px; letter-spacing: 0; white-space: nowrap; }
+  .island i[data-icon] { width: 26px; height: 26px; }
+  .island .bars { display: inline-flex; align-items: center; gap: 4px; height: 26px; }
+  .island .bars b { width: 4px; height: 6px; border-radius: 2px; background: var(--gr-white); }
+  .island .to { color: rgb(255 255 255 / 0.6); }
+  .mac .window { align-self: center; }
+  .mac .window-body { min-height: 230px; font-size: 26px; line-height: 1.45; }
+  .mac .m-k { font-size: 20px; display: block; padding-bottom: 8px; }
+  .key { display: grid; justify-items: center; gap: 12px; color: var(--gr-white); font-size: 20px; letter-spacing: 0; }
+  .keycap { display: grid; place-items: center; width: 108px; height: 96px; border-radius: 18px; font-size: 32px;
+    background: rgb(255 255 255 / 0.2); border: 1px solid var(--gr-glass-line);
+    -webkit-backdrop-filter: blur(70px); backdrop-filter: blur(70px); }
+  .keycap.down { background: var(--gr-white); color: var(--gr-black); }
+  .chip.is-on { background: var(--gr-ink); color: var(--gr-bg); border-color: var(--gr-ink); }
+
+  /* Out of office card (scene 6). */
+  .ooo { display: grid; grid-template-columns: 64px 1fr; gap: 18px; align-items: center; padding-bottom: 8px; }
+  .ooo .icon-chip { width: 64px; height: 64px; }
+
+  /* Brand reveal (scene 4). */
+  .reveal-mark { width: 220px; height: 220px; }
+</style>
+</head>
+<body>
+
+<section class="post" id="v1" data-size="story" data-count="01 / 07">
+  <main class="post-body stack" data-dots>
+
+    <!-- 01 · hook, 0 to 4.75 s. VO: "Your brain thinks at 400 words a minute. Your fingers? About 40." -->
+    <div class="vscene" data-from="0" data-to="4.75">
+      <span class="eyebrow" data-tone="quiet" data-in="0">Typing, honestly</span>
+      <h1 class="t-display"><span data-in="0.15">Your brain is fast.</span> <span class="ink-2" data-in="2.5">Your fingers are not.</span></h1>
+      <div class="plate plate-night scene grow mt-l" data-rings data-in="0.4" style="--card-w: 540px">
+        <div class="glass" data-size="l">
+          <div class="glass-title">Speed check</div>
+          <div class="glass-body">
+            <div class="m-level" id="lv-brain" style="--v: 0%"><span>Brain</span><i></i></div>
+            <div class="m-level" id="lv-fingers" style="--v: 0%"><span>Fingers</span><i></i></div>
+            <div class="m-quote typing" id="hook-typing" data-type-from="1.0" data-type-to="4.6">Hey team, quick update on the beta. It's going</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 02 · problem, 4.75 to 8.15 s. VO: "So every Slack reply becomes a typing marathon." -->
+    <div class="vscene" data-from="4.75" data-to="8.15">
+      <span class="eyebrow" data-in="0">Every reply, by hand</span>
+      <h2 class="t-h2" data-in="0.1">Every reply. <span class="ink-2">A typing marathon.</span></h2>
+      <div class="plate plate-sky scene grow mt-l" data-rings data-in="0.25" style="--card-w: 540px">
+        <div class="window">
+          <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>Waiting on you</span><span></span></div>
+          <div class="window-body">
+            <div class="msg" data-in="0.45"><span class="m-k">#launch · Priya</span>Can you send the recap?</div>
+            <div class="msg" data-in="0.95"><span class="m-k">Mail · Sam</span>Notes from the design review?</div>
+            <div class="msg" data-in="1.45"><span class="m-k">Jira · BETA-21</span>Status on the beta?</div>
+            <div class="msg" data-in="1.95"><span class="m-k">#design · Alex</span>Quick one, can you write it up?</div>
+            <div class="m-fine" data-in="2.3"><span class="m-chip" id="unread">4 unread</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 03 · the funny beat, 8.15 to 12.65 s. VO: "And autocorrect still sends 'Let's shop it' to your CEO." -->
+    <div class="vscene" data-from="8.15" data-to="12.65">
+      <span class="eyebrow" data-in="0">Autocorrect strikes</span>
+      <h2 class="t-h2" data-in="0.1">You typed ship. <span class="ink-2">It sent shop.</span></h2>
+      <div class="plate plate-meadow scene grow mt-l" data-rings data-in="0.25" style="--card-w: 540px">
+        <div class="window">
+          <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>Message to the CEO</span><span></span></div>
+          <div class="window-body">
+            <div class="msg msg-me"><span class="m-k" id="sent-k">You · typing</span><span><span id="ship-typed">Let's </span><span class="swap" id="swap">ship</span><span id="ship-tail"> it.</span></span></div>
+            <div class="msg msg-me" id="ac-chip"><span class="m-chip">Autocorrected</span></div>
+            <div class="msg" id="ceo-dots"><span class="m-k">CEO</span><span class="dots-typing"><i></i><i></i><i></i></span></div>
+            <div class="msg" id="ceo-reply"><span class="m-k">CEO</span>Love the energy. What are we buying?</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 04 · the turn, 12.65 to 14.55 s. VO: "Meet Lynkk dictation." -->
+    <div class="vscene center" data-from="12.65" data-to="14.55">
+      <span class="eyebrow" data-tone="quiet" data-in="0.05">Lynkk for Mac</span>
+      <i data-mark class="reveal-mark mt-xl" id="reveal-mark"></i>
+      <h2 class="t-display mt-xl" data-in="0.35">Lynkk dictation</h2>
+      <p class="t-lead mt-m" data-in="0.6">Hold a key. Talk. Let go.</p>
+    </div>
+
+    <!-- 05 · the solution, 14.55 to 22.55 s. VO: "Just talk. Your words appear right at your cursor, in whatever app you're in. Slack, email, Jira, docs." -->
+    <div class="vscene" data-from="14.55" data-to="22.55">
+      <span class="eyebrow" data-in="0">Lynkk dictation · Mac</span>
+      <h2 class="t-h2" data-in="0.1">Hold fn and talk. <span class="ink-2">The words land at your cursor.</span></h2>
+      <div class="plate plate-dusk scene grow mt-l" data-rings data-in="0.25" style="padding-top: 0">
+        <div class="mac">
+          <div class="island" id="island"><i data-icon="mic"></i><span id="island-state">Listening</span><span class="bars" id="bars"><b></b><b></b><b></b><b></b><b></b></span><span class="to" id="island-to">to Slack</span></div>
+          <div class="window" style="width: 720px">
+            <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span id="app-title">#launch</span><span></span></div>
+            <div class="window-body">
+              <div data-app="0"><span class="m-k">Message #launch</span><span class="landed">Beta is on track for the 21st. Recap after lunch.</span></div>
+              <div data-app="1"><span class="m-k">New message to Priya</span><span class="landed">Notes from today's design review are below.</span></div>
+              <div data-app="2"><span class="m-k">New issue</span><span class="landed">Write the release notes for the beta. Owner: Sam.</span></div>
+              <div data-app="3"><span class="m-k">Launch plan</span><span class="landed">Ship the beta on the 21st, then a week of feedback.</span></div>
+            </div>
+          </div>
+          <div class="key"><span class="keycap" id="fn">fn</span><span id="key-hint">Hold to talk</span></div>
+        </div>
+      </div>
+      <div class="chips mt-m" data-in="0.4">
+        <span class="chip" data-chip="0">Slack</span><span class="chip" data-chip="1">Mail</span><span class="chip" data-chip="2">Jira</span><span class="chip" data-chip="3">Docs</span><span class="chip">Any app</span>
+      </div>
+    </div>
+
+    <!-- 06 · payoff, 22.55 to 25.75 s. VO: "Your keyboard finally gets a vacation." -->
+    <div class="vscene" data-from="22.55" data-to="25.75">
+      <span class="eyebrow" data-in="0">Meanwhile</span>
+      <h2 class="t-h2" data-in="0.1">Your keyboard <span class="ink-2">finally gets a vacation.</span></h2>
+      <div class="plate plate-field scene grow mt-l" data-rings style="--card-w: 520px">
+        <div class="glass" data-size="l" id="ooo-card">
+          <div class="glass-title">Automatic reply</div>
+          <div class="glass-body">
+            <div class="ooo"><span class="icon-chip" data-c="quiet"><i data-icon="keyboard"></i></span><div class="m-title">Keyboard is out of office</div></div>
+            <div class="m-row"><span class="m-k">Back</span>Not anytime soon</div>
+            <div class="m-fine">For anything urgent, hold fn and talk.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 07 · CTA, 25.75 to 30 s. VO: "Lynkk. You talk, it types. Start free at lynkk.ai." -->
+    <div class="vscene" data-from="25.75" data-to="30">
+      <div class="plate plate-ember cta" data-rings>
+        <span class="cta-tag" data-in="0.15">Start free</span>
+        <h2 class="t-display" data-in="0.9">You talk. It types.</h2>
+        <p class="cta-sub" data-in="1.3">Hold fn, talk, let go. The words land where your cursor is, in any app on your Mac.</p>
+        <span class="btn" data-in="2.1">Start free at lynkk.ai</span>
+        <div class="facts" data-in="2.5">
+          <div class="fact"><span class="fact-t">Any app</span><span class="fact-b">Words land at your cursor</span></div>
+          <div class="fact"><span class="fact-t">18 languages</span><span class="fact-b">Cloud dictation, Pro</span></div>
+          <div class="fact"><span class="fact-t">Instant mode</span><span class="fact-b">On your Mac, free</span></div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</section>
+
+<script src="../../kit/post.js"></script>
+<script>
+(() => {
+  const DURATION = 30;
+  const clamp = (x) => Math.min(1, Math.max(0, x));
+  const ease = (x) => 1 - Math.pow(1 - clamp(x), 3);
+  const back = (x) => { x = clamp(x); const c = 1.6; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+  const $ = (s) => document.querySelector(s);
+  const $$ = (s) => [...document.querySelectorAll(s)];
+  const show = (el, on) => { el.style.display = on ? "" : "none"; };
+
+  const scenes = $$(".vscene").map((el) => ({ el, from: +el.dataset.from, to: +el.dataset.to,
+    items: [...el.querySelectorAll("[data-in]")] }));
+  const count = $(".post-top .count");
+  const pad = (n) => String(n).padStart(2, "0");
+
+  // Text that types in: keep the full string, show a slice.
+  const typers = $$("[data-type-from]").map((el) => ({ el, text: el.textContent, from: +el.dataset.typeFrom, to: +el.dataset.typeTo }));
+  const caret = () => '<span class="caret"></span>';
+  // Uneven typing: a fixed pseudo-random rhythm, so every render is the same.
+  const rhythm = (n) => { const out = [0]; let s = 7; for (let i = 1; i <= n; i++) { s = (s * 9301 + 49297) % 233280; out.push(out[i - 1] + 0.5 + s / 233280); } return out.map((v) => v / out[n]); };
+  for (const ty of typers) ty.steps = rhythm(ty.text.length);
+
+  const landed = $$("[data-app]").map((el) => {
+    const span = el.querySelector(".landed");
+    const words = span.textContent.split(" ");
+    span.innerHTML = words.map((w) => `<span class="w">${w}</span>`).join(" ");
+    return { el, words: [...span.querySelectorAll(".w")] };
+  });
+  const APPS = [
+    { title: "#launch", to: "to Slack", down: 14.9, up: 16.55 },
+    { title: "Mail", to: "to Mail", down: 18.45, up: 18.85 },
+    { title: "Jira", to: "to Jira", down: 18.95, up: 19.4 },
+    { title: "Docs", to: "to Docs", down: 19.5, up: 19.95 },
+  ];
+
+  function seek(t) {
+    let active = 0;
+    scenes.forEach((s, i) => {
+      const last = i === scenes.length - 1;
+      let o = i === 0 ? 1 : ease((t - s.from) / 0.3);
+      if (!last) o = Math.min(o, 1 - ease((t - (s.to - 0.25)) / 0.25));
+      if (t < s.from || (!last && t >= s.to)) o = 0;
+      s.el.style.opacity = o;
+      s.el.style.visibility = o > 0 ? "visible" : "hidden";
+      if (t >= s.from) active = i;
+      for (const el of s.items) {
+        const p = ease((t - s.from - +el.dataset.in) / 0.45);
+        el.style.opacity = p;
+        el.style.transform = p < 1 ? `translateY(${(1 - p) * 28}px)` : "";
+      }
+    });
+    if (count) count.innerHTML = `<b>${pad(active + 1)}</b> / ${pad(scenes.length)}`;
+    const blink = Math.floor(t * 2.2) % 2 === 0;
+
+    // 01 · speed check
+    $("#lv-brain").style.setProperty("--v", `${ease((t - 0.7) / 0.6) * 96}%`);
+    $("#lv-fingers").style.setProperty("--v", `${clamp((t - 0.9) / 3.6) * 14}%`);
+    for (const ty of typers) {
+      const p = clamp((t - ty.from) / (ty.to - ty.from));
+      const n = ty.steps.findIndex((v) => v > p);
+      const shown = n < 0 ? ty.text.length : Math.max(0, n - 1);
+      ty.el.innerHTML = ty.text.slice(0, shown).replace(/&/g, "&amp;").replace(/</g, "&lt;") + (blink || p < 1 ? caret() : "");
+    }
+
+    // 02 · unread count climbs as messages land
+    const unread = 4 + Math.max(0, Math.floor((t - 7.2) / 0.18));
+    $("#unread").textContent = `${Math.min(unread, 9)} unread`;
+
+    // 03 · "ship" becomes "shop", then the CEO answers
+    const typed = clamp((t - 8.55) / 0.9);
+    const full = "Let's ship it.";
+    const shown = Math.round(typed * full.length);
+    $("#ship-typed").textContent = full.slice(0, Math.min(shown, 6));
+    const swapped = t >= 9.75;
+    $("#swap").textContent = shown > 6 ? (swapped ? "shop" : "ship".slice(0, shown - 6)) : "";
+    $("#swap").classList.toggle("hit", swapped && t < 11.2);
+    $("#swap").style.transform = swapped ? `scale(${1 + 0.25 * (1 - ease((t - 9.75) / 0.35))})` : "";
+    $("#ship-tail").textContent = shown > 10 ? full.slice(10, shown) : "";
+    $("#sent-k").textContent = t >= 10.05 ? "You · Sent" : "You · typing";
+    const ac = $("#ac-chip"); show(ac, swapped && t < 10.6);
+    show($("#ceo-dots"), t >= 10.45 && t < 11.15);
+    const reply = $("#ceo-reply"); show(reply, t >= 11.15);
+    const rp = ease((t - 11.15) / 0.35);
+    reply.style.opacity = rp; reply.style.transform = `translateY(${(1 - rp) * 16}px)`;
+
+    // 04 · the mark arrives
+    const mp = back((t - 12.75) / 0.6);
+    const mark = $("#reveal-mark");
+    mark.style.opacity = clamp((t - 12.75) / 0.25);
+    mark.style.transform = `scale(${0.55 + 0.45 * mp}) rotate(${(1 - mp) * -40}deg)`;
+
+    // 05 · hold fn, talk, let go: the words land
+    let app = 0;
+    APPS.forEach((a, i) => { if (t >= a.down - 0.05) app = i; });
+    const cur = APPS[app];
+    const listening = t >= cur.down && t < cur.up;
+    $("#fn").classList.toggle("down", listening);
+    $("#key-hint").textContent = listening ? "Listening" : "Hold to talk";
+    $("#island-state").textContent = listening ? "Listening" : "Done";
+    $("#island-to").textContent = cur.to;
+    $("#app-title").textContent = cur.title;
+    $$("#bars b").forEach((b, i) => {
+      const lv = listening ? 0.35 + 0.65 * Math.abs(Math.sin(t * 9 + i * 1.7) * Math.sin(t * 4.3 + i)) : 0.15;
+      b.style.height = `${Math.round(6 + 20 * lv)}px`;
+    });
+    landed.forEach((l, i) => {
+      show(l.el, i === app);
+      const start = APPS[i].up;
+      l.words.forEach((w, k) => { const p = ease((t - start - k * 0.025) / 0.18); w.style.opacity = p; });
+    });
+    const typedEnd = APPS[app].up + landed[app].words.length * 0.025 + 0.18;
+    const lastWord = landed[app].words.at(-1);
+    lastWord.innerHTML = lastWord.textContent + (t >= typedEnd && blink ? caret() : "");
+    $$("[data-chip]").forEach((c) => c.classList.toggle("is-on", +c.dataset.chip === app || (t >= 20.3 && +c.dataset.chip <= 3)));
+
+    // 06 · the out of office card pops in
+    const op = back((t - 22.85) / 0.55);
+    const card = $("#ooo-card");
+    card.style.opacity = clamp((t - 22.85) / 0.2);
+    card.style.transform = `scale(${0.9 + 0.1 * op}) rotate(${(1 - op) * -3}deg)`;
+  }
+
+  window.__seek = seek;
+  window.__duration = DURATION;
+  seek(0);
+
+  // Opened in a browser: play it. The renderer sets ?still to stop this.
+  if (!new URLSearchParams(location.search).has("still")) {
+    const t0 = performance.now();
+    const tick = () => { seek(((performance.now() - t0) / 1000) % DURATION); requestAnimationFrame(tick); };
+    requestAnimationFrame(tick);
+  }
+})();
+</script>
+</body>
+</html>

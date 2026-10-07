@@ -6,7 +6,7 @@ seo_title: Meeting Follow Up: A System That Gets Done | Lynkk
 seo_description: Why action items die after meetings, plus a 15-minute follow-up routine and a copy-paste follow-up email template with owners and dates built in.
 slug: meeting-follow-up-system
 section: Follow-through
-tags: [meeting follow up, action items, follow up email, crm, jira]
+tags: [meeting follow up, action items, follow up email, jira, sales]
 reader: A sales or product lead whose meetings go fine but whose follow-ups slip by days
 promise: You'll have a repeatable follow-up routine and an email template that turns "next steps" into owned, dated tasks
 keyword: meeting follow up
@@ -50,7 +50,7 @@ Action items rarely fail because people are lazy. They fail in three specific pl
 
 ### 2. They were written down in the wrong place
 
-The action item lives in a meeting doc. The person's work lives in Jira, the CRM, or their inbox. Anything that requires someone to go *find* it will be forgotten. A task has to land where the owner already works.
+The action item lives in a meeting doc. The person's work lives in Jira, the sales pipeline, or their inbox. Anything that requires someone to go *find* it will be forgotten. A task has to land where the owner already works.
 
 ### 3. Nobody confirmed them while everyone was still there
 
@@ -76,7 +76,7 @@ Go through your notes and rewrite every next step in this shape:
 
 ### Minutes 5-10: Put each task where its owner works
 
-Tickets go into Jira. Deal changes go into the CRM. Your own tasks go into whatever you actually check. Don't link to the meeting notes and hope. Copy the task to its home.
+Tickets go into Jira. Deal changes go into your sales pipeline. Your own tasks go into whatever you actually check. Don't link to the meeting notes and hope. Copy the task to its home.
 
 ### Minutes 10-15: Send the follow-up email
 
@@ -118,11 +118,13 @@ That's not a willpower problem. It's a signal that this is exactly the kind of w
 
 ## Where Lynkk fits
 
-This routine is what we designed [Lynkk](https://lynkk.ai)'s "after" to do for you.
+We built [Lynkk](https://lynkk.ai)'s "after" to take most of this routine off your plate.
 
-Within about 30 seconds of a meeting ending, Lynkk produces structured notes, assigns action items, updates CRM fields, and creates Jira tickets, so tasks land where their owners already work. It connects to your calendar, Jira, Calendly and Cal.com, and to other tools via MCP. And every meeting stays searchable afterward, so "what did we agree with them in March?" is a search, not an archaeology project.
+Every recording gets a Meeting Brief: key takeaways with timestamps, decisions with context, open questions, and action items with an owner, due date and priority. That's minutes 0-5 done. Tasks go on a board (open, in progress, in review, done), and you can send them to Jira from the note, one issue per action item, in the project you pick. You choose what goes, so nothing lands in someone's queue by surprise.
 
-You still own the playback at the end of the call. That part should stay human. Everything after it shouldn't need to be.
+The summary is emailed to you after every meeting, and to attendees if you opt in, which covers most of the follow-up email. And with Ask Lynkk (Pro), "what did we agree with them in March?" becomes a question with a cited answer, not an archaeology project.
+
+You still own the playback at the end of the call. That part should stay human.
 
 ## Try it this week
 

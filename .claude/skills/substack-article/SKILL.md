@@ -7,16 +7,20 @@ description: Write a publish-ready Substack post for the Lynkk publication (titl
 
 Produces Substack posts that read like editorial, not ads, and still move readers toward Lynkk.
 Research behind every rule here, with sources: `references/substack-playbook.md`.
-Brand facts: `memory/lynkk-brand.md`. House writing rules: `CLAUDE.md`.
+Product facts: `lynkk-post-kit/docs/TRUTHS.md` (wins over `memory/lynkk-brand.md`).
+House writing rules: `CLAUDE.md`. Any image for a post (banner, social preview, inline
+graphic): use the `lynkk-post-kit` skill, never a hand-made design.
 
 ## Non-negotiables
 
 1. **No em dashes (—) or en dashes (–). Anywhere.** Not in titles, body, Notes, or metadata.
    Use a comma, colon, parentheses, or a new sentence. Run the dash check in step 7.
 2. **Brand spelling:** Lynkk, lynkk.ai. Never Lynk / Linnk / Link AI.
-3. **Only claim what `memory/lynkk-brand.md` confirms.** Anything under "To confirm" (pricing,
-   iOS/Android/Windows, Zoom/Meet/Teams support, which CRMs, number of languages, data regions,
-   certifications) must not appear as fact. Leave a `TODO:` if a post needs it.
+3. **Only claim what `lynkk-post-kit/docs/TRUTHS.md` says.** Its "Don't claim" list is a hard
+   rule: no AI that speaks or answers during the call, no CRM, no automatic Jira (Send is manual),
+   no regions or data residency, no certifications, no knowledge-graph screen, no "30 seconds",
+   no "offline-first", no phone apps, no prices, no competitor names. If a post needs something
+   not in TRUTHS.md, leave a `TODO:` and ask the team.
 4. **Every statistic has a named primary source and a link.** Prefer the original study
    (Microsoft, Atlassian, Salesforce, academic papers) over vendor blogs that re-quote it.
    If you cannot trace a number to its origin, cut it. Never invent quotes, customers, or results.
@@ -97,7 +101,8 @@ list-style Note. Each must stand alone without the article and must not use dash
 ### 7. Quality gate (run before saying it is done)
 - [ ] `LC_ALL=C.UTF-8 grep -nP '[\x{2013}\x{2014}]' <file>` returns nothing (no en/em dashes).
 - [ ] "Lynkk" spelled correctly everywhere; no Lynk/Linnk/Link AI.
-- [ ] Every number has an inline link to its source; no claim from "To confirm".
+- [ ] Every number has an inline link to its source; every Lynkk claim is in TRUTHS.md.
+- [ ] Banner/social image made with the `lynkk-post-kit` skill (`posts/substack-<nn>-banner`).
 - [ ] Hook works without the title; first 2 lines give a reason to keep reading.
 - [ ] Headers alone tell the story.
 - [ ] Lynkk mentions are under ~20% of the post; the post is useful without them.

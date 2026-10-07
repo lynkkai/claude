@@ -10,7 +10,7 @@ tags: [ai meeting notes, meeting lifecycle, productivity, ai note taker]
 reader: A team lead or founder with back-to-back calls who already uses an AI notetaker and still feels behind
 promise: You'll see the three moments in a meeting where time is actually lost, and how to cover each one
 keyword: ai meeting notes
-social_image: Three-panel timeline labeled Before / During / After, with a small notetaker icon only on "After" and a question mark over the other two
+social_image: lynkk-post-kit/posts/substack-01-banner/out/s1.png (made with the lynkk-post-kit skill)
 cta: Subscribe (first post in the series)
 ---
 
@@ -22,7 +22,7 @@ cta: Subscribe (first post in the series)
 
 It's 2:58 pm. You have a call at 3 with a customer you last spoke to five weeks ago.
 
-You open the CRM. The notes say "good call, follow up re: pricing." You search your inbox for their name. You skim a Slack thread that might be about them. At 3:01 you join, smile, and ask the question every customer quietly hates: "So, remind me where we landed last time?"
+You open the account record. The notes say "good call, follow up re: pricing." You search your inbox for their name. You skim a Slack thread that might be about them. At 3:01 you join, smile, and ask the question every customer quietly hates: "So, remind me where we landed last time?"
 
 Somewhere in your stack, an AI notetaker has a perfect transcript of that last call. It just wasn't there when you needed it.
 
@@ -52,21 +52,21 @@ So people show up cold. The first ten minutes become a group exercise in reconst
 
 The fix is not "be more disciplined about prep." The fix is that the context should come to you, not the other way around.
 
-## During: the answer is in a document nobody can find
+## During: you're either listening or typing
 
 The second leak happens live.
 
-Someone asks, "What did legal say about the data clause?" or "What number did we quote them in March?" The honest answer is "I'll check and get back to you." That sentence quietly creates another email thread, another follow-up, and very often another meeting.
+Someone has to take notes. Whoever does is half out of the conversation, writing down the last point while the next one goes by. The decision gets captured as a fragment, and the reason behind it doesn't get captured at all.
 
-[Atlassian surveyed 5,000 knowledge workers](https://fortune.com/2024/03/21/meetings-productivity-ineffective-atlassian-report) and found meetings were ineffective 72% of the time. A big part of "ineffective" is exactly this: decisions that couldn't be made in the room because the information wasn't in the room.
+[Atlassian surveyed 5,000 knowledge workers](https://fortune.com/2024/03/21/meetings-productivity-ineffective-atlassian-report) and found meetings were ineffective 72% of the time. The researchers' summary of a bad meeting was blunt: no decisions were made, and nobody knows what's expected of them.
 
-A notetaker that silently transcribes can't help here. It's a stenographer, not a participant.
+Many AI notetakers fix the typing by sending a bot into the call. That brings its own problem: everyone can see the extra participant, and some people talk differently when it's there.
 
 ## After: the recap is not the work
 
 AI notetakers have mostly solved this part, at least on paper. You get a summary, a list of action items, maybe a highlight reel.
 
-But look at what happens next. Someone still has to copy the action items into the project tracker. Someone still has to update the CRM. Someone still has to write the follow-up email and turn "we should look into that" into an actual ticket with an actual owner.
+But look at what happens next. Someone still has to copy the action items into the project tracker. Someone still has to update the account record. Someone still has to write the follow-up email and turn "we should look into that" into an actual ticket with an actual owner.
 
 [Salesforce's State of Sales research](https://www.salesforce.com/news/stories/sales-ai-statistics-2024/) found reps spend 70% of their time on non-selling work like admin and meeting prep. A summary in your inbox doesn't change that number. It just gives the admin a nicer starting point.
 
@@ -76,23 +76,27 @@ But look at what happens next. Someone still has to copy the action items into t
 
 If you take the three stages seriously, the job of "meeting AI" changes shape:
 
-- **Before**, it should brief you: what was discussed last time, what's still open, who said what. Unprompted, a few minutes before the call.
-- **During**, it should be reachable: you ask a question out loud and get the past context or the document, in the meeting, while it still matters.
-- **After**, it should finish the boring part: notes written, action items assigned, CRM fields updated, tickets created, all searchable later.
+- **Before**, it should brief you: who you're meeting, what you discussed last time, what's still open. Unprompted, before the call.
+- **During**, it should stay out of the way: capture the conversation without adding a participant, so you can listen instead of typing.
+- **After**, it should hand you the work as well as the story: decisions, tasks with owners and due dates, open questions, and a way to ask about any of it later.
 
 None of these is exotic on its own. The difference is having *one* memory that runs through all three, so the "after" of this meeting becomes the "before" of the next one.
 
 ## Where Lynkk fits
 
-This is the bet we've made with [Lynkk](https://lynkk.ai). It's one AI across the whole meeting lifecycle, not a recorder bolted onto the end.
+This is how we built [Lynkk](https://lynkk.ai): one app for the whole meeting, not a recorder bolted onto the end.
 
-Before a call, Lynkk surfaces context from past meetings so you start ahead, not cold. During the call, it joins and speaks when you need it: ask for past context or a document and get the answer by voice. Within about 30 seconds after, you get structured notes, assigned action items, updated CRM fields, and Jira tickets, with everything searchable as a knowledge graph across your meetings.
+**Before:** with Google Calendar connected, Lynkk sends a morning briefing email on days you have meetings. For each meeting: who you're meeting, the most recent note with those people, and how many action items are still open between you.
 
-It also works for in-person conversations, not just calls with a link, because a lot of the meetings that matter most never had one.
+**During:** on the Mac, Lynkk notices the call (Zoom, Google Meet, Microsoft Teams, Slack huddles and more) and records when you press Record. Nothing joins the call. Live words sit in a slim column on the edge of your screen, next to a field for your own notes.
+
+**After:** every recording gets a Meeting Brief: key takeaways with timestamps, decisions with context, action items with an owner, due date and priority, and open questions. Send the action items to Jira from the note, one issue each. With Ask Lynkk (Pro), you can ask questions across all your notes and get answers with citations that open the recording at the right moment.
+
+It works for in-person conversations too: record your mic in the browser at lynkk.ai. A lot of the meetings that matter most never had a link.
 
 ## What this publication will cover
 
-We'll use this space to write about meetings as a system: how to walk in warm, how to make decisions in the room, how to make follow-through automatic, and how to bring AI into conversations without making everyone uncomfortable.
+We'll use this space to write about meetings as a system: how to walk in warm, how to make decisions in the room, how to make follow-through stick, and how to bring AI into conversations without making everyone uncomfortable.
 
 Some posts will mention Lynkk. Most won't need to. Every one should be useful to you whether or not you ever try it.
 
@@ -110,7 +114,7 @@ If that sounds like your kind of inbox, subscribe. And reply to this email with 
 **Note 2 (micro-story with data)**
 > 2:58 pm. Call at 3 with a customer you last spoke to five weeks ago.
 >
-> CRM says "good call, follow up re: pricing." You search your inbox. You skim Slack.
+> The account record says "good call, follow up re: pricing." You search your inbox. You skim Slack.
 >
 > 3:01: "So, remind me where we landed?"
 >
@@ -120,7 +124,7 @@ If that sounds like your kind of inbox, subscribe. And reply to this email with 
 > Every meeting leaks time in three places:
 >
 > 1. Before: you walk in cold and spend 10 minutes reconstructing last time
-> 2. During: "I'll check and get back to you" spawns another thread
-> 3. After: someone still copies action items into Jira and the CRM by hand
+> 2. During: whoever takes notes is half out of the conversation
+> 3. After: the summary arrives, and someone still turns it into tasks by hand
 >
-> Most AI tools only touch number 3.
+> Most AI notetakers only show up for number 3.
