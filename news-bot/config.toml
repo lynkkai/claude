@@ -1,0 +1,44 @@
+# Lynkk news bot settings. Edit this file to change what the bot watches and how it posts.
+
+[trends]
+# Google Trends "Trending Now" regions to scan (ISO country codes).
+geos = ["US", "IN", "GB"]
+# Hours to look back in the Trending Now feed.
+hours = 24
+
+# Watchlist: tracked through SerpApi's Google Trends API (only used when SERPAPI_KEY is set).
+# A keyword "jumps" when its recent interest is spike_ratio times its 7-day baseline.
+[watchlist]
+# Each check costs about 8 SerpApi searches, so only run it every N hours (4 = ~1,500 searches/month).
+every_hours = 4
+spike_ratio = 2.0
+min_interest = 20
+keywords = [
+  "ChatGPT", "Claude AI", "Perplexity AI", "Gemini AI", "Microsoft Copilot",
+  "Otter.ai", "Fireflies.ai", "Fathom AI", "tl;dv", "Read AI",
+  "Granola AI", "Zoom AI Companion", "Gong", "Avoma", "Notion AI",
+]
+# Seeds for "rising related queries", which surface brand-new AI tool names.
+rising_seeds = ["AI tool", "AI note taker", "AI meeting assistant", "ChatGPT", "Claude AI"]
+
+[topics]
+# Plain-language guidance Claude uses to decide if a trend belongs on the Lynkk news page.
+include = """
+AI tools and assistants (ChatGPT, Claude, Gemini, Perplexity, Copilot, Grok, Llama, Mistral, DeepSeek and similar),
+launches, model releases, pricing changes, outages, funding and acquisitions of AI companies (OpenAI, Anthropic, Google DeepMind, Perplexity, etc.),
+AI meeting assistants and note takers (Otter, Fireflies, Fathom, tl;dv, Read AI, Granola, Zoom AI Companion, Microsoft Teams Copilot, Gong, Avoma),
+AI productivity, transcription, voice AI, AI agents, MCP, and AI regulation that affects business software.
+"""
+exclude = """
+Sports, celebrities, politics unrelated to AI, weather, generic stock moves, and anything where 'AI' is only a coincidental name match.
+"""
+
+[bot]
+max_articles_per_run = 2
+# Skip a keyword if we already posted about it within this many days.
+dedupe_days = 5
+model = "claude-opus-5-5"
+select_effort = "low"
+research_effort = "medium"
+write_effort = "high"
+max_web_searches = 8
