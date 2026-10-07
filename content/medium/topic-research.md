@@ -1,6 +1,6 @@
 # Medium topic research for Lynkk
 
-Researched 2026-10-06. Keyword numbers are US monthly search volume, SEO difficulty
+Researched 2026-10-06, topics 11-14 added 2026-10-07. Keyword numbers are US monthly search volume, SEO difficulty
 (SD, 0-100, lower is easier) and CPC from Ubersuggest. CPC is a rough signal of
 commercial value: advertisers pay more for buyers.
 
@@ -65,6 +65,7 @@ technical (implementation, architecture).
 - **Blocked on:** Nothing. Can be written now.
 
 ### 3. How to take meeting notes people actually act on
+- **Status:** Written. See `content/medium/meeting-notes-that-turn-into-action/`.
 - **Working title:** How to take meeting notes that turn into action (and what to
   stop writing down)
 - **Deck:** A simple format for decisions, owners and deadlines, plus which parts are
@@ -152,6 +153,100 @@ technical (implementation, architecture).
 - **Blocked on:** Available regions and certifications (SOC 2, GDPR, HIPAA). Do not
   imply HIPAA compliance without confirmation.
 
+## More topics (added 2026-10-07)
+
+Found with a second Ubersuggest pass on meeting types and Lynkk features the first
+list didn't cover: one-on-ones, agendas, standups and Mac dictation.
+
+### 11. One-on-ones that pick up where the last one ended
+- **Working title:** One-on-One Meeting Questions That Build on Last Time
+- **Deck:** Most question lists treat every one-on-one like the first. Carry open
+  threads forward and the conversation gets better.
+- **Reader promise:** A short question set organized around what changed since
+  the last one-on-one, plus a running notes doc that keeps context between meetings.
+- **Keywords:** questions for one on one meeting (1,000, SD 6), one on one meeting
+  questions (1,600, SD 27), one on one meeting template (1,600, SD 19), one on one
+  meeting (2,400, SD 38), one on one meeting notes template (110)
+- **Competition:** The top pages are long lists ("150 questions") with strong
+  backlinks. Don't compete on length. Compete on continuity, which none of them
+  cover.
+- **Lynkk angle:** Surfaces context from past meetings: what was discussed, what
+  is still open, who said what.
+- **Mode:** leadership
+- **Care point:** One-on-ones are personal. Include when *not* to record, and
+  ask permission when you do.
+- **Blocked on:** Nothing.
+
+### 12. Agendas that end in decisions
+- **Working title:** How to Write a Meeting Agenda That Ends in Decisions
+- **Deck:** Turn every agenda item into a question the meeting has to answer, and
+  start with what the last meeting left open.
+- **Reader promise:** A reusable agenda format and a test for which items deserve
+  meeting time at all.
+- **Keywords:** meeting agenda (5,400, SD 52), how to write meeting agenda (590,
+  SD 11), meeting agenda how to write (320, SD 7), how to run effective meetings
+  (320, SD 9), team meeting agenda (880, SD 35, CPC $11.89)
+- **Note:** The biggest agenda queries ("meeting agenda form" 18,100) are people
+  looking for downloadable templates. Medium can't serve those well, so target the
+  how-to queries instead.
+- **Lynkk angle:** Open action items from past meetings feed the first agenda
+  section.
+- **Mode:** leadership
+- **Pairs with:** Topic 3 (agenda in, notes out). Close to Topic 7, but Topic 7 is
+  prep for attendees and this one is for organizers. Write one before the other,
+  not both in the same week.
+- **Blocked on:** Nothing.
+
+### 13. Voice typing on a Mac
+- **Working title:** Talk, Don't Type: A Practical Guide to Voice Typing on a Mac
+- **Deck:** How to set up the Mac's built-in dictation, where it falls short, and
+  the habits that make dictated drafts usable.
+- **Reader promise:** Working setup in five minutes, plus editing habits for text
+  written by voice.
+- **Keywords:** mac voice to text (1,600, SD 25), voice to text on mac (1,300,
+  SD 21), dictation mac shortcut (480, SD 24), voice to text mac app (320, CPC
+  $12.97), voice dictation mac (140, CPC $13.75), how to use voice to text on mac (210)
+- **Competition:** Weak. The pages ranking now are small sites with very little
+  traffic, according to Ubersuggest content ideas. This is the easiest opening in
+  either list.
+- **Lynkk angle:** The Lynkk Mac app includes dictation: text appears at your
+  cursor as you speak, in other apps. This reaches people outside the meeting use
+  case.
+- **Mode:** technical (how-to)
+- **Blocked on:** At drafting time, check the current macOS steps on Apple's
+  support page (the shortcut differs between macOS versions and keyboards). Check
+  with the team which apps, languages and offline modes Lynkk dictation supports
+  before stating anything beyond the brand file.
+
+### 14. Standups that clear blockers
+- **Working title:** Your Daily Standup Is a Status Report. Make It a Blocker
+  Meeting.
+- **Deck:** A tighter standup format, and how to get the follow-ups into Jira before
+  people are back at their desks.
+- **Reader promise:** A standup format focused on blockers, and a rule for what
+  belongs in the standup versus after it.
+- **Keywords:** daily stand up meeting (2,400, SD 51), stand up meeting (1,900,
+  SD 43), daily standup meeting (1,600, SD 43), what is a stand up meeting (1,000,
+  SD 43), stand up meeting agenda (480, SD 35, CPC $13.67), scrum standup meeting
+  questions (110, SD 30)
+- **Lynkk angle:** Jira tickets created from the meeting.
+- **Mode:** leadership with light process detail. Medium's product and engineering
+  readership is large.
+- **Blocked on:** Nothing, but cite the official Scrum Guide accurately for what
+  the Daily Scrum is meant to be.
+
+### Runner-up: meeting transcription in Zoom and Teams
+zoom meeting transcription (590, SD 32), teams meeting transcription (390, SD 22),
+microsoft teams meeting transcription (390, CPC $16.32). Held back: it needs the
+list of meeting platforms Lynkk supports, and it overlaps with Topic 3 and the
+Copilot idea below.
+
+### Suggested order for the new four
+1. Topic 11 (one-on-ones): 1,000 searches a month at SD 6.
+2. Topic 13 (Mac voice typing): weak competition and a new audience.
+3. Topic 12 (agendas): pairs with the published notes article.
+4. Topic 14 (standups): strong fit for product and engineering readers.
+
 ## Lower priority or not for Medium
 
 - **"Can Copilot / ChatGPT take meeting notes?"** (390 and 90/mo, SD about 30). Good
@@ -182,3 +277,5 @@ technical (implementation, architecture).
 - Market stats (vendor blogs, trace to primary sources before citing):
   https://laxis.com/blog/state-of-meeting-note-taking-2026,
   https://voxbooster.com/blog/ai-meeting-assistant-statistics-2026
+- Apple dictation guide (verify current version at drafting): https://support.apple.com/guide/mac-help/mh40584
+- Ubersuggest keyword and content-idea data, US, pulled 2026-10-07
