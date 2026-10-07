@@ -1,26 +1,42 @@
-# Lynkk YouTube Topic Research
+# Lynkk YouTube Topic Research (Official Channel)
 
-> Researched 2026-10-07. Keyword volumes are Ubersuggest **Google US monthly searches** (latest month,
-> with peaks noted where a topic is trending). YouTube does not publish search volume, so Google demand
-> is used as the proxy: the same queries ("best ai note taker", "otter vs fireflies", "how to take meeting
-> minutes") are what people type into YouTube. SD = SEO difficulty (0-100, lower is easier).
-> YouTube itself was blocked from the research environment, so competitor video data comes from
-> search-indexed YouTube titles, not live view counts.
+> Researched 2026-10-07. Written for the **official Lynkk YouTube channel**: every title and format speaks
+> as the brand, not as an individual reviewer. No first-person "I tested / I tried / my CRM" framing.
+>
+> Keyword volumes are Ubersuggest **Google US monthly searches** (latest month, with peaks noted where a
+> topic is trending). YouTube does not publish search volume, so Google demand is used as the proxy: the
+> same queries ("ai note taker", "how to take meeting minutes") are what people type into YouTube.
+> SD = SEO difficulty (0-100, lower is easier). YouTube itself was blocked from the research environment,
+> so competitor video data comes from search-indexed YouTube titles, not live view counts.
 
 ## TL;DR: make these 4 first
 
-| # | Video | Main keyword (US/mo) | Why first |
+| # | Video (official-channel title) | Main keyword (US/mo) | Why first |
 |---|---|---|---|
-| 1 | **I Tested the 6 Best AI Note Takers in 2026** (Otter, Fireflies, Fathom, Granola, Read AI, Lynkk) | ai note taker **27,100** (49,500 global), ai meeting assistant 4,400, ai meeting notes taker 3,600, best ai note taker 1,900 | Biggest head term in the category. The "I tested X tools" format is the most common winning format on YouTube in this niche. Gets Lynkk into every comparison search. |
-| 2 | **How to Take Meeting Minutes (the Easy Way, with AI)** | meeting minutes **9,900**, ai meeting minutes 1,600, how to do meeting minutes 1,600, software for meeting minutes 1,600 | Largest evergreen volume, low difficulty (SD 30-36), and AI-vendor channels mostly ignore it. Pulls in people who don't know AI tools exist yet. |
-| 3 | **I Let an AI Speak in My Meeting** | ai meeting assistant 4,400, cluely **60,500** (trend), live / real time ai meeting assistant 280 | Lynkk's real differentiator (it talks during the meeting). Nobody in the category demos this. Highest share and comment potential, and the best source of Shorts. |
-| 4 | **My CRM Updates Itself After Every Sales Call** | ai sales assistant 590 (**$64 CPC**), gong alternative 210 ($64 CPC), ai tools for sales 260 ($46 CPC) | Smaller volume, but the most valuable buyers in the category (CPC shows what advertisers pay for them). Strong use-case proof. |
+| 1 | **AI Meeting Assistant That Works Before, During, and After Every Meeting \| Lynkk Full Demo** | ai note taker **27,100** (49,500 global), ai meeting assistant 4,400, ai meeting notes taker 3,600 | Biggest search terms in the category. A complete product walkthrough is the brand-channel version of a "best AI note taker" video and becomes the channel's anchor video. |
+| 2 | **How to Take Meeting Minutes: Format, Examples, and the AI Shortcut** | meeting minutes **9,900**, ai meeting minutes 1,600, how to do meeting minutes 1,600, software for meeting minutes 1,600 | Largest evergreen volume, low difficulty (SD 30-36). Educational, so it builds brand trust and reaches people who don't know AI tools exist yet. |
+| 3 | **The AI That Speaks in Your Meetings \| Lynkk Live Voice Assistant** | ai meeting assistant 4,400, ai voice assistant 1,000, live / real time ai meeting assistant 280, cluely 60,500 (trend) | Lynkk's unique feature. No competitor channel shows an AI answering out loud in a meeting. Best source of Shorts. |
+| 4 | **How Sales Teams Update Their CRM Automatically After Every Call** | ai sales assistant 590 (**$64 CPC**), gong alternative 210 ($64 CPC), ai tools for sales 260 ($46 CPC) | Smaller volume, but the most valuable buyers in the category. Strong use-case proof for the sales page and ads. |
 
-**Fast-win alternate for slot 4:** Topic 7 (*"What is Read AI Meeting Notes?"*) if raw views matter more than buyer intent. It targets ~5,000/mo of confused searchers at moderate difficulty.
+**Fast-win alternate for slot 4:** Topic 8 (*AI note-taker bots in your meetings*), if raw views matter more than buyer intent.
 
 ---
 
-## 1. Keyword landscape
+## 1. Brand-channel rules (apply to every video)
+
+- **Voice:** "Lynkk" or "we" (the company). Never "I", "my", or a personal-review persona.
+- **Presenter:** a product specialist or brand host speaking on behalf of Lynkk, or screen recording with voiceover. Personal anecdotes are replaced by **scenarios** ("a 10-person sales team", "a product team's sprint planning").
+- **No "best AI note takers" rankings by Lynkk.** A vendor ranking itself first is not credible and invites pushback. Use instead:
+  - **buyer's guides** ("How to choose an AI note taker"),
+  - **factual comparisons** ("Lynkk vs Otter: feature by feature"),
+  - **product demos and use-case walkthroughs**.
+- **Comparison videos:** factual, dated ("as of October 2026"), based on competitors' public pricing and feature pages, no disparaging language, and show where the other tool fits better. Have someone check claims before publishing; competitor names in titles are normal for factual comparisons, but every claim must be accurate.
+- **Title pattern:** search keyword first, then the benefit, then `| Lynkk` where it fits. Example: *Meeting Minutes Template + AI Shortcut \| Lynkk*.
+- **Leave "I tested" content to creators.** Independent "I tested 10 AI note takers" videos get the views in this niche. Lynkk's job is to get included in those videos (see section 5).
+
+---
+
+## 2. Keyword landscape
 
 ### Category head terms
 | Keyword | US vol | SD | Notes |
@@ -35,7 +51,7 @@
 | ai meeting notes | 1,000 | 41 | |
 | ai transcription | 5,400 | 50 | broader, less meeting-specific |
 
-### Competitor brand terms (people searching for a tool by name)
+### Competitor brand terms
 | Keyword | US vol | Trend |
 |---|---|---|
 | otter ai | 201,000 | stable |
@@ -61,8 +77,6 @@
 | otter ai vs fireflies | 90 | 17 |
 | granola vs otter | 90 (320 peak) | 17 |
 
-Individual "X vs Y" terms are small, but they are low difficulty and high intent. On YouTube, the multi-tool comparison video collects all of them at once, which is why that format dominates.
-
 ### Platform terms (Zoom / Teams / Meet)
 | Keyword | US vol |
 |---|---|
@@ -83,7 +97,6 @@ Individual "X vs Y" terms are small, but they are low difficulty and high intent
 | ai for project managers | 2,900 | $20 |
 | ai for lawyers | 2,400 | $43 |
 | ai for small business | 1,900 | $25 |
-| ai interview assistant | 1,900 | $7 (mostly job candidates, see caution in topic 12) |
 | ai recruiting tools | 880 | **$117** |
 | jira ai | 720 | $14 |
 | wearable ai note taker | 720 | $7 |
@@ -96,142 +109,159 @@ Individual "X vs Y" terms are small, but they are low difficulty and high intent
 
 ---
 
-## 2. How competitors are winning on YouTube
+## 3. What works on YouTube in this category
 
-What the search-indexed YouTube results show for this category:
+**Creator channels** (individual reviewers) get most of the views, with formats a brand can't copy:
+- "I tested N tools" listicles: *"I Tried 25 AI Note-Takers, Here's The TOP 7"*, *"We Tested Every AI Notetaker for a Week"*.
+- Multi-brand reviews: *"Fireflies vs Otter vs Granola vs Fathom vs tl;dv"*.
+- "Honest review after 200 meetings" (Granola alone has 10+ of these).
+- "Bot-free" round-ups, the hot sub-niche of 2026.
+- Hardware reviews (Plaud Note / NotePin) and dictation shoot-outs (Wispr Flow vs Superwhisper).
 
-1. **"I tested N tools" listicles are the dominant format.** Titles like *"I Tried 25 AI Note-Takers, Here's The TOP 7"*, *"We Tested Every AI Notetaker for a Week"*, *"5 Best AI Note Taker Apps for Meetings in 2026"*, *"7 Best AI Meeting Assistants & Note Takers (Comparison & Full Demo)"*. Almost all are made by independent creators, not the vendors.
-2. **Multi-brand "vs" videos.** *"Fireflies vs Otter vs Granola vs Fathom vs tl;dv"*. One video collects many small "vs" searches.
-3. **"Honest review after N meetings" for a single tool.** Granola alone has 10+ review videos (*"Granola AI Review: 200+ Meetings Later, Here's the Truth"*, *"I Let This AI Take My Meeting Notes… The Results Surprised Me"*). Long-term usage claims build trust.
-4. **The "bot-free" angle is the hot sub-niche of 2026.** *"Top 5 BEST Bot-Free AI Meeting Note Taking Apps"*, *"I Tested 5 Bot-Free AI Meeting Note Takers"* (Shorts). People dislike visible bots in calls.
-5. **Platform-specific versions.** *"BEST AI Meeting Note Taker for Zoom in 2026 (4 Apps Tested)"* compares Zoom's built-in AI against third-party tools.
-6. **Workflow demos for sales.** Fireflies' *"Your CRM can update itself now"* and creator videos like *"I Built an AI CRM Assistant That Updates HubSpot Automatically"* and *"The Best AI Note Taker for Sales in 2026"*. Outcome-first titles ("CRM updates itself") beat feature titles.
-7. **Hardware reviews pull big audiences.** Plaud Note / NotePin has a large body of review videos (*"The Only AI Tool I Actually Use!"*). This audience wants in-person capture, which Lynkk does in software.
-8. **Dictation comparisons are exploding.** *"Wispr Flow vs Superwhisper vs MacWhisper"*, *"Wispr Flow vs Apple Dictation: I Read The Gruffalo To Both"*. Follows Wispr Flow's search growth.
-9. **Vendors outsource reach to creators.** Fireflies is hiring a brand marketer to launch and scale its YouTube channel through UGC and tech-influencer partnerships. Vendor channels themselves mostly host tutorials.
+**Vendor channels** win with formats that *do* fit Lynkk:
+- **Outcome-first feature demos.** A Fireflies video titled *"Your CRM can update itself now"* sells a result, not a feature name.
+- **Workflow walkthroughs** (sales follow-up, meeting prep, CRM sync).
+- **Tutorials and how-to guides** that answer search questions.
+- **Influencer and UGC partnerships.** Fireflies is hiring a brand marketer to launch and scale its YouTube channel through UGC and tech-influencer partnerships.
 
-**Gaps Lynkk can own**
-- Nobody demos an AI that **speaks during the meeting**. Every competitor video is "notes after".
-- Nobody covers the **full lifecycle** (prep before, live help during, tasks after) in one workflow.
-- **Online + in-person in one tool** is rarely shown; creators treat apps and hardware recorders as separate worlds.
-- **Data residency / region choice** is never covered in note-taker reviews.
+**Gaps Lynkk can own on its official channel**
+- No one shows an AI that **speaks during the meeting**. All competitor content is "notes after".
+- No one shows the **full lifecycle** (prep before, live help during, tasks after) in one workflow.
+- **Online + in-person in one tool** is rarely shown.
+- **Data residency / region choice** is never covered.
 
 ---
 
-## 3. Twelve video topics
+## 4. Thirteen video topics for the official channel
 
-Each topic lists the target keyword cluster, the angle, what to show in Lynkk, and Shorts to cut from it.
+Each topic lists the official-channel title options, target keywords, format, and Shorts to cut from it.
 
-### Topic 1: Best AI Note Takers 2026 (tested)
-- **Keywords:** ai note taker 27,100 · ai meeting assistant 4,400 · ai meeting notes taker 3,600 · best ai note taker 1,900 · best ai meeting notes taker 720
+### Topic 1: Full product demo (anchor video)
 - **Titles:**
-  - *I Tested the 6 Best AI Note Takers in 2026 (One Does Something None of the Others Can)*
-  - *Otter vs Fireflies vs Fathom vs Granola vs Lynkk: Best AI Note Taker 2026*
-- **Angle:** Run the same real meeting through every tool. Score on: notes quality, action items, speed, integrations, price, and "what happens before and during the call". Lynkk wins the before/during categories, which others don't have.
-- **Show:** pre-meeting context, live voice answer, notes + Jira + CRM in ~30 seconds.
-- **Format:** 10-14 min, chapters per tool, scorecard on screen.
-- **Shorts:** "Which AI note taker is fastest?" race clip; "The only one that talks back".
+  - *AI Meeting Assistant That Works Before, During, and After Every Meeting \| Lynkk Full Demo*
+  - *AI Note Taker Demo: From Meeting to Notes, Tasks, and CRM in 30 Seconds \| Lynkk*
+- **Keywords:** ai note taker 27,100 · ai meeting assistant 4,400 · ai meeting notes taker 3,600 · ai meeting notes 1,000
+- **Format:** 6-9 min. One realistic team meeting, followed through all three stages: context surfaced before the call, a live voice answer during it, then notes, action items, CRM fields, and Jira tickets after. Chapters for each stage.
+- **Shorts:** "30 seconds after the meeting ends"; "What your AI knows before the call starts".
 
-### Topic 2: Best FREE AI Note Taker
-- **Keywords:** free ai note taker 2,400 · ai note taker free 1,600 · otter ai free 480 · free ai meeting notes taker 480 · ai meeting notes taker free 320 · best free ai note taker 260 (~5,500 combined)
-- **Titles:** *Best Free AI Note Taker in 2026 (No Credit Card, No Catch?)* · *I Compared Every Free AI Note Taker Plan*
-- **Angle:** Compare free plans side by side (minutes, history, integrations, limits). Lynkk "Start free" is the CTA.
-- **Needs before filming:** Lynkk free-tier limits (still on the to-confirm list).
-- **Format:** 8-10 min.
-
-### Topic 3: Otter vs Granola vs Lynkk (brand-search rider)
-- **Keywords:** otter ai 201,000 · granola ai 27,100 (rising) · otter ai note taker 5,400 · otter ai alternative 480 · granola alternative 320 · granola vs otter 90-320
-- **Titles:** *Otter AI vs Granola: Which AI Note Taker Is Actually Better?* · *The Best Otter.ai Alternative in 2026*
-- **Angle:** The two most-searched brands in the category, plus Lynkk as the "does more" option. Use honest pros and cons; viewers punish obvious ads.
-- **Format:** 8-12 min. Repeat later as Fireflies vs Fathom vs Lynkk.
-
-### Topic 4: How to Take Meeting Minutes with AI
+### Topic 2: How to take meeting minutes (educational)
+- **Titles:**
+  - *How to Take Meeting Minutes: Format, Examples, and the AI Shortcut*
+  - *Meeting Minutes Template with Action Items (Free Download) \| Lynkk*
 - **Keywords:** meeting minutes 9,900 · ai meeting minutes 1,600 · how to do meeting minutes 1,600 · software for meeting minutes 1,600 ($31 CPC) · how to take meeting minutes 1,000 · meeting minutes app 880 · how to write meeting minutes 720 · how to take meeting notes 590 · meeting minutes template with action items 390
-- **Titles:** *How to Take Meeting Minutes (Free Template + the AI Shortcut)* · *Stop Writing Meeting Minutes: Let AI Do It in 30 Seconds*
-- **Angle:** First half: genuinely teach good minutes (what to include, format, action items). Second half: show Lynkk producing them automatically. Offer a free template in the description as a lead magnet.
-- **Format:** 7-10 min. Evergreen; will keep getting search traffic.
-- **Spin-offs:** board meeting minutes (1,000), nonprofit / HOA minutes, project meeting minutes.
+- **Format:** 7-10 min. First half teaches good minutes (what to include, structure, action items, follow-up). Second half shows Lynkk producing them automatically. Link a free template on lynkk.ai as a lead magnet.
+- **Spin-offs:** board meeting minutes (1,000/mo), nonprofit and HOA minutes, project meeting minutes.
 
-### Topic 5: I Let an AI Speak in My Meeting (live voice assistant)
-- **Keywords:** ai meeting assistant 4,400 · cluely 60,500 · cluely alternative 210 (480 peak) · ai voice assistant 1,000 · live ai meeting assistant 170 · real time ai meeting assistant 110
-- **Titles:** *I Let an AI Join My Meeting and Talk. Here's What Happened* · *This AI Answers Questions Out Loud in Your Meetings*
-- **Angle:** The feature no competitor has. Real reactions from colleagues when Lynkk answers "what did we decide last week?" by voice. Contrast with Cluely: Cluely is a hidden overlay; Lynkk is an open participant everyone can hear.
-- **Format:** 5-8 min with a strong hook in the first 10 seconds (the AI speaking). Best candidate for virality.
-- **Shorts:** 3-5 clips of Lynkk answering live. These carry the channel.
+### Topic 3: The AI that speaks in your meetings (differentiator)
+- **Titles:**
+  - *The AI That Speaks in Your Meetings \| Lynkk Live Voice Assistant*
+  - *Ask Your Meeting AI Out Loud: Live Answers from Past Meetings and Documents*
+- **Keywords:** ai meeting assistant 4,400 · ai voice assistant 1,000 · live ai meeting assistant 170 · real time ai meeting assistant 110 · cluely 60,500 · cluely alternative 210
+- **Format:** 3-6 min. Open with the AI speaking in the first 5 seconds. Scripted scenarios: "What did we decide about pricing last week?", "Pull up the Q3 roadmap doc", answered by voice for the whole room. Make the point that Lynkk is a visible participant everyone hears, not a hidden overlay.
+- **Shorts:** 3-5 clips, one question and answer each. These carry the channel.
 
-### Topic 6: Zoom AI Companion vs Teams Copilot vs Google Gemini vs a dedicated AI note taker
-- **Keywords:** zoom ai companion 5,400 · teams/microsoft teams/ai note taker for teams 590 each · google meet ai note taker 590 · ai note taker for zoom 480 · does microsoft teams have an ai note taker 170 · does google meet have an ai note taker 140
-- **Titles:** *Are Built-In AI Notes Good Enough? Zoom vs Teams vs Google Meet vs Lynkk*
-- **Angle:** "You already pay for built-in AI, so why use another tool?" Built-ins only work inside their own platform and only after the call. Lynkk works across platforms, in person, and before/during.
-- **Needs before filming:** confirm which meeting platforms Lynkk supports.
-- **Spin-offs:** one video per platform ("Best AI note taker for Microsoft Teams").
+### Topic 4: Sales teams: CRM updates itself
+- **Titles:**
+  - *How Sales Teams Update Their CRM Automatically After Every Call*
+  - *AI Sales Assistant: Call Prep, Live Answers, and Auto CRM Updates \| Lynkk for Sales*
+- **Keywords:** ai sales assistant 590 ($64 CPC) · gong alternative 210 ($64) · ai tools for sales 260 ($46)
+- **Format:** 5-8 min. Full sales-call lifecycle: prep with past context, live answers on the call, CRM fields filled and follow-up scheduled through Calendly / Cal.com after. Also cut a 60-second version for LinkedIn and ads.
+- **Needs before filming:** which CRMs are supported (HubSpot / Salesforce).
 
-### Topic 7: What Is "Read AI Meeting Notes" in Your Call? (and how to turn it off)
-- **Keywords:** read ai 27,100 · read ai meeting notes 1,600 · read ai meeting notes in teams 1,600 · reading ai meeting notes 1,300 · what is read ai meeting notes 140 · read ai meeting notes in zoom 140 · …turn off 90 + 70
-- **Titles:** *What Is Read AI Meeting Notes? (And How to Remove It from Teams & Zoom)*
-- **Angle:** Thousands of people see a "Read AI" bot join their calls and search what it is. Answer the question clearly and factually (what it is, privacy, how to turn it off), then show an alternative that is useful to the meeting host. Keep it neutral and factual about Read AI.
-- **Format:** 4-6 min. Fast to make, steady search traffic.
+### Topic 5: How to choose an AI note taker (buyer's guide)
+- **Titles:**
+  - *How to Choose an AI Note Taker in 2026: 7 Things to Check Before You Buy*
+  - *AI Note Taker Buyer's Guide: Privacy, Accuracy, Integrations, and Price*
+- **Keywords:** best ai note taker 1,900 · best ai meeting notes taker 720 · what is the best ai note taker 170 · best ai meeting assistant 110
+- **Format:** 6-9 min. Vendor-neutral checklist: online vs in-person capture, bot vs no bot, live help vs after-call only, integrations (CRM, Jira, calendar, MCP), languages, data region and privacy, free plan limits. Show how Lynkk answers each point without ranking competitors. This is the credible brand version of a "best of" video.
 
-### Topic 8: AI Note Taker for In-Person Meetings (no Plaud needed)
-- **Keywords:** plaud note 14,800 · wearable ai note taker 720 · pocket ai note taker 720 · ai note taker device 590 · ai note taker for in person meetings 480 · ai note taker for phone calls 140
-- **Titles:** *Do You Need a $159 AI Recorder? Plaud vs a Free App for In-Person Meetings* · *How to Get AI Notes from In-Person Meetings*
-- **Angle:** Hardware recorders are booming. Show the same in-person meeting captured by a Plaud device and by Lynkk, then show what Lynkk adds (action items, CRM, Jira, knowledge graph).
-- **Needs before filming:** confirm Lynkk mobile apps (iOS/Android). If only Web + Mac, film it on a laptop.
+### Topic 6: Factual comparison series (Lynkk vs ...)
+- **Titles:**
+  - *Lynkk vs Otter.ai: Feature-by-Feature Comparison (2026)*
+  - *Lynkk vs Granola: Which AI Meeting Notes Tool Fits Your Team?*
+  - *Lynkk vs Fireflies.ai* · *Lynkk vs Fathom*
+- **Keywords:** otter ai 201,000 · granola ai 27,100 (rising) · fireflies ai 27,100 · fathom ai 9,900 · otter ai alternative 480 · granola alternative 320 · granola vs otter 90-320 · otter ai vs fireflies 90 · fathom vs fireflies 110
+- **Format:** 4-7 min each. On-screen comparison table built from public pricing and feature pages, dated. Be honest about where the other tool fits. Pair each video with a matching comparison page on lynkk.ai.
+- **Start with:** Otter (largest brand search), then Granola (fastest growing).
 
-### Topic 9: AI for Sales Calls: My CRM Updates Itself
-- **Keywords:** ai sales assistant 590 ($64 CPC) · gong alternative 210 ($64) · ai tools for sales 260 ($46) · plus sales-specific traffic from fireflies ai note taker 4,400
-- **Titles:** *I Never Update My CRM After Sales Calls Anymore (AI Does It)* · *The AI Sales Assistant That Preps, Joins, and Follows Up on Every Call*
-- **Angle:** Full sales-call lifecycle: prep with past context, live answers on the call, CRM fields filled and follow-up scheduled via Calendly / Cal.com after.
-- **Needs before filming:** confirm which CRMs are supported (HubSpot / Salesforce).
-- **Format:** 6-9 min, outcome-first. Also cut a 60-second version for LinkedIn and ads.
+### Topic 7: Built-in meeting AI vs a dedicated assistant
+- **Titles:**
+  - *Zoom AI Companion, Teams Copilot, or Google Gemini: When Built-In Meeting AI Is Enough*
+  - *Do You Need an AI Note Taker If Your Meeting App Already Has AI?*
+- **Keywords:** zoom ai companion 5,400 · teams / microsoft teams / ai note taker for teams 590 each · google meet ai note taker 590 · ai note taker for zoom 480 · does microsoft teams have an ai note taker 170 · does google meet have an ai note taker 140
+- **Format:** 6-8 min, educational. Built-ins work only inside their own platform and only after the call. Lynkk works across platforms, in person, and before and during.
+- **Spin-offs:** "AI meeting notes for Microsoft Teams / Zoom / Google Meet \| Lynkk" setup videos.
+- **Needs before filming:** which meeting platforms Lynkk supports.
 
-### Topic 10: Meeting to Jira Tickets in 30 Seconds (product / engineering / PMs)
+### Topic 8: AI note-taker bots in your meetings (explainer)
+- **Titles:**
+  - *Why Are AI Note-Taker Bots Joining Your Meetings? What They Record and How to Manage Them*
+  - *AI Bots in Meetings: A Simple Guide for Hosts and Guests*
+- **Keywords:** read ai meeting notes 1,600 · read ai meeting notes in teams 1,600 · reading ai meeting notes 1,300 · what is read ai meeting notes 140 · bot free ai note taker 110 · ai note taker that doesn't join meetings 90
+- **Format:** 4-6 min. Neutral, helpful explainer: what these bots are, what they capture, consent and privacy, and how hosts can control them. Name tools only factually (in chapters and description) and keep the tone non-promotional until the final 30 seconds. This picks up thousands of monthly searches from people who saw a bot join their call.
+
+### Topic 9: In-person meetings without a recorder
+- **Titles:**
+  - *How to Get AI Notes from In-Person Meetings (No Recorder Needed)*
+  - *AI Notes for In-Person Meetings, Interviews, and Client Visits \| Lynkk*
+- **Keywords:** plaud note 14,800 · wearable ai note taker 720 · pocket ai note taker 720 · ai note taker device 590 · ai note taker for in person meetings 480
+- **Format:** 4-6 min. A face-to-face meeting captured with Lynkk, then the same notes, tasks, and knowledge graph as an online call. Position: no extra hardware needed.
+- **Needs before filming:** confirm mobile apps (iOS / Android). If only Web + Mac, film on a laptop.
+
+### Topic 10: Meetings to Jira tickets (product and engineering)
+- **Titles:**
+  - *Turn Meetings into Jira Tickets Automatically \| Lynkk for Product Teams*
+  - *AI for Project Managers: From Sprint Planning to Assigned Tickets in 30 Seconds*
 - **Keywords:** ai for project managers 2,900 · jira ai 720 · meeting minutes template project management 260
-- **Titles:** *Turn Any Meeting into Jira Tickets Automatically* · *The AI Tool Every Project Manager Needs in 2026*
-- **Angle:** Sprint planning or standup goes in, assigned Jira tickets come out. Show search across past meetings ("when did we decide to cut feature X?").
-- **Format:** 5-7 min.
+- **Format:** 4-6 min. Sprint planning or standup goes in, assigned Jira tickets come out. Then search across past meetings ("When did we decide to cut feature X?").
 
-### Topic 11: Wispr Flow Alternative: AI Dictation on Mac
+### Topic 11: AI dictation on Mac
+- **Titles:**
+  - *AI Dictation on Mac: Type in Any App with Your Voice \| Lynkk*
+  - *Lynkk vs Wispr Flow: AI Dictation Plus Meeting Notes in One App*
 - **Keywords:** wispr flow 40,500 (90,500 peak) · wispr flow alternative 480 (SD **11**) · voice to text mac 390
-- **Titles:** *Wispr Flow Alternative: AI Dictation + Meeting Notes in One Mac App* · *I Replaced Wispr Flow with This*
-- **Angle:** Lynkk's Mac app includes dictation (text appears at your cursor in any app). Ride the fastest-growing search trend in the space; differentiate with "dictation plus meetings in one tool".
-- **Format:** 5-8 min, plus a Shorts side-by-side typing test.
+- **Format:** 3-5 min feature demo, plus a factual comparison video once the demo is out. Shorts: a side-by-side of typing vs dictating the same email.
 
-### Topic 12: "AI Note Taker for [Profession]" series
-Short, repeatable videos (4-6 min each) for one field at a time:
+### Topic 12: "Lynkk for [team]" industry series
+Short, repeatable videos (3-5 min each), one field at a time, built as scenarios:
 
-| Field | Keyword signal | Lynkk angle | Caution |
+| Video | Keyword signal | Scenario to show | Caution |
 |---|---|---|---|
-| Lawyers | ai for lawyers 2,400 ($43) | client meetings, searchable history, data residency | no legal-compliance claims without confirmation |
-| Small business owners | ai for small business 1,900 | one tool for calls, in-person, follow-ups | |
-| Recruiters / hiring | ai recruiting tools 880 ($117) | interview notes, scorecards, follow-ups | "ai interview assistant" (1,900) is mostly candidates seeking live help; target recruiters instead |
-| Real estate agents | ai for real estate agents 590 | in-person showings + client calls | |
-| Consultants / founders | ai for consultants 140 | back-to-back meetings, prep context | |
-| Therapists / healthcare | hipaa compliant ai note taker 260 ($31), ai note taker for therapists 90 ($51), ai medical scribe 5,400 | | **Do not make** until HIPAA / compliance status is confirmed |
-| Multilingual / global teams | not measured | multilingual capture, region choice | |
+| *Lynkk for Law Firms* | ai for lawyers 2,400 ($43) | client meetings, searchable matter history, data region | no legal-compliance claims without confirmation |
+| *Lynkk for Small Businesses* | ai for small business 1,900 | client calls, in-person meetings, automatic follow-ups | |
+| *Lynkk for Recruiting Teams* | ai recruiting tools 880 ($117) | interview notes, candidate summaries, follow-ups | target recruiters, not candidates |
+| *Lynkk for Real Estate Agents* | ai for real estate agents 590 | showings, client calls, follow-up scheduling | |
+| *Lynkk for Consultants and Agencies* | ai for consultants 140 | back-to-back client calls, prep context | |
+| *Lynkk for Healthcare / Therapy* | hipaa compliant ai note taker 260 ($31), ai medical scribe 5,400 | | **Do not make** until HIPAA / compliance status is confirmed |
+
+### Topic 13: Privacy, data region, and multilingual meetings
+- **Titles:**
+  - *Where Does Your Meeting Data Go? Choosing a Data Region \| Lynkk*
+  - *AI Meeting Notes in Multiple Languages \| Lynkk*
+- **Keywords:** not measured; these are trust-building videos for sales conversations and regulated buyers, not search-volume plays.
+- **Format:** 2-4 min each.
 
 ---
 
-## 4. Publishing playbook
+## 5. Publishing playbook for the official channel
 
-- **Titles:** keyword in the first 40 characters, plus a curiosity or outcome hook. Add the year to "best" videos.
-- **Thumbnails:** tool logos side by side for comparisons; a face plus one bold claim ("It talked back!") for topic 5. Max 3-4 words.
-- **First 15 seconds:** show the result first (finished notes, the AI speaking, tickets appearing), then explain.
-- **Chapters:** one per tool or step. Comparison viewers jump to the tool they care about.
-- **Honesty:** show at least one thing a competitor does better. Comparison audiences trust balanced reviews and comment more on them.
-- **Description:** first two lines repeat the main keyword and link to https://lynkk.ai with "Start free". Add timestamps and the related keyword phrases naturally.
+- **Playlists:** Product Demos · How-To Guides · Lynkk for Teams (industry series) · Comparisons · Shorts.
+- **Thumbnails:** product UI or a clear outcome ("Notes in 30s", "It answers out loud"), Lynkk branding, max 3-4 words. Use a presenter's face only if Lynkk has a recurring brand host.
+- **First 10 seconds:** show the result first (finished notes, the AI speaking, tickets appearing), then explain.
+- **Chapters:** one per meeting stage or comparison criterion.
+- **Description:** first two lines repeat the main keyword and link to https://lynkk.ai with "Start free". Add timestamps and related keyword phrases naturally.
 - **Shorts:** cut 3+ Shorts from every long video, each linking to the full video.
-- **Pinned comment:** ask a question that invites replies ("Which AI note taker do you use now?").
-- **Creators:** follow the Fireflies playbook. Send Lynkk to the creators already making "I tested N AI note takers" videos so Lynkk is included in their next round-up.
-- **Cadence:** 1 long video per week plus 3 Shorts. Ship topics 1, 4, 5, 9 first, then 7, 3, 11, 6, 2, 8, 10, 12.
+- **Pinned comment:** a question that invites replies ("What's the most annoying part of your meetings?").
+- **Creator program:** send Lynkk to the creators already making "I tested N AI note takers" videos so Lynkk appears in their next round-up. This is where personal-review content belongs.
+- **Cadence:** 1 long video per week plus 3 Shorts. Order: topics 1, 2, 3, 4, then 8, 6 (Otter), 5, 11, 7, 9, 10, 12, 13.
 
-## 5. Confirm before filming
-- [ ] Free-tier limits and paid prices (topics 1, 2, 3)
-- [ ] Supported meeting platforms: Zoom / Meet / Teams (topics 1, 6, 7)
-- [ ] Whether Lynkk can capture without a visible bot, e.g. via the Mac app (topics 1, 3)
-- [ ] Mobile apps for in-person capture (topic 8)
-- [ ] Supported CRMs (topic 9)
-- [ ] Compliance certifications (topic 12 healthcare and legal)
+## 6. Confirm before filming
+- [ ] Free-tier limits and paid prices (topics 5, 6)
+- [ ] Supported meeting platforms: Zoom / Meet / Teams (topics 1, 7, 8)
+- [ ] Whether Lynkk can capture without a visible bot, e.g. via the Mac app (topics 5, 6, 8)
+- [ ] Mobile apps for in-person capture (topic 9)
+- [ ] Supported CRMs (topic 4)
+- [ ] Available data regions and compliance certifications (topics 12, 13)
 
 ## Sources
 - Ubersuggest keyword data (US, Google), pulled 2026-10-07
@@ -240,13 +270,11 @@ Short, repeatable videos (4-6 min each) for one field at a time:
 - [I Tried 25 AI Note-Takers, Here's The TOP 7](https://www.youtube.com/watch?v=iscqMOqDVm0)
 - [We Tested Every AI Notetaker for a Week](https://www.youtube.com/watch?v=WxmL_gJ_D8I)
 - [BEST AI Meeting Note Taker for Zoom in 2026 (4 Apps Tested)](https://www.youtube.com/watch?v=wz4j-g_9Gz8)
-- [7 Best AI Meeting Assistants & Note Takers (Comparison & Full Demo)](https://www.youtube.com/watch?v=uPg7tT1tjjM)
 - [Best AI Meeting Note Taker in 2025: Fireflies vs Otter vs Granola vs Fathom vs tl;dv](https://www.youtube.com/watch?v=aUTVecYaZUM)
 - [Granola AI Review: 200+ Meetings Later](https://www.youtube.com/watch?v=O3t34xi-PW4)
 - [Your CRM can update itself now (Fireflies autofill CRM)](https://www.youtube.com/watch?v=CXqTDiEswIM)
 - [The Best AI Note Taker for Sales in 2026](https://www.youtube.com/watch?v=I9UTZ5M10cg)
 - [PLAUD NotePin S Review](https://www.youtube.com/watch?v=ry6-etRWt_o)
-- [Wispr Flow vs Apple Dictation](https://www.youtube.com/watch?v=MSQ_KLM5O2w)
 - [Superwhisper vs MacWhisper vs Wispr Flow](https://www.youtube.com/watch?v=VdFt3TWdtlw)
 - [Fireflies.ai brand marketer job posting (YouTube + influencer plans)](https://jobs.khoslaventures.com/companies/fireflies-ai/jobs/69868774-brand-marketer)
 - [TechRepublic: 6 Best AI Meeting Note Takers for 2026](https://www.techrepublic.com/article/news-best-ai-meeting-note-takers-2026/)
