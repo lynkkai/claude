@@ -83,7 +83,10 @@ canonical_url: ""    # set if the piece is also on lynkk.ai
 
 Build hero banners in the Lynkk post kit (Grid design system): `data-size="wide"`
 (1600x900, exported at 2x) with the `.split` block, an eyebrow, a two-ink
-headline, a lead line, and a plate with a glass mock. Render with the kit's
+headline, a lead line, and a plate with a glass mock. Medium banners carry no Lynkk
+branding: hide the kit's top bar (mark + name) and foot (lynkk.ai) in the post's
+own `<style>` with `#<id> .post-top, #<id> .post-foot { visibility: hidden; }`,
+which keeps the kit's spacing. Render with the kit's
 `scripts/render.mjs`, which checks copy and layout. Save the PNG and the post
 source (`hero-<slug>.kit.html`) beside the article. The rules below apply to
 anything not built in the kit.

@@ -17,19 +17,21 @@ after any edit with
 ## 2. Add the top image
 
 - **File:** `hero-meeting-agenda-that-ends-in-decisions.png` (3200x1800, 16:9),
-  built in the Lynkk post kit (Grid design system, `wide` size, split layout).
+  built in the Lynkk post kit (Grid design system, `wide` size, split layout),
+  with the Lynkk logo bar and lynkk.ai footer hidden so the image carries no
+  branding.
   `hero-meeting-agenda-that-ends-in-decisions.kit.html` is its source: copy it to
   `lynkk-post-kit/posts/<name>/post.html` and run `node scripts/render.mjs
   posts/<name>` to change and re-render it.
 - **Where:** click the empty line directly under the subtitle, click **+**, then
   the image icon, and upload the file.
-- **Alt text:** `Lynkk banner. Headline: A topic never ends. A question does.
+- **Alt text:** `Banner. Headline: A topic never ends. A question does.
   Below it: Write each agenda item as a question. Start with what last week left
   open. On the right, an agenda card titled Thursday sync, 30 min, lists Open from
   last week (2 items, checked), then three questions marked Decide, Input and
   Inform.`
 - **Caption:** `An agenda written as questions, with last week's open items first.
-  (Made with AI assistance in the Lynkk design kit.)`
+  (Made with AI assistance.)`
 
 ## 3. Story settings
 

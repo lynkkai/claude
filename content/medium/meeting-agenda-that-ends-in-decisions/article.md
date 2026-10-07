@@ -8,8 +8,8 @@ status: ready-for-review
 medium_tags: ["Meetings", "Productivity", "Management", "Leadership", "Teamwork"]
 canonical_url: ""
 hero_image: "hero-meeting-agenda-that-ends-in-decisions.png"
-hero_alt: "Lynkk banner. Headline: A topic never ends. A question does. Below it: Write each agenda item as a question. Start with what last week left open. On the right, an agenda card titled Thursday sync, 30 min, lists Open from last week (2 items, checked), then three questions marked Decide, Input and Inform."
-hero_caption: "An agenda written as questions, with last week's open items first. (Made with AI assistance in the Lynkk design kit.)"
+hero_alt: "Banner. Headline: A topic never ends. A question does. Below it: Write each agenda item as a question. Start with what last week left open. On the right, an agenda card titled Thursday sync, 30 min, lists Open from last week (2 items, checked), then three questions marked Decide, Input and Inform."
+hero_caption: "An agenda written as questions, with last week's open items first. (Made with AI assistance.)"
 ---
 
 # How to Write a Meeting Agenda That Ends in Decisions
