@@ -16,16 +16,20 @@ after any edit with
 
 ## 2. Add the top image
 
-- **File:** `hero-meeting-agenda-that-ends-in-decisions.png` (2800x1576, 16:9,
-  original illustration, no text or logos). The `.svg` beside it is the editable
-  source.
+- **File:** `hero-meeting-agenda-that-ends-in-decisions.png` (3200x1800, 16:9),
+  built in the Lynkk post kit (Grid design system, `wide` size, split layout).
+  `hero-meeting-agenda-that-ends-in-decisions.kit.html` is its source: copy it to
+  `lynkk-post-kit/posts/<name>/post.html` and run `node scripts/render.mjs
+  posts/<name>` to change and re-render it.
 - **Where:** click the empty line directly under the subtitle, click **+**, then
   the image icon, and upload the file.
-- **Alt text:** `Illustration: last week's notes feed into a meeting agenda where
-  each item is marked with a question mark, and arrows lead to a second card where
-  each question has become a checked decision with an owner.`
-- **Caption:** `A topic has no finish line. A question does. (Illustration made
-  with AI assistance.)`
+- **Alt text:** `Lynkk banner. Headline: A topic never ends. A question does.
+  Below it: Write each agenda item as a question. Start with what last week left
+  open. On the right, an agenda card titled Thursday sync, 30 min, lists Open from
+  last week (2 items, checked), then three questions marked Decide, Input and
+  Inform.`
+- **Caption:** `An agenda written as questions, with last week's open items first.
+  (Made with AI assistance in the Lynkk design kit.)`
 
 ## 3. Story settings
 
@@ -49,8 +53,8 @@ after any edit with
 - [ ] **Paywall:** Medium does not allow AI-generated writing in the Partner
       Program paywall. Publish it unlocked unless the story has been substantially
       rewritten by a person.
-- [ ] **Image caption** keeps "(Illustration made with AI assistance.)", which
-      Medium requires for AI-made images.
+- [ ] **Image caption** keeps the AI-assistance note, which Medium requires for
+      AI-made images.
 - [ ] Click each of the 5 links once (3 sources, 2 to lynkk.ai). The sources were
       confirmed through search results, not opened directly.
 - [ ] If the meeting notes article is already live, add a link to it in the

@@ -7,6 +7,12 @@ commercial value: advertisers pay more for buyers.
 Use with the `create-medium-article` skill. Product facts come only from
 `memory/lynkk-brand.md`.
 
+> **Claim check (2026-10-07):** `lynkk-post-kit/docs/TRUTHS.md` (checked against
+> the product) rules out data residency, an AI that speaks in meetings, CRM
+> updates, automatic Jira and "notes in 30 seconds". Topics 1 and 10 (data
+> residency angle), 4 (speaking AI) and 5 (CRM) need a new Lynkk angle before
+> drafting. The topic ideas themselves still stand.
+
 ## What the data says
 
 1. **"AI note taker" is the big head term** (27,100/mo, SD 48), far bigger than

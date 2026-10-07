@@ -132,7 +132,7 @@ A simple rule of thumb: **automate recall, keep judgment.**
 
 If a tool is recording, tell everyone in the meeting and follow your company's policy. In the US, some states require [consent from everyone in a conversation](https://journalistsresource.org/home/recording-phone-calls-conversations-legal-guide/), not just one participant, and lawsuits filed against AI note-taking companies have alleged [recording meetings without participants' consent](https://www.dataprivacyandsecurityinsider.com/2026/08/ai-meeting-tools-face-wiretapping-wake-up-call/). Rules vary by state and country, so check what applies to you. (This is not legal advice.)
 
-This is the gap tools like [Lynkk](https://lynkk.ai) aim at. Within about 30 seconds of a meeting ending, it produces structured notes and assigned action items, and it can update CRM fields and create Jira tickets, so tasks reach the tools your team already uses. The judgment calls in the list above still belong to you. The tool just removes the typing and copying around them.
+This is the gap tools like [Lynkk](https://lynkk.ai) aim at. It records the meeting and writes a brief with the decisions, open questions and action items, each with an owner and a due date. From the note, you can send action items to Jira, one issue each. The judgment calls in the list above still belong to you. The tool just removes the typing and copying around them.
 
 ## Start with your next meeting
 
@@ -142,4 +142,4 @@ You don't need to adopt everything at once. At your next meeting, try one change
 
 ---
 
-*Lynkk turns meetings, online or in person, into notes, action items and follow-ups automatically. It's free to start at [lynkk.ai](https://lynkk.ai).*
+*Lynkk records your meetings, writes the notes and pulls out the tasks, with owners and due dates. Start free at [lynkk.ai](https://lynkk.ai).*

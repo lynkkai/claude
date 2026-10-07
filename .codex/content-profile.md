@@ -11,6 +11,12 @@ Explicit user instructions override anything here.
   languages, data regions, certifications) must not appear in an article until the
   team fills it in.
 - Topic backlog and keyword data: `content/medium/topic-research.md`.
+- **Product claims are checked against `lynkk-post-kit/docs/TRUTHS.md`** (on the
+  post-kit branches, checked against the product on 2026-09-29). Where it
+  disagrees with `memory/lynkk-brand.md`, TRUTHS.md wins. It rules out: speed
+  claims ("notes in 30 seconds"), CRM updates, automatic Jira (sending is
+  manual), an AI that speaks in meetings, data regions or residency,
+  "offline-first", compliance badges, phones.
 
 ## Audience
 
@@ -74,6 +80,13 @@ canonical_url: ""    # set if the piece is also on lynkk.ai
 - Link to specific pages over homepages when citing sources.
 
 ## Images
+
+Build hero banners in the Lynkk post kit (Grid design system): `data-size="wide"`
+(1600x900, exported at 2x) with the `.split` block, an eyebrow, a two-ink
+headline, a lead line, and a plate with a glass mock. Render with the kit's
+`scripts/render.mjs`, which checks copy and layout. Save the PNG and the post
+source (`hero-<slug>.kit.html`) beside the article. The rules below apply to
+anything not built in the kit.
 
 Hero image optional. Wide (about 1400x788), no embedded text, no third-party logos.
 Always provide alt text and a one-line caption.

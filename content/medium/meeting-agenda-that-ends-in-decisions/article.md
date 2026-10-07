@@ -8,8 +8,8 @@ status: ready-for-review
 medium_tags: ["Meetings", "Productivity", "Management", "Leadership", "Teamwork"]
 canonical_url: ""
 hero_image: "hero-meeting-agenda-that-ends-in-decisions.png"
-hero_alt: "Illustration: last week's notes feed into a meeting agenda where each item is marked with a question mark, and arrows lead to a second card where each question has become a checked decision with an owner."
-hero_caption: "A topic has no finish line. A question does. (Illustration made with AI assistance.)"
+hero_alt: "Lynkk banner. Headline: A topic never ends. A question does. Below it: Write each agenda item as a question. Start with what last week left open. On the right, an agenda card titled Thursday sync, 30 min, lists Open from last week (2 items, checked), then three questions marked Decide, Input and Inform."
+hero_caption: "An agenda written as questions, with last week's open items first. (Made with AI assistance in the Lynkk design kit.)"
 ---
 
 # How to Write a Meeting Agenda That Ends in Decisions
@@ -122,7 +122,7 @@ Send it at least a day ahead with any reading attached, so the "Read before" lin
 
 The hardest part of this format to keep up is the "Open from last time" section, because it means digging through last week's notes before every meeting. That's recall work, and it's a reasonable thing to hand to a tool.
 
-[Lynkk](https://lynkk.ai) surfaces context from past meetings before each call: what was discussed, what's still open, and who said what. That gives you the first section of the agenda without the digging. Writing the questions and choosing what deserves the group's time is still your job.
+With Google Calendar connected, [Lynkk](https://lynkk.ai) sends a morning briefing on days you have meetings: who you're meeting, your most recent note with them, and how many action items are still open between you. That covers most of the first section of the agenda, without the digging. Writing the questions and choosing what deserves the group's time is still your job.
 
 ## The agenda tells you when you're done
 
@@ -132,4 +132,4 @@ If you're working on how to run effective meetings, the agenda is a good place t
 
 ---
 
-*Lynkk brings context from past meetings into every new one and turns each conversation into notes, action items and follow-ups. It's free to start at [lynkk.ai](https://lynkk.ai).*
+*Lynkk records your meetings, writes the notes and pulls out the tasks, with owners and due dates. Start free at [lynkk.ai](https://lynkk.ai).*
