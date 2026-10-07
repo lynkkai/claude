@@ -1,0 +1,179 @@
+1
+00:00:01,000 --> 00:00:02,951
+Hi, I'm Ava, your Lynkk guide.
+
+2
+00:00:03,051 --> 00:00:12,429
+In the next few minutes, I'll show you how to record any Microsoft Teams meeting with Lynkk, and turn it into notes, action items, and answers, automatically.
+
+3
+00:00:13,279 --> 00:00:19,274
+First, the problem. Recording a Teams meeting sounds simple, but in practice it's full of friction.
+
+4
+00:00:19,374 --> 00:00:26,492
+Your IT policy may switch recording off, and guests or external attendees often can't press record at all.
+
+5
+00:00:26,592 --> 00:00:31,013
+AI recaps and smart notes usually need an extra paid license.
+
+6
+00:00:31,113 --> 00:00:37,490
+Recordings land in OneDrive or SharePoint, where they get buried, and can even expire automatically.
+
+7
+00:00:37,590 --> 00:00:45,198
+And let's be honest: nobody rewatches a one hour video. Action items slip, and someone still has to write the notes.
+
+8
+00:00:45,298 --> 00:00:49,421
+Plus, conversations that happen in person are never captured at all.
+
+9
+00:00:50,471 --> 00:00:51,982
+That's where Lynkk comes in.
+
+10
+00:00:52,082 --> 00:00:54,748
+Lynkk is one AI for your entire meeting.
+
+11
+00:00:54,848 --> 00:00:58,250
+Before the call, it brings back context from past meetings.
+
+12
+00:00:58,350 --> 00:01:02,284
+During the call, it records, transcribes, and speaks when you need it.
+
+13
+00:01:02,384 --> 00:01:05,035
+And after, it does the follow up work for you.
+
+14
+00:01:06,085 --> 00:01:10,273
+Let's set it up. Step one: go to lynkk.ai and click Start free.
+
+15
+00:01:10,373 --> 00:01:13,467
+Create your account. It only takes a few seconds.
+
+16
+00:01:14,917 --> 00:01:16,965
+Step two: connect your calendar.
+
+17
+00:01:17,065 --> 00:01:22,928
+Lynkk finds your upcoming Teams meetings automatically, so you never have to remember to hit record.
+
+18
+00:01:24,178 --> 00:01:27,046
+Step three: join your Teams meeting as usual.
+
+19
+00:01:27,146 --> 00:01:31,037
+Lynkk joins too. If your meeting uses a lobby, just admit it.
+
+20
+00:01:31,137 --> 00:01:35,295
+Lynkk records and transcribes every speaker, in multiple languages.
+
+21
+00:01:35,395 --> 00:01:41,090
+Prefer your desktop? The Lynkk Mac app detects the meeting and starts recording automatically.
+
+22
+00:01:42,340 --> 00:01:44,679
+Step four: ask Lynkk anything, live.
+
+23
+00:01:44,779 --> 00:01:47,882
+For example: what did we agree on pricing last week?
+
+24
+00:01:47,982 --> 00:01:52,973
+Lynkk answers by voice, right in the meeting, using context from your past calls.
+
+25
+00:01:54,423 --> 00:01:59,334
+Step five: the meeting ends. Within about thirty seconds, you get structured notes,
+
+26
+00:01:59,434 --> 00:02:01,189
+action items with owners,
+
+27
+00:02:01,289 --> 00:02:03,161
+CRM fields updated,
+
+28
+00:02:03,261 --> 00:02:06,434
+and Jira tickets created. No copy and paste.
+
+29
+00:02:07,884 --> 00:02:11,145
+Every meeting is saved to your searchable knowledge graph.
+
+30
+00:02:11,245 --> 00:02:14,895
+So weeks later, just ask, and find exactly who said what.
+
+31
+00:02:16,545 --> 00:02:17,967
+So, who is this for?
+
+32
+00:02:18,067 --> 00:02:22,060
+Sales teams get call prep and automatic CRM updates.
+
+33
+00:02:22,160 --> 00:02:26,210
+Product and engineering teams turn decisions into Jira tickets.
+
+34
+00:02:26,310 --> 00:02:30,008
+Founders and managers stay on top of back to back meetings.
+
+35
+00:02:30,108 --> 00:02:34,134
+Consultants and recruiters capture in person conversations too.
+
+36
+00:02:34,234 --> 00:02:36,672
+Global teams get multilingual notes.
+
+37
+00:02:36,772 --> 00:02:41,078
+And regulated teams can choose the region where their data is processed.
+
+38
+00:02:42,328 --> 00:02:43,401
+Quick recap.
+
+39
+00:02:43,371 --> 00:02:44,441
+Start free.
+
+40
+00:02:44,411 --> 00:02:45,765
+Connect your calendar.
+
+41
+00:02:45,735 --> 00:02:47,715
+Let Lynkk join your Teams meeting.
+
+42
+00:02:47,685 --> 00:02:49,362
+Ask it questions, live.
+
+43
+00:02:49,332 --> 00:02:51,308
+And get your notes in thirty seconds.
+
+44
+00:02:52,358 --> 00:02:54,506
+Record your next Teams meeting with Lynkk.
+
+45
+00:02:54,606 --> 00:02:58,979
+Start free today at lynkk.ai, and subscribe for more tutorials.
