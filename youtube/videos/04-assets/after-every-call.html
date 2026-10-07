@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>After every call · video 4 · Lynkk</title>
+<link rel="stylesheet" href="../../../lynkk-post-kit/kit/post.css" />
+</head>
+<body>
+<!-- Scene 2: the four jobs after a sales call. 8 s. -->
+<section class="post" id="after-every-call" data-size="wide">
+  <main class="post-body" data-dots>
+    <span class="eyebrow" data-tone="quiet" id="eb">After every sales call</span>
+    <h2 class="t-display" id="hl">Four jobs. <span class="ink-2">Then the next call starts.</span></h2>
+    <div class="steps mt-auto" style="--n: 4">
+      <div class="step"><span class="step-n">01</span><p class="step-t">Write up the notes</p><p class="step-b">From memory, between calls.</p></div>
+      <div class="step"><span class="step-n">02</span><p class="step-t">Pull out next steps</p><p class="step-b">Who owns what, and by when.</p></div>
+      <div class="step"><span class="step-n">03</span><p class="step-t">Send the recap</p><p class="step-b">To everyone on the call.</p></div>
+      <div class="step"><span class="step-n">04</span><p class="step-t">Book the next meeting</p><p class="step-b">Before the deal goes quiet.</p></div>
+    </div>
+  </main>
+</section>
+<script src="../../../lynkk-post-kit/kit/post.js"></script>
+<script src="tools/anim.js"></script>
+<script>
+const steps = [...document.querySelectorAll(".step")];
+window.render = (t) => {
+  rise(document.getElementById("eb"), p(t, 0.1, 0.6));
+  rise(document.getElementById("hl"), p(t, 0.3, 0.8));
+  steps.forEach((s, i) => rise(s, p(t, 1.6 + i * 0.9, 0.6), 32));
+};
+</script>
+</body>
+</html>

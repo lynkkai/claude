@@ -9,14 +9,41 @@
 > SD = SEO difficulty (0-100, lower is easier). YouTube itself was blocked from the research environment,
 > so competitor video data comes from search-indexed YouTube titles, not live view counts.
 
+## Truth check (2026-10-07, against `lynkk-post-kit/docs/TRUTHS.md`)
+
+TRUTHS.md (checked against the product 2026-09-29) overrides this plan. Published titles, scripts
+and descriptions must not name competitors (keyword data below may). Status per topic:
+
+| Topic | Status | Change |
+|---|---|---|
+| 1 Full demo | OK, adjust | Show the morning briefing, Mac recording with no bot, Meeting Brief, Send to Jira, Ask Lynkk (Pro). No speaking, CRM, graph or speed claims |
+| 2 Meeting minutes | OK | Meeting Brief; Summary Shapes include Board Meeting (Pro) |
+| 3 The AI that speaks | **Blocked** | Lynkk does not speak in meetings. Replaced with "Record any call. Nothing joins it." (Mac app) |
+| 4 Sales / CRM | **Reworked** | No CRM integration. Now "AI Note Taker for Sales Calls" (`videos/04-sales-calls.md`) |
+| 5 Buyer's guide | OK | Generic checklist; no compliance or region claims |
+| 6 Lynkk vs named tools | **Blocked for now** | No competitor names unless the Lynkk team supplies sourced facts (then the file adds the kit's `lynkk-allow` meta). Otherwise "Lynkk vs a typical notetaker" |
+| 7 Built-in meeting AI | Reframe | Don't name the built-in tools; "Built-in meeting AI vs a dedicated note taker" |
+| 8 Bots in meetings explainer | OK | Generic; no tool names in the published video |
+| 9 In-person meetings | OK, adjust | Record your mic at lynkk.ai in the browser. No phone app, no hardware comparison by name |
+| 10 Jira | OK, adjust | Send is manual: "Send meeting tasks to Jira, one issue each". No "automatically" |
+| 11 Dictation | OK, adjust | Mac only; 18 cloud languages; Instant is free, Accurate and Polished are Pro. No competitor name in the title |
+| 12 Industry series | OK, adjust | No compliance claims; healthcare stays blocked |
+| 13 Data region | **Blocked** | No region setting. Replace with privacy: Personal notes, never trains on your conversations, 17 languages |
+| 14 Recording Zoom / Teams / Meet | OK | Meeting bot, Chrome extension, Mac app |
+| 15 Agenda + prep | OK | Morning briefing email (Google Calendar connected) |
+| 16 MCP | **Blocked** | Not in TRUTHS.md |
+| 17 One-on-ones | OK | 1:1 Summary Shape (Pro) |
+| 18 Action items | OK | Owner, due date, priority; Jira send is manual |
+| Bonus: transcribe audio files | **Blocked** | No upload of existing audio |
+
 ## TL;DR: make these 4 first
 
 | # | Video (official-channel title) | Main keyword (US/mo) | Why first |
 |---|---|---|---|
 | 1 | **AI Meeting Assistant That Works Before, During, and After Every Meeting \| Lynkk Full Demo** | ai note taker **27,100** (49,500 global), ai meeting assistant 4,400, ai meeting notes taker 3,600 | Biggest search terms in the category. A complete product walkthrough is the brand-channel version of a "best AI note taker" video and becomes the channel's anchor video. |
 | 2 | **How to Take Meeting Minutes: Format, Examples, and the AI Shortcut** | meeting minutes **9,900**, ai meeting minutes 1,600, how to do meeting minutes 1,600, software for meeting minutes 1,600 | Largest evergreen volume, low difficulty (SD 30-36). Educational, so it builds brand trust and reaches people who don't know AI tools exist yet. |
-| 3 | **The AI That Speaks in Your Meetings \| Lynkk Live Voice Assistant** | ai meeting assistant 4,400, ai voice assistant 1,000, live / real time ai meeting assistant 280, cluely 60,500 (trend) | Lynkk's unique feature. No competitor channel shows an AI answering out loud in a meeting. Best source of Shorts. |
-| 4 | **How Sales Teams Update Their CRM Automatically After Every Call** | ai sales assistant 590 (**$64 CPC**), gong alternative 210 ($64 CPC), ai tools for sales 260 ($46 CPC) | Smaller volume, but the most valuable buyers in the category. Strong use-case proof for the sales page and ads. |
+| 3 | **Record Any Call. Nothing Joins It. \| Lynkk Mac App** (replaces "The AI That Speaks", see truth check) | bot free ai note taker 110, ai note taker that doesn't join meetings 90, ai note taker for zoom 480, ai meeting assistant 4,400 | The Mac app records any call with no bot in it. That is the real differentiator, and the bot-free angle is the hot sub-niche of 2026. |
+| 4 | **AI Note Taker for Sales Calls: Prep, Record and Follow Up \| Lynkk** (reworked, no CRM) | ai sales assistant 590 (**$64 CPC**), ai tools for sales 260 ($46 CPC), ai note taker 27,100 | High-value buyers. Production kit: `videos/04-sales-calls.md`. |
 
 **Fast-win alternate for slot 4:** Topic 8 (*AI note-taker bots in your meetings*), if raw views matter more than buyer intent.
 

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>End screen · video 4 · Lynkk</title>
+<link rel="stylesheet" href="../../../lynkk-post-kit/kit/post.css" />
+</head>
+<body>
+<!-- Last 20 s. Copy left; the ember plate on the right is where the YouTube end-screen video element sits. -->
+<section class="post" id="end-screen" data-size="wide">
+  <main class="post-body">
+    <div class="split">
+      <div id="copy">
+        <span class="eyebrow">Start free</span>
+        <h2 class="t-h2">Stop taking notes. <span class="ink-2">Start finishing meetings.</span></h2>
+        <p class="t-lead mt-m">Lynkk records the call, writes the brief, and hands your tasks to Jira.</p>
+        <span class="btn mt-l">Start free at lynkk.ai</span>
+      </div>
+      <div class="plate plate-ember" data-rings id="plate"></div>
+    </div>
+  </main>
+</section>
+<script src="../../../lynkk-post-kit/kit/post.js"></script>
+<script src="tools/anim.js"></script>
+<script>
+window.render = (t) => {
+  rise(document.getElementById("copy"), p(t, 0.1, 0.8));
+  document.getElementById("plate").style.opacity = p(t, 0.4, 0.8);
+};
+</script>
+</body>
+</html>
