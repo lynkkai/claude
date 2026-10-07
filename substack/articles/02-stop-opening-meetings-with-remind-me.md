@@ -10,7 +10,7 @@ tags: [meeting preparation, sales calls, customer meetings, productivity, templa
 reader: An account executive or customer success manager with 5-8 external calls a day and no time blocked for prep
 promise: You'll have a 5-minute pre-call routine and a pre-read template you can use on your next call
 keyword: how to prepare for a meeting
-social_image: A sticky note reading "remind me where we landed?" crossed out, next to a tidy 5-line checklist
+social_image: lynkk-post-kit/posts/substack-02-banner/out/s1.png (made with the lynkk-post-kit skill)
 cta: Reply with the one question you always forget to check before a call
 ---
 

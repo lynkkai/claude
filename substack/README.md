@@ -46,7 +46,8 @@ python3 substack/build_paste_ready.py substack/articles/<post>.md
 ## Images
 
 Banners are made with the `lynkk-post-kit` skill only, as wide (1600x900) kit posts:
-`lynkk-post-kit/posts/substack-01-banner/out/s1.png` for post 1. Upload it under Settings >
+`lynkk-post-kit/posts/substack-01-banner/out/s1.png` for post 1 and
+`lynkk-post-kit/posts/substack-02-banner/out/s1.png` for post 2. Upload it under Settings >
 Social preview and reuse it for LinkedIn/X shares. Alt text is in that folder's `captions.md`.
 
 ## Before you hit publish (each post)
