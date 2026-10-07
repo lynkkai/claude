@@ -132,7 +132,7 @@
 
 ---
 
-## 4. Thirteen video topics for the official channel
+## 4. Eighteen video topics for the official channel
 
 Each topic lists the official-channel title options, target keywords, format, and Shorts to cut from it.
 
@@ -243,6 +243,58 @@ Short, repeatable videos (3-5 min each), one field at a time, built as scenarios
 
 ---
 
+### More topics (14-18), added 2026-10-07
+
+These five go after broad "how to" searches from people who aren't shopping for an AI tool yet. Each one is an educational guide that ends with Lynkk doing the work automatically, so each video reaches a new audience.
+
+### Topic 14: How to record and transcribe Zoom, Teams, and Google Meet meetings
+- **Titles:**
+  - *How to Record a Zoom Meeting (and Get a Transcript and Notes Automatically)*
+  - *How to Record a Microsoft Teams Meeting: Step by Step + AI Notes*
+  - *How to Record a Google Meet Meeting + Get AI Notes \| Lynkk*
+- **Keywords:** how to record a zoom meeting **9,900** (14,800 peak Apr 2026, SD 30, $21 CPC) · how to record a teams meeting 2,400 (SD 29) · how to record a google meet 1,600 (SD 28) · transcribe zoom meeting 90
+- **Angle:** Start with a clear tutorial using each platform's own recording button (the answer people searched for). Then show the limits: a recording is just a video file. Lynkk turns the same meeting into notes, action items, and searchable history. Mention host permission and consent.
+- **Format:** one 4-6 min video per platform (3 videos). Zoom first because it has the most searches.
+- **Shorts:** "Where's the record button in Zoom?" (15 seconds), then "Now get the notes automatically".
+- **Needs before filming:** confirm which meeting platforms Lynkk supports.
+
+### Topic 15: Meeting agenda template + AI meeting prep (the "before" stage)
+- **Titles:**
+  - *How to Write a Meeting Agenda (Free Template) + Let AI Prep You for Every Meeting*
+  - *Meeting Agenda Template That Uses What Happened Last Time \| Lynkk*
+- **Keywords:** meeting agenda template **14,800** (22,200 peak, SD 38) · meeting agenda 5,400 · how to write a meeting agenda 480
+- **Angle:** Teach a good agenda (goal, topics, owners, time boxes), then show Lynkk's pre-meeting context: what was discussed last time, what's still open, who said what. Built-in reason to watch: most agendas ignore the last meeting, and Lynkk fixes that.
+- **Format:** 5-7 min, with a free agenda template on lynkk.ai as a lead magnet. Pairs with topic 2 (minutes): agenda before, minutes after.
+
+### Topic 16: What is MCP? Connecting meeting AI to your other tools
+- **Titles:**
+  - *What Is MCP? How AI Connects to Your Tools, Explained with Meeting Notes*
+  - *Connect Your Meeting AI to Any App with MCP \| Lynkk*
+- **Keywords:** mcp server **60,500** · what is mcp **14,800** (22,200 peak, SD **26**) · mcp ai 8,100
+- **Angle:** MCP is one of the biggest AI trends, and most explanations are abstract and written for developers. A meeting example makes it concrete: "Your meeting decided X, and through MCP it now shows up in the tool your team already uses." This positions Lynkk as technical and up to date.
+- **Format:** 5-7 min explainer (simple diagram, then a live example). Strong reach with technical audiences, founders, and product teams.
+- **Needs before filming:** a real, working MCP example to demo (which tools, what it does).
+
+### Topic 17: One-on-one meetings for managers
+- **Titles:**
+  - *One-on-One Meeting Template + 15 Questions Managers Should Ask*
+  - *Run Better 1:1s: Never Forget What Your Team Said Last Time \| Lynkk*
+- **Keywords:** one on one meeting 2,400 · one on one meeting template 1,600 (SD **19**) · one on one meeting questions 1,600 (2,400/mo Dec 2025-May 2026)
+- **Angle:** Managers search for 1:1 templates and questions. Give a practical template and question list, then show Lynkk carrying context between 1:1s: open commitments, past feedback, and follow-ups surfaced before each conversation. Mention consent for recording 1:1s.
+- **Format:** 5-7 min, with a free template download. Shorts: "3 questions to ask in every 1:1".
+
+### Topic 18: Action items that actually get done
+- **Titles:**
+  - *What Are Action Items? How to Write Them So They Actually Get Done*
+  - *From Meeting to Assigned Action Items in 30 Seconds \| Lynkk*
+- **Keywords:** action items 2,900 ($22 CPC) · action items meaning 880 · meeting minutes template with action items 390 · follow up email after meeting 210
+- **Angle:** Most meetings fail at follow-through. Teach the formula (owner, task, deadline), show common mistakes, then show Lynkk assigning action items, creating Jira tickets, and scheduling follow-ups automatically.
+- **Format:** 4-6 min. Shorts: "Bad action item vs good action item".
+
+**Bonus, if Lynkk supports uploading audio files:** *How to Transcribe Audio to Text with AI* targets transcribe audio to text **22,200** (27,100 peak). Confirm file upload before planning it.
+
+---
+
 ## 5. Publishing playbook for the official channel
 
 - **Playlists:** Product Demos · How-To Guides · Lynkk for Teams (industry series) · Comparisons · Shorts.
@@ -253,11 +305,13 @@ Short, repeatable videos (3-5 min each), one field at a time, built as scenarios
 - **Shorts:** cut 3+ Shorts from every long video, each linking to the full video.
 - **Pinned comment:** a question that invites replies ("What's the most annoying part of your meetings?").
 - **Creator program:** send Lynkk to the creators already making "I tested N AI note takers" videos so Lynkk appears in their next round-up. This is where personal-review content belongs.
-- **Cadence:** 1 long video per week plus 3 Shorts. Order: topics 1, 2, 3, 4, then 8, 6 (Otter), 5, 11, 7, 9, 10, 12, 13.
+- **Cadence:** 1 long video per week plus 3 Shorts. Order: topics 1, 2, 3, 4, then 14 (Zoom), 15, 8, 6 (Otter), 16, 5, 11, 18, 17, 7, 9, 10, 12, 13.
 
 ## 6. Confirm before filming
 - [ ] Free-tier limits and paid prices (topics 5, 6)
-- [ ] Supported meeting platforms: Zoom / Meet / Teams (topics 1, 7, 8)
+- [ ] Supported meeting platforms: Zoom / Meet / Teams (topics 1, 7, 8, 14)
+- [ ] A working MCP integration to demo (topic 16)
+- [ ] Audio file upload support (bonus transcription topic)
 - [ ] Whether Lynkk can capture without a visible bot, e.g. via the Mac app (topics 5, 6, 8)
 - [ ] Mobile apps for in-person capture (topic 9)
 - [ ] Supported CRMs (topic 4)
