@@ -3,6 +3,9 @@
 > Production kit for the official Lynkk YouTube channel. Topic 4 in `youtube/topic-research.md`.
 > Built with the `lynkk-design` skill: every product claim comes from
 > `lynkk-post-kit/docs/TRUTHS.md` (checked 2026-09-29) and the copy follows `docs/COPY.md`.
+> **The finished, narrated video is in `04-video/`** (`04-video/out/lynkk-sales-calls.mp4`, with title,
+> description, captions and thumbnail in `04-video/README.md`). This document is the plan for a later
+> live-action version filmed with the real product.
 > Graphics: `04-assets/`. This replaces the earlier draft of this video, which relied on
 > claims TRUTHS.md does not support.
 
