@@ -7,8 +7,8 @@ status: ready-for-review
 medium_tags: ["Productivity", "Meetings", "Management", "Leadership", "Work"]
 canonical_url: ""
 hero_image: "hero-meeting-notes-that-turn-into-action.png"
-hero_alt: "Illustration: a page of scribbled meeting notes on the left flows into a clean card on the right listing three checked-off action items, each with an owner and a due date."
-hero_caption: "Good notes record what happens next, not everything that was said. (Illustration made with AI assistance.)"
+hero_alt: "Banner. Headline: Write down what happens next. Let the rest go. Below it: Notes that someone who missed the meeting can act on in two minutes. On the right, a notes card titled Q4 pricing review lists one decision, Keep the free tier, then three action items with owners and days: Priya Thu, Sam Fri, Ana Wed."
+hero_caption: "Decisions and owners first, everything else optional. (Made with AI assistance.)"
 ---
 
 # How to Take Meeting Notes That Actually Turn Into Action

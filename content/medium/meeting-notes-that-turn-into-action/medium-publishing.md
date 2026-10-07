@@ -20,17 +20,16 @@ after any edit with
 Medium uses the first image as the preview thumbnail in feeds and on social
 shares, so add it before publishing.
 
-- **File:** `hero-meeting-notes-that-turn-into-action.png` (2800x1576, 16:9,
-  original illustration, no text or logos). The `.svg` beside it is the editable
-  source.
+- **File:** `hero-meeting-notes-that-turn-into-action.png` (3200x1800, 16:9),
+  built in the Lynkk post kit (Grid design system, `wide` size, split layout),
+  with the Lynkk logo bar and lynkk.ai footer hidden so the image carries no
+  branding. `hero-meeting-notes-that-turn-into-action.kit.html` is its source:
+  copy it to `lynkk-post-kit/posts/<name>/post.html` and run
+  `node scripts/render.mjs posts/<name>` to change and re-render it.
 - **Where:** click the empty line directly under the subtitle, click **+**, then
-  the image icon, and upload the file. Keep the default width (Medium's
-  "outset" or full-width options also work for this image).
-- **Alt text** (click the image, then "Alt text"): `Illustration: a page of
-  scribbled meeting notes on the left flows into a clean card on the right
-  listing three checked-off action items, each with an owner and a due date.`
-- **Caption** (type under the image): `Good notes record what happens next, not
-  everything that was said. (Illustration made with AI assistance.)`
+  the image icon, and upload the file.
+- **Alt text** (click the image, then "Alt text"): `Banner. Headline: Write down what happens next. Let the rest go. Below it: Notes that someone who missed the meeting can act on in two minutes. On the right, a notes card titled Q4 pricing review lists one decision, Keep the free tier, then three action items with owners and days: Priya Thu, Sam Fri, Ana Wed.`
+- **Caption** (type under the image): `Decisions and owners first, everything else optional. (Made with AI assistance.)`
 
 ## 3. Story settings
 
@@ -57,8 +56,8 @@ publish screen.
 - [ ] **Paywall:** Medium does not allow AI-generated writing in the Partner
       Program paywall. Publish it unlocked unless the story has been substantially
       rewritten by a person.
-- [ ] **Image caption** keeps "(Illustration made with AI assistance.)", which
-      Medium requires for AI-made images.
+- [ ] **Image caption** keeps the AI-assistance note, which Medium requires for
+      AI-made images.
 - [ ] Click each of the 6 links once (4 sources, 2 to lynkk.ai). They were
       confirmed through search results, not opened directly.
 - [ ] Title and subtitle look right in the preview card.
