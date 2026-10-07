@@ -4,7 +4,8 @@ This is the cheap first pass. It decides what Claude Code reviews, and it is
 the score used for anything Claude Code hasn't reviewed yet. Weights follow
 the brief:
 
-  +30 explicit AI note-taking intent      -30 irrelevant context
+  +30 explicit AI note-taking or dictation intent
+                                          -30 irrelevant context
   +25 asks for a tool                     -20 keyword only incidental
   +20 describes a clear pain point        -20 promotional or self-promotional
   +15 meeting transcription               -15 duplicate content
@@ -36,15 +37,21 @@ AI_NOTE = _rx(
     r"\bnote ?tak(er|ers)\b",
     r"\bmeeting (assistant|bot|recorder|copilot|scribe)s?\b",
     r"\b(note|meeting)s? (app|tool|software)\b[^.?!\n]{0,40}\b(ai|transcri\w+|record\w*)",
-    r"\bai (scribe|notes?|note ?taker|recorder|transcription)\b",
+    r"\bai (scribe|notes?(?!\s*:)|note ?taker|recorder|transcription)\b",  # not "(AI note: ...)"
     r"\b(ai|automatic(ally)?|auto)\b[^.?!\n]{0,40}\brecord\w*\b[^.?!\n]{0,20}\b(meetings?|calls?|conversations?|interviews?)\b",
+    # AI dictation: speak, and the text appears
+    r"\bdictation (app|apps|tool|tools|software|program|programs)\b",
+    r"\b(ai|voice|speech|mac|macos|apple|built ?in|system|cloud) dictation\b",
+    r"\b(speech|voice) to text\b[^.?!\n]{0,40}\b(app|apps|tool|tools|software|mac|ai)\b",
+    r"\bvoice typing\b",
+    r"\b(wispr ?flow|superwhisper|macwhisper|aqua voice|willow voice)\b",
 )
 
 ASKS_TOOL = _rx(
     r"\b(any|anyone|what|which|is there|are there|does anyone|do you guys|can anyone)\b[^.?!\n]{0,90}\b(tool|app|apps|software|service|solution|product|plugin|extension|bot|recommend\w*|suggest\w*|use|using)\b[^.!\n]{0,80}\?",
-    r"\blooking for (a|an|some|good|the best|recommendations?)?\b[^.?!\n]{0,60}\b(tool|app|software|service|solution|way|recommend\w*|note ?tak\w*|transcri\w+|assistant|recorder)",
+    r"\blooking for (a|an|some|good|the best|recommendations?)?\b[^.?!\n]{0,60}\b(tool|app|software|service|solution|way|recommend\w*|note ?tak\w*|note ?mak\w*|dictation|transcri\w+|assistant|recorder)",
     r"\b(need|want) (a|an|some) (good |reliable |simple |cheap |free )?(tool|app|software|service|ai|way)\b",
-    r"\bbest\b[^.?!\n]{0,40}\b(tool|app|software|note ?tak\w*|transcri\w+|assistant|recorder|ai)\b[^.!\n]{0,60}\?",
+    r"\bbest\b[^.?!\n]{0,40}\b(tool|app|software|note ?tak\w*|note ?mak\w*|dictation|transcri\w+|assistant|recorder|ai)\b[^.!\n]{0,60}\?",
     r"\b(what|which)\b[^.?!\n]{0,30}\b(do you|are you|should i)\b[^.?!\n]{0,20}\b(use|using|recommend|pick|choose)\b",
 )
 
@@ -69,6 +76,7 @@ RECORDING = _rx(
 )
 ALTERNATIVES = _rx(
     r"\balternatives? (to|for)\b",
+    r"\b\w+ alternatives?\s*\?",  # "Otter alternative?"
     r"\b(switch|switching|switched|moving|move) (away )?from\b",
     r"\breplace(ment)? for\b",
     r"\b(vs\.?|versus)\b",

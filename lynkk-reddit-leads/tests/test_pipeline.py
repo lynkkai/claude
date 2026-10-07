@@ -53,6 +53,7 @@ def test_fetch_dedupes_across_searches_and_skips_seen(cfg, db):
 
 
 def test_keywords_from_every_query_are_merged(cfg, db):
+    cfg.keywords = [*cfg.keywords, "Zoom notes"]  # the fixture post matches both
     Fetcher(cfg, db, FakeSource(), log=lambda *_: None).run()
     zoom = db.get("t3_1wz5toq")
     kws = json.loads(zoom["matched_keywords"])

@@ -79,3 +79,24 @@ def test_queries_pack_phrases_and_isolate_combinations():
     packed = [q for q in qs if len(q.keywords) > 1]
     assert packed and ' OR ' in packed[0].q
     assert all(len(q.q) <= 400 for q in qs)
+
+
+def test_ai_dictation_requests_score_high():
+    a = s("Is there a good AI dictation app for Mac? Built-in dictation can't keep up with me. Any recommendations?")
+    b = s("Looking for a speech-to-text app that types wherever my cursor is. Wispr Flow alternative?")
+    for r in (a, b):
+        assert r.has("ai_note_intent"), r
+        assert r.score >= 60, r
+    assert b.has("alternatives")
+
+
+def test_ai_note_maker_suggestion_request_scores_high():
+    r = s("Can anyone suggest a good AI note maker? I need something that turns my calls into notes.")
+    assert r.has("ai_note_intent") and r.has("asks_for_tool")
+    assert r.score >= 50, r
+
+
+def test_ai_note_disclaimer_is_not_note_taking():
+    r = s("(AI note: The AI helped craft my question.) Should I withdraw my retirement savings to pay off debt?")
+    assert not r.has("ai_note_intent")
+    assert r.score < 25

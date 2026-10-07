@@ -5,6 +5,21 @@ meeting assistant, see `docs/LYNKK.md`) could genuinely help. The goal is a
 short list of useful conversations, not a long list of keyword matches. Be
 strict: ten real opportunities beat a hundred weak ones.
 
+## What we are looking for
+
+Two kinds of people, in this order:
+
+1. **Someone asking for an AI note maker or note taker**, or for suggestions
+   between them: "What AI note taker do you use?", "Any good AI note maker for
+   my calls?", "Otter alternative?"
+2. **Someone asking about AI dictation**: talking instead of typing, voice
+   typing that lands in any app, "Wispr Flow alternative?", "Mac dictation
+   is bad, what do you use?" Lynkk's Mac app does dictation (see
+   "Dictation" in `docs/LYNKK.md`).
+
+Everything else (general AI talk, meeting rants, transcription jobs, people
+who already have a tool and want something else) ranks below these.
+
 ## Input and output
 
 `uv run leads review next` writes `work/batch.json`. Read it with the Read
@@ -34,9 +49,9 @@ judgement.
 
 | intent | when |
 |---|---|
-| `high_purchase_intent` | Explicitly wants an AI note taker, meeting notes tool, transcription or meeting assistant now. "What AI note taker should I use?", "Need something that records my calls and writes notes." |
-| `tool_recommendation` | Asks for recommendations in the space, less urgent or less specific. "What do you all use for meeting notes?" |
-| `comparison` | Evaluating named tools, or asking for an alternative to one. "X vs Y?", "Alternative to X? It got too expensive." |
+| `high_purchase_intent` | Explicitly wants an AI note maker, note taker, meeting assistant or AI dictation tool now. "What AI note taker should I use?", "Need something that records my calls and writes notes.", "I need a dictation app for my Mac." |
+| `tool_recommendation` | Asks for recommendations or suggestions in the space, less urgent or less specific. "What do you all use for meeting notes?", "Any AI note maker suggestions?", "What dictation app do you use?" |
+| `comparison` | Evaluating named tools, or asking for an alternative to one. "X vs Y?", "Alternative to X? It got too expensive.", "Wispr Flow vs Superwhisper?" |
 | `problem_seeking_solution` | Describes a pain Lynkk solves and wants a fix, without asking for a tool by name. "I keep forgetting action items from calls, how do you handle it?" |
 | `workflow_problem` | Describes a meeting or note workflow pain, not clearly looking for a tool. |
 | `general_discussion` | Talks about AI notes, meetings or transcription with no need. Opinions, news, polls. |
@@ -52,9 +67,10 @@ case; 70 to 89 clear need; 40 to 69 some need; below 40 little or none.
 How worth a human reply this is, for Lynkk specifically.
 
 - 85 to 100: asks for exactly what Lynkk does, and a helpful reply would be
-  welcome (call notes, meeting summaries, action items, transcription of
-  calls, searchable meeting history, accents or Hindi/Hinglish, no bot in the
-  call, Mac).
+  welcome: asks for AI note maker or note taker suggestions, asks for an AI
+  dictation or voice typing tool on a Mac, call notes, meeting summaries,
+  action items, transcription of calls, searchable meeting history, accents
+  or Hindi/Hinglish, no bot in the call.
 - 65 to 84: a real need in the space; a reply could help.
 - 50 to 64: on topic, weak or vague need.
 - Below 50: not worth a reply. This is the cut line; most items should land
@@ -67,7 +83,10 @@ Push the score **down** when:
 - the thread is old news, a rant with no question, or a joke.
 - the need is something Lynkk can't do (see "Don't claim" in `docs/LYNKK.md`:
   phones, Windows, uploading existing audio files, a bot that speaks, CRM sync,
-  HIPAA or SOC 2 requirements). Say so in `reply_opportunity`.
+  HIPAA or SOC 2 requirements). Say so in `reply_opportunity`. For an "AI
+  note maker" that turns PDFs, YouTube videos or existing recordings into
+  notes, Lynkk doesn't fit (no file upload). For dictation, Lynkk is the Mac
+  app only: dictation on a phone, Windows or an Intel Mac doesn't fit.
 - a comment just recommends a tool to someone else. The person asking is the
   lead, not the recommender.
 - the subreddit bans self-promotion and the only possible reply is a product

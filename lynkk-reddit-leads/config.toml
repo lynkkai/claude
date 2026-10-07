@@ -8,44 +8,44 @@
 # for example '"meeting notes" AI' (the words must all appear). Combinations
 # get their own search, so they cost one request each.
 keywords = [
+  # People looking for an AI note maker / note taker
   "AI note maker",
   "AI note taker",
   "AI notetaker",
-  "AI notes",
+  "AI note taking app",
+  "AI note taking tool",
+  "note taking AI",
+  "best note taker",
   "AI meeting notes",
   "AI meeting note taker",
-  "meeting notes AI",
-  "meeting transcription",
-  "meeting transcriber",
-  "AI transcription",
-  "voice notes",
-  "AI voice notes",
-  "meeting assistant",
   "AI meeting assistant",
-  "conversation notes",
+  "meeting notes AI",
   "automatic meeting notes",
-  "automatic transcription",
-  "meeting recorder",
-  "AI recorder",
-  "note taking AI",
-  "note-taking app",
-  "meeting summary",
-  "meeting summaries",
-  "call transcription",
-  "call notes",
-  "Zoom notes",
-  "Google Meet notes",
-  "Teams meeting notes",
-  "meeting minutes AI",
-  '"meeting notes" AI',
+  "AI meeting minutes",
+  # People looking for AI dictation (speak, and the text appears)
+  "AI dictation",
+  "dictation app",
+  "dictation software",
+  "dictation tool",
+  "voice dictation",
+  "Mac dictation",
+  "voice typing",
+  "voice to text app",
+  "speech to text app",
+  # Combinations (one search each)
+  '"note taker" recommendation',
+  '"dictation" recommendation',
 ]
 
-# Other meeting note products. Used to spot "alternative to X" and "X vs Y"
+# Other note taker and dictation products. Used to spot "alternative to X" and "X vs Y"
 # posts (they score as comparisons). They are also searched as
 # "<name> alternative". Remove any you don't want.
 competitors = [
+  # AI note takers
   "Otter", "Fireflies", "Granola", "Fathom", "tl;dv", "Read.ai", "Krisp",
   "Notta", "Plaud", "MeetGeek", "Avoma", "Fellow", "Jamie", "Bluedot",
+  # AI dictation
+  "Wispr Flow", "Superwhisper", "MacWhisper", "Aqua Voice", "Willow Voice",
 ]
 search_competitor_alternatives = true
 
@@ -72,6 +72,7 @@ thread_min_score = 40
 # The latest comments in these subreddits are scanned for keywords every run.
 # They are read together, a few subreddits per request.
 watch_subreddits = [
+  "AiNoteTaker", "macapps", "MacOS", "notetaking",
   "productivity", "Notion", "ObsidianMD", "Entrepreneur", "startups",
   "SaaS", "sales", "consulting", "projectmanagement", "Zoom",
   "ChatGPT", "artificial", "AI_Agents", "smallbusiness",
