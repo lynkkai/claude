@@ -1,8 +1,9 @@
 # Video 4: How Sales Teams Update Their CRM Automatically After Every Call
 
 > Production kit for the official Lynkk YouTube channel. Topic 4 in `youtube/topic-research.md`.
-> Every product claim here comes from `memory/lynkk-brand.md`. Anything marked **[CONFIRM]** must be
-> checked with the product team before filming.
+> Every product claim here comes from `memory/lynkk-brand.md`. The five production decisions below
+> (CRM, platform, voice trigger, Jira, follow-up) were chosen by marketing as the filming defaults.
+> When recording, film what the product actually does; if a step works differently, change only that beat.
 
 ## Overview
 
@@ -35,11 +36,23 @@ Rules: max 4 words of text, high contrast, Lynkk brand colors, no stock-photo fa
 
 ## Pre-production checklist
 
-- [ ] **[CONFIRM]** Which CRM to show on screen (HubSpot? Salesforce?) and which fields Lynkk updates
-- [ ] **[CONFIRM]** Which meeting platform to film on (Zoom / Google Meet / Teams)
-- [ ] **[CONFIRM]** How the follow-up is booked: Calendly or Cal.com link in the follow-up, or auto-scheduled
-- [ ] **[CONFIRM]** Exact wording of the voice trigger (does the rep say "Lynkk, ..." or press a button?)
-- [ ] **[CONFIRM]** Whether a sales call can create a Jira ticket (for the feature-request moment in Scene 6). Cut that beat if not
+### Production decisions
+
+| # | Decision | Choice for filming | Why |
+|---|---|---|---|
+| 1 | CRM on screen | **HubSpot** (free CRM account is enough for the demo) | Most widely used CRM among small and mid-size sales teams, and a free account makes a clean demo workspace easy to set up |
+| 1b | Fields Lynkk updates | **Deal stage** (Discovery to Pilot), **Next step**, **Next activity date**, **Pilot users** (custom deal property), **call summary logged as a note** on the deal timeline, **Priya added as an associated contact** | All visible on one HubSpot deal record, so the update reads in a single shot |
+| 2 | Meeting platform | **Zoom** | The most common platform for external sales calls, and "zoom" terms have the largest search volume in the category (zoom ai companion 5,400/mo) |
+| 3 | Voice trigger | Rep says **"Hey Lynkk, ..."** followed by the question | Easy for viewers to follow and repeat; makes it clear Lynkk only speaks when asked |
+| 4 | Jira ticket from a sales call | **Keep the beat.** Daniel's feature request becomes a Jira ticket for the product team | Lynkk creates Jira tickets from meetings, and a sales-to-product handoff shows value beyond the CRM |
+| 5 | Follow-up booking | Lynkk **drafts the follow-up email** (recap, next steps, security doc attached) with a **Calendly link** for next week's call. Maya reviews and clicks **Send** | Keeps a human in the loop for anything sent to a prospect, which is what sales teams expect. Cal.com is mentioned in the voiceover as the alternative |
+
+### Checklist
+
+- [ ] HubSpot demo account with the "Harborline" deal at stage "Discovery" and a custom deal property "Pilot users"
+- [ ] Zoom account for the call scene (Maya's and Daniel's machines, both with cameras)
+- [ ] Calendly account with a "30-min pilot check-in" event type
+- [ ] Jira demo project for the product team (e.g. "PROD"), so the ticket has somewhere to land
 - [ ] Demo workspace with **fictional** data only (no real customers, no real names). Use the scenario below
 - [ ] One earlier "past call" recorded and processed in the demo account, so pre-call context and live answers have real data behind them
 - [ ] A "Security overview" document uploaded or connected so Lynkk can pull it up live
@@ -72,7 +85,7 @@ Timings are targets. **VO** = voiceover by the brand host. **SCREEN** = what is 
 
 | | |
 |---|---|
-| **SCREEN** | Call ends, cursor clicks "Leave". A stopwatch overlay counts 0:00 to 0:30 (sped up). The CRM deal record fills in field by field: next step, stage, close date, notes. Follow-up email draft appears. |
+| **SCREEN** | Call ends, cursor clicks "Leave". A stopwatch overlay counts 0:00 to 0:30 (sped up). The HubSpot deal record fills in field by field: deal stage, next step, next activity date, call note. Follow-up email draft appears. |
 | **VO** | "This sales call ended thirty seconds ago. The notes are written, the next steps are assigned, and the CRM is already updated. Nobody typed a thing." |
 | **TEXT** | "30 seconds after the call" |
 
@@ -104,14 +117,14 @@ Timings are targets. **VO** = voiceover by the brand host. **SCREEN** = what is 
 
 | | |
 |---|---|
-| **SCREEN** | Video call starts (two participants, Maya and Daniel, plus Lynkk visible as a participant). Consent notice visible. |
+| **SCREEN** | Zoom call starts (two participants, Maya and Daniel, plus Lynkk visible as a participant in the gallery). Zoom's recording consent notice visible. |
 | **VO** | "When the call starts, Lynkk detects the meeting and joins automatically. Everyone can see Lynkk is there." |
 | **SCREEN** | Daniel (on camera, actor): "Before we go further, remind me what we said about the pilot length?" |
-| **SCREEN** | Maya: "Lynkk, what did we agree on for the pilot last time?" **[CONFIRM trigger wording]** |
+| **SCREEN** | Maya: "Hey Lynkk, what did we agree on for the pilot last time?" |
 | **SCREEN** | Lynkk (voice, with on-screen caption): "On the last call, you agreed on a thirty-day pilot, starting after Harborline's security review is complete." |
 | **VO** | "No scrolling, no 'let me check and get back to you'. Lynkk answers live, by voice, for the whole call to hear." |
-| **SCREEN** | Daniel: "Great. Our IT team will ask about security first." Maya: "Lynkk, pull up our security overview." The document appears on screen. |
-| **VO** | "Lynkk can also pull up documents in the middle of the call. And when nobody needs it, Lynkk stays quiet and keeps listening." |
+| **SCREEN** | Daniel: "Great. Our IT team will ask about security first." Maya: "Hey Lynkk, pull up our security overview." The document appears on screen. |
+| **VO** | "Just say 'Hey Lynkk' and ask. Lynkk can also pull up documents in the middle of the call. And when nobody needs it, Lynkk stays quiet and keeps listening." |
 | **SCREEN** | Call continues briefly (sped up): they agree on 15 pilot users, Daniel will intro Priya, Maya will send the security doc and a pilot plan, next call in a week. Daniel: "Could the reports export straight to our BI tool? That would be huge." |
 | **TEXT** | Lower third: "During: live answers by voice" |
 
@@ -125,11 +138,11 @@ Timings are targets. **VO** = voiceover by the brand host. **SCREEN** = what is 
 | **VO** | "Structured notes, with the decisions, the risks, and the people involved." |
 | **SCREEN** | Zoom into **Action items**: "Maya: send security overview and pilot plan", "Daniel: introduce Priya (finance)", each with an owner. |
 | **VO** | "Action items, already assigned to the right person." |
-| **SCREEN** | Switch to the CRM **[CONFIRM which CRM]**. Harborline deal record: fields update (deal stage: Pilot, next step, next meeting date, pilot size, notes summary). Highlight each changed field. |
-| **VO** | "And the CRM is updated. Deal stage, next step, pilot details, and a summary of the call. Maya didn't open the CRM once. Her manager sees an accurate pipeline today, not at the end of the week." |
-| **SCREEN** | Follow-up: scheduling link for next week's call via Calendly / Cal.com **[CONFIRM flow]**. |
-| **VO** | "Lynkk also handles the follow-up through Calendly or Cal.com, so the next meeting is booked while the deal is still warm." |
-| **SCREEN** | **[CONFIRM, cut if not supported]** Jira ticket created: "Feature request from Harborline: export reports to BI tool", visible to the product team. |
+| **SCREEN** | Switch to HubSpot. Harborline deal record, each change highlighted in turn: **Deal stage** Discovery to Pilot · **Next step** "Send security overview + pilot plan; intro to Priya (finance)" · **Next activity date** one week out · **Pilot users** 15 · call summary logged as a **note** on the timeline · **Priya** added as an associated contact. |
+| **VO** | "And HubSpot is updated. Deal stage, next step, next activity date, pilot size, a summary of the call, and the new stakeholder. Maya didn't open the CRM once. Her manager sees an accurate pipeline today, not at the end of the week." |
+| **SCREEN** | Follow-up email draft in Lynkk: recap, next steps, security overview attached, and a Calendly link for a 30-minute pilot check-in. Maya skims it and clicks **Send**. Cut to Daniel's inbox: he picks a slot, and the meeting appears on both calendars. |
+| **VO** | "Lynkk also drafts the follow-up, with the recap, the next steps, and a Calendly link for the next meeting. Using Cal.com instead? That works too. Maya reviews it, clicks send, and the next call is booked while the deal is still warm." |
+| **SCREEN** | Jira: new ticket in the product team's project. Summary: "Feature request (Harborline): export reports to BI tool". Description links back to the moment in the call. |
 | **VO** | "Even the feature request Daniel mentioned goes to the product team as a Jira ticket, so it doesn't die in a sales note." |
 | **TEXT** | Lower third: "After: notes, tasks, CRM, follow-up" |
 
@@ -188,8 +201,8 @@ Start free: https://lynkk.ai
 
 In this demo, a sales team runs a pilot-planning call with Lynkk:
 • Before the call: Lynkk surfaces context from past conversations (what was discussed, what's still open, who said what)
-• During the call: Lynkk joins and answers questions out loud, and pulls up documents live
-• After the call: within about 30 seconds, structured notes, assigned action items, updated CRM fields, and a scheduled follow-up
+• During the call: Lynkk joins the Zoom call and answers out loud when you say "Hey Lynkk", and pulls up documents live
+• After the call: within about 30 seconds, structured notes, assigned action items, updated HubSpot deal fields, a Jira ticket for the product team, and a follow-up email with a Calendly link
 • Every call becomes searchable across your whole pipeline
 
 Lynkk works with your calendar, CRM, Jira, Calendly, and Cal.com, and connects to anything via MCP. It records online and in-person meetings, supports multiple languages, and lets you choose the region where your data is processed.
@@ -213,7 +226,7 @@ The companies, people, and data in this video are fictional and used for demonst
 ## Tags
 
 ```
-ai sales assistant, ai for sales, ai tools for sales, crm automation, update crm automatically, sales call notes, ai note taker, ai meeting assistant, ai note taker for sales, sales call follow up, gong alternative, sales productivity, meeting notes, conversation intelligence, lynkk
+ai sales assistant, ai for sales, hubspot ai, zoom ai note taker, ai tools for sales, crm automation, update crm automatically, sales call notes, ai note taker, ai meeting assistant, ai note taker for sales, sales call follow up, gong alternative, sales productivity, meeting notes, conversation intelligence, lynkk
 ```
 
 ## Pinned comment
@@ -268,7 +281,8 @@ Burn in captions (most LinkedIn video plays muted).
 | Calendar, Jira, Calendly, Cal.com, CRM, MCP integrations | brand memory |
 | Searchable knowledge graph | brand memory |
 | Online and in-person, multilingual, data region choice | brand memory |
-| Specific CRM name and fields shown | **[CONFIRM]** |
-| Voice trigger wording | **[CONFIRM]** |
-| Jira ticket from a sales call | **[CONFIRM]** |
-| Exact follow-up scheduling flow | **[CONFIRM]** |
+| HubSpot as the CRM, and the specific fields updated | production decision 1 (match to product when filming) |
+| Zoom as the meeting platform | production decision 2 |
+| "Hey Lynkk" voice trigger | production decision 3 |
+| Jira ticket from a sales call | production decision 4 |
+| Drafted follow-up with Calendly link, rep clicks Send | production decision 5 |
