@@ -10,6 +10,7 @@ fathom.video, tldv.io, read.ai vs lynkk.ai) and web search.
 | `guest-post-prospects.csv` | Sites with a "write for us" / contributor program in SaaS, AI, sales, CRM, productivity, remote work, HR, PM, knowledge management | 86 sites, 20 with a published email |
 | `competitor-listicle-targets.csv` | Pages that already link to Otter / Fireflies / Fathom / tl;dv / Read.ai (from Ubersuggest). Ask the editor to add Lynkk | 43 pages |
 | `ai-directories.csv` | Free AI tool directories and marketplaces to list Lynkk on | 16 |
+| `outreach-emails.csv` | One row per email (deduplicated), with `source_url` and `last_checked`. Columns: email,website,submission_url,source_url,niche,opportunity,notes,last_checked | 101 emails (98 free, 3 paid only) |
 
 Emails in the CSV were taken from the site's own write-for-us page as shown in search
 results. Pages were not opened directly (the research environment could not load
@@ -31,18 +32,37 @@ Rows with no email use a contact form, or the email was not visible in the searc
 
 ## About the 1,000-email target
 
-This pass produced 20 confirmed-from-source emails plus 86 sites and 43 listicle pages.
-Getting to 1,000 needs a tool that opens pages, which was not available here. To scale:
+Status on 2026-10-08: **101 unique emails** in `outreach-emails.csv` (20 from the first
+pass plus 81 new), of which 98 are free editorial and 3 are flagged `paid only`.
 
-- Open `https://guestpostlive.com/free-guest-post-sites-2026/` (116 sites with emails,
-  checked Aug 2026), `https://serpforge.io/blog/link-building/free-guest-posting-sites/`
-  and `https://freeaidirectories.com/` (450+ directories) and merge into the CSV.
+Method for this pass: the environment's network policy still blocked every outbound
+website (proxy returned 403 on CONNECT, and WebFetch could not resolve hosts), so no page
+could be opened or scraped. Emails were collected from web search result text for about
+60 niche queries ("write for us" plus SaaS, AI, sales, CRM, sales enablement,
+productivity, remote and hybrid work, meetings, customer success, CX, contact center, HR,
+recruiting, project management, knowledge management, startups, small business,
+marketing, automation, data science). Only addresses printed in the result text for a
+specific page were kept; none were guessed or constructed. Addresses the search flagged
+as typos, placeholders or unrelated embedded data were dropped.
+
+Every new row says "not yet confirmed on live page". Open `source_url` and confirm the
+address before sending. Search-only harvesting yields about 1-5 emails per query and was
+falling to about 1, which is why the total is far below 1,000.
+
+Ubersuggest: `backlink_opportunity` returned nothing for the competitor set, and
+`backlinks` for fireflies.ai returned mostly DA 88+ news, university and app store pages,
+not realistic free guest post targets. No emails come from Ubersuggest.
+
+To reach 1,000, run a fresh session after setting Network access to Full (or allowing
+the needed domains), then:
+
+- Scrape `https://guestpostlive.com/free-guest-post-sites-2026/` (116 sites with emails),
+  `https://serpforge.io/blog/link-building/free-guest-posting-sites/`,
+  `https://blog.linkforce.io/free-guest-posting-sites/` and the mentionagent.ai lists.
+- Fetch write-for-us, contact and about pages for every site in all CSVs and extract
+  printed emails (mailto links and "name [at] domain [dot] com" forms).
 - In the Ubersuggest web app, export the full Backlink Opportunity report for the five
-  competitors (the API only returns the top 500 by authority, mostly news and university
-  sites). Filter to DA 20-70 blogs, which are the realistic free targets.
-- Find editor emails with Hunter.io (25 free searches/month) or the site's contact page.
-- Google queries that work: `"write for us" + meeting`, `"write for us" + "sales"`,
-  `"guest post guidelines" + productivity`, `intitle:"best AI meeting assistants"`.
+  competitors and filter to DA 20-70 blogs.
 
 Quality beats volume here: 50 well-fitted pitches will likely earn more links than 1,000
 generic ones.
