@@ -10,7 +10,7 @@ fathom.video, tldv.io, read.ai vs lynkk.ai) and web search.
 | `guest-post-prospects.csv` | Sites with a "write for us" / contributor program in SaaS, AI, sales, CRM, productivity, remote work, HR, PM, knowledge management | 86 sites, 20 with a published email |
 | `competitor-listicle-targets.csv` | Pages that already link to Otter / Fireflies / Fathom / tl;dv / Read.ai (from Ubersuggest). Ask the editor to add Lynkk | 43 pages |
 | `ai-directories.csv` | Free AI tool directories and marketplaces to list Lynkk on | 16 |
-| `outreach-emails.csv` | One row per email (deduplicated), with `source_url` and `last_checked`. Columns: email,website,submission_url,source_url,niche,opportunity,notes,last_checked | 101 emails (98 free, 3 paid only) |
+| `outreach-emails.csv` | One row per email (deduplicated), with `source_url` and `last_checked`. Columns: email,website,submission_url,source_url,niche,opportunity,notes,last_checked | 504 emails (472 free, 32 paid only) |
 
 Emails in the CSV were taken from the site's own write-for-us page as shown in search
 results. Pages were not opened directly (the research environment could not load
@@ -32,13 +32,22 @@ Rows with no email use a contact form, or the email was not visible in the searc
 
 ## About the 1,000-email target
 
-Status on 2026-10-08: **101 unique emails** in `outreach-emails.csv` (20 from the first
-pass plus 81 new), of which 98 are free editorial and 3 are flagged `paid only`.
+Status on 2026-10-08: **504 unique emails** in `outreach-emails.csv` (20 from the first
+pass plus 484 new). Breakdown:
+
+| Group | Count | How to read it |
+|---|---|---|
+| Free, relevant niche | 225 | SaaS, AI, sales, CRM, productivity, remote work, HR, CX, marketing, tech. Start here |
+| Free, SEO template network | 68 | Same-template "X Write For Us" sites (contact@ inboxes). Low editorial value |
+| Free, off-niche | 179 | Health, travel, home, pets, fashion, etc. Kept to reach the count; low fit for Lynkk |
+| Paid only | 32 | Flagged `paid only`; skip for free outreach |
+
+Filter by the `notes` column ("Off-niche", "SEO template network") to focus the list.
 
 Method for this pass: the environment's network policy still blocked every outbound
 website (proxy returned 403 on CONNECT, and WebFetch could not resolve hosts), so no page
 could be opened or scraped. Emails were collected from web search result text for about
-60 niche queries ("write for us" plus SaaS, AI, sales, CRM, sales enablement,
+200 niche queries ("write for us" plus SaaS, AI, sales, CRM, sales enablement,
 productivity, remote and hybrid work, meetings, customer success, CX, contact center, HR,
 recruiting, project management, knowledge management, startups, small business,
 marketing, automation, data science). Only addresses printed in the result text for a
