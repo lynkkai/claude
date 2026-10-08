@@ -11,3 +11,8 @@ These apply to all Lynkk copy, marketing text, and anything written in this repo
 
 - **Never use em dashes (—) or en dashes (–).** Use a comma, colon, parentheses, or
   split the sentence instead. Use a plain hyphen for ranges and compound words.
+
+## Content workflows
+
+- Medium articles: use the `medium-article` skill (`.claude/skills/medium-article/`). Drafts go in
+  `content/medium/`, the topic plan is `content/medium-article-topics.md`.
