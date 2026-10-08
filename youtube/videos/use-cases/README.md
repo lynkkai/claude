@@ -16,7 +16,7 @@ Built with the `lynkk-design` skill: every claim is from `lynkk-post-kit/docs/TR
 | HR | `hr/out/lynkk-for-hr-teams.mp4` (0:59) | `out/hr-thumbnail.png` | `hr/out/captions.srt` |
 | Consulting | `consulting/out/lynkk-for-consulting-teams.mp4` (1:03) | `out/consulting-thumbnail.png` | `consulting/out/captions.srt` |
 
-All videos: 1920x1080, 30 fps, H.264 + AAC, -14 LUFS. Thumbnails: 1280x720. The CTA board holds
+All videos: 1920x1080, 30 fps, H.264 + AAC, -15 LUFS. Thumbnails: 1280x720. The CTA board holds
 for about 10 seconds at the end: put a YouTube end screen (subscribe, next video) on the ember plate.
 
 ## Sales
