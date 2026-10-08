@@ -1,0 +1,135 @@
+{
+  "s1": {
+    "duration": 16.408,
+    "starts": [
+      0.6,
+      3.083,
+      10.196
+    ],
+    "offset": 0.0,
+    "chapter": "Intro"
+  },
+  "s2": {
+    "duration": 13.963,
+    "starts": [
+      0.6,
+      2.955,
+      5.652,
+      9.671
+    ],
+    "offset": 16.408,
+    "chapter": "What Lynkk is"
+  },
+  "s3": {
+    "duration": 24.02,
+    "starts": [
+      0.6,
+      2.913,
+      6.996,
+      11.57,
+      17.68
+    ],
+    "offset": 30.371,
+    "chapter": "Four ways to record"
+  },
+  "s4": {
+    "duration": 20.577,
+    "starts": [
+      0.6,
+      4.043,
+      9.151,
+      16.775
+    ],
+    "offset": 54.391,
+    "chapter": "Before the call"
+  },
+  "s5": {
+    "duration": 23.615,
+    "starts": [
+      0.6,
+      3.638,
+      7.679,
+      15.794,
+      17.68
+    ],
+    "offset": 74.968,
+    "chapter": "During the call"
+  },
+  "s6": {
+    "duration": 20.747,
+    "starts": [
+      0.6,
+      2.443,
+      8.937,
+      14.109
+    ],
+    "offset": 98.583,
+    "chapter": "Built for real calls"
+  },
+  "s7": {
+    "duration": 24.575,
+    "starts": [
+      0.6,
+      4.022,
+      11.497,
+      15.41,
+      18.981
+    ],
+    "offset": 119.33,
+    "chapter": "The Meeting Brief"
+  },
+  "s8": {
+    "duration": 21.622,
+    "starts": [
+      0.6,
+      4.747,
+      10.687,
+      16.754
+    ],
+    "offset": 143.905,
+    "chapter": "Summary Shapes and sharing"
+  },
+  "s9": {
+    "duration": 19.019,
+    "starts": [
+      0.6,
+      4.747,
+      11.241,
+      16.221
+    ],
+    "offset": 165.527,
+    "chapter": "Tasks and Jira"
+  },
+  "s10": {
+    "duration": 23.06,
+    "starts": [
+      0.6,
+      4.897,
+      10.047,
+      12.914,
+      17.083
+    ],
+    "offset": 184.546,
+    "chapter": "Ask Lynkk"
+  },
+  "s11": {
+    "duration": 17.731,
+    "starts": [
+      0.6,
+      6.497,
+      12.031
+    ],
+    "offset": 207.606,
+    "chapter": "For sales teams"
+  },
+  "s12": {
+    "duration": 19.117,
+    "starts": [
+      0.6,
+      9.334,
+      16.511
+    ],
+    "offset": 225.337,
+    "chapter": "Start free"
+  }
+}

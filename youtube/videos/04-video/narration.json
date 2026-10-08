@@ -1,0 +1,128 @@
+{
+  "title": "AI Note Taker for Sales Calls: How Lynkk Works, Before, During and After",
+  "voice": "af_heart",
+  "speed": 1.0,
+  "scenes": [
+    {
+      "id": "s1",
+      "chapter": "Intro",
+      "lines": [
+        "Every sales call ends the same way.",
+        "You write up the notes, pull out the next steps, send a recap, and try to book the next meeting before the deal goes quiet.",
+        "In this video, we'll show how Lynkk handles that work before the call, during it, and after it."
+      ]
+    },
+    {
+      "id": "s2",
+      "chapter": "What Lynkk is",
+      "lines": [
+        "Lynkk is an AI meeting assistant.",
+        "It records your meetings and writes the notes.",
+        "It pulls out the tasks, with an owner and a due date for each one.",
+        "And it lets you ask questions across everything you've recorded."
+      ]
+    },
+    {
+      "id": "s3",
+      "chapter": "Four ways to record",
+      "lines": [
+        "There are four ways to record a meeting.",
+        "The Mac app records any call on your Mac, with no bot in the meeting.",
+        "The Chrome extension records a call in a Chrome tab, also with no bot.",
+        "The meeting bot joins Google Meet, Zoom and Teams links, or joins on its own from your calendar.",
+        "And for a meeting in person, you can record your microphone in the browser at lynkk.ai."
+      ]
+    },
+    {
+      "id": "s4",
+      "chapter": "Before the call",
+      "lines": [
+        "Let's follow one sales call, starting the morning before.",
+        "Connect Google Calendar, and on days you have meetings, Lynkk emails you a briefing.",
+        "For each meeting, it shows who you're meeting, your most recent note with them, and how many action items are still open between you.",
+        "So before the call, you already know where the deal stands."
+      ]
+    },
+    {
+      "id": "s5",
+      "chapter": "During the call",
+      "lines": [
+        "When the call starts on your Mac, Lynkk notices it.",
+        "A card appears in the top right corner, with Record and Not now.",
+        "Click Record, and a slim column on the edge of your screen shows the clock, your audio levels, the live words, and a field for your own notes.",
+        "No bot joins the call.",
+        "Lynkk records both sides on two channels, so your side of the transcript is labelled You."
+      ]
+    },
+    {
+      "id": "s6",
+      "chapter": "Built for real calls",
+      "lines": [
+        "It's built for real calls.",
+        "On macOS 15.4 and later, Lynkk works to keep the card and the column out of your screen share.",
+        "Audio is written to disk from the first second, so bad Wi-Fi doesn't cost you the call.",
+        "And Lynkk stops on its own when the call ends, after five minutes of silence, or at the two hour cap."
+      ]
+    },
+    {
+      "id": "s7",
+      "chapter": "The Meeting Brief",
+      "lines": [
+        "After the call, you get the Meeting Brief, on every plan.",
+        "It has a title and a short abstract, key takeaways with timestamps, decisions with context, and open questions.",
+        "Every action item has an owner, a due date and a priority.",
+        "Click any timestamp, and the recording plays from that moment.",
+        "The transcript has speaker labels, in seventeen languages, four of them in beta."
+      ]
+    },
+    {
+      "id": "s8",
+      "chapter": "Summary Shapes and sharing",
+      "lines": [
+        "On Pro, Summary Shapes rewrite the note for the kind of meeting it was.",
+        "There are nine built in, including Sales Call and Customer Interview, and every version is kept.",
+        "To follow up, the summary is emailed to you after every meeting, and to the attendees if you opt in.",
+        "You can also share a link you can revoke, or invite people by email."
+      ]
+    },
+    {
+      "id": "s9",
+      "chapter": "Tasks and Jira",
+      "lines": [
+        "Action items land on your tasks board, as a list or a kanban.",
+        "When a task belongs to another team, like a feature request from a prospect, send it to Jira from the note.",
+        "You pick the project and the issue type, and Lynkk creates one issue per action item.",
+        "It only happens when you click send."
+      ]
+    },
+    {
+      "id": "s10",
+      "chapter": "Ask Lynkk",
+      "lines": [
+        "Ask Lynkk, on Pro, is a chat that answers only from your own notes.",
+        "Ask what a prospect said about the security review, and the answer comes with citations.",
+        "Click one, and the recording plays from that moment.",
+        "Ask Lynkk can also take actions, each behind a confirm card.",
+        "Book the follow-up as a Google Calendar event with a Meet link, and it's done when you confirm."
+      ]
+    },
+    {
+      "id": "s11",
+      "chapter": "For sales teams",
+      "lines": [
+        "For sales teams, a company workspace holds up to ten seats, and everyone in it gets Pro.",
+        "Each note is visible to admins by default, or Personal, so only you can open it.",
+        "Recordings are private to your account, and Lynkk never trains on your conversations."
+      ]
+    },
+    {
+      "id": "s12",
+      "chapter": "Start free",
+      "lines": [
+        "That's a sales call with Lynkk: a briefing before it, a recording with no bot during it, and the brief, the tasks and the next meeting after it.",
+        "The free plan includes recording and transcription, the meeting bot, the Meeting Brief, tasks and sending to Jira.",
+        "Start free at lynkk.ai."
+      ]
+    }
+  ]
+}

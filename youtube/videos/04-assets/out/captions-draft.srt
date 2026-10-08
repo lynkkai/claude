@@ -1,0 +1,215 @@
+1
+00:00:00,300 --> 00:00:07,450
+A sales call is starting. Lynkk noticed it, and one click starts
+
+2
+00:00:07,500 --> 00:00:14,650
+the recording. Look at the call: two people, and nothing else joined.
+
+3
+00:00:15,300 --> 00:00:21,070
+After every sales call there are the same four jobs. Write up
+
+4
+00:00:21,120 --> 00:00:26,890
+the notes. Pull out the next steps. Send the recap. Book the
+
+5
+00:00:26,940 --> 00:00:32,710
+next meeting. Then the next call starts, and the details from this
+
+6
+00:00:32,760 --> 00:00:34,650
+one start to fade.
+
+7
+00:00:35,300 --> 00:00:41,598
+Lynkk covers the whole call: a briefing before it, notes while you
+
+8
+00:00:41,648 --> 00:00:47,947
+talk, and a Meeting Brief with decisions and tasks after it. Here's
+
+9
+00:00:47,997 --> 00:00:51,650
+a pilot-planning call from start to finish.
+
+10
+00:00:52,300 --> 00:01:02,392
+With Google Calendar connected, Lynkk sends a morning briefing on days you
+
+11
+00:01:02,442 --> 00:01:12,534
+have meetings. For each one: who you're meeting, your last note with
+
+12
+00:01:12,584 --> 00:01:21,831
+them, and how many action items are still open between you.
+
+13
+00:01:21,881 --> 00:01:31,973
+With Ask Lynkk, on Pro, you can ask your own notes a
+
+14
+00:01:32,023 --> 00:01:42,115
+question. The answer shows its sources, and one click plays the moment
+
+15
+00:01:42,165 --> 00:01:44,650
+it was said.
+
+16
+00:01:45,300 --> 00:01:52,140
+MAYA: Is it alright if I record this so I don't have to
+
+17
+00:01:52,190 --> 00:01:53,288
+MAYA: take notes?
+
+18
+00:01:53,338 --> 00:01:53,862
+DANIEL: Sure.
+
+19
+00:01:53,912 --> 00:02:00,752
+On the Mac, Lynkk records both sides of the call on two
+
+20
+00:02:00,802 --> 00:02:07,642
+channels, so your side of the transcript is labelled 'You'. No bot
+
+21
+00:02:07,692 --> 00:02:08,216
+joins.
+
+22
+00:02:08,266 --> 00:02:15,106
+The live words sit on the edge of your screen, and you
+
+23
+00:02:15,156 --> 00:02:19,699
+can add your own notes as you go.
+
+24
+00:02:19,749 --> 00:02:26,589
+When you share your screen, the card and the column stay hidden
+
+25
+00:02:26,639 --> 00:02:31,182
+from the share, on macOS 15.4 and later.
+
+26
+00:02:31,232 --> 00:02:38,072
+DANIEL: Could the reports export straight to our BI tool? That would help
+
+27
+00:02:38,122 --> 00:02:39,220
+DANIEL: a lot.
+
+28
+00:02:39,270 --> 00:02:46,110
+Bad Wi-Fi doesn't cost you the call either. The Mac app writes
+
+29
+00:02:46,160 --> 00:02:52,1000
+the audio to disk from the first second and finishes the upload
+
+30
+00:02:53,050 --> 00:02:59,889
+when you're back online. Calls in the browser? The Chrome extension records
+
+31
+00:02:59,939 --> 00:03:06,779
+the tab. Prefer a bot? Paste a Zoom, Meet or Teams link
+
+32
+00:03:06,829 --> 00:03:09,650
+and it joins for you.
+
+33
+00:03:10,300 --> 00:03:19,758
+When the call ends, Lynkk stops on its own and saves.
+
+34
+00:03:19,808 --> 00:03:30,130
+Then the Meeting Brief. Key takeaways, decisions, open questions, and action items
+
+35
+00:03:30,180 --> 00:03:40,502
+with an owner, a due date and a priority. Every timestamp plays
+
+36
+00:03:40,552 --> 00:03:44,824
+the recording from that moment.
+
+37
+00:03:44,874 --> 00:03:55,196
+On Pro, Summary Shapes rewrite the note for the kind of meeting
+
+38
+00:03:55,246 --> 00:04:05,568
+it was. There's one for sales calls, and every version is kept.
+
+39
+00:04:05,618 --> 00:04:15,940
+The summary is emailed to you after every meeting, and to the
+
+40
+00:04:15,990 --> 00:04:25,448
+attendees if you turn that on. That's the recap, already sent.
+
+41
+00:04:25,498 --> 00:04:35,820
+Tasks land on a board. And the feature request Daniel mentioned? Send
+
+42
+00:04:35,870 --> 00:04:46,193
+it to Jira from the note, one issue per action item, in
+
+43
+00:04:46,243 --> 00:04:49,650
+the project you pick.
+
+44
+00:04:50,300 --> 00:05:06,900
+Ask Lynkk can also act for you, always behind a confirm card.
+
+45
+00:05:06,950 --> 00:05:23,550
+Ask what's still open, then book the check-in: a Google Calendar event
+
+46
+00:05:23,600 --> 00:05:34,650
+with a Meet link, created when you confirm.
+
+47
+00:05:35,300 --> 00:05:43,855
+Recordings are private to your account, and Lynkk never trains on your
+
+48
+00:05:43,905 --> 00:05:52,460
+conversations. Sales teams can share a workspace of up to 10 seats
+
+49
+00:05:52,510 --> 00:06:01,065
+where everyone gets Pro, and any note can be marked Personal so
+
+50
+00:06:01,115 --> 00:06:04,650
+only you can open it.
+
+51
+00:06:05,300 --> 00:06:11,615
+That's the whole sales call in Lynkk: a briefing before it, a
+
+52
+00:06:11,665 --> 00:06:17,980
+recording with no bot during it, and the brief, the tasks and
+
+53
+00:06:18,030 --> 00:06:24,346
+the next meeting after it. Lynkk is free to start, and the
+
+54
+00:06:24,396 --> 00:06:29,650
+Mac app is free to install. Start free at lynkk.ai.

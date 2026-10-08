@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>The whole call · video 4 · Lynkk</title>
+<link rel="stylesheet" href="../../../lynkk-post-kit/kit/post.css" />
+</head>
+<body>
+<!-- Scene 3 and 9: before, during, after. 14 s. Each stage is lit in turn, the others go .is-off. -->
+<section class="post" id="whole-call" data-size="wide">
+  <main class="post-body">
+    <span class="eyebrow" id="eb">The sales call, end to end</span>
+    <h2 class="t-h2" id="hl">One app for the whole call.</h2>
+    <div class="stages mt-l" style="--plate-h: 330px">
+      <figure class="stage">
+        <div class="plate plate-sky" data-rings>
+          <div class="glass"><div class="glass-title">Morning briefing</div>
+            <div class="glass-body">
+              <div class="m-row"><span class="m-t">11:00</span>Harborline</div>
+              <div class="m-row"><span class="m-k">With</span>Daniel</div>
+              <div class="m-row"><span class="m-k">Open</span>3 action items</div>
+            </div></div>
+        </div>
+        <figcaption><span>Before</span><span class="ink-2">A morning briefing</span></figcaption>
+      </figure>
+      <figure class="stage">
+        <div class="plate plate-night" data-rings>
+          <div class="glass"><div class="glass-title">Recording</div>
+            <div class="glass-body">
+              <div class="m-live"><span class="gr-live-dot"></span><span class="m-t">12:04</span></div>
+              <div class="m-level" style="--v: 62%"><span>You</span><i></i></div>
+              <div class="m-level" style="--v: 38%"><span>Others</span><i></i></div>
+              <div class="m-quote">"A pilot after the security review."</div>
+            </div></div>
+        </div>
+        <figcaption><span>During</span><span class="ink-2">No bot in the call</span></figcaption>
+      </figure>
+      <figure class="stage">
+        <div class="plate plate-ember" data-rings>
+          <div class="glass"><div class="glass-title">Meeting Brief</div>
+            <div class="glass-body">
+              <div class="m-row"><span class="m-k">Decided</span>Pilot size: 15</div>
+              <div class="m-row"><span class="m-k">Task</span>Maya, security doc</div>
+              <div class="m-row"><span class="m-k">Open</span>Budget owner</div>
+            </div></div>
+        </div>
+        <figcaption><span>After</span><span class="ink-2">The brief and the tasks</span></figcaption>
+      </figure>
+    </div>
+  </main>
+</section>
+<script src="../../../lynkk-post-kit/kit/post.js"></script>
+<script src="tools/anim.js"></script>
+<script>
+const stages = [...document.querySelectorAll(".stage")];
+window.render = (t) => {
+  rise(document.getElementById("eb"), p(t, 0.1, 0.7));
+  rise(document.getElementById("hl"), p(t, 0.3, 0.8));
+  stages.forEach((s, i) => {
+    rise(s, p(t, 1.0 + i * 0.4, 0.8), 48);
+    // 4-7 s before, 7-10 s during, 10-13 s after; all lit again from 13 s.
+    const lit = t < 4 || t >= 13 || Math.floor((t - 4) / 3) === i;
+    s.classList.toggle("is-off", !lit);
+  });
+};
+</script>
+</body>
+</html>

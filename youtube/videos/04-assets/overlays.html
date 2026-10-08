@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Overlays · video 4 · Lynkk</title>
+<link rel="stylesheet" href="../../../lynkk-post-kit/kit/post.css" />
+<!-- Transparent 1920x1080 overlays for the edit: lower thirds and notices.
+     Night surfaces and two inks from the kit; no ruled frame (it sits on footage).
+     tools/overlays.mjs renders each [data-id] on its own. -->
+<style>
+  html, body { background: transparent; padding: 0; display: block; width: 1920px; height: 1080px; overflow: hidden; }
+  .ov { position: absolute; left: 120px; bottom: 110px; font-optical-sizing: none; }
+  .ov:not(.show) { display: none; }
+  .lt { background: var(--gr-bg); color: var(--gr-ink); border: 1px solid var(--gr-line); border-radius: 16px;
+    padding: 26px 34px 30px; display: flex; flex-direction: column; gap: 18px; max-width: 1180px; }
+  .lt .top { display: flex; align-items: center; gap: 16px; }
+  .lt .top > i { width: 34px; height: 34px; }
+  .lt .eyebrow + * { margin-top: 0; }
+  .note { background: var(--gr-bg); color: var(--gr-ink); border: 1px solid var(--gr-line); border-radius: 8px; padding: 12px 20px; bottom: 56px; }
+  .note .t-small { color: var(--gr-ink); }
+</style>
+</head>
+<body>
+<div class="gr" data-band="night">
+  <div class="ov lt" data-id="lt-before"><div class="top"><i data-mark></i><span class="eyebrow">Before the call</span></div>
+    <p class="t-h3">A morning briefing, <span class="ink-2">with what's still open.</span></p></div>
+  <div class="ov lt" data-id="lt-during"><div class="top"><i data-mark></i><span class="eyebrow">During the call</span></div>
+    <p class="t-h3">Recording on the Mac. <span class="ink-2">No bot joins.</span></p></div>
+  <div class="ov lt" data-id="lt-after"><div class="top"><i data-mark></i><span class="eyebrow">After the call</span></div>
+    <p class="t-h3">The Meeting Brief. <span class="ink-2">Tasks with owners and due dates.</span></p></div>
+  <div class="ov lt" data-id="lt-ask"><div class="top"><i data-mark></i><span class="eyebrow">Ask Lynkk · Pro</span></div>
+    <p class="t-h3">Answers from your own notes, <span class="ink-2">with the sources.</span></p></div>
+  <div class="ov note" data-id="notice-fictional-demo"><p class="t-small">Demo with a fictional company, people and data.</p></div>
+  <div class="ov note" data-id="notice-consent"><p class="t-small">Tell everyone on the call when you record it.</p></div>
+</div>
+<script src="../../../lynkk-post-kit/kit/post.js"></script>
+</body>
+</html>

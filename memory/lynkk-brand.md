@@ -1,5 +1,21 @@
 # Lynkk.ai: Brand & Product Memory
 
+> **Superseded for product claims.** `lynkk-post-kit/docs/TRUTHS.md` (checked against the product
+> 2026-09-29) is the source of truth and wins on any conflict. Several claims below came from web
+> search and are **not true** per TRUTHS.md. Do not use them anywhere:
+> - Lynkk does **not** speak in meetings or answer by voice during a call.
+> - **No CRM** integration (no HubSpot, Salesforce, "CRM fields updated").
+> - **No region / data residency** setting.
+> - **No knowledge graph** screen ("searchable knowledge graph" is not a feature to show).
+> - **Jira is manual** ("Send" from the note), not automatic.
+> - **No Calendly / Cal.com** integration listed; no "connect anything via MCP" claim.
+> - **Not offline-first.** Only the Mac app keeps recording through bad Wi-Fi and uploads later.
+> - **No speed claims** ("within ~30 seconds").
+> - **No phone apps.** Mac app (Apple silicon), Chrome extension, meeting bot, and web only.
+> - Languages: **17** for transcription (four in beta), **18** for Mac cloud dictation.
+>
+> Identity, spelling, and category info below are still fine.
+
 > Source of truth for tool/directory submissions. Collected 2026-09-27 from web search
 > results for lynkk.ai (the site itself was not directly reachable from this environment).
 > Items under "To confirm" must be filled in by the team before submitting.
