@@ -11,7 +11,7 @@ fathom.video, tldv.io, read.ai vs lynkk.ai) and web search.
 | `competitor-listicle-targets.csv` | Pages that already link to Otter / Fireflies / Fathom / tl;dv / Read.ai (from Ubersuggest). Ask the editor to add Lynkk | 43 pages |
 | `ai-directories.csv` | Free AI tool directories and marketplaces to list Lynkk on | 16 |
 | `outreach-emails.csv` | One row per email (deduplicated), with `source_url` and `last_checked`. Columns: email,website,submission_url,source_url,niche,opportunity,notes,last_checked | 504 emails (472 free, 32 paid only) |
-| `best-fit-send-queue.csv` | The 225 "best fit" rows from `outreach-mail-merge.csv`, with the site name in the subject and opening line ("I came across HelpDesk") instead of the domain. Signed Samarth Wagh, Co-founder, Lynkk. Split into 9 batches of 25 (`batch`), with a `status` column to track sends | 225 emails |
+| `best-fit-send-queue.csv` | The 225 "best fit" rows from `outreach-mail-merge.csv`, with the site name in the subject and opening line ("I came across HelpDesk") instead of the domain. Signed Samarth Wagh, Co-founder, Lynkk, with no URLs in the body (the Gmail connector rewrites every link into a google.com/url redirect). Split into 9 batches of 25 (`batch`), with a `status` column to track sends | 225 emails |
 
 Emails in the CSV were taken from the site's own write-for-us page as shown in search
 results. Pages were not opened directly (the research environment could not load
