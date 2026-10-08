@@ -1,0 +1,51 @@
+1
+00:00:00,450 --> 00:00:05,058
+Five clients. A dozen workshops a week. One memory trying to keep up.
+
+2
+00:00:05,358 --> 00:00:08,323
+Two weeks later, the client asks who agreed to what.
+
+3
+00:00:09,473 --> 00:00:15,041
+Decisions get lost, write-ups take your evenings, and tasks never reach the delivery team.
+
+4
+00:00:16,191 --> 00:00:22,378
+Lynkk records client calls on the Mac or with the meeting bot, and workshops in the room through your browser.
+
+5
+00:00:22,678 --> 00:00:25,409
+In 17 languages, four of them in beta.
+
+6
+00:00:26,559 --> 00:00:31,423
+The Meeting Brief keeps decisions with their context, and action items with owners.
+
+7
+00:00:31,723 --> 00:00:34,539
+Send them to Jira from the note, one issue each.
+
+8
+00:00:35,689 --> 00:00:39,145
+Ask Lynkk what a client agreed, and play the moment it was said.
+
+9
+00:00:39,445 --> 00:00:42,538
+It finds notes by person, company or project.
+
+10
+00:00:43,688 --> 00:00:45,053
+Ask from Slack, too.
+
+11
+00:00:45,353 --> 00:00:50,815
+Draft the report by talking. Hold a key on the Mac, and the words land where your cursor is.
+
+12
+00:00:51,965 --> 00:00:54,930
+Spend the time on the client. Lynkk keeps the notes.
+
+13
+00:00:55,230 --> 00:00:57,043
+Start free at lynkk.ai.

@@ -1,0 +1,4 @@
+0:00 The problem
+0:15 Record, then send to Jira
+0:35 Ask, Slack and dictation
+0:51 Start free

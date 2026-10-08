@@ -1,0 +1,60 @@
+{
+  "title": "Lynkk for Sales Teams: Every Call Recorded, Every Follow-up Owned",
+  "voice": "af_heart",
+  "speed": 0.95,
+  "scenes": [
+    {
+      "id": "s1",
+      "lines": [
+        "Back-to-back sales calls. No time to write any of it down.",
+        "By Friday, nobody remembers who promised the proposal."
+      ],
+      "chapter": "The problem"
+    },
+    {
+      "id": "s2",
+      "lines": [
+        "Notes are half typed, follow-ups slip, and every call starts cold."
+      ]
+    },
+    {
+      "id": "s3",
+      "lines": [
+        "Lynkk records your calls.",
+        "The Mac app notices Zoom, Meet or Teams, and no bot joins."
+      ],
+      "chapter": "Record, then the Meeting Brief"
+    },
+    {
+      "id": "s4",
+      "lines": [
+        "After the call, the Meeting Brief has the decisions, the open questions, and action items with an owner and a due date.",
+        "Every timestamp plays the moment it was said."
+      ]
+    },
+    {
+      "id": "s5",
+      "lines": [
+        "Before the next call, your morning email shows what's still open.",
+        "And Ask Lynkk answers from your own notes, with sources."
+      ],
+      "chapter": "Ask, Slack and dictation"
+    },
+    {
+      "id": "s6",
+      "lines": [
+        "Ask from Slack, too.",
+        "On the Mac, hold a key and talk. The words land where your cursor is."
+      ]
+    },
+    {
+      "id": "s7",
+      "hold": 5.0,
+      "lines": [
+        "Talk to buyers. Lynkk takes the notes.",
+        "Start free at lynkk.ai."
+      ],
+      "chapter": "Start free"
+    }
+  ]
+}

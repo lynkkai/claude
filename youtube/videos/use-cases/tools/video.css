@@ -1,0 +1,16 @@
+/* Layout helpers for the use-case boards. Kit tokens only (lynkk-post-kit/kit/post.css). */
+.stack { display: grid; place-items: center; }
+.stack > * { grid-area: 1 / 1; }
+.split > .plate { display: grid; place-items: center; padding: 32px; }
+.split .glass, .split .window { width: 100%; max-width: 600px; }
+.q { display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--gr-rule-day); }
+.chips .chip i { width: 22px; height: 22px; }
+.logo-line { display: flex; align-items: center; gap: 28px; }
+.logo-line > .logos { flex: none; }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.pair > .plate { display: grid; place-items: center; padding: 28px; min-height: 400px; }
+.pair .glass, .pair .window { width: 100%; max-width: 560px; }
+.dict { display: grid; gap: 16px; width: 100%; max-width: 560px; justify-items: center; }
+.dict .chip i { width: 20px; height: 20px; }
+.typed { min-height: 4.4em; }
+.typed.is-typing::after { content: ""; display: inline-block; width: 2px; height: 1em; margin-left: 2px; vertical-align: -0.12em; background: currentColor; }

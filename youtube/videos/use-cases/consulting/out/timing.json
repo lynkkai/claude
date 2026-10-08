@@ -1,0 +1,64 @@
+{
+  "s1": {
+    "duration": 9.023,
+    "starts": [
+      0.45,
+      5.358
+    ],
+    "offset": 0.0,
+    "chapter": "The problem"
+  },
+  "s2": {
+    "duration": 6.718,
+    "starts": [
+      0.45
+    ],
+    "offset": 9.023,
+    "chapter": null
+  },
+  "s3": {
+    "duration": 10.367,
+    "starts": [
+      0.45,
+      6.937
+    ],
+    "offset": 15.741,
+    "chapter": "Record, then send to Jira"
+  },
+  "s4": {
+    "duration": 9.13,
+    "starts": [
+      0.45,
+      5.614
+    ],
+    "offset": 26.109,
+    "chapter": null
+  },
+  "s5": {
+    "duration": 7.999,
+    "starts": [
+      0.45,
+      4.206
+    ],
+    "offset": 35.239,
+    "chapter": "Ask, Slack and dictation"
+  },
+  "s6": {
+    "duration": 8.277,
+    "starts": [
+      0.45,
+      2.115
+    ],
+    "offset": 43.238,
+    "chapter": null
+  },
+  "s7": {
+    "duration": 11.229,
+    "starts": [
+      0.45,
+      3.715
+    ],
+    "offset": 51.515,
+    "chapter": "Start free"
+  }
+}

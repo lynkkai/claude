@@ -1,0 +1,51 @@
+1
+00:00:00,450 --> 00:00:03,970
+Back-to-back sales calls. No time to write any of it down.
+
+2
+00:00:04,270 --> 00:00:07,705
+By Friday, nobody remembers who promised the proposal.
+
+3
+00:00:08,855 --> 00:00:13,079
+Notes are half typed, follow-ups slip, and every call starts cold.
+
+4
+00:00:14,229 --> 00:00:15,701
+Lynkk records your calls.
+
+5
+00:00:16,001 --> 00:00:20,054
+The Mac app notices Zoom, Meet or Teams, and no bot joins.
+
+6
+00:00:21,204 --> 00:00:28,457
+After the call, the Meeting Brief has the decisions, the open questions, and action items with an owner and a due date.
+
+7
+00:00:28,757 --> 00:00:31,275
+Every timestamp plays the moment it was said.
+
+8
+00:00:32,425 --> 00:00:36,009
+Before the next call, your morning email shows what's still open.
+
+9
+00:00:36,309 --> 00:00:39,359
+And Ask Lynkk answers from your own notes, with sources.
+
+10
+00:00:40,509 --> 00:00:41,875
+Ask from Slack, too.
+
+11
+00:00:42,175 --> 00:00:46,207
+On the Mac, hold a key and talk. The words land where your cursor is.
+
+12
+00:00:47,357 --> 00:00:49,682
+Talk to buyers. Lynkk takes the notes.
+
+13
+00:00:49,982 --> 00:00:51,795
+Start free at lynkk.ai.

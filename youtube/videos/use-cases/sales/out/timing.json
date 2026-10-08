@@ -1,0 +1,64 @@
+{
+  "s1": {
+    "duration": 8.405,
+    "starts": [
+      0.45,
+      4.27
+    ],
+    "offset": 0.0,
+    "chapter": "The problem"
+  },
+  "s2": {
+    "duration": 5.374,
+    "starts": [
+      0.45
+    ],
+    "offset": 8.405,
+    "chapter": null
+  },
+  "s3": {
+    "duration": 6.975,
+    "starts": [
+      0.45,
+      2.222
+    ],
+    "offset": 13.779,
+    "chapter": "Record, then the Meeting Brief"
+  },
+  "s4": {
+    "duration": 11.221,
+    "starts": [
+      0.45,
+      8.003
+    ],
+    "offset": 20.754,
+    "chapter": null
+  },
+  "s5": {
+    "duration": 8.085,
+    "starts": [
+      0.45,
+      4.334
+    ],
+    "offset": 31.975,
+    "chapter": "Ask, Slack and dictation"
+  },
+  "s6": {
+    "duration": 6.847,
+    "starts": [
+      0.45,
+      2.115
+    ],
+    "offset": 40.059,
+    "chapter": null
+  },
+  "s7": {
+    "duration": 10.589,
+    "starts": [
+      0.45,
+      3.075
+    ],
+    "offset": 46.907,
+    "chapter": "Start free"
+  }
+}

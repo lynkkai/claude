@@ -1,0 +1,61 @@
+{
+  "title": "Lynkk for HR Teams: Interview Notes and Feedback Without the Typing",
+  "voice": "af_heart",
+  "speed": 0.95,
+  "scenes": [
+    {
+      "id": "s1",
+      "lines": [
+        "Interview after interview, and the feedback lives in someone's head.",
+        "By the debrief, nobody is sure who said what."
+      ],
+      "chapter": "The problem"
+    },
+    {
+      "id": "s2",
+      "lines": [
+        "Scorecards come in late, notes are thin, and good candidates wait.",
+        "And the debrief turns into a guessing game."
+      ]
+    },
+    {
+      "id": "s3",
+      "lines": [
+        "Lynkk records the interview, online or in person,",
+        "so you can listen instead of typing."
+      ],
+      "chapter": "Record, then the Meeting Brief"
+    },
+    {
+      "id": "s4",
+      "lines": [
+        "After each interview, the Meeting Brief lists the takeaways, the open questions, and next steps with an owner.",
+        "Every timestamp plays the moment it was said."
+      ]
+    },
+    {
+      "id": "s5",
+      "lines": [
+        "Ask Lynkk what a candidate said in any round.",
+        "And set a sensitive 1:1 to Personal, so only you can see it."
+      ],
+      "chapter": "Ask, Slack and dictation"
+    },
+    {
+      "id": "s6",
+      "lines": [
+        "Ask from Slack, too.",
+        "Write feedback by talking. Hold a key on the Mac, and the words land where your cursor is."
+      ]
+    },
+    {
+      "id": "s7",
+      "hold": 5.0,
+      "lines": [
+        "Listen to people. Lynkk takes the notes.",
+        "Start free at lynkk.ai."
+      ],
+      "chapter": "Start free"
+    }
+  ]
+}

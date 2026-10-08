@@ -1,0 +1,55 @@
+1
+00:00:00,450 --> 00:00:04,162
+Interview after interview, and the feedback lives in someone's head.
+
+2
+00:00:04,462 --> 00:00:07,086
+By the debrief, nobody is sure who said what.
+
+3
+00:00:08,236 --> 00:00:12,247
+Scorecards come in late, notes are thin, and good candidates wait.
+
+4
+00:00:12,547 --> 00:00:14,637
+And the debrief turns into a guessing game.
+
+5
+00:00:15,787 --> 00:00:18,667
+Lynkk records the interview, online or in person,
+
+6
+00:00:18,967 --> 00:00:21,101
+so you can listen instead of typing.
+
+7
+00:00:22,251 --> 00:00:28,651
+After each interview, the Meeting Brief lists the takeaways, the open questions, and next steps with an owner.
+
+8
+00:00:28,951 --> 00:00:31,468
+Every timestamp plays the moment it was said.
+
+9
+00:00:32,618 --> 00:00:35,157
+Ask Lynkk what a candidate said in any round.
+
+10
+00:00:35,457 --> 00:00:39,403
+And set a sensitive 1:1 to Personal, so only you can see it.
+
+11
+00:00:40,553 --> 00:00:41,919
+Ask from Slack, too.
+
+12
+00:00:42,219 --> 00:00:47,573
+Write feedback by talking. Hold a key on the Mac, and the words land where your cursor is.
+
+13
+00:00:48,723 --> 00:00:51,155
+Listen to people. Lynkk takes the notes.
+
+14
+00:00:51,455 --> 00:00:53,269
+Start free at lynkk.ai.

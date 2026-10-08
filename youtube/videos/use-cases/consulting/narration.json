@@ -1,0 +1,60 @@
+{
+  "title": "Lynkk for Consultants: Client Meetings and Workshops, Captured and Sent to Jira",
+  "voice": "af_heart",
+  "speed": 0.95,
+  "scenes": [
+    {
+      "id": "s1",
+      "lines": [
+        "Five clients. A dozen workshops a week. One memory trying to keep up.",
+        "Two weeks later, the client asks who agreed to what."
+      ],
+      "chapter": "The problem"
+    },
+    {
+      "id": "s2",
+      "lines": [
+        "Decisions get lost, write-ups take your evenings, and tasks never reach the delivery team."
+      ]
+    },
+    {
+      "id": "s3",
+      "lines": [
+        "Lynkk records client calls on the Mac or with the meeting bot, and workshops in the room through your browser.",
+        "In 17 languages, four of them in beta."
+      ],
+      "chapter": "Record, then send to Jira"
+    },
+    {
+      "id": "s4",
+      "lines": [
+        "The Meeting Brief keeps decisions with their context, and action items with owners.",
+        "Send them to Jira from the note, one issue each."
+      ]
+    },
+    {
+      "id": "s5",
+      "lines": [
+        "Ask Lynkk what a client agreed, and play the moment it was said.",
+        "It finds notes by person, company or project."
+      ],
+      "chapter": "Ask, Slack and dictation"
+    },
+    {
+      "id": "s6",
+      "lines": [
+        "Ask from Slack, too.",
+        "Draft the report by talking. Hold a key on the Mac, and the words land where your cursor is."
+      ]
+    },
+    {
+      "id": "s7",
+      "hold": 5.0,
+      "lines": [
+        "Spend the time on the client. Lynkk keeps the notes.",
+        "Start free at lynkk.ai."
+      ],
+      "chapter": "Start free"
+    }
+  ]
+}
