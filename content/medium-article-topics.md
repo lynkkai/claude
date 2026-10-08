@@ -169,6 +169,8 @@ and keep the tone neutral. See the guidelines below.
 - Use all **5 tags**. Suggested set: Meetings, Productivity, Remote Work, Artificial Intelligence,
   plus one topic-specific tag (Email Writing, Business, Sales, Project Management, Note Taking).
 - Aim for 1,200 to 1,800 words, with a table, a template or samples readers can copy.
+  Medium has no native tables: use bullet lists, or embed the table as an image (with alt text)
+  or a GitHub Gist.
 - Answer the question in the first paragraph (featured snippet bait).
 - Submit to an established publication where possible (Better Humans and Towards AI already rank
   for these keywords). Publication domains rank far better than a new personal profile.
