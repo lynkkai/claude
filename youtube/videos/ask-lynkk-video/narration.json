@@ -1,0 +1,120 @@
+{
+  "title": "Ask Your Meetings: Get Answers From Your Own Meeting Notes | Ask Lynkk",
+  "voice": "af_heart",
+  "speed": 1.0,
+  "scenes": [
+    {
+      "id": "s1",
+      "chapter": "The answer you lost",
+      "lines": [
+        "You had the answer once.",
+        "Someone said it in a meeting, three weeks ago.",
+        "A start date. A budget. A promise to send something by Friday.",
+        "Now nobody can find it."
+      ]
+    },
+    {
+      "id": "s2",
+      "chapter": "Where meeting knowledge goes",
+      "lines": [
+        "Most of what a team decides is said out loud, in meetings.",
+        "Afterwards, it sits in recordings nobody rewatches, in notes spread across different places, and in people's memory.",
+        "So you scroll through transcripts, ask a colleague, or book another meeting to go over the last one.",
+        "Decisions get made twice. Promises slip."
+      ]
+    },
+    {
+      "id": "s3",
+      "chapter": "The real problem",
+      "lines": [
+        "The notes exist.",
+        "What's missing is a way to ask them a question."
+      ]
+    },
+    {
+      "id": "s4",
+      "chapter": "Ask Lynkk",
+      "lines": [
+        "That's what Ask Lynkk is for.",
+        "Lynkk records your meetings and writes the notes: a transcript with speaker labels, key takeaways, decisions, open questions, and action items with an owner and a due date.",
+        "Ask Lynkk is a chat that answers only from your own notes. It's part of Lynkk Pro."
+      ]
+    },
+    {
+      "id": "s5",
+      "chapter": "Record the meeting",
+      "lines": [
+        "It starts with the meeting.",
+        "Record a call with the Mac app or the Chrome extension, and no bot joins it.",
+        "Or send the meeting bot to Google Meet, Zoom and Teams.",
+        "For a meeting in person, record your mic in the browser at lynkk.ai."
+      ]
+    },
+    {
+      "id": "s6",
+      "chapter": "Ask in plain words",
+      "lines": [
+        "Then ask in plain words.",
+        "What did Acme say about the renewal?",
+        "Ask Lynkk finds the right notes by person, company or project, and answers with citation chips that show where each part came from.",
+        "Open the evidence, and the note plays from the moment it was said."
+      ]
+    },
+    {
+      "id": "s7",
+      "chapter": "Open tasks and decisions",
+      "lines": [
+        "Ask what's still open.",
+        "It lists the open tasks and decisions across your notes.",
+        "Search looks at meaning and keywords together, so you don't need the exact words someone used."
+      ]
+    },
+    {
+      "id": "s8",
+      "chapter": "Files and actions",
+      "lines": [
+        "You can attach a file to the chat: a PDF, a Word document, text, Markdown or a CSV.",
+        "And you can act on the answer.",
+        "Create a Google Calendar event with a Meet link, share a note, mark a task done, or create a Jira issue.",
+        "Every action waits for you on a confirm card."
+      ]
+    },
+    {
+      "id": "s9",
+      "chapter": "Before the meeting, and in Slack",
+      "lines": [
+        "It helps before a meeting, too.",
+        "Connect Google Calendar, and on days you have meetings, Lynkk emails you a morning briefing: who you're meeting, your most recent note with them, and how many action items are still open between you.",
+        "And in Slack, ask the Lynkk app a question and get an answer from your notes, with sources and a button to open it in Lynkk."
+      ]
+    },
+    {
+      "id": "s10",
+      "chapter": "Use cases",
+      "lines": [
+        "Here's how people use it.",
+        "In sales, ask what a customer said about the renewal before the next call.",
+        "In product and engineering, ask why a decision was made, then send the tasks to Jira from the note, one issue each.",
+        "Managers ask what they promised in each one-on-one.",
+        "And in a team workspace of up to 10 seats, everyone gets Pro, so everyone can ask their own notes."
+      ]
+    },
+    {
+      "id": "s11",
+      "chapter": "Private by default",
+      "lines": [
+        "Answers come only from your own notes.",
+        "Transcripts cover 17 languages, four of them in beta.",
+        "Recordings are private to your account, and Lynkk never trains on your conversations."
+      ]
+    },
+    {
+      "id": "s12",
+      "chapter": "Start free",
+      "lines": [
+        "Stop searching your meetings. Ask them.",
+        "Start free at lynkk.ai."
+      ]
+    }
+  ]
+}

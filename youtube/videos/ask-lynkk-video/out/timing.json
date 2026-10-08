@@ -1,0 +1,127 @@
+{
+  "s1": {
+    "duration": 11.83,
+    "starts": [
+      0.6,
+      2.337,
+      5.119,
+      9.415
+    ],
+    "offset": 0.0,
+    "chapter": "The answer you lost"
+  },
+  "s2": {
+    "duration": 21.11,
+    "starts": [
+      0.6,
+      4.257,
+      11.732,
+      17.543
+    ],
+    "offset": 11.83,
+    "chapter": "Where meeting knowledge goes"
+  },
+  "s3": {
+    "duration": 5.519,
+    "starts": [
+      0.6,
+      2.081
+    ],
+    "offset": 32.94,
+    "chapter": "The real problem"
+  },
+  "s4": {
+    "duration": 18.947,
+    "starts": [
+      0.6,
+      2.443,
+      13.353
+    ],
+    "offset": 38.459,
+    "chapter": "Ask Lynkk"
+  },
+  "s5": {
+    "duration": 15.798,
+    "starts": [
+      0.6,
+      2.273,
+      7.039,
+      10.546
+    ],
+    "offset": 57.406,
+    "chapter": "Record the meeting"
+  },
+  "s6": {
+    "duration": 17.59,
+    "starts": [
+      0.6,
+      2.486,
+      4.692,
+      13.298
+    ],
+    "offset": 73.204,
+    "chapter": "Ask in plain words"
+  },
+  "s7": {
+    "duration": 11.523,
+    "starts": [
+      0.6,
+      2.273,
+      5.801
+    ],
+    "offset": 90.794,
+    "chapter": "Open tasks and decisions"
+  },
+  "s8": {
+    "duration": 19.211,
+    "starts": [
+      0.6,
+      7.137,
+      9.044,
+      15.666
+    ],
+    "offset": 102.317,
+    "chapter": "Files and actions"
+  },
+  "s9": {
+    "duration": 22.147,
+    "starts": [
+      0.6,
+      2.593,
+      14.271
+    ],
+    "offset": 121.528,
+    "chapter": "Before the meeting, and in Slack"
+  },
+  "s10": {
+    "duration": 24.212,
+    "starts": [
+      0.6,
+      2.422,
+      7.017,
+      14.386,
+      17.445
+    ],
+    "offset": 143.675,
+    "chapter": "Use cases"
+  },
+  "s11": {
+    "duration": 12.419,
+    "starts": [
+      0.6,
+      2.891,
+      6.719
+    ],
+    "offset": 167.887,
+    "chapter": "Private by default"
+  },
+  "s12": {
+    "duration": 5.754,
+    "starts": [
+      0.6,
+      3.147
+    ],
+    "offset": 180.305,
+    "chapter": "Start free"
+  }
+}

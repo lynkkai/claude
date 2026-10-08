@@ -1,0 +1,163 @@
+1
+00:00:00,600 --> 00:00:01,987
+You had the answer once.
+
+2
+00:00:02,337 --> 00:00:04,769
+Someone said it in a meeting, three weeks ago.
+
+3
+00:00:05,119 --> 00:00:09,065
+A start date. A budget. A promise to send something by Friday.
+
+4
+00:00:09,415 --> 00:00:10,930
+Now nobody can find it.
+
+5
+00:00:12,430 --> 00:00:15,737
+Most of what a team decides is said out loud, in meetings.
+
+6
+00:00:16,087 --> 00:00:23,212
+Afterwards, it sits in recordings nobody rewatches, in notes spread across different places, and in people's memory.
+
+7
+00:00:23,562 --> 00:00:29,023
+So you scroll through transcripts, ask a colleague, or book another meeting to go over the last one.
+
+8
+00:00:29,373 --> 00:00:32,040
+Decisions get made twice. Promises slip.
+
+9
+00:00:33,540 --> 00:00:34,671
+The notes exist.
+
+10
+00:00:35,021 --> 00:00:37,559
+What's missing is a way to ask them a question.
+
+11
+00:00:39,059 --> 00:00:40,553
+That's what Ask Lynkk is for.
+
+12
+00:00:40,903 --> 00:00:51,463
+Lynkk records your meetings and writes the notes: a transcript with speaker labels, key takeaways, decisions, open questions, and action items with an owner and a due date.
+
+13
+00:00:51,813 --> 00:00:56,506
+Ask Lynkk is a chat that answers only from your own notes. It's part of Lynkk Pro.
+
+14
+00:00:58,006 --> 00:00:59,329
+It starts with the meeting.
+
+15
+00:00:59,679 --> 00:01:04,095
+Record a call with the Mac app or the Chrome extension, and no bot joins it.
+
+16
+00:01:04,445 --> 00:01:07,602
+Or send the meeting bot to Google Meet, Zoom and Teams.
+
+17
+00:01:07,952 --> 00:01:12,304
+For a meeting in person, record your mic in the browser at lynkk.ai.
+
+18
+00:01:13,804 --> 00:01:15,340
+Then ask in plain words.
+
+19
+00:01:15,690 --> 00:01:17,546
+What did Acme say about the renewal?
+
+20
+00:01:17,896 --> 00:01:26,152
+Ask Lynkk finds the right notes by person, company or project, and answers with citation chips that show where each part came from.
+
+21
+00:01:26,502 --> 00:01:29,894
+Open the evidence, and the note plays from the moment it was said.
+
+22
+00:01:31,394 --> 00:01:32,717
+Ask what's still open.
+
+23
+00:01:33,067 --> 00:01:36,245
+It lists the open tasks and decisions across your notes.
+
+24
+00:01:36,595 --> 00:01:41,417
+Search looks at meaning and keywords together, so you don't need the exact words someone used.
+
+25
+00:01:42,917 --> 00:01:49,103
+You can attach a file to the chat: a PDF, a Word document, text, Markdown or a CSV.
+
+26
+00:01:49,453 --> 00:01:51,011
+And you can act on the answer.
+
+27
+00:01:51,361 --> 00:01:57,633
+Create a Google Calendar event with a Meet link, share a note, mark a task done, or create a Jira issue.
+
+28
+00:01:57,983 --> 00:02:00,628
+Every action waits for you on a confirm card.
+
+29
+00:02:02,128 --> 00:02:03,771
+It helps before a meeting, too.
+
+30
+00:02:04,121 --> 00:02:15,449
+Connect Google Calendar, and on days you have meetings, Lynkk emails you a morning briefing: who you're meeting, your most recent note with them, and how many action items are still open between you.
+
+31
+00:02:15,799 --> 00:02:22,775
+And in Slack, ask the Lynkk app a question and get an answer from your notes, with sources and a button to open it in Lynkk.
+
+32
+00:02:24,275 --> 00:02:25,747
+Here's how people use it.
+
+33
+00:02:26,097 --> 00:02:30,342
+In sales, ask what a customer said about the renewal before the next call.
+
+34
+00:02:30,692 --> 00:02:37,711
+In product and engineering, ask why a decision was made, then send the tasks to Jira from the note, one issue each.
+
+35
+00:02:38,061 --> 00:02:40,770
+Managers ask what they promised in each one-on-one.
+
+36
+00:02:41,120 --> 00:02:46,987
+And in a team workspace of up to 10 seats, everyone gets Pro, so everyone can ask their own notes.
+
+37
+00:02:48,487 --> 00:02:50,428
+Answers come only from your own notes.
+
+38
+00:02:50,778 --> 00:02:54,255
+Transcripts cover 17 languages, four of them in beta.
+
+39
+00:02:54,605 --> 00:02:59,405
+Recordings are private to your account, and Lynkk never trains on your conversations.
+
+40
+00:03:00,905 --> 00:03:03,103
+Stop searching your meetings. Ask them.
+
+41
+00:03:03,453 --> 00:03:05,159
+Start free at lynkk.ai.
