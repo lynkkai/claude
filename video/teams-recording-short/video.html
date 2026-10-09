@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Record a Teams meeting, three ways · Lynkk Short</title>
+<meta name="board" content="1080x1920@1" />
+<link rel="stylesheet" href="../../lynkk-post-kit/kit/post.css" />
+<style>
+/* YouTube Shorts cut, on the post kit's "story" board (1080 x 1920). Tokens only.
+   Shorts lays its title, channel and buttons over the bottom quarter and the
+   lower right edge, so every scene keeps its content above y = 1250 and the
+   burned-in captions sit between that and the overlay. Timing attributes are
+   documented in ../pipeline/player.js. */
+html.video body { display: block; padding: 0; margin: 0; width: 1080px; height: 1920px; overflow: hidden; position: relative; background: var(--gr-bg); }
+html.video section.post { position: absolute; left: 0; top: 0; }
+#narr, #cursor, #ripple, #veil, #cap { display: none; }
+html.video #narr, html.video #cursor, html.video #ripple, html.video #veil, html.video #cap { display: block; }
+
+/* Mock UI at phone size: the kit draws mocks at 15 to 22px, so zoom the
+   cards up for a screen that shows the board about 390 wide. */
+.post[data-size="story"] .scene > .glass,
+.post[data-size="story"] .scene > .window,
+.post[data-size="story"] .scene > .stack { zoom: 1.35; }
+.post[data-size="story"] .stage .glass { zoom: 1.1; }
+.post[data-size="story"] .scene { --scene-h: 720px; }
+
+.stack { display: grid; }
+.stack > * { grid-area: 1 / 1; }
+.callrow { display: flex; align-items: center; gap: 12px; padding-top: 12px; }
+.field-row { display: flex; align-items: center; gap: 12px; padding-top: 12px; }
+.m-field { flex: 1; min-width: 0; height: 44px; display: flex; align-items: center; padding: 0 14px; border-radius: 8px;
+  border: 1px solid var(--gr-rule-day); color: rgb(17 17 17 / 0.7); white-space: nowrap; overflow: hidden; }
+.m-check:not(.on) i { opacity: 0; }
+.ts { margin-left: auto; }
+.m-row .m-k { min-width: 92px; }
+.btns { display: flex; gap: 8px; padding: 10px 0 8px; }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.tph { height: 96px; border-radius: 14px; background: rgb(17 17 17 / 0.06); display: grid; place-items: center; }
+.ini { width: 48px; height: 48px; border-radius: 50%; background: rgb(17 17 17 / 0.12); display: grid; place-items: center; color: rgb(17 17 17 / 0.6); font-size: 16px; }
+.dock { display: flex; justify-content: center; padding-top: 14px; }
+.capsule { display: inline-flex; align-items: center; gap: 10px; height: 46px; padding: 0 18px 0 12px; border-radius: 999px;
+  background: var(--gr-black); color: var(--gr-white); font-size: 18px; }
+.capsule > i { width: 24px; height: 24px; }
+.capsule .stack { display: inline-grid; align-items: center; }
+.capsule .gr-live-dot { display: inline-block; margin-right: 6px; vertical-align: 1px; }
+.ctls { display: flex; justify-content: center; gap: 12px; padding-top: 10px; }
+.ctl { width: 36px; height: 36px; border-radius: 50%; background: rgb(17 17 17 / 0.1); }
+.post[data-size="story"] .stages { --plate-h: 520px; }
+.stage figcaption { font-size: 28px; }
+
+/* CTA: stop the plate above the Shorts overlay. */
+.post[data-size="story"] .cta { flex: none; height: 1180px; justify-content: center; padding: 56px 40px; }
+.post[data-size="story"] .cta .facts { margin-top: 64px; }
+.post[data-size="story"] .cta .t-display { font-size: 88px; }
+.post[data-size="story"] .cta .facts { --n: 1; }
+.post[data-size="story"] .cta .fact + .fact { border-left: 0; border-top: 1px solid var(--gr-glass-line); }
+.post[data-size="story"] .cta .fact { grid-template-columns: 1fr auto; align-items: baseline; padding: 18px 24px; text-align: left; }
+
+/* Narrator in the top bar, captions under the content. */
+#narr { position: absolute; left: 540px; top: 56px; transform: translate(-50%, -50%); z-index: 100; }
+#narr .chip { background: var(--gr-raised); }
+#narr .chip > i[data-mark] { width: 26px; height: 26px; }
+#narr .bars { display: inline-flex; align-items: center; gap: 3px; height: 22px; margin-left: 4px; }
+#narr .bars b { display: block; width: 4px; height: 4px; border-radius: 2px; background: var(--gr-ink); }
+#cap { position: absolute; left: 540px; top: 1300px; width: 880px; z-index: 90; text-align: center;
+  font-size: 50px; line-height: 1.18; letter-spacing: var(--gr-track-tight); color: var(--gr-ink); text-wrap: balance; }
+#cursor { position: absolute; left: 0; top: 0; width: 46px; height: 46px; z-index: 120; }
+#cursor path { fill: var(--gr-white); stroke: var(--gr-black); }
+#ripple { position: absolute; left: 0; top: 0; width: 84px; height: 84px; margin: -42px 0 0 -42px; border-radius: 50%;
+  border: 3px solid var(--gr-white); z-index: 119; }
+#veil { position: absolute; inset: 0; background: var(--gr-bg); z-index: 130; opacity: 0; }
+</style>
+</head>
+<body>
+
+<!-- 1 · hook: the promise in the first second -->
+<section class="post" id="hook" data-size="story" data-count="01 / 07" data-next="Way 1">
+  <main class="post-body" data-dots>
+    <span class="eyebrow" data-tone="quiet" data-at="start+0.05">Lynkk tutorial</span>
+    <h1 class="t-display"><span data-at="start+0.1">Record a Teams meeting.</span> <span class="ink-2" data-at="h1+1.9">Three ways.</span></h1>
+    <div class="stages mt-l">
+      <figure class="stage" data-at="h1+0.9" data-sfx="pop">
+        <div class="plate plate-meadow" data-rings><div class="glass"><div class="glass-title">Bot</div><div class="glass-body"><div class="m-title">Paste the link</div></div></div></div>
+        <figcaption><span>1</span><span class="ink-2">Meeting bot</span></figcaption>
+      </figure>
+      <figure class="stage" data-at="h1+1.2" data-sfx="pop">
+        <div class="plate plate-night" data-rings><div class="glass"><div class="glass-title">Mac</div><div class="glass-body"><div class="m-title">Call detected</div></div></div></div>
+        <figcaption><span>2</span><span class="ink-2">Mac app</span></figcaption>
+      </figure>
+      <figure class="stage" data-at="h1+1.5" data-sfx="pop">
+        <div class="plate plate-sky" data-rings><div class="glass"><div class="glass-title">Chrome</div><div class="glass-body"><div class="m-title">Record in the tab</div></div></div></div>
+        <figcaption><span>3</span><span class="ink-2">Chrome extension</span></figcaption>
+      </figure>
+    </div>
+  </main>
+</section>
+
+<!-- 2 · way 1, the meeting bot -->
+<section class="post" id="bot" data-size="story" data-count="02 / 07" data-next="Way 2">
+  <main class="post-body">
+    <span class="eyebrow" data-at="start+0.1">Way 1 · Meeting bot</span>
+    <h2 class="t-h2"><span data-at="start+0.2">Paste the Teams link.</span> <span class="ink-2" data-at="b2+2.4">The bot joins.</span></h2>
+    <div class="plate plate-meadow scene mt-l" data-rings data-at="start+0.3" style="--card-w: 480px">
+      <div class="window" data-at="b1+0.3">
+        <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>Lynkk</span><span></span></div>
+        <div class="window-body">
+          <div class="m-title">Record a meeting</div>
+          <div class="field-row"><div class="m-field"><span data-type="b2+0.1|1.6">https://teams.microsoft.com/l/meetup-join/19:meeting</span></div><span class="m-btn join" data-press="b2+2.0">Join</span></div>
+          <div class="m-option mt-s"><span class="m-check auto" data-on="b2+3.4"><i data-icon="check"></i></span><span>Auto-join from my calendar</span></div>
+          <div class="m-live" data-at="b2+4.2"><span class="gr-live-dot"></span><span class="m-t" data-clock="b2+4.2|0">00:00</span><span class="m-chip">Recording</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</section>
+
+<!-- 3 · way 2, the Mac app -->
+<section class="post" id="mac" data-size="story" data-count="03 / 07" data-next="Way 3">
+  <main class="post-body">
+    <span class="eyebrow" data-at="start+0.1">Way 2 · Mac app</span>
+    <h2 class="t-h2"><span data-at="start+0.2">Click Record.</span> <span class="ink-2" data-at="m2$-1.6">Nothing joins the call.</span></h2>
+    <div class="plate plate-night scene mt-l" data-rings data-at="start+0.3" style="--card-w: 440px">
+      <div class="stack">
+        <div class="glass" data-size="l" data-at="m1+0.3" data-out="m2+2.9" data-sfx="pop" style="align-self: center">
+          <div class="glass-title">Lynkk</div>
+          <div class="glass-body">
+            <div class="m-title">Microsoft Teams call detected</div>
+            <div class="callrow"><span class="m-btn rec" data-press="m2+2.4">Record</span><span class="m-chip">Not now</span></div>
+          </div>
+        </div>
+        <div class="glass" data-at="m2+2.9" style="align-self: center">
+          <div class="glass-title">Recording</div>
+          <div class="glass-body">
+            <div class="m-live"><span class="gr-live-dot"></span><span class="m-t" data-clock="m2+2.9|0">00:00</span></div>
+            <div class="btns"><span class="m-btn">Pause</span><span class="m-btn">Stop</span></div>
+            <div class="m-level" data-level="0" style="--v: 50%"><span>You</span><i></i></div>
+            <div class="m-level" data-level="1" style="--v: 30%"><span>Others</span><i></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</section>
+
+<!-- 4 · way 3, the Chrome extension -->
+<section class="post" id="chrome" data-size="story" data-count="04 / 07" data-next="The note">
+  <main class="post-body">
+    <span class="eyebrow" data-at="start+0.1">Way 3 · Chrome extension</span>
+    <h2 class="t-h2"><span data-at="start+0.2">Teams in a tab.</span> <span class="ink-2" data-at="c2+1.2">Press Record.</span></h2>
+    <div class="plate plate-sky scene mt-l" data-rings data-at="start+0.3" style="--card-w: 480px">
+      <div class="window" data-at="c1+0.3">
+        <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>Teams meeting</span><span></span></div>
+        <div class="window-body">
+          <div class="tiles">
+            <div class="tph"><span class="ini">PS</span></div>
+            <div class="tph"><span class="ini">SA</span></div>
+            <div class="tph"><span class="ini">LG</span></div>
+            <div class="tph"><span class="ini">You</span></div>
+          </div>
+          <div class="dock"><span class="capsule" data-at="c1+1.0" data-sfx="pop" data-press="c2+1.6"><i data-mark></i><span class="stack"><span data-out="c2+1.7">Record</span><span data-at="c2+1.7"><span class="gr-live-dot"></span><span data-clock="c2+1.7|0">00:00</span></span></span></span></div>
+          <div class="ctls"><i class="ctl"></i><i class="ctl"></i><i class="ctl"></i><i class="ctl"></i><i class="ctl"></i></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</section>
+
+<!-- 5 · the note -->
+<section class="post" id="note" data-size="story" data-count="05 / 07" data-next="Jira">
+  <main class="post-body">
+    <span class="eyebrow" data-at="start+0.1">After the call</span>
+    <h2 class="t-h2"><span data-at="start+0.2">Every call becomes a note.</span> <span class="ink-2" data-at="n2+0.2">Decisions and tasks inside.</span></h2>
+    <div class="plate plate-dusk scene mt-l" data-rings data-at="start+0.3" style="--card-w: 500px">
+      <div class="window" data-at="n1+0.3" data-sfx="pop">
+        <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>Meeting Brief</span><span></span></div>
+        <div class="window-body">
+          <div class="m-title">Acme renewal<span class="m-chip" data-at="n1+1.8" style="margin-left: 10px">17 languages</span></div>
+          <div class="m-row" data-at="n2+0.4"><span class="m-k">Takeaway</span>Beta ships on the 21st<span class="m-t ts">12:04</span></div>
+          <div class="m-row" data-at="n2+1.0"><span class="m-k">Decided</span>EU pricing waits for legal</div>
+          <div class="m-row" data-at="n2+1.6"><span class="m-k">Task</span>Sam, release notes<span class="m-chip ts">Fri</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</section>
+
+<!-- 6 · Jira -->
+<section class="post" id="jira" data-size="story" data-count="06 / 07" data-next="Last one">
+  <main class="post-body">
+    <span class="eyebrow" data-at="start+0.1">Tasks</span>
+    <h2 class="t-h2"><span data-at="start+0.2">Jira gets the tasks.</span> <span class="ink-2" data-at="j1+1.2">When you say so.</span></h2>
+    <div class="plate plate-field scene mt-l" data-rings data-at="start+0.3" style="--card-w: 480px">
+      <div class="glass" data-size="l" data-at="j1+0.1" data-sfx="pop">
+        <div class="glass-title">Send to Jira</div>
+        <div class="glass-body">
+          <div class="m-option"><span class="m-check" data-on="j1+0.7"><i data-icon="check"></i></span><span>Release notes</span><span class="m-chip">Sam</span></div>
+          <div class="m-option"><span class="m-check" data-on="j1+1.1"><i data-icon="check"></i></span><span>EU pricing page</span><span class="m-chip">Priya</span></div>
+          <div class="callrow"><span class="m-btn send" data-press="j1+2.0">Send</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</section>
+
+<!-- 7 · CTA -->
+<section class="post" id="cta" data-size="story" data-count="07 / 07" data-next="Follow for more" data-nocap>
+  <main class="post-body">
+    <div class="plate plate-ember cta" data-rings data-at="start+0.1">
+      <span class="cta-tag" data-at="start+0.2">Start free</span>
+      <h2 class="t-display" data-at="start+0.3">Record your next Teams meeting.</h2>
+      <p class="cta-sub" data-at="o1+0.4">Lynkk records the call and writes the brief.</p>
+      <span class="btn" data-at="o1+0.8" data-press="o1+1.6">Start free at lynkk.ai</span>
+      <div class="facts" data-at="o1+1.2">
+        <div class="fact"><span class="fact-t">3 ways in</span><span class="fact-b">Bot, Mac app, Chrome</span></div>
+        <div class="fact"><span class="fact-t">17 languages</span><span class="fact-b">Four in beta</span></div>
+      </div>
+    </div>
+  </main>
+</section>
+
+<div id="narr" class="gr" data-band="night"><span class="chip"><i data-mark></i><span>Ava</span><span class="ink-2">Lynkk guide</span><span class="bars"><b></b><b></b><b></b><b></b><b></b></span></span></div>
+<div id="cap" class="gr" data-band="night"></div>
+<svg id="cursor" viewBox="0 0 40 40"><path d="M6 3 L6 32 L13.5 25 L18.5 36.5 L23.5 34.3 L18.6 23 L29 23 Z" stroke-width="2.2" stroke-linejoin="round"/></svg>
+<div id="ripple"></div>
+<div id="veil"></div>
+
+<script src="../../lynkk-post-kit/kit/post.js"></script>
+<script src="build/timeline.js"></script>
+<script>
+// Cursor paths: absolute points or element centres, in the 1080 x 1920 board.
+window.VIDEO = {
+  captionChars: 30,
+  cursor: {
+    bot: [{ at: 'b2+1.2', x: 820, y: 900 }, { at: 'b2+1.8', sel: '.join' }, { at: 'b2+2.0', sel: '.join', click: 1 }, { at: 'b2+3.1', sel: '.auto' }, { at: 'b2+3.4', sel: '.auto', click: 1 }, { at: 'b2+4.2', x: 760, y: 980 }],
+    mac: [{ at: 'm2+1.2', x: 760, y: 980 }, { at: 'm2+2.1', sel: '.rec' }, { at: 'm2+2.4', sel: '.rec', click: 1 }, { at: 'm2+3.3', x: 700, y: 980 }],
+    chrome: [{ at: 'c2+0.4', x: 780, y: 1000 }, { at: 'c2+1.3', sel: '.capsule' }, { at: 'c2+1.6', sel: '.capsule', click: 1 }, { at: 'c2+2.5', x: 760, y: 1020 }],
+    jira: [{ at: 'j1+1.3', x: 760, y: 980 }, { at: 'j1+1.8', sel: '.send' }, { at: 'j1+2.0', sel: '.send', click: 1 }, { at: 'j1+2.7', x: 720, y: 1000 }],
+    cta: [{ at: 'o1+0.9', x: 760, y: 900 }, { at: 'o1+1.4', sel: '.btn' }, { at: 'o1+1.6', sel: '.btn', click: 1 }, { at: 'o1+2.4', x: 700, y: 860 }],
+  },
+};
+</script>
+<script src="../pipeline/player.js"></script>
+</body>
+</html>

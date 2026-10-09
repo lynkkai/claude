@@ -3,15 +3,18 @@
 The music and effects are synthesized here (no third-party audio), so the
 soundtrack is free to publish. Run after build_audio.py and render.cjs
 (render.cjs writes build/sfx.json).
+
+Usage: python3 mix_audio.py <video-dir>
 """
 import json
 import subprocess
+import sys
 from pathlib import Path
 
 import numpy as np
 import soundfile as sf
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path.cwd()
 BUILD = HERE / "build"
 SR = 48000
 rng = np.random.default_rng(7)

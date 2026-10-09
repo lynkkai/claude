@@ -10,8 +10,7 @@ A 3:41 YouTube tutorial with a voiceover, motion graphics, background music and 
 | `youtube-metadata.md` | Title options, description with chapters, tags |
 | `script.json` | The voiceover, scene by scene. Edit this to change what Ava says |
 | `video.html` | The visuals: 13 kit slides (`data-size="wide"`), animated from timing attributes |
-| `check_script.mjs` | Runs the kit's copy and claims checker on the narration |
-| `build_audio.py`, `render.cjs`, `mix_audio.py`, `build.sh` | The pipeline that turns the above into the MP4 |
+| `build.sh` | Builds the MP4 with the shared scripts in `../pipeline` (copy check, voiceover, render, mix) |
 
 ## Storyline
 
@@ -46,6 +45,6 @@ From `lynkk-post-kit/docs/DESIGN.md`: night band, the ruled column frame (rails,
 
 Needs Python 3 with `kokoro-onnx soundfile numpy`, Node with Playwright (Chromium) and ffmpeg. The first run downloads the Kokoro model (about 330 MB) from GitHub. The build runs both copy checks first and stops if either finds an error.
 
-Quick visual checks without a full render: `node render.cjs --stills 10,40,90` writes PNGs to `build/`.
+Quick visual checks without a full render: `node ../pipeline/render.cjs . --stills 10,40,90` writes PNGs to `build/`.
 
-Music and sound effects are synthesized in `mix_audio.py`, so there are no licenses to clear.
+Music and sound effects are synthesized in `../pipeline/mix_audio.py`, so there are no licenses to clear.

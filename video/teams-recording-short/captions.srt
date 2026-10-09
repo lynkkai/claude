@@ -1,0 +1,43 @@
+1
+00:00:00,300 --> 00:00:05,004
+Here's how to record a Microsoft Teams meeting. Three ways, no note taking.
+
+2
+00:00:05,354 --> 00:00:07,082
+One: the Lynkk meeting bot.
+
+3
+00:00:07,032 --> 00:00:12,078
+Paste your Teams link, or turn on calendar auto-join, and it joins the call for you.
+
+4
+00:00:12,528 --> 00:00:13,805
+Two: the Mac app.
+
+5
+00:00:13,755 --> 00:00:18,208
+When your Teams call starts, click Record on the card. Nothing joins the call.
+
+6
+00:00:18,658 --> 00:00:20,380
+Three: the Chrome extension.
+
+7
+00:00:20,330 --> 00:00:23,985
+Open Teams in a tab and press Record. No bot here either.
+
+8
+00:00:24,435 --> 00:00:28,386
+Every call becomes a note: a transcript in seventeen languages,
+
+9
+00:00:28,336 --> 00:00:31,290
+and a Meeting Brief with decisions and action items.
+
+10
+00:00:31,740 --> 00:00:34,622
+Send the tasks to Jira from the note, when you're ready.
+
+11
+00:00:35,072 --> 00:00:37,985
+Start free at lynkk.ai. Follow for more.

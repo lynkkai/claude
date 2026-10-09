@@ -1,25 +1,28 @@
 // Render video.html frame by frame with headless Chromium and encode with ffmpeg.
-// Usage:
-//   node render.cjs                      full render -> build/video-silent.mp4 (+ build/sfx.json)
-//   node render.cjs --stills 3,20,95     write build/still-<t>.png for quick checks
-//   node render.cjs --thumb 9.5 out.png  single still at a given time
-//   node render.cjs --thumbnail thumbnail.png  YouTube thumbnail
+// Usage (<dir> holds video.html and build/timeline.json):
+//   node render.cjs <dir>                      full render -> <dir>/build/video-silent.mp4 (+ sfx.json)
+//   node render.cjs <dir> --stills 3,20,95     write <dir>/build/still-<t>.png for quick checks
+//   node render.cjs <dir> --thumb 9.5 out.png  single still at a given time
+//   node render.cjs <dir> --thumbnail out.png  YouTube thumbnail (video.html's renderThumb)
+// The frame size comes from <meta name="board" content="1600x900@1.2"> in video.html:
+// the CSS board size, then the device scale (1600x900 at 1.2 gives 1920x1080 frames).
 const path = require('path');
 const fs = require('fs');
 const { spawn } = require('child_process');
 let chromium;
 try { ({ chromium } = require('playwright')); } catch { ({ chromium } = require('/opt/node22/lib/node_modules/playwright')); }
 
-const HERE = __dirname;
+const argv = process.argv.slice(2);
+const HERE = path.resolve(argv[0] && !argv[0].startsWith('--') ? argv.shift() : '.');
 const BUILD = path.join(HERE, 'build');
 const TL = JSON.parse(fs.readFileSync(path.join(BUILD, 'timeline.json'), 'utf8'));
 const FPS = TL.fps;
 const URL = 'file://' + path.join(HERE, 'video.html');
 const WORKERS = parseInt(process.env.WORKERS || '4', 10);
+const board = (fs.readFileSync(path.join(HERE, 'video.html'), 'utf8').match(/<meta name="board" content="(\d+)x(\d+)@([\d.]+)"/) || [0, 1600, 900, 1.2]).slice(1).map(Number);
 
 async function openPage(browser) {
-  // The kit's "wide" board is 1600 x 900; 1.2x gives 1920 x 1080 frames.
-  const page = await browser.newPage({ viewport: { width: 1600, height: 900 }, deviceScaleFactor: 1.2 });
+  const page = await browser.newPage({ viewport: { width: board[0], height: board[1] }, deviceScaleFactor: board[2] });
   page.on('pageerror', e => { console.error('PAGE ERROR', e.message); process.exitCode = 1; });
   page.on('console', m => { if (['warning', 'error'].includes(m.type())) console.error('PAGE', m.text()); });
   await page.goto(URL, { waitUntil: 'networkidle' });
@@ -81,7 +84,7 @@ async function full() {
 }
 
 (async () => {
-  const args = process.argv.slice(2);
+  const args = argv;
   if (args[0] === '--stills') await stills(args[1].split(',').map(Number), t => path.join(BUILD, `still-${t}.png`));
   else if (args[0] === '--thumb') await stills([parseFloat(args[1])], () => path.resolve(args[2]));
   else if (args[0] === '--thumbnail') {

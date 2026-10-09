@@ -1,0 +1,71 @@
+{
+  "voice": "af_heart",
+  "speed": 1.08,
+  "intro_lead": 0.3,
+  "lead": 0.3,
+  "gap": 0.2,
+  "presenter": "Ava, your Lynkk guide",
+  "note": "YouTube Shorts cut of ../teams-recording-tutorial. \"text\" is the caption, \"say\" is what the TTS reads (Lynkk is said \"link\"). Every claim must be in lynkk-post-kit/docs/TRUTHS.md.",
+  "scenes": [
+    {
+      "id": "hook",
+      "chapter": "Hook",
+      "tail": 0.3,
+      "lines": [
+        {"id": "h1", "text": "Here's how to record a Microsoft Teams meeting. Three ways, no note taking."}
+      ]
+    },
+    {
+      "id": "bot",
+      "chapter": "Way 1: meeting bot",
+      "tail": 0.4,
+      "lines": [
+        {"id": "b1", "text": "One: the Lynkk meeting bot.", "say": "One: the Link meeting bot."},
+        {"id": "b2", "text": "Paste your Teams link, or turn on calendar auto-join, and it joins the call for you."}
+      ]
+    },
+    {
+      "id": "mac",
+      "chapter": "Way 2: Mac app",
+      "tail": 0.4,
+      "lines": [
+        {"id": "m1", "text": "Two: the Mac app."},
+        {"id": "m2", "text": "When your Teams call starts, click Record on the card. Nothing joins the call."}
+      ]
+    },
+    {
+      "id": "chrome",
+      "chapter": "Way 3: Chrome extension",
+      "tail": 0.4,
+      "lines": [
+        {"id": "c1", "text": "Three: the Chrome extension."},
+        {"id": "c2", "text": "Open Teams in a tab and press Record. No bot here either."}
+      ]
+    },
+    {
+      "id": "note",
+      "chapter": "The note",
+      "tail": 0.4,
+      "lines": [
+        {"id": "n1", "text": "Every call becomes a note: a transcript in seventeen languages,"},
+        {"id": "n2", "text": "and a Meeting Brief with decisions and action items."}
+      ]
+    },
+    {
+      "id": "jira",
+      "chapter": "Jira",
+      "tail": 0.4,
+      "lines": [
+        {"id": "j1", "text": "Send the tasks to Jira from the note, when you're ready."}
+      ]
+    },
+    {
+      "id": "cta",
+      "chapter": "Start free",
+      "tail": 2.2,
+      "lines": [
+        {"id": "o1", "text": "Start free at lynkk.ai. Follow for more.", "say": "Start free, at link dot A I. Follow for more."}
+      ]
+    }
+  ]
+}

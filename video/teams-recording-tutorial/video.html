@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <title>How to record a Microsoft Teams meeting with Lynkk · video</title>
+<meta name="board" content="1600x900@1.2" />
 <link rel="stylesheet" href="../../lynkk-post-kit/kit/post.css" />
 <style>
 /* Video layer on top of the post kit. Tokens only. Every scene is a kit
@@ -460,47 +461,9 @@ section.post .cells.n4 > .cell:first-child { padding-left: 1px; }
 <script src="../../lynkk-post-kit/kit/post.js"></script>
 <script src="build/timeline.js"></script>
 <script>
-const TL = window.TIMELINE;
-const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
-const lerp = (a, b, k) => a + (b - a) * k;
-const easeOut = x => 1 - Math.pow(1 - x, 3);
-const easeInOut = x => x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
-const P = (t, a, d = .55, e = easeOut) => e(clamp((t - a) / d));
-
-const LINE = {}, SCN = {};
-TL.scenes.forEach(s => { SCN[s.id] = s; s.lines.forEach(l => { LINE[l.id] = l; }); });
-
-// "i2+0.4", "i2$-0.3" (relative to the line's end), "start+0.5", "end-1"
-function T(expr, sid) {
-  const m = expr.trim().match(/^([A-Za-z0-9]+)(\$)?([+-][\d.]+)?$/);
-  if (!m) throw new Error('bad time: ' + expr);
-  let base;
-  if (m[1] === 'start') base = SCN[sid].start;
-  else if (m[1] === 'end') base = SCN[sid].end;
-  else { const l = LINE[m[1]]; if (!l) throw new Error('unknown cue: ' + m[1]); base = m[2] ? l.end : l.start; }
-  return base + (m[3] ? parseFloat(m[3]) : 0);
-}
-
-// Compile every timed element once.
-const SCENES = TL.scenes.map((s, i) => {
-  const el = document.getElementById(s.id);
-  if (!el) throw new Error('missing section #' + s.id);
-  const items = [...el.querySelectorAll('[data-at],[data-out],[data-type],[data-on],[data-clock],[data-press],[data-level]')].map(n => {
-    const d = n.dataset, it = { n };
-    if (d.at) it.at = T(d.at, s.id);
-    if (d.out) it.out = T(d.out, s.id);
-    if (d.on) it.on = T(d.on, s.id);
-    if (d.press) it.press = T(d.press, s.id);
-    if (d.type) { const [a, dur] = d.type.split('|'); it.type = T(a, s.id); it.typeDur = parseFloat(dur); it.full = n.textContent; }
-    if (d.clock) { const [a, from] = d.clock.split('|'); it.clock = T(a, s.id); it.clockFrom = parseFloat(from); }
-    if (d.level !== undefined) it.level = parseInt(d.level, 10);
-    return it;
-  });
-  return { ...s, el, items, idx: i };
-});
-
 // Cursor paths: absolute points or element centres, in the 1600 x 900 board.
-const CURSOR = {
+window.VIDEO = {
+  cursor: {
   start: [{ at: 'a1+1.0', x: 1250, y: 700 }, { at: 'a1+2.0', sel: '.go' }, { at: 'a1+2.3', sel: '.go', click: 1 }, { at: 'a1+3.2', x: 760, y: 650 }],
   bot: [{ at: 'b2+2.6', x: 1380, y: 700 }, { at: 'b2+3.3', sel: '.join' }, { at: 'b2+3.6', sel: '.join', click: 1 }, { at: 'b2+4.6', sel: '.auto' }, { at: 'b2+5.0', sel: '.auto', click: 1 }, { at: 'b2+6.0', x: 1300, y: 700 }],
   mac: [{ at: 'm2$-2.0', x: 1250, y: 620 }, { at: 'm2$-0.9', sel: '.rec' }, { at: 'm2$-0.6', sel: '.rec', click: 1 }, { at: 'm2$+0.6', x: 1180, y: 640 }],
@@ -509,114 +472,9 @@ const CURSOR = {
   jira: [{ at: 't2+0.6', x: 1300, y: 700 }, { at: 't2+1.1', sel: '.c1' }, { at: 't2+1.4', sel: '.c1', click: 1 }, { at: 't2+1.9', sel: '.c2' }, { at: 't2+2.2', sel: '.c2', click: 1 }, { at: 't2+4.2', sel: '.send' }, { at: 't2+4.6', sel: '.send', click: 1 }, { at: 't2+5.4', x: 1250, y: 700 }],
   ask: [{ at: 'q3+3.2', x: 1350, y: 650 }, { at: 'q3+3.9', sel: '.play' }, { at: 'q3+4.2', sel: '.play', click: 1 }, { at: 'q3+5.0', x: 1400, y: 680 }],
   outro: [{ at: 'o2+0.6', x: 1100, y: 640 }, { at: 'o2+1.2', sel: '.btn' }, { at: 'o2+1.5', sel: '.btn', click: 1 }, { at: 'o2+2.4', x: 1000, y: 600 }],
+},
 };
-for (const [sid, keys] of Object.entries(CURSOR)) keys.forEach(k => { k.t = T(k.at, sid); k.sid = sid; });
-
-function pointOf(k) {
-  if (k.sel) {
-    const r = document.querySelector(`#${k.sid} ${k.sel}`).getBoundingClientRect();
-    return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
-  }
-  return { x: k.x, y: k.y };
-}
-function cursorAt(t) {
-  for (const keys of Object.values(CURSOR)) {
-    const first = keys[0], last = keys[keys.length - 1];
-    if (t < first.t - .35 || t > last.t + .7) continue;
-    let p = pointOf(first);
-    if (t >= last.t) p = pointOf(last);
-    else for (let i = 0; i < keys.length - 1; i++) {
-      const a = keys[i], b = keys[i + 1];
-      if (t >= a.t && t < b.t) { const k = easeInOut((t - a.t) / (b.t - a.t)); const pa = pointOf(a), pb = pointOf(b); p = { x: lerp(pa.x, pb.x, k), y: lerp(pa.y, pb.y, k) }; break; }
-    }
-    const op = Math.min(clamp((t - (first.t - .35)) / .35), 1 - clamp((t - (last.t + .3)) / .4));
-    let press = 0, ripple = null;
-    keys.forEach(k => { if (!k.click) return; const d = t - k.t; if (d > -.1 && d < .15) press = 1 - Math.abs(d) / .15; if (d >= 0 && d < .5) ripple = { ...pointOf(k), k: d / .5 }; });
-    return { ...p, op, press, ripple };
-  }
-  return null;
-}
-
-const mmss = s => { s = Math.max(0, Math.floor(s)); return String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0'); };
-const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-
-function renderItem(it, t) {
-  const n = it.n;
-  let op = 1, ty = 0, sc = 1;
-  if (it.at !== undefined) { const k = P(t, it.at); op *= k; ty = (1 - k) * 14; }
-  if (it.out !== undefined) op *= 1 - P(t, it.out, .35);
-  if (it.press !== undefined) { const d = Math.abs(t - it.press); if (d < .15) sc = 1 - .06 * (1 - d / .15); }
-  if (it.at !== undefined || it.out !== undefined) { n.style.opacity = op; n.style.visibility = op < .002 ? 'hidden' : ''; }
-  n.style.transform = (ty > .01 || sc !== 1) ? `translateY(${ty}px) scale(${sc})` : '';
-  if (it.on !== undefined) n.classList.toggle('on', t >= it.on);
-  if (it.type !== undefined) {
-    const k = clamp((t - it.type) / it.typeDur);
-    const c = Math.round(it.full.length * k);
-    n.innerHTML = esc(it.full.slice(0, c)) + (k > 0 && k < 1 ? '|' : '');
-  }
-  if (it.clock !== undefined) n.textContent = mmss(it.clockFrom + (t - it.clock));
-  if (it.level !== undefined) {
-    const v = 22 + 60 * Math.abs(Math.sin(t * (6.3 + it.level * 2.1) + it.level)) * (.5 + .5 * Math.abs(Math.sin(t * 1.7 + it.level * 3)));
-    n.style.setProperty('--v', v.toFixed(1) + '%');
-  }
-}
-
-function renderFrame(t) {
-  document.documentElement.classList.add('video');
-  let cur = 0;
-  SCENES.forEach((s, i) => { if (t >= s.start - .3) cur = i; });
-  SCENES.forEach((s, i) => {
-    const next = SCENES[i + 1];
-    const visible = t >= s.start - .3 && (!next || t < next.start + .35) && (i <= cur);
-    if (!visible) { s.el.style.display = 'none'; return; }
-    s.el.style.display = '';
-    s.el.style.zIndex = i + 1;
-    s.el.style.opacity = i === 0 ? 1 : P(t, s.start - .3, .5, easeInOut);
-    s.items.forEach(it => renderItem(it, t));
-  });
-
-  // narrator levels
-  const fi = Math.min(TL.mouth.length - 1, Math.round(t * TL.fps));
-  const amp = TL.mouth[fi] || 0;
-  document.querySelectorAll('#narr .bars b').forEach((b, i) => {
-    b.style.height = (4 + 18 * amp * (.45 + .55 * Math.abs(Math.sin(t * 12 + i * 1.9)))) + 'px';
-  });
-  document.getElementById('narr').style.opacity = P(t, .3, .6);
-
-  const c = cursorAt(t), cEl = document.getElementById('cursor'), rEl = document.getElementById('ripple');
-  if (c) {
-    cEl.style.visibility = 'visible'; cEl.style.opacity = c.op;
-    cEl.style.transform = `translate(${c.x - 5}px, ${c.y - 3}px) scale(${1 - c.press * .15})`;
-    if (c.ripple) { rEl.style.visibility = 'visible'; rEl.style.opacity = (1 - c.ripple.k) * .9; rEl.style.transform = `translate(${c.ripple.x}px, ${c.ripple.y}px) scale(${.3 + c.ripple.k})`; }
-    else rEl.style.visibility = 'hidden';
-  } else { cEl.style.visibility = 'hidden'; rEl.style.visibility = 'hidden'; }
-
-  document.getElementById('veil').style.opacity = P(t, TL.duration - 1.2, 1.2, easeInOut);
-}
-
-function getSfx() {
-  const out = [];
-  SCENES.forEach(s => s.items.forEach(it => {
-    if (it.press !== undefined) out.push({ t: it.press, type: 'click' });
-    if (it.on !== undefined) out.push({ t: it.on, type: 'tick' });
-    if (it.n.dataset.sfx === 'pop' && it.at !== undefined) out.push({ t: it.at, type: 'pop' });
-  }));
-  return out.sort((a, b) => a.t - b.t);
-}
-
-function renderThumb() {
-  document.documentElement.classList.add('video');
-  SCENES.forEach(s => { s.el.style.display = 'none'; });
-  const th = document.getElementById('thumb');
-  th.style.display = 'grid'; th.style.zIndex = 50;
-  ['narr', 'cursor', 'ripple', 'veil'].forEach(id => { document.getElementById(id).style.display = 'none'; });
-}
-
-window.renderFrame = renderFrame;
-window.getSfx = getSfx;
-window.renderThumb = renderThumb;
-const qs = new URLSearchParams(location.search);
-if (qs.has('t')) renderFrame(parseFloat(qs.get('t')));
 </script>
+<script src="../pipeline/player.js"></script>
 </body>
 </html>

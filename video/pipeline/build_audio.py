@@ -1,18 +1,21 @@
 """Generate the voiceover, the scene timeline, lip-sync data, captions and chapters.
 
-Usage: KOKORO_DIR=/path/to/models python3 build_audio.py
+Usage: KOKORO_DIR=/path/to/models python3 build_audio.py <video-dir>
+<video-dir> holds script.json; output goes to <video-dir>/build and captions.srt.
+script.json may set "intro_lead", "lead" and "gap" (seconds) to change the pacing.
 Needs kokoro-v1.0.onnx and voices-v1.0.bin from
 https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0
 """
 import hashlib
 import json
 import os
+import sys
 from pathlib import Path
 
 import numpy as np
 import soundfile as sf
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path.cwd()
 BUILD = HERE / "build"
 CACHE = BUILD / "tts-cache"
 FPS = 30
@@ -60,9 +63,11 @@ def ts_chapter(t):
 def main():
     from kokoro_onnx import Kokoro
 
-    model_dir = Path(os.environ.get("KOKORO_DIR", HERE / "models"))
+    model_dir = Path(os.environ.get("KOKORO_DIR", Path(__file__).resolve().parent / "models"))
     kokoro = Kokoro(str(model_dir / "kokoro-v1.0.onnx"), str(model_dir / "voices-v1.0.bin"))
     script = json.loads((HERE / "script.json").read_text())
+    intro_lead = script.get("intro_lead", INTRO_LEAD)
+    lead = script.get("lead", LEAD)
     BUILD.mkdir(exist_ok=True)
     CACHE.mkdir(exist_ok=True)
 
@@ -71,8 +76,8 @@ def main():
     scenes = []
     for i, sc in enumerate(script["scenes"]):
         start = t
-        t += INTRO_LEAD if i == 0 else LEAD
-        gap = sc.get("gap", DEFAULT_GAP)
+        t += intro_lead if i == 0 else lead
+        gap = sc.get("gap", script.get("gap", DEFAULT_GAP))
         lines = []
         for j, ln in enumerate(sc["lines"]):
             sig = tts(kokoro, ln.get("say", ln["text"]), script["voice"], script["speed"])
