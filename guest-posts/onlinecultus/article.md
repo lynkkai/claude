@@ -12,7 +12,7 @@
 
 **Link:** one link to https://lynkk.ai/ with the anchor "Lynkk" (marked in the body below). Ask the editor for an author bio line if they offer one.
 
-**Word count:** ~1,250
+**Word count:** ~1,050
 
 ---
 
