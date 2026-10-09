@@ -4,6 +4,10 @@
 > results for lynkk.ai (the site itself was not directly reachable from this environment).
 > Items under "To confirm" must be filled in by the team before submitting.
 
+> **Superseded for claims and design:** `lynkk-post-kit/docs/TRUTHS.md` overrides this file wherever
+> they disagree (no speaking in meetings, no CRM, no regions, no "30 seconds", no offline-first, no
+> knowledge graph screen, no phone app). Design work uses `lynkk-post-kit/` (lynkk-design skill).
+
 ## Identity
 
 | Field | Value |

@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Lynkk reel, fast cut · Lynkk post</title>
+<link rel="stylesheet" href="../../kit/post.css" />
+<style>
+  /* A 9:16 reel (story board, 1080x1920) made for a fast music track, no voice.
+     Scenes are stacked in the body; window.__seek(t) poses everything for time t,
+     animating only opacity and transform, so scripts/video.mjs renders it frame
+     by frame. Open the file in a browser and it plays on its own.
+     ?hook=0 leaves the hook headline out, for a hook added in the editing app.
+     Claims: docs/TRUTHS.md (2026-09-29). Sample data is fictional. */
+  .post-body.stack { position: relative; padding: 0; }
+  .vscene { position: absolute; inset: 60px 48px 56px; display: flex; flex-direction: column; visibility: hidden; }
+  .vscene.center { align-items: center; justify-content: center; text-align: center; }
+  .vscene > .plate.grow { height: auto; }
+  .vscene .scene > .glass, .vscene .scene > .window { zoom: 1.5; }
+  .vscene .cta { padding-top: 120px; }
+  .solid { background: var(--gr-black); }
+
+  /* Scene 2: the mark */
+  .reveal-mark { width: 260px; height: 260px; }
+
+  /* Scene 3: lynkk.ai in a browser, its mobile layout, scrolling */
+  .hl-wrap { position: relative; height: 236px; flex: none; }
+  .hl { position: absolute; inset: 0; display: flex; flex-direction: column; }
+  .browser { position: relative; flex: 1; min-height: 0; border-radius: 30px; overflow: hidden;
+    background: var(--gr-coal); border: 1px solid var(--gr-line); display: flex; flex-direction: column; }
+  .browser-bar { height: 76px; flex: none; display: grid; place-items: center; border-bottom: 1px solid var(--gr-line); }
+  .address { display: inline-flex; align-items: center; gap: 12px; height: 48px; padding: 0 26px; border-radius: 999px;
+    background: var(--gr-fill-soft); color: var(--gr-ink-2); font-size: 23px; letter-spacing: 0; }
+  .address i { width: 22px; height: 22px; }
+  .viewport { position: relative; flex: 1; min-height: 0; overflow: hidden; }
+  .msite { zoom: 2.2; width: 394px; position: relative; }
+  .float-chips { position: relative; height: 92px; flex: none; margin-top: 20px; }
+  .float-chips .chip { position: absolute; left: 50%; top: 14px; translate: -50% 0; white-space: nowrap; }
+  .float-chips .chip { height: 64px; padding: 0 28px; font-size: 25px; background: var(--gr-black); }
+  .tap { position: absolute; width: 96px; height: 96px; border-radius: 50%; border: 3px solid var(--gr-white);
+    background: rgb(255 255 255 / 0.25); z-index: 6; opacity: 0; }
+
+  /* The mobile site, at web scale (Grid web tokens), inside .msite */
+  .ms-nav { height: 56px; display: flex; align-items: center; justify-content: space-between; padding: 0 18px;
+    border-bottom: 1px solid var(--gr-line); background: var(--gr-bg); color: var(--gr-ink); }
+  .ms-brand { display: inline-flex; align-items: center; gap: 8px; font-size: 17px; }
+  .ms-brand i { width: 22px; height: 22px; }
+  .ms-nav-r { display: flex; align-items: center; gap: 12px; }
+  .ms-btn { display: inline-flex; align-items: center; justify-content: center; height: 34px; padding: 0 14px; border-radius: 5px;
+    font-size: 13px; letter-spacing: -0.01em; white-space: nowrap; background: var(--gr-btn-solid-bg); color: var(--gr-btn-solid-fg); }
+  .ms-btn.accent { background: var(--gr-violet); color: var(--gr-white); }
+  .ms-btn.quiet { background: var(--gr-btn-quiet-bg); color: var(--gr-btn-quiet-fg); }
+  .ms-btn.big { height: 40px; padding: 0 18px; font-size: 14px; }
+  .ms-sec { padding: 34px 20px 36px; background: var(--gr-bg); color: var(--gr-ink); border-bottom: 1px solid var(--gr-line); }
+  .ms-sec[data-dots] { background-image: radial-gradient(circle, var(--gr-dot) 1px, transparent 1.1px); background-size: 6px 6px; }
+  .ms-pill { display: inline-flex; align-items: center; height: 24px; padding: 0 10px; border-radius: 20px; font-size: 11px; letter-spacing: -0.01em;
+    background: var(--gr-violet-tint); color: var(--gr-violet); }
+  .ms-pill.quiet { background: var(--gr-fill-soft); color: var(--gr-ink); }
+  .ms-h1 { margin-top: 16px; font-size: 31px; line-height: 1.16; letter-spacing: var(--gr-track-tight); }
+  .ms-h2 { margin-top: 14px; font-size: 25px; line-height: 1.22; letter-spacing: var(--gr-track-tight); }
+  .ms-p { margin-top: 12px; font-size: 14px; line-height: 1.5; color: var(--gr-ink-2); letter-spacing: -0.01em; font-weight: 400; }
+  .ms-btns { display: flex; gap: 8px; margin-top: 18px; }
+  .ms-win { margin-top: 24px; border-radius: 14px; overflow: hidden; border: 1px solid var(--gr-line); background: var(--gr-coal); }
+  .ms-win-bar { height: 30px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding: 0 12px; font-size: 11px; color: var(--gr-ink-2); letter-spacing: 0; }
+  .ms-dots { display: flex; gap: 5px; } .ms-dots i { width: 8px; height: 8px; border-radius: 50%; background: var(--gr-coal-3); }
+  .ms-win-body { background: var(--gr-black); padding: 12px 14px 14px; font-size: 11.5px; line-height: 1.45; letter-spacing: 0; color: var(--gr-white); }
+  [data-band="day"] .ms-win { background: var(--gr-mist); }
+  [data-band="day"] .ms-win-body { background: var(--gr-white); color: var(--gr-black); }
+  .ms-head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 8px; font-size: 13px; }
+  .ms-rec { display: inline-flex; align-items: center; gap: 6px; font-size: 10.5px; color: var(--gr-ink-2); }
+  .ms-rec .gr-live-dot { width: 7px; height: 7px; animation: none; }
+  .ms-line { display: grid; grid-template-columns: 22px 1fr; gap: 8px; padding: 7px 0; border-top: 1px solid var(--gr-line); }
+  .ms-av { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; font-size: 10px; color: var(--gr-black); }
+  .ms-who { font-size: 10.5px; color: var(--gr-ink-2); }
+  .ms-tag { display: inline-flex; align-items: center; height: 17px; padding: 0 7px; border-radius: 999px; font-size: 9.5px; margin-left: 6px;
+    background: var(--gr-fill-soft); color: var(--gr-ink-2); }
+  .ms-card { margin-top: 18px; }
+  .ms-card .plate { height: 210px; border-radius: 10px; display: grid; place-items: center; padding: 0 22px; }
+  .ms-card .glass { padding: 2px; border-radius: 21px; }
+  .ms-card .glass-title { height: 28px; font-size: 11.5px; }
+  .ms-card .glass-body { border-radius: 19px; padding: 10px 12px; font-size: 11px; line-height: 1.4; }
+  .ms-card .m-row { padding: 5px 0; }
+  .ms-card-t { margin-top: 12px; font-size: 16px; letter-spacing: -0.02em; }
+  .ms-card-b { margin-top: 6px; font-size: 13px; line-height: 1.5; color: var(--gr-ink-2); letter-spacing: -0.01em; font-weight: 400; }
+  .ms-task { display: flex; align-items: center; gap: 9px; padding: 8px 0; border-top: 1px solid var(--gr-line); font-size: 12px; }
+  .ms-task:first-of-type { border-top: 0; }
+  .ms-task > span:nth-child(2) { flex: 1; }
+  .ms-box { width: 13px; height: 13px; border-radius: 4px; border: 1.5px solid var(--gr-ink-3); flex: none; }
+  .ms-chip { display: inline-flex; align-items: center; height: 19px; padding: 0 8px; border-radius: 999px; font-size: 10px; background: var(--gr-fill-soft); color: var(--gr-ink-2); white-space: nowrap; }
+  .ms-jira { display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 10px; margin-top: 8px; border-radius: 5px; font-size: 11px;
+    background: var(--gr-btn-solid-bg); color: var(--gr-btn-solid-fg); }
+  .ms-jira img { width: 13px; height: 13px; }
+  .ms-cta { margin: 0; border-radius: 10px; padding: 34px 20px 30px; display: grid; justify-items: center; text-align: center; color: var(--gr-white); }
+  .ms-cta .ms-h2 { margin-top: 14px; font-size: 26px; }
+  .ms-cta .ms-p { color: rgb(255 255 255 / 0.85); }
+  .ms-cta .ms-btn { background: var(--gr-white); color: var(--gr-black); margin-top: 16px; }
+  .ms-cta-tag { display: inline-flex; align-items: center; height: 24px; padding: 0 10px; border-radius: 999px; font-size: 11px; background: rgb(255 255 255 / 0.2); }
+  .ms-foot { padding: 18px 20px 40px; font-size: 12px; color: var(--gr-ink-2); display: flex; justify-content: space-between; background: var(--gr-bg); }
+
+  /* Scene 4b: dictation (from the dictation video) */
+  .mac { width: 100%; height: 100%; display: grid; grid-template-rows: auto 1fr auto; justify-items: center; gap: 30px; padding: 0 12px 24px; }
+  .island { display: inline-flex; align-items: center; gap: 14px; height: 64px; padding: 0 28px 0 22px; border-radius: 0 0 32px 32px;
+    background: var(--gr-black); color: var(--gr-white); font-size: 22px; letter-spacing: 0; white-space: nowrap; }
+  .island i[data-icon] { width: 26px; height: 26px; }
+  .island .bars { display: inline-flex; align-items: center; gap: 4px; height: 26px; }
+  .island .bars b { width: 4px; height: 26px; border-radius: 2px; background: var(--gr-white); transform-origin: 50% 50%; }
+  .island .to { color: rgb(255 255 255 / 0.6); }
+  .mac .window { align-self: center; width: 100%; }
+  .mac .window-body { min-height: 250px; font-size: 30px; line-height: 1.45; }
+  .mac .m-k { font-size: 21px; display: block; padding-bottom: 10px; }
+  .w { display: inline-block; }
+  .caret { display: inline-block; width: 3px; height: 1.05em; margin-left: 4px; vertical-align: -0.15em; background: var(--gr-black); }
+  .key { display: grid; justify-items: center; gap: 12px; color: var(--gr-white); font-size: 21px; letter-spacing: 0; }
+  .keycap { display: grid; place-items: center; width: 116px; height: 100px; border-radius: 18px; font-size: 34px;
+    background: var(--gr-white); color: var(--gr-black); }
+
+  /* Scene 4c: languages */
+  .lang-stage { position: relative; display: grid; place-items: center; }
+  .lang { position: absolute; left: 0; right: 0; text-align: center; color: var(--gr-white); font-size: 150px; line-height: 1;
+    letter-spacing: var(--gr-track-tight); opacity: 0; }
+  .lang-note { position: absolute; bottom: 40px; left: 0; right: 0; display: grid; justify-items: center; }
+  .lang-note .chip { background: rgb(255 255 255 / 0.2); border-color: var(--gr-glass-line); color: var(--gr-white); height: 60px; font-size: 24px; }
+
+  /* Scene 4d: ask */
+  .q { display: flex; gap: 12px; padding: 4px 0 14px; border-bottom: 1px solid var(--gr-rule-day); }
+  .ask .window-body { font-size: 24px; }
+  .ask .m-quote { padding-top: 16px; line-height: 1.45; }
+  .ask .m-btn { margin-top: 18px; height: 44px; font-size: 20px; padding: 0 18px; }
+  .ask .m-btn i { width: 18px; height: 18px; margin-right: 10px; }
+
+  /* Scene 5: who it's for */
+  .vscene .rows > .row { padding: 30px 0; }
+  .vscene .row-t { font-size: 34px; }
+  .vscene .row-b { font-size: 26px; }
+</style>
+</head>
+<body>
+
+<section class="post" id="v1" data-size="story" data-count="01 / 09">
+  <main class="post-body stack" data-dots>
+
+    <!-- 01 · hook, 0 to 2.3 s -->
+    <div class="vscene" data-from="0" data-to="2.3">
+      <div class="hook-copy">
+        <span class="eyebrow" data-tone="quiet" data-in="0" data-fx="pop">After the call</span>
+        <h1 class="t-display" style="font-size: 84px"><span data-in="0.12" data-fx="slam" style="display:inline-block">Your meeting ended.</span><br><span class="ink-2" data-in="0.55" data-fx="slam" style="display:inline-block">The work didn't.</span></h1>
+      </div>
+      <div class="plate plate-night scene grow mt-l" data-rings data-in="0.05" style="--card-w: 520px">
+        <div class="glass" data-size="l" id="hook-card">
+          <div class="glass-title">Q4 launch sync · Ended</div>
+          <div class="glass-body">
+            <div class="m-row" data-in="0.85" data-fx="left"><span class="m-k">Notes</span>Nobody took them</div>
+            <div class="m-row" data-in="1.05" data-fx="left"><span class="m-k">Tasks</span>Who owns what?</div>
+            <div class="m-row" data-in="1.25" data-fx="left"><span class="m-k">Decided</span>Nobody is sure</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 02 · the mark, 2.3 to 3.5 s -->
+    <div class="vscene center" data-from="2.3" data-to="3.5">
+      <i data-mark class="reveal-mark" id="reveal-mark"></i>
+      <h2 class="t-display mt-l" data-in="0.18" data-fx="slam">Lynkk</h2>
+      <p class="t-lead mt-s" data-in="0.38">It records your meetings, writes the notes, and pulls out the tasks.</p>
+    </div>
+
+    <!-- 03 · lynkk.ai scrolling, 3.5 to 10.4 s -->
+    <div class="vscene" data-from="3.5" data-to="10.4" id="site-scene">
+      <div class="hl-wrap">
+        <div class="hl" data-a="0" data-b="1.2"><span class="eyebrow">See it at lynkk.ai</span><h2 class="t-h3">Your AI meeting assistant.<br><span class="ink-2">Start free in the browser.</span></h2></div>
+        <div class="hl" data-a="1.2" data-b="2.35"><span class="eyebrow">Capture</span><h2 class="t-h3">Record any meeting.<br><span class="ink-2">Online or in person.</span></h2></div>
+        <div class="hl" data-a="2.35" data-b="3.5"><span class="eyebrow">Before and after</span><h2 class="t-h3">Walk in prepared.<br><span class="ink-2">Leave with the decisions.</span></h2></div>
+        <div class="hl" data-a="3.5" data-b="4.65"><span class="eyebrow">Conversation to action</span><h2 class="t-h3">Every task gets an owner.<br><span class="ink-2">Send it to Jira from the note.</span></h2></div>
+        <div class="hl" data-a="4.65" data-b="5.8"><span class="eyebrow">Lynkk for Mac</span><h2 class="t-h3">Record any call.<br><span class="ink-2">Nothing joins it.</span></h2></div>
+        <div class="hl" data-a="5.8" data-b="99"><span class="eyebrow">Start free</span><h2 class="t-h3">Try it on your next meeting.<br><span class="ink-2">No bot needed on the Mac.</span></h2></div>
+      </div>
+
+      <div class="browser" data-in="0" data-fx="rise">
+        <div class="browser-bar"><span class="address"><i data-icon="lock"></i>lynkk.ai</span></div>
+        <div class="viewport" id="viewport">
+          <div class="msite gr" id="msite">
+
+            <div class="ms-nav" data-band="night"><span class="ms-brand"><i data-mark></i>Lynkk</span>
+              <span class="ms-nav-r"><span class="ms-btn">Start for free</span></span></div>
+
+            <div class="ms-sec" data-band="night" data-dots data-stop>
+              <span class="ms-pill quiet">AI meeting assistant</span>
+              <h1 class="ms-h1">Your meetings, turned into notes and tasks.</h1>
+              <p class="ms-p">Lynkk records your meetings, writes the notes, pulls out the tasks, and lets you ask questions across everything you've recorded.</p>
+              <div class="ms-btns"><span class="ms-btn accent big" id="start-btn">Start for free</span><span class="ms-btn quiet big">See how it works</span></div>
+              <div class="ms-win">
+                <div class="ms-win-bar"><span class="ms-dots"><i></i><i></i><i></i></span><span>Lynkk.ai</span><span></span></div>
+                <div class="ms-win-body">
+                  <div class="ms-head"><span>Q4 launch sync</span><span class="ms-rec"><span class="gr-live-dot"></span>Recording 18:54</span></div>
+                  <div class="ms-line"><span class="ms-av" style="background: var(--gr-lavender)">P</span><div><span class="ms-who">Priya 18:36</span><span class="ms-tag">Decision</span><br>Export can ship in the first patch.</div></div>
+                  <div class="ms-line"><span class="ms-av" style="background: var(--gr-leaf)">S</span><div><span class="ms-who">Sam 18:41</span><br>Good, launch moves to Oct 28.</div></div>
+                  <div class="ms-line"><span class="ms-av" style="background: var(--gr-orange)">A</span><div><span class="ms-who">Alex 18:45</span><span class="ms-tag">Task</span><br>I'll send the deck by Friday.</div></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="ms-sec" data-band="day" data-stop>
+              <span class="ms-pill">Product capabilities</span>
+              <h2 class="ms-h2">Everything your meetings leave behind.</h2>
+              <div class="ms-card">
+                <div class="plate plate-sky" data-rings><div class="glass"><div class="glass-title">Capture everything</div><div class="glass-body">
+                  <div class="m-row"><span class="m-k">Mac</span>Zoom call detected</div><div class="m-row"><span class="m-k">Chrome</span>Record this tab</div><div class="m-row"><span class="m-k">Web</span>Record your mic</div></div></div></div>
+                <p class="ms-card-t">Capture everything</p>
+                <p class="ms-card-b">The Mac app, the Chrome extension, a meeting bot, or your mic in the browser for a meeting in person.</p>
+              </div>
+              <div class="ms-card" data-stop>
+                <div class="plate plate-meadow" data-rings><div class="glass"><div class="glass-title">Your day</div><div class="glass-body">
+                  <div class="m-row"><span class="m-t">10:00</span>Acme renewal</div><div class="m-row"><span class="m-k">Last note</span>Pricing call</div><div class="m-row"><span class="m-k">Open</span>2 action items</div></div></div></div>
+                <p class="ms-card-t">Remember context</p>
+                <p class="ms-card-b">A morning briefing email: who you're meeting, the last note with them, and what's still open.</p>
+              </div>
+              <div class="ms-card">
+                <div class="plate plate-ember" data-rings><div class="glass"><div class="glass-title">Ask Lynkk</div><div class="glass-body">
+                  <div class="m-quote" style="padding-top:0">Launch moves to Oct 28. <span class="m-cite">Q4 launch sync</span></div></div></div></div>
+                <p class="ms-card-t">Ask anything (Pro)</p>
+                <p class="ms-card-b">Answers only from your own notes, with the sources.</p>
+              </div>
+            </div>
+
+            <div class="ms-sec" data-band="night" data-dots data-stop>
+              <span class="ms-pill quiet">Conversation to action</span>
+              <h2 class="ms-h2">Turn what was said into what happens next.</h2>
+              <p class="ms-p">Every action item gets an owner, a due date and a priority.</p>
+              <div class="ms-win">
+                <div class="ms-win-bar"><span class="ms-dots"><i></i><i></i><i></i></span><span>Action items</span><span></span></div>
+                <div class="ms-win-body">
+                  <div class="ms-task"><span class="ms-box"></span><span>Revise the launch deck</span><span class="ms-chip">Priya · Fri</span></div>
+                  <div class="ms-task"><span class="ms-box"></span><span>Send pricing to Acme</span><span class="ms-chip">Sam · Mon</span></div>
+                  <div class="ms-task"><span class="ms-box"></span><span>Book the security review</span><span class="ms-chip">Alex · Wed</span></div>
+                  <span class="ms-jira"><img data-logo="jira">Send to Jira</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="ms-sec" data-band="day" data-stop>
+              <span class="ms-pill">Lynkk for Mac</span>
+              <h2 class="ms-h2">The part that lives on your Mac.</h2>
+              <p class="ms-p">It notices calls in Zoom, Meet, Teams, Slack huddles, WhatsApp, FaceTime and Webex. No bot joins. Hold fn anywhere to dictate.</p>
+              <div class="ms-card">
+                <div class="plate plate-night" data-rings><div class="glass"><div class="glass-title">Zoom call detected</div><div class="glass-body">
+                  <div class="m-row">Record both sides, you and everyone else</div>
+                  <div style="display:flex;gap:8px;padding-top:8px"><span class="m-btn" style="height:26px;font-size:11px">Record</span><span class="m-chip" style="height:26px;font-size:11px">Not now</span></div></div></div></div>
+              </div>
+            </div>
+
+            <div class="ms-sec" data-band="night" data-stop>
+              <div class="plate plate-ember ms-cta" data-rings>
+                <span class="ms-cta-tag">Start free</span>
+                <h2 class="ms-h2">Try Lynkk on your next meeting.</h2>
+                <p class="ms-p">Recording, transcripts and the Meeting Brief are on the Free plan.</p>
+                <span class="ms-btn big" id="cta-btn">Start for free</span>
+              </div>
+            </div>
+            <div class="ms-foot" data-band="night"><span>lynkk.ai</span><span>Web, Mac app, Chrome</span></div>
+          </div>
+          <div class="tap" id="tap"></div>
+        </div>
+
+      </div>
+      <div class="float-chips">
+          <span class="chip" data-a="0.35" data-b="1.15"><i data-icon="globe"></i>lynkk.ai in any browser</span>
+          <span class="chip" data-a="1.45" data-b="2.3"><i data-icon="laptop"></i>Mac app, Chrome, meeting bot</span>
+          <span class="chip" data-a="2.6" data-b="3.45"><i data-icon="mail"></i>Morning briefing email</span>
+          <span class="chip" data-a="3.75" data-b="4.6"><img data-logo="jira" style="width:26px;height:26px">One Jira issue per action item</span>
+          <span class="chip" data-a="4.9" data-b="5.75"><i data-icon="keyboard"></i>Hold fn and talk to dictate</span>
+        </div>
+    </div>
+
+    <!-- 04 · Meeting Brief, 10.4 to 11.45 s -->
+    <div class="vscene" data-from="10.4" data-to="11.45">
+      <span class="eyebrow" data-in="0" data-fx="pop">Meeting Brief · Free</span>
+      <h2 class="t-h2"><span data-in="0.05" data-fx="slam" style="display:inline-block">You talk.</span><br><span class="ink-2" data-in="0.18" data-fx="slam" style="display:inline-block">Lynkk writes the brief.</span></h2>
+      <div class="plate plate-dusk scene grow mt-l" data-rings data-in="0.04" data-fx="rise" style="--card-w: 560px">
+        <div class="window">
+          <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>Meeting Brief</span><span></span></div>
+          <div class="window-body">
+            <div class="m-title" data-in="0.2" data-fx="left">Q4 launch sync</div>
+            <div class="m-row" data-in="0.3" data-fx="left"><span class="m-k">Decided</span>Launch moves to Oct 28</div>
+            <div class="m-row" data-in="0.4" data-fx="left"><span class="m-k">Open</span>Who signs off pricing</div>
+            <div class="m-option" data-in="0.5" data-fx="left"><span class="m-check"></span><span>Revise the launch deck</span><span class="m-chip">Priya · Fri</span></div>
+            <div class="m-option" data-in="0.6" data-fx="left"><span class="m-check"></span><span>Send pricing to Acme</span><span class="m-chip">Sam · Mon</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 05 · dictation, 11.45 to 12.5 s -->
+    <div class="vscene" data-from="11.45" data-to="12.5">
+      <span class="eyebrow" data-in="0" data-fx="pop">Dictation · Mac app</span>
+      <h2 class="t-h2"><span data-in="0.05" data-fx="slam" style="display:inline-block">Hold fn and talk.</span><br><span class="ink-2" data-in="0.18" data-fx="slam" style="display:inline-block">Words land at your cursor.</span></h2>
+      <div class="plate plate-night grow mt-l" data-rings data-in="0.04" data-fx="rise">
+        <div class="mac">
+          <div class="island"><i data-icon="mic"></i><span>Listening</span><span class="bars" id="bars"><b></b><b></b><b></b><b></b><b></b></span><span class="to">to Slack</span></div>
+          <div class="window">
+            <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>#launch</span><span></span></div>
+            <div class="window-body"><span class="m-k">Message #launch</span><span id="dict">Deck is updated, launch moves to Oct 28.</span></div>
+          </div>
+          <div class="key"><span class="keycap">fn</span><span>Hold to talk</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 06 · languages, 12.5 to 13.55 s -->
+    <div class="vscene" data-from="12.5" data-to="13.55">
+      <span class="eyebrow" data-in="0" data-fx="pop">Transcripts</span>
+      <h2 class="t-h2"><span data-in="0.05" data-fx="slam" style="display:inline-block">17 languages.</span><br><span class="ink-2" data-in="0.18" data-fx="slam" style="display:inline-block">Four of them in beta.</span></h2>
+      <div class="plate plate-field grow mt-l lang-stage" data-rings data-in="0.04" data-fx="rise">
+        <span class="lang">English</span><span class="lang">Hindi</span><span class="lang">Spanish</span><span class="lang">French</span>
+        <span class="lang">German</span><span class="lang">Japanese</span><span class="lang">Arabic</span><span class="lang">Tamil</span>
+        <div class="lang-note"><span class="chip" data-in="0.35" data-fx="pop"><i data-icon="languages"></i>Auto-detect, with speaker labels</span></div>
+      </div>
+    </div>
+
+    <!-- 07 · Ask Lynkk, 13.55 to 14.6 s -->
+    <div class="vscene" data-from="13.55" data-to="14.6">
+      <span class="eyebrow" data-in="0" data-fx="pop">Ask Lynkk · Pro</span>
+      <h2 class="t-h2"><span data-in="0.05" data-fx="slam" style="display:inline-block">Ask your meetings.</span><br><span class="ink-2" data-in="0.18" data-fx="slam" style="display:inline-block">Get the sources.</span></h2>
+      <div class="plate plate-sky scene grow mt-l ask" data-rings data-in="0.04" data-fx="rise" style="--card-w: 560px">
+        <div class="window">
+          <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>Ask Lynkk</span><span></span></div>
+          <div class="window-body">
+            <div class="q" data-in="0.2" data-fx="left"><span class="m-k">You</span><span>What did we decide on the launch?</span></div>
+            <div class="m-quote" data-in="0.4" data-fx="left">Launch moves to Oct 28, and Priya owns the deck. <span class="m-cite">Q4 launch sync</span></div>
+            <span class="m-btn" data-in="0.58" data-fx="pop"><i data-icon="play"></i>Play from 12:04</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 08 · who it's for, 14.6 to 16.9 s -->
+    <div class="vscene" data-from="14.6" data-to="16.9">
+      <span class="eyebrow" data-in="0" data-fx="pop">Made for back-to-back meetings</span>
+      <h2 class="t-h2"><span data-in="0.05" data-fx="slam" style="display:inline-block">One assistant.</span><br><span class="ink-2" data-in="0.2" data-fx="slam" style="display:inline-block">Every kind of meeting.</span></h2>
+      <div class="rows mt-l">
+        <div class="row" data-in="0.4" data-fx="left"><span class="icon-chip" data-c="orange"><i data-icon="audio-lines"></i></span>
+          <div><p class="row-t">Sales calls</p><p class="row-b">A morning brief: who you're meeting and what's still open.</p></div></div>
+        <div class="row" data-in="0.6" data-fx="right"><span class="icon-chip" data-c="violet"><i data-icon="list-checks"></i></span>
+          <div><p class="row-t">Product and engineering</p><p class="row-b">Send action items to Jira, one issue each.</p></div></div>
+        <div class="row" data-in="0.8" data-fx="left"><span class="icon-chip" data-c="lavender"><i data-icon="search"></i></span>
+          <div><p class="row-t">Founders and managers</p><p class="row-b">Ask what was decided, with sources (Pro).</p></div></div>
+        <div class="row" data-in="1.0" data-fx="right"><span class="icon-chip" data-c="leaf"><i data-icon="users"></i></span>
+          <div><p class="row-t">Teams</p><p class="row-b">Up to 10 seats. Everyone in the workspace gets Pro.</p></div></div>
+        <div class="row" data-in="1.2" data-fx="left"><span class="icon-chip" data-c="quiet"><i data-icon="mic"></i></span>
+          <div><p class="row-t">In person</p><p class="row-b">Record your mic in the browser at lynkk.ai.</p></div></div>
+      </div>
+    </div>
+
+    <!-- 09 · CTA, 16.9 to 19.5 s -->
+    <div class="vscene" data-from="16.9" data-to="19.5">
+      <div class="plate plate-ember cta" data-rings data-in="0" data-fx="rise">
+        <span class="cta-tag" data-in="0.15" data-fx="pop">Start free</span>
+        <h2 class="t-display"><span data-in="0.25" data-fx="slam" style="display:inline-block">Stop taking notes.</span> <span data-in="0.5" data-fx="slam" style="display:inline-block">Start finishing meetings.</span></h2>
+        <p class="cta-sub" data-in="0.75">Lynkk records the call, writes the brief, and hands your tasks to Jira.</p>
+        <span class="btn" data-in="0.95" data-fx="pop" id="cta-main">Try it free at lynkk.ai</span>
+        <div class="facts" data-in="1.15" data-fx="rise">
+          <div class="fact"><span class="fact-t">4 ways in</span><span class="fact-b">Mac app, Chrome, meeting bot, browser</span></div>
+          <div class="fact"><span class="fact-t">17 languages</span><span class="fact-b">Four of them in beta</span></div>
+          <div class="fact"><span class="fact-t">No bot on Mac</span><span class="fact-b">Records any call app</span></div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</section>
+
+<script src="../../kit/post.js"></script>
+<script>
+(() => {
+  const DURATION = 19.5;
+  const NO_HOOK = new URLSearchParams(location.search).get("hook") === "0";
+  const clamp = (x) => Math.min(1, Math.max(0, x));
+  const ease = (x) => 1 - Math.pow(1 - clamp(x), 3);
+  const inout = (x) => { x = clamp(x); return x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; };
+  const back = (x) => { x = clamp(x); const c = 1.7; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const pad = (n) => String(n).padStart(2, "0");
+
+  if (NO_HOOK) $(".hook-copy").style.visibility = "hidden";
+
+  const scenes = $$(".vscene").map((el) => ({ el, from: +el.dataset.from, to: +el.dataset.to, items: $$("[data-in]", el) }));
+  const count = $(".post-top .count");
+
+  // Entrance moves. p runs 0 to 1 with an overshoot; opacity follows a plain ease.
+  const FX = {
+    rise: (p) => `translateY(${(1 - p) * 140}px)`,
+    up: (p) => `translateY(${(1 - p) * 40}px)`,
+    slam: (p) => `scale(${1 + (1 - p) * 0.35})`,
+    pop: (p) => `scale(${0.6 + 0.4 * p})`,
+    left: (p) => `translateX(${(1 - p) * -120}px)`,
+    right: (p) => `translateX(${(1 - p) * 120}px)`,
+  };
+  const DUR = { slam: 0.22, pop: 0.3, rise: 0.38, left: 0.3, right: 0.3, up: 0.35 };
+
+  // Scene 3: scroll stops are read from the mock site's layout.
+  const site = $("#msite"), viewport = $("#viewport");
+  const ZOOM = 2.2;
+  const S3 = scenes[2].from;
+  const stopEls = $$("[data-stop]", site);
+  let stops = [];
+  const measure = () => {
+    const top = site.getBoundingClientRect().top;
+    const maxY = site.getBoundingClientRect().height - viewport.clientHeight;
+    stops = stopEls.map((el) => Math.min(maxY, el.getBoundingClientRect().top - top));
+    stops[0] = 0;
+  };
+  // [time from scene start, stop index]: hold, then a fast snap to the next one.
+  const PLAN = [[0, 0], [1.0, 0], [1.25, 1], [2.15, 1], [2.4, 2], [3.3, 2], [3.55, 3], [4.45, 3], [4.7, 4], [5.6, 4], [5.85, 5]];
+  const scrollAt = (lt) => {
+    for (let i = 0; i < PLAN.length - 1; i++) {
+      const [a, sa] = PLAN[i], [b, sb] = PLAN[i + 1];
+      if (lt < b) return stops[sa] + (stops[sb] - stops[sa]) * inout((lt - a) / (b - a));
+    }
+    return stops[PLAN.at(-1)[1]];
+  };
+  const hls = $$(".hl").map((el) => ({ el, a: +el.dataset.a, b: +el.dataset.b }));
+  const fchips = $$(".float-chips .chip").map((el) => ({ el, a: +el.dataset.a, b: +el.dataset.b }));
+
+  // A fixed pseudo-random wobble, so every render is identical.
+  const wob = (t, i) => Math.abs(Math.sin(t * 11 + i * 1.7) * Math.sin(t * 5.3 + i));
+
+  const dict = $("#dict");
+  const dictWords = dict.textContent.split(" ");
+  dict.innerHTML = dictWords.map((w) => `<span class="w">${w}</span>`).join(" ") + '<span class="caret"></span>';
+  const dictEls = $$(".w", dict);
+  const langs = $$(".lang");
+
+  function seek(t) {
+    let active = 0;
+    scenes.forEach((s, i) => {
+      const last = i === scenes.length - 1;
+      const lt = t - s.from;
+      let o = 1, tr = "";
+      if (i > 0) { const p = back(lt / 0.32); o = clamp(lt / 0.12); tr = `translateY(${(1 - p) * 90}px)`; }
+      if (!last && t > s.to - 0.16) { const q = ease((t - (s.to - 0.16)) / 0.16); o = Math.min(o, 1 - q); tr = `translateY(${-q * 110}px) scale(${1 - q * 0.04})`; }
+      if (t < s.from || (!last && t >= s.to)) o = 0;
+      s.el.style.opacity = o;
+      s.el.style.transform = tr;
+      s.el.style.visibility = o > 0 ? "visible" : "hidden";
+      if (t >= s.from) active = i;
+      for (const el of s.items) {
+        const fx = el.dataset.fx || "up";
+        const x = (lt - +el.dataset.in) / DUR[fx];
+        el.style.opacity = ease(x * 1.6);
+        el.style.transform = x >= 1 ? "" : FX[fx](back(x));
+      }
+    });
+    if (count) count.innerHTML = `<b>${pad(active + 1)}</b> / ${pad(scenes.length)}`;
+
+    // 01 · the hook card shakes once when the last row lands
+    const sh = clamp((t - 1.3) / 0.3);
+    $("#hook-card").style.transform = sh > 0 && sh < 1 ? `translateX(${Math.sin(sh * Math.PI * 6) * (1 - sh) * 14}px)` : "";
+
+    // 02 · the mark spins in
+    const mp = back((t - 2.32) / 0.45);
+    const mark = $("#reveal-mark");
+    mark.style.opacity = clamp((t - 2.32) / 0.15);
+    mark.style.transform = `scale(${0.3 + 0.7 * mp}) rotate(${(1 - mp) * -120}deg)`;
+
+    // 03 · the site scrolls, headlines and chips swap at each stop
+    const lt3 = t - S3;
+    site.style.transform = `translateY(${-scrollAt(lt3) / ZOOM}px)`;
+    for (const h of hls) {
+      const pin = back((lt3 - h.a) / 0.26), pout = ease((lt3 - h.b + 0.12) / 0.12);
+      const vis = lt3 >= h.a && lt3 < h.b;
+      h.el.style.opacity = vis ? Math.min(clamp((lt3 - h.a) / 0.1), 1 - pout) : 0;
+      h.el.style.transform = vis ? (pout > 0 ? `translateY(${-pout * 50}px)` : `translateY(${(1 - pin) * 60}px)`) : "";
+    }
+    for (const c of fchips) {
+      const pin = back((lt3 - c.a) / 0.3), pout = ease((lt3 - c.b + 0.12) / 0.12);
+      const vis = lt3 >= c.a && lt3 < c.b;
+      c.el.style.opacity = vis ? Math.min(clamp((lt3 - c.a) / 0.1), 1 - pout) : 0;
+      c.el.style.transform = vis ? `translateY(${(1 - pin) * 80 + pout * 30}px) scale(${0.85 + 0.15 * pin})` : "";
+    }
+    // a tap on the site's Start button at the last stop
+    const tap = $("#tap"), btn = $("#cta-btn");
+    const tp = clamp((lt3 - 6.15) / 0.4);
+    if (tp > 0 && tp < 1) {
+      const vb = viewport.getBoundingClientRect(), bb = btn.getBoundingClientRect();
+      tap.style.left = `${bb.left - vb.left + bb.width / 2 - 48}px`;
+      tap.style.top = `${bb.top - vb.top + bb.height / 2 - 48}px`;
+      tap.style.opacity = tp < 0.3 ? tp / 0.3 : 1 - (tp - 0.3) / 0.7;
+      tap.style.transform = `scale(${0.4 + tp * 1.2})`;
+    } else tap.style.opacity = 0;
+    btn.style.transform = tp > 0 && tp < 0.5 ? "scale(0.94)" : "";
+
+    // 05 · words land one by one, the island's bars move
+    const d0 = scenes[4].from + 0.4;
+    dictEls.forEach((w, k) => { const p = ease((t - d0 - k * 0.055) / 0.12); w.style.opacity = p; w.style.transform = `translateY(${(1 - p) * 12}px)`; });
+    $$("#bars b").forEach((b, i) => { b.style.transform = `scaleY(${0.25 + 0.75 * wob(t, i)})`; });
+
+    // 06 · language names flick past
+    const l0 = scenes[5].from + 0.22, step = 0.1;
+    langs.forEach((el, i) => {
+      const a = l0 + i * step, isLast = i === langs.length - 1;
+      const pin = ease((t - a) / 0.07), pout = isLast ? 0 : ease((t - a - step) / 0.05);
+      el.style.opacity = t < a ? 0 : Math.min(pin, 1 - pout);
+      el.style.transform = `translateY(${(1 - pin) * 70 - pout * 70}px)`;
+    });
+
+    // 09 · the button breathes on the beat
+    const cb = $("#cta-main"), bt = t - 18.1;
+    if (bt > 0) cb.style.transform = `scale(${1 + 0.04 * Math.max(0, Math.cos(bt * Math.PI * 4))})`;
+  }
+
+  document.fonts.ready.then(() => {
+    measure();
+    window.__duration = DURATION;
+    window.__seek = seek;
+    seek(0);
+    if (!location.search.includes("still")) {
+      const t0 = performance.now();
+      const loop = (now) => { seek(((now - t0) / 1000) % DURATION); requestAnimationFrame(loop); };
+      requestAnimationFrame(loop);
+    }
+  });
+})();
+</script>
+</body>
+</html>
