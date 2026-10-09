@@ -53,7 +53,7 @@
 ## Integrations
 - Calendar (meetings pulled from your calendar)
 - Jira (tasks/tickets)
-- Notion (meeting notes; exact sync behavior to confirm)
+- Notion (syncs notes and action items to a Notion database)
 - Calendly and Cal.com (follow-ups / scheduling)
 - CRM (field updates)
 - MCP: "connect anything via MCP"
@@ -71,7 +71,7 @@
 - **Tagline (≤60 chars):** Your AI teammate for every meeting: before, during, after
 - **Short description (≤160 chars):** Lynkk joins your meetings, speaks when needed, remembers everything, and turns every conversation into notes, tasks, CRM updates and Jira tickets.
 - **Long description:**
-  Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and speaks when you need it: ask for past context, pull up documents, and get answers live by voice. Within 30 seconds after, you get structured notes, assigned action items, updated CRM fields, created Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Jira, Notion, Calendly, Cal.com, or anything via MCP. Start free.
+  Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and speaks when you need it: ask for past context, pull up documents, and get answers live by voice. Within 30 seconds after, you get structured notes and assigned action items (synced to your Notion database), updated CRM fields, created Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Jira, Notion, Calendly, Cal.com, or anything via MCP. Start free.
 - **Tags:** AI meeting assistant, AI note taker, meeting notes, conversation intelligence, transcription, productivity, sales, CRM automation, Jira, Notion, knowledge graph, MCP
 
 ## To confirm before submitting
@@ -79,7 +79,6 @@
 - [ ] Platforms: iOS / Android / Windows availability (Web + Mac confirmed)
 - [ ] Supported meeting platforms (Zoom / Google Meet / Microsoft Teams?)
 - [ ] Which CRMs (HubSpot / Salesforce?)
-- [ ] Notion integration: what syncs (notes, action items, both?) and to which pages/databases
 - [ ] Number of supported languages
 - [ ] Available data regions (EU / US / India / …)
 - [ ] Company legal name, founding year, HQ location, founders

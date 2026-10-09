@@ -73,7 +73,7 @@ Freemium, "Free options" (Start free). TODO: confirm paid tier names/prices befo
 >
 > **During:** it joins the call and speaks when you need it. Ask it for past context, pull up a document, get an answer out loud, mid-meeting.
 >
-> **After:** within about 30 seconds: structured notes, action items assigned, CRM fields updated, Jira tickets created, everything searchable as a knowledge graph across all your meetings.
+> **After:** within about 30 seconds: structured notes and action items (synced to your Notion database), CRM fields updated, Jira tickets created, everything searchable as a knowledge graph across all your meetings.
 >
 > A few things we care about:
 > - **In-person counts too.** Not every meeting has a dial-in. Lynkk records the room.
@@ -97,7 +97,7 @@ Product Hunt shows the first image everywhere, so make it count.
 2. Pre-meeting context card: "here's what's still open from last time."
 3. The live voice assistant answering a question mid-call.
 4. Post-meeting output: notes + action items, side by side.
-5. Integrations: Jira ticket and CRM field created automatically.
+5. Integrations: Jira ticket, CRM field, and Notion database entry created automatically.
 6. Search / knowledge graph across past meetings.
 7. Region picker or privacy screen (this is a real differentiator, so show it).
 8. Optional: 30-60s demo video of one meeting end to end.
