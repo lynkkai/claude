@@ -16,7 +16,7 @@ Built with the `lynkk-design` skill: every claim is from `lynkk-post-kit/docs/TR
 | HR | `hr/out/lynkk-for-hr-teams.mp4` (0:59) | `out/hr-thumbnail.png` | `hr/out/captions.srt` |
 | Consulting | `consulting/out/lynkk-for-consulting-teams.mp4` (1:03) | `out/consulting-thumbnail.png` | `consulting/out/captions.srt` |
 
-All videos: 1920x1080, 30 fps, H.264 + AAC, -15 LUFS. Thumbnails: 1280x720. The CTA board holds
+All videos: 1920x1080, 30 fps, H.264 + AAC, -14 LUFS, narration with a background music bed. Thumbnails: 1280x720. The CTA board holds
 for about 10 seconds at the end: put a YouTube end screen (subscribe, next video) on the ember plate.
 
 ## Sales
@@ -127,7 +127,15 @@ Run these from a video folder (`sales/`, `hr/` or `consulting/`):
 | Stills | `../tools/capture.mjs` | `node ../tools/capture.mjs stills out/storyboard` |
 | Clips | `../tools/capture.mjs` | `node ../tools/capture.mjs video <clipsDir>` (1920x1080, 30 fps) |
 | Final video | `../tools/assemble.sh` | `../tools/assemble.sh <clipsDir> lynkk-for-<name>-teams` |
+| Music | `../tools/music.py` | `python3 ../tools/music.py` writes `out/music.wav`, timed to `out/timing.json` |
+| Music mix | `../tools/mix.sh` | `../tools/mix.sh lynkk-for-<name>-teams` puts the music under the voice and remuxes the MP4 |
 | Thumbnails | `thumbnails.html` | `node lynkk-post-kit/scripts/render.mjs youtube/videos/use-cases/thumbnails.html --scale 0.8` (from the repo root) |
+
+Music: an original track made in code by `tools/music.py` (soft electric piano, warm pad, light
+bass and drums at 96 BPM), so it is royalty free and safe from Content ID claims. It stays sparse
+under the problem scenes, the groove starts with the first solution scene, and it resolves on the
+CTA. It sits about 18 dB under the voice while she speaks and rises between lines and on the end
+screen. `out/music.wav` is not committed; `music.py` rebuilds the same file.
 
 Voice model files: `kokoro-v1.0.onnx` and `voices-v1.0.bin` from the kokoro-onnx GitHub releases
 (`pip install kokoro-onnx soundfile`).
