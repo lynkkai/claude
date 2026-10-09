@@ -11,6 +11,7 @@
 | Brand name | **Lynkk** (double "k") |
 | Website | https://lynkk.ai/ |
 | Contact email | marketing@lynkk.ai |
+| Co-founder | Samarth Wagh (author page: https://lynkk.ai/blog/authors/samarth-wagh). Default byline for guest posts |
 | Page title | Lynkk: AI Meeting Notes & Conversation Intelligence |
 | Category | AI meeting assistant / AI note taker / conversation intelligence / productivity |
 | Pricing model | Freemium, "Start free" (paid tiers: to confirm) |
@@ -80,7 +81,7 @@
 - [ ] Which CRMs (HubSpot / Salesforce?)
 - [ ] Number of supported languages
 - [ ] Available data regions (EU / US / India / …)
-- [ ] Company legal name, founding year, HQ location, founders
+- [ ] Company legal name, founding year, HQ location, other founders (Samarth Wagh confirmed as co-founder)
 - [ ] Social links (LinkedIn, X/Twitter, Product Hunt, YouTube)
 - [ ] Logo files (SVG/PNG, square + wide), screenshots, demo video URL
 - [ ] Security/compliance certifications (SOC 2, GDPR, etc.)

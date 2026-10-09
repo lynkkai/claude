@@ -1,72 +1,60 @@
 # Author profile for the onlinecultus.com guest post
 
-Two versions: a **team byline** that's ready to use now, and a **personal byline** for a
-named Lynkk team member. A post from a real, named person usually reads as more
-trustworthy to editors and readers, so use the personal one if someone is happy to put
-their name on it. Fill in every `[bracket]` before sending, and don't add credentials the
-person doesn't have.
+**Author:** Samarth Wagh, Co-founder, Lynkk
+**Author page:** https://lynkk.ai/blog/authors/samarth-wagh
+
+The bios below use only what's confirmed (name, role, what Lynkk does). The lynkk.ai
+author page couldn't be opened from this environment, so compare these against it before
+sending. If that page lists background details (previous roles, education, location),
+add one line from it where marked `[optional]`. Don't add anything that isn't on the
+author page or confirmed by Samarth.
 
 ---
 
-## Option A: Team byline (ready to use)
+## Short bio (≈45 words, for the box under the article)
 
-**Author name:** The Lynkk Team
-
-**Short bio (≈40 words, for the box under the article):**
-> The Lynkk Team builds [Lynkk](https://lynkk.ai/), an AI meeting assistant that turns
-> every conversation, online or in person, into structured notes, action items and
-> searchable knowledge. We write about smarter meetings, better note-taking and getting
-> more from every conversation.
-
-**One-line bio (if the site only allows one sentence):**
-> The Lynkk Team builds Lynkk, an AI meeting assistant that turns every conversation into
-> notes, tasks and searchable knowledge.
-
-**Long bio (≈90 words, for an author page):**
-> The Lynkk Team builds Lynkk, one AI for the whole meeting lifecycle. Before a call,
-> Lynkk surfaces context from past conversations. During it, Lynkk can join and answer
-> questions by voice. Within about 30 seconds after, it delivers structured notes,
-> assigned action items and a searchable record of everything that was said. Lynkk works
-> for online meetings and in-person conversations, supports multiple languages, and lets
-> teams choose the region where their data is processed. The team writes about
-> productivity, remote collaboration, and how AI can help people stay present in the
+> [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh) is the co-founder of Lynkk,
+> an AI meeting assistant that turns every conversation, online or in person, into
+> structured notes, action items and searchable knowledge. Samarth writes about smarter
+> meetings, better note-taking and how AI can help people stay present in the
 > conversations that matter.
 
-**Website:** https://lynkk.ai/
-**Contact:** marketing@lynkk.ai
-**Avatar:** Lynkk logo, square, at least 256 × 256 px (TODO: logo file from the team)
-**Social links:** TODO (LinkedIn, X/Twitter, not yet confirmed)
+## One-line bio (if the site only allows one sentence)
+
+> Samarth Wagh is the co-founder of Lynkk, an AI meeting assistant that turns every
+> conversation into notes, tasks and searchable knowledge.
+
+## Long bio (≈110 words, for an author page)
+
+> Samarth Wagh is the co-founder of Lynkk, an AI meeting assistant built to cover the
+> whole meeting lifecycle. Before a call, Lynkk surfaces context from past conversations:
+> what was discussed, what's still open and who said what. During the meeting, it can
+> join and answer questions by voice. Within about 30 seconds after, it delivers
+> structured notes, assigned action items and a searchable record of everything that was
+> said, whether the conversation happened online or in person. `[optional: one line of
+> background from the author page]` Samarth writes about note-taking, remote
+> collaboration and the practical side of AI at work and in learning. Read more from
+> Samarth at lynkk.ai/blog/authors/samarth-wagh.
 
 ---
 
-## Option B: Personal byline (fill in)
+## Profile fields (for sites with an author form)
 
-**Author name:** [Full name]
+| Field | Value |
+|---|---|
+| Name | Samarth Wagh |
+| Title | Co-founder, Lynkk |
+| Website / author URL | https://lynkk.ai/blog/authors/samarth-wagh |
+| Company site | https://lynkk.ai/ |
+| Contact email | marketing@lynkk.ai (or Samarth's own work email if preferred) |
+| Headshot | TODO: square photo, at least 400 × 400 px (reuse the one on the author page) |
+| LinkedIn | TODO |
+| X / Twitter | TODO |
 
-**Short bio (≈45 words):**
-> [First name] is [role, e.g. Head of Marketing] at [Lynkk](https://lynkk.ai/), an AI
-> meeting assistant that turns every conversation, online or in person, into structured
-> notes, action items and searchable knowledge. [He/She/They] writes about productivity,
-> smarter meetings and how AI can help people learn and work better together.
-
-**One-line bio:**
-> [Full name] is [role] at Lynkk, an AI meeting assistant for notes, tasks and searchable
-> meeting knowledge.
-
-**Long bio (≈100 words):**
-> [Full name] is [role] at Lynkk, where [he/she/they] [one line on what they do, e.g.
-> leads content and community]. Lynkk is one AI across the whole meeting lifecycle: it
-> brings context from past conversations before a call, can answer questions by voice
-> during it, and delivers structured notes and action items within about 30 seconds
-> after. [Optional: one line of genuine background, e.g. "Before Lynkk, [first name]
-> spent [X] years in [field]."] [First name] writes about note-taking, remote
-> collaboration and the practical side of AI at work and in learning. [Optional: one
-> personal detail, e.g. based in [city].]
-
-**Headshot:** square photo, at least 400 × 400 px, plain background
-**Website:** https://lynkk.ai/
-**Social:** [LinkedIn URL], [X/Twitter URL]
-**Contact:** [work email]
+**Link note:** the article body already links to https://lynkk.ai/. The bio links to the
+author page, which keeps the two links pointing at different URLs and connects the post to
+Samarth's author profile on lynkk.ai. If the editor allows only one link in total, keep
+the body link and make the bio plain text.
 
 ---
 
@@ -88,12 +76,16 @@ person doesn't have.
 > practice and spaced review. It also covers consent and research-data privacy.
 >
 > The article is unpublished and exclusive to Onlinecultus. It includes one link to
-> lynkk.ai in the body, and the author bio is below. Happy to adjust the title, length or
+> lynkk.ai in the body, and my author bio is below. Happy to adjust the title, length or
 > images to fit your style.
 >
-> [Paste the short bio here]
+> Samarth Wagh is the co-founder of Lynkk, an AI meeting assistant that turns every
+> conversation, online or in person, into structured notes, action items and searchable
+> knowledge. Samarth writes about smarter meetings, better note-taking and how AI can
+> help people stay present in the conversations that matter.
+> (Author page: https://lynkk.ai/blog/authors/samarth-wagh)
 >
 > Best,
-> [Name]
-> [Role], Lynkk
-> marketing@lynkk.ai
+> Samarth Wagh
+> Co-founder, Lynkk
+> https://lynkk.ai/

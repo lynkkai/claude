@@ -1,5 +1,7 @@
 # Guest post for onlinecultus.com
 
+**Author:** Samarth Wagh, Co-founder, Lynkk ([author page](https://lynkk.ai/blog/authors/samarth-wagh))
+
 **Title:** The Note-Taking Trap: How AI Note Takers Help Students Listen, Think and Remember More
 
 **Alternate titles:**
@@ -199,4 +201,10 @@ on it. You'll be surprised how much less slips through the cracks.
 
 ---
 
-*About the author: see `author-profile.md` for the bio to paste here.*
+**About the author**
+
+[Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh) is the co-founder of Lynkk, an AI
+meeting assistant that turns every conversation, online or in person, into structured
+notes, action items and searchable knowledge. Samarth writes about smarter meetings,
+better note-taking and how AI can help people stay present in the conversations that
+matter.
