@@ -1,0 +1,47 @@
+"""Narration to audio with Kokoro (open model, runs locally).
+  <venv>/bin/python -I tts.py <kokoro.onnx> <voices.bin>
+Writes out/audio/<scene>.wav, out/timing.json (sentence start times per scene)
+and out/captions.srt. Captions use the written text; the voice reads SPOKEN,
+which only fixes pronunciation."""
+import json, re, sys, os
+import numpy as np
+import soundfile as sf
+from kokoro_onnx import Kokoro
+
+SPOKEN = [(r"lynkk\.ai", "Link dot A.I."), (r"\bLynkk\b", "Link"), (r"\bCSV\b", "C S V"), (r"macOS 15\.4", "mac O S fifteen point four"),
+          (r"Wi-Fi", "wifi"), (r"\bPro\b", "Pro")]
+LEAD, GAP, TAIL = 0.6, 0.35, 0.9   # seconds of silence: scene start, between lines, scene end
+
+def spoken(text):
+    for pat, rep in SPOKEN:
+        text = re.sub(pat, rep, text)
+    return text
+
+def ts(s):
+    h, r = divmod(s, 3600); m, sec = divmod(r, 60)
+    return f"{int(h):02}:{int(m):02}:{int(sec):02},{int(round((sec - int(sec)) * 1000)):03}"
+
+doc = json.load(open("narration.json"))
+k = Kokoro(sys.argv[1], sys.argv[2])
+os.makedirs("out/audio", exist_ok=True)
+timing, cues, offset, n = {}, [], 0.0, 1
+for sc in doc["scenes"]:
+    parts, starts, t, sr = [], [], LEAD, 24000
+    parts.append(np.zeros(int(LEAD * sr), dtype=np.float32))
+    for line in sc["lines"]:
+        audio, sr = k.create(spoken(line), voice=doc["voice"], speed=doc["speed"], lang="en-us")
+        dur = len(audio) / sr
+        starts.append(round(t, 3))
+        cues.append(f"{n}\n{ts(offset + t)} --> {ts(offset + t + dur)}\n{line}\n"); n += 1
+        parts += [audio.astype(np.float32), np.zeros(int(GAP * sr), dtype=np.float32)]
+        t += dur + GAP
+    parts.append(np.zeros(int((TAIL - GAP) * sr), dtype=np.float32))
+    wav = np.concatenate(parts)
+    sf.write(f"out/audio/{sc['id']}.wav", wav, sr)
+    total = len(wav) / sr
+    timing[sc["id"]] = {"duration": round(total, 3), "starts": starts, "offset": round(offset, 3), "chapter": sc["chapter"]}
+    offset += total
+    print(f"{sc['id']}: {total:.1f}s")
+json.dump(timing, open("out/timing.json", "w"), indent=2)
+open("out/captions.srt", "w").write("\n".join(cues))
+print(f"total {offset:.1f}s, {n - 1} cues")

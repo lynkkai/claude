@@ -1,0 +1,51 @@
+1
+00:00:00,600 --> 00:00:01,987
+You had the answer once.
+
+2
+00:00:02,337 --> 00:00:04,769
+Someone said it in a meeting, three weeks ago.
+
+3
+00:00:05,119 --> 00:00:06,633
+Now nobody can find it.
+
+4
+00:00:08,133 --> 00:00:12,848
+It's in a recording nobody rewatches, or in notes spread across different places.
+
+5
+00:00:13,198 --> 00:00:15,118
+So the same meeting happens twice.
+
+6
+00:00:16,618 --> 00:00:18,858
+Ask Lynkk answers from your own meeting notes.
+
+7
+00:00:19,208 --> 00:00:21,064
+What did Acme say about the renewal?
+
+8
+00:00:21,414 --> 00:00:25,126
+You get the answer with its sources, and it plays the moment it was said.
+
+9
+00:00:26,626 --> 00:00:31,469
+Ask what's still open, and it lists the open tasks and decisions across your notes.
+
+10
+00:00:32,969 --> 00:00:37,065
+Then act on it: create a Google Calendar event or a Jira issue.
+
+11
+00:00:37,415 --> 00:00:39,505
+Nothing happens until you confirm.
+
+12
+00:00:41,005 --> 00:00:43,203
+Stop searching your meetings. Ask them.
+
+13
+00:00:43,553 --> 00:00:47,286
+Ask Lynkk is part of Lynkk Pro. Start free at lynkk.ai.

@@ -1,0 +1,32 @@
+{
+  "title": "Ask your meetings anything | Ask Lynkk",
+  "voice": "af_heart",
+  "speed": 1.0,
+  "scenes": [
+    {"id": "v1", "chapter": "Hook", "lines": [
+      "You had the answer once.",
+      "Someone said it in a meeting, three weeks ago.",
+      "Now nobody can find it."
+    ]},
+    {"id": "v2", "chapter": "Problem", "lines": [
+      "It's in a recording nobody rewatches, or in notes spread across different places.",
+      "So the same meeting happens twice."
+    ]},
+    {"id": "v3", "chapter": "Ask Lynkk", "lines": [
+      "Ask Lynkk answers from your own meeting notes.",
+      "What did Acme say about the renewal?",
+      "You get the answer with its sources, and it plays the moment it was said."
+    ]},
+    {"id": "v4", "chapter": "What's open", "lines": [
+      "Ask what's still open, and it lists the open tasks and decisions across your notes."
+    ]},
+    {"id": "v5", "chapter": "Act on it", "lines": [
+      "Then act on it: create a Google Calendar event or a Jira issue.",
+      "Nothing happens until you confirm."
+    ]},
+    {"id": "v6", "chapter": "Start free", "lines": [
+      "Stop searching your meetings. Ask them.",
+      "Ask Lynkk is part of Lynkk Pro. Start free at lynkk.ai."
+    ]}
+  ]
+}

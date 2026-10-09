@@ -1,0 +1,57 @@
+{
+  "v1": {
+    "duration": 7.533,
+    "starts": [
+      0.6,
+      2.337,
+      5.119
+    ],
+    "offset": 0.0,
+    "chapter": "Hook"
+  },
+  "v2": {
+    "duration": 8.485,
+    "starts": [
+      0.6,
+      5.665
+    ],
+    "offset": 7.533,
+    "chapter": "Problem"
+  },
+  "v3": {
+    "duration": 10.008,
+    "starts": [
+      0.6,
+      3.19,
+      5.396
+    ],
+    "offset": 16.018,
+    "chapter": "Ask Lynkk"
+  },
+  "v4": {
+    "duration": 6.343,
+    "starts": [
+      0.6
+    ],
+    "offset": 26.026,
+    "chapter": "What's open"
+  },
+  "v5": {
+    "duration": 8.037,
+    "starts": [
+      0.6,
+      5.046
+    ],
+    "offset": 32.369,
+    "chapter": "Act on it"
+  },
+  "v6": {
+    "duration": 7.781,
+    "starts": [
+      0.6,
+      3.147
+    ],
+    "offset": 40.405,
+    "chapter": "Start free"
+  }
+}
