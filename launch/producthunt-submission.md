@@ -79,7 +79,7 @@ Freemium, "Free options" (Start free). TODO: confirm paid tier names/prices befo
 > - **In-person counts too.** Not every meeting has a dial-in. Lynkk records the room.
 > - **Multilingual and offline-first**, so it works on a plane and in whatever language the meeting actually happens in.
 > - **Pick your region.** Every model behind Lynkk runs from the region you choose, which matters if your legal team has opinions.
-> - **Connects to your stack**: calendar, Jira, Calendly, Cal.com, CRM, or anything else via MCP.
+> - **Connects to your stack**: calendar, Jira, Notion, Calendly, Cal.com, CRM, or anything else via MCP.
 >
 > It's free to start, and we'd love for you to try it on your next call and tell us where it falls short. We're here all day for questions, feature requests and hard ones. 🙏
 
