@@ -79,3 +79,15 @@ def test_queries_pack_phrases_and_isolate_combinations():
     packed = [q for q in qs if len(q.keywords) > 1]
     assert packed and ' OR ' in packed[0].q
     assert all(len(q.q) <= 400 for q in qs)
+
+
+def test_ai_dictation_request_scores_for_review():
+    r = score("Looking for an AI dictation app for Mac that types into any app?", ["AI dictation"])
+    assert r.has("dictation") and r.has("ai_note_intent")
+    assert r.score >= 50
+
+
+def test_dictating_a_letter_is_not_a_lead():
+    r = score("My grandmother dictated this letter to me in 1962.", [])
+    assert not r.has("dictation")
+    assert r.score < 25

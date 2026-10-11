@@ -6,9 +6,10 @@ from pathlib import Path
 
 from .config import Config
 from .db import DB
+from .subreddit_rules import summary
 
 
-def context_package(row) -> str:
+def context_package(row, rules: str = "") -> str:
     lines = [
         f"# Reply draft for {row['reddit_id']}",
         "",
@@ -26,6 +27,9 @@ def context_package(row) -> str:
         f"- Potential use case: {row['potential_use_case'] or ''}",
         f"- Context: {row['context'] or ''}",
         f"- Why reply: {row['reply_opportunity'] or ''}",
+        f"- Brand mention: {row['brand_mention'] or 'check_rules'}",
+        f"- Subreddit rules: {rules}",
+        f"- Rules note: {row['guidelines_note'] or ''}",
         "",
     ]
     if row["type"] == "comment":
@@ -58,5 +62,7 @@ def write_draft_context(cfg: Config, db: DB, reddit_id: str) -> Path | None:
     cfg.drafts_dir.mkdir(parents=True, exist_ok=True)
     path = cfg.drafts_dir / f"{row['reddit_id']}.md"
     if not path.exists():
-        path.write_text(context_package(row), encoding="utf-8")
+        known = db.rules_map().get(row["subreddit"])
+        rules = summary(known["rules"], known["policy"]) if known else summary([], "")
+        path.write_text(context_package(row, rules), encoding="utf-8")
     return path

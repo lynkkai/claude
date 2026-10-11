@@ -55,6 +55,8 @@ In `output/`:
 |---|---|
 | `reddit_ai_note_opportunities_<date>.csv` | Today's new opportunities, best first |
 | `all_opportunities.csv` | Everything relevant found so far |
+| `subreddit_trends.csv` | Per subreddit: relevant items, high intent, last 7 days, top keywords, self-promotion rule, brand verdicts, rules summary |
+| `keyword_trends.csv` | Per keyword: relevant items, last 7 and 30 days, high intent, top subreddits |
 | `report.html` | Dashboard, filters, sorting, "Export CSV" and "Copy reply context" buttons. Open it in a browser |
 
 The CSV opens in Google Sheets, Excel, Numbers and pandas
@@ -62,7 +64,16 @@ The CSV opens in Google Sheets, Excel, Numbers and pandas
 content, title, subreddit, reddit_url, author_url, created_at,
 keyword_matched, matched_keywords, relevance_score, intent, intent_score,
 pain_point, context, potential_use_case, reply_opportunity`, then
-`parent_post_url, reviewed_by, first_seen_at`.
+`brand_mention, subreddit_rules, guidelines_note, recommended_reply,
+parent_post_url, reviewed_by, first_seen_at`.
+
+- `brand_mention` says whether a reply may name Lynkk, from the subreddit's
+  rules and the thread: `yes_with_disclosure`, `only_if_asked`, `no`, or
+  `check_rules` (rules unknown or not reviewed yet: read the sidebar first).
+- `subreddit_rules` is a summary of the subreddit's rules, promotion rules
+  first. `guidelines_note` is the rule that matters for this reply.
+- `recommended_reply` is a ready-to-edit draft for items scoring 65 or more.
+  Read the thread before using it.
 
 - `intent` is one of `high_purchase_intent`, `tool_recommendation`,
   `comparison` (the best ones), `problem_seeking_solution`,

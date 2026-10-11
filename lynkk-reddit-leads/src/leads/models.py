@@ -18,6 +18,14 @@ INTENTS = (
     "low_relevance",
 )
 
+# Whether a reply may name Lynkk, given the subreddit's rules and the thread.
+BRAND_MENTION = (
+    "yes_with_disclosure",  # no rule against it and it fits: name Lynkk once, say you work on it
+    "only_if_asked",  # rules limit promotion, but the poster asked for tools: one disclosed mention
+    "no",  # rules ban it, or it doesn't fit: help without naming Lynkk
+    "check_rules",  # rules unknown: read the sidebar before naming Lynkk
+)
+
 # P0 asks for a tool, P1 describes a pain, P2 discusses, P3 barely relevant.
 PRIORITY = {
     "high_purchase_intent": 0,

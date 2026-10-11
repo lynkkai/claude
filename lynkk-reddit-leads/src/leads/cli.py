@@ -13,11 +13,13 @@ from .db import DB
 from .drafts import write_draft_context
 from .export.csv_export import write_csv
 from .export.report import write_report
+from .export.trends import write_trends
 from .fetch import Fetcher
 from .reddit.http import Http
 from .reddit.ratelimit import Throttle
 from .reddit.source import RssSource
 from .review import apply_results, batch_path, results_path, write_batch
+from .subreddit_rules import fetch_rules, summary
 
 
 def _open(args) -> tuple[config_mod.Config, DB]:
@@ -47,6 +49,28 @@ def cmd_fetch(args) -> int:
     print(f"  waiting for review in total: {db.count_pending()}")
     db.close()
     return 0
+
+
+def cmd_rules(args) -> int:
+    cfg, db = _open(args)
+    limit = args.limit or cfg.rules_max_per_run
+    http = Http(
+        cfg.user_agent,
+        Throttle(cfg.min_seconds_between_requests),
+        max_requests=limit,
+        log_path=cfg.log_dir / "requests.log",
+    )
+    fetched, unavailable = fetch_rules(cfg, db, RssSource(http), log=lambda m: print(m, flush=True), limit=limit)
+    print(f"Done. Rules read for {fetched} subreddits, {unavailable} unavailable.")
+    db.close()
+    return 0
+
+
+def _with_rules(items: list[dict], rules: dict[str, dict]) -> list[dict]:
+    for it in items:
+        known = rules.get(it["subreddit"])
+        it["subreddit_rules"] = summary(known["rules"], known["policy"]) if known else summary([], "")
+    return items
 
 
 def cmd_review(args) -> int:
@@ -87,7 +111,8 @@ def _local_date(utc_stamp: str) -> str:
 def cmd_export(args) -> int:
     cfg, db = _open(args)
     today = datetime.now().strftime("%Y-%m-%d")
-    relevant = db.exportable(cfg.min_relevance)
+    rules = db.rules_map()
+    relevant = _with_rules(db.exportable(cfg.min_relevance), rules)
     if args.all:
         todays = relevant
     else:
@@ -97,11 +122,13 @@ def cmd_export(args) -> int:
     daily = write_csv(out / cfg.export_filename.format(date=today), rank(todays))
     master = write_csv(out / "all_opportunities.csv", rank(relevant))
     report = write_report(out / "report.html", db.all_items(), relevant, new_ids)
+    sub_trends, kw_trends = write_trends(out, relevant, rules)
     db.mark_exported(list(new_ids))
     pending = db.count_pending()
     print(f"Today's CSV: {daily.relative_to(cfg.root)} ({len(todays)} rows, {len(new_ids)} new)")
     print(f"All time CSV: {master.relative_to(cfg.root)} ({len(relevant)} rows)")
     print(f"Report: {report.relative_to(cfg.root)} (open it in a browser)")
+    print(f"Trends: {sub_trends.relative_to(cfg.root)}, {kw_trends.relative_to(cfg.root)}")
     if pending:
         print(f"Note: {pending} items are not reviewed yet; they are scored by rules only.")
     db.close()
@@ -128,6 +155,7 @@ def cmd_status(args) -> int:
         print(f"  {k}: {counts.get(k, 0)}")
     print(f"Exportable now (score >= {cfg.min_relevance}): {len(db.exportable(cfg.min_relevance))}")
     print(f"Last search: {db.last_search_at() or 'never'}")
+    print(f"Subreddits with rules read: {len(db.rules_map())}")
     db.close()
     return 0
 
@@ -141,6 +169,10 @@ def main(argv: list[str] | None = None) -> int:
     f.add_argument("--rescan", action="store_true", help="re-process items seen before")
     f.add_argument("--quick", action="store_true", help="at most 12 requests (about 12 minutes)")
     f.set_defaults(fn=cmd_fetch)
+
+    ru = sub.add_parser("rules", help="read the rules of subreddits that have candidates")
+    ru.add_argument("--limit", type=int, help="most subreddits to read (default from config)")
+    ru.set_defaults(fn=cmd_rules)
 
     r = sub.add_parser("review", help="hand items to Claude Code and read its verdicts back")
     r.add_argument("action", choices=["next", "apply", "status"])

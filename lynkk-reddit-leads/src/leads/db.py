@@ -1,4 +1,4 @@
-"""SQLite storage: searches, reddit_items and keywords."""
+"""SQLite storage: searches, reddit_items, keywords and subreddit_rules."""
 
 from __future__ import annotations
 
@@ -57,6 +57,9 @@ CREATE TABLE IF NOT EXISTS reddit_items (
   potential_use_case TEXT,
   reply_opportunity TEXT,
   is_promotional INTEGER,
+  brand_mention TEXT,             -- yes_with_disclosure, only_if_asked, no, check_rules
+  guidelines_note TEXT,
+  recommended_reply TEXT,
   reviewed_by TEXT,               -- 'rules' or 'claude'
   status TEXT NOT NULL,           -- review, skipped, duplicate, reviewed
   duplicate_of TEXT,
@@ -70,7 +73,21 @@ CREATE TABLE IF NOT EXISTS reddit_items (
 CREATE INDEX IF NOT EXISTS idx_items_status ON reddit_items(status);
 CREATE INDEX IF NOT EXISTS idx_items_hash ON reddit_items(content_hash);
 CREATE INDEX IF NOT EXISTS idx_items_url ON reddit_items(canonical_url);
+
+CREATE TABLE IF NOT EXISTS subreddit_rules (
+  subreddit TEXT PRIMARY KEY,     -- "r/name"
+  rules TEXT NOT NULL,            -- JSON list of {title, text}
+  policy TEXT NOT NULL,           -- restricts, none_found, unavailable
+  fetched_at TEXT NOT NULL
+);
 """
+
+# Columns added after the first release; older databases get them on open.
+ADDED_COLUMNS = {
+    "brand_mention": "TEXT",
+    "guidelines_note": "TEXT",
+    "recommended_reply": "TEXT",
+}
 
 
 def now_iso() -> str:
@@ -83,6 +100,11 @@ class DB:
         self.conn = sqlite3.connect(path, timeout=30)
         self.conn.row_factory = sqlite3.Row
         self.conn.executescript(SCHEMA)
+        have = {r[1] for r in self.conn.execute("PRAGMA table_info(reddit_items)")}
+        for col, kind in ADDED_COLUMNS.items():
+            if col not in have:
+                self.conn.execute(f"ALTER TABLE reddit_items ADD COLUMN {col} {kind}")
+        self.conn.commit()
 
     def close(self):
         if self.conn is None:
@@ -169,7 +191,8 @@ class DB:
         if existing:
             # Re-scan: refresh the data, clear the old review so it is reviewed again.
             values.update(pain_point=None, context=None, potential_use_case=None,
-                          reply_opportunity=None, is_promotional=None, reviewed_at=None)
+                          reply_opportunity=None, is_promotional=None, reviewed_at=None,
+                          brand_mention=None, guidelines_note=None, recommended_reply=None)
             sets = ", ".join(f"{k} = :{k}" for k in values)
             self.conn.execute(f"UPDATE reddit_items SET {sets} WHERE reddit_id = :reddit_id", values)
         else:
@@ -213,11 +236,45 @@ class DB:
             """UPDATE reddit_items SET relevance_score = :relevance_score, intent = :intent,
                  intent_score = :intent_score, pain_point = :pain_point, context = :context,
                  potential_use_case = :potential_use_case, reply_opportunity = :reply_opportunity,
-                 is_promotional = :is_promotional, reviewed_by = 'claude', status = 'reviewed',
+                 is_promotional = :is_promotional, brand_mention = :brand_mention,
+                 guidelines_note = :guidelines_note, recommended_reply = :recommended_reply,
+                 reviewed_by = 'claude', status = 'reviewed',
                  reviewed_at = :reviewed_at
                WHERE reddit_id = :reddit_id""",
-            {**r, "reddit_id": reddit_id, "is_promotional": int(bool(r["is_promotional"])), "reviewed_at": now_iso()},
+            {"brand_mention": "", "guidelines_note": "", "recommended_reply": "",
+             **r, "reddit_id": reddit_id, "is_promotional": int(bool(r["is_promotional"])), "reviewed_at": now_iso()},
         )
+
+    # subreddit rules ------------------------------------------------------
+
+    def subreddits_needing_rules(self, min_score: int, refresh_before: str, limit: int) -> list[str]:
+        """Subreddits with candidates whose rules are missing or stale, best first."""
+        rows = self.conn.execute(
+            """SELECT i.subreddit, MAX(COALESCE(i.relevance_score, i.rule_score)) AS best
+               FROM reddit_items i LEFT JOIN subreddit_rules r ON r.subreddit = i.subreddit
+               WHERE i.status IN ('review', 'reviewed') AND COALESCE(i.subreddit, '') != ''
+                 AND COALESCE(i.relevance_score, i.rule_score) >= ?
+                 AND (r.fetched_at IS NULL OR r.fetched_at < ?)
+               GROUP BY i.subreddit ORDER BY best DESC LIMIT ?""",
+            (min_score, refresh_before, limit),
+        ).fetchall()
+        return [r[0] for r in rows]
+
+    def save_rules(self, subreddit: str, rules: list[dict], policy: str) -> None:
+        self.conn.execute(
+            "INSERT INTO subreddit_rules(subreddit, rules, policy, fetched_at) VALUES (?,?,?,?) "
+            "ON CONFLICT(subreddit) DO UPDATE SET rules = excluded.rules, policy = excluded.policy, "
+            "fetched_at = excluded.fetched_at",
+            (subreddit, json.dumps(rules, ensure_ascii=False), policy, now_iso()),
+        )
+        self.conn.commit()
+
+    def rules_map(self) -> dict[str, dict]:
+        """{"r/name": {"rules": [...], "policy": ..., "fetched_at": ...}}"""
+        return {
+            r["subreddit"]: {"rules": json.loads(r["rules"]), "policy": r["policy"], "fetched_at": r["fetched_at"]}
+            for r in self.conn.execute("SELECT * FROM subreddit_rules").fetchall()
+        }
 
     # export -----------------------------------------------------------------
 

@@ -53,6 +53,10 @@
   .actions button { padding:4px 8px; font-size:12px; }
   .empty { padding:40px; text-align:center; color:var(--muted); }
   .rules { color:var(--muted); font-size:11px; }
+  .brand { display:inline-block; margin-top:4px; padding:1px 6px; border-radius:4px; font-size:11px; font-weight:600; border:1px solid var(--line); }
+  .b-yes { color:#1a7f37; border-color:#1a7f37; } .b-ask { color:#9a6700; border-color:#9a6700; }
+  .b-no { color:#cf222e; border-color:#cf222e; } .b-check { color:var(--muted); }
+  .reply { margin-top:6px; padding:6px 8px; background:#f4f4f6; border-radius:6px; font-size:12px; white-space:pre-wrap; }
 </style>
 </head>
 <body>
@@ -72,6 +76,7 @@
     <label>Intent <select id="fIntent"><option value="">All</option></select></label>
     <label>Subreddit <select id="fSub"><option value="">All</option></select></label>
     <label>Keyword <select id="fKw"><option value="">All</option></select></label>
+    <label>Brand mention <select id="fBrand"><option value="">Any</option></select></label>
     <label>Type <select id="fType"><option value="">Posts and comments</option><option value="post">Posts</option><option value="comment">Comments</option></select></label>
     <label>Min score <input type="number" id="fMin" min="0" max="100" value="0"></label>
     <label><input type="checkbox" id="fNew"> New only</label>
@@ -103,6 +108,8 @@ const LABEL = {
   comparison: "Comparison", problem_seeking_solution: "Problem, wants a solution",
   workflow_problem: "Workflow problem", general_discussion: "General discussion", low_relevance: "Low relevance"
 };
+const BRAND = { yes_with_disclosure: ["Lynkk OK, disclose", "b-yes"], only_if_asked: ["Lynkk only if asked", "b-ask"],
+                no: ["No brand mention", "b-no"], check_rules: ["Check rules first", "b-check"] };
 const PRI = { high_purchase_intent:0, tool_recommendation:0, comparison:0, problem_seeking_solution:1, workflow_problem:1, general_discussion:2, low_relevance:3 };
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -122,7 +129,8 @@ function init() {
   fill("fIntent", Object.keys(LABEL).filter(k => DATA.rows.some(r => r.intent === k)).map(k => [k, LABEL[k]]));
   fill("fSub", uniq(DATA.rows.map(r => r.subreddit)).map(x => [x, x]));
   fill("fKw", uniq(DATA.rows.flatMap(r => kws(r))).map(x => [x, x]));
-  ["fIntent","fSub","fKw","fType","fMin","fNew","fText"].forEach(id => $(id).addEventListener("input", render));
+  fill("fBrand", Object.keys(BRAND).filter(k => DATA.rows.some(r => r.brand_mention === k)).map(k => [k, BRAND[k][0]]));
+  ["fIntent","fSub","fKw","fBrand","fType","fMin","fNew","fText"].forEach(id => $(id).addEventListener("input", render));
   document.querySelectorAll("th.sort").forEach(th => th.addEventListener("click", () => {
     const k = th.dataset.k;
     sortDir = sortKey === k ? -sortDir : (k === "subreddit" ? 1 : -1);
@@ -140,10 +148,10 @@ function fill(id, opts) { $(id).insertAdjacentHTML("beforeend", opts.map(([v, l]
 function short(s, n) { s = String(s || "").replace(/\s+/g, " ").trim(); return s.length > n ? s.slice(0, n - 1) + "…" : s; }
 
 function visible() {
-  const it = $("fIntent").value, sub = $("fSub").value, kw = $("fKw").value, ty = $("fType").value;
+  const it = $("fIntent").value, sub = $("fSub").value, kw = $("fKw").value, ty = $("fType").value, br = $("fBrand").value;
   const min = +$("fMin").value || 0, onlyNew = $("fNew").checked, q = $("fText").value.toLowerCase().trim();
   let rows = DATA.rows.filter(r =>
-    (!it || r.intent === it) && (!sub || r.subreddit === sub) && (!kw || kws(r).includes(kw)) &&
+    (!it || r.intent === it) && (!sub || r.subreddit === sub) && (!kw || kws(r).includes(kw)) && (!br || r.brand_mention === br) &&
     (!ty || r.type === ty) && (r.relevance_score || 0) >= min && (!onlyNew || r._new) &&
     (!q || [r.title, r.content, r.pain_point, r.username].join(" ").toLowerCase().includes(q)));
   if (sortKey) {
@@ -166,17 +174,25 @@ function render() {
       <td class="score">${r.relevance_score ?? ""}${r._new ? '<br><span class="new">NEW</span>' : ""}<div class="rules">${r.reviewed_by === "claude" ? "reviewed" : "rules only"}</div></td>
       <td><span class="pill p${p}">${esc(LABEL[r.intent] || r.intent)}</span><div class="meta">${r.intent_score ?? ""}</div></td>
       <td><a href="${esc(r.author_url)}" target="_blank" rel="noopener">u/${esc(r.username)}</a></td>
-      <td>${esc(r.subreddit)}<div class="meta">${esc(r.type)}</div></td>
+      <td>${esc(r.subreddit)}<div class="meta">${esc(r.type)}</div>${brandTag(r)}</td>
       <td><div class="content" id="c${i}"><div class="t">${esc(title)}</div><div class="b">${esc(r.content)}</div>
           ${String(r.content || "").length > 400 ? `<span class="more" onclick="this.parentNode.classList.toggle('open')">Show all</span>` : ""}</div></td>
       <td>${esc(r.keyword_matched)}</td>
-      <td class="pain">${esc(r.pain_point)}${r.reply_opportunity ? `<div class="why">${esc(r.reply_opportunity)}</div>` : ""}</td>
+      <td class="pain">${esc(r.pain_point)}${r.reply_opportunity ? `<div class="why">${esc(r.reply_opportunity)}</div>` : ""}${r.guidelines_note ? `<div class="why">Rules: ${esc(r.guidelines_note)}</div>` : ""}${r.recommended_reply ? `<div class="reply">${esc(r.recommended_reply)}</div>` : ""}</td>
       <td class="meta">${esc((r.created_at || "").slice(0, 10))}</td>
       <td class="actions"><a href="${esc(r.reddit_url)}" target="_blank" rel="noopener">Open</a>
-          <button class="ghost" data-id="${esc(r.id)}">Copy reply context</button></td>
+          <button class="ghost" data-id="${esc(r.id)}">Copy reply context</button>
+          ${r.recommended_reply ? `<button class="ghost" data-reply="${esc(r.id)}">Copy reply</button>` : ""}</td>
     </tr>`;
   }).join("");
   document.querySelectorAll("button[data-id]").forEach(b => b.onclick = () => copyContext(b));
+  document.querySelectorAll("button[data-reply]").forEach(b => b.onclick = () =>
+    copyText(b, DATA.rows.find(x => x.id === b.dataset.reply).recommended_reply));
+}
+
+function brandTag(r) {
+  const [label, cls] = BRAND[r.brand_mention] || BRAND.check_rules;
+  return `<div class="brand ${cls}" title="${esc(r.subreddit_rules)}">${label}</div>`;
 }
 
 function contextFor(r) {
@@ -184,7 +200,8 @@ function contextFor(r) {
     `Draft a Reddit reply for opportunity ${r.id}. Follow docs/REPLY.md and docs/LYNKK.md. Draft only, I will post it myself.`,
     ``, `Subreddit: ${r.subreddit}`, `URL: ${r.reddit_url}`, `Type: ${r.type}`, `Username: u/${r.username}`,
     `Intent: ${LABEL[r.intent] || r.intent} (${r.intent_score})`, `Pain point: ${r.pain_point || ""}`,
-    `Potential use case: ${r.potential_use_case || ""}`, `Context: ${r.context || ""}`, ``,
+    `Potential use case: ${r.potential_use_case || ""}`, `Context: ${r.context || ""}`,
+    `Brand mention: ${(BRAND[r.brand_mention] || BRAND.check_rules)[0]}`, `Subreddit rules: ${r.subreddit_rules || ""}`, ``,
   ];
   if (r.type === "comment") {
     lines.push(`Parent post title: ${r.title || r._parent_title}`, `Parent post: ${r.parent_post_url || ""}`,
@@ -196,8 +213,10 @@ function contextFor(r) {
 }
 
 async function copyContext(btn) {
-  const r = DATA.rows.find(x => x.id === btn.dataset.id);
-  const text = contextFor(r);
+  copyText(btn, contextFor(DATA.rows.find(x => x.id === btn.dataset.id)));
+}
+
+async function copyText(btn, text) {
   try { await navigator.clipboard.writeText(text); }
   catch { const t = document.createElement("textarea"); t.value = text; document.body.appendChild(t); t.select(); document.execCommand("copy"); t.remove(); }
   const old = btn.textContent; btn.textContent = "Copied"; setTimeout(() => btn.textContent = old, 1200);

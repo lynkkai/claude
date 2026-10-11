@@ -10,8 +10,8 @@ drafting replies.
 
 - **Never post, comment, vote or message on Reddit**, and never try to log in
   to Reddit. Replies are drafts for a human.
-- Reddit data comes only through `uv run leads fetch`, which reads Reddit's
-  public feeds and waits as long as Reddit's rate limit asks. Never fetch
+- Reddit data comes only through `uv run leads fetch` and `uv run leads rules`,
+  which read Reddit's public feeds and wait as long as Reddit's rate limit asks. Never fetch
   Reddit any other way (no curl, no WebFetch, no browser, no scraping
   pages), and never shorten the waits.
 - Claims about Lynkk only from `docs/LYNKK.md`.
@@ -25,6 +25,7 @@ drafting replies.
 uv run leads fetch            # search Reddit, store new items (slow: ~1 request a minute)
 uv run leads fetch --quick    # at most 12 requests
 uv run leads fetch --rescan   # re-process items seen before
+uv run leads rules            # read subreddit rules for new candidates (~1 request a minute)
 uv run leads review next      # write the next batch to work/batch.json
 uv run leads review apply     # save work/batch.results.jsonl
 uv run leads export           # output/ CSVs + output/report.html
@@ -40,6 +41,8 @@ uv run leads status           # counts and last run
    allow about one request a minute. Run it in the background and wait for it
    to finish; don't poll with sleep and don't stop it early. Tell the person
    it's running and roughly how long it takes.
+   Then `uv run leads rules` (also in the background, up to 15 minutes) so
+   the review can see each subreddit's rules.
 3. Review loop, until `review next` says nothing is waiting:
    - `uv run leads review next`
    - Read `work/batch.json` and classify every item per `docs/CLASSIFY.md`.
@@ -49,7 +52,9 @@ uv run leads status           # counts and last run
 5. Report back in a few lines: how many new items, how many relevant, the top
    five opportunities (intent, one-line pain point, URL), and where the files
    are (`output/reddit_ai_note_opportunities_<date>.csv`,
-   `output/all_opportunities.csv`, `output/report.html`). Offer to open the
+   `output/all_opportunities.csv`, `output/report.html`,
+   `output/subreddit_trends.csv`, `output/keyword_trends.csv`). For each top
+   opportunity say whether Lynkk may be named (`brand_mention`). Offer to open the
    report (`open output/report.html`) or draft replies.
 
 Don't run `scripts/daily.sh` from inside Claude Code: it starts its own Claude
@@ -66,7 +71,7 @@ show the draft in chat. Never post it.
 | Path | What |
 |---|---|
 | `config.toml` | Keywords, subreddits, time range, thresholds, limits |
-| `docs/CLASSIFY.md` | How to classify an item (intent, scores, pain point) |
+| `docs/CLASSIFY.md` | How to classify an item (intent, scores, pain point, brand mention, recommended reply) |
 | `docs/REPLY.md` | How to draft a reply |
 | `docs/LYNKK.md` | What Lynkk really does; the only source for product claims |
 | `data/leads.db` | SQLite: every item seen, so nothing is processed twice |

@@ -20,6 +20,7 @@ COLUMNS = [
     "created_at", "keyword_matched", "matched_keywords", "relevance_score", "intent",
     "intent_score", "pain_point", "context", "potential_use_case", "reply_opportunity",
     # extras, after the required columns
+    "brand_mention", "subreddit_rules", "guidelines_note", "recommended_reply",
     "parent_post_url", "reviewed_by", "first_seen_at",
 ]
 
@@ -61,6 +62,11 @@ def fields(item: dict) -> dict:
         "context": item.get("context"),
         "potential_use_case": item.get("potential_use_case"),
         "reply_opportunity": item.get("reply_opportunity"),
+        # Not reviewed yet means nobody has weighed the rules: check them first.
+        "brand_mention": item.get("brand_mention") or "check_rules",
+        "subreddit_rules": item.get("subreddit_rules"),
+        "guidelines_note": item.get("guidelines_note"),
+        "recommended_reply": item.get("recommended_reply"),
         "parent_post_url": item.get("parent_post_url"),
         "reviewed_by": item.get("reviewed_by"),
         "first_seen_at": item.get("first_seen_at"),

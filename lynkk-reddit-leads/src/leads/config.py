@@ -30,6 +30,8 @@ class Config:
     review_threshold: int = 25
     min_relevance: int = 50
     batch_size: int = 25
+    rules_max_per_run: int = 15
+    rules_refresh_days: int = 30
     min_seconds_between_requests: float = 2
     max_requests_per_run: int = 45
     user_agent: str = "macos:lynkk-reddit-leads:1.0 (lead research, read only)"
@@ -95,6 +97,7 @@ def load(path: Path | None = None) -> Config:
     r = raw.get("review", {})
     n = raw.get("network", {})
     e = raw.get("export", {})
+    ru = raw.get("rules", {})
     keywords = [k.strip() for k in s.get("keywords", []) if k and k.strip()]
     if not keywords:
         raise ValueError("config.toml has no keywords under [search]")
@@ -115,6 +118,8 @@ def load(path: Path | None = None) -> Config:
         review_threshold=int(sc.get("review_threshold", 25)),
         min_relevance=int(sc.get("min_relevance", 50)),
         batch_size=max(1, int(r.get("batch_size", 25))),
+        rules_max_per_run=max(1, int(ru.get("max_subreddits_per_run", 15))),
+        rules_refresh_days=max(1, int(ru.get("refresh_days", 30))),
         min_seconds_between_requests=float(n.get("min_seconds_between_requests", 2)),
         max_requests_per_run=int(n.get("max_requests_per_run", 45)),
         user_agent=n.get("user_agent") or Config.user_agent,

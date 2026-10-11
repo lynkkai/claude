@@ -4,6 +4,7 @@ Three feeds are used, all read only:
   search    https://www.reddit.com/search.rss?q=...&sort=new&t=week
   thread    https://www.reddit.com/r/<sub>/comments/<id>/.rss   (post + comments)
   comments  https://www.reddit.com/r/<a>+<b>/comments.rss        (latest comments)
+  rules     https://www.reddit.com/r/<sub>/about/rules.json      (subreddit rules)
 
 Reddit's search does not cover comments, so comments come from threads of
 matching posts and from the watched subreddits' latest comments.
@@ -49,6 +50,10 @@ class RssSource:
         post = next((i for i in items if i.type == "post"), None)
         comments = [i for i in items if i.type == "comment"]
         return post, comments
+
+    def rules(self, subreddit: str) -> str:
+        """The subreddit's rules as raw JSON ("" if it doesn't exist)."""
+        return self.http.get(f"{BASE}/r/{quote(subreddit)}/about/rules.json")
 
     def latest_comments(self, subreddits: list[str]) -> list[Item]:
         path = f"/r/{'+'.join(quote(s) for s in subreddits)}/comments.rss"

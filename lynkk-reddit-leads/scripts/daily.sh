@@ -11,6 +11,7 @@ notify() { osascript -e "display notification \"$1\" with title \"Reddit leads\"
 
 echo "=== $(date '+%Y-%m-%d %H:%M') daily run ==="
 uv run leads fetch "$@" || { notify "Fetching from Reddit failed. See logs/daily.log."; exit 1; }
+uv run leads rules || echo "Reading subreddit rules failed; replies will say to check the rules."
 
 if command -v claude >/dev/null 2>&1; then
   # The same instructions as the /review command, without its header.

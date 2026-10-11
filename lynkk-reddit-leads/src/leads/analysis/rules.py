@@ -9,6 +9,7 @@ the brief:
   +20 describes a clear pain point        -20 promotional or self-promotional
   +15 meeting transcription               -15 duplicate content
   +15 meeting summaries
+  +15 AI dictation (Lynkk's Mac app dictates into any app)
   +10 action items
   +10 recording meetings or calls
   +10 asks for alternatives
@@ -37,12 +38,14 @@ AI_NOTE = _rx(
     r"\bmeeting (assistant|bot|recorder|copilot|scribe)s?\b",
     r"\b(note|meeting)s? (app|tool|software)\b[^.?!\n]{0,40}\b(ai|transcri\w+|record\w*)",
     r"\bai (scribe|notes?|note ?taker|recorder|transcription)\b",
+    r"\b(ai|a\.i\.|gpt|llm|whisper|voice|speech to text|stt)\b[^.?!\n]{0,40}\bdictat\w+",
+    r"\bdictat\w+ (app|apps|tool|tools|software)\b",
     r"\b(ai|automatic(ally)?|auto)\b[^.?!\n]{0,40}\brecord\w*\b[^.?!\n]{0,20}\b(meetings?|calls?|conversations?|interviews?)\b",
 )
 
 ASKS_TOOL = _rx(
     r"\b(any|anyone|what|which|is there|are there|does anyone|do you guys|can anyone)\b[^.?!\n]{0,90}\b(tool|app|apps|software|service|solution|product|plugin|extension|bot|recommend\w*|suggest\w*|use|using)\b[^.!\n]{0,80}\?",
-    r"\blooking for (a|an|some|good|the best|recommendations?)?\b[^.?!\n]{0,60}\b(tool|app|software|service|solution|way|recommend\w*|note ?tak\w*|transcri\w+|assistant|recorder)",
+    r"\blooking for (a|an|some|good|the best|recommendations?)?\b[^.?!\n]{0,60}\b(tool|app|software|service|solution|way|recommend\w*|note ?tak\w*|transcri\w+|assistant|recorder|dictat\w+)",
     r"\b(need|want) (a|an|some) (good |reliable |simple |cheap |free )?(tool|app|software|service|ai|way)\b",
     r"\bbest\b[^.?!\n]{0,40}\b(tool|app|software|note ?tak\w*|transcri\w+|assistant|recorder|ai)\b[^.!\n]{0,60}\?",
     r"\b(what|which)\b[^.?!\n]{0,30}\b(do you|are you|should i)\b[^.?!\n]{0,20}\b(use|using|recommend|pick|choose)\b",
@@ -61,6 +64,7 @@ PAIN = _rx(
 )
 
 TRANSCRIPTION = _rx(r"\btranscri(be|bes|bing|ption|ptions|pt|pts|ber)\b")
+DICTATION = _rx(r"\bdictat(e|es|ed|ing|ion)\b", r"\bspeech to text\b", r"\bvoice typing\b")
 SUMMARIES = _rx(r"\bsummar(y|ies|ize|ise|izes|ises|izing|ising|ization|isation)\b", r"\bminutes of (the )?meeting\b", r"\bmeeting minutes\b")
 ACTION_ITEMS = _rx(r"\baction items?\b", r"\bfollow ?ups?\b", r"\bto ?dos?\b", r"\bnext steps\b")
 RECORDING = _rx(
@@ -159,13 +163,14 @@ def score(
     add("pain_point", 20, bool(PAIN.search(t)))
     add("transcription", 15, bool(TRANSCRIPTION.search(t)))
     add("summaries", 15, bool(SUMMARIES.search(t)))
+    add("dictation", 15, bool(DICTATION.search(t)) and ai_note)
     add("action_items", 10, bool(ACTION_ITEMS.search(t)))
     add("recording", 10, bool(RECORDING.search(t)))
     add("alternatives", 10, alternatives)
     add("recommendations", 10, bool(RECOMMENDATIONS.search(t)))
     add("relevant_thread", 10, in_relevant_thread)
 
-    core = ai_note or any(s in signals for s in ("transcription", "summaries", "recording")) or bool(
+    core = ai_note or any(s in signals for s in ("transcription", "summaries", "recording", "dictation")) or bool(
         re.search(r"\b(meeting|meetings|call|calls|zoom|teams|google meet)\b", t)
     )
     add("irrelevant_context", -30, bool(IRRELEVANT.search(t)) and not ai_note)

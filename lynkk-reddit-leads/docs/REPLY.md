@@ -6,8 +6,10 @@ comments or messages anyone on Reddit, and you must not try to.
 ## Steps
 
 1. `uv run leads draft <id>` writes `drafts/<id>.md` with the conversation.
-2. Read it. If the subreddit's rules matter (many ban self-promotion), say so
-   at the top of the draft and keep the product out unless asked.
+2. Read it. Follow its "Brand mention" line (from the subreddit's rules, see
+   `docs/CLASSIFY.md`): name Lynkk only for `yes_with_disclosure` or
+   `only_if_asked`. If the rules matter, say so at the top of the draft. If a
+   `recommended_reply` exists in the CSV, start from it.
 3. Write the reply under `## Draft reply`. Then add `## Notes for the poster`:
    what to check in the thread before posting, and any claim you left out
    because `docs/LYNKK.md` doesn't support it.

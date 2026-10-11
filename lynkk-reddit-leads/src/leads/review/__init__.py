@@ -7,7 +7,8 @@ from pathlib import Path
 
 from ..config import Config
 from ..db import DB
-from ..models import INTENTS
+from ..models import BRAND_MENTION, INTENTS
+from ..subreddit_rules import summary as rules_summary
 
 REVIEW_CONTENT_CHARS = 2500
 PARENT_EXCERPT_CHARS = 600
@@ -24,6 +25,9 @@ FIELDS = {
     "potential_use_case": str,
     "reply_opportunity": str,
     "is_promotional": bool,
+    "brand_mention": str,
+    "guidelines_note": str,
+    "recommended_reply": str,
 }
 
 
@@ -39,7 +43,8 @@ def write_batch(cfg: Config, db: DB, size: int | None = None) -> tuple[Path, int
     """Writes the next batch for review. Returns path, batch size, total waiting."""
     rows = db.pending_review(size or cfg.batch_size)
     cfg.work_dir.mkdir(parents=True, exist_ok=True)
-    items, used = [], 0
+    known_rules = db.rules_map()
+    items, sub_rules, used = [], {}, 0
     for r in rows:
         content = r["content"] or ""
         if len(content) > REVIEW_CONTENT_CHARS:
@@ -60,14 +65,23 @@ def write_batch(cfg: Config, db: DB, size: int | None = None) -> tuple[Path, int
             item["parent_post_title"] = r["parent_post_title"]
             item["parent_post_excerpt"] = (r["parent_excerpt"] or "")[:PARENT_EXCERPT_CHARS]
         size = len(json.dumps(item, ensure_ascii=False))
+        sub = r["subreddit"] or ""
+        new_rules = None
+        if sub not in sub_rules:
+            known = known_rules.get(sub)
+            new_rules = rules_summary(known["rules"], known["policy"]) if known else rules_summary([], "")
+            size += len(new_rules)
         if items and used + size > MAX_BATCH_CHARS:
             break
         items.append(item)
+        if new_rules is not None:
+            sub_rules[sub] = new_rules
         used += size
     path = batch_path(cfg)
     payload = {
         "instructions": "Classify every item using docs/CLASSIFY.md. Write one JSON object per line "
         f"to {results_path(cfg).relative_to(cfg.root)}, then run: uv run leads review apply",
+        "subreddit_rules": sub_rules,
         "items": items,
     }
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -89,6 +103,11 @@ def validate(obj: dict) -> list[str]:
             errors.append(f"{name} must be true or false")
     if obj.get("intent") not in INTENTS:
         errors.append(f"intent must be one of {', '.join(INTENTS)}")
+    if "brand_mention" in obj and obj["brand_mention"] not in BRAND_MENTION:
+        errors.append(f"brand_mention must be one of {', '.join(BRAND_MENTION)}")
+    for name in ("pain_point", "context", "potential_use_case", "reply_opportunity", "guidelines_note", "recommended_reply"):
+        if isinstance(obj.get(name), str) and ("\u2014" in obj[name] or "\u2013" in obj[name]):
+            errors.append(f"{name} has an em or en dash; use a comma, colon or full stop")
     return errors
 
 
