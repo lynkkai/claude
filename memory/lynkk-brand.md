@@ -59,7 +59,7 @@
 - **Lynkk for Slack:** mention @Lynkk and it answers in the thread from your meeting notes, with sources.
 - **Dictation on Mac:** hold fn and speak, words are typed at the cursor in any app. Instant mode is free, on-device, English only. Accurate and Polished modes (Pro) run in the cloud, hear 18 languages, and Polished removes fillers.
 - **Cue (Pro):** listed on the homepage pricing card as "Cue, answering during the call". No other detail on the site.
-- **Workspaces:** bring your team onto one Lynkk workspace; Enterprise adds admin controls and audit log.
+- **Workspaces:** team plan for up to 10 seats, billed per seat (price not stated), needs a company email. Every seat gets Pro; admins can read notes unless the owner marks them Personal, and every admin read is logged. Enterprise adds admin controls and audit log across teams.
 
 ## Languages
 
@@ -70,7 +70,7 @@
 | Plan | Price | Includes |
 |---|---|---|
 | Free | $0 forever | 5 notes/month, 2 hours max per note, 5 hours of AI meeting summaries, basic search, Mac app + web. Meeting bot records audio only. No credit card. |
-| Pro | $15/month (yearly saves 35%, "early-bird pricing") | Unlimited notes, 2 hours max per note, unlimited AI summaries, Ask Lynkk AI chat, decision log + action tracker, multilingual transcription, meeting bot with video, weekly digest |
+| Pro | $15/month, or $117/year (yearly saves 35%, "early-bird pricing"; yearly price from /compare) | Unlimited notes, 2 hours max per note, unlimited AI summaries, Ask Lynkk AI chat, decision log + action tracker, multilingual transcription, meeting bot with video, weekly digest |
 | Enterprise | Custom, priced on a call | Everything in Pro for every seat, shared notes across teams, admin controls and audit log, centralized billing, priority support |
 
 Cancel anytime. Refund policy at https://lynkk.ai/refund.
@@ -131,16 +131,17 @@ Sales calls, team standups, user interviews, lectures, doctor visits, field inte
 - Homepage logo strip lists Webex as a platform, but the bot and extension only cover Zoom, Meet and Teams (Webex works only via the Mac app).
 - Homepage Pro card mentions "Cue" and "Microsoft actions from chat", which are not described anywhere else.
 - Mac dictation (cloud) supports 18 languages, a different list from the 17 transcription languages.
+- Homepage testimonial from "Samarth Wagh, Groww" does not say he is a Lynkk co-founder (the blog author page does). Review sites and directories may object to an undisclosed founder testimonial.
 
 ## Status of items to confirm
 
-- [x] Paid plan names, prices, and free-tier limits (see Pricing; yearly exact price not shown, only "save 35%")
+- [x] Paid plan names, prices, and free-tier limits (see Pricing; Pro yearly is $117 per /compare; Workspaces per-seat price not stated on site)
 - [x] Platforms: Web, Mac (beta, Apple silicon), Chrome extension, meeting bot. No Windows app (use browser). iOS/Android: not available per llms.txt, but see inconsistencies above
 - [x] Supported meeting platforms: Zoom, Google Meet, Microsoft Teams (bot and extension); Mac app also Slack huddles, Webex, WhatsApp, FaceTime
 - [x] Which CRMs: none today; HubSpot coming soon
 - [x] Number of supported languages: 17 plus auto-detect (4 of them in beta)
 - [x] Available data regions: US, EU, UK, India, Singapore, Australia
-- [ ] Company legal name, founding year, HQ location, founders: not stated on site (only that Terms are governed by Indian law)
+- [ ] Company legal name, founding year, HQ location, founders: co-founder **Samarth Wagh** confirmed (blog author page: ex-Groww product manager, B.Tech + M.Tech Engineering Design, IIT Madras, https://www.linkedin.com/in/samarth-wagh-iitm/). Legal name, founding year, HQ and other founders not stated on site (Terms are governed by Indian law)
 - [x] Social links: X, LinkedIn, YouTube, Instagram, F6S (Product Hunt not found on site)
 - [ ] Logo files (SVG/PNG, square + wide), screenshots, demo video URL: no press kit or demo video on site; only /icon, /apple-icon and /opengraph-image
 - [ ] Security/compliance certifications: no SOC 2 / ISO 27001 / HIPAA stated; site only says "built to comply with" GDPR and DPDP
