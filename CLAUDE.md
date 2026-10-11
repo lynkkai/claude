@@ -14,11 +14,16 @@ These apply to all Lynkk copy, marketing text, and anything written in this repo
 
 ## Web access (why lynkk.ai shows as "blocked")
 
-Cloud sessions for this repo run under a **Limited network policy**. Outbound traffic goes
-through an egress proxy that only allows package registries and GitHub. Every other site,
-including lynkk.ai, reddit.com and google.com, gets `403 Forbidden` on CONNECT, and WebFetch
-fails with `getaddrinfo ENOTFOUND`. This is an environment setting, not a problem with the
-Lynkk website.
+The cloud environment was switched to **Full** network access on 2026-10-11, so new
+sessions can reach lynkk.ai and other sites. If a session is ever blocked again, the cause is
+the environment's network policy (Limited/trusted), not the Lynkk website: outbound traffic
+then goes through an egress proxy that only allows package registries and GitHub, every
+other site gets `403 Forbidden` on CONNECT, and WebFetch fails with `getaddrinfo ENOTFOUND`.
+A running session keeps the policy it started with, so a setting change only reaches new
+sessions.
+
+The site publishes a good machine-readable summary at https://lynkk.ai/llms.txt; start
+research there, then check /pricing and /faq.
 
 - **Fix (done by the user, not from inside a session):** open the cloud environment menu in
   the session title bar, choose Edit, then under Network access either pick a broader level
