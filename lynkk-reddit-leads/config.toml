@@ -58,19 +58,19 @@ search_competitor_alternatives = true
 subreddits = ["all"]
 
 # How far back to look: "24h", "7d", "30d", "90d", or "custom" with since.
-time_range = "7d"
+time_range = "30d"
 since = ""            # only for "custom", e.g. "2026-09-01"
 
 include_posts = true
 include_comments = true
 
 # Most new candidates (items worth a review) per run: 50, 100, 250, 500 or 1000.
-max_results = 250
+max_results = 1000
 
 [comments]
 # Comment threads under the best matching posts are read for comments.
 # Each thread is one request.
-max_threads_per_run = 15
+max_threads_per_run = 40
 thread_min_score = 40
 
 # The latest comments in these subreddits are scanned for keywords every run.
@@ -96,7 +96,7 @@ batch_size = 10
 # Each subreddit's rules (self-promotion, links, vendor posts) are read once and
 # refreshed after refresh_days. One request per subreddit, run with
 # "uv run leads rules" after a fetch.
-max_subreddits_per_run = 15
+max_subreddits_per_run = 40
 refresh_days = 30
 
 [network]
@@ -105,7 +105,7 @@ refresh_days = 30
 # This is the minimum gap between requests on top of that.
 min_seconds_between_requests = 2
 # Hard cap on requests per run (each is about a minute).
-max_requests_per_run = 45
+max_requests_per_run = 120
 # Reddit asks for a descriptive user agent. Put your Reddit username in it.
 user_agent = "macos:lynkk-reddit-leads:1.0 (lead research, read only)"
 
