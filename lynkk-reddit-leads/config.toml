@@ -41,6 +41,27 @@ keywords = [
   "AI dictation",
   "dictation app",
   "voice dictation",
+  # Question-style phrases real buyers use
+  "best AI note taker",
+  "best AI notetaker",
+  "best meeting notes app",
+  "best meeting note taker",
+  "which AI note taker",
+  "recommend an AI note taker",
+  "AI note taker recommendation",
+  "looking for an AI note taker",
+  "need an AI note taker",
+  "AI note taker for Zoom",
+  "AI note taker for Mac",
+  "note taker without a bot",
+  "bot-free note taker",
+  "record meetings without a bot",
+  "app to record meetings",
+  "best dictation app",
+  "dictation app for Mac",
+  "best AI dictation",
+  '"note taker" recommend',
+  '"meeting notes" "what do you use"',
 ]
 
 # Other meeting note products. Used to spot "alternative to X" and "X vs Y"
@@ -58,7 +79,7 @@ search_competitor_alternatives = true
 subreddits = ["all"]
 
 # How far back to look: "24h", "7d", "30d", "90d", or "custom" with since.
-time_range = "30d"
+time_range = "90d"
 since = ""            # only for "custom", e.g. "2026-09-01"
 
 include_posts = true
