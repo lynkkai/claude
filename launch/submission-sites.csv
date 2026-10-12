@@ -1,0 +1,119 @@
+id,name,url,kind,fit,why,kit,link,linkNote,originalUrl,source,status
+r-saas,/r/SaaS,https://www.reddit.com/r/SaaS/,Community,High,Core B2B SaaS audience. Use the weekly promotion thread if required.,reddit,ok,,,Original list,todo
+ai-collection,AI Collection,https://www.thataicollection.com/,AI directory,High,Directory of generative AI apps. Buyers browse it by use case.,directory,ok,,,Original list,todo
+alternativeto,AlternativeTo,https://alternativeto.net/,Software marketplace,High,People search it for alternatives to Otter.ai and Fireflies. List Lynkk against them.,alternatives,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+capterra,Capterra,https://www.capterra.com/,Software marketplace,High,Business buyers compare meeting software here. One Gartner listing also covers GetApp and Software Advice.,profile,missing,"The old vendor sign-up page returns 404. Use the ""List your software"" link on capterra.com.",https://www.capterra.com/vendors/sign-up,Original list,todo
+crunchbase,Crunchbase,https://www.crunchbase.com/,Company profile,High,"The company profile investors, press and partners check first.",profile,ok,,https://www.crunchbase.com/#/home/index,Original list,todo
+future-tools,Future Tools,https://www.futuretools.io/submit-a-tool,AI directory,High,Curated AI tool directory with a large following.,directory,ok,,,Added for AI tools,todo
+futurepedia,Futurepedia,https://www.futurepedia.io/,AI directory,High,Large AI tool directory with a productivity category.,directory,missing,The /submit-tool page returns 404. Find the submit link on the homepage.,https://www.futurepedia.io/submit-tool,Added for AI tools,todo
+g2,G2,https://www.g2.com/products/new,Software marketplace,High,Has an AI meeting assistant category. Reviews here drive B2B buying decisions.,profile,moved,G2 Crowd is now G2. The old link redirects to g2.com.,https://www.g2crowd.com/products/new,Original list,todo
+getapp,GetApp,https://www.getapp.com/,Software marketplace,High,Gartner network. Covered by the Capterra listing.,profile,ok,,https://getapp.com/,Original list,todo
+product-hunt,Product Hunt,https://www.producthunt.com/,Launch platform,High,The main launch day for a product like Lynkk. Copy is ready in launch/producthunt-submission.md.,producthunt,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+saashub,SaaSHub,https://www.saashub.com/,Software marketplace,High,Software alternatives directory with good search traffic. List against Otter.ai and Fireflies.,alternatives,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+saasworthy,SaaSworthy,https://www.saasworthy.com/,Software marketplace,High,B2B software reviews with a meeting software category.,profile,bot,The site is up but blocks automated checks. Open it in a browser.,,Added for AI tools,todo
+show-hn,Show HN,https://news.ycombinator.com/showhn.html,Community,High,"Technical audience. Lead with offline-first, data residency and MCP.",showhn,ok,,,Original list,todo
+software-advice,Software Advice,https://www.softwareadvice.com/,Software marketplace,High,Gartner network. Covered by the Capterra listing.,profile,moved,The old vendor URL now says the survey has moved. Use the Capterra listing.,https://softwareadvice-markets.questionpro.com/,Original list,todo
+there-s-an-ai-for-that,There's An AI For That,https://theresanaiforthat.com/get-featured/,AI directory,High,The largest AI tool directory. Listing is paid; check current pricing.,directory,ok,,,Added for AI tools,todo
+toolify,Toolify,https://www.toolify.ai/submit,AI directory,High,Large AI tool directory with a meeting assistant category.,directory,bot,The site is up but blocks automated checks. Open it in a browser.,,Added for AI tools,todo
+r-alphaandbetausers,/r/AlphaandBetausers,https://www.reddit.com/r/alphaandbetausers/,Community,Medium,Post to recruit early users and get feedback on the voice assistant.,reddit,ok,,,Original list,todo
+r-buildinpublic,/r/buildinpublic,https://www.reddit.com/r/buildinpublic/,Community,Medium,Share build updates and launch milestones as a founder story.,reddit,ok,,,Original list,todo
+r-entrepreneurridealong,/r/EntrepreneurRideAlong,https://www.reddit.com/r/EntrepreneurRideAlong/,Community,Medium,Allows founder journey posts that mention the product.,reddit,ok,,,Original list,todo
+r-indiehackers,/r/indiehackers,https://www.reddit.com/r/indiehackers/,Community,Medium,"Founder audience. Lead with what you learned, not the pitch.",reddit,ok,,,Original list,todo
+r-microsaas,/r/microsaas,https://www.reddit.com/r/microsaas/,Community,Medium,Accepts product posts. Small B2B SaaS audience.,reddit,ok,,,Original list,todo
+r-plugyourproduct,/r/plugyourproduct,https://www.reddit.com/r/plugyourproduct/,Community,Medium,"Made for product plugs. Easy, but low reach.",reddit,ok,,,Original list,todo
+r-roastmystartup,/r/RoastMyStartup,https://www.reddit.com/r/roastmystartup,Community,Medium,Useful to stress-test positioning against other AI note takers.,reddit,ok,,,Original list,todo
+r-sideproject,/r/SideProject,https://reddit.com/r/sideproject,Community,Medium,"Big launch audience, though it favours side projects over companies.",reddit,ok,,,Original list,todo
+ai-tools-directory,AI Tools Directory,https://aitoolsdirectory.com/submit-tool,AI directory,Medium,AI tool directory.,directory,ok,,,Added for AI tools,todo
+ai-valley,AI Valley,https://aivalley.ai/submit-tool/,AI directory,Medium,AI tool directory and newsletter.,directory,ok,,,Added for AI tools,todo
+alternative-me,Alternative.me,https://alternative.me/,Software marketplace,Medium,Same idea as AlternativeTo with smaller reach.,alternatives,ok,,,Original list,todo
+awesome-indie,Awesome Indie,https://awesomeindie.com,Launch platform,Medium,Daily launch list with an engaged maker audience.,directory,ok,,,Original list,todo
+betalist,BetaList,https://betalist.com/submit,Launch platform,Medium,Early-stage startup launches. Best before or right after public launch.,directory,ok,,,Added for AI tools,todo
+dang-ai,Dang.ai,https://dang.ai/submit,AI directory,Medium,AI tool directory. Listing is paid.,directory,ok,,,Added for AI tools,todo
+easy-with-ai,Easy With AI,https://easywithai.com/submit-tool/,AI directory,Medium,AI tool directory with a productivity category.,directory,bot,The site is up but blocks automated checks. Open it in a browser.,,Added for AI tools,todo
+f6s,F6S,https://www.f6s.com/,Company profile,Medium,Startup profile that unlocks accelerator programs and perks.,profile,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+fazier,Fazier,https://fazier.com/,Launch platform,Medium,Daily launch platform.,directory,ok,,,Added for AI tools,todo
+indie-hackers,Indie Hackers,https://www.indiehackers.com/,Community,Medium,Founder community. Add a product page and share launch lessons.,reddit,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+insidr-ai-tools,Insidr AI Tools,https://www.insidr.ai/submit-tools/,AI directory,Medium,AI tool directory with a meetings category.,directory,ok,,,Added for AI tools,todo
+launchigniter,LaunchIgniter,https://launchigniter.com/submit,Launch platform,Medium,Free launch platform with a daily leaderboard.,directory,ok,,,Original list,todo
+launching-next,Launching Next,https://www.launchingnext.com/submit/,Launch platform,Medium,Free submission with a long queue. Paid option to skip it.,directory,ok,,,Original list,todo
+makeuseof,MakeUseOf,https://www.makeuseof.com/about/,Media,Medium,Covers productivity apps for a broad audience. Pitch for AI note taker roundups.,pitch,ok,,,Original list,todo
+microlaunch,Microlaunch,https://microlaunch.net/,Launch platform,Medium,Month-long launch with feedback from makers.,directory,ok,,,Added for AI tools,todo
+next-big-what,Next Big What,https://nextbigwhat.com/,Media,Medium,AI news and product coverage with a startup audience.,pitch,ok,,,Original list,todo
+peerlist-launchpad,Peerlist Launchpad,https://peerlist.io/launchpad,Launch platform,Medium,Weekly launches for a professional audience.,directory,bot,The site is up but blocks automated checks. Open it in a browser.,,Added for AI tools,todo
+postmake,Postmake,https://postmake.io/submit,Startup directory,Medium,Curated tools directory with productivity categories.,directory,ok,,,Original list,todo
+saasrow,SaasRow,https://saasrow.com/,Software marketplace,Medium,SaaS directory with category pages.,directory,ok,,,Original list,todo
+slant,Slant,https://www.slant.co/,Software marketplace,Medium,"Add Lynkk as an option on ""best AI meeting note taker"" style questions.",alternatives,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+startup-stash,Startup Stash,https://startupstash.com/,Startup directory,Medium,Curated directory of startup tools with a productivity section.,directory,ok,,,Original list,todo
+tiny-launch,Tiny Launch,https://www.tinylaunch.com,Launch platform,Medium,Launch platform with weekly rankings.,directory,ok,,,Original list,todo
+toolpilot,Toolpilot,https://www.toolpilot.ai/pages/submit-your-ai-tool,AI directory,Medium,AI tool directory with category pages.,directory,ok,,,Added for AI tools,todo
+topai-tools,TopAI.tools,https://topai.tools/submit,AI directory,Medium,AI tool directory with use-case pages.,directory,bot,The site is up but blocks automated checks. Open it in a browser.,,Added for AI tools,todo
+uneed,Uneed,https://www.uneed.best/submit-a-tool,Launch platform,Medium,Daily launch platform with an engaged maker audience.,directory,ok,,,Added for AI tools,todo
+wellfound-angellist,Wellfound (AngelList),https://wellfound.com/,Company profile,Medium,"Now Wellfound. A company profile helps hiring and credibility, not launch traffic.",profile,moved,angel.co redirects to wellfound.com.,https://angel.co/,Original list,todo
+r-design-critiques,/r/Design_Critiques,https://www.reddit.com/r/design_critiques/,Community,Low,Only useful for feedback on the landing page design.,reddit,ok,,,Original list,todo
+r-entrepreneur,/r/Entrepreneur,https://reddit.com/r/entrepreneur,Community,Low,"Large, but strict on self-promotion. Contribute first, pitch rarely.",reddit,ok,,,Original list,todo
+r-imadethis,/r/IMadeThis,https://reddit.com/r/imadethis,Community,Low,Mostly creative and hobby projects.,reddit,ok,,,Original list,todo
+r-indiebiz,/r/IndieBiz,https://www.reddit.com/r/indiebiz/,Community,Low,Small community with little B2B traffic.,reddit,ok,,,Original list,todo
+r-ladybusiness,/r/LadyBusiness,https://www.reddit.com/r/ladybusiness/,Community,Low,Community for women in business. Post only if a founder is a member.,reddit,ok,,,Original list,todo
+r-shamelessplug,/r/shamelessplug,https://www.reddit.com/r/shamelessplug/,Community,Low,"Accepts plugs, but traffic is low quality.",reddit,ok,,,Original list,todo
+r-smallbusiness,/r/SmallBusiness,https://www.reddit.com/r/smallbusiness/,Community,Low,Strict no-promotion rules. Answer questions about meeting notes instead.,reddit,ok,,,Original list,todo
+r-startups,/r/Startups,https://reddit.com/r/startups,Community,Low,"Promotion only in the ""Share your startup"" threads.",reddit,ok,,,Original list,todo
+10words,10words,https://10words.io,Launch platform,Low,Quick one-line listing with small reach.,directory,ok,,,Original list,todo
+all-top-startups,All Top Startups,https://alltopstartups.com/submit-startup/,Startup directory,Low,The site now reads like a blog and is likely paid placement.,directory,ok,,,Original list,todo
+app-rater,App Rater,https://apprater.net/add/,App review site,Low,Focused on mobile apps. Lynkk is web and Mac.,directory,ok,,,Original list,todo
+appiod,Appiod,https://appiod.com/submit-app-for-review/,App review site,Low,"Mobile app reviews, often paid.",directory,ok,,,Original list,todo
+apps-listo,Apps Listo,https://appslisto.com/submit-your-app/,App review site,Low,"Mobile app review site, often paid.",directory,ok,,,Original list,todo
+apps-mamma,Apps Mamma,https://appsmamma.com/submit-your-app/,App review site,Low,"Mobile app review site, often paid.",directory,ok,,,Original list,todo
+appsthunder,AppsThunder,https://appsthunder.com/submit-your-app/,App review site,Low,"Mobile app review site, often paid.",directory,ok,,,Original list,todo
+arctic-startup,Arctic Startup,https://arcticstartup.com/,Media,Low,Nordic startup news. Only relevant with a Nordic angle.,pitch,ok,,,Original list,todo
+beta-bound,Beta Bound,https://www.betabound.com/announce/,Community,Low,Paid beta tester recruiting.,directory,ok,,,Original list,todo
+beta-testing,Beta Testing,https://betatesting.com/beta-testing,Community,Low,Paid beta tester recruiting.,directory,ok,,,Original list,todo
+crozdesk,CrozDesk,https://vendor.revleads.com/user/signup,Software marketplace,Low,"Rebranded to Revleads, a paid lead-generation service.",profile,moved,Redirects to Revleads.,https://vendor.crozdesk.com/user/signup,Original list,todo
+discover-cloud,Discover Cloud,https://www.discovercloud.com/become-a-vendor,Software marketplace,Low,Cloud software marketplace with a vendor program. Small reach.,profile,ok,,,Original list,todo
+ebool,eBool,https://www.ebool.com/submit,Startup directory,Low,Small general directory.,directory,ok,,,Original list,todo
+geekwire,GeekWire,https://geekwire.com/startup-list/,Media,Low,Pacific Northwest tech news. Only relevant with a Seattle angle.,pitch,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+getworm,Getworm,https://getworm.com/submit-startup,Startup directory,Low,Small directory with a basic site.,directory,ok,,,Original list,todo
+gust,Gust,https://www.gust.com,Company profile,Low,Investor platform. Only useful when fundraising.,profile,ok,,,Original list,todo
+inc42,Inc42,https://inc42.com/startup-submission/,Media,Low,Indian startup media. Worth a pitch if India is a target market.,pitch,ok,,,Original list,todo
+killer-startups,Killer Startups,https://killerstartups.com/submit-startup/,Startup directory,Low,Startup listing that pushes paid options.,directory,ok,,,Original list,todo
+land-book,Land-book,https://land-book.com/guidelines,Startup directory,Low,Landing page design gallery. Only if the site design stands out.,directory,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+netted,Netted,https://www.netted.net/contact-us/,Media,Low,Small tech blog with a contact form only.,pitch,ok,,,Original list,todo
+pitchwall,PitchWall,https://pitchwall.co/product/submit,Launch platform,Low,Needs an account first. Small audience.,directory,ok,,,Original list,todo
+simple-lister,Simple Lister,https://simplelister.com/,Launch platform,Low,The site would not load during the check.,directory,down,Connection error on 12 Oct 2026. Try once in a browser.,,Original list,todo
+snapmunk,SnapMunk,https://www.snapmunk.com/submit-your-startup/,Media,Low,Startup news site with a submission form.,pitch,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+stackshare,StackShare,https://stackshare.io/,Software marketplace,Low,Developer tool stacks. Only if Lynkk targets engineering teams.,directory,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+starter-story,Starter Story,https://starterstory.com/,Media,Low,Founder interviews. Pitch later with revenue numbers.,pitch,ok,,,Original list,todo
+startup-beat,Startup Beat,https://startupbeat.com/startup-beat-featured-startup-pitch-guidelines/,Media,Low,Lightning pitch submissions for startup coverage.,pitch,ok,,,Original list,todo
+startup-benchmarks,Startup Benchmarks,https://www.startupbenchmarks.com/,Software marketplace,Low,Software comparison site for startups.,directory,ok,,,Original list,todo
+startup-buffer,Startup Buffer,https://startupbuffer.com,Startup directory,Low,Small startup directory.,directory,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+startup-inspire,Startup Inspire,https://www.startupinspire.com/submit,Startup directory,Low,Startup inspiration gallery.,directory,ok,,,Original list,todo
+startup-ranking,Startup Ranking,https://www.startupranking.com/,Startup directory,Low,Ranking site with little referral traffic.,directory,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+startup-tracker,Startup Tracker,https://startuptracker.io/,Startup directory,Low,Startup database with little traffic.,directory,ok,,,Original list,todo
+startup88,Startup88,https://startup88.com/,Startup directory,Low,Small startup showcase.,directory,ok,,,Original list,todo
+startupbase,StartupBase,https://startupbase.io/submit,Startup directory,Low,Needs an account first. Small audience.,directory,ok,,,Original list,todo
+startupblink,StartupBlink,https://www.startupblink.com/,Startup directory,Low,Startup ecosystem map. Profile only.,profile,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,todo
+startups-gallery,Startups Gallery,https://startups.gallery/,Startup directory,Low,Curated early-stage showcase.,directory,ok,,,Original list,todo
+tapscape,Tapscape,https://www.tapscape.com/,App review site,Low,Mobile app reviews and tech news.,pitch,ok,,,Original list,todo
+tech-pluto,Tech Pluto,https://www.techpluto.com/submit-a-startup/,Media,Low,Startup news site with a submission form.,pitch,ok,,,Original list,todo
+web-app-rater,Web App Rater,https://webapprater.com/submit-your-web-application-for-review-html,App review site,Low,Review site that is likely paid.,directory,ok,,,Original list,todo
+website-hunt,Website Hunt,https://www.websitehunt.co,Launch platform,Low,Small daily website launch list.,directory,ok,,,Original list,todo
+r-coupons,/r/Coupons,https://www.reddit.com/r/coupons/,Community,Skip,Consumer deals. Not a fit for a B2B meeting tool.,reddit,ok,,,Original list,skipped
+r-thesidehustle,/r/thesidehustle,https://www.reddit.com/r/thesidehustle/,Community,Skip,Side income audience. Not a fit.,reddit,ok,,,Original list,skipped
+all-my-faves,All My Faves,https://www.allmyfaves.com/,Startup directory,Skip,Consumer bookmark site with no submission route.,directory,ok,,,Original list,skipped
+all-startups,All Startups,https://www.allstartups.info/Startups/Submit,Startup directory,Skip,The site would not load (security certificate error).,directory,down,Certificate error on 12 Oct 2026. Try once in a browser before dropping it.,,Original list,skipped
+apppicker,appPicker,https://www.apppicker.com/,App review site,Skip,iPhone and iPad apps only.,directory,ok,,,Original list,skipped
+appvita,Appvita,https://www.appvita.com/,App review site,Skip,The domain now redirects to a personal website.,directory,repurposed,"Redirects to onk.io, an unrelated personal site.",,Original list,skipped
+builtinchicago,BuiltInChicago,https://www.builtinchicago.org/send-us-tip,Media,Skip,Chicago tech news. Skip unless the team is based there.,pitch,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,skipped
+collaborizm,Collaborizm,https://www.collaborizm.com,Community,Skip,The site loads an almost empty page and looks inactive.,directory,ok,,,Original list,skipped
+hacker-news,Hacker News,https://news.ycombinator.com/,Community,Skip,Same as the Show HN row. Track it there.,showhn,ok,,,Original list,skipped
+launched,Launched,https://launched.io/SubmitStartup,Launch platform,Skip,The site would not load.,directory,down,Connection failed (502) on 12 Oct 2026.,,Original list,skipped
+loop,Loop,https://app.loopinput.com/,Community,Skip,The site would not load (security certificate error).,directory,down,Certificate error on 12 Oct 2026.,,Original list,skipped
+micro-saas-examples,Micro SaaS Examples,https://www.microsaasexamples.com/,Startup directory,Skip,For micro SaaS businesses. Lynkk does not fit the format.,directory,ok,,,Original list,skipped
+preapps,PreApps,https://www.preapps.com/,App review site,Skip,Now a mobile app marketing agency.,directory,ok,,,Original list,skipped
+saijo-s-tools-list,Saijo's Tools List,https://saijogeorge.com/best-marketing-tools/,Startup directory,Skip,SEO and marketing tools only.,directory,ok,,,Original list,skipped
+side-projectors,Side Projectors,https://www.sideprojectors.com,Community,Skip,Marketplace for buying and selling side projects.,directory,ok,,,Original list,skipped
+similarsitesearch,SimilarSiteSearch,https://www.similarsitesearch.com/tips.html,Startup directory,Skip,Website lookalike search. No real listing value.,directory,ok,,,Original list,skipped
+startup-tabs,Startup Tabs,https://startuptabs.com/,Startup directory,Skip,The domain is now an unrelated gambling site. Do not submit.,directory,repurposed,Now an unrelated gambling site.,,Original list,skipped
+state-of-tech,State of Tech,https://stateoftech.net/advertise?submit-an-app-for-review,Media,Skip,Redirects to an unrelated tech review blog.,pitch,repurposed,Redirects to howiusethis.com.,,Original list,skipped
+tech-map,Tech Map,https://thetechmap.com/,Community,Skip,"Moved to techmap.me, a local social network.",directory,moved,Redirects to techmap.me.,,Original list,skipped
+the-changelog,The Changelog,https://github.com/thechangelog/ping,Media,Skip,Covers open source projects. Lynkk is not open source.,pitch,bot,The site is up but blocks automated checks. Open it in a browser.,,Original list,skipped
+vator,Vator,https://www.vator.tv/,Media,Skip,Now a Substack newsletter with no submission route.,pitch,moved,Redirects to vatortv.substack.com.,,Original list,skipped

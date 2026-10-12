@@ -1,0 +1,618 @@
+<title>Lynkk Launch Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a control-room list. Pipeline summary on top, filters, then one row per site; a side panel holds the copy kit for the site in hand. */
+:root {
+  --bg: #eef2f4;
+  --surface: #ffffff;
+  --sunk: #e3e9ed;
+  --ink: #142028;
+  --muted: #56656f;
+  --line: #d2dbe1;
+  --accent: #0f6b7a;
+  --accent-ink: #ffffff;
+  --accent-soft: #d6ecef;
+  --good: #1f7a46;
+  --good-soft: #dcf0e3;
+  --warn: #8a5a00;
+  --warn-soft: #f7ead0;
+  --bad: #a3312a;
+  --bad-soft: #f6dcd9;
+  --s-todo: #9aa8b2;
+  --s-drafting: #c7902a;
+  --s-submitted: #2e7fb8;
+  --s-live: #1f7a46;
+  --s-rejected: #a3312a;
+  --font-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --r: 8px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1519; --surface: #152027; --sunk: #1b2830; --ink: #e3ebef; --muted: #93a4ae; --line: #2a3a44;
+    --accent: #4fb8c7; --accent-ink: #062126; --accent-soft: #163a41;
+    --good: #5fc68a; --good-soft: #163526; --warn: #e2b155; --warn-soft: #3a2d12; --bad: #ec8a80; --bad-soft: #3d1d1a;
+    --s-todo: #5d6d77; --s-drafting: #d9a440; --s-submitted: #5aa7dc; --s-live: #5fc68a; --s-rejected: #ec8a80;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1519; --surface: #152027; --sunk: #1b2830; --ink: #e3ebef; --muted: #93a4ae; --line: #2a3a44;
+  --accent: #4fb8c7; --accent-ink: #062126; --accent-soft: #163a41;
+  --good: #5fc68a; --good-soft: #163526; --warn: #e2b155; --warn-soft: #3a2d12; --bad: #ec8a80; --bad-soft: #3d1d1a;
+  --s-todo: #5d6d77; --s-drafting: #d9a440; --s-submitted: #5aa7dc; --s-live: #5fc68a; --s-rejected: #ec8a80;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 28px 64px; display: grid; gap: 22px; }
+a { color: var(--accent); }
+button, select, input, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+header { display: grid; gap: 6px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(28px, 4.4vw, 40px); line-height: 1.05; margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+h1 b { color: var(--accent); font-weight: 700; }
+.lede { margin: 0; color: var(--muted); max-width: 68ch; }
+h2 { font-family: var(--font-display); font-weight: 600; font-size: 20px; margin: 0; text-wrap: balance; }
+
+/* Summary */
+.summary { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 14px; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.panel h3 { margin: 0; font-size: 13px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.pipe { display: flex; height: 14px; border-radius: 7px; overflow: hidden; background: var(--sunk); }
+.pipe span { display: block; height: 100%; transition: flex-grow .3s; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; }
+.legend div { display: flex; align-items: center; gap: 6px; }
+.legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+.legend strong { font-family: var(--font-mono); font-weight: 500; font-variant-numeric: tabular-nums; }
+.bignum { font-family: var(--font-display); font-size: 34px; line-height: 1; font-weight: 700; font-variant-numeric: tabular-nums; }
+.bignum small { font-family: var(--font-body); font-size: 14px; color: var(--muted); font-weight: 400; margin-left: 4px; }
+.fitbars { display: grid; gap: 6px; font-size: 13px; }
+.fitbars div { display: grid; grid-template-columns: 64px 1fr 32px; align-items: center; gap: 8px; }
+.fitbars .bar { height: 8px; border-radius: 4px; background: var(--sunk); overflow: hidden; }
+.fitbars .bar span { display: block; height: 100%; background: var(--accent); }
+.fitbars .n { font-family: var(--font-mono); text-align: right; font-variant-numeric: tabular-nums; }
+.health { font-size: 13px; color: var(--muted); margin: 0; }
+
+/* Tabs */
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); overflow-x: auto; }
+.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 8px 12px; cursor: pointer; color: var(--muted); font-weight: 500; white-space: nowrap; }
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+
+/* Filters */
+.filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.filters input[type="search"] { flex: 1 1 220px; min-width: 0; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+.filters select { padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+.chipset { display: flex; gap: 4px; flex-wrap: wrap; }
+.chipset button { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 5px 12px; font-size: 13px; cursor: pointer; }
+.chipset button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.count { font-size: 13px; color: var(--muted); font-family: var(--font-mono); }
+
+/* List */
+.list { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
+.row { display: grid; grid-template-columns: minmax(0, 2.2fr) minmax(0, 2.6fr) 128px 150px; gap: 14px; align-items: center; padding: 12px 16px; border-top: 1px solid var(--line); }
+.row:first-child { border-top: 0; }
+.row.head { background: var(--sunk); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 600; padding-block: 8px; }
+.row.skip .name { color: var(--muted); }
+.site { min-width: 0; display: grid; gap: 2px; }
+.name { font-weight: 600; background: none; border: 0; padding: 0; text-align: left; cursor: pointer; color: var(--ink); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.name:hover { text-decoration-color: var(--accent); }
+.meta { font-size: 12.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; min-width: 0; }
+.meta .dom { font-family: var(--font-mono); overflow-wrap: anywhere; }
+.why { font-size: 13.5px; color: var(--muted); min-width: 0; display: flex; gap: 8px; align-items: baseline; }
+.fit { flex: none; font-size: 11.5px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; border: 1px solid transparent; }
+.fit-High { background: var(--accent); color: var(--accent-ink); }
+.fit-Medium { border-color: var(--accent); color: var(--accent); }
+.fit-Low { background: var(--sunk); color: var(--muted); }
+.fit-Skip { color: var(--muted); text-decoration: line-through; border-color: var(--line); }
+.link { font-size: 12.5px; display: inline-flex; align-items: center; gap: 6px; padding: 3px 8px; border-radius: 4px; width: fit-content; }
+.link::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.link-ok { color: var(--good); background: var(--good-soft); }
+.link-bot { color: var(--muted); background: var(--sunk); }
+.link-moved, .link-missing { color: var(--warn); background: var(--warn-soft); }
+.link-down, .link-repurposed { color: var(--bad); background: var(--bad-soft); }
+.status { padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); width: 100%; border-left: 4px solid var(--s-todo); }
+.status[data-v="drafting"] { border-left-color: var(--s-drafting); }
+.status[data-v="submitted"] { border-left-color: var(--s-submitted); }
+.status[data-v="live"] { border-left-color: var(--s-live); }
+.status[data-v="rejected"] { border-left-color: var(--s-rejected); }
+.status[data-v="skipped"] { border-left-color: var(--line); color: var(--muted); }
+.empty { padding: 36px 20px; text-align: center; color: var(--muted); display: grid; gap: 6px; justify-items: center; }
+.empty strong { color: var(--ink); font-size: 16px; }
+.lbl { display: none; }
+
+@media (max-width: 820px) {
+  .summary { grid-template-columns: minmax(0, 1fr); }
+  .row.head { display: none; }
+  .row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; }
+  .site, .why { grid-column: 1 / -1; }
+}
+
+/* Side panel */
+.scrim { position: fixed; inset: 0; background: rgba(8, 16, 20, .4); z-index: 10; }
+.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(560px, 100%); background: var(--surface); border-left: 1px solid var(--line); z-index: 11; display: flex; flex-direction: column; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.drawer-head { padding: 16px 20px; border-bottom: 1px solid var(--line); display: flex; gap: 12px; align-items: flex-start; }
+.drawer-head > div { flex: 1; min-width: 0; display: grid; gap: 4px; }
+.drawer-body { overflow-y: auto; padding: 18px 20px 40px; display: grid; gap: 18px; align-content: start; }
+.x { background: var(--sunk); border: 0; border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+.btn { display: inline-flex; align-items: center; gap: 6px; background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 6px; padding: 8px 14px; font-weight: 600; text-decoration: none; cursor: pointer; width: fit-content; }
+.btn.ghost { background: var(--sunk); color: var(--ink); font-weight: 500; }
+.field { display: grid; gap: 4px; }
+.field label { font-size: 12.5px; font-weight: 600; color: var(--muted); }
+.field input, .field textarea { border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; background: var(--surface); width: 100%; }
+.field textarea { min-height: 84px; resize: vertical; }
+.saved { font-size: 12px; color: var(--good); min-height: 1em; }
+.note { font-size: 13.5px; padding: 10px 12px; border-radius: 6px; background: var(--sunk); color: var(--ink); }
+.note.warn { background: var(--warn-soft); }
+.note.bad { background: var(--bad-soft); }
+.byline { font-size: 12px; color: var(--muted); }
+
+/* Copy kits */
+.kit { display: grid; gap: 12px; }
+.kit-intro { margin: 0; color: var(--muted); font-size: 14px; }
+.block { border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); }
+.block-head { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-bottom: 1px solid var(--line); background: var(--sunk); border-radius: var(--r) var(--r) 0 0; }
+.block-head strong { font-size: 13px; flex: 1; }
+.chars { font-family: var(--font-mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chars.over { color: var(--bad); font-weight: 500; }
+.copy { background: var(--surface); border: 1px solid var(--line); border-radius: 5px; padding: 3px 10px; font-size: 12.5px; cursor: pointer; }
+.copy.done { color: var(--good); border-color: var(--good); }
+.block pre { margin: 0; padding: 12px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--font-body); font-size: 14px; }
+.todo { background: var(--warn-soft); color: var(--warn); padding: 0 3px; border-radius: 3px; }
+.kitgrid { display: grid; gap: 28px; }
+.kitgrid section { display: grid; gap: 12px; }
+.kitgrid h2 small { font-family: var(--font-body); font-size: 13px; color: var(--muted); font-weight: 400; margin-left: 8px; }
+
+/* Checklist */
+.checks { display: grid; gap: 8px; max-width: 760px; }
+.checks label { display: flex; gap: 10px; align-items: flex-start; padding: 10px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; cursor: pointer; }
+.checks input { margin-top: 4px; accent-color: var(--accent); }
+.checks span small { display: block; color: var(--muted); font-size: 13px; }
+.order { display: grid; gap: 10px; max-width: 760px; counter-reset: wave; }
+.order div { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
+.order strong { display: block; }
+.order span { color: var(--muted); font-size: 14px; }
+.foot { font-size: 12.5px; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Launch distribution · lynkk.ai</div>
+    <h1>Lynkk <b>Launch Tracker</b></h1>
+    <p class="lede">Every place worth posting Lynkk, how well it fits an AI meeting assistant, whether the link still works, and where each submission stands. Open a site to get the copy to paste.</p>
+  </header>
+
+  <div class="summary" id="summary">
+    <div class="panel">
+      <h3>Submissions in scope</h3>
+      <div class="bignum" id="sum-done">…<small>loading</small></div>
+      <div class="pipe" id="pipe" aria-hidden="true"></div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="panel">
+      <h3>Fit for Lynkk</h3>
+      <div class="fitbars" id="fitbars"></div>
+      <p class="health" id="health"></p>
+    </div>
+  </div>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="tab-sites" aria-selected="true" data-tab="sites">Sites</button>
+    <button role="tab" id="tab-kits" aria-selected="false" data-tab="kits">Copy kits</button>
+    <button role="tab" id="tab-prep" aria-selected="false" data-tab="prep">Before you submit</button>
+  </nav>
+
+  <section id="view-sites" style="display:grid;gap:14px">
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search sites, types or notes" aria-label="Search sites">
+      <div class="chipset" id="fitchips" aria-label="Filter by fit"></div>
+      <select id="kind" aria-label="Filter by type"><option value="">All types</option></select>
+      <select id="stat" aria-label="Filter by status"><option value="">All statuses</option></select>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="list" id="list">
+      <div class="empty"><strong>Loading sites</strong><span>The site list comes from this page's shared store.</span></div>
+    </div>
+  </section>
+
+  <section id="view-kits" hidden>
+    <div class="kitgrid" id="kitgrid"></div>
+  </section>
+
+  <section id="view-prep" hidden style="display:grid;gap:22px">
+    <div style="display:grid;gap:10px">
+      <h2>Suggested order</h2>
+      <div class="order">
+        <div><strong>Week 1: profiles and marketplaces</strong><span>Crunchbase, G2, Capterra (covers GetApp and Software Advice), SaaSworthy. These take days to approve, so start them first.</span></div>
+        <div><strong>Week 1-2: AI directories</strong><span>There's An AI For That, Futurepedia, Toolify, Future Tools, AI Collection, then the Medium-fit AI directories.</span></div>
+        <div><strong>Launch day: Product Hunt</strong><span>Then Show HN the same week, and /r/SaaS in its promotion thread.</span></div>
+        <div><strong>Launch week: alternatives sites</strong><span>AlternativeTo and SaaSHub, listed against Otter.ai, Fireflies.ai and Fathom.</span></div>
+        <div><strong>Weeks 2-4: smaller launch platforms and media</strong><span>Uneed, Microlaunch, Peerlist, BetaList, Fazier, Tiny Launch, then pitches to MakeUseOf and NextBigWhat.</span></div>
+      </div>
+    </div>
+    <div style="display:grid;gap:10px">
+      <h2>Have these ready</h2>
+      <p class="kit-intro">Most directories ask for these. They are still open in the brand notes, so confirm them once and reuse them everywhere. Ticks are saved in this browser only.</p>
+      <div class="checks" id="checks"></div>
+    </div>
+  </section>
+
+  <p class="foot" id="foot">Sources: the PlacesToPostYourStartup list (CC0) plus AI tool directories added for Lynkk. Links checked 12 Oct 2026.</p>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-labelledby="d-name" role="dialog">
+  <div class="drawer-head">
+    <div>
+      <div class="eyebrow" id="d-kind"></div>
+      <h2 id="d-name"></h2>
+      <div class="meta"><span class="dom" id="d-dom"></span></div>
+    </div>
+    <button class="x" id="d-close" aria-label="Close">Close</button>
+  </div>
+  <div class="drawer-body" id="d-body"></div>
+</aside>
+
+<script>
+(function () {
+  "use strict";
+  const STATUSES = [
+    ["todo", "To do"], ["drafting", "Drafting"], ["submitted", "Submitted"],
+    ["live", "Live"], ["rejected", "Rejected"], ["skipped", "Skipped"]
+  ];
+  const STATUS_LABEL = Object.fromEntries(STATUSES);
+  const FITS = ["High", "Medium", "Low", "Skip"];
+  const FIT_RANK = { High: 0, Medium: 1, Low: 2, Skip: 3 };
+  const LINK_LABEL = { ok: "Live", bot: "Up, blocks bots", moved: "Moved", missing: "Page missing", down: "Unreachable", repurposed: "Repurposed" };
+
+  const KITS = {
+    directory: {
+      title: "Directory listing",
+      intro: "For AI directories, launch platforms and startup lists. Paste the field that matches each form box.",
+      blocks: [
+        ["Name", "Lynkk", 40],
+        ["Website", "https://lynkk.ai"],
+        ["Tagline", "Your AI teammate for every meeting: before, during, after", 60],
+        ["Short description", "Lynkk joins your meetings, speaks when needed, remembers everything, and turns every conversation into notes, tasks, CRM updates and Jira tickets.", 160],
+        ["Long description", "Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and speaks when you need it: ask for past context, pull up documents, and get answers live by voice. Within 30 seconds after, you get structured notes, assigned action items, updated CRM fields, created Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Jira, Calendly, Cal.com, or anything via MCP. Start free."],
+        ["Category", "AI meeting assistant (also: AI note taker, Productivity, Transcription)"],
+        ["Tags", "AI meeting assistant, AI note taker, meeting notes, conversation intelligence, transcription, productivity, sales, CRM automation, Jira, knowledge graph, MCP"],
+        ["Pricing", "Freemium (free plan available)"],
+        ["Contact email", "marketing@lynkk.ai"]
+      ]
+    },
+    alternatives: {
+      title: "Alternatives listing",
+      intro: "For AlternativeTo, SaaSHub, Alternative.me and Slant. These sites rank you next to the tools people already know, so name them.",
+      blocks: [
+        ["List as an alternative to", "Otter.ai, Fireflies.ai, Fathom, Read AI, tl;dv, Granola, Avoma"],
+        ["Short description", "Lynkk joins your meetings, speaks when needed, remembers everything, and turns every conversation into notes, tasks, CRM updates and Jira tickets.", 160],
+        ["How it differs", "Most AI note takers only start working after the call. Lynkk also brings up context from past meetings before the call and answers questions by voice during it. About 30 seconds after, you get notes, action items, CRM updates and Jira tickets. It records in-person conversations too, works offline, supports many languages, and lets you choose the region where your data is processed.", 500],
+        ["Feature tags", "Meeting transcription, Meeting summaries, Action items, Voice assistant, In-person recording, Offline mode, Multilingual, Data residency, CRM integration, Jira integration, Calendar integration, MCP"],
+        ["Platforms", "Web, Mac"],
+        ["Pricing", "Freemium"]
+      ]
+    },
+    producthunt: {
+      title: "Product Hunt",
+      intro: "The full field-by-field copy, alternates and maker comment live in launch/producthunt-submission.md. The primary picks are below.",
+      blocks: [
+        ["Tagline", "One AI for every meeting: before, during and after", 60],
+        ["Description", "Lynkk joins your meetings, brings context from past calls, answers by voice when you need it, and within 30 seconds turns the conversation into notes, action items, CRM updates and Jira tickets. Online or in person. Multilingual. Offline-first.", 260],
+        ["Topics", "Productivity, Artificial Intelligence, Meetings"]
+      ]
+    },
+    reddit: {
+      title: "Community post",
+      intro: "For Reddit, Indie Hackers and similar communities. Read each community's self-promotion rules first; many only allow product posts in a weekly thread. Ask a real question so the post invites replies.",
+      blocks: [
+        ["Title", "We built an AI meeting assistant that answers out loud during the call. Would you use that?", 300],
+        ["Body", "Hi all. We've been building Lynkk (lynkk.ai), an AI meeting assistant, and we'd like feedback from people who spend a lot of time in meetings.\n\nThe problem we kept running into: note takers send a summary after the call, but you still walk into the next meeting without remembering what was promised in the last one.\n\nWhat Lynkk does:\n- Before a call, it shows context from past meetings: what was discussed, what's still open, and who said what.\n- During the call, it can join and answer by voice when you ask it something, like \"what did we agree on pricing last week?\"\n- About 30 seconds after, you get notes, action items, CRM updates and Jira tickets.\n\nIt also records in-person conversations, works offline, handles multiple languages, and lets you pick the region where your data is processed.\n\nThere's a free plan if you want to try it. Two questions for you: would a voice assistant in your meetings be useful or distracting? And what would you need to trust it with your calls?"]
+      ]
+    },
+    showhn: {
+      title: "Show HN",
+      intro: "Hacker News readers want to know how it works and want to try it without friction. Fill in the TODO with real technical detail before posting, and stay in the thread to answer questions.",
+      blocks: [
+        ["Title", "Show HN: Lynkk, an AI meeting assistant that answers by voice during calls", 80],
+        ["URL", "https://lynkk.ai"],
+        ["Text", "Hi HN. Lynkk is a meeting assistant that works across the whole meeting, not only the recording.\n\nBefore a call it pulls up what was discussed and left open in earlier meetings with the same people. During the call you can ask it a question and it answers out loud. About 30 seconds after, it writes notes and action items, updates CRM fields and creates Jira tickets.\n\nA few choices we made that might interest people here:\n- Offline-first. It keeps recording and working without a connection.\n- Data residency. You pick a region and every model behind Lynkk runs there.\n- MCP support, so you can connect it to your own tools.\n- It records in-person conversations, not only video calls.\n\nTODO: 2-3 sentences on how it works (speech pipeline, how the knowledge graph is built, how offline mode syncs).\n\nThere's a free plan. We'd love feedback, especially on the voice assistant: where it helps and where it gets in the way."]
+      ]
+    },
+    profile: {
+      title: "Company profile",
+      intro: "For Crunchbase, G2, Capterra, SaaSworthy, Wellfound and F6S. These forms ask for company facts that are still open in the brand notes; the TODO items need real values.",
+      blocks: [
+        ["Company name", "Lynkk"],
+        ["Website", "https://lynkk.ai"],
+        ["One-line description", "Lynkk turns every meeting, online or in person, into structured, searchable notes, action items, and a knowledge graph.", 160],
+        ["Product description", "Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings. During the meeting, it joins and answers by voice when you need it. Within 30 seconds after, you get structured notes, assigned action items, updated CRM fields and Jira tickets, with everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, and lets you choose the region where your data is processed."],
+        ["Category", "AI Meeting Assistants (G2), Meeting Software / Transcription Software (Capterra)"],
+        ["Deployment", "Web, Mac desktop app"],
+        ["Integrations", "Calendar, Jira, Calendly, Cal.com, CRM, MCP"],
+        ["Pricing", "Freemium. TODO: paid plan names and prices"],
+        ["Company facts", "TODO: legal name, founded year, HQ city, founders, employee count, LinkedIn URL, X/Twitter handle"]
+      ]
+    },
+    pitch: {
+      title: "Media pitch",
+      intro: "For tech news sites and blogs. Keep it short, offer a demo, and personalise the first line for each outlet.",
+      blocks: [
+        ["Subject", "Lynkk: an AI meeting assistant that works before, during and after the call", 90],
+        ["Email", "Hi [name],\n\n[One line on a piece they wrote about AI note takers or meetings.]\n\nWe're launching Lynkk (lynkk.ai), an AI meeting assistant that does more than take notes. Before a call it shows what was left open in past meetings. During the call it answers questions out loud. About 30 seconds after, it writes notes and action items and updates the CRM and Jira.\n\nIt also records in-person conversations, works offline, and lets companies choose the region where their data is processed, which matters for teams in regulated industries.\n\nHappy to set up a 15-minute demo or give you a test account. Screenshots and a short video are here: TODO link.\n\nThanks,\nTODO name, Lynkk\nmarketing@lynkk.ai"]
+      ]
+    }
+  };
+  const PREP = [
+    ["Logo files", "Square and wide, SVG and PNG. Most directories ask for a square icon of at least 240 px."],
+    ["Screenshots", "3-5 images at 1270x760 or larger: pre-meeting context, live voice answer, notes after the call."],
+    ["Demo video", "A 60-90 second screen recording. Product Hunt, G2 and most AI directories accept a YouTube link."],
+    ["Pricing", "Paid plan names, prices and free-tier limits. Almost every directory has a pricing field."],
+    ["Platforms", "Confirm iOS, Android and Windows status. Web and Mac are confirmed."],
+    ["Meeting platforms", "Which ones Lynkk joins: Zoom, Google Meet, Microsoft Teams."],
+    ["CRMs and languages", "Which CRMs are supported, and how many languages."],
+    ["Data regions", "The list of regions customers can choose."],
+    ["Company facts", "Legal name, founded year, HQ, founders. Needed for Crunchbase, G2 and Capterra."],
+    ["Social links", "LinkedIn, X/Twitter, YouTube, Product Hunt maker profile."],
+    ["Security", "SOC 2, GDPR or other certifications, if any. G2 and Capterra buyers filter on these."]
+  ];
+
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+
+  let sites = [];      // [{id, ...data}]
+  let loaded = false;
+  let db = null, user = null, canWrite = true;
+  let openId = null;
+  const filt = { q: "", fits: new Set(["High", "Medium", "Low"]), kind: "", stat: "" };
+  try { const f = JSON.parse(store.get("lynkk-filt") || "null"); if (f) { filt.fits = new Set(f.fits); filt.kind = f.kind || ""; filt.stat = f.stat || ""; } } catch (e) {}
+  const saveFilt = () => store.set("lynkk-filt", JSON.stringify({ fits: [...filt.fits], kind: filt.kind, stat: filt.stat }));
+
+  function domain(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return u; } }
+
+  // ---------- Summary ----------
+  function renderSummary() {
+    const inScope = sites.filter((s) => s.fit !== "Skip" && s.status !== "skipped");
+    const by = Object.fromEntries(STATUSES.map(([k]) => [k, 0]));
+    inScope.forEach((s) => { by[s.status] = (by[s.status] || 0) + 1; });
+    const done = by.live + by.submitted;
+    const bn = $("sum-done"); bn.textContent = loaded ? String(done) : "…";
+    const sm = el("small", null, loaded ? `of ${inScope.length} submitted or live` : "loading");
+    bn.appendChild(sm);
+    const pipe = $("pipe"); pipe.replaceChildren();
+    const legend = $("legend"); legend.replaceChildren();
+    ["live", "submitted", "drafting", "rejected", "todo"].forEach((k) => {
+      const span = el("span"); span.style.flexGrow = by[k] || 0; span.style.background = `var(--s-${k})`; pipe.appendChild(span);
+      const d = el("div"); const i = el("i"); i.style.background = `var(--s-${k})`; d.append(i, el("span", null, STATUS_LABEL[k]), el("strong", null, loaded ? String(by[k] || 0) : "…")); legend.appendChild(d);
+    });
+    const fb = $("fitbars"); fb.replaceChildren();
+    const max = Math.max(1, ...FITS.map((f) => sites.filter((s) => s.fit === f).length));
+    FITS.forEach((f) => {
+      const n = sites.filter((s) => s.fit === f).length;
+      const row = el("div"); const bar = el("div", "bar"); const fill = el("span"); fill.style.width = (n / max * 100) + "%";
+      if (f === "Skip") fill.style.background = "var(--line)"; else if (f === "Low") fill.style.background = "var(--muted)";
+      bar.appendChild(fill); row.append(el("span", null, f), bar, el("span", "n", loaded ? String(n) : "…")); fb.appendChild(row);
+    });
+    const broken = sites.filter((s) => ["down", "repurposed", "missing", "moved"].includes(s.link)).length;
+    $("health").textContent = loaded ? `${broken} of ${sites.length} links have moved, broken or changed hands since the list was written. Fixed URLs are already in place.` : "";
+  }
+
+  // ---------- Filters ----------
+  function buildFilters() {
+    const chips = $("fitchips"); chips.replaceChildren();
+    FITS.forEach((f) => {
+      const b = el("button", null, f); b.type = "button"; b.setAttribute("aria-pressed", filt.fits.has(f));
+      b.onclick = () => { filt.fits.has(f) ? filt.fits.delete(f) : filt.fits.add(f); saveFilt(); buildFilters(); renderList(); };
+      chips.appendChild(b);
+    });
+    const ks = $("kind"); const kinds = [...new Set(sites.map((s) => s.kind))].sort();
+    ks.replaceChildren(new Option("All types", "")); kinds.forEach((k) => ks.appendChild(new Option(k, k))); ks.value = filt.kind;
+    const ss = $("stat"); ss.replaceChildren(new Option("All statuses", "")); STATUSES.forEach(([k, l]) => ss.appendChild(new Option(l, k))); ss.value = filt.stat;
+  }
+  $("q").addEventListener("input", (e) => { filt.q = e.target.value.trim().toLowerCase(); renderList(); });
+  $("kind").addEventListener("change", (e) => { filt.kind = e.target.value; saveFilt(); renderList(); });
+  $("stat").addEventListener("change", (e) => { filt.stat = e.target.value; saveFilt(); renderList(); });
+
+  function visible() {
+    return sites.filter((s) => filt.fits.has(s.fit) && (!filt.kind || s.kind === filt.kind) && (!filt.stat || s.status === filt.stat) &&
+      (!filt.q || [s.name, s.kind, s.why, s.notes, s.url].join(" ").toLowerCase().includes(filt.q)))
+      .sort((a, b) => FIT_RANK[a.fit] - FIT_RANK[b.fit] || a.name.localeCompare(b.name));
+  }
+
+  function statusSelect(s) {
+    const sel = el("select", "status"); sel.id = "st-" + s.id; sel.setAttribute("aria-label", `Status for ${s.name}`);
+    STATUSES.forEach(([k, l]) => sel.appendChild(new Option(l, k)));
+    sel.value = s.status || "todo"; sel.dataset.v = sel.value; sel.disabled = !canWrite || !db;
+    sel.onchange = () => { sel.dataset.v = sel.value; setStatus(s.id, sel.value); };
+    return sel;
+  }
+
+  // ---------- List ----------
+  function renderList() {
+    const list = $("list"); list.replaceChildren();
+    if (!loaded) {
+      const e = el("div", "empty"); e.append(el("strong", null, db === null && dbChecked ? "The site list can't load here" : "Loading sites"),
+        el("span", null, db === null && dbChecked ? "This page keeps its list in a shared store. Open it on claude.ai while signed in to see and update it." : "The site list comes from this page's shared store."));
+      list.appendChild(e); $("count").textContent = ""; return;
+    }
+    if (!sites.length) {
+      const e = el("div", "empty"); e.append(el("strong", null, "No sites yet"), el("span", null, "Ask Claude to load the submission list into this tracker."));
+      list.appendChild(e); $("count").textContent = ""; return;
+    }
+    const rows = visible();
+    $("count").textContent = `${rows.length} of ${sites.length}`;
+    const head = el("div", "row head"); ["Site", "Why it fits", "Link", "Status"].forEach((h) => head.appendChild(el("div", null, h))); list.appendChild(head);
+    if (!rows.length) { const e = el("div", "empty"); e.append(el("strong", null, "No sites match"), el("span", null, "Clear the search or turn on more fit levels.")); list.appendChild(e); return; }
+    rows.forEach((s) => {
+      const r = el("div", "row" + (s.fit === "Skip" ? " skip" : ""));
+      const site = el("div", "site");
+      const nb = el("button", "name", s.name); nb.type = "button"; nb.onclick = () => openDrawer(s.id);
+      const meta = el("div", "meta"); meta.append(el("span", null, s.kind), el("span", "dom", domain(s.url)));
+      if (s.source !== "Original list") meta.appendChild(el("span", null, "Added"));
+      if (s.notes) meta.appendChild(el("span", null, "Has notes"));
+      site.append(nb, meta);
+      const why = el("div", "why"); why.append(el("span", "fit fit-" + s.fit, s.fit), el("span", null, s.why));
+      const link = el("span", "link link-" + s.link, LINK_LABEL[s.link] || s.link); if (s.linkNote) link.title = s.linkNote;
+      r.append(site, why, link, statusSelect(s));
+      list.appendChild(r);
+    });
+  }
+
+  // ---------- Drawer ----------
+  function kitView(key, compact) {
+    const k = KITS[key]; const wrap = el("div", "kit");
+    if (!compact) wrap.appendChild(el("p", "kit-intro", k.intro));
+    k.blocks.forEach(([label, text, limit]) => {
+      const b = el("div", "block"); const h = el("div", "block-head"); h.appendChild(el("strong", null, label));
+      if (limit) { const c = el("span", "chars" + (text.length > limit ? " over" : ""), `${text.length}/${limit}`); c.title = "Characters used of the usual limit"; h.appendChild(c); }
+      const cb = el("button", "copy", "Copy"); cb.type = "button";
+      cb.onclick = async () => {
+        try { await navigator.clipboard.writeText(text); cb.textContent = "Copied"; cb.classList.add("done"); setTimeout(() => { cb.textContent = "Copy"; cb.classList.remove("done"); }, 1600); }
+        catch (e) { const sel = window.getSelection(); const rng = document.createRange(); rng.selectNodeContents(pre); sel.removeAllRanges(); sel.addRange(rng); cb.textContent = "Selected, press Ctrl+C"; }
+      };
+      h.appendChild(cb);
+      const pre = el("pre");
+      text.split(/(TODO[^\n]*)/).forEach((part) => { if (/^TODO/.test(part)) pre.appendChild(el("mark", "todo", part)); else pre.appendChild(document.createTextNode(part)); });
+      b.append(h, pre); wrap.appendChild(b);
+    });
+    return wrap;
+  }
+
+  async function openDrawer(id, refocus = true) {
+    const s = sites.find((x) => x.id === id); if (!s) return;
+    openId = id;
+    $("d-kind").textContent = `${s.kind} · ${s.fit} fit`;
+    $("d-name").textContent = s.name;
+    $("d-dom").textContent = domain(s.url);
+    const body = $("d-body"); body.replaceChildren();
+
+    const top = el("div"); top.style.cssText = "display:flex;gap:8px;flex-wrap:wrap;align-items:center";
+    const go = el("a", "btn", "Open site"); go.href = s.url; go.target = "_blank"; go.rel = "noopener";
+    top.appendChild(go);
+    top.appendChild(el("span", "link link-" + s.link, LINK_LABEL[s.link] || s.link));
+    body.appendChild(top);
+
+    body.appendChild(el("div", "note", s.why));
+    if (s.linkNote) body.appendChild(el("div", "note " + (["down", "repurposed"].includes(s.link) ? "bad" : ["moved", "missing"].includes(s.link) ? "warn" : ""), s.linkNote + (s.originalUrl ? ` Original link: ${s.originalUrl}` : "")));
+
+    const f1 = el("div", "field"); const l1 = el("label", null, "Status"); l1.htmlFor = "st-" + s.id + "-d";
+    const sel = statusSelect(s); sel.id = "st-" + s.id + "-d"; f1.append(l1, sel); body.appendChild(f1);
+
+    const f2 = el("div", "field"); const l2 = el("label", null, "Listing URL once it's live"); l2.htmlFor = "d-listing";
+    const inp = el("input"); inp.id = "d-listing"; inp.type = "url"; inp.placeholder = "https://"; inp.value = s.listingUrl || ""; inp.disabled = !canWrite || !db;
+    f2.append(l2, inp); body.appendChild(f2);
+
+    const f3 = el("div", "field"); const l3 = el("label", null, "Notes"); l3.htmlFor = "d-notes";
+    const ta = el("textarea"); ta.id = "d-notes"; ta.placeholder = "Login used, fee paid, contact name, rejection reason"; ta.value = s.notes || ""; ta.disabled = !canWrite || !db;
+    const saved = el("div", "saved"); f3.append(l3, ta, saved); body.appendChild(f3);
+    const commit = async (field, value) => {
+      if ((s[field] || "") === value) return;
+      try { await patch(s.id, { [field]: value }); saved.textContent = "Saved"; setTimeout(() => (saved.textContent = ""), 1500); }
+      catch (e) { saved.textContent = "Not saved. " + (e && e.message ? e.message : "Try again."); saved.style.color = "var(--bad)"; }
+    };
+    inp.addEventListener("change", () => commit("listingUrl", inp.value.trim()));
+    ta.addEventListener("blur", () => commit("notes", ta.value));
+
+    const by = el("div", "byline"); body.appendChild(by);
+    if (s.updatedAt) {
+      const when = new Date(s.updatedAt).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
+      let who = "";
+      if (s.updatedBy && user) { try { const ps = await user.profiles([s.updatedBy]); who = (ps[s.updatedBy] && ps[s.updatedBy].name) || ""; } catch (e) {} }
+      by.textContent = `Last changed ${when}${who ? " by " + who : ""}` + (s.submittedOn ? ` · Submitted ${s.submittedOn}` : "");
+    }
+
+    const kh = el("h2", null, "Copy kit: " + KITS[s.kit].title); kh.style.fontSize = "17px";
+    body.append(kh, kitView(s.kit));
+
+    $("scrim").hidden = false; $("drawer").hidden = false; if (refocus) $("d-close").focus();
+  }
+  function closeDrawer() { openId = null; $("scrim").hidden = true; $("drawer").hidden = true; }
+  $("d-close").onclick = closeDrawer; $("scrim").onclick = closeDrawer;
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && openId) closeDrawer(); });
+
+  // ---------- Writes ----------
+  let myId = null;
+  async function patch(id, data) {
+    if (!db) throw new Error("The shared store isn't available here.");
+    const body = Object.assign({}, data, { updatedAt: new Date().toISOString() });
+    if (myId) body.updatedBy = myId;
+    try { await db.collection("sites").doc(id).update(body); }
+    catch (e) {
+      if (e && e.code === "invalid_argument") { canWrite = false; renderList(); throw new Error("You can view this tracker but not change it."); }
+      if (e && e.code === "unavailable") { await new Promise((r) => setTimeout(r, 400 + Math.random() * 600)); return db.collection("sites").doc(id).update(body); }
+      throw e;
+    }
+  }
+  async function setStatus(id, v) {
+    const s = sites.find((x) => x.id === id); const data = { status: v };
+    if (v === "submitted" && !s.submittedOn) data.submittedOn = new Date().toISOString().slice(0, 10);
+    try { await patch(id, data); } catch (e) { renderList(); }
+  }
+
+  // ---------- Tabs ----------
+  document.querySelectorAll(".tabs button").forEach((b) => b.addEventListener("click", () => showTab(b.dataset.tab)));
+  function showTab(t) {
+    document.querySelectorAll(".tabs button").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === t));
+    $("view-sites").hidden = t !== "sites"; $("view-kits").hidden = t !== "kits"; $("view-prep").hidden = t !== "prep";
+    store.set("lynkk-tab", t);
+  }
+
+  // ---------- Static views ----------
+  (function buildKits() {
+    const g = $("kitgrid");
+    Object.entries(KITS).forEach(([key, k]) => {
+      const sec = el("section"); const h = el("h2", null, k.title);
+      sec.dataset.kit = key; sec.append(h, kitView(key)); g.appendChild(sec);
+    });
+  })();
+  function updateKitCounts() {
+    document.querySelectorAll("#kitgrid section").forEach((sec) => {
+      const h = sec.querySelector("h2"); const old = h.querySelector("small"); if (old) old.remove();
+      const n = sites.filter((s) => s.kit === sec.dataset.kit && s.fit !== "Skip").length;
+      if (n) h.appendChild(el("small", null, `used by ${n} site${n === 1 ? "" : "s"}`));
+    });
+  }
+  (function buildChecks() {
+    const c = $("checks"); let ticked = {}; try { ticked = JSON.parse(store.get("lynkk-prep") || "{}"); } catch (e) {}
+    PREP.forEach(([t, d], i) => {
+      const lab = el("label"); const cb = el("input"); cb.type = "checkbox"; cb.id = "prep-" + i; cb.checked = !!ticked[i];
+      cb.onchange = () => { ticked[i] = cb.checked; store.set("lynkk-prep", JSON.stringify(ticked)); };
+      const sp = el("span", null, t); sp.appendChild(el("small", null, d)); lab.append(cb, sp); c.appendChild(lab);
+    });
+  })();
+
+  // ---------- Boot ----------
+  let dbChecked = false;
+  buildFilters(); renderSummary(); renderList();
+  const tab = store.get("lynkk-tab"); if (tab) showTab(tab);
+
+  (async function boot() {
+    const cl = window.claude;
+    if (!cl || typeof cl.use !== "function") { dbChecked = true; renderList(); return; }
+    cl.use("user").then(async (u) => {
+      user = u; if (!u) return;
+      try { myId = await u.id(); } catch (e) {}
+      try { const w = await u.can("data.write"); if (w === false) { canWrite = false; renderList(); } } catch (e) {}
+    });
+    db = await cl.use("db"); dbChecked = true;
+    if (!db) { renderList(); return; }
+    db.collection("sites").onSnapshot((snap) => {
+      sites = snap.docs.map((d) => Object.assign({ id: d.id }, d.data()));
+      loaded = true;
+      buildFilters(); renderSummary(); renderList(); updateKitCounts();
+      if (openId) {
+        const active = document.activeElement;
+        const typing = active && (active.id === "d-notes" || active.id === "d-listing");
+        if (!typing) openDrawer(openId, false);
+      }
+    }, (err) => { dbChecked = true; db = null; loaded = false; renderList(); });
+  })();
+})();
+</script>
