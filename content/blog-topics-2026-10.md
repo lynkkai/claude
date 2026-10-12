@@ -1,4 +1,7 @@
-# Lynkk Blog Topic Plan (October 2026, v3)
+# Lynkk Blog Topic Plan (October 2026, v3.1)
+
+> **v3.1 (2026-10-12):** topics #1, #2, #4 and #7 are struck because earlier sessions already wrote them
+> (see content/blog-inventory-2026-10-12.md). "Video to text" is struck because TRUTHS.md says Lynkk cannot upload existing files.
 
 Sources:
 - Google Search Console export, lynkk.ai "Queries" report (downloaded 2026-10-12)
@@ -18,24 +21,24 @@ All numbers are Ubersuggest, United States, monthly.
 
 | # | Working title | Type | Primary keyword | Vol | SD | Supporting keywords | Link to |
 |---|---|---|---|---|---|---|---|
-| 1 | How to Record a Microsoft Teams Meeting (Desktop, Web and Mobile) | How-to guide | how to record a teams meeting | 2,400 | 29 | | /blog/ai-note-taker-microsoft-teams, /features/meeting-bot |
-| 2 | How to Record a Google Meet Call (With or Without Permission) | How-to guide | how to record google meet | 2,400 | 25 | | /blog/google-meet-transcript, /features/chrome-extension |
+| 1 | ~~How to Record a Microsoft Teams Meeting (Desktop, Web and Mobile)~~ ALREADY WRITTEN | How-to guide | how to record a teams meeting | 2,400 | 29 | | /blog/ai-note-taker-microsoft-teams, /features/meeting-bot |
+| 2 | ~~How to Record a Google Meet Call (With or Without Permission)~~ ALREADY WRITTEN | How-to guide | how to record google meet | 2,400 | 25 | | /blog/google-meet-transcript, /features/chrome-extension |
 | 3 | How to Record Audio on Mac: 5 Free and AI Options | How-to guide | how to record audio on mac | 2,400 | 33 | Top 10 includes a forum (DA 60) and screencapture.com (DA 42) | /download, /blog/dictation-on-mac |
-| 4 | One-on-One Meeting Template: Agenda, Questions, and Notes | Template + use case (managers) | one on one meeting template | 1,600 | 19 | skip level meeting questions (320, SD 35). Top 10 has DA 34 to 48 sites | /features/ask-your-meetings, /features/action-items |
+| 4 | ~~One-on-One Meeting Template: Agenda, Questions, and Notes~~ ALREADY WRITTEN | Template + use case (managers) | one on one meeting template | 1,600 | 19 | skip level meeting questions (320, SD 35). Top 10 has DA 34 to 48 sites | /features/ask-your-meetings, /features/action-items |
 | 5 | Granola Pricing 2026: Every Plan, What You Get, and Cheaper Options | Comparison (pricing) | granola pricing | 880 | 16 | Up from 480 to 1,600 a month during the year | /compare/granola |
 | 6 | Otter.ai Review 2026: Accuracy, Pricing, Pros and Cons | Comparison (review) | otter ai review | 880 | 30 | GSC: "otter.ai" pos 1.5 to 4.5 | /compare/otter |
-| 7 | Microsoft Teams Transcription: How to Turn It On, Find and Download Transcripts | How-to guide | teams transcription | 720 | 26 | how to transcribe a teams meeting (170, SD 30). GSC: teams meeting transcription ai, teams transcript ai | /blog/ai-note-taker-microsoft-teams |
+| 7 | ~~Microsoft Teams Transcription: How to Turn It On, Find and Download Transcripts~~ ALREADY WRITTEN | How-to guide | teams transcription | 720 | 26 | how to transcribe a teams meeting (170, SD 30). GSC: teams meeting transcription ai, teams transcript ai | /blog/ai-note-taker-microsoft-teams |
 | 8 | Gong Pricing 2026: What It Really Costs and Cheaper Alternatives | Comparison (pricing) | gong pricing | 720 | 35 | CPC $18 (strong buyer intent) | /blog/sales-conversation-intelligence, /use-cases/sales-calls |
 | 9 | Best Wispr Flow Alternatives for Mac Dictation | Listicle + comparison | wispr flow alternative | 480 (peaked 880) | 11 | wispr flow review (480, SD 35), superwhisper alternative (90) | /features/dictation |
 
-Combined: about 12,500 US searches a month. Mix: 4 how-to guides, 3 comparisons, 1 listicle, 1 template / use case.
+Remaining new topics after v3.1: #3, #5, #6, #8, #9 (about 5,400 US searches a month).
 
 ### Stretch topics (bigger volume, SD 36 to 40)
 
 | Working title | Primary keyword | Vol | SD | Condition |
 |---|---|---|---|---|
 | Meeting Agenda Template: 10 Free Templates for Every Meeting | meeting agenda template | 14,800 | 38 | Largest opportunity found. Template SERPs favour big brands, so expect a slower climb |
-| Video to Text: How to Transcribe Any Video | video to text | 6,600 | 36 | Only if Lynkk supports uploading video files (not confirmed) |
+| ~~Video to Text~~ STRUCK (no file upload per TRUTHS.md) | video to text | 6,600 | 36 | Only if Lynkk supports uploading video files (not confirmed) |
 | Otter.ai Pricing 2026: Plans, Limits and Cheaper Alternatives | otter ai pricing | 1,900 | 40 | Must not target "is otter ai free", which /blog/best-free-ai-note-takers already targets |
 | Notion AI Meeting Notes vs a Dedicated AI Note Taker | notion ai meeting notes | 1,000 | 37 | |
 | How to Record a Meeting on iPhone | how to record a meeting on iphone | 480 | 26 | Only if Lynkk works on iPhone (iOS not confirmed) |
