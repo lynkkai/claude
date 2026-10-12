@@ -122,6 +122,11 @@ h2 { font-family: var(--font-display); font-weight: 600; font-size: 20px; margin
 .status[data-v="live"] { border-left-color: var(--s-live); }
 .status[data-v="rejected"] { border-left-color: var(--s-rejected); }
 .status[data-v="skipped"] { border-left-color: var(--line); color: var(--muted); }
+.cost { font-size: 11.5px; font-weight: 600; padding: 0 6px; border-radius: 4px; }
+.cost-free { color: var(--good); background: var(--good-soft); }
+.cost-free-backlink { color: var(--warn); background: var(--warn-soft); }
+.cost-paid { color: var(--bad); background: var(--bad-soft); }
+.cost-unknown { color: var(--muted); background: var(--sunk); }
 .empty { padding: 36px 20px; text-align: center; color: var(--muted); display: grid; gap: 6px; justify-items: center; }
 .empty strong { color: var(--ink); font-size: 16px; }
 .lbl { display: none; }
@@ -214,6 +219,7 @@ h2 { font-family: var(--font-display); font-weight: 600; font-size: 20px; margin
       <div class="chipset" id="fitchips" aria-label="Filter by fit"></div>
       <select id="kind" aria-label="Filter by type"><option value="">All types</option></select>
       <select id="stat" aria-label="Filter by status"><option value="">All statuses</option></select>
+      <select id="cost" aria-label="Filter by cost"><option value="">Any cost</option></select>
       <span class="count" id="count"></span>
     </div>
     <div class="list" id="list">
@@ -229,6 +235,7 @@ h2 { font-family: var(--font-display); font-weight: 600; font-size: 20px; margin
     <div style="display:grid;gap:10px">
       <h2>Suggested order</h2>
       <div class="order">
+        <div><strong>Now: free listings that don't depend on launch day</strong><span>G2 (also feeds Capterra, GetApp and Software Advice), Crunchbase, Future Tools, AI Tools Directory, SaaSRow, Launching Next, AlternativeTo, SaaSHub. Filter by "Free" to see them.</span></div>
         <div><strong>Week 1: profiles and marketplaces</strong><span>Crunchbase, G2 (now also feeds Capterra, GetApp and Software Advice), SaaSworthy. These take days to approve, so start them first.</span></div>
         <div><strong>Week 1-2: AI directories</strong><span>There's An AI For That, Futurepedia, Toolify, Future Tools, AI Collection, then the Medium-fit AI directories.</span></div>
         <div><strong>Launch day: Product Hunt</strong><span>Then Show HN the same week, and /r/SaaS in its promotion thread.</span></div>
@@ -269,6 +276,7 @@ h2 { font-family: var(--font-display); font-weight: 600; font-size: 20px; margin
   const STATUS_LABEL = Object.fromEntries(STATUSES);
   const FITS = ["High", "Medium", "Low", "Skip"];
   const FIT_RANK = { High: 0, Medium: 1, Low: 2, Skip: 3 };
+  const COST_LABEL = { free: "Free", "free-backlink": "Free with backlink", paid: "Paid", unknown: "Cost unknown" };
   const LINK_LABEL = { ok: "Live", bot: "Up, blocks bots", moved: "Moved", missing: "Page missing", down: "Unreachable", repurposed: "Repurposed" };
 
   const KITS = {
@@ -371,9 +379,9 @@ h2 { font-family: var(--font-display); font-weight: 600; font-size: 20px; margin
   let loaded = false;
   let db = null, user = null, canWrite = true;
   let openId = null;
-  const filt = { q: "", fits: new Set(["High", "Medium", "Low"]), kind: "", stat: "" };
-  try { const f = JSON.parse(store.get("lynkk-filt") || "null"); if (f) { filt.fits = new Set(f.fits); filt.kind = f.kind || ""; filt.stat = f.stat || ""; } } catch (e) {}
-  const saveFilt = () => store.set("lynkk-filt", JSON.stringify({ fits: [...filt.fits], kind: filt.kind, stat: filt.stat }));
+  const filt = { q: "", fits: new Set(["High", "Medium", "Low"]), kind: "", stat: "", cost: "" };
+  try { const f = JSON.parse(store.get("lynkk-filt") || "null"); if (f) { filt.fits = new Set(f.fits); filt.kind = f.kind || ""; filt.stat = f.stat || ""; filt.cost = f.cost || ""; } } catch (e) {}
+  const saveFilt = () => store.set("lynkk-filt", JSON.stringify({ fits: [...filt.fits], kind: filt.kind, stat: filt.stat, cost: filt.cost }));
 
   function domain(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return u; } }
 
@@ -415,14 +423,16 @@ h2 { font-family: var(--font-display); font-weight: 600; font-size: 20px; margin
     const ks = $("kind"); const kinds = [...new Set(sites.map((s) => s.kind))].sort();
     ks.replaceChildren(new Option("All types", "")); kinds.forEach((k) => ks.appendChild(new Option(k, k))); ks.value = filt.kind;
     const ss = $("stat"); ss.replaceChildren(new Option("All statuses", "")); STATUSES.forEach(([k, l]) => ss.appendChild(new Option(l, k))); ss.value = filt.stat;
+    const cs = $("cost"); cs.replaceChildren(new Option("Any cost", "")); Object.entries(COST_LABEL).forEach(([k, l]) => cs.appendChild(new Option(l, k))); cs.value = filt.cost;
   }
+  $("cost").addEventListener("change", (e) => { filt.cost = e.target.value; saveFilt(); renderList(); });
   $("q").addEventListener("input", (e) => { filt.q = e.target.value.trim().toLowerCase(); renderList(); });
   $("kind").addEventListener("change", (e) => { filt.kind = e.target.value; saveFilt(); renderList(); });
   $("stat").addEventListener("change", (e) => { filt.stat = e.target.value; saveFilt(); renderList(); });
 
   function visible() {
-    return sites.filter((s) => filt.fits.has(s.fit) && (!filt.kind || s.kind === filt.kind) && (!filt.stat || s.status === filt.stat) &&
-      (!filt.q || [s.name, s.kind, s.why, s.notes, s.url].join(" ").toLowerCase().includes(filt.q)))
+    return sites.filter((s) => filt.fits.has(s.fit) && (!filt.kind || s.kind === filt.kind) && (!filt.stat || s.status === filt.stat) && (!filt.cost || (s.cost || "unknown") === filt.cost) &&
+      (!filt.q || [s.name, s.kind, s.why, s.notes, s.url, s.costNote].join(" ").toLowerCase().includes(filt.q)))
       .sort((a, b) => FIT_RANK[a.fit] - FIT_RANK[b.fit] || a.name.localeCompare(b.name));
   }
 
@@ -455,6 +465,7 @@ h2 { font-family: var(--font-display); font-weight: 600; font-size: 20px; margin
       const site = el("div", "site");
       const nb = el("button", "name", s.name); nb.type = "button"; nb.onclick = () => openDrawer(s.id);
       const meta = el("div", "meta"); meta.append(el("span", null, s.kind), el("span", "dom", domain(s.url)));
+      if (s.cost) { const c = el("span", "cost cost-" + s.cost, COST_LABEL[s.cost] || s.cost); if (s.costNote) c.title = s.costNote; meta.appendChild(c); }
       if (s.source !== "Original list") meta.appendChild(el("span", null, "Added"));
       if (s.notes) meta.appendChild(el("span", null, "Has notes"));
       site.append(nb, meta);
@@ -500,6 +511,11 @@ h2 { font-family: var(--font-display); font-weight: 600; font-size: 20px; margin
     body.appendChild(top);
 
     body.appendChild(el("div", "note", s.why));
+    if (s.cost) {
+      const cn = el("div", "note" + (s.cost === "paid" ? " bad" : s.cost === "free-backlink" ? " warn" : ""));
+      cn.append(el("span", "cost cost-" + s.cost, COST_LABEL[s.cost] || s.cost), document.createTextNode(s.costNote ? " " + s.costNote : ""));
+      body.appendChild(cn);
+    }
     if (s.linkNote) body.appendChild(el("div", "note " + (["down", "repurposed"].includes(s.link) ? "bad" : ["moved", "missing"].includes(s.link) ? "warn" : ""), s.linkNote + (s.originalUrl ? ` Original link: ${s.originalUrl}` : "")));
 
     const f1 = el("div", "field"); const l1 = el("label", null, "Status"); l1.htmlFor = "st-" + s.id + "-d";
