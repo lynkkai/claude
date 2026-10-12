@@ -76,3 +76,119 @@ Bold rows are gaps: real user queries with no blog post behind them.
 
 Lync for Mac and "record lync calls" (an old Microsoft product), the "-site:" search-operator query, "online ai leadership
 programs", "video bars for meeting management".
+
+## Search volume for every keyword (Ubersuggest, checked 2026-10-12)
+
+Monthly searches. US unless marked. SD = SEO difficulty (0 to 100). "0" means Ubersuggest has no measurable volume:
+common for long, conversational queries, which still show up in Search Console (often from AI search).
+
+### #6 Action items (biggest measured demand, about 6,500 US a month)
+
+| Keyword | Vol | SD |
+|---|---|---|
+| action items | 2,900 | 40 |
+| action items meaning | 880 | 39 |
+| what is action items | 720 | 44 |
+| template action items | 590 | 30 |
+| action items template | 480 | 32 |
+| meeting minutes template action items | 390 | 31 |
+| tracking action items | 320 | 27 |
+| action items list | 320 | 46 |
+| minutes of meeting template with action items | 320 | 34 |
+| meeting minutes format with action items | 260 | 20 |
+| meeting notes with action items | 210 | 12 |
+| action items excel template | 170 | 25 |
+| example of action items | 110 | 39 |
+| meeting notes action items | 110 | 17 |
+| meeting action items template | 90 | 21 |
+| what are action items in a meeting | 70 | 31 |
+| meeting action items | 70 | 40 |
+| jira action items | 30 | 25 |
+| GSC queries: action item detection, action item ai, ai solutions for action item detection, action items ai, meeting action tracking, action item sync routine | 0 | |
+
+### #2 Zoom note taker (about 2,300 US a month)
+
+| Keyword | Vol | SD |
+|---|---|---|
+| zoom note taker | 880 (UK 90 / SD 45) | 31 |
+| ai note taker for zoom | 480 | 33 |
+| ai notetaker for zoom | 260 | 66 |
+| ai zoom note taker | 210 | 25 |
+| ai note taker for zoom meetings | 140 | 35 |
+| free ai note taker for zoom | 70 | 34 |
+| zoom note taker ai | 70 | 29 |
+| best zoom ai notetaker | 40 | 37 |
+| best ai note taker for zoom | 40 | 12 |
+| zoom note taker app | 40 | 24 |
+| best ai notetaker for zoom | 30 | 35 |
+| ai notetaker for zoom meetings | 30 | 30 |
+| zoom note taker free / free zoom note taker | 30 / 30 | 17 / 30 |
+| how to turn on zoom note taker | 30 | 26 |
+
+### #1 Meeting bot (about 450 US, about 1,000 global; highest Search Console impressions at 155)
+
+| Keyword | Vol | SD |
+|---|---|---|
+| zoom bot | 210 (mixed intent: includes "zoom bot spam") | 27 |
+| meeting bot | 70 (global 480) | 37 |
+| google meet bot | 50 (global 390) | 13 |
+| google meet bot joiner | 40 | 36 |
+| meeting bot api | 40 (developer intent, skip) | 27 |
+| zoom meeting bot | 20 | 26 |
+| zoom bot to join meeting | 10 | 18 |
+| zoom bot join | 10 | 13 |
+| google meet bot joiner free | 10 | 20 |
+| GSC queries: join zoom call bot, zoom connector bot, how to send a meeting bot to a meeting, how to make a meeting bot | 0 | |
+
+Search Console shows more demand here than Ubersuggest does (155 impressions in the export period).
+
+### #4 Meeting briefs (about 620 US a month)
+
+| Keyword | Vol | SD |
+|---|---|---|
+| meeting preparation | 390 | 24 |
+| meeting brief | 110 | 25 |
+| checklist for meeting preparation | 50 | 14 |
+| meeting brief template | 40 | 14 |
+| pre meeting preparation | 30 | 44 |
+| GSC queries: automated meeting briefs from prior standups, attendee briefings before meetings, leadership emails | 0 | |
+
+### #3 Multilingual business calls (about 150 global a month)
+
+| Keyword | Vol | SD |
+|---|---|---|
+| multilingual transcription | 30 (global 90) | 27 |
+| multilingual transcription software | 10 (global 20) | 19 |
+| multilingual transcription services | 10 | 18 |
+| multi language transcription | 10 | 42 |
+| GSC queries: multilingual meeting transcription, multilingual recording, transcription in multiple languages, custom vocabulary transcription | 0 | |
+
+### #5 Due diligence (about 40 US a month, but CPC $31)
+
+| Keyword | Vol | SD |
+|---|---|---|
+| ai for due diligence | 30 (CPC $31) | 30 |
+| due diligence call | 10 | 13 |
+| GSC queries: due diligence call notes, expert call notes, ai meeting assistant for accounting firms | 0 | |
+
+### #7 Team workspaces and #8 UK/Europe market
+
+| Keyword | Vol | SD |
+|---|---|---|
+| shared meeting notes | 0 | |
+| ai meeting assistant market (UK) | 0 | |
+| ai meeting assistant market size (UK) | 0 | |
+| ai meeting assistant (UK) | 70 | 50 |
+
+## Ranking by measured demand
+
+| Rank | Topic | US demand | Verdict |
+|---|---|---|---|
+| 1 | #6 Action items: examples, template, how AI finds them | about 6,500 | Write first. Use "action items template" (SD 32) and "meeting notes with action items" (SD 12) as easy entry points |
+| 2 | #2 Best AI note takers for Zoom | about 2,300 | Write. Lead with "zoom note taker" (880, SD 31) |
+| 3 | #1 How to add a meeting bot to Zoom, Meet or Teams | about 450 (1,000 global) | Write. Low measured volume, but the biggest Search Console group |
+| 4 | #4 Meeting briefs | about 620 | Write. Lead with "meeting preparation" (390, SD 24) |
+| 5 | #3 Multilingual business calls | about 150 global | Short answer post for AI search (ranks 5 and 7 already) |
+| 6 | #5 Due diligence call notes | about 40 | Short answer post: tiny volume, high CPC, ranks 4 already |
+| 7 | #7 Team workspaces | 0 | Add as an FAQ on /features/workspaces instead of a post |
+| 8 | #8 UK/Europe market guide | 0 | Drop |
