@@ -22,6 +22,10 @@ Full brand/product details and ready-to-use tool-submission copy: @memory/lynkk-
 - Videos go on the **official Lynkk channel**: speak as the brand ("Lynkk" / "we"), never
   first person ("I tested", "my CRM"). No self-ranked "best of" lists; use demos, guides,
   and factual, dated comparisons.
+- **Always use the target keyword** (from `youtube/topic-research.md`, checked in Ubersuggest) in
+  every title, description and social caption. YouTube titles: keyword first, then the benefit,
+  then `| Lynkk`, under 70 characters. Descriptions: keyword in the first two lines. Captions on
+  every channel: keyword in the first line and as a hashtag. Keyword-rich tags on YouTube.
 
 ## Writing rules
 
