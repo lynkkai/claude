@@ -19,6 +19,8 @@ Built with the `lynkk-design` skill: every claim is from `lynkk-post-kit/docs/TR
 All videos: 1920x1080, 30 fps, H.264 + AAC, -14 LUFS, narration with a background music bed. Thumbnails: 1280x720. The CTA board holds
 for about 10 seconds at the end: put a YouTube end screen (subscribe, next video) on the ember plate.
 
+Captions and titles for LinkedIn, Instagram, Facebook, X, Threads and TikTok: `social.md`.
+
 ## Sales
 
 **Title:** Lynkk for Sales Teams: Every Call Recorded, Every Follow-up Owned
