@@ -1,82 +1,92 @@
-# Lynkk Blog Topic Plan (October 2026)
+# Lynkk Blog Topic Plan (October 2026, v2)
 
 Sources:
 - Google Search Console export, lynkk.ai "Queries" report (downloaded 2026-10-12)
 - Ubersuggest (project lynkk.ai): keyword overview, keyword suggestions, SERP analysis, Content Studio title suggestions
-- Existing blog inventory from https://lynkk.ai/sitemap.xml
+- Target keywords of every live lynkk.ai page, read from each page's meta keywords, title and H2s on 2026-10-12
 
-Volumes are Ubersuggest monthly searches, **global** unless marked (US). SD = Ubersuggest SEO difficulty (only returned for US lookups). GSC = impressions / average position for lynkk.ai over the export period.
+## Selection rules (v2)
 
-## Already published (excluded from this plan)
+1. **No cannibalization.** A topic is dropped if its primary keyword, or a close variant, is already a target keyword of
+   any live lynkk.ai page (19 blog posts, 4 compare pages, 9 feature pages, 6 use-case pages).
+2. **Medium volume:** roughly 100 to 1,000 searches a month (US unless noted).
+3. **Low competition:** Ubersuggest SEO difficulty (SD) 35 or lower. SD 36 to 45 is listed separately as "stretch".
 
-best-ai-note-takers, best-free-ai-note-takers, ai-note-taker-microsoft-teams, ai-powered-meeting-assistants,
-ai-transcription-software, ai-voice-recorders, transcribe-audio-to-text, voice-to-text-apps, voice-memo-transcription,
-dictation-on-mac, dictate-in-microsoft-word, how-to-transcribe-zoom-meetings, zoom-meeting-recorders,
-zoom-ai-companion-alternatives, google-meet-transcript, meeting-minutes-to-jira, sales-conversation-intelligence,
-recruiting-interview-transcription, founders-meeting-notes.
+Volumes and SD are Ubersuggest, United States, unless marked Global or India.
 
-Also live (non-blog): /compare/otter, /compare/fireflies, /compare/granola, /compare/fathom, and use-case pages for
-sales calls, team standups, user interviews, lectures, doctor visits, field interviews. New posts below should link to
-these pages, not duplicate them.
+## Final topic list
 
-## What the GSC data says
+| # | Working title | Type | Primary keyword | Vol | SD | Supporting keywords | Link to |
+|---|---|---|---|---|---|---|---|
+| 1 | Granola Pricing 2026: Every Plan, What You Get, and Cheaper Options | Comparison (pricing) | granola pricing | 880 | 16 | Searches up from 480 to 1,600 in a year | /compare/granola |
+| 2 | Otter.ai Review 2026: Accuracy, Pricing, Pros and Cons | Comparison (review) | otter ai review | 880 | 30 | GSC: "otter.ai" pos 1.5 to 4.5 | /compare/otter |
+| 3 | Best Plaud Alternatives: AI Voice Recorder Apps vs Devices | Listicle | plaud alternative | 320 | 10 | | /blog/ai-voice-recorders |
+| 4 | How to Remove Otter.ai From Zoom (and Stop It Joining Your Meetings) | How-to guide | how to remove otter ai from zoom | 260 | 33 | how to stop otter ai from joining meetings (140, SD 25), ...from zoom meeting (30) | /features/chrome-extension, /features/meeting-bot |
+| 5 | Granola AI Review: Is the Botless Notepad Worth It? | Comparison (review) | granola ai review | 320 | 25 | Searches up from 90 to 590 in a year | /compare/granola |
+| 6 | Follow-Up Email After a Meeting: 10 Templates That Get Replies | Guide + templates | follow up email after meeting | 210 | 26 | | /features/action-items |
+| 7 | Granola vs Fathom: Which AI Note Taker Should You Pick? | Head-to-head comparison | granola vs fathom | 110 | 14 | Rising (30 to 170) | /compare/granola, /compare/fathom |
+| 8 | Fireflies vs Otter: Features, Pricing and Accuracy Compared | Head-to-head comparison | fireflies vs otter | 110 (Global 170) | 21 | fireflies vs otter ai (40, CPC $77) | /compare/fireflies, /compare/otter |
+| 9 | Granola vs Otter: Botless Notepad or Live Transcript? | Head-to-head comparison | granola vs otter | 90 (Global 320) | 17 | Global volume up from 90 to 480 | /compare/granola, /compare/otter |
+| 10 | Fireflies vs Granola: Which Fits Your Meetings? | Head-to-head comparison | fireflies vs granola | 90 | 21 | CPC $32.76 (strong buyer intent) | /compare/fireflies, /compare/granola |
+| 11 | Best Read AI Alternatives in 2026 | Listicle | read ai alternative | 70 (Global 210) | 17 | US volume doubled since spring; GSC impression | /compare |
+| 12 | Hindi Audio to Text: How to Convert Hindi Recordings Into Accurate Text | How-to / use case | hindi audio to text | India 140 (Global 170) | 16 | GSC: hinglish audio to text, audio to hinglish text converter | /features/multilingual-transcription, /use-cases/field-interviews |
 
-1. **"Meeting bot" is Lynkk's strongest non-brand cluster.** meeting bot (62 impr, pos 14), join zoom call bot (35, pos 27),
-   zoom connector bot (17), meetingbot (12), how to send a meeting bot to a meeting (9), how to make a meeting bot (5),
-   meeting bot as a service, zoom bot for teams. Only /features/meeting-bot ranks; there is no blog support.
-2. **Competitor brand queries already show Lynkk on page 1:** "otter.ai" (pos 1.5 to 4.5), "fireflies ai" (pos 3 to 4.5),
-   plus "read ai alternative", "zocks alternatives", "granola chrome extension". Alternatives/comparison posts can convert this.
-3. **Multilingual / Hinglish is a near-win:** multilingual meeting transcription (pos 13), hinglish transcription (pos 10),
-   transcribe hinglish (pos 10), hinglish audio to text, audio to hinglish text converter, transcription multilingue.
-4. **Lynkk ranks top 10 for long, conversational (AI-assistant style) queries** about cross-meeting memory, pre-meeting
-   briefs and action tracking, e.g. "which ai connects dots between different conversations" (pos 3), "semantic linking
-   across meeting notes, decisions and specs" (pos 1), "automated meeting briefs that pull decisions from prior standups" (pos 1),
-   "ai tools that generate attendee briefings before meetings" (pos 7). This is Lynkk's core differentiator and has no blog yet.
-5. **Sales-call and action-item queries rank badly (pos 55 to 99)**: ai notetaker sales calls, ai call notes for crm,
-   transcribe sales calls, action item detection, meeting action items jira. Content gap.
-6. **Price-sensitive intent:** "cheap ai note taker" got a click; "any free alternatives", "is this paid app?".
+Mix: 7 comparisons (1 pricing, 2 reviews, 4 head-to-heads), 2 listicles, 2 how-to guides, 1 use case.
 
-## Recommended topics
+### Stretch topics (good volume, SD 36 to 45)
 
-### Priority 1: publish first
-
-| # | Working title | Type | Primary keyword (volume) | Supporting signals |
+| Working title | Primary keyword | Vol | SD | Note |
 |---|---|---|---|---|
-| 1 | What Is a Meeting Bot? How AI Bots Join Zoom, Google Meet and Teams (and How to Send One) | Guide / explainer | meeting bot (480) | google meet bot (390), zoom meeting bot (50), teams meeting bot (50). GSC: whole meeting-bot cluster above. Links to /features/meeting-bot. |
-| 2 | Best Otter.ai Alternatives in 2026 (Free and Paid) | Listicle + comparison | otter ai alternative (720; US 480, SD 34) | otter ai alternative free (90), reddit (50). GSC: "otter.ai" pos 1.5 to 4.5. Links to /compare/otter. |
-| 3 | Otter.ai Pricing 2026: Plans, Limits, and Cheaper Alternatives | Comparison / pricing breakdown | otter ai pricing (3,600) | GSC: "cheap ai note taker" (click), "any free alternatives". |
-| 4 | Best AI Note Takers for In-Person Meetings | Use case + listicle | ai note taker for in person meetings (720, rising) | Lynkk records in-person and is offline-first. GSC: record sales calls offline. |
-| 5 | Granola vs Otter: Which AI Note Taker Fits Your Team? | Head-to-head comparison | granola vs otter (320, up from 90 a year ago) | granola ai alternative (390). Lynkk positioned as the option that does both bot and botless capture. |
-| 6 | Hinglish Transcription: How to Accurately Transcribe Hindi-English Meetings and Calls | Use case / how-to | hinglish transcription (110) | hindi audio to text (170). GSC: 5 Hinglish queries at pos 10 to 58. |
+| Notion AI Meeting Notes vs a Dedicated AI Note Taker | notion ai meeting notes | 1,000 | 37 | Best volume in the set, no existing page targets it |
+| Is Otter.ai Safe? Privacy, the Lawsuit, and What to Check | is otter ai safe + otter ai lawsuit | 320 + 390 | 44 | Needs careful, sourced legal facts |
 
-### Priority 2: next wave
+## Writing guardrails to avoid cannibalization
 
-| # | Working title | Type | Primary keyword (volume) | Supporting signals |
-|---|---|---|---|---|
-| 7 | Best AI Note Takers for Google Meet (2026) | Listicle | google meet note taker (1,300; US 390, SD 35) | Sibling to the existing Teams post. Different intent from the google-meet-transcript how-to. |
-| 8 | Best Fireflies.ai Alternatives | Listicle + comparison | fireflies ai alternative (260) | GSC: "fireflies ai" pos 3 to 4.5. Links to /compare/fireflies. |
-| 9 | Fireflies vs Fathom: Features, Pricing and Which to Pick | Head-to-head comparison | fireflies vs fathom (170, CPC $47.75) | Very high CPC = strong buyer intent. |
-| 10 | Is Otter.ai Safe? Privacy, Consent and Data Residency Explained | Comparison / informational | is otter ai safe (590, very low competition) | Natural home for Lynkk data-residency messaging. |
-| 11 | AI Meeting Minutes: How to Write Minutes Automatically (Template Included) | Guide + template | ai meeting minutes (4,400; US 1,600, SD 49) | how to write meeting minutes (9,900, low PD). GSC: multilingual board minutes, board tools comparing decisions. |
-| 12 | Meeting Action Items: How to Capture, Assign and Track Them With AI | Guide / use case | meeting action items (170, CPC $12) | GSC: action item detection, action items ai, meeting action tracking, meeting action items jira. |
+- **#4 (remove Otter):** do not target "meeting bot" or "zoom meeting bot"; those belong to /features/meeting-bot.
+- **#12 (Hindi audio to text):** do not use "hinglish transcription" or "hindi interview transcription" as targets;
+  those belong to /features/multilingual-transcription and /use-cases/field-interviews. Link to them instead.
+- **#3 (Plaud alternatives):** /blog/ai-voice-recorders already targets "plaud note pro" and "best ai voice recorder".
+  Keep this post about switching away from Plaud, and link to the voice recorder roundup.
+- **#1 and #5 (Granola pricing and review):** keep pricing about plans and costs and the review about the verdict, so the two new posts do not compete with each other.
+- **Head-to-heads (#7 to #10)** compare two competitors. The /compare pages are "Lynkk vs X", so these are different
+  queries. Each one should end with a short "or try Lynkk" section and link to the /compare pages.
 
-### Priority 3: differentiator and niche plays
+## Dropped from v1 because a live page already targets the keyword
 
-| # | Working title | Type | Primary keyword (volume) | Supporting signals |
-|---|---|---|---|---|
-| 13 | Your Meetings as a Knowledge Base: How AI Connects Decisions Across Conversations | Thought leadership / use case | low measured volume | GSC: Lynkk already pos 1 to 10 for 6+ AI-assistant style queries on cross-meeting memory and pre-meeting briefs. Builds AI-search (LLM) visibility. |
-| 14 | Best Multilingual Meeting Transcription Software | Listicle | multilingual transcription (90) | multilingual transcription software (20, CPC $12). GSC: multilingual meeting transcription pos 13. |
-| 15 | Best AI Note Takers for Sales Calls (With CRM Sync) | Listicle | low measured volume | GSC: 8+ sales-call queries at pos 55 to 99. Must not repeat the sales-conversation-intelligence post. |
-| 16 | Read AI Alternatives | Listicle | read ai alternative (210) | GSC impression at pos 90. |
-| 17 | User Interview Transcription for UX Research: A Practical Workflow | Use case / how-to | low measured volume (US SD 12) | GSC: user interview transcription 21 impr pos 31; "what ai notetaker do product and design teams prefer" pos 6. Links to /use-cases/user-interviews. |
-| 18 | AI Note Takers for Financial Advisors (Zocks Alternatives) | Use case + listicle | ai note taker for financial advisors (40, CPC $28.91) | GSC: zocks alternatives, due diligence calls, accounting firms. |
-| 19 | Meeting Bot API vs Ready-Made Meeting Bot: Build or Buy? | Comparison | recall.ai alternative (140), meeting bot api (90) | GSC: how to build / make a meeting bot. Developer audience, lower buyer intent. |
+| v1 topic | Keyword | Already targeted by |
+|---|---|---|
+| Best Otter.ai Alternatives | otter alternative | /compare/otter, /compare |
+| Best Fireflies.ai Alternatives | fireflies alternative | /compare/fireflies |
+| Best Granola AI Alternatives | granola ai alternative | /compare/granola |
+| Fathom alternatives | fathom alternative | /compare/fathom |
+| AI Note Takers for In-Person Meetings | ai note taker for in person meetings | /blog/best-ai-note-takers, /features/meeting-notes |
+| Best AI Note Takers for Google Meet | ai note taker for google meet | /blog/google-meet-transcript |
+| AI Meeting Minutes | ai meeting minutes, meeting minutes | /blog/meeting-minutes-to-jira, /features/meeting-notes |
+| Meeting Action Items | meeting action items | /features/action-items, /use-cases/team-standups |
+| Hinglish Transcription | hinglish transcription | /features/multilingual-transcription, /features/meeting-notes, /use-cases/field-interviews |
+| Multilingual Transcription Software | multilingual transcription | /features/multilingual-transcription |
+| What Is a Meeting Bot | meeting bot, zoom meeting bot | /features/meeting-bot, /features/meeting-notes |
+| Meetings as a Knowledge Base | meeting knowledge graph, search meeting notes | /features/ask-your-meetings |
+| AI Note Takers for Sales Calls | sales call notes, sales call recording | /use-cases/sales-calls, /blog/sales-conversation-intelligence |
+| User Interview Transcription | user interview transcription | /use-cases/user-interviews, /blog/recruiting-interview-transcription |
 
-Content-type mix: 8 listicles, 5 comparisons, 6 guides / use cases.
+## Dropped for volume or competition
+
+| Topic | Keyword | Reason |
+|---|---|---|
+| Otter.ai Pricing | otter ai pricing | Global 3,600 (high); also overlaps "is otter ai free" on /blog/best-free-ai-note-takers |
+| Read AI Review | read ai review | SD 54 |
+| Fireflies AI Review | fireflies ai review | SD 47 |
+| Fireflies / Fathom pricing | fireflies ai pricing, fathom pricing | SD 37, and the /compare pages already cover pricing |
+| Fireflies vs Fathom | fireflies vs fathom | US 70, SD 34 (keep as backup) |
+| AI note taker for financial advisors | ai note taker for financial advisors | US 30 (too small) |
+| AI note taker for therapists | ai note taker for therapists | Needs HIPAA claims Lynkk has not confirmed |
+| tl;dv alternatives | tldv alternative | US 30 (too small) |
 
 ## Facts to confirm before drafting
 
 The Ubersuggest Content Studio business summary for this project mentions claims that are **not** in memory/lynkk-brand.md:
 "97% transcription accuracy", "AES-256 / GDPR", speaker separation, and Zoom / Google Meet / Teams support.
-Confirm these with the product team (or fix the project's business summary in Ubersuggest) before generating any article,
-otherwise generated drafts will repeat them. Also confirm Windows availability before any dictation-on-Windows topic.
+Confirm these with the product team (or fix the project's business summary in Ubersuggest) before generating any article.
+Competitor pricing and plan limits (Granola, Otter, Fireflies, Fathom, Read AI, Plaud) must be checked live on each
+vendor's pricing page at writing time.
