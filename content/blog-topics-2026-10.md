@@ -80,3 +80,46 @@ Mix: 6 how-to guides, 2 templates, 1 use case. All SD 38 or lower; 6 of 9 are SD
 ## Ready-to-publish drafts (do these alongside the new topics)
 
 13 drafts are already written (see content/blog-inventory-2026-10-12.md). Fix the 3 overlaps listed there, then publish.
+
+## v5 additions: USA and Europe (2026-10-12)
+
+Same rules as v4 (TRUTHS.md only, no competitor names, no repeats, SD 38 or lower).
+
+### USA and UK (English, lynkk.ai/blog)
+
+| # | Working title | Type | Primary keyword | Vol / SD | Cluster | Lynkk feature it sells |
+|---|---|---|---|---|---|---|
+| 10 | All-Hands Meeting: Agenda, Ideas, and How to Share the Recap | Guide + template | all hands meeting | US 1,600 / 31 | all hands meeting agenda 140 / 32 | Meeting bot or Mac app records it; share a revocable link or email the summary to attendees |
+| 11 | Team Meeting Agenda: Weekly Template, Sample and Ideas | Template | team meeting agenda | US 880 / 35 | team meeting agenda sample 880 / 31, team meeting agenda template 720 / 33, weekly team meeting agenda 110 / 24, example team meeting agenda 170 / 7 | Morning briefing email with open action items; Meeting Brief |
+| 12 | Kickoff Meeting Agenda: Template and Sample for Projects and Clients | Template | project kick off meeting agenda | US 390 / 33 | kickoff meeting agenda 320 / 24, kick off meeting agenda 320 / 25, project kickoff meeting agenda template 210 / 20, sample kick off meeting agenda 140 / 20 | Decisions and action items with owners; Jira send (manual) |
+| 13 | Sprint Planning and Retrospective Meetings: Agendas, Ideas and Templates | Template / use case | sprint retrospective template | US 390 / 37 | sprint planning meeting 260 / 29, retrospective ideas 260 / 33, sprint planning meeting agenda 170 / 26, sprint review meeting agenda 70 / 21 | Engineering Design and Product Review Summary Shapes; Jira send |
+| 14 | Quarterly Business Review (QBR) Template and Agenda | Template | quarterly business review template | US 480 / 28 (peaks 1,000) | quarterly business review meeting agenda 70 / 30 | Sales Call Summary Shape; Ask Lynkk across past calls with a client |
+
+UK demand for v4 topics: **meeting agenda template UK 1,900 / 32** (adds to #1) and **how to record a teams meeting UK
+1,300 / 30** (adds to #6). Write those two in neutral English so they rank in both markets.
+
+Guardrails: #11 and #12 are separate SERPs from #1 (meeting agenda template); keep #1 generic and link out to #11, #12,
+the one-on-one draft and the standup draft. #13 must not cover daily standups (the daily-standup-meeting draft owns them).
+
+### Europe (local-language pages)
+
+TRUTHS.md confirms transcription in French, German, Spanish, Italian, Dutch and Portuguese. These need local-language
+pages (for example /fr/blog and /de/blog); an English page will not rank for these queries.
+
+| # | Working title | Market / language | Primary keyword | Vol / SD | Cluster | Lynkk feature it sells |
+|---|---|---|---|---|---|---|
+| 15 | Compte rendu de réunion : exemple, modèle et méthode (avec l'IA) | France, French | compte rendu de réunion | FR 1,900 / 36 | compte rendu de réunion exemple 880 / 27, exemple compte rendu de réunion 720 / 23, modèle compte rendu de réunion 590 / 18, modèle de compte rendu de réunion 480 / 36, comment faire un compte rendu de réunion 170 / 15, ia pour compte rendu de réunion 90 / 14 (about 5,300 total) | French transcription, Meeting Brief, Summary Shapes |
+| 16 | Besprechungsprotokoll Vorlage: Meeting-Protokoll schreiben (mit Vorlage) | Germany, German | besprechungsprotokoll vorlage | DE 720 / 24 | meeting protokoll vorlage 480 / 26, teambesprechung protokoll vorlage pdf 260 / 26, mitarbeitergespräch protokoll vorlage 170 / 10, teamsitzung protokoll vorlage 140 / 37 (about 1,800 meeting-specific; head term "protokoll vorlage" 3,600 / 35 is mostly non-meeting) | German transcription, Meeting Brief |
+| 17 | Teams-Besprechung aufzeichnen: so geht's | Germany, German | teams besprechung aufzeichnen | DE 260 / 19 | | Meeting bot, Mac app, Chrome extension |
+
+### Big European keywords rejected (TRUTHS.md conflict)
+
+| Keyword | Vol / SD | Why not |
+|---|---|---|
+| transcription audio en texte (FR) | 27,100 / 22 | Searchers want to upload an audio file; TRUTHS.md: no uploading existing files |
+| transcribir audio a texto (ES) | 27,100 / 29 | Same: upload intent |
+| audio in text umwandeln (DE) | 1,300 / 22 | Same: upload intent |
+| gdpr call recording (UK) | 40 / 19 | Too small, and TRUTHS.md forbids "GDPR compliant" claims |
+| how to run a meeting (US) | 260 / 43 | SD too high for the volume |
+
+Exception worth asking about: "transcription audio en texte en direct" (FR 320 / 23) is live transcription, which Lynkk does.
