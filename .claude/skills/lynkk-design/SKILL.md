@@ -48,7 +48,7 @@ Video (YouTube), per video `youtube/videos/NN-<slug>/`:
 | Thumbnails 1280x720 | `<section class="post" data-size="wide">` in an HTML file, render with `node lynkk-post-kit/scripts/render.mjs <file> --scale 0.8` |
 | Full-frame graphics 1920x1080 (explainers, end screen) | `data-size="wide"` sections captured at deviceScaleFactor 1.2. Animate only `opacity`/`transform` (and kit state classes like `.is-off`) from a `window.render(t)` function, then encode with ffmpeg |
 | Overlays with alpha (lower thirds, notices) | Kit tokens and type on a transparent page, no ruled frame. Solid night surfaces (`--gr-black`, `--gr-coal`), eyebrow pill, two inks |
-| Script, description, captions, Shorts | Markdown/SRT held to TRUTHS.md and COPY.md. **Always include the target keyword** from `youtube/topic-research.md`: YouTube title keyword first then `| Lynkk`, description keyword in the first two lines, every social caption keyword in the first line plus a keyword hashtag |
+| Script, description, captions, Shorts | Markdown/SRT held to TRUTHS.md and COPY.md. **Always include the target keyword** from `youtube/topic-research.md`: YouTube title with the keyword first and Lynkk last, description keyword in the first two lines, every social caption keyword in the first line plus a keyword hashtag |
 
 HTML files link the kit by relative path (`.../lynkk-post-kit/kit/post.css` and `post.js`).
 Run `node lynkk-post-kit/scripts/check.mjs <file>` on every HTML, script, description and
