@@ -21,7 +21,7 @@ inbound_links_planned:
  - source: https://lynkk.ai/features/ask-your-meetings
    anchor: "prepare for your next meeting"
 featured_image_path: "/images/blog/meeting-preparation.png"
-featured_image_alt: "A one-page meeting brief with last meeting's decisions and open tasks"
+featured_image_alt: "A one-page meeting brief for meeting preparation with decisions and open tasks"
 tldr: "Good meeting preparation takes about 10 minutes: reread the last notes with the same people, list open tasks and decisions, set 1 goal and 3 agenda points, and write a one-page meeting brief. Lynkk does the first part for you with a morning briefing email that shows who you are meeting, your last note with them and how many tasks are still open."
 author: ""
 author_bio_url: ""
@@ -119,7 +119,7 @@ In Lynkk, recurring standups get a Meeting Brief each day, and Pro adds a Daily 
 
 For a client or sales meeting, preparation should answer 3 questions: what did they ask for last time, what did we promise, and what is blocking the deal. Write those answers at the top of your brief.
 
-Search your notes by company, not by date. In Lynkk, Ask Lynkk finds every note with that company and lists open tasks between you, and the Sales Call Summary Shape (Pro) formats call notes for exactly this kind of follow-up. See how sales teams use this in [AI notes for sales calls](https://lynkk.ai/use-cases/sales-calls).
+Search your notes by company, not by date. Sales teams do this at scale with [conversation intelligence](https://lynkk.ai/blog/sales-conversation-intelligence). In Lynkk, Ask Lynkk finds every note with that company and lists open tasks between you, and the Sales Call Summary Shape (Pro) formats call notes for exactly this kind of follow-up. See how sales teams use this in [AI notes for sales calls](https://lynkk.ai/use-cases/sales-calls).
 
 ## How long should meeting preparation take?
 
@@ -134,9 +134,9 @@ Meeting preparation should take about 10 minutes for a routine meeting and 20 to
 
 Founders with 6 or more calls a day feel this most. For more on handling a full calendar, read [how founders keep up with back-to-back meetings](https://lynkk.ai/blog/founders-meeting-notes).
 
-## Do you need consent to record the meetings you prepare from?
+## Can you record a meeting without consent?
 
-Yes, in many places. In the US, federal law ([18 U.S.C. § 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511)) allows recording with 1 participant's consent, but several states require everyone to agree. In the EU, a recording of identifiable people is personal data under the [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj).
+Not everywhere, so check before you record the meetings you prepare from. In the US, federal law ([18 U.S.C. § 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511)) allows recording with 1 participant's consent, but several states require everyone to agree. In the EU, a recording of identifiable people is personal data under the [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj).
 
 The simple rule is to say at the start of every meeting that it is being recorded. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a useful checklist when you review any tool that stores meeting notes. Lynkk keeps recordings private to your account and never trains on your conversations. *This is general information, not legal advice.*
 

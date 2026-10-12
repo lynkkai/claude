@@ -45,11 +45,11 @@ Action items are the tasks a meeting agrees on, and a good one has 4 parts: a cl
 
 That is the plain action items meaning: they turn talk into work. A decision says what the team chose. A task says who will do the next piece of work, and by when.
 
-Most teams leave a meeting with 3 to 10 of them. The number matters less than the clarity. "Look into pricing" is a topic. "Maya sends 3 pricing options to the team by Friday" is a real task.
+Most teams leave a meeting with 3 to 10 of them. Clarity matters more than the count. "Look into pricing" is a topic. "Maya sends 3 pricing options to the team by Friday" is a real task.
 
-## What makes a good action item?
+## How do you write a good action item?
 
-A good action item passes a 4-part test: it starts with a verb, names 1 owner, has a date, and someone else could tell when it is done. Shared owners such as "the team" or "marketing" are the most common reason tasks stall.
+A good action item passes a 4-part test: it starts with a verb, names 1 owner, has a date, and someone else could tell when it is done. Shared owners such as "the team" or "marketing" are the most common reason tasks stall. Name a person.
 
 | Part | Weak version | Strong version |
 |---|---|---|
@@ -58,7 +58,7 @@ A good action item passes a 4-part test: it starts with a verb, names 1 owner, h
 | Due date | "Soon" | "Thursday, October 16" |
 | Done when | "Better copy" | "New copy is live on the page" |
 
-Add a priority (high, medium or low) when a meeting produces more than 5 tasks. It tells people what to do first when the week gets busy.
+Add a priority (high, medium or low) when a meeting produces more than 5 tasks. It tells people what to do first. Busy weeks need that.
 
 ## What is an example of action items?
 
@@ -79,18 +79,18 @@ Here are 12 examples, 3 each from 4 common meetings. Each example of action item
 | Client kickoff | Set up the shared project channel | Project manager | Tomorrow |
 | Client kickoff | Schedule the first weekly check-in | Project manager | This week |
 
-Notice that every row could be checked off by someone outside the meeting. That is the standard to aim for.
+Notice that every row could be checked off by someone outside the meeting. That is the bar.
 
 ## How do you write meeting notes with action items?
 
-Meeting notes with action items work best when the tasks sit in their own list at the top, not buried in the discussion. Readers skim the first 10 lines, so put tasks where they will see them.
+Meeting notes with action items work best when the tasks sit in their own list at the top, not buried in the discussion. Readers skim the first 10 lines. Put tasks there.
 
 1. **Write tasks as they happen.** When someone says "I'll do it", write the task, the name and the date right away.
 2. **Start each task with a verb.** Send, book, write, fix, decide, review.
 3. **Read the list aloud in the last 3 minutes.** People correct owners and dates while they are still in the room.
 4. **Send the notes within 24 hours.** Tasks lose momentum fast after a meeting ends.
 
-If you take notes by hand, step 1 is the hard part, because you cannot listen and write at the same time. That is where an AI note taker helps, as covered below.
+If you take notes by hand, step 1 is the hard part. You cannot listen and write at once. That is where an AI note taker helps, as covered below.
 
 ## What does a meeting minutes format with action items look like?
 
@@ -116,7 +116,7 @@ This action items template has 4 columns and works in Google Docs, Word, Notion 
 | Decide the launch date | Ana | Oct 20 | Open |
 | Close last week's billing ticket | Raj | Oct 13 | Done |
 
-Use 4 statuses and no more: open, in progress, in review and done. More options make the list harder to read at a glance.
+Use 4 statuses and no more: open, in progress, in review and done. More options make the list harder to read at a glance. Keep it simple.
 
 ## How do you go about tracking action items after a meeting?
 
@@ -124,7 +124,7 @@ Tracking action items comes down to 3 habits: 1 shared list, a weekly review, an
 
 ### Keep 1 list, not 5
 
-Put every task in one place the whole team can see. Splitting them across chat, email and personal notebooks is how a task ends up with 2 owners or none.
+Put every task in one place the whole team can see. Splitting them across chat, email and personal notebooks is how a task ends up with 2 owners or none. One list wins.
 
 ### Review open items first
 
@@ -132,9 +132,9 @@ Start each recurring meeting with 2 minutes on last week's open tasks. It takes 
 
 ### Move work into the tool where it happens
 
-Engineering teams often want tasks in Jira. In Lynkk you send tasks from the note to Jira yourself, 1 issue per item, choosing the project and issue type. It is a manual step, so nothing lands in Jira you did not choose.
+Engineering teams often want tasks in Jira. In Lynkk you send tasks from the note to Jira yourself, 1 issue per item, choosing the project and issue type. It is a manual step. Nothing lands in Jira you did not choose.
 
-## Why do meeting tasks get missed?
+## Why do action items often get missed?
 
 Tasks usually get missed for 1 of 4 reasons: no single owner, no date, nobody wrote them down, or nobody checked them later. The fix for each one is small.
 
@@ -145,7 +145,7 @@ Tasks usually get missed for 1 of 4 reasons: no single owner, no date, nobody wr
 | Not written down | People remember different versions | Capture tasks in shared notes |
 | Not reviewed | Nobody notices it stalled | Review open items at the next meeting |
 
-The third reason is the one software fixes best, because a recording does not forget who said what.
+The third reason is the one software fixes best. A recording does not forget who said what.
 
 ## How does AI find action items in a meeting?
 
@@ -153,16 +153,16 @@ An AI note taker finds tasks in 3 steps: it reads the meeting transcript for com
 
 Here is how it works with [Lynkk action items](https://lynkk.ai/features/action-items):
 
-- **Capture:** the [Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) joins Google Meet, Zoom and Teams, or the Mac app records calls with no bot.
+- **Capture:** like most [AI note takers](https://lynkk.ai/blog/best-ai-note-takers), the [Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) joins Google Meet, Zoom and Teams, or the Mac app records calls with no bot.
 - **Brief:** after the meeting you get a [Meeting Brief](https://lynkk.ai/features/meeting-notes) with key takeaways, decisions, open questions and tasks. Every timestamp plays the recording from that moment.
 - **Track:** tasks go to a board with 4 statuses (open, in progress, in review, done), and you can add tasks by hand.
 - **Remind:** with Google Calendar connected, a morning briefing email shows who you are meeting and how many tasks are still open between you.
 
-Always read the list before you share it. AI catches commitments people forget, but the owner should confirm the wording.
+Always read the list before you share it. AI catches commitments people forget. Owners should still confirm the wording.
 
-## Is it legal to record a meeting to capture tasks?
+## Is it legal to record a meeting?
 
-Recording a meeting is legal in most of the US when at least 1 participant consents, under federal law ([18 U.S.C. § 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511)). Some states, including California ([Penal Code § 632](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=632)), require every party to agree.
+Recording a meeting to capture tasks is legal in most of the US when at least 1 participant consents, under federal law ([18 U.S.C. § 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511)). Some states, including California ([Penal Code § 632](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=632)), require every party to agree.
 
 In the EU, a recording of identifiable people is personal data under the [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj), so you need a lawful basis and should tell people why you record. The simple rule everywhere: say at the start that the meeting is being recorded. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a useful checklist when you review any recording tool.
 

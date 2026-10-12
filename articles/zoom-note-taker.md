@@ -57,7 +57,7 @@ status: draft (not published)
 
 A Zoom note taker is an app that records a Zoom meeting, turns the audio into a transcript, and writes notes such as a summary and action items. Most AI Zoom note taker tools work in 1 of 3 ways: a bot that joins the call, a desktop app, or a browser extension.
 
-The difference matters. A bot shows up as an extra participant, which some hosts block. A desktop app or extension records from your own computer, so nobody else sees a new name in the call.
+The difference matters. A bot shows up as an extra participant. Some hosts block it. A desktop app or extension records from your own computer, so nobody else sees a new name in the call.
 
 Zoom also has its own option, AI Companion, which is built into paid Zoom Workplace plans. It is covered below as tool number 2.
 
@@ -73,7 +73,7 @@ We compared 7 tools on 5 criteria that matter in Zoom meetings: how each one joi
 | Price | Cost per user per month | 15% |
 | Reach | Zoom plus Teams, Meet and in-person | 10% |
 
-Prices change often, so check each vendor's pricing page before you buy.
+Prices change often. Check each vendor's pricing page before you buy.
 
 ## 1. Lynkk: best Zoom note taker overall
 
@@ -191,7 +191,7 @@ To turn on a Zoom note taker, you either enable Zoom AI Companion in your Zoom s
 3. **A desktop app:** install it, and it offers to record when a Zoom call starts. In Lynkk, you click Record on the "Zoom call detected" card.
 4. **A browser extension:** join Zoom in your browser and press Record on the extension.
 
-Whichever you pick, tell everyone in the call that you are recording.
+Whichever you pick, tell everyone in the call. Every time.
 
 ## Can a Zoom note taker work without a bot joining?
 
@@ -215,9 +215,9 @@ The right AI note taker for Zoom meetings depends on 3 things: whether bots are 
 
 If you also record Teams or Google Meet, pick a tool that covers all 3 so your notes stay in 1 place. Our list of the [best Zoom meeting recorders](https://lynkk.ai/blog/zoom-meeting-recorders) covers recording-only options.
 
-## What should a Zoom note taker capture?
+## How do you use a Zoom note taker after the call?
 
-A good Zoom note taker should give you 5 things after every call: a transcript with speaker names, a short summary, decisions, action items with owners, and a way to find the moment something was said. A transcript alone still leaves you doing the note-taking work.
+You use a Zoom note taker after the call by checking 5 things it should give you: a transcript with speaker names, a short summary, decisions, action items with owners, and a way to find the moment something was said. A transcript alone is not enough. You would still be doing the note-taking work.
 
 Check 3 practical details too. How long can a single recording run? Can you share notes with someone who was not in the call? Can you search across past meetings, not just the last one?
 

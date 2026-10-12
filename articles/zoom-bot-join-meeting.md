@@ -23,7 +23,7 @@ inbound_links_planned:
  - source: https://lynkk.ai/blog/zoom-meeting-recorders
    anchor: "add a Zoom bot to your meeting"
 featured_image_path: "/images/blog/zoom-bot-join-meeting.png"
-featured_image_alt: "A meeting bot joining a Zoom, Google Meet or Teams call from a pasted link"
+featured_image_alt: "A Zoom bot joining a Zoom, Google Meet or Teams call from a pasted link"
 tldr: "To add a meeting bot, paste the Zoom, Google Meet or Teams link into your note taker or turn on calendar auto-join, then admit the bot from the waiting room or lobby if the host requires it. The Lynkk meeting bot is free and records audio, and the Lynkk Mac app records with no bot at all."
 author: ""
 author_bio_url: ""
@@ -41,9 +41,11 @@ status: draft (not published)
 
 A meeting bot, often called a Zoom bot when it joins Zoom, is 1 extra participant that a note-taking app sends into your call to record it. It shows up in the attendee list like a person, listens for the whole meeting, and hands the recording to the app for a transcript and notes.
 
-Most note-taking bots work on 3 platforms: Zoom, Google Meet and Microsoft Teams. The bot only needs the meeting link. It does not need your Zoom, Google or Microsoft password.
+Most note-taking bots work on 3 platforms: Zoom, Google Meet and Microsoft Teams. The bot only needs the meeting link. Not your password.
 
 A note-taking bot is different from the spam bots that flood open meetings. A legitimate Zoom bot joins only the calls you send it to, under a clear name, and the host can remove it at any time.
+
+This guide is about adding a ready-made note-taking bot. Building your own Zoom bot is a developer project on Zoom's developer platform, and it is not covered here.
 
 ## How do you send a meeting bot to a meeting?
 
@@ -58,7 +60,7 @@ There are 2 ways to send a meeting bot to a meeting: paste the link for a single
 
 ### Turn on calendar auto-join (every meeting)
 
-Connect your calendar and turn on auto-join, and the bot joins each meeting that has a Zoom, Google Meet or Teams link. This is the easiest option if you have 5 or more calls a day, because you never paste a link again.
+Connect your calendar and turn on auto-join, and the bot joins each meeting that has a Zoom, Google Meet or Teams link. This is the easiest option if you have 5 or more calls a day. You never paste a link again.
 
 ## How do you add a Zoom bot to a Zoom meeting?
 
@@ -87,7 +89,7 @@ If your meetings rarely allow outside guests, record from your own side instead 
 
 Yes. You add a meeting bot to Teams the same way, by sending it the Teams meeting link, and it usually waits in the lobby for 1 person to admit it. Company policies matter more in Teams than in the other 2 platforms.
 
-Teams admins can limit who bypasses the lobby and whether anonymous guests can join at all. If your company blocks outside guests, a bot cannot get in, and a desktop app that records from your own computer is the better route. Our guide to the [best Teams AI note takers](https://lynkk.ai/blog/ai-note-taker-microsoft-teams) covers the Teams-specific options.
+Teams admins can limit who bypasses the lobby. They can also block anonymous guests entirely. If your company blocks outside guests, a bot cannot get in, and a desktop app that records from your own computer is the better route. Our guide to the [best Teams AI note takers](https://lynkk.ai/blog/ai-note-taker-microsoft-teams) covers the Teams-specific options.
 
 ## What does the meeting bot record?
 
@@ -109,7 +111,7 @@ A meeting bot usually cannot join for 1 of 5 reasons, and most take under a minu
 | Wrong meeting | Old or edited link | Copy the link from the latest invite |
 | Removed by the host | Host did not expect a bot | Tell the host before the call |
 
-If the meeting simply does not allow bots, the next section shows how to record without one.
+If the meeting simply does not allow bots, the next section shows how to record without one. No bot, no admit button.
 
 ## Can you record a meeting without a bot?
 
@@ -118,13 +120,24 @@ Yes. You can record Zoom, Google Meet and Teams with no bot in 2 ways: a desktop
 - **[Lynkk Mac app](https://lynkk.ai/download):** a card says "Zoom call detected" (or Google Meet, Teams, Slack huddle, WhatsApp, FaceTime or Webex) with Record and Not now. It records both sides on 2 channels, so your side is labeled "You". It runs on Apple silicon Macs with macOS 14.2 or later.
 - **Lynkk Chrome extension:** a small capsule docks above the call controls in Google Meet, the Zoom web client or Teams in the browser. Press Record. It works in Chrome, Edge, Brave and Arc.
 
-A no-bot option is handy for sales calls and interviews, where a Zoom bot in the attendee list can feel awkward.
+A no-bot option is handy for sales calls and interviews. There, a Zoom bot in the attendee list can feel awkward.
+
+## How do you stop a bot from joining your Zoom meeting?
+
+You can stop an unwanted Zoom bot with 4 host settings, and the waiting room alone blocks most of them. Many university IT teams now publish this advice, because AI bots often join calls automatically from an attendee's calendar.
+
+1. **Turn on the waiting room** so nobody, bot or person, gets in without being admitted.
+2. **Allow only signed-in users** from your organization, if your Zoom account supports it.
+3. **Remove the bot** from the participant list if it gets in, and lock the meeting.
+4. **Ask attendees** to turn off calendar auto-join in their own note taker for your meetings.
+
+The same rules apply to your own bot. If a host says no, respect it and take notes another way.
 
 ## Is it legal to use a meeting bot?
 
 Using a meeting bot is legal in most of the US when at least 1 participant consents, under federal law ([18 U.S.C. § 2511](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section2511)). Some states, including California ([Penal Code § 632](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=632)), require every person on the call to agree.
 
-A visible bot helps here, because everyone can see it in the attendee list. Still, say at the start that the meeting is being recorded. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a useful checklist when your company reviews a recording tool. *This is general information, not legal advice.*
+A visible bot helps here. Everyone can see it in the attendee list. Still, say at the start that the meeting is being recorded. The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) is a useful checklist when your company reviews a recording tool. *This is general information, not legal advice.*
 
 ## FAQ
 
