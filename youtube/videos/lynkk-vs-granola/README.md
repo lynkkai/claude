@@ -29,40 +29,7 @@ The last 4 seconds of the long video hold on the orange end card for YouTube end
 
 **Title:** Lynkk vs Granola Comparison: Granola Alternative, Feature by Feature (2026) | Lynkk
 
-**Description:**
-
-```
-Lynkk vs Granola comparison: looking for a Granola alternative? Granola fills out your notes from the call, then the audio is gone. Here's how the two compare, feature by feature, as of October 2026.
-
-Start free: https://lynkk.ai
-
-In this video:
-• An AI notepad vs the whole meeting, kept: Lynkk records the call and writes the Meeting Brief
-• Every timestamp in the Meeting Brief plays the recording from that moment. Video from the meeting bot is Pro
-• The meeting bot for Google Meet, Zoom and Teams: paste a link, or turn on calendar auto-join
-• The Mac app notices calls in Zoom, Meet, Teams, Slack huddles, WhatsApp, FaceTime and Webex. Nothing joins the call
-• Send tasks to Jira from the note, one issue per item, with no Zapier in between
-• Ask Lynkk (Pro): answers from your own notes, and actions behind a confirm card
-• The morning briefing email, and answers in Slack (Pro)
-• Where Granola is the better pick
-
-CHAPTERS
-0:00 Then the audio is gone
-0:11 Notepad vs recorder
-0:30 Replay any moment
-0:43 A bot when you can't attend
-0:56 Lynkk for Mac
-1:14 Tasks to Jira
-1:25 Ask Lynkk
-1:40 Before the call, and in Slack
-1:58 Where Granola fits
-2:15 The short version
-2:27 Start free
-
-Granola details from lynkk.ai/compare/granola, based on granola.ai, October 2026. Plans and features change, so check their site for the latest. The company, people and data shown are fictional, and product screens are simplified drawings. Always tell everyone on a call when you are recording it.
-
-#GranolaAlternative #Lynkk #AINoteTaker #MeetingNotes #AIMeetingAssistant
-```
+**Description:** see `youtube-description.md` (full text, ready to paste).
 
 **Tags** (20 tags, 426 of 500 characters):
 
@@ -76,14 +43,7 @@ lynkk vs granola, granola alternative, granola ai alternative, granola compariso
 
 **Title:** Lynkk vs Granola Comparison: Granola Alternative in 50 Seconds | Lynkk
 
-**Description:**
-
-```
-Lynkk vs Granola comparison: the Granola alternative, in under a minute.
-Lynkk keeps the recording, sends a bot when you are double booked, and puts tasks in Jira from the note. Start free at lynkk.ai
-Granola details from lynkk.ai/compare/granola, based on granola.ai, October 2026.
-#GranolaAlternative #Lynkk #shorts
-```
+**Description:** see `youtube-description.md` (full text, ready to paste).
 
 **Tags** (13 tags, 234 of 500 characters):
 

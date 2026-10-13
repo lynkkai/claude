@@ -29,42 +29,7 @@ The last 4 seconds of the long video hold on the orange end card for YouTube end
 
 **Title:** Lynkk vs Otter.ai Comparison: Otter AI Alternative, Feature by Feature (2026) | Lynkk
 
-**Description:**
-
-```
-Lynkk vs Otter.ai comparison: looking for an Otter AI alternative? Here's how the two compare, feature by feature, as of October 2026: how each one records, languages, long meetings, the Meeting Brief, Jira, Ask Lynkk and Slack.
-
-Start free: https://lynkk.ai
-
-In this video:
-• Four ways to record with Lynkk: the Mac app and the Chrome extension (no bot in the call), the meeting bot for Google Meet, Zoom and Teams, and your mic in the browser
-• On the Mac, both sides on two channels, so your lines are labelled You
-• Languages: Otter lists six, one per conversation. Lynkk transcribes 17, four of them in beta, with auto-detect
-• Long meetings: up to 2 hours per recording on every Lynkk plan, the free plan included
-• The Meeting Brief (free): takeaways with timestamps, decisions, open questions, action items with owner, due date and priority
-• Send tasks to Jira from the note, one issue per item
-• Ask Lynkk (Pro): answers only from your own notes, with citation chips and Play from
-• The morning briefing email, and answers in Slack (Pro)
-• Where Otter.ai is the better pick
-
-CHAPTERS
-0:00 Your meeting ran an hour
-0:13 How each one records
-0:32 Your side, kept apart
-0:48 Languages: 6 vs 17
-1:07 Long meetings
-1:20 The Meeting Brief
-1:36 Tasks to Jira
-1:48 Ask Lynkk
-1:58 Before the call, and in Slack
-2:16 Where Otter.ai fits
-2:39 The short version
-2:53 Start free
-
-Otter.ai details from lynkk.ai/compare/otter, based on otter.ai, October 2026. Plans and features change, so check their site for the latest. The company, people and data shown are fictional, and product screens are simplified drawings. Always tell everyone on a call when you are recording it.
-
-#OtterAIAlternative #Lynkk #AINoteTaker #MeetingNotes #AIMeetingAssistant
-```
+**Description:** see `youtube-description.md` (full text, ready to paste).
 
 **Tags** (22 tags, 464 of 500 characters):
 
@@ -78,14 +43,7 @@ lynkk vs otter, lynkk vs otter.ai, otter ai alternative, otter ai comparison, ot
 
 **Title:** Lynkk vs Otter.ai Comparison: Otter AI Alternative in 50 Seconds | Lynkk
 
-**Description:**
-
-```
-Lynkk vs Otter.ai comparison: the Otter AI alternative, in under a minute.
-Lynkk records up to 2 hours per recording on every plan, transcribes 17 languages, and joins nothing on your Mac. Start free at lynkk.ai
-Otter.ai details from lynkk.ai/compare/otter, based on otter.ai, October 2026.
-#OtterAIAlternative #Lynkk #shorts
-```
+**Description:** see `youtube-description.md` (full text, ready to paste).
 
 **Tags** (14 tags, 244 of 500 characters):
 
