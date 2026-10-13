@@ -40,5 +40,7 @@ build folder, so re-running after a visual change in the same session costs no e
 
 ## Status
 
-The first cut used the offline Kokoro voice and was rejected as robotic, so it has been removed.
-Next step: re-voice and re-render all four with Sarvam, using `./make_all.sh`.
+- `captions-only/`: all four videos with captions and background music, no narration. Ready to post on
+  feeds where most people watch with the sound off.
+- Narrated versions: the first cut used the offline Kokoro voice and was rejected as robotic, so it was
+  removed. To make them, add `SARVAM_API_KEY` and run `./make_all.sh` in a new session.

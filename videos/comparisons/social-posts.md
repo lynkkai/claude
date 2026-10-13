@@ -1,6 +1,6 @@
 # Lynkk comparison videos: post copy
 
-Post all four (once re-voiced with Sarvam, see README) from the **official Lynkk accounts**, not personal profiles. The copy is written as
+Post all four from the **official Lynkk accounts**, not personal profiles. The copy is written as
 Lynkk ("we"). Every video already shows the Lynkk logo, wordmark and lynkk.ai on every frame, and ends
 on the Lynkk end card.
 
@@ -12,10 +12,10 @@ if you post after that, since plans change.
 
 | File | Format | Length | Where |
 |---|---|---|---|
-| `lynkk-vs-otter-short.mp4` | 1080x1920, 9:16 | 0:54 | Reels, Shorts, TikTok, LinkedIn mobile |
-| `lynkk-vs-granola-short.mp4` | 1080x1920, 9:16 | 0:54 | Reels, Shorts, TikTok, LinkedIn mobile |
-| `lynkk-vs-otter-long.mp4` | 1920x1080, 16:9 | 2:29 | YouTube, LinkedIn, X, website |
-| `lynkk-vs-granola-long.mp4` | 1920x1080, 16:9 | 2:21 | YouTube, LinkedIn, X, website |
+| `captions-only/lynkk-vs-otter-short-captions.mp4` | 1080x1920, 9:16 | 0:54 | Reels, Shorts, TikTok, LinkedIn mobile |
+| `captions-only/lynkk-vs-granola-short-captions.mp4` | 1080x1920, 9:16 | 0:54 | Reels, Shorts, TikTok, LinkedIn mobile |
+| `captions-only/lynkk-vs-otter-long-captions.mp4` | 1920x1080, 16:9 | 2:29 | YouTube, LinkedIn, X, website |
+| `captions-only/lynkk-vs-granola-long-captions.mp4` | 1920x1080, 16:9 | 2:21 | YouTube, LinkedIn, X, website |
 
 ---
 
