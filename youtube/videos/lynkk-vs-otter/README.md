@@ -66,7 +66,11 @@ Otter.ai details from lynkk.ai/compare/otter, based on otter.ai, October 2026. P
 #OtterAIAlternative #Lynkk #AINoteTaker #MeetingNotes #AIMeetingAssistant
 ```
 
-**Tags:** otter ai alternative, otter ai, lynkk vs otter, otter.ai, ai note taker, ai meeting assistant, meeting notes ai, bot free ai note taker, meeting transcription, send tasks to jira, lynkk
+**Tags** (22 tags, 464 of 500 characters):
+
+```
+lynkk vs otter, lynkk vs otter.ai, otter ai alternative, otter ai comparison, otter ai, otter.ai, otter ai free, otter alternative, ai note taker, ai meeting assistant, ai meeting notes taker, free ai note taker, ai meeting notes, ai note taker for zoom, google meet ai note taker, ai note taker for teams, bot free ai note taker, ai note taker that doesn't join meetings, meeting transcription, hindi transcription, meeting notes to jira, lynkk
+```
 
 **Pinned comment:** Which matters more for your meetings: more languages, or longer calls? Try Lynkk free: https://lynkk.ai
 
@@ -81,6 +85,12 @@ Lynkk vs Otter.ai comparison: the Otter AI alternative, in under a minute.
 Lynkk records up to 2 hours per recording on every plan, transcribes 17 languages, and joins nothing on your Mac. Start free at lynkk.ai
 Otter.ai details from lynkk.ai/compare/otter, based on otter.ai, October 2026.
 #OtterAIAlternative #Lynkk #shorts
+```
+
+**Tags** (14 tags, 244 of 500 characters):
+
+```
+lynkk vs otter, otter ai alternative, otter ai comparison, otter ai, otter.ai, otter ai free, ai note taker, ai meeting assistant, free ai note taker, bot free ai note taker, ai note taker for zoom, meeting transcription, lynkk, shorts
 ```
 
 ## Social captions

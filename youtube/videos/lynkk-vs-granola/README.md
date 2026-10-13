@@ -64,7 +64,11 @@ Granola details from lynkk.ai/compare/granola, based on granola.ai, October 2026
 #GranolaAlternative #Lynkk #AINoteTaker #MeetingNotes #AIMeetingAssistant
 ```
 
-**Tags:** granola alternative, granola ai, lynkk vs granola, ai note taker, ai meeting assistant, meeting notes ai, meeting recorder, ai notetaker bot, send tasks to jira, lynkk
+**Tags** (20 tags, 426 of 500 characters):
+
+```
+lynkk vs granola, granola alternative, granola ai alternative, granola comparison, granola ai, granola, ai note taker, ai meeting assistant, ai meeting notes taker, free ai note taker, ai meeting notes, meeting recorder, ai notetaker bot, ai note taker for zoom, google meet ai note taker, ai note taker for teams, ai note taker that doesn't join meetings, record meetings on mac, meeting notes to jira, lynkk
+```
 
 **Pinned comment:** Do you want the recording kept, or just the notes? Try Lynkk free: https://lynkk.ai
 
@@ -79,6 +83,12 @@ Lynkk vs Granola comparison: the Granola alternative, in under a minute.
 Lynkk keeps the recording, sends a bot when you are double booked, and puts tasks in Jira from the note. Start free at lynkk.ai
 Granola details from lynkk.ai/compare/granola, based on granola.ai, October 2026.
 #GranolaAlternative #Lynkk #shorts
+```
+
+**Tags** (13 tags, 234 of 500 characters):
+
+```
+lynkk vs granola, granola alternative, granola ai alternative, granola comparison, granola ai, ai note taker, ai meeting assistant, free ai note taker, meeting recorder, ai notetaker bot, meeting notes to jira, lynkk, shorts
 ```
 
 ## Social captions
