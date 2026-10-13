@@ -14,22 +14,31 @@ Four videos for the Lynkk social accounts, plus their post copy in `social-posts
   background, and the Lynkk sphere logo. The product cards are modeled on the UI shown on lynkk.ai.
 - **Facts.** Every claim comes from lynkk.ai/compare/otter, lynkk.ai/compare/granola and the lynkk.ai
   FAQ and pricing, checked October 2026. Comparison scenes show a source line on screen.
-- **Voice.** Indian English female voice (Kokoro TTS, `hf_alpha`), with a little speed variation per
-  line, natural pauses, warmth and compression so it sounds like a mic read. Captions are burned in.
+- **Voice.** Indian English from Sarvam AI (Bulbul v3, `en-IN`), one request per line, with a little pace
+  variation, natural pauses, warmth and light compression so it sits like a mic read. Captions are burned
+  in. Without a Sarvam key the pipeline falls back to offline Kokoro, which sounds robotic and is only
+  useful for checking timing.
 - **Music.** An original track synthesized in `src/music.py`, with no samples and no licensing, ducked
   under the voice.
 
 ## Rebuild
 
+1. Add a Sarvam AI API key to the cloud environment as `SARVAM_API_KEY` (environment menu in the session
+   title bar, then Edit). A new session picks it up.
+2. Run:
+
 ```bash
-pip install kokoro-onnx soundfile numpy
-# model files: kokoro-v1.0.onnx and voices-v1.0.bin from github.com/thewh1teagle/kokoro-onnx releases,
-# placed in <work>/../models/
-cd src
-python3 build_audio.py lynkk-vs-otter-short <work>          # voice, music, mix, timeline.json
-node render.js <work>/lynkk-vs-otter-short ../lynkk-vs-otter-short.mp4
+cd videos/comparisons/src
+./make_all.sh                          # all four videos, written to videos/comparisons/*.mp4
+./make_all.sh lynkk-vs-otter-short     # just one
+SARVAM_SPEAKER=shubh ./make_all.sh     # another Bulbul v3 voice (e.g. shubh, ritu, neha, kavya, rahul)
 ```
 
 Edit the scripts in `src/content.py` (`cap` is what viewers read, `say` is how the voice pronounces it,
-for example "Link" for Lynkk). Edit the visuals in `src/stage/stage.html`. Set `LYNKK_VOICE=hm_omega`
-for an Indian English male voice.
+for example "Link" for Lynkk). Edit the visuals in `src/stage/stage.html`. Sarvam audio is cached per line in the
+build folder, so re-running after a visual change in the same session costs no extra credits.
+
+## Status
+
+The first cut used the offline Kokoro voice and was rejected as robotic, so it has been removed.
+Next step: re-voice and re-render all four with Sarvam, using `./make_all.sh`.

@@ -3,21 +3,28 @@
 Usage: python3 build_audio.py <slug> <workdir>
 Writes <workdir>/<slug>/{seg_*.wav, voice.wav, music.wav, mix.wav, timeline.json}
 """
+import base64
+import hashlib
 import json
 import os
 import re
 import subprocess
 import sys
+import urllib.request
 
 import numpy as np
 import soundfile as sf
-from kokoro_onnx import Kokoro
 
 from content import VIDEOS
 import music
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-VOICE = os.environ.get("LYNKK_VOICE", "hf_alpha")   # Kokoro Hindi female voice, speaking English
+# Voice engine: Sarvam AI (Bulbul, Indian voices) when SARVAM_API_KEY is set, else offline Kokoro.
+ENGINE = os.environ.get("LYNKK_TTS") or ("sarvam" if os.environ.get("SARVAM_API_KEY") else "kokoro")
+SARVAM_MODEL = os.environ.get("SARVAM_MODEL", "bulbul:v3")
+SARVAM_SPEAKER = os.environ.get("SARVAM_SPEAKER", "priya")
+SARVAM_TEMP = float(os.environ.get("SARVAM_TEMPERATURE", "0.7"))
+VOICE = os.environ.get("LYNKK_VOICE", "hf_alpha")   # Kokoro fallback: Hindi female voice speaking English
 SPEED = float(os.environ.get("LYNKK_SPEED", "1.0"))
 GAP = 0.42        # breath between lines
 LEAD_IN = 0.35
@@ -26,8 +33,42 @@ LEAD_IN = 0.35
 def tts_text(seg):
     s = seg.get("say") or seg["cap"]
     s = s.replace("lynkk.ai", "link dot A I").replace("Lynkk", "Link").replace("Otter.ai", "Otter dot A I")
-    s = s.replace("Hinglish", "Hing lish")  # otherwise it is read as "English"
+    if ENGINE == "kokoro":
+        s = s.replace("Hinglish", "Hing lish")  # otherwise Kokoro reads it as "English"
     return s
+
+
+class KokoroVoice:
+    def __init__(self, models):
+        from kokoro_onnx import Kokoro
+        self.k = Kokoro(os.path.join(models, "kokoro-v1.0.onnx"), os.path.join(models, "voices-v1.0.bin"))
+
+    def synth(self, text, speed, cache):
+        samples, sr = self.k.create(text, voice=VOICE, speed=speed, lang="en-us")
+        return np.asarray(samples, dtype=np.float32), sr
+
+
+class SarvamVoice:
+    """Sarvam AI text-to-speech (https://docs.sarvam.ai), Indian English. Lines are cached on disk."""
+    URL = "https://api.sarvam.ai/text-to-speech"
+
+    def synth(self, text, speed, cache):
+        body = {"text": text, "target_language_code": "en-IN", "model": SARVAM_MODEL,
+                "speaker": SARVAM_SPEAKER, "pace": round(speed, 3), "speech_sample_rate": 44100,
+                "temperature": SARVAM_TEMP}
+        key = hashlib.sha1(json.dumps(body, sort_keys=True).encode()).hexdigest()[:16]
+        path = os.path.join(cache, f"sarvam_{key}.wav")
+        if not os.path.exists(path):
+            req = urllib.request.Request(self.URL, data=json.dumps(body).encode(), method="POST", headers={
+                "api-subscription-key": os.environ["SARVAM_API_KEY"], "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=120) as r:
+                audio = base64.b64decode(json.load(r)["audios"][0])
+            with open(path, "wb") as f:
+                f.write(audio)
+        samples, sr = sf.read(path, dtype="float32")
+        if samples.ndim > 1:
+            samples = samples.mean(axis=1)
+        return samples, sr
 
 
 def chunks(cap, max_words):
@@ -61,19 +102,21 @@ def main(slug, work):
     video = next(v for v in VIDEOS if v["slug"] == slug)
     out = os.path.join(work, slug)
     os.makedirs(out, exist_ok=True)
-    kok = Kokoro(os.path.join(work, "..", "models", "kokoro-v1.0.onnx"),
-                 os.path.join(work, "..", "models", "voices-v1.0.bin"))
+    voice_engine = SarvamVoice() if ENGINE == "sarvam" else KokoroVoice(os.path.join(work, "..", "models"))
+    cache = os.path.join(work, "tts_cache")
+    os.makedirs(cache, exist_ok=True)
     max_words = 4 if video["format"] == "vertical" else 7
     rng = np.random.default_rng(11)
 
     pieces, timeline, t = [], [], LEAD_IN
-    sr = 24000
-    pieces.append(np.zeros(int(LEAD_IN * sr)))
+    sr = None
     for i, seg in enumerate(video["segments"]):
         # tiny per-line speed variation keeps the read from sounding mechanical
         speed = SPEED * float(rng.uniform(0.97, 1.03))
-        samples, sr = kok.create(tts_text(seg), voice=VOICE, speed=speed, lang="en-us")
-        samples = trim(np.asarray(samples, dtype=np.float32), sr)
+        samples, sr = voice_engine.synth(tts_text(seg), speed, cache)
+        samples = trim(samples, sr)
+        if not pieces:
+            pieces.append(np.zeros(int(LEAD_IN * sr)))
         dur = len(samples) / sr
         caps = chunks(seg["cap"], max_words)
         weights = np.array([len(c) + 6 for c in caps], dtype=float)

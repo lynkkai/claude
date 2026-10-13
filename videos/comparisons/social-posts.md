@@ -1,6 +1,6 @@
 # Lynkk comparison videos: post copy
 
-Post all four from the **official Lynkk accounts**, not personal profiles. The copy is written as
+Post all four (once re-voiced with Sarvam, see README) from the **official Lynkk accounts**, not personal profiles. The copy is written as
 Lynkk ("we"). Every video already shows the Lynkk logo, wordmark and lynkk.ai on every frame, and ends
 on the Lynkk end card.
 
