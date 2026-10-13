@@ -1,0 +1,119 @@
+1
+00:00:00,500 --> 00:00:02,705
+Granola fills out your notes from the call.
+
+2
+00:00:03,085 --> 00:00:04,524
+Then the audio is gone.
+
+3
+00:00:04,904 --> 00:00:10,719
+Here's how Lynkk and Granola compare, feature by feature, as of October 2026.
+
+4
+00:00:12,019 --> 00:00:19,870
+Granola is an AI notepad. You type rough notes during the call, it listens to your computer's audio, and fills them out afterwards.
+
+5
+00:00:20,250 --> 00:00:23,343
+It uses the audio for the transcript, and doesn't keep it.
+
+6
+00:00:23,723 --> 00:00:29,520
+Lynkk records the call itself, and turns it into a transcript and a Meeting Brief, with the audio kept.
+
+7
+00:00:30,820 --> 00:00:33,005
+With Lynkk, the recording stays with the note.
+
+8
+00:00:33,385 --> 00:00:40,009
+Every timestamp in the Meeting Brief plays the recording from that moment, so you can hear exactly how something was said.
+
+9
+00:00:40,389 --> 00:00:43,105
+On Pro, the meeting bot can record video too.
+
+10
+00:00:44,405 --> 00:00:45,846
+Some calls need a bot.
+
+11
+00:00:46,226 --> 00:00:52,108
+Lynkk's bot joins Google Meet, Zoom and Teams links. Paste a link, or turn on calendar auto-join.
+
+12
+00:00:52,488 --> 00:00:55,850
+Granola has no bot, and you start each note yourself.
+
+13
+00:00:57,150 --> 00:01:04,893
+On the Mac, Lynkk notices calls in Zoom, Meet, Teams, Slack huddles, WhatsApp, FaceTime and Webex, and asks if you want to record.
+
+14
+00:01:05,273 --> 00:01:10,819
+Nothing joins the call. Both sides are recorded on two channels, so your lines are labelled You.
+
+15
+00:01:11,199 --> 00:01:13,353
+It stops by itself when the call ends.
+
+16
+00:01:14,653 --> 00:01:18,552
+Every action item comes with an owner, a due date and a priority.
+
+17
+00:01:18,932 --> 00:01:24,564
+Send them to Jira from the note, one issue per item. Granola connects Jira through Zapier.
+
+18
+00:01:25,864 --> 00:01:32,072
+On Pro, Ask Lynkk answers only from your own notes, with citation chips, and Play from takes you to the moment.
+
+19
+00:01:32,452 --> 00:01:39,838
+It can also create a calendar event, share a note, mark a task done, or create a Jira issue, each one behind a confirm card.
+
+20
+00:01:41,138 --> 00:01:46,365
+With Google Calendar connected, Lynkk emails you a morning briefing on days you have meetings.
+
+21
+00:01:46,745 --> 00:01:51,833
+Who you're meeting, the last note with them, and how many action items are still open between you.
+
+22
+00:01:52,213 --> 00:01:57,649
+On Pro, ask @Lynkk in a Slack channel, and it answers in the thread from your own notes, with sources.
+
+23
+00:01:58,949 --> 00:02:01,931
+To be fair, Granola is the better fit for some people.
+
+24
+00:02:02,311 --> 00:02:08,128
+If you like typing your own notes, need Windows, or need more than 17 languages, look at Granola.
+
+25
+00:02:08,508 --> 00:02:14,474
+Its free plan also includes chat over your last 30 days of meetings. Ask Lynkk is part of Pro.
+
+26
+00:02:15,774 --> 00:02:17,130
+So, the short version.
+
+27
+00:02:17,510 --> 00:02:23,795
+Pick Lynkk if you want the recording kept, a bot for the calls you can't attend, and tasks that go straight to Jira.
+
+28
+00:02:24,175 --> 00:02:26,689
+And Lynkk never trains on your conversations.
+
+29
+00:02:27,989 --> 00:02:31,845
+Lynkk records the call, writes the brief, and hands your tasks to Jira.
+
+30
+00:02:32,225 --> 00:02:33,910
+Start free at lynkk.ai.

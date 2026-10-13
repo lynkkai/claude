@@ -20,7 +20,7 @@ Built with the `lynkk-design` skill and the kit in `lynkk-post-kit/`:
 |---|---|
 | `out/lynkk-vs-granola-long.mp4` | YouTube video, 2:39, 1920x1080 |
 | `out/lynkk-vs-granola-long.srt` | English captions for the YouTube video |
-| `out/lynkk-vs-granola-short.mp4` | Shorts, Reels, TikTok, 0:48, 1080x1920, captions on screen |
+| `out/lynkk-vs-granola-short.mp4` | Shorts, Reels, TikTok, 0:48, 1080x1920 |
 | `out/lynkk-vs-granola-short.srt` | Captions file for the Short, if the platform takes one |
 
 The last 4 seconds of the long video hold on the orange end card for YouTube end-screen elements.

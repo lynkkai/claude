@@ -20,7 +20,7 @@ Built with the `lynkk-design` skill and the kit in `lynkk-post-kit/`:
 |---|---|
 | `out/lynkk-vs-otter-long.mp4` | YouTube video, 3:05, 1920x1080 |
 | `out/lynkk-vs-otter-long.srt` | English captions for the YouTube video |
-| `out/lynkk-vs-otter-short.mp4` | Shorts, Reels, TikTok, 0:54, 1080x1920, captions on screen |
+| `out/lynkk-vs-otter-short.mp4` | Shorts, Reels, TikTok, 0:54, 1080x1920 |
 | `out/lynkk-vs-otter-short.srt` | Captions file for the Short, if the platform takes one |
 
 The last 4 seconds of the long video hold on the orange end card for YouTube end-screen elements.
