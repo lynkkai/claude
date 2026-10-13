@@ -12,6 +12,15 @@ if you post after that, since plans change.
 
 | File | Format | Length | Where |
 |---|---|---|---|
+| `lynkk-vs-otter-short.mp4` | 1080x1920, 9:16 | 0:50 | Reels, Shorts, TikTok, LinkedIn mobile |
+| `lynkk-vs-granola-short.mp4` | 1080x1920, 9:16 | 0:50 | Reels, Shorts, TikTok, LinkedIn mobile |
+| `lynkk-vs-otter-long.mp4` | 1920x1080, 16:9 | 2:18 | YouTube, LinkedIn, X, website |
+| `lynkk-vs-granola-long.mp4` | 1920x1080, 16:9 | 2:11 | YouTube, LinkedIn, X, website |
+
+These have the voiceover (US English male) and sitar + tabla music. Versions with captions and music but no
+voice are in `captions-only/`; their timings differ, so the chapter times below are for the voiced files.
+
+---|---|---|---|
 | `captions-only/lynkk-vs-otter-short-captions.mp4` | 1080x1920, 9:16 | 0:54 | Reels, Shorts, TikTok, LinkedIn mobile |
 | `captions-only/lynkk-vs-granola-short-captions.mp4` | 1080x1920, 9:16 | 0:54 | Reels, Shorts, TikTok, LinkedIn mobile |
 | `captions-only/lynkk-vs-otter-long-captions.mp4` | 1920x1080, 16:9 | 2:29 | YouTube, LinkedIn, X, website |
@@ -83,14 +92,14 @@ Full comparison: https://lynkk.ai/compare/otter
 Chapters
 0:00 Six languages vs Hinglish
 0:06 Lynkk vs Otter.ai
-0:16 Recording: bot or no bot
-0:32 Languages: 6 vs 17 + Hinglish
-0:56 Long meetings: 30 min vs 2 hours
-1:09 After the call: owners, due dates, Jira
-1:23 Ask Lynkk, and Lynkk in Slack
-1:37 Privacy and data region
-1:58 Price: $15 vs $16.99
-2:07 Recap
+0:14 Recording: bot or no bot
+0:30 Languages: 6 vs 17 + Hinglish
+0:52 Long meetings: 30 min vs 2 hours
+1:04 After the call: owners, due dates, Jira
+1:17 Ask Lynkk, and Lynkk in Slack
+1:29 Privacy and data region
+1:49 Price: $15 vs $16.99
+1:58 Recap
 
 Otter.ai details from otter.ai, October 2026. Plans and features change, check their site for the latest.
 
@@ -128,15 +137,15 @@ Full comparison: https://lynkk.ai/compare/granola
 Chapters
 0:00 The recording is gone
 0:07 Lynkk vs Granola
-0:15 AI notepad vs the whole meeting
-0:33 Keep the audio, replay any moment
-0:45 A bot when you can't attend
-1:00 Recording that starts on its own
-1:16 Action items straight to Jira
-1:30 Ask Lynkk, with sources
-1:44 Free plan: 30 days vs yours to keep
-1:56 Built for India: Hinglish and data in India
-2:04 Recap
+0:14 AI notepad vs the whole meeting
+0:31 Keep the audio, replay any moment
+0:42 A bot when you can't attend
+0:56 Recording that starts on its own
+1:11 Action items straight to Jira
+1:24 Ask Lynkk, with sources
+1:37 Free plan: 30 days vs yours to keep
+1:48 Built for India: Hinglish and data in India
+1:56 Recap
 
 Granola details from granola.ai, October 2026. Plans and features change, check their site for the latest.
 

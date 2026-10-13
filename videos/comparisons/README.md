@@ -14,24 +14,21 @@ Four videos for the Lynkk social accounts, plus their post copy in `social-posts
   background, and the Lynkk sphere logo. The product cards are modeled on the UI shown on lynkk.ai.
 - **Facts.** Every claim comes from lynkk.ai/compare/otter, lynkk.ai/compare/granola and the lynkk.ai
   FAQ and pricing, checked October 2026. Comparison scenes show a source line on screen.
-- **Voice.** Indian English from Sarvam AI (Bulbul v3, `en-IN`), one request per line, with a little pace
-  variation, natural pauses, warmth and light compression so it sits like a mic read. Captions are burned
-  in. Without a Sarvam key the pipeline falls back to offline Kokoro, which sounds robotic and is only
-  useful for checking timing.
-- **Music.** An original track synthesized in `src/music.py`, with no samples and no licensing, ducked
-  under the voice.
+- **Voice.** US English male voiceover ("Adam", Kokoro `am_adam`, picked by the team), with a little pace
+  variation, natural pauses, warmth and light compression. Captions are burned in. Set `SARVAM_API_KEY`
+  to switch to Sarvam AI's Indian voices (Bulbul v3, `en-IN`) instead.
+- **Music.** Original sitar + tabla track (with tanpura drone, keys and bass), synthesized in
+  `src/music_indian.py` with no samples and no licensing, ducked under the voice. `LYNKK_MUSIC=bansuri`,
+  `lofi` or `synth` picks another style.
 
 ## Rebuild
 
-1. Add a Sarvam AI API key to the cloud environment as `SARVAM_API_KEY` (environment menu in the session
-   title bar, then Edit). A new session picks it up.
-2. Run:
-
 ```bash
 cd videos/comparisons/src
-./make_all.sh                          # all four videos, written to videos/comparisons/*.mp4
-./make_all.sh lynkk-vs-otter-short     # just one
-SARVAM_SPEAKER=shubh ./make_all.sh     # another Bulbul v3 voice (e.g. shubh, ritu, neha, kavya, rahul)
+./make_all.sh                                  # all four, Adam voice + sitar music, to videos/comparisons/*.mp4
+./make_all.sh lynkk-vs-otter-short             # just one
+LYNKK_VOICE=am_michael ./make_all.sh           # another Kokoro voice
+SARVAM_API_KEY=... SARVAM_SPEAKER=shubh ./make_all.sh   # Sarvam AI Indian voice (key set in the environment)
 ```
 
 Edit the scripts in `src/content.py` (`cap` is what viewers read, `say` is how the voice pronounces it,
@@ -40,7 +37,6 @@ build folder, so re-running after a visual change in the same session costs no e
 
 ## Status
 
-- `captions-only/`: all four videos with captions and background music, no narration. Ready to post on
-  feeds where most people watch with the sound off.
-- Narrated versions: the first cut used the offline Kokoro voice and was rejected as robotic, so it was
-  removed. To make them, add `SARVAM_API_KEY` and run `./make_all.sh` in a new session.
+- `lynkk-vs-*.mp4`: the four final videos with the Adam voiceover and sitar + tabla music.
+- `captions-only/`: the same videos with captions and music but no voice, for sound-off feeds.
+- `samples/`: the music and voice previews used to choose the above.
