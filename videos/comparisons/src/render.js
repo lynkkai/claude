@@ -51,7 +51,8 @@ const FPS = 30;
   const out = process.argv[3];
   const n = Math.ceil(meta.duration * FPS);
   const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'mjpeg', '-i', '-',
-    '-i', path.join(dir, 'mix.wav'), '-map', '0:v', '-map', '1:a',
+    // pad the audio so it never ends before the last frame (with -shortest, ffmpeg would stop reading frames and stall)
+    '-i', path.join(dir, 'mix.wav'), '-map', '0:v', '-map', '1:a', '-af', 'apad',
     '-c:v', 'libx264', '-preset', 'medium', '-crf', '19', '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-r', String(FPS),
     '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', out], { stdio: ['pipe', 'inherit', 'inherit'] });
   const t0 = Date.now();

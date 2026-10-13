@@ -17,6 +17,7 @@ import soundfile as sf
 
 from content import VIDEOS
 import music
+import music_indian
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 # Voice engine: Sarvam AI (Bulbul, Indian voices) when SARVAM_API_KEY is set, else offline Kokoro.
@@ -24,8 +25,10 @@ ENGINE = os.environ.get("LYNKK_TTS") or ("sarvam" if os.environ.get("SARVAM_API_
 SARVAM_MODEL = os.environ.get("SARVAM_MODEL", "bulbul:v3")
 SARVAM_SPEAKER = os.environ.get("SARVAM_SPEAKER", "priya")
 SARVAM_TEMP = float(os.environ.get("SARVAM_TEMPERATURE", "0.7"))
-VOICE = os.environ.get("LYNKK_VOICE", "hf_alpha")   # Kokoro fallback: Hindi female voice speaking English
-SPEED = float(os.environ.get("LYNKK_SPEED", "1.0"))
+VOICE = os.environ.get("LYNKK_VOICE", "am_adam")    # Kokoro voice: US English male "Adam" (chosen by the team)
+# Background music: "sitar" (chosen), "bansuri", "lofi" from music_indian.py, or "synth" for the original bed
+MUSIC = os.environ.get("LYNKK_MUSIC", "sitar")
+SPEED = float(os.environ.get("LYNKK_SPEED", "0.98"))
 GAP = 0.42        # breath between lines
 LEAD_IN = 0.35
 
@@ -146,10 +149,14 @@ def main(slug, work):
          "-ar", "44100", "-ac", "2", voice])
 
     mus = os.path.join(out, "music.wav")
-    sf.write(mus, music.build(total, seed=3 if "otter" in slug else 9), music.SR)
+    seed = 3 if "otter" in slug else 9
+    if MUSIC == "synth":
+        sf.write(mus, music.build(total, seed=seed), music.SR)
+    else:
+        sf.write(mus, music_indian.build(MUSIC, total, seed=seed), music_indian.SR)
     mix = os.path.join(out, "mix.wav")
     run(["ffmpeg", "-y", "-i", voice, "-i", mus, "-filter_complex",
-         "[1:a]volume=0.22[m];[0:a]asplit=2[v][vk];"
+         "[1:a]volume=0.2[m];[0:a]asplit=2[v][vk];"
          "[m][vk]sidechaincompress=threshold=0.03:ratio=4:attack=20:release=400[md];"
          "[v][md]amix=inputs=2:normalize=0:duration=longest,loudnorm=I=-14:TP=-1.0:LRA=9[a]",
          "-map", "[a]", "-ar", "44100", mix])
