@@ -27,12 +27,12 @@ The last 4 seconds of the long video hold on the orange end card for YouTube end
 
 ## YouTube: long video
 
-**Title:** Otter AI Alternative: Lynkk vs Otter.ai, Feature by Feature (2026) | Lynkk
+**Title:** Lynkk vs Otter.ai Comparison: Otter AI Alternative, Feature by Feature (2026) | Lynkk
 
 **Description:**
 
 ```
-Looking for an Otter AI alternative? Here's how Lynkk and Otter.ai compare, feature by feature, as of October 2026: how each one records, languages, long meetings, the Meeting Brief, Jira, Ask Lynkk and Slack.
+Lynkk vs Otter.ai comparison: looking for an Otter AI alternative? Here's how the two compare, feature by feature, as of October 2026: how each one records, languages, long meetings, the Meeting Brief, Jira, Ask Lynkk and Slack.
 
 Start free: https://lynkk.ai
 
@@ -72,52 +72,20 @@ Otter.ai details from lynkk.ai/compare/otter, based on otter.ai, October 2026. P
 
 ## YouTube Shorts
 
-**Title:** Otter AI Alternative in 50 Seconds: Lynkk vs Otter.ai | Lynkk
+**Title:** Lynkk vs Otter.ai Comparison: Otter AI Alternative in 50 Seconds | Lynkk
 
 **Description:**
 
 ```
-Otter AI alternative, in under a minute: Lynkk records up to 2 hours per recording on every plan, transcribes 17 languages, and joins nothing on your Mac. Start free at lynkk.ai
+Lynkk vs Otter.ai comparison: the Otter AI alternative, in under a minute.
+Lynkk records up to 2 hours per recording on every plan, transcribes 17 languages, and joins nothing on your Mac. Start free at lynkk.ai
 Otter.ai details from lynkk.ai/compare/otter, based on otter.ai, October 2026.
 #OtterAIAlternative #Lynkk #shorts
 ```
 
 ## Social captions
 
-**Instagram Reels / TikTok**
-
-```
-Otter AI alternative: your meeting ran an hour, and Otter's free plan stops at 30 minutes.
-Lynkk records up to 2 hours per recording, on every plan.
-17 languages, four in beta. Nothing joins the call on your Mac.
-A free Meeting Brief, and tasks to Jira from the note.
-lynkk.ai, link in bio.
-#OtterAIAlternative #AINoteTaker #MeetingNotes #Lynkk
-```
-
-**LinkedIn**
-
-```
-Otter AI alternative, compared feature by feature (as of October 2026).
-
-Where Lynkk is the better fit:
-• Up to 2 hours per recording on every plan. Otter's free plan stops at 30 minutes.
-• 17 languages, four in beta. Otter lists six, one per conversation.
-• On the Mac, nothing joins the call, and your side is labelled You.
-• A free Meeting Brief, and tasks sent to Jira from the note, one issue each.
-
-Where Otter is the better fit: a Windows app, file uploads, chat on every plan, Enterprise SSO.
-
-Otter.ai details from lynkk.ai/compare/otter, based on otter.ai, October 2026.
-https://lynkk.ai
-#OtterAIAlternative
-```
-
-**X**
-
-```
-Otter AI alternative: Lynkk records up to 2 hours per recording on every plan, transcribes 17 languages, and joins nothing on your Mac. The full comparison: https://lynkk.ai #OtterAIAlternative
-```
+Captions for every channel are in `social.md`.
 
 ## Rebuild
 

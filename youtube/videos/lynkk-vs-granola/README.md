@@ -27,12 +27,12 @@ The last 4 seconds of the long video hold on the orange end card for YouTube end
 
 ## YouTube: long video
 
-**Title:** Granola Alternative: Lynkk vs Granola, Feature by Feature (2026) | Lynkk
+**Title:** Lynkk vs Granola Comparison: Granola Alternative, Feature by Feature (2026) | Lynkk
 
 **Description:**
 
 ```
-Looking for a Granola alternative? Granola fills out your notes from the call, then the audio is gone. Here's how Lynkk and Granola compare, feature by feature, as of October 2026.
+Lynkk vs Granola comparison: looking for a Granola alternative? Granola fills out your notes from the call, then the audio is gone. Here's how the two compare, feature by feature, as of October 2026.
 
 Start free: https://lynkk.ai
 
@@ -70,52 +70,20 @@ Granola details from lynkk.ai/compare/granola, based on granola.ai, October 2026
 
 ## YouTube Shorts
 
-**Title:** Granola Alternative in 50 Seconds: Lynkk vs Granola | Lynkk
+**Title:** Lynkk vs Granola Comparison: Granola Alternative in 50 Seconds | Lynkk
 
 **Description:**
 
 ```
-Granola alternative, in under a minute: Lynkk keeps the recording, sends a bot when you are double booked, and puts tasks in Jira from the note. Start free at lynkk.ai
+Lynkk vs Granola comparison: the Granola alternative, in under a minute.
+Lynkk keeps the recording, sends a bot when you are double booked, and puts tasks in Jira from the note. Start free at lynkk.ai
 Granola details from lynkk.ai/compare/granola, based on granola.ai, October 2026.
 #GranolaAlternative #Lynkk #shorts
 ```
 
 ## Social captions
 
-**Instagram Reels / TikTok**
-
-```
-Granola alternative: Granola fills out your notes, then the audio is gone.
-Lynkk keeps the recording. Every timestamp plays the moment it was said.
-Double booked? The bot joins Meet, Zoom or Teams from your calendar.
-Tasks go to Jira from the note. No Zapier.
-lynkk.ai, link in bio.
-#GranolaAlternative #AINoteTaker #MeetingNotes #Lynkk
-```
-
-**LinkedIn**
-
-```
-Granola alternative, compared feature by feature (as of October 2026).
-
-Where Lynkk is the better fit:
-• The recording stays with the note, and every timestamp plays the moment it was said.
-• A meeting bot for Google Meet, Zoom and Teams, with calendar auto-join.
-• On the Mac, Lynkk notices the call and nothing joins it.
-• Tasks go to Jira from the note, one issue each, with no Zapier.
-
-Where Granola is the better fit: typing your own notes, Windows, more languages, chat on the free plan.
-
-Granola details from lynkk.ai/compare/granola, based on granola.ai, October 2026.
-https://lynkk.ai
-#GranolaAlternative
-```
-
-**X**
-
-```
-Granola alternative: Lynkk keeps the recording, sends a bot when you can't attend, and puts your tasks in Jira from the note. The full comparison: https://lynkk.ai #GranolaAlternative
-```
+Captions for every channel are in `social.md`.
 
 ## Rebuild
 
