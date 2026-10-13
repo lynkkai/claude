@@ -1,0 +1,8 @@
+Priya: Okay, quick sync on the checkout release. Where are we on the payment retry bug?
+Marco: I reproduced it yesterday. It only happens when the card needs 3-D Secure. I'll have a fix up for review by Thursday.
+Priya: Great. That one's blocking the release, so it's top priority.
+Sam: We should probably rethink the whole retry flow at some point.
+Priya: Agreed, but not this sprint. Sam, can you update the release notes once Marco's fix is merged?
+Sam: Sure, I'll do that.
+Priya: And someone needs to tell support about the 3-D Secure issue before Friday.
+Marco: I can send them a short write-up tomorrow.
