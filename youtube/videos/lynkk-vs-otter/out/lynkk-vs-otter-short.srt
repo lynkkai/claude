@@ -1,0 +1,51 @@
+1
+00:00:00,500 --> 00:00:02,027
+Your meeting ran an hour.
+
+2
+00:00:02,408 --> 00:00:04,646
+Otter's free plan stops at 30 minutes.
+
+3
+00:00:05,026 --> 00:00:07,977
+Here's Lynkk versus Otter.ai, in under a minute.
+
+4
+00:00:09,277 --> 00:00:12,554
+Lynkk records up to 2 hours per recording, on every plan.
+
+5
+00:00:12,934 --> 00:00:19,457
+Otter lists six languages, one per conversation. Lynkk transcribes 17, four in beta, including Hindi.
+
+6
+00:00:20,757 --> 00:00:22,673
+On the Mac, nothing joins the call.
+
+7
+00:00:23,053 --> 00:00:26,717
+Lynkk notices it, records both sides, and labels your lines You.
+
+8
+00:00:28,018 --> 00:00:33,839
+After the call, a free Meeting Brief: decisions, open questions, and tasks with owners and due dates.
+
+9
+00:00:34,219 --> 00:00:36,996
+Send them to Jira from the note, one issue each.
+
+10
+00:00:38,296 --> 00:00:39,853
+On Pro, ask your meetings.
+
+11
+00:00:40,233 --> 00:00:43,519
+Every answer cites the note, and plays the moment it was said.
+
+12
+00:00:44,819 --> 00:00:48,674
+Lynkk records the call, writes the brief, and hands your tasks to Jira.
+
+13
+00:00:49,054 --> 00:00:50,740
+Start free at lynkk.ai.

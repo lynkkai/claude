@@ -1,0 +1,26 @@
+{
+  "title": "Granola Alternative in 50 Seconds: Lynkk vs Granola | Lynkk",
+  "voice": "am_adam",
+  "speed": 0.98,
+  "scenes": [
+    {"id": "t1", "chapter": "Hook", "lines": [
+      "Granola fills out your notes from the call.",
+      "Then the audio is gone.",
+      "Here's Lynkk versus Granola, in under a minute."]},
+    {"id": "t2", "chapter": "Replay any moment", "lines": [
+      "Lynkk keeps the recording with the note.",
+      "Every timestamp plays the moment it was said."]},
+    {"id": "t3", "chapter": "The meeting bot", "lines": [
+      "Double booked? Lynkk's bot joins your Meet, Zoom or Teams call, straight from your calendar.",
+      "Granola has no bot."]},
+    {"id": "t4", "chapter": "Lynkk for Mac", "lines": [
+      "On the Mac, Lynkk notices the call and asks if you want to record.",
+      "Nothing joins it, and it stops by itself when the call ends."]},
+    {"id": "t5", "chapter": "Tasks to Jira", "lines": [
+      "Action items come with owners and due dates.",
+      "Send them to Jira from the note, one issue each. No Zapier."]},
+    {"id": "end", "chapter": "Start free", "hold": 2.0, "lines": [
+      "Lynkk records the call, writes the brief, and hands your tasks to Jira.",
+      "Start free at lynkk.ai."]}
+  ]
+}

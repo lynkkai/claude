@@ -1,0 +1,227 @@
+{
+ "s1": {
+  "duration": 11.519,
+  "starts": [
+   0.5,
+   3.085,
+   4.904
+  ],
+  "ends": [
+   2.705,
+   4.524,
+   10.719
+  ],
+  "lines": [
+   "Granola fills out your notes from the call.",
+   "Then the audio is gone.",
+   "Here's how Lynkk and Granola compare, feature by feature, as of October 2026."
+  ],
+  "offset": 0.0,
+  "chapter": "Then the audio is gone"
+ },
+ "s2": {
+  "duration": 18.801,
+  "starts": [
+   0.5,
+   8.731,
+   12.204
+  ],
+  "ends": [
+   8.351,
+   11.824,
+   18.001
+  ],
+  "lines": [
+   "Granola is an AI notepad. You type rough notes during the call, it listens to your computer's audio, and fills them out afterwards.",
+   "It uses the audio for the transcript, and doesn't keep it.",
+   "Lynkk records the call itself, and turns it into a transcript and a Meeting Brief, with the audio kept."
+  ],
+  "offset": 11.519,
+  "chapter": "Notepad vs recorder"
+ },
+ "s3": {
+  "duration": 13.585,
+  "starts": [
+   0.5,
+   3.065,
+   10.069
+  ],
+  "ends": [
+   2.685,
+   9.689,
+   12.785
+  ],
+  "lines": [
+   "With Lynkk, the recording stays with the note.",
+   "Every timestamp in the Meeting Brief plays the recording from that moment, so you can hear exactly how something was said.",
+   "On Pro, the meeting bot can record video too."
+  ],
+  "offset": 30.32,
+  "chapter": "Replay any moment"
+ },
+ "s4": {
+  "duration": 12.745,
+  "starts": [
+   0.5,
+   2.321,
+   8.583
+  ],
+  "ends": [
+   1.941,
+   8.203,
+   11.945
+  ],
+  "lines": [
+   "Some calls need a bot.",
+   "Lynkk's bot joins Google Meet, Zoom and Teams links. Paste a link, or turn on calendar auto-join.",
+   "Granola has no bot, and you start each note yourself."
+  ],
+  "offset": 43.905,
+  "chapter": "A bot when you can't attend"
+ },
+ "s5": {
+  "duration": 17.503,
+  "starts": [
+   0.5,
+   8.623,
+   14.548
+  ],
+  "ends": [
+   8.243,
+   14.168,
+   16.703
+  ],
+  "lines": [
+   "On the Mac, Lynkk notices calls in Zoom, Meet, Teams, Slack huddles, WhatsApp, FaceTime and Webex, and asks if you want to record.",
+   "Nothing joins the call. Both sides are recorded on two channels, so your lines are labelled You.",
+   "It stops by itself when the call ends."
+  ],
+  "offset": 56.65,
+  "chapter": "Lynkk for Mac"
+ },
+ "s6": {
+  "duration": 11.21,
+  "starts": [
+   0.5,
+   4.778
+  ],
+  "ends": [
+   4.398,
+   10.41
+  ],
+  "lines": [
+   "Every action item comes with an owner, a due date and a priority.",
+   "Send them to Jira from the note, one issue per item. Granola connects Jira through Zapier."
+  ],
+  "offset": 74.153,
+  "chapter": "Tasks to Jira"
+ },
+ "s7": {
+  "duration": 15.275,
+  "starts": [
+   0.5,
+   7.088
+  ],
+  "ends": [
+   6.708,
+   14.475
+  ],
+  "lines": [
+   "On Pro, Ask Lynkk answers only from your own notes, with citation chips, and Play from takes you to the moment.",
+   "It can also create a calendar event, share a note, mark a task done, or create a Jira issue, each one behind a confirm card."
+  ],
+  "offset": 85.364,
+  "chapter": "Ask Lynkk"
+ },
+ "s8": {
+  "duration": 17.811,
+  "starts": [
+   0.5,
+   6.106,
+   11.574
+  ],
+  "ends": [
+   5.726,
+   11.194,
+   17.011
+  ],
+  "lines": [
+   "With Google Calendar connected, Lynkk emails you a morning briefing on days you have meetings.",
+   "Who you're meeting, the last note with them, and how many action items are still open between you.",
+   "On Pro, ask @Lynkk in a Slack channel, and it answers in the thread from your own notes, with sources."
+  ],
+  "offset": 100.638,
+  "chapter": "Before the call, and in Slack"
+ },
+ "s9": {
+  "duration": 16.825,
+  "starts": [
+   0.5,
+   3.862,
+   10.059
+  ],
+  "ends": [
+   3.482,
+   9.679,
+   16.025
+  ],
+  "lines": [
+   "To be fair, Granola is the better fit for some people.",
+   "If you like typing your own notes, need Windows, or need more than 17 languages, look at Granola.",
+   "Its free plan also includes chat over your last 30 days of meetings. Ask Lynkk is part of Pro."
+  ],
+  "offset": 118.449,
+  "chapter": "Where Granola fits"
+ },
+ "s10": {
+  "duration": 12.215,
+  "starts": [
+   0.5,
+   2.236,
+   8.901
+  ],
+  "ends": [
+   1.856,
+   8.521,
+   11.415
+  ],
+  "lines": [
+   "So, the short version.",
+   "Pick Lynkk if you want the recording kept, a bot for the calls you can't attend, and tasks that go straight to Jira.",
+   "And Lynkk never trains on your conversations."
+  ],
+  "offset": 135.274,
+  "chapter": "The short version"
+ },
+ "end": {
+  "duration": 11.221,
+  "starts": [
+   0.5,
+   4.736
+  ],
+  "ends": [
+   4.356,
+   6.421
+  ],
+  "lines": [
+   "Lynkk records the call, writes the brief, and hands your tasks to Jira.",
+   "Start free at lynkk.ai."
+  ],
+  "offset": 147.489,
+  "chapter": "Start free"
+ },
+ "_order": [
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6",
+  "s7",
+  "s8",
+  "s9",
+  "s10",
+  "end"
+ ],
+ "_total": 158.71
+}

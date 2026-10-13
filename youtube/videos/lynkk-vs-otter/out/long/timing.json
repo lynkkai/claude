@@ -1,0 +1,257 @@
+{
+ "s1": {
+  "duration": 13.349,
+  "starts": [
+   0.5,
+   2.408,
+   6.329
+  ],
+  "ends": [
+   2.027,
+   5.949,
+   12.549
+  ],
+  "lines": [
+   "Your meeting ran an hour.",
+   "On Otter's free plan, a conversation stops at 30 minutes.",
+   "Here's how Lynkk and Otter.ai compare, feature by feature, as of October 2026."
+  ],
+  "offset": 0.0,
+  "chapter": "Your meeting ran an hour"
+ },
+ "s2": {
+  "duration": 18.703,
+  "starts": [
+   0.5,
+   2.044,
+   7.906,
+   15.187
+  ],
+  "ends": [
+   1.664,
+   7.526,
+   14.807,
+   17.903
+  ],
+  "lines": [
+   "First, recording.",
+   "Both tools can send a bot to Zoom, Google Meet and Teams, and both can record without one.",
+   "Lynkk gives you four ways: the Mac app, the Chrome extension, the meeting bot, and your mic in the browser for meetings in person.",
+   "On the Mac and in Chrome, nothing joins the call."
+  ],
+  "offset": 13.349,
+  "chapter": "How each one records"
+ },
+ "s3": {
+  "duration": 16.514,
+  "starts": [
+   0.5,
+   8.411,
+   13.431
+  ],
+  "ends": [
+   8.031,
+   13.051,
+   15.714
+  ],
+  "lines": [
+   "The Mac app notices calls in Zoom, Meet, Teams, Slack huddles, WhatsApp, FaceTime and Webex, and asks if you want to record.",
+   "It records both sides on two channels, so the transcript labels your lines You.",
+   "When the call ends, it stops by itself."
+  ],
+  "offset": 32.052,
+  "chapter": "Your side, kept apart"
+ },
+ "s4": {
+  "duration": 18.781,
+  "starts": [
+   0.5,
+   1.806,
+   8.685
+  ],
+  "ends": [
+   1.426,
+   8.305,
+   17.981
+  ],
+  "lines": [
+   "Languages.",
+   "Otter lists six: English, Spanish, French, German, Japanese and Chinese, one language per conversation.",
+   "Lynkk transcribes 17, with auto-detect. That includes Hindi, Arabic, Korean and Portuguese, with Tamil, Telugu, Marathi and Bengali in beta."
+  ],
+  "offset": 48.566,
+  "chapter": "Languages: 6 vs 17"
+ },
+ "s5": {
+  "duration": 12.977,
+  "starts": [
+   0.5,
+   1.84,
+   7.383
+  ],
+  "ends": [
+   1.46,
+   7.003,
+   12.177
+  ],
+  "lines": [
+   "Long meetings.",
+   "On Otter's free plan, a conversation stops at 30 minutes. On Pro, it stops at 90.",
+   "Lynkk records up to 2 hours per recording, on every plan, the free plan included."
+  ],
+  "offset": 67.347,
+  "chapter": "Long meetings"
+ },
+ "s6": {
+  "duration": 16.481,
+  "starts": [
+   0.5,
+   3.163,
+   10.593
+  ],
+  "ends": [
+   2.783,
+   10.213,
+   15.681
+  ],
+  "lines": [
+   "After the call, Lynkk writes a Meeting Brief.",
+   "Key takeaways with timestamps, decisions, open questions, and action items with an owner, a due date and a priority.",
+   "Every timestamp plays the recording from that moment. The Meeting Brief is on the free plan."
+  ],
+  "offset": 80.324,
+  "chapter": "The Meeting Brief"
+ },
+ "s7": {
+  "duration": 11.318,
+  "starts": [
+   0.5,
+   5.178
+  ],
+  "ends": [
+   4.798,
+   10.518
+  ],
+  "lines": [
+   "Every action item lands on one task board, across all your meetings.",
+   "From the note, send them to Jira, one issue per item. You pick the project and the issue type."
+  ],
+  "offset": 96.806,
+  "chapter": "Tasks to Jira"
+ },
+ "s8": {
+  "duration": 10.745,
+  "starts": [
+   0.5,
+   3.843,
+   7.791
+  ],
+  "ends": [
+   3.463,
+   7.411,
+   9.945
+  ],
+  "lines": [
+   "On Pro, Ask Lynkk answers only from your own notes.",
+   "You ask in plain words, and the answer carries citation chips.",
+   "Play from takes you to the moment it was said."
+  ],
+  "offset": 108.124,
+  "chapter": "Ask Lynkk"
+ },
+ "s9": {
+  "duration": 17.811,
+  "starts": [
+   0.5,
+   6.106,
+   11.574
+  ],
+  "ends": [
+   5.726,
+   11.194,
+   17.011
+  ],
+  "lines": [
+   "With Google Calendar connected, Lynkk emails you a morning briefing on days you have meetings.",
+   "Who you're meeting, the last note with them, and how many action items are still open between you.",
+   "On Pro, ask @Lynkk in a Slack channel, and it answers in the thread from your own notes, with sources."
+  ],
+  "offset": 118.869,
+  "chapter": "Before the call, and in Slack"
+ },
+ "s10": {
+  "duration": 22.417,
+  "starts": [
+   0.5,
+   3.707,
+   10.444,
+   14.749
+  ],
+  "ends": [
+   3.327,
+   10.064,
+   14.369,
+   21.617
+  ],
+  "lines": [
+   "To be fair, Otter is the better pick for some teams.",
+   "It has a Windows app, it transcribes files you upload, and its AI chat across meetings is on every plan.",
+   "Its Enterprise plan lists SSO and SCIM for large companies.",
+   "Lynkk's app is Mac only, it transcribes what it records, Ask Lynkk is part of Pro, and a workspace has up to 10 seats."
+  ],
+  "offset": 136.68,
+  "chapter": "Where Otter.ai fits"
+ },
+ "s11": {
+  "duration": 14.705,
+  "starts": [
+   0.5,
+   2.236,
+   11.391
+  ],
+  "ends": [
+   1.856,
+   11.011,
+   13.905
+  ],
+  "lines": [
+   "So, the short version.",
+   "Pick Lynkk if your calls run in more languages than Otter's six, if your meetings run past 30 minutes, or if you want nothing joining the call on your Mac.",
+   "And Lynkk never trains on your conversations."
+  ],
+  "offset": 159.097,
+  "chapter": "The short version"
+ },
+ "end": {
+  "duration": 11.221,
+  "starts": [
+   0.5,
+   4.736
+  ],
+  "ends": [
+   4.356,
+   6.421
+  ],
+  "lines": [
+   "Lynkk records the call, writes the brief, and hands your tasks to Jira.",
+   "Start free at lynkk.ai."
+  ],
+  "offset": 173.802,
+  "chapter": "Start free"
+ },
+ "_order": [
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6",
+  "s7",
+  "s8",
+  "s9",
+  "s10",
+  "s11",
+  "end"
+ ],
+ "_total": 185.023
+}

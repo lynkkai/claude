@@ -1,0 +1,116 @@
+{
+ "t1": {
+  "duration": 8.777,
+  "starts": [
+   0.5,
+   2.408,
+   5.026
+  ],
+  "ends": [
+   2.027,
+   4.646,
+   7.977
+  ],
+  "lines": [
+   "Your meeting ran an hour.",
+   "Otter's free plan stops at 30 minutes.",
+   "Here's Lynkk versus Otter.ai, in under a minute."
+  ],
+  "offset": 0.0,
+  "chapter": "Hook"
+ },
+ "t2": {
+  "duration": 11.48,
+  "starts": [
+   0.5,
+   4.157
+  ],
+  "ends": [
+   3.777,
+   10.68
+  ],
+  "lines": [
+   "Lynkk records up to 2 hours per recording, on every plan.",
+   "Otter lists six languages, one per conversation. Lynkk transcribes 17, four in beta, including Hindi."
+  ],
+  "offset": 8.777,
+  "chapter": "Length and languages"
+ },
+ "t3": {
+  "duration": 7.26,
+  "starts": [
+   0.5,
+   2.796
+  ],
+  "ends": [
+   2.416,
+   6.46
+  ],
+  "lines": [
+   "On the Mac, nothing joins the call.",
+   "Lynkk notices it, records both sides, and labels your lines You."
+  ],
+  "offset": 20.257,
+  "chapter": "No bot on the Mac"
+ },
+ "t4": {
+  "duration": 10.279,
+  "starts": [
+   0.5,
+   6.701
+  ],
+  "ends": [
+   6.321,
+   9.479
+  ],
+  "lines": [
+   "After the call, a free Meeting Brief: decisions, open questions, and tasks with owners and due dates.",
+   "Send them to Jira from the note, one issue each."
+  ],
+  "offset": 27.518,
+  "chapter": "Meeting Brief and Jira"
+ },
+ "t5": {
+  "duration": 6.523,
+  "starts": [
+   0.5,
+   2.437
+  ],
+  "ends": [
+   2.057,
+   5.723
+  ],
+  "lines": [
+   "On Pro, ask your meetings.",
+   "Every answer cites the note, and plays the moment it was said."
+  ],
+  "offset": 37.796,
+  "chapter": "Ask Lynkk"
+ },
+ "end": {
+  "duration": 9.221,
+  "starts": [
+   0.5,
+   4.736
+  ],
+  "ends": [
+   4.356,
+   6.421
+  ],
+  "lines": [
+   "Lynkk records the call, writes the brief, and hands your tasks to Jira.",
+   "Start free at lynkk.ai."
+  ],
+  "offset": 44.319,
+  "chapter": "Start free"
+ },
+ "_order": [
+  "t1",
+  "t2",
+  "t3",
+  "t4",
+  "t5",
+  "end"
+ ],
+ "_total": 53.54
+}

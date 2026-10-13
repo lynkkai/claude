@@ -1,0 +1,51 @@
+1
+00:00:00,500 --> 00:00:02,705
+Granola fills out your notes from the call.
+
+2
+00:00:03,085 --> 00:00:04,524
+Then the audio is gone.
+
+3
+00:00:04,904 --> 00:00:07,603
+Here's Lynkk versus Granola, in under a minute.
+
+4
+00:00:08,903 --> 00:00:10,844
+Lynkk keeps the recording with the note.
+
+5
+00:00:11,224 --> 00:00:13,549
+Every timestamp plays the moment it was said.
+
+6
+00:00:14,849 --> 00:00:19,686
+Double booked? Lynkk's bot joins your Meet, Zoom or Teams call, straight from your calendar.
+
+7
+00:00:20,066 --> 00:00:21,495
+Granola has no bot.
+
+8
+00:00:22,795 --> 00:00:26,624
+On the Mac, Lynkk notices the call and asks if you want to record.
+
+9
+00:00:27,004 --> 00:00:30,481
+Nothing joins it, and it stops by itself when the call ends.
+
+10
+00:00:31,781 --> 00:00:34,213
+Action items come with owners and due dates.
+
+11
+00:00:34,593 --> 00:00:38,202
+Send them to Jira from the note, one issue each. No Zapier.
+
+12
+00:00:39,502 --> 00:00:43,358
+Lynkk records the call, writes the brief, and hands your tasks to Jira.
+
+13
+00:00:43,738 --> 00:00:45,423
+Start free at lynkk.ai.

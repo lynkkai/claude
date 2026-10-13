@@ -1,0 +1,116 @@
+{
+ "t1": {
+  "duration": 8.403,
+  "starts": [
+   0.5,
+   3.085,
+   4.904
+  ],
+  "ends": [
+   2.705,
+   4.524,
+   7.603
+  ],
+  "lines": [
+   "Granola fills out your notes from the call.",
+   "Then the audio is gone.",
+   "Here's Lynkk versus Granola, in under a minute."
+  ],
+  "offset": 0.0,
+  "chapter": "Hook"
+ },
+ "t2": {
+  "duration": 5.947,
+  "starts": [
+   0.5,
+   2.821
+  ],
+  "ends": [
+   2.441,
+   5.147
+  ],
+  "lines": [
+   "Lynkk keeps the recording with the note.",
+   "Every timestamp plays the moment it was said."
+  ],
+  "offset": 8.403,
+  "chapter": "Replay any moment"
+ },
+ "t3": {
+  "duration": 7.946,
+  "starts": [
+   0.5,
+   5.717
+  ],
+  "ends": [
+   5.337,
+   7.146
+  ],
+  "lines": [
+   "Double booked? Lynkk's bot joins your Meet, Zoom or Teams call, straight from your calendar.",
+   "Granola has no bot."
+  ],
+  "offset": 14.349,
+  "chapter": "The meeting bot"
+ },
+ "t4": {
+  "duration": 8.986,
+  "starts": [
+   0.5,
+   4.709
+  ],
+  "ends": [
+   4.329,
+   8.186
+  ],
+  "lines": [
+   "On the Mac, Lynkk notices the call and asks if you want to record.",
+   "Nothing joins it, and it stops by itself when the call ends."
+  ],
+  "offset": 22.295,
+  "chapter": "Lynkk for Mac"
+ },
+ "t5": {
+  "duration": 7.721,
+  "starts": [
+   0.5,
+   3.312
+  ],
+  "ends": [
+   2.932,
+   6.921
+  ],
+  "lines": [
+   "Action items come with owners and due dates.",
+   "Send them to Jira from the note, one issue each. No Zapier."
+  ],
+  "offset": 31.281,
+  "chapter": "Tasks to Jira"
+ },
+ "end": {
+  "duration": 9.221,
+  "starts": [
+   0.5,
+   4.736
+  ],
+  "ends": [
+   4.356,
+   6.421
+  ],
+  "lines": [
+   "Lynkk records the call, writes the brief, and hands your tasks to Jira.",
+   "Start free at lynkk.ai."
+  ],
+  "offset": 39.002,
+  "chapter": "Start free"
+ },
+ "_order": [
+  "t1",
+  "t2",
+  "t3",
+  "t4",
+  "t5",
+  "end"
+ ],
+ "_total": 48.223
+}

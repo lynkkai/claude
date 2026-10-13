@@ -1,0 +1,48 @@
+{
+  "title": "Granola Alternative: Lynkk vs Granola, Feature by Feature (2026) | Lynkk",
+  "voice": "am_adam",
+  "speed": 0.98,
+  "scenes": [
+    {"id": "s1", "chapter": "Then the audio is gone", "lines": [
+      "Granola fills out your notes from the call.",
+      "Then the audio is gone.",
+      "Here's how Lynkk and Granola compare, feature by feature, as of October 2026."]},
+    {"id": "s2", "chapter": "Notepad vs recorder", "lines": [
+      "Granola is an AI notepad. You type rough notes during the call, it listens to your computer's audio, and fills them out afterwards.",
+      "It uses the audio for the transcript, and doesn't keep it.",
+      "Lynkk records the call itself, and turns it into a transcript and a Meeting Brief, with the audio kept."]},
+    {"id": "s3", "chapter": "Replay any moment", "lines": [
+      "With Lynkk, the recording stays with the note.",
+      "Every timestamp in the Meeting Brief plays the recording from that moment, so you can hear exactly how something was said.",
+      "On Pro, the meeting bot can record video too."]},
+    {"id": "s4", "chapter": "A bot when you can't attend", "lines": [
+      "Some calls need a bot.",
+      "Lynkk's bot joins Google Meet, Zoom and Teams links. Paste a link, or turn on calendar auto-join.",
+      "Granola has no bot, and you start each note yourself."]},
+    {"id": "s5", "chapter": "Lynkk for Mac", "lines": [
+      "On the Mac, Lynkk notices calls in Zoom, Meet, Teams, Slack huddles, WhatsApp, FaceTime and Webex, and asks if you want to record.",
+      "Nothing joins the call. Both sides are recorded on two channels, so your lines are labelled You.",
+      "It stops by itself when the call ends."]},
+    {"id": "s6", "chapter": "Tasks to Jira", "lines": [
+      "Every action item comes with an owner, a due date and a priority.",
+      "Send them to Jira from the note, one issue per item. Granola connects Jira through Zapier."]},
+    {"id": "s7", "chapter": "Ask Lynkk", "lines": [
+      "On Pro, Ask Lynkk answers only from your own notes, with citation chips, and Play from takes you to the moment.",
+      "It can also create a calendar event, share a note, mark a task done, or create a Jira issue, each one behind a confirm card."]},
+    {"id": "s8", "chapter": "Before the call, and in Slack", "lines": [
+      "With Google Calendar connected, Lynkk emails you a morning briefing on days you have meetings.",
+      "Who you're meeting, the last note with them, and how many action items are still open between you.",
+      "On Pro, ask @Lynkk in a Slack channel, and it answers in the thread from your own notes, with sources."]},
+    {"id": "s9", "chapter": "Where Granola fits", "lines": [
+      "To be fair, Granola is the better fit for some people.",
+      "If you like typing your own notes, need Windows, or need more than 17 languages, look at Granola.",
+      "Its free plan also includes chat over your last 30 days of meetings. Ask Lynkk is part of Pro."]},
+    {"id": "s10", "chapter": "The short version", "lines": [
+      "So, the short version.",
+      "Pick Lynkk if you want the recording kept, a bot for the calls you can't attend, and tasks that go straight to Jira.",
+      "And Lynkk never trains on your conversations."]},
+    {"id": "end", "chapter": "Start free", "hold": 4.0, "lines": [
+      "Lynkk records the call, writes the brief, and hands your tasks to Jira.",
+      "Start free at lynkk.ai."]}
+  ]
+}

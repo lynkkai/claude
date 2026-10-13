@@ -1,0 +1,26 @@
+{
+  "title": "Otter AI Alternative in 50 Seconds: Lynkk vs Otter.ai | Lynkk",
+  "voice": "am_adam",
+  "speed": 0.98,
+  "scenes": [
+    {"id": "t1", "chapter": "Hook", "lines": [
+      "Your meeting ran an hour.",
+      "Otter's free plan stops at 30 minutes.",
+      "Here's Lynkk versus Otter.ai, in under a minute."]},
+    {"id": "t2", "chapter": "Length and languages", "lines": [
+      "Lynkk records up to 2 hours per recording, on every plan.",
+      "Otter lists six languages, one per conversation. Lynkk transcribes 17, four in beta, including Hindi."]},
+    {"id": "t3", "chapter": "No bot on the Mac", "lines": [
+      "On the Mac, nothing joins the call.",
+      "Lynkk notices it, records both sides, and labels your lines You."]},
+    {"id": "t4", "chapter": "Meeting Brief and Jira", "lines": [
+      "After the call, a free Meeting Brief: decisions, open questions, and tasks with owners and due dates.",
+      "Send them to Jira from the note, one issue each."]},
+    {"id": "t5", "chapter": "Ask Lynkk", "lines": [
+      "On Pro, ask your meetings.",
+      "Every answer cites the note, and plays the moment it was said."]},
+    {"id": "end", "chapter": "Start free", "hold": 2.0, "lines": [
+      "Lynkk records the call, writes the brief, and hands your tasks to Jira.",
+      "Start free at lynkk.ai."]}
+  ]
+}
