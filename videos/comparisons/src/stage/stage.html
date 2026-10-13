@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lynkk comparison stage</title>
+<style>
+@font-face { font-family: "JetBrains Mono"; src: url(jetbrains-mono-latin.woff2) format("woff2"); font-weight: 100 800; }
+:root {
+  /* Lynkk "grid" design tokens, from lynkk.ai */
+  --white: #fff; --paper: #f9f9fa; --mist: #f5f5f5; --sand: #ece9e2;
+  --black: #111; --coal: #171717; --coal2: #1d1d1d; --coal3: #2e2e2e;
+  --ink2: #11111180; --ink3: #1111114d; --rule: #e0e3e9; --rule-n: #292c31;
+  --violet: #7063be; --violet-tint: #e2e0f2; --lavender: #beb4fb; --violet-soft: #978bdc;
+  --orange: #f57b3a; --pink: #f7b7ef; --forest: #235634; --leaf: #93b45c; --live: #ff3b30;
+  --sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --display: "Inter Display", "Inter", ui-sans-serif, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--white); }
+body { font-family: var(--sans); color: var(--black); overflow: hidden; -webkit-font-smoothing: antialiased; }
+#stage { position: relative; overflow: hidden; background: var(--white); }
+body.v #stage { width: 1080px; height: 1920px; }
+body.h #stage { width: 1920px; height: 1080px; }
+
+.scene { position: absolute; inset: 0; opacity: 0; will-change: opacity, transform; }
+.scene.light { background: var(--white); color: var(--black);
+  background-image: radial-gradient(#1111110d 2px, transparent 2px); background-size: 36px 36px; }
+.scene.dark { background: var(--black); color: var(--white);
+  background-image: radial-gradient(#ffffff0d 2px, transparent 2px); background-size: 36px 36px; }
+.inner { position: absolute; display: flex; flex-direction: column; }
+body.v .inner { left: 80px; right: 80px; top: 250px; bottom: 600px; gap: 34px; }
+body.h .inner { left: 120px; right: 120px; top: 190px; bottom: 200px; gap: 30px; }
+
+/* chrome */
+#chrome { position: absolute; inset: 0; pointer-events: none; z-index: 20; }
+.brand { position: absolute; display: flex; align-items: center; gap: 16px; font-weight: 600; letter-spacing: -0.02em; }
+body.v .brand { left: 80px; top: 120px; font-size: 44px; }
+body.h .brand { left: 120px; top: 64px; font-size: 36px; }
+.brand img { display: block; }
+body.v .brand img { width: 58px; height: 58px; }
+body.h .brand img { width: 46px; height: 46px; }
+.site { position: absolute; font-family: var(--mono); letter-spacing: 0.02em; opacity: .7; }
+body.v .site { right: 80px; top: 136px; font-size: 30px; }
+body.h .site { right: 120px; top: 74px; font-size: 26px; }
+#progress { position: absolute; left: 0; top: 0; height: 6px; background: var(--violet); }
+body.v #progress { display: none; }
+
+/* captions */
+#cap { position: absolute; left: 0; right: 0; display: flex; justify-content: center; z-index: 30; }
+body.v #cap { top: 1372px; }
+body.h #cap { bottom: 64px; }
+#cap span { display: inline-block; background: var(--black); color: var(--white); font-weight: 700;
+  letter-spacing: -0.015em; text-align: center; box-shadow: 0 10px 30px #11111140; }
+body.v #cap span { font-size: 58px; line-height: 1.18; padding: 20px 34px; border-radius: 22px; max-width: 920px; }
+body.h #cap span { font-size: 40px; line-height: 1.2; padding: 14px 28px; border-radius: 16px; max-width: 1500px; }
+#cap span b { color: var(--lavender); font-weight: 800; }
+.dark-cap #cap span { background: var(--white); color: var(--black); }
+.dark-cap #cap span b { color: var(--violet); }
+
+/* type */
+.kicker { font-family: var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--violet); font-weight: 600; }
+.dark .kicker { color: var(--lavender); }
+body.v .kicker { font-size: 30px; }
+body.h .kicker { font-size: 24px; }
+.title { font-family: var(--display); font-weight: 700; letter-spacing: -0.035em; line-height: 1.02; }
+body.v .title { font-size: 96px; }
+body.h .title { font-size: 84px; }
+.title em { font-style: normal; color: var(--violet); }
+.dark .title em { color: var(--lavender); }
+.src { font-family: var(--mono); color: var(--ink2); position: absolute; }
+.dark .src { color: #ffffff70; }
+body.v .src { left: 80px; right: 80px; top: 1610px; font-size: 22px; text-align: center; }
+body.h .src { left: 120px; bottom: 150px; font-size: 18px; }
+
+/* hook */
+.hook .big1 { font-family: var(--display); font-weight: 800; letter-spacing: -0.045em; line-height: .98; }
+body.v .hook .big1 { font-size: 116px; margin-bottom: 26px; }
+body.h .hook .big1 { font-size: 120px; }
+.hook .big1 .l2 { color: var(--lavender); }
+.hook .punch { font-family: var(--display); font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; }
+body.v .hook .punch { font-size: 70px; }
+body.h .hook .punch { font-size: 56px; }
+.hook .punch span { background: var(--white); color: var(--black); padding: .04em .22em; border-radius: .18em;
+  box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+body.h .hook .inner { flex-direction: row; align-items: center; gap: 90px; }
+body.h .hook .col { flex: 1; display: flex; flex-direction: column; gap: 44px; }
+
+/* versus */
+.versus .inner { align-items: center; justify-content: center; text-align: center; }
+.vs-wrap { display: flex; flex-direction: column; align-items: center; gap: 30px; }
+body.h .vs-wrap { flex-direction: row; gap: 80px; }
+.vs-name { font-family: var(--display); font-weight: 800; letter-spacing: -0.03em; display: flex; align-items: center; gap: .22em; }
+body.v .vs-name { font-size: 170px; }
+body.h .vs-name { font-size: 150px; }
+.vs-name img { width: .8em; height: .8em; }
+.vs-x { font-family: var(--mono); color: var(--violet); font-weight: 600; }
+body.v .vs-x { font-size: 64px; }
+body.h .vs-x { font-size: 56px; }
+.vs-rival { color: #11111166; }
+.vs-sub { font-family: var(--mono); text-transform: uppercase; letter-spacing: .1em; color: var(--ink2); }
+body.v .vs-sub { font-size: 32px; margin-top: 40px; }
+body.h .vs-sub { font-size: 26px; margin-top: 30px; }
+
+/* row */
+body.h .row .inner { display: grid; grid-template-columns: 760px 1fr; column-gap: 80px; align-items: center; }
+body.h .row.noui .inner { grid-template-columns: 1fr; }
+.lcol { display: flex; flex-direction: column; gap: 26px; }
+body.v .lcol { gap: 26px; }
+.cmp { display: grid; gap: 18px; }
+body.v .cmp { grid-template-columns: 1fr 1fr; }
+body.h .cmp { grid-template-columns: 1fr; margin-top: 14px; }
+body.h .row.noui .cmp { grid-template-columns: 1fr 1fr; max-width: 1500px; }
+.cmpc { border-radius: 22px; padding: 26px 28px; display: flex; flex-direction: column; gap: 12px; }
+body.h .cmpc { padding: 22px 26px; flex-direction: row; align-items: center; gap: 22px; }
+body.h .row.noui .cmpc { flex-direction: column; align-items: flex-start; padding: 40px 44px; }
+.cmpc .who { font-family: var(--mono); text-transform: uppercase; letter-spacing: .08em; font-weight: 600; display: flex; align-items: center; gap: 12px; }
+body.v .cmpc .who { font-size: 22px; }
+body.h .cmpc .who { font-size: 19px; min-width: 190px; }
+.cmpc .txt { font-weight: 600; letter-spacing: -0.015em; line-height: 1.2; }
+body.v .cmpc .txt { font-size: 36px; }
+body.h .cmpc .txt { font-size: 32px; }
+body.h .row.noui .cmpc .txt { font-size: 48px; }
+.cmpc.them { background: var(--mist); color: #11111199; border: 2px solid var(--rule); }
+.cmpc.us { background: var(--black); color: var(--white); }
+.cmpc.us .who { color: var(--lavender); }
+.ico { width: 1.25em; height: 1.25em; flex: none; }
+.uiwrap { flex: 1; display: flex; align-items: center; justify-content: center; min-height: 0; }
+body.v .uiwrap { font-size: 34px; }
+body.v .w { width: 27em; }
+body.h .uiwrap { font-size: 32px; }
+
+/* big */
+.bigscene .inner { justify-content: center; }
+.bignum { font-family: var(--display); font-weight: 800; letter-spacing: -0.06em; line-height: .9; color: var(--lavender); }
+body.v .bignum { font-size: 400px; }
+body.h .bignum { font-size: 330px; }
+.bigsub { font-family: var(--display); font-weight: 700; letter-spacing: -0.03em; line-height: 1.08; }
+body.v .bigsub { font-size: 76px; }
+body.h .bigsub { font-size: 64px; max-width: 1300px; }
+
+/* pricing */
+.prices { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 28px; }
+body.h .prices { max-width: 1300px; }
+.price { border-radius: 28px; padding: 44px 40px; display: flex; flex-direction: column; gap: 14px; border: 2px solid var(--rule); background: var(--white); }
+.price.us { background: var(--black); color: var(--white); border-color: var(--black); box-shadow: 0 30px 60px #7063be40; }
+.price .pn { font-family: var(--mono); text-transform: uppercase; letter-spacing: .08em; font-weight: 600; font-size: 26px; }
+.price.us .pn { color: var(--lavender); }
+.price .pv { font-family: var(--display); font-weight: 800; letter-spacing: -0.05em; line-height: 1; }
+body.v .price .pv { font-size: 118px; }
+body.h .price .pv { font-size: 150px; }
+.price .pnote { font-size: 32px; font-weight: 500; opacity: .75; line-height: 1.2; }
+.price.them .pv { color: #11111170; }
+
+/* recap */
+.recap-list { display: flex; flex-direction: column; gap: 22px; }
+.recap-item { display: flex; align-items: center; gap: 26px; font-family: var(--display); font-weight: 700; letter-spacing: -0.025em; }
+body.v .recap-item { font-size: 60px; }
+body.h .recap-item { font-size: 58px; }
+.recap-item .ck { width: 1.05em; height: 1.05em; border-radius: 50%; background: var(--violet); color: var(--white); display: flex; align-items: center; justify-content: center; flex: none; }
+.recap-item .ck svg { width: .62em; height: .62em; }
+
+/* cta */
+.cta .inner { align-items: center; justify-content: center; text-align: center; }
+.cta-logo { width: 230px; height: 230px; }
+body.h .cta-logo { width: 180px; height: 180px; }
+.cta-t { font-family: var(--display); font-weight: 800; letter-spacing: -0.045em; line-height: 1.0; }
+body.v .cta-t { font-size: 94px; }
+body.h .cta-t { font-size: 104px; }
+.cta-t .l1 { color: #ffffff66; }
+.btn { display: inline-flex; align-items: center; gap: 18px; background: var(--white); color: var(--black); font-weight: 700; border-radius: 999px; letter-spacing: -0.01em; }
+body.v .btn { font-size: 50px; padding: 30px 56px; }
+body.h .btn { font-size: 42px; padding: 24px 48px; }
+.btn .arr { width: 1em; height: 1em; }
+.cta-note { font-family: var(--mono); color: #ffffff99; letter-spacing: .02em; }
+body.v .cta-note { font-size: 28px; }
+body.h .cta-note { font-size: 24px; }
+
+/* ---------- product UI widgets (em based) ---------- */
+.card { background: var(--white); color: var(--black); border: 1px solid var(--rule); border-radius: .62em; box-shadow: 0 1.2em 3em #1111141a, 0 .1em .3em #1111140d; }
+.dark .card { border-color: var(--coal3); }
+.w { width: 31em; display: flex; flex-direction: column; gap: .7em; }
+body.h .w { width: 26em; }
+.chead { display: flex; align-items: center; gap: .5em; padding: .8em 1em; border-bottom: 1px solid var(--rule); font-weight: 600; font-size: .9em; }
+.chead .grow1 { flex: 1; }
+.pill { font-family: var(--mono); font-size: .62em; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; padding: .35em .7em; border-radius: 999px; background: var(--mist); color: var(--ink2); white-space: nowrap; }
+.pill.v { background: var(--violet-tint); color: var(--violet); }
+.pill.k { background: var(--black); color: var(--white); }
+.pill.live { background: #ff3b301a; color: #c93b40; }
+.recdot { width: .55em; height: .55em; border-radius: 50%; background: var(--live); flex: none; }
+.cbody { padding: .9em 1em; display: flex; flex-direction: column; gap: .75em; }
+.line { display: flex; gap: .6em; align-items: flex-start; }
+.av { width: 1.6em; height: 1.6em; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: .78em; flex: none; color: var(--white); }
+.av.p { background: var(--violet); } .av.r { background: var(--orange); } .av.a { background: var(--forest); } .av.s { background: #c24fb0; } .av.y { background: var(--black); }
+.lmeta { font-size: .66em; color: var(--ink2); font-family: var(--mono); margin-bottom: .15em; }
+.ltxt { font-size: .86em; line-height: 1.32; font-weight: 500; }
+.sumbox { background: var(--violet-tint); border-radius: .45em; padding: .7em .85em; display: flex; flex-direction: column; gap: .35em; }
+.sumrow { display: flex; gap: .5em; font-size: .8em; line-height: 1.3; }
+.sumrow .tag { font-family: var(--mono); font-size: .78em; font-weight: 700; color: var(--violet); text-transform: uppercase; letter-spacing: .05em; min-width: 5.4em; padding-top: .12em; }
+
+.chips { display: flex; flex-wrap: wrap; gap: .38em; }
+.chip { font-size: .78em; font-weight: 600; padding: .42em .75em; border-radius: 999px; background: var(--white); border: 1px solid var(--rule); white-space: nowrap; }
+.chip.g { background: var(--mist); color: #11111188; }
+.chip.k { background: var(--black); color: var(--white); border-color: var(--black); }
+.chip.v { background: var(--violet); color: var(--white); border-color: var(--violet); }
+.chip .beta { font-family: var(--mono); font-size: .7em; opacity: .6; margin-left: .3em; }
+.glabel { font-family: var(--mono); font-size: .66em; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; color: var(--ink2); display: flex; justify-content: space-between; }
+.dark .glabel { color: #ffffff88; }
+
+.bars { display: flex; flex-direction: column; gap: 1.1em; width: 100%; }
+.bar-row { display: flex; flex-direction: column; gap: .4em; }
+.bar-lab { display: flex; justify-content: space-between; font-weight: 600; font-size: .9em; }
+.bar-lab .mono { font-family: var(--mono); }
+.bar-track { height: 1.4em; border-radius: .7em; background: var(--mist); overflow: hidden; }
+.bar-fill { height: 100%; border-radius: .7em; background: #11111140; width: 0; }
+.bar-fill.us { background: var(--violet); }
+
+.task { display: flex; align-items: center; gap: .65em; padding: .55em 0; border-bottom: 1px solid var(--rule); }
+.task:last-child { border-bottom: 0; }
+.cbx { width: 1.05em; height: 1.05em; border: 2px solid #11111155; border-radius: .25em; flex: none; }
+.ttxt { flex: 1; font-size: .84em; font-weight: 600; line-height: 1.25; }
+.tmeta { font-family: var(--mono); font-size: .62em; color: var(--ink2); white-space: nowrap; }
+.jira { font-family: var(--mono); font-size: .6em; font-weight: 700; background: var(--violet); color: var(--white); padding: .3em .55em; border-radius: .35em; white-space: nowrap; }
+.sendbtn { align-self: flex-end; display: inline-flex; align-items: center; gap: .45em; background: var(--black); color: var(--white); font-weight: 700; font-size: .8em; padding: .6em 1em; border-radius: .5em; }
+
+.q { align-self: flex-end; background: var(--black); color: var(--white); padding: .7em .9em; border-radius: .7em .7em .15em .7em; font-size: .82em; font-weight: 500; line-height: 1.3; max-width: 85%; }
+.searching { font-family: var(--mono); font-size: .66em; color: var(--ink2); display: flex; align-items: center; gap: .5em; }
+.ans { font-size: .84em; line-height: 1.4; font-weight: 500; }
+.cite { display: inline-flex; align-items: center; justify-content: center; width: 1.25em; height: 1.25em; border-radius: .3em; background: var(--violet-tint); color: var(--violet); font-family: var(--mono); font-size: .7em; font-weight: 700; vertical-align: .15em; margin: 0 .1em; }
+.srcrow { display: flex; align-items: center; gap: .6em; padding: .5em .65em; background: var(--paper); border: 1px solid var(--rule); border-radius: .45em; font-size: .72em; }
+.srcrow .nm { font-weight: 700; } .srcrow .mt { font-family: var(--mono); color: var(--ink2); margin-left: auto; }
+
+.wave { display: flex; align-items: center; gap: .14em; height: 2.6em; }
+.wave i { display: block; width: .22em; border-radius: .11em; background: #11111155; }
+.wave.v i { background: var(--violet); }
+.player { position: relative; padding: .6em .2em; }
+.phead { position: absolute; top: 0; bottom: 0; width: .16em; background: var(--live); border-radius: .08em; left: 0; }
+.phead::before { content: ""; position: absolute; top: -.25em; left: -.22em; width: .6em; height: .6em; border-radius: 50%; background: var(--live); }
+.ts { font-family: var(--mono); font-size: .72em; font-weight: 700; padding: .25em .5em; border-radius: .35em; background: var(--mist); white-space: nowrap; }
+.ts.on { background: var(--violet); color: var(--white); }
+.track { display: flex; flex-direction: column; gap: .3em; }
+
+.toast { display: flex; gap: .8em; align-items: flex-start; padding: 1em 1.1em; border-radius: .8em; background: #ffffffee; border: 1px solid var(--rule); box-shadow: 0 1.4em 3em #11111426; }
+.appi { width: 2.4em; height: 2.4em; border-radius: .55em; background: var(--black); display: flex; align-items: center; justify-content: center; flex: none; }
+.appi img { width: 1.6em; height: 1.6em; }
+.tbtns { display: flex; gap: .5em; margin-top: .55em; }
+.tbtn { font-size: .74em; font-weight: 700; padding: .45em .9em; border-radius: .45em; background: var(--mist); }
+.tbtn.k { background: var(--black); color: var(--white); }
+
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: .5em; padding: .7em; }
+.tile { aspect-ratio: 16 / 10; border-radius: .5em; background: var(--coal2); color: var(--white); display: flex; align-items: center; justify-content: center; position: relative; }
+.tile .tn { position: absolute; left: .6em; bottom: .5em; font-size: .62em; font-weight: 600; background: #00000080; padding: .2em .45em; border-radius: .3em; }
+.tile .av { width: 2.4em; height: 2.4em; font-size: 1em; }
+.tile.bot { background: var(--violet); outline: .16em solid var(--lavender); }
+.tile.bot img { width: 2.2em; height: 2.2em; }
+.win { background: var(--coal); border-color: var(--coal3); color: var(--white); }
+.win .chead { border-color: var(--coal3); }
+
+.evt { display: flex; align-items: center; gap: .7em; padding: .65em .2em; border-bottom: 1px solid var(--rule); }
+.evt:last-child { border-bottom: 0; }
+.evt .tm { font-family: var(--mono); font-size: .72em; font-weight: 700; width: 3.6em; color: var(--ink2); }
+.evt .en { flex: 1; font-size: .86em; font-weight: 600; } .evt .en small { display: block; font-size: .76em; color: var(--ink2); font-weight: 500; margin-top: .1em; }
+.switch { width: 2.6em; height: 1.45em; border-radius: 1em; background: #11111130; position: relative; flex: none; }
+.switch .knob { position: absolute; top: .17em; left: .17em; width: 1.1em; height: 1.1em; border-radius: 50%; background: var(--white); box-shadow: 0 .1em .2em #0003; }
+
+.weeks { display: grid; grid-template-columns: repeat(10, 1fr); gap: .3em; }
+.wk { height: 2.4em; border-radius: .35em; background: var(--violet); }
+.wk.g { background: #11111140; }
+.feat { display: flex; align-items: center; gap: .75em; padding: .7em .2em; border-bottom: 1px solid var(--rule); font-size: .88em; font-weight: 600; }
+.feat:last-child { border-bottom: 0; }
+.fi { width: 2em; height: 2em; border-radius: .5em; background: var(--violet-tint); color: var(--violet); display: flex; align-items: center; justify-content: center; flex: none; }
+.fi svg { width: 1.15em; height: 1.15em; }
+.typed { font-family: var(--mono); font-size: .8em; line-height: 1.5; }
+.filled { font-size: .82em; line-height: 1.4; color: var(--ink2); font-weight: 500; }
+.gonebox { display: flex; align-items: center; gap: .7em; padding: .7em .8em; border-radius: .5em; background: var(--paper); border: 1px dashed #11111140; }
+.strike { font-family: var(--mono); font-size: .7em; font-weight: 700; color: #c93b40; text-transform: uppercase; letter-spacing: .05em; white-space: nowrap; }
+.inputbar { display: flex; align-items: center; gap: .6em; padding: .65em .8em; border: 1px solid var(--rule); border-radius: .55em; font-size: .82em; font-weight: 500; }
+.confirm { border: 2px solid var(--violet); border-radius: .6em; padding: .8em .9em; display: flex; flex-direction: column; gap: .4em; background: var(--white); }
+.okline { display: flex; align-items: center; gap: .5em; font-size: .8em; font-weight: 700; color: var(--forest); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="scenes"></div>
+  <div id="chrome">
+    <div id="progress"></div>
+    <div class="brand"><img id="brandlogo" src="logo-black.svg" alt=""><span>Lynkk</span></div>
+    <div class="site">lynkk.ai</div>
+  </div>
+  <div id="cap"><span id="capt"></span></div>
+</div>
+<script>
+const ICON = {
+  check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+  minus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="9.5"/><path d="M8 12h8"/></svg>',
+  okc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M7.5 12.3l3 3 6-6.3"/></svg>',
+  lock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 018 0v3"/></svg>',
+  shield: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>',
+  brain: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg>',
+  clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
+  pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11.5A7 7 0 005 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>',
+  arrow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
+  play: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg>',
+  spark: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"/></svg>',
+  mic: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0013 0M12 17.5V21"/></svg>',
+  cal: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>',
+  video: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10.5l5-3v9l-5-3z"/></svg>',
+};
+
+let META = null, SCENES = [], CAPTIONS = [];
+const P = new URLSearchParams(location.search);
+
+// deterministic pseudo random
+function rnd(seed) { let s = seed >>> 0; return () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; }; }
+function wave(n, seed, cls = '', minH = .18) {
+  const r = rnd(seed); let h = '';
+  for (let i = 0; i < n; i++) {
+    const env = .35 + .65 * Math.abs(Math.sin(i / n * Math.PI * 3.2 + seed));
+    h += `<i data-h="${(minH + (1 - minH) * r() * env).toFixed(3)}" style="height:${((minH + (1 - minH) * r() * env) * 100).toFixed(1)}%"></i>`;
+  }
+  return `<div class="wave ${cls}">${h}</div>`;
+}
+const A = (f, k = 'up', extra = '') => `class="a ${extra}" data-f="${f}" data-k="${k}"`;
+
+// ---------------- widgets ----------------
+const W = {
+  hinglish: () => `
+  <div class="card w" ${A(.05)}>
+    <div class="chead"><span class="recdot"></span><span class="grow1">Weekly standup</span><span class="pill v">Hinglish mode</span></div>
+    <div class="cbody">
+      <div class="line" ${A(.12)}><div class="av p">P</div><div><div class="lmeta">Priya · 10:02</div><div class="ltxt type" data-f0=".14" data-f1=".34">Haan, launch Friday ko lock kar dete hain.</div></div></div>
+      <div class="line" ${A(.34)}><div class="av r">R</div><div><div class="lmeta">Rahul · 10:03</div><div class="ltxt type" data-f0=".36" data-f1=".56">Okay, but export ko next patch mein move karo.</div></div></div>
+      <div class="line" ${A(.56)}><div class="av a">A</div><div><div class="lmeta">Aman · 10:03</div><div class="ltxt type" data-f0=".58" data-f1=".76">Done. Main client ko aaj update kar dunga.</div></div></div>
+      <div class="sumbox" ${A(.8, 'pop')}>
+        <div class="sumrow"><span class="tag">Decision</span><span>Launch on Friday. Export moves to the next patch.</span></div>
+        <div class="sumrow"><span class="tag">Task</span><span>Aman updates the client today</span></div>
+      </div>
+    </div>
+  </div>`,
+
+  langs: (u) => {
+    const them = ['English', 'Spanish', 'French', 'German', 'Japanese', 'Chinese'];
+    const us = ['English', 'Hindi', 'Spanish', 'French', 'German', 'Portuguese', 'Italian', 'Dutch', 'Japanese', 'Chinese', 'Korean', 'Arabic', 'Russian'];
+    const beta = ['Tamil', 'Telugu', 'Marathi', 'Bengali'];
+    const tg = `<div class="card w" style="padding:1em" ${A(.05)}><div class="glabel" style="margin-bottom:.7em"><span>${META.rival}</span><span>${them.length} languages</span></div>
+      <div class="chips">${them.map((l, i) => `<span class="chip g" ${A(.1 + i * .05, 'pop')}>${l}</span>`).join('')}</div></div>`;
+    if (u.only === 'them') return tg;
+    const n = us.length + beta.length;
+    const ug = `<div class="card w" style="padding:1em" ${A(.22)}><div class="glabel" style="margin-bottom:.7em"><span>Lynkk</span><span>17 + Hinglish</span></div>
+      <div class="chips">${us.map((l, i) => `<span class="chip" ${A(.26 + i * .022, 'pop')}>${l}</span>`).join('')}
+      ${beta.map((l, i) => `<span class="chip" ${A(.55 + i * .03, 'pop')}>${l}<span class="beta">beta</span></span>`).join('')}
+      <span class="chip v" ${A(.7, 'pop')}>Hinglish</span><span class="chip k" ${A(.74, 'pop')}>Auto-detect</span></div></div>`;
+    return `<div style="display:flex;flex-direction:column;gap:.8em">${tg}${ug}</div>`;
+  },
+
+  bars: (u) => {
+    const row = (lab, val, cls, f, txt) => `<div class="bar-row" ${A(f)}><div class="bar-lab"><span>${lab}</span><span class="mono">${txt}</span></div>
+      <div class="bar-track"><div class="bar-fill ${cls} grow" data-f0="${f + .05}" data-f1="${f + .3}" data-w="${val / 120 * 100}"></div></div></div>`;
+    return `<div class="card w" style="padding:1.3em 1.3em"><div class="glabel" style="margin-bottom:1em"><span>Longest single note</span><span>minutes</span></div><div class="bars">
+      ${row(META.rival + ' Free', u.them, '', .1, '30 min')}
+      ${u.them2 ? row(META.rival + ' Pro', u.them2, '', .3, '90 min') : ''}
+      ${row('Lynkk, every plan', u.us, 'us', u.them2 ? .5 : .45, '2 hours')}</div></div>`;
+  },
+
+  tasks: (u) => {
+    const items = [['Share the final launch deck', 'Priya', 'Fri', 'p', 'LYN-142'], ['Update the client on export timing', 'Aman', 'Today', 'a', 'LYN-143'], ['Move export to the first patch', 'Rahul', 'Oct 20', 'r', 'LYN-144']];
+    const jf = u.nojira ? null : .55;
+    return `<div class="card w"><div class="chead"><span class="grow1">Action items · Q4 launch sync</span><span class="pill">3 found</span></div>
+      <div class="cbody" style="gap:0">${items.map((it, i) => `<div class="task" ${A(.08 + i * .1)}><div class="cbx"></div><div class="ttxt">${it[0]}</div>
+        <div class="av ${it[3]}" style="width:1.4em;height:1.4em">${it[1][0]}</div><div class="tmeta">${it[1]} · ${it[2]}</div>
+        ${jf ? `<span class="jira" ${A(jf + .1 + i * .08, 'pop')}>${it[4]}</span>` : ''}</div>`).join('')}
+      ${jf ? `<div class="sendbtn press" ${A(jf - .1, 'pop')} data-pf="${jf}" style="margin-top:.6em">Send to Jira <span style="width:1em;height:1em;display:inline-flex">${ICON.arrow}</span></div>` : ''}
+      </div></div>`;
+  },
+
+  ask: () => `<div class="card w"><div class="chead"><span style="width:1.1em;height:1.1em;display:inline-flex;color:var(--violet)">${ICON.spark}</span><span class="grow1">Ask Lynkk</span><span class="pill">All conversations</span></div>
+    <div class="cbody">
+      <div class="q" ${A(.05)}>What did we decide about the Q4 launch, and who owns the deck?</div>
+      <div class="searching" ${A(.2, 'fade')}>Searching 38 conversations</div>
+      <div class="ans" ${A(.32)}>The launch moves to <b>October 28</b> so pricing is signed off first<span class="cite">1</span>. <b>Priya</b> owns the deck and shares a draft on Friday<span class="cite">2</span>.</div>
+      <div class="srcrow" ${A(.55)}><span class="cite">1</span><span class="nm">Q4 launch sync</span><span>Sep 16</span><span class="mt">12:04</span></div>
+      <div class="srcrow" ${A(.63)}><span class="cite">2</span><span class="nm">Marketing weekly</span><span>Sep 12</span><span class="mt">08:41</span></div>
+    </div></div>`,
+
+  slack: () => `<div class="card w"><div class="chead"><span class="grow1"># product</span><span class="pill">Lynkk for Slack</span></div>
+    <div class="cbody">
+      <div class="line" ${A(.06)}><div class="av a">A</div><div><div class="lmeta">Aman · 4:12 PM</div><div class="ltxt"><b style="color:var(--violet)">@Lynkk</b> what did the client say about annual pricing?</div></div></div>
+      <div class="line" ${A(.3)}><div class="av y" style="background:var(--black)"><img src="logo-white.svg" style="width:1.1em;height:1.1em" alt=""></div><div><div class="lmeta">Lynkk · APP · in thread</div>
+        <div class="ltxt">In Tuesday's call, Sarah said annual works if onboarding is included<span class="cite">1</span>.</div>
+        <div class="srcrow" style="margin-top:.5em" ${A(.55)}><span class="cite">1</span><span class="nm">Client call</span><span>Oct 7 · Aman's notes</span><span class="mt">14:22</span></div></div></div>
+    </div></div>`,
+
+  privacy: () => {
+    const f = [['lock', 'Private by default'], ['shield', 'Encrypted in transit and at rest, AES-256'], ['brain', 'Never used to train models'], ['clock', 'Audio kept forever, 90 or 30 days, or wiped']];
+    return `<div class="card w"><div class="chead"><span class="grow1">Workspace security</span><span class="pill v">On</span></div><div class="cbody" style="gap:0">
+      ${f.map((x, i) => `<div class="feat" ${A(.08 + i * .16)}><div class="fi">${ICON[x[0]]}</div>${x[1]}</div>`).join('')}</div></div>`;
+  },
+
+  regions: () => {
+    const r = ['US', 'EU', 'UK', 'India', 'Singapore', 'Australia'];
+    return `<div class="w"><div class="card" style="padding:1em" ${A(.04)}><div class="glabel" style="margin-bottom:.7em"><span>Model region</span><span>per workspace</span></div>
+      <div class="chips">${r.map((x, i) => `<span class="chip ${x === 'India' ? 'sel' : ''}" data-self="${.3}" ${A(.08 + i * .04, 'pop')}>${x}</span>`).join('')}</div></div>
+      <div class="card" style="padding:1em" ${A(.36)}><div class="glabel" style="margin-bottom:.4em"><span>Runs in India</span><span style="color:var(--violet)">pinned</span></div>
+      ${['Transcription', 'Summaries', 'Ask Lynkk', 'Search'].map((x, i) => `<div class="feat" style="padding:.45em .1em" ${A(.42 + i * .07)}><div class="fi" style="width:1.6em;height:1.6em">${ICON.pin}</div>${x}<span class="pill" style="margin-left:auto">India</span></div>`).join('')}
+      <div class="chips" style="margin-top:.6em" ${A(.75)}><span class="chip k">DPDP</span><span class="chip k">GDPR</span><span class="chip k">UK GDPR</span></div></div></div>`;
+  },
+
+  platforms: () => {
+    const t = (n, s, f, k) => `<div class="card" style="padding:.9em 1em;display:flex;align-items:center;gap:.7em" ${A(f)}><div class="fi">${k}</div><div style="flex:1;font-weight:700;font-size:.9em">${n}</div><span class="pill ${s === 'No bot' ? 'v' : ''}">${s}</span></div>`;
+    return `<div class="w">${t('Zoom', 'Bot joins', .06, ICON.video)}${t('Google Meet', 'Bot joins', .12, ICON.video)}${t('Microsoft Teams', 'Bot joins', .18, ICON.video)}
+      ${t('Lynkk Mac app', 'No bot', .4, ICON.mic)}${t('Chrome extension', 'No bot', .5, ICON.mic)}</div>`;
+  },
+
+  channels: () => `<div class="card w"><div class="chead"><span class="recdot"></span><span class="grow1">Recording · Mac app</span><span class="pill v">2 channels</span></div>
+    <div class="cbody">
+      <div class="track" ${A(.06)}><div class="glabel"><span style="color:var(--violet)">You · mic</span><span>Channel 1</span></div>${wave(46, 3, 'v')}</div>
+      <div class="track" ${A(.16)}><div class="glabel"><span>Call · system audio</span><span>Channel 2</span></div>${wave(46, 8)}</div>
+      <div class="line" ${A(.45)}><div class="av y">Y</div><div><div class="lmeta">You · 18:01</div><div class="ltxt">Can we lock the launch date today?</div></div></div>
+      <div class="line" ${A(.6)}><div class="av s">S</div><div><div class="lmeta">Sarah · 18:02</div><div class="ltxt">Yes, October 28 works for us.</div></div></div>
+    </div></div>`,
+
+  replay: () => `<div class="card w"><div class="chead"><span class="grow1">Client call · Summary</span><span class="pill">42 min</span></div>
+    <div class="cbody">
+      <div class="sumrow" ${A(.05)} style="font-size:.84em;align-items:center"><span style="flex:1">Pricing is signed off before launch</span><span class="ts tson" data-on="${.38}">12:04</span></div>
+      <div class="sumrow" ${A(.12)} style="font-size:.84em;align-items:center"><span style="flex:1">Priya owns the launch deck</span><span class="ts">08:41</span></div>
+      <div class="sumrow" ${A(.19)} style="font-size:.84em;align-items:center"><span style="flex:1">Alex updates the timeline</span><span class="ts">23:17</span></div>
+      <div class="player" ${A(.25)}>${wave(54, 5)}<div class="phead ph" data-f0=".25" data-f1=".38" data-x0="4" data-x1="28" data-f2="1" data-x2="40"></div></div>
+      <div class="glabel" ${A(.42, 'fade')}><span style="color:var(--violet);display:flex;gap:.4em;align-items:center"><span style="width:1em;height:1em;display:inline-flex">${ICON.play}</span>Playing from 12:04</span><span class="clock" data-f0=".42" data-f1="1" data-s0="724" data-s1="731">12:04</span></div>
+    </div></div>`,
+
+  gone: () => `<div class="card w"><div class="chead"><span class="grow1">Client call · Notes</span><span class="pill">AI notepad</span></div>
+    <div class="cbody">
+      <div class="filled" ${A(.05)} style="color:var(--black)">Sarah wants annual billing, if onboarding is included.</div>
+      <div class="filled" ${A(.12)} style="color:var(--black)">Deck due Friday. Revisit export timing.</div>
+      <div class="gonebox" ${A(.2)}><span style="width:1.4em;height:1.4em;display:inline-flex;color:var(--ink2)">${ICON.mic}</span><div class="shrink" data-f0=".35" data-f1=".6" style="flex:1">${wave(36, 4)}</div></div>
+      <div ${A(.6, 'pop')} style="display:flex;justify-content:space-between;align-items:center"><span class="strike">Recording: not kept</span><span class="lmeta">Nothing to replay</span></div>
+    </div></div>`,
+
+  video: () => `<div class="card w win"><div class="chead"><span class="recdot"></span><span class="grow1">Recording video</span><span class="pill v">Pro</span></div>
+    <div class="tiles">${[['Sarah', 's'], ['Rahul', 'r'], ['Priya', 'p'], ['Aman', 'a']].map((x, i) => `<div class="tile" ${A(.06 + i * .07, 'pop')}><div class="av ${x[1]}">${x[0][0]}</div><span class="tn">${x[0]}</span></div>`).join('')}</div></div>`,
+
+  bot: () => `<div class="card w win"><div class="chead"><span class="grow1">Q4 planning · Zoom</span><span class="pill live" ${A(.5, 'fade')}>Recording</span></div>
+    <div class="tiles">${[['Sarah', 's'], ['Rahul', 'r'], ['Priya', 'p']].map((x, i) => `<div class="tile" ${A(.04 + i * .05, 'fade')}><div class="av ${x[1]}">${x[0][0]}</div><span class="tn">${x[0]}</span></div>`).join('')}
+      <div class="tile bot" ${A(.4, 'pop')}><img src="logo-white.svg" alt=""><span class="tn">Aman's Lynkk notetaker</span></div></div></div>`,
+
+  calendar: () => {
+    const ev = [['10:00', 'Standup', 'Google Meet'], ['11:30', 'Client call', 'Zoom'], ['15:00', 'Sprint review', 'Microsoft Teams']];
+    return `<div class="card w"><div class="chead"><span style="width:1.1em;height:1.1em;display:inline-flex">${ICON.cal}</span><span class="grow1">Google Calendar · Today</span><span style="font-size:.8em;color:var(--ink2);margin-right:.4em">Auto-join</span><div class="switch tog" data-f="${.32}"><div class="knob"></div></div></div>
+      <div class="cbody" style="gap:0">${ev.map((e, i) => `<div class="evt" ${A(.06 + i * .07)}><span class="tm">${e[0]}</span><span class="en">${e[1]}<small>${e[2]}</small></span><span class="pill v" ${A(.42 + i * .1, 'pop')}>Lynkk joins</span></div>`).join('')}</div></div>`;
+  },
+
+  detect: () => {
+    const apps = ['Zoom', 'Microsoft Teams', 'Slack huddle', 'WhatsApp', 'FaceTime', 'Webex', 'Google Meet'];
+    return `<div class="w"><div class="toast" ${A(.04, 'down')}><div class="appi"><img src="logo-white.svg" alt=""></div><div style="flex:1">
+      <div style="font-weight:700;font-size:.86em">Lynkk</div><div style="font-size:.84em;margin-top:.15em">Call detected in <b class="cycle" data-f0=".1" data-f1=".72" data-items="${apps.join('|')}">Zoom</b></div>
+      <div style="font-size:.76em;color:var(--ink2);margin-top:.1em">Record this call?</div><div class="tbtns"><span class="tbtn k">Record</span><span class="tbtn">Not now</span></div></div></div>
+      <div class="chips" style="justify-content:center;margin-top:.6em">${apps.map((x, i) => `<span class="chip" ${A(.12 + i * .085, 'pop')}>${x}</span>`).join('')}</div>
+      <div class="okline" style="justify-content:center;margin-top:.4em" ${A(.8, 'fade')}><span style="width:1.2em;height:1.2em;display:inline-flex">${ICON.okc}</span>Stops on its own when the call ends</div></div>`;
+  },
+
+  history: () => {
+    const g = Array.from({ length: 10 }, (_, i) => `<div class="wk ${i < 6 ? 'g fadeold' : 'g'}" ${i < 6 ? `data-f0=".25" data-f1=".45"` : ''}></div>`).join('');
+    const u = Array.from({ length: 10 }, (_, i) => `<div class="wk" ${A(.5 + i * .025, 'pop')}></div>`).join('');
+    return `<div class="w"><div class="card" style="padding:1em" ${A(.05)}><div class="glabel" style="margin-bottom:.7em"><span>${META.rival} Basic</span><span>last 30 days</span></div><div class="weeks">${g}</div>
+      <div class="lmeta" style="margin-top:.5em" ${A(.42, 'fade')}>Older meetings drop out of the free plan</div></div>
+      <div class="card" style="padding:1em" ${A(.45)}><div class="glabel" style="margin-bottom:.7em"><span style="color:var(--violet)">Lynkk Free</span><span>yours to keep</span></div><div class="weeks">${u}</div>
+      <div class="lmeta" style="margin-top:.5em" ${A(.75, 'fade')}>5 notes a month, up to 2 hours each</div></div></div>`;
+  },
+
+  notepad: () => `<div class="card w"><div class="chead"><span class="grow1">My notes · Client call</span><span class="pill">You type</span></div>
+    <div class="cbody">
+      <div class="typed type" data-f0=".1" data-f1=".3">- pricing?? annual</div>
+      <div class="typed type" data-f0=".3" data-f1=".45">- deck by fri</div>
+      <div class="filled" ${A(.6)}>Sarah prefers annual billing if onboarding is included.</div>
+      <div class="filled" ${A(.7)}>Priya will share the deck on Friday.</div>
+      <div class="lmeta" ${A(.8, 'fade')}>Filled out from the transcript after the call</div>
+    </div></div>`,
+
+  actions: () => `<div class="card w"><div class="chead"><span style="width:1.1em;height:1.1em;display:inline-flex;color:var(--violet)">${ICON.spark}</span><span class="grow1">Ask Lynkk</span></div>
+    <div class="cbody">
+      <div class="inputbar" ${A(.04)}><span class="type" data-f0=".06" data-f1=".3">Book a follow-up with Sarah on Friday at 11</span></div>
+      <div class="confirm" ${A(.34, 'pop')}><div class="glabel"><span>Create calendar event</span><span>needs your OK</span></div>
+        <div style="font-weight:700;font-size:.86em">Follow-up with Sarah · Fri, 11:00</div>
+        <div class="tbtns"><span class="tbtn k press" data-pf=".5">Confirm</span><span class="tbtn">Cancel</span></div></div>
+      <div class="okline" ${A(.55, 'fade')}><span style="width:1.2em;height:1.2em;display:inline-flex">${ICON.okc}</span>Event booked</div>
+      <div class="chips" ${A(.66)}><span class="chip">Mark a task done</span><span class="chip">Create a Jira issue</span></div>
+    </div></div>`,
+};
+
+// ---------------- scenes ----------------
+function cmpCards(s) {
+  if (!s.them && !s.us) return '';
+  return `<div class="cmp">
+    ${s.them ? `<div class="cmpc them" ${A(.22, 'up')}><div class="who"><span class="ico">${ICON.minus}</span>${META.rival}</div><div class="txt">${s.them}</div></div>` : ''}
+    ${s.us ? `<div class="cmpc us" ${A(.42, 'up')}><div class="who"><span class="ico">${ICON.okc}</span>Lynkk</div><div class="txt">${s.us}</div></div>` : ''}
+  </div>`;
+}
+function hl(title) { // emphasise digits and key words
+  return title.replace(/(\d[\d.,]*\+?|Hinglish)/g, '<em>$1</em>');
+}
+const SC = {
+  hook: (s) => {
+    const t = `<div class="col"><div class="big1"><div ${A(0)}>${s.title[0]}</div><div class="l2" ${A(.12)}>${s.title[1]}</div></div>
+      <div class="punch" ${A(.5)}><span>${s.punch}</span></div></div>`;
+    return { theme: 'dark', html: `<div class="inner">${t}<div class="uiwrap" style="${document.body.classList.contains('v') ? 'font-size:31px' : ''}">${W[s.ui.type](s.ui)}</div></div>` };
+  },
+  versus: () => ({
+    theme: 'light', html: `<div class="inner"><div class="vs-wrap">
+      <div class="vs-name" ${A(0, 'left')}><img src="logo-black.svg" alt="">Lynkk</div>
+      <div class="vs-x" ${A(.18, 'pop')}>VS</div>
+      <div class="vs-name vs-rival" ${A(.3, 'right')}>${META.rival}</div></div>
+      <div class="vs-sub" ${A(.5, 'fade')}>${META.format === 'vertical' ? 'In under a minute' : 'Feature by feature'}</div></div>`
+  }),
+  row: (s) => {
+    const ui = s.ui ? `<div class="uiwrap">${W[s.ui.type](s.ui)}</div>` : '';
+    return {
+      theme: 'light', cls: s.ui ? '' : 'noui', src: !!(s.them || s.us),
+      html: `<div class="inner"><div class="lcol"><div class="kicker" ${A(0, 'fade')}>${s.kicker}</div>
+      <div class="title" ${A(.03)}>${hl(s.title)}</div>${cmpCards(s)}</div>${ui}</div>`
+    };
+  },
+  big: (s) => ({
+    theme: 'dark', html: `<div class="inner"><div class="kicker" ${A(0, 'fade')}>${s.kicker}</div>
+      <div class="bignum" ${A(.04, 'pop')}>${s.big}</div><div class="bigsub" ${A(.25)}>${s.sub}</div></div>`
+  }),
+  pricing: (s) => ({
+    theme: 'light', src: true, html: `<div class="inner" style="justify-content:center"><div class="kicker" ${A(0, 'fade')}>${s.kicker}</div>
+      <div class="title" ${A(.03)}>Pay less. <em>Get more.</em></div>
+      <div class="prices">${s.cards.map((c, i) => `<div class="price ${c.us ? 'us' : 'them'}" ${A(.15 + i * .25, 'pop')}><div class="pn">${c.name}</div><div class="pv">${c.price}</div><div class="pnote">${c.note}</div></div>`).join('')}</div></div>`
+  }),
+  recap: (s) => ({
+    theme: 'light', html: `<div class="inner" style="justify-content:center"><div class="kicker" ${A(0, 'fade')}>Why teams switch to Lynkk</div>
+      <div class="recap-list">${s.items.map((x, i) => `<div class="recap-item" ${A(.06 + i * .16, 'left')}><span class="ck">${ICON.check}</span>${x}</div>`).join('')}</div></div>`
+  }),
+  cta: (s) => ({
+    theme: 'dark', html: `<div class="inner" style="gap:${META.format === 'vertical' ? 56 : 40}px"><img class="cta-logo" src="logo-white.svg" ${A(0, 'pop')} alt="">
+      <div class="cta-t"><div class="l1" ${A(.05)}>${s.title[0]}</div><div ${A(.3)}>${s.title[1].replace('Lynkk', '<span style="color:var(--lavender)">Lynkk</span>')}</div></div>
+      <div class="btn" ${A(.55, 'pop')}>Start free at lynkk.ai <span class="arr">${ICON.arrow}</span></div>
+      <div class="cta-note" ${A(.7, 'fade')}>No credit card required · Web + Mac</div></div>`
+  }),
+};
+
+// ---------------- timeline ----------------
+const ease = (x) => x <= 0 ? 0 : x >= 1 ? 1 : 1 - Math.pow(1 - x, 3);
+const clamp = (x) => Math.max(0, Math.min(1, x));
+
+function build(meta) {
+  META = meta;
+  document.body.className = meta.format === 'vertical' ? 'v' : 'h';
+  const root = document.getElementById('scenes');
+  meta.segments.forEach((seg, i) => {
+    const r = SC[seg.scene.kind](seg.scene);
+    const el = document.createElement('div');
+    el.className = `scene ${r.theme} ${seg.scene.kind === 'big' ? 'bigscene' : seg.scene.kind} ${r.cls || ''}`;
+    el.innerHTML = r.html + (r.src ? `<div class="src">${meta.source}</div>` : '');
+    root.appendChild(el);
+    const vd = Math.max(1, seg.voice_end - seg.start);
+    SCENES.push({ el, seg, theme: r.theme, vd,
+      anims: [...el.querySelectorAll('.a')].map(n => ({ n, t: parseFloat(n.dataset.f) * vd, k: n.dataset.k })),
+      grows: [...el.querySelectorAll('.grow')], types: [...el.querySelectorAll('.type')].map(n => { n.dataset.t = n.textContent; return n; }),
+      phs: [...el.querySelectorAll('.ph')], clocks: [...el.querySelectorAll('.clock')], cycles: [...el.querySelectorAll('.cycle')],
+      presses: [...el.querySelectorAll('.press')], toggles: [...el.querySelectorAll('.tog')], tsons: [...el.querySelectorAll('.tson')],
+      shrinks: [...el.querySelectorAll('.shrink')], fadeolds: [...el.querySelectorAll('.fadeold')], sels: [...el.querySelectorAll('.chip.sel')] });
+  });
+  meta.segments.forEach(seg => seg.chunks.forEach(c => CAPTIONS.push(c)));
+}
+
+function setTime(t) {
+  const D = META.duration;
+  let front = null;
+  for (const S of SCENES) {
+    const { seg } = S;
+    const start = seg.start - (seg.i === 0 ? 1 : 0.18), end = seg.end;
+    if (t < start - 0.01 || t > end + 0.4) { S.el.style.opacity = 0; S.el.style.display = 'none'; continue; }
+    S.el.style.display = 'block';
+    const lt = t - seg.start;
+    const fin = seg.i === 0 ? 1 : ease((t - start) / 0.35);
+    const fout = 1 - ease((t - end) / 0.35);
+    const op = Math.min(fin, fout);
+    S.el.style.opacity = op;
+    S.el.style.zIndex = 1 + seg.i;
+    const inner = S.el.querySelector('.inner');
+    const kb = 1 + 0.018 * clamp(lt / Math.max(1, end - seg.start));
+    inner.style.transform = `scale(${kb})`;
+    if (op > 0.5) front = S;
+    const f = (x) => clamp(lt / S.vd >= 0 ? (lt - parseFloat(x) * S.vd) : -1);
+    for (const a of S.anims) {
+      const p = ease((lt - a.t) / 0.5);
+      let tr = '';
+      if (a.k === 'up') tr = `translateY(${(1 - p) * 40}px)`;
+      else if (a.k === 'down') tr = `translateY(${-(1 - p) * 40}px)`;
+      else if (a.k === 'left') tr = `translateX(${-(1 - p) * 60}px)`;
+      else if (a.k === 'right') tr = `translateX(${(1 - p) * 60}px)`;
+      else if (a.k === 'pop') { const q = (lt - a.t) / 0.42; const s = q <= 0 ? .85 : q >= 1 ? 1 : .85 + .15 * (1 - Math.pow(1 - q, 3)) + Math.sin(q * Math.PI) * .05; tr = `scale(${s})`; }
+      a.n.style.opacity = p;
+      a.n.style.transform = tr;
+    }
+    const prog = (n, k0 = 'f0', k1 = 'f1') => clamp((lt - parseFloat(n.dataset[k0]) * S.vd) / ((parseFloat(n.dataset[k1]) - parseFloat(n.dataset[k0])) * S.vd));
+    for (const n of S.grows) n.style.width = (ease(prog(n)) * parseFloat(n.dataset.w)) + '%';
+    for (const n of S.types) { const full = n.dataset.t; const k = Math.round(prog(n) * full.length); n.textContent = full.slice(0, k) || '​'; }
+    for (const n of S.phs) {
+      let x;
+      const p1 = prog(n);
+      const tJump = parseFloat(n.dataset.f1) * S.vd;
+      if (lt < tJump) x = parseFloat(n.dataset.x0) + (parseFloat(n.dataset.x1) - parseFloat(n.dataset.x0)) * 0; // waiting at start
+      else x = parseFloat(n.dataset.x1) + (parseFloat(n.dataset.x2) - parseFloat(n.dataset.x1)) * clamp((lt - tJump) / (S.vd * (1 - parseFloat(n.dataset.f1))));
+      if (lt >= tJump && lt < tJump + 0.25) x = parseFloat(n.dataset.x0) + (parseFloat(n.dataset.x1) - parseFloat(n.dataset.x0)) * ease((lt - tJump) / 0.25);
+      n.style.left = x + '%';
+    }
+    for (const n of S.clocks) { const s = Math.round(parseFloat(n.dataset.s0) + (parseFloat(n.dataset.s1) - parseFloat(n.dataset.s0)) * prog(n)); n.textContent = `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; }
+    for (const n of S.cycles) { const it = n.dataset.items.split('|'); n.textContent = it[Math.min(it.length - 1, Math.floor(prog(n) * it.length))]; }
+    for (const n of S.presses) { const on = lt >= parseFloat(n.dataset.pf) * S.vd; n.style.background = on ? 'var(--violet)' : ''; if (on) n.style.color = 'var(--white)'; }
+    for (const n of S.tsons) { n.classList.toggle('on', lt >= parseFloat(n.dataset.on) * S.vd - 0.2); }
+    for (const n of S.toggles) { const p = ease((lt - parseFloat(n.dataset.f) * S.vd) / 0.3); n.style.background = p > .5 ? 'var(--violet)' : ''; n.firstElementChild.style.left = (0.17 + p * 1.15) + 'em'; }
+    for (const n of S.shrinks) { const p = ease(prog(n)); n.querySelectorAll('i').forEach(i => { i.style.height = (parseFloat(i.dataset.h) * (1 - p) * 100 + 4 * p) + '%'; i.style.opacity = 1 - .6 * p; }); }
+    for (const n of S.fadeolds) { const p = ease(prog(n)); n.style.opacity = 1 - .8 * p; n.style.background = p > .5 ? '#11111118' : ''; }
+    for (const n of S.sels) { const on = lt >= 0.35 * S.vd; n.classList.toggle('v', on); }
+  }
+  // chrome follows the front scene's theme
+  const dark = front && front.theme === 'dark';
+  document.getElementById('brandlogo').src = dark ? 'logo-white.svg' : 'logo-black.svg';
+  document.getElementById('chrome').style.color = dark ? 'var(--white)' : 'var(--black)';
+  document.body.classList.toggle('dark-cap', !!dark);
+  document.getElementById('progress').style.width = (t / D * 100) + '%';
+  // captions
+  const c = CAPTIONS.find(c => t >= c.start - 0.05 && t < c.end + 0.05);
+  const capEl = document.getElementById('capt');
+  if (c) {
+    capEl.parentElement.style.opacity = 1;
+    const html = c.text.replace(/(\$?\d[\d.,:]*\+?|Hinglish|Lynkk|lynkk\.ai)/g, '<b>$1</b>');
+    if (capEl.dataset.cur !== c.text) { capEl.innerHTML = html; capEl.dataset.cur = c.text; capEl.dataset.t0 = c.start; }
+    const q = clamp((t - parseFloat(capEl.dataset.t0)) / 0.18);
+    capEl.style.transform = `translateY(${(1 - ease(q)) * 14}px) scale(${.96 + .04 * ease(q)})`;
+  } else {
+    capEl.parentElement.style.opacity = 0;
+  }
+}
+
+window.__init = (meta) => { build(meta); return true; };
+window.__set = (t) => { setTime(t); return true; };
+</script>
+</body>
+</html>
