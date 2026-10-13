@@ -1,16 +1,14 @@
 # Publishing notes (not part of the article)
 
-| Field | Value |
-|---|---|
-| Primary keyword | google meet bot (US 50/mo, SD 13) |
-| Secondary keywords | google meet bot joiner (40, SD 36), meeting bot (70, SD 37), how to send a meeting bot to a meeting (Search Console query for lynkk.ai) |
-| SEO title (Medium story settings) | Google Meet Bot Etiquette: Add, Admit or Block a Note Bot |
-| SEO description | How a Google Meet bot joins a call, how to send one, when to admit or remove it, and the etiquette that keeps note-taking bots from annoying your meetings. |
-| Tags (5) | Google Meet, Meetings, Remote Work, Productivity, Etiquette |
-| Target publication | A remote work or workplace culture publication; confirm they accept submissions |
-| Lynkk link | One link, in the "How to send a meeting bot to a meeting" section |
-| Companion lynkk.ai post | articles/zoom-bot-join-meeting.md targets "zoom bot" as a how-to; this Medium piece targets "google meet bot" with an etiquette angle |
-| SERP check (2026-10-13) | Page one includes tinrec.com (DA 11), app-whisper.com (DA 8), meetkalima.com (DA 4) and kb.dadan.io (DA 23), all thin pages |
+- **Primary keyword:** google meet bot (US 50/mo, SD 13)
+- **Secondary keywords:** google meet bot joiner (40, SD 36), meeting bot (70, SD 37), how to send a meeting bot to a meeting (Search Console query for lynkk.ai)
+- **SEO title (Medium story settings):** Google Meet Bot Etiquette: Add, Admit or Block a Note Bot
+- **SEO description:** How a Google Meet bot joins a call, how to send one, when to admit or remove it, and the etiquette that keeps note-taking bots from annoying your meetings.
+- **Tags (5):** Google Meet, Meetings, Remote Work, Productivity, Etiquette
+- **Target publication:** A remote work or workplace culture publication; confirm they accept submissions
+- **Lynkk link:** One link, in the "How to send a meeting bot to a meeting" section
+- **Companion lynkk.ai post:** articles/zoom-bot-join-meeting.md targets "zoom bot" as a how-to; this Medium piece targets "google meet bot" with an etiquette angle
+- **SERP check (2026-10-13):** Page one includes tinrec.com (DA 11), app-whisper.com (DA 8), meetkalima.com (DA 4) and kb.dadan.io (DA 23), all thin pages
 
 **Before publishing, read this:**
 
@@ -22,9 +20,8 @@
    *"I drafted this guide with help from an AI writing assistant, then edited it and checked it myself."*
    (Only use that line if it's true.)
 2. **Affiliation disclosure** is already in the Lynkk section. Keep it.
-3. Medium has no native tables, so none are used in the article body.
+3. Medium has no native tables, so none are used anywhere in this file. Paste only the part below the `---` line into Medium.
 4. Check the Google Meet host-control names (Quick access, Host management) against Google Meet Help before publishing.
-
 ---
 
 # Google Meet Bot Etiquette: How to Add, Admit or Block a Note-Taking Bot

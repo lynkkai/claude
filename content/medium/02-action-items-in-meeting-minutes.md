@@ -1,16 +1,14 @@
 # Publishing notes (not part of the article)
 
-| Field | Value |
-|---|---|
-| Primary keyword | minutes of meeting action items (US 90/mo, SD 20) |
-| Secondary keywords | meeting minutes format with action items (260, SD 20), meeting minutes template with action items (210, SD 36), how to write action items (30, SD 36) |
-| SEO title (Medium story settings) | How to Write Action Items in Meeting Minutes |
-| SEO description | How to write minutes of meeting action items: a simple format, 8 examples, a copy-paste template and a routine for carrying open items forward. |
-| Tags (5) | Meetings, Productivity, Management, Leadership, Work |
-| Target publication | A productivity or management publication (for example Better Humans or The Startup); confirm they accept submissions |
-| Lynkk link | One link, in the "How to capture action items faster" section |
-| Companion lynkk.ai post | articles/action-items-examples-template.md (different primary keyword: "action items"), so the two do not compete |
-| SERP check (2026-10-13) | Page one includes ticnote.com (DA 21), notelyn.com (DA 7), scribbl.co (DA 24) and ibabs.com (DA 38) |
+- **Primary keyword:** minutes of meeting action items (US 90/mo, SD 20)
+- **Secondary keywords:** meeting minutes format with action items (260, SD 20), meeting minutes template with action items (210, SD 36), how to write action items (30, SD 36)
+- **SEO title (Medium story settings):** How to Write Action Items in Meeting Minutes
+- **SEO description:** How to write minutes of meeting action items: a simple format, 8 examples, a copy-paste template and a routine for carrying open items forward.
+- **Tags (5):** Meetings, Productivity, Management, Leadership, Work
+- **Target publication:** A productivity or management publication (for example Better Humans or The Startup); confirm they accept submissions
+- **Lynkk link:** One link, in the "How to capture action items faster" section
+- **Companion lynkk.ai post:** articles/action-items-examples-template.md (different primary keyword: "action items"), so the two do not compete
+- **SERP check (2026-10-13):** Page one includes ticnote.com (DA 21), notelyn.com (DA 7), scribbl.co (DA 24) and ibabs.com (DA 38)
 
 **Before publishing, read this:**
 
@@ -22,8 +20,7 @@
    *"I drafted this guide with help from an AI writing assistant, then edited it and checked it myself."*
    (Only use that line if it's true.)
 2. **Affiliation disclosure** is already in the Lynkk section. Keep it.
-3. Medium has no native tables, so none are used in the article body.
-
+3. Medium has no native tables, so none are used anywhere in this file. Paste only the part below the `---` line into Medium.
 ---
 
 # How to Write Action Items in Meeting Minutes (With Examples and a Free Template)

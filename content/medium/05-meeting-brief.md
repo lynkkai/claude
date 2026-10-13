@@ -1,16 +1,14 @@
 # Publishing notes (not part of the article)
 
-| Field | Value |
-|---|---|
-| Primary keyword | meeting brief (US 110/mo, SD 25) |
-| Secondary keywords | meeting brief template (40, SD 14), checklist for meeting preparation (50, SD 14), pre meeting preparation (30, SD 44) |
-| SEO title (Medium story settings) | How to Write a Meeting Brief in 5 Minutes (Free Template) |
-| SEO description | How to write a meeting brief in 5 minutes: what to include, a copy-paste meeting brief template, 3 examples, and a short checklist for meeting preparation. |
-| Tags (5) | Meetings, Productivity, Leadership, Management, Work |
-| Target publication | A management or leadership publication; confirm they accept submissions |
-| Lynkk link | One link, in the "How to write meeting briefs faster" section |
-| Companion lynkk.ai post | articles/meeting-preparation.md targets "meeting preparation"; this Medium piece targets "meeting brief" (the document itself) |
-| SERP check (2026-10-13) | Page one includes qualtir.com (DA 12), meetingsbrief.com (DA 4), beaverai.app (DA 17) and an AI pre-meeting brief guide (DA 16) |
+- **Primary keyword:** meeting brief (US 110/mo, SD 25)
+- **Secondary keywords:** meeting brief template (40, SD 14), checklist for meeting preparation (50, SD 14), pre meeting preparation (30, SD 44)
+- **SEO title (Medium story settings):** How to Write a Meeting Brief in 5 Minutes (Free Template)
+- **SEO description:** How to write a meeting brief in 5 minutes: what to include, a copy-paste meeting brief template, 3 examples, and a short checklist for meeting preparation.
+- **Tags (5):** Meetings, Productivity, Leadership, Management, Work
+- **Target publication:** A management or leadership publication; confirm they accept submissions
+- **Lynkk link:** One link, in the "How to write meeting briefs faster" section
+- **Companion lynkk.ai post:** articles/meeting-preparation.md targets "meeting preparation"; this Medium piece targets "meeting brief" (the document itself)
+- **SERP check (2026-10-13):** Page one includes qualtir.com (DA 12), meetingsbrief.com (DA 4), beaverai.app (DA 17) and an AI pre-meeting brief guide (DA 16)
 
 **Before publishing, read this:**
 
@@ -22,8 +20,7 @@
    *"I drafted this guide with help from an AI writing assistant, then edited it and checked it myself."*
    (Only use that line if it's true.)
 2. **Affiliation disclosure** is already in the Lynkk section. Keep it.
-3. Medium has no native tables, so none are used in the article body.
-
+3. Medium has no native tables, so none are used anywhere in this file. Paste only the part below the `---` line into Medium.
 ---
 
 # How to Write a Meeting Brief in 5 Minutes (With a Template You Can Copy)

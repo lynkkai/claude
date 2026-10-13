@@ -1,14 +1,12 @@
 # Publishing notes (not part of the article)
 
-| Field | Value |
-|---|---|
-| Primary keyword | [keyword] (US [volume]/mo, SD [difficulty]) |
-| Secondary keywords | [keyword], [keyword], [keyword] |
-| SEO title (Medium story settings) | [60 characters or less, contains the primary keyword] |
-| SEO description | [156 characters or less, contains the primary keyword] |
-| Tags (5) | [Tag], [Tag], [Tag], [Tag], [Tag] |
-| Target publication | [Publication that already ranks or covers this topic] |
-| Lynkk link | One link, in the "[section name]" section |
+- **Primary keyword:** [keyword] (US [volume]/mo, SD [difficulty])
+- **Secondary keywords:** [keyword], [keyword], [keyword]
+- **SEO title (Medium story settings):** [60 characters or less, contains the primary keyword]
+- **SEO description:** [156 characters or less, contains the primary keyword]
+- **Tags (5):** [Tag], [Tag], [Tag], [Tag], [Tag]
+- **Target publication:** [Publication that already ranks or covers this topic]
+- **Lynkk link:** One link, in the "[section name]" section
 
 **Before publishing, read this:**
 
@@ -20,8 +18,7 @@
    *"I drafted this guide with help from an AI writing assistant, then edited it and checked it myself."*
    (Only use that line if it's true.)
 2. **Affiliation disclosure** is already in the Lynkk section. Keep it.
-3. Medium has no native tables, so none are used in the article body.
-
+3. Medium has no native tables, so none are used anywhere in this file. Paste only the part below the `---` line into Medium.
 ---
 
 # [Title with the primary keyword]

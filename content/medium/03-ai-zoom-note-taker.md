@@ -1,16 +1,14 @@
 # Publishing notes (not part of the article)
 
-| Field | Value |
-|---|---|
-| Primary keyword | ai zoom note taker (US 210/mo, SD 25) |
-| Secondary keywords | zoom note taker app (40, SD 24), how to turn on zoom note taker (30, SD 26), zoom note taker free (30, SD 17) |
-| SEO title (Medium story settings) | How an AI Zoom Note Taker Works: Bot, App or Extension? |
-| SEO description | How an AI Zoom note taker records your calls (bot, desktop app or browser extension), what each costs you in privacy and control, and what to check first. |
-| Tags (5) | Zoom, Artificial Intelligence, Productivity, Meetings, Remote Work |
-| Target publication | A remote work or productivity publication; confirm they accept submissions |
-| Lynkk link | One link, in the "How to get notes from Zoom faster" section |
-| Companion lynkk.ai post | articles/zoom-note-taker.md targets "zoom note taker" as a ranked list; this Medium piece is an explainer with no product ranking (Medium bans AI-written reviews made to rank and sell) |
-| SERP check (2026-10-13) | Page one includes tactiq.io (DA 41), read.ai (DA 47), meeting.ai (DA 24) and a Reddit thread |
+- **Primary keyword:** ai zoom note taker (US 210/mo, SD 25)
+- **Secondary keywords:** zoom note taker app (40, SD 24), how to turn on zoom note taker (30, SD 26), zoom note taker free (30, SD 17)
+- **SEO title (Medium story settings):** How an AI Zoom Note Taker Works: Bot, App or Extension?
+- **SEO description:** How an AI Zoom note taker records your calls (bot, desktop app or browser extension), what each costs you in privacy and control, and what to check first.
+- **Tags (5):** Zoom, Artificial Intelligence, Productivity, Meetings, Remote Work
+- **Target publication:** A remote work or productivity publication; confirm they accept submissions
+- **Lynkk link:** One link, in the "How to get notes from Zoom faster" section
+- **Companion lynkk.ai post:** articles/zoom-note-taker.md targets "zoom note taker" as a ranked list; this Medium piece is an explainer with no product ranking (Medium bans AI-written reviews made to rank and sell)
+- **SERP check (2026-10-13):** Page one includes tactiq.io (DA 41), read.ai (DA 47), meeting.ai (DA 24) and a Reddit thread
 
 **Before publishing, read this:**
 
@@ -22,9 +20,8 @@
    *"I drafted this guide with help from an AI writing assistant, then edited it and checked it myself."*
    (Only use that line if it's true.)
 2. **Affiliation disclosure** is already in the Lynkk section. Keep it.
-3. Medium has no native tables, so none are used in the article body.
+3. Medium has no native tables, so none are used anywhere in this file. Paste only the part below the `---` line into Medium.
 4. Zoom plan details were checked against Zoom's own pages on September 30, 2026. Recheck before publishing.
-
 ---
 
 # How an AI Zoom Note Taker Works: Bot, Desktop App or Browser Extension?

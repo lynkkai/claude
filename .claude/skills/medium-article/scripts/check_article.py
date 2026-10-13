@@ -3,7 +3,7 @@
 
 Usage: python3 check_article.py content/medium/NN-slug.md
 
-The file must start with a publishing-notes table, then a line containing only
+The file must start with publishing notes (a bullet list), then a line containing only
 '---', then the article. Exits 1 if any check FAILs.
 """
 import re
@@ -14,7 +14,10 @@ MISSPELLINGS = re.compile(r"\b(Lynk|Linnk|Link AI|Lynkk AI|lynk\.ai|Lynkk\.AI)\b
 
 
 def field(notes, name):
-    m = re.search(r"^\|\s*" + re.escape(name) + r"[^|]*\|\s*(.+?)\s*\|\s*$", notes, re.M)
+    # Publishing notes are a bullet list ("- **Name:** value"); older drafts used a table.
+    m = re.search(r"^-\s*\*\*" + re.escape(name) + r"[^*]*:\*\*\s*(.+?)\s*$", notes, re.M)
+    if not m:
+        m = re.search(r"^\|\s*" + re.escape(name) + r"[^|]*\|\s*(.+?)\s*\|\s*$", notes, re.M)
     return m.group(1) if m else None
 
 
@@ -70,7 +73,7 @@ def main(path):
     tags = [t for t in (field(notes, "Tags") or "").split(",") if t.strip()]
     check(len(tags) == 5, f"5 tags (found {len(tags)})", warn=True)
 
-    # Brackets are fine inside email templates, but not in the notes table or headings.
+    # Brackets are fine inside email templates, but not in the publishing notes or headings.
     unfilled = [l for l in notes.splitlines() if l.startswith("|") and "[" in l]
     unfilled += [l for l in article.splitlines() if l.startswith("#") and "[" in l]
     check(not unfilled, f"no unfilled placeholders in notes or headings (found {len(unfilled)})")
