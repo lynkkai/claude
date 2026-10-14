@@ -1,0 +1,122 @@
+use_case,keyword,volume_us,cpc_usd,seo_difficulty,paid_difficulty,search_intent
+Sales / conversation intelligence,conversation intelligence,1900,18.00,60,44,Commercial
+Sales / conversation intelligence,conversation intelligence platform,880,43.16,37,4,Commercial
+Sales / conversation intelligence,conversation intelligence software,390,38.71,40,1,Commercial
+Sales / conversation intelligence,what is conversation intelligence,210,14.94,39,1,Informational
+Sales / conversation intelligence,gong conversation intelligence,210,5.12,36,28,Informational
+Sales / conversation intelligence,hubspot conversation intelligence,110,15.12,40,19,Navigational
+Sales / conversation intelligence,best conversation intelligence software,90,56.51,40,3,Commercial
+Sales / conversation intelligence,conversation intelligence tools,90,126.46,37,12,Informational
+Sales / conversation intelligence,salesforce conversation intelligence,50,18.81,25,17,Navigational
+Sales / conversation intelligence,sales conversation intelligence,30,35.82,40,24,Commercial
+Sales / conversation intelligence,sales call ai,30,21.64,39,48,Commercial
+General AI note taker,ai note taker,27100,13.60,48,100,Transactional
+General AI note taker,ai meeting assistant,4400,18.91,60,4,Commercial
+General AI note taker,ai meeting notes taker,3600,9.98,49,100,Commercial
+General AI note taker,ai notetaker,2900,16.80,42,100,Transactional
+General AI note taker,free ai note taker,2400,11.84,43,75,Transactional
+General AI note taker,best ai note taker,1900,5.68,36,100,
+General AI note taker,ai note taker free,1600,11.65,58,70,Transactional
+General AI note taker,ai meeting notes,1000,15.18,41,42,Informational
+General AI note taker,notion ai meeting notes,1000,4.25,37,8,Informational
+General AI note taker,ai note taker app,880,10.67,32,62,Transactional
+General AI note taker,best ai meeting notes taker,720,6.75,36,100,
+General AI note taker,team ai note taker,720,5.53,27,70,
+General AI note taker,ai meeting notes taker free,320,6.66,29,79,
+General AI note taker,ai note taker for meetings,390,21.56,38,53,Transactional
+General AI note taker,best ai note taker for meetings,260,12.73,41,77,Commercial
+General AI note taker,meeting ai note taker,260,22.44,45,100,Informational
+General AI note taker,best free ai note taker,260,8.20,32,49,Commercial
+General AI note taker,ai meeting notes app,140,9.39,46,28,Transactional
+General AI note taker,meeting transcription,480,15.99,62,54,Informational
+General AI note taker,meeting transcription app,390,12.50,49,71,Informational
+General AI note taker,meeting transcription software,260,16.22,67,14,Informational
+General AI note taker,ai meeting transcription,210,20.72,64,57,Informational
+Platform-specific,zoom meeting transcription,590,6.41,32,41,Informational
+Platform-specific,google meet ai note taker,590,21.91,40,67,Navigational
+Platform-specific,microsoft teams ai note taker,590,13.73,26,38,Transactional
+Platform-specific,teams ai note taker,590,14.53,28,63,Navigational
+Platform-specific,ai note taker for teams,590,19.27,29,82,Transactional
+Platform-specific,ai note taker for zoom,480,20.41,33,63,Transactional
+Platform-specific,zoom ai note taker,390,13.50,33,64,Transactional
+Platform-specific,teams ai meeting notes,390,14.69,29,48,Informational
+Platform-specific,teams meeting transcription,390,16.73,22,25,Informational
+Platform-specific,microsoft teams meeting transcription,390,16.32,30,5,Informational
+Platform-specific,ai note taker for google meet,210,29.73,39,55,Transactional
+Platform-specific,does google meet have an ai note taker,140,22.86,42,64,Informational
+Platform-specific,ai note taker for microsoft teams,110,17.02,26,19,Transactional
+Platform-specific,ms teams ai note taker,90,19.70,26,19,Transactional
+Competitor alternatives,otter ai alternative,480,5.76,34,67,
+Competitor alternatives,wispr flow alternative,480,0,11,1,Informational
+Competitor alternatives,granola alternative,320,20.94,28,39,Transactional
+Competitor alternatives,fireflies alternative,70,13.56,29,43,Informational
+Competitor branded,wispr flow,40500,15.87,51,17,
+Competitor branded,otter ai note taker,5400,2.91,57,17,Transactional
+Competitor branded,fathom ai note taker,5400,5.38,45,18,Transactional
+Competitor branded,fireflies ai note taker,4400,8.08,63,62,Transactional
+Competitor branded,granola ai note taker,1300,5.24,30,36,Transactional
+Competitor branded,jamie ai note taker,1300,11.47,17,23,Informational
+Competitor branded,krisp ai note taker,1300,3.66,35,50,Navigational
+Competitor branded,tactiq ai note taker,1000,9.69,35,13,Transactional
+Competitor branded,bluedot ai note taker,1000,4.68,47,74,Transactional
+AI dictation (Mac),mac voice to text,1600,9.03,25,29,Transactional
+AI dictation (Mac),voice to text on mac,1300,7.51,21,38,Informational
+AI dictation (Mac),voice dictation software for mac,590,7.10,28,11,Transactional
+AI dictation (Mac),mac dictation app,320,5.54,40,90,Transactional
+AI dictation (Mac),dictation software on mac,320,5.00,26,88,Transactional
+AI dictation (Mac),dictation app for mac,260,9.67,31,54,Transactional
+AI dictation (Mac),dictation software for mac,260,9.67,32,54,Transactional
+AI dictation (Mac),best dictation software for mac,110,7.18,32,63,Commercial
+AI dictation (Mac),dictation app for macbook,70,0,24,1,Transactional
+AI dictation (Mac),best dictation app for mac,50,12.43,8,37,Informational
+AI dictation (generic),dictation software,1900,8.56,32,86,Transactional
+AI dictation (generic),dictation app,1900,6.62,47,65,Transactional
+AI dictation (generic),dictation software app,1900,3.75,31,59,
+AI dictation (generic),dictation software for microsoft word,1600,3.19,8,8,
+AI dictation (generic),microsoft word dictation software,1300,6.68,30,20,Informational
+AI dictation (generic),voice dictation app,880,5.45,46,7,Transactional
+AI dictation (generic),best dictation app,480,6.11,38,59,Informational
+AI dictation (generic),best dictation software,390,8.71,44,66,Commercial
+AI dictation (generic),free dictation app,320,4.97,53,44,Informational
+AI dictation (generic),ai dictation app,210,7.37,38,53,Transactional
+AI dictation (generic),ai voice dictation app,170,9.00,40,5,Transactional
+AI dictation (generic),best ai dictation app,110,6.95,29,69,Commercial
+AI dictation (generic),ai dictation software,90,9.81,48,49,Commercial
+AI dictation (generic),best dictation software for writers,90,3.71,34,98,Commercial
+AI dictation (generic),voice notes app,1300,5.20,44,26,Transactional
+AI dictation (generic),voice to text windows,1600,6.17,45,15,Informational
+In-person meetings,ai note taker for in person meetings,480,14.62,40,100,Transactional
+In-person meetings,in person meeting ai note taker,90,22.39,44,100,Transactional
+In-person meetings,ai note taker from audio,590,12.34,36,90,Informational
+In-person meetings,wearable ai note taker,720,6.59,34,60,Transactional
+In-person meetings,ai note taker device,590,7.60,30,100,Transactional
+In-person meetings,pocket ai note taker,720,4.54,39,100,Transactional
+In-person meetings,plaud ai note taker,720,2.59,33,100,Informational
+In-person meetings,ai note taker that doesn't join meetings,90,12.87,34,95,
+In-person meetings,bot free ai note taker,110,8.54,59,15,Transactional
+Medical / therapy,ai scribe,2400,27.44,50,63,Transactional
+Medical / therapy,dictation software medical,1000,33.81,33,51,Transactional
+Medical / therapy,medical dictation software,880,22.41,25,45,Commercial
+Medical / therapy,ambient ai scribe,720,23.69,45,43,Navigational
+Medical / therapy,ai therapy notes,590,56.46,70,84,Commercial
+Medical / therapy,ai scribe medical,480,34.05,40,69,Informational
+Medical / therapy,ai scribe for doctors,390,66.59,52,56,Commercial
+Medical / therapy,hipaa compliant ai note taker,260,31.04,31,70,Navigational
+Medical / therapy,hipaa compliant ai scribe,210,27.68,37,37,Informational
+Medical / therapy,ai scribe for therapists,140,68.02,31,54,Commercial
+Medical / therapy,dictation software for medical professionals,110,56.80,22,10,Commercial
+Medical / therapy,best ai scribe for psychiatry,110,74.16,13,71,Informational
+Medical / therapy,ai note taker for therapists,90,50.63,35,73,Transactional
+General transcription,transcribe audio to text,22200,6.27,46,75,Informational
+General transcription,voice to text,18100,3.88,70,54,Informational
+General transcription,voice to text mp3,1600,2.84,54,14,Transactional
+General transcription,recorded voice to text,1000,4.74,83,68,Informational
+General transcription,voice to text transcription,1000,6.70,56,51,Informational
+Interviews / research,interview transcription software,210,13.02,40,46,Commercial
+Students / lectures,turbo ai note taker,720,8.78,28,40,Transactional
+Students / lectures,lecture ai note taker,140,10.27,23,66,Transactional
+Students / lectures,ai note taker for lectures,110,9.71,25,84,Transactional
+Students / lectures,ai note taker for students,70,7.36,20,99,Transactional
+Meeting minutes,meeting minutes ai,210,14.51,36,61,Informational
+Meeting minutes,meeting minutes ai free,260,9.21,37,75,Informational
+Legal,legal dictation software,40,6.76,33,82,Commercial
