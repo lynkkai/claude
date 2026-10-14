@@ -1,0 +1,63 @@
+1
+00:00:00,500 --> 00:00:02,842
+Most notetakers wait for a meeting link.
+
+2
+00:00:03,222 --> 00:00:07,542
+A meeting in a room doesn't have one, so nobody writes down what was decided.
+
+3
+00:00:07,922 --> 00:00:11,219
+Here's the fix: record it in your browser at lynkk.ai.
+
+4
+00:00:12,518 --> 00:00:16,475
+Open lynkk.ai on your laptop, and put it in the middle of the table.
+
+5
+00:00:16,855 --> 00:00:18,305
+Tell the room you're recording.
+
+6
+00:00:18,685 --> 00:00:19,875
+Then press Record.
+
+7
+00:00:21,175 --> 00:00:24,012
+A short countdown, and Lynkk is recording your mic.
+
+8
+00:00:24,392 --> 00:00:27,784
+Pause when you need to. If the room goes quiet, it warns you.
+
+9
+00:00:29,084 --> 00:00:34,012
+When you stop, Lynkk writes the transcript with speaker labels, in 17 languages.
+
+10
+00:00:34,392 --> 00:00:41,558
+Then a Meeting Brief: key takeaways, decisions, open questions, and action items with an owner, a due date and a priority.
+
+11
+00:00:41,938 --> 00:00:43,973
+The Meeting Brief is on the free plan.
+
+12
+00:00:45,273 --> 00:00:48,080
+Every timestamp plays the recording from that moment.
+
+13
+00:00:48,460 --> 00:00:52,585
+Share the note with a link, and the summary is emailed to you after every meeting.
+
+14
+00:00:52,965 --> 00:00:56,419
+Send action items to Jira from the note, one issue each.
+
+15
+00:00:57,719 --> 00:01:02,197
+Record your next in-person meeting, and Lynkk never trains on your conversations.
+
+16
+00:01:02,577 --> 00:01:04,262
+Start free at lynkk.ai.
