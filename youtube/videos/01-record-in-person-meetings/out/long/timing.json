@@ -1,0 +1,125 @@
+{
+ "s1": {
+  "duration": 12.018,
+  "starts": [
+   0.5,
+   3.222,
+   7.922
+  ],
+  "ends": [
+   2.842,
+   7.542,
+   11.219
+  ],
+  "lines": [
+   "Most notetakers wait for a meeting link.",
+   "A meeting in a room doesn't have one, so nobody writes down what was decided.",
+   "Here's the fix: record it in your browser at lynkk.ai."
+  ],
+  "offset": 0.0,
+  "chapter": "The problem and the fix"
+ },
+ "s2": {
+  "duration": 8.657,
+  "starts": [
+   0.5,
+   4.836,
+   6.666
+  ],
+  "ends": [
+   4.456,
+   6.286,
+   7.857
+  ],
+  "lines": [
+   "Open lynkk.ai on your laptop, and put it in the middle of the table.",
+   "Tell the room you're recording.",
+   "Then press Record."
+  ],
+  "offset": 12.018,
+  "chapter": "Set it up"
+ },
+ "s3": {
+  "duration": 7.909,
+  "starts": [
+   0.5,
+   3.717
+  ],
+  "ends": [
+   3.337,
+   7.109
+  ],
+  "lines": [
+   "A short countdown, and Lynkk is recording your mic.",
+   "Pause when you need to. If the room goes quiet, it warns you."
+  ],
+  "offset": 20.675,
+  "chapter": "While you talk"
+ },
+ "s4": {
+  "duration": 16.189,
+  "starts": [
+   0.5,
+   5.808,
+   13.354
+  ],
+  "ends": [
+   5.428,
+   12.974,
+   15.389
+  ],
+  "lines": [
+   "When you stop, Lynkk writes the transcript with speaker labels, in 17 languages.",
+   "Then a Meeting Brief: key takeaways, decisions, open questions, and action items with an owner, a due date and a priority.",
+   "The Meeting Brief is on the free plan."
+  ],
+  "offset": 28.584,
+  "chapter": "The Meeting Brief"
+ },
+ "s5": {
+  "duration": 12.446,
+  "starts": [
+   0.5,
+   3.687,
+   8.192
+  ],
+  "ends": [
+   3.307,
+   7.812,
+   11.646
+  ],
+  "lines": [
+   "Every timestamp plays the recording from that moment.",
+   "Share the note with a link, and the summary is emailed to you after every meeting.",
+   "Send action items to Jira from the note, one issue each."
+  ],
+  "offset": 44.773,
+  "chapter": "Replay, share and send"
+ },
+ "end": {
+  "duration": 11.843,
+  "starts": [
+   0.5,
+   5.358
+  ],
+  "ends": [
+   4.978,
+   7.043
+  ],
+  "lines": [
+   "Record your next in-person meeting, and Lynkk never trains on your conversations.",
+   "Start free at lynkk.ai."
+  ],
+  "offset": 57.219,
+  "chapter": "Start free"
+ },
+ "_order": [
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "end"
+ ],
+ "_total": 69.062
+}

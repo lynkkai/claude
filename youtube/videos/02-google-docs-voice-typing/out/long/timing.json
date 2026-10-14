@@ -1,0 +1,143 @@
+{
+ "s1": {
+  "duration": 9.566,
+  "starts": [
+   0.5,
+   5.391
+  ],
+  "ends": [
+   5.011,
+   8.766
+  ],
+  "lines": [
+   "Google Docs voice typing stops mid-sentence, or the option isn't there at all.",
+   "Here's how to set it up, fix it, and dictate in any app on your Mac."
+  ],
+  "offset": 0.0,
+  "chapter": "The problem and the fix"
+ },
+ "s2": {
+  "duration": 8.536,
+  "starts": [
+   0.5,
+   2.391,
+   5.992
+  ],
+  "ends": [
+   2.011,
+   5.612,
+   7.736
+  ],
+  "lines": [
+   "Open your doc in Chrome.",
+   "Go to Tools, then Voice typing, or press Command Shift S.",
+   "Click the mic and start talking."
+  ],
+  "offset": 9.566,
+  "chapter": "Turn on voice typing"
+ },
+ "s3": {
+  "duration": 6.985,
+  "starts": [
+   0.5,
+   3.547
+  ],
+  "ends": [
+   3.167,
+   6.185
+  ],
+  "lines": [
+   "Voice typing doesn't add punctuation for you.",
+   "Say it out loud: comma, period, new line."
+  ],
+  "offset": 18.103,
+  "chapter": "Say your punctuation"
+ },
+ "s4": {
+  "duration": 17.339,
+  "starts": [
+   0.5,
+   2.658,
+   9.714
+  ],
+  "ends": [
+   2.278,
+   9.334,
+   16.539
+  ],
+  "lines": [
+   "Not working? Check six things.",
+   "Use Chrome. Allow the microphone for Chrome in your Mac's Privacy and Security settings, and in Chrome's site settings.",
+   "Pick the right input under Sound. Stay in the doc, because clicking away stops it. And check the language and your connection."
+  ],
+  "offset": 25.088,
+  "chapter": "6 fixes when it stops"
+ },
+ "s5": {
+  "duration": 15.122,
+  "starts": [
+   0.5,
+   4.566,
+   11.047
+  ],
+  "ends": [
+   4.186,
+   10.667,
+   14.322
+  ],
+  "lines": [
+   "Docs voice typing only works inside Google Docs, in Chrome.",
+   "Lynkk for Mac works in any app. Hold the fn key, talk, and let go. The words land where your cursor is.",
+   "The notch shows it's listening, and which app the words go to."
+  ],
+  "offset": 42.427,
+  "chapter": "Dictate in any app"
+ },
+ "s6": {
+  "duration": 14.258,
+  "starts": [
+   0.5,
+   4.016,
+   11.35
+  ],
+  "ends": [
+   3.636,
+   10.97,
+   13.458
+  ],
+  "lines": [
+   "Instant mode runs on your Mac, in English, on the free plan.",
+   "Accurate and Polished use the cloud, with 18 languages, on Pro. Only Polished removes the ums and false starts.",
+   "And it won't listen in a password field."
+  ],
+  "offset": 57.548,
+  "chapter": "Three modes"
+ },
+ "end": {
+  "duration": 10.307,
+  "starts": [
+   0.5,
+   3.275
+  ],
+  "ends": [
+   2.895,
+   5.507
+  ],
+  "lines": [
+   "Hold fn, talk, and let go, in any app.",
+   "Download Lynkk for Mac at lynkk.ai."
+  ],
+  "offset": 71.806,
+  "chapter": "Download for Mac"
+ },
+ "_order": [
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6",
+  "end"
+ ],
+ "_total": 82.113
+}
