@@ -121,8 +121,10 @@ Teams terms are the easiest (SD 22-30) and have strong CPCs.
 |---|---|---|---|---|---|
 | otter ai alternative | 480 | $5.76 | 34 | 67 | Falling (1,300 to 260-480) |
 | **wispr flow alternative** | 480 | n/a | **11** | **1** | Rising (210 to 880 peak) |
-| **granola alternative** | 320 | **$20.94** | 28 | 39 | Rising (170 to 390) |
+| **granola alternative** | 320* | **$20.94** | 28 | 39 | Rising (170 to 390) |
 | fireflies alternative | 70 | $13.56 | 29 | 43 | Flat |
+
+\* Autocomplete shows many "granola alternative" searches are about food (yogurt, oats), so real B2B volume is lower. See [`user-queries-by-use-case.md`](./user-queries-by-use-case.md).
 
 Branded competitor demand shows how big the category is (people searching "[brand] ai note taker"):
 Otter 5,400 · Fathom 5,400 · Fireflies 4,400 · Granola 1,300 · Jamie 1,300 · Krisp 1,300 ·
