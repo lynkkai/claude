@@ -43,15 +43,9 @@ AI dictation on Mac that works in every app. Hold fn, talk, let go, and the word
 
 ## YouTube (long video)
 
-**Title:** Voice Typing in Google Docs on Mac: Setup, 6 Fixes, and Dictation in Any App | Lynkk
+**Title:** AI Dictation on Mac: Fix Google Docs Voice Typing and Dictate in Any App | Lynkk
 
-The full description, chapters and tags are in `youtube-description.md`. For this campaign, open the
-description with:
-
-```
-AI dictation on Mac: Google Docs voice typing stops mid-sentence, or the option isn't there at all. Here's how to turn it on, say your punctuation, and fix it in six checks.
-Then dictate in any app on your Mac with Lynkk: hold fn, talk, let go, and the words land where your cursor is.
-```
+The full title, description, chapters and tags are in `youtube-description.md`.
 
 ## LinkedIn
 

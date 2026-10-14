@@ -15,7 +15,7 @@ Mac.").
 |---|---|
 | `out/02-google-docs-voice-typing-long.mp4` | YouTube video, 1:22, 1920x1080 |
 | `out/02-google-docs-voice-typing-long.srt` | English captions |
-| `youtube-description.md` | Title, description with chapters, tags, pinned comment |
+| `youtube-description.md` | Title ("AI Dictation on Mac: ..."), description with chapters, tags, pinned comment |
 
 ## Claims and where they come from
 
