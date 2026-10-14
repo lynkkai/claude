@@ -11,7 +11,7 @@ Rules:
 - Use the new text below exactly as written. Do not add facts, prices or claims that are not already in the post.
 - Where the Open Graph or Twitter description currently copies the meta description, update it to the new meta description too.
 - If a post's JSON-LD repeats the old Quick answer or meta text, update it to match.
-- Do not touch /blog/zoom-note-taker in this task.
+- Do not change the Quick answer or meta description of /blog/zoom-note-taker (still under review). Part 2 below does apply to it.
 
 Part 1: replace the Quick answer and meta description
 
