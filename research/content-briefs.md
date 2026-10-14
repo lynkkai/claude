@@ -2,6 +2,9 @@
 
 > Topics picked by the marketing team from [`user-queries-by-use-case.md`](./user-queries-by-use-case.md).
 > Keyword data: Ubersuggest, US, pulled 2026-10-14. Vol = monthly US searches, SD = SEO difficulty (0-100).
+>
+> **Product claims follow `lynkk-post-kit/docs/TRUTHS.md`** (it overrides `memory/lynkk-brand.md`).
+> Competitor names here are research only: published articles compare against "a typical notetaker".
 
 | # | Article | Keyword group volume / mo | SD range | Buying intent | Lynkk fit |
 |---|---|---|---|---|---|
@@ -27,21 +30,22 @@ one combined page.
 | **Long-tail (from autocomplete)** | app to record and summarize in person meetings · record and transcribe in person meetings free · how to record an in person meeting on iphone / laptop / mac · can granola / fathom / fireflies / otter / copilot record in person meetings · best app for recording in person meeting minutes |
 | **Search intent** | Commercial: the reader wants a tool and is comparing options |
 | **Title (H1)** | How to Record and Summarize In-Person Meetings with AI (No Device Needed) |
-| **Meta description** | Record any in-person meeting on your laptop and get notes, action items and a summary in seconds. Compare apps and devices, plus consent tips. |
+| **Meta description** | Record any in-person meeting in your browser and get a transcript and a Meeting Brief with action items. Apps vs devices, plus consent tips. |
 | **Slug** | /blog/record-in-person-meetings-ai |
 | **Length** | 1,800-2,200 words |
 
 **Outline**
 1. **Intro:** most AI note takers are bots that join Zoom calls, so they miss the meetings that happen in a room.
-2. **What you need to record an in-person meeting** (laptop or phone mic, placement, room size)
-3. **Option 1: an AI meeting app on your laptop (Lynkk)**
-   - Step by step: open Lynkk, start recording, get notes + action items ~30 seconds after the meeting ends
-   - Multilingual meetings, offline-first capture for rooms with bad Wi-Fi
+2. **What you need to record an in-person meeting** (a laptop with a browser, placement, room size)
+3. **Option 1: record in your browser at lynkk.ai (Lynkk)**
+   - Step by step: open lynkk.ai, press Record (countdown, pause, silence warning), stop, read the Meeting Brief
+   - Transcript with speaker labels in 17 languages (four in beta); Meeting Brief on the free plan
 4. **Option 2: a dedicated recording device** (Plaud, Pocket and similar): pros, cons, subscription cost.
    This captures "ai note taker device" searchers (590/mo).
 5. **Option 3: built-in tools** (Voice Memos, Teams / Copilot in-room options) and their limits
-6. **Which AI note takers can record in-person meetings?** Comparison table: Lynkk, Granola, Otter,
-   Fireflies, Fathom, Copilot, Read AI. Answers ~10 "can X record in person" queries on one page.
+6. **Which AI note takers can record in-person meetings?** Published copy may not name competitors
+   (kit rule). Compare against "a typical notetaker" unless the Lynkk team supplies sourced facts and
+   approves a named comparison (as with lynkk.ai/compare pages).
 7. **How to get a useful summary, not just a transcript** (speaker names, action items, decisions, follow-ups)
 8. **Consent and etiquette:** tell attendees, one-party vs two-party consent states, HR meetings
 9. **FAQ** (mark up with FAQ schema)
@@ -51,13 +55,14 @@ one combined page.
    - Do I need a special microphone?
    - Can AI tell who is speaking in an in-person meeting?
 
-**Lynkk angle / CTA:** "Your laptop is already the recorder. Start free with Lynkk." Differentiators:
-online **and** in-person in one tool, notes in ~30 seconds, offline-first, multilingual, data residency.
+**Lynkk angle / CTA:** "Record it in your browser. Start free at lynkk.ai." Differentiators (all in
+TRUTHS.md): online and in person in one tool, Meeting Brief with owners and due dates, timestamps that
+replay the recording, Jira send from the note, never trains on your conversations.
 
-**Internal links:** AI meeting assistant page · data residency / security page · "Is it legal to record a work meeting" (future post)
+**Internal links:** AI meeting assistant page · privacy page · "Is it legal to record a work meeting" (future post)
 
 **Confirm before publishing**
-- [ ] Mobile app availability (iPhone queries are common; Web + Mac is confirmed so far)
+- [x] Phones: Lynkk has no phone app (TRUTHS.md). Don't target iPhone queries.
 - [ ] Speaker identification in single-mic, in-person recordings
 - [ ] Every competitor cell in the comparison table (check each vendor's current docs; do not guess)
 
@@ -100,7 +105,7 @@ CTA: most readers want a quick fix, so give the free how-to first and pitch Lynk
 
 **Confirm before publishing**
 - [ ] Google's current browser support for voice typing (historically Chrome only; check Google's help page)
-- [ ] Lynkk dictation: activation shortcut, supported languages, offline support, punctuation and cleanup behavior, free-plan limits
+- [x] Lynkk dictation facts are in TRUTHS.md > Dictation: hold fn, talk, let go; any app; Instant (on the Mac, English, free); Accurate and Polished (cloud, Pro, 18 languages); only Polished removes ums
 - [ ] Fresh screenshots of current Google Docs and macOS menus
 
 ---
@@ -171,7 +176,7 @@ short section so the page stays useful, but be clear Lynkk is Mac (plus Web) tod
 5. **Google Meet** and **Webex:** short sections
 6. **Option: an AI note taker that keeps notes, not audio (Lynkk)**. *Write this section only after the product question below is answered.*
 7. **Comparison table:** native platform transcription vs AI note taker (plan required, stored audio, summaries, action items)
-8. **Privacy checklist:** tell attendees, retention settings, data region
+8. **Privacy checklist:** tell attendees, retention settings, who can see the note
 9. **FAQ**
    - Can you transcribe a Teams meeting without recording?
    - Can you get a Zoom transcript without recording?
@@ -179,8 +184,8 @@ short section so the page stays useful, but be clear Lynkk is Mac (plus Web) tod
    - Is transcribing a meeting the same as recording it?
    - Do attendees get notified about transcription?
 
-**Lynkk angle / CTA:** Lynkk's data residency (you choose where data is processed) answers the privacy
-concern behind these searches.
+**Lynkk angle / CTA:** recordings are private to your account, notes can be Personal, and Lynkk never
+trains on your conversations (TRUTHS.md > Privacy, Workspaces). No region or residency claim exists.
 
 **⚠ Blocker: product question for the Lynkk team.** Lynkk currently *records* meetings ("automatic
 meeting detection and recording"). For this article to promote Lynkk honestly we need to know:
@@ -188,7 +193,8 @@ meeting detection and recording"). For this article to promote Lynkk honestly we
 - [ ] What are the audio retention settings, and who can access recordings?
 
 If the answer is no, still publish the article as a neutral how-to (it ranks easily, SD 12-32), and use
-data residency + retention controls as the Lynkk pitch rather than "no recording".
+privacy (private recordings, Personal notes, never trains on your conversations) as the Lynkk pitch
+rather than "no recording".
 
 **Also confirm:** current steps for each platform from Zoom, Microsoft and Google help pages (these
 features and their plan requirements change often).

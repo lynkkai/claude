@@ -1,0 +1,29 @@
+{
+  "title": "AI Note Taker for In-Person Meetings: Record and Summarize in Your Browser | Lynkk",
+  "voice": "am_adam",
+  "speed": 0.98,
+  "scenes": [
+    {"id": "s1", "chapter": "The problem and the fix", "lines": [
+      "Most notetakers wait for a meeting link.",
+      "A meeting in a room doesn't have one, so nobody writes down what was decided.",
+      "Here's the fix: record it in your browser at lynkk.ai."]},
+    {"id": "s2", "chapter": "Set it up", "lines": [
+      "Open lynkk.ai on your laptop, and put it in the middle of the table.",
+      "Tell the room you're recording.",
+      "Then press Record."]},
+    {"id": "s3", "chapter": "While you talk", "lines": [
+      "A short countdown, and Lynkk is recording your mic.",
+      "Pause when you need to. If the room goes quiet, it warns you."]},
+    {"id": "s4", "chapter": "The Meeting Brief", "lines": [
+      "When you stop, Lynkk writes the transcript with speaker labels, in 17 languages.",
+      "Then a Meeting Brief: key takeaways, decisions, open questions, and action items with an owner, a due date and a priority.",
+      "The Meeting Brief is on the free plan."]},
+    {"id": "s5", "chapter": "Replay, share and send", "lines": [
+      "Every timestamp plays the recording from that moment.",
+      "Share the note with a link, and the summary is emailed to you after every meeting.",
+      "Send action items to Jira from the note, one issue each."]},
+    {"id": "end", "chapter": "Start free", "hold": 4.0, "lines": [
+      "Record your next in-person meeting, and Lynkk never trains on your conversations.",
+      "Start free at lynkk.ai."]}
+  ]
+}

@@ -1,5 +1,11 @@
 # Lynkk.ai: Brand & Product Memory
 
+> ⚠ **Superseded for claims.** `lynkk-post-kit/docs/TRUTHS.md` (checked against the product
+> 2026-09-29) overrides this file. Several items below are NOT true and must not be published:
+> speaking or answering by voice in meetings, CRM updates, automatic Jira tickets, data
+> residency / regions, a knowledge graph screen, "within ~30 seconds", "offline-first".
+> Design and video work uses the kit in `lynkk-post-kit/` (see the `lynkk-design` skill).
+
 > Source of truth for tool/directory submissions. Collected 2026-09-27 from web search
 > results for lynkk.ai (the site itself was not directly reachable from this environment).
 > Items under "To confirm" must be filled in by the team before submitting.

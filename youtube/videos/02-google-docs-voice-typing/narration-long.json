@@ -1,0 +1,32 @@
+{
+  "title": "Voice Typing in Google Docs on Mac: Setup, 6 Fixes, and Dictation in Any App | Lynkk",
+  "voice": "am_adam",
+  "speed": 0.98,
+  "scenes": [
+    {"id": "s1", "chapter": "The problem and the fix", "lines": [
+      "Google Docs voice typing stops mid-sentence, or the option isn't there at all.",
+      "Here's how to set it up, fix it, and dictate in any app on your Mac."]},
+    {"id": "s2", "chapter": "Turn on voice typing", "lines": [
+      "Open your doc in Chrome.",
+      "Go to Tools, then Voice typing, or press Command Shift S.",
+      "Click the mic and start talking."]},
+    {"id": "s3", "chapter": "Say your punctuation", "lines": [
+      "Voice typing doesn't add punctuation for you.",
+      "Say it out loud: comma, period, new line."]},
+    {"id": "s4", "chapter": "6 fixes when it stops", "lines": [
+      "Not working? Check six things.",
+      "Use Chrome. Allow the microphone for Chrome in your Mac's Privacy and Security settings, and in Chrome's site settings.",
+      "Pick the right input under Sound. Stay in the doc, because clicking away stops it. And check the language and your connection."]},
+    {"id": "s5", "chapter": "Dictate in any app", "lines": [
+      "Docs voice typing only works inside Google Docs, in Chrome.",
+      "Lynkk for Mac works in any app. Hold the fn key, talk, and let go. The words land where your cursor is.",
+      "The notch shows it's listening, and which app the words go to."]},
+    {"id": "s6", "chapter": "Three modes", "lines": [
+      "Instant mode runs on your Mac, in English, on the free plan.",
+      "Accurate and Polished use the cloud, with 18 languages, on Pro. Only Polished removes the ums and false starts.",
+      "And it won't listen in a password field."]},
+    {"id": "end", "chapter": "Download for Mac", "hold": 4.0, "lines": [
+      "Hold fn, talk, and let go, in any app.",
+      "Download Lynkk for Mac at lynkk.ai."]}
+  ]
+}

@@ -1,5 +1,14 @@
 # YouTube Plan: Long Videos + Shorts
 
+> ⚠ **Superseded in part (2026-10-14).** This plan was written before the Lynkk post kit was applied
+> and uses claims that `lynkk-post-kit/docs/TRUTHS.md` rules out: "about 30 seconds", "works
+> offline", data regions, CRM, live voice answers, and named competitors in published copy.
+> - **Videos 1 and 2 are rebuilt with the kit** in `youtube/videos/01-record-in-person-meetings/`
+>   and `youtube/videos/02-google-docs-voice-typing/`. Use those, not the scripts below.
+> - **Videos 3 and 4 and all Shorts below must be rewritten under TRUTHS.md and built with the
+>   `lynkk-design` skill before use.** In particular, Video 4's Lynkk segment cannot use a region
+>   or data-residency pitch, and no competitor may be named on screen, in titles or descriptions.
+
 > Built from [`research/content-briefs.md`](../research/content-briefs.md). One long video (7-10 min)
 > and one Short (under 60 s) per topic, plus extra Short ideas cut from each long video.
 >

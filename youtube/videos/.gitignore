@@ -1,0 +1,11 @@
+# build intermediates of the comparison videos (the MP4s, SRTs, timing and storyboards are kept)
+lynkk-vs-*/out/*/audio/
+lynkk-vs-*/out/*/work/
+lynkk-vs-*/out/*/narration-check.html
+lynkk-vs-*/out/*/captions.srt
+__pycache__/
+# build intermediates of the numbered how-to videos
+[0-9][0-9]-*/out/*/audio/
+[0-9][0-9]-*/out/*/work/
+[0-9][0-9]-*/out/*/narration-check.html
+[0-9][0-9]-*/out/*/captions.srt
