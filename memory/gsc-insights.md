@@ -3,6 +3,7 @@
 > Source: GSC export "Performance on Search", web search, last 3 months (2026-07-14 to 2026-10-13),
 > exported 2026-10-16. Raw CSVs: `data/gsc/2026-10-16/`.
 > Full report (doc): https://claude.ai/code/artifact/160e95de-96ae-4eef-9764-7ad19263d989
+> Notion copy (private, 6 sub-pages): https://app.notion.com/p/3fac0e9b884d81cb87cff1fc55ab2743
 
 ## Baseline (3 months)
 
