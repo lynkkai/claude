@@ -53,6 +53,17 @@
 - Gaps: meeting minutes template (22,200), how to record zoom meeting (4,400), how to record google meet (2,400).
 - Ubersuggest project rank tracker API call fails (schema error); use GSC positions instead.
 
+## Competitors (15 Oct 2026, `data/seo/2026-10-15/competitors.csv`)
+
+- Otter (DA 66, ~431k US organic visits/mo, 29.6k ref domains), Fathom (fathom.ai, DA 45, ~154k; moved from
+  fathom.video in Aug to Sep 2025), Fireflies (DA 53, ~71k, down ~82% in two years). Lynkk: DA 1, 3 ref domains.
+- Their traffic is mostly brand. Open generic terms: "ai powered meeting assistant" (40,500/mo, Otter pos 6,
+  now the primary for /blog/ai-powered-meeting-assistants), "note taker" (14,800), "ai transcription" (5,400).
+- Price: Lynkk Pro $15/mo ($9.75 yearly) vs Otter $16.99 ($8.49), Fireflies $18 ($10), Fathom $20 ($16).
+- Lynkk wins on: in-person recording, Hinglish/Indian languages, 2-hour notes on Free, Ask across calls on a
+  single-user plan, Jira. Loses on: no phone/Windows app, fewer languages than Fireflies/Fathom, no CRM sync.
+- Lynkk's /compare/otter lists Otter yearly prices ($8.33, $19.99) that differ from otter.ai on 15 Oct 2026.
+
 ## Top opportunities
 
 1. /blog/google-meet-transcript: 736 impressions, position 9.2, 0 clicks. Rewrite title and meta.

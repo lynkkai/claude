@@ -1,9 +1,10 @@
 section,page,role,keyword,us_volume,seo_difficulty,gsc_position,gsc_impressions,intent,next_step
 Core,/ (home),primary,ai note taker,27100,48,,,Commercial,"Put ""AI note taker"" in the H1 (today: ""The AI assistant that remembers everything..."")"
 Core,/ (home),secondary,ai meeting assistant,4400,60,76.12,32,Commercial,"Put ""AI note taker"" in the H1 (today: ""The AI assistant that remembers everything..."")"
-Core,/ (home),secondary,ai meeting notes taker,3600,49,,,Commercial,"Put ""AI note taker"" in the H1 (today: ""The AI assistant that remembers everything..."")"
 Core,/ (home),secondary,ai note taker app,880,32,,,Commercial,"Put ""AI note taker"" in the H1 (today: ""The AI assistant that remembers everything..."")"
 Core,/ (home),secondary,lynkk,,,2.44,238,Commercial,"Put ""AI note taker"" in the H1 (today: ""The AI assistant that remembers everything..."")"
+Core,/ (home),secondary,note taker,14800,61,45.5,2,Commercial,see home page brief
+Core,/ (home),secondary,meeting assistant,4400,59,72.25,4,Commercial,see home page brief
 Core,/how-it-works,primary,meeting transcription,480,62,,,Informational,"Add a section on in-person recording; ranks 3.5 for brand queries, needs a non-brand angle"
 Core,/how-it-works,secondary,ai meeting transcription,210,64,,,Informational,"Add a section on in-person recording; ranks 3.5 for brand queries, needs a non-brand angle"
 Core,/how-it-works,secondary,ai note taker for in person meetings,480,40,,,Informational,"Add a section on in-person recording; ranks 3.5 for brand queries, needs a non-brand angle"
@@ -104,9 +105,9 @@ Blog,/blog/ai-transcription-software,secondary,best ai transcription software,50
 Blog,/blog/ai-voice-recorders,primary,ai voice recorder,6600,49,,,Commercial,Searchers want devices (Plaud); keep the devices vs apps angle
 Blog,/blog/ai-voice-recorders,secondary,best ai voice recorder,480,35,,,Commercial,Searchers want devices (Plaud); keep the devices vs apps angle
 Blog,/blog/ai-voice-recorders,secondary,ai voice recorder app,170,30,,,Commercial,Searchers want devices (Plaud); keep the devices vs apps angle
-Blog,/blog/ai-powered-meeting-assistants,primary,best ai meeting assistant,110,32,55.14,7,Commercial,"Let the home page own ""ai meeting assistant""; this post owns ""best"""
+Blog,/blog/ai-powered-meeting-assistants,primary,ai powered meeting assistant,40500,50,58.25,4,Commercial,Otter ranks 6; put the term in the title
+Blog,/blog/ai-powered-meeting-assistants,secondary,best ai meeting assistant,110,32,55.14,7,Commercial,"Let the home page own ""ai meeting assistant""; this post owns ""best"""
 Blog,/blog/ai-powered-meeting-assistants,secondary,ai meeting assistants,,,46.67,9,Commercial,"Let the home page own ""ai meeting assistant""; this post owns ""best"""
-Blog,/blog/ai-powered-meeting-assistants,secondary,live ai meeting assistant,,,,,Commercial,"Let the home page own ""ai meeting assistant""; this post owns ""best"""
 Blog,/blog/voice-to-text-apps,primary,voice to text app,4400,47,30.86,7,Commercial,"558 impr at pos 40; heavy competition, refresh in 60 days"
 Blog,/blog/voice-to-text-apps,secondary,best voice to text app,,,41.1,10,Commercial,"558 impr at pos 40; heavy competition, refresh in 60 days"
 Blog,/blog/voice-to-text-apps,secondary,voice to text software,,,44.38,37,Commercial,"558 impr at pos 40; heavy competition, refresh in 60 days"
