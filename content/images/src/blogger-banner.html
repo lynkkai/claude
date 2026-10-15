@@ -1,0 +1,77 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Blogger banner</title>
+<link rel="stylesheet" href="_base.css">
+<style>
+  body {
+    width: 1200px; height: 630px;
+    background-color: var(--paper);
+    background-image: radial-gradient(#11111114 1.2px, transparent 1.2px);
+    background-size: 16px 16px;
+    position: relative;
+    color: var(--ink);
+  }
+  .glow {
+    position: absolute; right: -120px; top: -160px;
+    width: 720px; height: 720px; border-radius: 50%;
+    background: radial-gradient(circle, #beb4fb66 0%, #f7b7ef33 45%, transparent 70%);
+  }
+  .left { position: absolute; left: 64px; top: 72px; width: 560px; }
+  .eyebrow { background: var(--violet-tint); color: var(--violet-ink); }
+  h1 { font-size: 64px; line-height: 1.05; font-weight: 700; margin-top: 28px; }
+  h1 em { font-style: normal; color: var(--violet); }
+  p.sub { font-size: 24px; line-height: 1.45; color: var(--ink-2); margin-top: 24px; max-width: 500px; }
+  .brand { position: absolute; left: 64px; bottom: 52px; color: var(--ink-3); }
+
+  .doc {
+    position: absolute; right: 64px; top: 64px;
+    width: 470px; height: 500px;
+    background: var(--white);
+    border-radius: 18px;
+    box-shadow: 0 30px 60px #11111122, 0 2px 0 #1111110d;
+    transform: rotate(2deg);
+    padding: 30px 32px;
+  }
+  .doc h2 { font-size: 15px; letter-spacing: 0.14em; font-weight: 800; color: var(--ink); }
+  .meta { margin-top: 14px; display: grid; grid-template-columns: 96px 1fr; row-gap: 6px; font-size: 14px; }
+  .meta span:nth-child(odd) { color: var(--ink-3); }
+  .sec { margin-top: 20px; font-size: 12px; font-weight: 800; letter-spacing: 0.12em; color: var(--violet-ink); }
+  .line { height: 9px; border-radius: 5px; background: var(--sand); margin-top: 10px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 14px; }
+  th { text-align: left; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); font-weight: 700; padding: 6px 0; border-bottom: 1px solid var(--rule); }
+  td { padding: 10px 0; border-bottom: 1px solid var(--rule); vertical-align: middle; }
+  .chip { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; }
+  .c1 { background: var(--violet-tint); color: var(--violet-ink); }
+  .c2 { background: #fde3d3; color: #a8481a; }
+  .c3 { background: #dcebdf; color: var(--green); }
+  .check { width: 16px; height: 16px; border: 2px solid var(--ink-3); border-radius: 4px; display: inline-block; vertical-align: -3px; margin-right: 8px; }
+</style></head>
+<body>
+  <div class="glow"></div>
+  <div class="left">
+    <span class="eyebrow">Free template + example</span>
+    <h1 class="display">Meeting Minutes Template <em>With Action Items</em></h1>
+    <p class="sub">A copy-paste template, a filled-in example, and 6 steps to write better minutes.</p>
+  </div>
+  <div class="brand"><i></i>lynkk.ai</div>
+
+  <div class="doc">
+    <h2>MEETING MINUTES</h2>
+    <div class="meta">
+      <span>Meeting</span><span>Website relaunch sync</span>
+      <span>Date</span><span>Tue 14 Oct, 10:00</span>
+      <span>Present</span><span>Daniel, Aisha, Sara, Tom, Mei</span>
+    </div>
+    <div class="sec">DECISIONS</div>
+    <div class="line" style="width: 92%"></div>
+    <div class="line" style="width: 70%"></div>
+    <div class="sec">ACTION ITEMS</div>
+    <table>
+      <tr><th>Action</th><th>Owner</th><th>Due</th></tr>
+      <tr><td><span class="check"></span>Send pricing options</td><td><span class="chip c1">Sara</span></td><td>Fri 17</td></tr>
+      <tr><td><span class="check"></span>Update project plan</td><td><span class="chip c2">Tom</span></td><td>Wed 15</td></tr>
+      <tr><td><span class="check"></span>Book usability test</td><td><span class="chip c3">Mei</span></td><td>Mon 20</td></tr>
+    </table>
+    <div class="sec">NEXT MEETING</div>
+    <div class="meta" style="margin-top:8px"><span>Date</span><span>Tue 21 Oct, 10:00</span></div>
+  </div>
+</body></html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Action item anatomy</title>
+<link rel="stylesheet" href="_base.css">
+<style>
+  body {
+    width: 1200px; height: 675px;
+    background: var(--paper);
+    color: var(--ink);
+    position: relative;
+    padding: 64px 72px;
+  }
+  .eyebrow { background: var(--violet-tint); color: var(--violet-ink); }
+  h1 { font-size: 46px; font-weight: 700; margin-top: 22px; }
+  .sentence { margin-top: 64px; display: flex; gap: 14px; align-items: flex-start; flex-wrap: nowrap; }
+  .part { display: flex; flex-direction: column; align-items: stretch; }
+  .word { font-size: 34px; font-weight: 600; padding: 12px 16px; border-radius: 12px; white-space: nowrap; }
+  .tag { margin-top: 12px; font-size: 14px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; text-align: center; }
+  .owner .word { background: #fde3d3; color: #a8481a; } .owner .tag { color: #a8481a; }
+  .verb .word { background: var(--violet-tint); color: var(--violet-ink); } .verb .tag { color: var(--violet-ink); }
+  .task .word { background: var(--white); border: 2px solid var(--rule); } .task .tag { color: var(--ink-3); }
+  .due .word { background: #dcebdf; color: var(--green); } .due .tag { color: var(--green); }
+  .compare { position: absolute; left: 72px; right: 72px; bottom: 64px; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .box { border-radius: 16px; padding: 22px 26px; font-size: 22px; display: flex; gap: 16px; align-items: center; }
+  .bad { background: #fbe9e9; color: #a83035; }
+  .good { background: var(--white); border: 2px solid #b9d8c1; color: var(--ink); }
+  .mark { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; flex: none; color: white; font-weight: 800; font-size: 20px; }
+  .bad .mark { background: #e5484d; }
+  .good .mark { background: var(--green); }
+  .small { font-size: 15px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.75; display: block; margin-bottom: 4px; }
+</style></head>
+<body>
+  <span class="eyebrow">How to write action items</span>
+  <h1 class="display">A good action item has 4 parts</h1>
+
+  <div class="sentence">
+    <div class="part owner"><span class="word">Sara</span><span class="tag">One owner</span></div>
+    <div class="part verb"><span class="word">sends</span><span class="tag">Verb</span></div>
+    <div class="part task"><span class="word">three pricing options to the team</span><span class="tag">Clear task</span></div>
+    <div class="part due"><span class="word">by Fri 17 Oct</span><span class="tag">Real due date</span></div>
+  </div>
+
+  <div class="compare">
+    <div class="box bad"><span class="mark">&#10005;</span><span><span class="small">Topic, not a task</span>"Look into pricing"</span></div>
+    <div class="box good"><span class="mark">&#10003;</span><span><span class="small">Action item</span>"Sara sends three pricing options by Fri 17 Oct"</span></div>
+  </div>
+</body></html>

@@ -9,7 +9,11 @@ Tags (max 5): ai, llm, productivity, python, jira
 Keyword matrix: content/research/keyword-matrix.md (Article 2)
 Head keywords: ai meeting notes (1,000), ai meeting minutes (1,600), ai note taker (27,100, one natural mention)
 Body / long-tail: summarize meeting, meeting summary, chatgpt meeting notes, prompt to summarize meeting transcript (+ ChatGPT / Claude / Copilot variants)
-Cover image idea: a transcript on the left, an arrow, and a JSON block + Jira ticket on the right.
+Images (in content/images, sources in content/images/src, re-render with images/render.sh):
+  Cover: hashnode-cover.png, 1600x840 (Hashnode's recommended cover size). Upload via "Add cover",
+    not inside the body. Alt: "AI meeting notes from any transcript: prompt, JSON and Jira ticket"
+  Inline: hashnode-pipeline.png, 1600x560, after the intro.
+    Alt: "Pipeline from meeting transcript to prompt, JSON minutes, Python script and Jira tickets"
 Guideline notes (Hashnode Code of Conduct): value first, one product mention near the end, no
 keyword lists, review the post yourself before publishing. Hashnode outbound links are nofollow;
 the Lynkk link is for readers and brand mentions, not PageRank.
@@ -25,6 +29,8 @@ action items straight into Jira. The full prompt is below; copy it, paste your t
 
 I've tested a lot of "summarize this meeting" prompts on real engineering standups, sprint
 plannings and customer calls. Most of them fail in the same three ways, so let's start there.
+
+![Pipeline from meeting transcript to prompt, JSON minutes, Python script and Jira tickets](images/hashnode-pipeline.png)
 
 ## Why "summarize this transcript" gives you useless notes
 

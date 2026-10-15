@@ -7,14 +7,18 @@ Labels: Meeting Minutes, Meeting Notes, Templates, Productivity
 Keyword matrix: content/research/keyword-matrix.md (Article 1)
 Head keywords: meeting minutes template (22,200), meeting notes template (22,200), meeting minutes (9,900)
 Body: meeting minutes sample, meeting minutes example, meeting notes, action items, meeting notes minutes, minutes of meeting
-Images:
-  (1) screenshot of the filled-in template, alt "meeting minutes template with action items table filled in"
-  (2) simple graphic of the 6 rules, alt "how to write action items: verb, owner, due date"
+Images (in content/images, sources in content/images/src, re-render with images/render.sh):
+  (1) blogger-banner.png, 1200x630: first image in the post, so Blogger uses it as the thumbnail
+      and social preview. Alt: "Free meeting minutes template with action items, filled-in example"
+  (2) blogger-action-item-anatomy.png, 1200x675: in the action items rules section.
+      Alt: "How to write action items: one owner, a verb, a clear task and a real due date"
 Guideline notes: keep the two lynkk.ai links as written (descriptive anchors, one section).
 Do not bold keywords or add keyword lists. Blogspot in-post links are dofollow.
 -->
 
 # Meeting Minutes Template With Action Items (Free) + Example
+
+![Free meeting minutes template with action items, filled-in example](images/blogger-banner.png)
 
 **Quick answer:** a good meeting minutes template has five parts: the meeting basics (date,
 attendees, purpose), key decisions, an action items table where every task has **one owner and one
@@ -209,6 +213,8 @@ Open the next meeting by going through the previous action items: done, in progr
 This creates accountability without anyone having to chase people.
 
 ## How to write action items that actually get done
+
+![How to write action items: one owner, a verb, a clear task and a real due date](images/blogger-action-item-anatomy.png)
 
 1. **Start with a verb.** "Send", "Book", "Draft", "Review", "Decide". Not "Pricing" or "Website".
 2. **One owner per task.** "Marketing team" is not an owner. If two people share it, pick one lead.

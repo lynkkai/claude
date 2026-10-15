@@ -1,0 +1,41 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Transcript to Jira pipeline</title>
+<link rel="stylesheet" href="_base.css">
+<style>
+  body {
+    width: 1600px; height: 560px;
+    background: var(--black);
+    color: var(--white);
+    padding: 64px 80px;
+    position: relative;
+  }
+  .eyebrow { background: #ffffff14; color: var(--lavender); border: 1px solid #ffffff1f; }
+  h1 { font-size: 48px; font-weight: 700; margin-top: 22px; }
+  .flow { margin-top: 70px; display: flex; align-items: stretch; }
+  .step {
+    width: 232px; background: var(--coal); border: 1px solid #ffffff1a; border-radius: 18px;
+    padding: 24px 22px; display: flex; flex-direction: column; gap: 12px;
+  }
+  .num { font-size: 13px; font-weight: 800; letter-spacing: 0.14em; color: var(--lavender); }
+  .name { font-size: 26px; font-weight: 700; }
+  .desc { font-size: 17px; line-height: 1.5; color: #ffffffa0; }
+  .step.hi { background: var(--paper); color: var(--ink); border: none; }
+  .step.hi .num { color: var(--violet-ink); }
+  .step.hi .desc { color: var(--ink-2); }
+  .conn { width: 58px; display: flex; align-items: center; justify-content: center; }
+</style></head>
+<body>
+  <span class="eyebrow">The pipeline in this post</span>
+  <h1 class="display">From meeting transcript to Jira tickets</h1>
+  <div class="flow">
+    <div class="step"><span class="num">01</span><span class="name">Transcript</span><span class="desc">Export from Zoom, Meet or Teams, or paste raw text.</span></div>
+    <div class="conn"><svg width="40" height="22" viewBox="0 0 40 22"><path d="M2 11h32M26 3l9 8-9 8" stroke="#beb4fb" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="step"><span class="num">02</span><span class="name">Prompt</span><span class="desc">Decisions vs discussion, owners, verbatim dates, no invention.</span></div>
+    <div class="conn"><svg width="40" height="22" viewBox="0 0 40 22"><path d="M2 11h32M26 3l9 8-9 8" stroke="#beb4fb" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="step"><span class="num">03</span><span class="name">JSON minutes</span><span class="desc">TL;DR, decisions, action items, open questions.</span></div>
+    <div class="conn"><svg width="40" height="22" viewBox="0 0 40 22"><path d="M2 11h32M26 3l9 8-9 8" stroke="#beb4fb" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="step"><span class="num">04</span><span class="name">Python script</span><span class="desc">40 lines, Jira REST API, source quote in every ticket.</span></div>
+    <div class="conn"><svg width="40" height="22" viewBox="0 0 40 22"><path d="M2 11h32M26 3l9 8-9 8" stroke="#beb4fb" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="step hi"><span class="num">05</span><span class="name">Jira tickets</span><span class="desc">One task per action item, tagged and traceable.</span></div>
+  </div>
+</body></html>
