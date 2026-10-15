@@ -1,0 +1,166 @@
+section,page,role,keyword,us_volume,seo_difficulty,gsc_position,gsc_impressions,intent,next_step
+Core,/ (home),primary,ai note taker,27100,48,,,Commercial,"Put ""AI note taker"" in the H1 (today: ""The AI assistant that remembers everything..."")"
+Core,/ (home),secondary,ai meeting assistant,4400,60,76.12,32,Commercial,"Put ""AI note taker"" in the H1 (today: ""The AI assistant that remembers everything..."")"
+Core,/ (home),secondary,ai meeting notes taker,3600,49,,,Commercial,"Put ""AI note taker"" in the H1 (today: ""The AI assistant that remembers everything..."")"
+Core,/ (home),secondary,ai note taker app,880,32,,,Commercial,"Put ""AI note taker"" in the H1 (today: ""The AI assistant that remembers everything..."")"
+Core,/ (home),secondary,lynkk,,,2.44,238,Commercial,"Put ""AI note taker"" in the H1 (today: ""The AI assistant that remembers everything..."")"
+Core,/how-it-works,primary,meeting transcription,480,62,,,Informational,"Add a section on in-person recording; ranks 3.5 for brand queries, needs a non-brand angle"
+Core,/how-it-works,secondary,ai meeting transcription,210,64,,,Informational,"Add a section on in-person recording; ranks 3.5 for brand queries, needs a non-brand angle"
+Core,/how-it-works,secondary,ai note taker for in person meetings,480,40,,,Informational,"Add a section on in-person recording; ranks 3.5 for brand queries, needs a non-brand angle"
+Core,/web-app,primary,ai meeting notes app,140,46,,,Transactional,Add a comparison of search vs. rewatching recordings
+Core,/web-app,secondary,searchable meeting notes,,,,,Transactional,Add a comparison of search vs. rewatching recordings
+Core,/web-app,secondary,ask your meeting notes,,,,,Transactional,Add a comparison of search vs. rewatching recordings
+Core,/download,primary,lynkk mac app,,,,,Navigational,Add alt text to all 7 images; keep as the conversion page
+Core,/download,secondary,record calls on mac,,,,,Navigational,Add alt text to all 7 images; keep as the conversion page
+Core,/features,primary,conversation intelligence software,390,40,,,Commercial,Hub is thin (309 words): add a 1-paragraph summary per feature
+Core,/features,secondary,conversation intelligence platform,880,37,,,Commercial,Hub is thin (309 words): add a 1-paragraph summary per feature
+Core,/integrations,primary,ai note taker integrations,,,,,Commercial,Thin (375 words); add one block per integration; alt text on 6 images
+Core,/integrations,secondary,meeting notes to jira,,,,,Commercial,Thin (375 words); add one block per integration; alt text on 6 images
+Core,/integrations,secondary,ai note taker for zoom,480,33,86,5,Commercial,Thin (375 words); add one block per integration; alt text on 6 images
+Core,/security,primary,hipaa compliant ai note taker,260,31,,,Commercial,Target HIPAA only if Lynkk signs BAAs; otherwise lead with GDPR and data residency
+Core,/security,secondary,gdpr compliant ai note taker,,,,,Commercial,Target HIPAA only if Lynkk signs BAAs; otherwise lead with GDPR and data residency
+Core,/security,secondary,secure ai note taker,,,,,Commercial,Target HIPAA only if Lynkk signs BAAs; otherwise lead with GDPR and data residency
+Core,/use-cases,primary,ai note taker use cases,,,,,Commercial,Ranks 2.2; link every use case with a one-line benefit
+Core,/use-cases,secondary,ai note taker for meetings,390,38,,,Commercial,Ranks 2.2; link every use case with a one-line benefit
+Core,/compare,primary,otter vs fireflies,90,17,,,Commercial,Add an at-a-glance table of all 4 rivals
+Core,/compare,secondary,ai note taker comparison,,,67,1,Commercial,Add an at-a-glance table of all 4 rivals
+Core,/pricing,primary,ai note taker pricing,,,,,Transactional,Thin (292 words): add plan FAQ and a free vs. Pro table
+Core,/pricing,secondary,lynkk pricing,,,,,Transactional,Thin (292 words): add plan FAQ and a free vs. Pro table
+Core,/faq,primary,lynkk faq,,,,,Informational,"Answer the AI Mode buyer questions here (SSO, LLM providers, pricing)"
+Core,/faq,secondary,is it legal to record meetings,,,,,Informational,"Answer the AI Mode buyer questions here (SSO, LLM providers, pricing)"
+Core,/slack,primary,slack ai meeting notes,,,,,Commercial,Fine as is; link from /integrations
+Core,/slack,secondary,slack meeting bot,,,,,Commercial,Fine as is; link from /integrations
+Feature,/features/meeting-notes,primary,ai meeting notes,1000,41,,,Commercial,"New page, not in GSC yet; 11 of 11 images lack alt text"
+Feature,/features/meeting-notes,secondary,ai meeting notes taker,3600,49,,,Commercial,"New page, not in GSC yet; 11 of 11 images lack alt text"
+Feature,/features/meeting-notes,secondary,ai note taker for meetings,390,38,,,Commercial,"New page, not in GSC yet; 11 of 11 images lack alt text"
+Feature,/features/ask-your-meetings,primary,ai knowledge management tools,140,30,,,Commercial,Old /features/knowledge-graph 308s here; update internal links to the new URL
+Feature,/features/ask-your-meetings,secondary,searchable meeting history,,,,,Commercial,Old /features/knowledge-graph 308s here; update internal links to the new URL
+Feature,/features/multilingual-transcription,primary,multilingual transcription,30,27,82,14,Commercial,Ranks 61 on 14 impressions; add the 17-language list and a demo
+Feature,/features/multilingual-transcription,secondary,multilingual meeting transcription,,,20.8,20,Commercial,Ranks 61 on 14 impressions; add the 17-language list and a demo
+Feature,/features/multilingual-transcription,secondary,multilingual transcription software,,,78.3,10,Commercial,Ranks 61 on 14 impressions; add the 17-language list and a demo
+Feature,/features/hinglish-transcription,primary,hinglish transcription,10,18,8.57,14,Commercial,Best non-brand page (7 clicks); add India-focused examples and FAQs
+Feature,/features/hinglish-transcription,secondary,hindi english transcription,,,,,Commercial,Best non-brand page (7 clicks); add India-focused examples and FAQs
+Feature,/features/hinglish-transcription,secondary,hinglish speech to text,,,,,Commercial,Best non-brand page (7 clicks); add India-focused examples and FAQs
+Feature,/features/meeting-bot,primary,meeting bot,70,37,22.03,97,Mixed (users + developers),"Add a ""not an API"" note and a how-to section; ranks 22 to 37"
+Feature,/features/meeting-bot,secondary,zoom meeting bot,20,26,22,2,Mixed (users + developers),"Add a ""not an API"" note and a how-to section; ranks 22 to 37"
+Feature,/features/meeting-bot,secondary,join zoom call bot,,,27.89,75,Mixed (users + developers),"Add a ""not an API"" note and a how-to section; ranks 22 to 37"
+Feature,/features/meeting-bot,secondary,google meeting bot,50,58,,,Mixed (users + developers),"Add a ""not an API"" note and a how-to section; ranks 22 to 37"
+Feature,/features/meeting-bot,secondary,how to send a meeting bot to a meeting,,,24.73,11,Mixed (users + developers),"Add a ""not an API"" note and a how-to section; ranks 22 to 37"
+Feature,/features/action-items,primary,tracking action items,320,27,,,Commercial,Link to the action items blog post; ranks 36
+Feature,/features/action-items,secondary,action item ai,,,81.33,12,Commercial,Link to the action items blog post; ranks 36
+Feature,/features/dictation,primary,dictation app for mac,260,31,,,Transactional,Link from the dictation-on-mac and Word dictation posts
+Feature,/features/dictation,secondary,mac dictation app,320,40,,,Transactional,Link from the dictation-on-mac and Word dictation posts
+Feature,/features/dictation,secondary,ai dictation app,210,38,,,Transactional,Link from the dictation-on-mac and Word dictation posts
+Feature,/features/dictation,secondary,dictation app,1900,47,63.11,9,Transactional,Link from the dictation-on-mac and Word dictation posts
+Feature,/features/workspaces,primary,team ai meeting notes,720,25,,,Commercial,Add team pricing and admin controls (SSO/SCIM if available)
+Feature,/features/workspaces,secondary,team ai note taker,720,27,,,Commercial,Add team pricing and admin controls (SSO/SCIM if available)
+Feature,/features/chrome-extension,primary,record google meet chrome extension,140,36,,,Transactional,"Strong ""no bot"" angle; alt text on 3 images"
+Feature,/features/chrome-extension,secondary,record google meet,1300,30,,,Transactional,"Strong ""no bot"" angle; alt text on 3 images"
+Feature,/features/chrome-extension,secondary,record zoom meeting,1000,31,,,Transactional,"Strong ""no bot"" angle; alt text on 3 images"
+Use case,/use-cases/sales-calls,primary,ai notetaker sales calls,,,93.31,13,Commercial,Ranks 54; add CRM sync details and a call-prep example
+Use case,/use-cases/sales-calls,secondary,conversation intelligence for sales,40,57,,,Commercial,Ranks 54; add CRM sync details and a call-prep example
+Use case,/use-cases/sales-calls,secondary,record sales calls offline,,,43.22,9,Commercial,Ranks 54; add CRM sync details and a call-prep example
+Use case,/use-cases/sales-calls,secondary,sales call notes,10,17,,,Commercial,Ranks 54; add CRM sync details and a call-prep example
+Use case,/use-cases/team-standups,primary,daily standup meeting notes,70,23,,,Commercial,"Leave ""daily standup meeting"" to the blog post; link both ways"
+Use case,/use-cases/team-standups,secondary,team standup notes,,,,,Commercial,"Leave ""daily standup meeting"" to the blog post; link both ways"
+Use case,/use-cases/user-interviews,primary,user interview transcription,,,40.22,93,Commercial,93 impressions at pos 40; add a UX research workflow and sample transcript
+Use case,/use-cases/user-interviews,secondary,interview transcription for ux research,,,63,12,Commercial,93 impressions at pos 40; add a UX research workflow and sample transcript
+Use case,/use-cases/user-interviews,secondary,interview transcription software,210,40,,,Commercial,93 impressions at pos 40; add a UX research workflow and sample transcript
+Use case,/use-cases/user-interviews,secondary,ai interview transcription,50,30,,,Commercial,93 impressions at pos 40; add a UX research workflow and sample transcript
+Use case,/use-cases/lectures,primary,ai lecture notes,70,36,,,Commercial,Ranks 19; add student pricing info
+Use case,/use-cases/lectures,secondary,lecture ai note taker,140,23,,,Commercial,Ranks 19; add student pricing info
+Use case,/use-cases/doctor-visits,primary,record doctor appointment,,,,,Informational,"Not in GSC yet; avoid medical claims, link to the medical post"
+Use case,/use-cases/doctor-visits,secondary,doctor visit notes,,,,,Informational,"Not in GSC yet; avoid medical claims, link to the medical post"
+Use case,/use-cases/field-interviews,primary,field interview,390,19,,,Commercial,"""field interview"" is mostly police and sports; refocus on ""offline interview recording"""
+Use case,/use-cases/field-interviews,secondary,record interviews offline,,,,,Commercial,"""field interview"" is mostly police and sports; refocus on ""offline interview recording"""
+Comparison,/compare/otter,primary,otter ai alternative,480,34,,,Commercial,"Ranks 5.5 with 0 clicks: rewrite the title as ""Best Otter.ai alternative (free plan)"""
+Comparison,/compare/otter,secondary,otter ai alternative free,40,26,,,Commercial,"Ranks 5.5 with 0 clicks: rewrite the title as ""Best Otter.ai alternative (free plan)"""
+Comparison,/compare/otter,secondary,otter.ai,,,1.5,2,Commercial,"Ranks 5.5 with 0 clicks: rewrite the title as ""Best Otter.ai alternative (free plan)"""
+Comparison,/compare/otter,secondary,otter ai note taker,5400,57,,,Commercial,"Ranks 5.5 with 0 clicks: rewrite the title as ""Best Otter.ai alternative (free plan)"""
+Comparison,/compare/fireflies,primary,fireflies alternative,70,29,,,Commercial,Ranks 4.3: add pricing table and switching steps
+Comparison,/compare/fireflies,secondary,fireflies.ai,,,4.5,2,Commercial,Ranks 4.3: add pricing table and switching steps
+Comparison,/compare/fireflies,secondary,fireflies ai note taker,4400,63,,,Commercial,Ranks 4.3: add pricing table and switching steps
+Comparison,/compare/granola,primary,granola alternative,320,28,,,Commercial,"Say ""Granola AI"" in the title; ""granola alternative"" is half food searches"
+Comparison,/compare/granola,secondary,granola ai note taker,1300,30,,,Commercial,"Say ""Granola AI"" in the title; ""granola alternative"" is half food searches"
+Comparison,/compare/fathom,primary,fathom alternative,50,14,,,Commercial,"Fathom brand term is 5,400/mo: add a Fathom pricing section"
+Comparison,/compare/fathom,secondary,fathom ai note taker,5400,45,,,Commercial,"Fathom brand term is 5,400/mo: add a Fathom pricing section"
+Blog,/blog/best-ai-note-takers,primary,best ai note taker,1900,36,77,8,Commercial,270 impr at pos 27; add a comparison table at the top
+Blog,/blog/best-ai-note-takers,secondary,best ai meeting notes taker,720,36,,,Commercial,270 impr at pos 27; add a comparison table at the top
+Blog,/blog/best-ai-note-takers,secondary,best ai note taker for meetings,260,41,,,Commercial,270 impr at pos 27; add a comparison table at the top
+Blog,/blog/best-free-ai-note-takers,primary,free ai note taker,2400,43,,,Commercial,No impressions yet; give it 3 internal links from feature pages
+Blog,/blog/best-free-ai-note-takers,secondary,best free ai note taker,260,32,,,Commercial,No impressions yet; give it 3 internal links from feature pages
+Blog,/blog/best-free-ai-note-takers,secondary,ai note taker free,1600,58,,,Commercial,No impressions yet; give it 3 internal links from feature pages
+Blog,/blog/zoom-meeting-recorders,primary,zoom meeting recorder,2900,17,,,Commercial,"KD 17 for 2,900/mo: the easiest big win; no impressions yet"
+Blog,/blog/zoom-meeting-recorders,secondary,zoom meeting recorder software,480,27,,,Commercial,"KD 17 for 2,900/mo: the easiest big win; no impressions yet"
+Blog,/blog/ai-note-taker-microsoft-teams,primary,teams ai note taker,590,28,67.4,5,Commercial,"276 impr at pos 21: answer ""does Teams have one?"" in the intro"
+Blog,/blog/ai-note-taker-microsoft-teams,secondary,ai note taker for teams,590,29,77.17,6,Commercial,"276 impr at pos 21: answer ""does Teams have one?"" in the intro"
+Blog,/blog/ai-note-taker-microsoft-teams,secondary,microsoft teams ai note taker,590,26,41.86,7,Commercial,"276 impr at pos 21: answer ""does Teams have one?"" in the intro"
+Blog,/blog/ai-note-taker-microsoft-teams,secondary,does teams have an ai note taker,260,14,,,Commercial,"276 impr at pos 21: answer ""does Teams have one?"" in the intro"
+Blog,/blog/transcribe-audio-to-text,primary,how to transcribe audio to text,2900,37,,,Informational,Pos 55; add a free-tool step list
+Blog,/blog/transcribe-audio-to-text,secondary,transcribe audio to text,22200,46,93.2,5,Informational,Pos 55; add a free-tool step list
+Blog,/blog/transcribe-audio-to-text,secondary,transcribe audio to text free,9900,40,,,Informational,Pos 55; add a free-tool step list
+Blog,/blog/ai-transcription-software,primary,ai transcription software,880,55,,,Commercial,Pos 12.6; push to page 1 with fresher screenshots
+Blog,/blog/ai-transcription-software,secondary,best ai transcription software,50,15,,,Commercial,Pos 12.6; push to page 1 with fresher screenshots
+Blog,/blog/ai-voice-recorders,primary,ai voice recorder,6600,49,,,Commercial,Searchers want devices (Plaud); keep the devices vs apps angle
+Blog,/blog/ai-voice-recorders,secondary,best ai voice recorder,480,35,,,Commercial,Searchers want devices (Plaud); keep the devices vs apps angle
+Blog,/blog/ai-voice-recorders,secondary,ai voice recorder app,170,30,,,Commercial,Searchers want devices (Plaud); keep the devices vs apps angle
+Blog,/blog/ai-powered-meeting-assistants,primary,best ai meeting assistant,110,32,55.14,7,Commercial,"Let the home page own ""ai meeting assistant""; this post owns ""best"""
+Blog,/blog/ai-powered-meeting-assistants,secondary,ai meeting assistants,,,46.67,9,Commercial,"Let the home page own ""ai meeting assistant""; this post owns ""best"""
+Blog,/blog/ai-powered-meeting-assistants,secondary,live ai meeting assistant,,,,,Commercial,"Let the home page own ""ai meeting assistant""; this post owns ""best"""
+Blog,/blog/voice-to-text-apps,primary,voice to text app,4400,47,30.86,7,Commercial,"558 impr at pos 40; heavy competition, refresh in 60 days"
+Blog,/blog/voice-to-text-apps,secondary,best voice to text app,,,41.1,10,Commercial,"558 impr at pos 40; heavy competition, refresh in 60 days"
+Blog,/blog/voice-to-text-apps,secondary,voice to text software,,,44.38,37,Commercial,"558 impr at pos 40; heavy competition, refresh in 60 days"
+Blog,/blog/voice-to-text-apps,secondary,speech to text software,4400,56,60.94,16,Commercial,"558 impr at pos 40; heavy competition, refresh in 60 days"
+Blog,/blog/how-to-transcribe-zoom-meetings,primary,how to transcribe zoom meetings,320,27,,,Informational,Pos 39; add Zoom settings screenshots
+Blog,/blog/how-to-transcribe-zoom-meetings,secondary,zoom meeting transcription,590,32,68.5,4,Informational,Pos 39; add Zoom settings screenshots
+Blog,/blog/zoom-ai-companion-alternatives,primary,zoom ai companion alternative,,,31,3,Commercial,Pos 6.9: add the CRM gap answer from the AI Mode prompts
+Blog,/blog/zoom-ai-companion-alternatives,secondary,zoom ai companion alternatives,,,,,Commercial,Pos 6.9: add the CRM gap answer from the AI Mode prompts
+Blog,/blog/dictate-in-microsoft-word,primary,speech to text software for microsoft word,1000,69,,,Informational,Pos 33; link to /features/dictation
+Blog,/blog/dictate-in-microsoft-word,secondary,dictate in microsoft word,,,,,Informational,Pos 33; link to /features/dictation
+Blog,/blog/dictation-on-mac,primary,dictation on mac,1600,29,58.5,2,Informational,KD 29; add a troubleshooting section
+Blog,/blog/dictation-on-mac,secondary,how to do dictation on mac,1000,42,,,Informational,KD 29; add a troubleshooting section
+Blog,/blog/dictation-on-mac,secondary,dictation on mac not working,480,29,,,Informational,KD 29; add a troubleshooting section
+Blog,/blog/dictation-on-mac,secondary,shortcut for dictation on mac,480,25,,,Informational,KD 29; add a troubleshooting section
+Blog,/blog/google-meet-transcript,primary,google meet transcript,1000,53,11.44,16,Informational,"736 impr at pos 9.2, 0 clicks: fix title, add a 3-step answer box"
+Blog,/blog/google-meet-transcript,secondary,google meet transcripts,,,10.16,19,Informational,"736 impr at pos 9.2, 0 clicks: fix title, add a 3-step answer box"
+Blog,/blog/google-meet-transcript,secondary,where to find google meet transcript,,,6,4,Informational,"736 impr at pos 9.2, 0 clicks: fix title, add a 3-step answer box"
+Blog,/blog/google-meet-transcript,secondary,where is my google meet transcript,,,7.5,4,Informational,"736 impr at pos 9.2, 0 clicks: fix title, add a 3-step answer box"
+Blog,/blog/voice-memo-transcription,primary,voice memo transcription,1600,36,,,Informational,Pos 8; good start
+Blog,/blog/voice-memo-transcription,secondary,apple voice memo transcription,390,45,,,Informational,Pos 8; good start
+Blog,/blog/voice-memo-transcription,secondary,voice memo transcription iphone,170,41,,,Informational,Pos 8; good start
+Blog,/blog/recruiting-interview-transcription,primary,interview transcription,1300,25,,,Commercial,"No impressions yet; KD 25 for 1,300/mo"
+Blog,/blog/sales-conversation-intelligence,primary,conversation intelligence,1900,60,,,Commercial,Pos 15 on 3 impressions; link from /use-cases/sales-calls
+Blog,/blog/sales-conversation-intelligence,secondary,conversation intelligence software,390,40,,,Commercial,Pos 15 on 3 impressions; link from /use-cases/sales-calls
+Blog,/blog/founders-meeting-notes,primary,meeting notes for founders,,,,,Informational,Low volume; use for AI search and social
+Blog,/blog/founders-meeting-notes,secondary,founder meeting notes,,,,,Informational,Low volume; use for AI search and social
+Blog,/blog/meeting-minutes-to-jira,primary,meeting minutes to jira,,,,,Informational,Pos 4 on 1 impression; link from /integrations
+Blog,/blog/meeting-minutes-to-jira,secondary,meeting action items jira,,,20,2,Informational,Pos 4 on 1 impression; link from /integrations
+Blog,/blog/daily-standup-meeting,primary,daily standup meeting,1600,43,,,Informational,Pos 6.5 on 2 impressions; strong fit
+Blog,/blog/daily-standup-meeting,secondary,scrum daily standup meeting,2400,44,,,Informational,Pos 6.5 on 2 impressions; strong fit
+Blog,/blog/daily-standup-meeting,secondary,daily standup meeting template,170,39,,,Informational,Pos 6.5 on 2 impressions; strong fit
+Blog,/blog/meeting-knowledge-management,primary,knowledge management tools,4400,46,,,Commercial,"KD 46 for 4,400/mo; long-term target"
+Blog,/blog/meeting-knowledge-management,secondary,ai knowledge management tools,140,30,,,Commercial,"KD 46 for 4,400/mo; long-term target"
+Blog,/blog/legal-transcription-service,primary,legal transcription service,1300,15,,,Commercial,"KD 15 for 1,300/mo: high priority"
+Blog,/blog/legal-transcription-service,secondary,legal transcription,480,30,,,Commercial,"KD 15 for 1,300/mo: high priority"
+Blog,/blog/legal-transcription-service,secondary,legal transcription software,70,19,,,Commercial,"KD 15 for 1,300/mo: high priority"
+Blog,/blog/one-on-one-meeting,primary,one on one meeting,2400,38,,,Informational,"3 terms of 1,600 to 2,400/mo each; add a downloadable template"
+Blog,/blog/one-on-one-meeting,secondary,one on one meeting template,1600,19,,,Informational,"3 terms of 1,600 to 2,400/mo each; add a downloadable template"
+Blog,/blog/one-on-one-meeting,secondary,one on one meeting questions,1600,27,,,Informational,"3 terms of 1,600 to 2,400/mo each; add a downloadable template"
+Blog,/blog/medical-transcription-software,primary,medical transcription software,1000,33,,,Commercial,Avoid HIPAA claims unless confirmed
+Blog,/blog/medical-transcription-software,secondary,ai medical transcription software,50,22,,,Commercial,Avoid HIPAA claims unless confirmed
+Blog,/blog/medical-transcription-software,secondary,medical dictation app,170,25,,,Commercial,Avoid HIPAA claims unless confirmed
+Blog,/blog/meeting-minutes-sample,primary,meeting minutes sample,5400,39,,,Informational,"5,400/mo + 22,200/mo: add Word and Google Docs downloads"
+Blog,/blog/meeting-minutes-sample,secondary,board meeting minutes sample,2400,15,,,Informational,"5,400/mo + 22,200/mo: add Word and Google Docs downloads"
+Blog,/blog/action-items-examples-template,primary,action items,2900,40,,,Informational,"Published 15 Oct; 2,900/mo, link from /features/action-items"
+Blog,/blog/action-items-examples-template,secondary,action items template,480,32,,,Informational,"Published 15 Oct; 2,900/mo, link from /features/action-items"
+Blog,/blog/action-items-examples-template,secondary,action items meaning,880,39,,,Informational,"Published 15 Oct; 2,900/mo, link from /features/action-items"
+New page (gap),NEW: /blog/how-to-record-zoom-meeting,primary,how to record zoom meeting,4400,27,,,Informational,KD 27; funnel to the Chrome extension
+New page (gap),NEW: /blog/how-to-record-zoom-meeting,secondary,how to record zoom meeting on mac,,,,,Informational,KD 27; funnel to the Chrome extension
+New page (gap),NEW: /blog/how-to-record-google-meet,primary,how to record google meet,2400,25,,,Informational,KD 25; pairs with the Meet transcript post
+New page (gap),NEW: /blog/how-to-record-google-meet,secondary,can you record google meet,,,,,Informational,KD 25; pairs with the Meet transcript post
+New page (gap),NEW: /blog/how-to-record-teams-meeting,primary,how to record teams meeting,1300,29,,,Informational,Already tracked in Ubersuggest (UK)
+New page (gap),NEW: /blog/how-to-record-teams-meeting,secondary,teams meeting transcription,390,22,,,Informational,Already tracked in Ubersuggest (UK)
+New page (gap),NEW: /templates/meeting-minutes,primary,meeting minutes template,22200,40,,,Informational,"22,200/mo; a free template page with downloads"
+New page (gap),NEW: /templates/meeting-minutes,secondary,board meeting minutes template,1900,28,,,Informational,"22,200/mo; a free template page with downloads"
+New page (gap),"NEW: /integrations/zoom, /integrations/google-meet",primary,zoom ai note taker,390,33,,,Commercial,One landing page per meeting platform
+New page (gap),"NEW: /integrations/zoom, /integrations/google-meet",secondary,google meet ai note taker,590,40,,,Commercial,One landing page per meeting platform

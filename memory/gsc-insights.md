@@ -26,6 +26,33 @@
 - 74 long AI Mode style prompts (10+ words) rank at avg position ~6 with 0 clicks (SSO/SCIM, CRM sync,
   LLM data handling, pricing).
 
+## Site audit (crawl of 15 Oct 2026, `data/seo/2026-10-15/site-crawl.csv`)
+
+- 64 sitemap URLs, all 200, self-canonical, indexable, unique titles/descriptions, 1 H1 each, llms.txt present.
+- Structured data already sitewide (Organization, SoftwareApplication, FAQPage, BreadcrumbList, BlogPosting).
+  Risk: homepage AggregateRating (5.0 from 16 reviews) with no visible reviews.
+- Mobile LCP 7.3 s on the homepage (desktop 0.9 s). 89 images missing alt text on 31 pages.
+- Backlinks: 4 from 3 domains, all nofollow, Ubersuggest DA 1. Biggest blocker.
+- Thin pages: /features, /pricing, /integrations, /security, /demo (under 500 words).
+
+## Blog
+
+- 26 posts published 2 to 15 Oct 2026 (~2 a day, avg 2,520 words, author Samarth Wagh). They caused the
+  October impressions spike: 50% of page impressions, 3 clicks.
+- Best post: /blog/google-meet-transcript (736 impressions, pos 9.2, 0 clicks).
+
+## Keyword strategy
+
+- Full page-by-page map (primary + secondary keywords, US volume, KD, GSC position):
+  `data/seo/2026-10-15/keyword-map.csv`.
+- Home owns "ai note taker" (27,100 US/mo, KD 48). Five pillars: AI note taker; recording and transcription;
+  templates and meeting productivity (largest, 39,400/mo, needs a /templates hub); voice to text and
+  dictation; use cases, industries and languages.
+- Easy wins: zoom meeting recorder (2,900, KD 17), legal transcription service (1,300, KD 15),
+  board meeting minutes sample (2,400, KD 15), one on one meeting template (1,600, KD 19).
+- Gaps: meeting minutes template (22,200), how to record zoom meeting (4,400), how to record google meet (2,400).
+- Ubersuggest project rank tracker API call fails (schema error); use GSC positions instead.
+
 ## Top opportunities
 
 1. /blog/google-meet-transcript: 736 impressions, position 9.2, 0 clicks. Rewrite title and meta.
