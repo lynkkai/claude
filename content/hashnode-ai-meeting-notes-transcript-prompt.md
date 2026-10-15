@@ -1,22 +1,26 @@
 <!--
 PLATFORM: Hashnode
-SEO title (≤60): The Best Prompt to Summarize a Meeting Transcript (+ Jira Script)
-Meta description (≤155): Copy-paste prompts for ChatGPT, Claude and Copilot that turn a meeting transcript into minutes, decisions and action items, plus a Python script for Jira.
-Slug: prompt-to-summarize-meeting-transcript
-Tags: ai, llm, productivity, jira, python
-Primary keyword: prompt to summarize meeting transcript
-Secondary: chatgpt prompt to summarize meeting transcript, claude prompt to summarize meeting transcript,
-copilot prompt to summarize meeting transcript, meeting transcript to minutes, summarize meeting notes,
-how to summarize meeting transcript, jira meeting notes
+Title / H1: AI Meeting Notes From Any Transcript: The Prompt + a Jira Script
+Subtitle (Hashnode field): A copy-paste prompt for ChatGPT, Claude and Copilot that turns a meeting transcript into minutes, decisions and action items, plus 40 lines of Python that file them in Jira.
+SEO title (56 chars): AI Meeting Notes: The Prompt to Summarize Any Transcript
+SEO description (152 chars): Get AI meeting notes from any transcript: one prompt for ChatGPT, Claude or Copilot that writes minutes and action items, plus a Python script for Jira.
+Slug: ai-meeting-notes-transcript-prompt
+Tags (max 5): ai, llm, productivity, python, jira
+Keyword matrix: content/research/keyword-matrix.md (Article 2)
+Head keywords: ai meeting notes (1,000), ai meeting minutes (1,600), ai note taker (27,100, one natural mention)
+Body / long-tail: summarize meeting, meeting summary, chatgpt meeting notes, prompt to summarize meeting transcript (+ ChatGPT / Claude / Copilot variants)
 Cover image idea: a transcript on the left, an arrow, and a JSON block + Jira ticket on the right.
-Note: Hashnode outbound links are nofollow. The Lynkk link here is for readers and brand mentions, not PageRank.
+Guideline notes (Hashnode Code of Conduct): value first, one product mention near the end, no
+keyword lists, review the post yourself before publishing. Hashnode outbound links are nofollow;
+the Lynkk link is for readers and brand mentions, not PageRank.
 -->
 
-# The Best Prompt to Summarize a Meeting Transcript (ChatGPT, Claude, Copilot) + a Script That Files the Jira Tickets
+# AI Meeting Notes From Any Transcript: The Prompt + a Jira Script
 
-**Short answer:** the prompt that works best tells the model *who* the summary is for, forces it to
-separate **decisions** from **discussion**, makes every action item carry an **owner and a due date**,
-and bans it from inventing anything that isn't in the transcript. Ask for JSON and you can pipe the
+**Short answer:** you can get solid AI meeting notes from any transcript with one well-built prompt.
+The prompt that works best tells the model *who* the meeting summary is for, forces it to separate
+**decisions** from **discussion**, makes every action item carry an **owner and a due date**, and
+bans it from inventing anything that isn't in the transcript. Ask for JSON and you can pipe the
 action items straight into Jira. The full prompt is below; copy it, paste your transcript, done.
 
 I've tested a lot of "summarize this meeting" prompts on real engineering standups, sprint
@@ -86,20 +90,26 @@ TRANSCRIPT
 
 The prompt above is portable, but each assistant has quirks.
 
-**ChatGPT prompt to summarize a meeting transcript:** ChatGPT tends to over-format. Add
-`Do not use emojis or bold text inside the table.` If the transcript is very long, upload it as a
-`.txt` file instead of pasting so it isn't truncated.
+### ChatGPT meeting notes prompt
 
-**Claude prompt to summarize a meeting transcript:** Claude follows structure well and respects
-the "never invent" rule. Wrapping the transcript in `<transcript>...</transcript>` tags instead of
-triple quotes makes the boundary even clearer on very long inputs.
+ChatGPT tends to over-format. Add `Do not use emojis or bold text inside the table.` If the
+transcript is very long, upload it as a `.txt` file instead of pasting so it isn't truncated. The
+same prompt works if you call your output "ChatGPT meeting minutes" rather than notes; the
+sections don't change.
 
-**Copilot prompt to summarize a meeting transcript (Teams):** inside Teams, Copilot already has the
-transcript, so drop the TRANSCRIPT block and start with:
+### Claude prompt to summarize a meeting transcript
+
+Claude follows structure well and respects the "never invent" rule. Wrapping the transcript in
+`<transcript>...</transcript>` tags instead of triple quotes makes the boundary even clearer on
+very long inputs.
+
+### Copilot prompt to summarize a meeting transcript (Teams)
+
+Inside Teams, Copilot already has the transcript, so drop the TRANSCRIPT block and start with:
 `Using the transcript of this meeting, produce minutes with the following sections...`
 Copilot answers are shorter by default, so add `Include every action item, even minor ones.`
 
-## Turning the transcript into JSON (for automation)
+## Get AI meeting minutes as JSON (for automation)
 
 Markdown minutes are great for humans. For tools, ask for JSON. Replace the TASK section with this:
 
@@ -217,10 +227,10 @@ A few design choices worth copying:
 - **Everything gets a `from-meeting` label**, so you can build a Jira filter of all meeting-born
   work and see how much of it actually gets done.
 
-## Where the DIY approach stops scaling
+## Prompt vs AI note taker: where DIY stops scaling
 
-This prompt + script combo is genuinely useful for a handful of meetings a week. It starts to hurt
-when:
+This prompt + script combo is genuinely useful for a handful of meetings a week, and it costs
+nothing beyond the LLM you already use. It starts to hurt when:
 
 - **You have to get the transcript first.** Someone has to record, export and paste every time.
 - **Context lives in previous meetings.** "As we agreed last Tuesday" means nothing to a model
@@ -230,7 +240,7 @@ when:
 - **You want to ask questions later.** "When did we decide to drop SSO from v1?" requires searching
   across *all* meetings, not summarizing one.
 
-That's the gap AI meeting assistants fill. For example, [Lynkk](https://lynkk.ai/) records online and
+That's the gap a dedicated AI note taker fills. For example, [Lynkk](https://lynkk.ai/) records online and
 in-person meetings, produces structured notes and assigned action items within about 30 seconds
 of the call ending, creates the Jira tickets for you, and keeps every meeting in a searchable
 knowledge graph so the "last Tuesday" context is there before the next call starts. If you'd
@@ -242,6 +252,10 @@ rather keep full control, the prompt and script above are a solid way to get 80%
 One that defines the audience, separates decisions from discussion, requires an owner and due date
 for every action item, and forbids inventing details. The template at the top of this post does
 all four.
+
+**What should an AI meeting summary include?**
+A two or three sentence TL;DR, the decisions made, action items with owners and due dates, open
+questions, and risks. Anything else is optional and usually skipped by readers.
 
 **Can ChatGPT summarize a meeting transcript for free?**
 Yes. Paste the transcript (or upload it as a text file) with the prompt above. Very long transcripts
@@ -261,5 +275,5 @@ as in the Python script above. AI meeting assistants such as Lynkk do this step 
 
 ---
 
-*Not writing technical meetings? The non-technical version of this, with a free copy-paste
-template, is here: [How to Write Meeting Notes With Action Items (Free Template + Example)](BLOGGER_POST_URL).*
+*Prefer to write the minutes yourself? Here's a free copy-paste version with a filled-in example:
+[Meeting Minutes Template With Action Items (Free) + Example](BLOGGER_POST_URL).*

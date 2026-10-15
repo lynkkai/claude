@@ -1,0 +1,137 @@
+# Keyword Matrix: Hashnode + Blogger Articles
+
+> Built 2026-10-15 from Ubersuggest (US, locId 2840). **Vol** = monthly US searches,
+> **SD** = SEO difficulty (0-100). Search Console was not connected, so there's no GSC column yet.
+> A spreadsheet version is in `keyword-matrix.csv`.
+
+## How the matrix works
+
+Each article targets three tiers of keywords. The high-volume **head** terms go where they carry
+the most weight (title, H1, slug, meta description). The **body** and **long-tail** terms are what
+the article can realistically rank for first. Long-tail rankings build the topical authority that
+eventually lets the post move up for the head term.
+
+| Tier | Role | Where it goes | Realistic outcome |
+|---|---|---|---|
+| **Head** | Relevance signal for the big query | Title, H1, slug, meta, first 100 words, 1 H2, 1 image alt | Page 2-3 at first; page 1 only with links and time |
+| **Body** | Main traffic driver | H2 headings, intro, FAQ questions | Page 1 within 2-4 months if the post earns engagement |
+| **Long-tail** | Quick wins + AI Overview citations | H3s, FAQ answers, table captions, natural sentences | Page 1 within weeks of indexing |
+
+## Anti-spam rules (both platforms)
+
+Both platforms and Google penalize content written for keywords rather than readers:
+
+- **Google spam policies** define keyword stuffing as repeating keywords "unnaturally, or out of
+  context", including blocks of text that just list terms
+  ([Google Search Central](https://developers.google.com/search/docs/essentials/spam-policies)).
+- **Hashnode Code of Conduct** bans "SEO abuse", "misleading links", and "using the platform
+  primarily for self-promotion without contributing to the community". AI-assisted writing is
+  allowed, but "you must review and take responsibility for everything you publish"
+  ([Hashnode Code of Conduct](https://hashnode.com/code-of-conduct)). Breaking it gets the post removed
+  on the first warning, then a 1-month ban, then a permanent ban
+  ([Hashnode enforcement](https://support.hashnode.com/en/articles/6435599-what-happens-when-someone-breaks-the-code-of-conduct)).
+- **Blogger content policy** says "Do not spam", which covers "unwanted promotional or commercial
+  content" and "unwanted repetitive content" ([Blogger content policy](https://www.blogger.com/content.g)).
+
+How the drafts follow those rules:
+
+| Rule | Applied as |
+|---|---|
+| Each head keyword appears as an exact match **once** in title/H1 and once in the body | Elsewhere use variants: "minutes template", "this template", "the notes" |
+| Keyword density stays under ~1% | Checked: see "Density check" at the bottom |
+| No keyword lists, no hidden text, no bolded keywords | Bold is used only for meaning (e.g. "one owner") |
+| Every heading has to make sense to a reader who never heard of SEO | Headings are questions or tasks, not keyword strings |
+| Product mentions: 1 section near the end, under 10% of the article | Lynkk appears in one section + FAQ; the article is fully useful without it |
+| Links: 1-2 to lynkk.ai, descriptive anchors, no exact-match anchor repeated | Blogger: "Lynkk" + "try the Lynkk AI meeting assistant free". Hashnode: "Lynkk" once |
+| Hashnode: value first | Prompt, JSON schema and working Python script are the core of the post |
+
+## Article 1: Blogger
+
+**Title / H1:** Meeting Minutes Template With Action Items (Free) + Example (59 chars)
+**Search description:** Free meeting minutes template with action items, plus a meeting notes template and a filled-in example. Copy it and learn how to write minutes in 6 steps. (154 chars)
+**Permalink:** `/meeting-minutes-template-action-items.html`
+**Labels:** Meeting Minutes, Meeting Notes, Templates, Productivity
+
+| Tier | Keyword | Vol | SD | Placement in the article |
+|---|---|---|---|---|
+| Head | meeting minutes template | 22,200 | 40 | Title, H1, slug, meta, intro, H2 "Free meeting minutes template with action items", image alt |
+| Head | meeting notes template | 22,200 | 49 | Meta, H2 "Meeting notes template (short version for team meetings)" |
+| Head | meeting minutes | 9,900 | 36 | H2 "What are meeting minutes?", intro |
+| Body | meeting minutes sample | 5,400 | 39 | H2 "Meeting minutes example (filled-in sample)" |
+| Body | meeting minutes example | 3,600 | 36 | Title ("+ Example"), same H2 |
+| Body | meeting notes | 3,600 | 29 | H2 "Meeting notes vs meeting minutes" |
+| Body | action items | 2,900 | 40 | Title, H2 "What are action items in a meeting?" |
+| Body | meeting notes minutes | 2,400 | 17 | H2 "Meeting notes vs meeting minutes" + comparison table |
+| Body | minutes of meeting | 1,900 | 31 | Definition paragraph |
+| Long-tail | how to take meeting minutes | 1,000 | 30 | H2 "How to write meeting minutes in 6 steps" + FAQ |
+| Long-tail | how to writing meeting minutes / how to write meeting minutes | 1,000 / 720 | 12 / 30 | Same H2 (exact phrase "how to write meeting minutes") |
+| Long-tail | how to make meeting minutes | 880 | 13 | Step intro sentence |
+| Long-tail | meeting notes template free | 880 | 14 | Template intro sentence |
+| Long-tail | how to take good meeting notes | 880 | 16 | Step 3 tip |
+| Long-tail | meeting minutes template free | 720 | 28 | Template intro sentence |
+| Long-tail | meeting minutes template sample | 480 | 18 | Example H2 caption |
+| Long-tail | meeting minutes template action items | 390 | 31 | H2 (exact) |
+| Long-tail | best meeting notes template | 390 | 19 | Notes template intro |
+| Long-tail | meeting notes format template | 320 | 20 | FAQ "best format" |
+| Long-tail | google doc meeting minutes template | 260 | 16 | "Copy into Google Docs, Word..." sentence |
+| Long-tail | meeting minutes format with action items | 260 | 20 | FAQ "What is the best format for meeting minutes with action items?" |
+| Long-tail | meeting notes with action items | 210 | 12 | Intro + FAQ |
+| Long-tail | what are action items in a meeting | 70 | 31 | H2 (exact question) |
+
+**SERP reality check:** "meeting minutes template" page one is Microsoft Word (DA 90), Canva (DA 93),
+Slack (DA 89) and Zapier (DA 81). A Blogspot post won't beat them soon. The post *will* compete on
+the long-tail rows, where page one includes DA 15-16 sites (obsibrain.com, hinoter.com for
+"meeting notes with action items"). Keep the head term in the title for relevance and click-through,
+and expect the traffic to come from the long tail first.
+
+## Article 2: Hashnode
+
+**Title / H1:** AI Meeting Notes From Any Transcript: The Prompt + a Jira Script
+**SEO title (≤60):** AI Meeting Notes: The Prompt to Summarize Any Transcript (56 chars)
+**Subtitle (Hashnode field):** A copy-paste prompt for ChatGPT, Claude and Copilot that turns a meeting transcript into minutes, decisions and action items, plus 40 lines of Python that file them in Jira.
+**Meta description:** Get AI meeting notes from any transcript: one prompt for ChatGPT, Claude or Copilot that writes minutes and action items, plus a Python script for Jira. (152 chars)
+**Slug:** `ai-meeting-notes-transcript-prompt`
+**Tags (max 5):** `ai`, `llm`, `productivity`, `python`, `jira`
+
+| Tier | Keyword | Vol | SD | Placement in the article |
+|---|---|---|---|---|
+| Head | ai note taker | 27,100 | 48 | H2 "Prompt vs AI note taker: where DIY stops scaling" (1 exact mention) |
+| Head | ai meeting notes taker | 3,600 | 49 | Same section, as a natural variant |
+| Head | ai meeting minutes | 1,600 | 49 | H2 "Get AI meeting minutes as JSON (for automation)" |
+| Head | ai meeting notes | 1,000 | 41 | Title, H1, slug, meta, first sentence |
+| Body | summarize meeting | 590 | 27 | Intro, FAQ |
+| Body | meeting transcript | 590 | 82 | Title, H1 (as "transcript"), body |
+| Body | meeting summary | 390 | 35 | Short answer paragraph |
+| Body | chatgpt meeting notes | 210 | 28 | H3 "ChatGPT meeting notes prompt" |
+| Body | ai meeting summary | 170 | 37 | FAQ |
+| Body | summarize transcript | 170 | 33 | SEO title |
+| Long-tail | chatgpt prompt to summarize meeting transcript | 30 | 23 | H3 + FAQ |
+| Long-tail | copilot prompt to summarize meeting transcript | 20 | 6 | H3 |
+| Long-tail | claude prompt to summarize meeting transcript | autocomplete | 4 | H3 |
+| Long-tail | prompt to summarize meeting transcript | 10 | 11 | H2 "The prompt (works in ChatGPT, Claude, Gemini and Copilot)" + FAQ |
+| Long-tail | meeting transcript to minutes | 10 | 5 | FAQ |
+| Long-tail | chatgpt meeting minutes | 50 | 19 | ChatGPT H3 body |
+| Long-tail | jira meeting notes | 10 | 19 | H2 "From meeting notes to Jira tickets..." |
+
+**SERP reality check:** "ai note taker" is a commercial query dominated by product pages and review
+listicles, so it gets one natural mention, not a target. The realistic Hashnode wins are
+"chatgpt prompt to summarize meeting transcript" (page one includes DA 7 and DA 9 sites) and its
+Claude/Copilot variants, plus the AI Overview / ChatGPT citation for "best prompt to summarize a
+meeting transcript".
+
+## Density check (exact-match counts in final drafts)
+
+Counted on the article body (draft header comment excluded).
+
+| Article | Keyword | Exact count | Words | Density |
+|---|---|---|---|---|
+| Blogger | meeting minutes template | 3 | 1,799 | 0.50% |
+| Blogger | meeting minutes (incl. inside longer phrases) | 16 | 1,799 | 1.78% |
+| Blogger | action items | 20 | 1,799 | 2.22% |
+| Hashnode | ai meeting notes | 2 | 1,717 | 0.35% |
+| Hashnode | ai note taker | 2 | 1,717 | 0.35% |
+
+"Action items" and "meeting minutes" are the subject of the Blogger post, and about a third of
+their uses sit inside the copy-paste templates (section headers like `ACTION ITEMS`), so the
+density reads naturally. Five prose repetitions were already swapped for "tasks", "to-dos" and
+"the minutes". If you edit the post, don't add more exact repeats of either phrase.

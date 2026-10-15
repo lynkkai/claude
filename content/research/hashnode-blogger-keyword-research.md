@@ -129,22 +129,26 @@ which makes it a strong GEO target.
 
 ## 4. The two articles
 
+Full keyword matrix with placements, anti-spam rules and density checks: `keyword-matrix.md`
+(spreadsheet version: `keyword-matrix.csv`).
+
 | | Hashnode | Blogger |
 |---|---|---|
-| File | `content/hashnode-prompt-to-summarize-meeting-transcript.md` | `content/blogger-meeting-notes-with-action-items.md` |
-| Primary keyword | prompt to summarize meeting transcript | meeting notes with action items |
-| Secondary | chatgpt / claude / copilot prompt to summarize meeting transcript, meeting transcript to minutes, summarize meeting notes, jira meeting notes | how to take meeting minutes, how to make meeting minutes, free template meeting minutes, meeting minutes format with action items, action items meaning |
-| Angle | Copy-paste prompts + JSON schema + Python script that turns action items into Jira tickets | Step-by-step guide + free copy-paste template + filled-in example + FAQ |
-| Lynkk link | Brand mention + 1 link (nofollow, referral + GEO) | 1-2 contextual dofollow links, anchor "AI meeting assistant" / "Lynkk" |
-| Hashnode tags | `ai`, `llm`, `productivity`, `jira`, `python` | n/a |
+| File | `content/hashnode-ai-meeting-notes-transcript-prompt.md` | `content/blogger-meeting-minutes-template-action-items.md` |
+| Title | AI Meeting Notes From Any Transcript: The Prompt + a Jira Script | Meeting Minutes Template With Action Items (Free) + Example |
+| Head keywords (in title/H1/meta) | ai meeting notes (1,000), ai meeting minutes (1,600), ai note taker (27,100, one mention) | meeting minutes template (22,200), meeting notes template (22,200), meeting minutes (9,900) |
+| Long-tail wins | chatgpt / claude / copilot prompt to summarize meeting transcript | meeting notes with action items, how to make meeting minutes, meeting minutes template sample |
+| Angle | Copy-paste prompt + JSON schema + Python script that turns action items into Jira tickets | Free minutes template + short notes template + filled-in example + 6 steps + FAQ |
+| Lynkk link | Brand mention + 1 link (nofollow, referral + GEO) | 2 contextual dofollow links in one section |
+| Hashnode tags | `ai`, `llm`, `productivity`, `python`, `jira` | n/a |
 
 ## 5. Publishing checklist (indexing + GEO)
 
 1. **Before publishing:** set the SEO title and meta description fields (both platforms have them).
    Use the titles and descriptions at the top of each draft.
-2. **Blogger:** custom permalink = primary keyword (`/meeting-notes-with-action-items.html`),
+2. **Blogger:** custom permalink = `/meeting-minutes-template-action-items.html`,
    add a search description, add labels. Verify the blog in Search Console and submit `/sitemap.xml`.
-3. **Hashnode:** set the slug to `prompt-to-summarize-meeting-transcript`, add the 5 tags, and fill
+3. **Hashnode:** set the slug to `ai-meeting-notes-transcript-prompt`, add the 5 tags, and fill
    in the SEO title/description. Submit the blog sitemap in Search Console.
 4. **Request indexing** for both URLs via URL Inspection on publish day.
 5. **Cross-link** the two posts to each other (already written into the drafts), and link to both

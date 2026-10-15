@@ -1,0 +1,42 @@
+article,tier,keyword,us_monthly_volume,seo_difficulty,placement
+Blogger,Head,meeting minutes template,22200,40,"Title, H1, slug, meta, intro, H2, image alt"
+Blogger,Head,meeting notes template,22200,49,"Meta, H2 (short template)"
+Blogger,Head,meeting minutes,9900,36,"H2 What are meeting minutes?, intro"
+Blogger,Body,meeting minutes sample,5400,39,H2 example (filled-in sample)
+Blogger,Body,meeting minutes example,3600,36,"Title (+ Example), H2 example"
+Blogger,Body,meeting notes,3600,29,H2 notes vs minutes
+Blogger,Body,action items,2900,40,"Title, H2 What are action items in a meeting?"
+Blogger,Body,meeting notes minutes,2400,17,H2 notes vs minutes + table
+Blogger,Body,minutes of meeting,1900,31,Definition paragraph
+Blogger,Long-tail,how to take meeting minutes,1000,30,H2 6 steps + FAQ
+Blogger,Long-tail,how to writing meeting minutes,1000,12,H2 How to write meeting minutes in 6 steps
+Blogger,Long-tail,how to write meeting minutes,720,30,H2 How to write meeting minutes in 6 steps
+Blogger,Long-tail,how to make meeting minutes,880,13,Step intro sentence
+Blogger,Long-tail,meeting notes template free,880,14,Template intro
+Blogger,Long-tail,how to take good meeting notes,880,16,Step 3 + FAQ
+Blogger,Long-tail,meeting minutes template free,720,28,Template intro
+Blogger,Long-tail,meeting minutes template sample,480,18,Example H2
+Blogger,Long-tail,meeting minutes template action items,390,31,H2 (exact)
+Blogger,Long-tail,best meeting notes template,390,19,Notes template intro
+Blogger,Long-tail,meeting notes format template,320,20,FAQ best format
+Blogger,Long-tail,google doc meeting minutes template,260,16,Template intro sentence
+Blogger,Long-tail,meeting minutes format with action items,260,20,FAQ (exact question)
+Blogger,Long-tail,meeting notes with action items,210,12,Intro + FAQ
+Blogger,Long-tail,what are action items in a meeting,70,31,H2 (exact question)
+Hashnode,Head,ai note taker,27100,48,H2 Prompt vs AI note taker + 1 body mention
+Hashnode,Head,ai meeting notes taker,3600,49,Same section (variant)
+Hashnode,Head,ai meeting minutes,1600,49,H2 Get AI meeting minutes as JSON
+Hashnode,Head,ai meeting notes,1000,41,"Title, H1, slug, meta, first sentence"
+Hashnode,Body,summarize meeting,590,27,"Intro, FAQ"
+Hashnode,Body,meeting transcript,590,82,"Title, H1, body"
+Hashnode,Body,meeting summary,390,35,Short answer paragraph
+Hashnode,Body,chatgpt meeting notes,210,28,H3 ChatGPT meeting notes prompt
+Hashnode,Body,ai meeting summary,170,37,FAQ
+Hashnode,Body,summarize transcript,170,33,SEO title
+Hashnode,Long-tail,chatgpt meeting minutes,50,19,ChatGPT H3 body
+Hashnode,Long-tail,chatgpt prompt to summarize meeting transcript,30,23,H3 + FAQ
+Hashnode,Long-tail,copilot prompt to summarize meeting transcript,20,6,H3
+Hashnode,Long-tail,claude prompt to summarize meeting transcript,0,4,H3 (autocomplete only)
+Hashnode,Long-tail,prompt to summarize meeting transcript,10,11,H2 The prompt + FAQ
+Hashnode,Long-tail,meeting transcript to minutes,10,5,FAQ
+Hashnode,Long-tail,jira meeting notes,10,19,H2 From meeting notes to Jira tickets
