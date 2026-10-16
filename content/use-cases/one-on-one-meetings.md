@@ -16,23 +16,27 @@ and "1 on 1 meeting" (SD 24), both easy to rank for.
 
 ## 2. Page design
 
-7 blocks, about 450 words. One centred column, white background, light grey cards. Columns stack on mobile.
+9 blocks, about 650 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
 H1 / 2-line intro / [Start for free] [Download for Mac] / Online or in the room || SAMPLE 1:1 CARD / Wins / Blockers / Action items
-# 2. HOW IT WORKS
+# 2. IN SIMPLE WORDS
+WHAT IT IS / 2-3 simple sentences || WHO IT'S FOR / 3 short lines
+# 3. HOW IT WORKS
 BEFORE / What's still open || DURING / Just talk || AFTER / Note and tasks
-# 3. SAMPLE NOTE
+# 4. SAMPLE NOTE
 SAMPLE NOTE / Wins / Blockers / Action items with owners / Open question
-# 4. FEATURES (2 x 2 cards)
+# 5. FEATURES (2 x 2 cards)
 Remember every 1:1 || Action items with owners
-1:1 note shape || Private by default
-# 5. PRIVACY + PERMISSION (one line)
+1:1 note format || Private by default
+# 6. BEFORE AND AFTER
+WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
+# 7. PRIVACY + PERMISSION (one line)
 Ask before you record || Private notes, revocable links
-# 6. FAQ (4 questions)
+# 8. FAQ (4 questions)
 Question / Question / Question / Question
-# 7. FINAL CTA
+# 9. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -52,7 +56,18 @@ with owners, and tells you what's still open before the next one.
 
 [Start for free] [Download for Mac]
 
-### Block 2. How it works
+### Block 2. In simple words
+
+## What is a 1 on 1 meeting?
+
+A 1 on 1 meeting is a regular private talk between a manager and one team member. You talk about wins, problems and goals. Lynkk records it, writes the action items, and reminds you before the next one what you both agreed last time.
+
+**Who it's for**
+- First-time managers
+- Managers with many people on their team
+- Founders who run 1:1s with their team
+
+### Block 3. How it works
 
 ## Better 1:1s, before, during and after
 
@@ -62,9 +77,9 @@ with owners, and tells you what's still open before the next one.
 
 **After: note and tasks.** Wins, blockers, decisions and action items with owners and dates.
 
-*Ask Lynkk and the 1:1 note shape are part of Pro.*
+*Ask Lynkk and the 1:1 note format are part of Pro.*
 
-### Block 3. Sample note
+### Block 4. Sample note
 
 ## See what one 1:1 turns into
 
@@ -80,24 +95,36 @@ with owners, and tells you what's still open before the next one.
 
 New to 1:1s? Read our guide to the [one on one meeting](/blog/one-on-one-meeting).
 
-### Block 4. Features
+### Block 5. Features
 
 ## AI for managers who have back-to-back 1:1s
 
-**Remember every 1:1**: ask across months of 1:1s with one person, with citations. Pro.
+**Remember every 1:1**: ask across months of 1:1s with one person, and see where each answer came from. Pro.
 
 **Action items with owners**: every commitment lands on the Tasks board with a due date.
 
-**1:1 note shape**: rewrites the note as a 1:1, so every meeting reads the same way. Pro.
+**1:1 note format**: rewrites the note as a 1:1, so every meeting reads the same way. Pro.
 
 **Private by default**: 1:1 notes stay yours unless you share them.
 
-### Block 5. Privacy and permission
+### Block 6. Before and after
+
+## 1:1s, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You forget what you agreed last month | You ask Lynkk before the meeting |
+| Promises get lost | Action items have owners and dates |
+| You type and miss how your team member feels | You listen |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams and the Mac app.
+
+### Block 7. Privacy and permission
 
 Ask your report before you record, and tell them who can see the note. Notes are private by default, share links can be
 revoked, and nothing is used to train models. [Security](/security)
 
-### Block 6. FAQ
+### Block 8. FAQ
 
 ## Questions about AI for 1:1 meetings
 
@@ -115,9 +142,9 @@ Yes, with the Mac app or the web app.
 
 **Is it free?**
 
-Yes, there's a free plan with no credit card. The 1:1 shape and Ask Lynkk are part of Pro ($15 a month).
+Yes, there's a free plan with no credit card. The 1:1 note format and Ask Lynkk are part of Pro ($15 a month).
 
-### Block 7. Final CTA
+### Block 9. Final CTA
 
 ## Record your next 1:1. Walk into the one after knowing what's open.
 

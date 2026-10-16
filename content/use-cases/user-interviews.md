@@ -18,23 +18,27 @@ mostly people looking for the UserInterviews.com platform.
 
 ## 2. Page design
 
-7 blocks, about 500 words. One centred column, white background, light grey cards. Columns stack on mobile.
+9 blocks, about 690 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
 H1 / 2-line intro / [Start for free] [Download for Mac] / On a call or in the room || SAMPLE TRANSCRIPT CARD / Speaker labels / Key takeaway / Revoke link
-# 2. HOW IT WORKS
+# 2. IN SIMPLE WORDS
+WHAT IT IS / 2-3 simple sentences || WHO IT'S FOR / 3 short lines
+# 3. HOW IT WORKS
 RECORD / Call or in person || READ / Transcript and takeaways || ASK / Across every interview
-# 3. SAMPLE NOTE
+# 4. SAMPLE NOTE
 SAMPLE NOTE / Transcript excerpt / Key takeaway / Open question
-# 4. FEATURES (2 x 2 cards)
+# 5. FEATURES (2 x 2 cards)
 Every speaker labelled || Ask across interviews
 In person, even offline || Share and revoke
-# 5. PRIVACY (one line of 4 badges)
+# 6. BEFORE AND AFTER
+WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
+# 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Consent flow
-# 6. FAQ (4 questions)
+# 8. FAQ (4 questions)
 Question / Question / Question / Question
-# 7. FINAL CTA
+# 9. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -54,7 +58,18 @@ Teams or in the room, then gives you the transcript with speaker labels, the key
 
 [Start for free] [Download for Mac]
 
-### Block 2. How it works
+### Block 2. In simple words
+
+## What is interview transcription?
+
+Interview transcription means turning a recorded interview into written text. Lynkk does it for you: it records the interview, writes every word, and shows who said what. It also pulls out the main points, so you don't have to read the whole thing.
+
+**Who it's for**
+- Product managers and designers who talk to users
+- Researchers running interview studies
+- Founders doing customer discovery
+
+### Block 3. How it works
 
 ## Transcribe interviews without taking notes
 
@@ -62,11 +77,11 @@ Teams or in the room, then gives you the transcript with speaker labels, the key
 
 **Read: transcript and takeaways.** Every word with speaker labels, plus key takeaways with timestamps that play the moment back.
 
-**Ask: across every interview.** "What did people say about onboarding?" Answers cite the interviews they came from.
+**Ask: across every interview.** "What did people say about onboarding?" Each answer shows which interview it came from.
 
-*Ask Lynkk and the Customer Interview note shape are part of Pro.*
+*Ask Lynkk and the Customer Interview note format are part of Pro.*
 
-### Block 3. Sample note
+### Block 4. Sample note
 
 ## See what one interview turns into
 
@@ -81,24 +96,36 @@ Teams or in the room, then gives you the transcript with speaker labels, the key
 
 **Open question:** Which onboarding step loses the most people?
 
-### Block 4. Features
+### Block 5. Features
 
 ## Qualitative research transcription, ready to use
 
 **Every speaker labelled**: the interviewer and the participant stay apart, so quotes are always attributed.
 
-**Ask across interviews**: find patterns across a whole study in one question, with citations.
+**Ask across interviews**: find patterns across a whole study in one question, and see where each answer came from.
 
 **In person, even offline**: the Mac app records the room and uploads when you're back online.
 
 **Share and revoke**: share one interview with a link, and turn it off when the study ends.
 
-### Block 5. Privacy
+### Block 6. Before and after
+
+## User interviews, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You replay the recording to find one quote | You click the main point and hear it |
+| You mix up who said what | Every speaker is labelled |
+| What you learned stays in one notebook | You share the note with a link |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams, the Chrome extension, the Mac app and the web app.
+
+### Block 7. Privacy
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
 
-### Block 6. FAQ
+### Block 8. FAQ
 
 ## Questions about interview transcription
 
@@ -120,7 +147,7 @@ can ask across all of them.
 
 Yes, there's a free plan with no credit card. Pro is $15 a month.
 
-### Block 7. Final CTA
+### Block 9. Final CTA
 
 ## Record your next interview. Keep your eyes on the person.
 

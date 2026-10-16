@@ -20,23 +20,27 @@ rank). Let `/blog/daily-standup-meeting` stay the main page for them and link it
 
 ## 2. Page design
 
-7 blocks, about 500 words. One centred column, white background, light grey cards. Columns stack on mobile.
+9 blocks, about 680 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
 H1 / 2-line intro / [Start for free] [Download for Mac] / Meet · Zoom · Teams, from your calendar || SAMPLE STANDUP CARD / Yesterday / Today / Blockers / Added to Tasks board
-# 2. HOW IT WORKS
+# 2. IN SIMPLE WORDS
+WHAT IT IS / 2-3 simple sentences || WHO IT'S FOR / 3 short lines
+# 3. HOW IT WORKS
 JOINS / From your calendar || WRITES / Yesterday, today, blockers || TRACKS / Tasks board and Jira
-# 3. SAMPLE NOTE
+# 4. SAMPLE NOTE
 SAMPLE NOTE / Yesterday / Today / Blockers / Action item with owner
-# 4. FEATURES (2 x 2 cards)
+# 5. FEATURES (2 x 2 cards)
 Joins every day || Action items with owners
 Standups in the room || Ask in Slack
-# 5. PRIVACY (one line of 4 badges)
+# 6. BEFORE AND AFTER
+WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
+# 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Share and revoke
-# 6. FAQ (4 questions)
+# 8. FAQ (4 questions)
 Question / Question / Question / Question
-# 7. FINAL CTA
+# 9. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -56,7 +60,18 @@ Google Meet, Zoom or Microsoft Teams, records it, and puts every action item on 
 
 [Start for free] [Download for Mac]
 
-### Block 2. How it works
+### Block 2. In simple words
+
+## What is a standup meeting?
+
+A standup is a short daily team meeting. Each person shares what they did yesterday, what they'll do today, and what is blocking them. Lynkk joins the meeting, writes this down, and turns each task into an action item with an owner.
+
+**Who it's for**
+- Project managers
+- Engineering and product teams
+- Team leads who can't join every standup
+
+### Block 3. How it works
 
 ## Your daily standup meeting, without anyone taking notes
 
@@ -66,9 +81,9 @@ Google Meet, Zoom or Microsoft Teams, records it, and puts every action item on 
 
 **Tracks: Tasks board and Jira.** Action items land on the Tasks board with owners. Send them to Jira when you're ready.
 
-*The Daily Stand-up note shape is part of Pro.*
+*The Daily Stand-up note format is part of Pro.*
 
-### Block 3. Sample note
+### Block 4. Sample note
 
 ## See what one standup turns into
 
@@ -84,7 +99,7 @@ Google Meet, Zoom or Microsoft Teams, records it, and puts every action item on 
 
 New to standups? Read our guide to the [daily standup meeting](/blog/daily-standup-meeting).
 
-### Block 4. Features
+### Block 5. Features
 
 ## Built for teams that meet every day
 
@@ -96,12 +111,24 @@ New to standups? Read our guide to the [daily standup meeting](/blog/daily-stand
 
 **Ask in Slack**: "What did we decide about the release?" Lynkk for Slack answers from your notes.
 
-### Block 5. Privacy
+### Block 6. Before and after
+
+## Standups, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| Nobody writes the standup down | Lynkk writes it every day |
+| Blockers are forgotten by Thursday | Blockers are listed with the time they were raised |
+| People who missed it ask around | They read the note |
+
+**Works with:** Google Meet, Zoom, Microsoft Teams, Google Calendar, Jira and Slack.
+
+### Block 7. Privacy
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Share a note by link and revoke it anytime. [Security](/security)
 
-### Block 6. FAQ
+### Block 8. FAQ
 
 ## Questions about AI standup notes
 
@@ -122,7 +149,7 @@ Yes. Any recurring meeting on your calendar works, and in the room you record wi
 Lynkk doesn't replace your project tool. It captures what was said in the meeting and turns it into action items you can
 send to Jira.
 
-### Block 7. Final CTA
+### Block 9. Final CTA
 
 ## Record tomorrow's standup. Read the note after.
 

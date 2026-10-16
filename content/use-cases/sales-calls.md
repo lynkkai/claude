@@ -17,23 +17,27 @@ Separate blog post later: "follow up email after sales call" (8,100 US / 480 Ind
 
 ## 2. Page design
 
-7 blocks, about 550 words. One centred column, white background, light grey cards. Columns stack on mobile.
+9 blocks, about 670 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
 H1 / 2-line intro / [Start for free] [Download for Mac] / Zoom · Meet · Teams · In person || SAMPLE NOTE CARD / Next steps / Decision / Open question
-# 2. HOW IT WORKS
+# 2. IN SIMPLE WORDS
+WHAT IT IS / 2-3 simple sentences || WHO IT'S FOR / 3 short lines
+# 3. HOW IT WORKS
 BEFORE / Start ahead || DURING / Answers in the call || AFTER / Note is written
-# 3. SAMPLE NOTE
+# 4. SAMPLE NOTE
 SAMPLE NOTE / Next steps / Decision / Open question / Link: follow-up email examples
-# 4. FEATURES (2 x 2 cards)
+# 5. FEATURES (2 x 2 cards)
 Next steps with owners || Ask across calls
 Record in person, offline || Send to Jira
-# 5. PRIVACY (one line of 4 badges)
+# 6. BEFORE AND AFTER
+WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
+# 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Consent flow
-# 6. FAQ (4 questions)
+# 8. FAQ (4 questions)
 Question / Question / Question / Question
-# 7. FINAL CTA
+# 9. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -53,7 +57,18 @@ owners and dates, the decisions and the open questions. No call recording softwa
 
 [Start for free] [Download for Mac]
 
-### Block 2. How it works
+### Block 2. In simple words
+
+## What does Lynkk do on a sales call?
+
+Lynkk listens to your sales call and writes the notes for you. After the call you get a short list: what you promised, who will do it, and by when. You don't need to type anything during the call.
+
+**Who it's for**
+- Sales reps who run many calls a day
+- Founders who do their own selling
+- Account managers who need to remember every client
+
+### Block 3. How it works
 
 ## Your AI sales assistant, before, during and after the call
 
@@ -65,7 +80,7 @@ owners and dates, the decisions and the open questions. No call recording softwa
 
 *Ask Lynkk and Cue are part of Pro.*
 
-### Block 3. Sample note
+### Block 4. Sample note
 
 ## See what one sales call turns into
 
@@ -81,24 +96,36 @@ owners and dates, the decisions and the open questions. No call recording softwa
 
 Writing the follow-up? See [follow-up email examples after a sales call](/blog/follow-up-email-after-sales-call).
 
-### Block 4. Features
+### Block 5. Features
 
 ## Conversation intelligence for every sales call
 
 **Next steps with owners**: every action item gets an owner, a due date and a priority.
 
-**Ask across calls**: "What did Acme say about pricing?" Answers cite the exact call.
+**Ask across calls**: "What did Acme say about pricing?" Each answer shows which call it came from.
 
 **Record in person, even offline**: use the Mac app or web app. It uploads when you're back online.
 
 **Send to Jira**: create one Jira issue per action item, from the note.
 
-### Block 5. Privacy
+### Block 6. Before and after
+
+## Sales calls, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You type notes while the buyer talks | You listen, and Lynkk writes the notes |
+| Next steps get lost after the call | Every next step has an owner and a date |
+| You dig through old emails before each call | You ask Lynkk what's still open |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams, Webex, Google Calendar and Jira.
+
+### Block 7. Privacy
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
 
-### Block 6. FAQ
+### Block 8. FAQ
 
 ## Questions about AI for sales calls
 
@@ -119,7 +146,7 @@ add CRM sync and forecasting.
 
 Yes, there's a free plan with no credit card. Pro is $15 a month.
 
-### Block 7. Final CTA
+### Block 9. Final CTA
 
 ## Record your next sales call. Read the next steps after.
 

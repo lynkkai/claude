@@ -16,23 +16,27 @@ stays with `/use-cases/user-interviews`, so the two pages don't compete.
 
 ## 2. Page design
 
-7 blocks, about 450 words. One centred column, white background, light grey cards. Columns stack on mobile.
+9 blocks, about 660 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
 H1 / 2-line intro / [Start for free] [Download for Mac] / Calls, focus groups, client meetings || SAMPLE ANSWER CARD / Question across 12 calls / Answer with citations
-# 2. HOW IT WORKS
+# 2. IN SIMPLE WORDS
+WHAT IT IS / 2-3 simple sentences || WHO IT'S FOR / 3 short lines
+# 3. HOW IT WORKS
 RECORD / Every customer conversation || ASK / Across all of them || USE / Quotes with timestamps
-# 3. SAMPLE ANSWER
-SAMPLE ANSWER / Question / Answer / Cited calls
-# 4. FEATURES (2 x 2 cards)
+# 4. SAMPLE ANSWER
+SAMPLE ANSWER / Question / Answer / Where it came from
+# 5. FEATURES (2 x 2 cards)
 Ask across every call || Focus groups, every speaker
 Exact quotes, timestamped || Share and revoke
-# 5. PRIVACY (one line of 4 badges)
+# 6. BEFORE AND AFTER
+WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
+# 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Consent flow
-# 6. FAQ (4 questions)
+# 8. FAQ (4 questions)
 Question / Question / Question / Question
-# 7. FINAL CTA
+# 9. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -52,7 +56,18 @@ notes, and lets you ask what customers said across all of them, with the exact q
 
 [Start for free] [Download for Mac]
 
-### Block 2. How it works
+### Block 2. In simple words
+
+## What is voice of customer?
+
+Voice of customer means what your customers say, in their own words: what they like, what bothers them, and why they buy. Lynkk records your customer calls and focus groups, so your marketing team can find those exact words later and use them in your messaging.
+
+**Who it's for**
+- Marketing and product marketing teams
+- Agencies running research for clients
+- Founders writing their own website copy
+
+### Block 3. How it works
 
 ## From customer conversations to voice of customer insight
 
@@ -60,11 +75,11 @@ notes, and lets you ask what customers said across all of them, with the exact q
 
 **Ask: across all of them.** "What words do customers use for our product?" Answers come from your notes.
 
-**Use: quotes with timestamps.** Every answer cites the call it came from, so you can hear it again before you quote it.
+**Use: quotes with timestamps.** Every answer shows the call it came from, so you can hear it again before you quote it.
 
 *Ask Lynkk is part of Pro.*
 
-### Block 3. Sample answer
+### Block 4. Sample answer
 
 ## See what one question across 12 calls looks like
 
@@ -72,9 +87,9 @@ notes, and lets you ask what customers said across all of them, with the exact q
 
 **Answer:** Most mentioned the time it takes to move their old data, and three asked about training for new staff.
 
-**Cited:** Call with Northwind, 14:05 · Focus group, Pune, 22:40 · Call with Acme, 09:12
+**Comes from:** Call with Northwind, 14:05 · Focus group, Pune, 22:40 · Call with Acme, 09:12
 
-### Block 4. Features
+### Block 5. Features
 
 ## Voice of customer research, without the busywork
 
@@ -86,12 +101,24 @@ notes, and lets you ask what customers said across all of them, with the exact q
 
 **Share and revoke**: share one note with the team by link, and turn the link off later.
 
-### Block 5. Privacy
+### Block 6. Before and after
+
+## Customer research, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| Customer words live in scattered notes | Every call is recorded and easy to search |
+| You guess what customers care about | You ask Lynkk and see real quotes |
+| Quotes get changed when people retell them | You hear the exact words before you use them |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams, and the Mac app for focus groups in the room.
+
+### Block 7. Privacy
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
 
-### Block 6. FAQ
+### Block 8. FAQ
 
 ## Questions about AI for customer research
 
@@ -101,7 +128,7 @@ Yes. Record the room with the Mac app or the web app, and the transcript labels 
 
 **Does Lynkk tag themes automatically?**
 
-No. There's no tagging board. On Pro, you ask questions across your notes and get answers with citations.
+No. There's no tagging board. On Pro, you ask questions across your notes and see where each answer came from.
 
 **Can I use customer quotes in marketing?**
 
@@ -111,7 +138,7 @@ Ask the customer first. Lynkk gives you the exact words and the moment they were
 
 Yes, there's a free plan with no credit card. Ask Lynkk across calls is part of Pro ($15 a month).
 
-### Block 7. Final CTA
+### Block 9. Final CTA
 
 ## Record your next customer call. Ask what customers really said.
 

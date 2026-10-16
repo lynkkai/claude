@@ -31,6 +31,15 @@ owners and dates, the decisions and the open questions. No call recording softwa
 
 Buttons: Start for free · Download for Mac
 
+#### What does Lynkk do on a sales call?
+
+Lynkk listens to your sales call and writes the notes for you. After the call you get a short list: what you promised, who will do it, and by when. You don't need to type anything during the call.
+
+**Who it's for**
+- Sales reps who run many calls a day
+- Founders who do their own selling
+- Account managers who need to remember every client
+
 #### Your AI sales assistant, before, during and after the call
 
 **Before: start ahead.** Ask Lynkk what's still open with an account and get the answer from past calls.
@@ -57,11 +66,21 @@ Buttons: Start for free · Download for Mac
 
 **Next steps with owners**: every action item gets an owner, a due date and a priority.
 
-**Ask across calls**: "What did Acme say about pricing?" Answers cite the exact call.
+**Ask across calls**: "What did Acme say about pricing?" Each answer shows which call it came from.
 
 **Record in person, even offline**: use the Mac app or web app. It uploads when you're back online.
 
 **Send to Jira**: create one Jira issue per action item, from the note.
+
+#### Sales calls, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You type notes while the buyer talks | You listen, and Lynkk writes the notes |
+| Next steps get lost after the call | Every next step has an owner and a date |
+| You dig through old emails before each call | You ask Lynkk what's still open |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams, Webex, Google Calendar and Jira.
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
@@ -107,15 +126,24 @@ Teams or in the room, then gives you the transcript with speaker labels, the key
 
 Buttons: Start for free · Download for Mac
 
+#### What is interview transcription?
+
+Interview transcription means turning a recorded interview into written text. Lynkk does it for you: it records the interview, writes every word, and shows who said what. It also pulls out the main points, so you don't have to read the whole thing.
+
+**Who it's for**
+- Product managers and designers who talk to users
+- Researchers running interview studies
+- Founders doing customer discovery
+
 #### Transcribe interviews without taking notes
 
 **Record: on a call or in person.** Use the Mac app, Chrome extension or web app. Nothing joins the call unless you send the bot.
 
 **Read: transcript and takeaways.** Every word with speaker labels, plus key takeaways with timestamps that play the moment back.
 
-**Ask: across every interview.** "What did people say about onboarding?" Answers cite the interviews they came from.
+**Ask: across every interview.** "What did people say about onboarding?" Each answer shows which interview it came from.
 
-*Ask Lynkk and the Customer Interview note shape are part of Pro.*
+*Ask Lynkk and the Customer Interview note format are part of Pro.*
 
 #### See what one interview turns into
 
@@ -134,11 +162,21 @@ Buttons: Start for free · Download for Mac
 
 **Every speaker labelled**: the interviewer and the participant stay apart, so quotes are always attributed.
 
-**Ask across interviews**: find patterns across a whole study in one question, with citations.
+**Ask across interviews**: find patterns across a whole study in one question, and see where each answer came from.
 
 **In person, even offline**: the Mac app records the room and uploads when you're back online.
 
 **Share and revoke**: share one interview with a link, and turn it off when the study ends.
+
+#### User interviews, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You replay the recording to find one quote | You click the main point and hear it |
+| You mix up who said what | Every speaker is labelled |
+| What you learned stays in one notebook | You share the note with a link |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams, the Chrome extension, the Mac app and the web app.
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
@@ -185,6 +223,15 @@ Google Meet, Zoom or Microsoft Teams, records it, and puts every action item on 
 
 Buttons: Start for free · Download for Mac
 
+#### What is a standup meeting?
+
+A standup is a short daily team meeting. Each person shares what they did yesterday, what they'll do today, and what is blocking them. Lynkk joins the meeting, writes this down, and turns each task into an action item with an owner.
+
+**Who it's for**
+- Project managers
+- Engineering and product teams
+- Team leads who can't join every standup
+
 #### Your daily standup meeting, without anyone taking notes
 
 **Joins: from your calendar.** Turn on auto-join and the meeting bot goes to the recurring standup every day.
@@ -193,7 +240,7 @@ Buttons: Start for free · Download for Mac
 
 **Tracks: Tasks board and Jira.** Action items land on the Tasks board with owners. Send them to Jira when you're ready.
 
-*The Daily Stand-up note shape is part of Pro.*
+*The Daily Stand-up note format is part of Pro.*
 
 #### See what one standup turns into
 
@@ -218,6 +265,16 @@ New to standups? Read our guide to the [daily standup meeting](/blog/daily-stand
 **Standups in the room**: record the office standup with the Mac app or the web app.
 
 **Ask in Slack**: "What did we decide about the release?" Lynkk for Slack answers from your notes.
+
+#### Standups, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| Nobody writes the standup down | Lynkk writes it every day |
+| Blockers are forgotten by Thursday | Blockers are listed with the time they were raised |
+| People who missed it ask around | They read the note |
+
+**Works with:** Google Meet, Zoom, Microsoft Teams, Google Calendar, Jira and Slack.
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Share a note by link and revoke it anytime. [Security](/security)
@@ -263,6 +320,15 @@ interviews on your Mac, with no connection, and writes the note once you're back
 
 Buttons: Start for free · Download for Mac
 
+#### What is a field interview?
+
+A field interview is a conversation you record out in the world: on a farm, in a shop, or in someone's home. These places often have no internet, and people may switch between languages. Lynkk records on your Mac without internet and writes the note when you're back online.
+
+**Who it's for**
+- Researchers and NGOs doing field studies
+- Journalists reporting on the ground
+- Market research teams visiting towns and villages
+
 #### A voice recorder for Mac that turns interviews into notes
 
 **Record: no signal needed.** The Mac app records the room and saves the recording on your Mac.
@@ -291,7 +357,17 @@ Buttons: Start for free · Download for Mac
 
 **Every speaker labelled**: you and the person you interview stay apart in the transcript.
 
-**Ask across the trip**: "What did farmers say about water?" Answers cite every interview from the trip. Pro.
+**Ask across the trip**: "What did farmers say about water?" Each answer shows which interview it came from. Pro.
+
+#### Field interviews, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| No signal means no transcript | Record offline, and it uploads later |
+| Hindi and English mixed in one sentence is hard to transcribe | Lynkk handles Hinglish |
+| Hours of audio you never replay | Main points and open questions, ready to read |
+
+**Works with:** The Mac app (records offline) and the web app.
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Share a note by link and revoke it anytime. [Security](/security)
@@ -337,6 +413,15 @@ with Lynkk and get the key takeaways with timestamps, the topics and the full tr
 
 Buttons: Start for free · Download for Mac
 
+#### What is a lecture recorder?
+
+A lecture recorder records your class so you can listen again later. Lynkk goes one step further: it also writes your lecture notes. You get the main points, the topics and every word, and you can click any point to hear that part again.
+
+**Who it's for**
+- College and university students
+- Students learning in a second language
+- Anyone taking a long course or training
+
 #### Record lectures, then read the note
 
 **Record: in the room.** Use the Mac app or the web app. Each recording runs up to 2 hours.
@@ -367,6 +452,16 @@ Buttons: Start for free · Download for Mac
 **Ask about a lecture**: ask a question about one lecture, or across all of them with Ask Lynkk. Pro.
 
 **Up to 2 hours**: long class? Start a second recording after the break.
+
+#### Lectures, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You write fast and miss the explanation | You listen, and Lynkk writes |
+| You can't find one part in a 90 minute recording | Click the main point and jump to that minute |
+| Revision starts from messy notes | Revision starts from a list of topics |
+
+**Works with:** The Mac app and the web app, in any browser.
 
 Ask your lecturer before you record, even if the notes are only for you. Many schools have their own rules about
 recording classes, so check those too, especially before you share a recording.
@@ -411,13 +506,22 @@ notes, and lets you ask what customers said across all of them, with the exact q
 
 Buttons: Start for free · Download for Mac
 
+#### What is voice of customer?
+
+Voice of customer means what your customers say, in their own words: what they like, what bothers them, and why they buy. Lynkk records your customer calls and focus groups, so your marketing team can find those exact words later and use them in your messaging.
+
+**Who it's for**
+- Marketing and product marketing teams
+- Agencies running research for clients
+- Founders writing their own website copy
+
 #### From customer conversations to voice of customer insight
 
 **Record: every customer conversation.** Calls on Zoom, Google Meet or Microsoft Teams, and focus groups in the room.
 
 **Ask: across all of them.** "What words do customers use for our product?" Answers come from your notes.
 
-**Use: quotes with timestamps.** Every answer cites the call it came from, so you can hear it again before you quote it.
+**Use: quotes with timestamps.** Every answer shows the call it came from, so you can hear it again before you quote it.
 
 *Ask Lynkk is part of Pro.*
 
@@ -427,7 +531,7 @@ Buttons: Start for free · Download for Mac
 
 **Answer:** Most mentioned the time it takes to move their old data, and three asked about training for new staff.
 
-**Cited:** Call with Northwind, 14:05 · Focus group, Pune, 22:40 · Call with Acme, 09:12
+**Comes from:** Call with Northwind, 14:05 · Focus group, Pune, 22:40 · Call with Acme, 09:12
 
 #### Voice of customer research, without the busywork
 
@@ -438,6 +542,16 @@ Buttons: Start for free · Download for Mac
 **Exact quotes, timestamped**: click a time and hear the customer say it, before it goes in a deck.
 
 **Share and revoke**: share one note with the team by link, and turn the link off later.
+
+#### Customer research, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| Customer words live in scattered notes | Every call is recorded and easy to search |
+| You guess what customers care about | You ask Lynkk and see real quotes |
+| Quotes get changed when people retell them | You hear the exact words before you use them |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams, and the Mac app for focus groups in the room.
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
@@ -450,7 +564,7 @@ Yes. Record the room with the Mac app or the web app, and the transcript labels 
 
 **Does Lynkk tag themes automatically?**
 
-No. There's no tagging board. On Pro, you ask questions across your notes and get answers with citations.
+No. There's no tagging board. On Pro, you ask questions across your notes and see where each answer came from.
 
 **Can I use customer quotes in marketing?**
 
@@ -482,6 +596,15 @@ your office, and writes the key facts, the next steps and the full transcript.
 
 Buttons: Start for free · Download for Mac
 
+#### How do lawyers use AI in client meetings?
+
+In a client meeting, a lawyer needs to listen closely and remember every fact. With the client's consent, Lynkk records the meeting and writes the key facts, the documents to collect and the next steps. Your notes stay private and are never used to train AI.
+
+**Who it's for**
+- Solo lawyers and small firms
+- Lawyers who meet clients in their office
+- Legal teams that want all meeting notes in one place
+
 #### Client meetings, written down for you
 
 **Record: with the client's consent.** Zoom, Google Meet, Microsoft Teams, or in the room with the Mac app.
@@ -508,7 +631,17 @@ Buttons: Start for free · Download for Mac
 
 **In-person consultations**: record the room with the Mac app, even with no signal.
 
-**Ask across the matter**: answers cite the exact meeting and moment. Pro.
+**Ask across the matter**: each answer shows the meeting and moment it came from. Pro.
+
+#### Client meetings, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You write while the client talks | You listen, and Lynkk writes |
+| Facts get lost between meetings | You ask Lynkk what the client said |
+| Notes are stored in many places | Notes are kept in the data region you choose |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams, and the Mac app for meetings in your office.
 
 AES-256 encryption · Never used for training · Audio retention you control (keep, delete after 90 or 30 days, or
 delete after upload) · Consent flow for recording. [Security](/security)
@@ -554,6 +687,15 @@ with owners, and tells you what's still open before the next one.
 
 Buttons: Start for free · Download for Mac
 
+#### What is a 1 on 1 meeting?
+
+A 1 on 1 meeting is a regular private talk between a manager and one team member. You talk about wins, problems and goals. Lynkk records it, writes the action items, and reminds you before the next one what you both agreed last time.
+
+**Who it's for**
+- First-time managers
+- Managers with many people on their team
+- Founders who run 1:1s with their team
+
 #### Better 1:1s, before, during and after
 
 **Before: what's still open.** Ask Lynkk "What did Priya and I agree last month?" and get the answer with a link to the moment.
@@ -562,7 +704,7 @@ Buttons: Start for free · Download for Mac
 
 **After: note and tasks.** Wins, blockers, decisions and action items with owners and dates.
 
-*Ask Lynkk and the 1:1 note shape are part of Pro.*
+*Ask Lynkk and the 1:1 note format are part of Pro.*
 
 #### See what one 1:1 turns into
 
@@ -580,13 +722,23 @@ New to 1:1s? Read our guide to the [one on one meeting](/blog/one-on-one-meeting
 
 #### AI for managers who have back-to-back 1:1s
 
-**Remember every 1:1**: ask across months of 1:1s with one person, with citations. Pro.
+**Remember every 1:1**: ask across months of 1:1s with one person, and see where each answer came from. Pro.
 
 **Action items with owners**: every commitment lands on the Tasks board with a due date.
 
-**1:1 note shape**: rewrites the note as a 1:1, so every meeting reads the same way. Pro.
+**1:1 note format**: rewrites the note as a 1:1, so every meeting reads the same way. Pro.
 
 **Private by default**: 1:1 notes stay yours unless you share them.
+
+#### 1:1s, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You forget what you agreed last month | You ask Lynkk before the meeting |
+| Promises get lost | Action items have owners and dates |
+| You type and miss how your team member feels | You listen |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams and the Mac app.
 
 Ask your report before you record, and tell them who can see the note. Notes are private by default, share links can be
 revoked, and nothing is used to train models. [Security](/security)
@@ -607,7 +759,7 @@ Yes, with the Mac app or the web app.
 
 **Is it free?**
 
-Yes, there's a free plan with no credit card. The 1:1 shape and Ask Lynkk are part of Pro ($15 a month).
+Yes, there's a free plan with no credit card. The 1:1 note format and Ask Lynkk are part of Pro ($15 a month).
 
 #### Record your next 1:1. Walk into the one after knowing what's open.
 
@@ -630,6 +782,15 @@ Ten buyers, ten wish lists, and the detail you forget is the one that loses the 
 and consultations and writes the budget, the must-haves and the next steps.
 
 Buttons: Start for free · Download for Mac
+
+#### How do real estate agents use AI?
+
+Real estate agents talk to many buyers and sellers every week. Each one has a budget, a wish list and questions. Lynkk records your client calls and meetings and writes down each client's needs and your next steps, so you never mix up clients.
+
+**Who it's for**
+- Buyer's agents
+- Agents working with many clients at once
+- Small real estate teams
 
 #### Every client conversation, written down
 
@@ -655,9 +816,19 @@ Buttons: Start for free · Download for Mac
 
 **Next steps with dates**: follow-ups land on the Tasks board with an owner and a due date.
 
-**Ask about any client**: answers cite the exact call. Pro.
+**Ask about any client**: each answer shows which call it came from. Pro.
 
 **Many languages**: Hindi, Hinglish, English and more, with speaker labels.
+
+#### Client calls, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You mix up which client wanted what | Each client's must-haves, in their own words |
+| Follow-ups depend on your memory | Every follow-up has a date |
+| You rewrite notes after every call | The note is written for you |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams, and the Mac app for meetings in your office. Lynkk doesn't connect to a CRM.
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
@@ -702,6 +873,15 @@ client's consent, Lynkk records the meeting and writes the goals, the changes an
 
 Buttons: Start for free · Download for Mac
 
+#### How do financial advisors use AI notes?
+
+Financial advisors meet clients to talk about goals, money and life changes. These meetings are long and full of details. With the client's consent, Lynkk records the meeting and writes the goals, the changes and the action items, so the next review starts where the last one ended.
+
+**Who it's for**
+- Independent financial advisors
+- Wealth managers
+- Advisors who meet clients in person
+
 #### Client reviews without the note-taking
 
 **Record: with client consent.** Zoom, Google Meet, Microsoft Teams, or in your office with the Mac app.
@@ -722,13 +902,23 @@ Buttons: Start for free · Download for Mac
 
 #### AI tools for financial advisors who value privacy
 
-**Prepare for every review**: ask across past meetings with a client, with citations. Pro.
+**Prepare for every review**: ask across past meetings with a client, and see where each answer came from. Pro.
 
 **Action items with owners**: every follow-up lands on the Tasks board with a due date.
 
 **Choose your data region**: US, EU, UK, India, Singapore or Australia.
 
 **Retention you control**: keep audio, delete it after 90 or 30 days, or delete it after upload.
+
+#### Client reviews, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You take notes and miss what the client means | You listen, and Lynkk writes |
+| Before a review you dig through old notes | You ask Lynkk what the client said last year |
+| Action items sit in your head | Action items have owners and dates |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams and the Mac app. Lynkk doesn't connect to a CRM.
 
 AES-256 encryption · Never used for training · Private by default · Consent flow for recording. [Security](/security)
 

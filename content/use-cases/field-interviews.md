@@ -22,23 +22,27 @@ Notta, Turboscribe). Build `/features/hindi-transcription` later and link it fro
 
 ## 2. Page design
 
-7 blocks, about 500 words. One centred column, white background, light grey cards. Columns stack on mobile.
+9 blocks, about 650 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
 H1 / 2-line intro / [Start for free] [Download for Mac] / On a Mac, offline, in many languages || SAMPLE TRANSCRIPT CARD / Farm visit, Nashik · Hinglish / Recorded with no signal / Uploaded when back online
-# 2. HOW IT WORKS
+# 2. IN SIMPLE WORDS
+WHAT IT IS / 2-3 simple sentences || WHO IT'S FOR / 3 short lines
+# 3. HOW IT WORKS
 RECORD / No signal needed || UPLOAD / When you're back online || READ / Transcript and takeaways
-# 3. SAMPLE NOTE
+# 4. SAMPLE NOTE
 SAMPLE NOTE / Hinglish transcript / Key takeaway / Open question
-# 4. FEATURES (2 x 2 cards)
+# 5. FEATURES (2 x 2 cards)
 Works with no signal || Hindi, Hinglish and more
 Every speaker labelled || Ask across the trip
-# 5. PRIVACY (one line of 4 badges)
+# 6. BEFORE AND AFTER
+WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
+# 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Share and revoke
-# 6. FAQ (4 questions)
+# 8. FAQ (4 questions)
 Question / Question / Question / Question
-# 7. FINAL CTA
+# 9. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -58,7 +62,18 @@ interviews on your Mac, with no connection, and writes the note once you're back
 
 [Start for free] [Download for Mac]
 
-### Block 2. How it works
+### Block 2. In simple words
+
+## What is a field interview?
+
+A field interview is a conversation you record out in the world: on a farm, in a shop, or in someone's home. These places often have no internet, and people may switch between languages. Lynkk records on your Mac without internet and writes the note when you're back online.
+
+**Who it's for**
+- Researchers and NGOs doing field studies
+- Journalists reporting on the ground
+- Market research teams visiting towns and villages
+
+### Block 3. How it works
 
 ## A voice recorder for Mac that turns interviews into notes
 
@@ -68,7 +83,7 @@ interviews on your Mac, with no connection, and writes the note once you're back
 
 **Read: transcript and takeaways.** The transcript in the language of the interview, with speaker labels, key takeaways and open questions.
 
-### Block 3. Sample note
+### Block 4. Sample note
 
 ## See what one field interview turns into
 
@@ -82,7 +97,7 @@ interviews on your Mac, with no connection, and writes the note once you're back
 
 **Open question:** How much did the switch to drip irrigation cost?
 
-### Block 4. Features
+### Block 5. Features
 
 ## Built for field research
 
@@ -92,14 +107,26 @@ interviews on your Mac, with no connection, and writes the note once you're back
 
 **Every speaker labelled**: you and the person you interview stay apart in the transcript.
 
-**Ask across the trip**: "What did farmers say about water?" Answers cite every interview from the trip. Pro.
+**Ask across the trip**: "What did farmers say about water?" Each answer shows which interview it came from. Pro.
 
-### Block 5. Privacy
+### Block 6. Before and after
+
+## Field interviews, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| No signal means no transcript | Record offline, and it uploads later |
+| Hindi and English mixed in one sentence is hard to transcribe | Lynkk handles Hinglish |
+| Hours of audio you never replay | Main points and open questions, ready to read |
+
+**Works with:** The Mac app (records offline) and the web app.
+
+### Block 7. Privacy
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Share a note by link and revoke it anytime. [Security](/security)
 
-### Block 6. FAQ
+### Block 8. FAQ
 
 ## Questions about recording field interviews
 
@@ -120,7 +147,7 @@ Telugu, Marathi and Bengali in beta.
 
 Up to 2 hours per recording. For a longer session, start a new recording.
 
-### Block 7. Final CTA
+### Block 9. Final CTA
 
 ## Record your next field interview, signal or not.
 

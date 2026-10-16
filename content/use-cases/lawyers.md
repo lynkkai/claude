@@ -15,23 +15,27 @@ About 4,500 US + 700 India searches a month. Both "ai for" terms are hard (SD 55
 
 ## 2. Page design
 
-7 blocks, about 450 words. One centred column, white background, light grey cards. Columns stack on mobile.
+9 blocks, about 640 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
 H1 / 2-line intro / [Start for free] [Download for Mac] / Client calls and in-person consultations || SAMPLE NOTE CARD / Client consultation / Key facts / Next steps
-# 2. HOW IT WORKS
+# 2. IN SIMPLE WORDS
+WHAT IT IS / 2-3 simple sentences || WHO IT'S FOR / 3 short lines
+# 3. HOW IT WORKS
 RECORD / With the client's consent || READ / Facts, decisions, next steps || FIND / Any detail later
-# 3. SAMPLE NOTE
+# 4. SAMPLE NOTE
 SAMPLE NOTE / Key facts / Documents to collect / Next steps with owners
-# 4. FEATURES (2 x 2 cards)
+# 5. FEATURES (2 x 2 cards)
 Private by default || Choose your data region
 In-person consultations || Ask across the matter
-# 5. PRIVACY (one line of 4 badges)
+# 6. BEFORE AND AFTER
+WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
+# 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Retention control
-# 6. FAQ (4 questions)
+# 8. FAQ (4 questions)
 Question / Question / Question / Question
-# 7. FINAL CTA
+# 9. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -51,7 +55,18 @@ your office, and writes the key facts, the next steps and the full transcript.
 
 [Start for free] [Download for Mac]
 
-### Block 2. How it works
+### Block 2. In simple words
+
+## How do lawyers use AI in client meetings?
+
+In a client meeting, a lawyer needs to listen closely and remember every fact. With the client's consent, Lynkk records the meeting and writes the key facts, the documents to collect and the next steps. Your notes stay private and are never used to train AI.
+
+**Who it's for**
+- Solo lawyers and small firms
+- Lawyers who meet clients in their office
+- Legal teams that want all meeting notes in one place
+
+### Block 3. How it works
 
 ## Client meetings, written down for you
 
@@ -61,7 +76,7 @@ your office, and writes the key facts, the next steps and the full transcript.
 
 **Find: any detail later.** On Pro, ask "What did the client say about the notice date?" across the matter's meetings.
 
-### Block 3. Sample note
+### Block 4. Sample note
 
 ## See what one consultation turns into
 
@@ -73,7 +88,7 @@ your office, and writes the key facts, the next steps and the full transcript.
 
 **Next steps:** Send engagement letter. Owner: Anita. Due: Fri 18 Oct.
 
-### Block 4. Features
+### Block 5. Features
 
 ## AI for law firms that keeps client data private
 
@@ -83,14 +98,26 @@ your office, and writes the key facts, the next steps and the full transcript.
 
 **In-person consultations**: record the room with the Mac app, even with no signal.
 
-**Ask across the matter**: answers cite the exact meeting and moment. Pro.
+**Ask across the matter**: each answer shows the meeting and moment it came from. Pro.
 
-### Block 5. Privacy
+### Block 6. Before and after
+
+## Client meetings, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You write while the client talks | You listen, and Lynkk writes |
+| Facts get lost between meetings | You ask Lynkk what the client said |
+| Notes are stored in many places | Notes are kept in the data region you choose |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams, and the Mac app for meetings in your office.
+
+### Block 7. Privacy
 
 AES-256 encryption · Never used for training · Audio retention you control (keep, delete after 90 or 30 days, or
 delete after upload) · Consent flow for recording. [Security](/security)
 
-### Block 6. FAQ
+### Block 8. FAQ
 
 ## Questions about AI for lawyers
 
@@ -111,7 +138,7 @@ In the region you choose for your workspace: US, EU, UK, India, Singapore or Aus
 
 Yes, get consent first. Rules differ by country and by bar, so check your professional obligations before recording.
 
-### Block 7. Final CTA
+### Block 9. Final CTA
 
 ## Record your next client meeting. Keep your eyes on the client.
 

@@ -20,23 +20,27 @@ since they're broader than lectures.
 
 ## 2. Page design
 
-7 blocks, about 500 words. One centred column, white background, light grey cards. Columns stack on mobile.
+9 blocks, about 670 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
 H1 / 2-line intro / [Start for free] [Download for Mac] / On a Mac or in the browser, up to 2 hours || SAMPLE LECTURE CARD / Lecture 7, heat engines / Key takeaways with times / Topics
-# 2. HOW IT WORKS
+# 2. IN SIMPLE WORDS
+WHAT IT IS / 2-3 simple sentences || WHO IT'S FOR / 3 short lines
+# 3. HOW IT WORKS
 RECORD / In the room || READ / Takeaways and topics || REPLAY / Any minute
-# 3. SAMPLE NOTE
+# 4. SAMPLE NOTE
 SAMPLE NOTE / Key takeaways with timestamps / Topics / Full transcript
-# 4. FEATURES (2 x 2 cards)
+# 5. FEATURES (2 x 2 cards)
 Replay any minute || Weak signal is fine
 Ask about a lecture || Up to 2 hours
-# 5. RECORDING PERMISSION (one line)
+# 6. BEFORE AND AFTER
+WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
+# 7. RECORDING PERMISSION (one line)
 Ask your lecturer first || Check your school's rules
-# 6. FAQ (4 questions)
+# 8. FAQ (4 questions)
 Question / Question / Question / Question
-# 7. FINAL CTA
+# 9. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -56,7 +60,18 @@ with Lynkk and get the key takeaways with timestamps, the topics and the full tr
 
 [Start for free] [Download for Mac]
 
-### Block 2. How it works
+### Block 2. In simple words
+
+## What is a lecture recorder?
+
+A lecture recorder records your class so you can listen again later. Lynkk goes one step further: it also writes your lecture notes. You get the main points, the topics and every word, and you can click any point to hear that part again.
+
+**Who it's for**
+- College and university students
+- Students learning in a second language
+- Anyone taking a long course or training
+
+### Block 3. How it works
 
 ## Record lectures, then read the note
 
@@ -66,7 +81,7 @@ with Lynkk and get the key takeaways with timestamps, the topics and the full tr
 
 **Replay: any minute.** Click a timestamp and the recording plays from that moment.
 
-### Block 3. Sample note
+### Block 4. Sample note
 
 ## See what one lecture turns into
 
@@ -81,7 +96,7 @@ with Lynkk and get the key takeaways with timestamps, the topics and the full tr
 
 **Full transcript:** attached, 52 min.
 
-### Block 4. Features
+### Block 5. Features
 
 ## A note taking app for students that listens for you
 
@@ -93,12 +108,24 @@ with Lynkk and get the key takeaways with timestamps, the topics and the full tr
 
 **Up to 2 hours**: long class? Start a second recording after the break.
 
-### Block 5. Recording permission
+### Block 6. Before and after
+
+## Lectures, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You write fast and miss the explanation | You listen, and Lynkk writes |
+| You can't find one part in a 90 minute recording | Click the main point and jump to that minute |
+| Revision starts from messy notes | Revision starts from a list of topics |
+
+**Works with:** The Mac app and the web app, in any browser.
+
+### Block 7. Recording permission
 
 Ask your lecturer before you record, even if the notes are only for you. Many schools have their own rules about
 recording classes, so check those too, especially before you share a recording.
 
-### Block 6. FAQ
+### Block 8. FAQ
 
 ## Questions about recording lectures
 
@@ -118,7 +145,7 @@ No. Lynkk records the audio and writes the note from what was said. It doesn't c
 
 Yes. Recording lectures and getting the note works on the free plan. Asking questions about a lecture is part of Pro.
 
-### Block 7. Final CTA
+### Block 9. Final CTA
 
 ## Record your next lecture. Replay the part you missed.
 

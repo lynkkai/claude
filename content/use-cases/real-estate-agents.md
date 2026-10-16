@@ -15,23 +15,27 @@ CRM sync, which Lynkk doesn't have, so the page says that plainly.
 
 ## 2. Page design
 
-7 blocks, about 450 words. One centred column, white background, light grey cards. Columns stack on mobile.
+9 blocks, about 620 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
 H1 / 2-line intro / [Start for free] [Download for Mac] / Client calls and consultations || SAMPLE NOTE CARD / Buyer consultation / Must-haves / Next steps
-# 2. HOW IT WORKS
+# 2. IN SIMPLE WORDS
+WHAT IT IS / 2-3 simple sentences || WHO IT'S FOR / 3 short lines
+# 3. HOW IT WORKS
 RECORD / Calls and consultations || READ / Needs and next steps || REMEMBER / Every client
-# 3. SAMPLE NOTE
+# 4. SAMPLE NOTE
 SAMPLE NOTE / Budget and area / Must-haves / Next steps with owners
-# 4. FEATURES (2 x 2 cards)
+# 5. FEATURES (2 x 2 cards)
 Every client's must-haves || Next steps with dates
 Ask about any client || Many languages
-# 5. PRIVACY (one line of 4 badges)
+# 6. BEFORE AND AFTER
+WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
+# 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Consent flow
-# 6. FAQ (4 questions)
+# 8. FAQ (4 questions)
 Question / Question / Question / Question
-# 7. FINAL CTA
+# 9. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -51,7 +55,18 @@ and consultations and writes the budget, the must-haves and the next steps.
 
 [Start for free] [Download for Mac]
 
-### Block 2. How it works
+### Block 2. In simple words
+
+## How do real estate agents use AI?
+
+Real estate agents talk to many buyers and sellers every week. Each one has a budget, a wish list and questions. Lynkk records your client calls and meetings and writes down each client's needs and your next steps, so you never mix up clients.
+
+**Who it's for**
+- Buyer's agents
+- Agents working with many clients at once
+- Small real estate teams
+
+### Block 3. How it works
 
 ## Every client conversation, written down
 
@@ -61,7 +76,7 @@ and consultations and writes the budget, the must-haves and the next steps.
 
 **Remember: every client.** On Pro, ask "What did the Kapoors say about schools?" and get the answer with the moment it was said.
 
-### Block 3. Sample note
+### Block 4. Sample note
 
 ## See what one buyer consultation turns into
 
@@ -73,7 +88,7 @@ and consultations and writes the budget, the must-haves and the next steps.
 
 **Next steps:** Send 5 listings. Owner: Ravi. Due: Thu. · Book Saturday viewings. Owner: Ravi. Due: Fri.
 
-### Block 4. Features
+### Block 5. Features
 
 ## AI tools for real estate agents who juggle many clients
 
@@ -81,16 +96,28 @@ and consultations and writes the budget, the must-haves and the next steps.
 
 **Next steps with dates**: follow-ups land on the Tasks board with an owner and a due date.
 
-**Ask about any client**: answers cite the exact call. Pro.
+**Ask about any client**: each answer shows which call it came from. Pro.
 
 **Many languages**: Hindi, Hinglish, English and more, with speaker labels.
 
-### Block 5. Privacy
+### Block 6. Before and after
+
+## Client calls, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You mix up which client wanted what | Each client's must-haves, in their own words |
+| Follow-ups depend on your memory | Every follow-up has a date |
+| You rewrite notes after every call | The note is written for you |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams, and the Mac app for meetings in your office. Lynkk doesn't connect to a CRM.
+
+### Block 7. Privacy
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
 
-### Block 6. FAQ
+### Block 8. FAQ
 
 ## Questions about AI for real estate agents
 
@@ -110,7 +137,7 @@ No. Lynkk records conversations and writes notes. It doesn't write listing descr
 
 Yes. Ask before you record. Rules differ by country and state.
 
-### Block 7. Final CTA
+### Block 9. Final CTA
 
 ## Record your next client call. Never forget a must-have again.
 
