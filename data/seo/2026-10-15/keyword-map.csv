@@ -109,6 +109,9 @@ Blog,/blog/best-free-ai-note-takers,secondary,best free ai note taker,260,32,,,C
 Blog,/blog/best-free-ai-note-takers,secondary,ai note taker free,1600,58,,,Commercial,No impressions yet; give it 3 internal links from feature pages
 Blog,/blog/zoom-meeting-recorders,primary,zoom meeting recorder,2900,17,,,Commercial,"KD 17 for 2,900/mo: the easiest big win; no impressions yet"
 Blog,/blog/zoom-meeting-recorders,secondary,zoom meeting recorder software,480,27,,,Commercial,"KD 17 for 2,900/mo: the easiest big win; no impressions yet"
+Blog,/blog/zoom-note-taker,primary,zoom note taker,880,31,,,Commercial,Published 15 Oct (US time); request indexing; 2 of 6 images lack alt text
+Blog,/blog/zoom-note-taker,secondary,ai zoom note taker,210,25,,,Commercial,Published 15 Oct (US time); request indexing; 2 of 6 images lack alt text
+Blog,/blog/zoom-note-taker,secondary,best ai note taker for zoom,40,12,,,Commercial,Published 15 Oct (US time); request indexing; 2 of 6 images lack alt text
 Blog,/blog/ai-note-taker-microsoft-teams,primary,teams ai note taker,590,28,67.4,5,Commercial,"276 impr at pos 21: answer ""does Teams have one?"" in the intro"
 Blog,/blog/ai-note-taker-microsoft-teams,secondary,ai note taker for teams,590,29,77.17,6,Commercial,"276 impr at pos 21: answer ""does Teams have one?"" in the intro"
 Blog,/blog/ai-note-taker-microsoft-teams,secondary,microsoft teams ai note taker,590,26,41.86,7,Commercial,"276 impr at pos 21: answer ""does Teams have one?"" in the intro"
@@ -180,7 +183,8 @@ New page (gap),NEW: /blog/how-to-record-teams-meeting,primary,how to record team
 New page (gap),NEW: /blog/how-to-record-teams-meeting,secondary,teams meeting transcription,390,22,,,Informational,Already tracked in Ubersuggest (UK)
 New page (gap),NEW: /templates/meeting-minutes,primary,meeting minutes template,22200,40,,,Informational,"22,200/mo; a free template page with downloads"
 New page (gap),NEW: /templates/meeting-minutes,secondary,board meeting minutes template,1900,28,,,Informational,"22,200/mo; a free template page with downloads"
-New page (gap),"NEW: /integrations/zoom, /integrations/google-meet",primary,zoom ai note taker,390,33,,,Commercial,One landing page per meeting platform
+New page (gap),"NEW: /integrations/zoom, /integrations/google-meet",primary,ai note taker for zoom,480,33,,,Commercial,One landing page per meeting platform; zoom ai note taker (390) is a secondary; zoom note taker (880) stays with /blog/zoom-note-taker
+New page (gap),"NEW: /integrations/zoom, /integrations/google-meet",secondary,zoom ai note taker,390,33,,,Commercial,One landing page per meeting platform; zoom ai note taker (390) is a secondary; zoom note taker (880) stays with /blog/zoom-note-taker
 New page (gap),"NEW: /integrations/zoom, /integrations/google-meet",secondary,google meet ai note taker,590,40,,,Commercial,One landing page per meeting platform
 New page (gap),NEW: /languages/telugu,primary,telugu speech to text,30,18,,,Informational,"India 2,400, KD 14. Tamil, Telugu, Marathi and Bengali are in beta on lynkk.ai; say so on the page"
 New page (gap),NEW: /languages/tamil,primary,tamil speech to text,,,,,Informational,"India 1,600, KD 15. Tamil, Telugu, Marathi and Bengali are in beta on lynkk.ai; say so on the page"

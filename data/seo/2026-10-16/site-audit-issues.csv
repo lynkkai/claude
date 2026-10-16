@@ -1,0 +1,12 @@
+source,issue,severity,count,affected_urls,fix,status_vs_15_oct
+Ubersuggest audit 16 Oct,Low word count,error,2,/features (94 words); /demo (161 words),Expand /features to 800+ words: one section per feature with a link to each feature page; add FAQ and a short demo summary to /demo,open (was flagged 15 Oct as thin)
+Ubersuggest audit 16 Oct,Blocked from indexing (meta robots noindex),error (expected),2,/sign-in; /sign-up,None: correct to keep app pages out of the index; mark as ignored in Ubersuggest,expected
+Ubersuggest audit 16 Oct,Title too short,warning,5,/demo (19 chars); /support (15); /privacy (22); /refund (21); /terms (24),Rewrite /demo and /support titles to 45 to 60 chars; legal pages can stay,open
+Ubersuggest audit 16 Oct,Non SEO-friendly URL,warning,5,/download; /faq; /features/chrome-extension; /use-cases/lectures; /use-cases/team-standups,Likely false positive (short or generic slugs); do not change URLs that already rank,ignore
+Ubersuggest PageSpeed 16 Oct,Mobile LCP 7.6 s (desktop 0.95 s),high,1,/,"Compress and preload the hero image, serve AVIF/WebP, defer unused JS (85 KB, about 600 ms), inline critical CSS",worse (7.3 s on 15 Oct)
+Ubersuggest PageSpeed 16 Oct,Redirect before first byte,medium,1,http://lynkk.ai and www.lynkk.ai,"Each host 308s once to https://lynkk.ai; make sure all internal links, sitemap, canonical and ads point to https://lynkk.ai/ directly",open
+Crawl 16 Oct,Images missing alt text,warning,91,32 pages,Add descriptive alt text; the new /blog/zoom-note-taker added 2 more,worse (89 on 31 pages)
+Crawl 16 Oct,AggregateRating with no visible reviews,high (manual action risk),1,/,Show the 16 reviews on the page or remove AggregateRating from the schema,open
+Crawl 16 Oct,Wrong Otter yearly prices on /compare/otter,medium,1,/compare/otter,Replace $8.33 and $19.99 with the prices on otter.ai ($8.49 Pro yearly per month),open
+Ubersuggest backlinks 16 Oct,"4 backlinks from 3 domains, all nofollow, DA 1",critical,1,domain,"Directory and tool listings, founder podcasts, Indian startup press, guest posts; target 30 referring domains in 90 days",unchanged
+Ubersuggest AI visibility 16 Oct,0% AI visibility on 10 tracked ChatGPT prompts,high,10,brand,"Get listed on the sites AI answers cite (G2, Capterra, Product Hunt, comparison listicles); publish India pricing and Hindi support pages",new check

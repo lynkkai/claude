@@ -3,7 +3,7 @@
 > Source: GSC export "Performance on Search", web search, last 3 months (2026-07-14 to 2026-10-13),
 > exported 2026-10-16. Raw CSVs: `data/gsc/2026-10-16/`.
 > Full report (doc): https://claude.ai/code/artifact/160e95de-96ae-4eef-9764-7ad19263d989
-> Notion copy (private, 6 sub-pages + page briefs + feature keyword update): https://app.notion.com/p/3fac0e9b884d81cb87cff1fc55ab2743
+> Notion copy (private, 6 sub-pages + page briefs + feature keyword update + 16 Oct Ubersuggest refresh): https://app.notion.com/p/3fac0e9b884d81cb87cff1fc55ab2743
 
 ## Baseline (3 months)
 
@@ -36,9 +36,24 @@
 - Backlinks: 4 from 3 domains, all nofollow, Ubersuggest DA 1. Biggest blocker.
 - Thin pages: /features, /pricing, /integrations, /security, /demo (under 500 words).
 
+## Ubersuggest refresh (16 Oct 2026, `data/seo/2026-10-16/`)
+
+- Project id 9def5d40...cb3 (lynkk.ai), weekly updates. Site audit score 91 (was 89), 68 URLs crawled.
+  Errors: low word count on /features (94 body words) and /demo (161); /sign-in and /sign-up noindex (expected).
+  Warnings: short titles on /demo, /support, legal pages; "non SEO-friendly URL" on 5 short slugs (false positive).
+- PageSpeed: mobile LCP 7.6 s (worse), desktop 0.95 s; 85 KB unused JS; http and www each 308 once to apex.
+- Re-crawl: no 15 Oct fixes live yet; alt text missing on 91 images / 32 pages; AggregateRating and wrong Otter
+  prices still live. New post /blog/zoom-note-taker (27th, 15 Oct US time) targets "zoom note taker" (880, KD 31);
+  /integrations/zoom now takes "ai note taker for zoom" (480) + "zoom ai note taker" (390).
+- AI visibility: Lynkk in 0 of 10 tracked ChatGPT prompts (all India). Fireflies 4, Avoma 3, Otter 3, Fathom 2;
+  Vaarta and Stenoji win the Hindi/regional prompts. Prompt list: `data/seo/2026-10-16/ai-visibility.csv`.
+- Rank tracker: 50 tracked keywords are mostly UK Teams recording and knowledge management terms; competitor list
+  still has fathom.video. project_position_info and site_audit_pages API calls fail with a schema error.
+- Competitor numbers unchanged (Sep 2026 latest); Fathom DA 46.
+
 ## Blog
 
-- 26 posts published 2 to 15 Oct 2026 (~2 a day, avg 2,520 words, author Samarth Wagh). They caused the
+- 26 posts published 2 to 15 Oct 2026 (27th, /blog/zoom-note-taker, late 15 Oct) (~2 a day, avg 2,520 words, author Samarth Wagh). They caused the
   October impressions spike: 50% of page impressions, 3 clicks.
 - Best post: /blog/google-meet-transcript (736 impressions, pos 9.2, 0 clicks).
 
