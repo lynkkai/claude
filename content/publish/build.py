@@ -2,7 +2,7 @@
 
 - hashnode-post.md: Markdown body for Hashnode's editor (title, subtitle and cover go in their own fields)
 - blogger-post.html: HTML body for Blogger's "HTML view" (title goes in the post title field)
-- medium-post.html: rendered page to copy from and paste into Medium's editor
+- medium-post.html: Medium-safe page to copy from and paste into Medium's editor
 
 The drafts in content/ stay the single source of truth; re-run this after editing them:
     python3 content/publish/build.py
@@ -63,20 +63,46 @@ for i, part in enumerate(parts):
 html = "".join(parts)
 (OUT / "blogger-post.html").write_text(html.strip() + "\n")
 
-# Medium: no Markdown import and no tables. Open medium-post.html in a browser, select all the
-# text, and paste it into the Medium editor: headings, bold, links, lists and code blocks carry
-# over. Images show in the page for reference but must be uploaded in Medium.
+# Medium: its editor has no Markdown import, no tables, no raw HTML and only two heading levels,
+# and pasted multi-line code blocks and local images often break. So the Medium page only uses
+# what the editor accepts on paste: paragraphs, 2 heading levels, bold, italic, links, lists and
+# a separator.
+#   - code blocks become plain paragraphs with line breaks (ALL CAPS section lines in bold)
+#   - images become a visible "upload image here" marker
+#   - placeholder links become valid URLs (Medium drops links that aren't real URLs)
+# Open medium-post.html in a browser, select all, copy, and paste into a new Medium story.
+def medium_block(code: str) -> str:
+    lines = []
+    for line in code.strip("\n").split("\n"):
+        line = line.rstrip().replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        lines.append(f"<strong>{line}</strong>" if line.isupper() and len(line) > 3 else line)
+    paras = "<br>".join(lines).split("<br><br>")
+    return "\n".join(f"<p>{p}</p>" for p in paras if p)
+
+
 medium_md = body_only((CONTENT / "medium-how-to-take-meeting-notes.md").read_text())
-medium_html = markdown.markdown(medium_md.replace("](images/", "](../images/"), extensions=["fenced_code"])
+blocks = re.findall(r"```\n(.*?)```", medium_md, flags=re.S)
+for i in range(len(blocks)):
+    medium_md = re.sub(r"```\n.*?```", f"MEDIUMBLOCK{i}", medium_md, count=1, flags=re.S)
+medium_html = markdown.markdown(medium_md)
+for i, block in enumerate(blocks):
+    medium_html = medium_html.replace(f"<p>MEDIUMBLOCK{i}</p>", medium_block(block))
+medium_html = re.sub(
+    r'<p><img alt="[^"]*" src="images/([\w-]+\.png)" /></p>',
+    r"<p><strong>[ Upload image here: \1 ]</strong></p>",
+    medium_html,
+)
+medium_html = medium_html.replace("BLOGGER_POST_URL", "https://replace-with-blogger-post-url.example")
+medium_html = medium_html.replace("HASHNODE_POST_URL", "https://replace-with-hashnode-post-url.example")
+disclosure = (
+    "<p><em>This article was drafted with AI assistance, then reviewed, edited and fact-checked "
+    "by the Lynkk team.</em></p>\n"
+)
 page = (
     '<!doctype html>\n<html><head><meta charset="utf-8"><title>Medium paste copy</title>\n'
     '<style>body{font-family:Georgia,serif;max-width:720px;margin:40px auto;padding:0 16px;'
-    'line-height:1.6;font-size:19px;color:#151514;background:#fff}img{max-width:100%;height:auto}'
-    'pre{background:#f5f5f4;padding:14px;overflow-x:auto;font-size:15px}</style></head><body>\n'
-    '<p style="font-family:sans-serif;font-size:14px;background:#fff7ed;padding:10px 14px;border-radius:8px">'
-    "Copy from the next line down and paste into Medium. Upload the two images in Medium at the "
-    "same spots. Title and subtitle go in Medium's own title fields.</p>\n"
-    + medium_html
+    'line-height:1.6;font-size:19px;color:#151514;background:#fff}</style></head><body>\n'
+    + medium_html.replace("medium-banner.png ]</strong></p>", "medium-banner.png ]</strong></p>\n" + disclosure, 1)
     + "\n</body></html>\n"
 )
 (OUT / "medium-post.html").write_text(page)

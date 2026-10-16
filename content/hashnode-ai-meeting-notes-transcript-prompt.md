@@ -11,7 +11,7 @@ Head keywords: ai meeting notes (1,000), ai meeting minutes (1,600), ai note tak
 Body / long-tail: summarize meeting, meeting summary, chatgpt meeting notes, prompt to summarize meeting transcript (+ ChatGPT / Claude / Copilot variants)
 Images (in content/images, sources in content/images/src, re-render with images/render.sh):
   Cover: hashnode-cover.png, 1600x840 (Hashnode's recommended cover size). Upload via "Add cover",
-    not inside the body. Alt: "AI meeting notes from any transcript: prompt, JSON and Jira ticket"
+    not inside the body. Alt: "AI meeting notes from any transcript. One prompt, then Jira tickets."
   Inline: hashnode-pipeline.png, 1600x560, after the intro.
     Alt: "Pipeline from meeting transcript to prompt, JSON minutes, Python script and Jira tickets"
 Guideline notes (Hashnode Code of Conduct): value first, one product mention near the end, no

@@ -15,8 +15,9 @@ are generated from them with `python3 content/publish/build.py` (re-run it after
 | `../images/medium-banner.png` | Medium featured image (1400x788) |
 | `../images/medium-before-after.png` | Medium inline before/after graphic (1400x760) |
 
-Images are built from HTML in `../images/src/` using Lynkk's brand colors and Inter (taken from
-lynkk.ai). To change wording, edit the HTML and run `bash content/images/render.sh`.
+Images follow Lynkk's visual identity as used on lynkk.ai: the three banners use the same layout,
+logo tile, colors and type as Lynkk's own share image (lynkk.ai/opengraph-image); inline images use
+the site's light/dark tokens, Inter, and sentence-case pills. Sources are HTML in `../images/src/`. To change wording, edit the HTML and run `bash content/images/render.sh`.
 
 ## Publish order
 
@@ -80,30 +81,41 @@ Space them out: one post per day or two looks natural and gives each its own soc
 Medium is an **original** story (different keyword, different example), not a copy of the other
 two, so don't use "Import a story" and don't set a canonical link.
 
-1. **Write a story.** Upload `medium-banner.png` as the first image (click +, then the image icon).
-   Medium uses the first image as the featured image. Caption it or leave it blank.
-2. **Title** (Medium's large title style): `How to Take Meeting Notes People Actually Read`
-3. **Subtitle** (small title style, line under the title): `Most meeting notes record the conversation. Useful ones record decisions, owners and dates. Here's a simple method, a before-and-after example, and a template you can copy.`
-4. **AI disclosure (required by Medium for AI-assisted writing).** Medium limits AI-assisted
-   stories that aren't labeled to your followers only, and the label has to be in the first two
-   paragraphs. Unless you substantially rewrite the draft in your own words, add this line in
-   italics right under the subtitle:
-   *This article was drafted with AI assistance, then reviewed, edited and fact-checked by the Lynkk team.*
-5. Open `medium-post.html` in a browser, select everything below the orange note, copy, and paste
-   into the story body.
-6. **Image:** where the paste shows the before/after image (or a broken image), delete it and
-   upload `medium-before-after.png`. Alt text (click the image > "Alt text"):
-   `Meeting notes before and after: transcript-style notes vs 3 lists and a date`
-7. Check the code blocks pasted as code blocks. If one didn't, select it and press
-   Ctrl/Cmd + Alt + 6 to turn it into a code block.
-8. Replace `BLOGGER_POST_URL` and `HASHNODE_POST_URL` with the live URLs.
-9. **Publish** > add 5 topics: `Productivity`, `Meetings`, `Note Taking`, `Management`, `Remote Work`.
-10. After publishing: **... > More settings > SEO settings**:
-    - SEO title: `How to Take Meeting Notes People Actually Read (+ Template)`
-    - SEO description: `How to take meeting notes that get read and acted on: the 3 lists + 1 date method, a before-and-after example, tips for live note taking, and a template.`
-    - **Customize story link:** `how-to-take-meeting-notes`
-11. Optional: submit it to a Medium publication about productivity or management for more reach.
-    Publications have their own rules; most accept one self-mention like the Lynkk section.
+**What Medium's editor can't take, and how `medium-post.html` handles it:**
+
+| Not supported in Medium | What the paste page does instead |
+|---|---|
+| Markdown (`##`, `**bold**`, ```` ``` ````) | Already converted to rich text; copy from the browser, never from the `.md` file |
+| Tables | None in this story |
+| More than 2 heading levels | Only one heading level is used |
+| Multi-line code blocks (break apart on paste) | Turned into plain paragraphs with line breaks |
+| Images pasted from your computer | Replaced by a bold `[ Upload image here: ... ]` marker |
+| Links that aren't real URLs | Placeholder links are `https://replace-with-...example` |
+| HTML comments / draft notes | Removed |
+
+1. **New story.** Type the **title** on the first line: `How to Take Meeting Notes People Actually Read`
+2. Press Enter, type the **subtitle**, select it and click the small **T** (subtitle style):
+   `Most meeting notes record the conversation. Useful ones record decisions, owners and dates. Here's a simple method, a before-and-after example, and a template you can copy.`
+3. Press Enter for a new line. Open `medium-post.html` in a browser, press Ctrl/Cmd + A, copy, and
+   paste into Medium.
+4. **Images:** click each bold `[ Upload image here: ... ]` line, delete the text, click **+** >
+   image icon, and upload the named file:
+   - `medium-banner.png` (first image, so Medium uses it as the featured image)
+   - `medium-before-after.png`, alt text: `Meeting notes before and after: transcript-style notes vs 3 lists and a date`
+5. **AI disclosure:** the italic line under the banner is Medium's required label for AI-assisted
+   writing (it must be in the first two paragraphs, or the story only reaches your followers).
+   Keep it unless you rewrite the story substantially in your own words.
+6. **Links:** click each link that starts with `https://replace-with-`, and change it to the live
+   Blogger and Hashnode post URLs.
+7. **Publish** > add 5 topics: `Productivity`, `Meetings`, `Note Taking`, `Management`, `Remote Work`.
+8. After publishing: **... > More settings > SEO settings**:
+   - SEO title: `How to Take Meeting Notes People Actually Read (+ Template)`
+   - SEO description: `How to take meeting notes that get read and acted on: the 3 lists + 1 date method, a before-and-after example, tips for live note taking, and a template.`
+   - **Customize story link:** `how-to-take-meeting-notes`
+9. Optional: submit it to a Medium publication about productivity or management for more reach.
+   Publications have their own rules; most accept one self-mention like the Lynkk section.
+
+If any block still pastes wrongly, tell me which section and I'll rework it in the draft.
 
 ## Before you hit publish: guideline check
 
@@ -116,7 +128,7 @@ two, so don't use "Import a story" and don't set a canonical link.
 - [ ] Medium: AI disclosure line is in the first two paragraphs (or you've rewritten the story in
       your own words). Medium links are nofollow, so the value is readers and brand mentions.
 - [ ] No placeholder text left: search for `IMAGE_URL`, `BLOGGER_POST_URL`, `HASHNODE_POST_URL`
-      (all three posts).
+      (Blogger, Hashnode) and `replace-with-` / `Upload image here` (Medium).
 - [ ] All images have alt text.
 
 ## After publishing

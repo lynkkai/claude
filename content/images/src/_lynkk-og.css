@@ -1,0 +1,61 @@
+/*
+  Lynkk banner template, matched to lynkk.ai's own share image (https://lynkk.ai/opengraph-image)
+  and the dark-theme tokens in the site CSS:
+    background   #0e0e0f  (--lk-gray-900)
+    tile / pill  #161618  (--lk-gray-850), border #262629 (--lk-gray-750)
+    primary text #f3f3f1  (--lk-ink, dark)
+    secondary    #9d9d9b  (--lk-ink-2, dark)
+    footer       #656567  (--lk-ink-3)
+  Type: Inter (site font), regular/medium weight, sentence case, headlines end with a period.
+  Layout is designed at 1200 px wide; each banner sets `zoom` to scale it to its own width.
+*/
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { overflow: hidden; }
+body {
+  background: #0e0e0f;
+  color: #f3f3f1;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.frame {
+  width: 1200px;
+  height: var(--h, 630px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding-bottom: 24px;
+}
+.logo { display: flex; align-items: center; gap: 20px; }
+.tile {
+  width: 64px; height: 64px;
+  border-radius: 16px;
+  background: #161618;
+  border: 1px solid #262629;
+  display: grid; place-items: center;
+  overflow: hidden;
+}
+.tile img { width: 64px; height: 64px; display: block; }
+.word { font-size: 40px; font-weight: 400; letter-spacing: -0.01em; color: #f3f3f1; }
+h1 {
+  margin-top: 40px;
+  font-size: 62px;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+h1 span { display: block; }
+h1 .dim { color: #9d9d9b; }
+.sub { margin-top: 28px; font-size: 22px; line-height: 1.45; color: #9d9d9b; max-width: 860px; }
+.pills { margin-top: 34px; display: flex; gap: 14px; justify-content: center; }
+.pill {
+  font-size: 17px;
+  color: #9d9d9b;
+  background: #161618;
+  border: 1px solid #262629;
+  border-radius: 999px;
+  padding: 10px 22px;
+}
+.foot { position: absolute; bottom: 30px; left: 0; right: 0; font-size: 17px; color: #656567; }

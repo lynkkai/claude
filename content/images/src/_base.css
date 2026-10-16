@@ -28,15 +28,14 @@ body {
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-.display { font-family: "Inter Display", "Inter", sans-serif; letter-spacing: -0.02em; }
+.display { font-family: "Inter", sans-serif; font-weight: 500 !important; letter-spacing: -0.025em; }
 .mono { font-family: "DejaVu Sans Mono", monospace; }
 .eyebrow {
+  /* lynkk.ai section pills: sentence case, medium weight, no tracking */
   display: inline-block;
-  font-size: 15px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  padding: 9px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 9px 18px;
   border-radius: 999px;
 }
 .brand {
