@@ -2,7 +2,7 @@
 //
 //   node content/publish/make-docx.js
 //
-// medium-post.docx is made to be pasted into Medium: open it in Word or Google Docs, select all,
+// medium-post.docx and medium-post-2.docx are made to be pasted into Medium: open it in Word or Google Docs, select all,
 // copy, and paste into a new Medium story. It only uses what Medium's editor accepts (title,
 // subtitle, one heading level, bold, italic, links, lists, images): code blocks become plain
 // lines and placeholder links become valid URLs.
@@ -179,23 +179,30 @@ async function write(file, children) {
 }
 
 // ---------- Medium ----------
-(async () => {
-  const mediumSrc = fs.readFileSync(path.join(CONTENT, "medium-how-to-take-meeting-notes.md"), "utf8");
-  let mediumBody = stripHeader(mediumSrc)
-    .replace(/BLOGGER_POST_URL/g, "https://replace-with-blogger-post-url.example")
-    .replace(/HASHNODE_POST_URL/g, "https://replace-with-hashnode-post-url.example");
-  const mediumBlocks = parse(mediumBody);
+async function medium(srcFile, outFile) {
+  const src = fs.readFileSync(path.join(CONTENT, srcFile), "utf8");
+  // Placeholder links become valid URLs: Medium drops links that aren't real URLs.
+  const body = stripHeader(src).replace(
+    /\]\(([A-Z0-9_]+_URL)\)/g,
+    (_, name) => `](https://replace-with-${name.replace(/_URL$/, "").toLowerCase().replace(/_/g, "-")}-url.example)`,
+  );
+  const blocks = parse(body);
   // Medium's AI label goes right under the banner (first image).
-  const firstImage = mediumBlocks.findIndex((b) => b.type === "image");
-  mediumBlocks.splice(firstImage + 1, 0, {
+  const firstImage = blocks.findIndex((b) => b.type === "image");
+  blocks.splice(firstImage + 1, 0, {
     type: "para",
     text: "*This article was drafted with AI assistance, then reviewed, edited and fact-checked by the Lynkk team.*",
   });
-  await write("medium-post.docx", [
-    new Paragraph({ style: "Title", children: [new TextRun(headerField(mediumSrc, "Title \\(H1\\)"))] }),
-    new Paragraph({ style: "Subtitle", children: [new TextRun(headerField(mediumSrc, "Subtitle"))] }),
-    ...render(mediumBlocks, { mediumSafe: true }),
+  await write(outFile, [
+    new Paragraph({ style: "Title", children: [new TextRun(headerField(src, "Title \\(H1\\)"))] }),
+    new Paragraph({ style: "Subtitle", children: [new TextRun(headerField(src, "Subtitle"))] }),
+    ...render(blocks, { mediumSafe: true }),
   ]);
+}
+
+(async () => {
+  await medium("medium-how-to-take-meeting-notes.md", "medium-post.docx");
+  await medium("medium-meeting-notes-vs-meeting-minutes.md", "medium-post-2.docx");
 
   // ---------- DEV ----------
   const devSrc = fs.readFileSync(path.join(CONTENT, "devto-meeting-notes-templates-dev-teams.md"), "utf8");

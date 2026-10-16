@@ -24,3 +24,5 @@ render medium-banner 1400 788
 render medium-before-after 1400 760
 render devto-cover 1000 420
 render devto-notes-flow 1000 560
+render medium2-banner 1400 788
+render medium2-comparison 1400 800

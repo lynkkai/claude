@@ -1,0 +1,35 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Notes vs minutes</title>
+<link rel="stylesheet" href="_base.css">
+<style>
+  /* Lynkk light tokens (lynkk.ai): bg #fbfbfc, ink #151514, ink-2 #11111194, rules #e6e6e4,
+     section pill violet tint #e2e0f2 / violet #7063be */
+  body { width: 1400px; height: 800px; background: #fbfbfc; color: #151514; padding: 64px 80px; }
+  .eyebrow { background: #e2e0f2; color: #7063be; }
+  h1 { font-size: 46px; margin-top: 18px; }
+  .table { margin-top: 40px; border-top: 1px solid #e6e6e4; }
+  .row { display: grid; grid-template-columns: 220px 1fr 1fr; border-bottom: 1px solid #e6e6e4; }
+  .row > div { padding: 22px 24px 22px 0; font-size: 21px; line-height: 1.4; }
+  .row .k { color: #11111194; font-size: 18px; font-weight: 500; padding-top: 25px; }
+  .head > div { padding: 18px 24px 18px 0; }
+  .chip { display: inline-flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 500; }
+  .chip i { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+  .muted { color: #11111194; }
+</style></head>
+<body>
+  <span class="eyebrow">Side by side</span>
+  <h1 class="display">Meeting notes vs meeting minutes</h1>
+  <div class="table">
+    <div class="row head">
+      <div></div>
+      <div><span class="chip"><i style="background:#beb4fb"></i>Meeting notes</span></div>
+      <div><span class="chip"><i style="background:#93b45c"></i>Meeting minutes</span></div>
+    </div>
+    <div class="row"><div class="k">Purpose</div><div>Help people act</div><div>Official record of decisions</div></div>
+    <div class="row"><div class="k">Audience</div><div>The team, today</div><div>Members, auditors, regulators, <span class="muted">for years</span></div></div>
+    <div class="row"><div class="k">Format</div><div>Any shape, outcome first</div><div>Set structure, same every meeting</div></div>
+    <div class="row"><div class="k">Written by</div><div>Anyone</div><div>Secretary or clerk</div></div>
+    <div class="row"><div class="k">Approval</div><div>Sent as-is</div><div>Approved at the next meeting, then signed</div></div>
+    <div class="row"><div class="k">Kept for</div><div>Weeks</div><div>Often permanently</div></div>
+  </div>
+</body></html>

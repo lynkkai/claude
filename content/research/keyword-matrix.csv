@@ -51,3 +51,10 @@ DEV,Head,meeting notes template,22200,49,"Title, intro"
 DEV,Body,sprint retrospective template,390,37,H2 3. Sprint retrospective template (exact)
 DEV,Long-tail,daily standup meeting notes,70,23,H2 1. Daily standup meeting notes template
 DEV,Long-tail,architecture decision record template,70,46,H2 on ADRs + example ADR
+Medium 2,Head,meeting minutes,9900,36,"Title, H2s, body"
+Medium 2,Body,meeting minutes example,3600,36,Same meeting written both ways section
+Medium 2,Body,meeting notes minutes,2400,17,"Title, comparison section"
+Medium 2,Body,what is meeting minutes,2400,36,H2 What are meeting minutes?
+Medium 2,Body,what is meeting notes,2400,64,H2 What are meeting notes?
+Medium 2,Body,minutes of meeting,1900,31,"Definition, FAQ"
+Medium 2,Body,meeting minutes meaning,1300,28,Definition paragraph

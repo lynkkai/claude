@@ -16,6 +16,9 @@ are generated from them with `python3 content/publish/build.py` and
 | `../images/medium-banner.png` | Medium featured image (1400x788) |
 | `../images/medium-before-after.png` | Medium inline before/after graphic (1400x760) |
 | `medium-post.docx` | **Easiest Medium route:** open in Word or Google Docs, select all, copy, paste into Medium |
+| `medium-post-2.docx` | Second Medium story (meeting notes vs minutes), same paste route |
+| `../images/medium2-banner.png` | Medium story 2 featured image (1400x788) |
+| `../images/medium2-comparison.png` | Medium story 2 comparison graphic (1400x800) |
 | `devto-post.md` | Paste into the DEV editor (Markdown with front matter) |
 | `devto-post.docx` | Word copy of the DEV post for review and sign-off |
 | `../images/devto-cover.png` | DEV cover (1000x420, DEV's cover size) |
@@ -128,6 +131,22 @@ Then do steps 6 to 9 below. The HTML route below is the fallback.
    Publications have their own rules; most accept one self-mention like the Lynkk section.
 
 If any block still pastes wrongly, tell me which section and I'll rework it in the draft.
+
+## Medium story 2: Meeting notes vs meeting minutes
+
+Same route as story 1: open `medium-post-2.docx`, select all, copy, paste into a new Medium story.
+Publish it a few days after story 1 so it can link to it.
+
+- **Title:** Meeting Notes vs Meeting Minutes: What's the Difference? (With Examples)
+- **SEO title:** `Meeting Notes vs Meeting Minutes: Differences + Examples`
+- **SEO description:** `Meeting notes vs meeting minutes: the 6 differences, when you need each, and one real meeting written both ways. Plus how to combine them in one document.`
+- **Story link:** `meeting-notes-vs-meeting-minutes`
+- **Topics:** Productivity, Meetings, Leadership, Nonprofit, Management
+- **Images:** banner `medium2-banner.png` first; comparison graphic `medium2-comparison.png` under
+  "The 6 differences that matter" (alt text is in the draft header).
+- **Links to fix:** `https://replace-with-blogger-post-url.example` (Blogger post) and
+  `https://replace-with-medium-story-1-url.example` (Medium story 1).
+- Keep the italic AI note under the banner.
 
 ## DEV (step by step)
 

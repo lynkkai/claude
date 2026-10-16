@@ -169,6 +169,31 @@ posts, so Lynkk is not named in the article; the brand lives in the author profi
 Note: Ubersuggest's daily report limit (150) was reached while researching this article, so the
 sprint planning and ADR variants weren't pulled. Re-check them when the quota resets.
 
+## Article 5: Medium story 2
+
+**Title:** Meeting Notes vs Meeting Minutes: What's the Difference? (With Examples)
+**SEO title (57 chars):** Meeting Notes vs Meeting Minutes: Differences + Examples
+**Story link:** `meeting-notes-vs-meeting-minutes`
+
+Page one for "meeting notes vs meeting minutes" (2026-10-16) is all AI note-taker vendor blogs
+(tl;dv, Fireflies, Fellow, Sembly, Wudpecker, Audionotes). A neutral Medium story with the same
+meeting written both ways is the differentiator. It links to the Blogger template (minutes) and
+Medium story 1 (notes), so the cluster reinforces itself.
+
+| Tier | Keyword | Vol | SD | Placement |
+|---|---|---|---|---|
+| Head | meeting minutes | 9,900 | 36 | Title, H2s, body |
+| Body | meeting minutes example | 3,600 | 36 | "Same meeting, written both ways" section |
+| Body | meeting notes minutes | 2,400 | 17 | Title, comparison section |
+| Body | what is meeting minutes | 2,400 | 36 | H2 "What are meeting minutes?" |
+| Body | what is meeting notes | 2,400 | 64 | H2 "What are meeting notes?" |
+| Body | minutes of meeting | 1,900 | 31 | Definition paragraph, FAQ "What does MoM mean?" |
+| Body | meeting minutes meaning | 1,300 | 28 | Definition paragraph |
+| Primary | meeting notes vs meeting minutes | not pulled | n/a | Title, H1, slug, short answer |
+
+Ubersuggest's daily limit was reached, so the primary keyword's volume wasn't pulled. Check it when
+the quota resets.
+
 ## Density check (exact-match counts in final drafts)
 
 Counted on the article body (draft header comment excluded).
