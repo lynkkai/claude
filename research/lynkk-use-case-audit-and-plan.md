@@ -24,14 +24,14 @@ So we are **improving and extending an existing cluster**, not starting from zer
 | Topic | What the site says |
 |---|---|
 | Capture | Mac app (records without joining the call, also in-room), meeting bot (Zoom, Google Meet, Microsoft Teams, Webex; calendar auto-join), Chrome extension, web app. Offline recording on Mac, upload later. Dictation. |
-| Output | Meeting Brief: next steps with owner, due date, priority; decisions; open questions; key takeaways with timestamps; transcript with speaker labels; topics. Follow-up email draft. "Shapes" such as Sales Call and Customer Interview (Pro). |
+| Output | Meeting Brief: next steps with owner, due date, priority; decisions; open questions; key takeaways with timestamps; transcript with speaker labels; topics. (The sales page shows a sample follow-up email written from the note; Lynkk does not draft or send it.) "Shapes" such as Sales Call and Customer Interview (Pro). |
 | Memory | Ask Lynkk across meetings, answers cite the source conversation (Pro). Cue: answers during calls (Pro). Decision log, weekly digest (Pro). |
 | Tasks / integrations | Tasks with owners and dates; push to Jira and Microsoft tools; Slack; Google Calendar. |
 | **CRM** | **No CRM sync.** The sales-calls FAQ says so. |
 | Languages | 17 languages + auto-detect, Hinglish; Tamil, Telugu, Marathi, Bengali in beta. |
 | Data region | Per-workspace AI model region: US, EU, UK, India, Singapore, Australia. |
 | Security | Private by default; AES-256 in transit and at rest; retention options (forever, 90 days, 30 days, delete after upload); not used to train models; "built to comply" with GDPR, UK GDPR and India's DPDP Act; consent flow for multi-party recording. No SOC 2 or HIPAA claim. |
-| Pricing | Free $0, Pro $15/month. **Conflict:** the homepage says Free has unlimited recording, the FAQ says 5 notes a month up to 2 hours each. Fix this before use-case pages quote the free plan. |
+| Pricing | Free $0, Pro $15/month. **Conflict:** the homepage pricing block says Free has unlimited recording, the homepage FAQ says 5 notes a month up to 2 hours each, and the sales-calls page says "5 hours of AI summaries on the free plan". Fix this before use-case pages quote the free plan. |
 | Proof | Logos: Microsoft, Groww, Wissen Technology, EXL Service, Home Credit Indonesia. 5 named testimonials on the homepage. 5.0 from 16 reviews on F6S. |
 
 **Do not claim on use-case pages:** CRM updates, Salesforce/HubSpot, Calendly/Cal.com, SOC 2, HIPAA, clinical scribing.

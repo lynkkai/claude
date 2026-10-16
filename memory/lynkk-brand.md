@@ -12,7 +12,7 @@ The site is now reachable. These facts come from the homepage, /use-cases pages 
 - **Not listed on the site:** Calendly, Cal.com, SOC 2, HIPAA. Do not claim them.
 - **Meeting platforms:** Zoom, Google Meet, Microsoft Teams, Webex (meeting bot, Google Calendar auto-join).
 - **Capture:** Mac app (records without joining the call, also in-room), meeting bot, Chrome extension, web app; offline recording on Mac with later upload; dictation.
-- **Output:** Meeting Brief with next steps (owner, due date, priority), decisions, open questions, timestamped key takeaways, speaker-labelled transcript; follow-up email draft; "shapes" such as Sales Call and Customer Interview (Pro).
+- **Output:** Meeting Brief with next steps (owner, due date, priority), decisions, open questions, timestamped key takeaways, speaker-labelled transcript (the sales page shows a sample follow-up email written *from* the note, but says Lynkk does not send or template it); "shapes" such as Sales Call and Customer Interview (Pro).
 - **Memory:** Ask Lynkk across meetings with cited answers (Pro); Cue answers during calls (Pro); decision log and weekly digest (Pro).
 - **Integrations:** Jira, Microsoft tools, Slack, Google Calendar.
 - **Languages:** 17 + auto-detect, Hinglish; Tamil, Telugu, Marathi, Bengali in beta.
