@@ -45,19 +45,8 @@ Voice typing in Google Docs stops mid-sentence? Use Chrome, say your punctuation
 
 ## YouTube (long video)
 
-The upload title, description, chapters and tags are in `youtube-description.md`. If this video goes
-out with this caption set, use the Google Docs title instead:
-
-```
-Voice Typing in Google Docs on Mac: Setup, 6 Fixes, and Dictation in Any App | Lynkk
-```
-
-and open the description with:
-
-```
-Voice typing in Google Docs stops mid-sentence, or the option isn't there at all. Here's how to turn it on, say your punctuation, and fix it in six checks.
-Then dictate in any app on your Mac with Lynkk: hold fn, talk, let go, and the words land where your cursor is.
-```
+Upload with `youtube-description-google-docs.md`: title, description with chapters, tags and pinned comment,
+all led by "voice typing in Google Docs".
 
 ## LinkedIn
 
