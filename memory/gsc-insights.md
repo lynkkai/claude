@@ -3,7 +3,7 @@
 > Source: GSC export "Performance on Search", web search, last 3 months (2026-07-14 to 2026-10-13),
 > exported 2026-10-16. Raw CSVs: `data/gsc/2026-10-16/`.
 > Full report (doc): https://claude.ai/code/artifact/160e95de-96ae-4eef-9764-7ad19263d989
-> Notion copy (private, 6 sub-pages): https://app.notion.com/p/3fac0e9b884d81cb87cff1fc55ab2743
+> Notion copy (private, 6 sub-pages + page briefs + feature keyword update): https://app.notion.com/p/3fac0e9b884d81cb87cff1fc55ab2743
 
 ## Baseline (3 months)
 
@@ -52,6 +52,12 @@
 - Easy wins: zoom meeting recorder (2,900, KD 17), legal transcription service (1,300, KD 15),
   board meeting minutes sample (2,400, KD 15), one on one meeting template (1,600, KD 19).
 - Gaps: meeting minutes template (22,200), how to record zoom meeting (4,400), how to record google meet (2,400).
+- Feature pages retargeted 16 Oct 2026 to higher-volume primaries (US/mo): meeting-notes "ai meeting notes taker"
+  3,600; meeting-bot "meeting recorder" 1,900; dictation "speech to text mac" 1,600; chrome-extension "record google
+  meet" 1,300; ask-your-meetings "ai knowledge base" 880; action-items "ai task manager" 480; hinglish "hindi
+  transcription" (India 1,900). Workspaces and multilingual unchanged. New /languages pages for Telugu (India 2,400),
+  Tamil (1,600), Marathi and Bengali (390 each); these languages are in beta. Candidates:
+  `data/seo/2026-10-16/feature-keyword-candidates.csv`.
 - Ubersuggest project rank tracker API call fails (schema error); use GSC positions instead.
 
 ## Competitors (15 Oct 2026, `data/seo/2026-10-15/competitors.csv`)

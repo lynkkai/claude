@@ -31,33 +31,49 @@ Core,/faq,primary,lynkk faq,,,,,Informational,"Answer the AI Mode buyer question
 Core,/faq,secondary,is it legal to record meetings,,,,,Informational,"Answer the AI Mode buyer questions here (SSO, LLM providers, pricing)"
 Core,/slack,primary,slack ai meeting notes,,,,,Commercial,Fine as is; link from /integrations
 Core,/slack,secondary,slack meeting bot,,,,,Commercial,Fine as is; link from /integrations
-Feature,/features/meeting-notes,primary,ai meeting notes,1000,41,,,Commercial,"New page, not in GSC yet; 11 of 11 images lack alt text"
-Feature,/features/meeting-notes,secondary,ai meeting notes taker,3600,49,,,Commercial,"New page, not in GSC yet; 11 of 11 images lack alt text"
-Feature,/features/meeting-notes,secondary,ai note taker for meetings,390,38,,,Commercial,"New page, not in GSC yet; 11 of 11 images lack alt text"
-Feature,/features/ask-your-meetings,primary,ai knowledge management tools,140,30,,,Commercial,Old /features/knowledge-graph 308s here; update internal links to the new URL
-Feature,/features/ask-your-meetings,secondary,searchable meeting history,,,,,Commercial,Old /features/knowledge-graph 308s here; update internal links to the new URL
-Feature,/features/multilingual-transcription,primary,multilingual transcription,30,27,82,14,Commercial,Ranks 61 on 14 impressions; add the 17-language list and a demo
-Feature,/features/multilingual-transcription,secondary,multilingual meeting transcription,,,20.8,20,Commercial,Ranks 61 on 14 impressions; add the 17-language list and a demo
-Feature,/features/multilingual-transcription,secondary,multilingual transcription software,,,78.3,10,Commercial,Ranks 61 on 14 impressions; add the 17-language list and a demo
-Feature,/features/hinglish-transcription,primary,hinglish transcription,10,18,8.57,14,Commercial,Best non-brand page (7 clicks); add India-focused examples and FAQs
-Feature,/features/hinglish-transcription,secondary,hindi english transcription,,,,,Commercial,Best non-brand page (7 clicks); add India-focused examples and FAQs
-Feature,/features/hinglish-transcription,secondary,hinglish speech to text,,,,,Commercial,Best non-brand page (7 clicks); add India-focused examples and FAQs
-Feature,/features/meeting-bot,primary,meeting bot,70,37,22.03,97,Mixed (users + developers),"Add a ""not an API"" note and a how-to section; ranks 22 to 37"
-Feature,/features/meeting-bot,secondary,zoom meeting bot,20,26,22,2,Mixed (users + developers),"Add a ""not an API"" note and a how-to section; ranks 22 to 37"
-Feature,/features/meeting-bot,secondary,join zoom call bot,,,27.89,75,Mixed (users + developers),"Add a ""not an API"" note and a how-to section; ranks 22 to 37"
-Feature,/features/meeting-bot,secondary,google meeting bot,50,58,,,Mixed (users + developers),"Add a ""not an API"" note and a how-to section; ranks 22 to 37"
-Feature,/features/meeting-bot,secondary,how to send a meeting bot to a meeting,,,24.73,11,Mixed (users + developers),"Add a ""not an API"" note and a how-to section; ranks 22 to 37"
-Feature,/features/action-items,primary,tracking action items,320,27,,,Commercial,Link to the action items blog post; ranks 36
-Feature,/features/action-items,secondary,action item ai,,,81.33,12,Commercial,Link to the action items blog post; ranks 36
-Feature,/features/dictation,primary,dictation app for mac,260,31,,,Transactional,Link from the dictation-on-mac and Word dictation posts
-Feature,/features/dictation,secondary,mac dictation app,320,40,,,Transactional,Link from the dictation-on-mac and Word dictation posts
-Feature,/features/dictation,secondary,ai dictation app,210,38,,,Transactional,Link from the dictation-on-mac and Word dictation posts
-Feature,/features/dictation,secondary,dictation app,1900,47,63.11,9,Transactional,Link from the dictation-on-mac and Word dictation posts
-Feature,/features/workspaces,primary,team ai meeting notes,720,25,,,Commercial,Add team pricing and admin controls (SSO/SCIM if available)
-Feature,/features/workspaces,secondary,team ai note taker,720,27,,,Commercial,Add team pricing and admin controls (SSO/SCIM if available)
-Feature,/features/chrome-extension,primary,record google meet chrome extension,140,36,,,Transactional,"Strong ""no bot"" angle; alt text on 3 images"
-Feature,/features/chrome-extension,secondary,record google meet,1300,30,,,Transactional,"Strong ""no bot"" angle; alt text on 3 images"
-Feature,/features/chrome-extension,secondary,record zoom meeting,1000,31,,,Transactional,"Strong ""no bot"" angle; alt text on 3 images"
+Feature,/features/meeting-notes,primary,ai meeting notes taker,3600,49,,,Commercial,"Retarget 16 Oct: primary ai meeting notes taker (8,100 global). Keep the page about the notes output (summaries, minutes, templates) so it does not compete with home (ai note taker); 11 of 11 images lack alt text"
+Feature,/features/meeting-notes,secondary,ai meeting minutes,1600,49,,,Commercial,"Retarget 16 Oct: primary ai meeting notes taker (8,100 global). Keep the page about the notes output (summaries, minutes, templates) so it does not compete with home (ai note taker); 11 of 11 images lack alt text"
+Feature,/features/meeting-notes,secondary,ai meeting notes,1000,41,,,Commercial,"Retarget 16 Oct: primary ai meeting notes taker (8,100 global). Keep the page about the notes output (summaries, minutes, templates) so it does not compete with home (ai note taker); 11 of 11 images lack alt text"
+Feature,/features/meeting-notes,secondary,meeting notes app,880,51,,,Transactional,"Retarget 16 Oct: primary ai meeting notes taker (8,100 global). Keep the page about the notes output (summaries, minutes, templates) so it does not compete with home (ai note taker); 11 of 11 images lack alt text"
+Feature,/features/meeting-notes,secondary,best ai meeting notes taker,720,36,,,Commercial,"Retarget 16 Oct: primary ai meeting notes taker (8,100 global). Keep the page about the notes output (summaries, minutes, templates) so it does not compete with home (ai note taker); 11 of 11 images lack alt text"
+Feature,/features/meeting-notes,secondary,ai meeting minutes generator,140,30,,,Commercial,"Retarget 16 Oct: primary ai meeting notes taker (8,100 global). Keep the page about the notes output (summaries, minutes, templates) so it does not compete with home (ai note taker); 11 of 11 images lack alt text"
+Feature,/features/ask-your-meetings,primary,ai knowledge base,880,43,,,Commercial,"Retarget 16 Oct: ai knowledge base (2,940 global). Angle: a knowledge base built from your meetings (SERP leans to support tools). Old /features/knowledge-graph 308s here"
+Feature,/features/ask-your-meetings,secondary,ai knowledge base software,140,48,,,Commercial,"Retarget 16 Oct: ai knowledge base (2,940 global). Angle: a knowledge base built from your meetings (SERP leans to support tools). Old /features/knowledge-graph 308s here"
+Feature,/features/ask-your-meetings,secondary,ai knowledge management tools,140,30,,,Commercial,"Retarget 16 Oct: ai knowledge base (2,940 global). Angle: a knowledge base built from your meetings (SERP leans to support tools). Old /features/knowledge-graph 308s here"
+Feature,/features/ask-your-meetings,secondary,searchable meeting history,,,,,Commercial,"Retarget 16 Oct: ai knowledge base (2,940 global). Angle: a knowledge base built from your meetings (SERP leans to support tools). Old /features/knowledge-graph 308s here"
+Feature,/features/multilingual-transcription,primary,multilingual transcription,30,27,82,14,Commercial,Hub for the 17 languages; no higher volume generic term exists. Link to the new /languages pages; ranks 61 on 14 impressions
+Feature,/features/multilingual-transcription,secondary,multilingual meeting transcription,,,20.8,20,Commercial,Hub for the 17 languages; no higher volume generic term exists. Link to the new /languages pages; ranks 61 on 14 impressions
+Feature,/features/multilingual-transcription,secondary,spanish transcription,320,16,,,Commercial,Hub for the 17 languages; no higher volume generic term exists. Link to the new /languages pages; ranks 61 on 14 impressions
+Feature,/features/multilingual-transcription,secondary,multilingual transcription software,,,78.3,10,Commercial,Hub for the 17 languages; no higher volume generic term exists. Link to the new /languages pages; ranks 61 on 14 impressions
+Feature,/features/hinglish-transcription,primary,hindi transcription,30,16,,,Commercial,"Retarget 16 Oct: hindi transcription (India 1,900, KD 15). Keep Hinglish in the title and H1 to hold pos 8.6 and the 7 clicks"
+Feature,/features/hinglish-transcription,secondary,hindi speech to text,30,36,,,Commercial,"Retarget 16 Oct: hindi speech to text is India 1,600, KD 18. Keep Hinglish in the title and H1 to hold pos 8.6 and the 7 clicks"
+Feature,/features/hinglish-transcription,secondary,hinglish transcription,10,18,8.57,14,Commercial,"India 110, KD 28. Retarget 16 Oct: hindi transcription (India 1,900, KD 15). Keep Hinglish in the title and H1 to hold pos 8.6 and the 7 clicks"
+Feature,/features/hinglish-transcription,secondary,hindi english transcription,,,,,Commercial,"Retarget 16 Oct: hindi transcription (India 1,900, KD 15). Keep Hinglish in the title and H1 to hold pos 8.6 and the 7 clicks"
+Feature,/features/meeting-bot,primary,meeting recorder,1900,32,,,Transactional,"Retarget 16 Oct: meeting recorder (6,600 global, India 880). Keep meeting bot as a secondary; zoom meeting recorder stays with its blog post"
+Feature,/features/meeting-bot,secondary,meeting recorder app,590,37,,,Transactional,"Retarget 16 Oct: meeting recorder (6,600 global, India 880). Keep meeting bot as a secondary; zoom meeting recorder stays with its blog post"
+Feature,/features/meeting-bot,secondary,ai meeting recorder,480,37,,,Transactional,"Retarget 16 Oct: meeting recorder (6,600 global, India 880). Keep meeting bot as a secondary; zoom meeting recorder stays with its blog post"
+Feature,/features/meeting-bot,secondary,meeting recorder and transcriber,320,37,,,Transactional,"Retarget 16 Oct: meeting recorder (6,600 global, India 880). Keep meeting bot as a secondary; zoom meeting recorder stays with its blog post"
+Feature,/features/meeting-bot,secondary,minutes of meeting recorder,,,,,Commercial,"India 260, KD 10. Retarget 16 Oct: meeting recorder (6,600 global, India 880). Keep meeting bot as a secondary; zoom meeting recorder stays with its blog post"
+Feature,/features/meeting-bot,secondary,meeting bot,70,37,22.03,97,Mixed (users + developers),"Add a ""not an API"" note. Retarget 16 Oct: meeting recorder (6,600 global, India 880). Keep meeting bot as a secondary; zoom meeting recorder stays with its blog post"
+Feature,/features/meeting-bot,secondary,join zoom call bot,,,27.89,75,Mixed (users + developers),"Retarget 16 Oct: meeting recorder (6,600 global, India 880). Keep meeting bot as a secondary; zoom meeting recorder stays with its blog post"
+Feature,/features/action-items,primary,ai task manager,480,32,,,Commercial,"Retarget 16 Oct: ai task manager (1,300 global, partial intent fit). Link to the action items blog post"
+Feature,/features/action-items,secondary,action item tracker,320,31,,,Commercial,"Retarget 16 Oct: ai task manager (1,300 global, partial intent fit). Link to the action items blog post"
+Feature,/features/action-items,secondary,tracking action items,320,27,,,Commercial,"Retarget 16 Oct: ai task manager (1,300 global, partial intent fit). Link to the action items blog post"
+Feature,/features/action-items,secondary,action item ai,,,81.33,12,Commercial,"Retarget 16 Oct: ai task manager (1,300 global, partial intent fit). Link to the action items blog post"
+Feature,/features/dictation,primary,speech to text mac,1600,25,,,Informational,"Retarget 16 Oct: speech to text mac (2,900 global, KD 25). Link from the dictation-on-mac and Word dictation posts"
+Feature,/features/dictation,secondary,dictation software,1900,32,,,Transactional,"SERP led by Dragon; secondary only. Retarget 16 Oct: speech to text mac (2,900 global, KD 25). Link from the dictation-on-mac and Word dictation posts"
+Feature,/features/dictation,secondary,voice dictation software for mac,590,28,,,Transactional,"Retarget 16 Oct: speech to text mac (2,900 global, KD 25). Link from the dictation-on-mac and Word dictation posts"
+Feature,/features/dictation,secondary,speech to text mac app,320,28,,,Transactional,"Retarget 16 Oct: speech to text mac (2,900 global, KD 25). Link from the dictation-on-mac and Word dictation posts"
+Feature,/features/dictation,secondary,dictation software on mac,320,26,,,Transactional,"Retarget 16 Oct: speech to text mac (2,900 global, KD 25). Link from the dictation-on-mac and Word dictation posts"
+Feature,/features/dictation,secondary,dictation app for mac,260,31,,,Transactional,"Retarget 16 Oct: speech to text mac (2,900 global, KD 25). Link from the dictation-on-mac and Word dictation posts"
+Feature,/features/workspaces,primary,team ai meeting notes,720,25,,,Commercial,Primary unchanged (no better team keyword). Add team pricing and admin controls (SSO/SCIM if available)
+Feature,/features/workspaces,secondary,team ai note taker,720,27,,,Commercial,Primary unchanged (no better team keyword). Add team pricing and admin controls (SSO/SCIM if available)
+Feature,/features/workspaces,secondary,meeting notes software,1000,65,,,Commercial,"KD 65, too hard for a primary; global volume swings 590 to 8,100. Primary unchanged (no better team keyword). Add team pricing and admin controls (SSO/SCIM if available)"
+Feature,/features/chrome-extension,primary,record google meet,1300,30,,,Transactional,"Retarget 16 Oct: record google meet (6,600 global). how to record google meet and can you record google meet stay with the how-to page; alt text on 3 images"
+Feature,/features/chrome-extension,secondary,record google meet chrome extension,140,36,,,Transactional,"Retarget 16 Oct: record google meet (6,600 global). how to record google meet and can you record google meet stay with the how-to page; alt text on 3 images"
+Feature,/features/chrome-extension,secondary,record google meet extension,140,32,,,Transactional,"Retarget 16 Oct: record google meet (6,600 global). how to record google meet and can you record google meet stay with the how-to page; alt text on 3 images"
+Feature,/features/chrome-extension,secondary,google meet recorder extension,70,23,,,Transactional,"Retarget 16 Oct: record google meet (6,600 global). how to record google meet and can you record google meet stay with the how-to page; alt text on 3 images"
+Feature,/features/chrome-extension,secondary,record zoom meeting,1000,31,,,Transactional,"Retarget 16 Oct: record google meet (6,600 global). how to record google meet and can you record google meet stay with the how-to page; alt text on 3 images"
 Use case,/use-cases/sales-calls,primary,ai notetaker sales calls,,,93.31,13,Commercial,Ranks 54; add CRM sync details and a call-prep example
 Use case,/use-cases/sales-calls,secondary,conversation intelligence for sales,40,57,,,Commercial,Ranks 54; add CRM sync details and a call-prep example
 Use case,/use-cases/sales-calls,secondary,record sales calls offline,,,43.22,9,Commercial,Ranks 54; add CRM sync details and a call-prep example
@@ -118,6 +134,7 @@ Blog,/blog/zoom-ai-companion-alternatives,primary,zoom ai companion alternative,
 Blog,/blog/zoom-ai-companion-alternatives,secondary,zoom ai companion alternatives,,,,,Commercial,Pos 6.9: add the CRM gap answer from the AI Mode prompts
 Blog,/blog/dictate-in-microsoft-word,primary,speech to text software for microsoft word,1000,69,,,Informational,Pos 33; link to /features/dictation
 Blog,/blog/dictate-in-microsoft-word,secondary,dictate in microsoft word,,,,,Informational,Pos 33; link to /features/dictation
+Blog,/blog/dictate-in-microsoft-word,secondary,dictation software for microsoft word,1600,8,,,Informational,KD 8 easy win (added 16 Oct); confirm Lynkk dictation works in Word for Mac
 Blog,/blog/dictation-on-mac,primary,dictation on mac,1600,29,58.5,2,Informational,KD 29; add a troubleshooting section
 Blog,/blog/dictation-on-mac,secondary,how to do dictation on mac,1000,42,,,Informational,KD 29; add a troubleshooting section
 Blog,/blog/dictation-on-mac,secondary,dictation on mac not working,480,29,,,Informational,KD 29; add a troubleshooting section
@@ -165,3 +182,8 @@ New page (gap),NEW: /templates/meeting-minutes,primary,meeting minutes template,
 New page (gap),NEW: /templates/meeting-minutes,secondary,board meeting minutes template,1900,28,,,Informational,"22,200/mo; a free template page with downloads"
 New page (gap),"NEW: /integrations/zoom, /integrations/google-meet",primary,zoom ai note taker,390,33,,,Commercial,One landing page per meeting platform
 New page (gap),"NEW: /integrations/zoom, /integrations/google-meet",secondary,google meet ai note taker,590,40,,,Commercial,One landing page per meeting platform
+New page (gap),NEW: /languages/telugu,primary,telugu speech to text,30,18,,,Informational,"India 2,400, KD 14. Tamil, Telugu, Marathi and Bengali are in beta on lynkk.ai; say so on the page"
+New page (gap),NEW: /languages/tamil,primary,tamil speech to text,,,,,Informational,"India 1,600, KD 15. Tamil, Telugu, Marathi and Bengali are in beta on lynkk.ai; say so on the page"
+New page (gap),NEW: /languages/marathi,primary,marathi speech to text,,,,,Informational,"India 390, KD 14. Tamil, Telugu, Marathi and Bengali are in beta on lynkk.ai; say so on the page"
+New page (gap),NEW: /languages/bengali,primary,bengali speech to text,,,,,Informational,"India 390, KD 18. Tamil, Telugu, Marathi and Bengali are in beta on lynkk.ai; say so on the page"
+New page (gap),NEW: /templates/action-item-tracker,primary,action item tracker template,70,31,,,Informational,"Plus excel variants (about 370/mo in total, KD 18 to 31); part of the /templates hub, link to /features/action-items"
