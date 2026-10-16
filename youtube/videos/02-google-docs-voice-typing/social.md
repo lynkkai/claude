@@ -5,6 +5,9 @@ Every caption opens with "AI dictation on Mac" and carries a keyword hashtag. Ly
 from `lynkk-post-kit/docs/TRUTHS.md` > Dictation (Mac app); the Google Docs steps describe Google's
 own feature. Replace `[@lynkk]` with the real handle once it is confirmed.
 
+A second set led by "voice typing in Google Docs" is in `social-voice-typing-google-docs.md`. Use one set
+per post, not both.
+
 | Channel | Video | Note |
 |---|---|---|
 | YouTube, LinkedIn, X, Facebook feed | `out/02-google-docs-voice-typing-long.mp4` | 16:9 as is |
