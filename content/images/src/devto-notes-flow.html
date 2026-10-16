@@ -1,0 +1,52 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Notes flow</title>
+<link rel="stylesheet" href="_base.css">
+<style>
+  /* Lynkk dark tokens (lynkk.ai): bg #0e0e0f, surface #161618, border #262629, text #f3f3f1 / #9d9d9b */
+  body { width: 1000px; height: 560px; background: #0e0e0f; color: #f3f3f1; padding: 44px 52px; }
+  .eyebrow { background: #161618; color: #9d9d9b; border: 1px solid #262629; }
+  h1 { font-size: 34px; margin-top: 16px; }
+  .grid { margin-top: 34px; display: grid; grid-template-columns: 228px 50px 352px 50px 216px; align-items: center; }
+  .col { display: flex; flex-direction: column; gap: 12px; }
+  .box { background: #161618; border: 1px solid #262629; border-radius: 14px; padding: 13px 16px; }
+  .box .t { font-size: 17px; font-weight: 500; }
+  .box .d { font-size: 13.5px; color: #9d9d9b; margin-top: 3px; }
+  .file { font-family: "DejaVu Sans Mono", monospace; font-size: 13.5px; color: #f3f3f1; }
+  .file .dim { color: #9d9d9b; }
+  .repo { background: #161618; border: 1px solid #262629; border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 9px; }
+  .repo .lab { font-size: 13px; color: #9d9d9b; margin-bottom: 2px; }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; vertical-align: 1px; }
+  .out { background: #f3f3f1; color: #151514; border-radius: 14px; padding: 16px 18px; }
+  .out .t { font-size: 17px; font-weight: 500; }
+  .out .d { font-size: 13.5px; color: #656567; margin-top: 4px; line-height: 1.45; }
+  .out .file { color: #151514; margin-top: 10px; font-size: 12.5px; line-height: 1.6; }
+  .arrow { display: flex; justify-content: center; }
+</style></head>
+<body>
+  <span class="eyebrow">How it fits together</span>
+  <h1 class="display">Meeting notes as code</h1>
+  <div class="grid">
+    <div class="col">
+      <div class="box"><div class="t"><span class="dot" style="background:#beb4fb"></span>Daily standup</div><div class="d">Blockers and decisions only</div></div>
+      <div class="box"><div class="t"><span class="dot" style="background:#f57b3a"></span>Sprint planning</div><div class="d">Goal, committed, out of scope</div></div>
+      <div class="box"><div class="t"><span class="dot" style="background:#f7b7ef"></span>Sprint retro</div><div class="d">Starts with last retro's actions</div></div>
+      <div class="box"><div class="t"><span class="dot" style="background:#93b45c"></span>Design review</div><div class="d">One decision, one ADR</div></div>
+    </div>
+    <div class="arrow"><svg width="40" height="22" viewBox="0 0 40 22"><path d="M2 11h32M26 3l9 8-9 8" stroke="#9d9d9b" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="repo">
+      <div class="lab">your repo: docs/</div>
+      <div class="file"><span class="dim">meetings/</span>2026-10-14-standup.md</div>
+      <div class="file"><span class="dim">meetings/</span>2026-10-13-planning.md</div>
+      <div class="file"><span class="dim">meetings/</span>2026-10-24-retro.md</div>
+      <div class="file"><span class="dim">adr/</span>0001-use-postgres.md</div>
+      <div class="lab" style="margin-top:6px">every action item:</div>
+      <div class="file">- [ ] @owner Task (due date)</div>
+    </div>
+    <div class="arrow"><svg width="40" height="22" viewBox="0 0 40 22"><path d="M2 11h32M26 3l9 8-9 8" stroke="#9d9d9b" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="out">
+      <div class="t">open_actions.py</div>
+      <div class="d">Open action items by owner, sorted by due date</div>
+      <div class="file">@priya<br>&nbsp;&nbsp;10-16 Add test #482<br>@sam<br>&nbsp;&nbsp;no date Size reindex</div>
+    </div>
+  </div>
+</body></html>

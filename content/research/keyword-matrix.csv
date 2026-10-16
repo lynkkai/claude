@@ -47,3 +47,7 @@ Medium,Body,how to write meeting notes,880,36,"Method section intro (exact), qui
 Medium,Body,taking meeting notes,720,46,"Intro, AI section"
 Medium,Long-tail,take meeting notes,480,46,Body
 Medium,Long-tail,best way to take meeting notes,140,40,Quick answers (exact question)
+DEV,Head,meeting notes template,22200,49,"Title, intro"
+DEV,Body,sprint retrospective template,390,37,H2 3. Sprint retrospective template (exact)
+DEV,Long-tail,daily standup meeting notes,70,23,H2 1. Daily standup meeting notes template
+DEV,Long-tail,architecture decision record template,70,46,H2 on ADRs + example ADR

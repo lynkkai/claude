@@ -1,8 +1,10 @@
-"""Builds paste-ready versions of the three drafts.
+"""Builds paste-ready versions of the drafts.
 
 - hashnode-post.md: Markdown body for Hashnode's editor (title, subtitle and cover go in their own fields)
 - blogger-post.html: HTML body for Blogger's "HTML view" (title goes in the post title field)
 - medium-post.html: Medium-safe page to copy from and paste into Medium's editor
+- devto-post.md: DEV Markdown with front matter, ready to paste into the DEV editor
+(Word versions of the Medium and DEV posts come from make-docx.js.)
 
 The drafts in content/ stay the single source of truth; re-run this after editing them:
     python3 content/publish/build.py
@@ -107,6 +109,11 @@ page = (
 )
 (OUT / "medium-post.html").write_text(page)
 
+# DEV: Markdown-native, so the paste copy is the draft minus the internal notes comment.
+devto = (CONTENT / "devto-meeting-notes-templates-dev-teams.md").read_text()
+(OUT / "devto-post.md").write_text(re.sub(r"\n<!--.*?-->\n", "\n", devto, count=1, flags=re.S))
+
 print("wrote", OUT / "hashnode-post.md")
+print("wrote", OUT / "devto-post.md")
 print("wrote", OUT / "medium-post.html")
 print("wrote", OUT / "blogger-post.html")

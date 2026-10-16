@@ -147,6 +147,28 @@ gives Lynkk a third ranking page and two internal links to the other posts.
 here; a fresher, more complete story with a template and example has a real chance at page one.
 Medium links are nofollow, so this post's value is ranking, referral clicks and brand mentions.
 
+## Article 4: DEV (dev.to)
+
+**Title:** Meeting Notes Templates for Dev Teams: Standup, Retro, ADR (58 chars)
+**Description (meta):** Four Markdown meeting notes templates for dev teams: standup, sprint planning, sprint retro and ADRs, plus a script that lists open action items.
+**Tags (max 4):** productivity, agile, documentation, markdown
+
+Why this angle: DEV readers are developers, and the other three posts already cover general notes,
+minutes and AI prompts. Engineering meeting templates in Markdown are a different query set, so
+there's no cannibalization. DEV's AI guidelines forbid promoting your own business in AI-assisted
+posts, so Lynkk is not named in the article; the brand lives in the author profile.
+
+| Tier | Keyword | Vol | SD | Placement |
+|---|---|---|---|---|
+| Head | meeting notes template | 22,200 | 49 | Title (as "Meeting Notes Templates"), intro |
+| Body | sprint retrospective template | 390 | 37 | H2 "3. Sprint retrospective template" (exact) |
+| Long-tail | daily standup meeting notes | 70 | 23 | H2 "1. Daily standup meeting notes template" |
+| Long-tail | architecture decision record template | 70 | 46 | H2 on ADRs + example ADR |
+| Long-tail | sprint planning meeting notes | n/a | n/a | H2 "2. Sprint planning meeting notes template" |
+
+Note: Ubersuggest's daily report limit (150) was reached while researching this article, so the
+sprint planning and ADR variants weren't pulled. Re-check them when the quota resets.
+
 ## Density check (exact-match counts in final drafts)
 
 Counted on the article body (draft header comment excluded).

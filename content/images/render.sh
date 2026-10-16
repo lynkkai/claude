@@ -22,3 +22,5 @@ render hashnode-cover 1600 840
 render hashnode-pipeline 1600 560
 render medium-banner 1400 788
 render medium-before-after 1400 760
+render devto-cover 1000 420
+render devto-notes-flow 1000 560

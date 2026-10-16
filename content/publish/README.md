@@ -1,7 +1,8 @@
-# Publishing kit: Hashnode + Blogger + Medium
+# Publishing kit: Hashnode + Blogger + Medium + DEV
 
-Everything needed to publish all three posts. Source drafts live in `content/*.md`; the files here
-are generated from them with `python3 content/publish/build.py` (re-run it after any edit).
+Everything needed to publish all four posts. Source drafts live in `content/*.md`; the files here
+are generated from them with `python3 content/publish/build.py` and
+`node content/publish/make-docx.js` (re-run both after any edit).
 
 | File | Use |
 |---|---|
@@ -14,6 +15,11 @@ are generated from them with `python3 content/publish/build.py` (re-run it after
 | `medium-post.html` | Open in a browser, copy, paste into the Medium editor |
 | `../images/medium-banner.png` | Medium featured image (1400x788) |
 | `../images/medium-before-after.png` | Medium inline before/after graphic (1400x760) |
+| `medium-post.docx` | **Easiest Medium route:** open in Word or Google Docs, select all, copy, paste into Medium |
+| `devto-post.md` | Paste into the DEV editor (Markdown with front matter) |
+| `devto-post.docx` | Word copy of the DEV post for review and sign-off |
+| `../images/devto-cover.png` | DEV cover (1000x420, DEV's cover size) |
+| `../images/devto-notes-flow.png` | DEV inline diagram (1000x560) |
 
 Images follow Lynkk's visual identity as used on lynkk.ai: the three banners use the same layout,
 logo tile, colors and type as Lynkk's own share image (lynkk.ai/opengraph-image); inline images use
@@ -27,6 +33,7 @@ Publish **Blogger first**, then Hashnode, then Medium, then go back and fix the 
 2. Publish Hashnode, replacing `BLOGGER_POST_URL` with the live Blogger URL.
 3. Edit the Blogger post: replace `HASHNODE_POST_URL` with the live Hashnode URL. Update.
 4. Publish Medium with both live URLs already filled in (it links to both).
+5. Publish DEV with the live Hashnode URL filled in.
 
 Space them out: one post per day or two looks natural and gives each its own social push.
 
@@ -93,6 +100,11 @@ two, so don't use "Import a story" and don't set a canonical link.
 | Links that aren't real URLs | Placeholder links are `https://replace-with-...example` |
 | HTML comments / draft notes | Removed |
 
+**Fastest route: the Word file.** Open `medium-post.docx` in Word or Google Docs, select all,
+copy, and paste into a new Medium story. The title, subtitle, headings, lists, links, AI label and
+images come across. If an image doesn't paste, upload it from `../images/` at the same spot.
+Then do steps 6 to 9 below. The HTML route below is the fallback.
+
 1. **New story.** Type the **title** on the first line: `How to Take Meeting Notes People Actually Read`
 2. Press Enter, type the **subtitle**, select it and click the small **T** (subtitle style):
    `Most meeting notes record the conversation. Useful ones record decisions, owners and dates. Here's a simple method, a before-and-after example, and a template you can copy.`
@@ -117,6 +129,31 @@ two, so don't use "Import a story" and don't set a canonical link.
 
 If any block still pastes wrongly, tell me which section and I'll rework it in the draft.
 
+## DEV (step by step)
+
+DEV's AI guidelines are strict: AI-assisted posts must **disclose** the AI help (the closing
+italic line does this) and must **not promote any business, including your own**. Breaking them
+can get the post hidden or the account suspended. So:
+
+- the DEV article never names Lynkk, and the cover has no logo;
+- put lynkk.ai in your **DEV profile** (Settings > Profile > Website URL) and your bio
+  (e.g. "Building Lynkk, an AI meeting assistant"); that's where brand traffic comes from;
+- the article's one link goes to the Hashnode tutorial as genuine further reading.
+
+Links inside DEV articles pass SEO value (no `nofollow`, per the Sept 2026 test).
+
+1. **Create Post** on dev.to. Open `devto-post.md`, copy everything (front matter included) and
+   paste it into the editor. DEV reads the title, description and tags from the front matter.
+2. **Cover:** click "Add a cover image" and upload `devto-cover.png`, then delete the
+   `cover_image: COVER_IMAGE_URL` line (or replace it with the uploaded URL).
+3. **Inline image:** click the image icon in the editor toolbar, upload `devto-notes-flow.png`,
+   and replace `IMAGE_URL_devto-notes-flow` in the line
+   `![How meeting notes flow into the repo...](IMAGE_URL_devto-notes-flow)` with the URL DEV gives you.
+4. Replace `HASHNODE_POST_URL` with the live Hashnode URL.
+5. **Preview**, check the code blocks, then set `published: true` (or click Publish).
+6. Tags are already set (max 4): `productivity`, `agile`, `documentation`, `markdown`.
+7. Leave canonical URL empty: this is an original article.
+
 ## Before you hit publish: guideline check
 
 - [ ] Read the whole post once yourself (Hashnode's Code of Conduct requires you to review
@@ -127,8 +164,11 @@ If any block still pastes wrongly, tell me which section and I'll rework it in t
       more mentions or links.
 - [ ] Medium: AI disclosure line is in the first two paragraphs (or you've rewritten the story in
       your own words). Medium links are nofollow, so the value is readers and brand mentions.
+- [ ] DEV: no Lynkk mention in the article or cover, AI disclosure line kept at the end, lynkk.ai
+      in your DEV profile instead.
 - [ ] No placeholder text left: search for `IMAGE_URL`, `BLOGGER_POST_URL`, `HASHNODE_POST_URL`
-      (Blogger, Hashnode) and `replace-with-` / `Upload image here` (Medium).
+      (Blogger, Hashnode), `replace-with-` / `Upload image here` (Medium) and `COVER_IMAGE_URL`,
+      `IMAGE_URL`, `HASHNODE_POST_URL` (DEV).
 - [ ] All images have alt text.
 
 ## After publishing
