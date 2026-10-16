@@ -4,6 +4,11 @@
 > analysis of our target keywords, Ubersuggest Google autocomplete questions, and a teardown of competitor
 > use-case pages. Keyword volumes are in `research/use-case-keyword-research.md`.
 
+> **Correction (2026-10-16):** the live lynkk.ai site says Lynkk does **not** sync to a CRM and does not list
+> Calendly/Cal.com, SOC 2 or HIPAA. Ignore those claims below. The lynkk.ai-specific plan, with verified product
+> facts and the existing /use-cases pages, is in `research/lynkk-use-case-audit-and-plan.md`.
+
+
 ---
 
 ## Part 1. What Google actually recommends (and what it means for us)
@@ -81,8 +86,8 @@ scaled-content issues.
 | Element | Rule | Example (Sales) |
 |---|---|---|
 | URL | `/use-cases/[role]` | `/use-cases/sales` |
-| Title tag | Primary keyword + benefit + brand. Keep it short enough not to get cut off (roughly 50-60 characters). Unique per page. | `AI Note Taker for Sales Calls: Prep, Notes, CRM \| Lynkk` |
-| Meta description | One or two sentences, unique, summarise the whole page | `Lynkk preps you with past call context, answers questions live by voice, and updates your CRM within 30 seconds after every sales call. Start free.` |
+| Title tag | Primary keyword + benefit + brand. Keep it short enough not to get cut off (roughly 50-60 characters). Unique per page. | `AI Note Taker for Sales Calls: Next Steps and Owners \| Lynkk` |
+| Meta description | One or two sentences, unique, summarise the whole page | `Lynkk records your sales calls, online or in person, and writes the next steps, decisions and open questions with owners and dates. Start free.` |
 | H1 | One only. Says what it is, for whom. Can differ from the title. | `The AI note taker for sales teams that preps, joins and follows up` |
 | Breadcrumb | Visible + `BreadcrumbList` | Home > Use cases > Sales |
 | Byline | "Written by [name] · Reviewed by [name, role] · Updated [date]" | Supports the "Who" in Google's Who/How/Why |
@@ -93,12 +98,12 @@ scaled-content issues.
 - **Subheading, 1-2 sentences:** the outcome for this role, with the primary keyword used naturally. Google often lifts this into the snippet, so make it a real summary.
 - **Primary CTA:** "Start free". **Secondary CTA:** "See a sample [sales] note" (anchor link to section 4).
 - **Trust line:** real customer logos or a real rating and security badges, only if true. Leave out anything not yet confirmed.
-- **Visual:** a real Lynkk screenshot or 30-60s video of *this* use case (for example a sales call summary with CRM fields), not a generic dashboard.
+- **Visual:** a real Lynkk screenshot or 30-60s video of *this* use case (for example a sales call note with next steps and owners), not a generic dashboard.
 
 ### 2. The problem, in the reader's own words (H2) **UNIQUE**
 
 - H2 example: "Why sales reps spend more time on admin than on selling".
-- 3-4 role-specific pains, each 1-2 sentences. Use language from the autocomplete and Reddit research (for example "typing notes while trying to listen", "forgetting what the client said last quarter", "CRM never up to date").
+- 3-4 role-specific pains, each 1-2 sentences. Use language from the autocomplete and Reddit research (for example "typing notes while trying to listen", "forgetting what the client said last quarter", "follow-ups slipping after the call").
 - If you cite a statistic, link the source. No made-up numbers.
 
 ### 3. How Lynkk works for [role]: before, during, after (H2) **UNIQUE content, shared structure**
@@ -107,14 +112,14 @@ This is Lynkk's differentiator and should be on every page, but the *examples mu
 
 - **H3 Before the meeting:** what context Lynkk surfaces for this role (sales: last call's objections and open next steps; recruiting: previous interviewer feedback on the candidate).
 - **H3 During the meeting:** what the live voice assistant does for this role (sales: "What pricing did we quote them in March?").
-- **H3 Within 30 seconds after:** the exact outputs for this role (sales: summary, next steps, CRM fields updated; PM: Jira tickets created).
+- **H3 Within 30 seconds after:** the exact outputs for this role (sales: next steps with owners, decisions, open questions, follow-up email; PM: Jira issues).
 - One screenshot per H3, placed next to the text, with descriptive alt text.
 
 ### 4. A real example, step by step (H2) **UNIQUE, most important section**
 
 - H2 example: "A discovery call with Lynkk, start to finish".
 - Walk through one realistic meeting in 4-6 steps.
-- **Show the actual output**: a sample note or summary block in HTML text (not only an image). For sales: the call summary, next steps, and the CRM fields that were filled in. For recruiting: a scorecard-style interview summary. For meeting minutes: a full MoM sample.
+- **Show the actual output**: a sample note or summary block in HTML text (not only an image). For sales: the call note with next steps, decisions and open questions, plus the follow-up email. For recruiting: a scorecard-style interview summary. For meeting minutes: a full MoM sample.
 - This section is what gives the page "original information" and "first-hand experience" in Google's terms, and it is the part AI Overviews can quote.
 
 ### 5. Jobs, features and outcomes table (H2) **UNIQUE**
@@ -122,14 +127,14 @@ This is Lynkk's differentiator and should be on every page, but the *examples mu
 | What you need to do | How Lynkk does it | Result |
 |---|---|---|
 | Prep for a renewal call | Surfaces past calls, open items, who said what | Walk in ahead, not cold |
-| Log the call | Updates CRM fields automatically | No manual data entry |
+| Follow up after the call | Drafts the follow-up email from the note | Follow-up sent the same day |
 | ... | ... | ... |
 
 Keep it to 5-7 rows. Only features that exist today.
 
 ### 6. Integrations for this workflow (H2)
 
-- Show only the integrations relevant to the role (sales: CRM, calendar, Calendly/Cal.com; PM: Jira, calendar; everyone: MCP).
+- Show only the integrations relevant to the role (sales: Zoom, Meet, Teams, Google Calendar; PM: Jira; everyone: Slack).
 - Name specific tools only once confirmed (see "Claims to confirm" below).
 
 ### 7. Proof (H2) **UNIQUE**
@@ -140,7 +145,7 @@ Keep it to 5-7 rows. Only features that exist today.
 ### 8. Honest comparison (H2)
 
 - H2 example: "Lynkk vs manual notes vs traditional call recorders".
-- A 3-column table on 5-6 criteria that matter for this role (in-person capture, live voice answers, CRM updates, data residency, languages, price to start).
+- A 3-column table on 5-6 criteria that matter for this role (in-person capture, no-bot recording, answers during calls, data region, languages, price to start).
 - Be accurate about competitors. This section matches the "comparison" intent we saw in the SERPs and links to the full `/compare/` page.
 
 ### 9. Security, privacy and compliance (H2)
@@ -152,7 +157,7 @@ Keep it to 5-7 rows. Only features that exist today.
 
 ### 10. Get started in 3 steps (H2)
 
-1. Sign up free. 2. Connect your calendar (+ CRM or Jira for this role). 3. Join your next meeting or record in person.
+1. Sign up free. 2. Connect your calendar (+ Jira for this role). 3. Join your next meeting or record in person.
 
 ### 11. FAQ (H2) **UNIQUE questions per page**
 
@@ -190,9 +195,9 @@ FAQ questions come from Ubersuggest Google autocomplete and question data.
 
 ### 1. Sales: `/use-cases/sales`
 - **Primary keyword:** ai note taker for sales (calls). **Secondary:** conversation intelligence software, ai sales assistant, sales call recording software.
-- **Title:** `AI Note Taker for Sales Calls: Prep, Notes, CRM | Lynkk`
-- **Unique sections:** discovery-call walkthrough with CRM fields; sales manager view; follow-up through Calendly / Cal.com.
-- **FAQ:** Which AI note taker is best for sales calls? Does Lynkk work with Salesforce or HubSpot? Can AI take notes for you during a sales call? Are AI note takers accurate? Is Lynkk free to start? Do I need to tell prospects the call is recorded?
+- **Title:** `AI Note Taker for Sales Calls: Next Steps and Owners | Lynkk`
+- **Unique sections:** discovery-call walkthrough with the sample note and follow-up email; asking questions across an account's calls; in-person and offline meetings.
+- **FAQ:** Which AI note taker is best for sales calls? Does Lynkk connect to a CRM? (Answer honestly: no.) Can AI take notes for you during a sales call? Are AI note takers accurate? Is Lynkk free to start? Do I need to tell prospects the call is recorded?
 - **Supporting pages:** `/compare/gong-alternatives`, blog "AI for sales: practical use cases".
 
 ### 2. Recruiting & HR: `/use-cases/recruiting`
@@ -236,10 +241,10 @@ FAQ questions come from Ubersuggest Google autocomplete and question data.
 - **Supporting page:** `/templates/one-on-one-meeting`.
 
 ### 9. Real estate: `/use-cases/real-estate`
-- **Primary:** ai note taker for real estate agents. Showings captured in person, client follow-ups, CRM updates.
+- **Primary:** ai note taker for real estate agents. Showings captured in person, client follow-ups. Lower priority: buyers expect CRM sync.
 
 ### 10. Financial advisors: `/use-cases/financial-advisors`
-- **Primary:** ai note taker for financial advisors. Client review meetings, compliance-friendly notes, data residency, CRM. Needs confirmed compliance claims.
+- **Primary:** ai note taker for financial advisors. Client review meetings, compliance-friendly notes, data region. Lower priority: buyers expect CRM sync.
 
 ---
 

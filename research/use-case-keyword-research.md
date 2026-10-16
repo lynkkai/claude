@@ -5,6 +5,11 @@
 > Intent comes from Ubersuggest: Info = informational, Comm = commercial, Trans = transactional, Nav = navigational.
 > SD = SEO difficulty (0-100). CPC in USD.
 
+> **Correction (2026-10-16):** the live lynkk.ai site says Lynkk does **not** sync to a CRM and does not list
+> Calendly/Cal.com, SOC 2 or HIPAA. Ignore those claims below. The lynkk.ai-specific plan, with verified product
+> facts and the existing /use-cases pages, is in `research/lynkk-use-case-audit-and-plan.md`.
+
+
 ## 1. Key finding: where the volume actually is
 
 People rarely search "AI note taker for [role]". Those modifier phrases are tiny:
@@ -39,7 +44,7 @@ Score = cluster volume x commercial intent x how well Lynkk's real features fit 
 
 | # | Use case | Cluster volume US | Cluster volume India | Main intent | CPC signal | Lynkk fit |
 |---|---|---|---|---|---|---|
-| 1 | **Sales teams** (calls, CRM updates, deal prep) | ~8,600 | ~1,500 | Commercial | Very high ($26-$108) | Excellent |
+| 1 | **Sales teams** (calls, next steps, deal prep) | ~8,600 | ~1,500 | Commercial | Very high ($26-$108) | Excellent |
 | 2 | **HR & recruiting interviews** | ~12,200 | ~4,300 | Commercial / Info | High ($40-$94) | Strong |
 | 3 | **Meeting minutes (MoM) for ops, admin & boards** | ~5,200 | **~42,100** | Informational | Medium | Excellent |
 | 4 | **Project managers, product & engineering** (Jira) | ~2,900 | ~1,300 | Commercial | Medium ($20) | Excellent |
@@ -47,8 +52,8 @@ Score = cluster volume x commercial intent x how well Lynkk's real features fit 
 | 6 | **Marketing teams** (customer interviews, VoC, content) | ~3,900 | ~2,900 | Commercial | Medium ($22-$29) | Good |
 | 7 | **Lawyers & legal teams** (client consultations) | ~2,400 | ~720 | Commercial | High ($43) | Good (data residency) |
 | 8 | **Managers & 1:1 meetings** | ~2,400 | - | Informational | Low | Excellent (pre-meeting context) |
-| 9 | **Real estate agents** | ~590 | - | Commercial | Medium ($21) | Good (in-person + CRM) |
-| 10 | **Financial advisors & wealth managers** | ~420 | - | Commercial | High ($28-$30) | Good (compliance, CRM) |
+| 9 | **Real estate agents** | ~590 | - | Commercial | Medium ($21) | Fair (in-person; no CRM sync) |
+| 10 | **Financial advisors & wealth managers** | ~420 | - | Commercial | High ($28-$30) | Fair (data region; no CRM sync) |
 
 Honourable mentions (fold into other pages or build later): customer success (110/mo but $93 CPC,
 merge into Sales), consultants & agencies (140/mo, $23 CPC), Mac dictation (dictation software 1,900/mo US,
@@ -74,9 +79,9 @@ supports the Mac app). Gated: healthcare (see section 4).
 - **Why #1:** the highest CPCs in the whole study, which means buyers here pay. "gong alternatives"
   and "sales call recording software" have low SD (31) and are easy wins.
 - **Lynkk features to lead with:** context from past calls before every call, live voice answers during
-  the call, CRM fields updated and action items assigned within 30 seconds after.
-- **Page angle:** "AI note taker for sales: walk into every call ahead, leave with the CRM already updated."
-- **Supporting pages:** Gong alternative, conversation intelligence for SMBs, AI CRM note-taking.
+  the call, next steps with owners, decisions and a follow-up email after (no CRM sync).
+- **Page angle:** "AI note taker for sales: walk into every call ahead, leave with the next steps already written down."
+- **Supporting pages:** Gong alternative, conversation intelligence for SMBs.
 - **AI prompts to track (Ubersuggest):**
   - What is the best AI note taker for sales teams with CRM integration?
   - AI note taker for sales teams vs traditional manual note-taking tools, which is better?
@@ -205,7 +210,7 @@ supports the Mac app). Gated: healthcare (see section 4).
 | ai for real estate agents | 590 | Comm | $20.82 | 34 |
 
 - Showings and client calls happen in person and on the phone. Lead with in-person capture, follow-ups
-  through Calendly or Cal.com, and CRM updates.
+  and follow-up emails. Buyers here expect CRM sync, which Lynkk doesn't offer.
 
 ### 10. Financial advisors & wealth managers
 
@@ -217,7 +222,7 @@ supports the Mac app). Gated: healthcare (see section 4).
 | ai note taker for financial advisors | 30 | Trans | $28.10 | 30 |
 
 - A small but high-value niche with established vertical players (Jump, Zocks). Lead with compliance-friendly
-  notes, data residency and CRM updates.
+  notes and data residency. Buyers here expect CRM sync, which Lynkk doesn't offer.
 - **AI prompt:** Which AI note taker offers the most accurate transcription for financial advisors?
 
 ---
