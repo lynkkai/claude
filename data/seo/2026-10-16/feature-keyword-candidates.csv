@@ -1,0 +1,42 @@
+page,role,keyword,market,volume,seo_difficulty,global_volume,status,note
+/features/meeting-notes,current_primary,ai meeting notes,US,1000,41,,current,
+/features/meeting-notes,proposed_primary,ai meeting notes taker,US,3600,49,8100,proposed,India 390; keep page about the notes output so it does not compete with home (ai note taker)
+/features/meeting-notes,secondary,ai meeting minutes,US,1600,49,4400,proposed,
+/features/meeting-notes,secondary,meeting notes app,US,880,51,,proposed,India 210
+/features/meeting-notes,secondary,best ai meeting notes taker,US,720,36,,proposed,
+/features/meeting-notes,secondary,ai meeting minutes generator,US,140,30,,proposed,
+/features/meeting-bot,current_primary,meeting bot,US,70,37,,current,GSC pos 22
+/features/meeting-bot,proposed_primary,meeting recorder,US,1900,32,6600,proposed,India 880 (KD 41); zoom meeting recorder stays with its blog post
+/features/meeting-bot,secondary,meeting recorder app,US,590,37,,proposed,
+/features/meeting-bot,secondary,ai meeting recorder,US,480,37,,proposed,
+/features/meeting-bot,secondary,meeting recorder and transcriber,US,320,37,,proposed,
+/features/meeting-bot,secondary,minutes of meeting recorder,India,260,10,,proposed,
+/features/chrome-extension,current_primary,record google meet chrome extension,US,140,36,,current,
+/features/chrome-extension,proposed_primary,record google meet,US,1300,30,6600,proposed,how to record google meet (2400) stays with the planned how-to page
+/features/chrome-extension,secondary,can you record google meet,US,720,29,,proposed,
+/features/chrome-extension,secondary,record google meet extension,US,140,32,,proposed,
+/features/chrome-extension,secondary,google meet recorder extension,US,70,23,,proposed,
+/features/dictation,current_primary,dictation app for mac,US,260,31,,current,
+/features/dictation,proposed_primary,speech to text mac,US,1600,25,2900,proposed,
+/features/dictation,secondary,dictation software,US,1900,32,2900,proposed,SERP led by Dragon; secondary only
+/features/dictation,secondary,voice dictation software for mac,US,590,28,,proposed,
+/features/dictation,secondary,speech to text mac app,US,320,28,,proposed,
+/features/dictation,secondary,dictation software on mac,US,320,26,,proposed,
+/features/dictation,blog_secondary,dictation software for microsoft word,US,1600,8,,proposed,give to the speech to text for Word blog post; confirm dictation works in Word for Mac
+/features/hinglish-transcription,current_primary,hinglish transcription,India,110,28,,current,US 10; GSC pos 8.6 and 7 clicks; keep in title and H1
+/features/hinglish-transcription,proposed_primary,hindi transcription,India,1900,15,1900,proposed,
+/features/hinglish-transcription,secondary,hindi speech to text,India,1600,18,1600,proposed,
+/features/multilingual-transcription,current_primary,multilingual transcription,US,30,27,,current,GSC pos 82; no higher volume generic term found
+/features/multilingual-transcription,language_page,telugu speech to text,India,2400,14,,proposed,only if Lynkk supports Telugu; build /languages/telugu
+/features/multilingual-transcription,language_page,tamil speech to text,India,1600,15,,proposed,only if supported
+/features/multilingual-transcription,language_page,marathi speech to text,India,390,14,,proposed,only if supported
+/features/multilingual-transcription,secondary,spanish transcription,US,320,16,,proposed,only if supported
+/features/ask-your-meetings,current_primary,ai knowledge management tools,US,140,30,,current,
+/features/ask-your-meetings,proposed_primary,ai knowledge base,US,880,43,2940,proposed,SERP intent leans to support knowledge bases; angle: a knowledge base built from your meetings
+/features/ask-your-meetings,secondary,ai knowledge base software,US,140,48,,proposed,
+/features/action-items,current_primary,tracking action items,US,320,27,,current,
+/features/action-items,proposed_primary,ai task manager,US,480,32,1300,proposed,partial intent fit (Motion style task apps)
+/features/action-items,secondary,action item tracker,US,320,31,,proposed,
+/features/action-items,template_hub,action item tracker template (plus excel variants),US,370,18-31,,proposed,better on the /templates hub
+/features/workspaces,current_primary,team ai meeting notes,US,720,25,,keep,no better team keyword found
+/features/workspaces,secondary,meeting notes software,US,1000,65,2400,proposed,KD too high for a primary; global volume swings 590 to 8100
