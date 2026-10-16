@@ -30,7 +30,7 @@
 | **Impact numbers** | Fireflies recruiting: "40% faster hiring", "12 hrs saved weekly" | No | **Not added.** We don't have real numbers yet. Add them once real customer results exist |
 | **Security badges** | Fireflies: SOC 2 Type II, GDPR, HIPAA | Partly | Kept our privacy line (data region, AES-256, no training). We can't claim certifications that aren't confirmed |
 | **Customer quotes** | Fireflies: "Don't take our word for it" | No | **Not added.** Needs real quotes from customers in each role |
-| **Pricing on the page** | Fireflies sales: Free, $10, $19, $39 per seat | In the FAQ | Kept in the FAQ (Free plan, Pro $15/month) |
+| **Pricing on the page** | Fireflies sales: Free, $10, $19, $39 per seat | Only in the FAQ | **Added** a simple Free vs Pro pricing block to every page, with the Pro features that matter for that use case |
 
 ## 3. Use case by use case
 
@@ -52,8 +52,9 @@
 1. **New "In simple words" section** after the headline: what the use case is, in 2-3 short sentences, plus a "Who it's for" list.
 2. **New "Before and after" table**: three rows of life without Lynkk vs with Lynkk, plus a "Works with" line.
 3. **Simpler words**: replaced "cite" and "citations" with "shows where the answer came from", and "note shape" with "note format".
+4. **New "Simple pricing" block** before the FAQ: Free ($0) vs Pro ($15 a month), with the Pro features for that use case.
 
-Each page is now about 650 words (up from about 500), and 9 blocks instead of 7.
+Each page is now about 700 words (up from about 500), and 10 blocks instead of 7.
 
 ## 5. What would make the pages even stronger (needs real data)
 

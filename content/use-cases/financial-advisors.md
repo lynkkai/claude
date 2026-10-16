@@ -16,7 +16,7 @@ Competitors here (Jump, Zocks) sell CRM sync and compliance archives, which Lynk
 
 ## 2. Page design
 
-9 blocks, about 650 words. One centred column, white background, light grey cards. Columns stack on mobile.
+10 blocks, about 700 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
@@ -34,9 +34,11 @@ Choose your data region || Retention you control
 WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
 # 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Consent flow
-# 8. FAQ (4 questions)
+# 8. PRICING (2 columns)
+FREE / $0 / Notes and action items || PRO / $15 a month / Unlimited notes + Pro features
+# 9. FAQ (4 questions)
 Question / Question / Question / Question
-# 9. FINAL CTA
+# 10. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -117,7 +119,18 @@ Financial advisors meet clients to talk about goals, money and life changes. The
 
 AES-256 encryption · Never used for training · Private by default · Consent flow for recording. [Security](/security)
 
-### Block 8. FAQ
+### Block 8. Pricing
+
+## Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus Ask Lynkk across a client's past reviews, and the decision log. |
+
+[Compare plans](/pricing)
+
+### Block 9. FAQ
 
 ## Questions about AI for financial advisors
 
@@ -138,7 +151,7 @@ want private, accurate notes from every client meeting, online or in person, try
 
 Yes. Ask before you record. Rules differ by country and state.
 
-### Block 9. Final CTA
+### Block 10. Final CTA
 
 ## Record your next client review. Walk into the next one prepared.
 
@@ -148,3 +161,4 @@ Yes. Ask before you record. Rules differ by country and state.
 
 - Compliance review of all wording (no recordkeeping or regulatory claims)
 - Sample uses Indian names; use a US sample for a US version if needed
+- Pricing block: confirm the free plan limit before adding a number (the site gives three versions)

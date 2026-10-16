@@ -17,7 +17,7 @@ Separate blog post later: "follow up email after sales call" (8,100 US / 480 Ind
 
 ## 2. Page design
 
-9 blocks, about 670 words. One centred column, white background, light grey cards. Columns stack on mobile.
+10 blocks, about 730 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
@@ -35,9 +35,11 @@ Record in person, offline || Send to Jira
 WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
 # 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Consent flow
-# 8. FAQ (4 questions)
+# 8. PRICING (2 columns)
+FREE / $0 / Notes and action items || PRO / $15 a month / Unlimited notes + Pro features
+# 9. FAQ (4 questions)
 Question / Question / Question / Question
-# 9. FINAL CTA
+# 10. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -125,7 +127,18 @@ Writing the follow-up? See [follow-up email examples after a sales call](/blog/f
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
 
-### Block 8. FAQ
+### Block 8. Pricing
+
+## Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus the Sales Call note format, Cue answers during the call, and Ask Lynkk across every call. |
+
+[Compare plans](/pricing)
+
+### Block 9. FAQ
 
 ## Questions about AI for sales calls
 
@@ -146,7 +159,7 @@ add CRM sync and forecasting.
 
 Yes, there's a free plan with no credit card. Pro is $15 a month.
 
-### Block 9. Final CTA
+### Block 10. Final CTA
 
 ## Record your next sales call. Read the next steps after.
 
@@ -158,3 +171,4 @@ Yes, there's a free plan with no credit card. Pro is $15 a month.
 - How Cue works during a call
 - How the recording consent flow works
 - Keep the sample note as HTML text, and update the title, meta description and FAQ structured data
+- Pricing block: confirm the free plan limit before adding a number (the site gives three versions)

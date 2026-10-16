@@ -18,7 +18,7 @@ mostly people looking for the UserInterviews.com platform.
 
 ## 2. Page design
 
-9 blocks, about 690 words. One centred column, white background, light grey cards. Columns stack on mobile.
+10 blocks, about 740 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
@@ -36,9 +36,11 @@ In person, even offline || Share and revoke
 WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
 # 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Consent flow
-# 8. FAQ (4 questions)
+# 8. PRICING (2 columns)
+FREE / $0 / Notes and action items || PRO / $15 a month / Unlimited notes + Pro features
+# 9. FAQ (4 questions)
 Question / Question / Question / Question
-# 9. FINAL CTA
+# 10. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -125,7 +127,18 @@ Interview transcription means turning a recorded interview into written text. Ly
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
 
-### Block 8. FAQ
+### Block 8. Pricing
+
+## Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus the Customer Interview note format, and Ask Lynkk across every interview. |
+
+[Compare plans](/pricing)
+
+### Block 9. FAQ
 
 ## Questions about interview transcription
 
@@ -147,7 +160,7 @@ can ask across all of them.
 
 Yes, there's a free plan with no credit card. Pro is $15 a month.
 
-### Block 9. Final CTA
+### Block 10. Final CTA
 
 ## Record your next interview. Keep your eyes on the person.
 
@@ -158,3 +171,4 @@ Yes, there's a free plan with no credit card. Pro is $15 a month.
 - Free plan limit (the site gives three different versions)
 - How the consent flow works for research participants
 - Keep the sample transcript as HTML text, and update the title, meta description and FAQ structured data
+- Pricing block: confirm the free plan limit before adding a number (the site gives three versions)

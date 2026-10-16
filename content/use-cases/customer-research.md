@@ -16,7 +16,7 @@ stays with `/use-cases/user-interviews`, so the two pages don't compete.
 
 ## 2. Page design
 
-9 blocks, about 660 words. One centred column, white background, light grey cards. Columns stack on mobile.
+10 blocks, about 720 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
@@ -34,9 +34,11 @@ Exact quotes, timestamped || Share and revoke
 WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
 # 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Consent flow
-# 8. FAQ (4 questions)
+# 8. PRICING (2 columns)
+FREE / $0 / Notes and action items || PRO / $15 a month / Unlimited notes + Pro features
+# 9. FAQ (4 questions)
 Question / Question / Question / Question
-# 9. FINAL CTA
+# 10. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -118,7 +120,18 @@ Voice of customer means what your customers say, in their own words: what they l
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
 
-### Block 8. FAQ
+### Block 8. Pricing
+
+## Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus Ask Lynkk across every customer call, and the Customer Interview note format. |
+
+[Compare plans](/pricing)
+
+### Block 9. FAQ
 
 ## Questions about AI for customer research
 
@@ -138,7 +151,7 @@ Ask the customer first. Lynkk gives you the exact words and the moment they were
 
 Yes, there's a free plan with no credit card. Ask Lynkk across calls is part of Pro ($15 a month).
 
-### Block 9. Final CTA
+### Block 10. Final CTA
 
 ## Record your next customer call. Ask what customers really said.
 
@@ -148,3 +161,4 @@ Yes, there's a free plan with no credit card. Ask Lynkk across calls is part of 
 
 - How speaker labels work with many people in one room (focus groups)
 - Link this page from `/use-cases`, the footer and `/use-cases/user-interviews`
+- Pricing block: confirm the free plan limit before adding a number (the site gives three versions)

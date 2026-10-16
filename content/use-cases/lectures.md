@@ -20,7 +20,7 @@ since they're broader than lectures.
 
 ## 2. Page design
 
-9 blocks, about 670 words. One centred column, white background, light grey cards. Columns stack on mobile.
+10 blocks, about 720 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
@@ -38,9 +38,11 @@ Ask about a lecture || Up to 2 hours
 WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
 # 7. RECORDING PERMISSION (one line)
 Ask your lecturer first || Check your school's rules
-# 8. FAQ (4 questions)
+# 8. PRICING (2 columns)
+FREE / $0 / Notes and action items || PRO / $15 a month / Unlimited notes + Pro features
+# 9. FAQ (4 questions)
 Question / Question / Question / Question
-# 9. FINAL CTA
+# 10. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -125,7 +127,18 @@ A lecture recorder records your class so you can listen again later. Lynkk goes 
 Ask your lecturer before you record, even if the notes are only for you. Many schools have their own rules about
 recording classes, so check those too, especially before you share a recording.
 
-### Block 8. FAQ
+### Block 8. Pricing
+
+## Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus questions about one lecture, and Ask Lynkk across all your lectures. |
+
+[Compare plans](/pricing)
+
+### Block 9. FAQ
 
 ## Questions about recording lectures
 
@@ -145,7 +158,7 @@ No. Lynkk records the audio and writes the note from what was said. It doesn't c
 
 Yes. Recording lectures and getting the note works on the free plan. Asking questions about a lecture is part of Pro.
 
-### Block 9. Final CTA
+### Block 10. Final CTA
 
 ## Record your next lecture. Replay the part you missed.
 
@@ -155,3 +168,4 @@ Yes. Recording lectures and getting the note works on the free plan. Asking ques
 
 - Free plan limit (the site gives three different versions), and that lectures work fully on Free (the use-case hub marks them "Free")
 - Keep the sample note as HTML text, and update the title, meta description and FAQ structured data
+- Pricing block: confirm the free plan limit before adding a number (the site gives three versions)

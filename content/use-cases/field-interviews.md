@@ -22,7 +22,7 @@ Notta, Turboscribe). Build `/features/hindi-transcription` later and link it fro
 
 ## 2. Page design
 
-9 blocks, about 650 words. One centred column, white background, light grey cards. Columns stack on mobile.
+10 blocks, about 700 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
@@ -40,9 +40,11 @@ Every speaker labelled || Ask across the trip
 WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
 # 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Share and revoke
-# 8. FAQ (4 questions)
+# 8. PRICING (2 columns)
+FREE / $0 / Notes and action items || PRO / $15 a month / Unlimited notes + Pro features
+# 9. FAQ (4 questions)
 Question / Question / Question / Question
-# 9. FINAL CTA
+# 10. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -126,7 +128,18 @@ A field interview is a conversation you record out in the world: on a farm, in a
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Share a note by link and revoke it anytime. [Security](/security)
 
-### Block 8. FAQ
+### Block 8. Pricing
+
+## Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus the Customer Interview note format, and Ask Lynkk across every interview from the trip. |
+
+[Compare plans](/pricing)
+
+### Block 9. FAQ
 
 ## Questions about recording field interviews
 
@@ -147,7 +160,7 @@ Telugu, Marathi and Bengali in beta.
 
 Up to 2 hours per recording. For a longer session, start a new recording.
 
-### Block 9. Final CTA
+### Block 10. Final CTA
 
 ## Record your next field interview, signal or not.
 
@@ -157,3 +170,4 @@ Up to 2 hours per recording. For a longer session, start a new recording.
 
 - Language list: this page lists 14 languages + 4 in beta, the homepage says 17. Use one number everywhere
 - Keep the sample transcript as HTML text, and update the title, meta description and FAQ structured data
+- Pricing block: confirm the free plan limit before adding a number (the site gives three versions)

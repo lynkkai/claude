@@ -20,7 +20,7 @@ rank). Let `/blog/daily-standup-meeting` stay the main page for them and link it
 
 ## 2. Page design
 
-9 blocks, about 680 words. One centred column, white background, light grey cards. Columns stack on mobile.
+10 blocks, about 730 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
@@ -38,9 +38,11 @@ Standups in the room || Ask in Slack
 WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
 # 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Share and revoke
-# 8. FAQ (4 questions)
+# 8. PRICING (2 columns)
+FREE / $0 / Notes and action items || PRO / $15 a month / Unlimited notes + Pro features
+# 9. FAQ (4 questions)
 Question / Question / Question / Question
-# 9. FINAL CTA
+# 10. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -128,7 +130,18 @@ New to standups? Read our guide to the [daily standup meeting](/blog/daily-stand
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Share a note by link and revoke it anytime. [Security](/security)
 
-### Block 8. FAQ
+### Block 8. Pricing
+
+## Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus the Daily Stand-up note format, Ask Lynkk, and Lynkk for Slack. |
+
+[Compare plans](/pricing)
+
+### Block 9. FAQ
 
 ## Questions about AI standup notes
 
@@ -149,7 +162,7 @@ Yes. Any recurring meeting on your calendar works, and in the room you record wi
 Lynkk doesn't replace your project tool. It captures what was said in the meeting and turns it into action items you can
 send to Jira.
 
-### Block 9. Final CTA
+### Block 10. Final CTA
 
 ## Record tomorrow's standup. Read the note after.
 
@@ -159,3 +172,4 @@ send to Jira.
 
 - Ask in Slack is a Pro feature (live page says so): add "Pro" to that card if the design shows plan badges
 - Keep the sample note as HTML text, and update the title, meta description and FAQ structured data
+- Pricing block: confirm the free plan limit before adding a number (the site gives three versions)

@@ -85,6 +85,15 @@ Lynkk listens to your sales call and writes the notes for you. After the call yo
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
 
+#### Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus the Sales Call note format, Cue answers during the call, and Ask Lynkk across every call. |
+
+[Compare plans](/pricing)
+
 #### Questions about AI for sales calls
 
 **Can Lynkk record without a bot joining?**
@@ -180,6 +189,15 @@ Interview transcription means turning a recorded interview into written text. Ly
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
+
+#### Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus the Customer Interview note format, and Ask Lynkk across every interview. |
+
+[Compare plans](/pricing)
 
 #### Questions about interview transcription
 
@@ -279,6 +297,15 @@ New to standups? Read our guide to the [daily standup meeting](/blog/daily-stand
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Share a note by link and revoke it anytime. [Security](/security)
 
+#### Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus the Daily Stand-up note format, Ask Lynkk, and Lynkk for Slack. |
+
+[Compare plans](/pricing)
+
 #### Questions about AI standup notes
 
 **Does everyone on the team need Lynkk?**
@@ -371,6 +398,15 @@ A field interview is a conversation you record out in the world: on a farm, in a
 
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Share a note by link and revoke it anytime. [Security](/security)
+
+#### Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus the Customer Interview note format, and Ask Lynkk across every interview from the trip. |
+
+[Compare plans](/pricing)
 
 #### Questions about recording field interviews
 
@@ -466,6 +502,15 @@ A lecture recorder records your class so you can listen again later. Lynkk goes 
 Ask your lecturer before you record, even if the notes are only for you. Many schools have their own rules about
 recording classes, so check those too, especially before you share a recording.
 
+#### Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus questions about one lecture, and Ask Lynkk across all your lectures. |
+
+[Compare plans](/pricing)
+
 #### Questions about recording lectures
 
 **Can I record a lecture on my laptop?**
@@ -556,6 +601,15 @@ Voice of customer means what your customers say, in their own words: what they l
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
 
+#### Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus Ask Lynkk across every customer call, and the Customer Interview note format. |
+
+[Compare plans](/pricing)
+
 #### Questions about AI for customer research
 
 **Can Lynkk do focus group transcription?**
@@ -645,6 +699,15 @@ In a client meeting, a lawyer needs to listen closely and remember every fact. W
 
 AES-256 encryption · Never used for training · Audio retention you control (keep, delete after 90 or 30 days, or
 delete after upload) · Consent flow for recording. [Security](/security)
+
+#### Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus Ask Lynkk across a client's meetings, and the decision log. |
+
+[Compare plans](/pricing)
 
 #### Questions about AI for lawyers
 
@@ -743,6 +806,15 @@ New to 1:1s? Read our guide to the [one on one meeting](/blog/one-on-one-meeting
 Ask your report before you record, and tell them who can see the note. Notes are private by default, share links can be
 revoked, and nothing is used to train models. [Security](/security)
 
+#### Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus the 1:1 note format, Ask Lynkk across past 1:1s, and the weekly digest. |
+
+[Compare plans](/pricing)
+
 #### Questions about AI for 1:1 meetings
 
 **Does my report need Lynkk?**
@@ -833,6 +905,15 @@ Real estate agents talk to many buyers and sellers every week. Each one has a bu
 Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training ·
 Consent flow for recording. [Security](/security)
 
+#### Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus Ask Lynkk about any client, and Cue answers during calls. |
+
+[Compare plans](/pricing)
+
 #### Questions about AI for real estate agents
 
 **Does Lynkk sync with my real estate CRM?**
@@ -921,6 +1002,15 @@ Financial advisors meet clients to talk about goals, money and life changes. The
 **Works with:** Zoom, Google Meet, Microsoft Teams and the Mac app. Lynkk doesn't connect to a CRM.
 
 AES-256 encryption · Never used for training · Private by default · Consent flow for recording. [Security](/security)
+
+#### Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus Ask Lynkk across a client's past reviews, and the decision log. |
+
+[Compare plans](/pricing)
 
 #### Questions about AI for financial advisors
 

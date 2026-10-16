@@ -15,7 +15,7 @@ About 4,500 US + 700 India searches a month. Both "ai for" terms are hard (SD 55
 
 ## 2. Page design
 
-9 blocks, about 640 words. One centred column, white background, light grey cards. Columns stack on mobile.
+10 blocks, about 700 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
@@ -33,9 +33,11 @@ In-person consultations || Ask across the matter
 WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
 # 7. PRIVACY (one line of 4 badges)
 Data region || AES-256 || No training || Retention control
-# 8. FAQ (4 questions)
+# 8. PRICING (2 columns)
+FREE / $0 / Notes and action items || PRO / $15 a month / Unlimited notes + Pro features
+# 9. FAQ (4 questions)
 Question / Question / Question / Question
-# 9. FINAL CTA
+# 10. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -117,7 +119,18 @@ In a client meeting, a lawyer needs to listen closely and remember every fact. W
 AES-256 encryption · Never used for training · Audio retention you control (keep, delete after 90 or 30 days, or
 delete after upload) · Consent flow for recording. [Security](/security)
 
-### Block 8. FAQ
+### Block 8. Pricing
+
+## Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus Ask Lynkk across a client's meetings, and the decision log. |
+
+[Compare plans](/pricing)
+
+### Block 9. FAQ
 
 ## Questions about AI for lawyers
 
@@ -138,7 +151,7 @@ In the region you choose for your workspace: US, EU, UK, India, Singapore or Aus
 
 Yes, get consent first. Rules differ by country and by bar, so check your professional obligations before recording.
 
-### Block 9. Final CTA
+### Block 10. Final CTA
 
 ## Record your next client meeting. Keep your eyes on the client.
 
@@ -148,3 +161,4 @@ Yes, get consent first. Rules differ by country and by bar, so check your profes
 
 - Legal review of the consent and confidentiality wording
 - No certification claims (SOC 2 and similar aren't listed on the site)
+- Pricing block: confirm the free plan limit before adding a number (the site gives three versions)

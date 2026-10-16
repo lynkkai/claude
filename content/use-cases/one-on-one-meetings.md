@@ -16,7 +16,7 @@ and "1 on 1 meeting" (SD 24), both easy to rank for.
 
 ## 2. Page design
 
-9 blocks, about 650 words. One centred column, white background, light grey cards. Columns stack on mobile.
+10 blocks, about 700 words. One centred column, white background, light grey cards. Columns stack on mobile.
 
 ```wire
 # 1. HERO
@@ -34,9 +34,11 @@ Remember every 1:1 || Action items with owners
 WITHOUT LYNKK / 3 short rows || WITH LYNKK / 3 short rows / Works with: tools
 # 7. PRIVACY + PERMISSION (one line)
 Ask before you record || Private notes, revocable links
-# 8. FAQ (4 questions)
+# 8. PRICING (2 columns)
+FREE / $0 / Notes and action items || PRO / $15 a month / Unlimited notes + Pro features
+# 9. FAQ (4 questions)
 Question / Question / Question / Question
-# 9. FINAL CTA
+# 10. FINAL CTA
 One line / [Start for free] [Download for Mac]
 ```
 
@@ -124,7 +126,18 @@ New to 1:1s? Read our guide to the [one on one meeting](/blog/one-on-one-meeting
 Ask your report before you record, and tell them who can see the note. Notes are private by default, share links can be
 revoked, and nothing is used to train models. [Security](/security)
 
-### Block 8. FAQ
+### Block 8. Pricing
+
+## Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus the 1:1 note format, Ask Lynkk across past 1:1s, and the weekly digest. |
+
+[Compare plans](/pricing)
+
+### Block 9. FAQ
 
 ## Questions about AI for 1:1 meetings
 
@@ -144,7 +157,7 @@ Yes, with the Mac app or the web app.
 
 Yes, there's a free plan with no credit card. The 1:1 note format and Ask Lynkk are part of Pro ($15 a month).
 
-### Block 9. Final CTA
+### Block 10. Final CTA
 
 ## Record your next 1:1. Walk into the one after knowing what's open.
 
@@ -154,3 +167,4 @@ Yes, there's a free plan with no credit card. The 1:1 note format and Ask Lynkk 
 
 - The 1:1 Summary Shape name and that it's Pro (the sales page lists "1:1" among the shapes)
 - Link this page from `/blog/one-on-one-meeting`, `/use-cases` and the footer
+- Pricing block: confirm the free plan limit before adding a number (the site gives three versions)
