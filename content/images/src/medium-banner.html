@@ -1,0 +1,78 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Medium banner</title>
+<link rel="stylesheet" href="_base.css">
+<style>
+  body {
+    width: 1400px; height: 788px;
+    background-color: var(--sand);
+    background-image: radial-gradient(#11111112 1.2px, transparent 1.2px);
+    background-size: 16px 16px;
+    position: relative;
+    color: var(--ink);
+  }
+  .glow {
+    position: absolute; right: -60px; bottom: -220px;
+    width: 760px; height: 760px; border-radius: 50%;
+    background: radial-gradient(circle, #f57b3a33 0%, #f7b7ef33 40%, transparent 70%);
+  }
+  .left { position: absolute; left: 80px; top: 104px; width: 640px; }
+  .eyebrow { background: var(--white); color: var(--orange-ink); }
+  h1 { font-size: 74px; line-height: 1.05; font-weight: 700; margin-top: 30px; }
+  h1 em { font-style: normal; color: var(--orange-ink); }
+  p.sub { font-size: 27px; line-height: 1.45; color: var(--ink-2); margin-top: 28px; max-width: 580px; }
+  .brand { position: absolute; left: 80px; bottom: 64px; color: var(--ink-3); }
+
+  .pad {
+    position: absolute; right: 88px; top: 118px;
+    width: 520px; height: 540px;
+    background: var(--white);
+    border-radius: 20px;
+    box-shadow: 0 30px 60px #1111111f, 0 2px 0 #1111110d;
+    transform: rotate(-2deg);
+    padding: 34px 36px;
+  }
+  .pad .head { font-size: 15px; font-weight: 700; color: var(--ink-3); }
+  .pad .title { font-size: 26px; font-weight: 700; margin-top: 4px; }
+  .group { margin-top: 24px; }
+  .lab { display: flex; align-items: center; gap: 10px; font-size: 13px; font-weight: 800; letter-spacing: 0.12em; }
+  .num { width: 24px; height: 24px; border-radius: 7px; display: grid; place-items: center; color: white; font-size: 13px; }
+  .g1 .lab { color: var(--violet-ink); } .g1 .num { background: var(--violet); }
+  .g2 .lab { color: #a8481a; } .g2 .num { background: var(--orange); }
+  .g3 .lab { color: var(--green); } .g3 .num { background: var(--green); }
+  .g4 .lab { color: var(--ink); } .g4 .num { background: var(--black); }
+  .item { font-size: 17px; line-height: 1.45; margin-top: 8px; padding-left: 34px; color: var(--ink); }
+  .item b { font-weight: 600; }
+  .muted { color: var(--ink-3); }
+</style></head>
+<body>
+  <div class="glow"></div>
+  <div class="left">
+    <span class="eyebrow">Method + template</span>
+    <h1 class="display">How to Take Meeting Notes <em>People Actually Read</em></h1>
+    <p class="sub">3 lists and 1 date: decisions, action items, open questions, and when you meet next.</p>
+  </div>
+  <div class="brand"><i></i>lynkk.ai</div>
+
+  <div class="pad">
+    <div class="head">Tue 14 Oct</div>
+    <div class="title">Northwind onboarding check-in</div>
+    <div class="group g1">
+      <div class="lab"><span class="num">1</span>DECISIONS</div>
+      <div class="item">Training moves to two smaller sessions.</div>
+    </div>
+    <div class="group g2">
+      <div class="lab"><span class="num">2</span>ACTION ITEMS</div>
+      <div class="item"><b>Ana</b> sends the onboarding plan <span class="muted">by Thu 16 Oct</span></div>
+      <div class="item"><b>Priya</b> records 3 setup videos <span class="muted">by Fri 24 Oct</span></div>
+      <div class="item"><b>James</b> confirms seat budget <span class="muted">by Mon 20 Oct</span></div>
+    </div>
+    <div class="group g3">
+      <div class="lab"><span class="num">3</span>OPEN QUESTIONS</div>
+      <div class="item">SSO login error for EU users <span class="muted">(James)</span></div>
+    </div>
+    <div class="group g4">
+      <div class="lab"><span class="num">4</span>NEXT MEETING</div>
+      <div class="item">Tue 28 Oct, 15:00</div>
+    </div>
+  </div>
+</body></html>

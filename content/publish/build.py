@@ -1,7 +1,8 @@
-"""Builds paste-ready versions of the two drafts.
+"""Builds paste-ready versions of the three drafts.
 
 - hashnode-post.md: Markdown body for Hashnode's editor (title, subtitle and cover go in their own fields)
 - blogger-post.html: HTML body for Blogger's "HTML view" (title goes in the post title field)
+- medium-post.html: rendered page to copy from and paste into Medium's editor
 
 The drafts in content/ stay the single source of truth; re-run this after editing them:
     python3 content/publish/build.py
@@ -62,5 +63,24 @@ for i, part in enumerate(parts):
 html = "".join(parts)
 (OUT / "blogger-post.html").write_text(html.strip() + "\n")
 
+# Medium: no Markdown import and no tables. Open medium-post.html in a browser, select all the
+# text, and paste it into the Medium editor: headings, bold, links, lists and code blocks carry
+# over. Images show in the page for reference but must be uploaded in Medium.
+medium_md = body_only((CONTENT / "medium-how-to-take-meeting-notes.md").read_text())
+medium_html = markdown.markdown(medium_md.replace("](images/", "](../images/"), extensions=["fenced_code"])
+page = (
+    '<!doctype html>\n<html><head><meta charset="utf-8"><title>Medium paste copy</title>\n'
+    '<style>body{font-family:Georgia,serif;max-width:720px;margin:40px auto;padding:0 16px;'
+    'line-height:1.6;font-size:19px;color:#151514;background:#fff}img{max-width:100%;height:auto}'
+    'pre{background:#f5f5f4;padding:14px;overflow-x:auto;font-size:15px}</style></head><body>\n'
+    '<p style="font-family:sans-serif;font-size:14px;background:#fff7ed;padding:10px 14px;border-radius:8px">'
+    "Copy from the next line down and paste into Medium. Upload the two images in Medium at the "
+    "same spots. Title and subtitle go in Medium's own title fields.</p>\n"
+    + medium_html
+    + "\n</body></html>\n"
+)
+(OUT / "medium-post.html").write_text(page)
+
 print("wrote", OUT / "hashnode-post.md")
+print("wrote", OUT / "medium-post.html")
 print("wrote", OUT / "blogger-post.html")

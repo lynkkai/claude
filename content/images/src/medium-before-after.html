@@ -1,0 +1,66 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Before and after</title>
+<link rel="stylesheet" href="_base.css">
+<style>
+  body {
+    width: 1400px; height: 760px;
+    background: var(--paper);
+    color: var(--ink);
+    padding: 60px 72px;
+    position: relative;
+  }
+  .eyebrow { background: var(--violet-tint); color: var(--violet-ink); }
+  h1 { font-size: 46px; font-weight: 700; margin-top: 20px; }
+  .cols { margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 36px; }
+  .card { border-radius: 18px; padding: 28px 32px; height: 470px; }
+  .before { background: #efedea; }
+  .after { background: var(--white); box-shadow: 0 20px 44px #1111111a; border: 2px solid #b9d8c1; }
+  .tag { font-size: 14px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+  .before .tag { color: #a83035; }
+  .after .tag { color: var(--green); }
+  .cap { font-size: 18px; color: var(--ink-3); margin-top: 6px; }
+  .body { margin-top: 22px; font-size: 19px; line-height: 1.6; }
+  .before .body { color: #6c6c6a; font-family: "DejaVu Sans Mono", monospace; font-size: 17px; }
+  .sec { font-size: 13px; font-weight: 800; letter-spacing: 0.12em; margin-top: 16px; }
+  .sec:first-child { margin-top: 0; }
+  .s1 { color: var(--violet-ink); } .s2 { color: #a8481a; } .s3 { color: var(--green); } .s4 { color: var(--ink); }
+  .row { margin-top: 4px; }
+  .row b { font-weight: 600; }
+  .q { color: #a83035; font-weight: 700; }
+</style></head>
+<body>
+  <span class="eyebrow">Same meeting, two ways</span>
+  <h1 class="display">Meeting notes: before and after</h1>
+  <div class="cols">
+    <div class="card before">
+      <div class="tag">Before</div>
+      <div class="cap">Records the conversation</div>
+      <div class="body">
+        Call w/ Northwind, Tues<br>
+        - James says rollout is behind, IT busy<br>
+        - talked about training, split into 2?<br>
+        - Ana: we could do async videos<br>
+        - extra seats came up, James to check budget<span class="q">??</span><br>
+        - SSO issue still open from last time<br>
+        - next steps: follow up<br><br>
+        <span class="q">Who owns what? By when? What was decided?</span>
+      </div>
+    </div>
+    <div class="card after">
+      <div class="tag">After</div>
+      <div class="cap">Records the outcome: 3 lists and 1 date</div>
+      <div class="body">
+        <div class="sec s1">DECISIONS</div>
+        <div class="row">Training moves to two smaller sessions.</div>
+        <div class="sec s2">ACTION ITEMS</div>
+        <div class="row"><b>Ana</b> sends the onboarding plan by Thu 16 Oct</div>
+        <div class="row"><b>Priya</b> records 3 setup videos by Fri 24 Oct</div>
+        <div class="row"><b>James</b> confirms seat budget by Mon 20 Oct</div>
+        <div class="sec s3">OPEN QUESTIONS</div>
+        <div class="row">SSO login error for EU users (James)</div>
+        <div class="sec s4">NEXT MEETING</div>
+        <div class="row">Tue 28 Oct, 15:00</div>
+      </div>
+    </div>
+  </div>
+</body></html>

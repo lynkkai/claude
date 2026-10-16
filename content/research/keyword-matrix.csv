@@ -40,3 +40,10 @@ Hashnode,Long-tail,claude prompt to summarize meeting transcript,0,4,H3 (autocom
 Hashnode,Long-tail,prompt to summarize meeting transcript,10,11,H2 The prompt + FAQ
 Hashnode,Long-tail,meeting transcript to minutes,10,5,FAQ
 Hashnode,Long-tail,jira meeting notes,10,19,H2 From meeting notes to Jira tickets
+Medium,Head,meeting notes,3600,29,"Title, H2s, body"
+Medium,Primary,how to take meeting notes,590,44,"Title, H1, slug, SEO title, meta, first paragraphs"
+Medium,Body,how to take good meeting notes,880,16,H2 How to take good meeting notes during the meeting
+Medium,Body,how to write meeting notes,880,36,"Method section intro (exact), quick answers"
+Medium,Body,taking meeting notes,720,46,"Intro, AI section"
+Medium,Long-tail,take meeting notes,480,46,Body
+Medium,Long-tail,best way to take meeting notes,140,40,Quick answers (exact question)

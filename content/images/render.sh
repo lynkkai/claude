@@ -20,3 +20,5 @@ render blogger-banner 1200 630
 render blogger-action-item-anatomy 1200 675
 render hashnode-cover 1600 840
 render hashnode-pipeline 1600 560
+render medium-banner 1400 788
+render medium-before-after 1400 760

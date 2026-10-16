@@ -119,6 +119,34 @@ listicles, so it gets one natural mention, not a target. The realistic Hashnode 
 Claude/Copilot variants, plus the AI Overview / ChatGPT citation for "best prompt to summarize a
 meeting transcript".
 
+## Article 3: Medium
+
+**Title / H1:** How to Take Meeting Notes People Actually Read
+**SEO title (58 chars):** How to Take Meeting Notes People Actually Read (+ Template)
+**Subtitle:** Most meeting notes record the conversation. Useful ones record decisions, owners and dates. Here's a simple method, a before-and-after example, and a template you can copy.
+**SEO description (151 chars):** How to take meeting notes that get read and acted on: the 3 lists + 1 date method, a before-and-after example, tips for live note taking, and a template.
+**Story link:** `how-to-take-meeting-notes`
+**Topics (max 5):** Productivity, Meetings, Note Taking, Management, Remote Work
+
+Why a different keyword: copying the Blogger or Hashnode post to Medium would make three URLs compete
+for the same query, and Medium (DA 95) would likely outrank the originals. A separate keyword
+gives Lynkk a third ranking page and two internal links to the other posts.
+
+| Tier | Keyword | Vol | SD | Placement in the article |
+|---|---|---|---|---|
+| Head | meeting notes | 3,600 | 29 | Title, H2s, body |
+| Body | how to take good meeting notes | 880 | 16 | H2 "How to take good meeting notes during the meeting" |
+| Body | how to write meeting notes | 880 | 36 | Method section intro (exact), quick answers |
+| Body | taking meeting notes | 720 | 46 | Intro, AI section |
+| Primary | how to take meeting notes | 590 | 44 | Title, H1, slug, SEO title, meta, first paragraphs |
+| Long-tail | take meeting notes | 480 | 46 | Intro, body |
+| Long-tail | best way to take meeting notes | 140 | 40 | Quick answers (exact question) |
+
+**SERP reality check:** a Medium story (medium.com/envoy-design, DA 95) already ranks #5 for
+"how to take meeting notes", next to Reddit, Teamwork, Asana and Slack. Medium's domain can rank
+here; a fresher, more complete story with a template and example has a real chance at page one.
+Medium links are nofollow, so this post's value is ranking, referral clicks and brand mentions.
+
 ## Density check (exact-match counts in final drafts)
 
 Counted on the article body (draft header comment excluded).
