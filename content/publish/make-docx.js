@@ -2,7 +2,7 @@
 //
 //   node content/publish/make-docx.js
 //
-// medium-post.docx and medium-post-2.docx are made to be pasted into Medium: open it in Word or Google Docs, select all,
+// medium-post.docx, medium-post-2.docx and medium-post-3.docx are made to be pasted into Medium: open it in Word or Google Docs, select all,
 // copy, and paste into a new Medium story. It only uses what Medium's editor accepts (title,
 // subtitle, one heading level, bold, italic, links, lists, images): code blocks become plain
 // lines and placeholder links become valid URLs.
@@ -203,6 +203,7 @@ async function medium(srcFile, outFile) {
 (async () => {
   await medium("medium-how-to-take-meeting-notes.md", "medium-post.docx");
   await medium("medium-meeting-notes-vs-meeting-minutes.md", "medium-post-2.docx");
+  await medium("medium-follow-up-email-after-meeting.md", "medium-post-3.docx");
 
   // ---------- DEV ----------
   const devSrc = fs.readFileSync(path.join(CONTENT, "devto-meeting-notes-templates-dev-teams.md"), "utf8");

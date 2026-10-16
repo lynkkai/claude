@@ -194,6 +194,42 @@ Medium story 1 (notes), so the cluster reinforces itself.
 Ubersuggest's daily limit was reached, so the primary keyword's volume wasn't pulled. Check it when
 the quota resets.
 
+## Article 6: Medium story 3
+
+**Title:** How to Write a Follow-Up Email After a Meeting (+ 7 Templates)
+**SEO title (52 chars):** Follow-Up Email After a Meeting: 7 Templates to Copy
+**Story link:** `follow-up-email-after-meeting`
+
+**Topic research (Ubersuggest Google autocomplete, US, 2026-10-16).** Three seeds were expanded:
+"meeting agenda", "meeting follow up email" and "one on one meeting". The follow-up email seed had
+the richest set of distinct intents (templates, examples, subject lines, "with action items",
+client, sales, one-on-one, missed meeting, no response, when to send, what to include) and the
+closest fit with Lynkk's after-meeting features. Meeting agenda is crowded with big template sites;
+one-on-one is a weaker product fit. Both stay on the list for later posts.
+
+**Content research (2026-10-16).** Page one for "follow up email after meeting" is thin template
+pages (several auto-generated) and email/sales tool blogs, with no Medium story. The story fills the
+gap with situation-specific templates that carry decisions and action items.
+
+| Intent (autocomplete) | Section that answers it |
+|---|---|
+| meeting follow up email template / example | 7 templates |
+| meeting follow up email subject line | 12 subject lines |
+| meeting follow up email with action items | Template 1, "What to include" |
+| follow up email after meeting with client | Template 2 |
+| sales meeting follow up email | Template 3 |
+| follow up email after one on one meeting | Template 5 |
+| follow up email when someone misses a meeting | Template 6 |
+| follow up email after meeting no response | Template 7, "When to send it" |
+| when to send follow up email after meeting | "When to send it", quick answers |
+| what should a follow up meeting email include | "What to include" + anatomy graphic |
+| write a follow up email using my meeting notes | AI section prompt |
+
+**Volumes and difficulty: pending.** Ubersuggest's daily report limit (150) was used up, so
+search volume, SEO difficulty and content ideas couldn't be pulled. Re-run `keyword_overview` for
+"follow up email after meeting", "meeting follow up email template" and "meeting follow up email
+subject line" when it resets.
+
 ## Density check (exact-match counts in final drafts)
 
 Counted on the article body (draft header comment excluded).

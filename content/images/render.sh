@@ -26,3 +26,5 @@ render devto-cover 1000 420
 render devto-notes-flow 1000 560
 render medium2-banner 1400 788
 render medium2-comparison 1400 800
+render medium3-banner 1400 788
+render medium3-email-anatomy 1400 700

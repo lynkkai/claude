@@ -19,6 +19,9 @@ are generated from them with `python3 content/publish/build.py` and
 | `medium-post-2.docx` | Second Medium story (meeting notes vs minutes), same paste route |
 | `../images/medium2-banner.png` | Medium story 2 featured image (1400x788) |
 | `../images/medium2-comparison.png` | Medium story 2 comparison graphic (1400x800) |
+| `medium-post-3.docx` | Third Medium story (follow-up email after a meeting), same paste route |
+| `../images/medium3-banner.png` | Medium story 3 featured image (1400x788) |
+| `../images/medium3-email-anatomy.png` | Medium story 3 annotated email graphic (1400x700) |
 | `devto-post.md` | Paste into the DEV editor (Markdown with front matter) |
 | `devto-post.docx` | Word copy of the DEV post for review and sign-off |
 | `../images/devto-cover.png` | DEV cover (1000x420, DEV's cover size) |
@@ -146,6 +149,20 @@ Publish it a few days after story 1 so it can link to it.
   "The 6 differences that matter" (alt text is in the draft header).
 - **Links to fix:** `https://replace-with-blogger-post-url.example` (Blogger post) and
   `https://replace-with-medium-story-1-url.example` (Medium story 1).
+- Keep the italic AI note under the banner.
+
+## Medium story 3: Follow-up email after a meeting
+
+Same route: open `medium-post-3.docx`, select all, copy, paste into a new Medium story.
+
+- **Title:** How to Write a Follow-Up Email After a Meeting (+ 7 Templates)
+- **SEO title:** `Follow-Up Email After a Meeting: 7 Templates to Copy`
+- **SEO description:** `How to write a follow-up email after a meeting: what to include, when to send it, 12 subject lines, and 7 copy-paste templates with action items.`
+- **Story link:** `follow-up-email-after-meeting`
+- **Topics:** Productivity, Email, Sales, Business, Communication
+- **Images:** banner `medium3-banner.png` first; `medium3-email-anatomy.png` under
+  "What to include in a meeting follow-up email" (alt text is in the draft header).
+- **Link to fix:** `https://replace-with-hashnode-post-url.example` (Hashnode post).
 - Keep the italic AI note under the banner.
 
 ## DEV (step by step)
