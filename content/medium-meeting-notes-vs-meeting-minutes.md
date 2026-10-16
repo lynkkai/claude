@@ -1,7 +1,7 @@
 <!--
 PLATFORM: Medium (second story)
-Title (H1): Meeting Notes vs Meeting Minutes: What's the Difference? (With Examples)
-Subtitle: They sound like the same thing, but they're not. Here's how to tell them apart, when you need each one, and the same meeting written both ways.
+Title (H1): Meeting Notes vs Meeting Minutes: What's the Difference?
+Subtitle: They sound like the same thing, but they're not. How to tell them apart, when you need each one, and one real meeting written both ways.
 SEO title (57 chars): Meeting Notes vs Meeting Minutes: Differences + Examples
 SEO description (153 chars): Meeting notes vs meeting minutes: the 6 differences, when you need each, and one real meeting written both ways. Plus how to combine them in one document.
 Custom story link: meeting-notes-vs-meeting-minutes
@@ -21,9 +21,9 @@ Images (content/images, sources in content/images/src):
 Medium formatting: no tables, 2 heading levels, code fences become plain lines in the Word/HTML exports.
 -->
 
-# Meeting Notes vs Meeting Minutes: What's the Difference? (With Examples)
+# Meeting Notes vs Meeting Minutes: What's the Difference?
 
-![Meeting notes vs meeting minutes: what's the difference?](images/medium2-banner.png)
+![Meeting notes vs meeting minutes: what's the difference?](images/medium2-banner.png "Image by the author")
 
 Someone on your team says "can you take the minutes?" and you open a doc and start typing notes. Usually that's fine. Sometimes it really isn't: if you're on a board, a committee or a nonprofit, the minutes may be the official record of what the organization decided, and "Sara said something about the budget" won't cut it.
 
@@ -55,7 +55,7 @@ You'll see notes in team syncs, project meetings, client calls, one-on-ones and 
 
 ## The 6 differences that matter
 
-![Meeting notes vs meeting minutes compared: purpose, audience, format, writer, approval, retention](images/medium2-comparison.png)
+![Meeting notes vs meeting minutes compared: purpose, audience, format, writer, approval, retention](images/medium2-comparison.png "Meeting notes vs meeting minutes at a glance. Image by the author")
 
 **1. Purpose.** Notes help people act. Minutes create an official record of decisions.
 
@@ -73,54 +73,37 @@ You'll see notes in team syncs, project meetings, client calls, one-on-ones and 
 
 Here's a real-world style example: a 45-minute board meeting of a small nonprofit, the Riverside Community Garden. First, the **meeting minutes**:
 
-```
-RIVERSIDE COMMUNITY GARDEN, BOARD OF DIRECTORS
-Minutes of the regular meeting, Tuesday 14 October 2026, 18:00
-Location: Community hall, room 2
+**Riverside Community Garden, Board of Directors**<br>Minutes of the regular meeting, Tuesday 14 October 2026, 18:00<br>Location: Community hall, room 2
 
-Present: M. Ortiz (Chair), J. Kim (Treasurer), A. Shah (Secretary), L. Novak, R. Diaz
-Apologies: P. Grant
-Quorum: present (5 of 6 directors)
+Present: M. Ortiz (Chair), J. Kim (Treasurer), A. Shah (Secretary), L. Novak, R. Diaz<br>Apologies: P. Grant<br>Quorum: present (5 of 6 directors)
 
-1. APPROVAL OF MINUTES
-The minutes of 9 September 2026 were approved without changes.
+**1. Approval of minutes**<br>The minutes of 9 September 2026 were approved without changes.
 
-2. TREASURER'S REPORT
-J. Kim reported a balance of $8,420. The report was accepted.
+**2. Treasurer's report**<br>J. Kim reported a balance of $8,420. The report was accepted.
 
-3. MOTION: NEW IRRIGATION SYSTEM
-Moved by L. Novak, seconded by R. Diaz, to approve spending up to $3,200 on a drip irrigation system.
-Vote: 4 in favor, 1 against, 0 abstentions. Motion carried.
+**3. Motion: new irrigation system**<br>Moved by L. Novak, seconded by R. Diaz, to approve spending up to $3,200 on a drip irrigation system.<br>Vote: 4 in favor, 1 against, 0 abstentions. Motion carried.
 
-4. ACTION ITEMS
-J. Kim to obtain two more quotes by 31 October.
-A. Shah to notify members of the decision by 21 October.
+**4. Action items**<br>J. Kim to obtain two more quotes by 31 October.<br>A. Shah to notify members of the decision by 21 October.
 
-5. ADJOURNMENT
-The meeting was adjourned at 18:45. Next meeting: 11 November 2026.
+**5. Adjournment**<br>The meeting was adjourned at 18:45. Next meeting: 11 November 2026.
 
-Approved: ____________ (Secretary)   Date: ________
-```
+Approved by the Secretary: ____________ Date: ________
 
 Now the **meeting notes** a volunteer might send to the garden's working group after the same meeting:
 
-```
-Board meeting recap, Tue 14 Oct
+**Board meeting recap, Tue 14 Oct**
 
-DECISIONS
-Board approved up to $3,200 for drip irrigation (vote 4 to 1).
+**Decisions**<br>Board approved up to $3,200 for drip irrigation (vote 4 to 1).
 
-ACTION ITEMS
-Ji-woo gets two more irrigation quotes by Fri 31 Oct.
-Aisha emails all members about the decision by Tue 21 Oct.
-Lena drafts a volunteer rota for installation by Fri 7 Nov.
+**Action items**
 
-OPEN QUESTIONS
-Install before winter or wait for spring? (Raised by Rosa)
+- Ji-woo gets two more irrigation quotes by Fri 31 Oct.
+- Aisha emails all members about the decision by Tue 21 Oct.
+- Lena drafts a volunteer rota for installation by Fri 7 Nov.
 
-NEXT MEETING
-Tue 11 Nov, 18:00
-```
+**Open questions**<br>Install before winter or wait for spring? (Raised by Rosa)
+
+**Next meeting**<br>Tue 11 Nov, 18:00
 
 Same meeting, two very different documents. The minutes prove what the board decided and how it voted. The notes tell volunteers what to do next, including an action item (the volunteer rota) that wasn't a board decision at all and doesn't belong in the official minutes.
 
@@ -174,7 +157,5 @@ MoM stands for "minutes of meeting", another name for meeting minutes.
 
 **Do meeting minutes need to be signed?**
 Often, yes. Many organizations have the secretary or chair sign the minutes once they're approved at the next meeting.
-
----
 
 *Which do you write more often, notes or minutes? Tell me in the responses.*

@@ -89,6 +89,33 @@ Space them out: one post per day or two looks natural and gives each its own soc
 9. Search Console: add the Hashnode blog as a property, submit `yourblog/sitemap.xml`, and
    request indexing for the post.
 
+## Medium formatting rules the Word files follow
+
+Each `medium-post*.docx` is built to match what Medium's editor supports and what its curators
+look for (based on Medium's help center and Boost criteria):
+
+| Medium rule | How the .docx handles it |
+|---|---|
+| Title = first "big T" line, subtitle = "small T" line under it | Title is Heading 1, subtitle is Heading 2, which paste as big T / small T |
+| Only two heading levels in the body | Section headers are Heading 1, sub-headers Heading 2 |
+| Short, non-clickbait headline (feeds truncate long titles) | Titles are 46 to 56 characters, sentence-honest, no all caps |
+| Subtitle adds information, doesn't repeat the title | Subtitles list what's inside |
+| Flat lists only (no nesting), no tables | Real bulleted/numbered lists, one level; comparisons are images |
+| No ALL CAPS shouting, no fake bullets | Template labels are bold sentence case; list lines are real lists |
+| Images add value, with alt text and credits | Every image has alt text and a caption ("Image by the author") |
+| AI-assisted writing disclosed in the first two paragraphs | Italic AI note directly under the banner |
+| No engagement bait ("follow for more", "clap") | Removed; stories end with a genuine question |
+| Promotional content kept minimal | One Lynkk mention per story, in context |
+
+**After pasting, check three things in Medium:**
+
+1. **Captions:** click each image. If "Image by the author" landed as a body line under the image
+   instead of in the caption field, cut it and paste it into the caption.
+2. **Alt text:** click the image > **Alt text** and confirm it's filled in (the text is in each
+   draft's header if it didn't carry over).
+3. **Quote (story 3 only):** if the AI prompt pasted as plain italic text, select it and click
+   Medium's quote button once.
+
 ## Medium (step by step)
 
 Medium is an **original** story (different keyword, different example), not a copy of the other
@@ -140,7 +167,7 @@ If any block still pastes wrongly, tell me which section and I'll rework it in t
 Same route as story 1: open `medium-post-2.docx`, select all, copy, paste into a new Medium story.
 Publish it a few days after story 1 so it can link to it.
 
-- **Title:** Meeting Notes vs Meeting Minutes: What's the Difference? (With Examples)
+- **Title:** Meeting Notes vs Meeting Minutes: What's the Difference?
 - **SEO title:** `Meeting Notes vs Meeting Minutes: Differences + Examples`
 - **SEO description:** `Meeting notes vs meeting minutes: the 6 differences, when you need each, and one real meeting written both ways. Plus how to combine them in one document.`
 - **Story link:** `meeting-notes-vs-meeting-minutes`
@@ -155,7 +182,7 @@ Publish it a few days after story 1 so it can link to it.
 
 Same route: open `medium-post-3.docx`, select all, copy, paste into a new Medium story.
 
-- **Title:** How to Write a Follow-Up Email After a Meeting (+ 7 Templates)
+- **Title:** How to Write a Follow-Up Email After a Meeting
 - **SEO title:** `Follow-Up Email After a Meeting: 7 Templates to Copy`
 - **SEO description:** `How to write a follow-up email after a meeting: what to include, when to send it, 12 subject lines, and 7 copy-paste templates with action items.`
 - **Story link:** `follow-up-email-after-meeting`

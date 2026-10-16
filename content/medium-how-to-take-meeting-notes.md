@@ -21,7 +21,7 @@ in the first two paragraphs or the story is limited to followers. See publish/RE
 
 # How to Take Meeting Notes People Actually Read
 
-![How to take meeting notes: decisions, action items, open questions and next meeting date](images/medium-banner.png)
+![How to take meeting notes: decisions, action items, open questions and next meeting date](images/medium-banner.png "Image by the author")
 
 You leave a 45-minute meeting with two pages of notes. A week later someone asks, "Wait, who said
 they'd send the onboarding plan?" The answer is in your notes somewhere, between a half-sentence
@@ -74,41 +74,39 @@ things, never above them.
 
 Here's a real-world style example: a 30-minute call with a customer about a delayed onboarding.
 
-![Meeting notes before and after: transcript-style notes vs 3 lists and a date](images/medium-before-after.png)
+![Meeting notes before and after: transcript-style notes vs 3 lists and a date](images/medium-before-after.png "The same meeting, written two ways. Image by the author")
 
 **Before** (how most of us write meeting notes):
 
-```
-Call w/ Northwind, Tues
+**Call w/ Northwind, Tues**
+
 - James says rollout is behind, IT team busy w/ migration
 - talked about training sessions, maybe split into 2 groups?
 - Ana: we could do async videos
 - pricing for extra seats came up, James to check budget??
 - SSO issue still open from last time
 - next steps: follow up
-```
 
 **After** (3 lists and 1 date):
 
-```
-Northwind onboarding check-in, Tue 14 Oct
-Attendees: James (Northwind), Ana, Priya
+**Northwind onboarding check-in, Tue 14 Oct**<br>Attendees: James (Northwind), Ana, Priya
 
-DECISIONS
+**Decisions**
+
 - Training moves to two smaller sessions instead of one.
 - Ana's team will record async videos for the admin setup.
 
-ACTION ITEMS
+**Action items**
+
 - Ana sends the revised onboarding plan to James by Thu 16 Oct.
 - Priya records the 3 admin setup videos by Fri 24 Oct.
 - James confirms budget for 15 extra seats by Mon 20 Oct.
 
-OPEN QUESTIONS
+**Open questions**
+
 - SSO login error for EU users: still unresolved (raised by James).
 
-NEXT MEETING
-Tue 28 Oct, 15:00. Start with the action items above.
-```
+**Next meeting**<br>Tue 28 Oct, 15:00. Start with the action items above.
 
 Same meeting. Same information. But the second version answers every question anyone will ask
 about this call in ten seconds, and it reads fine on a phone.
@@ -117,8 +115,8 @@ about this call in ten seconds, and it reads fine on a phone.
 
 Writing clean notes live is a skill. These habits make it much easier.
 
-**Set up the four headings before the meeting starts.** Open a doc and type DECISIONS, ACTION
-ITEMS, OPEN QUESTIONS and NEXT MEETING. Now you're sorting as you listen instead of transcribing.
+**Set up the four headings before the meeting starts.** Open a doc and type four headings:
+Decisions, Action items, Open questions and Next meeting. Now you're sorting as you listen instead of transcribing.
 
 **Listen for decision words.** Phrases like "let's go with", "agreed", "so we'll" and "final
 answer" are your cue to write something under decisions.
@@ -154,23 +152,22 @@ Ten minutes, and nobody has to ask "what did we agree?" again.
 
 Paste this into your notes app, a doc, or the body of an email:
 
-```
-[Meeting name], [Date]
-Attendees: [Names]
+**[Meeting name], [Date]**<br>Attendees: [Names]
 
-DECISIONS
+**Decisions**
+
 - [Decision]
 
-ACTION ITEMS
+**Action items**
+
 - [Owner] [verb] [task] by [date]
 - [Owner] [verb] [task] by [date]
 
-OPEN QUESTIONS
+**Open questions**
+
 - [Question] (raised by [Name])
 
-NEXT MEETING
-[Date, time]. Start with the action items above.
-```
+**Next meeting**<br>[Date, time]. Start with the action items above.
 
 ## Meeting notes vs meeting minutes
 
@@ -215,7 +212,4 @@ and the next meeting date.
 Use shorthand during the meeting, skip anything that didn't change an outcome, and spend ten
 minutes cleaning up right after the call.
 
----
-
-*If this was useful, follow for more practical posts on running better meetings. What's the worst
-meeting note you've ever received? Tell me in the responses.*
+*What's the worst meeting note you've ever received? Tell me in the responses.*

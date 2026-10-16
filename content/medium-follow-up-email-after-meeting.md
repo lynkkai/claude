@@ -1,7 +1,7 @@
 <!--
 PLATFORM: Medium (third story)
-Title (H1): How to Write a Follow-Up Email After a Meeting (+ 7 Templates)
-Subtitle: Most follow-up emails arrive too late or say too little. Here's what to include, when to send it, 12 subject lines, and 7 templates for your team, clients, sales calls and no-replies.
+Title (H1): How to Write a Follow-Up Email After a Meeting
+Subtitle: What to include, when to send it, 12 subject lines, and 7 copy-paste templates for your team, clients, sales calls and no-replies.
 SEO title (52 chars): Follow-Up Email After a Meeting: 7 Templates to Copy
 SEO description (150 chars): How to write a follow-up email after a meeting: what to include, when to send it, 12 subject lines, and 7 copy-paste templates with action items.
 Custom story link: follow-up-email-after-meeting
@@ -23,9 +23,9 @@ Images (content/images, sources in content/images/src):
 Medium formatting: no tables, 2 heading levels, code fences become plain lines in the Word/HTML exports.
 -->
 
-# How to Write a Follow-Up Email After a Meeting (+ 7 Templates)
+# How to Write a Follow-Up Email After a Meeting
 
-![How to write a follow-up email after a meeting, with 7 templates](images/medium3-banner.png)
+![How to write a follow-up email after a meeting, with 7 templates](images/medium3-banner.png "Image by the author")
 
 A good meeting can still go nowhere. Everyone leaves agreeing on next steps, and a week later nobody remembers exactly what those steps were, who owned them, or when they were due.
 
@@ -37,7 +37,7 @@ Below: what to include, when to send it, 12 subject lines, and 7 templates you c
 
 ## What to include in a meeting follow-up email
 
-![Anatomy of a meeting follow-up email: subject, thanks, decisions, action items, next step](images/medium3-email-anatomy.png)
+![Anatomy of a meeting follow-up email: subject, thanks, decisions, action items, next step](images/medium3-email-anatomy.png "The five parts of a good follow-up email. Image by the author")
 
 Every good follow-up email has the same five parts:
 
@@ -82,44 +82,44 @@ Replace everything in brackets. Delete any line that doesn't apply.
 
 Use this after internal meetings: syncs, planning sessions, project check-ins.
 
-```
-Subject: Recap and next steps: Website relaunch sync, Tue 14 Oct
+**Subject:** Recap and next steps: Website relaunch sync, Tue 14 Oct
 
 Hi all,
 
 Thanks for the time today. Here's where we landed.
 
-Decisions
+**Decisions**
+
 - Launch moves to 8 November to allow one more round of testing.
 - The pricing page will show three plans, not four.
 
-Action items
+**Action items**
+
 - Me: update the project plan with the new date by Wed 15 Oct.
 - Sara: send three pricing options by Fri 17 Oct.
 - Mei: book a usability test with 5 customers by Mon 20 Oct.
 
 Next meeting: Tue 21 Oct, 10:00. We'll start with the action items above.
 
-Thanks,
-[Your name]
-```
+Thanks,<br>[Your name]
 
 ### 2. Client meeting follow-up
 
 Use this after a check-in, review or planning call with a client.
 
-```
-Subject: Recap: [Client] onboarding check-in, [date]
+**Subject:** Recap: [Client] onboarding check-in, [date]
 
 Hi [Name],
 
 Thanks for walking us through where things stand today. A quick recap so we're aligned:
 
-What we agreed
+**What we agreed**
+
 - Training will run as two smaller sessions instead of one.
 - We'll record short videos for the admin setup.
 
-Next steps
+**Next steps**
+
 - [Your company]: send the revised onboarding plan by [date].
 - [Your company]: share the 3 admin setup videos by [date].
 - [Client]: confirm budget for the extra seats by [date].
@@ -128,43 +128,39 @@ Still open: the SSO login issue for EU users. We're on it and will update you by
 
 If I've missed anything, just reply here and I'll update the plan.
 
-Best,
-[Your name]
-```
+Best,<br>[Your name]
 
 ### 3. Sales call or demo follow-up
 
 Use this after a discovery call or product demo. Lead with *their* problem, not your product.
 
-```
-Subject: Next steps after our demo, [Company]
+**Subject:** Next steps after our demo, [Company]
 
 Hi [Name],
 
 Thanks for the conversation today. What stood out to me was [their main challenge, in their words].
 
-What we covered
+**What we covered**
+
 - How [feature] handles [their use case].
 - Pricing for a team of [number].
 
 As promised, I've attached [case study / pricing / security overview].
 
-Next steps
+**Next steps**
+
 - I'll send a proposal by [date].
 - Could you share it with [decision maker] before our next call?
 
 Does [day, time] work for a 20-minute follow-up?
 
-Best,
-[Your name]
-```
+Best,<br>[Your name]
 
 ### 4. After a first meeting or networking conversation
 
 Short, specific and easy to reply to.
 
-```
-Subject: Great to meet you at [event]
+**Subject:** Great to meet you at [event]
 
 Hi [Name],
 
@@ -174,16 +170,13 @@ As promised, here's [the article / intro / resource] we talked about: [link].
 
 If it's useful, I'd be glad to continue the conversation over a 20-minute call in the next couple of weeks.
 
-Best,
-[Your name]
-```
+Best,<br>[Your name]
 
 ### 5. One-on-one meeting recap with your manager
 
 Sending the recap yourself makes sure you and your manager remember the same conversation.
 
-```
-Subject: Recap of our 1:1 on [date]
+**Subject:** Recap of our 1:1 on [date]
 
 Hi [Manager],
 
@@ -195,16 +188,13 @@ Thanks for the time today. Here's my summary:
 
 Let me know if I've got anything wrong.
 
-Thanks,
-[Your name]
-```
+Thanks,<br>[Your name]
 
 ### 6. For someone who missed the meeting
 
 Don't make them watch the recording to find out what they owe.
 
-```
-Subject: You missed [meeting]: here's what was decided
+**Subject:** You missed [meeting]: here's what was decided
 
 Hi [Name],
 
@@ -217,16 +207,13 @@ One action item is yours: [task] by [date]. Does that work for you?
 
 Full notes and the recording are here: [link].
 
-Thanks,
-[Your name]
-```
+Thanks,<br>[Your name]
 
 ### 7. When your follow-up gets no reply
 
 Send this 3 to 5 business days after the first follow-up. Make it easy to answer with one line.
 
-```
-Subject: Re: Recap and next steps: [Meeting name]
+**Subject:** Re: Recap and next steps: [Meeting name]
 
 Hi [Name],
 
@@ -234,9 +221,7 @@ Just bumping this up in case it got buried. The one thing I need from you is [sp
 
 If it's easier, a quick yes or no is fine.
 
-Thanks,
-[Your name]
-```
+Thanks,<br>[Your name]
 
 ## Common mistakes
 
@@ -250,11 +235,9 @@ Thanks,
 
 If you already take meeting notes, you're 90% of the way to the follow-up email. You can paste your notes into ChatGPT, Claude or Copilot with a prompt like this:
 
-```
-Write a short follow-up email from these meeting notes. Include one line of thanks, the decisions, and the action items with owner and due date (mine first). End with one clear next step. Don't add anything that isn't in the notes.
-
-[paste notes]
-```
+> Write a short follow-up email from these meeting notes. Include one line of thanks, the decisions, and the action items with owner and due date (mine first). End with one clear next step. Don't add anything that isn't in the notes.
+>
+> [paste notes]
 
 The last sentence matters: without it, AI tools tend to invent friendly details or deadlines nobody agreed to. For a more complete version of this prompt, see [how to get AI meeting notes from any transcript](HASHNODE_POST_URL).
 
@@ -273,7 +256,5 @@ Name the meeting and what's inside, for example "Recap and next steps: Website r
 
 **Is it rude to follow up twice?**
 No. One polite nudge after 3 to 5 business days is normal. After that, try a different channel.
-
----
 
 *What's the one line you always include in your follow-up emails? Share it in the responses.*

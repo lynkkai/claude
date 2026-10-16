@@ -90,7 +90,7 @@ medium_html = markdown.markdown(medium_md)
 for i, block in enumerate(blocks):
     medium_html = medium_html.replace(f"<p>MEDIUMBLOCK{i}</p>", medium_block(block))
 medium_html = re.sub(
-    r'<p><img alt="[^"]*" src="images/([\w-]+\.png)" /></p>',
+    r'<p><img alt="[^"]*" src="images/([\w-]+\.png)"[^>]*/></p>',
     r"<p><strong>[ Upload image here: \1 ]</strong></p>",
     medium_html,
 )

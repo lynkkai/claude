@@ -2,10 +2,11 @@
 //
 //   node content/publish/make-docx.js
 //
-// medium-post.docx, medium-post-2.docx and medium-post-3.docx are made to be pasted into Medium: open it in Word or Google Docs, select all,
-// copy, and paste into a new Medium story. It only uses what Medium's editor accepts (title,
-// subtitle, one heading level, bold, italic, links, lists, images): code blocks become plain
-// lines and placeholder links become valid URLs.
+// medium-post.docx, medium-post-2.docx and medium-post-3.docx are made to be pasted into Medium:
+// open one in Word or Google Docs, select all, copy, and paste into a new Medium story. They only
+// use what Medium's editor supports: title and subtitle (Heading 1 / Heading 2 = Medium's big T /
+// small T), two heading levels, bold, italic, links, flat lists, quotes, and images with alt text
+// and a credit caption. No tables, no nested lists, no dividers, no ALL CAPS labels.
 // devto-post.docx is a review copy of the DEV article (DEV itself takes the Markdown file).
 const fs = require("fs");
 const path = require("path");
@@ -25,17 +26,35 @@ function pngSize(file) {
   return { width: buf.readUInt32BE(16), height: buf.readUInt32BE(20), data: buf };
 }
 
-function image(name) {
+function image(name, alt = "", caption = "") {
   const { width, height, data } = pngSize(path.join(IMAGES, name));
   const w = Math.min(PAGE_WIDTH_PX, width);
-  return new Paragraph({
-    spacing: { before: 120, after: 240 },
-    children: [new ImageRun({ type: "png", data, transformation: { width: w, height: Math.round((height * w) / width) } })],
-  });
+  const out = [new Paragraph({
+    spacing: { before: 120, after: caption ? 60 : 240 },
+    children: [new ImageRun({
+      type: "png", data,
+      transformation: { width: w, height: Math.round((height * w) / width) },
+      altText: { name, title: alt, description: alt },
+    })],
+  })];
+  // Medium shows credits as an image caption ("Image by the author").
+  if (caption)
+    out.push(new Paragraph({
+      alignment: AlignmentType.CENTER,
+      spacing: { after: 240 },
+      children: [new TextRun({ text: caption, italics: true, size: 19, color: "6C6C6A" })],
+    }));
+  return out;
 }
 
 // Inline Markdown: **bold**, *italic*, `code`, [text](url)
 function inline(text, base = {}) {
+  if (text.includes("<br>")) {
+    return text.split("<br>").flatMap((part, k) => [
+      ...(k ? [new TextRun({ text: "", break: 1, ...base })] : []),
+      ...inline(part, base),
+    ]);
+  }
   const out = [];
   const re = /(\*\*(.+?)\*\*)|(\*(.+?)\*)|(`([^`]+)`)|(\[([^\]]+)\]\(([^)]+)\))/g;
   let last = 0;
@@ -69,8 +88,14 @@ function parse(md) {
       blocks.push({ type: "code", lines: code });
       continue;
     }
-    const img = line.match(/^!\[([^\]]*)\]\(([^)]+)\)\s*$/);
-    if (img) { blocks.push({ type: "image", alt: img[1], src: img[2] }); i++; continue; }
+    const img = line.match(/^!\[([^\]]*)\]\((\S+?)(?:\s+"([^"]*)")?\)\s*$/);
+    if (img) { blocks.push({ type: "image", alt: img[1], src: img[2], caption: img[3] || "" }); i++; continue; }
+    if (line.startsWith(">")) {
+      const quote = [];
+      while (i < lines.length && lines[i].startsWith(">")) quote.push(lines[i++].replace(/^>\s?/, ""));
+      blocks.push({ type: "quote", paras: quote.join("\n").split(/\n\s*\n/).map((p) => p.replace(/\n/g, " ").trim()).filter(Boolean) });
+      continue;
+    }
     if (/^#{1,3} /.test(line)) {
       const level = line.match(/^#+/)[0].length;
       blocks.push({ type: "heading", level, text: line.replace(/^#+ /, "") });
@@ -90,7 +115,7 @@ function parse(md) {
       continue;
     }
     const para = [];
-    while (i < lines.length && lines[i].trim() && !/^(```|#{1,3} |!\[|- |\d+\. |---\s*$)/.test(lines[i])) para.push(lines[i++].trim());
+    while (i < lines.length && lines[i].trim() && !/^(```|#{1,3} |!\[|- |\d+\. |---\s*$|>)/.test(lines[i])) para.push(lines[i++].trim());
     blocks.push({ type: "para", text: para.join(" ") });
   }
   return blocks;
@@ -126,7 +151,17 @@ function render(blocks, { mediumSafe }) {
       out.push(new Paragraph({ border: { bottom: { style: BorderStyle.SINGLE, size: 6, color: "CCCCCC", space: 1 } }, spacing: { after: 200 }, children: [] }));
     } else if (b.type === "image") {
       const name = path.basename(b.src).replace(/^IMAGE_URL_/, "").replace(/\.png$/, "") + ".png";
-      out.push(image(name));
+      out.push(...image(name, b.alt, mediumSafe ? b.caption : ""));
+    } else if (b.type === "quote") {
+      // Rendered as an indented, italic block with a left rule; in Medium, select it and click
+      // the quote button if the paste doesn't keep it as a quote.
+      for (const p of b.paras)
+        out.push(new Paragraph({
+          indent: { left: 360 },
+          border: { left: { style: BorderStyle.SINGLE, size: 18, color: "7063BE", space: 12 } },
+          spacing: { after: 120 },
+          children: inline(p, { italics: true }),
+        }));
     } else if (b.type === "code") {
       if (mediumSafe) {
         // Medium splits pasted code blocks apart, so use plain lines; ALL CAPS lines in bold.
@@ -193,9 +228,11 @@ async function medium(srcFile, outFile) {
     type: "para",
     text: "*This article was drafted with AI assistance, then reviewed, edited and fact-checked by the Lynkk team.*",
   });
+  // Medium sets the title from the first "big T" line and the subtitle from the "small T" line
+  // under it, which is what Heading 1 and Heading 2 become when pasted from Word.
   await write(outFile, [
-    new Paragraph({ style: "Title", children: [new TextRun(headerField(src, "Title \\(H1\\)"))] }),
-    new Paragraph({ style: "Subtitle", children: [new TextRun(headerField(src, "Subtitle"))] }),
+    new Paragraph({ heading: HeadingLevel.HEADING_1, children: [new TextRun(headerField(src, "Title \\(H1\\)"))] }),
+    new Paragraph({ heading: HeadingLevel.HEADING_2, children: [new TextRun(headerField(src, "Subtitle"))] }),
     ...render(blocks, { mediumSafe: true }),
   ]);
 }
@@ -212,7 +249,7 @@ async function medium(srcFile, outFile) {
   await write("devto-post.docx", [
     new Paragraph({ style: "Title", children: [new TextRun(devTitle)] }),
     new Paragraph({ style: "Subtitle", children: [new TextRun(devDesc)] }),
-    image("devto-cover.png"),
+    ...image("devto-cover.png"),
     ...render(parse(stripHeader(devSrc)), { mediumSafe: false }),
   ]);
 })();

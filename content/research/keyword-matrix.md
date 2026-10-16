@@ -171,7 +171,7 @@ sprint planning and ADR variants weren't pulled. Re-check them when the quota re
 
 ## Article 5: Medium story 2
 
-**Title:** Meeting Notes vs Meeting Minutes: What's the Difference? (With Examples)
+**Title:** Meeting Notes vs Meeting Minutes: What's the Difference?
 **SEO title (57 chars):** Meeting Notes vs Meeting Minutes: Differences + Examples
 **Story link:** `meeting-notes-vs-meeting-minutes`
 
@@ -196,7 +196,7 @@ the quota resets.
 
 ## Article 6: Medium story 3
 
-**Title:** How to Write a Follow-Up Email After a Meeting (+ 7 Templates)
+**Title:** How to Write a Follow-Up Email After a Meeting
 **SEO title (52 chars):** Follow-Up Email After a Meeting: 7 Templates to Copy
 **Story link:** `follow-up-email-after-meeting`
 
