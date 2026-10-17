@@ -13,6 +13,8 @@
 | field interview | 390 US | 3 | Title, Meta, H1, "How Lynkk helps Emily with field interviews" heading, "Field interviews, before and after Lynkk" heading |
 | hindi audio to text | 140 India | 1 | "Questions people ask" section |
 | voice recorder for interviews | 110 US | 1 | Intro |
+| transcribe audio | 33,100 (feature) | 1 | "Emily's problem" section |
+| ai transcription | 5,400 (feature) | 1 | "How Lynkk helps Emily with field interviews" section |
 
 ---
 
@@ -39,7 +41,7 @@ to farmers about water and crops.
 
 Most farms have no internet. The farmers speak a mix of Hindi and English, sometimes in the same sentence.
 
-Emily comes back with hours of audio. She has no time to listen to it again. And typing it out by hand would take days.
+Emily comes back with hours of audio. She has no time to listen to it again. She needs a way to transcribe audio in two languages. Typing it out by hand would take days.
 
 ## How Lynkk helps Emily with field interviews
 
@@ -52,7 +54,7 @@ She opens the Lynkk Mac app and records the conversation. No internet needed. Th
 When her Mac is online again, the recording uploads and Lynkk writes the note.
 
 **Then she reads, instead of listening again.**
-She gets the text in Hindi and Hinglish, with each speaker labelled, plus the main points and open questions.
+Lynkk's AI transcription gives her the text in Hindi and Hinglish, with each speaker labelled, plus the main points and open questions.
 
 ### Here is the note Lynkk wrote for Emily (example)
 

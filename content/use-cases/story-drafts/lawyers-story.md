@@ -10,6 +10,7 @@
 | ai for lawyers | 2,400 US, 720 India | 2 | Title, H1, "How Lynkk helps Laura in client meetings" section |
 | ai for law firms | 1,600 US | 1 | Meta, "So, what is Lynkk?" section |
 | legal transcription | 480 US | 2 | "Questions people ask" section |
+| meeting transcription | 480 (feature) | 1 | "Laura's problem" section |
 
 ---
 
@@ -36,7 +37,7 @@ leave, and the client is worried.
 The client talks fast and shares many details: dates, emails, payments. Laura needs every fact.
 
 So she writes while the client talks. She looks at her notepad more than at the client. Later, she can't read half of
-what she wrote. Was the notice sent on the 2nd or the 12th?
+what she wrote. She tried meeting transcription once, but she got pages of text and still had to dig out the facts. Was the notice sent on the 2nd or the 12th?
 
 ## How Lynkk helps Laura in client meetings
 

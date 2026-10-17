@@ -11,6 +11,8 @@
 | note taking app for students | 1,000 US | 1 | "So, what is Lynkk?" section |
 | lecture notes | 590 US, 880 India | 1 | Title, Meta, H1 |
 | ai note taker for lectures | 110 US | 1 | "Questions people ask" section |
+| transcribe audio | 33,100 (feature) | 1 | "Ethan's problem" section |
+| ai note taker | 27,100 (feature) | 2 | "How Lynkk helps Ethan record lectures" section, "Questions people ask" section |
 
 ---
 
@@ -37,7 +39,8 @@ explains a lot with examples.
 Ethan can either write or listen. He can't do both.
 
 When he writes, he misses the explanation. When he listens, he forgets it a week later. Before the exam, he opens his
-notes and they don't make sense. The one example he needs is somewhere in a 90-minute recording.
+notes and they don't make sense. The one example he needs is somewhere in a 90-minute recording. He once tried to transcribe audio from a class by hand. It
+took all weekend.
 
 ## How Lynkk helps Ethan record lectures
 
@@ -47,7 +50,7 @@ Ethan asks his teacher if he can record, and the teacher says yes. Then he start
 He uses the Lynkk Mac app on his laptop. If the campus Wi-Fi is weak, that's fine. It uploads later.
 
 **During class, Ethan just listens.**
-He follows the explanation and asks questions. He doesn't try to write everything down.
+He follows the explanation and asks questions. Lynkk is his AI note taker, so he doesn't try to write everything down.
 
 **After class, his notes are ready.**
 Lynkk writes a title, a short summary, the main points with times, the topics, and every word.

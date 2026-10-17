@@ -12,6 +12,8 @@
 | daily standup meeting | 1,600 | 2 | Meta, "How Lynkk helps Jake with the daily standup meeting" heading, "How Lynkk helps Jake with the daily standup meeting" section |
 | ai project management tools | 880 | 1 | "Questions people ask" section |
 | scrum meeting | 880 | 2 | "Questions people ask" section |
+| ai meeting notes | 1,000 (feature) | 1 | "How Lynkk helps Jake with the daily standup meeting" section |
+| action items | 2,900 (feature) | 1 | "How Lynkk helps Jake with the daily standup meeting" section |
 
 ---
 
@@ -48,10 +50,10 @@ Jake starts using Lynkk. Here is what changes.
 Lynkk is connected to his calendar. Every morning, the Lynkk meeting bot joins the standup on its own.
 
 **During the standup, the team just talks.**
-Nobody types. Nobody is the "note taker" anymore.
+Nobody types. Nobody is the "note taker" anymore. Lynkk takes the AI meeting notes for the whole team.
 
 **After the standup, the note is ready.**
-Lynkk sorts it into yesterday, today and blockers. Every task goes to the Tasks board with a name and a date.
+Lynkk sorts it into yesterday, today and blockers. Blockers and action items go to the Tasks board, each with a name and a date.
 
 ### Here is the note Lynkk wrote for Jake (example)
 

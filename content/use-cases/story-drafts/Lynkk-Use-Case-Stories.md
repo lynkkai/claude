@@ -30,6 +30,8 @@ URL: lynkk.ai/use-cases/sales-calls
 | sales call | 880 | 8 | Title, Meta, H1, Intro, "Meet Jessica" section |
 | ai sales assistant | 590 | 1 | Meta, "How Lynkk helps Jessica on her next sales call" section |
 | call recording software | 480 | 1 | "Questions people ask" section |
+| ai meeting assistant | 4,400 (feature) | 1 | "How Lynkk helps Jessica on her next sales call" section |
+| action items | 2,900 (feature) | 1 | "How Lynkk helps Jessica on her next sales call" section |
 
 **Page copy**
 
@@ -69,11 +71,11 @@ Jessica starts using Lynkk, an AI sales assistant. Here is what changes.
 Lynkk replies: "Dana has not said who will sign the order." Now Jessica knows what to ask first.
 
 **During the call, Jessica just talks.**
-Lynkk records the call from her computer. No extra bot joins the call. When Dana asks, "What did we agree last time?",
+Lynkk works like a quiet AI meeting assistant. It records the call from her computer, and no extra bot joins the call. When Dana asks, "What did we agree last time?",
 Lynkk shows Jessica the answer right away.
 
 **After the call, the notes are already done.**
-Jessica does not type anything. Lynkk writes the next steps, who will do them, and by when.
+Jessica does not type anything. Lynkk writes the action items: the next steps, who will do them, and by when.
 
 **Here is the note Lynkk wrote for Jessica (example)**
 
@@ -180,6 +182,8 @@ URL: lynkk.ai/use-cases/user-interviews
 | user research tools | 320 | 1 | "Questions people ask" section |
 | interview transcription service | 320 | 1 | "Questions people ask" section |
 | transcribe interview | 260 | 1 | "How Lynkk helps Rachel transcribe interviews" heading |
+| transcription software | 3,600 (feature) | 1 | "Rachel's problem" section |
+| audio to text | 12,100 (feature) | 1 | "How Lynkk helps Rachel transcribe interviews" section |
 
 **Page copy**
 
@@ -204,7 +208,8 @@ stop using the app.
 In each interview, Rachel tries to listen and write at the same time. She looks at her notebook more than at the person.
 
 Her notes only have short phrases, not the customer's real words. After eight interviews, she can't remember who said
-what. Finding one good quote means listening to hours of recordings again.
+what. Finding one good quote means listening to hours of recordings again. She tried transcription software once, but it gave her a
+wall of text with no names.
 
 #### How Lynkk helps Rachel transcribe interviews
 
@@ -217,7 +222,7 @@ She records from her computer, or in the room when she meets someone in person. 
 She looks at the person, not her notebook. She asks better follow-up questions.
 
 **After the interview, the text is ready.**
-Lynkk writes every word and labels who said it. It also lists the main points and the questions still open.
+Lynkk turns the audio to text and labels who said each line. It also lists the main points and the questions still open.
 
 **Here is the note Lynkk wrote for Rachel (example)**
 
@@ -323,6 +328,8 @@ URL: lynkk.ai/use-cases/team-standups
 | daily standup meeting | 1,600 | 2 | Meta, "How Lynkk helps Jake with the daily standup meeting" heading, "How Lynkk helps Jake with the daily standup meeting" section |
 | ai project management tools | 880 | 1 | "Questions people ask" section |
 | scrum meeting | 880 | 2 | "Questions people ask" section |
+| ai meeting notes | 1,000 (feature) | 1 | "How Lynkk helps Jake with the daily standup meeting" section |
+| action items | 2,900 (feature) | 1 | "How Lynkk helps Jake with the daily standup meeting" section |
 
 **Page copy**
 
@@ -357,10 +364,10 @@ Jake starts using Lynkk. Here is what changes.
 Lynkk is connected to his calendar. Every morning, the Lynkk meeting bot joins the standup on its own.
 
 **During the standup, the team just talks.**
-Nobody types. Nobody is the "note taker" anymore.
+Nobody types. Nobody is the "note taker" anymore. Lynkk takes the AI meeting notes for the whole team.
 
 **After the standup, the note is ready.**
-Lynkk sorts it into yesterday, today and blockers. Every task goes to the Tasks board with a name and a date.
+Lynkk sorts it into yesterday, today and blockers. Blockers and action items go to the Tasks board, each with a name and a date.
 
 **Here is the note Lynkk wrote for Jake (example)**
 
@@ -469,6 +476,8 @@ URL: lynkk.ai/use-cases/field-interviews
 | field interview | 390 US | 3 | Title, Meta, H1, "How Lynkk helps Emily with field interviews" heading, "Field interviews, before and after Lynkk" heading |
 | hindi audio to text | 140 India | 1 | "Questions people ask" section |
 | voice recorder for interviews | 110 US | 1 | Intro |
+| transcribe audio | 33,100 (feature) | 1 | "Emily's problem" section |
+| ai transcription | 5,400 (feature) | 1 | "How Lynkk helps Emily with field interviews" section |
 
 **Page copy**
 
@@ -493,7 +502,7 @@ to farmers about water and crops.
 
 Most farms have no internet. The farmers speak a mix of Hindi and English, sometimes in the same sentence.
 
-Emily comes back with hours of audio. She has no time to listen to it again. And typing it out by hand would take days.
+Emily comes back with hours of audio. She has no time to listen to it again. She needs a way to transcribe audio in two languages. Typing it out by hand would take days.
 
 #### How Lynkk helps Emily with field interviews
 
@@ -506,7 +515,7 @@ She opens the Lynkk Mac app and records the conversation. No internet needed. Th
 When her Mac is online again, the recording uploads and Lynkk writes the note.
 
 **Then she reads, instead of listening again.**
-She gets the text in Hindi and Hinglish, with each speaker labelled, plus the main points and open questions.
+Lynkk's AI transcription gives her the text in Hindi and Hinglish, with each speaker labelled, plus the main points and open questions.
 
 **Here is the note Lynkk wrote for Emily (example)**
 
@@ -611,6 +620,8 @@ URL: lynkk.ai/use-cases/lectures
 | note taking app for students | 1,000 US | 1 | "So, what is Lynkk?" section |
 | lecture notes | 590 US, 880 India | 1 | Title, Meta, H1 |
 | ai note taker for lectures | 110 US | 1 | "Questions people ask" section |
+| transcribe audio | 33,100 (feature) | 1 | "Ethan's problem" section |
+| ai note taker | 27,100 (feature) | 2 | "How Lynkk helps Ethan record lectures" section, "Questions people ask" section |
 
 **Page copy**
 
@@ -635,7 +646,8 @@ explains a lot with examples.
 Ethan can either write or listen. He can't do both.
 
 When he writes, he misses the explanation. When he listens, he forgets it a week later. Before the exam, he opens his
-notes and they don't make sense. The one example he needs is somewhere in a 90-minute recording.
+notes and they don't make sense. The one example he needs is somewhere in a 90-minute recording. He once tried to transcribe audio from a class by hand. It
+took all weekend.
 
 #### How Lynkk helps Ethan record lectures
 
@@ -645,7 +657,7 @@ Ethan asks his teacher if he can record, and the teacher says yes. Then he start
 He uses the Lynkk Mac app on his laptop. If the campus Wi-Fi is weak, that's fine. It uploads later.
 
 **During class, Ethan just listens.**
-He follows the explanation and asks questions. He doesn't try to write everything down.
+He follows the explanation and asks questions. Lynkk is his AI note taker, so he doesn't try to write everything down.
 
 **After class, his notes are ready.**
 Lynkk writes a title, a short summary, the main points with times, the topics, and every word.
@@ -752,6 +764,8 @@ URL: lynkk.ai/use-cases/customer-research
 | ai for marketing | 3,600 US, 2,900 India | 3 | Title, Meta, H1, "Meet Sarah" section, "So, what is Lynkk?" section |
 | voice of customer | 880 US | 3 | Title, H1, "How Lynkk helps Sarah find the voice of customer" heading, "So, what is Lynkk?" section |
 | focus group transcription | 110 US | 1 | "Questions people ask" section |
+| meeting recorder | 1,900 (feature) | 1 | "How Lynkk helps Sarah find the voice of customer" section |
+| meeting summary | 390 (feature) | 1 | "How Lynkk helps Sarah find the voice of customer" section |
 
 **Page copy**
 
@@ -781,10 +795,10 @@ So Sarah guesses. She writes "fast and easy to use" because it sounds good. She 
 
 #### How Lynkk helps Sarah find the voice of customer
 
-Sarah's team starts recording customer calls with Lynkk. Here is what changes.
+Sarah's team starts using Lynkk as the meeting recorder for customer calls. Here is what changes.
 
 **First, every customer call is recorded.**
-Sales calls, interviews and a focus group in the office. Lynkk writes the notes for each one.
+Sales calls, interviews and a focus group in the office. Lynkk writes a meeting summary for each one.
 
 **Then, Sarah asks Lynkk one question.**
 "What stops customers from switching to us?"
@@ -889,6 +903,7 @@ URL: lynkk.ai/use-cases/lawyers
 | ai for lawyers | 2,400 US, 720 India | 2 | Title, H1, "How Lynkk helps Laura in client meetings" section |
 | ai for law firms | 1,600 US | 1 | Meta, "So, what is Lynkk?" section |
 | legal transcription | 480 US | 2 | "Questions people ask" section |
+| meeting transcription | 480 (feature) | 1 | "Laura's problem" section |
 
 **Page copy**
 
@@ -913,7 +928,7 @@ leave, and the client is worried.
 The client talks fast and shares many details: dates, emails, payments. Laura needs every fact.
 
 So she writes while the client talks. She looks at her notepad more than at the client. Later, she can't read half of
-what she wrote. Was the notice sent on the 2nd or the 12th?
+what she wrote. She tried meeting transcription once, but she got pages of text and still had to dig out the facts. Was the notice sent on the 2nd or the 12th?
 
 #### How Lynkk helps Laura in client meetings
 
@@ -1028,6 +1043,8 @@ URL: lynkk.ai/use-cases/one-on-one-meetings
 | ai for managers | 1,600 | 2 | Title, H1, "So, what is Lynkk?" section |
 | one on one meeting | 2,400 | 1 | Meta, "How Lynkk helps Sam with 1 on 1 meetings" section |
 | 1 on 1 meeting | 720 | 4 | Title, H1, Intro, "Meet Sam" section, "How Lynkk helps Sam with 1 on 1 meetings" heading |
+| ai meeting assistant | 4,400 (feature) | 1 | "How Lynkk helps Sam with 1 on 1 meetings" section |
+| action items | 2,900 (feature) | 1 | "How Lynkk helps Sam with 1 on 1 meetings" section |
 
 **Page copy**
 
@@ -1059,14 +1076,14 @@ eight people, small promises are easy to lose.
 
 Sam asks his team if he can record their 1:1s, so neither side forgets what was agreed. They say yes.
 
-**Before the 1:1, Sam asks Lynkk.**
+**Before the 1:1, Sam asks Lynkk, his AI meeting assistant.**
 "What did Olivia and I agree last month?" Lynkk shows the answer, with a link to the moment it was said.
 
 **During the 1:1, Sam just listens.**
 He doesn't type. He pays attention to how Olivia feels, not just what she says.
 
 **After the 1:1, the note is ready.**
-Lynkk writes the wins, the problems, and the tasks with names and dates.
+Lynkk writes the wins, the problems, and the action items with names and dates.
 
 **Here is the note Lynkk wrote for Sam (example)**
 
@@ -1169,6 +1186,8 @@ URL: lynkk.ai/use-cases/real-estate-agents
 | ai for real estate agents | 590 | 2 | Title, H1, "So, what is Lynkk?" section |
 | ai tools for real estate agents | 320 | 2 | "How Lynkk helps Chris remember every client" section, "What else can Lynkk do?" section |
 | real estate ai tools | 320 | 1 | Meta, "Questions people ask" section |
+| meeting notes | 3,600 (feature) | 1 | "Chris's problem" section |
+| ai note taker | 27,100 (feature) | 1 | "How Lynkk helps Chris remember every client" section |
 
 **Page copy**
 
@@ -1193,7 +1212,7 @@ a budget, a wish list and lots of questions.
 The Johnson family told Chris they need a school nearby. Another family wants a big garden. Another needs two parking
 spots.
 
-After many calls, Chris mixes them up. He sends the Johnsons a house with a garden but no school nearby. They are
+After many calls with no meeting notes, Chris mixes them up. He sends the Johnsons a house with a garden but no school nearby. They are
 disappointed. Chris looks like he wasn't listening, but he just couldn't remember everything.
 
 #### How Lynkk helps Chris remember every client
@@ -1204,7 +1223,7 @@ A friend tells Chris about AI tools for real estate agents. He starts using Lynk
 "May I record this, so I get every detail right?" The Johnsons agree.
 
 **During the meeting, Chris just listens.**
-He records with the Lynkk Mac app in his office, or on a video call. He doesn't write anything down.
+He records with the Lynkk Mac app in his office, or on a video call. Lynkk is his AI note taker, so he doesn't write anything down.
 
 **After the meeting, the note is ready.**
 Lynkk writes the budget, the must-haves, and Chris's next steps with dates.
@@ -1310,6 +1329,7 @@ URL: lynkk.ai/use-cases/financial-advisors
 | ai tools for financial advisors | 90 | 1 | "What else can Lynkk do?" section |
 | best ai for financial advisors | 40 | 1 | "Questions people ask" section |
 | ai note taker for financial advisors | 30 | 1 | Meta, "So, what is Lynkk?" section |
+| ai meeting summary | 170 (feature) | 1 | "How Lynkk helps David with client reviews" section |
 
 **Page copy**
 
@@ -1348,7 +1368,7 @@ David starts using Lynkk, AI for financial advisors that writes the notes for hi
 He records on Zoom or in his office. He looks at the family, not his notebook.
 
 **After the meeting, the note is ready.**
-Lynkk writes their goals, what changed since last year, and the tasks with names and dates.
+Lynkk writes an AI meeting summary: their goals, what changed since last year, and the tasks with names and dates.
 
 **Here is the note Lynkk wrote for David (example)**
 

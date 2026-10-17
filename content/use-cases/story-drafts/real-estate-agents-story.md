@@ -10,6 +10,8 @@
 | ai for real estate agents | 590 | 2 | Title, H1, "So, what is Lynkk?" section |
 | ai tools for real estate agents | 320 | 2 | "How Lynkk helps Chris remember every client" section, "What else can Lynkk do?" section |
 | real estate ai tools | 320 | 1 | Meta, "Questions people ask" section |
+| meeting notes | 3,600 (feature) | 1 | "Chris's problem" section |
+| ai note taker | 27,100 (feature) | 1 | "How Lynkk helps Chris remember every client" section |
 
 ---
 
@@ -36,7 +38,7 @@ a budget, a wish list and lots of questions.
 The Johnson family told Chris they need a school nearby. Another family wants a big garden. Another needs two parking
 spots.
 
-After many calls, Chris mixes them up. He sends the Johnsons a house with a garden but no school nearby. They are
+After many calls with no meeting notes, Chris mixes them up. He sends the Johnsons a house with a garden but no school nearby. They are
 disappointed. Chris looks like he wasn't listening, but he just couldn't remember everything.
 
 ## How Lynkk helps Chris remember every client
@@ -47,7 +49,7 @@ A friend tells Chris about AI tools for real estate agents. He starts using Lynk
 "May I record this, so I get every detail right?" The Johnsons agree.
 
 **During the meeting, Chris just listens.**
-He records with the Lynkk Mac app in his office, or on a video call. He doesn't write anything down.
+He records with the Lynkk Mac app in his office, or on a video call. Lynkk is his AI note taker, so he doesn't write anything down.
 
 **After the meeting, the note is ready.**
 Lynkk writes the budget, the must-haves, and Chris's next steps with dates.

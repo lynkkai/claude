@@ -11,6 +11,7 @@
 | ai tools for financial advisors | 90 | 1 | "What else can Lynkk do?" section |
 | best ai for financial advisors | 40 | 1 | "Questions people ask" section |
 | ai note taker for financial advisors | 30 | 1 | Meta, "So, what is Lynkk?" section |
+| ai meeting summary | 170 (feature) | 1 | "How Lynkk helps David with client reviews" section |
 
 ---
 
@@ -51,7 +52,7 @@ David starts using Lynkk, AI for financial advisors that writes the notes for hi
 He records on Zoom or in his office. He looks at the family, not his notebook.
 
 **After the meeting, the note is ready.**
-Lynkk writes their goals, what changed since last year, and the tasks with names and dates.
+Lynkk writes an AI meeting summary: their goals, what changed since last year, and the tasks with names and dates.
 
 ### Here is the note Lynkk wrote for David (example)
 

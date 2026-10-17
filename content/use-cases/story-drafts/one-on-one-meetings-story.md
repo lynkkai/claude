@@ -10,6 +10,8 @@
 | ai for managers | 1,600 | 2 | Title, H1, "So, what is Lynkk?" section |
 | one on one meeting | 2,400 | 1 | Meta, "How Lynkk helps Sam with 1 on 1 meetings" section |
 | 1 on 1 meeting | 720 | 4 | Title, H1, Intro, "Meet Sam" section, "How Lynkk helps Sam with 1 on 1 meetings" heading |
+| ai meeting assistant | 4,400 (feature) | 1 | "How Lynkk helps Sam with 1 on 1 meetings" section |
+| action items | 2,900 (feature) | 1 | "How Lynkk helps Sam with 1 on 1 meetings" section |
 
 ---
 
@@ -43,14 +45,14 @@ eight people, small promises are easy to lose.
 
 Sam asks his team if he can record their 1:1s, so neither side forgets what was agreed. They say yes.
 
-**Before the 1:1, Sam asks Lynkk.**
+**Before the 1:1, Sam asks Lynkk, his AI meeting assistant.**
 "What did Olivia and I agree last month?" Lynkk shows the answer, with a link to the moment it was said.
 
 **During the 1:1, Sam just listens.**
 He doesn't type. He pays attention to how Olivia feels, not just what she says.
 
 **After the 1:1, the note is ready.**
-Lynkk writes the wins, the problems, and the tasks with names and dates.
+Lynkk writes the wins, the problems, and the action items with names and dates.
 
 ### Here is the note Lynkk wrote for Sam (example)
 

@@ -14,6 +14,8 @@
 | sales call | 880 | 8 | Title, Meta, H1, Intro, "Meet Jessica" section |
 | ai sales assistant | 590 | 1 | Meta, "How Lynkk helps Jessica on her next sales call" section |
 | call recording software | 480 | 1 | "Questions people ask" section |
+| ai meeting assistant | 4,400 (feature) | 1 | "How Lynkk helps Jessica on her next sales call" section |
+| action items | 2,900 (feature) | 1 | "How Lynkk helps Jessica on her next sales call" section |
 
 ---
 
@@ -55,11 +57,11 @@ Jessica starts using Lynkk, an AI sales assistant. Here is what changes.
 Lynkk replies: "Dana has not said who will sign the order." Now Jessica knows what to ask first.
 
 **During the call, Jessica just talks.**
-Lynkk records the call from her computer. No extra bot joins the call. When Dana asks, "What did we agree last time?",
+Lynkk works like a quiet AI meeting assistant. It records the call from her computer, and no extra bot joins the call. When Dana asks, "What did we agree last time?",
 Lynkk shows Jessica the answer right away.
 
 **After the call, the notes are already done.**
-Jessica does not type anything. Lynkk writes the next steps, who will do them, and by when.
+Jessica does not type anything. Lynkk writes the action items: the next steps, who will do them, and by when.
 
 ### Here is the note Lynkk wrote for Jessica (example)
 

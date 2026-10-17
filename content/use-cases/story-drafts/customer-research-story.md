@@ -10,6 +10,8 @@
 | ai for marketing | 3,600 US, 2,900 India | 3 | Title, Meta, H1, "Meet Sarah" section, "So, what is Lynkk?" section |
 | voice of customer | 880 US | 3 | Title, H1, "How Lynkk helps Sarah find the voice of customer" heading, "So, what is Lynkk?" section |
 | focus group transcription | 110 US | 1 | "Questions people ask" section |
+| meeting recorder | 1,900 (feature) | 1 | "How Lynkk helps Sarah find the voice of customer" section |
+| meeting summary | 390 (feature) | 1 | "How Lynkk helps Sarah find the voice of customer" section |
 
 ---
 
@@ -41,10 +43,10 @@ So Sarah guesses. She writes "fast and easy to use" because it sounds good. She 
 
 ## How Lynkk helps Sarah find the voice of customer
 
-Sarah's team starts recording customer calls with Lynkk. Here is what changes.
+Sarah's team starts using Lynkk as the meeting recorder for customer calls. Here is what changes.
 
 **First, every customer call is recorded.**
-Sales calls, interviews and a focus group in the office. Lynkk writes the notes for each one.
+Sales calls, interviews and a focus group in the office. Lynkk writes a meeting summary for each one.
 
 **Then, Sarah asks Lynkk one question.**
 "What stops customers from switching to us?"

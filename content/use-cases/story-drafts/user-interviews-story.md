@@ -13,6 +13,8 @@
 | user research tools | 320 | 1 | "Questions people ask" section |
 | interview transcription service | 320 | 1 | "Questions people ask" section |
 | transcribe interview | 260 | 1 | "How Lynkk helps Rachel transcribe interviews" heading |
+| transcription software | 3,600 (feature) | 1 | "Rachel's problem" section |
+| audio to text | 12,100 (feature) | 1 | "How Lynkk helps Rachel transcribe interviews" section |
 
 ---
 
@@ -39,7 +41,8 @@ stop using the app.
 In each interview, Rachel tries to listen and write at the same time. She looks at her notebook more than at the person.
 
 Her notes only have short phrases, not the customer's real words. After eight interviews, she can't remember who said
-what. Finding one good quote means listening to hours of recordings again.
+what. Finding one good quote means listening to hours of recordings again. She tried transcription software once, but it gave her a
+wall of text with no names.
 
 ## How Lynkk helps Rachel transcribe interviews
 
@@ -52,7 +55,7 @@ She records from her computer, or in the room when she meets someone in person. 
 She looks at the person, not her notebook. She asks better follow-up questions.
 
 **After the interview, the text is ready.**
-Lynkk writes every word and labels who said it. It also lists the main points and the questions still open.
+Lynkk turns the audio to text and labels who said each line. It also lists the main points and the questions still open.
 
 ### Here is the note Lynkk wrote for Rachel (example)
 
