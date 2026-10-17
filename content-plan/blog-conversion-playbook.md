@@ -1,6 +1,6 @@
 # Lynkk Blog Conversion Playbook
 
-How to title and write every blog in `website-blogs.csv` so a reader who lands from Google clicks through to sign-up. Follow this for all 35 posts and the 20 Medium/Substack posts.
+How to title and write every blog in `website-blogs.csv` so a reader who lands from Google clicks through to sign-up. Follow this for all 35 posts and the 20 Medium, Substack and Hashnode posts.
 
 ## 1. What to add in the title
 
@@ -92,7 +92,7 @@ Tag every CTA link so you can see which posts produce sign-ups:
 
 `https://lynkk.ai/sign-up?utm_source=blog&utm_medium=cta&utm_campaign=<post-slug>&utm_content=<top|mid|end>`
 
-For Medium and Substack use `utm_source=medium` or `utm_source=substack`. In GA4, mark sign-up as a conversion and report it by `utm_campaign`. After 6-8 weeks, move effort toward the posts and CTA positions that convert.
+For off-site posts use `utm_source=medium`, `utm_source=substack` or `utm_source=hashnode`. In GA4, mark sign-up as a conversion and report it by `utm_campaign`. After 6-8 weeks, move effort toward the posts and CTA positions that convert.
 
 ## 5. Trust elements that lift sign-ups
 

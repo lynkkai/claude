@@ -462,27 +462,31 @@ These were in v4 but break the SD-under-25 rule. Publish them once the first 35 
 - Pricing and comparison posts: use each competitor's current published prices on the day you publish.
 - Writing structure and CTA placement: `blog-conversion-playbook.md`.
 
-## Medium and Substack (20 posts)
+## Medium, Substack and Hashnode (20 posts)
+
+8 on Medium (hands-on tests and how-tos), 6 on Substack (buyer essays), 6 on Hashnode (developer and IT topics). Write each one as an original post with its own angle, not a copy of a website blog, and link back with the UTM tags in the playbook. If you ever republish a website post instead, set its canonical URL to the lynkk.ai page (Medium and Hashnode both support this).
+
+Dropped from the earlier list: 'Interview Transcription for UX Researchers' (/blog/recruiting-interview-transcription already owns it) and 'Meeting Minutes Are Not Enough' (no keyword to rank for). Their places went to the two new Hashnode posts, #17 and #18.
 
 | # | Platform | Title | Target keyword | Keyword data | Intent | Links back to | Est. time to rank |
 |---|---|---|---|---|---|---|---|
 | 1 | Medium | I Tested 7 AI Note Takers on Hinglish Meetings. Here's What Broke | hinglish transcription | 110/mo India, SD 28 | Commercial investigation | /features/hinglish-transcription, #17 | 2-6 weeks |
-| 2 | Medium | Read AI Kept Joining My Meetings. Here's How I Removed It for Good | how to stop read ai from joining meetings | 70/mo, SD 39 | Informational | #9, /features/meeting-bot | 2-6 weeks |
+| 2 | Medium | Read AI Kept Joining My Meetings. Here's How I Removed It for Good | how to stop read ai from joining meetings | 70/mo, SD 39 | Informational | #3, #9, /features/meeting-bot | 2-6 weeks |
 | 3 | Medium | Otter vs Fireflies vs Fathom After 30 Days of Real Meetings | otter ai vs fireflies ai | 70/mo, SD 15 | Commercial | #7, #1, /compare/fireflies | 2-4 weeks |
 | 4 | Medium | The Meeting Notes Template I Use for Every Meeting (Free Copy) | best meeting notes template | 390/mo, SD 19 | Transactional | #27, #28, /features/meeting-notes | 2-4 weeks |
-| 5 | Medium | From Sprint Retro to Jira Tickets in 30 Seconds: My Team's Workflow | sprint retrospective jira | 50/mo, SD 24 | Informational | #31, /blog/meeting-minutes-to-jira, /integrations | 2-4 weeks |
-| 6 | Medium | What Is Speaker Diarization? A Plain-English Guide for Non-Engineers | what is speaker diarization | 90/mo, SD 34 | Informational | /blog/ai-transcription-software, /features/multilingual-transcription | 3-8 weeks |
-| 7 | Medium | MOM in 30 Seconds: How I Stopped Writing Minutes of Meeting by Hand | mom generator | 40/mo India, SD 19 | Commercial | /features/meeting-notes, #22 | 2-4 weeks |
-| 8 | Medium | The 3-Line Follow-Up Email I Send After Every Sales Call | follow up email after meeting | 210/mo, SD 26 | Informational | #30, /use-cases/sales-calls | 2-4 weeks |
-| 9 | Medium | 12 Discovery Call Questions Great AEs Never Skip | discovery call questions | 70/mo, SD 23 | Informational | #32, /use-cases/sales-calls | 2-4 weeks |
-| 10 | Medium | How a Meeting Bot Actually Joins Zoom, Meet and Teams (Engineering Notes) | meeting bot / how to make a meeting bot | GSC position 29; 40/mo, SD 27 | Informational (developers) | /blog/zoom-bot-join-meeting, /features/meeting-bot | 2-6 weeks |
-| 11 | Medium | How to Record a Google Meet Without Google Workspace Premium | how to record google meet for free | 70/mo, SD 33 | Informational | #21, /features/chrome-extension | 3-8 weeks |
-| 12 | Medium | Interview Transcription for UX Researchers: My 5-Step Workflow | user interview transcription | GSC: 93 impr at 40 | Informational | /blog/recruiting-interview-transcription, /use-cases/user-interviews | 3-8 weeks |
-| 13 | Substack | Copilot in Teams vs a Dedicated AI Note Taker: Which One Should You Pay For? | copilot vs ai note taker | GSC question at 5.7 | Commercial | /blog/ai-note-taker-microsoft-teams, /compare | 1-3 months |
-| 14 | Substack | Zoom AI Companion Is Free. Here's What It Still Can't Do | zoom ai companion meeting summary | 390/mo, SD 26 | Commercial | /blog/zoom-ai-companion-alternatives, #15 | 1-3 months |
-| 15 | Substack | The 10 Security Questions IT Will Ask Before Approving an AI Note Taker | ai note taker sso scim | GSC questions at 3.2-9.0 | Commercial | /security, /demo | 1-3 months |
-| 16 | Substack | Meeting Minutes Are Not Enough: Why Teams Need a Meeting Memory | meeting knowledge management | Thought leadership | Brand / awareness | #23, /blog/meeting-knowledge-management, /features/ask-your-meetings | Distribution, not ranking |
-| 17 | Substack | Why Action Items Die After the Meeting (and a System That Keeps Them Alive) | meeting notes with action items | 210/mo, SD 12 | Informational | /blog/action-items-examples-template, #29, /features/action-items | 1-3 months |
-| 18 | Substack | Free vs Paid AI Note Takers: What You Actually Get at $0 | best free ai note taker | 260/mo, SD 32 | Commercial | /blog/best-free-ai-note-takers, #5, #8, /pricing | 1-3 months |
-| 19 | Substack | Board Meetings at an Early-Stage Startup: Agenda, Minutes and What Investors Expect | sample board meeting agenda | 1,300/mo, SD 31 | Informational | #26, #24, /blog/founders-meeting-notes | 1-3 months |
-| 20 | Substack | Running Meetings in Two Languages: What Global and Indian Teams Get Wrong | multilingual meeting transcription | GSC: 20 impr at 20.8 | Thought leadership | /features/multilingual-transcription, #17 | Distribution, not ranking |
+| 5 | Medium | MOM in 30 Seconds: How I Stopped Writing Minutes of Meeting by Hand | mom generator | 40/mo India, SD 19 | Commercial | /features/meeting-notes, #22 | 2-4 weeks |
+| 6 | Medium | The 3-Line Follow-Up Email I Send After Every Sales Call | follow up email after meeting | 210/mo, SD 26 | Informational | #30, /use-cases/sales-calls | 2-4 weeks |
+| 7 | Medium | 12 Discovery Call Questions Great AEs Never Skip | discovery call questions | 70/mo, SD 23 | Informational | #32, #19, /use-cases/sales-calls | 2-4 weeks |
+| 8 | Medium | How to Record a Google Meet Without Google Workspace Premium | how to record google meet for free | 70/mo, SD 33 | Informational | #21, /features/chrome-extension | 3-8 weeks |
+| 9 | Substack | Copilot in Teams vs a Dedicated AI Note Taker: Which One Should You Pay For? | copilot vs ai note taker | GSC question at 5.7 | Commercial | /blog/ai-note-taker-microsoft-teams, /compare | 1-3 months |
+| 10 | Substack | Zoom AI Companion Is Free. Here's What It Still Can't Do | zoom ai companion meeting summary | 390/mo, SD 26 | Commercial | /blog/zoom-ai-companion-alternatives, #15 | 1-3 months |
+| 11 | Substack | Why Action Items Die After the Meeting (and a System That Keeps Them Alive) | meeting notes with action items | 210/mo, SD 12 | Informational | /blog/action-items-examples-template, #29, /features/action-items | 1-3 months |
+| 12 | Substack | Free vs Paid AI Note Takers: What You Actually Get at $0 | best free ai note taker | 260/mo, SD 32 | Commercial | /blog/best-free-ai-note-takers, #5, #14, /pricing | 1-3 months |
+| 13 | Substack | Board Meetings at an Early-Stage Startup: Agenda, Minutes and What Investors Expect | sample board meeting agenda | 1,300/mo, SD 31 | Informational | #26, #24, /blog/founders-meeting-notes | 1-3 months |
+| 14 | Substack | Running Meetings in Two Languages: What Global and Indian Teams Get Wrong | multilingual meeting transcription | GSC: 20 impr at 20.8 | Thought leadership | /features/multilingual-transcription, #17 | Distribution, not ranking |
+| 15 | Hashnode | How a Google Meet Bot Actually Joins a Call (and Why Some Get Blocked) | google meet bot | 50/mo, SD 13; GSC: 'meeting bot' at position 29 | Informational (developers) | /blog/zoom-bot-join-meeting, /features/meeting-bot | 2-6 weeks |
+| 16 | Hashnode | What Is Speaker Diarization? How AI Knows Who Said What in a Meeting | what is speaker diarization | 90/mo, SD 34 | Informational (developers) | /blog/ai-transcription-software, /features/multilingual-transcription | 3-8 weeks |
+| 17 | Hashnode | OpenAI Whisper on Hindi and Hinglish Meetings: What We Measured | openai whisper hindi | 10/mo, SD 18 (whisper hindi: 20/mo, SD 29) | Informational (developers) | #17, /features/hinglish-transcription | 2-6 weeks |
+| 18 | Hashnode | Giving Claude and Cursor Your Meeting Notes With a Remote MCP Server | remote mcp server examples | 10/mo, SD 11 (head term 'mcp server examples': 720/mo, SD 43) | Informational (developers) | /integrations, /features/ask-your-meetings | 2-6 weeks |
+| 19 | Hashnode | From Sprint Retro to Jira Tickets in 30 Seconds: Our Engineering Workflow | sprint retrospective jira | 50/mo, SD 24 | Informational | #31, /blog/meeting-minutes-to-jira, /integrations | 2-4 weeks |
+| 20 | Hashnode | The 10 Security Questions IT Will Ask Before Approving an AI Note Taker | ai note taker sso scim | GSC questions at 3.2-9.0 | Commercial (IT buyers) | /security, /demo | 1-3 months |
