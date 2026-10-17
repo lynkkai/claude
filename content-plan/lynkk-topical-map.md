@@ -1,525 +1,462 @@
-# Lynkk Content Plan: Topical Map, 35 Blogs + 20 Medium/Substack Posts
+# Lynkk Content Plan v2: 35 Blogs + 20 Medium/Substack Posts (Audited)
 
-Prepared 2026-10-17 for lynkk.ai. Sources: Ubersuggest (keyword volume, SEO difficulty, intent; project `lynkk.ai`) and Google Search Console (last 3 months to 2026-10-17).
+Updated 2026-10-17. This version replaces v1 after two checks you asked for:
 
-## 1. Where lynkk.ai stands today
+1. **Cannibalization:** I read the live title, H1 and every H2 of all 29 existing lynkk.ai blogs and compared them with each topic. For doubtful pairs I compared Google's top 10 for both queries (if 3 or more URLs are shared, Google treats them as one intent).
+2. **Volume accuracy:** I checked the live SERP for every primary keyword to confirm the searcher actually wants what the post offers, and to see how strong the ranking sites really are.
 
-| Signal | Value | What it means |
+Sources: Ubersuggest (volume, SD, SERP), Google Search Console export (last 3 months), live lynkk.ai pages.
+
+## 1. How to read the volume numbers (important)
+
+- **The volume belongs to one exact query, not to the blog title.** Example: for #3 the title is 'Meeting Summary Template: How to Write a Meeting Summary or Recap', but **480/mo is the volume of the exact query `template for meeting summary`**. Nobody searches the full title.
+- **Cluster volume** = the separate volumes of the primary keyword plus the other keywords that post covers, added together. It is a rough ceiling, not a traffic forecast.
+- **Ubersuggest volumes are estimates.** They come in Google's rounded buckets (390, 480, 590, 720, 880...), so read 480 as 'roughly 400-600'. They can be wrong in two ways I found in this audit:
+  - **Wrong meaning:** 'granola alternative' shows 320/mo, but the SERP is 100% food. Removed.
+  - **Shared brand name:** 'fathom pricing' shows 590/mo, but 2 of the top 3 results are other companies called Fathom. Kept, marked Low confidence.
+  - **Navigational:** 'jamie ai note taker' (1,300) and 'krisp ai note taker' (1,300) are people trying to reach those tools (the brand site, app store and Reddit hold the top). Not used.
+- **Real clicks are much lower than volume.** Position 1 gets roughly a quarter of searches, position 5 only a few percent, and AI Overviews take more.
+- **Confidence** column: High = GSC impressions or a clean SERP confirm it; Medium = clean SERP, Ubersuggest volume only; Low = ambiguous meaning.
+- **Real difficulty** comes from the live top 10, not just SD. Example: 'how to record google meet' has SD 25 but Google's own help pages hold about 6 of the top 10, so it is really High.
+
+## 2. What changed from v1
+
+| v1 topic | Decision | Why |
 |---|---|---|
-| Domain authority (Ubersuggest) | 1, with 3 referring domains (all nofollow) | Brand-new domain. Low-difficulty keywords only: SD under 35, ideally under 25. |
-| GSC clicks / impressions (3 months) | 74 / 5,484 | 41 clicks are brand ('lynkk'). Non-brand is almost all impressions with no clicks yet. |
-| Top country by clicks | India: 43 clicks, position 22 | India converts. US has the most impressions (2,626) but sits at position 32. |
-| Best non-brand page | /blog/google-meet-transcript: 1,181 impressions, position 9, 0 clicks | Page 1 already. Needs a better title and meta for CTR, plus a support post (#17). |
-| Meeting-bot cluster | /features/meeting-bot: 581 impressions, position 26 | Google associates Lynkk with meeting bots. #18 pushes this to page 1. |
-| AI-search style questions | SSO/SCIM, CRM gap, team pricing, retention, Copilot vs notetaker: positions 1-9 | Long buyer questions already rank. They are the fastest wins (#15, #27, #28, #32). |
+| Meeting Recap Email (v1 #4) | MERGED into #4 | The 'meeting recap email examples' SERP is full of follow-up email articles. One post covers both. |
+| Meeting Minutes vs Meeting Notes (v1 #7) | MERGED into #5 | 'What are meeting minutes' shares 3 of 10 URLs with 'how to take meeting minutes', and /blog/meeting-minutes-to-jira already answers 'What are meeting minutes?'. |
+| How to Get a Zoom Transcript (v1 #14) | DROPPED: cannibalizes | /blog/how-to-transcribe-zoom-meetings already has 'How do you get a Zoom transcript after the meeting?' and 'How do you download or save a Zoom transcript?'. |
+| Can Copilot Take Meeting Notes (v1 #15) | DROPPED: cannibalizes | /blog/ai-note-taker-microsoft-teams already has 'Does Teams have an AI note taker?' and 'Can Copilot take meeting notes?'. |
+| Zoom AI Companion Meeting Summary (v1 #16) | DROPPED: wrong SERP | Top 10 is Zoom support and university help docs; blogs barely rank. AI Companion is also covered in /blog/zoom-ai-companion-alternatives. |
+| Google Meet Transcript Not Showing (v1 #17) | DROPPED: cannibalizes | /blog/google-meet-transcript already has 'Why is Google Meet transcription not working?' and 'Where are Google Meet transcripts saved?'. Fix that page's title and meta instead. |
+| What Is a Meeting Bot (v1 #18) | DROPPED: cannibalizes | /blog/zoom-bot-join-meeting already has 'What is a meeting bot?' and 'How do you send a meeting bot to a meeting?', and /features/meeting-bot targets the same term. |
+| Granola Alternatives (v1 #21) | REPLACED by #17 | 'granola alternative' (320/mo) is the food. Its SERP is all yogurt and recipes. Switched to 'granola ai alternatives' (210/mo). |
+| Remove Read AI / Remove Otter (v1 #22, #23) | RESTRUCTURED as #26, #27, #28 | Brand removal queries kept separate per brand. Read AI removal joins 'what is read ai'. |
+| Otter vs Fireflies vs Read AI (v1 #26) | REPLACED by #18 | Fathom comparisons have more volume (fathom vs fireflies 110, fathom vs otter 70). |
+| AI Note Taker Cost for a 20-Person Team (v1 #27) | DROPPED: cannibalizes | 4 existing posts already have 'How much does ... cost for a 10-person team?' H2s, and the GSC question is likely landing on one of them. |
+| Is Otter.ai Safe (v1 #29) | MERGED into #25 | Otter review pages rank in the 'is otter ai safe' SERP, so one post covers both. |
+| Interview Transcription (v1 #33) | DROPPED: cannibalizes | /blog/recruiting-interview-transcription already covers 'What is interview transcription?', examples and how-to. |
+| Hindi Audio to Text (v1 #34) | MOVED to a landing page | The SERP is 100% upload-a-file tools (ElevenLabs, Notta, HappyScribe) with no blogs. Build a 'Hindi audio to text' tool or landing page instead. |
+| Multilingual Meeting Transcription (v1 #35) | DROPPED: cannibalizes | Would compete with the /features/multilingual-transcription service page. Optimize that page instead. |
 
-### Fix these before publishing (from GSC)
+New topics added after SERP checks: #6 LLC meeting minutes, #9 project kickoff agenda, #11 sprint planning agenda, #19 Granola vs Otter, #22 Read AI pricing, #23 Fathom pricing, #24 Granola pricing, #26 What is Read AI, #28 remove Fireflies, #29 ChatGPT meeting notes, #30 Notion AI meeting notes, #35 Hindi voice typing.
 
-1. **/blog/google-meet-transcript**: rewrite the title tag and meta description and add an FAQ block for 'where do I find my Google Meet transcript'. Position 9 with 0 clicks is a CTR problem, not a ranking problem.
-2. **/features/knowledge-graph** gets impressions and clicks in GSC but is missing from the sitemap. Add it to the sitemap, or 301 it to the right page.
-3. **/articles/zoom-note-taker** still shows in GSC. Make sure it 301-redirects to /blog/zoom-note-taker.
-4. Misspelled brand searches (linnkk, liknkk, linnnk, flynkk) show people looking for you. Keep 'Lynkk' prominent in titles on the home and download pages.
+## 3. Fixes to make on existing pages first
 
-## 2. How to read this plan
+1. **/blog/google-meet-transcript**: 1,181 impressions at position 9 with 0 clicks. Rewrite the title tag and meta description. This is the single biggest quick win.
+2. **/blog/founders-meeting-notes**: reword the H2s 'What is the best way to take meeting notes?' and 'What should you include in meeting notes?' to founder angles, so new pillar #1 owns the generic query.
+3. **/blog/meeting-minutes-to-jira**: shorten 'What are meeting minutes?' and 'Who takes meeting minutes?' to 2 lines each and link to #5.
+4. **12 posts with an 'Is it legal to record...' H2**: keep each to 2-3 sentences and link to #31.
+5. **Existing posts that may already compete with each other** (same tool lists): zoom-note-taker vs zoom-meeting-recorders vs zoom-ai-companion-alternatives; best-ai-note-takers vs ai-powered-meeting-assistants; transcribe-audio-to-text vs ai-transcription-software vs voice-to-text-apps. In GSC, open Performance > Queries, click a query, then the Pages tab. If two of these URLs show for the same query, differentiate their titles or merge them.
+6. **/features/knowledge-graph** gets GSC clicks but is missing from the sitemap. **/articles/zoom-note-taker** should 301 to /blog/zoom-note-taker.
+7. **New landing page (not a blog): 'Hindi audio to text'** (590/mo India, SD 17). The SERP is all upload tools, so a tool-style page under /features fits, not a blog.
+8. **Optimize /features/multilingual-transcription** (GSC position 61) instead of writing a competing blog.
 
-- **Volume** = Ubersuggest monthly searches (US unless marked India). **SD** = Ubersuggest SEO difficulty, 0-100.
-- **Difficulty labels:** Low (SD 0-20), Low-Med (21-35), Medium (36-45), High (46+).
-- **Est. time to page 1** assumes a DA-1 site that publishes 2-3 posts a week, links internally as mapped below, and earns a few backlinks. These are estimates, not guarantees:
-  - Already ranking in GSC or long-tail buyer questions: 1-2 months
-  - SD 0-20: 1-3 months
-  - SD 21-30: 2-4 months
-  - SD 31-40: 3-5 months
-  - SD 41+: 4-6+ months (needs backlinks)
-- **Search intent in the title:** 'How to...' and 'What is...' for informational, 'Template'/'Free' for transactional, 'Best...'/'Alternatives'/'Pricing'/'vs' for commercial.
-- **Publish wave:** 1 = weeks 1-4 (quick wins), 2 = weeks 5-8, 3 = weeks 9-12.
-
-## 3. Topical map (the content environment)
-
-Each cluster has one pillar post. Every cluster post links **up** to its pillar, **across** to 2-3 siblings, **back** to 2-4 existing blogs, and **down** to 1-3 service pages (contextual link plus a CTA). Pillars link to every post in their cluster and to the hub service page.
-
-```
-                                lynkk.ai (home)
-                                       |
-     +-------------+-------------+-----+------+-------------+-------------+-------------+
-     |             |             |            |             |             |             |
-  C1 Notes &   C2 Minutes,   C3 Recording  C4 Alterna-  C5 Trust,    C6 Sales,     C7 Multi-
-  Follow-Up    Agendas &     & Transcripts tives &      Security &   Hiring &      lingual &
-  (pillar #1)  Meeting Types by Platform   Pricing      Compliance   Research      India
-     |        (pillar #6)   (pillar #11)  (hub: best-  (pillar #28)    |             |
-     |             |             |        ai-note-         |             |             |
-     |             |             |        takers)          |             |             |
-  /features/   /features/    /features/   /compare/*    /security    /use-cases/   /features/
-  meeting-     meeting-notes meeting-bot  /pricing      /features/   sales-calls   hinglish-
-  notes        /use-cases/   /features/                 workspaces   /use-cases/   transcription
-  /features/   team-standups chrome-ext                              user-         /features/
-  action-items               /download                               interviews    multilingual-
-                                                                                   transcription
-```
-
-Medium and Substack posts sit **outside** the site and point **into** it: each links to 1-2 website blogs and 1 service page.
+Full audit of all 29 existing posts: `existing-blog-audit.csv`.
 
 ## 4. The 35 website blogs
 
-### C1. Meeting Notes & Follow-Up (5 posts)
+### C1. Meeting Notes & Follow-Up (4 posts)
 
-**Who is searching:** Managers, team leads, executive assistants, PMs and whoever gets asked to 'take notes'. Mostly informational and template intent.
-
+**Who is searching:** Managers, team leads, EAs and PMs who get asked to take notes or send the recap.  
 **Hub service pages:** /features/meeting-notes, /features/action-items
 
-| # | Blog title (intent in title) | Primary keyword | Vol/mo | SD | Difficulty | Intent | Time to page 1 | Wave |
-|---|---|---|---|---|---|---|---|---|
-| 1 | **How to Take Good Meeting Notes: 9 Steps, Examples & Free Template** (pillar) | how to take good meeting notes | 880 | 16 | Low | Informational | 2-3 months | 1 |
-| 2 | Free Meeting Notes Template (Word, Google Docs & Notion) + How to Use It | meeting notes template free | 880 | 14 | Low | Transactional (template download) | 1-3 months | 1 |
-| 3 | Meeting Summary Template: How to Write a Meeting Summary (With Examples) | template for meeting summary | 480 | 9 | Low | Informational | 1-2 months | 1 |
-| 4 | Meeting Recap Email: Free Template + 10 Examples to Copy | template for meeting recap | 390 | 21 | Low-Med | Informational / Transactional | 2-3 months | 2 |
-| 5 | How to Write a Follow-Up Email After a Meeting (12 Examples) | example of follow up email after meeting | 210 | 7 | Low | Informational | 1-2 months | 1 |
+| # | Blog title | Primary keyword (exact query) | Vol/mo of that query | SD | Cluster vol (sum) | Real difficulty (SERP) | Time to page 1 | Overlap risk | Wave |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | **How to Take Good Meeting Notes: 9 Steps, Examples & Free Template** (pillar) | `how to take good meeting notes` | 880 | 16 | 2,100 | Low-Med | 2-4 months | MEDIUM | 1 |
+| 2 | Free Meeting Notes Template (Word, Google Docs & Notion) + How to Use It | `meeting notes template free` | 880 | 14 | 2,300 | Low | 1-3 months | LOW vs existing | 1 |
+| 3 | Meeting Summary Template: How to Write a Meeting Summary or Recap (With Examples) | `template for meeting summary` | 480 | 9 | 1,080 | Low | 1-3 months | NONE vs existing | 1 |
+| 4 | How to Write a Follow-Up Email After a Meeting (12 Examples + Recap Email Template) | `follow up email after meeting` | 210 | 26 | 950 | Low-Med | 2-3 months | LOW | 2 |
 
-<details><summary>Secondary keywords, GSC evidence and internal links</summary>
+<details><summary>Keywords covered, SERP evidence, confidence, overlap and links</summary>
 
 **#1 How to Take Good Meeting Notes: 9 Steps, Examples & Free Template**  
-URL: `/blog/how-to-take-meeting-notes`  
-Secondary: how to write meeting notes (880, SD 36); how to take meeting notes (590, SD 44); how to type meeting notes (170, SD 9); how to write meeting notes template (170, SD 9)  
-Link to existing blogs: founders-meeting-notes, meeting-preparation, best-ai-note-takers, action-items-examples-template  
-Link to service pages: /features/meeting-notes, /features/action-items, /how-it-works  
-Link to new blogs: #2, #3, #4, #5, #6
+URL: `/blog/how-to-take-meeting-notes` | Intent: Informational | Volume confidence: Medium  
+Other keywords covered: how to write meeting notes (880); how to type meeting notes (170); how to write meeting notes template (170)  
+Live SERP: Weakest in top 10: mercedes-benz.io DA 35 (#10), karbonhq DA 42 (#9), meetgeek DA 44 (#6)  
+Overlap: MEDIUM: /blog/founders-meeting-notes has H2s 'What is the best way to take meeting notes?' and 'What should you include in meeting notes?'. SERP for that phrase shares 2 of 10 URLs. Fix: reword those 2 H2s to founder-specific angles and link them to this post.  
+Links: existing blogs founders-meeting-notes, meeting-preparation, action-items-examples-template; service pages /features/meeting-notes, /features/action-items, /how-it-works; new blogs #2, #3, #4, #5
 
 **#2 Free Meeting Notes Template (Word, Google Docs & Notion) + How to Use It**  
-URL: `/blog/meeting-notes-template`  
-Secondary: best meeting notes template (390, SD 19); meeting notes template for word (390, SD 18); meeting notes format template (320, SD 20); notion meeting notes template (320, SD 22); meeting notes template google docs (170, SD 23)  
-Link to existing blogs: meeting-minutes-sample, one-on-one-meeting, daily-standup-meeting  
-Link to service pages: /features/meeting-notes, /features/workspaces  
-Link to new blogs: #1, #3, #9
+URL: `/blog/meeting-notes-template` | Intent: Transactional (template download) | Volume confidence: Medium  
+Other keywords covered: best meeting notes template (390); meeting notes template for word (390); meeting notes format template (320); notion meeting notes template (320)  
+Live SERP: documentero DA 15 (#6), meetingnotes.com DA 38 (#3), fellow DA 46 (#7)  
+Overlap: LOW vs existing. MEDIUM vs new #3: their SERPs share 3 of 10 URLs. Keep #2 = blank template to fill DURING the meeting; #3 = summary written AFTER.  
+Links: existing blogs meeting-minutes-sample, one-on-one-meeting, daily-standup-meeting; service pages /features/meeting-notes, /features/workspaces; new blogs #1, #3, #8
 
-**#3 Meeting Summary Template: How to Write a Meeting Summary (With Examples)**  
-URL: `/blog/meeting-summary-template`  
-Secondary: how to write a meeting summary template (140, SD 20); team meeting summary (70, SD 25); meeting summary example (70, SD 29); ai meeting summary (170, SD 37)  
-Link to existing blogs: ai-powered-meeting-assistants, meeting-minutes-sample  
-Link to service pages: /features/meeting-notes, /features/ask-your-meetings  
-Link to new blogs: #1, #4, #16
+**#3 Meeting Summary Template: How to Write a Meeting Summary or Recap (With Examples)**  
+URL: `/blog/meeting-summary-template` | Intent: Informational / Transactional | Volume confidence: Medium  
+Other keywords covered: template for meeting recap (390); how to write a meeting summary template (140); meeting summary example (70)  
+Live SERP: booworkspace DA 10 (recap SERP), claap DA 37 (#2), virtuallatinos DA 37  
+Overlap: NONE vs existing. Merged v1 'meeting recap template' in here: 'summary template' and 'recap template' SERPs share 3 URLs, so Google treats them as one intent.  
+Links: existing blogs ai-powered-meeting-assistants, action-items-examples-template; service pages /features/meeting-notes, /features/ask-your-meetings; new blogs #1, #2, #4
 
-**#4 Meeting Recap Email: Free Template + 10 Examples to Copy**  
-URL: `/blog/meeting-recap-email`  
-Secondary: meeting recap template (320, SD 40); meeting recap email examples (140, SD 32); meeting recap email example (110, SD 26); sample meeting recap (110, SD 19)  
-Link to existing blogs: action-items-examples-template, sales-conversation-intelligence  
-Link to service pages: /features/action-items, /features/meeting-notes  
-Link to new blogs: #3, #5, #32
-
-**#5 How to Write a Follow-Up Email After a Meeting (12 Examples)**  
-URL: `/blog/follow-up-email-after-meeting`  
-Secondary: follow up email after meeting (210, SD 26); follow up email after meeting example (170, SD 22); how to write follow up email after meeting (110, SD 5); follow up email after meeting someone (90, SD 26)  
-Link to existing blogs: sales-conversation-intelligence, action-items-examples-template  
-Link to service pages: /use-cases/sales-calls, /features/action-items, /integrations  
-Link to new blogs: #4, #31, #32
+**#4 How to Write a Follow-Up Email After a Meeting (12 Examples + Recap Email Template)**  
+URL: `/blog/follow-up-email-after-meeting` | Intent: Informational | Volume confidence: Medium  
+Other keywords covered: example of follow up email after meeting (210); follow up email after meeting example (170); how to write follow up email after meeting (110); meeting recap email examples (140); meeting recap email example (110)  
+Live SERP: biscred DA 20 (#7), flownote DA 15 (recap SERP #6), fellow DA 46 (#3)  
+Overlap: LOW: /blog/sales-conversation-intelligence has a 'sales call follow-up checklist' H2 only. Merged v1 'recap email' here: the recap-email SERP is full of follow-up-email articles.  
+Links: existing blogs sales-conversation-intelligence, action-items-examples-template; service pages /features/action-items, /use-cases/sales-calls, /integrations; new blogs #3, #33, #34
 
 </details>
 
-### C2. Minutes, Agendas & Meeting Types (5 posts)
+### C2. Minutes, Agendas & Meeting Types (7 posts)
 
-**Who is searching:** Company secretaries, board admins, founders, scrum masters, ops and nonprofit staff. Want formats, samples and step-by-step guides.
-
+**Who is searching:** Company secretaries, small-business owners, board admins, founders, scrum masters, project managers.  
 **Hub service pages:** /features/meeting-notes, /use-cases/team-standups
 
-| # | Blog title (intent in title) | Primary keyword | Vol/mo | SD | Difficulty | Intent | Time to page 1 | Wave |
-|---|---|---|---|---|---|---|---|---|
-| 6 | **How to Take Meeting Minutes: Step-by-Step Guide (+ What to Include)** (pillar) | how to writing meeting minutes | 1,000 | 12 | Low | Informational | 2-4 months | 2 |
-| 7 | Meeting Minutes vs Meeting Notes: What's the Difference (and Which You Need) | meeting notes minutes | 2,400 | 17 | Low | Informational | 2-4 months | 3 |
-| 8 | Board Meeting Agenda & Minutes: Free Template, Format and Sample | board meeting agenda | 1,300 | 14 | Low | Informational / Transactional | 2-4 months | 3 |
-| 9 | How to Write a Meeting Agenda: Free Template + Team Meeting Examples | meeting agenda free template | 1,300 | 15 | Low | Informational / Transactional | 2-3 months | 2 |
-| 10 | Sprint Retrospective: Template, 40 Questions and Example Answers | sprint retrospective samples | 480 | 20 | Low | Informational | 2-4 months | 3 |
+| # | Blog title | Primary keyword (exact query) | Vol/mo of that query | SD | Cluster vol (sum) | Real difficulty (SERP) | Time to page 1 | Overlap risk | Wave |
+|---|---|---|---|---|---|---|---|---|---|
+| 5 | **How to Take Meeting Minutes: Step-by-Step Guide (+ Minutes vs Notes)** (pillar) | `how to take meeting minutes` | 1,000 | 30 | 8,700 | Low-Med | 3-5 months | LOW vs /blog/meeting-minutes-sample | 2 |
+| 6 | LLC Meeting Minutes Template: Annual and First Meeting (Free) | `llc meeting minutes template` | 480 | 22 | 480 | Low-Med | 2-4 months | LOW | 2 |
+| 7 | Board Meeting Agenda: Free Template, Format and Sample | `board meeting agenda` | 1,300 | 14 | 5,500 | Low | 2-3 months | LOW | 1 |
+| 8 | How to Write a Meeting Agenda: Free Template + Examples | `meeting agenda free template` | 1,300 | 15 | 3,650 | Medium (SD understates it) | 4-6 months | LOW | 3 |
+| 9 | Project Kickoff Meeting Agenda: Template, Checklist and Example | `project kickoff meeting agenda` | 390 | 35 | 770 | Low-Med (SD overstates it) | 2-4 months | NONE | 2 |
+| 10 | Sprint Retrospective: Template, Questions and Examples (+ Review vs Retro) | `sprint retrospective samples` | 480 | 20 | 1,030 | Low-Med | 2-4 months | NONE | 2 |
+| 11 | Sprint Planning Meeting Agenda: Template and Checklist | `sprint planning meeting agenda` | 170 | 26 | 200 | Low | 1-3 months | NONE | 2 |
 
-<details><summary>Secondary keywords, GSC evidence and internal links</summary>
+<details><summary>Keywords covered, SERP evidence, confidence, overlap and links</summary>
 
-**#6 How to Take Meeting Minutes: Step-by-Step Guide (+ What to Include)**  
-URL: `/blog/how-to-take-meeting-minutes`  
-Secondary: how to take meeting minutes (1,000, SD 30); how to do meeting minutes (1,600, SD 35); how write meeting minutes (1,000, SD 44)  
-Link to existing blogs: meeting-minutes-sample, meeting-minutes-to-jira, meeting-knowledge-management  
-Link to service pages: /features/meeting-notes, /features/action-items  
-Link to new blogs: #1, #7, #8
+**#5 How to Take Meeting Minutes: Step-by-Step Guide (+ Minutes vs Notes)**  
+URL: `/blog/how-to-take-meeting-minutes` | Intent: Informational | Volume confidence: Medium  
+Other keywords covered: how to do meeting minutes (1,600); what are meeting minutes (2,400); meeting minutes meaning (1,300); meeting notes minutes (2,400)  
+Live SERP: ibabs DA 38 (#5), polly DA 48 (#8), boardbook DA 51 (#4), trint DA 53 (#7)  
+Overlap: LOW vs /blog/meeting-minutes-sample: its SERP shares 0 of 10 URLs. MEDIUM vs /blog/meeting-minutes-to-jira, which has H2s 'What are meeting minutes?' and 'Who takes meeting minutes?'. Fix: cut those to 2 lines and link here. Merged v1 'minutes vs notes' in here (3 shared URLs).  
+Links: existing blogs meeting-minutes-sample, meeting-minutes-to-jira, meeting-knowledge-management; service pages /features/meeting-notes, /features/action-items; new blogs #1, #6, #7
 
-**#7 Meeting Minutes vs Meeting Notes: What's the Difference (and Which You Need)**  
-URL: `/blog/meeting-minutes-vs-meeting-notes`  
-Secondary: what are meeting minutes (2,400, SD 35); what is meeting minutes (2,400, SD 36); meeting minutes meaning (1,300, SD 28)  
-Link to existing blogs: meeting-minutes-sample, meeting-knowledge-management  
-Link to service pages: /features/meeting-notes  
-Link to new blogs: #1, #3, #6
+**#6 LLC Meeting Minutes Template: Annual and First Meeting (Free)**  
+URL: `/blog/llc-meeting-minutes-template` | Intent: Transactional (template) | Volume confidence: Medium  
+Other keywords covered: none with measurable volume  
+Live SERP: speaknotes DA 24 (#8), eforms DA 51 (#10), northwestregisteredagent DA 72 (#2)  
+Overlap: LOW: shares 1 URL with the 'meeting minutes sample' SERP. Existing sample covers team and board minutes, not LLC.  
+Links: existing blogs meeting-minutes-sample, founders-meeting-notes; service pages /features/meeting-notes; new blogs #5, #7
 
-**#8 Board Meeting Agenda & Minutes: Free Template, Format and Sample**  
-URL: `/blog/board-meeting-agenda-minutes`  
-Secondary: format of board meeting agenda (1,300, SD 21); board meeting agenda format (1,600, SD 27); sample board meeting agenda (1,300, SD 31); board meeting minutes (1,000, SD 38)  
-Link to existing blogs: founders-meeting-notes, meeting-minutes-sample  
-Link to service pages: /features/meeting-notes, /security  
-Link to new blogs: #6, #9
+**#7 Board Meeting Agenda: Free Template, Format and Sample**  
+URL: `/blog/board-meeting-agenda` | Intent: Informational / Transactional | Volume confidence: Medium  
+Other keywords covered: format of board meeting agenda (1,300); board meeting agenda format (1,600); sample board meeting agenda (1,300)  
+Live SERP: boardcloud DA 17 (#8), boardable DA 37 (#5), ibabs DA 38 (#9), nhnonprofits DA 40 (#4)  
+Overlap: LOW: /blog/meeting-minutes-sample covers board MINUTES. Keep this post strictly about the AGENDA and link to the sample for minutes.  
+Links: existing blogs meeting-minutes-sample, founders-meeting-notes; service pages /features/meeting-notes, /security; new blogs #5, #6, #8
 
-**#9 How to Write a Meeting Agenda: Free Template + Team Meeting Examples**  
-URL: `/blog/how-to-write-meeting-agenda`  
-Secondary: how to write meeting agenda (590, SD 11); meeting agenda creator (880, SD 16); team meeting agenda sample (880, SD 31); team meeting agenda template (720, SD 33)  
-Link to existing blogs: meeting-preparation, one-on-one-meeting, daily-standup-meeting  
-Link to service pages: /features/ask-your-meetings, /integrations  
-Link to new blogs: #2, #8, #10
+**#8 How to Write a Meeting Agenda: Free Template + Examples**  
+URL: `/blog/how-to-write-meeting-agenda` | Intent: Informational / Transactional | Volume confidence: Medium  
+Other keywords covered: how to write meeting agenda (590); meeting agenda creator (880); team meeting agenda sample (880)  
+Live SERP: Top spots held by zoom.com DA 87, MIT DA 93, Microsoft DA 90, Asana DA 82. Weaker: parkscommunity DA 24 (#7), notejoy DA 37, prialto DA 45  
+Overlap: LOW: /blog/meeting-preparation is a prep brief; /blog/one-on-one-meeting has a 1:1 agenda only.  
+Links: existing blogs meeting-preparation, one-on-one-meeting, daily-standup-meeting; service pages /features/ask-your-meetings, /integrations; new blogs #2, #7, #9
 
-**#10 Sprint Retrospective: Template, 40 Questions and Example Answers**  
-URL: `/blog/sprint-retrospective`  
-Secondary: how to run sprint retrospective (40, SD 13); sprint retrospective agenda (50, SD 21); sprint retrospective questions (70, SD 28); sprint retrospective example answers (30, SD 22); sprint retrospective jira (50, SD 24)  
-GSC: 'which ai notetakers work well for team retrospectives' at position 1.0  
-Link to existing blogs: daily-standup-meeting, meeting-minutes-to-jira  
-Link to service pages: /use-cases/team-standups, /integrations  
-Link to new blogs: #9, #6
+**#9 Project Kickoff Meeting Agenda: Template, Checklist and Example**  
+URL: `/blog/project-kickoff-meeting-agenda` | Intent: Informational / Transactional | Volume confidence: Medium  
+Other keywords covered: project kickoff meeting agenda template (210); project kickoff meeting agenda example (170)  
+Live SERP: agendalink DA 13 (#9), plane.so DA 29 (#6), outbackteambuilding DA 43 (#8)  
+Overlap: NONE: different SERP from the generic agenda query.  
+Links: existing blogs meeting-preparation, meeting-minutes-to-jira; service pages /integrations, /features/action-items; new blogs #8, #10
+
+**#10 Sprint Retrospective: Template, Questions and Examples (+ Review vs Retro)**  
+URL: `/blog/sprint-retrospective` | Intent: Informational | Volume confidence: High (GSC: 'ai notetakers for team retrospectives' at position 1)  
+Other keywords covered: sprint review vs sprint retrospective (390); sprint retrospective questions (70); sprint retrospective agenda (50); how to run sprint retrospective (40)  
+Live SERP: resolution.de DA 35 (#5), innovationtraining DA 37 (#7), parabol DA 42 (#4)  
+Overlap: NONE: /blog/daily-standup-meeting covers standups only.  
+Links: existing blogs daily-standup-meeting, meeting-minutes-to-jira; service pages /use-cases/team-standups, /integrations; new blogs #9, #11
+
+**#11 Sprint Planning Meeting Agenda: Template and Checklist**  
+URL: `/blog/sprint-planning-meeting-agenda` | Intent: Informational | Volume confidence: Medium  
+Other keywords covered: sprint planning meeting agenda template (30)  
+Live SERP: agileseekers DA 12 (#5), agile-academy DA 29 (#7), range DA 42 (#8)  
+Overlap: NONE.  
+Links: existing blogs daily-standup-meeting, meeting-minutes-to-jira; service pages /use-cases/team-standups, /integrations; new blogs #10, #9
 
 </details>
 
-### C3. Recording & Transcripts by Platform (8 posts)
+### C3. Recording & Transcripts by Platform (3 posts)
 
-**Who is searching:** Employees and participants on Zoom, Google Meet and Teams (often on free plans or not the host), students, remote teams. Task-driven 'how do I' intent.
-
+**Who is searching:** Employees on Google Meet and Teams, often not the host or on a free plan, who need a record of the call.  
 **Hub service pages:** /features/meeting-bot, /features/chrome-extension, /download
 
-| # | Blog title (intent in title) | Primary keyword | Vol/mo | SD | Difficulty | Intent | Time to page 1 | Wave |
-|---|---|---|---|---|---|---|---|---|
-| 11 | **How to Record a Google Meet (Free, as a Participant & on Phone)** (pillar) | how to record google meet | 2,400 | 25 | Low-Med | Informational | 3-4 months | 2 |
-| 12 | How to Record a Teams Meeting (Even If You're Not the Host) | how to record teams meeting | 1,300 | 29 | Low-Med | Informational | 3-4 months | 2 |
-| 13 | How to Download a Teams Transcript (and Turn It Into Meeting Notes) | how to download teams transcript | 70 | 30 | Low-Med | Informational | 2-3 months | 3 |
-| 14 | How to Get a Zoom Transcript After a Meeting (Even Without Recording) | how to download zoom transcript | 210 | 24 | Low-Med | Informational | 2-4 months | 2 |
-| 15 | Can Copilot Take Meeting Notes in Teams? Setup, Limits & Alternatives | can copilot take meeting notes | 390 | 30 | Low-Med | Informational to Commercial | 2-4 months | 1 |
-| 16 | Zoom AI Companion Meeting Summary: How to Turn It On (and Where to Find It) | zoom ai companion meeting summary | 390 | 26 | Low-Med | Informational | 2-3 months | 2 |
-| 17 | Google Meet Transcript Not Showing? 7 Fixes (+ How to Download It) | how to get google meet transcript | 30 | 20 | Low | Informational | 1-2 months | 1 |
-| 18 | What Is a Meeting Bot? How AI Bots Join Zoom, Google Meet and Teams | meeting bot | 70 | 37 | Medium | Informational | 1-3 months | 1 |
+| # | Blog title | Primary keyword (exact query) | Vol/mo of that query | SD | Cluster vol (sum) | Real difficulty (SERP) | Time to page 1 | Overlap risk | Wave |
+|---|---|---|---|---|---|---|---|---|---|
+| 12 | **How to Record a Google Meet (Free, as a Participant & on Phone)** (pillar) | `how to record google meet` | 2,400 | 25 | 3,780 | High (SD 25 understates it) | 5-8 months; needs backlinks for page 1 | NONE | 3 |
+| 13 | How to Record a Teams Meeting (Even If You're Not the Host) | `how to record teams meeting` | 1,300 | 29 | 1,490 | Medium | 3-5 months | LOW | 3 |
+| 14 | How to Download a Teams Transcript (and Turn It Into Meeting Notes) | `how to download teams transcript` | 70 | 30 | 290 | Medium | 3-4 months | MEDIUM | 3 |
 
-<details><summary>Secondary keywords, GSC evidence and internal links</summary>
+<details><summary>Keywords covered, SERP evidence, confidence, overlap and links</summary>
 
-**#11 How to Record a Google Meet (Free, as a Participant & on Phone)**  
-URL: `/blog/how-to-record-google-meet`  
-Secondary: can you record google meet (720, SD 29); how to record google meet call (260, SD 24); can you record google meet calls (260, SD 24); how to record google meet on phone (140, SD 24); how to record google meet for free (70, SD 33)  
-Link to existing blogs: google-meet-transcript, zoom-meeting-recorders, ai-voice-recorders  
-Link to service pages: /features/chrome-extension, /features/meeting-bot, /download  
-Link to new blogs: #12, #17, #30
+**#12 How to Record a Google Meet (Free, as a Participant & on Phone)**  
+URL: `/blog/how-to-record-google-meet` | Intent: Informational | Volume confidence: High (demand is real)  
+Other keywords covered: can you record google meet (720); how to record google meet call (260); can you record google meet calls (260); how to record google meet on phone (140)  
+Live SERP: About 6 of the top 10 are Google's own pages (DA 93-98). Best blogs: descript DA 69 (#10), otter DA 66 (#13), read.ai DA 47 (#14)  
+Overlap: NONE: /blog/google-meet-transcript covers transcripts, not recording.  
+Links: existing blogs google-meet-transcript, zoom-meeting-recorders, ai-voice-recorders; service pages /features/chrome-extension, /features/meeting-bot, /download; new blogs #13, #31
 
-**#12 How to Record a Teams Meeting (Even If You're Not the Host)**  
-URL: `/blog/how-to-record-teams-meeting`  
-Secondary: how to record teams meeting as a participant (70, SD 30); on iphone (40, SD 14); outside of teams (40, SD 37); with copilot (40, SD 24)  
-Link to existing blogs: ai-note-taker-microsoft-teams, zoom-meeting-recorders  
-Link to service pages: /features/meeting-bot, /download  
-Link to new blogs: #11, #13, #15
+**#13 How to Record a Teams Meeting (Even If You're Not the Host)**  
+URL: `/blog/how-to-record-teams-meeting` | Intent: Informational | Volume confidence: High  
+Other keywords covered: as a participant (70); on iphone (40); outside of teams (40); with copilot (40)  
+Live SERP: oneminuteofficemagic DA 24 (#11), circleback DA 32 (#8), msudenver DA 57 (#7); Microsoft Q&A holds #2  
+Overlap: LOW: /blog/ai-note-taker-microsoft-teams is a tool comparison with one H2 on where recordings go.  
+Links: existing blogs ai-note-taker-microsoft-teams, zoom-meeting-recorders; service pages /features/meeting-bot, /download; new blogs #12, #14
 
-**#13 How to Download a Teams Transcript (and Turn It Into Meeting Notes)**  
-URL: `/blog/download-teams-transcript`  
-Secondary: download teams transcript (40, SD 30); how to get teams transcript after meeting (40, SD 29); where to find teams transcript (30, SD 5); how to create meeting notes from teams transcript (20, SD 15). Cluster total about 350/mo  
-Link to existing blogs: ai-note-taker-microsoft-teams, meeting-minutes-sample  
-Link to service pages: /features/meeting-notes  
-Link to new blogs: #12, #15, #6
-
-**#14 How to Get a Zoom Transcript After a Meeting (Even Without Recording)**  
-URL: `/blog/get-zoom-transcript`  
-Secondary: how to get zoom transcript (210, SD 34); after meeting (170, SD 28); without recording (170, SD 24); how to save zoom transcript (140, SD 27); how to export zoom transcript (70, SD 7)  
-Link to existing blogs: how-to-transcribe-zoom-meetings, zoom-note-taker, zoom-bot-join-meeting  
-Link to service pages: /features/meeting-bot  
-Link to new blogs: #16, #18, #11
-
-**#15 Can Copilot Take Meeting Notes in Teams? Setup, Limits & Alternatives**  
-URL: `/blog/copilot-meeting-notes-teams`  
-Secondary: does teams have an ai note taker (260, SD 14); copilot meeting notes (260, SD 30); meeting notes in teams (260, SD 30); how to use copilot in teams for meeting notes (140, SD 30)  
-GSC: 'is it worth switching from copilot in teams to a separate notetaker' at position 5.7  
-Link to existing blogs: ai-note-taker-microsoft-teams, best-ai-note-takers  
-Link to service pages: /compare, /features/meeting-notes  
-Link to new blogs: #12, #13
-
-**#16 Zoom AI Companion Meeting Summary: How to Turn It On (and Where to Find It)**  
-URL: `/blog/zoom-ai-companion-meeting-summary`  
-Secondary: zoom meeting summary (390, SD 33); zoom ai meeting summary (140, SD 26); how to enable meeting summary in zoom (40, SD 22)  
-GSC: Zoom AI Companion alternative questions rank at positions 2-8; /blog/zoom-ai-companion-alternatives sits at 6.9  
-Link to existing blogs: zoom-ai-companion-alternatives, zoom-note-taker  
-Link to service pages: /integrations  
-Link to new blogs: #14, #3, #32
-
-**#17 Google Meet Transcript Not Showing? 7 Fixes (+ How to Download It)**  
-URL: `/blog/google-meet-transcript-not-showing`  
-Secondary: where to find google meet transcript (30, SD 7); where is my google meet transcript (20, SD 6); google meet transcript api (30, SD 24)  
-GSC: /blog/google-meet-transcript: 1,181 impressions at position 9 with 0 clicks; 'where do i find google meet transcripts' at 8.8  
-Link to existing blogs: google-meet-transcript (main link target)  
-Link to service pages: /features/chrome-extension  
-Link to new blogs: #11
-
-**#18 What Is a Meeting Bot? How AI Bots Join Zoom, Google Meet and Teams**  
-URL: `/blog/what-is-a-meeting-bot`  
-Secondary: meeting bot api (40, SD 27); zoom meeting bot (20, SD 26)  
-GSC: 'meeting bot' 102 impressions at position 21.7; 'join zoom call bot' 77 at 27.8; 'zoom connector bot' 56; 'how to make a meeting bot' at 29; /features/meeting-bot 581 impressions at 26  
-Link to existing blogs: zoom-bot-join-meeting, ai-powered-meeting-assistants  
-Link to service pages: /features/meeting-bot  
-Link to new blogs: #14, #22
+**#14 How to Download a Teams Transcript (and Turn It Into Meeting Notes)**  
+URL: `/blog/download-teams-transcript` | Intent: Informational | Volume confidence: Medium  
+Other keywords covered: download teams transcript (40); teams transcript download (40); how to get teams transcript after meeting (40); without permission (40); where to find teams transcript (30); how to download ms teams transcript (30)  
+Live SERP: tactiq DA 41 (#9), macomb.edu DA 52 (#6); Microsoft pages DA 98 on top  
+Overlap: MEDIUM: /blog/ai-note-taker-microsoft-teams has H2 'Where do Teams recordings and transcripts go?'. Fix: keep that H2 to 2 lines and link here.  
+Links: existing blogs ai-note-taker-microsoft-teams, meeting-minutes-sample; service pages /features/meeting-notes; new blogs #13, #5
 
 </details>
 
-### C4. Alternatives, Pricing & Comparisons (9 posts)
+### C4. AI Note Taker Alternatives, Pricing & Reviews (16 posts)
 
-**Who is searching:** Current Otter, Fireflies, Read AI and Granola users hitting price or plan limits, people annoyed by bots joining calls, buyers comparing tools. Bottom-of-funnel.
-
+**Who is searching:** Current Otter, Fireflies, Granola, Read AI, Fathom and Notion users hitting price or plan limits, people who want a bot out of their calls, buyers comparing tools. Bottom of funnel.  
 **Hub service pages:** /compare/*, /pricing
 
-| # | Blog title (intent in title) | Primary keyword | Vol/mo | SD | Difficulty | Intent | Time to page 1 | Wave |
-|---|---|---|---|---|---|---|---|---|
-| 19 | 9 Best Otter.ai Alternatives in 2026 (Free & Paid, Tested) | otter ai alternatives | 390 | 15 | Low | Commercial | 2-4 months | 2 |
-| 20 | Best Fireflies.ai Alternatives in 2026 (Compared by Price & Features) | fireflies ai alternatives | 90 | 15 | Low | Commercial | 1-3 months | 2 |
-| 21 | Best Granola Alternatives for Windows, Teams and In-Person Meetings | granola alternative | 320 | 28 | Low-Med | Commercial | 2-4 months | 2 |
-| 22 | How to Remove Read AI From Teams, Zoom and Google Meet (Step by Step) | how to remove read ai from teams | 480 | 35 | Low-Med | Informational (switching intent) | 3-5 months | 3 |
-| 23 | How to Remove Otter.ai From Zoom, Teams and Your Calendar (and Delete Your Account) | how to delete otter ai account | 390 | 36 | Medium | Informational (switching intent) | 3-5 months | 3 |
-| 24 | Otter.ai Pricing 2026: Plans, Free Limits and Is Pro Worth It? | otter ai pricing | 1,900 | 40 | Medium | Commercial | 4-6 months | 3 |
-| 25 | Fireflies.ai Pricing 2026: Plans, Hidden Limits and Cheaper Options | fireflies ai price | 880 | 26 | Low-Med | Commercial | 3-5 months | 3 |
-| 26 | Otter vs Fireflies vs Read AI: Which AI Note Taker Is Best in 2026? | read ai vs otter ai | 90 | 21 | Low-Med | Commercial | 1-3 months | 1 |
-| 27 | How Much Does an AI Note Taker Cost? Pricing for a 20-Person Team (2026) | how much does otter ai cost | 170 | 41 | Medium | Commercial | 1-2 months | 1 |
+| # | Blog title | Primary keyword (exact query) | Vol/mo of that query | SD | Cluster vol (sum) | Real difficulty (SERP) | Time to page 1 | Overlap risk | Wave |
+|---|---|---|---|---|---|---|---|---|---|
+| 15 | 9 Best Otter.ai Alternatives in 2026 (Free & Paid, Tested) | `otter ai alternatives` | 390 | 15 | 910 | Low | 1-3 months | NONE | 1 |
+| 16 | Best Fireflies.ai Alternatives in 2026 (Compared by Price & Features) | `fireflies ai alternatives` | 90 | 15 | 230 | Low | 1-2 months | NONE | 1 |
+| 17 | Best Granola AI Alternatives for Windows, Teams and In-Person Meetings | `granola ai alternatives` | 210 | 14 | 250 | Low | 1-2 months | NONE | 1 |
+| 18 | Otter vs Fireflies vs Fathom: Which AI Note Taker Is Best in 2026? | `fathom vs fireflies` | 110 | 32 | 360 | Low | 1-3 months | NONE | 1 |
+| 19 | Granola vs Otter AI: Which Note Taker Fits Your Meetings? | `granola vs otter ai` | 110 | 11 | 200 | Low | 1-2 months | NONE | 1 |
+| 20 | Otter.ai Pricing 2026: Plans, Free Limits and Is Pro Worth It? | `otter ai pricing` | 1,900 | 40 | 4,170 | Medium (SD overstates it) | 2-4 months | LOW | 2 |
+| 21 | Fireflies.ai Pricing 2026: Plans, Hidden Limits and Cheaper Options | `fireflies ai price` | 880 | 26 | 1,740 | Low-Med | 2-4 months | NONE | 2 |
+| 22 | Read AI Pricing 2026: Plans, Free Tier and What You Actually Get | `read ai pricing` | 260 | 20 | 490 | Low | 1-3 months | NONE | 1 |
+| 23 | Fathom Pricing 2026: Is the Free AI Note Taker Really Free? | `fathom pricing` | 590 | 37 | 620 | Low-Med | 2-4 months | NONE (/compare/fathom is Lynkk vs Fathom) | 3 |
+| 24 | Granola Pricing 2026: Free Plan Limits and Paid Plans Explained | `granola pricing` | 880 | 16 | 880 | Low | 1-3 months | NONE | 1 |
+| 25 | Otter.ai Review 2026: Accuracy, Privacy Concerns and the Lawsuit | `otter ai review` | 880 | 30 | 2,480 | Low-Med | 2-4 months | NONE | 2 |
+| 26 | What Is Read AI, Why Is It in Your Meetings, and How to Remove It | `what is read ai` | 1,300 | 36 | 3,020 | Medium-High | 3-6 months | LOW | 3 |
+| 27 | How to Remove Otter.ai From Zoom, Teams and Google Meet (and Delete Your Account) | `how to delete otter ai account` | 390 | 36 | 2,280 | Medium-High | 3-6 months | LOW | 3 |
+| 28 | How to Remove Fireflies.ai From Teams, Zoom and Google Meet | `how to remove fireflies ai` | 140 | 28 | 670 | Medium | 3-5 months | LOW | 3 |
+| 29 | ChatGPT Meeting Notes: How to Use Record Mode, Best Prompts and Limits | `chatgpt meeting notes` | 210 | 28 | 220 | Low-Med | 2-3 months | NONE | 2 |
+| 30 | Notion AI Meeting Notes Review: Features, Limits, Pricing and Alternatives | `notion ai meeting notes` | 1,000 | 37 | 1,130 | Medium | 3-5 months (realistic target: positions 5-10) | NONE | 3 |
 
-<details><summary>Secondary keywords, GSC evidence and internal links</summary>
+<details><summary>Keywords covered, SERP evidence, confidence, overlap and links</summary>
 
-**#19 9 Best Otter.ai Alternatives in 2026 (Free & Paid, Tested)**  
-URL: `/blog/otter-ai-alternatives`  
-Secondary: otter ai alternative (480, SD 34); otter ai alternative free (40, SD 26)  
-GSC: /compare/otter at position 5.5  
-Link to existing blogs: best-ai-note-takers, best-free-ai-note-takers  
-Link to service pages: /compare/otter, /pricing  
-Link to new blogs: #23, #24, #26
+**#15 9 Best Otter.ai Alternatives in 2026 (Free & Paid, Tested)**  
+URL: `/blog/otter-ai-alternatives` | Intent: Commercial | Volume confidence: High (GSC: /compare/otter already at position 5.5)  
+Other keywords covered: otter ai alternative (480); otter ai alternative free (40)  
+Live SERP: voicescriber DA 13 (#7), voicedash DA 15 (#8), intermind DA 40 (#6)  
+Overlap: NONE: shares 0 of 10 URLs with the 'best ai note takers' SERP. /compare/otter is 'Lynkk vs Otter', a different intent.  
+Links: existing blogs best-ai-note-takers, best-free-ai-note-takers; service pages /compare/otter, /pricing; new blogs #18, #20, #25
 
-**#20 Best Fireflies.ai Alternatives in 2026 (Compared by Price & Features)**  
-URL: `/blog/fireflies-ai-alternatives`  
-Secondary: fireflies ai alternative (70, SD 15); fireflies alternative (70, SD 29)  
-GSC: /compare/fireflies at position 4.2  
-Link to existing blogs: best-ai-note-takers  
-Link to service pages: /compare/fireflies, /pricing  
-Link to new blogs: #19, #25, #26
+**#16 Best Fireflies.ai Alternatives in 2026 (Compared by Price & Features)**  
+URL: `/blog/fireflies-ai-alternatives` | Intent: Commercial | Volume confidence: High (GSC: /compare/fireflies at position 4.2)  
+Other keywords covered: fireflies ai alternative (70); fireflies alternative (70)  
+Live SERP: meetingjuice DA 9 (#10), openwhispr DA 29 (#3), meetjamie DA 38 (#5)  
+Overlap: NONE.  
+Links: existing blogs best-ai-note-takers; service pages /compare/fireflies, /pricing; new blogs #15, #21, #18
 
-**#21 Best Granola Alternatives for Windows, Teams and In-Person Meetings**  
-URL: `/blog/granola-alternatives`  
-Secondary: open source granola alternative (40, SD 18). CPC $20.94 shows strong buyer value  
-GSC: /compare/granola at position 5.6  
-Link to existing blogs: best-ai-note-takers, ai-voice-recorders  
-Link to service pages: /compare/granola, /download  
-Link to new blogs: #19, #26
+**#17 Best Granola AI Alternatives for Windows, Teams and In-Person Meetings**  
+URL: `/blog/granola-ai-alternatives` | Intent: Commercial | Volume confidence: High  
+Other keywords covered: open source granola alternative (40)  
+Live SERP: zackproser DA 22 (#2), usecarly DA 28 (#5), openwhispr DA 29 (#7)  
+Overlap: NONE. v1 used 'granola alternative' (320): its SERP is 100% food (yogurt, recipes), so that volume was not ours.  
+Links: existing blogs best-ai-note-takers, ai-voice-recorders; service pages /compare/granola, /download; new blogs #19, #24
 
-**#22 How to Remove Read AI From Teams, Zoom and Google Meet (Step by Step)**  
-URL: `/blog/remove-read-ai`  
-Secondary: how to remove read ai from zoom (320, SD 40); how to turn off read ai in teams (320, SD 35); remove read ai from teams (320, SD 38); how to stop read ai from joining meetings (70, SD 39); read ai alternative (70, SD 17). Cluster total about 2,000/mo  
-Link to existing blogs: zoom-bot-join-meeting, best-ai-note-takers  
-Link to service pages: /features/meeting-bot, /security  
-Link to new blogs: #23, #18
+**#18 Otter vs Fireflies vs Fathom: Which AI Note Taker Is Best in 2026?**  
+URL: `/blog/otter-vs-fireflies-vs-fathom` | Intent: Commercial | Volume confidence: Medium  
+Other keywords covered: fathom vs otter (70); fathom vs otter ai (40); fireflies ai vs otter ai (70); otter ai vs fireflies ai (70)  
+Live SERP: cotera DA 27 (#2), sybill DA 36 (#7), efficient.app DA 37 (#10)  
+Overlap: NONE.  
+Links: existing blogs best-ai-note-takers; service pages /compare/otter, /compare/fireflies, /compare/fathom; new blogs #15, #16, #23
 
-**#23 How to Remove Otter.ai From Zoom, Teams and Your Calendar (and Delete Your Account)**  
-URL: `/blog/remove-otter-ai`  
-Secondary: how to remove otter ai (320, SD 31); how to turn off otter ai (320, SD 37); how to remove otter ai from zoom (260, SD 33); from teams (260, SD 38); how to cancel otter ai subscription (260, SD 34). Cluster total about 2,300/mo  
-Link to existing blogs: best-ai-note-takers  
-Link to service pages: /compare/otter, /features/meeting-bot  
-Link to new blogs: #19, #22, #24
+**#19 Granola vs Otter AI: Which Note Taker Fits Your Meetings?**  
+URL: `/blog/granola-vs-otter` | Intent: Commercial | Volume confidence: Medium  
+Other keywords covered: granola vs otter (90)  
+Live SERP: mrktcorrect DA 9 (#8), zackproser DA 22 (#3), itsconvo DA 23 (#6), get-alfred DA 24 (#10)  
+Overlap: NONE.  
+Links: existing blogs best-ai-note-takers; service pages /compare/granola, /compare/otter; new blogs #17, #24
 
-**#24 Otter.ai Pricing 2026: Plans, Free Limits and Is Pro Worth It?**  
-URL: `/blog/otter-ai-pricing`  
-Secondary: otter ai pro plan (1,300, SD 32); otter ai cost (390, SD 40); otter ai free plan (320, SD 39); how much is otter ai (260, SD 41)  
-Link to existing blogs: best-free-ai-note-takers  
-Link to service pages: /pricing, /compare/otter  
-Link to new blogs: #19, #27
+**#20 Otter.ai Pricing 2026: Plans, Free Limits and Is Pro Worth It?**  
+URL: `/blog/otter-ai-pricing` | Intent: Commercial | Volume confidence: High  
+Other keywords covered: otter ai pro plan (1,300); otter ai cost (390); otter ai free plan (320); how much is otter ai (260)  
+Live SERP: tinrec DA 10 (#14), fonzi DA 27 (#10), meetergo DA 35 (#8), affine DA 39 (#7)  
+Overlap: LOW: /blog/best-free-ai-note-takers has H2 'Is Otter AI free?'. Keep it short and link here.  
+Links: existing blogs best-free-ai-note-takers; service pages /pricing, /compare/otter; new blogs #15, #25
 
-**#25 Fireflies.ai Pricing 2026: Plans, Hidden Limits and Cheaper Options**  
-URL: `/blog/fireflies-ai-pricing`  
-Secondary: fireflies ai pricing (480, SD 37); is fireflies ai free (170, SD 41); fireflies ai cost (140, SD 36); fireflies ai free plan (70, SD 37)  
-Link to existing blogs: best-free-ai-note-takers  
-Link to service pages: /pricing, /compare/fireflies  
-Link to new blogs: #20, #27
+**#21 Fireflies.ai Pricing 2026: Plans, Hidden Limits and Cheaper Options**  
+URL: `/blog/fireflies-ai-pricing` | Intent: Commercial | Volume confidence: High  
+Other keywords covered: fireflies ai pricing (480); is fireflies ai free (170); fireflies ai cost (140); fireflies ai free plan (70)  
+Live SERP: cloudeagle DA 38 (#8), lindy DA 40 (#5), meetgeek DA 44 (#9); fireflies.ai's own pages on top  
+Overlap: NONE.  
+Links: existing blogs best-free-ai-note-takers; service pages /pricing, /compare/fireflies; new blogs #16, #28
 
-**#26 Otter vs Fireflies vs Read AI: Which AI Note Taker Is Best in 2026?**  
-URL: `/blog/otter-vs-fireflies-vs-read-ai`  
-Secondary: fireflies ai vs otter ai (70, SD 16); otter ai vs fireflies ai (70, SD 15); otter vs fireflies ai (30, SD 31)  
-Link to existing blogs: best-ai-note-takers  
-Link to service pages: /compare/otter, /compare/fireflies, /compare  
-Link to new blogs: #19, #20, #22
+**#22 Read AI Pricing 2026: Plans, Free Tier and What You Actually Get**  
+URL: `/blog/read-ai-pricing` | Intent: Commercial | Volume confidence: High  
+Other keywords covered: is read ai free (140); read ai cost (90)  
+Live SERP: checkthat DA 33 (#8), meetjamie DA 38 (#9), meetgeek DA 44 (#6)  
+Overlap: NONE.  
+Links: existing blogs best-free-ai-note-takers, best-ai-note-takers; service pages /pricing; new blogs #26, #20
 
-**#27 How Much Does an AI Note Taker Cost? Pricing for a 20-Person Team (2026)**  
-URL: `/blog/ai-note-taker-cost`  
-Secondary: otter ai costs (480, SD 36). Main demand comes from GSC long-tail questions  
-GSC: 'how much do ai notetakers typically cost for a 20-person product team?' at 5.8; 'volume discounts ... roll it out company-wide' at 5.1; 'cheap ai note taker' got a click  
-Link to existing blogs: best-free-ai-note-takers, best-ai-note-takers  
-Link to service pages: /pricing, /demo  
-Link to new blogs: #24, #25, #28
+**#23 Fathom Pricing 2026: Is the Free AI Note Taker Really Free?**  
+URL: `/blog/fathom-pricing` | Intent: Commercial | Volume confidence: LOW: 2 of the top 3 results are other brands named Fathom (usefathom.com analytics, fathomhq.com accounting), so part of the 590 is not about the note taker  
+Other keywords covered: fathom pricing plans (30)  
+Live SERP: usecarly DA 28 (#10), tomba DA 36 (#6), tldv DA 44 (#8)  
+Overlap: NONE (/compare/fathom is Lynkk vs Fathom).  
+Links: existing blogs best-free-ai-note-takers; service pages /pricing, /compare/fathom; new blogs #18
+
+**#24 Granola Pricing 2026: Free Plan Limits and Paid Plans Explained**  
+URL: `/blog/granola-pricing` | Intent: Commercial | Volume confidence: Medium: the SERP is the app, but a food 'popular products' box also shows, so some volume is grocery shoppers  
+Other keywords covered: none with measurable volume  
+Live SERP: layer3labs DA 21 (#11), get-alfred DA 24 (#5), usecarly DA 28 (#10), efficient.app DA 37 (#7)  
+Overlap: NONE.  
+Links: existing blogs best-free-ai-note-takers; service pages /pricing, /compare/granola; new blogs #17, #19
+
+**#25 Otter.ai Review 2026: Accuracy, Privacy Concerns and the Lawsuit**  
+URL: `/blog/otter-ai-review` | Intent: Commercial investigation | Volume confidence: High (GSC: 'which llm providers see call transcripts' at position 4.3)  
+Other keywords covered: otter ai reviews (720); otter ai lawsuit (390); is otter ai safe (320); is otter ai hipaa compliant (170)  
+Live SERP: craftnote DA 11 (#13), anarlog DA 17 (#6), seriousinsights DA 33 (#2), eesel DA 35  
+Overlap: NONE. Merged v1 'Is Otter.ai safe?' here: review pages already rank in the 'is otter ai safe' SERP.  
+Links: existing blogs best-ai-note-takers; service pages /compare/otter, /security; new blogs #20, #27, #15
+
+**#26 What Is Read AI, Why Is It in Your Meetings, and How to Remove It**  
+URL: `/blog/what-is-read-ai` | Intent: Informational (switching intent) | Volume confidence: High  
+Other keywords covered: how to remove read ai from teams (480); from zoom (320); how to turn off read ai in teams (320); remove read ai from teams (320); is read ai safe (210); how to stop read ai from joining meetings (70)  
+Live SERP: meetgeek DA 44 (#7). Removal SERPs are Microsoft Q&A (DA 98), read.ai help and university IT pages, with no blogs  
+Overlap: LOW: /blog/zoom-bot-join-meeting has H2 'How do you stop a bot from joining your Zoom meeting?'. Link it here.  
+Links: existing blogs zoom-bot-join-meeting, best-ai-note-takers; service pages /features/meeting-bot, /security; new blogs #22, #27, #28
+
+**#27 How to Remove Otter.ai From Zoom, Teams and Google Meet (and Delete Your Account)**  
+URL: `/blog/remove-otter-ai` | Intent: Informational (switching intent) | Volume confidence: High  
+Other keywords covered: how to remove otter ai (320); how to turn off otter ai (320); from zoom (260); from teams (260); how to get rid of otter ai (260); how to cancel otter ai subscription (260); how to disable otter ai (210)  
+Live SERP: Otter's own pages, Reddit and YouTube only; no blogs in the top 10  
+Overlap: LOW: same note as #26 for /blog/zoom-bot-join-meeting.  
+Links: existing blogs zoom-bot-join-meeting, best-ai-note-takers; service pages /compare/otter, /features/meeting-bot; new blogs #25, #26, #28
+
+**#28 How to Remove Fireflies.ai From Teams, Zoom and Google Meet**  
+URL: `/blog/remove-fireflies-ai` | Intent: Informational (switching intent) | Volume confidence: Medium (SERP not checked)  
+Other keywords covered: from teams (140); from zoom (110); remove fireflies ai from teams (90); how to get rid of fireflies ai (70); how to disable fireflies ai (70); how to cancel fireflies ai (50)  
+Live SERP: Not SERP-checked; expect support pages like #27  
+Overlap: LOW.  
+Links: existing blogs zoom-bot-join-meeting; service pages /compare/fireflies, /features/meeting-bot; new blogs #21, #26, #27
+
+**#29 ChatGPT Meeting Notes: How to Use Record Mode, Best Prompts and Limits**  
+URL: `/blog/chatgpt-meeting-notes` | Intent: Informational | Volume confidence: Medium  
+Other keywords covered: chatgpt meeting notes prompt (10)  
+Live SERP: tactiq DA 41 (#7), meetgeek DA 44 (#4), fellow DA 46 (#5), screenapp DA 50 (#9)  
+Overlap: NONE.  
+Links: existing blogs ai-powered-meeting-assistants, best-ai-note-takers; service pages /features/meeting-notes, /features/ask-your-meetings; new blogs #30, #3
+
+**#30 Notion AI Meeting Notes Review: Features, Limits, Pricing and Alternatives**  
+URL: `/blog/notion-ai-meeting-notes` | Intent: Commercial investigation | Volume confidence: Medium  
+Other keywords covered: notion ai meeting notes free limit (40); notion ai meeting notes vs granola (30); is notion ai meeting notes free (30); notion ai meeting notes pricing (30)  
+Live SERP: Notion holds #1, #2 and #8. Blogs: kurashi DA 18 (#15), noota DA 34 (#10), tldv DA 44 (#9)  
+Overlap: NONE.  
+Links: existing blogs meeting-knowledge-management, best-ai-note-takers; service pages /features/ask-your-meetings, /features/workspaces; new blogs #29, #2
 
 </details>
 
-### C5. Trust, Security & Compliance (3 posts)
+### C5. Trust, Security & Compliance (2 posts)
 
-**Who is searching:** IT and security admins, RevOps, legal and compliance teams rolling out to 40-300 seats, plus individuals checking recording laws.
-
+**Who is searching:** IT and security admins, legal and compliance, managers rolling out a tool, and individuals checking recording laws.  
 **Hub service pages:** /security, /features/workspaces, /privacy
 
-| # | Blog title (intent in title) | Primary keyword | Vol/mo | SD | Difficulty | Intent | Time to page 1 | Wave |
-|---|---|---|---|---|---|---|---|---|
-| 28 | **AI Note Taker Security Checklist: SSO, SCIM, Retention and Admin Controls** (pillar) | hipaa compliant ai note taker | 260 | 31 | Low-Med | Commercial | 1-3 months | 1 |
-| 29 | Is Otter.ai Safe? AI Note Taker Privacy Risks and What to Check | is otter ai safe | 320 | 44 | Medium | Informational | 4-6 months | 3 |
-| 30 | Is It Legal to Record a Conversation? One-Party vs Two-Party Consent by State | is it legal to record a conversation without permission | 480 | 30 | Low-Med | Informational | 3-6 months | 3 |
+| # | Blog title | Primary keyword (exact query) | Vol/mo of that query | SD | Cluster vol (sum) | Real difficulty (SERP) | Time to page 1 | Overlap risk | Wave |
+|---|---|---|---|---|---|---|---|---|---|
+| 31 | **Is It Legal to Record a Conversation? One-Party vs Two-Party Consent by State** (pillar) | `is it legal to record a conversation without permission` | 480 | 30 | 2,290 | Medium (legal topic, Google favors expert sources) | 4-6 months | LOW-MEDIUM | 3 |
+| 32 | AI Note Taker Security Checklist: SSO, SCIM, Retention and Admin Controls | `(GSC questions; no Ubersuggest volume)` | GSC only | n/a | n/a | Low | 1-3 months | CHECK FIRST | 2 |
 
-<details><summary>Secondary keywords, GSC evidence and internal links</summary>
+<details><summary>Keywords covered, SERP evidence, confidence, overlap and links</summary>
 
-**#28 AI Note Taker Security Checklist: SSO, SCIM, Retention and Admin Controls**  
-URL: `/blog/ai-note-taker-security-checklist`  
-Secondary: Main demand comes from GSC enterprise-buyer questions  
-GSC: 'rolling out an ai notetaker to 300 reps: sso, scim, admin dashboard' at 4.6 (28 imp); 'saml sso with okta or entra id plus scim' at 9.0; 'does a 40-person sales team really need sso' at 8.5; 'regulated teams ... retention and audit trail' at 3.2; 'admins enforce a recording notice' at 7.0  
-Link to existing blogs: legal-transcription-service, medical-transcription-software  
-Link to service pages: /security, /features/workspaces, /demo  
-Link to new blogs: #29, #30, #27
+**#31 Is It Legal to Record a Conversation? One-Party vs Two-Party Consent by State**  
+URL: `/blog/is-it-legal-to-record-a-conversation` | Intent: Informational | Volume confidence: High  
+Other keywords covered: in california (590); in texas (480); in new york (390); in florida (320); is it legal to record meetings at work (30)  
+Live SERP: jnylaw DA 38 (#6), hornwright DA 39 (#10), mwl-law DA 50 (#4); Texas State Law Library DA 89 (#2)  
+Overlap: LOW-MEDIUM: 12 existing posts each have a short 'Is it legal to record...' H2. Fix: keep each to 2-3 sentences and link here as the full answer.  
+Links: existing blogs legal-transcription-service, ai-voice-recorders, zoom-meeting-recorders; service pages /security, /features/meeting-bot; new blogs #32, #12, #13
 
-**#29 Is Otter.ai Safe? AI Note Taker Privacy Risks and What to Check**  
-URL: `/blog/is-otter-ai-safe`  
-Secondary: otter ai lawsuit (390, SD 44); is read ai safe (210, SD 33); is otter ai hipaa compliant (170, SD 25); is fireflies ai safe (90, SD 36); read ai privacy concerns (50, SD 40)  
-GSC: 'which third-party llm providers get to see prospect call transcripts' at 4.3  
-Link to existing blogs: legal-transcription-service  
-Link to service pages: /security, /privacy  
-Link to new blogs: #28, #30
-
-**#30 Is It Legal to Record a Conversation? One-Party vs Two-Party Consent by State**  
-URL: `/blog/is-it-legal-to-record-a-conversation`  
-Secondary: in california (590, SD 26); in texas (480, SD 21); in new york (390, SD 24); in florida (320, SD 21); is it legal to record meetings at work (30, SD 35); stretch: is it legal to record conversation (1,600, SD 53)  
-Link to existing blogs: legal-transcription-service, ai-voice-recorders  
-Link to service pages: /security, /features/meeting-bot  
-Link to new blogs: #28, #11, #12
+**#32 AI Note Taker Security Checklist: SSO, SCIM, Retention and Admin Controls**  
+URL: `/blog/ai-note-taker-security-checklist` | Intent: Commercial | Volume confidence: Demand proven by GSC, but small (about 50 impressions in 3 months)  
+Other keywords covered: GSC, last 3 months: 'rolling out an ai notetaker to 300 reps: sso, scim, admin dashboard' 28 impressions at 4.6; 'saml sso with okta or entra id plus scim' 6 at 9.0; 'regulated teams ... retention and audit trail' 5 at 3.2; 'admins enforce a recording notice' 6 at 7.0; 'does a 40-person sales team need sso' 4 at 8.5  
+Live SERP: Not applicable: long conversational queries  
+Overlap: CHECK FIRST: these queries may already land on /blog/ai-note-taker-microsoft-teams (H2s 'What should you check before rolling out...' and 'Is a Teams AI note taker secure enough...'). Do not target 'hipaa compliant ai note taker': /blog/medical-transcription-software owns it.  
+Links: existing blogs ai-note-taker-microsoft-teams, medical-transcription-software, legal-transcription-service; service pages /security, /features/workspaces, /demo; new blogs #31, #25
 
 </details>
 
-### C6. Sales, Hiring & Research Use Cases (3 posts)
+### C6. Sales Use Cases (2 posts)
 
-**Who is searching:** SDRs, AEs, sales managers, RevOps, UX researchers, recruiters and academics who run many calls and need records in their tools.
+**Who is searching:** SDRs, AEs, sales managers and RevOps who run many calls and need notes in their CRM.  
+**Hub service pages:** /use-cases/sales-calls, /integrations
 
-**Hub service pages:** /use-cases/sales-calls, /use-cases/user-interviews, /use-cases/customer-research
+| # | Blog title | Primary keyword (exact query) | Vol/mo of that query | SD | Cluster vol (sum) | Real difficulty (SERP) | Time to page 1 | Overlap risk | Wave |
+|---|---|---|---|---|---|---|---|---|---|
+| 33 | What Is a Discovery Call? Questions, Script and Template | `what is a discovery call` | 390 | 24 | 820 | Medium | 3-5 months | NONE | 3 |
+| 34 | How to Get Call Notes Into Your CRM Automatically (Zoom, Meet and Teams) | `(GSC questions; Ubersuggest: 'sales call notes template' 20)` | 20 | 30 | 20 | Low | 1-3 months | CHECK FIRST | 1 |
 
-| # | Blog title (intent in title) | Primary keyword | Vol/mo | SD | Difficulty | Intent | Time to page 1 | Wave |
-|---|---|---|---|---|---|---|---|---|
-| 31 | What Is a Discovery Call? 35 Questions, Script and Template | what is a discovery call | 390 | 24 | Low-Med | Informational | 2-4 months | 3 |
-| 32 | How to Get Call Notes Into Your CRM Automatically (Zoom, Meet and Teams) | sales call notes template | 20 | 30 | Low-Med | Commercial | 1-3 months | 1 |
-| 33 | Interview Transcription: Format, Examples and the Fastest Way to Do It | interview transcription example | 880 | 25 | Low-Med | Informational | 2-4 months | 2 |
+<details><summary>Keywords covered, SERP evidence, confidence, overlap and links</summary>
 
-<details><summary>Secondary keywords, GSC evidence and internal links</summary>
+**#33 What Is a Discovery Call? Questions, Script and Template**  
+URL: `/blog/discovery-call` | Intent: Informational | Volume confidence: Medium  
+Other keywords covered: discovery call meaning (210); discovery call questions (70); discovery call template (50); discovery call script (50); sales discovery call (50)  
+Live SERP: samsalesconsulting DA 23 (#10), acquire.io DA 45 (#9); Salesforce DA 92, Vidyard DA 75, Highspot DA 69 above  
+Overlap: NONE.  
+Links: existing blogs sales-conversation-intelligence, meeting-preparation; service pages /use-cases/sales-calls; new blogs #34, #4
 
-**#31 What Is a Discovery Call? 35 Questions, Script and Template**  
-URL: `/blog/discovery-call-questions`  
-Secondary: discovery call meaning (210, SD 23); discovery call questions (70, SD 23, CPC $18); discovery call template (50, SD 14); discovery call script (50, SD 29); sales discovery call (50, SD 17)  
-Link to existing blogs: sales-conversation-intelligence, meeting-preparation  
-Link to service pages: /use-cases/sales-calls  
-Link to new blogs: #32, #5
-
-**#32 How to Get Call Notes Into Your CRM Automatically (Zoom, Meet and Teams)**  
-URL: `/blog/call-notes-to-crm`  
-Secondary: Main demand comes from GSC sales-ops questions  
-GSC: 'zoom ai companion gives us summaries but nothing in our crm' at 2.3 (35 imp); 'ai call notes for crm' at 66; 'record sales calls offline' at 43  
-Link to existing blogs: sales-conversation-intelligence, zoom-ai-companion-alternatives  
-Link to service pages: /use-cases/sales-calls, /integrations, /use-cases/financial-advisors, /use-cases/real-estate-agents  
-Link to new blogs: #31, #5, #16
-
-**#33 Interview Transcription: Format, Examples and the Fastest Way to Do It**  
-URL: `/blog/interview-transcription`  
-Secondary: interview transcription format (260, SD 17); interview transcription company (260, SD 18); software for interview transcription (260, SD 21)  
-GSC: 'user interview transcription' 93 impressions at 40; /use-cases/user-interviews 220 impressions at 48.6  
-Link to existing blogs: recruiting-interview-transcription, transcribe-audio-to-text, ai-transcription-software  
-Link to service pages: /use-cases/user-interviews, /use-cases/customer-research, /use-cases/field-interviews  
-Link to new blogs: #34, #31
+**#34 How to Get Call Notes Into Your CRM Automatically (Zoom, Meet and Teams)**  
+URL: `/blog/call-notes-to-crm` | Intent: Commercial | Volume confidence: Demand proven by GSC, but small  
+Other keywords covered: GSC, last 3 months: 'zoom ai companion gives us summaries but nothing in our crm' 35 impressions at 2.3; 'record sales calls offline' 9 at 43; 'ai call notes for crm' 7 at 66  
+Live SERP: Not applicable: long conversational queries  
+Overlap: CHECK FIRST: the CRM question may already land on /blog/zoom-ai-companion-alternatives (position 6.9) or /blog/sales-conversation-intelligence.  
+Links: existing blogs sales-conversation-intelligence, zoom-ai-companion-alternatives; service pages /use-cases/sales-calls, /integrations, /use-cases/financial-advisors; new blogs #33, #4
 
 </details>
 
-### C7. Multilingual & India (2 posts)
+### C7. India (1 posts)
 
-**Who is searching:** Indian founders and teams, agencies, creators and global teams that switch languages mid-sentence. India already sends most of Lynkk's clicks.
+**Who is searching:** Indian professionals, students and teams typing in Hindi. India sends most of Lynkk's clicks today.  
+**Hub service pages:** /features/dictation, /features/hinglish-transcription
 
-**Hub service pages:** /features/hinglish-transcription, /features/multilingual-transcription
+| # | Blog title | Primary keyword (exact query) | Vol/mo of that query | SD | Cluster vol (sum) | Real difficulty (SERP) | Time to page 1 | Overlap risk | Wave |
+|---|---|---|---|---|---|---|---|---|---|
+| 35 | Hindi Voice Typing: Best Free Tools for PC, Mac and Phone | `hindi voice typing` | 6,600 (IN) | 27 | 7,740 | Low | 1-3 months | LOW | 2 |
 
-| # | Blog title (intent in title) | Primary keyword | Vol/mo | SD | Difficulty | Intent | Time to page 1 | Wave |
-|---|---|---|---|---|---|---|---|---|
-| 34 | Hindi Audio to Text: 7 Free Converters Tested (Including Hinglish) | hindi audio to text converter | 590 (IN) | 17 | Low | Transactional | 1-3 months | 1 |
-| 35 | Multilingual Meeting Transcription: How to Transcribe Meetings in Mixed Languages | multilingual transcription services | 10 (IN) | 13 | Low | Informational / Commercial | 1-3 months | 2 |
+<details><summary>Keywords covered, SERP evidence, confidence, overlap and links</summary>
 
-<details><summary>Secondary keywords, GSC evidence and internal links</summary>
-
-**#34 Hindi Audio to Text: 7 Free Converters Tested (Including Hinglish)**  
-URL: `/blog/hindi-audio-to-text`  
-Secondary: transcribe hindi audio to text free (210, SD 17); hindi audio to text (140, SD 16); hinglish transcription (110, SD 28)  
-GSC: /features/hinglish-transcription 278 impressions at 41.6; 'hinglish transcription' at 8.9  
-Link to existing blogs: transcribe-audio-to-text, voice-memo-transcription, voice-to-text-apps  
-Link to service pages: /features/hinglish-transcription, /features/multilingual-transcription  
-Link to new blogs: #35, #33
-
-**#35 Multilingual Meeting Transcription: How to Transcribe Meetings in Mixed Languages**  
-URL: `/blog/multilingual-meeting-transcription`  
-Secondary: Ubersuggest shows little measured volume. Demand is proven in GSC instead  
-GSC: 'multilingual meeting transcription' at 20.8; 'multilingual transcription' at 80.8; 'multilingual transcription software' at 74.7; 'multilingual recording' at 70.8  
-Link to existing blogs: ai-transcription-software, best-ai-note-takers  
-Link to service pages: /features/multilingual-transcription, /features/hinglish-transcription  
-Link to new blogs: #34, #33
+**#35 Hindi Voice Typing: Best Free Tools for PC, Mac and Phone**  
+URL: `/blog/hindi-voice-typing` | Intent: Commercial investigation | Volume confidence: High  
+Other keywords covered: hindi voice typing software (590); hindi voice typing online (390); english to hindi voice typing (110); hindi voice typing online free (50)  
+Live SERP: hindicheck.in DA 4 ranks #5 with a 'Best Tools 2026' blog; alllanguagetranslator DA 16, speechtyping DA 19 (#1), speech-typing DA 20  
+Overlap: LOW: /blog/voice-to-text-apps and /blog/dictation-on-mac are English-focused. CONDITION: publish only if Lynkk dictation supports Hindi.  
+Links: existing blogs voice-to-text-apps, dictation-on-mac, dictate-in-microsoft-word; service pages /features/dictation, /features/hinglish-transcription
 
 </details>
 
 ## 5. The 20 Medium and Substack posts
 
-Medium has very high domain authority, so low-difficulty posts there often rank within weeks and send referral traffic while lynkk.ai builds authority. Medium marks outbound links nofollow, so treat these posts as traffic and discovery, not link equity. Substack works best as a newsletter for buyer education and thought leadership.
-
-**Rules for these posts:**
-
-- Write a unique angle (story, test, opinion). Do not copy the website blog, or the two pages compete with each other.
-- If you ever republish a website post on Medium, use Medium's import tool so it sets the canonical URL to lynkk.ai.
-- Put 2-3 contextual links early in the post: one to the matching website blog, one to a service page.
-- Publish each one 1-2 weeks **after** its target website blog is live.
+These sit outside lynkk.ai and point into it. Because they live on another domain, they can cover angles I removed from the website for cannibalization (meeting bots, Copilot, interview transcription) and send readers to the existing page that owns that topic. Medium marks outbound links nofollow, so treat them as traffic and discovery, not link equity. Write each with a unique angle, never a copy of a website post, and publish it 1-2 weeks after its target page is live.
 
 | # | Platform | Title | Target keyword | Keyword data | Intent | Links back to | Est. time to rank |
 |---|---|---|---|---|---|---|---|
-| 1 | Medium | I Tested 7 AI Note Takers on Hinglish Meetings. Here's What Broke | hinglish transcription | 110/mo IN, SD 28 | Commercial investigation | #34, /features/hinglish-transcription | 2-6 weeks |
-| 2 | Medium | Read AI Kept Joining My Meetings. Here's How I Removed It for Good | how to stop read ai from joining meetings | 70/mo, SD 39 | Informational | #22, /features/meeting-bot | 2-6 weeks |
-| 3 | Medium | Otter vs Fireflies After 30 Days of Real Meetings: An Honest Comparison | otter ai vs fireflies ai | 70/mo, SD 15 | Commercial | #26, #19, /compare/fireflies | 2-4 weeks |
+| 1 | Medium | I Tested 7 AI Note Takers on Hinglish Meetings. Here's What Broke | hinglish transcription | 110/mo India, SD 28 | Commercial investigation | /features/hinglish-transcription, #35 | 2-6 weeks |
+| 2 | Medium | Read AI Kept Joining My Meetings. Here's How I Removed It for Good | how to stop read ai from joining meetings | 70/mo, SD 39 | Informational | #26, /features/meeting-bot | 2-6 weeks |
+| 3 | Medium | Otter vs Fireflies vs Fathom After 30 Days of Real Meetings | fathom vs fireflies | 110/mo, SD 32 | Commercial | #18, #15, /compare/fireflies | 2-4 weeks |
 | 4 | Medium | The Meeting Notes Template I Use for Every Meeting (Free Copy) | best meeting notes template | 390/mo, SD 19 | Transactional | #2, #1, /features/meeting-notes | 2-4 weeks |
 | 5 | Medium | From Sprint Retro to Jira Tickets in 30 Seconds: My Team's Workflow | sprint retrospective jira | 50/mo, SD 24 | Informational | #10, /blog/meeting-minutes-to-jira, /integrations | 2-4 weeks |
-| 6 | Medium | What Is Speaker Diarization? A Plain-English Guide for Non-Engineers | what is speaker diarization | 90/mo, SD 34 | Informational | /blog/ai-transcription-software, #33, /features/multilingual-transcription | 3-8 weeks |
-| 7 | Medium | Before You Hit Record: One-Party vs Two-Party Consent for Remote Teams | is it legal to record meetings at work | 30/mo, SD 35 | Informational | #30, /security | 3-8 weeks |
-| 8 | Medium | The 3-Line Follow-Up Email I Send After Every Sales Call | short follow up email after meeting | 10/mo, SD 5 | Informational | #5, #32, /use-cases/sales-calls | 1-3 weeks |
-| 9 | Medium | 12 Discovery Call Questions Great AEs Never Skip | discovery call questions | 70/mo, SD 23 | Informational | #31, /use-cases/sales-calls | 2-4 weeks |
-| 10 | Medium | How to Build a Meeting Bot That Joins Zoom, Meet and Teams (Lessons From Building One) | how to make a meeting bot / meeting bot api | GSC position 29; 40/mo, SD 27 | Informational (developers) | #18, /features/meeting-bot, /blog/zoom-bot-join-meeting | 2-6 weeks |
-| 11 | Medium | How to Record a Google Meet Without Google Workspace Premium | how to record google meet for free | 70/mo, SD 33 | Informational | #11, /features/chrome-extension | 3-8 weeks |
-| 12 | Medium | Interview Transcription for UX Researchers: My 5-Step Workflow | research interview transcription | 30/mo, SD 34; GSC position 63 | Informational | #33, /use-cases/user-interviews | 3-8 weeks |
-| 13 | Substack | Copilot in Teams vs a Dedicated AI Note Taker: Which One Should You Pay For? | copilot vs ai note taker | GSC question at position 5.7 | Commercial | #15, /compare | 1-3 months |
-| 14 | Substack | Zoom AI Companion Is Free. Here's What It Still Can't Do | zoom ai companion meeting summary | 390/mo, SD 26 | Commercial | #16, /blog/zoom-ai-companion-alternatives | 1-3 months |
-| 15 | Substack | The 10 Security Questions IT Will Ask Before Approving an AI Note Taker | hipaa compliant ai note taker | 260/mo, SD 31 | Commercial | #28, /security | 1-3 months |
-| 16 | Substack | Meeting Minutes Are Not Enough: Why Teams Need a Meeting Memory | meeting knowledge management | Thought leadership | Brand / awareness | #7, /blog/meeting-knowledge-management, /features/ask-your-meetings | Distribution, not ranking |
+| 6 | Medium | What Is Speaker Diarization? A Plain-English Guide for Non-Engineers | what is speaker diarization | 90/mo, SD 34 | Informational | /blog/ai-transcription-software, /features/multilingual-transcription | 3-8 weeks |
+| 7 | Medium | Before You Hit Record: One-Party vs Two-Party Consent for Remote Teams | is it legal to record meetings at work | 30/mo, SD 35 | Informational | #31, /security | 3-8 weeks |
+| 8 | Medium | The 3-Line Follow-Up Email I Send After Every Sales Call | follow up email after meeting | 210/mo, SD 26 | Informational | #4, #34, /use-cases/sales-calls | 2-4 weeks |
+| 9 | Medium | 12 Discovery Call Questions Great AEs Never Skip | discovery call questions | 70/mo, SD 23 | Informational | #33, /use-cases/sales-calls | 2-4 weeks |
+| 10 | Medium | How a Meeting Bot Actually Joins Zoom, Meet and Teams (Engineering Notes) | meeting bot / how to make a meeting bot | GSC: 'meeting bot' 102 impr at 21.7; 'how to make a meeting bot' at 29 | Informational (developers) | /blog/zoom-bot-join-meeting, /features/meeting-bot | 2-6 weeks |
+| 11 | Medium | How to Record a Google Meet Without Google Workspace Premium | how to record google meet for free | 70/mo, SD 33 | Informational | #12, /features/chrome-extension | 3-8 weeks |
+| 12 | Medium | Interview Transcription for UX Researchers: My 5-Step Workflow | user interview transcription | GSC: 93 impr at 40 | Informational | /blog/recruiting-interview-transcription, /use-cases/user-interviews | 3-8 weeks |
+| 13 | Substack | Copilot in Teams vs a Dedicated AI Note Taker: Which One Should You Pay For? | copilot vs ai note taker | GSC question at 5.7 | Commercial | /blog/ai-note-taker-microsoft-teams, /compare | 1-3 months |
+| 14 | Substack | Zoom AI Companion Is Free. Here's What It Still Can't Do | zoom ai companion meeting summary | 390/mo, SD 26 | Commercial | /blog/zoom-ai-companion-alternatives, #34 | 1-3 months |
+| 15 | Substack | The 10 Security Questions IT Will Ask Before Approving an AI Note Taker | ai note taker sso scim | GSC questions at 3.2-9.0 | Commercial | #32, /security | 1-3 months |
+| 16 | Substack | Meeting Minutes Are Not Enough: Why Teams Need a Meeting Memory | meeting knowledge management | Thought leadership | Brand / awareness | #5, /blog/meeting-knowledge-management, /features/ask-your-meetings | Distribution, not ranking |
 | 17 | Substack | Why Action Items Die After the Meeting (and a System That Keeps Them Alive) | meeting notes with action items | 210/mo, SD 12 | Informational | /blog/action-items-examples-template, #3, /features/action-items | 1-3 months |
-| 18 | Substack | Free vs Paid AI Note Takers: What You Actually Get at $0 | best free ai note taker | 260/mo, SD 32 | Commercial | /blog/best-free-ai-note-takers, #27, /pricing | 1-3 months |
-| 19 | Substack | Board Meetings at an Early-Stage Startup: Agenda, Minutes and What Investors Expect | sample board meeting agenda | 1,300/mo, SD 31 | Informational | #8, /blog/founders-meeting-notes | 1-3 months |
-| 20 | Substack | Running Meetings in Two Languages: What Global and Indian Teams Get Wrong | multilingual meeting transcription | GSC position 20.8 | Thought leadership | #35, #34, /features/multilingual-transcription | Distribution, not ranking |
+| 18 | Substack | Free vs Paid AI Note Takers: What You Actually Get at $0 | best free ai note taker | 260/mo, SD 32 | Commercial | /blog/best-free-ai-note-takers, #20, #24, /pricing | 1-3 months |
+| 19 | Substack | Board Meetings at an Early-Stage Startup: Agenda, Minutes and What Investors Expect | sample board meeting agenda | 1,300/mo, SD 31 | Informational | #7, #6, /blog/founders-meeting-notes | 1-3 months |
+| 20 | Substack | Running Meetings in Two Languages: What Global and Indian Teams Get Wrong | multilingual meeting transcription | GSC: 20 impr at 20.8 | Thought leadership | /features/multilingual-transcription, #35 | Distribution, not ranking |
 
-## 6. Update existing blogs to link into the new clusters
+## 6. 12-week calendar (about 3 posts a week)
 
-Internal links have to go both ways. After each new post goes live, add a contextual link to it from these existing pages:
+- **Wave 1 (Weeks 1-4: weakest SERPs and lowest SD), 12 posts:** #3, #2, #1, #7, #15, #16, #17, #19, #22, #24, #18, #34
+- **Wave 2 (Weeks 5-8), 12 posts:** #5, #6, #4, #9, #10, #11, #20, #21, #25, #29, #32, #35
+- **Wave 3 (Weeks 9-12: strongest SERPs, need the most authority), 11 posts:** #8, #12, #13, #14, #23, #26, #27, #28, #30, #31, #33
 
-| Existing page | Add links to new blogs |
-|---|---|
-| /blog/best-ai-note-takers (hub for C4) | #19, #20, #21, #26, #27 |
-| /blog/best-free-ai-note-takers | #19, #24, #25, #27 |
-| /blog/google-meet-transcript | #11, #17 |
-| /blog/how-to-transcribe-zoom-meetings | #14, #16 |
-| /blog/zoom-bot-join-meeting | #18, #22 |
-| /blog/ai-note-taker-microsoft-teams | #12, #13, #15 |
-| /blog/meeting-minutes-sample | #2, #6, #7, #8 |
-| /blog/action-items-examples-template | #3, #4, #5 |
-| /blog/daily-standup-meeting | #9, #10 |
-| /blog/sales-conversation-intelligence | #31, #32, #5 |
-| /blog/recruiting-interview-transcription | #33 |
-| /blog/transcribe-audio-to-text | #34, #33 |
-| /blog/legal-transcription-service | #28, #30 |
-| /features/hinglish-transcription | #34, #35 |
-| /features/meeting-bot | #18, #14 |
-| /use-cases/user-interviews | #33 |
-| /use-cases/sales-calls | #31, #32 |
-| /security | #28, #29, #30 |
+## 7. Before you publish
 
-## 7. 12-week publishing calendar
-
-- **Wave 1 (Weeks 1-4: quick wins), 12 posts:** #17, #18, #28, #32, #27, #15, #34, #3, #5, #2, #1, #26
-- **Wave 2 (Weeks 5-8: build cluster depth), 12 posts:** #9, #6, #19, #20, #14, #16, #11, #12, #33, #4, #21, #35
-- **Wave 3 (Weeks 9-12: harder commercial terms), 11 posts:** #7, #8, #10, #13, #22, #23, #25, #29, #30, #31, #24
-
-Publish in the order listed. Wave 1 starts with posts Google already shows Lynkk for in GSC (#17, #18, #28, #32, #27, #15, #34), then the lowest-difficulty template posts.
-
-Medium/Substack: 1-2 posts a week from week 2, each after its target blog is live.
-
-## 8. Data notes
-
-- Ubersuggest volumes are estimates. Several GSC-led topics (#27, #28, #32, #35) show little volume in Ubersuggest, but GSC proves Google already shows Lynkk for them at positions 1-21. Those are the most reliable wins.
-- US is the default market. #12 also targets the UK (tracked in the Ubersuggest project). #34 and #35 target India.
-- Pricing posts (#24, #25, #27) and comparison posts must use competitors' current published prices. Check them on the day you publish.
-- Legal post (#30) is general information, not legal advice. Say so in the post and link to official sources.
-
-Full data with every column: `website-blogs.csv` and `medium-substack-posts.csv` in this folder.
+- **#32 and #34** are based on GSC questions. First check in GSC which page those queries already land on (Performance > Queries > click the query > Pages). If an existing post gets them, expand that post instead and use the slot for a backup topic: 'Fireflies.ai Review' (`what is fireflies ai`, 720/mo, SD 47).
+- **#35** only if Lynkk dictation supports Hindi.
+- **Pricing and review posts (#20-#25, #30):** check competitors' current prices on the day you publish.
+- **#31** is general information, not legal advice. Say so and cite official state sources.
+- After 4-6 weeks, compare GSC impressions with these Ubersuggest numbers. GSC is the real source of truth once a page ranks.
