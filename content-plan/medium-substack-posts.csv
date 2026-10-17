@@ -1,21 +1,21 @@
 #,Platform,Title,Target keyword,Keyword data,Search intent,Links back to,Est. time to rank
-1,Medium,I Tested 7 AI Note Takers on Hinglish Meetings. Here's What Broke,hinglish transcription,"110/mo India, SD 28",Commercial investigation,"/features/hinglish-transcription, #35",2-6 weeks
-2,Medium,Read AI Kept Joining My Meetings. Here's How I Removed It for Good,how to stop read ai from joining meetings,"70/mo, SD 39",Informational,"#26, /features/meeting-bot",2-6 weeks
-3,Medium,Otter vs Fireflies vs Fathom After 30 Days of Real Meetings,fathom vs fireflies,"110/mo, SD 32",Commercial,"#18, #15, /compare/fireflies",2-4 weeks
-4,Medium,The Meeting Notes Template I Use for Every Meeting (Free Copy),best meeting notes template,"390/mo, SD 19",Transactional,"#2, #1, /features/meeting-notes",2-4 weeks
-5,Medium,From Sprint Retro to Jira Tickets in 30 Seconds: My Team's Workflow,sprint retrospective jira,"50/mo, SD 24",Informational,"#10, /blog/meeting-minutes-to-jira, /integrations",2-4 weeks
+1,Medium,I Tested 7 AI Note Takers on Hinglish Meetings. Here's What Broke,hinglish transcription,"110/mo India, SD 28",Commercial investigation,"/features/hinglish-transcription, #18",2-6 weeks
+2,Medium,Read AI Kept Joining My Meetings. Here's How I Removed It for Good,how to stop read ai from joining meetings,"70/mo, SD 39",Informational,"#20, /features/meeting-bot",2-6 weeks
+3,Medium,Otter vs Fireflies vs Fathom After 30 Days of Real Meetings,fathom vs fireflies,"110/mo, SD 32",Commercial,"#5, #1, /compare/fireflies",2-4 weeks
+4,Medium,The Meeting Notes Template I Use for Every Meeting (Free Copy),best meeting notes template,"390/mo, SD 19",Transactional,"#27, #28, /features/meeting-notes",2-4 weeks
+5,Medium,From Sprint Retro to Jira Tickets in 30 Seconds: My Team's Workflow,sprint retrospective jira,"50/mo, SD 24",Informational,"#33, /blog/meeting-minutes-to-jira, /integrations",2-4 weeks
 6,Medium,What Is Speaker Diarization? A Plain-English Guide for Non-Engineers,what is speaker diarization,"90/mo, SD 34",Informational,"/blog/ai-transcription-software, /features/multilingual-transcription",3-8 weeks
-7,Medium,Before You Hit Record: One-Party vs Two-Party Consent for Remote Teams,is it legal to record meetings at work,"30/mo, SD 35",Informational,"#31, /security",3-8 weeks
-8,Medium,The 3-Line Follow-Up Email I Send After Every Sales Call,follow up email after meeting,"210/mo, SD 26",Informational,"#4, #34, /use-cases/sales-calls",2-4 weeks
-9,Medium,12 Discovery Call Questions Great AEs Never Skip,discovery call questions,"70/mo, SD 23",Informational,"#33, /use-cases/sales-calls",2-4 weeks
+7,Medium,Before You Hit Record: One-Party vs Two-Party Consent for Remote Teams,is it legal to record meetings at work,"30/mo, SD 35",Informational,"#34, /security",3-8 weeks
+8,Medium,The 3-Line Follow-Up Email I Send After Every Sales Call,follow up email after meeting,"210/mo, SD 26",Informational,"#29, #9, /use-cases/sales-calls",2-4 weeks
+9,Medium,12 Discovery Call Questions Great AEs Never Skip,discovery call questions,"70/mo, SD 23",Informational,"#35, /use-cases/sales-calls",2-4 weeks
 10,Medium,"How a Meeting Bot Actually Joins Zoom, Meet and Teams (Engineering Notes)",meeting bot / how to make a meeting bot,GSC: 'meeting bot' 102 impr at 21.7; 'how to make a meeting bot' at 29,Informational (developers),"/blog/zoom-bot-join-meeting, /features/meeting-bot",2-6 weeks
-11,Medium,How to Record a Google Meet Without Google Workspace Premium,how to record google meet for free,"70/mo, SD 33",Informational,"#12, /features/chrome-extension",3-8 weeks
+11,Medium,How to Record a Google Meet Without Google Workspace Premium,how to record google meet for free,"70/mo, SD 33",Informational,"#23, /features/chrome-extension",3-8 weeks
 12,Medium,Interview Transcription for UX Researchers: My 5-Step Workflow,user interview transcription,GSC: 93 impr at 40,Informational,"/blog/recruiting-interview-transcription, /use-cases/user-interviews",3-8 weeks
 13,Substack,Copilot in Teams vs a Dedicated AI Note Taker: Which One Should You Pay For?,copilot vs ai note taker,GSC question at 5.7,Commercial,"/blog/ai-note-taker-microsoft-teams, /compare",1-3 months
-14,Substack,Zoom AI Companion Is Free. Here's What It Still Can't Do,zoom ai companion meeting summary,"390/mo, SD 26",Commercial,"/blog/zoom-ai-companion-alternatives, #34",1-3 months
-15,Substack,The 10 Security Questions IT Will Ask Before Approving an AI Note Taker,ai note taker sso scim,GSC questions at 3.2-9.0,Commercial,"#32, /security",1-3 months
-16,Substack,Meeting Minutes Are Not Enough: Why Teams Need a Meeting Memory,meeting knowledge management,Thought leadership,Brand / awareness,"#5, /blog/meeting-knowledge-management, /features/ask-your-meetings","Distribution, not ranking"
-17,Substack,Why Action Items Die After the Meeting (and a System That Keeps Them Alive),meeting notes with action items,"210/mo, SD 12",Informational,"/blog/action-items-examples-template, #3, /features/action-items",1-3 months
-18,Substack,Free vs Paid AI Note Takers: What You Actually Get at $0,best free ai note taker,"260/mo, SD 32",Commercial,"/blog/best-free-ai-note-takers, #20, #24, /pricing",1-3 months
-19,Substack,"Board Meetings at an Early-Stage Startup: Agenda, Minutes and What Investors Expect",sample board meeting agenda,"1,300/mo, SD 31",Informational,"#7, #6, /blog/founders-meeting-notes",1-3 months
-20,Substack,Running Meetings in Two Languages: What Global and Indian Teams Get Wrong,multilingual meeting transcription,GSC: 20 impr at 20.8,Thought leadership,"/features/multilingual-transcription, #35","Distribution, not ranking"
+14,Substack,Zoom AI Companion Is Free. Here's What It Still Can't Do,zoom ai companion meeting summary,"390/mo, SD 26",Commercial,"/blog/zoom-ai-companion-alternatives, #9",1-3 months
+15,Substack,The 10 Security Questions IT Will Ask Before Approving an AI Note Taker,ai note taker sso scim,GSC questions at 3.2-9.0,Commercial,"#10, /security",1-3 months
+16,Substack,Meeting Minutes Are Not Enough: Why Teams Need a Meeting Memory,meeting knowledge management,Thought leadership,Brand / awareness,"#30, /blog/meeting-knowledge-management, /features/ask-your-meetings","Distribution, not ranking"
+17,Substack,Why Action Items Die After the Meeting (and a System That Keeps Them Alive),meeting notes with action items,"210/mo, SD 12",Informational,"/blog/action-items-examples-template, #26, /features/action-items",1-3 months
+18,Substack,Free vs Paid AI Note Takers: What You Actually Get at $0,best free ai note taker,"260/mo, SD 32",Commercial,"/blog/best-free-ai-note-takers, #13, #7, /pricing",1-3 months
+19,Substack,"Board Meetings at an Early-Stage Startup: Agenda, Minutes and What Investors Expect",sample board meeting agenda,"1,300/mo, SD 31",Informational,"#32, #31, /blog/founders-meeting-notes",1-3 months
+20,Substack,Running Meetings in Two Languages: What Global and Indian Teams Get Wrong,multilingual meeting transcription,GSC: 20 impr at 20.8,Thought leadership,"/features/multilingual-transcription, #18","Distribution, not ranking"
