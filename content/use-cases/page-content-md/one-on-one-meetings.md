@@ -1,0 +1,102 @@
+# Managers (1:1 Meetings)
+
+URL: lynkk.ai/use-cases/one-on-one-meetings
+
+| Page element | Content |
+|---|---|
+| Page title (SEO) | AI for Managers: 1 on 1 Meeting Notes That Remember \| Lynkk |
+| Meta description (SEO) | Lynkk records your one on one meeting, writes wins, blockers and action items, and reminds you what's still open before the next one. Start free. |
+
+### AI for managers: 1 on 1 meeting notes that remember last time.
+
+In a 1:1 you should be listening to your report, not typing. Lynkk records the conversation, writes the action items
+with owners, and tells you what's still open before the next one.
+
+Buttons: Start for free · Download for Mac
+
+#### What is a 1 on 1 meeting?
+
+A 1 on 1 meeting is a regular private talk between a manager and one team member. You talk about wins, problems and goals. Lynkk records it, writes the action items, and reminds you before the next one what you both agreed last time.
+
+**Who it's for**
+- First-time managers
+- Managers with many people on their team
+- Founders who run 1:1s with their team
+
+#### Better 1:1s, before, during and after
+
+**Before: what's still open.** Ask Lynkk "What did Priya and I agree last month?" and get the answer with a link to the moment.
+
+**During: just talk.** Lynkk records on Zoom, Google Meet, Microsoft Teams or in the room.
+
+**After: note and tasks.** Wins, blockers, decisions and action items with owners and dates.
+
+*Ask Lynkk and the 1:1 note format are part of Pro.*
+
+#### See what one 1:1 turns into
+
+**Weekly 1:1 with Priya · Google Meet · 28 min** (example)
+
+**Wins:** Shipped the onboarding fix a week early.
+
+**Blockers:** Waiting on design for the settings page.
+
+**Action items:** Book a design review. Owner: Sam. Due: Wed. · Draft the Q1 goals. Owner: Priya. Due: Fri.
+
+**Open question:** Is Priya ready to lead the next release?
+
+New to 1:1s? Read our guide to the [one on one meeting](/blog/one-on-one-meeting).
+
+#### AI for managers who have back-to-back 1:1s
+
+**Remember every 1:1**: ask across months of 1:1s with one person, and see where each answer came from. Pro.
+
+**Action items with owners**: every commitment lands on the Tasks board with a due date.
+
+**1:1 note format**: rewrites the note as a 1:1, so every meeting reads the same way. Pro.
+
+**Private by default**: 1:1 notes stay yours unless you share them.
+
+#### 1:1s, before and after Lynkk
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| You forget what you agreed last month | You ask Lynkk before the meeting |
+| Promises get lost | Action items have owners and dates |
+| You type and miss how your team member feels | You listen |
+
+**Works with:** Zoom, Google Meet, Microsoft Teams and the Mac app.
+
+Ask your report before you record, and tell them who can see the note. Notes are private by default, share links can be
+revoked, and nothing is used to train models. [Security](/security)
+
+#### Simple pricing
+
+| Free | Pro |
+|---|---|
+| $0 | $15 a month |
+| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus the 1:1 note format, Ask Lynkk across past 1:1s, and the weekly digest. |
+
+[Compare plans](/pricing)
+
+#### Questions about AI for 1:1 meetings
+
+**Does my report need Lynkk?**
+
+No. You record, and you can share the note with them by link if you choose.
+
+**Should I tell my report I'm recording?**
+
+Yes. Ask first, and explain that the notes are there so neither of you forgets what you agreed.
+
+**Can I record an in-person 1:1?**
+
+Yes, with the Mac app or the web app.
+
+**Is it free?**
+
+Yes, there's a free plan with no credit card. The 1:1 note format and Ask Lynkk are part of Pro ($15 a month).
+
+#### Record your next 1:1. Walk into the one after knowing what's open.
+
+Buttons: Start for free · Download for Mac
