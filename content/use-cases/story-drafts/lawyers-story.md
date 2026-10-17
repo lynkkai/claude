@@ -1,6 +1,6 @@
 # Lawyers Page: Simple Story Draft
 
-> Draft for review, 2026-10-17. New page: lynkk.ai/use-cases/lawyers. Anita, Clearwater Legal LLP and the client are
+> Draft for review, 2026-10-17. New page: lynkk.ai/use-cases/lawyers. Laura, Clearwater Legal LLP and the client are
 > examples, not real people or firms.
 
 ## Keywords in this draft (Ubersuggest, searches a month)
@@ -26,34 +26,34 @@ With your client's permission, Lynkk records the meeting and writes the key fact
 
 Buttons: Start for free · Download for Mac
 
-## Meet Anita
+## Meet Laura
 
-*Anita is an example. But you may know someone just like her.*
+*Laura is an example. But you may know someone just like her.*
 
-Anita is a lawyer at Clearwater Legal LLP. Today a new client comes to her office. The client's landlord wants them to
+Laura is a lawyer at Clearwater Legal LLP. Today a new client comes to her office. The client's landlord wants them to
 leave, and the client is worried.
 
-## Anita's problem
+## Laura's problem
 
-The client talks fast and shares many details: dates, emails, payments. Anita needs every fact.
+The client talks fast and shares many details: dates, emails, payments. Laura needs every fact.
 
 So she writes while the client talks. She looks at her notepad more than at the client. Later, she can't read half of
 what she wrote. Was the notice sent on the 2nd or the 12th?
 
-## How Lynkk helps Anita in client meetings
+## How Lynkk helps Laura in client meetings
 
-Anita starts using Lynkk. Here is what changes.
+Laura starts using Lynkk. Here is what changes.
 
-**Before the meeting, Anita asks the client.**
-"May I record this, so I don't miss anything?" The client agrees. Anita records with the Lynkk Mac app on her desk.
+**Before the meeting, Laura asks the client.**
+"May I record this, so I don't miss anything?" The client agrees. Laura records with the Lynkk Mac app on her desk.
 
-**During the meeting, Anita just listens.**
+**During the meeting, Laura just listens.**
 She looks at her client. She asks better questions. She notices what the client is worried about.
 
 **After the meeting, the note is ready.**
 Lynkk writes the key facts, the documents to collect, and the next steps with names and dates.
 
-### Here is the note Lynkk wrote for Anita (example)
+### Here is the note Lynkk wrote for Laura (example)
 
 **Client meeting, lease dispute · In the office · 38 min**
 
@@ -61,9 +61,9 @@ Lynkk writes the key facts, the documents to collect, and the next steps with na
 
 **Documents to collect:** The signed lease. The notice email. Rent receipts for the last 6 months.
 
-**Next step:** Send the engagement letter. Who: Anita. When: Friday.
+**Next step:** Send the engagement letter. Who: Laura. When: Friday.
 
-Anita can click any line to hear exactly what the client said.
+Laura can click any line to hear exactly what the client said.
 
 ## So, what is Lynkk?
 
@@ -134,7 +134,7 @@ Yes. Always ask first. Rules differ by country and by bar, so check your profess
 
 Yes. Use the Mac app on your desk, even without internet.
 
-## Be like Anita. Look at your client, not your notepad.
+## Be like Laura. Look at your client, not your notepad.
 
 Try Lynkk in your next client meeting. It's free to start.
 

@@ -1,6 +1,6 @@
 # User Interviews Page: Simple Story Draft
 
-> Draft for review, 2026-10-17. Page: lynkk.ai/use-cases/user-interviews. Priya and Greenway Foods Ltd. are examples,
+> Draft for review, 2026-10-17. Page: lynkk.ai/use-cases/user-interviews. Rachel and Greenway Foods LLC are examples,
 > not real customers.
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
@@ -29,46 +29,46 @@ Lynkk records your interview and turns it into text. You see every word, who sai
 
 Buttons: Start for free · Download for Mac
 
-## Meet Priya
+## Meet Rachel
 
-*Priya is an example. But you may know someone just like her.*
+*Rachel is an example. But you may know someone just like her.*
 
-Priya designs apps at Greenway Foods Ltd. This week she has eight customer interviews. She wants to know why new users
+Rachel designs apps at Greenway Foods LLC This week she has eight customer interviews. She wants to know why new users
 stop using the app.
 
-## Priya's problem
+## Rachel's problem
 
-In each interview, Priya tries to listen and write at the same time. She looks at her notebook more than at the person.
+In each interview, Rachel tries to listen and write at the same time. She looks at her notebook more than at the person.
 
 Her notes only have short phrases, not the customer's real words. After eight interviews, she can't remember who said
 what. Finding one good quote means listening to hours of recordings again.
 
-## How Lynkk helps Priya transcribe interviews
+## How Lynkk helps Rachel transcribe interviews
 
-Priya starts using Lynkk. Here is what changes.
+Rachel starts using Lynkk. Here is what changes.
 
-**Before the interview, Priya presses record.**
+**Before the interview, Rachel presses record.**
 She records from her computer, or in the room when she meets someone in person. No bot joins the call.
 
-**During the interview, Priya just listens.**
+**During the interview, Rachel just listens.**
 She looks at the person, not her notebook. She asks better follow-up questions.
 
 **After the interview, the text is ready.**
 Lynkk writes every word and labels who said it. It also lists the main points and the questions still open.
 
-### Here is the note Lynkk wrote for Priya (example)
+### Here is the note Lynkk wrote for Rachel (example)
 
 **Customer interview, onboarding · Zoom · 41 min · 2 speakers**
 
-- 08:12 **Priya:** What made you look for something new?
+- 08:12 **Rachel:** What made you look for something new?
 - 08:15 **Customer:** Setting up took our team two weeks. Half of them gave up.
-- 08:31 **Priya:** Where did they give up?
+- 08:31 **Rachel:** Where did they give up?
 
 **Main point:** New teams give up during setup.
 
 **Still open:** Which setup step loses the most people?
 
-Priya can click any line to hear that moment again.
+Rachel can click any line to hear that moment again.
 
 ## So, what is Lynkk?
 
@@ -139,7 +139,7 @@ Russian, with Tamil, Telugu, Marathi and Bengali in beta.
 
 Yes. Always ask the person first, and tell them how you will use the recording.
 
-## Be like Priya. Look at the person, not your notebook.
+## Be like Rachel. Look at the person, not your notebook.
 
 Try Lynkk on your next interview. It's free to start.
 

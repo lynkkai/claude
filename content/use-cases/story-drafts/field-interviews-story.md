@@ -1,6 +1,6 @@
 # Field Interviews Page: Simple Story Draft
 
-> Draft for review, 2026-10-17. Page: lynkk.ai/use-cases/field-interviews. Neha and Green Fields Research Ltd. are
+> Draft for review, 2026-10-17. Page: lynkk.ai/use-cases/field-interviews. Emily and Green Fields Research LLC are
 > examples, not real customers.
 
 ## Keywords in this draft (Ubersuggest, searches a month)
@@ -30,24 +30,24 @@ signal.
 
 Buttons: Start for free · Download for Mac
 
-## Meet Neha
+## Meet Emily
 
-*Neha is an example. But you may know someone just like her.*
+*Emily is an example. But you may know someone just like her.*
 
-Neha works at Green Fields Research Ltd. This month she is doing field research near Nashik. She visits farms and talks
+Emily works at Green Fields Research LLC This month she is doing field research near Nashik, India. She visits farms and talks
 to farmers about water and crops.
 
-## Neha's problem
+## Emily's problem
 
 Most farms have no internet. The farmers speak a mix of Hindi and English, sometimes in the same sentence.
 
-Neha comes back with hours of audio. She has no time to listen to it again. And typing it out by hand would take days.
+Emily comes back with hours of audio. She has no time to listen to it again. And typing it out by hand would take days.
 
-## How Lynkk helps Neha with field interviews
+## How Lynkk helps Emily with field interviews
 
-Neha starts using Lynkk on her Mac. Here is what changes.
+Emily starts using Lynkk on her Mac. Here is what changes.
 
-**During the visit, Neha just records.**
+**During the visit, Emily just records.**
 She opens the Lynkk Mac app and records the conversation. No internet needed. The recording is saved on her Mac.
 
 **Back at the hotel, it uploads on its own.**
@@ -56,18 +56,18 @@ When her Mac is online again, the recording uploads and Lynkk writes the note.
 **Then she reads, instead of listening again.**
 She gets the text in Hindi and Hinglish, with each speaker labelled, plus the main points and open questions.
 
-### Here is the note Lynkk wrote for Neha (example)
+### Here is the note Lynkk wrote for Emily (example)
 
 **Farm visit, Nashik · Recorded on a Mac · 27 min · Hinglish**
 
 - 03:05 **Farmer:** Pichle saal paani kam tha, isliye humne drip irrigation lagaya.
-- 03:14 **Neha:** Aur usse kharcha kitna badha?
+- 03:14 **Emily:** Aur usse kharcha kitna badha?
 
 **Main point:** Less water last year made the farm switch to drip irrigation.
 
 **Still open:** How much did the switch cost?
 
-Neha can click any line to hear that part again.
+Emily can click any line to hear that part again.
 
 ## So, what is Lynkk?
 
@@ -138,7 +138,7 @@ Up to 2 hours. For a longer session, start a new recording.
 
 Yes. Always ask the person first, and tell them how you will use the recording.
 
-## Be like Neha. Record anywhere, read it later.
+## Be like Emily. Record anywhere, read it later.
 
 Try Lynkk on your next field visit. It's free to start.
 

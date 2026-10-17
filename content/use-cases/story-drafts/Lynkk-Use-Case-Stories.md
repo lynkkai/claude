@@ -44,52 +44,52 @@ Lynkk is AI for sales. It listens to your sales call and writes down what matter
 
 Buttons: Start for free · Download for Mac
 
-#### Meet Maya
+#### Meet Jessica
 
-*Maya is an example. But you may know someone just like her.*
+*Jessica is an example. But you may know someone just like her.*
 
-Maya sells software. She has many sales calls every day.
+Jessica sells software. She has many sales calls every day.
 
-Today she is talking to Dana from Bluestone Logistics Ltd. Dana is interested. She asks about the price. She wants to
+Today she is talking to Dana from Bluestone Logistics LLC Dana is interested. She asks about the price. She wants to
 try it with two teams first. And she is not sure who will sign the order.
 
-#### Maya's problem
+#### Jessica's problem
 
-Maya is doing three things at once. She is talking. She is listening. And she is typing notes.
+Jessica is doing three things at once. She is talking. She is listening. And she is typing notes.
 
 After the call, her notes are a mess. She forgot when she promised the price quote. She forgot Dana's question about
 who signs the order.
 
 So the follow-up email is late. A few small things slip. And the deal slows down.
 
-#### How Lynkk helps Maya on her next sales call
+#### How Lynkk helps Jessica on her next sales call
 
-Maya starts using Lynkk, an AI sales assistant. Here is what changes.
+Jessica starts using Lynkk, an AI sales assistant. Here is what changes.
 
-**Before the call, Maya asks Lynkk one question.**
+**Before the call, Jessica asks Lynkk one question.**
 "What is still open with Bluestone?"
-Lynkk replies: "Dana has not said who will sign the order." Now Maya knows what to ask first.
+Lynkk replies: "Dana has not said who will sign the order." Now Jessica knows what to ask first.
 
-**During the call, Maya just talks.**
+**During the call, Jessica just talks.**
 Lynkk records the call from her computer. No extra bot joins the call. When Dana asks, "What did we agree last time?",
-Lynkk shows Maya the answer right away.
+Lynkk shows Jessica the answer right away.
 
 **After the call, the notes are already done.**
-Maya does not type anything. Lynkk writes the next steps, who will do them, and by when.
+Jessica does not type anything. Lynkk writes the next steps, who will do them, and by when.
 
-**Here is the note Lynkk wrote for Maya (example)**
+**Here is the note Lynkk wrote for Jessica (example)**
 
-**Call with Bluestone Logistics Ltd. · Zoom · 32 min**
+**Call with Bluestone Logistics LLC · Zoom · 32 min**
 
 **Next steps**
-- Send the new price quote to Dana. Who: Maya. When: Friday.
-- Book a security check. Who: Dev. When: Tuesday.
+- Send the new price quote to Dana. Who: Jessica. When: Friday.
+- Book a security check. Who: Mike. When: Tuesday.
 
 **What we agreed:** Start with two teams first.
 
 **Still open:** Who will sign the order at Bluestone?
 
-Maya can click any line to hear that part of the call again.
+Jessica can click any line to hear that part of the call again.
 
 #### So, what is Lynkk?
 
@@ -160,7 +160,7 @@ and a memory of every conversation.
 
 Yes. Always ask the buyer first. Rules are different in each country.
 
-#### Be like Maya. Never forget a next step again.
+#### Be like Jessica. Never forget a next step again.
 
 Try Lynkk on your next sales call. It's free to start.
 
@@ -196,46 +196,46 @@ Lynkk records your interview and turns it into text. You see every word, who sai
 
 Buttons: Start for free · Download for Mac
 
-#### Meet Priya
+#### Meet Rachel
 
-*Priya is an example. But you may know someone just like her.*
+*Rachel is an example. But you may know someone just like her.*
 
-Priya designs apps at Greenway Foods Ltd. This week she has eight customer interviews. She wants to know why new users
+Rachel designs apps at Greenway Foods LLC This week she has eight customer interviews. She wants to know why new users
 stop using the app.
 
-#### Priya's problem
+#### Rachel's problem
 
-In each interview, Priya tries to listen and write at the same time. She looks at her notebook more than at the person.
+In each interview, Rachel tries to listen and write at the same time. She looks at her notebook more than at the person.
 
 Her notes only have short phrases, not the customer's real words. After eight interviews, she can't remember who said
 what. Finding one good quote means listening to hours of recordings again.
 
-#### How Lynkk helps Priya transcribe interviews
+#### How Lynkk helps Rachel transcribe interviews
 
-Priya starts using Lynkk. Here is what changes.
+Rachel starts using Lynkk. Here is what changes.
 
-**Before the interview, Priya presses record.**
+**Before the interview, Rachel presses record.**
 She records from her computer, or in the room when she meets someone in person. No bot joins the call.
 
-**During the interview, Priya just listens.**
+**During the interview, Rachel just listens.**
 She looks at the person, not her notebook. She asks better follow-up questions.
 
 **After the interview, the text is ready.**
 Lynkk writes every word and labels who said it. It also lists the main points and the questions still open.
 
-**Here is the note Lynkk wrote for Priya (example)**
+**Here is the note Lynkk wrote for Rachel (example)**
 
 **Customer interview, onboarding · Zoom · 41 min · 2 speakers**
 
-- 08:12 **Priya:** What made you look for something new?
+- 08:12 **Rachel:** What made you look for something new?
 - 08:15 **Customer:** Setting up took our team two weeks. Half of them gave up.
-- 08:31 **Priya:** Where did they give up?
+- 08:31 **Rachel:** Where did they give up?
 
 **Main point:** New teams give up during setup.
 
 **Still open:** Which setup step loses the most people?
 
-Priya can click any line to hear that moment again.
+Rachel can click any line to hear that moment again.
 
 #### So, what is Lynkk?
 
@@ -306,7 +306,7 @@ Russian, with Tamil, Telugu, Marathi and Bengali in beta.
 
 Yes. Always ask the person first, and tell them how you will use the recording.
 
-#### Be like Priya. Look at the person, not your notebook.
+#### Be like Rachel. Look at the person, not your notebook.
 
 Try Lynkk on your next interview. It's free to start.
 
@@ -341,25 +341,25 @@ Lynkk joins your team's standup meeting, listens, and writes down who is doing w
 
 Buttons: Start for free · Download for Mac
 
-#### Meet Arjun
+#### Meet Jake
 
-*Arjun is an example. But you may know someone just like him.*
+*Jake is an example. But you may know someone just like him.*
 
-Arjun is a project manager at Riverstone Apps Ltd. Every morning at 10, his team has a 15-minute standup meeting. Each
+Jake is a project manager at Riverstone Apps LLC Every morning at 10, his team has a 15-minute standup meeting. Each
 person says what they did yesterday, what they will do today, and what is blocking them.
 
-#### Arjun's problem
+#### Jake's problem
 
 Nobody writes the standup down. It's short, so it feels like there's no need.
 
-On Monday, Sana says she is blocked, waiting for a design review. By Thursday, everyone has forgotten. Sana is still
+On Monday, Megan says she is blocked, waiting for a design review. By Thursday, everyone has forgotten. Megan is still
 waiting. And Leo, who missed Tuesday's standup, has to message three people to catch up.
 
-#### How Lynkk helps Arjun with the daily standup meeting
+#### How Lynkk helps Jake with the daily standup meeting
 
-Arjun starts using Lynkk. Here is what changes.
+Jake starts using Lynkk. Here is what changes.
 
-**Before the standup, Arjun does nothing.**
+**Before the standup, Jake does nothing.**
 Lynkk is connected to his calendar. Every morning, the Lynkk meeting bot joins the standup on its own.
 
 **During the standup, the team just talks.**
@@ -368,7 +368,7 @@ Nobody types. Nobody is the "note taker" anymore.
 **After the standup, the note is ready.**
 Lynkk sorts it into yesterday, today and blockers. Every task goes to the Tasks board with a name and a date.
 
-**Here is the note Lynkk wrote for Arjun (example)**
+**Here is the note Lynkk wrote for Jake (example)**
 
 **Tuesday standup · Google Meet · 12 min · 5 people**
 
@@ -376,7 +376,7 @@ Lynkk sorts it into yesterday, today and blockers. Every task goes to the Tasks 
 
 **Today:** Test the export. Review the new banner.
 
-**Blocked:** Sana is waiting on the design review. Raised at 07:48.
+**Blocked:** Megan is waiting on the design review. Raised at 07:48.
 
 **New task:** Test the export. Who: Leo. When: today.
 
@@ -453,7 +453,7 @@ No. Lynkk for Slack answers questions when someone asks. It doesn't post summari
 Lynkk doesn't replace your project tool. It captures what was said in meetings and turns it into tasks you can send to
 Jira.
 
-#### Be like Arjun. Never lose a blocker again.
+#### Be like Jake. Never lose a blocker again.
 
 Try Lynkk on tomorrow's standup. It's free to start.
 
@@ -490,24 +490,24 @@ signal.
 
 Buttons: Start for free · Download for Mac
 
-#### Meet Neha
+#### Meet Emily
 
-*Neha is an example. But you may know someone just like her.*
+*Emily is an example. But you may know someone just like her.*
 
-Neha works at Green Fields Research Ltd. This month she is doing field research near Nashik. She visits farms and talks
+Emily works at Green Fields Research LLC This month she is doing field research near Nashik, India. She visits farms and talks
 to farmers about water and crops.
 
-#### Neha's problem
+#### Emily's problem
 
 Most farms have no internet. The farmers speak a mix of Hindi and English, sometimes in the same sentence.
 
-Neha comes back with hours of audio. She has no time to listen to it again. And typing it out by hand would take days.
+Emily comes back with hours of audio. She has no time to listen to it again. And typing it out by hand would take days.
 
-#### How Lynkk helps Neha with field interviews
+#### How Lynkk helps Emily with field interviews
 
-Neha starts using Lynkk on her Mac. Here is what changes.
+Emily starts using Lynkk on her Mac. Here is what changes.
 
-**During the visit, Neha just records.**
+**During the visit, Emily just records.**
 She opens the Lynkk Mac app and records the conversation. No internet needed. The recording is saved on her Mac.
 
 **Back at the hotel, it uploads on its own.**
@@ -516,18 +516,18 @@ When her Mac is online again, the recording uploads and Lynkk writes the note.
 **Then she reads, instead of listening again.**
 She gets the text in Hindi and Hinglish, with each speaker labelled, plus the main points and open questions.
 
-**Here is the note Lynkk wrote for Neha (example)**
+**Here is the note Lynkk wrote for Emily (example)**
 
 **Farm visit, Nashik · Recorded on a Mac · 27 min · Hinglish**
 
 - 03:05 **Farmer:** Pichle saal paani kam tha, isliye humne drip irrigation lagaya.
-- 03:14 **Neha:** Aur usse kharcha kitna badha?
+- 03:14 **Emily:** Aur usse kharcha kitna badha?
 
 **Main point:** Less water last year made the farm switch to drip irrigation.
 
 **Still open:** How much did the switch cost?
 
-Neha can click any line to hear that part again.
+Emily can click any line to hear that part again.
 
 #### So, what is Lynkk?
 
@@ -598,7 +598,7 @@ Up to 2 hours. For a longer session, start a new recording.
 
 Yes. Always ask the person first, and tell them how you will use the recording.
 
-#### Be like Neha. Record anywhere, read it later.
+#### Be like Emily. Record anywhere, read it later.
 
 Try Lynkk on your next field visit. It's free to start.
 
@@ -633,34 +633,34 @@ Record lectures with Lynkk. You get the main points, the topics and every word, 
 
 Buttons: Start for free · Download for Mac
 
-#### Meet Rohan
+#### Meet Ethan
 
-*Rohan is an example. But you may know someone just like him.*
+*Ethan is an example. But you may know someone just like him.*
 
-Rohan is in his second year of college. He has a 90-minute economics class every Monday. The teacher talks fast and
+Ethan is in his second year of college. He has a 90-minute economics class every Monday. The teacher talks fast and
 explains a lot with examples.
 
-#### Rohan's problem
+#### Ethan's problem
 
-Rohan can either write or listen. He can't do both.
+Ethan can either write or listen. He can't do both.
 
 When he writes, he misses the explanation. When he listens, he forgets it a week later. Before the exam, he opens his
 notes and they don't make sense. The one example he needs is somewhere in a 90-minute recording.
 
-#### How Lynkk helps Rohan record lectures
+#### How Lynkk helps Ethan record lectures
 
-Rohan asks his teacher if he can record, and the teacher says yes. Then he starts using Lynkk.
+Ethan asks his teacher if he can record, and the teacher says yes. Then he starts using Lynkk.
 
-**In class, Rohan presses record.**
+**In class, Ethan presses record.**
 He uses the Lynkk Mac app on his laptop. If the campus Wi-Fi is weak, that's fine. It uploads later.
 
-**During class, Rohan just listens.**
+**During class, Ethan just listens.**
 He follows the explanation and asks questions. He doesn't try to write everything down.
 
 **After class, his notes are ready.**
 Lynkk writes a title, a short summary, the main points with times, the topics, and every word.
 
-**Here is the note Lynkk wrote for Rohan (example)**
+**Here is the note Lynkk wrote for Ethan (example)**
 
 **Lecture 3, supply and demand · Recorded in class · 52 min**
 
@@ -673,7 +673,7 @@ Lynkk writes a title, a short summary, the main points with times, the topics, a
 
 **Full text:** every word of the lecture, attached.
 
-Before the exam, Rohan clicks "38:05" and hears the example again.
+Before the exam, Ethan clicks "38:05" and hears the example again.
 
 #### So, what is Lynkk?
 
@@ -705,7 +705,7 @@ Lynkk is for you if:
 - **Work in any browser.** Use the web app if you don't have a Mac.
 - **Ask about a lecture.** Ask a question, and the answer comes from that lecture (Pro).
 - **Long classes.** Each recording can run up to 2 hours. Start a new one after the break.
-- **Many languages.** English, Hindi, Hinglish and more.
+- **Many languages.** English, Spanish, Hindi and more.
 
 #### Ask before you record
 
@@ -743,7 +743,7 @@ Up to 2 hours. For a longer class, start a second recording after the break.
 
 Yes. Recording lectures and getting notes works on the free plan.
 
-#### Be like Rohan. Listen in class, and let Lynkk write.
+#### Be like Ethan. Listen in class, and let Lynkk write.
 
 Try Lynkk in your next lecture. It's free to start.
 
@@ -776,42 +776,42 @@ Lynkk records your customer calls and focus groups. Then you can ask what custom
 
 Buttons: Start for free · Download for Mac
 
-#### Meet Sara
+#### Meet Sarah
 
-*Sara is an example. But you may know someone just like her.*
+*Sarah is an example. But you may know someone just like her.*
 
-Sara is the marketing manager at Brightpath Software Ltd. She is rewriting the company website. She wants it to sound
+Sarah is the marketing manager at Brightpath Software LLC She is rewriting the company website. She wants it to sound
 like the customers, not like the company.
 
-#### Sara's problem
+#### Sarah's problem
 
 The sales team talks to customers every day. The product team runs interviews. But all those customer words are spread
 across different notes, or not written down at all.
 
-So Sara guesses. She writes "fast and easy to use" because it sounds good. She doesn't know what customers really say.
+So Sarah guesses. She writes "fast and easy to use" because it sounds good. She doesn't know what customers really say.
 
-#### How Lynkk helps Sara find the voice of customer
+#### How Lynkk helps Sarah find the voice of customer
 
-Sara's team starts recording customer calls with Lynkk. Here is what changes.
+Sarah's team starts recording customer calls with Lynkk. Here is what changes.
 
 **First, every customer call is recorded.**
 Sales calls, interviews and a focus group in the office. Lynkk writes the notes for each one.
 
-**Then, Sara asks Lynkk one question.**
+**Then, Sarah asks Lynkk one question.**
 "What stops customers from switching to us?"
 
 **Lynkk answers from all the calls, with sources.**
-Sara sees the answer, and exactly which calls it came from. She clicks to hear the customer say it.
+Sarah sees the answer, and exactly which calls it came from. She clicks to hear the customer say it.
 
-**Here is the answer Lynkk gave Sara (example)**
+**Here is the answer Lynkk gave Sarah (example)**
 
 **Question:** What stops customers from switching to us?
 
 **Answer:** Most customers worry about moving their old data. Three asked about training for new staff.
 
-**Where it came from:** Call with a customer, 14:05 · Focus group, Pune, 22:40 · Customer interview, 09:12
+**Where it came from:** Call with a customer, 14:05 · Focus group, Austin, 22:40 · Customer interview, 09:12
 
-Sara now writes "We move your data for you" on the website, because that's what customers worry about.
+Sarah now writes "We move your data for you" on the website, because that's what customers worry about.
 
 #### So, what is Lynkk?
 
@@ -842,7 +842,7 @@ Lynkk is for you if:
 
 - **Record focus groups in the room.** Use the Mac app or web app. Each speaker is labelled.
 - **Share with your team.** Send a note with a link, and turn the link off later.
-- **Many languages.** English, Hindi, Hinglish and more.
+- **Many languages.** English, Spanish, Hindi and more.
 - **Work with your tools.** Zoom, Google Meet and Microsoft Teams.
 
 #### Your customer calls stay private
@@ -881,7 +881,7 @@ Yes. Always tell the customer and ask before you record.
 
 Yes, there's a free plan. Asking Lynkk across all your calls is part of Pro.
 
-#### Be like Sara. Write in your customers' own words.
+#### Be like Sarah. Write in your customers' own words.
 
 Try Lynkk on your next customer call. It's free to start.
 
@@ -914,34 +914,34 @@ With your client's permission, Lynkk records the meeting and writes the key fact
 
 Buttons: Start for free · Download for Mac
 
-#### Meet Anita
+#### Meet Laura
 
-*Anita is an example. But you may know someone just like her.*
+*Laura is an example. But you may know someone just like her.*
 
-Anita is a lawyer at Clearwater Legal LLP. Today a new client comes to her office. The client's landlord wants them to
+Laura is a lawyer at Clearwater Legal LLP. Today a new client comes to her office. The client's landlord wants them to
 leave, and the client is worried.
 
-#### Anita's problem
+#### Laura's problem
 
-The client talks fast and shares many details: dates, emails, payments. Anita needs every fact.
+The client talks fast and shares many details: dates, emails, payments. Laura needs every fact.
 
 So she writes while the client talks. She looks at her notepad more than at the client. Later, she can't read half of
 what she wrote. Was the notice sent on the 2nd or the 12th?
 
-#### How Lynkk helps Anita in client meetings
+#### How Lynkk helps Laura in client meetings
 
-Anita starts using Lynkk. Here is what changes.
+Laura starts using Lynkk. Here is what changes.
 
-**Before the meeting, Anita asks the client.**
-"May I record this, so I don't miss anything?" The client agrees. Anita records with the Lynkk Mac app on her desk.
+**Before the meeting, Laura asks the client.**
+"May I record this, so I don't miss anything?" The client agrees. Laura records with the Lynkk Mac app on her desk.
 
-**During the meeting, Anita just listens.**
+**During the meeting, Laura just listens.**
 She looks at her client. She asks better questions. She notices what the client is worried about.
 
 **After the meeting, the note is ready.**
 Lynkk writes the key facts, the documents to collect, and the next steps with names and dates.
 
-**Here is the note Lynkk wrote for Anita (example)**
+**Here is the note Lynkk wrote for Laura (example)**
 
 **Client meeting, lease dispute · In the office · 38 min**
 
@@ -949,9 +949,9 @@ Lynkk writes the key facts, the documents to collect, and the next steps with na
 
 **Documents to collect:** The signed lease. The notice email. Rent receipts for the last 6 months.
 
-**Next step:** Send the engagement letter. Who: Anita. When: Friday.
+**Next step:** Send the engagement letter. Who: Laura. When: Friday.
 
-Anita can click any line to hear exactly what the client said.
+Laura can click any line to hear exactly what the client said.
 
 #### So, what is Lynkk?
 
@@ -1022,7 +1022,7 @@ Yes. Always ask first. Rules differ by country and by bar, so check your profess
 
 Yes. Use the Mac app on your desk, even without internet.
 
-#### Be like Anita. Look at your client, not your notepad.
+#### Be like Laura. Look at your client, not your notepad.
 
 Try Lynkk in your next client meeting. It's free to start.
 
@@ -1060,14 +1060,14 @@ Buttons: Start for free · Download for Mac
 
 *Sam is an example. But you may know someone just like him.*
 
-Sam is a team manager at Bluebird Apps Ltd. He has eight people on his team. Every week he has a 1 on 1 meeting with
+Sam is a team manager at Bluebird Apps LLC He has eight people on his team. Every week he has a 1 on 1 meeting with
 each of them. That's eight conversations about work, problems and goals.
 
 #### Sam's problem
 
-Last month, Sam promised Leena he would book a design review for her. Then he forgot.
+Last month, Sam promised Olivia he would book a design review for her. Then he forgot.
 
-In this week's 1 on 1, Leena asks about it. Sam doesn't remember promising. Leena feels unheard. Sam feels bad. With
+In this week's 1 on 1, Olivia asks about it. Sam doesn't remember promising. Olivia feels unheard. Sam feels bad. With
 eight people, small promises are easy to lose.
 
 #### How Lynkk helps Sam with 1 on 1 meetings
@@ -1075,25 +1075,25 @@ eight people, small promises are easy to lose.
 Sam asks his team if he can record their 1:1s, so neither side forgets what was agreed. They say yes.
 
 **Before the 1:1, Sam asks Lynkk.**
-"What did Leena and I agree last month?" Lynkk shows the answer, with a link to the moment it was said.
+"What did Olivia and I agree last month?" Lynkk shows the answer, with a link to the moment it was said.
 
 **During the 1:1, Sam just listens.**
-He doesn't type. He pays attention to how Leena feels, not just what she says.
+He doesn't type. He pays attention to how Olivia feels, not just what she says.
 
 **After the 1:1, the note is ready.**
 Lynkk writes the wins, the problems, and the tasks with names and dates.
 
 **Here is the note Lynkk wrote for Sam (example)**
 
-**Weekly 1:1 with Leena · Google Meet · 28 min**
+**Weekly 1:1 with Olivia · Google Meet · 28 min**
 
 **Wins:** Finished the sign-up fix a week early.
 
 **Problems:** Still waiting on design for the settings page.
 
-**Tasks:** Book a design review. Who: Sam. When: Wednesday. · Write the goals for next quarter. Who: Leena. When: Friday.
+**Tasks:** Book a design review. Who: Sam. When: Wednesday. · Write the goals for next quarter. Who: Olivia. When: Friday.
 
-**Still open:** Is Leena ready to lead the next release?
+**Still open:** Is Olivia ready to lead the next release?
 
 New to 1:1s? Read our guide to the [one on one meeting](/blog/one-on-one-meeting).
 
@@ -1198,45 +1198,45 @@ Lynkk records your client calls and meetings. It writes down each client's budge
 
 Buttons: Start for free · Download for Mac
 
-#### Meet Ravi
+#### Meet Chris
 
-*Ravi is an example. But you may know someone just like him.*
+*Chris is an example. But you may know someone just like him.*
 
-Ravi is a real estate agent at Skyline Homes Ltd. This month he is helping ten families find a new home. Each family has
+Chris is a real estate agent at Skyline Homes Realty LLC This month he is helping ten families find a new home. Each family has
 a budget, a wish list and lots of questions.
 
-#### Ravi's problem
+#### Chris's problem
 
-The Kapoor family told Ravi they need a school nearby. Another family wants a big garden. Another needs two parking
+The Johnson family told Chris they need a school nearby. Another family wants a big garden. Another needs two parking
 spots.
 
-After many calls, Ravi mixes them up. He sends the Kapoors a house with a garden but no school nearby. They are
-disappointed. Ravi looks like he wasn't listening, but he just couldn't remember everything.
+After many calls, Chris mixes them up. He sends the Johnsons a house with a garden but no school nearby. They are
+disappointed. Chris looks like he wasn't listening, but he just couldn't remember everything.
 
-#### How Lynkk helps Ravi remember every client
+#### How Lynkk helps Chris remember every client
 
-Ravi starts using Lynkk. Here is what changes.
+Chris starts using Lynkk. Here is what changes.
 
-**Before the meeting, Ravi asks the client.**
-"May I record this, so I get every detail right?" The Kapoors agree.
+**Before the meeting, Chris asks the client.**
+"May I record this, so I get every detail right?" The Johnsons agree.
 
-**During the meeting, Ravi just listens.**
+**During the meeting, Chris just listens.**
 He records with the Lynkk Mac app in his office, or on a video call. He doesn't write anything down.
 
 **After the meeting, the note is ready.**
-Lynkk writes the budget, the must-haves, and Ravi's next steps with dates.
+Lynkk writes the budget, the must-haves, and Chris's next steps with dates.
 
-**Here is the note Lynkk wrote for Ravi (example)**
+**Here is the note Lynkk wrote for Chris (example)**
 
-**Meeting with the Kapoors · In the office · 34 min**
+**Meeting with the Johnsons · In the office · 34 min**
 
-**Budget and area:** Up to 1.2 crore. Close to the metro line.
+**Budget and area:** Up to $650,000. Close to the train station.
 
-**Must-haves:** 3 bedrooms. A school within 2 km. Parking for two cars.
+**Must-haves:** 3 bedrooms. A school within 1 mile. Parking for two cars.
 
-**Next steps:** Send 5 listings. Who: Ravi. When: Thursday. · Book Saturday viewings. Who: Ravi. When: Friday.
+**Next steps:** Send 5 listings. Who: Chris. When: Thursday. · Book Saturday viewings. Who: Chris. When: Friday.
 
-Next week, Ravi asks Lynkk, "What did the Kapoors say about schools?" and gets the answer in seconds.
+Next week, Chris asks Lynkk, "What did the Johnsons say about schools?" and gets the answer in seconds.
 
 #### So, what is Lynkk?
 
@@ -1266,7 +1266,7 @@ Lynkk is for you if:
 #### What else can Lynkk do?
 
 Lynkk is a simple AI tool for real estate agents. It also helps you:
-- **Talk in any language.** Hindi, Hinglish, English and more.
+- **Talk in any language.** English, Spanish, Hindi and more.
 - **Record video calls.** Zoom, Google Meet and Microsoft Teams.
 - **Record in your office, even without internet.** The Mac app uploads later.
 - **Share a note.** Send it with a link, and turn the link off later.
@@ -1307,7 +1307,7 @@ Yes. Always ask first. Rules differ by country and state.
 
 Yes, there's a free plan. Asking Lynkk about past clients is part of Pro.
 
-#### Be like Ravi. Never forget a client's must-have again.
+#### Be like Chris. Never forget a client's must-have again.
 
 Try Lynkk on your next client call. It's free to start.
 
@@ -1341,45 +1341,45 @@ With your client's permission, Lynkk records the meeting and writes down their g
 
 Buttons: Start for free · Download for Mac
 
-#### Meet Karan
+#### Meet David
 
-*Karan is an example. But you may know someone just like him.*
+*David is an example. But you may know someone just like him.*
 
-Karan is a financial advisor at Northstar Wealth Ltd. Once a year, he sits down with each family to review their money
+David is a financial advisor at Northstar Wealth LLC Once a year, he sits down with each family to review their money
 and their plans.
 
-#### Karan's problem
+#### David's problem
 
-Today he meets the Shah family. They talk about retiring early, saving for their daughter's university, and Meera's new
+Today he meets the Miller family. They talk about retiring early, saving for their daughter's college, and Jennifer's new
 job.
 
-There are many numbers and many changes. Karan writes notes while they talk. Next year, before the review, he digs
+There are many numbers and many changes. David writes notes while they talk. Next year, before the review, he digs
 through old notes and can't find what they said about retirement.
 
-#### How Lynkk helps Karan with client reviews
+#### How Lynkk helps David with client reviews
 
-Karan starts using Lynkk. Here is what changes.
+David starts using Lynkk. Here is what changes.
 
-**Before the meeting, Karan asks the family.**
-"May I record this, so I don't miss any details?" The Shahs agree.
+**Before the meeting, David asks the family.**
+"May I record this, so I don't miss any details?" The Millers agree.
 
-**During the meeting, Karan just listens.**
+**During the meeting, David just listens.**
 He records on Zoom or in his office. He looks at the family, not his notebook.
 
 **After the meeting, the note is ready.**
 Lynkk writes their goals, what changed since last year, and the tasks with names and dates.
 
-**Here is the note Lynkk wrote for Karan (example)**
+**Here is the note Lynkk wrote for David (example)**
 
-**Annual review, the Shahs · Zoom · 46 min**
+**Annual review, the Millers · Zoom · 46 min**
 
-**Goals:** Retire at 58. Pay for their daughter's university in 2029.
+**Goals:** Retire at 58. Pay for their daughter's college in 2029.
 
-**What changed:** Meera has a new job, with a higher income from April.
+**What changed:** Jennifer has a new job, with a higher income from April.
 
-**Tasks:** Update the risk profile. Who: Karan. When: Monday. · Send the new plan. Who: Karan. When: Friday.
+**Tasks:** Update the risk profile. Who: David. When: Monday. · Send the new plan. Who: David. When: Friday.
 
-Next year, before the review, Karan asks Lynkk, "What did the Shahs say about retirement?" and gets the answer right
+Next year, before the review, David asks Lynkk, "What did the Millers say about retirement?" and gets the answer right
 away.
 
 #### So, what is Lynkk?
@@ -1452,7 +1452,7 @@ Yes. Always ask first. Rules differ by country and state.
 
 Yes, there's a free plan. Asking Lynkk about past reviews is part of Pro.
 
-#### Be like Karan. Start every review where the last one ended.
+#### Be like David. Start every review where the last one ended.
 
 Try Lynkk in your next client review. It's free to start.
 
@@ -1463,7 +1463,7 @@ Buttons: Start for free · Download for Mac
 ## To confirm before publishing
 
 - **All pages:** the free plan limit (the site gives three different versions)
-- **Sales Calls:** How Cue shows answers during a call ("Lynkk shows Maya the answer right away")
+- **Sales Calls:** How Cue shows answers during a call ("Lynkk shows Jessica the answer right away")
 - **Sales Calls:** "Not yet" in the CRM answer: only keep "yet" if CRM sync is planned
 - **Sales Calls:** The consent wording in the last FAQ (legal check)
 - **User Interviews:** Language count (this page lists 14 + 4 in beta; the homepage says 17)
@@ -1472,6 +1472,4 @@ Buttons: Start for free · Download for Mac
 - **Lawyers:** Legal review of the permission and privacy wording
 - **Managers (1:1 Meetings):** The 1:1 note format name, and that it's part of Pro
 - **Real Estate Agents:** Whether the web app records in a phone browser (important for viewings)
-- **Real Estate Agents:** The sample uses rupees (crore); switch to dollars for a US version
 - **Financial Advisors:** Compliance review of all wording (no record-keeping or regulatory claims)
-- **Financial Advisors:** The sample uses Indian names; use a US sample for a US version if needed

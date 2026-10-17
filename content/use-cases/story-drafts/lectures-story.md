@@ -1,6 +1,6 @@
 # Lectures Page: Simple Story Draft
 
-> Draft for review, 2026-10-17. Page: lynkk.ai/use-cases/lectures. Rohan is an example student, not a real customer.
+> Draft for review, 2026-10-17. Page: lynkk.ai/use-cases/lectures. Ethan is an example student, not a real customer.
 
 ## Keywords in this draft (Ubersuggest, searches a month)
 
@@ -27,34 +27,34 @@ Record lectures with Lynkk. You get the main points, the topics and every word, 
 
 Buttons: Start for free · Download for Mac
 
-## Meet Rohan
+## Meet Ethan
 
-*Rohan is an example. But you may know someone just like him.*
+*Ethan is an example. But you may know someone just like him.*
 
-Rohan is in his second year of college. He has a 90-minute economics class every Monday. The teacher talks fast and
+Ethan is in his second year of college. He has a 90-minute economics class every Monday. The teacher talks fast and
 explains a lot with examples.
 
-## Rohan's problem
+## Ethan's problem
 
-Rohan can either write or listen. He can't do both.
+Ethan can either write or listen. He can't do both.
 
 When he writes, he misses the explanation. When he listens, he forgets it a week later. Before the exam, he opens his
 notes and they don't make sense. The one example he needs is somewhere in a 90-minute recording.
 
-## How Lynkk helps Rohan record lectures
+## How Lynkk helps Ethan record lectures
 
-Rohan asks his teacher if he can record, and the teacher says yes. Then he starts using Lynkk.
+Ethan asks his teacher if he can record, and the teacher says yes. Then he starts using Lynkk.
 
-**In class, Rohan presses record.**
+**In class, Ethan presses record.**
 He uses the Lynkk Mac app on his laptop. If the campus Wi-Fi is weak, that's fine. It uploads later.
 
-**During class, Rohan just listens.**
+**During class, Ethan just listens.**
 He follows the explanation and asks questions. He doesn't try to write everything down.
 
 **After class, his notes are ready.**
 Lynkk writes a title, a short summary, the main points with times, the topics, and every word.
 
-### Here is the note Lynkk wrote for Rohan (example)
+### Here is the note Lynkk wrote for Ethan (example)
 
 **Lecture 3, supply and demand · Recorded in class · 52 min**
 
@@ -67,7 +67,7 @@ Lynkk writes a title, a short summary, the main points with times, the topics, a
 
 **Full text:** every word of the lecture, attached.
 
-Before the exam, Rohan clicks "38:05" and hears the example again.
+Before the exam, Ethan clicks "38:05" and hears the example again.
 
 ## So, what is Lynkk?
 
@@ -99,7 +99,7 @@ Lynkk is for you if:
 - **Work in any browser.** Use the web app if you don't have a Mac.
 - **Ask about a lecture.** Ask a question, and the answer comes from that lecture (Pro).
 - **Long classes.** Each recording can run up to 2 hours. Start a new one after the break.
-- **Many languages.** English, Hindi, Hinglish and more.
+- **Many languages.** English, Spanish, Hindi and more.
 
 ## Ask before you record
 
@@ -137,7 +137,7 @@ Up to 2 hours. For a longer class, start a second recording after the break.
 
 Yes. Recording lectures and getting notes works on the free plan.
 
-## Be like Rohan. Listen in class, and let Lynkk write.
+## Be like Ethan. Listen in class, and let Lynkk write.
 
 Try Lynkk in your next lecture. It's free to start.
 

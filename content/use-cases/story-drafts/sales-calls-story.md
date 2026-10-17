@@ -1,6 +1,6 @@
 # Sales Calls Page: Storytelling Draft (v3, simple story)
 
-> Draft for review, 2026-10-17. Page: lynkk.ai/use-cases/sales-calls. Maya and Bluestone Logistics Ltd. are examples,
+> Draft for review, 2026-10-17. Page: lynkk.ai/use-cases/sales-calls. Jessica and Bluestone Logistics LLC are examples,
 > not real customers. Written in short, simple sentences so anyone can follow the story.
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
@@ -30,52 +30,52 @@ Lynkk is AI for sales. It listens to your sales call and writes down what matter
 
 Buttons: Start for free · Download for Mac
 
-## Meet Maya
+## Meet Jessica
 
-*Maya is an example. But you may know someone just like her.*
+*Jessica is an example. But you may know someone just like her.*
 
-Maya sells software. She has many sales calls every day.
+Jessica sells software. She has many sales calls every day.
 
-Today she is talking to Dana from Bluestone Logistics Ltd. Dana is interested. She asks about the price. She wants to
+Today she is talking to Dana from Bluestone Logistics LLC Dana is interested. She asks about the price. She wants to
 try it with two teams first. And she is not sure who will sign the order.
 
-## Maya's problem
+## Jessica's problem
 
-Maya is doing three things at once. She is talking. She is listening. And she is typing notes.
+Jessica is doing three things at once. She is talking. She is listening. And she is typing notes.
 
 After the call, her notes are a mess. She forgot when she promised the price quote. She forgot Dana's question about
 who signs the order.
 
 So the follow-up email is late. A few small things slip. And the deal slows down.
 
-## How Lynkk helps Maya on her next sales call
+## How Lynkk helps Jessica on her next sales call
 
-Maya starts using Lynkk, an AI sales assistant. Here is what changes.
+Jessica starts using Lynkk, an AI sales assistant. Here is what changes.
 
-**Before the call, Maya asks Lynkk one question.**
+**Before the call, Jessica asks Lynkk one question.**
 "What is still open with Bluestone?"
-Lynkk replies: "Dana has not said who will sign the order." Now Maya knows what to ask first.
+Lynkk replies: "Dana has not said who will sign the order." Now Jessica knows what to ask first.
 
-**During the call, Maya just talks.**
+**During the call, Jessica just talks.**
 Lynkk records the call from her computer. No extra bot joins the call. When Dana asks, "What did we agree last time?",
-Lynkk shows Maya the answer right away.
+Lynkk shows Jessica the answer right away.
 
 **After the call, the notes are already done.**
-Maya does not type anything. Lynkk writes the next steps, who will do them, and by when.
+Jessica does not type anything. Lynkk writes the next steps, who will do them, and by when.
 
-### Here is the note Lynkk wrote for Maya (example)
+### Here is the note Lynkk wrote for Jessica (example)
 
-**Call with Bluestone Logistics Ltd. · Zoom · 32 min**
+**Call with Bluestone Logistics LLC · Zoom · 32 min**
 
 **Next steps**
-- Send the new price quote to Dana. Who: Maya. When: Friday.
-- Book a security check. Who: Dev. When: Tuesday.
+- Send the new price quote to Dana. Who: Jessica. When: Friday.
+- Book a security check. Who: Mike. When: Tuesday.
 
 **What we agreed:** Start with two teams first.
 
 **Still open:** Who will sign the order at Bluestone?
 
-Maya can click any line to hear that part of the call again.
+Jessica can click any line to hear that part of the call again.
 
 ## So, what is Lynkk?
 
@@ -146,7 +146,7 @@ and a memory of every conversation.
 
 Yes. Always ask the buyer first. Rules are different in each country.
 
-## Be like Maya. Never forget a next step again.
+## Be like Jessica. Never forget a next step again.
 
 Try Lynkk on your next sales call. It's free to start.
 
@@ -156,6 +156,6 @@ Buttons: Start for free · Download for Mac
 
 ## To confirm before publishing
 
-- How Cue shows answers during a call ("Lynkk shows Maya the answer right away")
+- How Cue shows answers during a call ("Lynkk shows Jessica the answer right away")
 - "Not yet" in the CRM answer: only keep "yet" if CRM sync is planned
 - The consent wording in the last FAQ (legal check)

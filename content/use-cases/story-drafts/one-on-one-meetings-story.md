@@ -1,6 +1,6 @@
 # Managers (1:1 Meetings) Page: Simple Story Draft
 
-> Draft for review, 2026-10-17. New page: lynkk.ai/use-cases/one-on-one-meetings. Sam, Leena and Bluebird Apps Ltd.
+> Draft for review, 2026-10-17. New page: lynkk.ai/use-cases/one-on-one-meetings. Sam, Olivia and Bluebird Apps LLC
 > are examples, not real people or companies.
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
@@ -31,14 +31,14 @@ Buttons: Start for free · Download for Mac
 
 *Sam is an example. But you may know someone just like him.*
 
-Sam is a team manager at Bluebird Apps Ltd. He has eight people on his team. Every week he has a 1 on 1 meeting with
+Sam is a team manager at Bluebird Apps LLC He has eight people on his team. Every week he has a 1 on 1 meeting with
 each of them. That's eight conversations about work, problems and goals.
 
 ## Sam's problem
 
-Last month, Sam promised Leena he would book a design review for her. Then he forgot.
+Last month, Sam promised Olivia he would book a design review for her. Then he forgot.
 
-In this week's 1 on 1, Leena asks about it. Sam doesn't remember promising. Leena feels unheard. Sam feels bad. With
+In this week's 1 on 1, Olivia asks about it. Sam doesn't remember promising. Olivia feels unheard. Sam feels bad. With
 eight people, small promises are easy to lose.
 
 ## How Lynkk helps Sam with 1 on 1 meetings
@@ -46,25 +46,25 @@ eight people, small promises are easy to lose.
 Sam asks his team if he can record their 1:1s, so neither side forgets what was agreed. They say yes.
 
 **Before the 1:1, Sam asks Lynkk.**
-"What did Leena and I agree last month?" Lynkk shows the answer, with a link to the moment it was said.
+"What did Olivia and I agree last month?" Lynkk shows the answer, with a link to the moment it was said.
 
 **During the 1:1, Sam just listens.**
-He doesn't type. He pays attention to how Leena feels, not just what she says.
+He doesn't type. He pays attention to how Olivia feels, not just what she says.
 
 **After the 1:1, the note is ready.**
 Lynkk writes the wins, the problems, and the tasks with names and dates.
 
 ### Here is the note Lynkk wrote for Sam (example)
 
-**Weekly 1:1 with Leena · Google Meet · 28 min**
+**Weekly 1:1 with Olivia · Google Meet · 28 min**
 
 **Wins:** Finished the sign-up fix a week early.
 
 **Problems:** Still waiting on design for the settings page.
 
-**Tasks:** Book a design review. Who: Sam. When: Wednesday. · Write the goals for next quarter. Who: Leena. When: Friday.
+**Tasks:** Book a design review. Who: Sam. When: Wednesday. · Write the goals for next quarter. Who: Olivia. When: Friday.
 
-**Still open:** Is Leena ready to lead the next release?
+**Still open:** Is Olivia ready to lead the next release?
 
 New to 1:1s? Read our guide to the [one on one meeting](/blog/one-on-one-meeting).
 

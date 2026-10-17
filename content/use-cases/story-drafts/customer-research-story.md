@@ -1,6 +1,6 @@
 # Customer Research (Marketing) Page: Simple Story Draft
 
-> Draft for review, 2026-10-17. New page: lynkk.ai/use-cases/customer-research. Sara and Brightpath Software Ltd. are
+> Draft for review, 2026-10-17. New page: lynkk.ai/use-cases/customer-research. Sarah and Brightpath Software LLC are
 > examples, not real customers.
 
 ## Keywords in this draft (Ubersuggest, searches a month)
@@ -26,42 +26,42 @@ Lynkk records your customer calls and focus groups. Then you can ask what custom
 
 Buttons: Start for free · Download for Mac
 
-## Meet Sara
+## Meet Sarah
 
-*Sara is an example. But you may know someone just like her.*
+*Sarah is an example. But you may know someone just like her.*
 
-Sara is the marketing manager at Brightpath Software Ltd. She is rewriting the company website. She wants it to sound
+Sarah is the marketing manager at Brightpath Software LLC She is rewriting the company website. She wants it to sound
 like the customers, not like the company.
 
-## Sara's problem
+## Sarah's problem
 
 The sales team talks to customers every day. The product team runs interviews. But all those customer words are spread
 across different notes, or not written down at all.
 
-So Sara guesses. She writes "fast and easy to use" because it sounds good. She doesn't know what customers really say.
+So Sarah guesses. She writes "fast and easy to use" because it sounds good. She doesn't know what customers really say.
 
-## How Lynkk helps Sara find the voice of customer
+## How Lynkk helps Sarah find the voice of customer
 
-Sara's team starts recording customer calls with Lynkk. Here is what changes.
+Sarah's team starts recording customer calls with Lynkk. Here is what changes.
 
 **First, every customer call is recorded.**
 Sales calls, interviews and a focus group in the office. Lynkk writes the notes for each one.
 
-**Then, Sara asks Lynkk one question.**
+**Then, Sarah asks Lynkk one question.**
 "What stops customers from switching to us?"
 
 **Lynkk answers from all the calls, with sources.**
-Sara sees the answer, and exactly which calls it came from. She clicks to hear the customer say it.
+Sarah sees the answer, and exactly which calls it came from. She clicks to hear the customer say it.
 
-### Here is the answer Lynkk gave Sara (example)
+### Here is the answer Lynkk gave Sarah (example)
 
 **Question:** What stops customers from switching to us?
 
 **Answer:** Most customers worry about moving their old data. Three asked about training for new staff.
 
-**Where it came from:** Call with a customer, 14:05 · Focus group, Pune, 22:40 · Customer interview, 09:12
+**Where it came from:** Call with a customer, 14:05 · Focus group, Austin, 22:40 · Customer interview, 09:12
 
-Sara now writes "We move your data for you" on the website, because that's what customers worry about.
+Sarah now writes "We move your data for you" on the website, because that's what customers worry about.
 
 ## So, what is Lynkk?
 
@@ -92,7 +92,7 @@ Lynkk is for you if:
 
 - **Record focus groups in the room.** Use the Mac app or web app. Each speaker is labelled.
 - **Share with your team.** Send a note with a link, and turn the link off later.
-- **Many languages.** English, Hindi, Hinglish and more.
+- **Many languages.** English, Spanish, Hindi and more.
 - **Work with your tools.** Zoom, Google Meet and Microsoft Teams.
 
 ## Your customer calls stay private
@@ -131,7 +131,7 @@ Yes. Always tell the customer and ask before you record.
 
 Yes, there's a free plan. Asking Lynkk across all your calls is part of Pro.
 
-## Be like Sara. Write in your customers' own words.
+## Be like Sarah. Write in your customers' own words.
 
 Try Lynkk on your next customer call. It's free to start.
 

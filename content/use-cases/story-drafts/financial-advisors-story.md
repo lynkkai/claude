@@ -1,7 +1,7 @@
 # Financial Advisors Page: Simple Story Draft
 
-> Draft for review, 2026-10-17. New page: lynkk.ai/use-cases/financial-advisors. Karan, Northstar Wealth Ltd. and the
-> Shah family are examples, not real people or companies.
+> Draft for review, 2026-10-17. New page: lynkk.ai/use-cases/financial-advisors. David, Northstar Wealth LLC and the
+> Miller family are examples, not real people or companies.
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
 
@@ -27,45 +27,45 @@ With your client's permission, Lynkk records the meeting and writes down their g
 
 Buttons: Start for free · Download for Mac
 
-## Meet Karan
+## Meet David
 
-*Karan is an example. But you may know someone just like him.*
+*David is an example. But you may know someone just like him.*
 
-Karan is a financial advisor at Northstar Wealth Ltd. Once a year, he sits down with each family to review their money
+David is a financial advisor at Northstar Wealth LLC Once a year, he sits down with each family to review their money
 and their plans.
 
-## Karan's problem
+## David's problem
 
-Today he meets the Shah family. They talk about retiring early, saving for their daughter's university, and Meera's new
+Today he meets the Miller family. They talk about retiring early, saving for their daughter's college, and Jennifer's new
 job.
 
-There are many numbers and many changes. Karan writes notes while they talk. Next year, before the review, he digs
+There are many numbers and many changes. David writes notes while they talk. Next year, before the review, he digs
 through old notes and can't find what they said about retirement.
 
-## How Lynkk helps Karan with client reviews
+## How Lynkk helps David with client reviews
 
-Karan starts using Lynkk. Here is what changes.
+David starts using Lynkk. Here is what changes.
 
-**Before the meeting, Karan asks the family.**
-"May I record this, so I don't miss any details?" The Shahs agree.
+**Before the meeting, David asks the family.**
+"May I record this, so I don't miss any details?" The Millers agree.
 
-**During the meeting, Karan just listens.**
+**During the meeting, David just listens.**
 He records on Zoom or in his office. He looks at the family, not his notebook.
 
 **After the meeting, the note is ready.**
 Lynkk writes their goals, what changed since last year, and the tasks with names and dates.
 
-### Here is the note Lynkk wrote for Karan (example)
+### Here is the note Lynkk wrote for David (example)
 
-**Annual review, the Shahs · Zoom · 46 min**
+**Annual review, the Millers · Zoom · 46 min**
 
-**Goals:** Retire at 58. Pay for their daughter's university in 2029.
+**Goals:** Retire at 58. Pay for their daughter's college in 2029.
 
-**What changed:** Meera has a new job, with a higher income from April.
+**What changed:** Jennifer has a new job, with a higher income from April.
 
-**Tasks:** Update the risk profile. Who: Karan. When: Monday. · Send the new plan. Who: Karan. When: Friday.
+**Tasks:** Update the risk profile. Who: David. When: Monday. · Send the new plan. Who: David. When: Friday.
 
-Next year, before the review, Karan asks Lynkk, "What did the Shahs say about retirement?" and gets the answer right
+Next year, before the review, David asks Lynkk, "What did the Millers say about retirement?" and gets the answer right
 away.
 
 ## So, what is Lynkk?
@@ -138,7 +138,7 @@ Yes. Always ask first. Rules differ by country and state.
 
 Yes, there's a free plan. Asking Lynkk about past reviews is part of Pro.
 
-## Be like Karan. Start every review where the last one ended.
+## Be like David. Start every review where the last one ended.
 
 Try Lynkk in your next client review. It's free to start.
 
@@ -149,4 +149,3 @@ Buttons: Start for free · Download for Mac
 ## To confirm before publishing
 
 - Compliance review of all wording (no record-keeping or regulatory claims)
-- The sample uses Indian names; use a US sample for a US version if needed

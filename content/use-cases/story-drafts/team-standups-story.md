@@ -1,6 +1,6 @@
 # Team Standups Page: Simple Story Draft
 
-> Draft for review, 2026-10-17. Page: lynkk.ai/use-cases/team-standups. Arjun and Riverstone Apps Ltd. are examples,
+> Draft for review, 2026-10-17. Page: lynkk.ai/use-cases/team-standups. Jake and Riverstone Apps LLC are examples,
 > not real customers.
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
@@ -28,25 +28,25 @@ Lynkk joins your team's standup meeting, listens, and writes down who is doing w
 
 Buttons: Start for free · Download for Mac
 
-## Meet Arjun
+## Meet Jake
 
-*Arjun is an example. But you may know someone just like him.*
+*Jake is an example. But you may know someone just like him.*
 
-Arjun is a project manager at Riverstone Apps Ltd. Every morning at 10, his team has a 15-minute standup meeting. Each
+Jake is a project manager at Riverstone Apps LLC Every morning at 10, his team has a 15-minute standup meeting. Each
 person says what they did yesterday, what they will do today, and what is blocking them.
 
-## Arjun's problem
+## Jake's problem
 
 Nobody writes the standup down. It's short, so it feels like there's no need.
 
-On Monday, Sana says she is blocked, waiting for a design review. By Thursday, everyone has forgotten. Sana is still
+On Monday, Megan says she is blocked, waiting for a design review. By Thursday, everyone has forgotten. Megan is still
 waiting. And Leo, who missed Tuesday's standup, has to message three people to catch up.
 
-## How Lynkk helps Arjun with the daily standup meeting
+## How Lynkk helps Jake with the daily standup meeting
 
-Arjun starts using Lynkk. Here is what changes.
+Jake starts using Lynkk. Here is what changes.
 
-**Before the standup, Arjun does nothing.**
+**Before the standup, Jake does nothing.**
 Lynkk is connected to his calendar. Every morning, the Lynkk meeting bot joins the standup on its own.
 
 **During the standup, the team just talks.**
@@ -55,7 +55,7 @@ Nobody types. Nobody is the "note taker" anymore.
 **After the standup, the note is ready.**
 Lynkk sorts it into yesterday, today and blockers. Every task goes to the Tasks board with a name and a date.
 
-### Here is the note Lynkk wrote for Arjun (example)
+### Here is the note Lynkk wrote for Jake (example)
 
 **Tuesday standup · Google Meet · 12 min · 5 people**
 
@@ -63,7 +63,7 @@ Lynkk sorts it into yesterday, today and blockers. Every task goes to the Tasks 
 
 **Today:** Test the export. Review the new banner.
 
-**Blocked:** Sana is waiting on the design review. Raised at 07:48.
+**Blocked:** Megan is waiting on the design review. Raised at 07:48.
 
 **New task:** Test the export. Who: Leo. When: today.
 
@@ -140,7 +140,7 @@ No. Lynkk for Slack answers questions when someone asks. It doesn't post summari
 Lynkk doesn't replace your project tool. It captures what was said in meetings and turns it into tasks you can send to
 Jira.
 
-## Be like Arjun. Never lose a blocker again.
+## Be like Jake. Never lose a blocker again.
 
 Try Lynkk on tomorrow's standup. It's free to start.
 

@@ -1,7 +1,7 @@
 # Real Estate Agents Page: Simple Story Draft
 
-> Draft for review, 2026-10-17. New page: lynkk.ai/use-cases/real-estate-agents. Ravi, Skyline Homes Ltd. and the
-> Kapoor family are examples, not real people or companies.
+> Draft for review, 2026-10-17. New page: lynkk.ai/use-cases/real-estate-agents. Chris, Skyline Homes Realty LLC and the
+> Johnson family are examples, not real people or companies.
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
 
@@ -26,45 +26,45 @@ Lynkk records your client calls and meetings. It writes down each client's budge
 
 Buttons: Start for free · Download for Mac
 
-## Meet Ravi
+## Meet Chris
 
-*Ravi is an example. But you may know someone just like him.*
+*Chris is an example. But you may know someone just like him.*
 
-Ravi is a real estate agent at Skyline Homes Ltd. This month he is helping ten families find a new home. Each family has
+Chris is a real estate agent at Skyline Homes Realty LLC This month he is helping ten families find a new home. Each family has
 a budget, a wish list and lots of questions.
 
-## Ravi's problem
+## Chris's problem
 
-The Kapoor family told Ravi they need a school nearby. Another family wants a big garden. Another needs two parking
+The Johnson family told Chris they need a school nearby. Another family wants a big garden. Another needs two parking
 spots.
 
-After many calls, Ravi mixes them up. He sends the Kapoors a house with a garden but no school nearby. They are
-disappointed. Ravi looks like he wasn't listening, but he just couldn't remember everything.
+After many calls, Chris mixes them up. He sends the Johnsons a house with a garden but no school nearby. They are
+disappointed. Chris looks like he wasn't listening, but he just couldn't remember everything.
 
-## How Lynkk helps Ravi remember every client
+## How Lynkk helps Chris remember every client
 
-Ravi starts using Lynkk. Here is what changes.
+Chris starts using Lynkk. Here is what changes.
 
-**Before the meeting, Ravi asks the client.**
-"May I record this, so I get every detail right?" The Kapoors agree.
+**Before the meeting, Chris asks the client.**
+"May I record this, so I get every detail right?" The Johnsons agree.
 
-**During the meeting, Ravi just listens.**
+**During the meeting, Chris just listens.**
 He records with the Lynkk Mac app in his office, or on a video call. He doesn't write anything down.
 
 **After the meeting, the note is ready.**
-Lynkk writes the budget, the must-haves, and Ravi's next steps with dates.
+Lynkk writes the budget, the must-haves, and Chris's next steps with dates.
 
-### Here is the note Lynkk wrote for Ravi (example)
+### Here is the note Lynkk wrote for Chris (example)
 
-**Meeting with the Kapoors · In the office · 34 min**
+**Meeting with the Johnsons · In the office · 34 min**
 
-**Budget and area:** Up to 1.2 crore. Close to the metro line.
+**Budget and area:** Up to $650,000. Close to the train station.
 
-**Must-haves:** 3 bedrooms. A school within 2 km. Parking for two cars.
+**Must-haves:** 3 bedrooms. A school within 1 mile. Parking for two cars.
 
-**Next steps:** Send 5 listings. Who: Ravi. When: Thursday. · Book Saturday viewings. Who: Ravi. When: Friday.
+**Next steps:** Send 5 listings. Who: Chris. When: Thursday. · Book Saturday viewings. Who: Chris. When: Friday.
 
-Next week, Ravi asks Lynkk, "What did the Kapoors say about schools?" and gets the answer in seconds.
+Next week, Chris asks Lynkk, "What did the Johnsons say about schools?" and gets the answer in seconds.
 
 ## So, what is Lynkk?
 
@@ -94,7 +94,7 @@ Lynkk is for you if:
 ## What else can Lynkk do?
 
 Lynkk is a simple AI tool for real estate agents. It also helps you:
-- **Talk in any language.** Hindi, Hinglish, English and more.
+- **Talk in any language.** English, Spanish, Hindi and more.
 - **Record video calls.** Zoom, Google Meet and Microsoft Teams.
 - **Record in your office, even without internet.** The Mac app uploads later.
 - **Share a note.** Send it with a link, and turn the link off later.
@@ -135,7 +135,7 @@ Yes. Always ask first. Rules differ by country and state.
 
 Yes, there's a free plan. Asking Lynkk about past clients is part of Pro.
 
-## Be like Ravi. Never forget a client's must-have again.
+## Be like Chris. Never forget a client's must-have again.
 
 Try Lynkk on your next client call. It's free to start.
 
@@ -146,4 +146,3 @@ Buttons: Start for free · Download for Mac
 ## To confirm before publishing
 
 - Whether the web app records in a phone browser (important for viewings)
-- The sample uses rupees (crore); switch to dollars for a US version
