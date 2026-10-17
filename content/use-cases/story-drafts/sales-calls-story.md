@@ -1,18 +1,18 @@
-# Sales Calls Page: Storytelling Draft (v2)
+# Sales Calls Page: Storytelling Draft (v3, simple story)
 
-> Draft for review, 2026-10-17. Page: lynkk.ai/use-cases/sales-calls. The story follows Maya, an example sales rep,
-> and Bluestone Logistics Ltd., an example company. Neither is a real customer.
+> Draft for review, 2026-10-17. Page: lynkk.ai/use-cases/sales-calls. Maya and Bluestone Logistics Ltd. are examples,
+> not real customers. Written in short, simple sentences so anyone can follow the story.
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
 
 | Keyword | Volume | Where it appears |
 |---|---|---|
 | ai for sales | 2,900 | Title, H1, intro |
-| conversation intelligence | 1,900 | Title, "What is Lynkk" section, features heading |
+| conversation intelligence | 1,900 | Title, "So, what is Lynkk?" section |
 | ai sales tools | 1,000 | FAQ |
-| conversation intelligence platform | 880 | Meta description, "What is Lynkk" section |
+| conversation intelligence platform | 880 | Meta description, "So, what is Lynkk?" section |
 | sales call | 880 | H1, story, headings |
-| ai sales assistant | 590 | Story heading, "What is Lynkk" section |
+| ai sales assistant | 590 | Story heading, "So, what is Lynkk?" section |
 | call recording software | 480 | FAQ |
 
 ---
@@ -24,127 +24,131 @@
 | Page title (SEO) | AI for Sales Calls: Conversation Intelligence & Notes \| Lynkk |
 | Meta description (SEO) | Lynkk is the AI sales assistant and conversation intelligence platform that records your sales calls and writes the next steps for you. Start free. |
 
-# AI for sales calls: record every call, get the next steps written for you.
+# AI for sales calls: you talk, Lynkk writes the notes.
 
-Lynkk is AI for sales teams who would rather sell than type. It records your sales call and writes the next steps,
-the decisions and the open questions for you.
+Lynkk is AI for sales. It listens to your sales call and writes down what matters, so you can focus on the buyer.
 
 Buttons: Start for free · Download for Mac
 
-## A sales call story you might know
+## Meet Maya
 
-*Meet Maya, a sales rep. She's an example, but you may know someone just like her.*
+*Maya is an example. But you may know someone just like her.*
 
-Maya has a sales call with Dana from Bluestone Logistics Ltd. Dana asks about the price, wants to try the product with
-two teams first, and isn't sure who on her side will sign the order.
+Maya sells software. She has many sales calls every day.
 
-Maya is selling, listening and typing notes all at once. After the call, her notes are half done. She can't remember
-when she promised the new quote, and Dana's question about who signs the order is gone.
+Today she is talking to Dana from Bluestone Logistics Ltd. Dana is interested. She asks about the price. She wants to
+try it with two teams first. And she is not sure who will sign the order.
 
-The follow-up email goes out late. Small things slip, and the deal slows down.
+## Maya's problem
 
-## How an AI sales assistant helps Maya
+Maya is doing three things at once. She is talking. She is listening. And she is typing notes.
 
-On her next call with Bluestone Logistics, Maya uses Lynkk.
+After the call, her notes are a mess. She forgot when she promised the price quote. She forgot Dana's question about
+who signs the order.
 
-**Before the call:** Maya asks Lynkk, *"What's still open with Bluestone?"* Lynkk reminds her that Dana still hasn't
-said who signs the order. Maya starts the call with that question.
+So the follow-up email is late. A few small things slip. And the deal slows down.
 
-**During the call:** Lynkk records the call from her Mac, so no bot joins. Maya just listens and talks. When Dana asks
-what they agreed last time, Lynkk's Cue gives Maya the answer during the call.
+## How Lynkk helps Maya on her next sales call
 
-**After the call:** the note is ready before Maya opens her inbox. Every next step has an owner and a date. She writes
-the follow-up from the note and sends the tasks to Jira.
+Maya starts using Lynkk, an AI sales assistant. Here is what changes.
 
-*Asking Lynkk across calls and Cue during calls are part of Pro.*
+**Before the call, Maya asks Lynkk one question.**
+"What is still open with Bluestone?"
+Lynkk replies: "Dana has not said who will sign the order." Now Maya knows what to ask first.
 
-### Maya's note from the call (example)
+**During the call, Maya just talks.**
+Lynkk records the call from her computer. No extra bot joins the call. When Dana asks, "What did we agree last time?",
+Lynkk shows Maya the answer right away.
 
-**Bluestone Logistics Ltd. pricing call · Zoom · 32 min**
+**After the call, the notes are already done.**
+Maya does not type anything. Lynkk writes the next steps, who will do them, and by when.
+
+### Here is the note Lynkk wrote for Maya (example)
+
+**Call with Bluestone Logistics Ltd. · Zoom · 32 min**
 
 **Next steps**
-- Send the new quote to Dana. Owner: Maya. Due: Fri 2 Oct.
-- Book the security review. Owner: Dev. Due: Tue 6 Oct.
+- Send the new price quote to Dana. Who: Maya. When: Friday.
+- Book a security check. Who: Dev. When: Tuesday.
 
-**Decision:** Start with a pilot for two teams. Agreed at 14:22.
+**What we agreed:** Start with two teams first.
 
-**Open question:** Who signs the order on Bluestone's side? Raised at 21:37.
+**Still open:** Who will sign the order at Bluestone?
 
-Click any time in the note and the recording plays from that moment.
+Maya can click any line to hear that part of the call again.
 
-## What is Lynkk, in simple words?
+## So, what is Lynkk?
 
-Lynkk is an AI sales assistant and conversation intelligence platform. It listens to your sales call, writes down what
-matters, and remembers it for next time. You get the next steps, who owns them, the decisions and the open questions.
-Later, you can ask Lynkk about any client, and each answer shows which call it came from.
+Lynkk is an AI note taker for sales calls. Some people call this kind of tool a conversation intelligence platform. It
+simply means software that listens to your calls and helps you remember them.
 
-**Who it's for**
-- Sales reps who run many calls a day
-- Founders who do their own selling
-- Account managers who need to remember every client
+With Lynkk, you get three things:
+- **Notes:** what was said, what was agreed, and what is still open.
+- **Next steps:** each task with a name and a date.
+- **Memory:** ask Lynkk about any past call, and it shows you where the answer came from.
+
+## Is Lynkk right for you?
+
+Lynkk is for you if:
+- You are a sales rep with many calls a day.
+- You are a founder who sells your own product.
+- You look after clients and need to remember every promise.
 
 ## Sales calls, before and after Lynkk
 
 | Without Lynkk | With Lynkk |
 |---|---|
-| You type notes while the buyer talks | You listen, and Lynkk writes the notes |
-| Next steps get lost after the call | Every next step has an owner and a date |
-| You dig through old emails before each call | You ask Lynkk what's still open |
+| You type while the buyer talks | You listen. Lynkk writes. |
+| Tasks get lost after the call | Every task has a name and a date |
+| You search old emails before a call | You ask Lynkk what is still open |
 
-## Conversation intelligence for every sales call
+## What else can Lynkk do?
 
-**Next steps with owners:** every task gets an owner, a due date and a priority.
+- **Record face-to-face meetings too.** Meeting a buyer in person? Lynkk can record that too, even without internet.
+- **Work without a bot.** Record from your computer, so no extra guest joins the call.
+- **Send tasks to Jira.** Turn next steps into Jira tasks.
+- **Work with your tools.** Zoom, Google Meet, Microsoft Teams, Webex and Google Calendar.
 
-**Ask across calls:** "What did Bluestone say about price?" Each answer shows which call it came from.
+## Your calls stay private
 
-**Record in person, even offline:** meeting a buyer face to face? Record with the Mac app or web app. It uploads when
-you're back online.
-
-**No bot needed:** the Mac app and Chrome extension record from your computer. Prefer a bot? It joins from your
-calendar.
-
-**Works with:** Zoom, Google Meet, Microsoft Teams, Webex, Google Calendar and Jira.
-
-## Private by default
-
-Your data region (US, EU, UK, India, Singapore or Australia) · AES-256 encryption · Never used for training · Consent
-flow for recording. [Security](/security)
+Your notes are private unless you share them. Your data is encrypted and stays in the region you choose. Lynkk never
+uses your calls to train AI. [Read about security](/security)
 
 ## Simple pricing
 
 | Free | Pro |
 |---|---|
 | $0 | $15 a month |
-| Record meetings and get AI notes and action items. No credit card. | Unlimited notes, plus the Sales Call note format, Cue answers during the call, and Ask Lynkk across every call. |
+| Record calls and get AI notes and next steps. No credit card. | Everything in Free, plus unlimited notes, answers during calls, and asking Lynkk about past calls. |
 
 [Compare plans](/pricing)
 
-## Questions about AI for sales calls
+## Questions people ask
 
 **Is Lynkk call recording software?**
 
-Yes, and more. Lynkk records your sales calls, then writes the notes, next steps and open questions for you.
+Yes, and more. Lynkk records your sales calls and also writes the notes for you.
 
-**Can Lynkk record without a bot joining?**
+**Does a bot join my call?**
 
-Yes. The Mac app and Chrome extension record from your computer. The bot is optional.
+No, not unless you want one. Lynkk can record from your computer.
 
-**Does Lynkk sync with my CRM?**
+**Does Lynkk work with my CRM?**
 
-No. You can send tasks to Jira and share notes with a link.
+Not yet. Today you can send tasks to Jira and share notes with a link.
 
 **How is Lynkk different from other AI sales tools?**
 
-Lynkk focuses on the conversation: notes, next steps and answers across calls, online or in person. Revenue platforms
-add CRM sync and forecasting.
+Many AI sales tools focus on reports and forecasts. Lynkk focuses on the call itself: clear notes, clear next steps,
+and a memory of every conversation.
 
-**Do I need to tell the buyer I'm recording?**
+**Do I need to tell the buyer I am recording?**
 
-Yes. Recording rules differ by country and state, so tell the buyer at the start and record only with their agreement.
+Yes. Always ask the buyer first. Rules are different in each country.
 
-## Be the rep who never forgets a next step.
+## Be like Maya. Never forget a next step again.
 
-Record your next sales call with Lynkk, and read the next steps after.
+Try Lynkk on your next sales call. It's free to start.
 
 Buttons: Start for free · Download for Mac
 
@@ -152,5 +156,6 @@ Buttons: Start for free · Download for Mac
 
 ## To confirm before publishing
 
-- How Cue shows answers during a call, so the "During the call" part of the story is accurate
+- How Cue shows answers during a call ("Lynkk shows Maya the answer right away")
+- "Not yet" in the CRM answer: only keep "yet" if CRM sync is planned
 - The consent wording in the last FAQ (legal check)
