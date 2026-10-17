@@ -4,6 +4,20 @@
 > results for lynkk.ai (the site itself was not directly reachable from this environment).
 > Items under "To confirm" must be filled in by the team before submitting.
 
+## Verified on lynkk.ai (2026-10-17): use these over older notes below
+
+The site was reachable on 2026-10-17. Where this section disagrees with anything below, this section wins.
+
+- **Plans:** Free $0 forever (up to 5 notes a month, 2 hours per note, 5 hours of AI summaries, basic search, Mac app + web, no card). Pro $15/month billed monthly (no note cap, 2 hours per note, unlimited AI summaries, Ask Lynkk, decision log and action tracker, multilingual transcription, meeting bot with video, weekly digest; homepage also lists Meeting Brief with seekable timestamps, Cue answering during the call, tasks extracted with owners and dates, Jira and Microsoft actions). Enterprise custom (shared notes, admin controls, audit log, central billing, priority support). Yearly billing saves 35% during early-bird pricing. Payments via Paddle.
+- **Meeting platforms:** bot joins Zoom, Google Meet and Microsoft Teams; works with Slack and Webex; paste a link to send the bot to one call. Chrome extension and Mac app record without a bot.
+- **Languages:** 17 languages plus auto-detect, Hindi included. Hinglish setting for mid-sentence Hindi/English switching. Tamil, Telugu, Marathi, Bengali in beta.
+- **Apps:** web app and Mac app on one account (no Windows, iOS or Android app listed).
+- **Integrations live:** Google Calendar, Microsoft Teams & Outlook, Jira, Calendly, Cal.com, Slack (Ask Lynkk), custom MCP. **Coming soon:** Notion, Linear, Asana, HubSpot. **No CRM is live yet**, so do not claim CRM field sync.
+- **Data regions:** per-workspace model pinning in US, EU, UK, India, Singapore, Australia (set up with the team).
+- **Security:** AES-256 in transit and at rest; designed to comply with GDPR, UK GDPR and India's DPDP Act. No SOC 2 / ISO certification named, so never claim one.
+- **Not on the current site:** "speaks when needed" voice assistant, "offline-first", "within 30 seconds", "knowledge graph". Prefer "Cue answers during the call" and "Ask Lynkk searches your meetings and cites the source".
+- **Blog:** posts live at `https://lynkk.ai/blog/{slug}`. House style: "Quick answer" blockquote, disclosure that Lynkk publishes the guide, byline Samarth Wagh (Co-founder, Lynkk.ai), "Pricing checked <date>" line, Lynkk listed first and tagged "(our product)", CTAs "Start for free" / "Try Lynkk free", six-question FAQ.
+
 ## Identity
 
 | Field | Value |
