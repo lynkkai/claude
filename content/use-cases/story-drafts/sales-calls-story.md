@@ -85,7 +85,7 @@ simply means software that listens to your calls and helps you remember them.
 With Lynkk, you get three things:
 - **Notes:** what was said, what was agreed, and what is still open.
 - **Next steps:** each task with a name and a date.
-- **Memory:** ask Lynkk about any past call, and it shows you where the answer came from.
+- **Memory:** ask Lynkk about any past call, and it shows you where the answer came from (Pro).
 
 ## Is Lynkk right for you?
 
