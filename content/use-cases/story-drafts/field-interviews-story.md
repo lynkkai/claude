@@ -32,9 +32,7 @@ Buttons: Start for free · Download for Mac
 
 ## Meet Emily
 
-*Emily is an example. But you may know someone just like her.*
-
-Emily works at Green Fields Research LLC This month she is doing field research near Nashik, India. She visits farms and talks
+Emily works at Green Fields Research LLC. This month she is doing field research near Nashik, India. She visits farms and talks
 to farmers about water and crops.
 
 ## Emily's problem

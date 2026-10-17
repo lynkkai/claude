@@ -30,9 +30,7 @@ Buttons: Start for free · Download for Mac
 
 ## Meet Jake
 
-*Jake is an example. But you may know someone just like him.*
-
-Jake is a project manager at Riverstone Apps LLC Every morning at 10, his team has a 15-minute standup meeting. Each
+Jake is a project manager at Riverstone Apps LLC. Every morning at 10, his team has a 15-minute standup meeting. Each
 person says what they did yesterday, what they will do today, and what is blocking them.
 
 ## Jake's problem

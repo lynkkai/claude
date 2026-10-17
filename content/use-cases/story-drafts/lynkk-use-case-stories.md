@@ -46,11 +46,9 @@ Buttons: Start for free · Download for Mac
 
 #### Meet Jessica
 
-*Jessica is an example. But you may know someone just like her.*
-
 Jessica sells software. She has many sales calls every day.
 
-Today she is talking to Dana from Bluestone Logistics LLC Dana is interested. She asks about the price. She wants to
+Today she is talking to Dana from Bluestone Logistics LLC. Dana is interested. She asks about the price. She wants to
 try it with two teams first. And she is not sure who will sign the order.
 
 #### Jessica's problem
@@ -198,9 +196,7 @@ Buttons: Start for free · Download for Mac
 
 #### Meet Rachel
 
-*Rachel is an example. But you may know someone just like her.*
-
-Rachel designs apps at Greenway Foods LLC This week she has eight customer interviews. She wants to know why new users
+Rachel designs apps at Greenway Foods LLC. This week she has eight customer interviews. She wants to know why new users
 stop using the app.
 
 #### Rachel's problem
@@ -343,9 +339,7 @@ Buttons: Start for free · Download for Mac
 
 #### Meet Jake
 
-*Jake is an example. But you may know someone just like him.*
-
-Jake is a project manager at Riverstone Apps LLC Every morning at 10, his team has a 15-minute standup meeting. Each
+Jake is a project manager at Riverstone Apps LLC. Every morning at 10, his team has a 15-minute standup meeting. Each
 person says what they did yesterday, what they will do today, and what is blocking them.
 
 #### Jake's problem
@@ -492,9 +486,7 @@ Buttons: Start for free · Download for Mac
 
 #### Meet Emily
 
-*Emily is an example. But you may know someone just like her.*
-
-Emily works at Green Fields Research LLC This month she is doing field research near Nashik, India. She visits farms and talks
+Emily works at Green Fields Research LLC. This month she is doing field research near Nashik, India. She visits farms and talks
 to farmers about water and crops.
 
 #### Emily's problem
@@ -634,8 +626,6 @@ Record lectures with Lynkk. You get the main points, the topics and every word, 
 Buttons: Start for free · Download for Mac
 
 #### Meet Ethan
-
-*Ethan is an example. But you may know someone just like him.*
 
 Ethan is in his second year of college. He has a 90-minute economics class every Monday. The teacher talks fast and
 explains a lot with examples.
@@ -778,9 +768,7 @@ Buttons: Start for free · Download for Mac
 
 #### Meet Sarah
 
-*Sarah is an example. But you may know someone just like her.*
-
-Sarah is the marketing manager at Brightpath Software LLC She is rewriting the company website. She wants it to sound
+Sarah is the marketing manager at Brightpath Software LLC. She is rewriting the company website. She wants it to sound
 like the customers, not like the company.
 
 #### Sarah's problem
@@ -915,8 +903,6 @@ With your client's permission, Lynkk records the meeting and writes the key fact
 Buttons: Start for free · Download for Mac
 
 #### Meet Laura
-
-*Laura is an example. But you may know someone just like her.*
 
 Laura is a lawyer at Clearwater Legal LLP. Today a new client comes to her office. The client's landlord wants them to
 leave, and the client is worried.
@@ -1058,9 +1044,7 @@ Buttons: Start for free · Download for Mac
 
 #### Meet Sam
 
-*Sam is an example. But you may know someone just like him.*
-
-Sam is a team manager at Bluebird Apps LLC He has eight people on his team. Every week he has a 1 on 1 meeting with
+Sam is a team manager at Bluebird Apps LLC. He has eight people on his team. Every week he has a 1 on 1 meeting with
 each of them. That's eight conversations about work, problems and goals.
 
 #### Sam's problem
@@ -1200,9 +1184,7 @@ Buttons: Start for free · Download for Mac
 
 #### Meet Chris
 
-*Chris is an example. But you may know someone just like him.*
-
-Chris is a real estate agent at Skyline Homes Realty LLC This month he is helping ten families find a new home. Each family has
+Chris is a real estate agent at Skyline Homes Realty LLC. This month he is helping ten families find a new home. Each family has
 a budget, a wish list and lots of questions.
 
 #### Chris's problem
@@ -1343,9 +1325,7 @@ Buttons: Start for free · Download for Mac
 
 #### Meet David
 
-*David is an example. But you may know someone just like him.*
-
-David is a financial advisor at Northstar Wealth LLC Once a year, he sits down with each family to review their money
+David is a financial advisor at Northstar Wealth LLC. Once a year, he sits down with each family to review their money
 and their plans.
 
 #### David's problem

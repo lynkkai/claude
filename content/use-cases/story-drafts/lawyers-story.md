@@ -28,8 +28,6 @@ Buttons: Start for free · Download for Mac
 
 ## Meet Laura
 
-*Laura is an example. But you may know someone just like her.*
-
 Laura is a lawyer at Clearwater Legal LLP. Today a new client comes to her office. The client's landlord wants them to
 leave, and the client is worried.
 

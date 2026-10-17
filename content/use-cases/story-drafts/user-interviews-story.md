@@ -31,9 +31,7 @@ Buttons: Start for free · Download for Mac
 
 ## Meet Rachel
 
-*Rachel is an example. But you may know someone just like her.*
-
-Rachel designs apps at Greenway Foods LLC This week she has eight customer interviews. She wants to know why new users
+Rachel designs apps at Greenway Foods LLC. This week she has eight customer interviews. She wants to know why new users
 stop using the app.
 
 ## Rachel's problem

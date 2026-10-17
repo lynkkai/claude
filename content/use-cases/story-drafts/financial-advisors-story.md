@@ -29,9 +29,7 @@ Buttons: Start for free · Download for Mac
 
 ## Meet David
 
-*David is an example. But you may know someone just like him.*
-
-David is a financial advisor at Northstar Wealth LLC Once a year, he sits down with each family to review their money
+David is a financial advisor at Northstar Wealth LLC. Once a year, he sits down with each family to review their money
 and their plans.
 
 ## David's problem

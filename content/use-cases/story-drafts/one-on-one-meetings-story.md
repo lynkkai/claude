@@ -29,9 +29,7 @@ Buttons: Start for free · Download for Mac
 
 ## Meet Sam
 
-*Sam is an example. But you may know someone just like him.*
-
-Sam is a team manager at Bluebird Apps LLC He has eight people on his team. Every week he has a 1 on 1 meeting with
+Sam is a team manager at Bluebird Apps LLC. He has eight people on his team. Every week he has a 1 on 1 meeting with
 each of them. That's eight conversations about work, problems and goals.
 
 ## Sam's problem

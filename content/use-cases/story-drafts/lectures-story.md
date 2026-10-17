@@ -29,8 +29,6 @@ Buttons: Start for free · Download for Mac
 
 ## Meet Ethan
 
-*Ethan is an example. But you may know someone just like him.*
-
 Ethan is in his second year of college. He has a 90-minute economics class every Monday. The teacher talks fast and
 explains a lot with examples.
 

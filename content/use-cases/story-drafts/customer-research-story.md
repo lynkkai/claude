@@ -28,9 +28,7 @@ Buttons: Start for free · Download for Mac
 
 ## Meet Sarah
 
-*Sarah is an example. But you may know someone just like her.*
-
-Sarah is the marketing manager at Brightpath Software LLC She is rewriting the company website. She wants it to sound
+Sarah is the marketing manager at Brightpath Software LLC. She is rewriting the company website. She wants it to sound
 like the customers, not like the company.
 
 ## Sarah's problem

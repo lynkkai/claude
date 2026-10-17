@@ -32,11 +32,9 @@ Buttons: Start for free · Download for Mac
 
 ## Meet Jessica
 
-*Jessica is an example. But you may know someone just like her.*
-
 Jessica sells software. She has many sales calls every day.
 
-Today she is talking to Dana from Bluestone Logistics LLC Dana is interested. She asks about the price. She wants to
+Today she is talking to Dana from Bluestone Logistics LLC. Dana is interested. She asks about the price. She wants to
 try it with two teams first. And she is not sure who will sign the order.
 
 ## Jessica's problem

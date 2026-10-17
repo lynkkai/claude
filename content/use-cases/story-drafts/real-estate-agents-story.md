@@ -28,9 +28,7 @@ Buttons: Start for free · Download for Mac
 
 ## Meet Chris
 
-*Chris is an example. But you may know someone just like him.*
-
-Chris is a real estate agent at Skyline Homes Realty LLC This month he is helping ten families find a new home. Each family has
+Chris is a real estate agent at Skyline Homes Realty LLC. This month he is helping ten families find a new home. Each family has
 a budget, a wish list and lots of questions.
 
 ## Chris's problem
