@@ -8,7 +8,7 @@
 | Keyword | Volume | Uses on page | Where it appears |
 |---|---|---|---|
 | ai for real estate agents | 590 | 2 | Title, H1, "So, what is Lynkk?" section |
-| ai tools for real estate agents | 320 | 1 | "What else can Lynkk do?" section |
+| ai tools for real estate agents | 320 | 2 | "How Lynkk helps Chris remember every client" section, "What else can Lynkk do?" section |
 | real estate ai tools | 320 | 1 | Meta, "Questions people ask" section |
 
 ---
@@ -41,7 +41,7 @@ disappointed. Chris looks like he wasn't listening, but he just couldn't remembe
 
 ## How Lynkk helps Chris remember every client
 
-Chris starts using Lynkk. Here is what changes.
+A friend tells Chris about AI tools for real estate agents. He starts using Lynkk. Here is what changes.
 
 **Before the meeting, Chris asks the client.**
 "May I record this, so I get every detail right?" The Johnsons agree.

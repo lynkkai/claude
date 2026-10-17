@@ -606,7 +606,7 @@ URL: lynkk.ai/use-cases/lectures
 
 | Keyword | Volume | Uses on page | Where it appears |
 |---|---|---|---|
-| lecture recorder | 1,600 US | 1 | Title, H1 |
+| lecture recorder | 1,600 US | 2 | Title, H1, "How Lynkk helps Ethan record lectures" section |
 | record lectures | 1,300 US | 3 | Meta, Intro, "How Lynkk helps Ethan record lectures" heading, "Simple pricing" section |
 | note taking app for students | 1,000 US | 1 | "So, what is Lynkk?" section |
 | lecture notes | 590 US, 880 India | 1 | Title, Meta, H1 |
@@ -639,7 +639,7 @@ notes and they don't make sense. The one example he needs is somewhere in a 90-m
 
 #### How Lynkk helps Ethan record lectures
 
-Ethan asks his teacher if he can record, and the teacher says yes. Then he starts using Lynkk.
+Ethan asks his teacher if he can record, and the teacher says yes. Then he starts using Lynkk as his lecture recorder.
 
 **In class, Ethan presses record.**
 He uses the Lynkk Mac app on his laptop. If the campus Wi-Fi is weak, that's fine. It uploads later.
@@ -749,7 +749,7 @@ URL: lynkk.ai/use-cases/customer-research
 
 | Keyword | Volume | Uses on page | Where it appears |
 |---|---|---|---|
-| ai for marketing | 3,600 US, 2,900 India | 2 | Title, Meta, H1, "So, what is Lynkk?" section |
+| ai for marketing | 3,600 US, 2,900 India | 3 | Title, Meta, H1, "Meet Sarah" section, "So, what is Lynkk?" section |
 | voice of customer | 880 US | 3 | Title, H1, "How Lynkk helps Sarah find the voice of customer" heading, "So, what is Lynkk?" section |
 | focus group transcription | 110 US | 1 | "Questions people ask" section |
 
@@ -769,7 +769,8 @@ Buttons: Start for free · Download for Mac
 #### Meet Sarah
 
 Sarah is the marketing manager at Brightpath Software LLC. She is rewriting the company website. She wants it to sound
-like the customers, not like the company.
+like the customers, not like the company. She wants to use AI for marketing, but only if it helps her hear real
+customers.
 
 #### Sarah's problem
 
@@ -885,7 +886,7 @@ URL: lynkk.ai/use-cases/lawyers
 
 | Keyword | Volume | Uses on page | Where it appears |
 |---|---|---|---|
-| ai for lawyers | 2,400 US, 720 India | 1 | Title, H1 |
+| ai for lawyers | 2,400 US, 720 India | 2 | Title, H1, "How Lynkk helps Laura in client meetings" section |
 | ai for law firms | 1,600 US | 1 | Meta, "So, what is Lynkk?" section |
 | legal transcription | 480 US | 2 | "Questions people ask" section |
 
@@ -916,7 +917,7 @@ what she wrote. Was the notice sent on the 2nd or the 12th?
 
 #### How Lynkk helps Laura in client meetings
 
-Laura starts using Lynkk. Here is what changes.
+Laura starts using Lynkk, a simple AI for lawyers. Here is what changes.
 
 **Before the meeting, Laura asks the client.**
 "May I record this, so I don't miss anything?" The client agrees. Laura records with the Lynkk Mac app on her desk.
@@ -1166,7 +1167,7 @@ URL: lynkk.ai/use-cases/real-estate-agents
 | Keyword | Volume | Uses on page | Where it appears |
 |---|---|---|---|
 | ai for real estate agents | 590 | 2 | Title, H1, "So, what is Lynkk?" section |
-| ai tools for real estate agents | 320 | 1 | "What else can Lynkk do?" section |
+| ai tools for real estate agents | 320 | 2 | "How Lynkk helps Chris remember every client" section, "What else can Lynkk do?" section |
 | real estate ai tools | 320 | 1 | Meta, "Questions people ask" section |
 
 **Page copy**
@@ -1197,7 +1198,7 @@ disappointed. Chris looks like he wasn't listening, but he just couldn't remembe
 
 #### How Lynkk helps Chris remember every client
 
-Chris starts using Lynkk. Here is what changes.
+A friend tells Chris about AI tools for real estate agents. He starts using Lynkk. Here is what changes.
 
 **Before the meeting, Chris asks the client.**
 "May I record this, so I get every detail right?" The Johnsons agree.
@@ -1305,7 +1306,7 @@ URL: lynkk.ai/use-cases/financial-advisors
 
 | Keyword | Volume | Uses on page | Where it appears |
 |---|---|---|---|
-| ai for financial advisors | 210 | 2 | Title, H1, "Questions people ask" section |
+| ai for financial advisors | 210 | 3 | Title, H1, "How Lynkk helps David with client reviews" section, "Questions people ask" section |
 | ai tools for financial advisors | 90 | 1 | "What else can Lynkk do?" section |
 | best ai for financial advisors | 40 | 1 | "Questions people ask" section |
 | ai note taker for financial advisors | 30 | 1 | Meta, "So, what is Lynkk?" section |
@@ -1338,7 +1339,7 @@ through old notes and can't find what they said about retirement.
 
 #### How Lynkk helps David with client reviews
 
-David starts using Lynkk. Here is what changes.
+David starts using Lynkk, AI for financial advisors that writes the notes for him. Here is what changes.
 
 **Before the meeting, David asks the family.**
 "May I record this, so I don't miss any details?" The Millers agree.

@@ -6,7 +6,7 @@
 
 | Keyword | Volume | Uses on page | Where it appears |
 |---|---|---|---|
-| lecture recorder | 1,600 US | 1 | Title, H1 |
+| lecture recorder | 1,600 US | 2 | Title, H1, "How Lynkk helps Ethan record lectures" section |
 | record lectures | 1,300 US | 3 | Meta, Intro, "How Lynkk helps Ethan record lectures" heading, "Simple pricing" section |
 | note taking app for students | 1,000 US | 1 | "So, what is Lynkk?" section |
 | lecture notes | 590 US, 880 India | 1 | Title, Meta, H1 |
@@ -41,7 +41,7 @@ notes and they don't make sense. The one example he needs is somewhere in a 90-m
 
 ## How Lynkk helps Ethan record lectures
 
-Ethan asks his teacher if he can record, and the teacher says yes. Then he starts using Lynkk.
+Ethan asks his teacher if he can record, and the teacher says yes. Then he starts using Lynkk as his lecture recorder.
 
 **In class, Ethan presses record.**
 He uses the Lynkk Mac app on his laptop. If the campus Wi-Fi is weak, that's fine. It uploads later.

@@ -7,7 +7,7 @@
 
 | Keyword | Volume | Uses on page | Where it appears |
 |---|---|---|---|
-| ai for lawyers | 2,400 US, 720 India | 1 | Title, H1 |
+| ai for lawyers | 2,400 US, 720 India | 2 | Title, H1, "How Lynkk helps Laura in client meetings" section |
 | ai for law firms | 1,600 US | 1 | Meta, "So, what is Lynkk?" section |
 | legal transcription | 480 US | 2 | "Questions people ask" section |
 
@@ -40,7 +40,7 @@ what she wrote. Was the notice sent on the 2nd or the 12th?
 
 ## How Lynkk helps Laura in client meetings
 
-Laura starts using Lynkk. Here is what changes.
+Laura starts using Lynkk, a simple AI for lawyers. Here is what changes.
 
 **Before the meeting, Laura asks the client.**
 "May I record this, so I don't miss anything?" The client agrees. Laura records with the Lynkk Mac app on her desk.

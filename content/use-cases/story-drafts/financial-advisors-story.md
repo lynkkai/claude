@@ -7,7 +7,7 @@
 
 | Keyword | Volume | Uses on page | Where it appears |
 |---|---|---|---|
-| ai for financial advisors | 210 | 2 | Title, H1, "Questions people ask" section |
+| ai for financial advisors | 210 | 3 | Title, H1, "How Lynkk helps David with client reviews" section, "Questions people ask" section |
 | ai tools for financial advisors | 90 | 1 | "What else can Lynkk do?" section |
 | best ai for financial advisors | 40 | 1 | "Questions people ask" section |
 | ai note taker for financial advisors | 30 | 1 | Meta, "So, what is Lynkk?" section |
@@ -42,7 +42,7 @@ through old notes and can't find what they said about retirement.
 
 ## How Lynkk helps David with client reviews
 
-David starts using Lynkk. Here is what changes.
+David starts using Lynkk, AI for financial advisors that writes the notes for him. Here is what changes.
 
 **Before the meeting, David asks the family.**
 "May I record this, so I don't miss any details?" The Millers agree.

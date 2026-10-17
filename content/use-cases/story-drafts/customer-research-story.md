@@ -7,7 +7,7 @@
 
 | Keyword | Volume | Uses on page | Where it appears |
 |---|---|---|---|
-| ai for marketing | 3,600 US, 2,900 India | 2 | Title, Meta, H1, "So, what is Lynkk?" section |
+| ai for marketing | 3,600 US, 2,900 India | 3 | Title, Meta, H1, "Meet Sarah" section, "So, what is Lynkk?" section |
 | voice of customer | 880 US | 3 | Title, H1, "How Lynkk helps Sarah find the voice of customer" heading, "So, what is Lynkk?" section |
 | focus group transcription | 110 US | 1 | "Questions people ask" section |
 
@@ -29,7 +29,8 @@ Buttons: Start for free · Download for Mac
 ## Meet Sarah
 
 Sarah is the marketing manager at Brightpath Software LLC. She is rewriting the company website. She wants it to sound
-like the customers, not like the company.
+like the customers, not like the company. She wants to use AI for marketing, but only if it helps her hear real
+customers.
 
 ## Sarah's problem
 

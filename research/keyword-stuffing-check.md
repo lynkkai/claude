@@ -6,6 +6,8 @@
 
 **No keyword stuffing found.** Every keyword reads as a normal part of a sentence, no paragraph repeats the same keyword, and no keyword goes above about 2.2% of the page's words.
 
+Every page tells one simple story, and every story now carries at least one target keyword in a natural sentence. The keywords sit inside the story, not on top of it.
+
 Google's spam policy describes keyword stuffing as repeating words or phrases so often that it sounds unnatural, or listing them out of context. None of the pages do this.
 
 ## How we checked
@@ -13,10 +15,27 @@ Google's spam policy describes keyword stuffing as repeating words or phrases so
 - Counted every target keyword in the page copy (exact phrase, plural included, not case sensitive). The title and meta description are not counted in the totals.
 - Worked out keyword density: uses x words in the keyword / words on the page.
 - Checked each paragraph for the same keyword used twice.
-- Checked where each keyword appears: title, meta description, H1, intro, headings, sections.
-- Read each page as a reader would: does every keyword sound like a person wrote it?
+- Checked where each keyword appears: title, meta description, H1, intro, the story, headings and other sections.
+- Read each story as a reader would: does every keyword sound like a person wrote it?
 
 **Safe range we used:** about 0.5% to 2.5% for the main keyword, and 1 to 3 uses for each smaller keyword.
+
+## The storylines
+
+Each page follows the same simple story: meet the person, see their problem, see how Lynkk helps before, during and after the meeting, then read the note Lynkk wrote for them. The rest of the page (what Lynkk is, who it's for, pricing and questions) follows the story.
+
+| Page | The story | Story words | Keywords used inside the story |
+|---|---|---|---|
+| Sales Calls | Jessica, a sales rep, on a call with Dana from Bluestone Logistics LLC | 292 | sales call (2), ai sales assistant (1) |
+| User Interviews | Rachel, a researcher, interviewing customers for Greenway Foods LLC | 247 | customer interview (2), transcribe interview (1) |
+| Team Standups | Jake, a project manager at Riverstone Apps LLC, and his team's daily standup | 253 | standup meeting (3), daily standup meeting (2) |
+| Field Interviews | Emily from Green Fields Research LLC, interviewing farmers near Nashik in Hinglish | 240 | field research (1), field interview (1) |
+| Lectures | Ethan, a college student, recording his economics class | 254 | lecture recorder (1), record lectures (1) |
+| Customer Research (Marketing) | Sarah, a marketing manager at Brightpath Software LLC, with a focus group in Austin | 250 | ai for marketing (1), voice of customer (1) |
+| Lawyers | Laura, a lawyer at Clearwater Legal LLP, meeting a new client | 251 | ai for lawyers (1) |
+| Managers (1:1 Meetings) | Sam, a manager at Bluebird Apps LLC, in his weekly 1 on 1 with Olivia | 270 | one on one meeting (1), 1 on 1 meeting (2) |
+| Real Estate Agents | Chris from Skyline Homes Realty LLC, helping the Johnsons find a home | 263 | ai tools for real estate agents (1) |
+| Financial Advisors | David from Northstar Wealth LLC, in a yearly review with the Millers | 248 | ai for financial advisors (1) |
 
 ## Summary by page
 
@@ -26,26 +45,36 @@ Google's spam policy describes keyword stuffing as repeating words or phrases so
 | User Interviews | 735 | customer interview | 3 | 0.82% | OK |
 | Team Standups | 737 | standup meeting | 5 | 1.36% | OK |
 | Field Interviews | 718 | field interview | 3 | 0.84% | OK |
-| Lectures | 705 | record lectures | 3 | 0.85% | OK |
-| Customer Research (Marketing) | 700 | voice of customer | 3 | 1.29% | OK |
-| Lawyers | 709 | ai for law firms | 1 | 0.56% | OK |
+| Lectures | 709 | record lectures | 3 | 0.85% | OK |
+| Customer Research (Marketing) | 716 | ai for marketing | 3 | 1.26% | OK |
+| Lawyers | 714 | ai for lawyers | 2 | 0.84% | OK |
 | Managers (1:1 Meetings) | 740 | 1 on 1 meeting | 4 | 2.16% | OK |
-| Real Estate Agents | 709 | ai for real estate agents | 2 | 1.41% | OK |
-| Financial Advisors | 698 | ai for financial advisors | 2 | 1.15% | OK |
+| Real Estate Agents | 720 | ai tools for real estate agents | 2 | 1.67% | OK |
+| Financial Advisors | 708 | ai for financial advisors | 3 | 1.69% | OK |
 
-Highest density: "1 on 1 meeting" on the Managers page (2.16%) and "sales call" on the Sales page (2.04%). Both are the topic of the page, so using them a few times is expected.
+Highest density: "1 on 1 meeting" on the Managers (1:1 Meetings) page (2.16%) and "sales call" on the Sales Calls page (2.04%). Both are the topic of the page, so using them a few times is expected.
 
 ## Fixes made during this check
 
-Three keywords were missing as exact phrases, because the copy used a different wording. We added each one **once**, in a natural sentence:
+**1. Keywords added to the storyline.** Five stories had no target keyword (or only one) inside the story itself. We added one, once, as a normal part of the story:
 
-| Page | Keyword added | New sentence |
+| Page | Keyword | New sentence in the story |
+|---|---|---|
+| Lawyers | ai for lawyers | "Laura starts using Lynkk, a simple AI for lawyers." |
+| Real Estate Agents | ai tools for real estate agents | "A friend tells Chris about AI tools for real estate agents. He starts using Lynkk." |
+| Financial Advisors | ai for financial advisors | "David starts using Lynkk, AI for financial advisors that writes the notes for him." |
+| Lectures | lecture recorder | "Then he starts using Lynkk as his lecture recorder." |
+| Customer Research | ai for marketing | "She wants to use AI for marketing, but only if it helps her hear real customers." |
+
+**2. Missing exact keywords added once.** Three keywords were not on the page as exact phrases:
+
+| Page | Keyword | New sentence |
 |---|---|---|
 | Real Estate Agents | ai tools for real estate agents | "Looking for simple AI tools for real estate agents? Lynkk also helps you:" |
 | Financial Advisors | ai tools for financial advisors | "Looking for simple AI tools for financial advisors? Lynkk also lets you:" |
 | Financial Advisors | ai note taker for financial advisors | "Lynkk is an AI note taker for financial advisors." (was only in the meta description) |
 
-We also removed one use of "1 on 1 meeting" from the Managers page call to action ("Try Lynkk in your next one on one."), to keep it below 2.5%.
+**3. One repeat removed.** One use of "1 on 1 meeting" came out of the Managers page call to action ("Try Lynkk in your next one on one."), to keep it below 2.5%.
 
 "transcribe interview" (User Interviews) and "field interview" (Field Interviews) were already on the page in the plural ("transcribe interviews", "field interviews"), which Google treats as the same search. No change was needed.
 
@@ -95,29 +124,29 @@ We also removed one use of "1 on 1 meeting" from the Managers page call to actio
 | hindi audio to text | 1 | 0.56% | "Questions people ask" section |
 | voice recorder for interviews | 1 | 0.56% | Intro |
 
-### Lectures (705 words)
+### Lectures (709 words)
 
 | Keyword | Uses | Density | Where it appears |
 |---|---|---|---|
-| lecture recorder | 1 | 0.28% | Title, H1 |
+| lecture recorder | 2 | 0.56% | Title, H1, "How Lynkk helps Ethan record lectures" section |
 | record lectures | 3 | 0.85% | Meta, Intro, "How Lynkk helps Ethan record lectures" heading, "Simple pricing" section |
 | note taking app for students | 1 | 0.71% | "So, what is Lynkk?" section |
 | lecture notes | 1 | 0.28% | Title, Meta, H1 |
 | ai note taker for lectures | 1 | 0.71% | "Questions people ask" section |
 
-### Customer Research (Marketing) (700 words)
+### Customer Research (Marketing) (716 words)
 
 | Keyword | Uses | Density | Where it appears |
 |---|---|---|---|
-| ai for marketing | 2 | 0.86% | Title, Meta, H1, "So, what is Lynkk?" section |
-| voice of customer | 3 | 1.29% | Title, H1, "How Lynkk helps Sarah find the voice of customer" heading, "So, what is Lynkk?" section |
-| focus group transcription | 1 | 0.43% | "Questions people ask" section |
+| ai for marketing | 3 | 1.26% | Title, Meta, H1, "Meet Sarah" section, "So, what is Lynkk?" section |
+| voice of customer | 3 | 1.26% | Title, H1, "How Lynkk helps Sarah find the voice of customer" heading, "So, what is Lynkk?" section |
+| focus group transcription | 1 | 0.42% | "Questions people ask" section |
 
-### Lawyers (709 words)
+### Lawyers (714 words)
 
 | Keyword | Uses | Density | Where it appears |
 |---|---|---|---|
-| ai for lawyers | 1 | 0.42% | Title, H1 |
+| ai for lawyers | 2 | 0.84% | Title, H1, "How Lynkk helps Laura in client meetings" section |
 | ai for law firms | 1 | 0.56% | Meta, "So, what is Lynkk?" section |
 | legal transcription | 2 | 0.56% | "Questions people ask" section |
 
@@ -129,25 +158,25 @@ We also removed one use of "1 on 1 meeting" from the Managers page call to actio
 | one on one meeting | 1 | 0.54% | Meta, "How Lynkk helps Sam with 1 on 1 meetings" section |
 | 1 on 1 meeting | 4 | 2.16% | Title, H1, Intro, "Meet Sam" section, "How Lynkk helps Sam with 1 on 1 meetings" heading |
 
-### Real Estate Agents (709 words)
+### Real Estate Agents (720 words)
 
 | Keyword | Uses | Density | Where it appears |
 |---|---|---|---|
-| ai for real estate agents | 2 | 1.41% | Title, H1, "So, what is Lynkk?" section |
-| ai tools for real estate agents | 1 | 0.85% | "What else can Lynkk do?" section |
+| ai for real estate agents | 2 | 1.39% | Title, H1, "So, what is Lynkk?" section |
+| ai tools for real estate agents | 2 | 1.67% | "How Lynkk helps Chris remember every client" section, "What else can Lynkk do?" section |
 | real estate ai tools | 1 | 0.56% | Meta, "Questions people ask" section |
 
-### Financial Advisors (698 words)
+### Financial Advisors (708 words)
 
 | Keyword | Uses | Density | Where it appears |
 |---|---|---|---|
-| ai for financial advisors | 2 | 1.15% | Title, H1, "Questions people ask" section |
-| ai tools for financial advisors | 1 | 0.72% | "What else can Lynkk do?" section |
-| best ai for financial advisors | 1 | 0.72% | "Questions people ask" section |
-| ai note taker for financial advisors | 1 | 0.86% | Meta, "So, what is Lynkk?" section |
+| ai for financial advisors | 3 | 1.69% | Title, H1, "How Lynkk helps David with client reviews" section, "Questions people ask" section |
+| ai tools for financial advisors | 1 | 0.71% | "What else can Lynkk do?" section |
+| best ai for financial advisors | 1 | 0.71% | "Questions people ask" section |
+| ai note taker for financial advisors | 1 | 0.85% | Meta, "So, what is Lynkk?" section |
 
 ## Notes
 
 - Keyword density is only a rough guide. Google does not use a fixed number. What matters is that the page reads naturally and helps the reader.
 - Keywords are written in normal case on the page (for example "AI for sales"), not in lowercase as typed in the tool.
-- The keyword tables at the top of each story draft now show the real number of uses and where each keyword appears.
+- The keyword tables at the top of each story draft show the real number of uses and where each keyword appears.
