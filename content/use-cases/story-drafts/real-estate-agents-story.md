@@ -5,11 +5,11 @@
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for real estate agents | 590 | Title, H1, "So, what is Lynkk?" |
-| ai tools for real estate agents | 320 | "What else can Lynkk do?" heading area, FAQ |
-| real estate ai tools | 320 | Meta description, FAQ |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for real estate agents | 590 | 2 | Title, H1, "So, what is Lynkk?" section |
+| ai tools for real estate agents | 320 | 1 | "What else can Lynkk do?" section |
+| real estate ai tools | 320 | 1 | Meta, "Questions people ask" section |
 
 ---
 
@@ -91,7 +91,7 @@ Lynkk is for you if:
 
 ## What else can Lynkk do?
 
-Lynkk is a simple AI tool for real estate agents. It also helps you:
+Looking for simple AI tools for real estate agents? Lynkk also helps you:
 - **Talk in any language.** English, Spanish, Hindi and more.
 - **Record video calls.** Zoom, Google Meet and Microsoft Teams.
 - **Record in your office, even without internet.** The Mac app uploads later.

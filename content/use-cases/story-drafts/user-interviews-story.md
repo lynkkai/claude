@@ -5,14 +5,14 @@
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| qualitative research transcription | 1,900 | "So, what is Lynkk?" section |
-| interview transcription | 1,300 (590 India) | Title, H1, intro |
-| customer interview | 320 | Title, story |
-| user research tools | 320 | FAQ |
-| interview transcription service | 320 | FAQ |
-| transcribe interview | 260 | Story heading |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| qualitative research transcription | 1,900 | 1 | "So, what is Lynkk?" section |
+| interview transcription | 1,300 (590 India) | 2 | Title, H1, "Questions people ask" section |
+| customer interview | 320 | 3 | Title, Meta, H1, "Meet Rachel" section, "How Lynkk helps Rachel transcribe interviews" section |
+| user research tools | 320 | 1 | "Questions people ask" section |
+| interview transcription service | 320 | 1 | "Questions people ask" section |
+| transcribe interview | 260 | 1 | "How Lynkk helps Rachel transcribe interviews" heading |
 
 ---
 

@@ -5,11 +5,11 @@
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for managers | 1,600 | Title, H1, "So, what is Lynkk?" |
-| one on one meeting | 2,400 | Meta description, guide link |
-| 1 on 1 meeting | 720 | H1, story |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for managers | 1,600 | 2 | Title, H1, "So, what is Lynkk?" section |
+| one on one meeting | 2,400 | 1 | Meta, "How Lynkk helps Sam with 1 on 1 meetings" section |
+| 1 on 1 meeting | 720 | 4 | Title, H1, Intro, "Meet Sam" section, "How Lynkk helps Sam with 1 on 1 meetings" heading |
 
 ---
 
@@ -136,7 +136,7 @@ Yes, there's a free plan. Asking about past 1:1s and the 1:1 note format are par
 
 ## Be like Sam. Keep every promise you make in a 1:1.
 
-Try Lynkk in your next 1 on 1 meeting. It's free to start.
+Try Lynkk in your next one on one. It's free to start.
 
 Buttons: Start for free · Download for Mac
 

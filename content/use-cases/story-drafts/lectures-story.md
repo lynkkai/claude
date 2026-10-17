@@ -4,13 +4,13 @@
 
 ## Keywords in this draft (Ubersuggest, searches a month)
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| lecture recorder | 1,600 US | Title, H1 |
-| record lectures | 1,300 US | Story heading, intro |
-| note taking app for students | 1,000 US | "So, what is Lynkk?" |
-| lecture notes | 590 US, 880 India | Title, H1 |
-| ai note taker for lectures | 110 US | FAQ |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| lecture recorder | 1,600 US | 1 | Title, H1 |
+| record lectures | 1,300 US | 3 | Meta, Intro, "How Lynkk helps Ethan record lectures" heading, "Simple pricing" section |
+| note taking app for students | 1,000 US | 1 | "So, what is Lynkk?" section |
+| lecture notes | 590 US, 880 India | 1 | Title, Meta, H1 |
+| ai note taker for lectures | 110 US | 1 | "Questions people ask" section |
 
 ---
 

@@ -5,13 +5,13 @@
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for project managers | 2,900 (1,300 India) | Title, H1, "So, what is Lynkk?" |
-| standup meeting | 2,400 | Title, story |
-| daily standup meeting | 1,600 | Meta description, story heading |
-| ai project management tools | 880 | FAQ |
-| scrum meeting | 880 | FAQ |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for project managers | 2,900 (1,300 India) | 2 | Title, Meta, H1, "So, what is Lynkk?" section |
+| standup meeting | 2,400 | 5 | Title, Meta, H1, Intro, "Meet Jake" section |
+| daily standup meeting | 1,600 | 2 | Meta, "How Lynkk helps Jake with the daily standup meeting" heading, "How Lynkk helps Jake with the daily standup meeting" section |
+| ai project management tools | 880 | 1 | "Questions people ask" section |
+| scrum meeting | 880 | 2 | "Questions people ask" section |
 
 ---
 

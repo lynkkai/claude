@@ -5,11 +5,11 @@
 
 ## Keywords in this draft (Ubersuggest, searches a month)
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for lawyers | 2,400 US, 720 India | Title, H1 |
-| ai for law firms | 1,600 US | Meta description, "So, what is Lynkk?" |
-| legal transcription | 480 US | FAQ |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for lawyers | 2,400 US, 720 India | 1 | Title, H1 |
+| ai for law firms | 1,600 US | 1 | Meta, "So, what is Lynkk?" section |
+| legal transcription | 480 US | 2 | "Questions people ask" section |
 
 ---
 

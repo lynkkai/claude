@@ -5,14 +5,14 @@
 
 ## Keywords in this draft (Ubersuggest, searches a month)
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| field research | 2,400 US | Story, "So, what is Lynkk?" |
-| hindi transcription | 1,900 India | H1, meta description, FAQ |
-| voice recorder for mac | 480 US | Title, "So, what is Lynkk?" |
-| field interview | 390 US | Title, H1 |
-| hindi audio to text | 140 India | FAQ |
-| voice recorder for interviews | 110 US | Intro |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| field research | 2,400 US | 2 | "Meet Emily" section, "So, what is Lynkk?" section |
+| hindi transcription | 1,900 India | 2 | Meta, H1, "Questions people ask" section |
+| voice recorder for mac | 480 US | 1 | Title, "So, what is Lynkk?" section |
+| field interview | 390 US | 3 | Title, Meta, H1, "How Lynkk helps Emily with field interviews" heading, "Field interviews, before and after Lynkk" heading |
+| hindi audio to text | 140 India | 1 | "Questions people ask" section |
+| voice recorder for interviews | 110 US | 1 | Intro |
 
 ---
 

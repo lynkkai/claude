@@ -5,12 +5,12 @@
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for financial advisors | 210 | Title, H1, "So, what is Lynkk?" |
-| ai tools for financial advisors | 90 | "What else can Lynkk do?" |
-| best ai for financial advisors | 40 | FAQ |
-| ai note taker for financial advisors | 30 | Meta description |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for financial advisors | 210 | 2 | Title, H1, "Questions people ask" section |
+| ai tools for financial advisors | 90 | 1 | "What else can Lynkk do?" section |
+| best ai for financial advisors | 40 | 1 | "Questions people ask" section |
+| ai note taker for financial advisors | 30 | 1 | Meta, "So, what is Lynkk?" section |
 
 ---
 
@@ -68,8 +68,8 @@ away.
 
 ## So, what is Lynkk?
 
-Lynkk is AI for financial advisors that writes your client meeting notes. It records the meeting, writes down what
-matters, and keeps it private.
+Lynkk is an AI note taker for financial advisors. It records your client meetings, writes down what matters, and keeps
+it private.
 
 With Lynkk, you get three things:
 - **Clear notes:** goals, changes and tasks.
@@ -93,7 +93,7 @@ Lynkk is for you if:
 
 ## What else can Lynkk do?
 
-Lynkk is a simple AI tool for financial advisors. It also lets you:
+Looking for simple AI tools for financial advisors? Lynkk also lets you:
 - **Choose where your data is stored.** US, EU, UK, India, Singapore or Australia.
 - **Control how long audio is kept.** Keep it, delete it after 90 or 30 days, or delete it after upload.
 - **Record in your office, even without internet.** The Mac app uploads later.

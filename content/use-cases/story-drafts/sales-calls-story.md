@@ -5,15 +5,15 @@
 
 ## Keywords in this draft (Ubersuggest, US searches a month)
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for sales | 2,900 | Title, H1, intro |
-| conversation intelligence | 1,900 | Title, "So, what is Lynkk?" section |
-| ai sales tools | 1,000 | FAQ |
-| conversation intelligence platform | 880 | Meta description, "So, what is Lynkk?" section |
-| sales call | 880 | H1, story, headings |
-| ai sales assistant | 590 | Story heading, "So, what is Lynkk?" section |
-| call recording software | 480 | FAQ |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for sales | 2,900 | 2 | Title, H1, Intro |
+| conversation intelligence | 1,900 | 1 | Title, Meta, "So, what is Lynkk?" section |
+| ai sales tools | 1,000 | 2 | "Questions people ask" section |
+| conversation intelligence platform | 880 | 1 | Meta, "So, what is Lynkk?" section |
+| sales call | 880 | 8 | Title, Meta, H1, Intro, "Meet Jessica" section |
+| ai sales assistant | 590 | 1 | Meta, "How Lynkk helps Jessica on her next sales call" section |
+| call recording software | 480 | 1 | "Questions people ask" section |
 
 ---
 

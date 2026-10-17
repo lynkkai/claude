@@ -21,15 +21,15 @@ URL: lynkk.ai/use-cases/sales-calls
 
 **Target keywords**
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for sales | 2,900 | Title, H1, intro |
-| conversation intelligence | 1,900 | Title, "So, what is Lynkk?" section |
-| ai sales tools | 1,000 | FAQ |
-| conversation intelligence platform | 880 | Meta description, "So, what is Lynkk?" section |
-| sales call | 880 | H1, story, headings |
-| ai sales assistant | 590 | Story heading, "So, what is Lynkk?" section |
-| call recording software | 480 | FAQ |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for sales | 2,900 | 2 | Title, H1, Intro |
+| conversation intelligence | 1,900 | 1 | Title, Meta, "So, what is Lynkk?" section |
+| ai sales tools | 1,000 | 2 | "Questions people ask" section |
+| conversation intelligence platform | 880 | 1 | Meta, "So, what is Lynkk?" section |
+| sales call | 880 | 8 | Title, Meta, H1, Intro, "Meet Jessica" section |
+| ai sales assistant | 590 | 1 | Meta, "How Lynkk helps Jessica on her next sales call" section |
+| call recording software | 480 | 1 | "Questions people ask" section |
 
 **Page copy**
 
@@ -172,14 +172,14 @@ URL: lynkk.ai/use-cases/user-interviews
 
 **Target keywords**
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| qualitative research transcription | 1,900 | "So, what is Lynkk?" section |
-| interview transcription | 1,300 (590 India) | Title, H1, intro |
-| customer interview | 320 | Title, story |
-| user research tools | 320 | FAQ |
-| interview transcription service | 320 | FAQ |
-| transcribe interview | 260 | Story heading |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| qualitative research transcription | 1,900 | 1 | "So, what is Lynkk?" section |
+| interview transcription | 1,300 (590 India) | 2 | Title, H1, "Questions people ask" section |
+| customer interview | 320 | 3 | Title, Meta, H1, "Meet Rachel" section, "How Lynkk helps Rachel transcribe interviews" section |
+| user research tools | 320 | 1 | "Questions people ask" section |
+| interview transcription service | 320 | 1 | "Questions people ask" section |
+| transcribe interview | 260 | 1 | "How Lynkk helps Rachel transcribe interviews" heading |
 
 **Page copy**
 
@@ -316,13 +316,13 @@ URL: lynkk.ai/use-cases/team-standups
 
 **Target keywords**
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for project managers | 2,900 (1,300 India) | Title, H1, "So, what is Lynkk?" |
-| standup meeting | 2,400 | Title, story |
-| daily standup meeting | 1,600 | Meta description, story heading |
-| ai project management tools | 880 | FAQ |
-| scrum meeting | 880 | FAQ |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for project managers | 2,900 (1,300 India) | 2 | Title, Meta, H1, "So, what is Lynkk?" section |
+| standup meeting | 2,400 | 5 | Title, Meta, H1, Intro, "Meet Jake" section |
+| daily standup meeting | 1,600 | 2 | Meta, "How Lynkk helps Jake with the daily standup meeting" heading, "How Lynkk helps Jake with the daily standup meeting" section |
+| ai project management tools | 880 | 1 | "Questions people ask" section |
+| scrum meeting | 880 | 2 | "Questions people ask" section |
 
 **Page copy**
 
@@ -461,14 +461,14 @@ URL: lynkk.ai/use-cases/field-interviews
 
 **Target keywords**
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| field research | 2,400 US | Story, "So, what is Lynkk?" |
-| hindi transcription | 1,900 India | H1, meta description, FAQ |
-| voice recorder for mac | 480 US | Title, "So, what is Lynkk?" |
-| field interview | 390 US | Title, H1 |
-| hindi audio to text | 140 India | FAQ |
-| voice recorder for interviews | 110 US | Intro |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| field research | 2,400 US | 2 | "Meet Emily" section, "So, what is Lynkk?" section |
+| hindi transcription | 1,900 India | 2 | Meta, H1, "Questions people ask" section |
+| voice recorder for mac | 480 US | 1 | Title, "So, what is Lynkk?" section |
+| field interview | 390 US | 3 | Title, Meta, H1, "How Lynkk helps Emily with field interviews" heading, "Field interviews, before and after Lynkk" heading |
+| hindi audio to text | 140 India | 1 | "Questions people ask" section |
+| voice recorder for interviews | 110 US | 1 | Intro |
 
 **Page copy**
 
@@ -604,13 +604,13 @@ URL: lynkk.ai/use-cases/lectures
 
 **Target keywords**
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| lecture recorder | 1,600 US | Title, H1 |
-| record lectures | 1,300 US | Story heading, intro |
-| note taking app for students | 1,000 US | "So, what is Lynkk?" |
-| lecture notes | 590 US, 880 India | Title, H1 |
-| ai note taker for lectures | 110 US | FAQ |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| lecture recorder | 1,600 US | 1 | Title, H1 |
+| record lectures | 1,300 US | 3 | Meta, Intro, "How Lynkk helps Ethan record lectures" heading, "Simple pricing" section |
+| note taking app for students | 1,000 US | 1 | "So, what is Lynkk?" section |
+| lecture notes | 590 US, 880 India | 1 | Title, Meta, H1 |
+| ai note taker for lectures | 110 US | 1 | "Questions people ask" section |
 
 **Page copy**
 
@@ -747,11 +747,11 @@ URL: lynkk.ai/use-cases/customer-research
 
 **Target keywords**
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for marketing | 3,600 US, 2,900 India | Title, H1 |
-| voice of customer | 880 US | Title, H1, "So, what is Lynkk?" |
-| focus group transcription | 110 US | FAQ |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for marketing | 3,600 US, 2,900 India | 2 | Title, Meta, H1, "So, what is Lynkk?" section |
+| voice of customer | 880 US | 3 | Title, H1, "How Lynkk helps Sarah find the voice of customer" heading, "So, what is Lynkk?" section |
+| focus group transcription | 110 US | 1 | "Questions people ask" section |
 
 **Page copy**
 
@@ -883,11 +883,11 @@ URL: lynkk.ai/use-cases/lawyers
 
 **Target keywords**
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for lawyers | 2,400 US, 720 India | Title, H1 |
-| ai for law firms | 1,600 US | Meta description, "So, what is Lynkk?" |
-| legal transcription | 480 US | FAQ |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for lawyers | 2,400 US, 720 India | 1 | Title, H1 |
+| ai for law firms | 1,600 US | 1 | Meta, "So, what is Lynkk?" section |
+| legal transcription | 480 US | 2 | "Questions people ask" section |
 
 **Page copy**
 
@@ -1022,11 +1022,11 @@ URL: lynkk.ai/use-cases/one-on-one-meetings
 
 **Target keywords**
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for managers | 1,600 | Title, H1, "So, what is Lynkk?" |
-| one on one meeting | 2,400 | Meta description, guide link |
-| 1 on 1 meeting | 720 | H1, story |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for managers | 1,600 | 2 | Title, H1, "So, what is Lynkk?" section |
+| one on one meeting | 2,400 | 1 | Meta, "How Lynkk helps Sam with 1 on 1 meetings" section |
+| 1 on 1 meeting | 720 | 4 | Title, H1, Intro, "Meet Sam" section, "How Lynkk helps Sam with 1 on 1 meetings" heading |
 
 **Page copy**
 
@@ -1151,7 +1151,7 @@ Yes, there's a free plan. Asking about past 1:1s and the 1:1 note format are par
 
 #### Be like Sam. Keep every promise you make in a 1:1.
 
-Try Lynkk in your next 1 on 1 meeting. It's free to start.
+Try Lynkk in your next one on one. It's free to start.
 
 Buttons: Start for free · Download for Mac
 
@@ -1163,11 +1163,11 @@ URL: lynkk.ai/use-cases/real-estate-agents
 
 **Target keywords**
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for real estate agents | 590 | Title, H1, "So, what is Lynkk?" |
-| ai tools for real estate agents | 320 | "What else can Lynkk do?" heading area, FAQ |
-| real estate ai tools | 320 | Meta description, FAQ |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for real estate agents | 590 | 2 | Title, H1, "So, what is Lynkk?" section |
+| ai tools for real estate agents | 320 | 1 | "What else can Lynkk do?" section |
+| real estate ai tools | 320 | 1 | Meta, "Questions people ask" section |
 
 **Page copy**
 
@@ -1247,7 +1247,7 @@ Lynkk is for you if:
 
 #### What else can Lynkk do?
 
-Lynkk is a simple AI tool for real estate agents. It also helps you:
+Looking for simple AI tools for real estate agents? Lynkk also helps you:
 - **Talk in any language.** English, Spanish, Hindi and more.
 - **Record video calls.** Zoom, Google Meet and Microsoft Teams.
 - **Record in your office, even without internet.** The Mac app uploads later.
@@ -1303,12 +1303,12 @@ URL: lynkk.ai/use-cases/financial-advisors
 
 **Target keywords**
 
-| Keyword | Volume | Where it appears |
-|---|---|---|
-| ai for financial advisors | 210 | Title, H1, "So, what is Lynkk?" |
-| ai tools for financial advisors | 90 | "What else can Lynkk do?" |
-| best ai for financial advisors | 40 | FAQ |
-| ai note taker for financial advisors | 30 | Meta description |
+| Keyword | Volume | Uses on page | Where it appears |
+|---|---|---|---|
+| ai for financial advisors | 210 | 2 | Title, H1, "Questions people ask" section |
+| ai tools for financial advisors | 90 | 1 | "What else can Lynkk do?" section |
+| best ai for financial advisors | 40 | 1 | "Questions people ask" section |
+| ai note taker for financial advisors | 30 | 1 | Meta, "So, what is Lynkk?" section |
 
 **Page copy**
 
@@ -1364,8 +1364,8 @@ away.
 
 #### So, what is Lynkk?
 
-Lynkk is AI for financial advisors that writes your client meeting notes. It records the meeting, writes down what
-matters, and keeps it private.
+Lynkk is an AI note taker for financial advisors. It records your client meetings, writes down what matters, and keeps
+it private.
 
 With Lynkk, you get three things:
 - **Clear notes:** goals, changes and tasks.
@@ -1389,7 +1389,7 @@ Lynkk is for you if:
 
 #### What else can Lynkk do?
 
-Lynkk is a simple AI tool for financial advisors. It also lets you:
+Looking for simple AI tools for financial advisors? Lynkk also lets you:
 - **Choose where your data is stored.** US, EU, UK, India, Singapore or Australia.
 - **Control how long audio is kept.** Keep it, delete it after 90 or 30 days, or delete it after upload.
 - **Record in your office, even without internet.** The Mac app uploads later.
