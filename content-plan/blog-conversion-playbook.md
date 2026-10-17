@@ -11,7 +11,8 @@ Build each title from these parts, in this order. Use the parts that fit the int
 | 1. **Primary keyword, near the start** | Google bolds it; the reader sees their own words | `Otter.ai Alternatives`, `Granola AI Pricing` |
 | 2. **Buying word** | Tells Google and the reader this page helps them choose | Best, Top, Alternatives, vs, Pricing, Review, Free, Cheaper |
 | 3. **A number** | Sets expectations, lifts CTR | 7 Best, 9 Tools, 12 Examples |
-| 4. **The year** | Buyers want current prices and features | (2026) |
+| 4. **The year, in a sentence** | Buyers want current prices and features | in 2026, for 2026, a 2026 guide |
+| 4b. **The location, where it fits** | Matches where the reader is (US buyers, India for Hindi and MOM topics) | in the US, for US teams, in India, for US boards |
 | 5. **A proof word** | Signals real testing, not a copied list | Tested, Compared, Honest, Real Costs |
 | 6. **Who it is for** | Matches the reader's situation | for Google Meet, for In-Person Meetings, for Teams, for Sales |
 | 7. **A hook tied to a Lynkk strength** | Makes Lynkk the natural click later in the post | Free & Paid, With or Without a Bot, Windows & Teams, Free Plan Limits |
@@ -23,8 +24,17 @@ Build each title from these parts, in this order. Use the parts that fit the int
 
 Example for #1:
 
-- Title tag: `9 Best Otter.ai Alternatives (2026): Free & Paid, Tested`
-- H1: `9 Best Otter.ai Alternatives in 2026 (Free & Paid, Tested)`
+- Title tag: `Best Otter.ai Alternatives in the US for 2026`
+- H1: `The Best Otter.ai Alternatives in the US for 2026, Tried on Real Meetings`
+
+**Location and year, written like a person would:**
+
+- Work them into the sentence ("for US teams in 2026", "in India") instead of stamping brackets on the end ("(2026) (US)").
+- Vary the wording across posts. The same "in the US for 2026" on every title reads as auto-generated.
+- Avoid stacking parts with colons and ampersands ("(2026): Free & Paid, Tested"). One colon at most.
+- How-to and template posts keep the year only. "How to Record a Google Meet Call in the US" reads as keyword stuffing, so mention the location in the meta description and first paragraph instead.
+- Use India only on India-market keywords (Hindi, minutes of meeting, MOM). Everything else is US.
+- Update the year in January and change the page's 'last updated' date at the same time.
 
 **Title rules:**
 
