@@ -114,6 +114,6 @@ For Medium and Substack use `utm_source=medium` or `utm_source=substack`. In GA4
 - Free plan: what is included and any limits (minutes, history, seats).
 - Is a credit card needed at sign-up? If not, say 'no credit card' in every CTA; it lifts conversion.
 - Which CRMs are supported (HubSpot, Salesforce?) for the CRM post.
-- Does Lynkk dictation support Hindi? (Hindi voice typing post.)
+- Hindi dictation: confirmed on /features/dictation (Hindi is one of 18 languages on Pro). Say it is a Pro feature in the Hindi voice typing post.
 - Bot-free capture: confirm how the Chrome extension and Mac app record without a bot.
 - Paid plan prices for the pricing posts' 'Lynkk' rows.
