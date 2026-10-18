@@ -39,19 +39,20 @@ This guide covers the legal rules, a copy-ready format and sample for a private 
 
 ## What are board minutes of meeting?
 
-Board minutes of meeting are the official written record of a meeting of a company's board of directors. They record who attended, the quorum, the business transacted, resolutions passed and any dissent. Under Section 118, minutes kept properly are evidence of the proceedings recorded in them.
+Board minutes of meeting are the official written record of a meeting of a company's board of directors. They record who attended, the quorum, the business transacted, resolutions passed and any dissent. Section 118(2) requires them to contain a fair and correct summary of the proceedings, and under Section 118(7) minutes kept properly are evidence of the proceedings recorded in them.
 
 Board minutes differ from general meeting minutes, which record meetings of shareholders, and from committee minutes, which record meetings of board committees such as the audit committee.
 
 ## What does the Companies Act 2013 require for board minutes?
 
-Section 118 of the [Companies Act, 2013](https://www.mca.gov.in/) and SS-1, issued by the [Institute of Company Secretaries of India](https://www.icsi.edu/), set 5 core requirements:
+[Section 118 of the Companies Act, 2013](https://lawx.in/acts/section/24/309/2964) and SS-1, issued by the [Institute of Company Secretaries of India](https://www.icsi.edu/), set 6 core requirements:
 
 | Requirement | Rule |
 |---|---|
 | Draft circulation | To all directors within 15 days of the meeting |
 | Director comments | Within 7 days of circulation |
-| Signing and entry | Signed and kept in the minutes book within 30 days |
+| Preparation and signing | Prepared, signed and kept within 30 days (Section 118(1)) |
+| Certified copy | To all directors within 15 days of signing (SS-1) |
 | Minutes book | Consecutively numbered pages, kept at the registered office |
 | Preservation | Board and committee minutes preserved permanently |
 
@@ -152,18 +153,18 @@ Writing minutes of a board meeting follows 7 steps from agenda to minutes book:
 3. **Note decisions and resolution text** during the meeting, plus any dissent.
 4. **Draft within days.** Turn notes into formal minutes in the past tense.
 5. **Circulate within 15 days** to all directors for comments.
-6. **Finalise after 7 days** of comments, and get the chairperson's signature.
+6. **Finalise after 7 days** of comments, and get the chairperson's signature; send directors a certified copy within 15 days of signing.
 7. **Enter in the minutes book within 30 days** and preserve permanently.
 
 ## How often must a board meet in India?
 
-Under Section 173, a company must hold its first board meeting within 30 days of incorporation and at least 4 board meetings a year, with no more than 120 days between 2 consecutive meetings. One person companies, small companies, dormant companies and eligible startups need at least 1 meeting in each half of the calendar year, at least 90 days apart.
+Under [Section 173](https://lawx.in/acts/section/24/314/3020), a company must hold its first board meeting within 30 days of incorporation and at least 4 board meetings a year, with no more than 120 days between 2 consecutive meetings. Under Section 173(5), one person companies (other than those with a single director), small companies and dormant companies need at least 1 meeting in each half of the calendar year, at least 90 days apart.
 
-Directors must get written notice of at least 7 days. The quorum is one-third of the total number of directors or 2 directors, whichever is higher, under Section 174. Each meeting needs its own minutes.
+Directors must get written notice of at least 7 days. The quorum is one-third of the total strength of the board or 2 directors, whichever is higher, under Section 174(1), and directors joining by video conferencing count toward it. Each meeting needs its own minutes.
 
 ## Are board minutes of meeting legally binding?
 
-Board minutes are not a contract, but they are evidence. Under Section 118, minutes kept in line with the Act are evidence of the proceedings recorded. Decisions recorded as resolutions bind the company, and the minutes are how those decisions are proved.
+Board minutes are not a contract, but they are evidence. Under Section 118(7), minutes kept in line with the Act are evidence of the proceedings recorded. Under Section 118(8), until the contrary is proved, the meeting is deemed duly called and held, and appointments of directors, key managerial personnel and auditors recorded in the minutes are deemed valid.
 
 That is why accuracy matters. Under SS-1 practice, once signed, minutes should not be altered; any correction should be approved at a later meeting and recorded in that meeting's minutes.
 
@@ -225,5 +226,5 @@ Prompts answered: "board minutes of meeting", "minutes of board meeting format",
 Prompt gaps (create_prompt): "board minutes format for video conferencing meeting".
 Fan-out source: Ubersuggest google_suggestions (country=in: how to write minutes of board meeting, are minutes legally binding, can minutes be altered, held through video conferencing, shall be preserved for, format under companies act 2013, board meeting vs board resolution) + SERP India (caclubindia specimen, sec.gov, governance institutes), 2026-10-17.
 Inbound links: from /blog/meeting-minutes-sample and /blog/founders-meeting-notes.
-Editor checks: legal timelines from secondary commentary on Sec 118 and SS-1 (taxguru, setindiabiz) plus Sec 173/174; have a company secretary review before publish. Electronic minutes FAQ deliberately general.
+Editor checks: Sec 118(1), (2), (7), (8) verified against the statute text (lawx.in, 2026-10-18); SS-1 2024 timelines from the ICSI PDF as quoted in search (icsi.edu PDF links currently 404); Sec 173(1), (3), (5) and 174(1) verified against statute text on lawx.in. See blog/review/legal-review.md; have a company secretary review before publish. Electronic minutes FAQ deliberately general.
 -->

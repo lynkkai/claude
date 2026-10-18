@@ -44,7 +44,7 @@ In most US states, the law does not require an LLC to hold annual meetings or ke
 Why keep them anyway:
 
 - **Proof of decisions.** Minutes show who approved a loan, a new member or a large purchase.
-- **Liability protection.** Treating the LLC as a separate business, with records of major decisions, supports the separation between you and the company if it is ever challenged.
+- **Liability protection.** Treating the LLC as a separate business, with records of major decisions, supports the separation between you and the company if it is ever challenged. Skipping minutes alone rarely removes liability protection; courts look at the whole picture, such as mixing personal and business money.
 - **Smoother transactions.** Banks and buyers often ask for a resolution authorizing an action.
 - **Fewer disputes.** Multi-member LLCs avoid arguments about what was agreed.
 

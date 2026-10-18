@@ -135,7 +135,7 @@ Writing HOA minutes takes about 30 minutes after a 1-hour board meeting if you p
 
 It depends on your state and governing documents. In California, under [Civil Code section 4950](https://california.public.law/codes/civil_code_section_4950), the minutes, draft minutes or a summary of any board meeting other than executive session must be available to members within 30 days, and distributed to any member on request.
 
-Other states set their own rules. Florida's HOA statute, section 720.303, treats minutes as official records that members can inspect and requires them to be kept for years. Many associations post approved minutes on a member portal to make access easy. Check your state statute and your bylaws, or ask your association's attorney.
+Other states set their own rules. Florida's HOA statute, [section 720.303](https://www.flsenate.gov/Laws/Statutes/2025/720.303), lists minutes of board and member meetings as official records, requires them to be kept for at least 7 years, and requires access within 10 business days of an owner's written request. Many associations post approved minutes on a member portal to make access easy. Check your state statute and your bylaws, or ask your association's attorney.
 
 ## Are HOA meeting minutes public record?
 
@@ -185,7 +185,7 @@ They are not public records like government documents, but members generally hav
 
 ### How soon must HOA minutes be available?
 
-It depends on the state. In California, minutes or a summary of board meetings must be available to members within 30 days. Check your state law and bylaws. Florida treats minutes as official records owners can inspect. Posting approved minutes on a member portal is the easiest way to meet any deadline.
+It depends on the state. In California, minutes or a summary of board meetings must be available to members within 30 days. Check your state law and bylaws. Florida requires access within 10 business days of a written request. Posting approved minutes on a member portal is the easiest way to meet any deadline.
 
 ### Who writes HOA meeting minutes?
 
@@ -200,5 +200,5 @@ Prompts answered: "homeowners association meeting minutes template", "hoa meetin
 Prompt gaps (create_prompt): "hoa annual meeting minutes template".
 Fan-out source: Ubersuggest google_suggestions (examples, how to write, sample, when distributed, public record, legal requirements, condo association) + SERP (cedar management, hoamanagement.com, associa), 2026-10-17.
 Inbound links: from /blog/meeting-minutes-sample and /blog/meeting-minutes-to-jira.
-Editor checks: CA Civ. Code 4950 verified via public.law; Florida 720.303 retention period described generally (secondary sources only); have an HOA attorney review state-specific lines before publish.
+Editor checks: CA Civ. Code 4950 verified via public.law; Florida 720.303(4)(a) and (5)(a) verified on flsenate.gov (7-year retention, 10 business days for access); have an HOA attorney review state-specific lines before publish.
 -->

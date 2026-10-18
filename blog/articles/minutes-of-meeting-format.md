@@ -169,7 +169,7 @@ The biggest time saver is step 3: capture decisions and owners live, not from me
 
 For a company board meeting in India, the minutes of meeting format must follow Section 118 of the Companies Act, 2013 and Secretarial Standard 1 (SS-1). Board minutes need extra details: quorum, directors present in person or by video conferencing, interested directors, and the text of each resolution passed.
 
-Under Section 118 of the [Companies Act, 2013](https://www.mca.gov.in/), minutes must be prepared, signed and kept within 30 days of the meeting. SS-1 is issued by the [Institute of Company Secretaries of India](https://www.icsi.edu/). Our full guide to [board minutes of meeting in India](https://lynkk.ai/blog/board-minutes-of-meeting) covers the format and a sample.
+Under [Section 118 of the Companies Act, 2013](https://lawx.in/acts/section/24/309/2964), minutes must be prepared, signed and kept within 30 days of the meeting. SS-1 is issued by the [Institute of Company Secretaries of India](https://www.icsi.edu/). Our full guide to [board minutes of meeting in India](https://lynkk.ai/blog/board-minutes-of-meeting) covers the format and a sample.
 
 ## What is the minutes of meeting format for college and school meetings?
 
