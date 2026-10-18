@@ -78,7 +78,7 @@ Here are the 8 tools we compared, with the free plan and the cheapest paid tier 
 
 ## Which Otter.ai alternatives are worth trying?
 
-We tested each tool on a recurring sales call, a product standup and one in-person meeting. Here is where each one wins and where it falls short.
+We compared each tool using its own pricing page and product documentation. Here is where each one wins and where it falls short.
 
 ### 1. Lynkk (our product): best for one AI before, during and after the meeting
 
