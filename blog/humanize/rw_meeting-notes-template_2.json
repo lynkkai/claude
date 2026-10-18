@@ -1,0 +1,7 @@
+{"meeting-notes-template": {
+"10": "The Cornell method, from [Cornell University's Learning Strategies Center](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/), splits the page into a cue column, a notes column and a summary, and it works well for training sessions and long discussions.",
+"12": "Most teams need 3 meeting notes templates at most: one for recurring team meetings, one for one-on-ones and one for client or external calls. Add more? People stop using any of them.",
+"13": "Store them in 1 shared place, such as a team folder or Notion database, and name them clearly, for example \"TEMPLATE: Weekly sync notes\". Every quarter, prune. Delete sections nobody fills in, because a free meeting notes template only helps if it stays short enough to use in a live meeting.",
+"15": "Google Docs' meeting notes block can pull the event title, date and attendees from Google Calendar automatically, and in Notion, a database of meeting notes lets you filter by project or person later. For Word agendas, see our [meeting agenda template in Word](https://lynkk.ai/blog/meeting-agenda-template-word).",
+"18": "Use a template when meetings are short, you are comfortable typing while listening, or you cannot record, and switch to an AI note taker when meetings are long, you need to participate fully, or meet in several languages."
+}}

@@ -1,0 +1,6 @@
+{"hindi-transcription": {
+"9": "Building an app? [Google Cloud Speech-to-Text](https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages) names Hindi (hi-IN) among the languages its paid API accepts.",
+"16": "One Google Meet caveat: Gemini's Take notes for me lacks Hindi support. Details live in [Google Meet AI note takers in India](https://lynkk.ai/blog/google-meet-ai-note-taker).",
+"24": "Job hunting? Confirm the platform is established and read its pay terms. Never hand over a fee to get hired.",
+"26": "Yes. Google Docs voice typing supports Hindi in Chrome, YouTube generates Hindi auto-captions, and Google Cloud Speech-to-Text offers Hindi as a paid API. Docs voice typing also runs in Edge and Safari. The bottleneck is speed: it transcribes only in real time, so a 1-hour recording takes at least an hour."
+}}

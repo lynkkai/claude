@@ -50,7 +50,7 @@
           "name": "What is the time limit for board minutes in India?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Under SS-1, draft minutes go to directors within 15 days and directors comment within 7 days. Section 118 requires minutes to be prepared, signed and kept within 30 days, and a certified copy of the signed minutes goes to directors within 15 days of signing."
+            "text": "SS-1 sets 15 days for draft minutes to reach directors and 7 days for their comments. Section 118 requires minutes to be prepared, signed and kept within 30 days. A certified copy of the signed minutes goes to directors within 15 days of signing."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "Who signs board minutes of meeting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The chairperson of the meeting signs the minutes, or the chairperson of the next meeting if needed. The company secretary usually prepares them. The last page of each meeting's minutes is dated and signed. Directors receive a certified copy of the signed minutes, so everyone works from the same final record."
+            "text": "The chairperson of the meeting signs the minutes, or the next meeting's chairperson if needed. Usually the company secretary prepares them. Each meeting's minutes end with a dated, signed last page. Directors receive a certified copy of the signed minutes, so everyone works from one final record."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "How long must board minutes be preserved?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Board and committee meeting minutes must be preserved permanently, usually in the minutes book kept at the company's registered office. Keep supporting papers, such as notices and board packs, alongside the minutes. Auditors and due diligence teams usually ask for both together."
+            "text": "Board and committee meeting minutes must be preserved permanently, usually in the minutes book kept at the company's registered office. Keep supporting papers, such as notices and board packs, alongside them. Why? Auditors and due diligence teams usually ask for both together."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "Can board minutes be changed after signing?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Signed minutes should not be altered. Any correction should be approved at a later board meeting and recorded in that meeting's minutes. Never edit a signed page or use loose sheets. Corrections belong in the next meeting's minutes, which keeps the record trustworthy as evidence."
+            "text": "Signed minutes should not be altered. Any correction should be approved at a later board meeting and recorded in that meeting's minutes. Never edit a signed page or use loose sheets. Fixes belong in the next meeting's minutes, which keeps the record trustworthy as evidence."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "Are board minutes confidential?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Board minutes are internal records, not public filings, but they may be inspected by directors, auditors and authorities, and some resolutions must be filed with the Registrar of Companies. Directors should treat them as confidential unless the board decides otherwise."
+            "text": "Board minutes are internal records. They are not public filings, but they may be inspected by directors, auditors and authorities, and some resolutions must be filed with the Registrar of Companies. Directors should treat them as confidential unless the board decides otherwise."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "Can minutes be kept electronically?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Companies may maintain minutes in electronic form subject to the applicable rules on security and signatures. Confirm the current requirements with your company secretary. Electronic minutes still need the same content, timelines and signatures as paper minutes. Keep secure backups and an audit trail of who changed what. <!-- HANDOFF Prompts answered: \"board minutes of meeting\", \"minutes of board meeting format\", \"how to write minutes of board meeting\", \"are minutes of meeting legally binding\", \"time limit for board minutes india\". Prompt gaps (createprompt): \"board minutes format for video conferencing meeting\". Fan-out source: Ubersuggest googlesuggestions (country=in: how to write minutes of board meeting, are minutes legally binding, can minutes be altered, held through video conferencing, shall be preserved for, format under companies act 2013, board meeting vs board resolution) + SERP India (caclubindia specimen, sec.gov, governance institutes), 2026-10-17. Inbound links: from /blog/meeting-minutes-sample and /blog/founders-meeting-notes. Editor checks: Sec 118(1), (2), (7), (8) verified against the statute text (lawx.in, 2026-10-18); SS-1 2024 timelines from the ICSI PDF as quoted in search (icsi.edu PDF links currently 404); Sec 173(1), (3), (5) and 174(1) verified against statute text on lawx.in. See blog/review/legal-review.md; have a company secretary review before publish. Electronic minutes FAQ deliberately general. -->"
+            "text": "Yes. Companies may maintain minutes in electronic form subject to the applicable rules on security and signatures. Confirm the current requirements with your company secretary. Electronic minutes still need identical content, timelines and signatures to paper ones. Keep secure backups and an audit trail of who changed what. <!-- HANDOFF Prompts answered: \"board minutes of meeting\", \"minutes of board meeting format\", \"how to write minutes of board meeting\", \"are minutes of meeting legally binding\", \"time limit for board minutes india\". Prompt gaps (createprompt): \"board minutes format for video conferencing meeting\". Fan-out source: Ubersuggest googlesuggestions (country=in: how to write minutes of board meeting, are minutes legally binding, can minutes be altered, held through video conferencing, shall be preserved for, format under companies act 2013, board meeting vs board resolution) + SERP India (caclubindia specimen, sec.gov, governance institutes), 2026-10-17. Inbound links: from /blog/meeting-minutes-sample and /blog/founders-meeting-notes. Editor checks: Sec 118(1), (2), (7), (8) verified against the statute text (lawx.in, 2026-10-18); SS-1 2024 timelines from the ICSI PDF as quoted in search (icsi.edu PDF links currently 404); Sec 173(1), (3), (5) and 174(1) verified against statute text on lawx.in. See blog/review/legal-review.md; have a company secretary review before publish. Electronic minutes FAQ deliberately general. -->"
           }
         }
       ]

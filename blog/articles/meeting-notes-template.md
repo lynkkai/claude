@@ -34,9 +34,9 @@ featured_image_alt: "Free meeting notes template with decisions and action items
 
 *Disclosure: Lynkk publishes this guide and makes an AI meeting assistant that writes meeting notes automatically.*
 
-A free meeting notes template saves you from the blank page and, more importantly, from forgetting the parts that matter. Most messy notes miss the same 2 things: what was decided and who owns what next. A template with those sections built in fixes that.
+A free meeting notes template saves you from the blank page and, more importantly, from forgetting the parts that matter, which in most messy notes are the same 2 things: what was decided and who owns what next. Build those sections in. Problem solved.
 
-These templates are plain text, so they paste cleanly into Word, Google Docs, Notion, OneNote or an email. Pick the one that matches your meeting.
+These templates are plain text. That means they paste cleanly into Word, Google Docs, Notion, OneNote or an email. Pick the one that matches your meeting.
 
 ## What should you include in meeting notes?
 
@@ -52,7 +52,7 @@ Optional sections include open questions, parking lot items and links to documen
 
 ## What is a good general free meeting notes template?
 
-This general meeting notes template works for most team and internal meetings.
+Most team and internal meetings? This general meeting notes template covers them.
 
 ```
 MEETING NOTES
@@ -87,7 +87,7 @@ NEXT MEETING: [Date and time]
 
 ## What does an action-focused meeting notes template look like?
 
-Use this when the meeting is about getting work moving, such as project syncs and standups. It puts actions first.
+Use this when the meeting is about getting work moving, such as project syncs and standups. Actions come first.
 
 ```
 ACTION NOTES: [Meeting name], [Date]
@@ -106,7 +106,7 @@ NOTES
 [Anything else worth keeping]
 ```
 
-For engineering teams, our [daily standup guide](https://lynkk.ai/blog/daily-standup-meeting) shows how to keep these short.
+Engineering team? Our [daily standup guide](https://lynkk.ai/blog/daily-standup-meeting) shows how to keep these short.
 
 ## What should a one-on-one meeting notes template include?
 
@@ -134,7 +134,7 @@ Action items
 
 ## What should client call notes include?
 
-Client calls need extra fields for commitments and follow-up, because promises made on the call become expectations.
+Client calls need extra fields for commitments and follow-up. Why? Promises made on the call become expectations.
 
 ```
 CLIENT CALL NOTES
@@ -160,7 +160,7 @@ Send a recap the same day using our [follow-up email after meeting examples](htt
 
 ## How do you use the Cornell method for meeting notes?
 
-The Cornell method, from [Cornell University's Learning Strategies Center](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/), splits the page into a cue column, a notes column and a summary. It works well for training sessions and long discussions.
+The Cornell method, from [Cornell University's Learning Strategies Center](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/), splits the page into a cue column, a notes column and a summary, and it works well for training sessions and long discussions.
 
 | Cues and questions | Notes |
 |---|---|
@@ -172,9 +172,9 @@ Write notes on the right during the meeting, add cues on the left right after, a
 
 ## How many meeting notes templates does a team need?
 
-Most teams need 3 meeting notes templates at most: one for recurring team meetings, one for one-on-ones and one for client or external calls. More than that, and people stop using any of them.
+Most teams need 3 meeting notes templates at most: one for recurring team meetings, one for one-on-ones and one for client or external calls. Add more? People stop using any of them.
 
-Store them in 1 shared place, such as a team folder or Notion database, and name them clearly, for example "TEMPLATE: Weekly sync notes". Review them every quarter and delete sections nobody fills in. A free meeting notes template only helps if it stays short enough to use in a live meeting.
+Store them in 1 shared place, such as a team folder or Notion database, and name them clearly, for example "TEMPLATE: Weekly sync notes". Every quarter, prune. Delete sections nobody fills in, because a free meeting notes template only helps if it stays short enough to use in a live meeting.
 
 ## How do you use these templates in Word, Google Docs and Notion?
 
@@ -187,11 +187,11 @@ Each template takes under 2 minutes to set up in your tool of choice:
 | Notion | Paste into a page, then turn it into a database template. Notion's [template gallery](https://www.notion.com/templates) has more |
 | OneNote | Paste into a page and use it as a page template |
 
-Google Docs' meeting notes block can pull the event title, date and attendees from Google Calendar automatically. In Notion, a database of meeting notes lets you filter by project or person later. For Word agendas, see our [meeting agenda template in Word](https://lynkk.ai/blog/meeting-agenda-template-word).
+Google Docs' meeting notes block can pull the event title, date and attendees from Google Calendar automatically. In Notion, a database of meeting notes lets you filter by project or person later, and for Word agendas there is our [meeting agenda template in Word](https://lynkk.ai/blog/meeting-agenda-template-word).
 
 ## How do you structure meeting notes so people read them?
 
-Structure meeting notes with the most important information at the top: decisions and action items first, discussion below. Most readers skim the first 5 lines, so put what they need there.
+Structure meeting notes with the most important information at the top: decisions and action items first, discussion below. Most readers skim the first 5 lines. Put what they need there.
 
 Three formatting rules help:
 
@@ -201,11 +201,11 @@ Three formatting rules help:
 
 ## Should you use a template or an AI note taker?
 
-Use a template when meetings are short, you are comfortable typing while listening, or you cannot record. Use an AI note taker when meetings are long, you need to participate fully, or you meet in several languages.
+Use a template when meetings are short, you are comfortable typing while listening, or you cannot record. When meetings are long, when you need to participate fully, or when you meet in several languages, use an AI note taker instead.
 
 > **Let Lynkk do it.** Lynkk records your meeting on Zoom, Google Meet, Teams or in person and fills this template for you: key points, decisions, and action items with owners and dates, sent to Jira in one click. Before the next meeting, the Meeting Brief shows what is still open. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
-For a method that works with or without AI, read [how to take good meeting notes](https://lynkk.ai/blog/how-to-take-good-meeting-notes).
+Want a method that works with or without AI? Read [how to take good meeting notes](https://lynkk.ai/blog/how-to-take-good-meeting-notes).
 
 **More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [standup notes with Lynkk](https://lynkk.ai/use-cases/team-standups).
 
@@ -221,7 +221,7 @@ The best format lists meeting details and attendees, then key points, decisions 
 
 ### How do I make a meeting notes template in Google Docs?
 
-Type @meeting notes in a Google Doc to insert the built-in meeting notes block, or paste one of the templates above and save the Doc to reuse. The meeting notes block can pull the event title, date and attendees from Google Calendar, which saves typing them in every week.
+Type @meeting notes in a Google Doc to insert the built-in meeting notes block, or paste one of the templates above and save the Doc to reuse. Handy detail: the block can pull the event title, date and attendees from Google Calendar. No more typing them in every week.
 
 ### Does Notion have a free meeting notes template?
 
@@ -233,7 +233,7 @@ Meeting notes are informal records for your team. Minutes are the official recor
 
 ### How soon should meeting notes be shared?
 
-Share meeting notes the same day, ideally within an hour of the meeting, while people still remember the context. Notes shared the next day are read far less, because people have already moved on to other work and forgotten the context.
+Share meeting notes the same day, ideally within an hour of the meeting, while people still remember the context. Send them the next day and they are read far less. By then people have moved on to other work and forgotten the context.
 
 <!-- HANDOFF
 Prompts answered: "meeting notes template free", "free meeting notes template word", "free meeting notes template google docs", "what to include in meeting notes", "how to structure meeting notes".

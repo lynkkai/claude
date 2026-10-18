@@ -50,7 +50,7 @@
           "name": "Is the Notion AI note taker free?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Notion AI Meeting Notes is included on the Business plan ($20 per member per month) and Enterprise. Free and Plus plans get only a limited trial. If you are on Plus today, moving to Business for meeting notes doubles your per-member cost from $10 to $20, so compare it with dedicated tools."
+            "text": "No. Notion AI Meeting Notes is included on the Business plan ($20 per member per month) and Enterprise. Free and Plus plans get only a limited trial. On Plus today? Moving to Business for meeting notes doubles your per-member cost from $10 to $20, so compare it with dedicated tools."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How do I use Notion's AI note taker?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Open the Notion desktop app, type /meet on a page, click Start transcribing when the meeting begins, and click Stop when it ends. Notion writes the summary into the page. Notion needs at least 1 minute of speech to write a summary, and each user can transcribe up to 10 hours a day."
+            "text": "Open the Notion desktop app, type /meet on a page, click Start transcribing when the meeting begins, and click Stop when it ends. Notion writes the summary into the page. It needs at least 1 minute of speech to write a summary, and each user can transcribe up to 10 hours a day."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "Is Notion's note taker better than Granola?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Notion is better if your team already uses Notion Business and wants notes inside its workspace. Granola is better as a standalone, cheaper note app with mobile capture on iPhone and Android. Choose Notion if notes should live beside your docs and tasks. Choose Granola if you want a separate app."
+            "text": "Notion is better if your team already uses Notion Business and wants notes inside its workspace. Granola is better as a standalone, cheaper note app with mobile capture on iPhone and Android. Choose Notion if notes should live beside your docs and tasks, or Granola if you want a separate app."
           }
         },
         {

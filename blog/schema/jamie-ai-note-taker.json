@@ -50,7 +50,7 @@
           "name": "Is the Jamie AI note taker free?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Jamie's free plan includes 10 AI notes a month, each up to 30 minutes long. Paid plans start at $24 for Plus. The 30-minute cap is the main limit, so a 45-minute client call gets cut off. The free plan suits short check-ins and testing rather than daily use."
+            "text": "Yes. Jamie's free plan includes 10 AI notes a month, each up to 30 minutes long, and paid plans start at $24 for Plus. That 30-minute cap is the main limit, so a 45-minute client call gets cut off. Short check-ins and testing suit it better than daily use."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How much does Jamie AI cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Jamie Plus costs $24, Pro costs $46 a month billed yearly, and Team costs $37 per seat per month billed yearly. Enterprise pricing is custom. Monthly billing is available through a toggle on Jamie's pricing page. Pro is the first plan with unlimited notes and 5-hour meetings."
+            "text": "Jamie Plus costs $24, Pro costs $46 a month billed yearly, and Team costs $37 per seat per month billed yearly. Enterprise pricing is custom, and monthly billing is available through a toggle on Jamie's pricing page. Pro is the first plan with unlimited notes and 5-hour meetings."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "Does Jamie join meetings as a bot?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Jamie records audio from your device, so no bot appears in Zoom, Google Meet or Teams. You still need to tell attendees the meeting is being recorded. Because nothing joins the call, Jamie works with almost any meeting app. You must start it yourself, so missed starts mean missed notes."
+            "text": "No. Jamie records audio from your device, so no bot appears in Zoom, Google Meet or Teams. Attendees still need to be told the meeting is being recorded. Because nothing joins the call, it works with almost any meeting app. The catch: you must start it yourself, so missed starts mean missed notes."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "Does Jamie work on Android?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, in beta. Jamie offers an iOS app and a beta Android app for in-person meetings. Desktop apps handle online meetings. Because the Android app is a beta, features may lag the iPhone version. Test it on a real in-person meeting before relying on it."
+            "text": "Yes, in beta. Jamie offers an iOS app and a beta Android app for in-person meetings, while desktop apps handle online meetings. Because the Android app is a beta, features may lag the iPhone version. Test it on a real in-person meeting before relying on it."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "Which languages does Jamie support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Jamie lists notes and transcripts in 99+ languages on its pricing page. Speaker recognition and task detection are included on every plan. Jamie hosts data in the EU and states it does not train models on your data, which suits teams with European clients or strict privacy rules."
+            "text": "Jamie lists notes and transcripts in 99+ languages on its pricing page. Speaker recognition and task detection are included on every plan. Data is hosted in the EU, and Jamie states it does not train models on your data, which suits teams with European clients or strict privacy rules."
           }
         },
         {
