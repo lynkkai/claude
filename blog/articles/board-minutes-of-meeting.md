@@ -166,11 +166,11 @@ At least 7 days' written notice must go to directors. Quorum, under Section 174(
 
 Board minutes are not a contract. They are evidence, though. Minutes kept in line with the Act are evidence of the proceedings recorded (Section 118(7)). Section 118(8) adds that, until the contrary is proved, the meeting is deemed duly called and held, and appointments of directors, key managerial personnel and auditors recorded in the minutes are deemed valid.
 
-Hence accuracy matters. Once signed, minutes should not be altered under SS-1 practice; any correction should be approved at a later meeting and recorded in that meeting's minutes.
+Hence accuracy matters. Under SS-1 practice, once signed, minutes should not be altered; any correction should be approved at a later meeting and recorded in that meeting's minutes.
 
 ## Can board meetings and minutes be done through video conferencing?
 
-Yes. Indian companies can hold board meetings through video conferencing or other audio-visual means, subject to the rules and certain restricted matters. Minutes must record which directors attended this way, and the chairperson must confirm attendance and quorum.
+Yes. Indian companies can hold board meetings through video conferencing or other audio-visual means, subject to the rules and certain restricted matters. Minutes must record which directors attended through video conferencing, and the chairperson must confirm attendance and quorum.
 
 A recording helps the company secretary draft accurate minutes. Still, the minutes remain the legal record. Not the recording.
 

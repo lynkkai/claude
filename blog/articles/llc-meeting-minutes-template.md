@@ -157,7 +157,7 @@ Yes, slightly. Member-managed LLCs record meetings of their members. A manager-m
 | Typical minutes | Member meetings | Manager meetings and member meetings |
 | Member vote needed for | Most major decisions | Only reserved decisions |
 
-Which decisions need a member vote? Your operating agreement says. Record those as member resolutions even if managers proposed them.
+Check your operating agreement for which decisions need a member vote. Record those as member resolutions even if managers proposed them.
 
 ## What should LLC meeting minutes include?
 

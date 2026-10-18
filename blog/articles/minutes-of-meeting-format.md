@@ -33,9 +33,9 @@ featured_image_alt: "Minutes of meeting format template with attendees, decision
 
 *Disclosure: Lynkk publishes this guide and makes an AI meeting assistant that drafts minutes automatically.*
 
-The minutes of meeting format most Indian offices use is simple, but small gaps cause big problems later. Missing owners mean tasks drift. Missing decisions mean the same topic comes back next month. Missing attendance means nobody can prove who agreed.
+The minutes of meeting format most Indian offices use is simple, but small gaps cause big problems later. No owners? Tasks drift. Skip the decisions and the same topic comes back next month. Leave out attendance, and nobody can prove who agreed.
 
-This guide gives you a copy-ready MoM format, filled-in examples, variations for company board meetings, colleges, schools and housing societies, and an email format to send minutes the same day.
+Inside: a copy-ready MoM format, filled-in examples, variations for company board meetings, colleges, schools and housing societies, plus an email format to send minutes the same day.
 
 ## What is a minutes of meeting format?
 
@@ -48,7 +48,7 @@ Good minutes answer 4 questions for someone who was not there:
 3. Who owns each next step, and by when?
 4. When is the next meeting?
 
-If your notes answer those 4 questions, they are minutes. If not, they are just notes. See [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes) for the difference.
+Notes that answer those 4 questions are minutes. Otherwise, just notes. The difference is explained in [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes).
 
 ## What are the 8 parts of a standard MoM format?
 
@@ -150,7 +150,7 @@ NEXT MEETING: 21 October 2026, 11:00 am, Google Meet
 Prepared by: Rahul Shah   Approved by: Neha Kulkarni
 ```
 
-Notice that each decision is one sentence and each action has 1 owner and 1 date. That is what makes minutes useful a month later.
+Notice: every decision is one sentence, and every action has 1 owner and 1 date. That is what makes minutes useful a month later.
 
 ## How do you write minutes of meeting step by step?
 
@@ -163,17 +163,17 @@ Writing minutes of meeting takes about 15 minutes for a 1-hour meeting if you fo
 5. **Same day:** send the draft to the chairperson for review.
 6. **Within 2 days:** circulate the final minutes and add open actions to your task tracker.
 
-The biggest time saver is step 3: capture decisions and owners live, not from memory later.
+Step 3 saves the most time: capture decisions and owners live, not from memory later.
 
 ## What is the minutes of meeting format for a company board meeting?
 
 For a company board meeting in India, the minutes of meeting format must follow Section 118 of the Companies Act, 2013 and Secretarial Standard 1 (SS-1). Board minutes need extra details: quorum, directors present in person or by video conferencing, interested directors, and the text of each resolution passed.
 
-Under [Section 118 of the Companies Act, 2013](https://lawx.in/acts/section/24/309/2964), minutes must be prepared, signed and kept within 30 days of the meeting. SS-1 is issued by the [Institute of Company Secretaries of India](https://www.icsi.edu/). Our full guide to [board minutes of meeting in India](https://lynkk.ai/blog/board-minutes-of-meeting) covers the format and a sample.
+Minutes must be prepared, signed and kept within 30 days of the meeting, under [Section 118 of the Companies Act, 2013](https://lawx.in/acts/section/24/309/2964). SS-1 is issued by the [Institute of Company Secretaries of India](https://www.icsi.edu/). Our full guide to [board minutes of meeting in India](https://lynkk.ai/blog/board-minutes-of-meeting) covers the format and a sample.
 
 ## What is the minutes of meeting format for college and school meetings?
 
-For colleges and schools, keep the standard 8-part format and add the committee name and the academic year. Common meetings include staff meetings, IQAC meetings, department meetings, PTA meetings and student council meetings.
+Colleges and schools: keep the standard 8-part format and add the committee name and the academic year. Common ones: staff, IQAC, department, PTA and student council meetings.
 
 Add these fields for academic meetings:
 
@@ -182,11 +182,11 @@ Add these fields for academic meetings:
 - **Members present by category:** faculty, students, parents, external members
 - **Reference numbers:** circulars or letters discussed
 
-For student assignments that ask for a minutes of meeting format, use the same structure and keep the language formal and in past tense.
+Student assignment asking for a minutes of meeting format? Use the same structure, and keep the language formal and in past tense.
 
 ## What is the minutes of meeting format for a housing society or RWA?
 
-For a cooperative housing society or resident welfare association (RWA), add membership details and voting. Society meetings often decide maintenance charges, repairs and vendor contracts, so record figures and votes clearly.
+Writing minutes for a cooperative housing society or resident welfare association (RWA)? Add membership details and voting. Society meetings often decide maintenance charges, repairs and vendor contracts, so record figures and votes clearly.
 
 Extra fields for society minutes:
 
@@ -195,11 +195,11 @@ Extra fields for society minutes:
 - **Resolutions:** proposed by, seconded by, votes for and against
 - **Amounts approved:** in rupees, with the vendor name
 
-Check your society's bye-laws and your state's cooperative societies rules, since requirements differ by state.
+Requirements differ by state, so check your society's bye-laws and your state's cooperative societies rules.
 
 ## Minutes of meeting format for email
 
-To send minutes by email, use this short format. It works for internal teams and clients.
+Sending minutes by email? Use this short format, which works for internal teams and clients.
 
 ```
 Subject: MoM: [Meeting name], [Date]
@@ -226,7 +226,7 @@ Regards,
 [Name]
 ```
 
-For more email wording, see our [follow-up email after meeting examples](https://lynkk.ai/blog/follow-up-email-after-meeting).
+More email wording: our [follow-up email after meeting examples](https://lynkk.ai/blog/follow-up-email-after-meeting).
 
 ## Which format is best: Word, Excel or PDF?
 
@@ -244,7 +244,7 @@ Use Word or Google Docs to write and edit minutes (Microsoft also offers [free m
 
 Yes. AI meeting assistants can draft minutes of meeting within minutes of a meeting ending, with attendees, discussion, decisions and action items. A person should still check names, figures and resolutions before the minutes are approved, especially for board or society meetings.
 
-Lynkk (our product) also prepares a Meeting Brief before your next meeting with open action items from the last one, sends tasks to Jira in one click, and lets you search old minutes with Ask Lynkk. Free covers 5 notes a month at up to 2 hours each; Pro costs $15 a month. Compare other options in our list of the [best apps for meeting minutes](https://lynkk.ai/blog/app-for-meeting-minutes).
+Lynkk (our product) also prepares a Meeting Brief before your next meeting with open action items from the last one, sends tasks to Jira in one click, and lets you search old minutes with Ask Lynkk. Free covers 5 notes a month at up to 2 hours each. Pro costs $15 a month. Compare other options in our list of the [best apps for meeting minutes](https://lynkk.ai/blog/app-for-meeting-minutes).
 
 **More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [Hinglish transcription for meetings](https://lynkk.ai/features/hinglish-transcription).
 
@@ -252,19 +252,19 @@ Lynkk (our product) also prepares a Meeting Brief before your next meeting with 
 
 ### What is the format of minutes of meeting?
 
-The standard format has 8 parts: heading, date, time and venue, attendance, agenda, discussion, decisions, action items with owner and deadline, and next meeting details with signature. Copy the template above into Word or Google Docs, and save it so every meeting starts from the same structure.
+The standard format has 8 parts: heading, date, time and venue, attendance, agenda, discussion, decisions, action items with owner and deadline, and next meeting details with signature. Copy the template above into Word or Google Docs, and save it, so every meeting starts from an identical structure.
 
 ### How do I write minutes of meeting in simple words?
 
-Write who attended, list each agenda item, add 2 to 4 lines on what was discussed, write each decision in one sentence, and list every action with one owner and a deadline. Use past tense and keep side conversations out. One owner and one deadline per action is what makes minutes useful a month later.
+Write who attended, list each agenda item, add 2 to 4 lines on what was discussed, write each decision in one sentence, and list every action with one owner and a deadline. Past tense, no side conversations. One owner and one deadline per action is what makes minutes useful a month later.
 
 ### Who signs the minutes of meeting?
 
-The person who recorded the minutes prepares them, and the chairperson approves and signs them. For company board meetings, the chairperson signs under the Companies Act, 2013. For housing societies and other associations, the chairperson usually signs after the members approve the minutes at the next meeting.
+The person who recorded the minutes prepares them, and the chairperson approves and signs them. Company board meetings: the chairperson signs under the Companies Act, 2013. In housing societies and other associations, the chairperson usually signs after the members approve the minutes at the next meeting.
 
 ### How soon should minutes of meeting be sent?
 
-Send draft minutes the same day or within 2 working days, while details are fresh. For company board meetings, Section 118 requires minutes to be prepared and signed within 30 days. Under SS-1, board minutes are circulated in draft within 15 days, with comments due within 7 days of circulation.
+Send draft minutes the same day or within 2 working days, while details are fresh. Section 118 requires company board minutes to be prepared and signed within 30 days. Under SS-1, board minutes are circulated in draft within 15 days, with comments due within 7 days of circulation.
 
 ### Can I write minutes of meeting in Hindi?
 
@@ -272,7 +272,7 @@ Yes. Use the same 8-part format in Hindi, often titled बैठक का क�
 
 ### What is the difference between minutes and notes?
 
-Notes are informal and personal. Minutes are the official record of attendance, decisions and actions, and are usually approved at the next meeting. For college and school assignments, use the formal minutes format, written in the past tense with numbered agenda items.
+Notes are informal and personal. Minutes are the official record of attendance, decisions and actions, and are usually approved at the next meeting. College or school assignment? Use the formal minutes format, written in the past tense with numbered agenda items.
 
 <!-- HANDOFF
 Prompts answered: "minutes of meeting format", "mom format", "minutes of meeting format with example", "minutes of meeting format email", "minutes of meeting format for college", "minutes of meeting format for society".
