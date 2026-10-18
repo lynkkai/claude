@@ -29,13 +29,18 @@ REQUIRED = [
 QUESTION_START = re.compile(
     r"^(how|what|which|why|when|where|who|is|are|can|does|do|should|will|"
     r"was|were|did)\b", re.I)
-STOP = {"a", "an", "the", "for", "of", "to", "in", "on", "and", "vs", "with"}
+STOP = {"a", "an", "the", "for", "of", "to", "in", "on", "and", "vs", "with"}  # matching is stopword-insensitive
 
 
 def norm(text):
     """Lowercase and treat dots and hyphens as spaces (hyphen-insensitive)."""
     text = text.lower().replace(".", " ").replace("-", " ")
     return re.sub(r"\s+", " ", text)
+
+
+def nostop(text):
+    """Drop stopwords so "record google meet call" matches "record a Google Meet call"."""
+    return " ".join(t for t in norm(text).split() if t not in STOP)
 
 
 def split(path):
@@ -109,9 +114,10 @@ def check(path):
         warns.append("primary keyword not in any H2")
     after_h1 = body.split("\n", 1)[1] if h1 else body
     first100 = " ".join(words(strip_md(after_h1))[:100])
-    if kw and kw not in norm(first100):
+    if kw and kw not in norm(first100) and nostop(kw) not in nostop(first100):
         fails.append("primary keyword not in first 100 words")
-    occurrences = norm(plain_body).count(kw) if kw else 0
+    occurrences = max(norm(plain_body).count(kw),
+                      nostop(plain_body).count(nostop(kw))) if kw else 0
     density = 100 * occurrences / max(wc, 1)
     info.append(f"keyword x{occurrences} ({density:.2f}%)")
     if density > 1.5:
