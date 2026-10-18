@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Granola AI Pricing in 2026: What US Users Actually Pay",
+      "description": "Granola pricing for 2026 explained: Basic free plan limits, Business at $14 and Enterprise at $35 per user, team cost examples, and cheaper alternatives.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/granola-pricing",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/granola-pricing.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Granola AI Pricing in 2026: What US Users Actually Pay",
+          "item": "https://lynkk.ai/blog/granola-pricing"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much is Granola per month?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Granola Business costs $14 per user per month and Enterprise costs $35 per user per month. The Basic plan is free."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Granola free forever?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Granola Basic is free with no time limit, but it keeps only 30 days of meeting history. To keep older notes, you need Business at $14 per user per month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Granola have annual pricing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only on Enterprise. Granola's help center says Basic and Business are billed monthly and annual billing is available on Enterprise contracts only."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between Granola Business and Enterprise?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Business ($14) adds unlimited history, advanced AI models and integrations. Enterprise ($35) adds SSO, admin controls, org-wide auto-deletion, usage analytics and priority support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Granola charge per meeting or per minute?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Granola charges per user per month. None of its plans list a minute or meeting cap; the free plan's limit is 30 days of history."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a cheaper alternative to Granola?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fireflies Pro costs $10 per seat billed yearly and Fathom's free plan records unlimited calls. Lynkk costs $15 a month and adds prep, live answers and Jira tickets. <!-- HANDOFF Prompts answered: \"granola pricing\", \"how much does granola cost\", \"is granola free\", \"granola business vs enterprise\". Prompt gaps (createprompt): \"granola student discount\". Fan-out source: Ubersuggest googlesuggestions (pricing plans, tiers, enterprise, business, student, monthly, annual, how much does granola cost) + SERP (granola.ai/pricing, read.ai, get-alfred), 2026-10-17. Food-price rows excluded. Inbound links: from /blog/best-free-ai-note-takers and /blog/best-ai-note-takers. Editor checks: re-check granola.ai/pricing and docs.granola.ai billing page the week of publish (student/startup/nonprofit programs and Enterprise-only annual billing are from the help center, 2026-10-18). -->"
+          }
+        }
+      ]
+    }
+  ]
+}

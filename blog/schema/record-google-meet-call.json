@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "How to Record a Google Meet Call for Free in 2026",
+      "description": "How to record a Google Meet call in 2026: built-in recording steps, which plans allow it, free options for personal Gmail, laptop, Android and iPhone tips.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/record-google-meet-call",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/record-google-meet-call.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Record a Google Meet Call for Free in 2026",
+          "item": "https://lynkk.ai/blog/record-google-meet-call"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I record a Google Meet call for free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your plan does not include recording, use a free screen recorder such as Windows Game Bar or OBS Studio, or an AI meeting assistant with a free plan like Lynkk. Always tell participants first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I record Google Meet on a personal Gmail account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not with the built-in recorder, unless you have Google One with 2 TB or more storage. Free Gmail accounts can use screen recorders or AI note takers instead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where are Google Meet recordings saved?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the meeting organizer's Google Drive, inside a \"Google Meet\" folder with a sub-folder for each meeting. Google also emails the link to the organizer and the person who started the recording."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is the record button missing in Google Meet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your plan may not include recording, your admin may have disabled it, the host may not have given you permission, or you may be on an iPhone, where built-in recording is not available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I record a Google Meet call on my phone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On Android, yes, if your plan allows it. On iPhone, Google Meet's built-in recording is not available, so join from a laptop or use an AI note taker."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do participants know when a Google Meet call is recorded?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when you use Google Meet's built-in recorder, participants are notified. Screen recorders do not notify anyone, so announce the recording yourself. <!-- HANDOFF Prompts answered: \"how to record google meet call\", \"how to record google meet call for free\", \"why can't i record google meet call\", \"record google meet on iphone\", \"does google meet record automatically\". Prompt gaps (createprompt): \"how to record google meet without permission\" (do not target; consent risk). Fan-out source: Ubersuggest googlesuggestions (for free, on laptop, on android, on iphone, with audio, why can't i record, does google meet record automatically) + SERP (Google support, Workspace marketplace, reddit), 2026-10-17. Inbound links: from /blog/google-meet-transcript and /blog/zoom-meeting-recorders. Editor checks: Windows Game Bar / macOS / OBS shortcuts are general OS knowledge; Business Starter absence is inferred from Google's edition list. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

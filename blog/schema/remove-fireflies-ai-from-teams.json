@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "How to Remove Fireflies.ai From Teams, Zoom and Meet in 2026",
+      "description": "How to remove Fireflies AI from Teams, Zoom and Google Meet in 2026: kick Fred out of a live call, stop auto-join, block it as an admin and delete the account.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/remove-fireflies-ai-from-teams",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/remove-fireflies-ai-from-teams.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Remove Fireflies.ai From Teams, Zoom and Meet in 2026",
+          "item": "https://lynkk.ai/blog/remove-fireflies-ai-from-teams"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I permanently remove Fireflies AI from Microsoft Teams?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Delete or disconnect the Fireflies account that sends the bot, remove fred@fireflies.ai from invites, and have a Teams admin block the app in the Teams admin center under Teams apps, then Manage apps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I kick Fireflies out of a meeting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open the participant list, click the menu next to Fireflies and choose Remove from meeting, or type /ff leave in the meeting chat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does Fireflies keep joining my Teams meetings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fireflies joins because an attendee connected their calendar with auto-join turned on. Ask the bot's owner to switch auto-join to Only when I invite, or remove fred@fireflies.ai from the invite."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will removing Fireflies delete the transcript?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If Fireflies is removed within the first 3 minutes, no transcript or notes are created. If removed later, the owner may still get notes for the part it recorded."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I block Fireflies without admin rights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can remove it from meetings you organize and set your lobby so only organizers bypass it. Blocking it for the whole company requires a Teams admin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Fireflies AI safe to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fireflies is a legitimate product with enterprise security options, including HIPAA and SSO on its Enterprise plan. The common problem is uninvited joining through auto-join, which you can control in settings. <!-- HANDOFF Prompts answered: \"how to remove fireflies ai from teams\", \"remove fireflies ai from microsoft teams permanently\", \"how to disable fireflies ai in teams\", \"remove fireflies from zoom\", \"why does fireflies keep joining my meetings\". Prompt gaps (createprompt): \"how to block ai note takers in teams\". Fan-out source: Ubersuggest googlesuggestions (permanently, from teams meetings, from microsoft account, from outlook, how to disable, is fireflies ai safe) + SERP (Microsoft Q&A, university IT KBs, Fireflies guide), 2026-10-17. Inbound links: from /blog/ai-note-taker-microsoft-teams and /blog/zoom-bot-join-meeting. Editor checks: Entra ID and lobby steps are general admin guidance (not from the cited thread); menu names may differ by tenant. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

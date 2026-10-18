@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Follow-Up Email After a Meeting: 12 Examples for 2026",
+      "description": "12 examples of a follow up email after a meeting for 2026: client, sales, business, team, networking and no-reply follow-ups, with subject lines and timing.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/follow-up-email-after-meeting",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/follow-up-email-after-meeting.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Follow-Up Email After a Meeting: 12 Examples for 2026",
+          "item": "https://lynkk.ai/blog/follow-up-email-after-meeting"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you write a follow-up email after a meeting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Thank the attendees, restate decisions, list action items with owners and dates, and confirm the next step. Keep it short and send it within 24 hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long after a meeting should you send a follow-up email?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Within 24 hours, and the same day for client and sales meetings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a good subject line for a follow-up email after a meeting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Name the meeting and the content, such as \"Recap and next steps from today's review\" or \"Team sync Oct 21: decisions and actions\"."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you follow up politely if there is no response?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wait 2 to 3 business days, reply in the same thread, restate the one thing you need and offer a quick call."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should a follow-up email include action items?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Action items with an owner and a due date are the most important part, because they turn the meeting into work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can AI write follow-up emails after meetings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. AI meeting assistants such as Lynkk draft follow-ups from the meeting itself, with decisions and action items already filled in. Review and personalize before sending. <!-- HANDOFF Prompts answered: \"example of follow up email after meeting\", \"follow up email after meeting with client\", \"follow up email after meeting with action items\", \"short follow up email after meeting\", \"how soon to send follow up email after meeting\". Prompt gaps (createprompt): \"follow up email after discovery call\". Fan-out source: Ubersuggest googlesuggestions (after business meeting, with client, disciplinary, short example, with action items, what to write, how often to follow up, after conference) + SERP (vibe.us, goinsight, themuse, tomba), 2026-10-17. The \"disciplinary meeting\" variant is covered neutrally as example 9 with an HR caveat. Inbound links: from /blog/sales-conversation-intelligence and /blog/action-items-examples-template. Editor checks: \"wait 2 to 3 business days\" is common practice advice, not a cited stat. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

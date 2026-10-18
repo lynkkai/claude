@@ -71,7 +71,7 @@ def check(path):
     kw = norm(fm.get("primary_keyword", ""))
 
     # Writing rules
-    for ch, name in (("—", "em dash"), ("–", "en dash")):
+    for ch, name in (("\u2014", "em dash"), ("\u2013", "en dash")):
         n = raw.count(ch)
         if n:
             fails.append(f"{n} {name}(es) found")

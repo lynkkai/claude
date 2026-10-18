@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Avoma Alternatives for US Sales Teams in 2026",
+      "description": "Avoma alternatives for US sales teams in 2026: Gong, Fireflies, Fathom, Otter, Read AI and Lynkk compared on price per seat, CRM sync, coaching and prep.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/avoma-alternatives",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/avoma-alternatives.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Avoma Alternatives for US Sales Teams in 2026",
+          "item": "https://lynkk.ai/blog/avoma-alternatives"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best alternative to Avoma?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fireflies and Fathom Business are the best lower-cost Avoma alternatives with CRM sync. Gong is the best for enterprise revenue intelligence. Lynkk is the best for call prep, live answers and follow-up tasks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who are Avoma's main competitors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avoma's main competitors are Gong, Clari Copilot, Fireflies.ai, Fathom, Otter.ai, Read AI and Lynkk. They range from full revenue platforms to focused note takers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Avoma cost per user?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avoma costs $19 per recorder seat per month on Startup and $29 on Organization, billed yearly. Conversation Intelligence and Revenue Intelligence add-ons cost $29 each per seat billed yearly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Avoma better than Otter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avoma is better for sales teams that want scheduling, coaching and revenue insight in one tool. Otter is better and cheaper if you mainly need transcripts and summaries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a free Avoma alternative?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Fathom's free plan records unlimited calls, and Lynkk, Otter, Read AI and Fireflies have free plans with limits. Avoma offers a 14-day free trial of its Organization plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Avoma have a free trial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Avoma offers a 14-day free trial of the Organization plan with no credit card required. <!-- HANDOFF Prompts answered: \"avoma alternatives\", \"avoma competitors\", \"avoma vs otter\", \"avoma vs copilot\", \"avoma pricing\". Prompt gaps (createprompt): \"cheaper alternative to avoma for small sales teams\". Fan-out source: Ubersuggest googlesuggestions (avoma competitors, avoma vs, avoma vs copilot, avoma vs otter) + SERP (cirrusinsight, sybill, outdoo, meetingnotes), 2026-10-17. Autocomplete was thin, so H2s also trace to SERP titles. Inbound links: from /blog/sales-conversation-intelligence and /blog/ai-powered-meeting-assistants. Editor checks: Gong and Clari Copilot pricing is quote-based (not published); Lynkk positioned honestly for sales (no CRM sync yet). -->"
+          }
+        }
+      ]
+    }
+  ]
+}

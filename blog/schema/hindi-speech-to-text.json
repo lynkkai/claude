@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Hindi Speech to Text in India: Free Voice Typing for 2026",
+      "description": "Hindi speech to text for free in 2026: voice typing on Android, iPhone, Google Docs, Mac and Windows, plus Hinglish meetings and tips for better accuracy.",
+      "inLanguage": "en-IN",
+      "mainEntityOfPage": "https://lynkk.ai/blog/hindi-speech-to-text",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/hindi-speech-to-text.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Hindi Speech to Text in India: Free Voice Typing for 2026",
+          "item": "https://lynkk.ai/blog/hindi-speech-to-text"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How can I convert Hindi speech to text for free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use Gboard voice typing on Android, the iPhone keyboard microphone, or Google Docs voice typing in Chrome with हिन्दी selected. All three are free."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is the best app for Hindi speech to text?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For messages, Gboard on Android or the iPhone keyboard. For documents, Google Docs voice typing. For Hindi or Hinglish meetings, Lynkk records and summarises automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I do Hindi voice typing on a laptop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Open Google Docs in Chrome, Edge or Safari, go to Tools, then Voice typing, and select हिन्दी. It works on Windows, Mac and Chromebook laptops."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Hindi speech to text work offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some phone keyboards support offline voice typing after you download the language pack. Google Docs voice typing needs an internet connection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can speech to text write Hindi in English letters?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Use a Hinglish or Hindi (Latin) keyboard layout on your phone, and dictation will write Hindi words in Roman script."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I convert a Hindi meeting recording to text?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Upload the recording to an AI transcription tool that supports Hindi, or use an AI meeting assistant like Lynkk to capture future meetings automatically with transcript, summary and tasks. <!-- HANDOFF Prompts answered: \"hindi speech to text\", \"hindi voice typing free\", \"hindi speech to text online\", \"hindi speech to text windows 10\", \"best hindi speech to text app\". Prompt gaps (createprompt): \"hinglish speech to text for meetings\". Fan-out source: Ubersuggest googlesuggestions (country=in: free, online free, app, converter, typing, how to convert hindi speech to text, windows 10, api) + SERP India (speechtyping, elevenlabs, Play Store, speechnotes), 2026-10-17. Inbound links: from /blog/voice-to-text-apps and /blog/dictation-on-mac. Editor checks: device menu paths (Gboard, iOS, macOS, Windows) can change between OS versions; spot-check on current devices before publish. Lynkk dictation language list not confirmed, so Mac dictation section points to Apple's built-in dictation. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

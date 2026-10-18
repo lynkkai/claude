@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best AI Meeting Summarizer Tools in the US for 2026",
+      "description": "Team meeting summary AI tools compared for 2026: Teams Copilot recap, Zoom AI Companion, Google Meet notes and 5 cross-platform summarizers, with prices.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/team-meeting-summary-ai",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/team-meeting-summary-ai.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Best AI Meeting Summarizer Tools in the US for 2026",
+          "item": "https://lynkk.ai/blog/team-meeting-summary-ai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can AI summarize a Teams meeting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Microsoft Teams can summarize meetings with Copilot, which requires a Microsoft 365 Copilot license. Third-party tools such as Lynkk, Fathom, Fireflies, Otter and Read AI can also summarize Teams meetings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a free AI meeting summarizer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Fathom summarizes unlimited calls for free. Otter, Read AI and Lynkk also have free plans with monthly limits on minutes or meetings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do I find the AI summary in Zoom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When AI Companion's meeting summary is turned on, Zoom emails the summary to the host after the meeting and keeps it in the host's Zoom account. The host can share it with participants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Google Meet summarize meetings automatically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Meet can summarize meetings with Take notes for me if your Workspace edition or Google AI plan includes it. Someone must turn it on for each meeting, or the organizer can enable it from the calendar event."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does an AI meeting summary take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most AI summarizers deliver a summary within a few minutes after the meeting ends. Longer meetings and video recordings can take a little longer to process."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can AI summarize meetings in Hindi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some tools can. Lynkk supports Hindi and a Hinglish setting for mixed Hindi and English. Google Meet's Take notes for me does not list Hindi among its 8 languages. <!-- HANDOFF Prompts answered: \"team meeting summary ai\", \"can ai summarize a meeting\", \"how to get ai summary from teams meeting\", \"where is ai summary in zoom\", \"is there a free teams meeting summary ai\". Prompt gaps (createprompt): \"ai meeting summary in hindi\". Fan-out source: Ubersuggest googlesuggestions (can ai summarize a meeting, can teams summarize a meeting, how to get ai summary from teams meeting, where is ai summary in zoom, teams meeting summary ai free, meeting summary with ai companion) + SERP (Microsoft Recap doc, tactiq, krisp), 2026-10-17. Inbound links: from /blog/ai-powered-meeting-assistants and /blog/ai-note-taker-microsoft-teams. Editor checks: Zoom AI Companion \"included with paid Zoom Workplace plans\" and summary delivery flow are from general product knowledge; verify on zoom.com before publish. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "LLC Meeting Minutes Template for US Owners in 2026",
+      "description": "Free LLC meeting minutes template for 2026: annual, first-meeting and single-member formats, what to include, whether minutes are required, and how often.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/llc-meeting-minutes-template",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/llc-meeting-minutes-template.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "LLC Meeting Minutes Template for US Owners in 2026",
+          "item": "https://lynkk.ai/blog/llc-meeting-minutes-template"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does an LLC need meeting minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most states do not legally require LLCs to keep minutes, but your operating agreement may, and minutes help document major decisions and support liability protection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should an LLC hold meetings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hold at least one annual meeting and record it, plus record major decisions as they happen. Follow any schedule in your operating agreement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a single-member LLC meeting minutes template?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is usually a written consent signed by the sole member, listing resolutions for the year or for a specific decision."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who signs LLC meeting minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The person who chaired the meeting and the person who recorded the minutes usually sign. For a single-member LLC, the sole member signs a written consent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What decisions should be recorded in LLC minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Admitting members, changing ownership, taking significant debt, buying or selling major assets, opening bank accounts, amending the operating agreement and electing managers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can LLC minutes be kept digitally?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, in most cases. Signed PDFs stored securely with your other company records work well. Check any record-keeping rules in your state and operating agreement. <!-- HANDOFF Prompts answered: \"llc meeting minutes template\", \"are meeting minutes required for an llc\", \"single member llc meeting minutes template\", \"llc annual meeting minutes template\", \"llc first meeting minutes template\", \"how often should an llc have meeting minutes\". Prompt gaps (createprompt): \"llc annual resolution template\". Fan-out source: Ubersuggest googlesuggestions (free, pdf, word, annual, first meeting, single member, are minutes required, how often, requirements, california) + SERP (Northwest Registered Agent, reddit smallbusiness, Microsoft templates, eforms), 2026-10-17. Inbound links: from /blog/founders-meeting-notes and /blog/meeting-minutes-sample. Editor checks: legal statements kept general by design; have counsel review before publish. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

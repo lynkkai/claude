@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "What Is a Discovery Call? A 2026 Guide for US Sales Teams",
+      "description": "What is a discovery call? A 2026 guide for US sales teams: purpose, length, a simple agenda and script, 25 discovery questions, and how to follow up well.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/what-is-a-discovery-call",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/what-is-a-discovery-call.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "What Is a Discovery Call? A 2026 Guide for US Sales Teams",
+          "item": "https://lynkk.ai/blog/what-is-a-discovery-call"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the main purpose of a discovery call?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To understand the prospect's problem, priorities, decision process and timeline, and to decide together whether there is a fit worth pursuing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is a discovery call?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most discovery calls last about 30 minutes. Complex B2B deals may need 45 minutes, and simple products 15 to 20 minutes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a discovery call an interview?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not exactly. It is a two-way conversation. The seller asks most of the questions, but the buyer should also learn something useful and decide whether to continue."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are discovery calls free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In sales, yes: they are part of the sales process. Coaches and consultants also usually offer free discovery calls of 15 to 30 minutes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens after a discovery call?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The seller sends a recap and, if there is a fit, books the next step, often a demo with additional stakeholders or a proposal review."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is another name for a discovery call?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is also called a discovery meeting, qualification call, needs analysis call or, for consultants and coaches, a consultation call. <!-- HANDOFF Prompts answered: \"what is a discovery call\", \"what is a discovery call in sales\", \"purpose of a discovery call\", \"how long should a discovery call be\", \"discovery call questions\", \"discovery call script\". Prompt gaps (createprompt): \"discovery call vs demo\". Fan-out source: Ubersuggest googlesuggestions (in sales, in coaching, for a job, with a lawyer, script, free, purpose, how long, questions, how to run, another word for) + SERP (reddit techsales, salesforce, vidyard, highspot), 2026-10-17. Inbound links: from /blog/sales-conversation-intelligence and /blog/meeting-preparation. Editor checks: \"talk 30% of the time or less\" is common sales guidance, not a cited statistic. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Project Kickoff Meeting Agenda Template for 2026 (Free)",
+      "description": "Free project kickoff meeting agenda template for 2026: what to cover, a 60-minute agenda for internal and client kickoffs, a sample, and a follow-up checklist.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/project-kickoff-meeting-agenda-template",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/project-kickoff-meeting-agenda-template.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Project Kickoff Meeting Agenda Template for 2026 (Free)",
+          "item": "https://lynkk.ai/blog/project-kickoff-meeting-agenda-template"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is included in a project kickoff meeting agenda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Introductions and roles, background and goals, scope, deliverables and timeline, ways of working, risks and dependencies, open questions, and next steps with owners."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long should a project kickoff meeting be?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "About 60 minutes for internal projects and 60 to 90 minutes for client projects. Send a pre-read so the meeting is spent deciding, not presenting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who runs a project kickoff meeting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The project manager usually runs it, with the project sponsor explaining the goals. For client projects, both sides' leads share the meeting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the purpose of a kickoff meeting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To align everyone on the goal, scope, timeline, roles and ways of working before work starts, so the project avoids misunderstandings later."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a kickoff meeting and a project planning meeting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A kickoff aligns the whole team on the big picture. Planning meetings go deeper into tasks, estimates and schedules, often with a smaller group."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I send the kickoff agenda in advance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Send the agenda and pre-read 1 to 2 days before so attendees arrive with questions instead of reading for the first time. <!-- HANDOFF Prompts answered: \"project kickoff meeting agenda template\", \"what should be discussed in a project kickoff meeting\", \"project kickoff meeting agenda example\", \"client kickoff meeting agenda\", \"how long should a kickoff meeting be\". Prompt gaps (createprompt): \"construction project kickoff meeting agenda\". Fan-out source: Ubersuggest googlesuggestions (what should be discussed, agenda items, example, sample, powerpoint, word, construction, team) + SERP (asana, atlassian, notion, projectmanager), 2026-10-17. Inbound links: from /blog/meeting-minutes-to-jira and /blog/meeting-preparation. Editor checks: sample uses placeholder names; \"lift demo requests 20%\" is an illustrative goal, not a claim. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Meeting Notes vs Minutes: How to Write Minutes in 2026",
+      "description": "Meeting notes vs minutes explained: the real difference, what minutes must include, why they're called minutes, and how to turn meeting notes into minutes.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/meeting-notes-vs-minutes",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/meeting-notes-vs-minutes.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Meeting Notes vs Minutes: How to Write Minutes in 2026",
+          "item": "https://lynkk.ai/blog/meeting-notes-vs-minutes"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between meeting notes and minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meeting notes are informal records for personal or team use. Meeting minutes are the official, approved record of attendance, decisions, actions and votes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are meeting minutes just notes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Minutes are a structured, approved record of what a group decided. Notes are informal and can include opinions and side discussions that do not belong in minutes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are they called minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "\"Minutes\" comes from the Latin minuta, meaning small, and referred to the rough notes taken during a meeting. It has nothing to do with time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who takes meeting minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually a secretary, clerk or designated note-taker. In boards and associations, the secretary is typically responsible, and the chair approves the final minutes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should minutes include who said what?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually not. Minutes record decisions, motions and votes. Include a speaker's name only for motions, seconds, votes or when the exact statement matters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How soon should minutes be sent after a meeting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send draft minutes within 1 to 2 business days while details are fresh, then approve them at the next meeting. <!-- HANDOFF Prompts answered: \"difference between meeting notes and minutes\", \"are meeting notes the same as minutes\", \"why are meeting notes called minutes\", \"what should meeting minutes include\", \"how to turn meeting notes into minutes\". Prompt gaps (createprompt): \"meeting minutes vs meeting summary\". Fan-out source: Ubersuggest googlesuggestions (difference between, are meeting notes the same as minutes, why called minutes, what meeting minutes should include, how to turn meeting notes into minutes, meeting summary vs minutes) + SERP (Microsoft templates, Wikipedia, spinach.ai, boardbook), 2026-10-17. Overlap (Medium): angled on the notes vs minutes distinction vs /blog/meeting-minutes-sample (format); links to it. Inbound links: from /blog/meeting-minutes-sample and /blog/one-on-one-meeting. Editor checks: Robert's Rules principle paraphrased, not quoted. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

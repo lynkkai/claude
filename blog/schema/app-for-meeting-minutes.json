@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best App for Meeting Minutes: 8 Tools US Teams Use in 2026",
+      "description": "Looking for an app for meeting minutes? 8 tools US teams use in 2026, compared on free plans, price, Teams and iPhone support, and minutes-ready output.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/app-for-meeting-minutes",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/app-for-meeting-minutes.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Best App for Meeting Minutes: 8 Tools US Teams Use in 2026",
+          "item": "https://lynkk.ai/blog/app-for-meeting-minutes"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best app for meeting minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lynkk is the best app for meeting minutes if you want decisions, owners and Jira tickets from online and in-person meetings. Teams Copilot and Google Meet's Take notes for me suit companies that only use one platform, and Fathom is the best free option."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a free app for meeting minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Fathom offers unlimited free recordings and AI summaries. Otter, Read AI and Lynkk also have free plans with monthly limits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What app does Microsoft Teams use for meeting minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Microsoft Teams uses Copilot-powered recap for AI meeting notes, which requires a Microsoft 365 Copilot license. Third-party apps like Lynkk, Fathom and Fireflies also work in Teams."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a meeting minutes app for iPhone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Otter, Granola and Jamie have iPhone apps that record in-person meetings and write notes. Lynkk works on Mac and in the browser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can AI write meeting minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. AI apps can draft minutes with attendees, decisions and action items within minutes of a meeting ending. A person should review them before approval, especially for formal or legal meetings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should meeting minutes include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meeting minutes should include the date, attendees, agenda items, decisions, action items with owners and due dates, and the next meeting date. Formal minutes also record motions and votes. <!-- HANDOFF Prompts answered: \"best app for meeting minutes\", \"free app for meeting minutes\", \"meeting minutes app for microsoft teams\", \"meeting minutes app for iphone\", \"can ai write meeting minutes\". Prompt gaps (createprompt): \"ai app for board meeting minutes\". Fan-out source: Ubersuggest keywordsuggestions (best app 110, free app 50, ai app 40) + googlesuggestions (what is the best app for meeting minutes, for teams, for iphone, for mac, is there an app for meeting minutes) + SERP, 2026-10-17. Overlap (Medium): angled on \"apps that produce minutes\" vs /blog/meeting-minutes-sample (format) and /blog/best-ai-note-takers (general); links to both. Inbound links: from /blog/meeting-minutes-sample and /blog/action-items-examples-template. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

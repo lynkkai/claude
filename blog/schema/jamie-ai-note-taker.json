@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Jamie AI Note Taker Review: A 2026 Look for US Teams",
+      "description": "Jamie AI note taker review for 2026: bot-free capture, free plan limits, Plus, Pro and Team pricing, languages, integrations and the best alternatives.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/jamie-ai-note-taker",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/jamie-ai-note-taker.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jamie AI Note Taker Review: A 2026 Look for US Teams",
+          "item": "https://lynkk.ai/blog/jamie-ai-note-taker"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is the Jamie AI note taker free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Jamie's free plan includes 10 AI notes a month, each up to 30 minutes long. Paid plans start at $24 for Plus."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Jamie AI cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jamie Plus costs $24, Pro costs $46 a month billed yearly, and Team costs $37 per seat per month billed yearly. Enterprise pricing is custom."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Jamie join meetings as a bot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Jamie records audio from your device, so no bot appears in Zoom, Google Meet or Teams. You still need to tell attendees the meeting is being recorded."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Jamie work on Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, in beta. Jamie offers an iOS app and a beta Android app for in-person meetings. Desktop apps handle online meetings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which languages does Jamie support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jamie lists notes and transcripts in 99+ languages on its pricing page. Speaker recognition and task detection are included on every plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a good alternative to Jamie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Granola offers bot-free notes for $14 a month, Fathom offers unlimited free recording, and Lynkk offers bot or bot-free capture plus prep, live answers and Jira tickets for $15 a month. <!-- HANDOFF Prompts answered: \"jamie ai note taker\", \"is jamie ai note taker free\", \"jamie ai note taker pricing\", \"jamie ai alternative\", \"does jamie use a bot\". Prompt gaps (createprompt): \"jamie ai vs granola\". Fan-out source: Ubersuggest googlesuggestions (free, pricing, review, android, app, alternative, login, discount code) + SERP (meetjamie.ai, Trustpilot, G2, App Store), 2026-10-17. Secondary volume: \"jamie ai note taker app\" 40/mo. Inbound links: from /blog/best-ai-note-takers and /blog/best-free-ai-note-takers. Editor checks: review-site sentiment summarized generally, not quoted; Android app is beta per docs.meetjamie.ai; verify Plus billing period before publish. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "HOA Meeting Minutes Template for US Boards in 2026",
+      "description": "Free homeowners association meeting minutes template for 2026: what HOA minutes must include, a sample, state rules on sharing them, and common mistakes.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/hoa-meeting-minutes-template",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/hoa-meeting-minutes-template.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "HOA Meeting Minutes Template for US Boards in 2026",
+          "item": "https://lynkk.ai/blog/hoa-meeting-minutes-template"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What should be included in HOA meeting minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meeting type, date, time and place, directors present and quorum, approval of prior minutes, reports, each motion with mover, seconder and vote, and adjournment time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you write HOA meeting minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use a template based on the agenda, record attendance and quorum, write each motion exactly with the vote, leave out debate, and present the draft for approval at the next meeting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are HOA meeting minutes public?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They are not public records like government documents, but members generally have the right to inspect them, and many states require associations to make them available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How soon must HOA minutes be available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the state. In California, minutes or a summary of board meetings must be available to members within 30 days. Check your state law and bylaws."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who writes HOA meeting minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The board secretary is usually responsible, though a community manager often drafts them. The board approves them at its next meeting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should executive session be in HOA minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Record that an executive session took place, its general topic and any action taken. Do not record the confidential discussion itself. <!-- HANDOFF Prompts answered: \"homeowners association meeting minutes template\", \"hoa meeting minutes examples\", \"how to write minutes for hoa meeting\", \"when should hoa meeting minutes be distributed\", \"are hoa meeting minutes public record\". Prompt gaps (createprompt): \"hoa annual meeting minutes template\". Fan-out source: Ubersuggest googlesuggestions (examples, how to write, sample, when distributed, public record, legal requirements, condo association) + SERP (cedar management, hoamanagement.com, associa), 2026-10-17. Inbound links: from /blog/meeting-minutes-sample and /blog/meeting-minutes-to-jira. Editor checks: CA Civ. Code 4950 verified via public.law; Florida 720.303 retention period described generally (secondary sources only); have an HOA attorney review state-specific lines before publish. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

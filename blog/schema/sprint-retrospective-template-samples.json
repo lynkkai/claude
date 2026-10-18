@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Sprint Retrospective Template for 2026: 40 Questions",
+      "description": "Sprint retrospective samples for 2026: a copy-ready template, 5 formats, 40 questions and sample answers for what went well, plus how to turn actions into Jira.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/sprint-retrospective-template-samples",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/sprint-retrospective-template-samples.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sprint Retrospective Template for 2026: 40 Questions",
+          "item": "https://lynkk.ai/blog/sprint-retrospective-template-samples"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a sprint retrospective?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A sprint retrospective is a Scrum event at the end of each sprint where the team reviews how it worked and agrees on improvements for the next sprint."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long should a sprint retrospective be?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Scrum Guide timeboxes it to a maximum of 3 hours for a 1-month sprint. Most 2-week sprints use 45 to 90 minutes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the 3 questions of a sprint retrospective?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The classic 3 questions are: What went well? What did not go well? What will we do differently next sprint?"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should sprint retrospectives happen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once per sprint, at the end, after the sprint review and before the next sprint planning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who attends a sprint retrospective?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Scrum team: developers, the product owner and the Scrum Master. Stakeholders usually attend the sprint review instead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a sprint review and a retrospective?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The sprint review inspects the product increment with stakeholders. The retrospective inspects how the team worked and plans improvements. <!-- HANDOFF Prompts answered: \"sprint retrospective samples\", \"sprint retrospective template\", \"sprint retrospective questions\", \"sprint retrospective examples what went well\", \"what to say in sprint retrospective\". Prompt gaps (createprompt): \"sprint retrospective jira template\". Fan-out source: Ubersuggest googlesuggestions (sample answers, what went well, sample questions, what to say, how often, template, examples for developers) + SERP (canva, parabol, resolution.de, kromatic), 2026-10-17. Inbound links: from /blog/daily-standup-meeting and /blog/meeting-minutes-to-jira. Editor checks: Scrum Guide 2020 timebox (3 hours max for a 1-month sprint) quoted from scrumguides.org. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

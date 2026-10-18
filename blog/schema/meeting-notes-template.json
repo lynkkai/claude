@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Free Meeting Notes Template for 2026 (Word, Docs, Notion)",
+      "description": "Free meeting notes templates for 2026 you can copy into Word, Google Docs or Notion: general, action-focused, one-on-one, client call and Cornell layouts.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/meeting-notes-template",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/meeting-notes-template.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Free Meeting Notes Template for 2026 (Word, Docs, Notion)",
+          "item": "https://lynkk.ai/blog/meeting-notes-template"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is there a free meeting notes template?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Copy any of the 5 templates in this guide into Word, Google Docs or Notion. Word and Google Docs also include built-in meeting notes options."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best format for meeting notes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best format lists meeting details and attendees, then key points, decisions and action items with owners and due dates. Put decisions and actions near the top."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I make a meeting notes template in Google Docs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type @meeting notes in a Google Doc to insert the built-in meeting notes block, or paste one of the templates above and save the Doc to reuse."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Notion have a free meeting notes template?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Notion offers meeting notes templates in its template gallery, and you can paste any template from this guide into a Notion page or database template."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between meeting notes and minutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meeting notes are informal records for your team. Minutes are the official record of attendance, decisions and votes, usually approved at the next meeting. See meeting notes vs minutes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How soon should meeting notes be shared?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Share meeting notes the same day, ideally within an hour of the meeting, while people still remember the context. <!-- HANDOFF Prompts answered: \"meeting notes template free\", \"free meeting notes template word\", \"free meeting notes template google docs\", \"what to include in meeting notes\", \"how to structure meeting notes\". Prompt gaps (createprompt): \"meeting notes template for client calls\". Keyword note: Ubersuggest seed \"meeting notes template free\" (880/mo) is the same query in natural word order. Fan-out source: Ubersuggest keywordsuggestions (iep 40, onenote 20) + googlesuggestions (free template word, google docs, excel, what to include in meeting notes, how to structure meeting notes, notion) + SERP (meetingnotes.com, fellow, niftypm), 2026-10-17. Inbound links: from /blog/action-items-examples-template and /blog/one-on-one-meeting. Editor checks: offer downloadable Word/Docs versions to match SERP intent; Google Docs \"@meeting notes\" building block behaviour per Google Workspace (verify before publish). -->"
+          }
+        }
+      ]
+    }
+  ]
+}

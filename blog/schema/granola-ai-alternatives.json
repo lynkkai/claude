@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Granola AI Alternatives That Work for US Teams in 2026",
+      "description": "Granola AI alternatives for US teams in 2026: bot-free, team-ready and local options compared on price, platforms, privacy and what they do after the meeting.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/granola-ai-alternatives",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/granola-ai-alternatives.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Granola AI Alternatives That Work for US Teams in 2026",
+          "item": "https://lynkk.ai/blog/granola-ai-alternatives"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best alternative to Granola AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lynkk is the best all-round alternative if you want bot-free capture plus prep, live answers and follow-up tasks. Jamie is the closest bot-free match, and Fathom is best if you want free video recording."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a Granola alternative for Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Granola itself now runs on Windows for video calls. If you want an alternative, Fathom, Fireflies and Otter work through a meeting bot on any operating system, and Lynkk works from any desktop browser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a Granola alternative for Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Granola launched an Android app on 1 July 2026 for in-person conversations. Otter and Jamie also offer mobile capture if you want a different tool."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there an open-source alternative to Granola?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Meetily is an open-source, local meeting note tool that keeps audio on your machine. It needs more setup and has fewer integrations than Granola."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Granola AI free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Granola has a free Basic plan with AI notes, but it keeps only 30 days of meeting history. Business costs $14 per user per month and removes that limit. See our Granola pricing guide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Granola alternative creates Jira tickets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lynkk sends action items from meetings to Jira in one click, with owners and dates attached. Granola connects to tools like Notion and HubSpot on Business, but not Jira by default. <!-- HANDOFF Prompts answered: \"best granola ai alternatives\", \"granola alternative for windows\", \"granola alternative for android\", \"open source granola alternative\", \"is granola free\". Prompt gaps (createprompt): \"granola alternative for linux\". Fan-out source: Ubersuggest googlesuggestions (alternative for android/windows/linux, local, open source, privacy, pricing) + SERP titles, 2026-10-17. Food-related rows excluded. Inbound links: from /blog/best-ai-note-takers and /blog/founders-meeting-notes. Editor checks: Granola Android launch date (1 July 2026) per granola.ai blog; Meetily is third-party open source. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

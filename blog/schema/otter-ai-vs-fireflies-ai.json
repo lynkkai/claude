@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Otter vs Fireflies vs Fathom: A 2026 Guide for US Teams",
+      "description": "Otter ai vs Fireflies ai vs Fathom in 2026: free plans, prices per seat, CRM sync, recording limits and privacy compared for US teams, with a clear verdict.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/otter-ai-vs-fireflies-ai",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/otter-ai-vs-fireflies-ai.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Otter vs Fireflies vs Fathom: A 2026 Guide for US Teams",
+          "item": "https://lynkk.ai/blog/otter-ai-vs-fireflies-ai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Otter or Fireflies better?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otter is better for live transcripts and individual use. Fireflies is better for teams that want CRM sync, topic tracking and search across calls. Price is close: $8.33 versus $10 a month on annual billing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is cheaper, Fireflies or Otter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otter is cheaper on annual billing ($8.33 versus $10 for the entry plan). On monthly billing Otter Pro costs $16.99 and Fireflies Pro costs $18. Fathom's free plan is cheaper than both if you only need recording."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Fathom better than Otter and Fireflies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fathom has the best free plan of the three, with unlimited recordings and transcripts. Fireflies has deeper integrations, and Otter has live transcripts. Fathom is the best starting point for people who do not want to pay."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Fireflies AI record video?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fireflies offers video recording on its Business plan and above. Fathom records video on its free plan. Otter focuses on audio and transcripts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use Otter, Fireflies or Fathom without a bot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fireflies has a desktop app that records system audio without a bot, and Fathom offers bot-free capture in beta. Otter relies on its meeting agent. Lynkk records without a bot through its Mac app and Chrome extension."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which works best with Microsoft Teams?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All three join Microsoft Teams meetings. Fireflies and Otter join as participants; Fathom does too. If your company prefers built-in tools, Teams' own AI recap requires a Microsoft 365 Copilot license. <!-- HANDOFF Prompts answered: \"otter ai vs fireflies ai\", \"otter vs fireflies vs fathom\", \"is otter or fireflies better\", \"is fireflies ai safe\", \"fireflies vs otter pricing\". Prompt gaps (createprompt): \"fireflies vs otter for long meetings\". Fan-out source: Ubersuggest googlesuggestions (otter ai vs fireflies vs fathom, is otter or fireflies better, pricing, is fireflies ai safe, is otter ai secure, how does fireflies.ai work) + SERP, 2026-10-17. Inbound links: from /blog/ai-transcription-software and /blog/sales-conversation-intelligence. Editor checks: Fireflies per-meeting limits and Business video recording come from Fireflies' own blog/guide pages (search 2026-10-17); its pricing page is client-rendered, re-verify in a browser before publish. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Read AI Alternatives US Teams Are Switching To in 2026",
+      "description": "The best Read AI alternative for your team in 2026: 7 tools compared on free limits, price per user, privacy controls and what they do after the meeting.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/read-ai-alternative",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/read-ai-alternative.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Read AI Alternatives US Teams Are Switching To in 2026",
+          "item": "https://lynkk.ai/blog/read-ai-alternative"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best Read AI alternative?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best Read AI alternative for most teams is the one that matches their follow-up work. Lynkk suits teams that want tasks and Jira tickets, Fireflies suits CRM-driven sales teams, and Fathom suits anyone who wants free unlimited recording."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a free alternative to Read AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Fathom offers unlimited free recordings and transcripts. Otter, Jamie and Lynkk also have free plans, with limits of 300 minutes, 10 notes and 5 notes a month respectively."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Microsoft alternative to Read AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Microsoft's alternative is the AI recap in Teams, which comes with a Microsoft 365 Copilot license. It works well inside Teams but does not cover Zoom, Google Meet or in-person meetings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who are Read AI's main competitors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Read AI's main competitors are Otter.ai, Fireflies.ai, Fathom, Granola, tl;dv, Jamie and Lynkk. Each takes a different approach, from live transcription to bot-free notes to automated follow-up."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use a Read AI alternative without a meeting bot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Granola and Jamie are bot-free by design. Lynkk gives you both options: a bot for Zoom, Meet and Teams, or bot-free recording through its Mac app and Chrome extension."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does any Read AI alternative support Hindi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lynkk supports Hindi and has a Hinglish setting for conversations that mix Hindi and English. Read AI lists 20+ languages, so check its list against the languages your team uses. <!-- HANDOFF Prompts answered: \"best read ai alternative\", \"free read ai alternative\", \"microsoft alternative to read ai\", \"read ai competitors\", \"is read ai safe\". Prompt gaps (createprompt): \"read ai alternative for small teams\". Fan-out source: Ubersuggest googlesuggestions (read ai competitors, alternative free, alternatives for teams, microsoft alternative, is read ai safe/private) + SERP, 2026-10-17. Inbound links: from /blog/ai-powered-meeting-assistants and /blog/best-ai-note-takers. Editor checks: Teams Copilot licensing per Microsoft MC1404322. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

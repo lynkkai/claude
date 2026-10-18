@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Granola vs Fathom in 2026: Which Fits US Teams Better?",
+      "description": "Granola vs Fathom for US teams in 2026: bot vs bot-free capture, free plans, real prices, CRM sync and privacy compared, plus when a third option fits better.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/granola-vs-fathom",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/granola-vs-fathom.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Granola vs Fathom in 2026: Which Fits US Teams Better?",
+          "item": "https://lynkk.ai/blog/granola-vs-fathom"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Granola better than Fathom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the Granola vs Fathom debate, Granola is better for private, bot-free notes that start from what you type. Fathom is better for recording calls, sharing clips and syncing to a CRM. Neither is better for every team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Fathom free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Fathom's free plan includes unlimited recordings and transcriptions plus instant AI summaries. Some AI features carry a \"limited use\" tag, and Premium costs $16 a month billed yearly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Granola free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Granola has a free Basic plan with AI notes and chat, but it keeps only 30 days of meeting history. Business costs $14 per user per month and removes the history limit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Granola record video like Fathom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Granola transcribes your computer's audio and writes notes, but it does not record video. Fathom records video and lets you clip and share moments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which works better for Google Meet and Zoom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both work with Zoom and Google Meet. Fathom joins as a recorder, while Granola captures audio from your desktop app on Mac or Windows. Fathom also supports Microsoft Teams."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a good alternative to both Granola and Fathom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lynkk combines bot and bot-free capture, in-person recording, and follow-up work like Jira tickets. It is free for 5 notes a month and $15 a month on Pro. <!-- HANDOFF Prompts answered: \"granola vs fathom\", \"is granola better than fathom\", \"does granola use a bot\", \"fathom vs granola for sales\". Prompt gaps (createprompt): \"granola vs fathom for privacy\". Fan-out source: Ubersuggest googlesuggestions (granola vs fathom vs fireflies, vs otter, reddit, fathom notetaker vs granola) + SERP titles, 2026-10-17. Food-related autocomplete rows excluded. Inbound links: from /blog/best-ai-note-takers and /blog/best-free-ai-note-takers. Editor checks: Granola stores no video (product behaviour as of Oct 2026; re-verify before publish). -->"
+          }
+        }
+      ]
+    }
+  ]
+}

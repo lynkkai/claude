@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Board Meeting Agenda Template for US Boards in 2026",
+      "description": "Board meeting agenda template for US boards in 2026: standard order, nonprofit and startup samples, consent agendas, and who prepares and sends the agenda.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/board-meeting-agenda",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/board-meeting-agenda.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Board Meeting Agenda Template for US Boards in 2026",
+          "item": "https://lynkk.ai/blog/board-meeting-agenda"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the standard order of a board meeting agenda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call to order, roll call and quorum, approval of the agenda, approval of prior minutes, consent agenda, reports, old business, new business, executive session if needed, announcements and adjournment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who sets the board meeting agenda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The board chair sets the agenda, usually with the CEO or executive director and the board secretary. Directors can request items through the chair."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should a board agenda be sent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send the agenda and board packet 5 to 7 days before the meeting so directors have time to read reports and prepare questions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is an agenda required for a board meeting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many bylaws and some state laws require notice of meetings, and special meetings often require stating the purpose in advance. Even when not required, an agenda is standard good practice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between old business and new business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Old business covers items carried over from previous meetings. New business covers items raised for the first time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens in executive session?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In executive session, the board meets privately, often without staff, to discuss confidential matters such as CEO performance, legal issues or personnel. Any formal action is usually taken back in open session. <!-- HANDOFF Prompts answered: \"board meeting agenda\", \"board meeting agenda format\", \"sample board meeting agenda\", \"nonprofit board meeting agenda\", \"who prepares board meeting agenda\", \"what is a consent agenda\". Prompt gaps (createprompt): \"startup board meeting agenda template\". Fan-out source: Ubersuggest keywordsuggestions (board meeting agenda format 1,600, sample 1,300, format of 1,300, example 390, nonprofit sample 390, startup 30) + googlesuggestions (what should be included, who prepares, typical agenda, how long, order) + SERP (nhnonprofits, boardable, boardeffect, diligent), 2026-10-17. School-district rows excluded. Inbound links: from /blog/founders-meeting-notes and /blog/meeting-minutes-sample. Editor checks: bylaws and state law override the generic order of business. -->"
+          }
+        }
+      ]
+    }
+  ]
+}

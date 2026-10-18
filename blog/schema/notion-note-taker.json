@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Notion AI Note Taker Review for US Teams in 2026",
+      "description": "Notion note taker review for 2026: how Notion AI Meeting Notes works, which plans include it, its limits and languages, and when a dedicated tool fits better.",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://lynkk.ai/blog/notion-note-taker",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "name": "Samarth Wagh, Co-founder, Lynkk.ai"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Lynkk",
+        "url": "https://lynkk.ai"
+      },
+      "image": "https://lynkk.ai/blog/images/notion-note-taker.png"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lynkk.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lynkk.ai/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Notion AI Note Taker Review for US Teams in 2026",
+          "item": "https://lynkk.ai/blog/notion-note-taker"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is the Notion AI note taker free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Notion AI Meeting Notes is included on the Business plan ($20 per member per month) and Enterprise. Free and Plus plans get only a limited trial."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I use Notion's AI note taker?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open the Notion desktop app, type /meet on a page, click Start transcribing when the meeting begins, and click Stop when it ends. Notion writes the summary into the page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Notion AI take meeting notes without a bot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Notion records audio from your computer through the desktop app, so no bot joins the call. That also means it only captures meetings where someone starts it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Notion transcribe Zoom and Google Meet calls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Because it records your computer's audio, Notion AI Meeting Notes works with Zoom, Google Meet, Microsoft Teams and other apps through the Notion desktop app."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Notion's note taker better than Granola?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notion is better if your team already uses Notion Business and wants notes inside its workspace. Granola is better as a standalone, cheaper note app with mobile capture on iPhone and Android."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Notion's AI note taker support Hindi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hindi is not on the language list in Notion's help center as of October 2026. Lynkk supports Hindi and has a Hinglish setting for meetings that mix Hindi and English. <!-- HANDOFF Prompts answered: \"notion note taker\", \"is notion ai note taker free\", \"how does notion ai note taker work\", \"notion ai note taker vs granola\", \"can notion transcribe zoom\". Prompt gaps (createprompt): \"notion ai meeting notes hindi\". Fan-out source: Ubersuggest googlesuggestions (is notion ai note taker free, pricing, vs granola, how does notion ai note taker work, notion note taking zoom/google meet, can notion transcribe) + SERP (reddit, minuteslink review), 2026-10-17. Inbound links: from /blog/meeting-knowledge-management and /blog/best-ai-note-takers. Editor checks: Notion language list differs between help center and developer API. -->"
+          }
+        }
+      ]
+    }
+  ]
+}
