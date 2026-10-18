@@ -1,0 +1,56 @@
+# Competitor prices quoted in the blog articles, checked 2026-10-17/18.
+# tools/price_check.py fetches each source page and confirms every `expect` string still appears.
+# If a vendor changes a price, update the figure here AND in every article listed under `used_in`.
+# `rendered: client` pages load prices with JavaScript; the script cannot read them, so check by hand.
+
+otter:
+  source: https://otter.ai/pricing
+  expect: ["16.99", "8.33", "19.99", "300", "1,200", "30"]
+  used_in: [otter-ai-alternatives, granola-vs-otter-ai, otter-ai-vs-fireflies-ai, read-ai-vs-otter-ai,
+            read-ai-alternative, notta-pricing, tactiq-alternative, team-meeting-summary-ai, avoma-alternatives,
+            granola-pricing, granola-ai-alternatives, read-ai-pricing, app-for-meeting-minutes, google-meet-ai-note-taker]
+granola:
+  source: https://www.granola.ai/pricing
+  expect: ["14", "35"]
+  used_in: [granola-pricing, granola-vs-fathom, granola-vs-otter-ai, granola-ai-alternatives, otter-ai-alternatives,
+            notion-note-taker, read-ai-alternative, read-ai-pricing, jamie-ai-note-taker]
+read-ai:
+  source: https://www.read.ai/plans-pricing
+  expect: ["19.75", "29.75", "39.75", "22.50"]
+  used_in: [read-ai-pricing, read-ai-alternative, read-ai-vs-otter-ai, otter-ai-alternatives, granola-pricing,
+            tactiq-alternative, team-meeting-summary-ai, app-for-meeting-minutes, avoma-alternatives, google-meet-ai-note-taker]
+fathom:
+  source: https://www.fathom.ai/pricing
+  expect: ["20", "16", "19", "15", "34", "25"]
+  used_in: [granola-vs-fathom, otter-ai-vs-fireflies-ai, otter-ai-alternatives, avoma-alternatives, granola-pricing,
+            read-ai-alternative, tactiq-alternative, notta-pricing, team-meeting-summary-ai, app-for-meeting-minutes]
+fireflies:
+  source: https://guide.fireflies.ai/articles/3734844560-learn-about-the-fireflies-pricing-plans
+  expect: ["10", "18", "19", "29", "39"]
+  used_in: [otter-ai-vs-fireflies-ai, otter-ai-alternatives, avoma-alternatives, granola-ai-alternatives, read-ai-alternative,
+            tactiq-alternative, notta-pricing, team-meeting-summary-ai, app-for-meeting-minutes, remove-fireflies-ai-from-teams]
+notta:
+  source: https://www.notta.ai/en/pricing
+  expect: ["8.17", "97.99", "16.67", "199.99", "120", "1,800"]
+  note: "Monthly prices ($13.99 Pro, $27.99 Business) come from a third-party review; confirm at checkout."
+  used_in: [notta-pricing, otter-ai-alternatives, tactiq-alternative]
+tactiq:
+  source: https://tactiq.io/pricing
+  expect: ["8", "16.67", "29.17"]
+  used_in: [tactiq-alternative, notta-pricing]
+avoma:
+  source: https://www.avoma.com/pricing
+  expect: ["19", "29", "39", "35", "25"]
+  used_in: [avoma-alternatives]
+jamie:
+  source: https://www.meetjamie.ai/pricing
+  expect: ["24", "46", "37"]
+  used_in: [jamie-ai-note-taker, otter-ai-alternatives, read-ai-alternative, granola-ai-alternatives]
+notion:
+  source: https://www.notion.com/pricing
+  expect: ["10", "20"]
+  used_in: [notion-note-taker, granola-ai-alternatives, app-for-meeting-minutes]
+lynkk:
+  source: https://lynkk.ai/pricing
+  expect: ["15", "5 notes"]
+  used_in: [all]
