@@ -58,7 +58,7 @@
           "name": "How do I make a meeting agenda in Word?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Create a document with the meeting details, insert a table with time, topic, owner and decision columns, fill it in, and save it. Save it as a .dotx template to reuse it. Saving as a .dotx means you never overwrite your master agenda by accident, because Word opens a fresh copy each time."
+            "text": "Create a document with the meeting details, insert a table with time, topic, owner and decision columns, fill it in, and save it as a .dotx template to reuse it. The payoff? You never overwrite your master agenda by accident, because Word opens a fresh copy each time."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "How do I save an agenda as a template in Word?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Go to File, then Save As, and choose Word Template (.dotx). Open it later from File, then New, then Personal, to create a fresh copy. If the Personal tab is missing, set a default personal templates location in Word's options so your saved templates appear there."
+            "text": "Go to File, then Save As, and choose Word Template (.dotx). Open it later from File, then New, then Personal, to create a fresh copy. Personal tab missing? Set a default personal templates location in Word's options so your saved templates appear there."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "When should I send a meeting agenda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Send the agenda at least 24 hours before the meeting, and 1 to 2 days before for client or board meetings, so people can prepare and add topics. Late agendas lead to unprepared attendees, longer meetings and decisions pushed to the next week."
+            "text": "Send the agenda at least 24 hours before the meeting, and 1 to 2 days before for client or board meetings, so people can prepare and add topics. Late agendas? They lead to unprepared attendees, longer meetings and decisions pushed to the next week."
           }
         },
         {

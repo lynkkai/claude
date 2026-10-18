@@ -1,0 +1,15 @@
+{"meeting-agenda-template-word": {
+"0": "A meeting agenda template in Word is still the most common way US teams plan meetings, and the reasons are plain: it costs nothing, everyone has Word, and it prints cleanly for in-person sessions. The catch? Most downloaded templates are decoration. Nice fonts, zero structure that actually makes a meeting shorter.",
+"1": "Below are 5 copy-ready agenda templates built around goals, time boxes and owners, followed by how to find Word's built-in templates, how to build a reusable version and how to save your own.",
+"3": "Built-in designs make a decent starting point for layout. Do they include time and owner columns? Check. Many do not.",
+"6": "Copy this simple meeting agenda template into Word, then set the topics in a 4-column table.",
+"9": "Email this to a client 1 or 2 days ahead so they can add topics:",
+"11": "Running these well is covered in our guide to the [one-on-one meeting](https://lynkk.ai/blog/one-on-one-meeting).",
+"14": "Prepping for a board? See our full [board meeting agenda template](https://lynkk.ai/blog/board-meeting-agenda).",
+"15": "A weekly sales meeting agenda focuses on pipeline, wins and blockers. Metrics get 10 minutes, no more, and most of the remaining time goes to deals that need help.",
+"16": "For deal reviews, a natural companion is our guide to [what a discovery call is](https://lynkk.ai/blog/what-is-a-discovery-call).",
+"22": "Skip decorative designs with background images; they print poorly and are awkward to edit on a phone.",
+"23": "Circulate the agenda at least 24 hours ahead, by 1 of 3 common routes:",
+"29": "Create a document with the meeting details, insert a table with time, topic, owner and decision columns, fill it in, and save it as a .dotx template to reuse it. The payoff? You never overwrite your master agenda by accident, because Word opens a fresh copy each time.",
+"31": "Go to File, then Save As, and choose Word Template (.dotx). Open it later from File, then New, then Personal, to create a fresh copy. Personal tab missing? Set a default personal templates location in Word's options so your saved templates appear there."
+}}
