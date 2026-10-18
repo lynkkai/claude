@@ -1,0 +1,19 @@
+{"granola-pricing": {
+"0": "Granola pricing looks simple on the surface: free, $14 or $35. The details matter more. Its free tier is generous on features and strict on history, and the jump to Business is mostly about keeping your notes and wiring them into the other tools your team already uses every day.",
+"2": "Granola pricing in 2026 is $0 on Basic, $14 per user per month on Business and $35 per user per month on Enterprise. Basic and Business are billed monthly; according to the help center, annual billing is available on Enterprise contracts only.",
+"3": "No paid trial is listed. The company's own pitch is to \"try Granola for a few meetings\" on the free plan first.",
+"4": "Yes, there is a free Basic plan, and it is fairly complete. You get AI meeting notes, AI chat within and across meetings, shared folders, custom note templates and multi-language support. The catch? History. Basic keeps only 30 days of meetings.",
+"7": "Business at $14 per user per month removes the 30-day limit and adds 3 groups of features: unlimited notes and history, advanced AI thinking models, and integrations.",
+"8": "For most individuals and small teams, this is the tier that turns Granola from a 30-day scratchpad into a long-term notebook you can search months later, when a client asks what you agreed in the spring.",
+"10": "At $35 a seat, Enterprise is 2.5 times the Business price. Overkill for most. Teams under 50 people rarely need it unless a security review demands SSO.",
+"11": "Scale it up and a 10-person team pays $1,680 a year on Business and $4,200 a year on Enterprise. Here is how the cost grows with headcount.",
+"12": "Remember that the app only captures meetings when someone runs it. If only 3 of 10 people take notes, you may need fewer seats than headcount, which can cut the bill by more than half.",
+"15": "Upgrading takes about 2 minutes: open Settings, then Billing, and click Upgrade on the Business or Enterprise card. Payment runs through Stripe. Your workspace upgrades as soon as it clears.",
+"18": "Dropping to Basic does not delete your notes. Older ones (beyond 30 days) are stored but hidden in the app until you upgrade again. Safe fallback, then, but a frustrating one if you rely on old meetings.",
+"19": "Before you downgrade, export what you need. A CSV of note titles and summaries can be generated from your profile settings. For full notes, copy the important ones into your docs or CRM first.",
+"21": "On Granola pricing versus the market, Business at $14 sits in the middle. Fireflies Pro is cheaper at $10 per seat billed yearly, while Jamie Team at $37 and Granola Enterprise at $35 sit at the top, priced for companies that need admin controls more than they need a lower seat cost.",
+"25": "If price is the issue, Fathom's free plan records unlimited calls and Fireflies Pro costs $10 per seat billed yearly. Value is a different question. Lynkk (our product) costs $15 a month and does more work around each meeting.",
+"29": "Business costs $14 per user per month and Enterprise costs $35 per user per month. The Basic plan is free. For a 10-person team, that comes to $1,680 a year on Business and $4,200 on Enterprise. Students and accepted startups can get 12 months of Business free, and nonprofits get 50% off.",
+"33": "No. Billing is per user per month, and none of the plans list a minute or meeting cap; on the free plan the limit is 30 days of history. Heavy users get predictable costs as a result. Long meetings and many meetings cost the same as light use on the same plan.",
+"34": "Fireflies Pro costs $10 per seat billed yearly and Fathom's free plan records unlimited calls. Lynkk costs $15 a month and adds prep, live answers and Jira tickets. Which option is cheapest depends on your bottleneck. If it is history, Fathom or Lynkk keep notes longer; if it is privacy, Jamie and Meetily also skip the bot."
+}}

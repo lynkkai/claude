@@ -1,0 +1,6 @@
+{"granola-vs-fathom": {
+"3": "With Granola, notes start from your own typing. You jot \"pricing pushback, follow up Tuesday\" and the app expands that shorthand using the transcript. The recorder works the other way round, starting from the full recording and then generating a summary plus action items.",
+"7": "Zero bots on one side. Granola captures audio locally, so nobody on the call sees a recorder join. The other tool uses a bot by default, though it offers bot-free capture in beta, including on the free plan.",
+"15": "If your follow-up work happens in Jira, neither tool creates tickets for you out of the box, which means someone still copies decisions from the notes into the backlog by hand after every planning call. That gap is one reason product teams look at Lynkk, which sends action items to Jira in one click.",
+"27": "A practical test: run each tool on the same 3 meetings this week, then compare which notes you actually reused when it was time to write the follow-up email."
+}}

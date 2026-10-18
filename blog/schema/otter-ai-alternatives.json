@@ -58,7 +58,7 @@
           "name": "Is Otter AI worth it in 2026?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Otter is worth it if you need fast English transcription and live captions. It is less worth it if you need notes turned into tasks, in-person capture in the same tool, or meetings longer than 30 minutes on a free plan."
+            "text": "Otter is worth it if you need fast English transcription and live captions. It is less worth it if you need notes turned into tasks, in-person capture in the same tool, or meetings longer than 30 minutes on a free plan. Weigh those three gaps first."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "Can I import my Otter transcripts into another tool?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Most tools accept audio uploads rather than Otter's own files. Export your transcripts as TXT or DOCX from Otter and keep them in your docs. Then let the new tool capture meetings going forward. Run both tools for a week to compare notes."
+            "text": "Most tools accept audio uploads rather than Otter's own files, so export your transcripts as TXT or DOCX from Otter and keep them in your docs, then let the new tool capture meetings going forward. Run both for a week. Compare."
           }
         }
       ]
