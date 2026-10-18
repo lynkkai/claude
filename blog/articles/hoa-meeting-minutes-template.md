@@ -33,9 +33,9 @@ featured_image_alt: "Homeowners association meeting minutes template with motion
 
 *Disclosure: Lynkk publishes this guide and makes an AI meeting assistant. This is general information, not legal advice; your governing documents and state law come first.*
 
-HOA meeting minutes are the association's official record. Homeowners read them to understand decisions about dues, repairs and rules. Boards rely on them when a decision is questioned years later. Managers use them to show the board followed its own procedures.
+HOA meeting minutes are the association's official record. Homeowners read them to understand decisions about dues, repairs and rules. Boards rely on them when a decision is questioned years later, and managers use them to show the board followed its own procedures.
 
-This homeowners association meeting minutes template is built for US HOA and condo boards. It includes a copy-ready template, a filled-in sample, what state law often requires, and the mistakes that cause disputes.
+Built for US HOA and condo boards, this homeowners association meeting minutes template includes a copy-ready template, a filled-in sample, what state law often requires, and the mistakes that cause disputes.
 
 ## What should HOA meeting minutes include?
 
@@ -118,7 +118,7 @@ NEW BUSINESS
    VOTE: 4 for, 1 against (L. Chen), 0 abstain. Motion carried.
 ```
 
-Notice that the minutes give the amount, the funding source and the deadline, but not the 20 minutes of discussion about each bid. That is the right level of detail.
+Notice that the minutes give the amount, the funding source and the deadline, but not the 20 minutes of discussion about each bid. Right level of detail.
 
 ## How do you write minutes for an HOA meeting?
 

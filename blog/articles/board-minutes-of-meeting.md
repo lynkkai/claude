@@ -172,7 +172,7 @@ Hence accuracy matters. Once signed, minutes should not be altered under SS-1 pr
 
 Yes. Indian companies can hold board meetings through video conferencing or other audio-visual means, subject to the rules and certain restricted matters. Minutes must record which directors attended this way, and the chairperson must confirm attendance and quorum.
 
-A recording helps the company secretary draft accurate minutes. Still, those minutes stay the legal record. Not the audio or video file.
+A recording helps the company secretary draft accurate minutes. Still, the minutes remain the legal record. Not the recording.
 
 ## What are common mistakes in board minutes?
 

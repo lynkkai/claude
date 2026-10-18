@@ -33,13 +33,13 @@ featured_image_alt: "LLC meeting minutes template with members present and resol
 
 *Disclosure: Lynkk publishes this guide and makes an AI meeting assistant. This is general information, not legal advice; check your state law and operating agreement, or ask an attorney.*
 
-LLC owners search for an LLC meeting minutes template for 2 reasons. Either their bank, lender or accountant asked for minutes, or they read that keeping minutes helps protect their personal liability. Both are good reasons to get the basics right.
+LLC owners search for an LLC meeting minutes template for 2 reasons. Either a bank, lender or accountant asked for minutes, or they read that keeping them helps protect their personal liability. Both are good reasons to get the basics right.
 
-This guide covers whether LLCs need minutes, what to include, and copy-ready templates for annual meetings, first meetings and single-member LLCs.
+Covered here: whether LLCs need minutes, what to include, and copy-ready templates for annual meetings, first meetings and single-member LLCs.
 
 ## Are meeting minutes required for an LLC?
 
-In most US states, the law does not require an LLC to hold annual meetings or keep minutes, unlike corporations. However, your operating agreement can require them, and if it does, you must follow it. Some lenders, investors and banks also ask for minutes or resolutions before acting.
+In most US states, the law does not require an LLC to hold annual meetings or keep minutes, unlike corporations. Your operating agreement can, though. If it does, you must follow it. Some lenders, investors and banks also ask for minutes or resolutions before acting.
 
 Why keep them anyway:
 
@@ -50,7 +50,7 @@ Why keep them anyway:
 
 ## How often should an LLC have meeting minutes?
 
-Hold and record at least 1 meeting a year, and record any major decision when it happens. If your operating agreement sets a schedule, follow that.
+Hold and record at least 1 meeting a year, and record any major decision when it happens. Got a schedule in your operating agreement? Follow that.
 
 Record minutes or a written resolution for decisions such as:
 
@@ -110,7 +110,7 @@ Date: [ ]
 
 ## How do single-member LLCs record minutes?
 
-A single-member LLC has 1 owner and no one else to meet with, so the usual approach is a written consent or resolution signed by the sole member. It records the decision the same way minutes would.
+A single-member LLC has 1 owner and no one else to meet with, so the usual approach is a written consent or resolution signed by the sole member. That records the decision the same way minutes would.
 
 ```
 [LLC NAME], LLC
@@ -135,7 +135,7 @@ Many single-member owners sign one annual consent covering the year's major deci
 
 ## What goes in LLC first meeting minutes?
 
-The first meeting, usually held within weeks of filing, sometimes called the organizational meeting, records the setup decisions after you form the LLC. Typical resolutions include:
+Usually held within weeks of filing, the first meeting (sometimes called the organizational meeting) records the setup decisions after you form the LLC. Typical resolutions include:
 
 - Adopting the operating agreement
 - Confirming the members and their ownership percentages
@@ -145,11 +145,11 @@ The first meeting, usually held within weeks of filing, sometimes called the org
 - Choosing the fiscal year and accountant
 - Authorizing payment of formation costs
 
-Use the main template above and list these as numbered resolutions. Registered agent services such as [Northwest Registered Agent](https://www.northwestregisteredagent.com/legal-forms/llc/first-meeting-minutes) also publish free first-meeting forms.
+List these as numbered resolutions in the main template above. Registered agent services such as [Northwest Registered Agent](https://www.northwestregisteredagent.com/legal-forms/llc/first-meeting-minutes) also publish free first-meeting forms.
 
 ## Do manager-managed LLCs need different minutes?
 
-Yes, slightly. A member-managed LLC records meetings of its members. A manager-managed LLC usually records 2 kinds of meetings: manager meetings for day-to-day decisions, and member meetings for the decisions the operating agreement reserves to members, such as admitting new members or selling the business.
+Yes, slightly. Member-managed LLCs record meetings of their members. A manager-managed LLC usually records 2 kinds of meetings: manager meetings for day-to-day decisions, and member meetings for the decisions the operating agreement reserves to members, such as admitting new members or selling the business.
 
 | | Member-managed LLC | Manager-managed LLC |
 |---|---|---|
@@ -174,21 +174,21 @@ LLC meeting minutes should include 8 items:
 | Votes | For, against, abstain |
 | Signatures | Chair and recorder, with date |
 
-Keep discussion summaries short. The resolutions and votes are what matter later.
+Keep discussion summaries short. What matters later is the resolutions and votes.
 
 ## Where should you keep LLC minutes?
 
-Keep LLC minutes with your other company records: the articles of organization, operating agreement, member list and tax filings. A dedicated folder, physical or digital, with signed PDFs works well. Some states require LLCs to keep certain records at their principal office, so check your state's rules.
+Store LLC minutes with your other company records: the articles of organization, operating agreement, member list and tax filings. A dedicated folder, physical or digital, with signed PDFs works well. Some states require LLCs to keep certain records at their principal office, so check your state's rules.
 
 Keep minutes for the life of the company. They cost nothing to store and can matter years later during a sale, audit or dispute.
 
 ## Can AI help write LLC meeting minutes?
 
-AI can capture a members' meeting and draft the discussion summary, decisions and action items, so you only check resolution wording and votes before signing. It is especially useful for multi-member LLCs that meet on video calls.
+AI can capture a members' meeting and draft the discussion summary, decisions and action items, so you only check resolution wording and votes before signing. Especially handy for multi-member LLCs that meet on video calls.
 
 > **Let Lynkk do it.** Lynkk records your members' meeting on Zoom, Google Meet, Teams or in person and drafts a summary, a decision log and action items with owners and dates. You review the resolution wording and sign. Ask Lynkk finds any past decision later with a link to the moment. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
-For more formats, see our [meeting minutes sample](https://lynkk.ai/blog/meeting-minutes-sample) and [board meeting agenda template](https://lynkk.ai/blog/board-meeting-agenda).
+More formats: our [meeting minutes sample](https://lynkk.ai/blog/meeting-minutes-sample) and [board meeting agenda template](https://lynkk.ai/blog/board-meeting-agenda).
 
 **More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [Lynkk security](https://lynkk.ai/security).
 
@@ -196,23 +196,23 @@ For more formats, see our [meeting minutes sample](https://lynkk.ai/blog/meeting
 
 ### Does an LLC need meeting minutes?
 
-Most states do not legally require LLCs to keep minutes, but your operating agreement may, and minutes help document major decisions and support liability protection. Banks, lenders and buyers often ask for minutes or resolutions before approving a loan or a sale, so keeping them saves time later.
+Most states do not legally require LLCs to keep minutes, but your operating agreement may, and minutes help document major decisions and support liability protection. Banks, lenders and buyers often ask for minutes or resolutions before approving a loan or a sale. Keeping them saves time later.
 
 ### How often should an LLC hold meetings?
 
-Hold at least one annual meeting and record it, plus record major decisions as they happen. Follow any schedule in your operating agreement. A single-member LLC can sign one annual written consent covering the year's major decisions, plus separate consents for big one-off actions.
+Hold at least one annual meeting and record it, plus record major decisions as they happen. Follow any schedule in your operating agreement. Single-member LLCs can sign one annual written consent for the year's major decisions, with separate ones for big one-off actions.
 
 ### What is a single-member LLC meeting minutes template?
 
-It is usually a written consent signed by the sole member, listing resolutions for the year or for a specific decision. It records the decision the same way minutes would, and it is often what a bank asks to see before opening an account or approving credit.
+Usually it is a written consent signed by the sole member, listing resolutions for the year or for a specific decision. That document records the decision the same way minutes would. Banks often ask to see it before opening an account or approving credit.
 
 ### Who signs LLC meeting minutes?
 
-The person who chaired the meeting and the person who recorded the minutes usually sign. For a single-member LLC, the sole member signs a written consent. Use a printed name, signature and date for each signer, and keep the signed copy with the operating agreement and other company records.
+Usually the person who chaired the meeting and the person who recorded the minutes sign. Single-member LLC? The sole member signs a written consent. Use a printed name, signature and date for each signer, and keep the signed copy with the operating agreement and other company records.
 
 ### What decisions should be recorded in LLC minutes?
 
-Admitting members, changing ownership, taking significant debt, buying or selling major assets, opening bank accounts, amending the operating agreement and electing managers. Record each one as a resolution with exact wording and the vote, because the wording is what banks, buyers and courts will rely on later.
+Admitting members, changing ownership, taking significant debt, buying or selling major assets, opening bank accounts, amending the operating agreement and electing managers. Record each one as a resolution with exact wording and the vote. Why the precision? Banks, buyers and courts will rely on that wording later.
 
 ### Can LLC minutes be kept digitally?
 
