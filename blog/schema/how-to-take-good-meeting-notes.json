@@ -50,7 +50,7 @@
           "name": "How do you take good meeting notes, and what is the best way?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Record only decisions, action items with an owner and due date, and open questions. Use a template prepared before the meeting and share clean notes within an hour. Mark lines with shorthand such as D: for decision and A: for action, so you can rewrite them quickly into clean notes afterward."
+            "text": "Record only decisions, action items with an owner and due date, and open questions. Use a template prepared before the meeting and share clean notes within an hour. Mark lines with shorthand such as D: for decision and A: for action. Rewriting them into clean notes afterward is then quick."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "How do I take notes while also participating in a meeting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ask a colleague to take notes, use shared notes in Teams or Google Docs, or use an AI note taker so you can focus on the conversation. Agree on 1 note-taker before the meeting starts, so 3 people do not take partial notes that nobody combines afterward."
+            "text": "Ask a colleague to take notes, use shared notes in Teams or Google Docs, or use an AI note taker so you can focus on the conversation. Agree on 1 note-taker before the meeting starts. Otherwise 3 people may take partial notes that nobody combines afterward."
           }
         },
         {

@@ -66,7 +66,7 @@
           "name": "Is a discovery call an interview?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not exactly. It is a two-way conversation. The seller asks most of the questions, but the buyer should also learn something useful and decide whether to continue. A good call feels useful to the buyer, because they leave with a clearer view of their own problem and options."
+            "text": "Not exactly. Think two-way conversation. While the seller asks most of the questions, the buyer should also learn something useful and decide whether to continue, leaving with a clearer view of their own problem and options. Good calls feel useful to the buyer."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "What happens after a discovery call?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The seller sends a recap and, if there is a fit, books the next step, often a demo with additional stakeholders or a proposal review. Send the recap the same day, using the prospect's own words for their goals, challenges and timeline."
+            "text": "After the call, the seller sends a recap and, if there is a fit, books the next step, often a demo with additional stakeholders or a proposal review. Send that recap the same day, using the prospect's own words for their goals, challenges and timeline."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "What is another name for a discovery call?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It is also called a discovery meeting, qualification call, needs analysis call or, for consultants and coaches, a consultation call. Whatever the name, the structure is the same: understand the situation, the problem and the goal, then agree on a next step. <!-- HANDOFF Prompts answered: \"what is a discovery call\", \"what is a discovery call in sales\", \"purpose of a discovery call\", \"how long should a discovery call be\", \"discovery call questions\", \"discovery call script\". Prompt gaps (createprompt): \"discovery call vs demo\". Fan-out source: Ubersuggest googlesuggestions (in sales, in coaching, for a job, with a lawyer, script, free, purpose, how long, questions, how to run, another word for) + SERP (reddit techsales, salesforce, vidyard, highspot), 2026-10-17. Inbound links: from /blog/sales-conversation-intelligence and /blog/meeting-preparation. Editor checks: \"talk 30% of the time or less\" is common sales guidance, not a cited statistic. -->"
+            "text": "You may also hear it called a discovery meeting, a qualification call, a needs analysis call or, for consultants and coaches, a consultation call. Whatever the name, the structure is the same: understand the situation, the problem and the goal, then agree on a next step. <!-- HANDOFF Prompts answered: \"what is a discovery call\", \"what is a discovery call in sales\", \"purpose of a discovery call\", \"how long should a discovery call be\", \"discovery call questions\", \"discovery call script\". Prompt gaps (createprompt): \"discovery call vs demo\". Fan-out source: Ubersuggest googlesuggestions (in sales, in coaching, for a job, with a lawyer, script, free, purpose, how long, questions, how to run, another word for) + SERP (reddit techsales, salesforce, vidyard, highspot), 2026-10-17. Inbound links: from /blog/sales-conversation-intelligence and /blog/meeting-preparation. Editor checks: \"talk 30% of the time or less\" is common sales guidance, not a cited statistic. -->"
           }
         }
       ]

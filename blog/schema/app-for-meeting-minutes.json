@@ -58,7 +58,7 @@
           "name": "Is there a free app for meeting minutes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Fathom offers unlimited free recordings and AI summaries. Otter, Read AI and Lynkk also have free plans with monthly limits. Fathom has no monthly cap on recordings. Otter allows 300 minutes, Read AI 5 meetings and Lynkk 5 notes of up to 2 hours each, which is enough for a weekly board or team meeting."
+            "text": "Yes. Fathom offers unlimited free recordings and AI summaries, with no monthly cap. Otter, Read AI and Lynkk also have free plans, but with monthly limits: Otter allows 300 minutes, Read AI 5 meetings and Lynkk 5 notes of up to 2 hours each. That is enough for a weekly board or team meeting."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "Is there a meeting minutes app for iPhone?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Otter, Granola and Jamie have iPhone apps that record in-person meetings and write notes. Lynkk works on Mac and in the browser. For in-person meetings, place the phone in the middle of the table. Room audio affects accuracy more than which app you choose."
+            "text": "Yes. Otter, Granola and Jamie have iPhone apps that record in-person meetings and write notes. Lynkk works on Mac and in the browser. In person, place the phone in the middle of the table, since room audio affects accuracy more than which app you choose."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "What should meeting minutes include?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Meeting minutes should include the date, attendees, agenda items, decisions, action items with owners and due dates, and the next meeting date. Formal minutes also record motions and votes. Keep each agenda item to 2 to 4 lines. Anything longer usually belongs in the meeting notes, not the official minutes. <!-- HANDOFF Prompts answered: \"best app for meeting minutes\", \"free app for meeting minutes\", \"meeting minutes app for microsoft teams\", \"meeting minutes app for iphone\", \"can ai write meeting minutes\". Prompt gaps (createprompt): \"ai app for board meeting minutes\". Fan-out source: Ubersuggest keywordsuggestions (best app 110, free app 50, ai app 40) + googlesuggestions (what is the best app for meeting minutes, for teams, for iphone, for mac, is there an app for meeting minutes) + SERP, 2026-10-17. Overlap (Medium): angled on \"apps that produce minutes\" vs /blog/meeting-minutes-sample (format) and /blog/best-ai-note-takers (general); links to both. Inbound links: from /blog/meeting-minutes-sample and /blog/action-items-examples-template. -->"
+            "text": "Meeting minutes should include the date, attendees, agenda items, decisions, action items with owners and due dates, and the next meeting date. Formal minutes also record motions and votes. Keep each agenda item to 2 to 4 lines; anything longer usually belongs in the meeting notes, not the official minutes. <!-- HANDOFF Prompts answered: \"best app for meeting minutes\", \"free app for meeting minutes\", \"meeting minutes app for microsoft teams\", \"meeting minutes app for iphone\", \"can ai write meeting minutes\". Prompt gaps (createprompt): \"ai app for board meeting minutes\". Fan-out source: Ubersuggest keywordsuggestions (best app 110, free app 50, ai app 40) + googlesuggestions (what is the best app for meeting minutes, for teams, for iphone, for mac, is there an app for meeting minutes) + SERP, 2026-10-17. Overlap (Medium): angled on \"apps that produce minutes\" vs /blog/meeting-minutes-sample (format) and /blog/best-ai-note-takers (general); links to both. Inbound links: from /blog/meeting-minutes-sample and /blog/action-items-examples-template. -->"
           }
         }
       ]

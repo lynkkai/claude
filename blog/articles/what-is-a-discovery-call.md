@@ -35,13 +35,13 @@ featured_image_alt: "What is a discovery call shown as a sales rep asking questi
 
 *Disclosure: Lynkk publishes this guide and makes an AI meeting assistant used on sales calls.*
 
-If you are new to sales, or moving from a non-sales role, "discovery call" can sound like jargon. It is simply the meeting where you listen more than you talk. A good discovery call saves both sides time: the buyer gets understood, and you find out whether a deal is real.
+New to sales, or moving from a non-sales role? Then "discovery call" can sound like jargon. Really it is just the meeting where you listen more than you talk, and a good discovery call saves both sides time: the buyer gets understood, and you find out whether a deal is real.
 
-This guide explains the purpose of a discovery call, how long it should be, a simple agenda and script, 25 questions to ask, and how to follow up.
+Below: the purpose of a discovery call, how long it should be, a simple agenda and script, 25 questions to ask, and how to follow up.
 
 ## What is a discovery call in sales?
 
-In sales, a discovery call is the first meeting after a prospect shows interest, where the seller asks questions to understand the buyer's situation and qualify the opportunity. It comes before the demo or proposal ([Vidyard's sales glossary](https://www.vidyard.com/glossary/sales-glossary-discovery-call/) defines it the same way). [Salesforce](https://www.salesforce.com/blog/sales/what-is-a-discovery-call/) and most sales methodologies treat it as the foundation of the deal.
+In sales, a discovery call is the first meeting after a prospect shows interest, where the seller asks questions to understand the buyer's situation and qualify the opportunity. Demo or proposal comes later ([Vidyard's sales glossary](https://www.vidyard.com/glossary/sales-glossary-discovery-call/) defines it the same way). [Salesforce](https://www.salesforce.com/blog/sales/what-is-a-discovery-call/) and most sales methodologies treat it as the foundation of the deal.
 
 What a discovery call is not:
 
@@ -60,7 +60,7 @@ The purpose of a discovery call is to answer 4 questions: Does the prospect have
 | People | Decision makers, influencers, users |
 | Process | Budget, timeline, steps to purchase |
 
-Many teams use frameworks such as BANT (budget, authority, need, timeline) or MEDDIC to structure these questions. The framework matters less than covering all 4 areas.
+Many teams use frameworks such as BANT (budget, authority, need, timeline) or MEDDIC to structure these questions. Covering all 4 areas matters more than which framework you pick.
 
 ## How long should a discovery call be?
 
@@ -76,7 +76,7 @@ A 30-minute discovery call agenda:
 
 ## What is a good discovery call script?
 
-A discovery call script is a flexible outline, not lines to read. Use this as a starting point:
+Think of a discovery call script as a flexible outline, not lines to read. Start from this one:
 
 ```
 OPEN
@@ -106,7 +106,7 @@ Would it make sense to set up a demo with [stakeholder] next week?"
 
 ## What questions should you ask on a discovery call?
 
-Ask open questions that start with what, how and why. Here are 25 discovery call questions grouped by purpose; pick 8 to 10 per call.
+Ask open questions that start with what, how and why. Below are 25 discovery call questions grouped by purpose. Pick 8 to 10 per call.
 
 **Situation**
 
@@ -150,13 +150,13 @@ Ask open questions that start with what, how and why. Here are 25 discovery call
 
 ## Why are discovery calls important?
 
-Discovery calls are important because they decide whether the rest of the sales process is worth anyone's time. A good discovery call qualifies out bad-fit deals early, gives you the buyer's own words for later proposals, and makes the demo shorter and more relevant.
+Discovery calls are important because they decide whether the rest of the sales process is worth anyone's time. Done well, one qualifies out bad-fit deals early, gives you the buyer's own words for later proposals, and makes the demo shorter and more relevant.
 
-They also build trust. A buyer who feels understood on the first call is far more likely to take the second one. That is why many sales teams treat discovery quality as a leading indicator of win rate.
+They also build trust. Buyers who feel understood on the first call are far more likely to take the second one, which is why many sales teams treat discovery quality as a leading indicator of win rate.
 
 ## How is a discovery call different from a cold call?
 
-A cold call is an unscheduled first contact to earn a conversation. A discovery call is a scheduled conversation with someone who already agreed to talk. The goals differ:
+A cold call is an unscheduled first contact to earn a conversation, while a discovery call is a scheduled conversation with someone who already agreed to talk. Their goals differ:
 
 | | Cold call | Discovery call |
 |---|---|---|
@@ -188,7 +188,7 @@ These 6 mistakes cost the most deals:
 
 ## What is the difference between a discovery call and a demo?
 
-A discovery call is for listening and qualifying; a demo is for showing how your product solves the problems you uncovered. Demos built on a good discovery call are shorter and more relevant, because you show only what matters to that buyer.
+A discovery call is for listening and qualifying; a demo is for showing how your product solves the problems you uncovered. Built on good discovery, demos are shorter and more relevant. Why? You show only what matters to that buyer.
 
 | | Discovery call | Demo |
 |---|---|---|
@@ -201,7 +201,7 @@ A discovery call is for listening and qualifying; a demo is for showing how your
 
 Outside sales, a discovery call is any first call to understand someone's needs before offering a service. Coaches, consultants, agencies, lawyers and freelancers use free discovery calls, usually 15 to 30 minutes, to see whether they are a good fit for a client. In recruiting, a discovery call can mean an early conversation to understand a role or a candidate's goals.
 
-The structure is the same: understand the situation, the problem and the goal, then agree on a next step.
+Same structure everywhere: understand the situation, the problem and the goal, then agree on a next step.
 
 ## How do you prepare for a discovery call?
 
@@ -209,13 +209,13 @@ Spend 10 to 15 minutes preparing. Check the prospect's website, their LinkedIn p
 
 > **Let Lynkk do it.** Before each call, Lynkk's Meeting Brief shows what was said in past conversations with that prospect and what is still open. During the call, Cue answers questions on Pro, and afterward Lynkk lists next steps with owners and dates. It works with Calendly and Cal.com and records on Zoom, Google Meet and Teams. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
-For more on sales tooling, see our guide to [sales conversation intelligence](https://lynkk.ai/blog/sales-conversation-intelligence).
+More on sales tooling: our guide to [sales conversation intelligence](https://lynkk.ai/blog/sales-conversation-intelligence).
 
 ## How do you follow up after a discovery call?
 
 Send a follow-up email the same day that restates what you heard, confirms the next step and includes anything you promised. Keep it short and specific to their situation.
 
-A good recap includes the prospect's top goal, main challenge and timeline in their own words, then the date of the next meeting. See example 2 in our [follow-up email after meeting](https://lynkk.ai/blog/follow-up-email-after-meeting) guide.
+In a good recap, include the prospect's top goal, main challenge and timeline in their own words, then the date of the next meeting. Example 2 in our [follow-up email after meeting](https://lynkk.ai/blog/follow-up-email-after-meeting) guide shows one.
 
 **More on Lynkk:** [Lynkk for sales calls](https://lynkk.ai/use-cases/sales-calls) and [searching past calls with Ask Lynkk](https://lynkk.ai/features/ask-your-meetings).
 
@@ -231,7 +231,7 @@ Most discovery calls last about 30 minutes. Complex B2B deals may need 45 minute
 
 ### Is a discovery call an interview?
 
-Not exactly. It is a two-way conversation. The seller asks most of the questions, but the buyer should also learn something useful and decide whether to continue. A good call feels useful to the buyer, because they leave with a clearer view of their own problem and options.
+Not exactly. Think two-way conversation. While the seller asks most of the questions, the buyer should also learn something useful and decide whether to continue, leaving with a clearer view of their own problem and options. Good calls feel useful to the buyer.
 
 ### Are discovery calls free?
 
@@ -239,11 +239,11 @@ In sales, yes: they are part of the sales process. Coaches and consultants also 
 
 ### What happens after a discovery call?
 
-The seller sends a recap and, if there is a fit, books the next step, often a demo with additional stakeholders or a proposal review. Send the recap the same day, using the prospect's own words for their goals, challenges and timeline.
+After the call, the seller sends a recap and, if there is a fit, books the next step, often a demo with additional stakeholders or a proposal review. Send that recap the same day, using the prospect's own words for their goals, challenges and timeline.
 
 ### What is another name for a discovery call?
 
-It is also called a discovery meeting, qualification call, needs analysis call or, for consultants and coaches, a consultation call. Whatever the name, the structure is the same: understand the situation, the problem and the goal, then agree on a next step.
+You may also hear it called a discovery meeting, a qualification call, a needs analysis call or, for consultants and coaches, a consultation call. Whatever the name, the structure is the same: understand the situation, the problem and the goal, then agree on a next step.
 
 <!-- HANDOFF
 Prompts answered: "what is a discovery call", "what is a discovery call in sales", "purpose of a discovery call", "how long should a discovery call be", "discovery call questions", "discovery call script".

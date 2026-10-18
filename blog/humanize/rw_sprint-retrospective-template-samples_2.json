@@ -1,0 +1,9 @@
+{"sprint-retrospective-template-samples": {
+"3": "Not the same as a sprint review. A review looks at the product increment with stakeholders, while a retrospective looks at how the team works, usually team-only.",
+"9": "Choose a format by what kind of sprint you just had, not by habit. Some simple rules:",
+"10": "Rotate every 3 to 4 sprints so retros do not become routine.",
+"17": "Remote retrospectives work well with 4 adjustments. Use a shared online board, start with 5 minutes of silent writing so everyone contributes, use dot voting to pick topics, and keep cameras optional but encourage them.",
+"20": "Most teams skip Step 2. That is why familiar issues keep returning.",
+"26": "Once per sprint. It comes at the end, after the review and before next sprint planning, and closes out the sprint so improvements carry straight into planning while details are still fresh. Retros held weeks later lose detail.",
+"27": "The Scrum team: developers, the product owner and the Scrum Master. Stakeholders usually attend the sprint review instead, and although some teams invite one occasionally, keeping retros team-only makes people more willing to raise problems honestly. Keep the group small and consistent."
+}}

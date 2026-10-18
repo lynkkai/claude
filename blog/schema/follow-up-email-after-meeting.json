@@ -50,7 +50,7 @@
           "name": "How do you write a follow-up email after a meeting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Thank the attendees, restate decisions, list action items with owners and dates, and confirm the next step. Keep it short and send it within 24 hours. Put decisions and action items in the first lines, so readers who only skim still see what they need to do and by when."
+            "text": "Thank the attendees, restate decisions, list action items with owners and dates, and confirm the next step. Keep it short. Send it within 24 hours. Put decisions and action items in the first lines, so readers who only skim still see what they need to do and by when."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How long after a meeting should you send a follow-up email?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Send it within 24 hours, and the same day for client and sales meetings. The sooner it goes out, the more accurately it reflects what was agreed, and the more likely people are to act on the next steps while the meeting is fresh."
+            "text": "Send it within 24 hours, and the same day for client and sales meetings. Why? The sooner it goes out, the more accurately it reflects what was agreed, and the more likely people are to act on the next steps while the meeting is still fresh in their minds."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "What is a good subject line for a follow-up email after a meeting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Name the meeting and the content, such as \"Recap and next steps from today's review\" or \"Team sync Oct 21: decisions and actions\". Specific subject lines get opened because people can see the email concerns them. Avoid a bare \"Following up\", which is easy to ignore in a busy inbox."
+            "text": "Name the meeting and the content, such as \"Recap and next steps from today's review\" or \"Team sync Oct 21: decisions and actions\". Specific subject lines get opened. Why? People can see the email concerns them. Avoid a bare \"Following up\", which is easy to ignore in a busy inbox."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "How do you follow up politely if there is no response?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Wait 2 to 3 business days, reply in the same thread, restate the one thing you need and offer a quick call. Most professionals stop after 2 or 3 reminders. After that, switch channel, for example a short call or a message, rather than sending another email."
+            "text": "Wait 2 to 3 business days. Then reply in the same thread, restate the one thing you need and offer a quick call. Most professionals stop after 2 or 3 reminders. After that, switch channel, for example to a short call or a message, rather than sending another email."
           }
         },
         {

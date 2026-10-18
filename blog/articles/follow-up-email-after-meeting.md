@@ -33,13 +33,13 @@ featured_image_alt: "Example of follow up email after meeting with action items 
 
 *Disclosure: Lynkk publishes this guide and makes an AI meeting assistant that drafts follow-ups automatically.*
 
-The follow-up email is where a meeting turns into results. Without it, people leave with different memories of what was agreed. With it, everyone has the same list of decisions, owners and dates in their inbox.
+A meeting turns into results in the follow-up email. Without one? People leave with different memories of what was agreed. With it, everyone has the same list of decisions, owners and dates in their inbox.
 
-Below you will find a simple structure, 12 examples for common situations, subject lines that get opened, and guidance on timing and polite reminders.
+What follows is a simple structure, 12 examples for common situations, subject lines that get opened, and guidance on timing and polite reminders for when nobody answers.
 
 ## What should you write in a follow-up email after a meeting?
 
-Write 5 parts, in this order: a short thank-you, the purpose or context in one line, decisions, action items with owners and dates, and the next step. Keep it under 150 words when you can.
+Write 5 parts, in this order: a short thank-you, the purpose or context in one line, decisions, action items with owners and dates, and the next step. Under 150 words is the target. Shorter is fine.
 
 ```
 Subject: [Meeting name] follow-up: next steps
@@ -63,7 +63,7 @@ Best,
 
 ## How soon should you send a follow-up email after a meeting?
 
-Send a follow-up email within 24 hours of the meeting, and the same day for sales and client meetings. The sooner you send it, the more accurately it reflects what was said, and the more likely people act on it.
+Send a follow-up email within 24 hours of the meeting, and the same day for sales and client meetings. Why the rush? An early recap reflects what was said more accurately, and people are likelier to act on it.
 
 
 ## What is a good example of a follow up email after a meeting?
@@ -111,7 +111,7 @@ Best,
 [Your name]
 ```
 
-For what to cover on that call, see [what is a discovery call](https://lynkk.ai/blog/what-is-a-discovery-call).
+Not sure what to cover on that call? See [what is a discovery call](https://lynkk.ai/blog/what-is-a-discovery-call).
 
 ### 3. Follow-up email after a business meeting
 
@@ -231,7 +231,7 @@ We will review progress on [date]. Let me know if anything here does not match y
 [Your name]
 ```
 
-For sensitive HR conversations, follow your company's HR process and wording.
+Sensitive HR conversation? Follow your company's HR process and wording.
 
 ### 10. Follow-up email after a meeting with no response
 
@@ -283,11 +283,11 @@ Regards,
 [Secretary name]
 ```
 
-For formal minutes, see our [meeting minutes sample](https://lynkk.ai/blog/meeting-minutes-sample).
+Need formal minutes instead? See our [meeting minutes sample](https://lynkk.ai/blog/meeting-minutes-sample).
 
 ## How do you follow up when someone does not reply?
 
-Wait 2 to 3 business days, then reply in the same thread with 1 specific ask and a date. Most professionals stop after 2 or 3 polite reminders; after that, a short call or a message on another channel works better than more email.
+Wait 2 to 3 business days, then reply in the same thread with 1 specific ask and a date. Most professionals stop after 2 or 3 polite reminders. After that, a short call or a message on another channel works better than more email.
 
 A good reminder sequence:
 
@@ -299,7 +299,7 @@ Keep every reminder short. Each one should be easier to answer than the last.
 
 ## What mistakes should you avoid in a follow-up email?
 
-The 5 most common follow-up mistakes are easy to avoid:
+Each of these 5 frequent slip-ups is simple to sidestep:
 
 - **Sending it late.** After 48 hours, details blur and the email feels like an afterthought.
 - **Recapping the whole meeting.** Send decisions and actions; link full notes.
@@ -311,7 +311,7 @@ A quick test: an example of a follow up email after a meeting is good if the rea
 
 ## What subject lines work for follow-up emails?
 
-The best follow-up subject lines name the meeting and the content, so people know why to open them. Use 1 of these 6 patterns:
+Name the meeting and the content in the subject line, and people know why to open it. That is what the best follow-up subject lines do. Use 1 of these 6 patterns:
 
 | Pattern | Example |
 |---|---|
@@ -322,15 +322,15 @@ The best follow-up subject lines name the meeting and the content, so people kno
 | Reply to original thread | "Re: Phase 2 scope" |
 | Specific ask | "Need your sign-off on the timeline by Friday" |
 
-Avoid vague subjects like "Following up" on its own; they get skipped.
+On its own, a vague subject like "Following up" gets skipped.
 
 ## How do you make follow-up emails faster to write?
 
-The slow part is remembering exactly what was agreed. Take notes with decisions and actions marked during the meeting, and the email takes 5 minutes. Our [meeting summary template](https://lynkk.ai/blog/meeting-summary-template) has the same structure as these emails.
+Writing the email is fast. Remembering exactly what was agreed is the slow part, so take notes with decisions and actions marked during the meeting, and the email itself takes 5 minutes. Our [meeting summary template](https://lynkk.ai/blog/meeting-summary-template) uses the same structure as these emails.
 
 > **Let Lynkk do it.** Lynkk records your meeting on Zoom, Google Meet, Teams or in person and drafts the follow-up for you: decisions, tasks with owners and dates, and next steps. It works with Calendly and Cal.com, so booking the next meeting is one step. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
-For more phrasing ideas, [The Muse's follow-up email templates](https://www.themuse.com/advice/finally-5-email-templates-that-make-following-up-with-anyone-way-less-awkward) are a good companion read.
+Want more phrasing ideas? [The Muse's follow-up email templates](https://www.themuse.com/advice/finally-5-email-templates-that-make-following-up-with-anyone-way-less-awkward) are a good companion read.
 
 **More on Lynkk:** [AI action item tracking](https://lynkk.ai/features/action-items) and [Lynkk for sales calls](https://lynkk.ai/use-cases/sales-calls).
 
@@ -338,19 +338,19 @@ For more phrasing ideas, [The Muse's follow-up email templates](https://www.them
 
 ### How do you write a follow-up email after a meeting?
 
-Thank the attendees, restate decisions, list action items with owners and dates, and confirm the next step. Keep it short and send it within 24 hours. Put decisions and action items in the first lines, so readers who only skim still see what they need to do and by when.
+Thank the attendees, restate decisions, list action items with owners and dates, and confirm the next step. Keep it short. Send it within 24 hours. Put decisions and action items in the first lines, so readers who only skim still see what they need to do and by when.
 
 ### How long after a meeting should you send a follow-up email?
 
-Send it within 24 hours, and the same day for client and sales meetings. The sooner it goes out, the more accurately it reflects what was agreed, and the more likely people are to act on the next steps while the meeting is fresh.
+Send it within 24 hours, and the same day for client and sales meetings. Why? The sooner it goes out, the more accurately it reflects what was agreed, and the more likely people are to act on the next steps while the meeting is still fresh in their minds.
 
 ### What is a good subject line for a follow-up email after a meeting?
 
-Name the meeting and the content, such as "Recap and next steps from today's review" or "Team sync Oct 21: decisions and actions". Specific subject lines get opened because people can see the email concerns them. Avoid a bare "Following up", which is easy to ignore in a busy inbox.
+Name the meeting and the content, such as "Recap and next steps from today's review" or "Team sync Oct 21: decisions and actions". Specific subject lines get opened. Why? People can see the email concerns them. Avoid a bare "Following up", which is easy to ignore in a busy inbox.
 
 ### How do you follow up politely if there is no response?
 
-Wait 2 to 3 business days, reply in the same thread, restate the one thing you need and offer a quick call. Most professionals stop after 2 or 3 reminders. After that, switch channel, for example a short call or a message, rather than sending another email.
+Wait 2 to 3 business days. Then reply in the same thread, restate the one thing you need and offer a quick call. Most professionals stop after 2 or 3 reminders. After that, switch channel, for example to a short call or a message, rather than sending another email.
 
 ### Should a follow-up email include action items?
 

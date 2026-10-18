@@ -1,0 +1,17 @@
+{"sprint-retrospective-template-samples": {
+"0": "Sprint retrospectives fail in a predictable way: the same complaints come up every 2 weeks and nothing changes, and the fix is rarely a cleverer format. Fewer, better questions. Action items that someone actually owns.",
+"1": "With these sprint retrospective samples you get everything to run a good retro this week: a template, formats, 40 questions, example answers and a way to make sure actions get done.",
+"2": "A sprint retrospective is the Scrum event at the end of each sprint where the team inspects how it worked, covering people, process, tools and the definition of done, and agrees on improvements. Per the [Scrum Guide](https://scrumguides.org/scrum-guide.html), it is timeboxed to a maximum of 3 hours for a 1-month sprint; shorter sprints usually need less.",
+"3": "Not the same as the sprint review. That one looks at the product increment with stakeholders, while the retrospective looks at how the team works, usually with the team only.",
+"4": "Of our sprint retrospective samples, this is the simplest. Copy the template into Confluence, Notion, a Google Doc or a Miro board.",
+"5": "Total: 55 minutes, which suits a 2-week sprint.",
+"6": "Between them, these 5 formats cover most teams; rotate them every few sprints so the retro stays fresh.",
+"11": "Pick 3 to 5 questions per retro, not all 40. Like all sprint retrospective samples, they work best adapted to your team, and you will find them grouped below into 5 themes of 8.",
+"12": "Good \"what went well\" answers are specific and name a cause, so the team can repeat it. Below: 8 sprint retrospective samples for what went well:",
+"14": "Say what happened, its effect and a suggestion, in that order, using a simple structure: \"When X happened, it caused Y. Next time, could we try Z?\" Feedback stays about the work, not the person.",
+"18": "Record the session or have a note-taker. Why? Remote retros lose the physical board that teams used to photograph at the end. Put the actions straight into your backlog before the call ends, while everyone is still present to confirm owners and dates.",
+"21": "Put retrospective actions in the same backlog as feature work, with an owner and a due date, and review them at the start of the next retro. Actions that live only in a retro board? Usually forgotten by day 3.",
+"23": "A sprint retrospective is a Scrum event at the end of each sprint where the team reviews how it worked and agrees on improvements for the next sprint. People, process, tools and the definition of done are all in scope. It ends with 1 to 3 action items, each with an owner.",
+"24": "At most 3 hours for a 1-month sprint, per the Scrum Guide's timebox. Most 2-week sprints use 45 to 90 minutes. Shorter sprints need proportionally less time. A 55-minute agenda with 7 steps fits most 2-week sprints and leaves room to agree on real actions.",
+"28": "The sprint review inspects the product increment with stakeholders, while the retrospective inspects how the team worked and plans improvements. Both happen at the end of each sprint, with the review first. Keeping them separate stops product feedback from crowding out the team's own improvements."
+}}

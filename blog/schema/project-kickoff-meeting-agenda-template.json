@@ -50,7 +50,7 @@
           "name": "What is included in a project kickoff meeting agenda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Introductions and roles, background and goals, scope, deliverables and timeline, ways of working, risks and dependencies, open questions, and next steps with owners. Send the agenda with a pre-read 1 to 2 days before, so the meeting is spent discussing scope and risks instead of reading slides together."
+            "text": "Introductions and roles, background and goals, scope, deliverables and timeline, ways of working, risks and dependencies, open questions, and next steps with owners. Send the agenda early. With a pre-read 1 to 2 days before, the meeting is spent discussing scope and risks instead of reading slides together."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "What is the purpose of a kickoff meeting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "To align everyone on the goal, scope, timeline, roles and ways of working before work starts, so the project avoids misunderstandings later. A kickoff that skips scope or owners usually shows up weeks later as scope creep, missed dates and arguments about what was agreed."
+            "text": "To align everyone on the goal, scope, timeline, roles and ways of working before work starts, so the project avoids misunderstandings later. Skip scope or owners and it usually shows up weeks later. Scope creep. Missed dates. Arguments about what was agreed."
           }
         },
         {

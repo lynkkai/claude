@@ -34,13 +34,13 @@ featured_image_alt: "Notta pricing plans for 2026 compared across Free, Pro, Bus
 
 *Disclosure: Lynkk publishes this guide and makes a competing AI meeting assistant. Annual prices come from [Notta's pricing page](https://www.notta.ai/en/pricing), checked 17 October 2026. Monthly-billing prices are from a third-party pricing review because Notta's page shows annual prices.*
 
-Notta pricing is mostly about minutes. Each plan gives you a monthly pool of transcription time, a cap per recording, and a cap on AI summaries. Knowing those 3 numbers tells you which plan fits.
+Notta pricing is mostly about minutes. Every plan hands you a monthly pool of transcription time, then caps how long each recording can run and how many AI summaries you get. Know those 3 numbers. They tell you which plan fits.
 
-This guide lists what each Notta plan costs, what the limits mean in real meetings, and how Notta compares with other transcription and meeting tools.
+Below: what every tier costs, what its limits mean in real meetings, and how Notta stacks up against other transcription and meeting tools.
 
 ## How much does Notta cost?
 
-Notta costs $0 on Free, $8.17 a month on Pro billed yearly, $16.67 per seat a month on Business billed yearly, and a custom price on Enterprise. On monthly billing, Pro is about $13.99 and Business about $27.99 per seat.
+Notta costs $0 on Free, $8.17 a month on Pro billed yearly, $16.67 per seat a month on Business billed yearly, and a custom price on Enterprise. Paying month to month? Then Pro runs about $13.99 and Business about $27.99 per seat.
 
 | Plan | Annual billing (per month) | Monthly billing | Transcription |
 |---|---|---|---|
@@ -49,42 +49,42 @@ Notta costs $0 on Free, $8.17 a month on Pro billed yearly, $16.67 per seat a mo
 | Business | $16.67 per seat ($199.99/year) | About $27.99 per seat | Unlimited |
 | Enterprise | Custom (51+ seats) | Custom | Custom |
 
-Annual billing saves roughly 40% on Pro. If you will use Notta for more than 6 months, annual is the cheaper choice.
+Yearly billing saves roughly 40% on Pro. Planning to keep it past 6 months? Then annual is cheaper.
 
 ## Is Notta free?
 
-Yes, Notta has a free plan with 120 transcription minutes a month and no credit card, but each conversation is capped at 3 minutes. Minutes do not carry over.
+Yes, Notta has a free plan with 120 transcription minutes a month and no credit card, but each conversation is capped at 3 minutes. Leftover minutes do not roll over.
 
-The free plan also includes:
+On top of that, Free includes:
 
 - 50 file uploads a month
 - 10 AI summaries a month
 - Web meeting transcription for Zoom, Google Meet, Teams, Webex and Slack
 - Speaker identification
 
-The 3-minute cap makes the free plan a demo rather than a meeting tool. It works for short voice notes, not for a 30-minute call.
+That 3-minute cap turns Free into a demo rather than a meeting tool. Fine for short voice notes. Not for a 30-minute call.
 
 ## What does Notta Pro include?
 
-Notta Pro at $8.17 a month billed yearly gives 1,800 minutes a month, recordings up to 5 hours, 100 file uploads and 100 AI summaries a month. It adds transcript export, transcript translation and custom vocabulary.
+Notta Pro at $8.17 a month billed yearly gives 1,800 minutes a month, recordings up to 5 hours, 100 file uploads and 100 AI summaries monthly, plus transcript export, transcript translation and custom vocabulary.
 
-What 1,800 minutes means in practice:
+In practice, 1,800 minutes looks like this:
 
 - **30-minute meetings:** about 60 a month, or 3 a working day.
 - **1-hour meetings:** about 30 a month, or 1 to 2 a working day.
 - **Interviews and lectures:** 5-hour recordings fit within a single file.
 
-For one person with a normal meeting load, Pro is usually enough.
+Usually enough, then, for one person with a normal meeting load.
 
 ## What does Notta Business include?
 
-Notta Business at $16.67 per seat a month billed yearly removes the minute cap and adds team features: web meeting video recording, advanced data security controls, a usage report, and CRM and Zapier integration. It includes 200 file uploads and 200 AI summaries a month per seat.
+Notta Business at $16.67 per seat a month billed yearly removes the minute cap and adds team features: web meeting video recording, advanced data security controls, a usage report, and CRM and Zapier integration. Per seat, you also get 200 file uploads and 200 AI summaries a month.
 
-Business suits teams that record most of their meetings or need video. Enterprise, from 51 seats, adds SAML SSO, full data access control, audit logs, flexible payments and priority support.
+Who is it for? Teams that record most of their meetings or need video. Enterprise starts at 51 seats and layers on SAML SSO, full data access control, audit logs, flexible payments and priority support.
 
 ## What does Notta cost for a team?
 
-A 10-person team pays $1,999.90 a year on Notta Business billed yearly, or about $3,359 on monthly billing. Here is how Notta pricing scales across team sizes.
+A 10-person team pays $1,999.90 a year on Notta Business billed yearly, or about $3,359 if it pays month to month. That gap adds up. Here is how Notta pricing scales across team sizes.
 
 | Team size | Pro yearly | Business yearly |
 |---|---|---|
@@ -93,17 +93,17 @@ A 10-person team pays $1,999.90 a year on Notta Business billed yearly, or about
 | 10 users | $979.90 | $1,999.90 |
 | 25 users | $2,449.75 | $4,999.75 |
 
-Pro is priced per user and designed for 1 seat each. Teams that want shared workspaces and usage reports need Business.
+Pro is priced per user, 1 seat each. Shared workspaces and usage reports? Those need Business.
 
 ## Are there add-ons or hidden costs in Notta pricing?
 
-Notta sells some features as add-ons. A third-party pricing review lists real-time translation and bilingual transcription from $6 a month. The bigger hidden cost is the AI summary cap: 10 on Free, 100 on Pro and 200 on Business each month.
+Yes, Notta sells some features as add-ons. According to a third-party pricing review, real-time translation and bilingual transcription start from $6 a month. Bigger hidden cost: the AI summary cap, which sits at 10 on Free, 100 on Pro and 200 on Business each month.
 
-If you summarize every meeting, count them. A user with 3 meetings a day hits about 60 summaries a month, which fits Pro. A heavy user transcribing many files can hit the 100-summary cap before the minute cap.
+Summarize every meeting? Count them. At 3 meetings a day, a user hits about 60 summaries a month, which fits Pro, while a heavy user transcribing many files can reach the 100-summary cap before running out of minutes.
 
 ## Which Notta plan should you choose?
 
-Most people should choose Pro: 1,800 minutes a month covers about 30 one-hour meetings for $8.17 billed yearly. Pick Free only to test accuracy, Business when a team records most meetings or needs video, and Enterprise when IT requires SSO and audit logs.
+Most people should choose Pro: 1,800 minutes a month covers about 30 one-hour meetings for $8.17 billed yearly. Free is only for testing accuracy. Business fits a team that records most meetings or needs video, and Enterprise makes sense once IT demands SSO and audit logs.
 
 | If you are... | Pick | Why |
 |---|---|---|
@@ -112,17 +112,17 @@ Most people should choose Pro: 1,800 minutes a month covers about 30 one-hour me
 | A team recording most meetings | Business | Unlimited transcription, video, CRM |
 | A company with 51+ seats | Enterprise | SSO, audit logs, priority support |
 
-Before you buy, run 2 real meetings through the free plan's uploads to check accuracy on your accents and microphones. The 3-minute cap applies to conversations, so test with short excerpts.
+Before buying, run 2 real meetings through the free plan's uploads and check accuracy on your own accents and microphones. Keep excerpts short. That 3-minute cap applies to conversations.
 
 ## How do you cancel or downgrade Notta?
 
-Notta's plans renew automatically, so downgrade before the renewal date if you only need the free tier. Export transcripts you want to keep first, because the free plan's limits apply as soon as the paid period ends.
+Notta's plans renew automatically. Downgrade before the renewal date if the free tier is all you need, but export any transcripts worth keeping first, because free-plan limits kick in the moment your paid period ends.
 
-Check Notta's help center for the current cancellation steps and refund terms, which can differ between annual and monthly billing.
+Refund terms and cancellation steps can differ between annual and monthly billing. Check Notta's help center for the current version.
 
 ## How does Notta pricing compare with alternatives?
 
-Notta Pro at $8.17 billed yearly is one of the cheapest paid meeting tools, close to Otter Pro at $8.33 and Tactiq Pro at $8. Its free plan is the most restrictive, with a 3-minute cap per conversation.
+At $8.17 billed yearly, Notta Pro is one of the cheapest paid meeting tools, close to Otter Pro at $8.33 and Tactiq Pro at $8. Its free plan, though, is the most restrictive of the bunch. A 3-minute cap per conversation.
 
 | Tool | Free plan | Entry paid (per user/month) |
 |---|---|---|
@@ -133,15 +133,15 @@ Notta Pro at $8.17 billed yearly is one of the cheapest paid meeting tools, clos
 | Fireflies.ai | Yes, limited storage | $10 yearly |
 | Fathom | Unlimited recordings | $16 yearly |
 
-Prices from [Otter](https://otter.ai/pricing), [Tactiq](https://tactiq.io/pricing) and [Fathom](https://www.fathom.ai/pricing), checked 17 October 2026. For a browser-based comparison, see [Tactiq alternatives](https://lynkk.ai/blog/tactiq-alternative).
+Sources: [Otter](https://otter.ai/pricing), [Tactiq](https://tactiq.io/pricing) and [Fathom](https://www.fathom.ai/pricing) pricing pages, checked 17 October 2026. Want a browser-based comparison? See [Tactiq alternatives](https://lynkk.ai/blog/tactiq-alternative).
 
 ## Is Notta worth paying for?
 
-Notta is worth paying for if you need cheap transcription minutes, file uploads and translation. It is less worth it if you want the meeting work done for you: prep before calls, tasks with owners and tickets after them.
+Notta is worth paying for if you need cheap transcription minutes, file uploads and translation. Less so if you want the meeting work done for you, meaning prep before calls plus tasks with owners and tickets after them.
 
-That is the gap Lynkk (our product) covers. Lynkk records online meetings through a bot on Zoom, Google Meet and Teams, and in-person or bot-free meetings through its Mac app and Chrome extension. It adds a Meeting Brief before each call, Cue answers during it (Pro), and tasks with owners and dates, a decision log and one-click Jira tickets after it. Ask Lynkk searches all your meetings and cites the source.
+That gap is where Lynkk (our product) fits. Online meetings get recorded by a bot on Zoom, Google Meet and Teams; in-person or bot-free ones go through the Mac app and Chrome extension. Before each call there is a Meeting Brief, during it Cue answers (Pro), and afterwards come tasks with owners and dates, a decision log and one-click Jira tickets. Ask Lynkk searches all your meetings and cites the source.
 
-Lynkk supports 17 languages including Hindi and Hinglish. Its free plan allows recordings up to 2 hours, compared with Notta Free's 3 minutes. Pro costs $15 a month. More options in our [Otter.ai alternatives](https://lynkk.ai/blog/otter-ai-alternatives) roundup.
+On language support, Lynkk covers 17 languages including Hindi and Hinglish. Free recordings run up to 2 hours, against 3 minutes on Notta Free. Pro is $15 a month. For more options, see our [Otter.ai alternatives](https://lynkk.ai/blog/otter-ai-alternatives) roundup.
 
 [Try Lynkk free](https://lynkk.ai/)
 
@@ -151,27 +151,27 @@ Lynkk supports 17 languages including Hindi and Hinglish. Its free plan allows r
 
 ### How much does Notta cost per month?
 
-Notta Pro costs $8.17 a month billed yearly or about $13.99 on monthly billing. Business costs $16.67 per seat a month billed yearly or about $27.99 monthly. Annual billing saves about 40% on Pro. If you expect to use Notta for more than 6 months, the annual plan is the cheaper choice.
+Notta Pro costs $8.17 a month billed yearly or about $13.99 on monthly billing, while Business costs $16.67 per seat a month billed yearly or about $27.99 monthly. Annual saves about 40% on Pro. Staying past 6 months? Then the annual plan is cheaper.
 
 ### Is Notta free to use?
 
-Yes. Notta's free plan includes 120 transcription minutes a month, but each conversation is capped at 3 minutes. It also includes 10 AI summaries a month. The 3-minute cap makes the free plan a demo, good for testing accuracy on short clips but not for real meetings.
+Yes. Notta's free plan includes 120 transcription minutes and 10 AI summaries a month, but each conversation is capped at 3 minutes. That 3-minute cap turns the free plan into a demo. Good for testing accuracy on short clips, but not for real meetings.
 
 ### How much is Notta Pro per year?
 
-Notta Pro costs $97.99 a year on annual billing, which works out to $8.17 a month. It includes 1,800 transcription minutes a month. Pro also allows recordings up to 5 hours and includes 100 AI summaries a month, which covers about 3 meetings every working day.
+Notta Pro costs $97.99 a year on annual billing, which works out to $8.17 a month. For that you get 1,800 transcription minutes monthly, recordings up to 5 hours and 100 AI summaries a month. That summary allowance covers about 3 meetings every working day.
 
 ### What is the difference between Notta Pro and Business?
 
-Pro gives 1,800 minutes a month for 1 user. Business gives unlimited transcription per seat, plus video recording, security controls, usage reports, and CRM and Zapier integration. Business suits teams that record most meetings or need video. Enterprise starts at 51 seats and adds SSO and audit logs.
+Pro gives 1 user 1,800 minutes a month. Business offers unlimited transcription per seat and adds video recording, security controls, usage reports, and CRM and Zapier integration, which suits teams that record most meetings or need video. Above that, Enterprise starts at 51 seats with SSO and audit logs.
 
 ### Is Notta cheaper than Otter?
 
-On annual billing they are close: Notta Pro is $8.17 a month and Otter Pro is $8.33. Otter's free plan is more usable, with 30 minutes per conversation versus Notta's 3. Lynkk's free plan allows 2-hour recordings and Pro costs $15 a month, adding prep before calls and Jira tickets after them.
+Barely, on annual billing: Notta Pro is $8.17 a month and Otter Pro is $8.33. Otter's free plan is more usable, though, at 30 minutes per conversation versus Notta's 3. For comparison, Lynkk Free allows 2-hour recordings, and its $15-a-month Pro plan adds prep before calls and Jira tickets after them.
 
 ### Does Notta have a lifetime deal?
 
-Notta's pricing page lists only Free, Pro, Business and Enterprise as of October 2026. It does not list a lifetime plan. Check the pricing page at checkout, since promotions change. Monthly prices are about $13.99 for Pro and $27.99 per seat for Business.
+No lifetime plan is listed. As of October 2026, Notta's pricing page shows only Free, Pro, Business and Enterprise, with monthly prices of about $13.99 for Pro and $27.99 per seat for Business. Promotions change, so check that page at checkout.
 
 <!-- HANDOFF
 Prompts answered: "notta pricing", "how much does notta cost", "is notta free", "notta pro per year", "notta pro vs business".

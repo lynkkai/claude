@@ -50,7 +50,7 @@
           "name": "What is the standard order of a board meeting agenda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Call to order, roll call and quorum, approval of the agenda, approval of prior minutes, consent agenda, reports, old business, new business, executive session if needed, announcements and adjournment. Your bylaws can change this order, and many boards move key decisions earlier so directors discuss them while they are fresh."
+            "text": "Call to order, roll call and quorum, approval of the agenda, approval of prior minutes, consent agenda, reports, old business, new business, executive session if needed, announcements and adjournment. Bylaws can change this order. Many boards also move key decisions earlier, so directors discuss them while they are fresh."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "Who sets the board meeting agenda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The board chair sets the agenda, usually with the CEO or executive director and the board secretary. Directors can request items through the chair. Committee chairs submit their reports in advance, and the final agenda goes out with the board packet so every director sees the same plan."
+            "text": "The board chair sets the agenda, usually with the CEO or executive director and the board secretary. Directors can request items through the chair. Committee chairs submit their reports in advance, and the final version goes out with the packet so every director sees one identical plan."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "How far in advance should a board agenda be sent?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Send the agenda and board packet 5 to 7 days before the meeting so directors have time to read reports and prepare questions. For quarterly boards with long financial packs, 7 days is safer. Ask directors to send questions in advance so meeting time goes to decisions rather than clarifications."
+            "text": "Send the agenda and board packet 5 to 7 days before the meeting so directors can read reports and prepare questions. Quarterly board with long financial packs? 7 days is safer. Ask directors to send questions in advance, so meeting time goes to decisions rather than clarifications."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "What is the difference between old business and new business?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Old business covers items carried over from previous meetings. New business covers items raised for the first time. Old business should shrink over time. If the same item appears for 3 meetings in a row without a decision, give it a deadline or a smaller working group."
+            "text": "Old business covers items carried over from previous meetings; new business covers matters raised for the first time. Gradually, old business should shrink. Same item 3 meetings in a row without a decision? Give it a deadline or a smaller working group."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "What happens in executive session?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In executive session, the board meets privately, often without staff, to discuss confidential matters such as CEO performance, legal issues or personnel. Any formal action is usually taken back in open session. The minutes usually record only that an executive session took place and its general topic, not the confidential discussion itself. <!-- HANDOFF Prompts answered: \"board meeting agenda\", \"board meeting agenda format\", \"sample board meeting agenda\", \"nonprofit board meeting agenda\", \"who prepares board meeting agenda\", \"what is a consent agenda\". Prompt gaps (createprompt): \"startup board meeting agenda template\". Fan-out source: Ubersuggest keywordsuggestions (board meeting agenda format 1,600, sample 1,300, format of 1,300, example 390, nonprofit sample 390, startup 30) + googlesuggestions (what should be included, who prepares, typical agenda, how long, order) + SERP (nhnonprofits, boardable, boardeffect, diligent), 2026-10-17. School-district rows excluded. Inbound links: from /blog/founders-meeting-notes and /blog/meeting-minutes-sample. Editor checks: bylaws and state law override the generic order of business. -->"
+            "text": "In executive session, the board meets privately, often without staff, to discuss confidential matters such as CEO performance, legal issues or personnel. Any formal action is usually taken back in open session. As for the minutes, they usually record only that an executive session took place and its general topic, not the confidential discussion itself. <!-- HANDOFF Prompts answered: \"board meeting agenda\", \"board meeting agenda format\", \"sample board meeting agenda\", \"nonprofit board meeting agenda\", \"who prepares board meeting agenda\", \"what is a consent agenda\". Prompt gaps (createprompt): \"startup board meeting agenda template\". Fan-out source: Ubersuggest keywordsuggestions (board meeting agenda format 1,600, sample 1,300, format of 1,300, example 390, nonprofit sample 390, startup 30) + googlesuggestions (what should be included, who prepares, typical agenda, how long, order) + SERP (nhnonprofits, boardable, boardeffect, diligent), 2026-10-17. School-district rows excluded. Inbound links: from /blog/founders-meeting-notes and /blog/meeting-minutes-sample. Editor checks: bylaws and state law override the generic order of business. -->"
           }
         }
       ]
