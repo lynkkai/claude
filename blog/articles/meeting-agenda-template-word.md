@@ -12,7 +12,7 @@ secondary_keywords:
   - "meeting agenda format in word"
 market: US
 cluster: meeting-templates
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/action-items"
 inbound_links:
   - from: "https://lynkk.ai/blog/dictate-in-microsoft-word"
     anchor: "meeting agenda template in Word"
@@ -20,13 +20,14 @@ inbound_links:
     anchor: "free meeting agenda templates"
 tldr: "To get a meeting agenda template in Word, open Word, go to File, then New, and search for agenda, or copy one of the free templates below. A good agenda lists the meeting goal, time-boxed topics with an owner each, and the decisions you need. Save your version as a Word Template (.dotx) to reuse it."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "Meeting agenda template in Word with time-boxed topics and owners in a table"
 ---
 
 # Meeting Agenda Template in Word: Free 2026 Download
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** To find a meeting agenda template in Word, open Word, click **File**, then **New**, and search **"agenda"**. Or copy one of the 5 free templates below into a blank document. Every good agenda has 4 parts: the **meeting goal**, **time-boxed topics**, an **owner for each topic**, and the **decisions needed**. Save it as a **Word Template (.dotx)** to reuse it.
 
@@ -131,6 +132,90 @@ ONE-ON-ONE AGENDA
 
 More on running these in our guide to the [one-on-one meeting](https://lynkk.ai/blog/one-on-one-meeting).
 
+## What does a staff meeting agenda template look like?
+
+A staff meeting agenda covers announcements, updates by department and one or two discussion topics. Keep it to 45 minutes and move routine updates into a written pre-read when the group is larger than 10 people.
+
+```
+STAFF MEETING AGENDA
+Date: [ ]   Time: [45 min]   Facilitator: [ ]
+
+1. Announcements (5 min) | [Manager]
+2. Department updates, 2 min each (15 min)
+   Sales | Operations | Product | Support
+3. Discussion: [policy or process change] (15 min) | Decision needed: [ ]
+4. Questions from the team (5 min)
+5. Action items and owners (5 min)
+```
+
+## What does a formal or committee meeting agenda look like?
+
+Formal and committee meetings follow a fixed order of business, usually based on Robert's Rules of Order: call to order, attendance, approval of minutes, reports, old business, new business and adjournment. Number every item, because motions and minutes refer back to those numbers.
+
+```
+[COMMITTEE NAME] MEETING AGENDA
+Date: [ ]   Time: [ ]   Location: [ ]   Chair: [ ]
+
+1. Call to order
+2. Attendance and quorum
+3. Approval of the agenda
+4. Approval of minutes of [date]
+5. Reports
+   5.1 Chair's report
+   5.2 Treasurer's report
+6. Old business
+   6.1 [Item]
+7. New business
+   7.1 [Item] | Motion expected: [ ]
+8. Next meeting date
+9. Adjournment
+```
+
+For boards, see our full [board meeting agenda template](https://lynkk.ai/blog/board-meeting-agenda).
+
+## What does a sales meeting agenda template look like?
+
+A weekly sales meeting agenda focuses on pipeline, wins and blockers. Keep metrics to 10 minutes and spend most of the time on deals that need help.
+
+```
+WEEKLY SALES MEETING AGENDA
+Date: [ ]   Time: [45 min]   Owner: [Sales lead]
+
+1. Wins from last week (5 min)
+2. Pipeline and forecast vs target (10 min)
+3. Deal reviews: 2 to 3 deals that need help (20 min)
+4. Enablement: one skill or message to practise (5 min)
+5. Actions and owners (5 min)
+```
+
+Our guide to [what a discovery call is](https://lynkk.ai/blog/what-is-a-discovery-call) pairs well with deal reviews.
+
+## What does an all-hands or company meeting agenda look like?
+
+An all-hands meeting agenda shares company direction with everyone, so it needs strict time boxes and a real Q&A slot. Plan 45 to 60 minutes, and collect questions in advance so the Q&A covers what people actually want to know.
+
+```
+ALL-HANDS AGENDA
+Date: [ ]   Time: [60 min]   Host: [ ]
+
+1. Welcome and agenda (2 min)
+2. Company update: goals and key metrics (10 min) | [CEO]
+3. Team spotlights, 2 teams (15 min)
+4. Topic deep dive: [ ] (15 min)
+5. Q&A, including pre-submitted questions (15 min)
+6. Close and next steps (3 min)
+```
+
+## What are common meeting agenda mistakes?
+
+Most agenda problems come from 5 habits, and each is easy to fix in a Word template:
+
+- **Topics with no owner.** Add an owner column so nobody arrives unprepared.
+- **No time boxes.** Without them, the first topic eats the meeting.
+- **Too many topics.** Plan 3 to 4 topics per 30 minutes.
+- **No stated goal.** One sentence at the top keeps discussion on track.
+- **Sent too late.** An agenda sent 10 minutes before the meeting is a list, not a plan.
+
 ## How do you create a meeting agenda template in Word?
 
 You can create a reusable meeting agenda template in Word in 6 steps:
@@ -180,6 +265,8 @@ AI can draft most of an agenda from what happened last time: open action items, 
 
 Our [meeting preparation guide](https://lynkk.ai/blog/meeting-preparation) explains the method in more detail.
 
+**More on Lynkk:** [AI action item tracking](https://lynkk.ai/features/action-items) and [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes).
+
 ## FAQ
 
 ### Is there a meeting agenda template in Word?
@@ -212,4 +299,5 @@ Prompt gaps (create_prompt): "free meeting agenda template word download".
 Fan-out source: Ubersuggest google_suggestions (how to create a meeting agenda template in word, where do i find agenda templates in word, is there an agenda template in word, simple template word free, format in word) + SERP (spinach, templatelab, makeuseof, canva), 2026-10-17.
 Inbound links: from /blog/dictate-in-microsoft-word and /blog/meeting-preparation.
 Editor checks: SERP is dominated by downloadable files and image packs; attach a real .docx/.dotx download of the simple template to match intent. Word menu paths can differ by version.
+Download: blog/downloads/meeting-agenda-templates.docx is ready. Upload it (e.g. https://lynkk.ai/blog/downloads/meeting-agenda-templates.docx) and add a "Download the Word template (.docx)" link under the first template before publishing.
 -->

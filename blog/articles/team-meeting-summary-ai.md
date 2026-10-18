@@ -12,7 +12,7 @@ secondary_keywords:
   - "teams meeting summary ai free"
 market: US
 cluster: ai-meeting-tools
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/meeting-notes"
 inbound_links:
   - from: "https://lynkk.ai/blog/ai-powered-meeting-assistants"
     anchor: "best AI meeting summarizer tools"
@@ -20,6 +20,7 @@ inbound_links:
     anchor: "team meeting summary AI options"
 tldr: "For team meeting summary AI in 2026, use the built-in summarizer if you live in one platform (Teams Copilot recap, Zoom AI Companion or Google Meet's Take notes for me). Use a cross-platform tool such as Lynkk, Fathom, Fireflies, Otter or Read AI if your team meets across apps or in person."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
 featured_image_alt: "Team meeting summary AI tools comparing Teams, Zoom and Google Meet summaries"
@@ -27,7 +28,7 @@ featured_image_alt: "Team meeting summary AI tools comparing Teams, Zoom and Goo
 
 # Best AI Meeting Summarizer Tools in the US for 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
 
 > **Quick answer:** For team meeting summary AI, start with what your platform includes: **Teams Copilot recap** (needs a Microsoft 365 Copilot license), **Zoom AI Companion** (included with paid Zoom Workplace plans) or **Google Meet's Take notes for me** (eligible Workspace plans). If your team uses more than one app or meets in person, a cross-platform summarizer such as **Lynkk** ($0 to $15), **Fathom** (free) or **Fireflies** ($10 billed yearly) covers everything in one place.
 
@@ -141,6 +142,8 @@ Pick built-in team meeting summary AI if 90% or more of your meetings happen in 
 If you are not ready for AI, a manual team meeting summary takes about 10 minutes. Write it within an hour of the meeting while details are fresh, and follow the 4-part structure: decisions, action items with owners, key points, open questions.
 
 Our [meeting summary template](https://lynkk.ai/blog/meeting-summary-template) gives you a copy-ready format, and the [follow-up email examples](https://lynkk.ai/blog/follow-up-email-after-meeting) show how to send it.
+
+**More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [searching past meetings with Ask Lynkk](https://lynkk.ai/features/ask-your-meetings).
 
 ## FAQ
 

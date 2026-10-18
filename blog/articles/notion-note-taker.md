@@ -12,7 +12,7 @@ secondary_keywords:
   - "notion ai note taker vs granola"
 market: US
 cluster: competitor-reviews
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/meeting-notes"
 inbound_links:
   - from: "https://lynkk.ai/blog/meeting-knowledge-management"
     anchor: "Notion AI note taker review"
@@ -20,6 +20,7 @@ inbound_links:
     anchor: "how Notion's AI note taker works"
 tldr: "Notion's AI note taker (AI Meeting Notes) records meetings from the Notion desktop app without a bot and saves notes into your workspace. It is included in the Business plan at $20 per member per month; Free and Plus only get a limited trial. It has a 10-hour daily limit and does not list Hindi."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
 featured_image_alt: "Notion note taker AI Meeting Notes block inside a Notion page in 2026"
@@ -27,7 +28,7 @@ featured_image_alt: "Notion note taker AI Meeting Notes block inside a Notion pa
 
 # Notion AI Note Taker Review for US Teams in 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
 
 > **Quick answer:** The Notion note taker, called **AI Meeting Notes**, records meetings from the Notion desktop app without a bot and writes the summary into a Notion page. It is included on the **Business plan ($20 per member per month)** and Enterprise. Free and Plus get only a limited trial. Usage is capped at **10 hours per user per day**.
 
@@ -158,6 +159,8 @@ Lynkk's free plan covers 5 notes a month at up to 2 hours each, and Pro costs $1
 ## Is the Notion note taker worth it?
 
 The Notion note taker is worth it if your team already pays for Notion Business, meets mostly in English, and keeps project work in Notion. It is less worth it if you would upgrade from Plus only for meeting notes, need Hindi or speaker labels in other languages, or track work in Jira.
+
+**More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [searching past meetings with Ask Lynkk](https://lynkk.ai/features/ask-your-meetings).
 
 ## FAQ
 

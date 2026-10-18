@@ -12,21 +12,24 @@ secondary_keywords:
   - "who should take notes in a meeting"
 market: US
 cluster: meeting-how-to
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/meeting-notes"
 inbound_links:
   - from: "https://lynkk.ai/blog/meeting-preparation"
     anchor: "how to take good meeting notes"
   - from: "https://lynkk.ai/blog/one-on-one-meeting"
     anchor: "better meeting notes"
+  - from: "https://lynkk.ai/features/meeting-notes"
+    anchor: "how to take good meeting notes"
 tldr: "To take good meeting notes, prepare a template with the agenda before the meeting, write only decisions, action items with owners and dates, and open questions during it, and clean up and share the notes within an hour after. Use shorthand like D: for decision and A: for action, and use AI capture when you need to participate fully."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "How to take good meeting notes with decisions and action items marked on a notepad"
 ---
 
 # How to Take Good Meeting Notes in 2026 (+ Free Template)
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** How to take good meeting notes in 3 steps: **before** the meeting, set up a template with the agenda; **during** it, write only decisions, action items (owner and date) and open questions, using shorthand like **D:** and **A:**; **after** it, spend 10 minutes cleaning up and share the notes within an hour. If you need to participate fully, let an AI note taker capture the details.
 
@@ -47,6 +50,17 @@ The best way to take meeting notes is the decision-and-action method: ignore mos
 | Open questions | Risks raised | Every opinion voiced |
 
 This works because most people read meeting notes for 1 reason: to find out what they need to do.
+
+## Why should you take meeting notes at all?
+
+Meeting notes turn a conversation into a record people can act on. Without them, attendees leave with different memories of the same meeting, and the people who missed it have nothing to go on. Good notes do 4 jobs:
+
+1. **Keep people accountable**, because every action has a visible owner and date.
+2. **Save the next meeting**, which can start from open items instead of re-discussing old ones.
+3. **Inform people who were absent** without another meeting.
+4. **Create a reference**, so "what did we agree?" has an answer weeks later.
+
+Formal meetings need minutes on top of notes. See [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes) for the difference.
 
 ## How do you prepare to take notes before a meeting?
 
@@ -101,6 +115,34 @@ Choose a format based on the meeting type. These 4 formats cover almost every wo
 
 For most business meetings, the action-focused format wins because it matches what readers need.
 
+## What is the quadrant method for meeting notes?
+
+The quadrant method splits a page into 4 boxes: **decisions**, **my actions**, **others' actions** and **questions or notes**. You write each point straight into the box it belongs to, so the page is already organized when the meeting ends.
+
+It works well for people who attend many meetings and mainly need to know what they personally must do. Use a 2-by-2 table in Word, Google Docs or a notebook. It is less useful for long discussions where context matters, where the Cornell or outline format works better.
+
+## What does a good meeting notes example look like?
+
+Here is a short example from a 30-minute project sync, written with the decision-and-action method:
+
+```
+PROJECT SYNC, Oct 21 | Attendees: Sam, Priya, Leo (Ana absent)
+
+D: Launch date stays Nov 6.
+D: Drop the referral feature from v1.
+A: Priya | update launch checklist | Oct 23
+A: Leo | confirm email copy with legal | Oct 24
+Q: Do we need a press release? Sam to ask marketing by Oct 22.
+```
+
+Five lines cover everything someone who missed the meeting needs: 2 decisions, 2 actions and 1 open question, each with a name.
+
+## Can ChatGPT or other AI take meeting notes?
+
+General AI chat tools can summarize a transcript you paste into them, but they do not join or record meetings on their own. Dedicated AI meeting assistants record the call, transcribe it and produce notes automatically, which removes the copy-paste step.
+
+Whichever you use, check names, numbers and owners before sharing. AI is fast at structure and weakest at the details people act on.
+
 ## How do you take meeting notes quickly?
 
 To take meeting notes quickly, write fragments not sentences, use shorthand, and skip anything that will be in a shared document or recording anyway. Typing speed matters less than deciding what not to write.
@@ -148,6 +190,8 @@ Yes. AI note takers can capture the whole conversation and pull out decisions an
 > **Let Lynkk do it.** Lynkk records meetings on Zoom, Google Meet, Teams or in person and gives you notes with decisions, tasks with owners and dates, and one-click Jira tickets. Before your next meeting, its Meeting Brief shows what is still open, and Ask Lynkk finds any past decision with a link to the moment. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
 For a comparison of AI tools, see our list of the [best AI note takers](https://lynkk.ai/blog/best-ai-note-takers).
+
+**More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [AI action item tracking](https://lynkk.ai/features/action-items).
 
 ## FAQ
 

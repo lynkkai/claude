@@ -12,7 +12,7 @@ secondary_keywords:
   - "jamie ai note taker android"
 market: US
 cluster: competitor-reviews
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/chrome-extension"
 inbound_links:
   - from: "https://lynkk.ai/blog/best-ai-note-takers"
     anchor: "Jamie AI note taker review"
@@ -20,6 +20,7 @@ inbound_links:
     anchor: "what Jamie's free plan includes"
 tldr: "Jamie is a bot-free AI note taker that records meetings from your device, hosts data in the EU and lists 99+ languages. Its free plan gives 10 notes a month up to 30 minutes each; paid plans run from $24 (Plus) to $46 a month (Pro, billed yearly) and $37 per seat for teams."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
 featured_image_alt: "Jamie AI note taker review showing bot-free meeting notes on a laptop in 2026"
@@ -27,7 +28,7 @@ featured_image_alt: "Jamie AI note taker review showing bot-free meeting notes o
 
 # Jamie AI Note Taker Review: A 2026 Look for US Teams
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
 
 > **Quick answer:** The Jamie AI note taker records meetings from your own device, so **no bot joins the call**. It works with any meeting app and in person, hosts data in the EU, and lists **99+ languages**. The free plan gives **10 AI notes a month up to 30 minutes each**. Paid plans: Plus $24, Pro $46 a month billed yearly, Team $37 per seat billed yearly.
 
@@ -148,6 +149,8 @@ More options: [Granola AI alternatives](https://lynkk.ai/blog/granola-ai-alterna
 ## Is the Jamie AI note taker worth it?
 
 Jamie is worth it if bot-free capture and EU hosting are must-haves, you meet in several languages, and you can justify $46 a month for unlimited notes. It is less worth it if you want a generous free plan, US data hosting, or tasks that land in Jira automatically.
+
+**More on Lynkk:** [bot-free recording with the Chrome extension](https://lynkk.ai/features/chrome-extension) and [how Lynkk compares with other note takers](https://lynkk.ai/compare).
 
 ## FAQ
 

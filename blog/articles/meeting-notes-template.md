@@ -13,7 +13,7 @@ secondary_keywords:
   - "how to structure meeting notes"
 market: US
 cluster: meeting-templates
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/meeting-notes"
 inbound_links:
   - from: "https://lynkk.ai/blog/action-items-examples-template"
     anchor: "free meeting notes template"
@@ -21,13 +21,14 @@ inbound_links:
     anchor: "meeting notes templates for Word, Docs and Notion"
 tldr: "Copy one of the 5 free meeting notes templates below into Word, Google Docs or Notion. Every template captures the same 5 things: meeting details, attendees, key points, decisions, and action items with an owner and due date. Put decisions and actions near the top, and share notes within an hour of the meeting."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "Free meeting notes template with decisions and action items in Google Docs"
 ---
 
 # Free Meeting Notes Template for 2026 (Word, Docs, Notion)
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** Here is a free meeting notes template with 5 sections to copy: **Meeting, date, attendees** at the top, then **agenda**, **key points**, **decisions** and **action items (task, owner, due date)**. Paste it into Word, Google Docs or Notion. Below are 5 versions: general, action-focused, one-on-one, client call and Cornell-style.
 
@@ -206,6 +207,8 @@ Use a template when meetings are short, you are comfortable typing while listeni
 
 For a method that works with or without AI, read [how to take good meeting notes](https://lynkk.ai/blog/how-to-take-good-meeting-notes).
 
+**More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [standup notes with Lynkk](https://lynkk.ai/use-cases/team-standups).
+
 ## FAQ
 
 ### Is there a free meeting notes template?
@@ -238,4 +241,5 @@ Prompt gaps (create_prompt): "meeting notes template for client calls".
 Keyword note: Ubersuggest seed "meeting notes template free" (880/mo) is the same query in natural word order. Fan-out source: Ubersuggest keyword_suggestions (iep 40, onenote 20) + google_suggestions (free template word, google docs, excel, what to include in meeting notes, how to structure meeting notes, notion) + SERP (meetingnotes.com, fellow, niftypm), 2026-10-17.
 Inbound links: from /blog/action-items-examples-template and /blog/one-on-one-meeting.
 Editor checks: offer downloadable Word/Docs versions to match SERP intent; Google Docs "@meeting notes" building block behaviour per Google Workspace (verify before publish).
+Download: blog/downloads/meeting-notes-template.docx is ready. Upload it (e.g. https://lynkk.ai/blog/downloads/meeting-notes-template.docx) and add a "Download the Word template (.docx)" link under the first template before publishing.
 -->

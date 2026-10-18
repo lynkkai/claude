@@ -12,21 +12,24 @@ secondary_keywords:
   - "what to say in sprint retrospective"
 market: US
 cluster: agile-meetings
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/use-cases/team-standups"
 inbound_links:
   - from: "https://lynkk.ai/blog/daily-standup-meeting"
     anchor: "sprint retrospective template and questions"
   - from: "https://lynkk.ai/blog/meeting-minutes-to-jira"
     anchor: "sprint retrospective samples"
+  - from: "https://lynkk.ai/use-cases/team-standups"
+    anchor: "sprint retrospective template"
 tldr: "A sprint retrospective is the Scrum event where the team reviews how the last sprint went and agrees on improvements. Use the template below, pick 1 of 5 formats (Start Stop Continue, Went well and Improve, 4Ls, Mad Sad Glad or Sailboat), choose questions from the 40 listed, and leave with 1 to 3 owned action items."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "Sprint retrospective samples on a board with went well, improve and action columns"
 ---
 
 # Sprint Retrospective Template for 2026: 40 Questions
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** Here are sprint retrospective samples you can use today: a **copy-ready template**, **5 formats** (Start Stop Continue, What went well and What to improve, 4Ls, Mad Sad Glad, Sailboat), **40 questions** grouped by theme, and **sample answers**. Whatever format you choose, end with **1 to 3 action items**, each with an owner, and put them in your backlog.
 
@@ -89,6 +92,40 @@ These 5 formats cover most teams. Rotate them every few sprints so the retro sta
 | Sailboat | Wind (helps), anchors (slows), rocks (risks), island (goal) | Visual teams, longer projects |
 
 If the team is tired of formats, skip them and ask 3 well-chosen questions from the list below.
+
+## How do the Timeline, Starfish and Rose Thorn Bud formats work?
+
+Three more formats help when the usual columns feel stale. Each suits a different kind of sprint.
+
+**Timeline retrospective.** Draw the sprint as a line from day 1 to the last day. Team members add events (releases, incidents, scope changes) and mark how they felt at each point. It works well after eventful sprints, because it rebuilds a shared memory of what happened before anyone judges it.
+
+**Starfish.** Five columns: Keep doing, Do more of, Do less of, Stop doing, Start doing. It gives more nuance than Start Stop Continue, which is useful for mature teams who are fine-tuning rather than fixing.
+
+**Rose, Thorn, Bud.** Roses are wins, thorns are problems, buds are ideas with potential. It is quick, works in 30 minutes, and balances positives with problems, which helps teams who tend to focus only on what went wrong.
+
+| Format | Best for | Time needed |
+|---|---|---|
+| Timeline | Eventful sprints, incidents | 60 to 90 min |
+| Starfish | Mature teams fine-tuning | 45 to 60 min |
+| Rose, Thorn, Bud | Quick retros, morale | 30 to 45 min |
+
+## How do the 4Ls and Hopes and Fears formats work?
+
+**4Ls (Liked, Learned, Lacked, Longed for).** Each person adds notes under 4 headings. Liked covers what went well, Learned covers new knowledge, Lacked covers what was missing, and Longed for covers what the team wishes it had. It suits teams who want to reflect on learning, not just process, and works well after a sprint with new tools or new members.
+
+**Hopes and Fears.** Best at the start of a new project or quarter rather than at the end of a sprint. Team members list what they hope will happen and what they fear might go wrong, then agree on actions to protect the hopes and reduce the fears. It surfaces risks early, before they appear in a retro as problems.
+
+## How do you choose the right retrospective format?
+
+Choose the format by the sprint you just had, not by habit. A simple rule set:
+
+1. **Normal sprint:** Went well, Improve, Actions.
+2. **Rough sprint with incidents:** Timeline, to rebuild what happened.
+3. **Low morale:** Mad, Sad, Glad or Rose, Thorn, Bud.
+4. **Stable, experienced team:** Starfish, for smaller adjustments.
+5. **Long project or big goal ahead:** Sailboat, to see risks and helps.
+
+Rotate every 3 to 4 sprints so the retro does not become routine.
 
 ## What are 40 good sprint retrospective questions?
 
@@ -174,6 +211,23 @@ Sample answers for what did not go well:
 - "When the release slipped, stakeholders heard it from support first. Could the PM post a weekly status?"
 - "When 3 people were pulled into incidents, our sprint goal became unrealistic. Could we keep an on-call buffer?"
 
+## What are common sprint retrospective anti-patterns?
+
+Most failing retros show 1 of 6 anti-patterns. Spotting them is half the fix:
+
+- **No actions, or too many.** Leave with 1 to 3 owned actions, not 0 and not 10.
+- **Same complaints every sprint.** Usually a sign that last retro's actions were never reviewed.
+- **Blame.** Discussion turns to who, not what. Restate the Prime Directive: everyone did their best with what they knew.
+- **The manager does the talking.** Ask silent writing first, then discussion.
+- **Skipping retros when busy.** The busiest sprints are the ones that need them most.
+- **Retro theatre.** New games every time, but nothing changes. Format matters less than follow-through.
+
+## How do you run a remote sprint retrospective?
+
+Remote retrospectives work well with 4 adjustments: use a shared online board, start with 5 minutes of silent writing so everyone contributes, use dot voting to pick topics, and keep cameras optional but encourage them.
+
+Record the session or have a note-taker, because remote retros lose the physical board that teams used to photograph at the end. Put the actions straight into your backlog before the call ends, while everyone is still present to confirm owners and dates.
+
 ## How do you run a sprint retrospective step by step?
 
 Run a sprint retrospective in 6 steps:
@@ -194,6 +248,8 @@ Put retrospective actions in the same backlog as feature work, with an owner and
 > **Let Lynkk do it.** Lynkk records your retro on Zoom, Google Meet, Teams or in person and captures the action items with owners and dates. Send them to Jira in one click, and the Meeting Brief before your next retro shows which ones are still open. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
 See how product teams turn [meeting minutes into Jira issues](https://lynkk.ai/blog/meeting-minutes-to-jira), and read our guide to faster [daily standup meetings](https://lynkk.ai/blog/daily-standup-meeting). For more facilitation ideas, [Parabol's retrospective techniques](https://www.parabol.co/resources/agile-sprint-retrospective-techniques/) is a useful reference.
+
+**More on Lynkk:** [standup and retro notes with Lynkk](https://lynkk.ai/use-cases/team-standups) and [AI action item tracking](https://lynkk.ai/features/action-items).
 
 ## FAQ
 

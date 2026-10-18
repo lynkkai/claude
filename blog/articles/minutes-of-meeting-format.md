@@ -12,7 +12,7 @@ secondary_keywords:
   - "minutes of meeting format with example"
 market: India
 cluster: meeting-minutes
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/meeting-notes"
 inbound_links:
   - from: "https://lynkk.ai/blog/meeting-minutes-sample"
     anchor: "minutes of meeting format for India"
@@ -20,13 +20,14 @@ inbound_links:
     anchor: "MoM format with action items"
 tldr: "A standard minutes of meeting (MoM) format has 8 parts: heading, date, time and venue, attendees and absentees, agenda, discussion summary, decisions, action items with owner and deadline, and next meeting details with signature. Copy the free templates below for office, board, college and society meetings. An email version is included for same-day sharing."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "Minutes of meeting format template with attendees, decisions and action items table"
 ---
 
 # Minutes of Meeting Format in India: Free Templates for 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** A standard minutes of meeting format (MoM format) has **8 parts**: (1) heading with organisation and meeting title, (2) date, time and venue, (3) attendees and absentees, (4) agenda, (5) discussion summary, (6) decisions, (7) action items with owner and deadline, and (8) next meeting date with the chairperson's or note-taker's signature. Copy the free templates below.
 
@@ -245,6 +246,8 @@ Yes. AI meeting assistants can draft minutes of meeting within minutes of a meet
 
 Lynkk (our product) also prepares a Meeting Brief before your next meeting with open action items from the last one, sends tasks to Jira in one click, and lets you search old minutes with Ask Lynkk. Free covers 5 notes a month at up to 2 hours each; Pro costs $15 a month. Compare other options in our list of the [best apps for meeting minutes](https://lynkk.ai/blog/app-for-meeting-minutes).
 
+**More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [Hinglish transcription for meetings](https://lynkk.ai/features/hinglish-transcription).
+
 ## FAQ
 
 ### What is the format of minutes of meeting?
@@ -277,4 +280,5 @@ Prompt gaps (create_prompt): "minutes of meeting format in hindi".
 Fan-out source: Ubersuggest keyword_suggestions India (format template 1,600, pdf 1,000, word 880, writing format 590, excel 480, with example 390, email 110, companies act 2013) + google_suggestions (how to write, for college, school, private limited company, apartment association, hindi) + SERP India (YouTube, WPS, matsugov PDF, monash), 2026-10-17.
 Inbound links: from /blog/meeting-minutes-sample and /blog/action-items-examples-template.
 Editor checks: the filled-in example uses fictional names and a placeholder company (ABC Software Pvt Ltd); offer a downloadable .docx/.pdf of the template to match SERP intent (Word/PDF downloads rank).
+Download: blog/downloads/minutes-of-meeting-format.docx is ready. Upload it (e.g. https://lynkk.ai/blog/downloads/minutes-of-meeting-format.docx) and add a "Download the Word template (.docx)" link under the first template before publishing.
 -->

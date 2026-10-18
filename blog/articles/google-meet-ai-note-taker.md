@@ -12,14 +12,17 @@ secondary_keywords:
   - "google meet ai note taker gemini"
 market: India
 cluster: google-meet
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/hinglish-transcription"
 inbound_links:
   - from: "https://lynkk.ai/blog/google-meet-transcript"
     anchor: "Google Meet AI note takers for India"
   - from: "https://lynkk.ai/blog/zoom-bot-join-meeting"
     anchor: "AI note takers that work in Google Meet"
+  - from: "https://lynkk.ai/features/hinglish-transcription"
+    anchor: "Google Meet AI note takers for India"
 tldr: "Google Meet's own AI note taker (Gemini's Take notes for me) needs an eligible Workspace or Google AI plan and supports 8 languages, not Hindi. For Indian teams, Lynkk adds Hindi, Hinglish and an India data region; Read AI, Otter, Fireflies, Fathom and Tactiq are other options. Free plans are enough to test them on real meetings."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
 featured_image_alt: "Google Meet AI note taker writing Hindi and English meeting notes for an Indian team"
@@ -27,7 +30,7 @@ featured_image_alt: "Google Meet AI note taker writing Hindi and English meeting
 
 # Google Meet AI Note Takers Worth Using in India in 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
 
 > **Quick answer:** Google Meet has a built-in AI note taker, Gemini's **Take notes for me**, but it needs an eligible Workspace or Google AI plan and supports only **8 languages, not Hindi**. For Indian teams that speak Hindi or Hinglish, **Lynkk** adds Hindi, a Hinglish setting and an **India data region** (free for 5 notes, Pro $15). Read AI, Otter, Fireflies, Fathom and Tactiq are other Google Meet AI note takers.
 
@@ -133,6 +136,8 @@ For a step-by-step guide, see [how to record a Google Meet call](https://lynkk.a
 For many Indian companies, especially in finance, healthcare and government-facing work, the safest answer is in India or in a region your compliance team approves. Ask every Google Meet AI note taker where it stores and processes audio, transcripts and summaries.
 
 Lynkk lets a workspace pin model processing to India. Google Workspace data location depends on your Workspace edition and admin settings. Most US-based note takers process data in the US by default.
+
+**More on Lynkk:** [Hinglish transcription for meetings](https://lynkk.ai/features/hinglish-transcription) and [the Lynkk meeting bot](https://lynkk.ai/features/meeting-bot).
 
 ## FAQ
 

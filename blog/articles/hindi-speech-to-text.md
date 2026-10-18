@@ -12,21 +12,24 @@ secondary_keywords:
   - "how to convert hindi speech to text"
 market: India
 cluster: hindi-language
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/hinglish-transcription"
 inbound_links:
   - from: "https://lynkk.ai/blog/voice-to-text-apps"
     anchor: "Hindi speech to text"
   - from: "https://lynkk.ai/blog/dictation-on-mac"
     anchor: "Hindi voice typing on Mac and other devices"
+  - from: "https://lynkk.ai/features/dictation"
+    anchor: "Hindi speech to text"
 tldr: "Free Hindi speech to text works on almost every device: Gboard voice typing on Android, the keyboard microphone on iPhone, Google Docs voice typing in Chrome, and built-in dictation on Mac. For long Hindi or Hinglish meetings, Lynkk records, transcribes and summarises automatically. Google's spoken punctuation works only in English, so add Hindi punctuation by hand."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "Hindi speech to text voice typing on a phone keyboard showing Devanagari words"
 ---
 
 # Hindi Speech to Text in India: Free Voice Typing for 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** Free Hindi speech to text is built into most devices in 2026. On **Android**, tap the mic on Gboard after adding Hindi. On **iPhone**, add a Hindi keyboard and tap the mic. On a **computer**, use **Google Docs voice typing** in Chrome with हिन्दी selected. For long **Hindi or Hinglish meetings**, **Lynkk** records, transcribes and summarises automatically (free for 5 notes a month).
 
@@ -127,6 +130,8 @@ For meetings, place the device within 1 metre of the speakers and ask people not
 ## Is there a Hindi speech to text API for developers?
 
 Yes. [Google Cloud Speech-to-Text](https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages) lists Hindi (hi-IN) as a supported language in its paid API, and several other cloud providers and AI labs offer Hindi speech recognition. APIs suit developers building apps; for everyday use, the free keyboard and Docs options above are simpler.
+
+**More on Lynkk:** [Hinglish transcription for meetings](https://lynkk.ai/features/hinglish-transcription) and [dictation on Mac with Lynkk](https://lynkk.ai/features/dictation).
 
 ## FAQ
 

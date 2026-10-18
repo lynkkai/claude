@@ -12,14 +12,17 @@ secondary_keywords:
   - "granola business pricing"
 market: US
 cluster: competitor-pricing
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/compare/granola"
 inbound_links:
   - from: "https://lynkk.ai/blog/best-free-ai-note-takers"
     anchor: "Granola pricing explained"
   - from: "https://lynkk.ai/blog/best-ai-note-takers"
     anchor: "what Granola costs in 2026"
+  - from: "https://lynkk.ai/compare/granola"
+    anchor: "what Granola costs"
 tldr: "Granola has three plans in 2026: Basic is free with 30 days of meeting history, Business is $14 per user per month with unlimited history and integrations, and Enterprise is $35 per user per month with SSO and admin controls. Students and startups can get 12 months of Business free, and nonprofits get 50% off."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
 featured_image_alt: "Granola pricing plans for 2026 shown as Basic, Business and Enterprise tiers"
@@ -27,7 +30,7 @@ featured_image_alt: "Granola pricing plans for 2026 shown as Basic, Business and
 
 # Granola AI Pricing in 2026: What US Users Actually Pay
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
 
 > **Quick answer:** Granola pricing in 2026 has 3 tiers. **Basic** is free but keeps only 30 days of meeting history. **Business** costs **$14 per user per month** and unlocks unlimited history, advanced AI models and integrations. **Enterprise** costs **$35 per user per month** and adds SSO, admin controls and org-wide retention rules.
 
@@ -169,6 +172,8 @@ What Lynkk adds for roughly the same price as Granola Business:
 Lynkk's free plan covers 5 notes a month, and yearly billing saves 35% during early-bird pricing. See all options in our [Granola AI alternatives guide](https://lynkk.ai/blog/granola-ai-alternatives).
 
 [Try Lynkk free](https://lynkk.ai/)
+
+**More on Lynkk:** [Lynkk vs Granola](https://lynkk.ai/compare/granola) and [Lynkk pricing](https://lynkk.ai/pricing).
 
 ## FAQ
 

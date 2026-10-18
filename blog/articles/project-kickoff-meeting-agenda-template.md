@@ -12,7 +12,7 @@ secondary_keywords:
   - "client kickoff meeting agenda"
 market: US
 cluster: meeting-templates
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/action-items"
 inbound_links:
   - from: "https://lynkk.ai/blog/meeting-minutes-to-jira"
     anchor: "project kickoff meeting agenda template"
@@ -20,13 +20,14 @@ inbound_links:
     anchor: "kickoff meeting agenda"
 tldr: "A project kickoff meeting agenda covers 8 items in about 60 minutes: introductions and roles, background and goals, scope, deliverables and timeline, how the team will work, risks and dependencies, open questions, and next steps with owners. Copy the internal and client versions below. Send a pre-read 1 to 2 days before."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "Project kickoff meeting agenda template with goals, scope, timeline and roles"
 ---
 
 # Project Kickoff Meeting Agenda Template for 2026 (Free)
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** A project kickoff meeting agenda template covers **8 items in about 60 minutes**: (1) introductions and roles, (2) background and goals, (3) scope, (4) deliverables and timeline, (5) how the team will work, (6) risks and dependencies, (7) open questions, and (8) next steps with owners. Copy the internal or client version below.
 
@@ -165,6 +166,8 @@ AI can capture the kickoff so the project lead can focus on facilitating. It rec
 > **Let Lynkk do it.** Lynkk records your kickoff on Zoom, Google Meet, Teams or in person and captures decisions, a decision log, and tasks with owners and dates. Send tasks to Jira in one click, and Ask Lynkk finds any kickoff decision later with a link to the moment. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
 See how product teams turn [meeting minutes into Jira issues](https://lynkk.ai/blog/meeting-minutes-to-jira). For general agenda tips, read our [meeting agenda template in Word](https://lynkk.ai/blog/meeting-agenda-template-word).
+
+**More on Lynkk:** [AI action item tracking](https://lynkk.ai/features/action-items) and [project and standup notes with Lynkk](https://lynkk.ai/use-cases/team-standups).
 
 ## FAQ
 

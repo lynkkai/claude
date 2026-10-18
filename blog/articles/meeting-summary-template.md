@@ -12,7 +12,7 @@ secondary_keywords:
   - "meeting summary vs minutes"
 market: US
 cluster: meeting-templates
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/meeting-notes"
 inbound_links:
   - from: "https://lynkk.ai/blog/action-items-examples-template"
     anchor: "meeting summary template"
@@ -20,13 +20,14 @@ inbound_links:
     anchor: "template for a meeting summary"
 tldr: "A good template for a meeting summary has 5 parts: a one-line purpose, key decisions, action items with owners and due dates, open questions, and the next meeting. Keep it to 5 to 10 lines and send it within an hour of the meeting. Link to full notes for anyone who needs detail."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "Template for meeting summary email with decisions and action items for a team"
 ---
 
 # Meeting Summary Template for 2026, With Real Examples
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** A good template for a meeting summary has **5 parts**: (1) a one-line purpose, (2) key decisions, (3) action items with owner and due date, (4) open questions, and (5) the next meeting. Keep it to **5 to 10 lines**, put decisions and actions first, and send it **within an hour** of the meeting.
 
@@ -198,6 +199,8 @@ Yes. AI meeting assistants can draft a meeting summary within minutes of the cal
 > **Let Lynkk do it.** Lynkk records your meeting on Zoom, Google Meet, Teams or in person and writes the summary for you: decisions, tasks with owners and dates, and a decision log, with one-click Jira tickets. Ask Lynkk lets you search past summaries and links the exact moment. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
 For a full comparison of AI tools, see [AI meeting summarizer tools](https://lynkk.ai/blog/team-meeting-summary-ai). For more writing guidance, [Claap's meeting summary guide](https://www.claap.io/blog/meeting-summary) is another useful reference.
+
+**More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [AI action item tracking](https://lynkk.ai/features/action-items).
 
 ## FAQ
 

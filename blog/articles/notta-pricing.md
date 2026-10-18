@@ -12,7 +12,7 @@ secondary_keywords:
   - "is notta free"
 market: US
 cluster: competitor-pricing
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/pricing"
 inbound_links:
   - from: "https://lynkk.ai/blog/ai-transcription-software"
     anchor: "Notta pricing"
@@ -20,6 +20,7 @@ inbound_links:
     anchor: "what Notta costs per month"
 tldr: "Notta has 4 plans in 2026: Free (120 minutes a month, 3 minutes per conversation), Pro at $8.17 a month billed yearly (1,800 minutes), Business at $16.67 per seat billed yearly (unlimited transcription) and custom Enterprise from 51 seats. Monthly billing costs about $13.99 for Pro and $27.99 per seat for Business, so annual billing saves roughly 40%."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
 featured_image_alt: "Notta pricing plans for 2026 compared across Free, Pro, Business and Enterprise"
@@ -27,7 +28,7 @@ featured_image_alt: "Notta pricing plans for 2026 compared across Free, Pro, Bus
 
 # Notta Pricing in 2026: What Each Plan Costs in the US
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
 
 > **Quick answer:** Notta pricing in 2026 starts at **$0** for 120 minutes a month, but each free conversation stops at **3 minutes**. **Pro** costs **$8.17 a month billed yearly** ($97.99 a year) for 1,800 minutes. **Business** costs **$16.67 per seat billed yearly** ($199.99 a year) with unlimited transcription. **Enterprise** is custom from 51 seats.
 
@@ -143,6 +144,8 @@ That is the gap Lynkk (our product) covers. Lynkk records online meetings throug
 Lynkk supports 17 languages including Hindi and Hinglish. Its free plan allows recordings up to 2 hours, compared with Notta Free's 3 minutes. Pro costs $15 a month. More options in our [Otter.ai alternatives](https://lynkk.ai/blog/otter-ai-alternatives) roundup.
 
 [Try Lynkk free](https://lynkk.ai/)
+
+**More on Lynkk:** [Lynkk pricing](https://lynkk.ai/pricing) and [multilingual transcription in Lynkk](https://lynkk.ai/features/multilingual-transcription).
 
 ## FAQ
 

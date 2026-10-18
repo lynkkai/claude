@@ -12,7 +12,7 @@ secondary_keywords:
   - "are minutes of meeting legally binding"
 market: India
 cluster: meeting-minutes
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/meeting-notes"
 inbound_links:
   - from: "https://lynkk.ai/blog/meeting-minutes-sample"
     anchor: "board minutes of meeting in India"
@@ -20,13 +20,14 @@ inbound_links:
     anchor: "board meeting minutes format"
 tldr: "In India, board minutes of meeting must follow Section 118 of the Companies Act, 2013 and Secretarial Standard 1 (SS-1). Circulate draft minutes within 15 days, take comments within 7 days, sign and enter them in the minutes book within 30 days, and preserve them permanently at the registered office."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "Board minutes of meeting sample format for an Indian private limited company"
 ---
 
 # Board Minutes of Meeting in India: 2026 Format and Sample
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** Board minutes of meeting in India follow **Section 118 of the Companies Act, 2013** and **Secretarial Standard 1 (SS-1)**. Circulate the draft to directors **within 15 days**, allow **7 days** for comments, and have the minutes **signed and entered in the minutes book within 30 days**. Board minutes are preserved **permanently** at the registered office.
 
@@ -190,6 +191,8 @@ AI can help with the first draft: capturing attendance, discussion and decisions
 > **Let Lynkk do it.** Lynkk records board meetings on Zoom, Google Meet, Teams or in person, then drafts a summary, a decision log and action items with owners and dates. It supports Hindi and Hinglish, is designed to comply with India's DPDP Act, and can keep data processing in India. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
 For general meeting minutes outside the board, see our [minutes of meeting format](https://lynkk.ai/blog/minutes-of-meeting-format) and the difference between [meeting notes and minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes).
+
+**More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [Lynkk security](https://lynkk.ai/security).
 
 ## FAQ
 

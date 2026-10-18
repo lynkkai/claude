@@ -12,7 +12,7 @@ secondary_keywords:
   - "does google meet record automatically"
 market: US
 cluster: google-meet
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/meeting-bot"
 inbound_links:
   - from: "https://lynkk.ai/blog/google-meet-transcript"
     anchor: "how to record a Google Meet call"
@@ -20,13 +20,14 @@ inbound_links:
     anchor: "record Google Meet calls for free"
 tldr: "To record a Google Meet call, click Meeting tools, then Recording, then Start recording. Built-in recording needs an eligible Google Workspace plan or Google One with 2 TB or more, and works on a computer or Android. On a free Gmail account, use a screen recorder or an AI meeting assistant instead."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "How to record a Google Meet call using the Meeting tools recording button on a laptop"
 ---
 
 # How to Record a Google Meet Call for Free in 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** Here is how to record a Google Meet call in 4 clicks: click **Meeting tools**, then **Recording**, then **Start recording**, and confirm. The recording saves to the organizer's Google Drive. Built-in recording needs an **eligible Google Workspace plan** or **Google One with 2 TB or more**, and only works on a **computer or Android**. On a free Gmail account, use a free screen recorder or an AI meeting assistant.
 
@@ -131,6 +132,8 @@ Lynkk's free plan covers 5 notes a month at up to 2 hours each, on any Google ac
 [Try Lynkk free](https://lynkk.ai/)
 
 For transcripts only, see our [Google Meet transcript guide](https://lynkk.ai/blog/google-meet-transcript). For AI notes in Hindi or Hinglish, see [Google Meet AI note takers for India](https://lynkk.ai/blog/google-meet-ai-note-taker).
+
+**More on Lynkk:** [the Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) and [bot-free recording with the Chrome extension](https://lynkk.ai/features/chrome-extension).
 
 ## FAQ
 

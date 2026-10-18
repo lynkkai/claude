@@ -12,21 +12,24 @@ secondary_keywords:
   - "is fireflies ai safe"
 market: US
 cluster: switching
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/compare/fireflies"
 inbound_links:
   - from: "https://lynkk.ai/blog/ai-note-taker-microsoft-teams"
     anchor: "how to remove Fireflies AI from Teams"
   - from: "https://lynkk.ai/blog/zoom-bot-join-meeting"
     anchor: "remove an unwanted meeting bot"
+  - from: "https://lynkk.ai/compare/fireflies"
+    anchor: "how to remove Fireflies from Teams"
 tldr: "To remove Fireflies from a Teams call, open Participants, click the three dots next to Fireflies and choose Remove from meeting, or type /ff leave in the chat. To stop it for good, set auto-join to Only when I invite, remove fred@fireflies.ai from invites, and have an admin block the app or delete the Fireflies account."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "How to remove Fireflies AI from Teams meeting participants list step by step"
 ---
 
 # How to Remove Fireflies.ai From Teams, Zoom and Meet in 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** For how to remove Fireflies AI from Teams in under 30 seconds: open **Participants**, click **(...)** next to Fireflies and choose **Remove from meeting**, or type **/ff leave** in the meeting chat. To stop it joining again, set Fireflies auto-join to **Only when I invite**, remove **fred@fireflies.ai** from calendar invites, and ask your Teams admin to **block the app**. Deleting the Fireflies account stops it completely.
 
@@ -117,6 +120,8 @@ For more choices, see [Otter vs Fireflies vs Fathom](https://lynkk.ai/blog/otter
 To remove Fireflies from Outlook in 2 steps, delete `fred@fireflies.ai` from the attendee list of each event, then change auto-join to **Only when I invite** so it stops being added. If you connected Outlook to Fireflies and want to cut access completely, delete the Fireflies account and remove its permissions from your Microsoft account.
 
 For recurring meetings, edit the whole series, not a single occurrence, or Fred will return next week.
+
+**More on Lynkk:** [Lynkk vs Fireflies](https://lynkk.ai/compare/fireflies) and [the Lynkk meeting bot](https://lynkk.ai/features/meeting-bot).
 
 ## FAQ
 

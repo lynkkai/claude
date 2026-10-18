@@ -12,7 +12,7 @@ secondary_keywords:
   - "read ai pricing plans"
 market: US
 cluster: competitor-pricing
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/pricing"
 inbound_links:
   - from: "https://lynkk.ai/blog/best-free-ai-note-takers"
     anchor: "Read AI pricing"
@@ -20,6 +20,7 @@ inbound_links:
     anchor: "what Read AI costs per user"
 tldr: "Read AI has 4 plans in 2026: Free (5 meetings a month), Pro at $15 per user per month billed yearly ($19.75 monthly), Enterprise at $22.50 yearly ($29.75 monthly, 5+ licenses) and Enterprise+ at $29.75 yearly ($39.75 monthly). Annual billing saves 25% on every paid plan, and Enterprise requires at least 5 licenses."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
 featured_image_alt: "Read AI pricing plans for 2026 compared across Free, Pro, Enterprise and Enterprise+"
@@ -27,7 +28,7 @@ featured_image_alt: "Read AI pricing plans for 2026 compared across Free, Pro, E
 
 # Read AI Pricing in 2026: Plans and Costs for US Teams
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
 
 > **Quick answer:** Read AI pricing in 2026 starts at **$0** for 5 meetings a month. **Pro** costs **$15 per user per month billed yearly** or $19.75 monthly. **Enterprise** costs $22.50 yearly or $29.75 monthly and needs 5+ licenses. **Enterprise+** costs $29.75 yearly or $39.75 monthly and adds HIPAA, SAML and SCIM.
 
@@ -127,6 +128,34 @@ There are no hidden fees on the pricing page. Still, 3 details raise the real co
 
 Also count the time spent after each meeting. If people still write follow-up emails and tickets by hand, the tool's price is only part of the cost.
 
+## What does Read AI cost in real-world scenarios?
+
+Real Read AI costs depend on team size, billing cycle and whether you need playback or compliance. These 3 scenarios use list prices with annual billing.
+
+| Scenario | Plan | Seats | Yearly cost |
+|---|---|---|---|
+| Small team that just needs notes | Pro | 8 | $1,440 |
+| Sales team that reviews call video | Enterprise | 25 | $6,750 |
+| Healthcare organization needing HIPAA | Enterprise+ | 100 | $35,700 |
+
+**Small team on Pro.** Eight people on Pro billed yearly pay $1,440. If only 4 of them record meetings regularly, ask whether everyone needs a seat.
+
+**Sales team on Enterprise.** Twenty-five reps on Enterprise pay $6,750 a year, and get audio and video playback for reviewing calls. Coaching-heavy teams often compare this with Fathom Business at $25 per user billed yearly.
+
+**Regulated organization on Enterprise+.** One hundred users on Enterprise+ pay $35,700 a year for HIPAA compliance, SAML, SCIM and custom retention. At this size, ask Read AI's sales team about volume pricing.
+
+## Why does Read AI join meetings you did not expect?
+
+Read AI joins meetings through calendar access. When someone connects their calendar and auto-join is on, the notetaker can join meetings on that calendar, including meetings other people organized. This is a settings question, not hidden cost, but it affects how many seats teams end up buying.
+
+To keep control, agree on 3 rules before rollout:
+
+1. **Who may connect a calendar** to Read AI.
+2. **Which meetings are auto-joined**, for example internal meetings only.
+3. **How attendees are told** that a meeting is being recorded and summarized.
+
+If the notetaker is joining calls you organize and you did not invite it, ask the bot's owner to change their auto-join settings, or remove it from the participant list.
+
 ## Does Read AI offer education, nonprofit or India pricing?
 
 Read AI has a separate [educational pricing page](https://www.read.ai/edu-pricing) for schools and universities. Its main pricing page does not list a nonprofit discount or India-specific prices as of 17 October 2026; prices are shown in USD.
@@ -161,6 +190,8 @@ Lynkk (our product) costs $15 a month and focuses on the work around each meetin
 For the full list, see [Read AI alternatives](https://lynkk.ai/blog/read-ai-alternative) and [Read AI vs Otter AI](https://lynkk.ai/blog/read-ai-vs-otter-ai).
 
 [Try Lynkk free](https://lynkk.ai/)
+
+**More on Lynkk:** [Lynkk pricing](https://lynkk.ai/pricing) and [how Lynkk compares with other note takers](https://lynkk.ai/compare).
 
 ## FAQ
 

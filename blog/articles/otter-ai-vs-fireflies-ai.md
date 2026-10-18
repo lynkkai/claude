@@ -12,14 +12,17 @@ secondary_keywords:
   - "fireflies vs otter vs fathom"
 market: US
 cluster: competitor-comparisons
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/compare/otter"
 inbound_links:
   - from: "https://lynkk.ai/blog/ai-transcription-software"
     anchor: "Otter vs Fireflies vs Fathom"
   - from: "https://lynkk.ai/blog/sales-conversation-intelligence"
     anchor: "how Otter, Fireflies and Fathom compare for sales"
+  - from: "https://lynkk.ai/compare/fireflies"
+    anchor: "Otter vs Fireflies vs Fathom"
 tldr: "Otter is best for live transcripts, Fireflies for CRM-heavy sales teams and search across calls, and Fathom for the most generous free plan with video. Lynkk is the pick if you want prep, live answers and Jira-ready follow-up in one tool. Annual billing puts Otter Pro at $8.33 and Fireflies Pro at $10 per seat."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
 featured_image_alt: "Otter ai vs Fireflies ai vs Fathom comparison chart for US teams in 2026"
@@ -27,7 +30,7 @@ featured_image_alt: "Otter ai vs Fireflies ai vs Fathom comparison chart for US 
 
 # Otter vs Fireflies vs Fathom: A 2026 Guide for US Teams
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
 
 > **Quick answer:** In Otter AI vs Fireflies AI vs Fathom, **Otter** wins on live transcripts ($8.33 a month billed yearly), **Fireflies** wins for sales teams that need CRM sync and search across calls ($10 per seat billed yearly), and **Fathom** wins on free recording, with unlimited recordings and transcripts at $0.
 
@@ -130,6 +133,8 @@ Lynkk's bot joins Zoom, Google Meet and Teams, and its Mac app and Chrome extens
 Choose **Otter** if you want live transcripts and the lowest annual price. Choose **Fireflies** if your team runs on a CRM and needs search across many calls. Choose **Fathom** if you want free unlimited recording with video clips. Choose **Lynkk** if you want prep, live answers and Jira-ready follow-up from the same tool.
 
 If you are still undecided, read our [Otter.ai alternatives](https://lynkk.ai/blog/otter-ai-alternatives) roundup, which covers 8 options.
+
+**More on Lynkk:** [Lynkk vs Otter.ai](https://lynkk.ai/compare/otter), [Lynkk vs Fireflies](https://lynkk.ai/compare/fireflies) and [Lynkk vs Fathom](https://lynkk.ai/compare/fathom).
 
 ## FAQ
 

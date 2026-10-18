@@ -12,7 +12,7 @@ secondary_keywords:
   - "how often should an llc have meeting minutes"
 market: US
 cluster: meeting-minutes
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/meeting-notes"
 inbound_links:
   - from: "https://lynkk.ai/blog/founders-meeting-notes"
     anchor: "LLC meeting minutes template"
@@ -20,13 +20,14 @@ inbound_links:
     anchor: "LLC meeting minutes"
 tldr: "Most US states do not require LLCs to hold meetings or keep minutes, but your operating agreement might, and minutes help prove major decisions and support your liability protection. Use the LLC meeting minutes template below for annual, first and single-member meetings, and record decisions as resolutions. Keep signed copies with your company records."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "LLC meeting minutes template with members present and resolutions approved"
 ---
 
 # LLC Meeting Minutes Template for US Owners in 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** This LLC meeting minutes template records 6 items: **LLC name**, **meeting type, date and place**, **members or managers present**, **quorum**, **each resolution and vote**, and **signatures**. Most US states **do not require** LLCs to keep minutes, but your **operating agreement may**, and minutes help prove major decisions to banks, investors and courts. Hold at least **one annual meeting** and record it.
 
@@ -188,6 +189,8 @@ AI can capture a members' meeting and draft the discussion summary, decisions an
 > **Let Lynkk do it.** Lynkk records your members' meeting on Zoom, Google Meet, Teams or in person and drafts a summary, a decision log and action items with owners and dates. You review the resolution wording and sign. Ask Lynkk finds any past decision later with a link to the moment. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
 For more formats, see our [meeting minutes sample](https://lynkk.ai/blog/meeting-minutes-sample) and [board meeting agenda template](https://lynkk.ai/blog/board-meeting-agenda).
+
+**More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [Lynkk security](https://lynkk.ai/security).
 
 ## FAQ
 

@@ -12,14 +12,17 @@ secondary_keywords:
   - "fathom pricing"
 market: US
 cluster: competitor-comparisons
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/compare/granola"
 inbound_links:
   - from: "https://lynkk.ai/blog/best-ai-note-takers"
     anchor: "Granola vs Fathom compared"
   - from: "https://lynkk.ai/blog/best-free-ai-note-takers"
     anchor: "how Granola and Fathom differ"
+  - from: "https://lynkk.ai/compare/fathom"
+    anchor: "Granola vs Fathom compared"
 tldr: "Choose Fathom if you want free unlimited recordings, video clips and CRM sync for sales calls. Choose Granola if you want private, bot-free notes that build on what you type. Choose Lynkk if you want one AI before, during and after the meeting. Granola Business costs $14 a month; Fathom Premium costs $16 billed yearly."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
 featured_image_alt: "Granola vs Fathom side by side comparison of AI meeting note takers in 2026"
@@ -27,7 +30,7 @@ featured_image_alt: "Granola vs Fathom side by side comparison of AI meeting not
 
 # Granola vs Fathom in 2026: Which Fits US Teams Better?
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
 
 > **Quick answer:** In the Granola vs Fathom choice, **Fathom** wins on free recording (unlimited recordings and transcripts at $0) and sales features like CRM sync. **Granola** wins on privacy and focus: no bot joins the call, and it builds notes from what you type. Paid plans start at $14 for Granola and $16 (billed yearly) for Fathom.
 
@@ -150,6 +153,8 @@ Lynkk is free for 5 notes a month (2 hours each). Pro is $15 a month with no not
 For a final Granola vs Fathom verdict across 3 team types: pick Fathom if you record many calls, need free unlimited recording, or coach a sales team from call clips. Pick Granola if you want private notes with no bot and you like writing alongside the AI. Pick Lynkk if you want both capture modes plus prep, live answers and automatic follow-up work.
 
 A practical test: run each tool on the same 3 meetings this week and compare which notes you actually reused.
+
+**More on Lynkk:** [Lynkk vs Granola](https://lynkk.ai/compare/granola) and [Lynkk vs Fathom](https://lynkk.ai/compare/fathom).
 
 ## FAQ
 

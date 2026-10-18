@@ -12,7 +12,7 @@ secondary_keywords:
   - "what to write in a follow up email after a meeting"
 market: US
 cluster: meeting-templates
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/action-items"
 inbound_links:
   - from: "https://lynkk.ai/blog/sales-conversation-intelligence"
     anchor: "follow-up email after meeting examples"
@@ -20,13 +20,14 @@ inbound_links:
     anchor: "follow-up email templates"
 tldr: "A good follow-up email after a meeting thanks people, restates the key decisions, lists action items with owners and dates, and confirms the next step. Send it within 24 hours. Below are 12 copy-ready examples for clients, sales calls, business meetings, internal teams and no-reply follow-ups."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "Example of follow up email after meeting with action items and next steps"
 ---
 
 # Follow-Up Email After a Meeting: 12 Examples for 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** A good example of a follow up email after a meeting does 4 things: **thanks** people, **restates decisions**, lists **action items with owners and dates**, and confirms the **next step**. Send it **within 24 hours**, ideally the same day. Copy one of the 12 examples below and fill in the brackets.
 
@@ -330,6 +331,8 @@ The slow part is remembering exactly what was agreed. Take notes with decisions 
 > **Let Lynkk do it.** Lynkk records your meeting on Zoom, Google Meet, Teams or in person and drafts the follow-up for you: decisions, tasks with owners and dates, and next steps. It works with Calendly and Cal.com, so booking the next meeting is one step. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
 For more phrasing ideas, [The Muse's follow-up email templates](https://www.themuse.com/advice/finally-5-email-templates-that-make-following-up-with-anyone-way-less-awkward) are a good companion read.
+
+**More on Lynkk:** [AI action item tracking](https://lynkk.ai/features/action-items) and [Lynkk for sales calls](https://lynkk.ai/use-cases/sales-calls).
 
 ## FAQ
 

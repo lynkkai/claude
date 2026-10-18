@@ -12,7 +12,7 @@ secondary_keywords:
   - "are hoa meeting minutes public record"
 market: US
 cluster: meeting-minutes
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/meeting-notes"
 inbound_links:
   - from: "https://lynkk.ai/blog/meeting-minutes-sample"
     anchor: "HOA meeting minutes template"
@@ -20,13 +20,14 @@ inbound_links:
     anchor: "homeowners association meeting minutes"
 tldr: "HOA meeting minutes should record the meeting type, date and place, board members present and quorum, approval of prior minutes, reports, each motion with who made and seconded it and the vote, and adjournment. Record actions, not debate. Many states set rules on sharing minutes; California requires board minutes or a summary to be available to members within 30 days."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "Homeowners association meeting minutes template with motions and votes recorded"
 ---
 
 # HOA Meeting Minutes Template for US Boards in 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** A homeowners association meeting minutes template should record 6 things: **meeting type, date, time and location**; **board members present, absent and quorum**; **approval of prior minutes**; **officer and committee reports**; **each motion** with who moved, who seconded and the vote; and **adjournment time**. Record what was done, not what was said. Check your state's rules on sharing minutes: in California, minutes or a summary must be available to members **within 30 days**.
 
@@ -165,6 +166,8 @@ AI can draft HOA minutes from a recording of the meeting: attendance, reports, m
 > **Let Lynkk do it.** Lynkk records HOA board meetings in person, on Zoom, Google Meet or Teams, then drafts a summary, a decision log and action items with owners and dates. The secretary reviews instead of transcribing. Ask Lynkk finds any past decision with a link to the moment. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
 For board agendas, see our [board meeting agenda template](https://lynkk.ai/blog/board-meeting-agenda), and for the difference between notes and minutes, [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes).
+
+**More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [AI action item tracking](https://lynkk.ai/features/action-items).
 
 ## FAQ
 

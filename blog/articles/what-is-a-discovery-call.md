@@ -12,21 +12,24 @@ secondary_keywords:
   - "how long should a discovery call be"
 market: US
 cluster: sales-meetings
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/use-cases/sales-calls"
 inbound_links:
   - from: "https://lynkk.ai/blog/sales-conversation-intelligence"
     anchor: "what is a discovery call"
   - from: "https://lynkk.ai/blog/meeting-preparation"
     anchor: "discovery call guide"
+  - from: "https://lynkk.ai/use-cases/sales-calls"
+    anchor: "what a discovery call is"
 tldr: "A discovery call is the first real sales conversation with a prospect, used to understand their problem, priorities, buying process and fit before pitching. Most run 30 minutes. Use a simple agenda, ask open questions, confirm a next step on the call, and send a recap the same day. It is not a demo or a pitch."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "What is a discovery call shown as a sales rep asking questions on a video call"
 ---
 
 # What Is a Discovery Call? A 2026 Guide for US Sales Teams
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** What is a discovery call? It is the **first real sales conversation** with a prospect, usually about **30 minutes**, where you learn their **problem, goals, buying process and timeline** to decide whether there is a fit, before you pitch or demo. It follows a short agenda and ends with an agreed **next step**.
 
@@ -145,6 +148,44 @@ Ask open questions that start with what, how and why. Here are 25 discovery call
 24. Who should join the next conversation?
 25. What is the best next step from your side?
 
+## Why are discovery calls important?
+
+Discovery calls are important because they decide whether the rest of the sales process is worth anyone's time. A good discovery call qualifies out bad-fit deals early, gives you the buyer's own words for later proposals, and makes the demo shorter and more relevant.
+
+They also build trust. A buyer who feels understood on the first call is far more likely to take the second one. That is why many sales teams treat discovery quality as a leading indicator of win rate.
+
+## How is a discovery call different from a cold call?
+
+A cold call is an unscheduled first contact to earn a conversation. A discovery call is a scheduled conversation with someone who already agreed to talk. The goals differ:
+
+| | Cold call | Discovery call |
+|---|---|---|
+| Who initiates | Seller, unannounced | Both sides, scheduled |
+| Goal | Earn a meeting | Understand and qualify |
+| Length | 1 to 5 minutes | About 30 minutes |
+| Prospect's mindset | Interrupted | Expecting the call |
+
+## Which discovery frameworks should you know?
+
+Three frameworks cover most sales discovery. Use them as checklists, not scripts.
+
+- **BANT:** budget, authority, need, timeline. Simple and quick for smaller deals.
+- **MEDDIC:** metrics, economic buyer, decision criteria, decision process, identify pain, champion. Built for complex B2B deals with several stakeholders.
+- **SPIN:** situation, problem, implication, need-payoff questions. Helps the buyer see the cost of their problem in their own words.
+
+Salesforce's own guide uses a POWERFUL acronym for discovery questions, which covers similar ground. Whatever framework you choose, make sure your notes capture each part so the next person on the deal does not repeat the questions.
+
+## What are common discovery call mistakes?
+
+These 6 mistakes cost the most deals:
+
+1. **Pitching too early.** Showing the product before understanding the problem.
+2. **Asking yes or no questions.** They end conversations instead of opening them.
+3. **Not quantifying the pain.** Without a cost, there is no urgency.
+4. **Ignoring the decision process.** Learning about a procurement step in month 3.
+5. **No agreed next step.** "I will follow up" is not a next step; a booked meeting is.
+6. **Poor notes.** Losing the buyer's exact words, which are the best material for the proposal.
+
 ## What is the difference between a discovery call and a demo?
 
 A discovery call is for listening and qualifying; a demo is for showing how your product solves the problems you uncovered. Demos built on a good discovery call are shorter and more relevant, because you show only what matters to that buyer.
@@ -175,6 +216,8 @@ For more on sales tooling, see our guide to [sales conversation intelligence](ht
 Send a follow-up email the same day that restates what you heard, confirms the next step and includes anything you promised. Keep it short and specific to their situation.
 
 A good recap includes the prospect's top goal, main challenge and timeline in their own words, then the date of the next meeting. See example 2 in our [follow-up email after meeting](https://lynkk.ai/blog/follow-up-email-after-meeting) guide.
+
+**More on Lynkk:** [Lynkk for sales calls](https://lynkk.ai/use-cases/sales-calls) and [searching past calls with Ask Lynkk](https://lynkk.ai/features/ask-your-meetings).
 
 ## FAQ
 

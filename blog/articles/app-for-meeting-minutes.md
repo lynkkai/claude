@@ -12,7 +12,7 @@ secondary_keywords:
   - "meeting minutes app for iphone"
 market: US
 cluster: meeting-minutes
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/meeting-notes"
 inbound_links:
   - from: "https://lynkk.ai/blog/meeting-minutes-sample"
     anchor: "best app for meeting minutes"
@@ -20,6 +20,7 @@ inbound_links:
     anchor: "apps that write meeting minutes for you"
 tldr: "The best app for meeting minutes in 2026 depends on where you meet: Lynkk for online and in-person minutes with tasks and Jira, Microsoft Teams Copilot recap for Teams-only companies, Google Meet's Take notes for me for Workspace, Otter and Fireflies for transcripts, Fathom for free recording, Notion for Notion teams and Read AI for analytics."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
 featured_image_alt: "Best app for meeting minutes shown on laptop and phone for US teams in 2026"
@@ -27,7 +28,7 @@ featured_image_alt: "Best app for meeting minutes shown on laptop and phone for 
 
 # Best App for Meeting Minutes: 8 Tools US Teams Use in 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
 
 > **Quick answer:** The best app for meeting minutes in 2026 is **Lynkk** if you want minutes from online and in-person meetings with decisions, owners and Jira tickets (free for 5 notes, $15 Pro). Teams-only companies can use **Teams Copilot recap**, Workspace companies can use **Google Meet's Take notes for me**, and **Fathom** is the best free app for meeting minutes on Zoom, Meet and Teams.
 
@@ -109,6 +110,38 @@ Notion's note taker writes meeting notes into a Notion page from the desktop app
 
 Read AI adds engagement and talk-time metrics to summaries. Free covers 5 meetings a month; Pro is $15 billed yearly.
 
+## Should a meeting minutes app use a bot or not?
+
+Bot-based apps join the meeting as a participant and record from inside the call. Bot-free apps capture audio on your own device. Each approach suits different meetings.
+
+| | Bot-based | Bot-free |
+|---|---|---|
+| Examples | Fathom, Fireflies, Otter, Read AI | Granola, Jamie, Notion |
+| Setup | Connect your calendar once | Start the app for each meeting |
+| Visible to attendees | Yes | No |
+| Works if you leave early | Yes | No |
+| Works in person | Not the focus | Yes, on mobile apps |
+
+Lynkk (our product) offers both: a bot for Zoom, Google Meet and Teams, and bot-free recording through its Mac app and Chrome extension. For formal meetings such as boards and HOAs, a visible recorder is often a good thing, because everyone knows the meeting is on the record.
+
+## Can you use the free recording built into Zoom, Meet or Teams?
+
+Yes, with limits. Zoom, Google Meet and Microsoft Teams all have built-in recording, but it depends on your plan and your admin's settings. Google Meet recording, for example, needs an eligible Google Workspace edition or Google One with 2 TB or more storage ([Google Meet help](https://support.google.com/meet/answer/9308681)).
+
+Built-in recording gives you a video and sometimes a transcript, not minutes. Someone still has to turn it into decisions and actions. That is the step an app for meeting minutes saves. For a step-by-step guide, see [how to record a Google Meet call](https://lynkk.ai/blog/record-google-meet-call).
+
+## How do you choose the right app for meeting minutes?
+
+Answer 5 questions and the shortlist chooses itself:
+
+1. **Where do you meet?** One platform, several, or in person as well.
+2. **Can a bot join?** Some clients and boards prefer no recorder; others expect one.
+3. **Where do actions go?** Jira, a CRM, a shared doc or email.
+4. **Which languages?** Check support for every language your meetings use, including mixed ones like Hinglish.
+5. **Where must data live?** Some organizations need a specific region or strict retention.
+
+Then test 2 apps on the same 3 meetings and compare the minutes side by side. The one whose minutes you edit least is usually the right choice.
+
 ## What is the best app for meeting minutes in Microsoft Teams?
 
 For Microsoft Teams, the best app for meeting minutes is Teams' own Copilot recap if you already pay for Microsoft 365 Copilot. Without Copilot, third-party apps such as Lynkk, Fathom, Fireflies, Otter and Read AI join Teams meetings and produce minutes.
@@ -151,6 +184,8 @@ It takes about 10 minutes per meeting. Use these 5 steps:
 5. **Circulate the draft** for corrections, then approve it at the next meeting.
 
 If you are unsure where notes end and minutes begin, see [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes).
+
+**More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [AI action item tracking](https://lynkk.ai/features/action-items).
 
 ## FAQ
 

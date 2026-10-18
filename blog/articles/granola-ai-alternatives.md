@@ -12,14 +12,17 @@ secondary_keywords:
   - "granola ai open source alternative"
 market: US
 cluster: competitor-alternatives
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/compare/granola"
 inbound_links:
   - from: "https://lynkk.ai/blog/best-ai-note-takers"
     anchor: "Granola AI alternatives"
   - from: "https://lynkk.ai/blog/founders-meeting-notes"
     anchor: "alternatives to Granola for founders"
+  - from: "https://lynkk.ai/compare/granola"
+    anchor: "more Granola alternatives"
 tldr: "The best Granola AI alternatives in 2026 are Lynkk for one AI before, during and after meetings, Jamie for bot-free EU-hosted notes, Notion AI Meeting Notes for Notion teams, Fathom for free recording, Fireflies for CRM sync and Meetily for local, open-source capture. Granola Business costs $14 per user per month for comparison."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
 featured_image_alt: "Granola AI alternatives for US teams compared on price and platform in 2026"
@@ -27,7 +30,7 @@ featured_image_alt: "Granola AI alternatives for US teams compared on price and 
 
 # Granola AI Alternatives That Work for US Teams in 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
 
 > **Quick answer:** The best Granola AI alternatives in 2026 are **Lynkk** (bot or bot-free capture plus tasks and Jira, $0 to $15), **Jamie** (bot-free, EU-hosted), **Notion AI Meeting Notes** (inside Notion Business, $20 per member), **Fathom** (unlimited free recordings), **Fireflies** (CRM sync from $10 billed yearly) and **Meetily** (local and open source).
 
@@ -167,6 +170,8 @@ We scored each tool on 5 criteria:
 | Platforms | Windows, Android and Linux questions are common |
 | After the meeting | Tasks, tickets and follow-ups |
 | Price per user | Granola Business is $14 |
+
+**More on Lynkk:** [Lynkk vs Granola](https://lynkk.ai/compare/granola) and [bot-free recording with the Chrome extension](https://lynkk.ai/features/chrome-extension).
 
 ## FAQ
 

@@ -12,7 +12,7 @@ secondary_keywords:
   - "how to turn meeting notes into minutes"
 market: US
 cluster: meeting-minutes
-internal_link_target: "https://lynkk.ai/"
+internal_link_target: "https://lynkk.ai/features/meeting-notes"
 inbound_links:
   - from: "https://lynkk.ai/blog/meeting-minutes-sample"
     anchor: "meeting notes vs minutes"
@@ -20,13 +20,14 @@ inbound_links:
     anchor: "the difference between notes and minutes"
 tldr: "Meeting notes are informal, personal and written for the note-taker. Meeting minutes are the official, shared record of attendance, decisions and action items, usually approved at the next meeting. To turn notes into minutes, keep decisions, owners, dates and votes, and cut the discussion detail. Formal bodies also record motions and votes."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
 last_updated: 2026-10-17
 featured_image_alt: "Meeting notes vs minutes side by side showing informal notes and formal minutes"
 ---
 
 # Meeting Notes vs Minutes: How to Write Minutes in 2026
 
-*By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
+*By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
 > **Quick answer:** Meeting notes and minutes differ in 3 ways: purpose, format and approval. **Meeting notes** are informal and written for yourself or your team. **Meeting minutes** are the official record of a meeting: who attended, what was decided, who owns each action, and any votes. Minutes are usually reviewed and approved at the next meeting. To turn meeting notes into minutes, keep decisions, owners and dates, and cut the discussion.
 
@@ -160,6 +161,8 @@ Yes. AI meeting assistants can draft both. They capture the discussion for notes
 > **Let Lynkk do it.** Lynkk records your meeting on Zoom, Google Meet, Teams or in person, then gives you notes, a decision log, and tasks with owners and dates. Turning them into approved minutes takes a quick review instead of an hour of typing. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
 Lynkk also prepares a Meeting Brief before the next meeting with open action items, which makes approving last meeting's minutes quick. Ask Lynkk lets you search every past decision and links the exact moment.
+
+**More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [AI action item tracking](https://lynkk.ai/features/action-items).
 
 ## FAQ
 
