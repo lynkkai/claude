@@ -138,7 +138,7 @@ For a general method that works with any tool, see our guide to [meeting prepara
 
 ## Where does Notion's note taker fall short?
 
-Notion's note taker falls short in 4 areas: it needs the desktop app for every meeting, it caps use at 10 hours a day, it labels speakers only in English, and it does not prep you before calls or file tickets after them.
+Notion's note taker falls short in 4 areas. It needs the desktop app for every meeting and caps use at 10 hours a day. It labels speakers only in English, and it does not prep you before calls or file tickets after them.
 
 For many teams, the bigger gap is action. The notes are good, but turning decisions into Jira tickets or chasing owners still takes manual work. Notion tasks help if your team plans in Notion; teams planning in Jira need another step.
 
@@ -163,27 +163,27 @@ The Notion note taker is worth it if your team already pays for Notion Business,
 
 ### Is the Notion AI note taker free?
 
-No. Notion AI Meeting Notes is included on the Business plan ($20 per member per month) and Enterprise. Free and Plus plans get only a limited trial.
+No. Notion AI Meeting Notes is included on the Business plan ($20 per member per month) and Enterprise. Free and Plus plans get only a limited trial. If you are on Plus today, moving to Business for meeting notes doubles your per-member cost from $10 to $20, so compare it with dedicated tools.
 
 ### How do I use Notion's AI note taker?
 
-Open the Notion desktop app, type `/meet` on a page, click Start transcribing when the meeting begins, and click Stop when it ends. Notion writes the summary into the page.
+Open the Notion desktop app, type `/meet` on a page, click Start transcribing when the meeting begins, and click Stop when it ends. Notion writes the summary into the page. Notion needs at least 1 minute of speech to write a summary, and each user can transcribe up to 10 hours a day.
 
 ### Does Notion AI take meeting notes without a bot?
 
-Yes. Notion records audio from your computer through the desktop app, so no bot joins the call. That also means it only captures meetings where someone starts it.
+Yes. Notion records audio from your computer through the desktop app, so no bot joins the call. That also means it only captures meetings where someone starts it. Agree on a team habit, such as starting notes as the call opens, so important meetings do not go unrecorded.
 
 ### Can Notion transcribe Zoom and Google Meet calls?
 
-Yes. Because it records your computer's audio, Notion AI Meeting Notes works with Zoom, Google Meet, Microsoft Teams and other apps through the Notion desktop app.
+Yes. Because it records your computer's audio, Notion AI Meeting Notes works with Zoom, Google Meet, Microsoft Teams and other apps through the Notion desktop app. You must start it on your own machine, so colleagues who did not start it have no recording of their own.
 
 ### Is Notion's note taker better than Granola?
 
-Notion is better if your team already uses Notion Business and wants notes inside its workspace. Granola is better as a standalone, cheaper note app with mobile capture on iPhone and Android.
+Notion is better if your team already uses Notion Business and wants notes inside its workspace. Granola is better as a standalone, cheaper note app with mobile capture on iPhone and Android. Choose Notion if notes should live beside your docs and tasks. Choose Granola if you want a separate app.
 
 ### Does Notion's AI note taker support Hindi?
 
-Hindi is not on the language list in Notion's help center as of October 2026. Lynkk supports Hindi and has a Hinglish setting for meetings that mix Hindi and English.
+Hindi is not on the language list in Notion's help center as of October 2026. Lynkk supports Hindi and has a Hinglish setting for meetings that mix Hindi and English. Speaker labeling in Notion works in English only, so teams with multilingual meetings should test both tools on a real call.
 
 <!-- HANDOFF
 Prompts answered: "notion note taker", "is notion ai note taker free", "how does notion ai note taker work", "notion ai note taker vs granola", "can notion transcribe zoom".

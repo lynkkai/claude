@@ -50,7 +50,7 @@
           "name": "How do you take good meeting notes, and what is the best way?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Record only decisions, action items with an owner and due date, and open questions. Use a template prepared before the meeting and share clean notes within an hour."
+            "text": "Record only decisions, action items with an owner and due date, and open questions. Use a template prepared before the meeting and share clean notes within an hour. Mark lines with shorthand such as D: for decision and A: for action, so you can rewrite them quickly into clean notes afterward."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How do you take good meeting notes at work?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Prepare a template with the agenda, use shorthand during the meeting, confirm owners and dates for every action, and send a short recap the same day."
+            "text": "Prepare a template with the agenda, use shorthand during the meeting, confirm owners and dates for every action, and send a short recap the same day. If an action has no owner or date, ask before the meeting moves on. That one habit improves notes more than any tool."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "What should meeting notes include?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Meeting details, attendees, key points per topic, decisions, and action items with owners and due dates. Open questions are useful too."
+            "text": "Meeting details, attendees, key points per topic, decisions, and action items with owners and due dates. Open questions are useful too. Put decisions and actions near the top, because most readers skim the first 5 lines and stop there unless something concerns them."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "How do I take notes while also participating in a meeting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ask a colleague to take notes, use shared notes in Teams or Google Docs, or use an AI note taker so you can focus on the conversation."
+            "text": "Ask a colleague to take notes, use shared notes in Teams or Google Docs, or use an AI note taker so you can focus on the conversation. Agree on 1 note-taker before the meeting starts, so 3 people do not take partial notes that nobody combines afterward."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "Should meeting notes be written in full sentences?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Take notes in fragments during the meeting, then rewrite decisions and actions as full sentences before sharing."
+            "text": "Take notes in fragments during the meeting, then rewrite decisions and actions as full sentences before sharing. Fragments keep you listening instead of typing. Rewriting takes about 10 minutes, and full sentences make shared notes far easier for absent colleagues to understand."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "How long should meeting notes be?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "For a 30-minute meeting, half a page is usually enough. Focus on decisions and actions rather than a complete record of the discussion. <!-- HANDOFF Prompts answered: \"how to take good meeting notes\", \"what is the best way to take meeting notes\", \"how to take meeting notes quickly\", \"how to take meeting notes in teams without recording\", \"who should take notes in a meeting\". Prompt gaps (createprompt): \"how to take meeting notes and participate at the same time\". Fan-out source: Ubersuggest googlesuggestions (better, at work, quickly, in teams without recording, with ai, as a secretary, who should take notes, best way) + SERP (pm.stackexchange, YouTube, reddit, meetgeek), 2026-10-17. Overlap (Medium): angled on method vs /blog/best-ai-note-takers (tools); links to it. Inbound links: from /blog/meeting-preparation and /blog/one-on-one-meeting. Editor checks: Teams built-in meeting Notes feature availability depends on tenant settings; verify wording. -->"
+            "text": "For a 30-minute meeting, half a page is usually enough. Focus on decisions and actions rather than a complete record of the discussion. If notes run longer, you are probably recording discussion. Link to documents or a recording instead of summarizing them line by line. <!-- HANDOFF Prompts answered: \"how to take good meeting notes\", \"what is the best way to take meeting notes\", \"how to take meeting notes quickly\", \"how to take meeting notes in teams without recording\", \"who should take notes in a meeting\". Prompt gaps (createprompt): \"how to take meeting notes and participate at the same time\". Fan-out source: Ubersuggest googlesuggestions (better, at work, quickly, in teams without recording, with ai, as a secretary, who should take notes, best way) + SERP (pm.stackexchange, YouTube, reddit, meetgeek), 2026-10-17. Overlap (Medium): angled on method vs /blog/best-ai-note-takers (tools); links to it. Inbound links: from /blog/meeting-preparation and /blog/one-on-one-meeting. Editor checks: Teams built-in meeting Notes feature availability depends on tenant settings; verify wording. -->"
           }
         }
       ]

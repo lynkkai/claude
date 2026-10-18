@@ -50,7 +50,7 @@
           "name": "What is the best free alternative to Otter AI?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Fathom has the most generous free recording, with unlimited recordings and transcripts. Lynkk's free plan is smaller at 5 notes a month, but each note includes tasks with owners and Jira send, which Otter Basic does not offer."
+            "text": "Fathom has the most generous free recording, with unlimited recordings and transcripts. Lynkk's free plan is smaller at 5 notes a month, but each note includes tasks with owners and Jira send, which Otter Basic does not offer. Fathom's free plan has no monthly cap."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "Why is Otter AI so expensive for teams?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Otter Business costs $30 per user per month on monthly billing, or $19.99 billed yearly. For a 10-person team that is up to $3,600 a year, which is why teams compare Fireflies, Fathom and Lynkk."
+            "text": "Otter Business costs $30 per user per month on monthly billing, or $19.99 billed yearly. For a 10-person team that is up to $3,600 a year, which is why teams compare Fireflies, Fathom and Lynkk. Annual billing lowers the cost, but many teams still find cheaper options with similar features."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "Which Otter alternative works without a bot?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Granola and Jamie are built around bot-free capture. Lynkk offers both: a bot for Zoom, Meet and Teams, plus a Mac app and Chrome extension that record without one."
+            "text": "Granola and Jamie are built around bot-free capture. Lynkk offers both: a bot for Zoom, Meet and Teams, plus a Mac app and Chrome extension that record without one. Bot-free capture still records the meeting, so tell participants at the start, especially on client calls."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "Is there an Otter alternative that supports Hindi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Lynkk supports Hindi and has a Hinglish setting for calls that switch between Hindi and English mid-sentence. It covers 17 languages plus auto-detect in total."
+            "text": "Yes. Lynkk supports Hindi and has a Hinglish setting for calls that switch between Hindi and English mid-sentence. It covers 17 languages plus auto-detect in total. Tamil, Telugu, Marathi and Bengali are in beta, and teams can keep data processing in India."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "Can I import my Otter transcripts into another tool?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Most tools accept audio uploads rather than Otter's own files. Export your transcripts as TXT or DOCX from Otter and keep them in your docs. Then let the new tool capture meetings going forward."
+            "text": "Most tools accept audio uploads rather than Otter's own files. Export your transcripts as TXT or DOCX from Otter and keep them in your docs. Then let the new tool capture meetings going forward. Run both tools for a week to compare notes."
           }
         }
       ]

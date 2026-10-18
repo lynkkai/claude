@@ -50,7 +50,7 @@
           "name": "What is the format of minutes of meeting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The standard format has 8 parts: heading, date, time and venue, attendance, agenda, discussion, decisions, action items with owner and deadline, and next meeting details with signature."
+            "text": "The standard format has 8 parts: heading, date, time and venue, attendance, agenda, discussion, decisions, action items with owner and deadline, and next meeting details with signature. Copy the template above into Word or Google Docs, and save it so every meeting starts from the same structure."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How do I write minutes of meeting in simple words?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Write who attended, list each agenda item, add 2 to 4 lines on what was discussed, write each decision in one sentence, and list every action with one owner and a deadline."
+            "text": "Write who attended, list each agenda item, add 2 to 4 lines on what was discussed, write each decision in one sentence, and list every action with one owner and a deadline. Use past tense and keep side conversations out. One owner and one deadline per action is what makes minutes useful a month later."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "Who signs the minutes of meeting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The person who recorded the minutes prepares them, and the chairperson approves and signs them. For company board meetings, the chairperson signs under the Companies Act, 2013."
+            "text": "The person who recorded the minutes prepares them, and the chairperson approves and signs them. For company board meetings, the chairperson signs under the Companies Act, 2013. For housing societies and other associations, the chairperson usually signs after the members approve the minutes at the next meeting."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "How soon should minutes of meeting be sent?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Send draft minutes the same day or within 2 working days, while details are fresh. For company board meetings, Section 118 requires minutes to be prepared and signed within 30 days."
+            "text": "Send draft minutes the same day or within 2 working days, while details are fresh. For company board meetings, Section 118 requires minutes to be prepared and signed within 30 days. Under SS-1, board minutes are circulated in draft within 15 days, with comments due within 7 days of circulation."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "Can I write minutes of meeting in Hindi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Use the same 8-part format in Hindi, often titled बैठक का कार्यवृत्त. AI tools like Lynkk can capture Hindi and Hinglish meetings and draft the minutes."
+            "text": "Yes. Use the same 8-part format in Hindi, often titled बैठक का कार्यवृत्त. AI tools like Lynkk can capture Hindi and Hinglish meetings and draft the minutes. Check names and figures carefully, since rupee amounts and Indian names are where AI transcripts most often slip."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "What is the difference between minutes and notes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Notes are informal and personal. Minutes are the official record of attendance, decisions and actions, and are usually approved at the next meeting. <!-- HANDOFF Prompts answered: \"minutes of meeting format\", \"mom format\", \"minutes of meeting format with example\", \"minutes of meeting format email\", \"minutes of meeting format for college\", \"minutes of meeting format for society\". Prompt gaps (createprompt): \"minutes of meeting format in hindi\". Fan-out source: Ubersuggest keywordsuggestions India (format template 1,600, pdf 1,000, word 880, writing format 590, excel 480, with example 390, email 110, companies act 2013) + googlesuggestions (how to write, for college, school, private limited company, apartment association, hindi) + SERP India (YouTube, WPS, matsugov PDF, monash), 2026-10-17. Inbound links: from /blog/meeting-minutes-sample and /blog/action-items-examples-template. Editor checks: the filled-in example uses fictional names and a placeholder company (ABC Software Pvt Ltd); offer a downloadable .docx/.pdf of the template to match SERP intent (Word/PDF downloads rank). -->"
+            "text": "Notes are informal and personal. Minutes are the official record of attendance, decisions and actions, and are usually approved at the next meeting. For college and school assignments, use the formal minutes format, written in the past tense with numbered agenda items. <!-- HANDOFF Prompts answered: \"minutes of meeting format\", \"mom format\", \"minutes of meeting format with example\", \"minutes of meeting format email\", \"minutes of meeting format for college\", \"minutes of meeting format for society\". Prompt gaps (createprompt): \"minutes of meeting format in hindi\". Fan-out source: Ubersuggest keywordsuggestions India (format template 1,600, pdf 1,000, word 880, writing format 590, excel 480, with example 390, email 110, companies act 2013) + googlesuggestions (how to write, for college, school, private limited company, apartment association, hindi) + SERP India (YouTube, WPS, matsugov PDF, monash), 2026-10-17. Inbound links: from /blog/meeting-minutes-sample and /blog/action-items-examples-template. Editor checks: the filled-in example uses fictional names and a placeholder company (ABC Software Pvt Ltd); offer a downloadable .docx/.pdf of the template to match SERP intent (Word/PDF downloads rank). -->"
           }
         }
       ]

@@ -160,23 +160,23 @@ Lynkk is the best app for meeting minutes if you want decisions, owners and Jira
 
 ### Is there a free app for meeting minutes?
 
-Yes. Fathom offers unlimited free recordings and AI summaries. Otter, Read AI and Lynkk also have free plans with monthly limits.
+Yes. Fathom offers unlimited free recordings and AI summaries. Otter, Read AI and Lynkk also have free plans with monthly limits. Fathom has no monthly cap on recordings. Otter allows 300 minutes, Read AI 5 meetings and Lynkk 5 notes of up to 2 hours each, which is enough for a weekly board or team meeting.
 
 ### What app does Microsoft Teams use for meeting minutes?
 
-Microsoft Teams uses Copilot-powered recap for AI meeting notes, which requires a Microsoft 365 Copilot license. Third-party apps like Lynkk, Fathom and Fireflies also work in Teams.
+Microsoft Teams uses Copilot-powered recap for AI meeting notes, which requires a Microsoft 365 Copilot license. Third-party apps like Lynkk, Fathom and Fireflies also work in Teams. If your company has no Copilot licenses, a third-party app that joins Teams calls is usually the cheaper route, because Copilot is licensed per user on top of Microsoft 365.
 
 ### Is there a meeting minutes app for iPhone?
 
-Yes. Otter, Granola and Jamie have iPhone apps that record in-person meetings and write notes. Lynkk works on Mac and in the browser.
+Yes. Otter, Granola and Jamie have iPhone apps that record in-person meetings and write notes. Lynkk works on Mac and in the browser. For in-person meetings, place the phone in the middle of the table. Room audio affects accuracy more than which app you choose.
 
 ### Can AI write meeting minutes?
 
-Yes. AI apps can draft minutes with attendees, decisions and action items within minutes of a meeting ending. A person should review them before approval, especially for formal or legal meetings.
+Yes. AI apps can draft minutes with attendees, decisions and action items within minutes of a meeting ending. A person should review them before approval, especially for formal or legal meetings. Treat the AI version as a draft: check attendance, motion wording and vote counts, then approve the minutes at the next meeting as usual.
 
 ### What should meeting minutes include?
 
-Meeting minutes should include the date, attendees, agenda items, decisions, action items with owners and due dates, and the next meeting date. Formal minutes also record motions and votes.
+Meeting minutes should include the date, attendees, agenda items, decisions, action items with owners and due dates, and the next meeting date. Formal minutes also record motions and votes. Keep each agenda item to 2 to 4 lines. Anything longer usually belongs in the meeting notes, not the official minutes.
 
 <!-- HANDOFF
 Prompts answered: "best app for meeting minutes", "free app for meeting minutes", "meeting minutes app for microsoft teams", "meeting minutes app for iphone", "can ai write meeting minutes".

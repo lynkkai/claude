@@ -19,7 +19,7 @@ inbound_links:
     anchor: "free meeting notes template"
   - from: "https://lynkk.ai/blog/one-on-one-meeting"
     anchor: "meeting notes templates for Word, Docs and Notion"
-tldr: "Copy one of the 5 free meeting notes templates below into Word, Google Docs or Notion. Every template captures the same 5 things: meeting details, attendees, key points, decisions, and action items with an owner and due date."
+tldr: "Copy one of the 5 free meeting notes templates below into Word, Google Docs or Notion. Every template captures the same 5 things: meeting details, attendees, key points, decisions, and action items with an owner and due date. Put decisions and actions near the top, and share notes within an hour of the meeting."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
 last_updated: 2026-10-17
 featured_image_alt: "Free meeting notes template with decisions and action items in Google Docs"
@@ -29,7 +29,7 @@ featured_image_alt: "Free meeting notes template with decisions and action items
 
 *By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
-> **Quick answer:** Here is a free meeting notes template to copy: **Meeting, date, attendees** at the top, then **agenda**, **key points**, **decisions** and **action items (task, owner, due date)**. Paste it into Word, Google Docs or Notion. Below are 5 versions: general, action-focused, one-on-one, client call and Cornell-style.
+> **Quick answer:** Here is a free meeting notes template with 5 sections to copy: **Meeting, date, attendees** at the top, then **agenda**, **key points**, **decisions** and **action items (task, owner, due date)**. Paste it into Word, Google Docs or Notion. Below are 5 versions: general, action-focused, one-on-one, client call and Cornell-style.
 
 *Disclosure: Lynkk publishes this guide and makes an AI meeting assistant that writes meeting notes automatically.*
 
@@ -210,27 +210,27 @@ For a method that works with or without AI, read [how to take good meeting notes
 
 ### Is there a free meeting notes template?
 
-Yes. Copy any of the 5 templates in this guide into Word, Google Docs or Notion. Word and Google Docs also include built-in meeting notes options.
+Yes. Copy any of the 5 templates in this guide into Word, Google Docs or Notion. Word and Google Docs also include built-in meeting notes options. Pick 1 template per meeting type and keep it short. Templates with too many sections stop being filled in after a few weeks.
 
 ### What is the best format for meeting notes?
 
-The best format lists meeting details and attendees, then key points, decisions and action items with owners and due dates. Put decisions and actions near the top.
+The best format lists meeting details and attendees, then key points, decisions and action items with owners and due dates. Put decisions and actions near the top. Bold owners' names in action items, so each person can find their own tasks in seconds when they skim the notes.
 
 ### How do I make a meeting notes template in Google Docs?
 
-Type @meeting notes in a Google Doc to insert the built-in meeting notes block, or paste one of the templates above and save the Doc to reuse.
+Type @meeting notes in a Google Doc to insert the built-in meeting notes block, or paste one of the templates above and save the Doc to reuse. The meeting notes block can pull the event title, date and attendees from Google Calendar, which saves typing them in every week.
 
 ### Does Notion have a free meeting notes template?
 
-Yes. Notion offers meeting notes templates in its template gallery, and you can paste any template from this guide into a Notion page or database template.
+Yes. Notion offers meeting notes templates in its template gallery, and you can paste any template from this guide into a Notion page or database template. A Notion database of meeting notes lets you filter by project, person or date later, which makes past decisions much easier to find.
 
 ### What is the difference between meeting notes and minutes?
 
-Meeting notes are informal records for your team. Minutes are the official record of attendance, decisions and votes, usually approved at the next meeting. See [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes).
+Meeting notes are informal records for your team. Minutes are the official record of attendance, decisions and votes, usually approved at the next meeting. See [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes). Most internal meetings only need notes. Boards, HOAs and LLCs usually need formal minutes as well.
 
 ### How soon should meeting notes be shared?
 
-Share meeting notes the same day, ideally within an hour of the meeting, while people still remember the context.
+Share meeting notes the same day, ideally within an hour of the meeting, while people still remember the context. Notes shared the next day are read far less, because people have already moved on to other work and forgotten the context.
 
 <!-- HANDOFF
 Prompts answered: "meeting notes template free", "free meeting notes template word", "free meeting notes template google docs", "what to include in meeting notes", "how to structure meeting notes".

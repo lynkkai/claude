@@ -199,27 +199,27 @@ See how product teams turn [meeting minutes into Jira issues](https://lynkk.ai/b
 
 ### What is a sprint retrospective?
 
-A sprint retrospective is a Scrum event at the end of each sprint where the team reviews how it worked and agrees on improvements for the next sprint.
+A sprint retrospective is a Scrum event at the end of each sprint where the team reviews how it worked and agrees on improvements for the next sprint. It covers people, process, tools and the definition of done, and ends with 1 to 3 action items, each with an owner.
 
 ### How long should a sprint retrospective be?
 
-The Scrum Guide timeboxes it to a maximum of 3 hours for a 1-month sprint. Most 2-week sprints use 45 to 90 minutes.
+The Scrum Guide timeboxes it to a maximum of 3 hours for a 1-month sprint. Most 2-week sprints use 45 to 90 minutes. Shorter sprints need proportionally less time. A 55-minute agenda with 7 steps fits most 2-week sprints and leaves room to agree on real actions.
 
 ### What are the 3 questions of a sprint retrospective?
 
-The classic 3 questions are: What went well? What did not go well? What will we do differently next sprint?
+The classic 3 questions are: What went well? What did not go well? What will we do differently next sprint? Put the answers into your chosen format, then vote on the top 2 issues and agree on 1 to 3 actions, each with an owner and a due date.
 
 ### How often should sprint retrospectives happen?
 
-Once per sprint, at the end, after the sprint review and before the next sprint planning.
+Once per sprint, at the end, after the sprint review and before the next sprint planning. It concludes the sprint, so the team can carry improvements straight into the next sprint's planning while details are still fresh. Retros held weeks later lose detail.
 
 ### Who attends a sprint retrospective?
 
-The Scrum team: developers, the product owner and the Scrum Master. Stakeholders usually attend the sprint review instead.
+The Scrum team: developers, the product owner and the Scrum Master. Stakeholders usually attend the sprint review instead. Some teams invite a stakeholder occasionally, but keeping the retro to the team makes people more willing to raise problems honestly. Keep the group small and consistent.
 
 ### What is the difference between a sprint review and a retrospective?
 
-The sprint review inspects the product increment with stakeholders. The retrospective inspects how the team worked and plans improvements.
+The sprint review inspects the product increment with stakeholders. The retrospective inspects how the team worked and plans improvements. Both happen at the end of each sprint, with the review first. Keeping them separate stops product feedback from crowding out the team's own improvements.
 
 <!-- HANDOFF
 Prompts answered: "sprint retrospective samples", "sprint retrospective template", "sprint retrospective questions", "sprint retrospective examples what went well", "what to say in sprint retrospective".

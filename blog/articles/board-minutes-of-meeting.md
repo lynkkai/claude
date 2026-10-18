@@ -195,27 +195,27 @@ For general meeting minutes outside the board, see our [minutes of meeting forma
 
 ### What is the time limit for board minutes in India?
 
-Draft minutes go to directors within 15 days, directors comment within 7 days, and minutes must be signed and entered in the minutes book within 30 days of the meeting.
+Under SS-1, draft minutes go to directors within 15 days and directors comment within 7 days. Section 118 requires minutes to be prepared, signed and kept within 30 days, and a certified copy of the signed minutes goes to directors within 15 days of signing.
 
 ### Who signs board minutes of meeting?
 
-The chairperson of the meeting signs the minutes, or the chairperson of the next meeting if needed. The company secretary usually prepares them.
+The chairperson of the meeting signs the minutes, or the chairperson of the next meeting if needed. The company secretary usually prepares them. The last page of each meeting's minutes is dated and signed. Directors receive a certified copy of the signed minutes, so everyone works from the same final record.
 
 ### How long must board minutes be preserved?
 
-Board and committee meeting minutes must be preserved permanently, usually in the minutes book kept at the company's registered office.
+Board and committee meeting minutes must be preserved permanently, usually in the minutes book kept at the company's registered office. Keep supporting papers, such as notices and board packs, alongside the minutes. Auditors and due diligence teams usually ask for both together.
 
 ### Can board minutes be changed after signing?
 
-Signed minutes should not be altered. Any correction should be approved at a later board meeting and recorded in that meeting's minutes.
+Signed minutes should not be altered. Any correction should be approved at a later board meeting and recorded in that meeting's minutes. Never edit a signed page or use loose sheets. Corrections belong in the next meeting's minutes, which keeps the record trustworthy as evidence.
 
 ### Are board minutes confidential?
 
-Board minutes are internal records, not public filings, but they may be inspected by directors, auditors and authorities, and some resolutions must be filed with the Registrar of Companies.
+Board minutes are internal records, not public filings, but they may be inspected by directors, auditors and authorities, and some resolutions must be filed with the Registrar of Companies. Directors should treat them as confidential unless the board decides otherwise.
 
 ### Can minutes be kept electronically?
 
-Yes. Companies may maintain minutes in electronic form subject to the applicable rules on security and signatures. Confirm the current requirements with your company secretary.
+Yes. Companies may maintain minutes in electronic form subject to the applicable rules on security and signatures. Confirm the current requirements with your company secretary. Electronic minutes still need the same content, timelines and signatures as paper minutes. Keep secure backups and an audit trail of who changed what.
 
 <!-- HANDOFF
 Prompts answered: "board minutes of meeting", "minutes of board meeting format", "how to write minutes of board meeting", "are minutes of meeting legally binding", "time limit for board minutes india".

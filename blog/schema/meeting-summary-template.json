@@ -50,7 +50,7 @@
           "name": "What should a meeting summary include?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A meeting summary should include the purpose, key decisions, action items with owners and due dates, open questions and the next meeting date."
+            "text": "A meeting summary should include the purpose, key decisions, action items with owners and due dates, open questions and the next meeting date. Put decisions and actions first and link to the full notes, so anyone who missed the meeting can act on it in under a minute."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How long should a meeting summary be?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Keep a meeting summary to 5 to 10 lines. Link to full notes or a recording for anyone who needs detail."
+            "text": "Keep a meeting summary to 5 to 10 lines. Link to full notes or a recording for anyone who needs detail. If it runs longer, you are recapping the discussion instead of the outcome. Cut until someone could act on it within 60 seconds."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "What is the difference between a meeting summary and minutes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A summary is a short, informal recap for action. Minutes are the formal record of attendance, decisions and votes, usually approved at the next meeting."
+            "text": "A summary is a short, informal recap for action. Minutes are the formal record of attendance, decisions and votes, usually approved at the next meeting. Many teams send a summary the same day and keep formal minutes only for board, HOA or other official meetings where records matter."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "When should I send a meeting summary?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Send it within an hour of the meeting, or at least the same day, while people still remember the context."
+            "text": "Send it within an hour of the meeting, or at least the same day, while people still remember the context. Summaries sent the next day get read far less. Writing it right after the meeting takes about 10 minutes when your notes mark decisions and actions."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "How do I start a meeting summary email?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Start with a one-line thank-you and the meeting name, then go straight to decisions and action items. Put the count of decisions and actions in the subject line."
+            "text": "Start with a one-line thank-you and the meeting name, then go straight to decisions and action items. Put the count of decisions and actions in the subject line. End with a line inviting corrections, so mistakes get fixed before people start working from the wrong information."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "Can I use the same template for every meeting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. The 5-part template works for team, client, project and one-on-one meetings. Add or remove optional sections such as open questions as needed. <!-- HANDOFF Prompts answered: \"template for meeting summary\", \"email template for meeting summary\", \"meeting summary example\", \"how to write a meeting summary\", \"meeting summary vs minutes\". Prompt gaps (createprompt): \"meeting summary template for slack\". Fan-out source: Ubersuggest googlesuggestions (email template for meeting summary, format for meeting summary, how to write a meeting summary, meeting summary example, meeting summary vs minutes, template for meeting recap) + SERP (claap, niftypm, meetingnotes), 2026-10-17. Inbound links: from /blog/action-items-examples-template and /blog/daily-standup-meeting. Editor checks: example names and \"Acme Corp\" are placeholders. -->"
+            "text": "Yes. The 5-part template works for team, client, project and one-on-one meetings. Add or remove optional sections such as open questions as needed. Keep the order the same every time, so regular attendees learn exactly where to look for their action items. <!-- HANDOFF Prompts answered: \"template for meeting summary\", \"email template for meeting summary\", \"meeting summary example\", \"how to write a meeting summary\", \"meeting summary vs minutes\". Prompt gaps (createprompt): \"meeting summary template for slack\". Fan-out source: Ubersuggest googlesuggestions (email template for meeting summary, format for meeting summary, how to write a meeting summary, meeting summary example, meeting summary vs minutes, template for meeting recap) + SERP (claap, niftypm, meetingnotes), 2026-10-17. Inbound links: from /blog/action-items-examples-template and /blog/daily-standup-meeting. Editor checks: example names and \"Acme Corp\" are placeholders. -->"
           }
         }
       ]

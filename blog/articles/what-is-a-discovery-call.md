@@ -18,7 +18,7 @@ inbound_links:
     anchor: "what is a discovery call"
   - from: "https://lynkk.ai/blog/meeting-preparation"
     anchor: "discovery call guide"
-tldr: "A discovery call is the first real sales conversation with a prospect, used to understand their problem, priorities, buying process and fit before pitching. Most run 30 minutes. Use a simple agenda, ask open questions, confirm a next step on the call, and send a recap the same day."
+tldr: "A discovery call is the first real sales conversation with a prospect, used to understand their problem, priorities, buying process and fit before pitching. Most run 30 minutes. Use a simple agenda, ask open questions, confirm a next step on the call, and send a recap the same day. It is not a demo or a pitch."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
 last_updated: 2026-10-17
 featured_image_alt: "What is a discovery call shown as a sales rep asking questions on a video call"
@@ -28,7 +28,7 @@ featured_image_alt: "What is a discovery call shown as a sales rep asking questi
 
 *By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
-> **Quick answer:** What is a discovery call? It is the **first real sales conversation** with a prospect, where you learn about their **problem, goals, buying process and timeline** to decide whether there is a fit, before you pitch or demo. Most discovery calls last about **30 minutes**, follow a short agenda, and end with an agreed **next step**.
+> **Quick answer:** What is a discovery call? It is the **first real sales conversation** with a prospect, usually about **30 minutes**, where you learn their **problem, goals, buying process and timeline** to decide whether there is a fit, before you pitch or demo. It follows a short agenda and ends with an agreed **next step**.
 
 *Disclosure: Lynkk publishes this guide and makes an AI meeting assistant used on sales calls.*
 
@@ -180,27 +180,27 @@ A good recap includes the prospect's top goal, main challenge and timeline in th
 
 ### What is the main purpose of a discovery call?
 
-To understand the prospect's problem, priorities, decision process and timeline, and to decide together whether there is a fit worth pursuing.
+To understand the prospect's problem, priorities, decision process and timeline, and to decide together whether there is a fit worth pursuing. Most sellers aim to talk 30% of the time or less, using open questions about the situation, the pain, the priority and the decision process.
 
 ### How long is a discovery call?
 
-Most discovery calls last about 30 minutes. Complex B2B deals may need 45 minutes, and simple products 15 to 20 minutes.
+Most discovery calls last about 30 minutes. Complex B2B deals may need 45 minutes, and simple products 15 to 20 minutes. Book 30 minutes by default and end on time. Agree on a specific next step before the call ends, rather than promising to follow up later.
 
 ### Is a discovery call an interview?
 
-Not exactly. It is a two-way conversation. The seller asks most of the questions, but the buyer should also learn something useful and decide whether to continue.
+Not exactly. It is a two-way conversation. The seller asks most of the questions, but the buyer should also learn something useful and decide whether to continue. A good call feels useful to the buyer, because they leave with a clearer view of their own problem and options.
 
 ### Are discovery calls free?
 
-In sales, yes: they are part of the sales process. Coaches and consultants also usually offer free discovery calls of 15 to 30 minutes.
+In sales, yes: they are part of the sales process. Coaches and consultants also usually offer free discovery calls of 15 to 30 minutes. In law, a first consultation may be free or paid depending on the firm, so check before booking.
 
 ### What happens after a discovery call?
 
-The seller sends a recap and, if there is a fit, books the next step, often a demo with additional stakeholders or a proposal review.
+The seller sends a recap and, if there is a fit, books the next step, often a demo with additional stakeholders or a proposal review. Send the recap the same day, using the prospect's own words for their goals, challenges and timeline.
 
 ### What is another name for a discovery call?
 
-It is also called a discovery meeting, qualification call, needs analysis call or, for consultants and coaches, a consultation call.
+It is also called a discovery meeting, qualification call, needs analysis call or, for consultants and coaches, a consultation call. Whatever the name, the structure is the same: understand the situation, the problem and the goal, then agree on a next step.
 
 <!-- HANDOFF
 Prompts answered: "what is a discovery call", "what is a discovery call in sales", "purpose of a discovery call", "how long should a discovery call be", "discovery call questions", "discovery call script".

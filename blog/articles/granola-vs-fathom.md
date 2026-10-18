@@ -18,7 +18,7 @@ inbound_links:
     anchor: "Granola vs Fathom compared"
   - from: "https://lynkk.ai/blog/best-free-ai-note-takers"
     anchor: "how Granola and Fathom differ"
-tldr: "Choose Fathom if you want free unlimited recordings, video clips and CRM sync for sales calls. Choose Granola if you want private, bot-free notes that build on what you type. Choose Lynkk if you want one AI before, during and after the meeting."
+tldr: "Choose Fathom if you want free unlimited recordings, video clips and CRM sync for sales calls. Choose Granola if you want private, bot-free notes that build on what you type. Choose Lynkk if you want one AI before, during and after the meeting. Granola Business costs $14 a month; Fathom Premium costs $16 billed yearly."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
@@ -155,27 +155,27 @@ A practical test: run each tool on the same 3 meetings this week and compare whi
 
 ### Is Granola better than Fathom?
 
-In the Granola vs Fathom debate, Granola is better for private, bot-free notes that start from what you type. Fathom is better for recording calls, sharing clips and syncing to a CRM. Neither is better for every team.
+In the Granola vs Fathom debate, Granola is better for private, bot-free notes that start from what you type. Fathom is better for recording calls, sharing clips and syncing to a CRM. Neither is better for every team. Run both on 3 real meetings before deciding.
 
 ### Is Fathom free?
 
-Yes. Fathom's free plan includes unlimited recordings and transcriptions plus instant AI summaries. Some AI features carry a "limited use" tag, and Premium costs $16 a month billed yearly.
+Yes. Fathom's free plan includes unlimited recordings and transcriptions plus instant AI summaries. Some AI features carry a "limited use" tag, and Premium costs $16 a month billed yearly. Fathom works with Zoom, Google Meet and Microsoft Teams, which makes the free plan useful for most US teams from day one.
 
 ### Is Granola free?
 
-Granola has a free Basic plan with AI notes and chat, but it keeps only 30 days of meeting history. Business costs $14 per user per month and removes the history limit.
+Granola has a free Basic plan with AI notes and chat, but it keeps only 30 days of meeting history. Business costs $14 per user per month and removes the history limit. Students and accepted startups can get 12 months of Business free, and registered nonprofits get 50% off, through Granola's help center programs.
 
 ### Does Granola record video like Fathom?
 
-No. Granola transcribes your computer's audio and writes notes, but it does not record video. Fathom records video and lets you clip and share moments.
+No. Granola transcribes your computer's audio and writes notes, but it does not record video. Fathom records video and lets you clip and share moments. If you need to replay a moment, such as a customer's exact wording, Fathom is the better fit. Granola suits people who only need the notes.
 
 ### Which works better for Google Meet and Zoom?
 
-Both work with Zoom and Google Meet. Fathom joins as a recorder, while Granola captures audio from your desktop app on Mac or Windows. Fathom also supports Microsoft Teams.
+Both work with Zoom and Google Meet. Fathom joins as a recorder, while Granola captures audio from your desktop app on Mac or Windows. Fathom also supports Microsoft Teams. Granola needs its app open during the call, while Fathom joins automatically from your calendar. That makes Fathom easier to standardize across a team.
 
 ### What is a good alternative to both Granola and Fathom?
 
-Lynkk combines bot and bot-free capture, in-person recording, and follow-up work like Jira tickets. It is free for 5 notes a month and $15 a month on Pro.
+Lynkk combines bot and bot-free capture, in-person recording, and follow-up work like Jira tickets. It is free for 5 notes a month and $15 a month on Pro. Lynkk also prepares a Meeting Brief before each call and answers questions during it with Cue on Pro, which neither Granola nor Fathom offers.
 
 <!-- HANDOFF
 Prompts answered: "granola vs fathom", "is granola better than fathom", "does granola use a bot", "fathom vs granola for sales".

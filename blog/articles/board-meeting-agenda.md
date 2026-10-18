@@ -170,27 +170,27 @@ For the minutes themselves, see our [meeting minutes sample](https://lynkk.ai/bl
 
 ### What is the standard order of a board meeting agenda?
 
-Call to order, roll call and quorum, approval of the agenda, approval of prior minutes, consent agenda, reports, old business, new business, executive session if needed, announcements and adjournment.
+Call to order, roll call and quorum, approval of the agenda, approval of prior minutes, consent agenda, reports, old business, new business, executive session if needed, announcements and adjournment. Your bylaws can change this order, and many boards move key decisions earlier so directors discuss them while they are fresh.
 
 ### Who sets the board meeting agenda?
 
-The board chair sets the agenda, usually with the CEO or executive director and the board secretary. Directors can request items through the chair.
+The board chair sets the agenda, usually with the CEO or executive director and the board secretary. Directors can request items through the chair. Committee chairs submit their reports in advance, and the final agenda goes out with the board packet so every director sees the same plan.
 
 ### How far in advance should a board agenda be sent?
 
-Send the agenda and board packet 5 to 7 days before the meeting so directors have time to read reports and prepare questions.
+Send the agenda and board packet 5 to 7 days before the meeting so directors have time to read reports and prepare questions. For quarterly boards with long financial packs, 7 days is safer. Ask directors to send questions in advance so meeting time goes to decisions rather than clarifications.
 
 ### Is an agenda required for a board meeting?
 
-Many bylaws and some state laws require notice of meetings, and special meetings often require stating the purpose in advance. Even when not required, an agenda is standard good practice.
+Many bylaws and some state laws require notice of meetings, and special meetings often require stating the purpose in advance. Even when not required, an agenda is standard good practice. Check your bylaws for notice rules, especially for special meetings and votes on major decisions.
 
 ### What is the difference between old business and new business?
 
-Old business covers items carried over from previous meetings. New business covers items raised for the first time.
+Old business covers items carried over from previous meetings. New business covers items raised for the first time. Old business should shrink over time. If the same item appears for 3 meetings in a row without a decision, give it a deadline or a smaller working group.
 
 ### What happens in executive session?
 
-In executive session, the board meets privately, often without staff, to discuss confidential matters such as CEO performance, legal issues or personnel. Any formal action is usually taken back in open session.
+In executive session, the board meets privately, often without staff, to discuss confidential matters such as CEO performance, legal issues or personnel. Any formal action is usually taken back in open session. The minutes usually record only that an executive session took place and its general topic, not the confidential discussion itself.
 
 <!-- HANDOFF
 Prompts answered: "board meeting agenda", "board meeting agenda format", "sample board meeting agenda", "nonprofit board meeting agenda", "who prepares board meeting agenda", "what is a consent agenda".

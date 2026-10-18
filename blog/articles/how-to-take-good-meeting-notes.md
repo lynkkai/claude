@@ -153,27 +153,27 @@ For a comparison of AI tools, see our list of the [best AI note takers](https://
 
 ### How do you take good meeting notes, and what is the best way?
 
-Record only decisions, action items with an owner and due date, and open questions. Use a template prepared before the meeting and share clean notes within an hour.
+Record only decisions, action items with an owner and due date, and open questions. Use a template prepared before the meeting and share clean notes within an hour. Mark lines with shorthand such as D: for decision and A: for action, so you can rewrite them quickly into clean notes afterward.
 
 ### How do you take good meeting notes at work?
 
-Prepare a template with the agenda, use shorthand during the meeting, confirm owners and dates for every action, and send a short recap the same day.
+Prepare a template with the agenda, use shorthand during the meeting, confirm owners and dates for every action, and send a short recap the same day. If an action has no owner or date, ask before the meeting moves on. That one habit improves notes more than any tool.
 
 ### What should meeting notes include?
 
-Meeting details, attendees, key points per topic, decisions, and action items with owners and due dates. Open questions are useful too.
+Meeting details, attendees, key points per topic, decisions, and action items with owners and due dates. Open questions are useful too. Put decisions and actions near the top, because most readers skim the first 5 lines and stop there unless something concerns them.
 
 ### How do I take notes while also participating in a meeting?
 
-Ask a colleague to take notes, use shared notes in Teams or Google Docs, or use an AI note taker so you can focus on the conversation.
+Ask a colleague to take notes, use shared notes in Teams or Google Docs, or use an AI note taker so you can focus on the conversation. Agree on 1 note-taker before the meeting starts, so 3 people do not take partial notes that nobody combines afterward.
 
 ### Should meeting notes be written in full sentences?
 
-Take notes in fragments during the meeting, then rewrite decisions and actions as full sentences before sharing.
+Take notes in fragments during the meeting, then rewrite decisions and actions as full sentences before sharing. Fragments keep you listening instead of typing. Rewriting takes about 10 minutes, and full sentences make shared notes far easier for absent colleagues to understand.
 
 ### How long should meeting notes be?
 
-For a 30-minute meeting, half a page is usually enough. Focus on decisions and actions rather than a complete record of the discussion.
+For a 30-minute meeting, half a page is usually enough. Focus on decisions and actions rather than a complete record of the discussion. If notes run longer, you are probably recording discussion. Link to documents or a recording instead of summarizing them line by line.
 
 <!-- HANDOFF
 Prompts answered: "how to take good meeting notes", "what is the best way to take meeting notes", "how to take meeting notes quickly", "how to take meeting notes in teams without recording", "who should take notes in a meeting".

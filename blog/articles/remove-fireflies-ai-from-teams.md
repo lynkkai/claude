@@ -28,7 +28,7 @@ featured_image_alt: "How to remove Fireflies AI from Teams meeting participants 
 
 *By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
-> **Quick answer:** For how to remove Fireflies AI from Teams right now: open **Participants**, click **(...)** next to Fireflies and choose **Remove from meeting**, or type **/ff leave** in the meeting chat. To stop it joining again, set Fireflies auto-join to **Only when I invite**, remove **fred@fireflies.ai** from calendar invites, and ask your Teams admin to **block the app**. Deleting the Fireflies account stops it completely.
+> **Quick answer:** For how to remove Fireflies AI from Teams in under 30 seconds: open **Participants**, click **(...)** next to Fireflies and choose **Remove from meeting**, or type **/ff leave** in the meeting chat. To stop it joining again, set Fireflies auto-join to **Only when I invite**, remove **fred@fireflies.ai** from calendar invites, and ask your Teams admin to **block the app**. Deleting the Fireflies account stops it completely.
 
 *Disclosure: Lynkk publishes this guide and makes a different AI meeting assistant. Steps come from Fireflies' help center and Microsoft's community answers, checked 17 October 2026.*
 
@@ -122,27 +122,27 @@ For recurring meetings, edit the whole series, not a single occurrence, or Fred 
 
 ### How do I permanently remove Fireflies AI from Microsoft Teams?
 
-Delete or disconnect the Fireflies account that sends the bot, remove fred@fireflies.ai from invites, and have a Teams admin block the app in the Teams admin center under Teams apps, then Manage apps.
+Delete or disconnect the Fireflies account that sends the bot, remove fred@fireflies.ai from invites, and have a Teams admin block the app in the Teams admin center under Teams apps, then Manage apps. Blocking the app alone does not always stop the bot, because it joins through calendar access.
 
 ### How do I kick Fireflies out of a meeting?
 
-Open the participant list, click the menu next to Fireflies and choose Remove from meeting, or type /ff leave in the meeting chat.
+Open the participant list, click the menu next to Fireflies and choose Remove from meeting, or type /ff leave in the meeting chat. If removed within the first 3 minutes, Fireflies creates no transcript or notes. You need host or presenter rights to remove a participant in Teams.
 
 ### Why does Fireflies keep joining my Teams meetings?
 
-Fireflies joins because an attendee connected their calendar with auto-join turned on. Ask the bot's owner to switch auto-join to Only when I invite, or remove fred@fireflies.ai from the invite.
+Fireflies joins because an attendee connected their calendar with auto-join turned on. Ask the bot's owner to switch auto-join to Only when I invite, or remove fred@fireflies.ai from the invite. For recurring meetings, edit the whole series, not a single occurrence, or Fred will return the following week.
 
 ### Will removing Fireflies delete the transcript?
 
-If Fireflies is removed within the first 3 minutes, no transcript or notes are created. If removed later, the owner may still get notes for the part it recorded.
+If Fireflies is removed within the first 3 minutes, no transcript or notes are created. If removed later, the owner may still get notes for the part it recorded. Ask the person who owns the bot to delete the meeting notes if attendees did not agree to the recording.
 
 ### Can I block Fireflies without admin rights?
 
-You can remove it from meetings you organize and set your lobby so only organizers bypass it. Blocking it for the whole company requires a Teams admin.
+You can remove it from meetings you organize and set your lobby so only organizers bypass it. Blocking it for the whole company requires a Teams admin. Setting the lobby this way makes the bot wait outside, where the organizer can simply deny it entry each time.
 
 ### Is Fireflies AI safe to use?
 
-Fireflies is a legitimate product with enterprise security options, including HIPAA and SSO on its Enterprise plan. The common problem is uninvited joining through auto-join, which you can control in settings.
+Fireflies is a legitimate product with enterprise security options, including HIPAA and SSO on its Enterprise plan. The common problem is uninvited joining through auto-join, which you can control in settings. Ask who owns the bot and where the recording goes, since several US states require all parties to consent to recording.
 
 <!-- HANDOFF
 Prompts answered: "how to remove fireflies ai from teams", "remove fireflies ai from microsoft teams permanently", "how to disable fireflies ai in teams", "remove fireflies from zoom", "why does fireflies keep joining my meetings".

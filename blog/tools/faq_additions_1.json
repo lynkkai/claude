@@ -1,0 +1,98 @@
+{
+"app-for-meeting-minutes": [
+ "",
+ "Fathom has no monthly cap on recordings. Otter allows 300 minutes, Read AI 5 meetings and Lynkk 5 notes of up to 2 hours each, which is enough for a weekly board or team meeting.",
+ "If your company has no Copilot licenses, a third-party app that joins Teams calls is usually the cheaper route, because Copilot is licensed per user on top of Microsoft 365.",
+ "For in-person meetings, place the phone in the middle of the table. Room audio affects accuracy more than which app you choose.",
+ "Treat the AI version as a draft: check attendance, motion wording and vote counts, then approve the minutes at the next meeting as usual.",
+ "Keep each agenda item to 2 to 4 lines. Anything longer usually belongs in the meeting notes, not the official minutes."
+],
+"avoma-alternatives": [
+ "If you mainly use Avoma as a note taker, a cheaper tool usually covers it. If you rely on its forecasting, compare Gong instead.",
+ "The right choice depends on whether you need forecasting and coaching, which Gong covers, or mainly notes and CRM updates, which Fireflies and Fathom handle at a lower price per seat.",
+ "On monthly billing, the plans cost $29 and $39 per seat. View-only seats are free, so managers who only review calls do not need a paid recorder seat.",
+ "For a 10-person team on annual billing, Otter Pro costs about $1,000 a year, while Avoma Organization costs $3,480 before any add-ons.",
+ "Free plans suit testing on real calls before you commit. Run the same 3 sales calls through 2 tools and compare the notes your reps actually reuse.",
+ "Use the trial on live sales calls, not demos, and decide before day 14 which add-ons you would actually need, because those drive most of the final cost."
+],
+"board-meeting-agenda": [
+ "Your bylaws can change this order, and many boards move key decisions earlier so directors discuss them while they are fresh.",
+ "Committee chairs submit their reports in advance, and the final agenda goes out with the board packet so every director sees the same plan.",
+ "For quarterly boards with long financial packs, 7 days is safer. Ask directors to send questions in advance so meeting time goes to decisions rather than clarifications.",
+ "",
+ "Old business should shrink over time. If the same item appears for 3 meetings in a row without a decision, give it a deadline or a smaller working group.",
+ "The minutes usually record only that an executive session took place and its general topic, not the confidential discussion itself."
+],
+"board-minutes-of-meeting": [
+ "=Under SS-1, draft minutes go to directors within 15 days and directors comment within 7 days. Section 118 requires minutes to be prepared, signed and kept within 30 days, and a certified copy of the signed minutes goes to directors within 15 days of signing.",
+ "The last page of each meeting's minutes is dated and signed. Directors receive a certified copy of the signed minutes, so everyone works from the same final record.",
+ "Keep supporting papers, such as notices and board packs, alongside the minutes. Auditors and due diligence teams usually ask for both together.",
+ "Never edit a signed page or use loose sheets. Corrections belong in the next meeting's minutes, which keeps the record trustworthy as evidence.",
+ "",
+ "Electronic minutes still need the same content, timelines and signatures as paper minutes. Keep secure backups and an audit trail of who changed what."
+],
+"follow-up-email-after-meeting": [
+ "Put decisions and action items in the first lines, so readers who only skim still see what they need to do and by when.",
+ "=Send it within 24 hours, and the same day for client and sales meetings. The sooner it goes out, the more accurately it reflects what was agreed, and the more likely people are to act on the next steps while the meeting is fresh.",
+ "Specific subject lines get opened because people can see the email concerns them. Avoid a bare \"Following up\", which is easy to ignore in a busy inbox.",
+ "Most professionals stop after 2 or 3 reminders. After that, switch channel, for example a short call or a message, rather than sending another email.",
+ "Without owners and dates, a recap is only a summary. Name 1 owner per task, even when a team shares the work, so someone is clearly accountable.",
+ ""
+],
+"google-meet-ai-note-taker": [
+ "",
+ "Hindi and Hinglish meetings therefore need a third-party tool. Lynkk supports Hindi and has a Hinglish setting for mid-sentence switching between Hindi and English.",
+ "Each option takes under 5 minutes to set up. Bot-based tools join from your calendar automatically, while extensions need Chrome open during the call.",
+ "Test any tool on a real 20-minute Hinglish meeting first, checking names, rupee figures and how well it handles switches between languages.",
+ "",
+ "Bot-free tools still record, so tell participants at the start. Clients usually appreciate the notice even when no bot appears in the call."
+],
+"granola-ai-alternatives": [
+ "",
+ "",
+ "Granola's Android app focuses on in-person meetings, so video calls still run through its Mac or Windows desktop apps.",
+ "Local tools suit developers and privacy-first teams who can manage updates themselves and do not need cloud search across a whole team.",
+ "",
+ "Product and engineering teams usually care most about this, because decisions made in meetings otherwise need copying into Jira by hand afterward."
+],
+"granola-pricing": [
+ "For a 10-person team, Business costs $1,680 a year and Enterprise $4,200. Students and accepted startups can get 12 months of Business free, and nonprofits get 50% off.",
+ "Notes older than 30 days are stored, not deleted, but you cannot open them until you upgrade. Export titles and summaries as a CSV before relying on Basic alone.",
+ "Business is billed per user each month, so you can add or remove seats as your team changes without a yearly commitment.",
+ "Most teams under 50 people only need Business unless their security review requires single sign-on, which is the main reason to pay $35.",
+ "That makes Granola predictable for heavy users. Long meetings and many meetings cost the same as light use on the same plan.",
+ "The cheapest option depends on your bottleneck. If it is history, Fathom or Lynkk keep notes longer; if it is privacy, Jamie and Meetily also skip the bot."
+],
+"granola-vs-fathom": [
+ "",
+ "Fathom works with Zoom, Google Meet and Microsoft Teams, which makes the free plan useful for most US teams from day one.",
+ "Students and accepted startups can get 12 months of Business free, and registered nonprofits get 50% off, through Granola's help center programs.",
+ "If you need to replay a moment, such as a customer's exact wording, Fathom is the better fit. Granola suits people who only need the notes.",
+ "Granola needs its app open during the call, while Fathom joins automatically from your calendar. That makes Fathom easier to standardize across a team.",
+ "Lynkk also prepares a Meeting Brief before each call and answers questions during it with Cue on Pro, which neither Granola nor Fathom offers."
+],
+"granola-vs-otter-ai": [
+ "",
+ "Pro raises the per-conversation limit to 90 minutes and adds Salesforce, HubSpot and Zapier integrations for $8.33 a month on annual billing.",
+ "",
+ "",
+ "If you need both a live transcript and private notes, Lynkk offers a bot for Zoom, Meet and Teams plus bot-free recording in one account.",
+ "Granola is the quieter option for client calls, because no bot appears in the participant list."
+],
+"hindi-speech-to-text": [
+ "Spoken punctuation commands in Google Docs work only in English, so add Hindi full stops and commas by hand after dictating.",
+ "For recorded files, use an AI transcription tool that supports Hindi, and test it on 5 minutes of your own audio before relying on it.",
+ "Use headphones with a microphone for better accuracy, and keep the Doc open while you speak, because typing stops when the tab closes.",
+ "Offline modes are useful in low-connectivity areas, but accuracy can be lower than online voice typing, so check names and numbers afterward.",
+ "This suits WhatsApp messages and informal notes. For formal documents, Devanagari output is usually easier for other Hindi readers to scan.",
+ "For past recordings, keep audio clear and split very long files into parts if your tool limits file length."
+],
+"hindi-transcription": [
+ "",
+ "Google Docs voice typing works in Chrome, Edge and Safari, but it only transcribes in real time, so a 1-hour recording takes at least an hour.",
+ "Pick the right one before choosing a tool, because many people searching for English to Hindi transcription actually need translation or transliteration.",
+ "Test with a real Hinglish meeting of 10 to 20 minutes before rolling a tool out, and check how it handles names, numbers and English terms.",
+ "",
+ "Better audio improves accuracy more than switching tools: use an external microphone, a quiet room and one speaker at a time where possible."
+]
+}

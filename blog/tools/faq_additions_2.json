@@ -1,0 +1,186 @@
+{
+"hoa-meeting-minutes-template": [
+ "Keep motion wording exact and record vote counts, because these are the details homeowners and lawyers check first if a decision is disputed.",
+ "Mark the document as a draft until the board approves it, and store approved minutes in one shared place rather than on a volunteer's laptop.",
+ "Ask your manager or board secretary how to request them. Many associations post approved minutes on a member portal to make access simple.",
+ "Florida treats minutes as official records owners can inspect. Posting approved minutes on a member portal is the easiest way to meet any deadline.",
+ "Rotate the task only if your bylaws allow it. Whoever drafts them should send the draft to the president for review within a few days of the meeting.",
+ "Keep confidential details, such as delinquent owners' names or legal advice, out of open-session minutes entirely, even when the board takes action on them."
+],
+"how-to-take-good-meeting-notes": [
+ "Mark lines with shorthand such as D: for decision and A: for action, so you can rewrite them quickly into clean notes afterward.",
+ "If an action has no owner or date, ask before the meeting moves on. That one habit improves notes more than any tool.",
+ "Put decisions and actions near the top, because most readers skim the first 5 lines and stop there unless something concerns them.",
+ "Agree on 1 note-taker before the meeting starts, so 3 people do not take partial notes that nobody combines afterward.",
+ "Fragments keep you listening instead of typing. Rewriting takes about 10 minutes, and full sentences make shared notes far easier for absent colleagues to understand.",
+ "If notes run longer, you are probably recording discussion. Link to documents or a recording instead of summarizing them line by line."
+],
+"jamie-ai-note-taker": [
+ "The 30-minute cap is the main limit, so a 45-minute client call gets cut off. The free plan suits short check-ins and testing rather than daily use.",
+ "Monthly billing is available through a toggle on Jamie's pricing page. Pro is the first plan with unlimited notes and 5-hour meetings.",
+ "Because nothing joins the call, Jamie works with almost any meeting app. You must start it yourself, so missed starts mean missed notes.",
+ "Because the Android app is a beta, features may lag the iPhone version. Test it on a real in-person meeting before relying on it.",
+ "Jamie hosts data in the EU and states it does not train models on your data, which suits teams with European clients or strict privacy rules.",
+ ""
+],
+"llc-meeting-minutes-template": [
+ "Banks, lenders and buyers often ask for minutes or resolutions before approving a loan or a sale, so keeping them saves time later.",
+ "A single-member LLC can sign one annual written consent covering the year's major decisions, plus separate consents for big one-off actions.",
+ "It records the decision the same way minutes would, and it is often what a bank asks to see before opening an account or approving credit.",
+ "Use a printed name, signature and date for each signer, and keep the signed copy with the operating agreement and other company records.",
+ "Record each one as a resolution with exact wording and the vote, because the wording is what banks, buyers and courts will rely on later.",
+ "Keep minutes for the life of the company. They cost nothing to store and can matter years later during a sale, audit or dispute."
+],
+"meeting-agenda-template-word": [
+ "Check that the template you pick has time and owner columns, because many decorative templates leave them out and make meetings run long.",
+ "Saving as a .dotx means you never overwrite your master agenda by accident, because Word opens a fresh copy each time.",
+ "For a 30-minute meeting, plan 3 to 4 topics; for an hour, 5 to 6. If you have more, split the meeting or send updates as a written pre-read.",
+ "If the Personal tab is missing, set a default personal templates location in Word's options so your saved templates appear there.",
+ "",
+ "Shared Google Docs work well when several people add topics, because everyone edits the same version instead of trading attachments."
+],
+"meeting-notes-template": [
+ "Pick 1 template per meeting type and keep it short. Templates with too many sections stop being filled in after a few weeks.",
+ "Bold owners' names in action items, so each person can find their own tasks in seconds when they skim the notes.",
+ "The meeting notes block can pull the event title, date and attendees from Google Calendar, which saves typing them in every week.",
+ "A Notion database of meeting notes lets you filter by project, person or date later, which makes past decisions much easier to find.",
+ "Most internal meetings only need notes. Boards, HOAs and LLCs usually need formal minutes as well.",
+ "Notes shared the next day are read far less, because people have already moved on to other work and forgotten the context."
+],
+"meeting-notes-vs-minutes": [
+ "Notes help people remember. Minutes are what an organization relies on later, so they follow a fixed format and are kept for years.",
+ "A useful test: if a lawyer, auditor or new board member might read it in 2 years, write minutes rather than notes.",
+ "The name stuck when clerks rewrote their rough notes into a full record, which became known as the minutes of the meeting.",
+ "The note-taker should not also chair the meeting. Running a discussion and recording it at the same time usually means both are done badly.",
+ "Write in the past tense and neutral language. Avoid quoting people unless the exact words matter for a motion or a later dispute.",
+ "Late minutes are less accurate, because details fade fast. Mark them as a draft until they are approved, and keep the approved version in a shared place."
+],
+"meeting-summary-template": [
+ "Put decisions and actions first and link to the full notes, so anyone who missed the meeting can act on it in under a minute.",
+ "If it runs longer, you are recapping the discussion instead of the outcome. Cut until someone could act on it within 60 seconds.",
+ "Many teams send a summary the same day and keep formal minutes only for board, HOA or other official meetings where records matter.",
+ "Summaries sent the next day get read far less. Writing it right after the meeting takes about 10 minutes when your notes mark decisions and actions.",
+ "End with a line inviting corrections, so mistakes get fixed before people start working from the wrong information.",
+ "Keep the order the same every time, so regular attendees learn exactly where to look for their action items."
+],
+"minutes-of-meeting-format": [
+ "Copy the template above into Word or Google Docs, and save it so every meeting starts from the same structure.",
+ "Use past tense and keep side conversations out. One owner and one deadline per action is what makes minutes useful a month later.",
+ "For housing societies and other associations, the chairperson usually signs after the members approve the minutes at the next meeting.",
+ "Under SS-1, board minutes are circulated in draft within 15 days, with comments due within 7 days of circulation.",
+ "Check names and figures carefully, since rupee amounts and Indian names are where AI transcripts most often slip.",
+ "For college and school assignments, use the formal minutes format, written in the past tense with numbered agenda items."
+],
+"notion-note-taker": [
+ "If you are on Plus today, moving to Business for meeting notes doubles your per-member cost from $10 to $20, so compare it with dedicated tools.",
+ "Notion needs at least 1 minute of speech to write a summary, and each user can transcribe up to 10 hours a day.",
+ "Agree on a team habit, such as starting notes as the call opens, so important meetings do not go unrecorded.",
+ "You must start it on your own machine, so colleagues who did not start it have no recording of their own.",
+ "Choose Notion if notes should live beside your docs and tasks. Choose Granola if you want a separate app.",
+ "Speaker labeling in Notion works in English only, so teams with multilingual meetings should test both tools on a real call."
+],
+"notta-pricing": [
+ "Annual billing saves about 40% on Pro. If you expect to use Notta for more than 6 months, the annual plan is the cheaper choice.",
+ "The 3-minute cap makes the free plan a demo, good for testing accuracy on short clips but not for real meetings.",
+ "Pro also allows recordings up to 5 hours and includes 100 AI summaries a month, which covers about 3 meetings every working day.",
+ "Business suits teams that record most meetings or need video. Enterprise starts at 51 seats and adds SSO and audit logs.",
+ "Lynkk's free plan allows 2-hour recordings and Pro costs $15 a month, adding prep before calls and Jira tickets after them.",
+ "Check the pricing page at checkout, since promotions change. Monthly prices are about $13.99 for Pro and $27.99 per seat for Business."
+],
+"otter-ai-alternatives": [
+ "",
+ "",
+ "Annual billing lowers the cost, but many teams still find cheaper options with similar features.",
+ "Bot-free capture still records the meeting, so tell participants at the start, especially on client calls.",
+ "Tamil, Telugu, Marathi and Bengali are in beta, and teams can keep data processing in India.",
+ ""
+],
+"otter-ai-vs-fireflies-ai": [
+ "Run both on the same 3 meetings before deciding.",
+ "",
+ "",
+ "Fathom's free video makes it easy to share short clips with colleagues who missed a call, which neither Otter nor Fireflies offers for free.",
+ "",
+ "Check your IT policy first, because some companies block third-party meeting bots in Teams."
+],
+"project-kickoff-meeting-agenda-template": [
+ "Send the agenda with a pre-read 1 to 2 days before, so the meeting is spent discussing scope and risks instead of reading slides together.",
+ "Very large projects sometimes use a half-day workshop, but split it into sessions with breaks so decisions do not suffer from fatigue.",
+ "Name a note-taker as well, so decisions about scope and owners are captured while the project manager facilitates the discussion.",
+ "A kickoff that skips scope or owners usually shows up weeks later as scope creep, missed dates and arguments about what was agreed.",
+ "Run the kickoff first, then planning sessions with the people doing the work, so estimates come from those who will deliver them.",
+ "Ask people to add questions to the agenda doc beforehand, so you can answer common ones once instead of repeating them in the meeting."
+],
+"read-ai-alternative": [
+ "",
+ "Read AI's own free plan stops at 5 meetings a month, so even the smallest free plans above are comparable for light use.",
+ "If your company does not license Copilot, a third-party tool that joins Teams calls is usually the more affordable route.",
+ "Compare them on free limits, price per user, privacy controls and what happens after the meeting.",
+ "Bot-free capture still records, so announce it at the start of each call, especially with clients.",
+ "Test any tool on a real meeting in each language your team uses before you roll it out."
+],
+"read-ai-pricing": [
+ "Annual billing saves 25%, so a single Pro user pays $180 a year instead of $237.",
+ "Five meetings a month suits testing Read AI on your most important calls; anyone with daily meetings will hit the limit within the first week.",
+ "Monthly billing raises that to $2,370 a year. Enterprise for the same team costs $2,700 billed yearly, and adds audio and video playback.",
+ "A team of 3 that wants Enterprise features still pays for 5 seats, so small teams usually stay on Pro.",
+ "Otter's free plan also differs: 300 minutes a month at 30 minutes per call, versus Read AI's 5 meetings at up to 1 hour.",
+ "If you are unsure, start monthly for 1 or 2 months, then switch to annual once your team is clearly using it."
+],
+"read-ai-vs-otter-ai": [
+ "",
+ "Otter suits people who reread what was said; Read AI suits managers who want feedback on how meetings went and how to run the next one better.",
+ "For a 10-person team on annual billing, that is about $1,800 a year for Read AI Pro versus $1,000 for Otter Pro.",
+ "Read AI's free plan caps each meeting at 1 hour, while Otter's free plan cuts each conversation at 30 minutes.",
+ "Both join as a visible participant, so tell attendees at the start of the call.",
+ "Test any tool with a real meeting in your team's main languages before you buy seats for everyone."
+],
+"record-google-meet-call": [
+ "Built-in recording needs an eligible Workspace plan or Google One with 2 TB or more storage.",
+ "Google One plans with 2 TB or more also add other Google benefits, so check whether you already pay for one.",
+ "Recordings stop automatically after 8 hours, or when everyone leaves the meeting.",
+ "Switching to a laptop and asking the host for permission fixes most cases. Otherwise, ask your Workspace admin to enable recording for your account.",
+ "Android screen recorders also work, but test that other people's audio is captured before an important call.",
+ "Several US states require every participant's consent before a call is recorded, so announce it at the start either way."
+],
+"remove-fireflies-ai-from-teams": [
+ "Blocking the app alone does not always stop the bot, because it joins through calendar access.",
+ "If removed within the first 3 minutes, Fireflies creates no transcript or notes. You need host or presenter rights to remove a participant in Teams.",
+ "For recurring meetings, edit the whole series, not a single occurrence, or Fred will return the following week.",
+ "Ask the person who owns the bot to delete the meeting notes if attendees did not agree to the recording.",
+ "Setting the lobby this way makes the bot wait outside, where the organizer can simply deny it entry each time.",
+ "Ask who owns the bot and where the recording goes, since several US states require all parties to consent to recording."
+],
+"sprint-retrospective-template-samples": [
+ "It covers people, process, tools and the definition of done, and ends with 1 to 3 action items, each with an owner.",
+ "Shorter sprints need proportionally less time. A 55-minute agenda with 7 steps fits most 2-week sprints and leaves room to agree on real actions.",
+ "Put the answers into your chosen format, then vote on the top 2 issues and agree on 1 to 3 actions, each with an owner and a due date.",
+ "It concludes the sprint, so the team can carry improvements straight into the next sprint's planning while details are still fresh.",
+ "Some teams invite a stakeholder occasionally, but keeping the retro to the team makes people more willing to raise problems honestly.",
+ "Both happen at the end of each sprint, with the review first. Keeping them separate stops product feedback from crowding out the team's own improvements."
+],
+"tactiq-alternative": [
+ "Fireflies suits CRM-driven teams, and Google Meet's built-in notes suit English-only Workspace teams.",
+ "Unlimited AI credits start on the Team plan at $16.67 per user billed yearly, which matters if you use AI summaries often.",
+ "Also tell participants you are transcribing, since several US states require all parties to consent to recording.",
+ "Compare them on free limits, price per user and whether they capture meetings outside the browser.",
+ "Bot-based tools join from your calendar, so they work even when you are not running Chrome during the call.",
+ "Test any tool on a real 20-minute meeting in the languages your team uses before rolling it out."
+],
+"team-meeting-summary-ai": [
+ "",
+ "Fathom has no monthly cap; Otter allows 300 minutes at 30 minutes per call, Read AI 5 meetings, and Lynkk 5 notes of up to 2 hours.",
+ "AI Companion is included with paid Zoom Workplace plans, and it only covers Zoom meetings.",
+ "",
+ "Review names, numbers and owners before sharing, since these are the details AI summaries get wrong most often.",
+ "Test with a real meeting in the language mix your team uses, checking how names and numbers come through."
+],
+"what-is-a-discovery-call": [
+ "Most sellers aim to talk 30% of the time or less, using open questions about the situation, the pain, the priority and the decision process.",
+ "Book 30 minutes by default and end on time. Agree on a specific next step before the call ends, rather than promising to follow up later.",
+ "A good call feels useful to the buyer, because they leave with a clearer view of their own problem and options.",
+ "In law, a first consultation may be free or paid depending on the firm, so check before booking.",
+ "Send the recap the same day, using the prospect's own words for their goals, challenges and timeline.",
+ "Whatever the name, the structure is the same: understand the situation, the problem and the goal, then agree on a next step."
+]
+}

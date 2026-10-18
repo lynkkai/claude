@@ -184,27 +184,27 @@ Our [meeting preparation guide](https://lynkk.ai/blog/meeting-preparation) expla
 
 ### Is there a meeting agenda template in Word?
 
-Yes. In Word, go to File, then New, and search for "agenda" to see built-in templates. Microsoft also offers free templates online that open in Word for the web.
+Yes. In Word, go to File, then New, and search for "agenda" to see built-in templates. Microsoft also offers free templates online that open in Word for the web. Check that the template you pick has time and owner columns, because many decorative templates leave them out and make meetings run long.
 
 ### How do I make a meeting agenda in Word?
 
-Create a document with the meeting details, insert a table with time, topic, owner and decision columns, fill it in, and save it. Save it as a .dotx template to reuse it.
+Create a document with the meeting details, insert a table with time, topic, owner and decision columns, fill it in, and save it. Save it as a .dotx template to reuse it. Saving as a .dotx means you never overwrite your master agenda by accident, because Word opens a fresh copy each time.
 
 ### What is the best format for a meeting agenda?
 
-The best format lists the meeting goal, then each topic with a time box, an owner and the decision needed. Keep it to one page.
+The best format lists the meeting goal, then each topic with a time box, an owner and the decision needed. Keep it to one page. For a 30-minute meeting, plan 3 to 4 topics; for an hour, 5 to 6. If you have more, split the meeting or send updates as a written pre-read.
 
 ### How do I save an agenda as a template in Word?
 
-Go to File, then Save As, and choose Word Template (.dotx). Open it later from File, then New, then Personal, to create a fresh copy.
+Go to File, then Save As, and choose Word Template (.dotx). Open it later from File, then New, then Personal, to create a fresh copy. If the Personal tab is missing, set a default personal templates location in Word's options so your saved templates appear there.
 
 ### When should I send a meeting agenda?
 
-Send the agenda at least 24 hours before the meeting, and 1 to 2 days before for client or board meetings, so people can prepare and add topics.
+Send the agenda at least 24 hours before the meeting, and 1 to 2 days before for client or board meetings, so people can prepare and add topics. Late agendas lead to unprepared attendees, longer meetings and decisions pushed to the next week.
 
 ### Can I use the same agenda template in Google Docs?
 
-Yes. Copy the text and table into a Google Doc. Google Docs also has a meeting notes building block that adds a basic agenda and notes layout.
+Yes. Copy the text and table into a Google Doc. Google Docs also has a meeting notes building block that adds a basic agenda and notes layout. Shared Google Docs work well when several people add topics, because everyone edits the same version instead of trading attachments.
 
 <!-- HANDOFF
 Prompts answered: "meeting agenda template in word", "where do i find agenda templates in word", "how to create a meeting agenda template in word", "what should a meeting agenda include".

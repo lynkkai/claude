@@ -28,7 +28,7 @@ featured_image_alt: "How to record a Google Meet call using the Meeting tools re
 
 *By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
-> **Quick answer:** Here is how to record a Google Meet call: click **Meeting tools**, then **Recording**, then **Start recording**, and confirm. The recording saves to the organizer's Google Drive. Built-in recording needs an **eligible Google Workspace plan** or **Google One with 2 TB or more**, and only works on a **computer or Android**. On a free Gmail account, use a free screen recorder or an AI meeting assistant.
+> **Quick answer:** Here is how to record a Google Meet call in 4 clicks: click **Meeting tools**, then **Recording**, then **Start recording**, and confirm. The recording saves to the organizer's Google Drive. Built-in recording needs an **eligible Google Workspace plan** or **Google One with 2 TB or more**, and only works on a **computer or Android**. On a free Gmail account, use a free screen recorder or an AI meeting assistant.
 
 *Disclosure: Lynkk publishes this guide and makes an AI meeting assistant mentioned below. Google Meet steps come from [Google's help center](https://support.google.com/meet/answer/9308681), checked 17 October 2026.*
 
@@ -136,27 +136,27 @@ For transcripts only, see our [Google Meet transcript guide](https://lynkk.ai/bl
 
 ### How do I record a Google Meet call for free?
 
-If your plan does not include recording, use a free screen recorder such as Windows Game Bar or OBS Studio, or an AI meeting assistant with a free plan like Lynkk. Always tell participants first.
+If your plan does not include recording, use a free screen recorder such as Windows Game Bar or OBS Studio, or an AI meeting assistant with a free plan like Lynkk. Always tell participants first. Built-in recording needs an eligible Workspace plan or Google One with 2 TB or more storage.
 
 ### Can I record Google Meet on a personal Gmail account?
 
-Not with the built-in recorder, unless you have Google One with 2 TB or more storage. Free Gmail accounts can use screen recorders or AI note takers instead.
+Not with the built-in recorder, unless you have Google One with 2 TB or more storage. Free Gmail accounts can use screen recorders or AI note takers instead. Google One plans with 2 TB or more also add other Google benefits, so check whether you already pay for one.
 
 ### Where are Google Meet recordings saved?
 
-In the meeting organizer's Google Drive, inside a "Google Meet" folder with a sub-folder for each meeting. Google also emails the link to the organizer and the person who started the recording.
+In the meeting organizer's Google Drive, inside a "Google Meet" folder with a sub-folder for each meeting. Google also emails the link to the organizer and the person who started the recording. Recordings stop automatically after 8 hours, or when everyone leaves the meeting.
 
 ### Why is the record button missing in Google Meet?
 
-Your plan may not include recording, your admin may have disabled it, the host may not have given you permission, or you may be on an iPhone, where built-in recording is not available.
+Your plan may not include recording, your admin may have disabled it, the host may not have given you permission, or you may be on an iPhone, where built-in recording is not available. Switching to a laptop and asking the host for permission fixes most cases. Otherwise, ask your Workspace admin to enable recording for your account.
 
 ### Can I record a Google Meet call on my phone?
 
-On Android, yes, if your plan allows it. On iPhone, Google Meet's built-in recording is not available, so join from a laptop or use an AI note taker.
+On Android, yes, if your plan allows it. On iPhone, Google Meet's built-in recording is not available, so join from a laptop or use an AI note taker. Android screen recorders also work, but test that other people's audio is captured before an important call.
 
 ### Do participants know when a Google Meet call is recorded?
 
-Yes, when you use Google Meet's built-in recorder, participants are notified. Screen recorders do not notify anyone, so announce the recording yourself.
+Yes, when you use Google Meet's built-in recorder, participants are notified. Screen recorders do not notify anyone, so announce the recording yourself. Several US states require every participant's consent before a call is recorded, so announce it at the start either way.
 
 <!-- HANDOFF
 Prompts answered: "how to record google meet call", "how to record google meet call for free", "why can't i record google meet call", "record google meet on iphone", "does google meet record automatically".

@@ -18,7 +18,7 @@ inbound_links:
     anchor: "Granola pricing explained"
   - from: "https://lynkk.ai/blog/best-ai-note-takers"
     anchor: "what Granola costs in 2026"
-tldr: "Granola has three plans in 2026: Basic is free with 30 days of meeting history, Business is $14 per user per month with unlimited history and integrations, and Enterprise is $35 per user per month with SSO and admin controls."
+tldr: "Granola has three plans in 2026: Basic is free with 30 days of meeting history, Business is $14 per user per month with unlimited history and integrations, and Enterprise is $35 per user per month with SSO and admin controls. Students and startups can get 12 months of Business free, and nonprofits get 50% off."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
@@ -174,27 +174,27 @@ Lynkk's free plan covers 5 notes a month, and yearly billing saves 35% during ea
 
 ### How much is Granola per month?
 
-Granola Business costs $14 per user per month and Enterprise costs $35 per user per month. The Basic plan is free.
+Granola Business costs $14 per user per month and Enterprise costs $35 per user per month. The Basic plan is free. For a 10-person team, Business costs $1,680 a year and Enterprise $4,200. Students and accepted startups can get 12 months of Business free, and nonprofits get 50% off.
 
 ### Is Granola free forever?
 
-Yes. Granola Basic is free with no time limit, but it keeps only 30 days of meeting history. To keep older notes, you need Business at $14 per user per month.
+Yes. Granola Basic is free with no time limit, but it keeps only 30 days of meeting history. To keep older notes, you need Business at $14 per user per month. Notes older than 30 days are stored, not deleted, but you cannot open them until you upgrade. Export titles and summaries as a CSV before relying on Basic alone.
 
 ### Does Granola have annual pricing?
 
-Only on Enterprise. Granola's help center says Basic and Business are billed monthly and annual billing is available on Enterprise contracts only.
+Only on Enterprise. Granola's help center says Basic and Business are billed monthly and annual billing is available on Enterprise contracts only. Business is billed per user each month, so you can add or remove seats as your team changes without a yearly commitment.
 
 ### What is the difference between Granola Business and Enterprise?
 
-Business ($14) adds unlimited history, advanced AI models and integrations. Enterprise ($35) adds SSO, admin controls, org-wide auto-deletion, usage analytics and priority support.
+Business ($14) adds unlimited history, advanced AI models and integrations. Enterprise ($35) adds SSO, admin controls, org-wide auto-deletion, usage analytics and priority support. Most teams under 50 people only need Business unless their security review requires single sign-on, which is the main reason to pay $35.
 
 ### Does Granola charge per meeting or per minute?
 
-No. Granola charges per user per month. None of its plans list a minute or meeting cap; the free plan's limit is 30 days of history.
+No. Granola charges per user per month. None of its plans list a minute or meeting cap; the free plan's limit is 30 days of history. That makes Granola predictable for heavy users. Long meetings and many meetings cost the same as light use on the same plan.
 
 ### Is there a cheaper alternative to Granola?
 
-Fireflies Pro costs $10 per seat billed yearly and Fathom's free plan records unlimited calls. Lynkk costs $15 a month and adds prep, live answers and Jira tickets.
+Fireflies Pro costs $10 per seat billed yearly and Fathom's free plan records unlimited calls. Lynkk costs $15 a month and adds prep, live answers and Jira tickets. The cheapest option depends on your bottleneck. If it is history, Fathom or Lynkk keep notes longer; if it is privacy, Jamie and Meetily also skip the bot.
 
 <!-- HANDOFF
 Prompts answered: "granola pricing", "how much does granola cost", "is granola free", "granola business vs enterprise".

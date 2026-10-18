@@ -18,7 +18,7 @@ inbound_links:
     anchor: "project kickoff meeting agenda template"
   - from: "https://lynkk.ai/blog/meeting-preparation"
     anchor: "kickoff meeting agenda"
-tldr: "A project kickoff meeting agenda covers 8 items in about 60 minutes: introductions and roles, background and goals, scope, deliverables and timeline, how the team will work, risks and dependencies, open questions, and next steps with owners. Copy the internal and client versions below."
+tldr: "A project kickoff meeting agenda covers 8 items in about 60 minutes: introductions and roles, background and goals, scope, deliverables and timeline, how the team will work, risks and dependencies, open questions, and next steps with owners. Copy the internal and client versions below. Send a pre-read 1 to 2 days before."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
 last_updated: 2026-10-17
 featured_image_alt: "Project kickoff meeting agenda template with goals, scope, timeline and roles"
@@ -170,27 +170,27 @@ See how product teams turn [meeting minutes into Jira issues](https://lynkk.ai/b
 
 ### What is included in a project kickoff meeting agenda?
 
-Introductions and roles, background and goals, scope, deliverables and timeline, ways of working, risks and dependencies, open questions, and next steps with owners.
+Introductions and roles, background and goals, scope, deliverables and timeline, ways of working, risks and dependencies, open questions, and next steps with owners. Send the agenda with a pre-read 1 to 2 days before, so the meeting is spent discussing scope and risks instead of reading slides together.
 
 ### How long should a project kickoff meeting be?
 
-About 60 minutes for internal projects and 60 to 90 minutes for client projects. Send a pre-read so the meeting is spent deciding, not presenting.
+About 60 minutes for internal projects and 60 to 90 minutes for client projects. Send a pre-read so the meeting is spent deciding, not presenting. Very large projects sometimes use a half-day workshop, but split it into sessions with breaks so decisions do not suffer from fatigue.
 
 ### Who runs a project kickoff meeting?
 
-The project manager usually runs it, with the project sponsor explaining the goals. For client projects, both sides' leads share the meeting.
+The project manager usually runs it, with the project sponsor explaining the goals. For client projects, both sides' leads share the meeting. Name a note-taker as well, so decisions about scope and owners are captured while the project manager facilitates the discussion.
 
 ### What is the purpose of a kickoff meeting?
 
-To align everyone on the goal, scope, timeline, roles and ways of working before work starts, so the project avoids misunderstandings later.
+To align everyone on the goal, scope, timeline, roles and ways of working before work starts, so the project avoids misunderstandings later. A kickoff that skips scope or owners usually shows up weeks later as scope creep, missed dates and arguments about what was agreed.
 
 ### What is the difference between a kickoff meeting and a project planning meeting?
 
-A kickoff aligns the whole team on the big picture. Planning meetings go deeper into tasks, estimates and schedules, often with a smaller group.
+A kickoff aligns the whole team on the big picture. Planning meetings go deeper into tasks, estimates and schedules, often with a smaller group. Run the kickoff first, then planning sessions with the people doing the work, so estimates come from those who will deliver them.
 
 ### Should I send the kickoff agenda in advance?
 
-Yes. Send the agenda and pre-read 1 to 2 days before so attendees arrive with questions instead of reading for the first time.
+Yes. Send the agenda and pre-read 1 to 2 days before so attendees arrive with questions instead of reading for the first time. Ask people to add questions to the agenda doc beforehand, so you can answer common ones once instead of repeating them in the meeting.
 
 <!-- HANDOFF
 Prompts answered: "project kickoff meeting agenda template", "what should be discussed in a project kickoff meeting", "project kickoff meeting agenda example", "client kickoff meeting agenda", "how long should a kickoff meeting be".

@@ -335,27 +335,27 @@ For more phrasing ideas, [The Muse's follow-up email templates](https://www.them
 
 ### How do you write a follow-up email after a meeting?
 
-Thank the attendees, restate decisions, list action items with owners and dates, and confirm the next step. Keep it short and send it within 24 hours.
+Thank the attendees, restate decisions, list action items with owners and dates, and confirm the next step. Keep it short and send it within 24 hours. Put decisions and action items in the first lines, so readers who only skim still see what they need to do and by when.
 
 ### How long after a meeting should you send a follow-up email?
 
-Within 24 hours, and the same day for client and sales meetings.
+Send it within 24 hours, and the same day for client and sales meetings. The sooner it goes out, the more accurately it reflects what was agreed, and the more likely people are to act on the next steps while the meeting is fresh.
 
 ### What is a good subject line for a follow-up email after a meeting?
 
-Name the meeting and the content, such as "Recap and next steps from today's review" or "Team sync Oct 21: decisions and actions".
+Name the meeting and the content, such as "Recap and next steps from today's review" or "Team sync Oct 21: decisions and actions". Specific subject lines get opened because people can see the email concerns them. Avoid a bare "Following up", which is easy to ignore in a busy inbox.
 
 ### How do you follow up politely if there is no response?
 
-Wait 2 to 3 business days, reply in the same thread, restate the one thing you need and offer a quick call.
+Wait 2 to 3 business days, reply in the same thread, restate the one thing you need and offer a quick call. Most professionals stop after 2 or 3 reminders. After that, switch channel, for example a short call or a message, rather than sending another email.
 
 ### Should a follow-up email include action items?
 
-Yes. Action items with an owner and a due date are the most important part, because they turn the meeting into work.
+Yes. Action items with an owner and a due date are the most important part, because they turn the meeting into work. Without owners and dates, a recap is only a summary. Name 1 owner per task, even when a team shares the work, so someone is clearly accountable.
 
 ### Can AI write follow-up emails after meetings?
 
-Yes. AI meeting assistants such as Lynkk draft follow-ups from the meeting itself, with decisions and action items already filled in. Review and personalize before sending.
+Yes. AI meeting assistants such as Lynkk draft follow-ups from the meeting itself, with decisions and action items already filled in. Review and personalize before sending. Lynkk also works with Calendly and Cal.com, so the next meeting can be booked from the same recap.
 
 <!-- HANDOFF
 Prompts answered: "example of follow up email after meeting", "follow up email after meeting with client", "follow up email after meeting with action items", "short follow up email after meeting", "how soon to send follow up email after meeting".

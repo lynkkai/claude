@@ -18,7 +18,7 @@ inbound_links:
     anchor: "meeting summary template"
   - from: "https://lynkk.ai/blog/daily-standup-meeting"
     anchor: "template for a meeting summary"
-tldr: "A good template for a meeting summary has 5 parts: a one-line purpose, key decisions, action items with owners and due dates, open questions, and the next meeting. Keep it to 5 to 10 lines and send it within an hour of the meeting."
+tldr: "A good template for a meeting summary has 5 parts: a one-line purpose, key decisions, action items with owners and due dates, open questions, and the next meeting. Keep it to 5 to 10 lines and send it within an hour of the meeting. Link to full notes for anyone who needs detail."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
 last_updated: 2026-10-17
 featured_image_alt: "Template for meeting summary email with decisions and action items for a team"
@@ -203,27 +203,27 @@ For a full comparison of AI tools, see [AI meeting summarizer tools](https://lyn
 
 ### What should a meeting summary include?
 
-A meeting summary should include the purpose, key decisions, action items with owners and due dates, open questions and the next meeting date.
+A meeting summary should include the purpose, key decisions, action items with owners and due dates, open questions and the next meeting date. Put decisions and actions first and link to the full notes, so anyone who missed the meeting can act on it in under a minute.
 
 ### How long should a meeting summary be?
 
-Keep a meeting summary to 5 to 10 lines. Link to full notes or a recording for anyone who needs detail.
+Keep a meeting summary to 5 to 10 lines. Link to full notes or a recording for anyone who needs detail. If it runs longer, you are recapping the discussion instead of the outcome. Cut until someone could act on it within 60 seconds.
 
 ### What is the difference between a meeting summary and minutes?
 
-A summary is a short, informal recap for action. Minutes are the formal record of attendance, decisions and votes, usually approved at the next meeting.
+A summary is a short, informal recap for action. Minutes are the formal record of attendance, decisions and votes, usually approved at the next meeting. Many teams send a summary the same day and keep formal minutes only for board, HOA or other official meetings where records matter.
 
 ### When should I send a meeting summary?
 
-Send it within an hour of the meeting, or at least the same day, while people still remember the context.
+Send it within an hour of the meeting, or at least the same day, while people still remember the context. Summaries sent the next day get read far less. Writing it right after the meeting takes about 10 minutes when your notes mark decisions and actions.
 
 ### How do I start a meeting summary email?
 
-Start with a one-line thank-you and the meeting name, then go straight to decisions and action items. Put the count of decisions and actions in the subject line.
+Start with a one-line thank-you and the meeting name, then go straight to decisions and action items. Put the count of decisions and actions in the subject line. End with a line inviting corrections, so mistakes get fixed before people start working from the wrong information.
 
 ### Can I use the same template for every meeting?
 
-Yes. The 5-part template works for team, client, project and one-on-one meetings. Add or remove optional sections such as open questions as needed.
+Yes. The 5-part template works for team, client, project and one-on-one meetings. Add or remove optional sections such as open questions as needed. Keep the order the same every time, so regular attendees learn exactly where to look for their action items.
 
 <!-- HANDOFF
 Prompts answered: "template for meeting summary", "email template for meeting summary", "meeting summary example", "how to write a meeting summary", "meeting summary vs minutes".

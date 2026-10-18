@@ -18,7 +18,7 @@ inbound_links:
     anchor: "meeting notes vs minutes"
   - from: "https://lynkk.ai/blog/one-on-one-meeting"
     anchor: "the difference between notes and minutes"
-tldr: "Meeting notes are informal, personal and written for the note-taker. Meeting minutes are the official, shared record of attendance, decisions and action items, usually approved at the next meeting. To turn notes into minutes, keep decisions, owners, dates and votes, and cut the discussion detail."
+tldr: "Meeting notes are informal, personal and written for the note-taker. Meeting minutes are the official, shared record of attendance, decisions and action items, usually approved at the next meeting. To turn notes into minutes, keep decisions, owners, dates and votes, and cut the discussion detail. Formal bodies also record motions and votes."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
 last_updated: 2026-10-17
 featured_image_alt: "Meeting notes vs minutes side by side showing informal notes and formal minutes"
@@ -28,7 +28,7 @@ featured_image_alt: "Meeting notes vs minutes side by side showing informal note
 
 *By Samarth Wagh, Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
-> **Quick answer:** Meeting notes and minutes are not the same. **Meeting notes** are informal and written for yourself or your team. **Meeting minutes** are the official record of a meeting: who attended, what was decided, who owns each action, and any votes. Minutes are usually reviewed and approved at the next meeting. To turn meeting notes into minutes, keep decisions, owners and dates, and cut the discussion.
+> **Quick answer:** Meeting notes and minutes differ in 3 ways: purpose, format and approval. **Meeting notes** are informal and written for yourself or your team. **Meeting minutes** are the official record of a meeting: who attended, what was decided, who owns each action, and any votes. Minutes are usually reviewed and approved at the next meeting. To turn meeting notes into minutes, keep decisions, owners and dates, and cut the discussion.
 
 *Disclosure: Lynkk publishes this guide and makes an AI meeting assistant that drafts notes and minutes.*
 
@@ -165,27 +165,27 @@ Lynkk also prepares a Meeting Brief before the next meeting with open action ite
 
 ### What is the difference between meeting notes and minutes?
 
-Meeting notes are informal records for personal or team use. Meeting minutes are the official, approved record of attendance, decisions, actions and votes.
+Meeting notes are informal records for personal or team use. Meeting minutes are the official, approved record of attendance, decisions, actions and votes. Notes help people remember. Minutes are what an organization relies on later, so they follow a fixed format and are kept for years.
 
 ### Are meeting minutes just notes?
 
-No. Minutes are a structured, approved record of what a group decided. Notes are informal and can include opinions and side discussions that do not belong in minutes.
+No. Minutes are a structured, approved record of what a group decided. Notes are informal and can include opinions and side discussions that do not belong in minutes. A useful test: if a lawyer, auditor or new board member might read it in 2 years, write minutes rather than notes.
 
 ### Why are they called minutes?
 
-"Minutes" comes from the Latin minuta, meaning small, and referred to the rough notes taken during a meeting. It has nothing to do with time.
+"Minutes" comes from the Latin minuta, meaning small, and referred to the rough notes taken during a meeting. It has nothing to do with time. The name stuck when clerks rewrote their rough notes into a full record, which became known as the minutes of the meeting.
 
 ### Who takes meeting minutes?
 
-Usually a secretary, clerk or designated note-taker. In boards and associations, the secretary is typically responsible, and the chair approves the final minutes.
+Usually a secretary, clerk or designated note-taker. In boards and associations, the secretary is typically responsible, and the chair approves the final minutes. The note-taker should not also chair the meeting. Running a discussion and recording it at the same time usually means both are done badly.
 
 ### Should minutes include who said what?
 
-Usually not. Minutes record decisions, motions and votes. Include a speaker's name only for motions, seconds, votes or when the exact statement matters.
+Usually not. Minutes record decisions, motions and votes. Include a speaker's name only for motions, seconds, votes or when the exact statement matters. Write in the past tense and neutral language. Avoid quoting people unless the exact words matter for a motion or a later dispute.
 
 ### How soon should minutes be sent after a meeting?
 
-Send draft minutes within 1 to 2 business days while details are fresh, then approve them at the next meeting.
+Send draft minutes within 1 to 2 business days while details are fresh, then approve them at the next meeting. Late minutes are less accurate, because details fade fast. Mark them as a draft until they are approved, and keep the approved version in a shared place.
 
 <!-- HANDOFF
 Prompts answered: "difference between meeting notes and minutes", "are meeting notes the same as minutes", "why are meeting notes called minutes", "what should meeting minutes include", "how to turn meeting notes into minutes".

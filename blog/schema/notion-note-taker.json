@@ -50,7 +50,7 @@
           "name": "Is the Notion AI note taker free?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Notion AI Meeting Notes is included on the Business plan ($20 per member per month) and Enterprise. Free and Plus plans get only a limited trial."
+            "text": "No. Notion AI Meeting Notes is included on the Business plan ($20 per member per month) and Enterprise. Free and Plus plans get only a limited trial. If you are on Plus today, moving to Business for meeting notes doubles your per-member cost from $10 to $20, so compare it with dedicated tools."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How do I use Notion's AI note taker?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Open the Notion desktop app, type /meet on a page, click Start transcribing when the meeting begins, and click Stop when it ends. Notion writes the summary into the page."
+            "text": "Open the Notion desktop app, type /meet on a page, click Start transcribing when the meeting begins, and click Stop when it ends. Notion writes the summary into the page. Notion needs at least 1 minute of speech to write a summary, and each user can transcribe up to 10 hours a day."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "Does Notion AI take meeting notes without a bot?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Notion records audio from your computer through the desktop app, so no bot joins the call. That also means it only captures meetings where someone starts it."
+            "text": "Yes. Notion records audio from your computer through the desktop app, so no bot joins the call. That also means it only captures meetings where someone starts it. Agree on a team habit, such as starting notes as the call opens, so important meetings do not go unrecorded."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "Can Notion transcribe Zoom and Google Meet calls?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Because it records your computer's audio, Notion AI Meeting Notes works with Zoom, Google Meet, Microsoft Teams and other apps through the Notion desktop app."
+            "text": "Yes. Because it records your computer's audio, Notion AI Meeting Notes works with Zoom, Google Meet, Microsoft Teams and other apps through the Notion desktop app. You must start it on your own machine, so colleagues who did not start it have no recording of their own."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "Is Notion's note taker better than Granola?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Notion is better if your team already uses Notion Business and wants notes inside its workspace. Granola is better as a standalone, cheaper note app with mobile capture on iPhone and Android."
+            "text": "Notion is better if your team already uses Notion Business and wants notes inside its workspace. Granola is better as a standalone, cheaper note app with mobile capture on iPhone and Android. Choose Notion if notes should live beside your docs and tasks. Choose Granola if you want a separate app."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "Does Notion's AI note taker support Hindi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Hindi is not on the language list in Notion's help center as of October 2026. Lynkk supports Hindi and has a Hinglish setting for meetings that mix Hindi and English. <!-- HANDOFF Prompts answered: \"notion note taker\", \"is notion ai note taker free\", \"how does notion ai note taker work\", \"notion ai note taker vs granola\", \"can notion transcribe zoom\". Prompt gaps (createprompt): \"notion ai meeting notes hindi\". Fan-out source: Ubersuggest googlesuggestions (is notion ai note taker free, pricing, vs granola, how does notion ai note taker work, notion note taking zoom/google meet, can notion transcribe) + SERP (reddit, minuteslink review), 2026-10-17. Inbound links: from /blog/meeting-knowledge-management and /blog/best-ai-note-takers. Editor checks: Notion language list differs between help center and developer API. -->"
+            "text": "Hindi is not on the language list in Notion's help center as of October 2026. Lynkk supports Hindi and has a Hinglish setting for meetings that mix Hindi and English. Speaker labeling in Notion works in English only, so teams with multilingual meetings should test both tools on a real call. <!-- HANDOFF Prompts answered: \"notion note taker\", \"is notion ai note taker free\", \"how does notion ai note taker work\", \"notion ai note taker vs granola\", \"can notion transcribe zoom\". Prompt gaps (createprompt): \"notion ai meeting notes hindi\". Fan-out source: Ubersuggest googlesuggestions (is notion ai note taker free, pricing, vs granola, how does notion ai note taker work, notion note taking zoom/google meet, can notion transcribe) + SERP (reddit, minuteslink review), 2026-10-17. Inbound links: from /blog/meeting-knowledge-management and /blog/best-ai-note-takers. Editor checks: Notion language list differs between help center and developer API. -->"
           }
         }
       ]

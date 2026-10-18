@@ -18,7 +18,7 @@ inbound_links:
     anchor: "Hindi speech to text"
   - from: "https://lynkk.ai/blog/dictation-on-mac"
     anchor: "Hindi voice typing on Mac and other devices"
-tldr: "Free Hindi speech to text works on almost every device: Gboard voice typing on Android, the keyboard microphone on iPhone, Google Docs voice typing in Chrome, and built-in dictation on Mac. For long Hindi or Hinglish meetings, Lynkk records, transcribes and summarises automatically."
+tldr: "Free Hindi speech to text works on almost every device: Gboard voice typing on Android, the keyboard microphone on iPhone, Google Docs voice typing in Chrome, and built-in dictation on Mac. For long Hindi or Hinglish meetings, Lynkk records, transcribes and summarises automatically. Google's spoken punctuation works only in English, so add Hindi punctuation by hand."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
 last_updated: 2026-10-17
 featured_image_alt: "Hindi speech to text voice typing on a phone keyboard showing Devanagari words"
@@ -132,27 +132,27 @@ Yes. [Google Cloud Speech-to-Text](https://cloud.google.com/speech-to-text/docs/
 
 ### How can I convert Hindi speech to text for free?
 
-Use Gboard voice typing on Android, the iPhone keyboard microphone, or Google Docs voice typing in Chrome with हिन्दी selected. All three are free.
+Use Gboard voice typing on Android, the iPhone keyboard microphone, or Google Docs voice typing in Chrome with हिन्दी selected. All three are free. Spoken punctuation commands in Google Docs work only in English, so add Hindi full stops and commas by hand after dictating.
 
 ### Which is the best app for Hindi speech to text?
 
-For messages, Gboard on Android or the iPhone keyboard. For documents, Google Docs voice typing. For Hindi or Hinglish meetings, Lynkk records and summarises automatically.
+For messages, Gboard on Android or the iPhone keyboard. For documents, Google Docs voice typing. For Hindi or Hinglish meetings, Lynkk records and summarises automatically. For recorded files, use an AI transcription tool that supports Hindi, and test it on 5 minutes of your own audio before relying on it.
 
 ### Can I do Hindi voice typing on a laptop?
 
-Yes. Open Google Docs in Chrome, Edge or Safari, go to Tools, then Voice typing, and select हिन्दी. It works on Windows, Mac and Chromebook laptops.
+Yes. Open Google Docs in Chrome, Edge or Safari, go to Tools, then Voice typing, and select हिन्दी. It works on Windows, Mac and Chromebook laptops. Use headphones with a microphone for better accuracy, and keep the Doc open while you speak, because typing stops when the tab closes.
 
 ### Does Hindi speech to text work offline?
 
-Some phone keyboards support offline voice typing after you download the language pack. Google Docs voice typing needs an internet connection.
+Some phone keyboards support offline voice typing after you download the language pack. Google Docs voice typing needs an internet connection. Offline modes are useful in low-connectivity areas, but accuracy can be lower than online voice typing, so check names and numbers afterward.
 
 ### Can speech to text write Hindi in English letters?
 
-Yes. Use a Hinglish or Hindi (Latin) keyboard layout on your phone, and dictation will write Hindi words in Roman script.
+Yes. Use a Hinglish or Hindi (Latin) keyboard layout on your phone, and dictation will write Hindi words in Roman script. This suits WhatsApp messages and informal notes. For formal documents, Devanagari output is usually easier for other Hindi readers to scan.
 
 ### How do I convert a Hindi meeting recording to text?
 
-Upload the recording to an AI transcription tool that supports Hindi, or use an AI meeting assistant like Lynkk to capture future meetings automatically with transcript, summary and tasks.
+Upload the recording to an AI transcription tool that supports Hindi, or use an AI meeting assistant like Lynkk to capture future meetings automatically with transcript, summary and tasks. For past recordings, keep audio clear and split very long files into parts if your tool limits file length.
 
 <!-- HANDOFF
 Prompts answered: "hindi speech to text", "hindi voice typing free", "hindi speech to text online", "hindi speech to text windows 10", "best hindi speech to text app".

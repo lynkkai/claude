@@ -18,7 +18,7 @@ inbound_links:
     anchor: "Read AI pricing"
   - from: "https://lynkk.ai/blog/ai-powered-meeting-assistants"
     anchor: "what Read AI costs per user"
-tldr: "Read AI has 4 plans in 2026: Free (5 meetings a month), Pro at $15 per user per month billed yearly ($19.75 monthly), Enterprise at $22.50 yearly ($29.75 monthly, 5+ licenses) and Enterprise+ at $29.75 yearly ($39.75 monthly)."
+tldr: "Read AI has 4 plans in 2026: Free (5 meetings a month), Pro at $15 per user per month billed yearly ($19.75 monthly), Enterprise at $22.50 yearly ($29.75 monthly, 5+ licenses) and Enterprise+ at $29.75 yearly ($39.75 monthly). Annual billing saves 25% on every paid plan, and Enterprise requires at least 5 licenses."
 author: "Samarth Wagh, Co-founder, Lynkk.ai"
 last_updated: 2026-10-17
 pricing_checked: 2026-10-17
@@ -119,7 +119,7 @@ If you are on the fence between monthly and annual Pro, start monthly for 1 or 2
 
 ## Are there hidden costs in Read AI pricing?
 
-There are no hidden fees on the pricing page, but 3 details raise the real cost for many teams: the 5-license minimum on Enterprise, the 25% premium for monthly billing, and file upload credits that cap how many recordings you can import.
+There are no hidden fees on the pricing page. Still, 3 details raise the real cost for many teams: the 5-license minimum on Enterprise, the 25% premium for monthly billing, and upload credits that cap imported recordings.
 
 1. **License minimums.** A team of 3 that wants Enterprise features still pays for 5 seats, or $1,350 a year billed yearly.
 2. **Monthly premium.** Pro on monthly billing costs $237 a year per user, versus $180 billed yearly.
@@ -166,27 +166,27 @@ For the full list, see [Read AI alternatives](https://lynkk.ai/blog/read-ai-alte
 
 ### How much does Read AI cost per month?
 
-Read AI Pro costs $19.75 per user per month on monthly billing, or $15 per month billed yearly. Enterprise costs $29.75 monthly or $22.50 yearly, and Enterprise+ costs $39.75 monthly or $29.75 yearly.
+Read AI Pro costs $19.75 per user per month on monthly billing, or $15 per month billed yearly. Enterprise costs $29.75 monthly or $22.50 yearly, and Enterprise+ costs $39.75 monthly or $29.75 yearly. Annual billing saves 25%, so a single Pro user pays $180 a year instead of $237.
 
 ### Is Read AI free to use?
 
-Yes. Read AI's free plan covers 5 meeting transcripts, 5 reports and 5 live-note sessions a month, each up to 1 hour long. It does not include file uploads.
+Yes. Read AI's free plan covers 5 meeting transcripts, 5 reports and 5 live-note sessions a month, each up to 1 hour long. It does not include file uploads. Five meetings a month suits testing Read AI on your most important calls; anyone with daily meetings will hit the limit within the first week.
 
 ### Does Read AI cost money for teams?
 
-Yes. Teams pay per user. A 10-person team pays $1,800 a year on Pro with annual billing. Enterprise requires at least 5 licenses.
+Yes. Teams pay per user. A 10-person team pays $1,800 a year on Pro with annual billing. Enterprise requires at least 5 licenses. Monthly billing raises that to $2,370 a year. Enterprise for the same team costs $2,700 billed yearly, and adds audio and video playback.
 
 ### What is Read AI Enterprise pricing?
 
-Read AI Enterprise costs $22.50 per user per month billed yearly or $29.75 monthly, with a 5-license minimum. Enterprise+ costs $29.75 yearly or $39.75 monthly.
+Read AI Enterprise costs $22.50 per user per month billed yearly or $29.75 monthly, with a 5-license minimum. Enterprise+ costs $29.75 yearly or $39.75 monthly. A team of 3 that wants Enterprise features still pays for 5 seats, so small teams usually stay on Pro.
 
 ### Is Read AI cheaper than Otter?
 
-No. Otter Pro costs $8.33 a month billed yearly, compared with $15 for Read AI Pro. On monthly billing Otter Pro is $16.99 and Read AI Pro is $19.75.
+No. Otter Pro costs $8.33 a month billed yearly, compared with $15 for Read AI Pro. On monthly billing Otter Pro is $16.99 and Read AI Pro is $19.75. Otter's free plan also differs: 300 minutes a month at 30 minutes per call, versus Read AI's 5 meetings at up to 1 hour.
 
 ### Does Read AI offer a discount for annual billing?
 
-Yes. Read AI's annual billing saves 25% on every paid plan. Pro drops from $19.75 to $15 per user per month, Enterprise from $29.75 to $22.50, and Enterprise+ from $39.75 to $29.75.
+Yes. Read AI's annual billing saves 25% on every paid plan. Pro drops from $19.75 to $15 per user per month, Enterprise from $29.75 to $22.50, and Enterprise+ from $39.75 to $29.75. If you are unsure, start monthly for 1 or 2 months, then switch to annual once your team is clearly using it.
 
 <!-- HANDOFF
 Prompts answered: "read ai pricing", "how much does read ai cost per month", "is read ai free", "read ai enterprise pricing", "read ai cost for teams".

@@ -146,27 +146,27 @@ Our [meeting summary template](https://lynkk.ai/blog/meeting-summary-template) g
 
 ### Can AI summarize a Teams meeting?
 
-Yes. Microsoft Teams can summarize meetings with Copilot, which requires a Microsoft 365 Copilot license. Third-party tools such as Lynkk, Fathom, Fireflies, Otter and Read AI can also summarize Teams meetings.
+Yes. Microsoft Teams can summarize meetings with Copilot, which requires a Microsoft 365 Copilot license. Third-party tools such as Lynkk, Fathom, Fireflies, Otter and Read AI can also summarize Teams meetings. Check owners and dates before sharing any summary with the wider team.
 
 ### Is there a free AI meeting summarizer?
 
-Yes. Fathom summarizes unlimited calls for free. Otter, Read AI and Lynkk also have free plans with monthly limits on minutes or meetings.
+Yes. Fathom summarizes unlimited calls for free. Otter, Read AI and Lynkk also have free plans with monthly limits on minutes or meetings. Fathom has no monthly cap; Otter allows 300 minutes at 30 minutes per call, Read AI 5 meetings, and Lynkk 5 notes of up to 2 hours.
 
 ### Where do I find the AI summary in Zoom?
 
-When AI Companion's meeting summary is turned on, Zoom emails the summary to the host after the meeting and keeps it in the host's Zoom account. The host can share it with participants.
+When AI Companion's meeting summary is turned on, Zoom emails the summary to the host after the meeting and keeps it in the host's Zoom account. The host can share it with participants. AI Companion is included with paid Zoom Workplace plans, and it only covers Zoom meetings.
 
 ### Does Google Meet summarize meetings automatically?
 
-Google Meet can summarize meetings with Take notes for me if your Workspace edition or Google AI plan includes it. Someone must turn it on for each meeting, or the organizer can enable it from the calendar event.
+Google Meet can summarize meetings with Take notes for me if your Workspace edition or Google AI plan includes it. Someone must turn it on for each meeting, or the organizer can enable it from the calendar event. Notes save to the organizer's Google Drive.
 
 ### How long does an AI meeting summary take?
 
-Most AI summarizers deliver a summary within a few minutes after the meeting ends. Longer meetings and video recordings can take a little longer to process.
+Most AI summarizers deliver a summary within a few minutes after the meeting ends. Longer meetings and video recordings can take a little longer to process. Review names, numbers and owners before sharing, since these are the details AI summaries get wrong most often.
 
 ### Can AI summarize meetings in Hindi?
 
-Some tools can. Lynkk supports Hindi and a Hinglish setting for mixed Hindi and English. Google Meet's Take notes for me does not list Hindi among its 8 languages.
+Some tools can. Lynkk supports Hindi and a Hinglish setting for mixed Hindi and English. Google Meet's Take notes for me does not list Hindi among its 8 languages. Test with a real meeting in the language mix your team uses, checking how names and numbers come through.
 
 <!-- HANDOFF
 Prompts answered: "team meeting summary ai", "can ai summarize a meeting", "how to get ai summary from teams meeting", "where is ai summary in zoom", "is there a free teams meeting summary ai".

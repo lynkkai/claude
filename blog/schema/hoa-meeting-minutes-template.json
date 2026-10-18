@@ -50,7 +50,7 @@
           "name": "What should be included in HOA meeting minutes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Meeting type, date, time and place, directors present and quorum, approval of prior minutes, reports, each motion with mover, seconder and vote, and adjournment time."
+            "text": "Meeting type, date, time and place, directors present and quorum, approval of prior minutes, reports, each motion with mover, seconder and vote, and adjournment time. Keep motion wording exact and record vote counts, because these are the details homeowners and lawyers check first if a decision is disputed."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How do you write HOA meeting minutes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Use a template based on the agenda, record attendance and quorum, write each motion exactly with the vote, leave out debate, and present the draft for approval at the next meeting."
+            "text": "Use a template based on the agenda, record attendance and quorum, write each motion exactly with the vote, leave out debate, and present the draft for approval at the next meeting. Mark the document as a draft until the board approves it, and store approved minutes in one shared place rather than on a volunteer's laptop."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "Are HOA meeting minutes public?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "They are not public records like government documents, but members generally have the right to inspect them, and many states require associations to make them available."
+            "text": "They are not public records like government documents, but members generally have the right to inspect them, and many states require associations to make them available. Ask your manager or board secretary how to request them. Many associations post approved minutes on a member portal to make access simple."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "How soon must HOA minutes be available?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It depends on the state. In California, minutes or a summary of board meetings must be available to members within 30 days. Check your state law and bylaws."
+            "text": "It depends on the state. In California, minutes or a summary of board meetings must be available to members within 30 days. Check your state law and bylaws. Florida treats minutes as official records owners can inspect. Posting approved minutes on a member portal is the easiest way to meet any deadline."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "Who writes HOA meeting minutes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The board secretary is usually responsible, though a community manager often drafts them. The board approves them at its next meeting."
+            "text": "The board secretary is usually responsible, though a community manager often drafts them. The board approves them at its next meeting. Rotate the task only if your bylaws allow it. Whoever drafts them should send the draft to the president for review within a few days of the meeting."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "Should executive session be in HOA minutes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Record that an executive session took place, its general topic and any action taken. Do not record the confidential discussion itself. <!-- HANDOFF Prompts answered: \"homeowners association meeting minutes template\", \"hoa meeting minutes examples\", \"how to write minutes for hoa meeting\", \"when should hoa meeting minutes be distributed\", \"are hoa meeting minutes public record\". Prompt gaps (createprompt): \"hoa annual meeting minutes template\". Fan-out source: Ubersuggest googlesuggestions (examples, how to write, sample, when distributed, public record, legal requirements, condo association) + SERP (cedar management, hoamanagement.com, associa), 2026-10-17. Inbound links: from /blog/meeting-minutes-sample and /blog/meeting-minutes-to-jira. Editor checks: CA Civ. Code 4950 verified via public.law; Florida 720.303 retention period described generally (secondary sources only); have an HOA attorney review state-specific lines before publish. -->"
+            "text": "Record that an executive session took place, its general topic and any action taken. Do not record the confidential discussion itself. Keep confidential details, such as delinquent owners' names or legal advice, out of open-session minutes entirely, even when the board takes action on them. <!-- HANDOFF Prompts answered: \"homeowners association meeting minutes template\", \"hoa meeting minutes examples\", \"how to write minutes for hoa meeting\", \"when should hoa meeting minutes be distributed\", \"are hoa meeting minutes public record\". Prompt gaps (createprompt): \"hoa annual meeting minutes template\". Fan-out source: Ubersuggest googlesuggestions (examples, how to write, sample, when distributed, public record, legal requirements, condo association) + SERP (cedar management, hoamanagement.com, associa), 2026-10-17. Inbound links: from /blog/meeting-minutes-sample and /blog/meeting-minutes-to-jira. Editor checks: CA Civ. Code 4950 verified via public.law; Florida 720.303 retention period described generally (secondary sources only); have an HOA attorney review state-specific lines before publish. -->"
           }
         }
       ]
