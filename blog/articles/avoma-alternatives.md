@@ -244,6 +244,12 @@ Three questions settle it:
 2. **Do managers coach from Avoma every week?** If not, the coaching add-on is shelfware.
 3. **Is forecasting done in Avoma or in your CRM?** If it lives in the CRM, the Revenue Intelligence add-on duplicates it.
 
+## How long does switching from Avoma take?
+
+Most teams switch from Avoma in 2 to 4 weeks: 2 weeks for a side-by-side pilot, then 1 to 2 weeks to move calendars, CRM field mapping and scheduling links. The note taker itself takes minutes to connect; the CRM mapping and rep training take the time.
+
+Plan the cut-over for the start of a month or quarter, so reporting periods are not split across 2 tools, and keep read-only access to Avoma until your exported recordings are confirmed.
+
 ## How did we pick these Avoma alternatives?
 
 We compared Avoma competitors on 5 criteria that matter to US sales teams:
