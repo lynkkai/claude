@@ -16,4 +16,6 @@ These apply to all Lynkk copy, marketing text, and anything written in this repo
 
 Drafts live in `blog/articles/` (index and editorial notes in `blog/README.md`). Before committing an article,
 run `python3 blog/tools/check_articles.py` (must report 0 failures) and `python3 blog/tools/build_schema.py`.
+Before publishing, every article must also pass `aeo_score.py`, `seo_score.py`, `humanize_verify.py` and
+`post_humanize_check.py` (gates listed in `blog/README.md`); refresh the index with `build_index.py`.
 Use only Lynkk facts from the "Verified on lynkk.ai" section of `memory/lynkk-brand.md`.
