@@ -48,7 +48,7 @@ Good minutes answer 4 questions for someone who was not there:
 3. Who owns each next step, and by when?
 4. When is the next meeting?
 
-Notes that answer those 4 questions are minutes. Otherwise, just notes. The difference is explained in [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes).
+Notes that answer those 4 questions are minutes. Otherwise, just notes. The difference is explained in meeting notes vs minutes.
 
 ## What are the 8 parts of a standard MoM format?
 
@@ -169,7 +169,7 @@ Step 3 saves the most time: capture decisions and owners live, not from memory l
 
 For a company board meeting in India, the minutes of meeting format must follow Section 118 of the Companies Act, 2013 and Secretarial Standard 1 (SS-1). Board minutes need extra details: quorum, directors present in person or by video conferencing, interested directors, and the text of each resolution passed.
 
-Minutes must be prepared, signed and kept within 30 days of the meeting, under [Section 118 of the Companies Act, 2013](https://lawx.in/acts/section/24/309/2964). SS-1 is issued by the [Institute of Company Secretaries of India](https://www.icsi.edu/). Our full guide to [board minutes of meeting in India](https://lynkk.ai/blog/board-minutes-of-meeting) covers the format and a sample.
+Minutes must be prepared, signed and kept within 30 days of the meeting, under [Section 118 of the Companies Act, 2013](https://lawx.in/acts/section/24/309/2964). SS-1 is issued by the [Institute of Company Secretaries of India](https://www.icsi.edu/). Our full guide to board minutes of meeting in India covers the format and a sample.
 
 ## What is the minutes of meeting format for college and school meetings?
 
@@ -226,7 +226,7 @@ Regards,
 [Name]
 ```
 
-More email wording: our [follow-up email after meeting examples](https://lynkk.ai/blog/follow-up-email-after-meeting).
+More email wording: our follow-up email after meeting examples.
 
 ## Which format is best: Word, Excel or PDF?
 
@@ -244,7 +244,7 @@ Use Word or Google Docs to write and edit minutes (Microsoft also offers [free m
 
 Yes. AI meeting assistants can draft minutes of meeting within minutes of a meeting ending, with attendees, discussion, decisions and action items. A person should still check names, figures and resolutions before the minutes are approved, especially for board or society meetings.
 
-Lynkk (our product) also prepares a Meeting Brief before your next meeting with open action items from the last one, sends tasks to Jira in one click, and lets you search old minutes with Ask Lynkk. Free covers 5 notes a month at up to 2 hours each. Pro costs $15 a month. Compare other options in our list of the [best apps for meeting minutes](https://lynkk.ai/blog/app-for-meeting-minutes).
+Lynkk (our product) also prepares a Meeting Brief before your next meeting with open action items from the last one, sends tasks to Jira in one click, and lets you search old minutes with Ask Lynkk. Free covers 5 notes a month at up to 2 hours each. Pro costs $15 a month. Compare other options in our list of the best apps for meeting minutes.
 
 **More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [Hinglish transcription for meetings](https://lynkk.ai/features/hinglish-transcription).
 

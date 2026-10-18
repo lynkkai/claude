@@ -133,7 +133,7 @@ At $8.17 billed yearly, Notta Pro is one of the cheapest paid meeting tools, clo
 | Fireflies.ai | Yes, limited storage | $10 yearly |
 | Fathom | Unlimited recordings | $16 yearly |
 
-Sources: [Otter](https://otter.ai/pricing), [Tactiq](https://tactiq.io/pricing) and [Fathom](https://www.fathom.ai/pricing) pricing pages, checked 17 October 2026. Want a browser-based comparison? See [Tactiq alternatives](https://lynkk.ai/blog/tactiq-alternative).
+Sources: [Otter](https://otter.ai/pricing), [Tactiq](https://tactiq.io/pricing) and [Fathom](https://www.fathom.ai/pricing) pricing pages, checked 17 October 2026. Want a browser-based comparison? See Tactiq alternatives.
 
 ## Is Notta worth paying for?
 
@@ -141,7 +141,7 @@ Notta is worth paying for if you need cheap transcription minutes, file uploads 
 
 That gap is where Lynkk (our product) fits. Online meetings get recorded by a bot on Zoom, Google Meet and Teams; in-person or bot-free ones go through the Mac app and Chrome extension. Before each call there is a Meeting Brief, during it Cue answers (Pro), and afterwards come tasks with owners and dates, a decision log and one-click Jira tickets. Ask Lynkk searches all your meetings and cites the source.
 
-On language support, Lynkk covers 17 languages including Hindi and Hinglish. Free recordings run up to 2 hours, against 3 minutes on Notta Free. Pro is $15 a month. For more options, see our [Otter.ai alternatives](https://lynkk.ai/blog/otter-ai-alternatives) roundup.
+On language support, Lynkk covers 17 languages including Hindi and Hinglish. Free recordings run up to 2 hours, against 3 minutes on Notta Free. Pro is $15 a month. For more options, see our Otter.ai alternatives roundup.
 
 [Try Lynkk free](https://lynkk.ai/)
 

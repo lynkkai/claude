@@ -191,7 +191,7 @@ AI can help with a first draft, capturing attendance, discussion and decisions s
 
 > **Let Lynkk do it.** Lynkk records board meetings on Zoom, Google Meet, Teams or in person, then drafts a summary, a decision log and action items with owners and dates. It supports Hindi and Hinglish, is designed to comply with India's DPDP Act, and can keep data processing in India. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
-Need minutes for general meetings outside the board? See our [minutes of meeting format](https://lynkk.ai/blog/minutes-of-meeting-format) and how [meeting notes and minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes) differ.
+Need minutes for general meetings outside the board? See our minutes of meeting format and how meeting notes and minutes differ.
 
 **More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [Lynkk security](https://lynkk.ai/security).
 

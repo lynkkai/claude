@@ -139,7 +139,7 @@ Otter Pro adds Salesforce, HubSpot and Zapier integrations for $8.33 billed year
 
 ### 6. Read AI: best for meeting analytics
 
-Read AI scores engagement and talk time and offers a meeting coach, while Pro costs $15 billed yearly and includes Salesforce and HubSpot integrations. More in [Read AI pricing](https://lynkk.ai/blog/read-ai-pricing).
+Read AI scores engagement and talk time and offers a meeting coach, while Pro costs $15 billed yearly and includes Salesforce and HubSpot integrations. More in Read AI pricing.
 
 ## Which Avoma alternative is cheapest for a 10-rep team?
 
@@ -215,7 +215,7 @@ Avoma vs Otter is a sales platform versus a transcription tool. Scheduling, conv
 | Coaching and scorecards | Add-on ($29) | Enterprise sales notetaker |
 | Live transcript | Yes | Yes, core feature |
 
-Choose Avoma for a full sales workflow, Otter for low-cost transcripts. See [Otter.ai alternatives](https://lynkk.ai/blog/otter-ai-alternatives) for more.
+Choose Avoma for a full sales workflow, Otter for low-cost transcripts. See Otter.ai alternatives for more.
 
 ## How does Avoma compare with Microsoft Copilot?
 

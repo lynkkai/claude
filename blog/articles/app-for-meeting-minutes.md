@@ -100,11 +100,11 @@ Otter shows a live transcript and writes a summary after. The catch? Free caps e
 
 ### 6. Fireflies.ai: best when minutes need to reach a CRM
 
-Fireflies writes summaries and pushes them into CRMs and other tools, with Pro at $10 per seat billed yearly. Compare it in [Otter vs Fireflies vs Fathom](https://lynkk.ai/blog/otter-ai-vs-fireflies-ai).
+Fireflies writes summaries and pushes them into CRMs and other tools, with Pro at $10 per seat billed yearly. Compare it in Otter vs Fireflies vs Fathom.
 
 ### 7. Notion AI Meeting Notes: best if minutes live in Notion
 
-No bot here. Notion's note taker writes meeting notes into a Notion page from the desktop app, and it comes included on the Business plan at $20 per member. See our [Notion note taker review](https://lynkk.ai/blog/notion-note-taker).
+No bot here. Notion's note taker writes meeting notes into a Notion page from the desktop app, and it comes included on the Business plan at $20 per member. See our Notion note taker review.
 
 ### 8. Read AI: best for minutes plus meeting analytics
 
@@ -128,7 +128,7 @@ Lynkk (our product) offers both: a bot for Zoom, Google Meet and Teams, and bot-
 
 Yes, with limits. Zoom, Google Meet and Microsoft Teams all have built-in recording, but it depends on your plan and your admin's settings. Google Meet recording, for example, needs an eligible Google Workspace edition or Google One with 2 TB or more storage ([Google Meet help](https://support.google.com/meet/answer/9308681)).
 
-Built-in recording gives you a video and sometimes a transcript, not minutes, so someone still has to turn it into decisions and actions. An app for meeting minutes saves that step. Step-by-step help: [how to record a Google Meet call](https://lynkk.ai/blog/record-google-meet-call).
+Built-in recording gives you a video and sometimes a transcript, not minutes, so someone still has to turn it into decisions and actions. An app for meeting minutes saves that step. Step-by-step help: how to record a Google Meet call.
 
 ## How do you choose the right app for meeting minutes?
 
@@ -171,7 +171,7 @@ For formal meetings that run past an hour, check the length limit before the num
 
 An AI app can replace the typing, not the judgment. Who said what, the draft decisions, the actions: AI captures all of it in minutes, but a person should still check names, motions, vote counts and anything legally sensitive before minutes are approved.
 
-Board, HOA or LLC meeting? Treat AI output as a draft. Our guides to [board minutes](https://lynkk.ai/blog/board-minutes-of-meeting) and [LLC meeting minutes](https://lynkk.ai/blog/llc-meeting-minutes-template) cover what must be in the final record.
+Board, HOA or LLC meeting? Treat AI output as a draft. Our guides to board minutes and LLC meeting minutes cover what must be in the final record.
 
 ## How do you turn AI notes into approved minutes?
 
@@ -183,7 +183,7 @@ Budget about 10 minutes per meeting. Use these 5 steps:
 4. **Remove side conversations** that do not belong in the record.
 5. **Circulate the draft** for corrections, then approve it at the next meeting.
 
-If you are unsure where notes end and minutes begin, see [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes).
+If you are unsure where notes end and minutes begin, see meeting notes vs minutes.
 
 **More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [AI action item tracking](https://lynkk.ai/features/action-items).
 

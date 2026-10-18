@@ -165,7 +165,7 @@ AI can draft HOA minutes from a recording of the meeting: attendance, reports, m
 
 > **Let Lynkk do it.** Lynkk records HOA board meetings in person, on Zoom, Google Meet or Teams, then drafts a summary, a decision log and action items with owners and dates. The secretary reviews instead of transcribing. Ask Lynkk finds any past decision with a link to the moment. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
-For board agendas, see our [board meeting agenda template](https://lynkk.ai/blog/board-meeting-agenda), and for the difference between notes and minutes, [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes).
+For board agendas, see our board meeting agenda template, and for the difference between notes and minutes, meeting notes vs minutes.
 
 **More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [AI action item tracking](https://lynkk.ai/features/action-items).
 

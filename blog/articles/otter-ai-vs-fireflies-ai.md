@@ -104,7 +104,7 @@ Both are established vendors with enterprise plans. Fireflies keeps HIPAA compli
 Day to day, though, the bigger risk is control, not breaches:
 
 1. **Auto-join.** All three can join every meeting on your calendar. Decide who allows that before rollout.
-2. **Bot visibility.** Clients see the bot. Some will ask you to remove it. Our guide to [removing Fireflies from Teams](https://lynkk.ai/blog/remove-fireflies-ai-from-teams) shows how.
+2. **Bot visibility.** Clients see the bot. Some will ask you to remove it. Our guide to removing Fireflies from Teams shows how.
 3. **Consent.** Several US states require every party to agree before a call is recorded. Announce the recorder at the start.
 
 ## How does Fireflies AI work compared with Otter?
@@ -132,7 +132,7 @@ Lynkk's bot joins Zoom, Google Meet and Teams, and its Mac app and Chrome extens
 
 Pick **Otter** if you want live transcripts and the lowest annual price. Teams that run on a CRM and need search across many calls should choose **Fireflies**. Want free unlimited recording with video clips? Go with **Fathom**. And if prep, live answers and Jira-ready follow-up from the same tool matter most, choose **Lynkk**.
 
-Still undecided? Our [Otter.ai alternatives](https://lynkk.ai/blog/otter-ai-alternatives) roundup covers 8 options.
+Still undecided? Our Otter.ai alternatives roundup covers 8 options.
 
 **More on Lynkk:** [Lynkk vs Otter.ai](https://lynkk.ai/compare/otter), [Lynkk vs Fireflies](https://lynkk.ai/compare/fireflies) and [Lynkk vs Fathom](https://lynkk.ai/compare/fathom).
 

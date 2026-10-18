@@ -131,7 +131,7 @@ No Workspace license needed: Lynkk's free plan covers 5 notes a month at up to 2
 
 [Try Lynkk free](https://lynkk.ai/)
 
-Just want transcripts? Our [Google Meet transcript guide](https://lynkk.ai/blog/google-meet-transcript) covers that. Hindi or Hinglish notes are handled in [Google Meet AI note takers for India](https://lynkk.ai/blog/google-meet-ai-note-taker).
+Just want transcripts? Our [Google Meet transcript guide](https://lynkk.ai/blog/google-meet-transcript) covers that. Hindi or Hinglish notes are handled in Google Meet AI note takers for India.
 
 **More on Lynkk:** [the Lynkk meeting bot](https://lynkk.ai/features/meeting-bot) and [bot-free recording with the Chrome extension](https://lynkk.ai/features/chrome-extension).
 

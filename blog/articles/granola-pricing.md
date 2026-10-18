@@ -130,7 +130,7 @@ Dropping to Basic does not delete your notes. Older ones (beyond 30 days) are st
 
 Before you downgrade, export what you need. A CSV of note titles and summaries can be generated from your profile settings. For full notes, copy the important ones into your docs or CRM first.
 
-This is also the moment to compare Granola pricing with tools you may already pay for. Our [Granola vs Otter AI](https://lynkk.ai/blog/granola-vs-otter-ai) and [Granola vs Fathom](https://lynkk.ai/blog/granola-vs-fathom) comparisons show how the plans line up.
+This is also the moment to compare Granola pricing with tools you may already pay for. Our Granola vs Otter AI and Granola vs Fathom comparisons show how the plans line up.
 
 ## How does Granola pricing compare with other AI note takers?
 
@@ -169,7 +169,7 @@ What Lynkk adds for roughly the same price as Granola Business:
 - **Ask Lynkk** search across all meetings, with citations.
 - **17 languages**, including Hindi and Hinglish, and a choice of 6 data regions.
 
-Lynkk's free plan covers 5 notes a month, and yearly billing saves 35% during early-bird pricing. See all options in our [Granola AI alternatives guide](https://lynkk.ai/blog/granola-ai-alternatives).
+Lynkk's free plan covers 5 notes a month, and yearly billing saves 35% during early-bird pricing. See all options in our Granola AI alternatives guide.
 
 [Try Lynkk free](https://lynkk.ai/)
 

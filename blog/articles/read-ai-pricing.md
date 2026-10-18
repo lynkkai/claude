@@ -187,7 +187,7 @@ Read AI Pro at $15 billed yearly sits in the middle of the market. Cheaper optio
 
 Lynkk (our product) costs $15 a month and focuses on the work around each meeting: a Meeting Brief before the call, Cue answers during it, and tasks with owners, a decision log and one-click Jira tickets after it. Ask Lynkk searches all your meetings and cites the exact source. On the free plan, you get up to 2 hours per note, versus 1 hour on Read AI Free.
 
-Full list: [Read AI alternatives](https://lynkk.ai/blog/read-ai-alternative) and [Read AI vs Otter AI](https://lynkk.ai/blog/read-ai-vs-otter-ai).
+Full list: Read AI alternatives and Read AI vs Otter AI.
 
 [Try Lynkk free](https://lynkk.ai/)
 

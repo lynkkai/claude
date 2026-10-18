@@ -60,7 +60,7 @@ Meeting notes turn a conversation into a record people can act on. Without them,
 3. **Inform people who were absent** without another meeting.
 4. **Create a reference**, so "what did we agree?" has an answer weeks later.
 
-Formal meetings need minutes on top of notes, and [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes) explains how they differ.
+Formal meetings need minutes on top of notes, and meeting notes vs minutes explains how they differ.
 
 ## How do you prepare to take notes before a meeting?
 
@@ -68,7 +68,7 @@ Spend 5 minutes before the meeting setting up your notes, because that small ste
 
 Before-meeting checklist:
 
-1. Copy a [free meeting notes template](https://lynkk.ai/blog/meeting-notes-template).
+1. Copy a free meeting notes template.
 2. Paste the agenda topics as headings.
 3. List attendees so you can mark who is absent.
 4. Review last meeting's open action items so you can check them off.

@@ -5,14 +5,16 @@ Compares each article with its pre-rewrite backup in humanize/originals/<slug>.m
   C1  primary keyword, and every secondary keyword the original contained, still in the body
   C2  primary keyword (all its words) in the H1, or H1 identical to the original
   C3  at least 50% of H2s are questions
-  C4  every internal (lynkk.ai) link from the original is still present
+  C4  every internal (lynkk.ai) link from the original is still present, or is held in
+      review/sibling-links.tsv until its target goes live
   C5  no em or en dashes
   C6  no AI-tell words (list shared with humanize_verify.py)
   C7  every external link from the original is still present
-  C8  frontmatter unchanged
-  C9  headings unchanged (same H1/H2/H3 text, same order)
+  C8  frontmatter unchanged (title and dates excepted: the H1 rule and fact fixes may change them)
+  C9  H2/H3 headings unchanged (same text, same order); the H1 is covered by C2
   C10 FAQ answers 40-60 words
-  C11 every number from the original body is still present
+  C11 every number from the original body is still present, unless review/corrections.tsv
+      records it as a sourced fact correction
   C12 no sentence over 40 words
   C13 no new draft artifacts (TODO, [insert, lorem, "as an AI"); template placeholders
       such as [link] that were already in the original are intended
@@ -26,6 +28,7 @@ Usage:
     python3 blog/tools/post_humanize_check.py            # every article
     python3 blog/tools/post_humanize_check.py <file> -v  # one article, every check listed
 """
+import csv
 import re
 import sys
 from collections import defaultdict
@@ -41,6 +44,7 @@ from seo_score import has_kw, nostop  # noqa: E402
 
 NUM = re.compile(r"\$?\d+(?:,\d{3})*(?:\.\d+)?%?")
 LINK = re.compile(r"\]\((https?://[^)\s]+)\)")
+LINK_MD = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
 DRAFT = re.compile(r"\bTODO\b|\[insert|lorem ipsum|\bTBD\b|\bXXX\b|as an AI\b|\[(?:link|source|citation)\]", re.I)
 MISSPELL = re.compile(r"\b(?:Lynk|Linnk|Link AI)\b")
 
@@ -61,6 +65,26 @@ def structure(body):
     return out
 
 
+def held_links(slug):
+    f = ROOT / "review/sibling-links.tsv"
+    return {r["target"] for r in csv.DictReader(f.open(), delimiter="\t") if r["article"] == slug} if f.exists() else set()
+
+
+def corrected(slug):
+    f = ROOT / "review/corrections.tsv"
+    rows = csv.DictReader(f.open(), delimiter="\t") if f.exists() else []
+    return {n for r in rows if r["article"] == slug for n in NUM.findall(r["old"])}
+
+
+def strip_dates(fm):
+    return re.sub(r"^(title|last_updated|pricing_checked):.*$", "", fm, flags=re.M)
+
+
+def unlink(body, targets):
+    """The original with held sibling links turned into plain anchor text, as sibling_links.py --strip does."""
+    return LINK_MD.sub(lambda m: m.group(1) if m.group(2) in targets else m.group(0), body)
+
+
 def check(path, originals, para_index):
     fm_text, body = split(path)
     fm = yaml.safe_load(fm_text)
@@ -71,7 +95,7 @@ def check(path, originals, para_index):
     h2 = [h for lvl, h in heads if lvl == "##"]
     links, o_links = set(LINK.findall(body)), set(LINK.findall(o_body))
     sents = [s for p in body_paragraphs(body) for s in sentences(plain(p))]
-    lost_nums = set(NUM.findall(o_body)) - set(NUM.findall(body))
+    lost_nums = set(NUM.findall(o_body)) - set(NUM.findall(body)) - corrected(path.stem)
     a = aeo(path)
     o_text = plain(o_body)
     kws = [fm["primary_keyword"]] + [k for k in fm.get("secondary_keywords", []) if has_kw(o_text, k)]
@@ -82,12 +106,13 @@ def check(path, originals, para_index):
                             or f"# {heads[0][1]}\n" in o_body
                             else [heads[0][1]],
         "C3 question H2s >= 50%": [] if sum(map(is_question, h2)) * 2 >= len(h2) else [f"{sum(map(is_question, h2))}/{len(h2)}"],
-        "C4 internal links kept": sorted(u for u in o_links - links if "lynkk.ai" in u),
+        "C4 internal links kept": sorted(u for u in o_links - links - held_links(path.stem) if "lynkk.ai" in u),
         "C5 no em/en dashes": ["dash"] * (body.count("—") + body.count("–")),
         "C6 no AI-tell words": [t for t in AI_TELLS if t in text.lower()],
         "C7 external links kept": sorted(u for u in o_links - links if "lynkk.ai" not in u),
-        "C8 frontmatter unchanged": [] if fm_text == o_fm else ["frontmatter differs"],
-        "C9 headings unchanged": [] if heads == re.findall(r"^(#{1,3}) (.+)$", o_body, re.M) else ["headings differ"],
+        "C8 frontmatter unchanged": [] if strip_dates(fm_text) == strip_dates(o_fm) else ["frontmatter differs"],
+        "C9 headings unchanged": [] if heads[1:] == re.findall(r"^(#{1,3}) (.+)$", o_body, re.M)[1:]
+        else ["headings differ"],
         "C10 FAQ answers 40-60 words": [q for q, ans in faq_answers(body) if not 40 <= len(words(ans)) <= 60],
         "C11 numbers kept": sorted(lost_nums),
         "C12 sentences <= 40 words": [s[:50] + "..." for s in sents if len(words(s)) > 40],
@@ -96,7 +121,8 @@ def check(path, originals, para_index):
         "C15 no duplicate paragraphs": [f"also in {', '.join(sorted(para_index[p] - {path.stem}))}"
                                         for p in body_paragraphs(body)
                                         if len(words(p)) >= 15 and len(para_index[p]) > 1],
-        "C16 tables/lists/code unchanged": [] if structure(body) == structure(o_body) else ["structure differs"],
+        "C16 tables/lists/code unchanged": [] if structure(body) == structure(unlink(o_body, held_links(path.stem)))
+        else ["structure differs"],
         "C17 AEO >= 80, no CRITICAL": [] if a["total"] >= 80 and not a["crit"] else [f"AEO {a['total']}"],
     }
     return c, a["total"]

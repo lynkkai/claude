@@ -123,7 +123,7 @@ Otter displays a live transcript as people talk, then writes a summary afterward
 
 ### Read AI: best for summaries with meeting analytics
 
-Read AI layers engagement and talk-time metrics on top. Pro costs $15 billed yearly. See how it stacks up in [Read AI vs Otter AI](https://lynkk.ai/blog/read-ai-vs-otter-ai).
+Read AI layers engagement and talk-time metrics on top. Pro costs $15 billed yearly. See how it stacks up in Read AI vs Otter AI.
 
 ## Should you use the built-in summarizer or a separate tool?
 
@@ -141,7 +141,7 @@ Pick built-in team meeting summary AI if 90% or more of your meetings happen in 
 
 Not ready for AI? A manual team meeting summary takes about 10 minutes. Write it within an hour, while details are still fresh, and follow the 4-part structure: decisions, action items with owners, key points, open questions.
 
-Grab a copy-ready format from our [meeting summary template](https://lynkk.ai/blog/meeting-summary-template); the [follow-up email examples](https://lynkk.ai/blog/follow-up-email-after-meeting) show how to send it.
+Grab a copy-ready format from our meeting summary template; the follow-up email examples show how to send it.
 
 **More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [searching past meetings with Ask Lynkk](https://lynkk.ai/features/ask-your-meetings).
 

@@ -113,7 +113,7 @@ Both Notion AI Meeting Notes and Granola capture meetings without a bot. Granola
 | Where notes live | Your Notion workspace | Granola, synced to Notion on Business |
 | Mobile capture | Not the focus | iPhone and Android |
 
-Already running on Notion Business? Notion makes sense. Want a standalone note app? Go with Granola. See [Granola AI alternatives](https://lynkk.ai/blog/granola-ai-alternatives) for more.
+Already running on Notion Business? Notion makes sense. Want a standalone note app? Go with Granola. See Granola AI alternatives for more.
 
 ## Where are Notion AI meeting notes stored, and who can see them?
 

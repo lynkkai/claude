@@ -111,7 +111,7 @@ Best,
 [Your name]
 ```
 
-Not sure what to cover on that call? See [what is a discovery call](https://lynkk.ai/blog/what-is-a-discovery-call).
+Not sure what to cover on that call? See what is a discovery call.
 
 ### 3. Follow-up email after a business meeting
 
@@ -326,7 +326,7 @@ On its own, a vague subject like "Following up" gets skipped.
 
 ## How do you make follow-up emails faster to write?
 
-Writing the email is fast. Remembering exactly what was agreed is the slow part, so take notes with decisions and actions marked during the meeting, and the email itself takes 5 minutes. Our [meeting summary template](https://lynkk.ai/blog/meeting-summary-template) uses the same structure as these emails.
+Writing the email is fast. Remembering exactly what was agreed is the slow part, so take notes with decisions and actions marked during the meeting, and the email itself takes 5 minutes. Our meeting summary template uses the same structure as these emails.
 
 > **Let Lynkk do it.** Lynkk records your meeting on Zoom, Google Meet, Teams or in person and drafts the follow-up for you: decisions, tasks with owners and dates, and next steps. It works with Calendly and Cal.com, so booking the next meeting is one step. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 

@@ -77,13 +77,13 @@ Every set of meeting minutes should include 8 core items. Boards, associations a
 7. Action items with an owner and a due date
 8. Time of adjournment and the next meeting date
 
-Want copy-ready formats? See our [meeting minutes sample](https://lynkk.ai/blog/meeting-minutes-sample) and [minutes of meeting format](https://lynkk.ai/blog/minutes-of-meeting-format).
+Want copy-ready formats? See our [meeting minutes sample](https://lynkk.ai/blog/meeting-minutes-sample) and minutes of meeting format.
 
 ## What should meeting notes include?
 
 Meeting notes are flexible. Useful ones still capture 4 things, namely key points, decisions, action items and open questions, and unlike minutes, they can include context, ideas and your own reminders.
 
-Good notes make minutes easy. Already separating decisions and actions from discussion? Then converting them takes minutes, not an hour. Techniques are covered in our guide on [how to take good meeting notes](https://lynkk.ai/blog/how-to-take-good-meeting-notes).
+Good notes make minutes easy. Already separating decisions and actions from discussion? Then converting them takes minutes, not an hour. Techniques are covered in our guide on how to take good meeting notes.
 
 ## How do you turn meeting notes into minutes?
 
@@ -134,7 +134,7 @@ A meeting summary is a short, readable recap, usually 5 to 10 lines, sent to the
 | Includes votes | Rarely | Yes, for formal bodies |
 | Approved by the group | No | Usually |
 
-Quick recap needed? Grab our [meeting summary template](https://lynkk.ai/blog/meeting-summary-template).
+Quick recap needed? Grab our meeting summary template.
 
 ## How long should meeting minutes be?
 
@@ -152,7 +152,7 @@ Whenever an organization makes decisions it may need to prove later, you need fo
 - **Public bodies** such as city councils and school boards
 - **Committee meetings** that make decisions on the board's behalf
 
-Internal team meetings? Clear notes with decisions and actions usually suffice. See our templates for [HOA meeting minutes](https://lynkk.ai/blog/hoa-meeting-minutes-template) and [LLC meeting minutes](https://lynkk.ai/blog/llc-meeting-minutes-template).
+Internal team meetings? Clear notes with decisions and actions usually suffice. See our templates for HOA meeting minutes and LLC meeting minutes.
 
 ## Can AI write meeting notes and minutes?
 

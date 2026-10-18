@@ -157,7 +157,7 @@ Within 24 hours of the kickoff, send a summary and set up the work. Use this 5-i
 4. **Share the project brief** and decision log in one place.
 5. **Follow up on open questions** with the named owners.
 
-Our [meeting summary template](https://lynkk.ai/blog/meeting-summary-template) works well for the kickoff recap.
+Our meeting summary template works well for the kickoff recap.
 
 ## Can AI help run a kickoff meeting?
 
@@ -165,7 +165,7 @@ Let AI capture the kickoff, and the project lead can focus on facilitating. Deci
 
 > **Let Lynkk do it.** Lynkk records your kickoff on Zoom, Google Meet, Teams or in person and captures decisions, a decision log, and tasks with owners and dates. Send tasks to Jira in one click, and Ask Lynkk finds any kickoff decision later with a link to the moment. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
-See how product teams turn [meeting minutes into Jira issues](https://lynkk.ai/blog/meeting-minutes-to-jira), or read our [meeting agenda template in Word](https://lynkk.ai/blog/meeting-agenda-template-word) for general agenda tips.
+See how product teams turn [meeting minutes into Jira issues](https://lynkk.ai/blog/meeting-minutes-to-jira), or read our meeting agenda template in Word for general agenda tips.
 
 **More on Lynkk:** [AI action item tracking](https://lynkk.ai/features/action-items) and [project and standup notes with Lynkk](https://lynkk.ai/use-cases/team-standups).
 

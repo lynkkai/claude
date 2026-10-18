@@ -65,7 +65,7 @@ Read AI costs $15 to $29.75 per user per month on annual billing, and most Read 
 | Granola | 30 days of history | $14 | Bot-free notes |
 | Jamie | 10 notes/month | $24 | Bot-free, EU-hosted |
 
-Sources: [Read AI pricing](https://www.read.ai/plans-pricing), [Otter pricing](https://otter.ai/pricing), [Fathom pricing](https://www.fathom.ai/pricing) and other vendor pages, checked 17 October 2026. Every Read AI tier is broken down in our [Read AI pricing guide](https://lynkk.ai/blog/read-ai-pricing).
+Sources: [Read AI pricing](https://www.read.ai/plans-pricing), [Otter pricing](https://otter.ai/pricing), [Fathom pricing](https://www.fathom.ai/pricing) and other vendor pages, checked 17 October 2026. Every Read AI tier is broken down in our Read AI pricing guide.
 
 ## Which Read AI alternatives are worth switching to?
 
@@ -86,7 +86,7 @@ Lynkk supports 17 languages plus auto-detect, including Hindi and Hinglish, and 
 
 ### 2. Otter.ai: best for live English transcription
 
-Otter shows a live transcript during the call and answers questions about it afterward. On the free plan you get 300 minutes a month, but each conversation stops at 30 minutes, and Pro costs $8.33 a month billed yearly. Full comparison: [Read AI vs Otter AI](https://lynkk.ai/blog/read-ai-vs-otter-ai).
+Otter shows a live transcript during the call and answers questions about it afterward. On the free plan you get 300 minutes a month, but each conversation stops at 30 minutes, and Pro costs $8.33 a month billed yearly. Full comparison: Read AI vs Otter AI.
 
 ### 3. Fireflies.ai: best for sales teams on a CRM
 
@@ -98,7 +98,7 @@ Unlimited recordings and transcripts on the free plan make Fathom the strongest 
 
 ### 5. Granola: best for notes without a bot
 
-No bot ever joins: Granola captures audio from your device and turns your rough typed notes into full ones, with Business at $14 per user per month and its limits covered in our [Granola AI alternatives guide](https://lynkk.ai/blog/granola-ai-alternatives).
+No bot ever joins: Granola captures audio from your device and turns your rough typed notes into full ones, with Business at $14 per user per month and its limits covered in our Granola AI alternatives guide.
 
 ### 6. Jamie: best for EU data hosting
 

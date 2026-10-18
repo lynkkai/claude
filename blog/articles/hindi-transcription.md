@@ -105,7 +105,7 @@ Language coverage runs to 17 plus auto-detect, with Tamil, Telugu, Marathi and B
 
 [Try Lynkk free](https://lynkk.ai/)
 
-One Google Meet caveat: Gemini's Take notes for me lacks Hindi support. Details live in [Google Meet AI note takers in India](https://lynkk.ai/blog/google-meet-ai-note-taker).
+One Google Meet caveat: Gemini's Take notes for me lacks Hindi support. Details live in Google Meet AI note takers in India.
 
 ## How long does Hindi transcription take?
 
@@ -118,7 +118,7 @@ With AI, Hindi transcription of a 1-hour recording usually takes a few minutes o
 | AI transcription tool | Minutes, plus review | Interviews, lectures, files |
 | AI meeting assistant | Ready soon after the meeting | Recurring meetings |
 
-Weekly meetings change the math: an AI meeting assistant saves the most time because it captures each meeting as it happens. Live voice typing on a phone or laptop is a different job, covered in our guide to [Hindi speech to text](https://lynkk.ai/blog/hindi-speech-to-text).
+Weekly meetings change the math: an AI meeting assistant saves the most time because it captures each meeting as it happens. Live voice typing on a phone or laptop is a different job, covered in our guide to Hindi speech to text.
 
 ## How accurate is AI Hindi transcription?
 

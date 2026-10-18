@@ -156,7 +156,7 @@ Risks or concerns raised
 Follow-up email sent: [Yes/No, date]
 ```
 
-Send a recap the same day using our [follow-up email after meeting examples](https://lynkk.ai/blog/follow-up-email-after-meeting).
+Send a recap the same day using our follow-up email after meeting examples.
 
 ## How do you use the Cornell method for meeting notes?
 
@@ -187,7 +187,7 @@ Each template takes under 2 minutes to set up in your tool of choice:
 | Notion | Paste into a page, then turn it into a database template. Notion's [template gallery](https://www.notion.com/templates) has more |
 | OneNote | Paste into a page and use it as a page template |
 
-Google Docs' meeting notes block can pull the event title, date and attendees from Google Calendar automatically. In Notion, a database of meeting notes lets you filter by project or person later, and for Word agendas there is our [meeting agenda template in Word](https://lynkk.ai/blog/meeting-agenda-template-word).
+Google Docs' meeting notes block can pull the event title, date and attendees from Google Calendar automatically. In Notion, a database of meeting notes lets you filter by project or person later, and for Word agendas there is our meeting agenda template in Word.
 
 ## How do you structure meeting notes so people read them?
 
@@ -205,7 +205,7 @@ Use a template when meetings are short, you are comfortable typing while listeni
 
 > **Let Lynkk do it.** Lynkk records your meeting on Zoom, Google Meet, Teams or in person and fills this template for you: key points, decisions, and action items with owners and dates, sent to Jira in one click. Before the next meeting, the Meeting Brief shows what is still open. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
-Want a method that works with or without AI? Read [how to take good meeting notes](https://lynkk.ai/blog/how-to-take-good-meeting-notes).
+Want a method that works with or without AI? Read how to take good meeting notes.
 
 **More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [standup notes with Lynkk](https://lynkk.ai/use-cases/team-standups).
 
@@ -229,7 +229,7 @@ Yes. Notion offers meeting notes templates in its template gallery, and you can 
 
 ### What is the difference between meeting notes and minutes?
 
-Meeting notes are informal records for your team. Minutes are the official record of attendance, decisions and votes, usually approved at the next meeting. See [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes). Most internal meetings only need notes. Boards, HOAs and LLCs usually need formal minutes as well.
+Meeting notes are informal records for your team. Minutes are the official record of attendance, decisions and votes, usually approved at the next meeting. See meeting notes vs minutes. Most internal meetings only need notes. Boards, HOAs and LLCs usually need formal minutes as well.
 
 ### How soon should meeting notes be shared?
 

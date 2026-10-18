@@ -127,7 +127,7 @@ Jamie, Granola and Otter take 3 different approaches. Two are bot-free (Jamie an
 | Unlimited notes from | $46/month (Pro) | $14 (Business) | $19.99 yearly (Business) |
 | Data hosting | EU | Not specified on pricing page | US company |
 
-Jamie's edge is languages and EU hosting. Granola's edge is price and notes that build on what you type. Otter's edge is the live transcript. See [Granola vs Otter AI](https://lynkk.ai/blog/granola-vs-otter-ai) for the other side of this comparison.
+Jamie's edge is languages and EU hosting. Granola's edge is price and notes that build on what you type. Otter's edge is the live transcript. See Granola vs Otter AI for the other side of this comparison.
 
 ## What is the best Jamie AI note taker alternative?
 
@@ -142,7 +142,7 @@ Lynkk overlaps with Jamie on bot-free capture: its Mac app and Chrome extension 
 
 17 languages are supported, Hindi and Hinglish included, and teams can pin data to the US, EU, UK, India, Singapore or Australia. On the free plan you get 5 notes a month at up to 2 hours each. Jamie's? 30 minutes.
 
-More options: [Granola AI alternatives](https://lynkk.ai/blog/granola-ai-alternatives) and [Otter.ai alternatives](https://lynkk.ai/blog/otter-ai-alternatives).
+More options: Granola AI alternatives and Otter.ai alternatives.
 
 [Try Lynkk free](https://lynkk.ai/)
 

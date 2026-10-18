@@ -188,7 +188,7 @@ AI can capture a members' meeting and draft the discussion summary, decisions an
 
 > **Let Lynkk do it.** Lynkk records your members' meeting on Zoom, Google Meet, Teams or in person and drafts a summary, a decision log and action items with owners and dates. You review the resolution wording and sign. Ask Lynkk finds any past decision later with a link to the moment. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
-More formats: our [meeting minutes sample](https://lynkk.ai/blog/meeting-minutes-sample) and [board meeting agenda template](https://lynkk.ai/blog/board-meeting-agenda).
+More formats: our [meeting minutes sample](https://lynkk.ai/blog/meeting-minutes-sample) and board meeting agenda template.
 
 **More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [Lynkk security](https://lynkk.ai/security).
 

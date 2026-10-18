@@ -108,7 +108,7 @@ Fireflies sends a bot to your calls and syncs notes and fields into CRMs such as
 
 **Pricing:** Pro is $10 per seat billed yearly or $18 monthly. Business is $19 yearly or $29 monthly. Enterprise is $39 per seat billed yearly ([Fireflies help center](https://guide.fireflies.ai/articles/3734844560-learn-about-the-fireflies-pricing-plans)).
 
-**Watch out for:** storage limits on lower tiers, and AI features that run on credits. We compare it head to head in [Otter vs Fireflies vs Fathom](https://lynkk.ai/blog/otter-ai-vs-fireflies-ai).
+**Watch out for:** storage limits on lower tiers, and AI features that run on credits. We compare it head to head in Otter vs Fireflies vs Fathom.
 
 ### 3. Fathom: best free plan for unlimited recording
 
@@ -124,7 +124,7 @@ Granola listens through your computer's audio, so no bot joins the call. You typ
 
 **Pricing:** Basic is free with 30 days of meeting history. Business is $14 per user per month with unlimited history ([Granola pricing](https://www.granola.ai/pricing)).
 
-**Watch out for:** the free plan only keeps a month of history. See our [Granola vs Otter AI comparison](https://lynkk.ai/blog/granola-vs-otter-ai).
+**Watch out for:** the free plan only keeps a month of history. See our Granola vs Otter AI comparison.
 
 ### 5. Read AI: best for meeting analytics and coaching
 
@@ -132,7 +132,7 @@ Read AI adds engagement and talk-time metrics on top of summaries, plus a person
 
 **Pricing:** Free covers 5 meetings a month up to 1 hour each. Pro is $15 billed yearly or $19.75 monthly ([Read AI pricing](https://www.read.ai/plans-pricing)).
 
-**Watch out for:** the free plan has no file uploads. Full comparison: [Read AI vs Otter AI](https://lynkk.ai/blog/read-ai-vs-otter-ai).
+**Watch out for:** the free plan has no file uploads. Full comparison: Read AI vs Otter AI.
 
 ### 6. Notta: best for cheap transcription minutes
 
@@ -140,7 +140,7 @@ Notta is transcription-first. Web meeting capture covers Zoom, Google Meet, Team
 
 **Pricing:** Free gives 120 minutes a month, 3 minutes per conversation. Pro is $8.17 a month billed yearly for 1,800 minutes ([Notta pricing](https://www.notta.ai/en/pricing)).
 
-**Watch out for:** the 3-minute cap makes the free plan a demo, not a daily tool. Details in our [Notta pricing breakdown](https://lynkk.ai/blog/notta-pricing).
+**Watch out for:** the 3-minute cap makes the free plan a demo, not a daily tool. Details in our Notta pricing breakdown.
 
 ### 7. Jamie: best for bot-free, EU-hosted notes
 
@@ -148,7 +148,7 @@ Jamie records from your device without a bot and hosts data in the EU, which mat
 
 **Pricing:** Free gives 10 AI notes a month up to 30 minutes. Plus is $24 a month and Team is $37 per seat billed yearly ([Jamie pricing](https://www.meetjamie.ai/pricing)).
 
-**Watch out for:** pricing climbs fast for unlimited notes. Our [Jamie AI note taker review](https://lynkk.ai/blog/jamie-ai-note-taker) covers it in depth.
+**Watch out for:** pricing climbs fast for unlimited notes. Our Jamie AI note taker review covers it in depth.
 
 ### 8. Zoom AI Companion and Microsoft Teams Copilot: best if you already pay for them
 

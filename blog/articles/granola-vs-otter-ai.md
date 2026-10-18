@@ -64,7 +64,7 @@ On annual billing, Otter is cheaper ($8.33 a month for Pro), while Granola is si
 | Team | Business $14 | Business $30 monthly / $19.99 yearly |
 | Enterprise | $35 | Custom |
 
-With Otter Pro you get 1,200 minutes a month, and each conversation is capped at 90 minutes. No Granola plan lists a minute cap at all. Full details: [Granola pricing](https://lynkk.ai/blog/granola-pricing).
+With Otter Pro you get 1,200 minutes a month, and each conversation is capped at 90 minutes. No Granola plan lists a minute cap at all. Full details: Granola pricing.
 
 ## Which has the better free plan, Granola or Otter?
 
@@ -170,7 +170,7 @@ What Lynkk adds on top:
 - **Tasks with owners and dates**, a decision log and one-click Jira tickets.
 - **Ask Lynkk** search across all meetings, with links to the exact source.
 
-Lynkk supports 17 languages including Hindi and Hinglish. Free covers 5 notes a month at up to 2 hours each, and Pro is $15 a month. See more options in [Otter.ai alternatives](https://lynkk.ai/blog/otter-ai-alternatives) and [Granola AI alternatives](https://lynkk.ai/blog/granola-ai-alternatives).
+Lynkk supports 17 languages including Hindi and Hinglish. Free covers 5 notes a month at up to 2 hours each, and Pro is $15 a month. See more options in Otter.ai alternatives and Granola AI alternatives.
 
 [Try Lynkk free](https://lynkk.ai/)
 

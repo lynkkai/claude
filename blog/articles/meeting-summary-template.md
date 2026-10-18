@@ -47,7 +47,7 @@ Usually 5 to 10 lines long, a meeting summary is a brief recap that tells attend
 | Audience | Attendees and stakeholders | The team | The organization |
 | Formality | Conversational | Informal | Formal, approved |
 
-For the difference between the last two, see [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes).
+For the difference between the last two, see meeting notes vs minutes.
 
 ## What is the best template for a meeting summary?
 
@@ -198,7 +198,7 @@ Yes. AI meeting assistants can draft a meeting summary within minutes of the cal
 
 > **Let Lynkk do it.** Lynkk records your meeting on Zoom, Google Meet, Teams or in person and writes the summary for you: decisions, tasks with owners and dates, and a decision log, with one-click Jira tickets. Ask Lynkk lets you search past summaries and links the exact moment. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
-See [AI meeting summarizer tools](https://lynkk.ai/blog/team-meeting-summary-ai) for a full comparison of AI tools, or turn to [Claap's meeting summary guide](https://www.claap.io/blog/meeting-summary) as another useful reference when you want more writing guidance.
+See AI meeting summarizer tools for a full comparison of AI tools, or turn to [Claap's meeting summary guide](https://www.claap.io/blog/meeting-summary) as another useful reference when you want more writing guidance.
 
 **More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [AI action item tracking](https://lynkk.ai/features/action-items).
 

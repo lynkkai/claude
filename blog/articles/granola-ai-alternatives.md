@@ -102,15 +102,15 @@ Free covers 5 notes a month at up to 2 hours each, Pro is $15 a month, and 17 la
 
 ### 2. Jamie: best for bot-free notes with EU hosting
 
-Jamie is the closest match to Granola's philosophy: no bot, notes for online and in-person meetings, and 99+ languages. Hosting is in the EU. Free gives 10 AI notes a month up to 30 minutes each; Team is $37 per seat billed yearly. See our [Jamie AI note taker review](https://lynkk.ai/blog/jamie-ai-note-taker).
+Jamie is the closest match to Granola's philosophy: no bot, notes for online and in-person meetings, and 99+ languages. Hosting is in the EU. Free gives 10 AI notes a month up to 30 minutes each; Team is $37 per seat billed yearly. See our Jamie AI note taker review.
 
 ### 3. Notion AI Meeting Notes: best if your team lives in Notion
 
-Notion's AI Meeting Notes capture meetings without a bot and save notes straight into your workspace. Included in Business at $20 per member per month. Free and Plus only get a limited trial. Details are in our [Notion AI note taker review](https://lynkk.ai/blog/notion-note-taker).
+Notion's AI Meeting Notes capture meetings without a bot and save notes straight into your workspace. Included in Business at $20 per member per month. Free and Plus only get a limited trial. Details are in our Notion AI note taker review.
 
 ### 4. Fathom: best free alternative with video
 
-Fathom records unlimited calls with video for free, which fills Granola's biggest gap, and Premium is $16 a month billed yearly. Compare them directly in [Granola vs Fathom](https://lynkk.ai/blog/granola-vs-fathom).
+Fathom records unlimited calls with video for free, which fills Granola's biggest gap, and Premium is $16 a month billed yearly. Compare them directly in Granola vs Fathom.
 
 ### 5. Fireflies.ai: best for sales teams
 
@@ -118,7 +118,7 @@ Fireflies joins calls, transcribes them and pushes data into CRMs. Pro is $10 pe
 
 ### 6. Otter.ai: best for live transcripts
 
-Otter shows a live transcript during the call. On the free plan you get 300 minutes a month, with a 30-minute cap per conversation. See [Granola vs Otter AI](https://lynkk.ai/blog/granola-vs-otter-ai).
+Otter shows a live transcript during the call. On the free plan you get 300 minutes a month, with a 30-minute cap per conversation. See Granola vs Otter AI.
 
 ### 7. Meetily: best local, open-source Granola alternative
 
@@ -193,7 +193,7 @@ Yes. Meetily is an open-source, local meeting note tool that keeps audio on your
 
 ### Is Granola AI free?
 
-Granola has a free Basic plan with AI notes, but it keeps only 30 days of meeting history. Business costs $14 per user per month and removes that limit. See our [Granola pricing guide](https://lynkk.ai/blog/granola-pricing). Students and accepted startups can apply for 12 months of Business free.
+Granola has a free Basic plan with AI notes, but it keeps only 30 days of meeting history. Business costs $14 per user per month and removes that limit. See our Granola pricing guide. Students and accepted startups can apply for 12 months of Business free.
 
 ### Which Granola alternative creates Jira tickets?
 

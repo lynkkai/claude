@@ -195,7 +195,7 @@ Board minutes follow the agenda order. Per item, record the decision, motion, mo
 
 > **Let Lynkk do it.** Lynkk records board meetings on Zoom, Google Meet, Teams or in person, then drafts a summary, a decision log and action items with owners and dates, in the order you discussed them. Before the next meeting, its Meeting Brief shows what is still open. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
 
-Writing the minutes themselves? See our [meeting minutes sample](https://lynkk.ai/blog/meeting-minutes-sample), [HOA meeting minutes template](https://lynkk.ai/blog/hoa-meeting-minutes-template) and [meeting notes vs minutes](https://lynkk.ai/blog/meeting-notes-vs-minutes). [BoardSource](https://boardsource.org/) and [Robert's Rules](https://robertsrules.com/) are widely used references on general board practice.
+Writing the minutes themselves? See our [meeting minutes sample](https://lynkk.ai/blog/meeting-minutes-sample), HOA meeting minutes template and meeting notes vs minutes. [BoardSource](https://boardsource.org/) and [Robert's Rules](https://robertsrules.com/) are widely used references on general board practice.
 
 **More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [AI action item tracking](https://lynkk.ai/features/action-items).
 

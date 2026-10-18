@@ -74,7 +74,7 @@ On both billing cycles, Otter costs less. Otter Pro costs $16.99 monthly or $8.3
 | Team tier | Enterprise $29.75 / $22.50 | Business $30 / $19.99 |
 | Top tier | Enterprise+ $39.75 / $29.75 | Enterprise, custom |
 
-Picture a 10-person team on annual billing: Otter Pro comes to $1,000 a year, and Read AI Pro to $1,800. Full breakdown: [Read AI pricing](https://lynkk.ai/blog/read-ai-pricing).
+Picture a 10-person team on annual billing: Otter Pro comes to $1,000 a year, and Read AI Pro to $1,800. Full breakdown: Read AI pricing.
 
 ## Why is Otter AI so expensive for teams?
 
@@ -134,7 +134,7 @@ Day to day, though, the bigger questions are about control:
 
 Fireflies sits between them. It records like Otter, then adds CRM sync and search across calls, at $10 per seat billed yearly for Pro. For Read AI vs Otter AI vs Fireflies, the short version is simple: pick Otter for transcripts, Read AI for analytics, and Fireflies for CRM-heavy sales.
 
-We go deeper on Fireflies in [Otter vs Fireflies vs Fathom](https://lynkk.ai/blog/otter-ai-vs-fireflies-ai).
+We go deeper on Fireflies in Otter vs Fireflies vs Fathom.
 
 ## Is there a tool that does the follow-up work for you?
 
@@ -145,7 +145,7 @@ Yes. Lynkk (our product) focuses on what happens around the meeting rather than 
 - **After:** tasks with owners and dates, a decision log and one-click Jira tickets.
 - **Search:** Ask Lynkk answers across all meetings and links the exact source.
 
-Languages matter too. Lynkk supports 17 of them, including Hindi and Hinglish. Free covers 5 notes a month at up to 2 hours each, and Pro costs $15 a month. More options: [Read AI alternatives](https://lynkk.ai/blog/read-ai-alternative) and [Otter.ai alternatives](https://lynkk.ai/blog/otter-ai-alternatives).
+Languages matter too. Lynkk supports 17 of them, including Hindi and Hinglish. Free covers 5 notes a month at up to 2 hours each, and Pro costs $15 a month. More options: Read AI alternatives and Otter.ai alternatives.
 
 [Try Lynkk free](https://lynkk.ai/)
 

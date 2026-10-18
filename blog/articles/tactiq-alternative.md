@@ -86,7 +86,7 @@ Fathom records unlimited calls with video and transcripts for free on Zoom, Goog
 
 ### 3. Notta: best for cheap transcription minutes
 
-Notta gives 1,800 minutes a month on Pro for $8.17 billed yearly, and supports file uploads as well as live meetings. Free? Each conversation caps at 3 minutes. Treat it as a trial. More in [Notta pricing](https://lynkk.ai/blog/notta-pricing).
+Notta gives 1,800 minutes a month on Pro for $8.17 billed yearly, and supports file uploads as well as live meetings. Free? Each conversation caps at 3 minutes. Treat it as a trial. More in Notta pricing.
 
 ### 4. Fireflies.ai: best for CRM-driven teams
 
@@ -94,7 +94,7 @@ Fireflies joins calls as a bot, transcribes them and pushes notes into CRMs, wit
 
 ### 5. Otter.ai: best for live transcripts
 
-Like Tactiq, Otter shows a live transcript during calls, but it does so through its own agent and apps, and the free plan gives 300 minutes a month with a 30-minute cap per conversation. Limits: see [Otter.ai alternatives](https://lynkk.ai/blog/otter-ai-alternatives).
+Like Tactiq, Otter shows a live transcript during calls, but it does so through its own agent and apps, and the free plan gives 300 minutes a month with a 30-minute cap per conversation. Limits: see Otter.ai alternatives.
 
 ### 6. Google Meet's Take notes for me: best for Workspace-only teams
 
@@ -102,7 +102,7 @@ On an eligible Google Workspace edition, Gemini's "Take notes for me" writes not
 
 ### 7. Read AI: best for meeting analytics
 
-Read AI adds engagement and talk-time analytics to summaries. Free covers 5 meetings a month; Pro costs $15 billed yearly. Comparison: [Read AI alternatives](https://lynkk.ai/blog/read-ai-alternative).
+Read AI adds engagement and talk-time analytics to summaries. Free covers 5 meetings a month; Pro costs $15 billed yearly. Comparison: Read AI alternatives.
 
 ## What is Tactiq, and how does it work?
 
@@ -180,7 +180,7 @@ For Google Meet specifically, the best Tactiq alternatives are Google's own Take
 | Tasks, Jira and Hindi support | Lynkk | Follow-up work, 17 languages |
 | Recording the call itself | Google Meet recording | Needs an eligible Workspace plan |
 
-Need the recording too? See our guide on [how to record a Google Meet call](https://lynkk.ai/blog/record-google-meet-call).
+Need the recording too? See our guide on how to record a Google Meet call.
 
 ## How do you switch from Tactiq without losing transcripts?
 

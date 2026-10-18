@@ -113,7 +113,7 @@ Lynkk (our product) gives you both options: a bot for Zoom, Google Meet and Team
 
 [Try Lynkk free](https://lynkk.ai/)
 
-More choices: [Otter vs Fireflies vs Fathom](https://lynkk.ai/blog/otter-ai-vs-fireflies-ai) and our guide to [Teams AI note takers](https://lynkk.ai/blog/ai-note-taker-microsoft-teams).
+More choices: Otter vs Fireflies vs Fathom and our guide to [Teams AI note takers](https://lynkk.ai/blog/ai-note-taker-microsoft-teams).
 
 ## How do you remove Fireflies from Outlook and your calendar?
 

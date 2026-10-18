@@ -117,7 +117,7 @@ Objective: [Agree on scope for phase 2]
 
 ## Project kickoff and one-on-one templates
 
-Running a project kickoff? See our full [project kickoff meeting agenda template](https://lynkk.ai/blog/project-kickoff-meeting-agenda-template). For manager check-ins, use this one-on-one agenda:
+Running a project kickoff? See our full project kickoff meeting agenda template. For manager check-ins, use this one-on-one agenda:
 
 ```
 ONE-ON-ONE AGENDA
@@ -171,7 +171,7 @@ Date: [ ]   Time: [ ]   Location: [ ]   Chair: [ ]
 9. Adjournment
 ```
 
-Prepping for a board? See our full [board meeting agenda template](https://lynkk.ai/blog/board-meeting-agenda).
+Prepping for a board? See our full board meeting agenda template.
 
 ## What does a sales meeting agenda template look like?
 
@@ -188,7 +188,7 @@ Date: [ ]   Time: [45 min]   Owner: [Sales lead]
 5. Actions and owners (5 min)
 ```
 
-For deal reviews, a natural companion is our guide to [what a discovery call is](https://lynkk.ai/blog/what-is-a-discovery-call).
+For deal reviews, a natural companion is our guide to what a discovery call is.
 
 ## What does an all-hands or company meeting agenda look like?
 

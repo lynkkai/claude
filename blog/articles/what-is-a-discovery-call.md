@@ -215,7 +215,7 @@ More on sales tooling: our guide to [sales conversation intelligence](https://ly
 
 Send a follow-up email the same day that restates what you heard, confirms the next step and includes anything you promised. Keep it short and specific to their situation.
 
-In a good recap, include the prospect's top goal, main challenge and timeline in their own words, then the date of the next meeting. Example 2 in our [follow-up email after meeting](https://lynkk.ai/blog/follow-up-email-after-meeting) guide shows one.
+In a good recap, include the prospect's top goal, main challenge and timeline in their own words, then the date of the next meeting. Example 2 in our follow-up email after meeting guide shows one.
 
 **More on Lynkk:** [Lynkk for sales calls](https://lynkk.ai/use-cases/sales-calls) and [searching past calls with Ask Lynkk](https://lynkk.ai/features/ask-your-meetings).
 

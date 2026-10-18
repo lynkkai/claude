@@ -64,7 +64,7 @@ On price, Granola is $0 on Basic and $14 per user per month on Business. Fathom 
 | Team | Business $14 | Team $19 monthly / $15 yearly (2+ users) |
 | Advanced | Enterprise $35 | Business $34 monthly / $25 yearly |
 
-Sources: [Granola pricing](https://www.granola.ai/pricing) and [Fathom pricing](https://www.fathom.ai/pricing), checked 17 October 2026. For the full breakdown see our [Granola pricing guide](https://lynkk.ai/blog/granola-pricing).
+Sources: [Granola pricing](https://www.granola.ai/pricing) and [Fathom pricing](https://www.fathom.ai/pricing), checked 17 October 2026. For the full breakdown see our Granola pricing guide.
 
 Take a 5-person team on annual billing. Granola Business costs $840 a year and Fathom Team costs $900 a year. The gap is small. Pick on workflow, not price.
 
@@ -131,7 +131,7 @@ Closer to Fathom sit Fireflies ($10 per seat billed yearly) and Otter ($8.33 bil
 - **Granola vs Fathom vs Fireflies:** Fireflies has the deepest integrations and search across calls. Fathom has the best free plan. Granola is the only one with no bot at all.
 - **Granola vs Fathom vs Otter:** Otter's free plan caps conversations at 30 minutes. Fathom's does not. Granola's limit is history, not minutes.
 
-We go deeper in [Granola vs Otter AI](https://lynkk.ai/blog/granola-vs-otter-ai) and [Otter vs Fireflies vs Fathom](https://lynkk.ai/blog/otter-ai-vs-fireflies-ai).
+We go deeper in Granola vs Otter AI and Otter vs Fireflies vs Fathom.
 
 ## Is there a tool that combines Granola's notes and Fathom's recording?
 

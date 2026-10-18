@@ -106,11 +106,11 @@ Otter joins Meet calls and shows live transcripts. Its pricing page shows a prom
 
 ### 5. Fireflies.ai and Fathom: best for sales calls
 
-Fireflies (Pro $10 per seat billed yearly) syncs notes to CRMs. Fathom records unlimited Meet calls for free. Both suit English-language sales teams. Compare them in [Otter vs Fireflies vs Fathom](https://lynkk.ai/blog/otter-ai-vs-fireflies-ai).
+Fireflies (Pro $10 per seat billed yearly) syncs notes to CRMs. Fathom records unlimited Meet calls for free. Both suit English-language sales teams. Compare them in Otter vs Fireflies vs Fathom.
 
 ### 6. Tactiq: best lightweight browser option
 
-Tactiq captures Meet captions through a Chrome extension with no bot. Free gives 10 transcripts a month. See [Tactiq alternatives](https://lynkk.ai/blog/tactiq-alternative).
+Tactiq captures Meet captions through a Chrome extension with no bot. Free gives 10 transcripts a month. See Tactiq alternatives.
 
 ## Can a Google Meet AI note taker handle Hindi and Hinglish?
 
@@ -123,13 +123,13 @@ What to check in a 20-minute test:
 - **Numbers:** are lakh, crore and rupee figures captured correctly?
 - **Summary language:** can you get the summary in English even when the meeting was in Hinglish?
 
-Lynkk's Hinglish setting is built for exactly this case. Our guides to [Hindi transcription](https://lynkk.ai/blog/hindi-transcription) and [Hindi speech to text](https://lynkk.ai/blog/hindi-speech-to-text) go deeper.
+Lynkk's Hinglish setting is built for exactly this case. Our guides to Hindi transcription and Hindi speech to text go deeper.
 
 ## Can Google Meet transcribe and record meetings?
 
 Yes, on eligible plans. Google Meet can record meetings to Drive and create transcripts, but recording needs an eligible Workspace edition or a Google One plan with 2 TB or more storage, and an admin must allow it ([Google Meet recording help](https://support.google.com/meet/answer/9308681)).
 
-For a step-by-step guide, see [how to record a Google Meet call](https://lynkk.ai/blog/record-google-meet-call) and our [Google Meet transcript guide](https://lynkk.ai/blog/google-meet-transcript).
+For a step-by-step guide, see how to record a Google Meet call and our [Google Meet transcript guide](https://lynkk.ai/blog/google-meet-transcript).
 
 ## Where should an Indian team's meeting data be stored?
 

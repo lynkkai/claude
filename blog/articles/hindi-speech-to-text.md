@@ -41,7 +41,7 @@ Below, you'll find how to switch on Hindi voice typing on every common device, w
 
 ## What is Hindi speech to text?
 
-Hindi speech to text converts spoken Hindi into written text as you speak, usually in Devanagari script. Other names: Hindi voice typing, Hindi dictation. Point that same technology at recordings rather than live speech and it becomes [Hindi transcription](https://lynkk.ai/blog/hindi-transcription).
+Hindi speech to text converts spoken Hindi into written text as you speak, usually in Devanagari script. Other names: Hindi voice typing, Hindi dictation. Point that same technology at recordings rather than live speech and it becomes Hindi transcription.
 
 Two ways to use it:
 
@@ -113,7 +113,7 @@ Across 17 languages plus auto-detect (Tamil, Telugu, Marathi and Bengali in beta
 
 Yes. Gboard on Android supports voice typing in many Indian languages, including Tamil, Telugu, Marathi, Bengali, Gujarati, Kannada and Malayalam, and Google Docs voice typing handles several of them too. Setup mirrors Hindi. Add the language in keyboard settings, then dictate.
 
-Meetings are a separate case: Lynkk covers 17 languages plus auto-detect, with Tamil, Telugu, Marathi and Bengali in beta. If your team works across 2 or 3 Indian languages, test each one with a real 10-minute meeting before any rollout, and our [Google Meet AI note takers for India](https://lynkk.ai/blog/google-meet-ai-note-taker) guide compares language support.
+Meetings are a separate case: Lynkk covers 17 languages plus auto-detect, with Tamil, Telugu, Marathi and Bengali in beta. If your team works across 2 or 3 Indian languages, test each one with a real 10-minute meeting before any rollout, and our Google Meet AI note takers for India guide compares language support.
 
 ## How do you make Hindi voice typing more accurate?
 
