@@ -1,6 +1,6 @@
 ---
 title: "Avoma Alternatives for US Sales Teams in 2026, Compared on Price, CRM Sync and Coaching"
-meta_title: "Avoma Alternatives for US Sales Teams in 2026, Compared on Price, CRM Sync and Coaching"
+meta_title: "Avoma Alternatives for US Sales Teams in 2026"
 meta_description: "Avoma alternatives for US sales teams in 2026: Gong, Fireflies, Fathom, Otter, Read AI and Lynkk compared on price per seat, CRM sync, coaching and prep."
 slug: avoma-alternatives
 primary_keyword: "avoma alternatives"
