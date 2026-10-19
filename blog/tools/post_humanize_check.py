@@ -95,7 +95,9 @@ def check(path, originals, para_index):
     h2 = [h for lvl, h in heads if lvl == "##"]
     links, o_links = set(LINK.findall(body)), set(LINK.findall(o_body))
     sents = [s for p in body_paragraphs(body) for s in sentences(plain(p))]
-    lost_nums = set(NUM.findall(o_body)) - set(NUM.findall(body)) - corrected(path.stem)
+    # dates move when an article is re-checked, so compare numbers with the dated lines removed
+    undated = lambda t: re.sub(r"(?m)^.*(?:Last updated|Pricing checked|checked) \d{1,2} \w+ \d{4}.*$", "", t)
+    lost_nums = (set(NUM.findall(undated(o_body))) - set(NUM.findall(undated(body)))) - corrected(path.stem)
     a = aeo(path)
     o_text = plain(o_body)
     kws = [fm["primary_keyword"]] + [k for k in fm.get("secondary_keywords", []) if has_kw(o_text, k)]

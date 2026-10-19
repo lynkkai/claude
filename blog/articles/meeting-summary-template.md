@@ -1,5 +1,5 @@
 ---
-title: "Meeting Summary Template for 2026, With Real Examples"
+title: "Use This Template for Meeting Summary Emails, With Real Examples for US Teams in 2026"
 meta_title: "Meeting Summary Template for 2026, With Real Examples"
 meta_description: "A free template for meeting summary emails and docs in 2026, with real examples for team, client and project meetings, plus how to write one in 10 minutes."
 slug: meeting-summary-template
@@ -25,7 +25,7 @@ last_updated: 2026-10-17
 featured_image_alt: "Template for meeting summary email with decisions and action items for a team"
 ---
 
-# Meeting Summary Template for 2026, With Real Examples
+# Use This Template for Meeting Summary Emails, With Real Examples for US Teams in 2026
 
 *By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
@@ -39,7 +39,7 @@ Inside: a copy-ready template for meeting summary emails and docs, 4 real exampl
 
 ## What is a meeting summary?
 
-Usually 5 to 10 lines long, a meeting summary is a brief recap that tells attendees and stakeholders what was decided, who will do what, and what is still open. Less formal than minutes. Shorter than full notes.
+Usually 5 to 10 lines long, a meeting summary is a brief recap that tells attendees and stakeholders what was decided, who will do what, and what is still open. Less formal than [formal meeting minutes](https://lynkk.ai/blog/meeting-minutes-sample). Shorter than full notes.
 
 | | Meeting summary | Meeting notes | Meeting minutes |
 |---|---|---|---|
@@ -51,7 +51,7 @@ For the difference between the last two, see meeting notes vs minutes.
 
 ## What is the best template for a meeting summary?
 
-Use this template for meeting summary emails, Slack posts or docs. One screen holds it.
+This meeting summary template has 5 parts, and you can use this template for meeting summary emails, Slack posts or docs. One screen holds it.
 
 ```
 MEETING SUMMARY: [Meeting name], [Date]
@@ -147,11 +147,11 @@ Decisions: Alex to lead the onboarding revamp.
 Actions: Alex: proposal by Oct 31. Jordan: approve conference budget by Oct 21.
 ```
 
-Acme Corp and the names above are placeholders for illustration.
+Acme Corp and the names above are placeholders for illustration, and the 1:1 version pairs well with our [one-on-one meeting guide](https://lynkk.ai/blog/one-on-one-meeting).
 
 ## How do you write a meeting summary in 10 minutes?
 
-Write the summary right after the meeting, while details are fresh. Then follow these 5 steps:
+Learning how to write a meeting summary in 10 minutes comes down to 1 habit: write it right after the meeting, while details are fresh. Then follow these 5 steps:
 
 1. **Write the purpose** in one line.
 2. **List decisions** as single sentences.
@@ -159,20 +159,20 @@ Write the summary right after the meeting, while details are fresh. Then follow 
 4. **Add open questions** and who will resolve them.
 5. **Send it** to attendees and anyone affected, with a link to full notes.
 
-Microsoft Teams, for one, can generate an AI recap for licensed users ([Teams recap](https://support.microsoft.com/en-us/teams/meetings/recap-in-microsoft-teams)), but the same 5 steps apply when you review it. Can't name a decision or an action? Say so. "No decisions today; we will decide on X next week." Still useful.
+Microsoft Teams, for one, can generate an [intelligent recap](https://support.microsoft.com/en-us/teams/meetings/recap-in-microsoft-teams) with a Teams Premium or Microsoft Copilot license, but only for meetings that were recorded or transcribed. The same 5 steps apply when you review it, and our roundup of [AI note takers for Microsoft Teams](https://lynkk.ai/blog/ai-note-taker-microsoft-teams) covers other options. Can't name a decision or an action? Say so. "No decisions today; we will decide on X next week." Still useful.
 
 ## How do you summarize a long meeting or a recording?
 
 To summarize a 1-hour meeting or a recording, skim for 3 signals rather than re-listening to everything: moments where someone says "so we agree", "can you take that", or "we still need to decide". Those mark decisions, actions and open questions.
 
-Here is a practical approach for recordings:
+Here is a practical approach for recordings, whether you start from a [Zoom meeting transcript](https://lynkk.ai/blog/how-to-transcribe-zoom-meetings) or a [Google Meet transcript](https://lynkk.ai/blog/google-meet-transcript):
 
 1. **Read the transcript at 2x speed** or skim the text, if your tool provides one.
 2. **Search for decision words** such as "agree", "decide", "approve" and "go with".
 3. **Search for action words** such as "will", "by Friday", "owner" and "follow up".
 4. **Fill the template** with what you find, then check the 2 or 3 moments you are unsure about.
 
-Roughly 15 minutes per hour of recording. Listening to it all takes an hour or more.
+Expect roughly 15 minutes per hour of recording (industry estimate). Listening to it all takes an hour or more.
 
 ## Where should you share a meeting summary?
 
@@ -184,7 +184,7 @@ Share the summary where your team already works, which for most teams means 1 of
 | Slack or Teams chat | Internal team meetings |
 | Project tool or wiki | Project meetings, with tasks linked |
 
-Pick 1 channel per meeting series. Stick with it, so people know where to look.
+Pick 1 channel per meeting series and use the same template for meeting summary posts there. Stick with it, so people know where to look.
 
 ## What mistakes make meeting summaries useless?
 
@@ -194,39 +194,39 @@ Before sending, run one quick check: could someone who missed the meeting act on
 
 ## Can AI write a meeting summary for you?
 
-Yes. AI meeting assistants can draft a meeting summary within minutes of the call, with decisions and action items already pulled out. Review owners, dates and numbers before you send it.
+Yes. [AI meeting assistants](https://lynkk.ai/blog/ai-powered-meeting-assistants) can draft a meeting summary within minutes of the call, with decisions and action items already pulled out. Review owners, dates and numbers before you send it.
 
-> **Let Lynkk do it.** Lynkk records your meeting on Zoom, Google Meet, Teams or in person and writes the summary for you: decisions, tasks with owners and dates, and a decision log, with one-click Jira tickets. Ask Lynkk lets you search past summaries and links the exact moment. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
+> **Let Lynkk do it.** Lynkk records your meeting on Zoom, Google Meet, Teams or in person and writes the summary for you: decisions and tasks with owners and dates, each tied to the moment it was said, plus open questions. Send the tasks to Jira from the note in one click. On Pro, a decision log tracks decisions across meetings, and Ask Lynkk lets you [search past meetings](https://lynkk.ai/features/ask-your-meetings) with the source cited. [Free for 5 notes a month](https://lynkk.ai/pricing). [Start for free](https://lynkk.ai/)
 
 See AI meeting summarizer tools for a full comparison of AI tools, or turn to [Claap's meeting summary guide](https://www.claap.io/blog/meeting-summary) as another useful reference when you want more writing guidance.
 
-**More on Lynkk:** [AI meeting notes in Lynkk](https://lynkk.ai/features/meeting-notes) and [AI action item tracking](https://lynkk.ai/features/action-items).
+**More on Lynkk:** [AI meeting notes with timestamps](https://lynkk.ai/features/meeting-notes) and [AI action item tracking](https://lynkk.ai/features/action-items).
 
 ## FAQ
 
 ### What should a meeting summary include?
 
-A meeting summary should include the purpose, key decisions, action items with owners and due dates, open questions and the next meeting date. Decisions and actions go first. Link to the full notes, so anyone who missed the meeting can act on it in under a minute.
+Include the purpose, decisions, action items with owners and dates, open questions and the next meeting. One edge case: Microsoft says people outside your organization cannot open a Teams intelligent recap, even with the recording link. For client meetings, paste the decisions and actions into the email instead of linking the recap.
 
 ### How long should a meeting summary be?
 
-Keep a meeting summary to 5 to 10 lines. Anyone who needs detail can follow a link to full notes or a recording. Running longer means you are recapping the discussion instead of the outcome, so cut until someone could act on it within 60 seconds.
+Keep it to 5 to 10 lines, which is roughly 50 to 125 words. [Grammarly's guide](https://www.grammarly.com/blog/emailing/follow-up-email/) gives that same 50 to 125 word range for most follow-up emails, and says longer ones can reduce the chance of a reply. If yours runs past 10 lines, move the discussion into the linked notes.
 
 ### What is the difference between a meeting summary and minutes?
 
-A summary is a short, informal recap for action. Minutes are the formal record of attendance, decisions and votes, usually approved at the next meeting. Many teams send a summary the same day and keep formal minutes only for board, HOA or other official meetings where records matter.
+A summary is a short, informal recap for action. Minutes are the formal record, usually approved at the next meeting. Under [Robert's Rules of Order](https://robertsrules.com/frequently-asked-questions/), minutes record what was done, not what was said, so even formal minutes skip the discussion. Keep minutes for board, HOA or other official meetings.
 
 ### When should I send a meeting summary?
 
-Send it within an hour of the meeting, or at least the same day, while people still remember the context. Summaries sent the next day get read far less. Writing it right after the meeting takes about 10 minutes when your notes mark decisions and actions.
+Aim for within 1 hour, and treat 1 business day as the outer limit: Grammarly's follow-up guide recommends a meeting recap within one business day. For meetings that end late on a Friday, send a short version the same day rather than waiting until Monday.
 
 ### How do I start a meeting summary email?
 
-Start with a one-line thank-you and the meeting name, then go straight to decisions and action items. Put the count of decisions and actions in the subject line. End with a line inviting corrections, so mistakes get fixed before people start working from the wrong information.
+Open with one line that names the meeting, then go straight to decisions and action items. Skip "Just following up" as an opener: Grammarly suggests stating the purpose of the email instead. If you are summarizing for someone who missed the meeting, start with the one decision that affects them.
 
 ### Can I use the same template for every meeting?
 
-Yes. The 5-part template works for team, client, project and one-on-one meetings. Add or remove optional sections such as open questions as needed. Keep the order the same every time, so regular attendees learn exactly where to look for their action items.
+Yes, for all 4 example types above (team, client, project and one-on-one), as long as the order stays the same. The exception is any meeting with legal or procedural requirements, such as a board vote or a contract decision. Those need formal minutes, which Claap's guide also recommends for compliance-heavy meetings.
 
 <!-- HANDOFF
 Prompts answered: "template for meeting summary", "email template for meeting summary", "meeting summary example", "how to write a meeting summary", "meeting summary vs minutes".

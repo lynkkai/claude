@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Read AI Pricing in 2026: Plans and Costs for US Teams",
+      "headline": "Read AI Pricing in 2026: What US Teams Pay for Free, Pro, Enterprise and Enterprise+",
       "description": "Read AI pricing in 2026: Free, Pro, Enterprise and Enterprise+ plans explained with monthly and annual costs, free plan limits and team cost examples.",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://lynkk.ai/blog/read-ai-pricing",
@@ -37,7 +37,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Read AI Pricing in 2026: Plans and Costs for US Teams",
+          "name": "Read AI Pricing in 2026: What US Teams Pay for Free, Pro, Enterprise and Enterprise+",
           "item": "https://lynkk.ai/blog/read-ai-pricing"
         }
       ]
@@ -50,7 +50,7 @@
           "name": "How much does Read AI cost per month?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Read AI Pro costs $19.75 per user per month on monthly billing, or $15 per month billed yearly. For Enterprise, it is $29.75 monthly or $22.50 yearly, and Enterprise+ runs $39.75 monthly or $29.75 yearly. With the 25% annual saving, a single Pro user pays $180 a year instead of $237."
+            "text": "Read AI Pro costs $19.75 per user per month on monthly billing, or $15 billed yearly, so one user pays $180 a year instead of $237. Already on Zoom One Pro, Business or Business Plus? Read AI says Zoom Essential Apps include its premium features at no extra cost, so check that before paying."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "Is Read AI free to use?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Read AI's free plan covers 5 meeting transcripts, 5 reports and 5 live-note sessions a month, each up to 1 hour long, with no file uploads. That suits testing Read AI on your most important calls; anyone with daily meetings will hit the limit within the first week."
+            "text": "Yes, with no credit card required, but Free is strictly single-user. Read AI's FAQ says free users cannot be part of a Workspace, so an admin cannot manage free teammates or share their reports centrally. Anyone who wants team controls needs a paid license per person, starting at $15 billed yearly."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "Does Read AI cost money for teams?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Teams pay per user, so a 10-person team pays $1,800 a year on Pro with annual billing, or $2,370 with monthly billing. Enterprise needs at least 5 licenses. For the same 10 people it costs $2,700 billed yearly and adds audio and video playback."
+            "text": "Yes, and Read AI does not allow mixed plans. Every license in a Workspace must be on the same plan, so 2 people needing playback means Enterprise for all 10, or $2,700 a year instead of $1,800 on Pro. There are no admin-only licenses either; the account owner needs a seat too."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "What is Read AI Enterprise pricing?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Read AI Enterprise costs $22.50 per user per month billed yearly or $29.75 monthly, with a 5-license minimum. Enterprise+ runs $29.75 yearly or $39.75 monthly. Even a team of 3 that wants Enterprise features pays for 5 seats, so small teams usually stay on Pro."
+            "text": "Read AI Enterprise costs $22.50 per user per month billed yearly or $29.75 monthly, with no seat minimum. Large buyers get volume discounts on annual licenses: 10% at 100+, 15% at 500+ and 20% at 1,000+, according to Read AI's pricing FAQ. Enterprise+ adds a 5-license minimum."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "Is Read AI cheaper than Otter?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Otter Pro costs $8.33 a month billed yearly, compared with $15 for Read AI Pro. Monthly, it is $16.99 against $19.75. The free plans differ too: Otter gives 300 minutes a month at 30 minutes per call, while Read AI gives 5 meetings at up to 1 hour."
+            "text": "No. Otter Pro costs $8.33 a month billed yearly, compared with $15 for Read AI Pro. Otter Pro caps you at 1,200 minutes a month and 90 minutes per meeting, though, while Read AI Pro has unlimited transcripts up to 4 hours each. Heavy users may find Read AI cheaper per meeting."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "Does Read AI offer a discount for annual billing?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Annual billing saves 25% on every paid plan. Pro drops from $19.75 to $15 per user per month, Enterprise from $29.75 to $22.50, and Enterprise+ from $39.75 to $29.75. Unsure? Start monthly for 1 or 2 months, then switch to annual once your team is clearly using it. <!-- HANDOFF Prompts answered: \"read ai pricing\", \"how much does read ai cost per month\", \"is read ai free\", \"read ai enterprise pricing\", \"read ai cost for teams\". Prompt gaps (createprompt): \"read ai nonprofit discount\". Fan-out source: Ubersuggest googlesuggestions (read ai cost per month, is read ai free, enterprise pricing, nonprofit pricing, india pricing, is read ai worth it, does read ai cost money) + SERP, 2026-10-17. Inbound links: from /blog/best-free-ai-note-takers and /blog/ai-powered-meeting-assistants. Editor checks: Enterprise meeting length shown inconsistently on Read AI's page. -->"
+            "text": "Yes, 25% on every paid plan, but the commitment is real. Read AI's FAQ says it does not offer refunds: you can cancel any time before renewal and keep access until the period ends. Paying yearly locks in 12 months, so test monthly for 1 or 2 months first. <!-- HANDOFF Prompts answered: \"read ai pricing\", \"how much does read ai cost per month\", \"is read ai free\", \"read ai enterprise pricing\", \"read ai cost for teams\". Prompt gaps (createprompt): \"read ai nonprofit discount\". Fan-out source: Ubersuggest googlesuggestions (read ai cost per month, is read ai free, enterprise pricing, nonprofit pricing, india pricing, is read ai worth it, does read ai cost money) + SERP, 2026-10-17. Inbound links: from /blog/best-free-ai-note-takers and /blog/ai-powered-meeting-assistants. Editor checks: 5-license minimum sits on Enterprise+ (badge on that card), not Enterprise; meeting length 4 h Enterprise, 8 h Enterprise+ (comparison table), re-checked 2026-10-18. -->"
           }
         }
       ]
