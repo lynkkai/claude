@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Project Kickoff Meeting Agenda Template for 2026 (Free)",
+      "headline": "This Project Kickoff Meeting Agenda Template Keeps US Teams Aligned From Day One in 2026",
       "description": "Free project kickoff meeting agenda template for 2026: what to cover, a 60-minute agenda for internal and client kickoffs, a sample, and a follow-up checklist.",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://lynkk.ai/blog/project-kickoff-meeting-agenda-template",
@@ -37,7 +37,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Project Kickoff Meeting Agenda Template for 2026 (Free)",
+          "name": "This Project Kickoff Meeting Agenda Template Keeps US Teams Aligned From Day One in 2026",
           "item": "https://lynkk.ai/blog/project-kickoff-meeting-agenda-template"
         }
       ]
@@ -50,7 +50,7 @@
           "name": "What is included in a project kickoff meeting agenda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Introductions and roles, background and goals, scope, deliverables and timeline, ways of working, risks and dependencies, open questions, and next steps with owners. Send the agenda early. With a pre-read 1 to 2 days before, the meeting is spent discussing scope and risks instead of reading slides together."
+            "text": "Introductions and roles, background and goals, scope, deliverables and timeline, ways of working, risks and dependencies, open questions, and next steps with owners. Asana's version folds scope and deliverables into 1 block and runs 7, so if your project is small, merge rather than drop: the questions still need answering somewhere."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How long should a project kickoff meeting be?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "About 60 minutes for internal projects and 60 to 90 minutes for client projects. Send a pre-read so the meeting is spent deciding, not presenting. Very large projects sometimes use a half-day workshop, but split it into sessions with breaks so decisions do not suffer from fatigue."
+            "text": "Asana puts most kickoffs at 30 to 90 minutes, depending on complexity. Use 60 for an internal project and 60 to 90 with a client. A half-day workshop suits very large programmes, split into sessions with breaks. Whatever the length, sharing the agenda in advance is what keeps it focused."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "Who runs a project kickoff meeting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The project manager usually runs it, with the project sponsor explaining the goals. For client projects, both sides' leads share the meeting. Name a note-taker as well, so decisions about scope and owners are captured while the project manager facilitates the discussion."
+            "text": "The project manager usually runs it, with the sponsor explaining the goals, and for client projects both sides' leads share it. Name a note-taker too, or record the call: 1 person cannot facilitate 8 agenda items and write down every owner and date at the same time."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "Should I send the kickoff agenda in advance?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Send the agenda and pre-read 1 to 2 days before so attendees arrive with questions instead of reading for the first time. Ask people to add questions to the agenda doc beforehand, so you can answer common ones once instead of repeating them in the meeting. <!-- HANDOFF Prompts answered: \"project kickoff meeting agenda template\", \"what should be discussed in a project kickoff meeting\", \"project kickoff meeting agenda example\", \"client kickoff meeting agenda\", \"how long should a kickoff meeting be\". Prompt gaps (createprompt): \"construction project kickoff meeting agenda\". Fan-out source: Ubersuggest googlesuggestions (what should be discussed, agenda items, example, sample, powerpoint, word, construction, team) + SERP (asana, atlassian, notion, projectmanager), 2026-10-17. Inbound links: from /blog/meeting-minutes-to-jira and /blog/meeting-preparation. Editor checks: sample uses placeholder names; \"lift demo requests 20%\" is an illustrative goal, not a claim. -->"
+            "text": "Yes. Send the agenda and pre-read 1 to 2 days before so attendees arrive with questions instead of reading for the first time. Ask people to add questions to the agenda doc beforehand, so you can answer common ones once instead of repeating them in the meeting. <!-- HANDOFF Prompts answered: \"project kickoff meeting agenda template\", \"what should be discussed in a project kickoff meeting\", \"project kickoff meeting agenda example\", \"client kickoff meeting agenda\", \"how long should a kickoff meeting be\". Prompt gaps (createprompt): \"construction project kickoff meeting agenda\". Fan-out source: Ubersuggest googlesuggestions (what should be discussed, agenda items, example, sample, powerpoint, word, construction, team) + SERP (asana, atlassian, notion, projectmanager), 2026-10-17. Inbound links: from /blog/meeting-minutes-to-jira and /blog/meeting-preparation. Editor checks: sample uses placeholder names; \"lift demo requests 20%\" is an illustrative goal, not a claim. Meeting lengths (30 to 90 minutes), the 7-block 60-minute agenda, the RACI suggestion and the pre-read advice come from Asana's kickoff template page, and the 5 Ws from Atlassian's kickoff guide, both fetched 2026-10-19. -->"
           }
         }
       ]

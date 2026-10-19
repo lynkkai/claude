@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Article",
-      "headline": "What Is a Discovery Call? A 2026 Guide for US Sales Teams",
+      "headline": "What Is a Discovery Call and How US Sales Teams Run One Well in 2026",
       "description": "What is a discovery call? A 2026 guide for US sales teams: purpose, length, a simple agenda and script, 25 discovery questions, and how to follow up well.",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://lynkk.ai/blog/what-is-a-discovery-call",
@@ -37,7 +37,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "What Is a Discovery Call? A 2026 Guide for US Sales Teams",
+          "name": "What Is a Discovery Call and How US Sales Teams Run One Well in 2026",
           "item": "https://lynkk.ai/blog/what-is-a-discovery-call"
         }
       ]
@@ -50,7 +50,7 @@
           "name": "What is the main purpose of a discovery call?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "To understand the prospect's problem, priorities, decision process and timeline, and to decide together whether there is a fit worth pursuing. Most sellers aim to talk 30% of the time or less, using open questions about the situation, the pain, the priority and the decision process."
+            "text": "To understand the prospect's problem, priorities, decision process and timeline, and to decide together whether there is a fit worth pursuing. One number worth knowing: Gong found the average seller talks 60% of a call, while reps who won talked 57%, so the gap is smaller than most coaching suggests."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How long is a discovery call?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Most discovery calls last about 30 minutes. Complex B2B deals may need 45 minutes, and simple products 15 to 20 minutes. Book 30 minutes by default and end on time. Agree on a specific next step before the call ends, rather than promising to follow up later."
+            "text": "Most run about 30 minutes. Salesforce advises under 60 minutes, 20 to 30 for a simple transactional sale, and up to an hour across several calls for a complex enterprise deal. Book 30 by default, and keep the last 5 minutes for agreeing the next step."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "What is another name for a discovery call?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You may also hear it called a discovery meeting, a qualification call, a needs analysis call or, for consultants and coaches, a consultation call. Whatever the name, the structure is the same: understand the situation, the problem and the goal, then agree on a next step. <!-- HANDOFF Prompts answered: \"what is a discovery call\", \"what is a discovery call in sales\", \"purpose of a discovery call\", \"how long should a discovery call be\", \"discovery call questions\", \"discovery call script\". Prompt gaps (createprompt): \"discovery call vs demo\". Fan-out source: Ubersuggest googlesuggestions (in sales, in coaching, for a job, with a lawyer, script, free, purpose, how long, questions, how to run, another word for) + SERP (reddit techsales, salesforce, vidyard, highspot), 2026-10-17. Inbound links: from /blog/sales-conversation-intelligence and /blog/meeting-preparation. Editor checks: \"talk 30% of the time or less\" is common sales guidance, not a cited statistic. -->"
+            "text": "You may also hear it called a discovery meeting, a qualification call, a needs analysis call or, for consultants and coaches, a consultation call. Whatever the name, the structure is the same: understand the situation, the problem and the goal, then agree on a next step. <!-- HANDOFF Prompts answered: \"what is a discovery call\", \"what is a discovery call in sales\", \"purpose of a discovery call\", \"how long should a discovery call be\", \"discovery call questions\", \"discovery call script\". Prompt gaps (createprompt): \"discovery call vs demo\". Fan-out source: Ubersuggest googlesuggestions (in sales, in coaching, for a job, with a lawyer, script, free, purpose, how long, questions, how to run, another word for) + SERP (reddit techsales, salesforce, vidyard, highspot), 2026-10-17. Inbound links: from /blog/sales-conversation-intelligence and /blog/meeting-preparation. Editor checks: talk-time figures now come from Gong's 2025 analysis of 326,000 calls (average 60% talk, 57% in won deals, 62% in lost, 15 to 16 questions in won deals); call lengths and the 87% trusted-advisor figure from Salesforce; MEDDIC from meddicc.com; SPIN from Neil Rackham's 1988 book. Calendly and Cal.com claim removed: not on lynkk.ai/integrations. -->"
           }
         }
       ]

@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Granola vs Otter AI in 2026: Which Suits US Teams?",
+      "headline": "Granola vs Otter AI in 2026: which note taker suits US teams, feature by feature",
       "description": "Granola vs Otter AI for US teams in 2026: bot-free notes vs live transcripts, free plan limits, prices, privacy and meeting coverage compared side by side.",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://lynkk.ai/blog/granola-vs-otter-ai",
@@ -37,7 +37,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Granola vs Otter AI in 2026: Which Suits US Teams?",
+          "name": "Granola vs Otter AI in 2026: which note taker suits US teams, feature by feature",
           "item": "https://lynkk.ai/blog/granola-vs-otter-ai"
         }
       ]

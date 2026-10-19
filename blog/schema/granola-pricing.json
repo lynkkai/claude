@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Granola AI Pricing in 2026: What US Users Actually Pay",
+      "headline": "Granola pricing in 2026: what US users pay on the free, Business and Enterprise plans",
       "description": "Granola pricing for 2026 explained: Basic free plan limits, Business at $14 and Enterprise at $35 per user, team cost examples, and cheaper alternatives.",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://lynkk.ai/blog/granola-pricing",
@@ -37,7 +37,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Granola AI Pricing in 2026: What US Users Actually Pay",
+          "name": "Granola pricing in 2026: what US users pay on the free, Business and Enterprise plans",
           "item": "https://lynkk.ai/blog/granola-pricing"
         }
       ]

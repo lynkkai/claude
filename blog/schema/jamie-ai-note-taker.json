@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Jamie AI Note Taker Review: A 2026 Look for US Teams",
+      "headline": "Jamie AI Note Taker Review 2026: Bot-Free Meeting Notes Tested for US Teams",
       "description": "Jamie AI note taker review for 2026: bot-free capture, free plan limits, Plus, Pro and Team pricing, languages, integrations and the best alternatives.",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://lynkk.ai/blog/jamie-ai-note-taker",
@@ -37,7 +37,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Jamie AI Note Taker Review: A 2026 Look for US Teams",
+          "name": "Jamie AI Note Taker Review 2026: Bot-Free Meeting Notes Tested for US Teams",
           "item": "https://lynkk.ai/blog/jamie-ai-note-taker"
         }
       ]
@@ -50,7 +50,7 @@
           "name": "Is the Jamie AI note taker free?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Jamie's free plan includes 10 AI notes a month, each up to 30 minutes long, and paid plans start at $24 for Plus. That 30-minute cap is the main limit, so a 45-minute client call gets cut off. Short check-ins and testing suit it better than daily use."
+            "text": "Yes: 10 AI notes a month, 30 minutes each. Two things the free plan keeps that rivals charge for: unlimited storage and exports to Google Docs, Notion and OneNote. It also allows 1 custom template and 50 custom vocabulary terms, so names and jargon can be taught early."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How much does Jamie AI cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Jamie Plus costs $24, Pro costs $46 a month billed yearly, and Team costs $37 per seat per month billed yearly. Enterprise pricing is custom, and monthly billing is available through a toggle on Jamie's pricing page. Pro is the first plan with unlimited notes and 5-hour meetings."
+            "text": "Billed annually, Jamie Plus costs $24, Pro $46 and Team $37 per seat, each per month, and Enterprise is quoted. The toggle on its pricing page puts the annual saving at 17%, so monthly billing costs more. Pro is the first plan with unlimited notes and 5-hour meetings."
           }
         },
         {
@@ -66,7 +66,7 @@
           "name": "Does Jamie join meetings as a bot?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Jamie records audio from your device, so no bot appears in Zoom, Google Meet or Teams. Attendees still need to be told the meeting is being recorded. Because nothing joins the call, it works with almost any meeting app. The catch: you must start it yourself, so missed starts mean missed notes."
+            "text": "No, it records your device audio, so nothing appears in Zoom, Google Meet or Teams. Jamie covers the disclosure gap with a consent email on every plan, while a customized consent notification is Enterprise-only. You still have to start capture, so missed starts mean missed notes."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "Does Jamie work on Android?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, in beta. Jamie offers an iOS app and a beta Android app for in-person meetings, while desktop apps handle online meetings. Because the Android app is a beta, features may lag the iPhone version. Test it on a real in-person meeting before relying on it."
+            "text": "Yes. Jamie's docs list the mobile app on Google Play alongside the App Store, and recordings sync to desktop instantly. Its pricing page footer, though, offers only Mac, Windows and iPhone downloads, so install Android from Play. Mobile records in-person meetings and runs Ask AI."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "Which languages does Jamie support?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Jamie lists notes and transcripts in 99+ languages on its pricing page. Speaker recognition and task detection are included on every plan. Data is hosted in the EU, and Jamie states it does not train models on your data, which suits teams with European clients or strict privacy rules."
+            "text": "Jamie lists notes and transcripts in 99+ languages on every plan, speaker recognition included. Custom vocabulary is where plans diverge: 50 terms on Free, Plus and Pro, 100 on Team and 250 on Enterprise, which matters for names, drug names or product codes in any language."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "What is a good alternative to Jamie?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Granola offers bot-free notes for $14 a month, Fathom offers unlimited free recording, and Lynkk offers bot or bot-free capture plus prep, live answers and Jira tickets for $15 a month. Test the free plans on real meetings before you choose. <!-- HANDOFF Prompts answered: \"jamie ai note taker\", \"is jamie ai note taker free\", \"jamie ai note taker pricing\", \"jamie ai alternative\", \"does jamie use a bot\". Prompt gaps (createprompt): \"jamie ai vs granola\". Fan-out source: Ubersuggest googlesuggestions (free, pricing, review, android, app, alternative, login, discount code) + SERP (meetjamie.ai, Trustpilot, G2, App Store), 2026-10-17. Secondary volume: \"jamie ai note taker app\" 40/mo. Inbound links: from /blog/best-ai-note-takers and /blog/best-free-ai-note-takers. Editor checks: review-site sentiment summarized generally, not quoted; Android app is beta per docs.meetjamie.ai; verify Plus billing period before publish. -->"
+            "text": "Granola costs $14 a month for bot-free notes, Fathom records unlimited calls free, and Lynkk pairs bot and bot-free capture with Jira actions for $15 a month. Jamie keeps 2 advantages over all of them: EU-only hosting and 99+ languages. Weigh those before switching. <!-- HANDOFF Prompts answered: \"jamie ai note taker\", \"is jamie ai note taker free\", \"jamie ai note taker pricing\", \"jamie ai alternative\", \"does jamie use a bot\". Prompt gaps (createprompt): \"jamie ai vs granola\". Fan-out source: Ubersuggest googlesuggestions (free, pricing, review, android, app, alternative, login, discount code) + SERP (meetjamie.ai, Trustpilot, G2, App Store), 2026-10-17. Secondary volume: \"jamie ai note taker app\" 40/mo. Inbound links: from /blog/best-ai-note-takers and /blog/best-free-ai-note-takers. Editor checks: Android app is live on Google Play per docs.meetjamie.ai (updated 2026-09-03), no beta label; every paid plan on meetjamie.ai/pricing is billed annually with a 17% yearly saving; review-site sentiment claims removed. Re-checked 2026-10-19. -->"
           }
         }
       ]

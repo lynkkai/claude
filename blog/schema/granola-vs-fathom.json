@@ -82,7 +82,7 @@
           "name": "Which works better for Google Meet and Zoom?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Zoom and Google Meet work with both. Fathom joins as a recorder, while Granola captures audio from your desktop app on Mac or Windows, and only Fathom also supports Microsoft Teams. Granola needs its app open during the call, whereas Fathom joins automatically from your calendar, which makes it easier to standardize across a team."
+            "text": "Zoom and Google Meet work with both, as does Microsoft Teams: Fathom joins as a recorder, Granola captures the audio through its Mac or Windows app. Fathom also records Slack huddles. Granola needs its app open during the call, whereas Fathom joins from your calendar, which is easier to standardize across a team."
           }
         },
         {

@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Otter vs Fireflies vs Fathom: A 2026 Guide for US Teams",
+      "headline": "Otter AI vs Fireflies AI vs Fathom in 2026: which one fits US teams best",
       "description": "Otter ai vs Fireflies ai vs Fathom in 2026: free plans, prices per seat, CRM sync, recording limits and privacy compared for US teams, with a clear verdict.",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://lynkk.ai/blog/otter-ai-vs-fireflies-ai",
@@ -37,7 +37,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Otter vs Fireflies vs Fathom: A 2026 Guide for US Teams",
+          "name": "Otter AI vs Fireflies AI vs Fathom in 2026: which one fits US teams best",
           "item": "https://lynkk.ai/blog/otter-ai-vs-fireflies-ai"
         }
       ]
@@ -74,7 +74,7 @@
           "name": "Does Fireflies AI record video?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, Fireflies records video on its Business plan and above. Fathom records video even on its free plan, while Otter focuses on audio and transcripts. Sharing short clips with colleagues who missed a call is easy with Fathom's free video, something neither Otter nor Fireflies offers for free."
+            "text": "Yes, on paid plans: Fireflies captures video on Pro and Business at 720p and on Enterprise at 1080p, and it is a setting you switch on. Fathom's notetaker captures full video, and its free plan keeps unlimited recordings with clips. Otter reserves video replay for its top tier."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "Can I use Otter, Fireflies or Fathom without a bot?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Partly. Fireflies has a desktop app that records system audio without a bot, and Fathom offers bot-free capture in beta, but Otter relies on its meeting agent. Lynkk records bot-free through its Mac app and Chrome extension. Either way, tell attendees."
+            "text": "Yes, all three now offer it. Fireflies and Otter both have desktop apps that record system audio with no bot in the call, and Fathom's bot-free capture is in beta on Mac, with Windows promised. Lynkk records bot-free through its Mac app and Chrome extension. Either way, tell attendees."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "Which works best with Microsoft Teams?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All three join Microsoft Teams meetings, each one as a participant in the call. Companies that prefer built-in tools should know Teams' own AI recap requires a Microsoft 365 Copilot license. Check your IT policy first. Some companies block third-party meeting bots in Teams. <!-- HANDOFF Prompts answered: \"otter ai vs fireflies ai\", \"otter vs fireflies vs fathom\", \"is otter or fireflies better\", \"is fireflies ai safe\", \"fireflies vs otter pricing\". Prompt gaps (createprompt): \"fireflies vs otter for long meetings\". Fan-out source: Ubersuggest googlesuggestions (otter ai vs fireflies vs fathom, is otter or fireflies better, pricing, is fireflies ai safe, is otter ai secure, how does fireflies.ai work) + SERP, 2026-10-17. Inbound links: from /blog/ai-transcription-software and /blog/sales-conversation-intelligence. Editor checks: Fireflies per-meeting limits and Business video recording come from Fireflies' own blog/guide pages (search 2026-10-17); its pricing page is client-rendered, re-verify in a browser before publish. -->"
+            "text": "All three join Microsoft Teams meetings, each one as a participant in the call. Companies that prefer built-in tools should know Teams' own intelligent recap needs Teams Premium or a Copilot licence, per Microsoft's licensing page. Check your IT policy first. Some companies block third-party meeting bots in Teams. <!-- HANDOFF Prompts answered: \"otter ai vs fireflies ai\", \"otter vs fireflies vs fathom\", \"is otter or fireflies better\", \"is fireflies ai safe\", \"fireflies vs otter pricing\". Prompt gaps (createprompt): \"fireflies vs otter for long meetings\". Fan-out source: Ubersuggest googlesuggestions (otter ai vs fireflies vs fathom, is otter or fireflies better, pricing, is fireflies ai safe, is otter ai secure, how does fireflies.ai work) + SERP, 2026-10-17. Inbound links: from /blog/ai-transcription-software and /blog/sales-conversation-intelligence. Editor checks: Fireflies per-meeting limits and Business video recording come from Fireflies' own blog/guide pages (search 2026-10-17); its pricing page is client-rendered, re-verify in a browser before publish. -->"
           }
         }
       ]
