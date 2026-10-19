@@ -3,6 +3,9 @@
 Drafts for lynkk.ai/blog, written 17-18 October 2026 from the topic plan, Ubersuggest data and the
 `seo-article` skill pack. Every article is a draft for editorial review: nothing here has been published.
 
+Picking this up cold, or in a new session? Start with **`HANDOFF.md`**: current status, what is left and
+the traps.
+
 ## What is in this folder
 
 | Path | What it is |

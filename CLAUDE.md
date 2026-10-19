@@ -19,3 +19,5 @@ run `python3 blog/tools/check_articles.py` (must report 0 failures) and `python3
 Before publishing, every article must also pass `aeo_score.py`, `seo_score.py`, `humanize_verify.py` and
 `post_humanize_check.py` (gates listed in `blog/README.md`); refresh the index with `build_index.py`.
 Use only Lynkk facts from the "Verified on lynkk.ai" section of `memory/lynkk-brand.md`.
+Current status, remaining work and the pitfalls are in `blog/HANDOFF.md`; the skill pack the articles
+were written from is in `blog/docs/skills/`.

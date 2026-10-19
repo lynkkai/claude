@@ -72,7 +72,7 @@ Take a 5-person team on annual billing. Granola Business costs $840 a year and F
 
 Granola uses 0 bots. It captures audio on your device, so nobody on the call sees a recorder join. By default Fathom uses a bot, though it offers bot-free capture in beta, including on the free plan.
 
-Client-facing work is where this matters most, since some US companies now ask vendors to keep bots out of their calls. You can still take AI-assisted notes with Granola. With Fathom you would switch to the beta bot-free mode or skip recording. Either way, tell people you are taking notes; many US states require all-party consent to record a call.
+Client-facing work is where this matters most, since some US companies now ask vendors to keep bots out of their calls. You can still take AI-assisted notes with Granola. With Fathom you would switch to the beta bot-free mode or skip recording. Either way, tell people you are taking notes. Some US states require consent from everyone, California among them, where the law covers [any confidential communication](https://www.rcfp.org/reporters-recording-guide/california/).
 
 ## Which is better for sales teams, Granola or Fathom?
 
@@ -176,7 +176,7 @@ No. Granola transcribes your computer's audio and writes notes, but it does not 
 
 ### Which works better for Google Meet and Zoom?
 
-Zoom and Google Meet work with both. Fathom joins as a recorder, while Granola captures audio from your desktop app on Mac or Windows, and only Fathom also supports Microsoft Teams. Granola needs its app open during the call, whereas Fathom joins automatically from your calendar, which makes it easier to standardize across a team.
+Zoom and Google Meet work with both, as does Microsoft Teams: Fathom joins as a recorder, Granola captures the audio through its Mac or Windows app. Fathom also records Slack huddles. Granola needs its app open during the call, whereas Fathom joins from your calendar, which is easier to standardize across a team.
 
 ### What is a good alternative to both Granola and Fathom?
 

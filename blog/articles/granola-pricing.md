@@ -1,5 +1,5 @@
 ---
-title: "Granola AI Pricing in 2026: What US Users Actually Pay"
+title: "Granola pricing in 2026: what US users pay on the free, Business and Enterprise plans"
 meta_title: "Granola AI Pricing in 2026: What US Users Actually Pay"
 meta_description: "Granola pricing for 2026 explained: Basic free plan limits, Business at $14 and Enterprise at $35 per user, team cost examples, and cheaper alternatives."
 slug: granola-pricing
@@ -28,7 +28,7 @@ pricing_checked: 2026-10-17
 featured_image_alt: "Granola pricing plans for 2026 shown as Basic, Business and Enterprise tiers"
 ---
 
-# Granola AI Pricing in 2026: What US Users Actually Pay
+# Granola pricing in 2026: what US users pay on the free, Business and Enterprise plans
 
 *By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026 · Pricing checked 17 October 2026*
 
@@ -36,13 +36,13 @@ featured_image_alt: "Granola pricing plans for 2026 shown as Basic, Business and
 
 *Disclosure: Lynkk publishes this guide and makes a competing AI meeting assistant. All Granola prices come from [granola.ai/pricing](https://www.granola.ai/pricing), checked 17 October 2026.*
 
-Granola pricing looks simple on the surface: free, $14 or $35. The details matter more. Its free tier is generous on features and strict on history, and the jump to Business is mostly about keeping your notes and wiring them into the other tools your team already uses every day.
+Granola pricing is the per-seat, per-workspace price list for Granola's bot-free AI notepad, and on the surface it looks simple: free, $14 or $35. The details matter more. Its free tier is generous on features and strict on history, and the jump to Business is mostly about keeping your notes and wiring them into the tools your team already uses.
 
-This guide explains what each Granola plan includes, what you actually pay as a person or a team, and when a different tool is cheaper for the same job.
+This guide explains what each of the Granola pricing plans includes, what you actually pay as a person or a team, and when a different tool is cheaper for the same job.
 
 ## How much does Granola cost in 2026?
 
-Granola pricing in 2026 is $0 on Basic, $14 per user per month on Business and $35 per user per month on Enterprise. Basic and Business are billed monthly; according to the help center, annual billing is available on Enterprise contracts only.
+Granola AI pricing in 2026 is $0 on Basic, $14 per user per month on Business and $35 per user per month on Enterprise. The three Granola pricing plans are billed per workspace, so every member sits on the same tier. Basic and Business are billed monthly; according to the help center, annual billing is available on Enterprise contracts only.
 
 | Plan | Price per user per month | Who it is for |
 |---|---|---|
@@ -50,7 +50,7 @@ Granola pricing in 2026 is $0 on Basic, $14 per user per month on Business and $
 | Business | $14 | Professionals and teams who keep notes |
 | Enterprise | $35 | Companies that need SSO and admin control |
 
-No paid trial is listed. The company's own pitch is to "try Granola for a few meetings" on the free plan first.
+The pricing page lists no trial, though the help centre describes time-limited Business and Enterprise trials that drop to Basic when they end. Granola's own pitch is to "try Granola for a few meetings" on the free plan first.
 
 ## Is Granola free?
 
@@ -67,7 +67,7 @@ Older reviews describe a 25-note limit on the free plan. As of October 2026, the
 
 ## What do you get on Granola Business for $14?
 
-Business at $14 per user per month removes the 30-day limit and adds 3 groups of features: unlimited notes and history, advanced AI thinking models, and integrations.
+Granola business pricing is a flat $14 per user per month, and it removes the 30-day limit while adding 3 groups of features: unlimited notes and history, advanced AI thinking models, and integrations.
 
 - **Unlimited notes and history:** every meeting stays searchable.
 - **Advanced AI models:** pick stronger models for chat instead of "Auto".
@@ -79,7 +79,7 @@ For most individuals and small teams, this is the tier that turns Granola from a
 
 ## When do you need Granola Enterprise at $35?
 
-You need Enterprise ($35 per user per month) when IT requires single sign-on, org-wide controls, or retention rules. It adds everything in Business plus:
+You need Enterprise (from $35 per user per month) when IT requires single sign-on, org-wide controls, or retention rules. Granola's help centre notes SSO is for teams of 50 or more users. It adds everything in Business plus:
 
 - Enterprise-grade security and admin controls
 - Single sign-on (SSO)
@@ -92,7 +92,7 @@ At $35 a seat, Enterprise is 2.5 times the Business price. Overkill for most. Te
 
 ## What does Granola cost for a team?
 
-Scale it up and a 10-person team pays $1,680 a year on Business and $4,200 a year on Enterprise. Here is how the cost grows with headcount.
+Scale Granola pricing up and a 10-person team pays $1,680 a year on Business and $4,200 a year on Enterprise. Here is how the cost grows with headcount.
 
 | Team size | Business ($14) per year | Enterprise ($35) per year |
 |---|---|---|
@@ -128,13 +128,13 @@ If your workspace admin manages billing, you will see a billing contact email in
 
 Dropping to Basic does not delete your notes. Older ones (beyond 30 days) are stored but hidden in the app until you upgrade again. Safe fallback, then, but a frustrating one if you rely on old meetings.
 
-Before you downgrade, export what you need. A CSV of note titles and summaries can be generated from your profile settings. For full notes, copy the important ones into your docs or CRM first.
+Before you downgrade, export what you need. A CSV of note titles and summaries can be generated from Settings, under Profile, and it is emailed to you within a few hours. For full notes, copy the important ones into your docs or CRM first.
 
 This is also the moment to compare Granola pricing with tools you may already pay for. Our Granola vs Otter AI and Granola vs Fathom comparisons show how the plans line up.
 
 ## How does Granola pricing compare with other AI note takers?
 
-On Granola pricing versus the market, Business at $14 sits in the middle. Fireflies Pro is cheaper at $10 per seat billed yearly, while Jamie Team at $37 and Granola Enterprise at $35 sit at the top, priced for companies that need admin controls more than they need a lower seat cost.
+Set Granola pricing against the market and Business at $14 sits in the middle. Fireflies Pro is cheaper at $10 per seat billed yearly, while Jamie Team at $37 and Granola Enterprise at $35 sit at the top, priced for companies that need admin controls more than they need a lower seat cost.
 
 | Tool | Free plan | Entry paid price (per user/month) |
 |---|---|---|
@@ -145,7 +145,7 @@ On Granola pricing versus the market, Business at $14 sits in the middle. Firefl
 | Otter.ai | 300 min/month | $8.33 yearly, $16.99 monthly |
 | Read AI | 5 meetings/month | $15 yearly, $19.75 monthly |
 
-Prices from vendor pages, checked 17 October 2026: [Fathom](https://www.fathom.ai/pricing), [Otter](https://otter.ai/pricing), [Read AI](https://www.read.ai/plans-pricing).
+Prices from vendor pages, checked 17 October 2026: [Fathom](https://www.fathom.ai/pricing), [Otter](https://otter.ai/pricing), [Read AI](https://www.read.ai/plans-pricing). Our [guide to AI transcription software](https://lynkk.ai/blog/ai-transcription-software) covers how these tools differ on accuracy, and [Lynkk's own plans](https://lynkk.ai/pricing) sit beside them in the table.
 
 ## Is Granola worth paying for?
 
@@ -159,9 +159,9 @@ Ask yourself 3 questions before upgrading:
 
 ## What is a cheaper or better-value Granola alternative?
 
-If price is the issue, Fathom's free plan records unlimited calls and Fireflies Pro costs $10 per seat billed yearly. Value is a different question. Lynkk (our product) costs $15 a month and does more work around each meeting.
+If Granola pricing is the issue, Fathom's free plan records unlimited calls and Fireflies Pro costs $10 per seat billed yearly. Value is a different question. Lynkk (our product) costs $15 a month and does more work around each meeting.
 
-What Lynkk adds for roughly the same price as Granola Business:
+What Lynkk adds for roughly the same price as Granola Business, from its [meeting bot](https://lynkk.ai/features/meeting-bot) to [tasks with owners](https://lynkk.ai/features/action-items):
 
 - **Both capture modes:** a bot for Zoom, Google Meet and Teams, or bot-free recording through the Mac app and Chrome extension.
 - **Meeting Brief** before each call and **Cue** answers during it.
@@ -169,11 +169,11 @@ What Lynkk adds for roughly the same price as Granola Business:
 - **Ask Lynkk** search across all meetings, with citations.
 - **17 languages**, including Hindi and Hinglish, and a choice of 6 data regions.
 
-Lynkk's free plan covers 5 notes a month, and yearly billing saves 35% during early-bird pricing. See all options in our Granola AI alternatives guide.
+Lynkk's free plan covers 5 notes a month, [17 languages](https://lynkk.ai/features/multilingual-transcription) are included, and yearly billing saves 35% during early-bird pricing. See all options in our Granola AI alternatives guide, or the wider [roundup of free AI note takers](https://lynkk.ai/blog/best-free-ai-note-takers).
 
 [Try Lynkk free](https://lynkk.ai/)
 
-**More on Lynkk:** [Lynkk vs Granola](https://lynkk.ai/compare/granola) and [Lynkk pricing](https://lynkk.ai/pricing).
+**More on Lynkk:** [a side-by-side with Granola](https://lynkk.ai/compare/granola) and [what each plan costs](https://lynkk.ai/pricing).
 
 ## FAQ
 
