@@ -4,3 +4,28 @@ read-ai-pricing	| 1 user | $180 | Not available (5+ licenses) | Ask Read AI |	| 
 read-ai-pricing	A team of 3 that wants Enterprise features still pays for 5 seats, or $1,350 a year	A team of 3 that wants Enterprise+ features still pays for 5 seats, or $1,785 a year	https://www.read.ai/plans-pricing
 read-ai-pricing	Enterprise max meeting length shown as 4 hours in the table, 8 hours in the plan card	Enterprise 4 hours, Enterprise+ 8 hours (comparison table)	https://www.read.ai/plans-pricing
 read-ai-pricing	Enterprise needs at least 5 licenses (FAQ)	Enterprise has no seat minimum; Enterprise+ needs 5 licenses	https://www.read.ai/plans-pricing
+google-meet-ai-note-taker	| Read AI | 5 meetings/month, 1 h each | Lists 20+ languages |	| Read AI | 5 meetings/month, 1 h each | Yes, in 16+ report languages |	https://www.read.ai/plans-pricing
+google-meet-ai-note-taker	| Fathom | Unlimited recordings | Check before use |	| Fathom | Unlimited recordings | Not named on its pricing page |	https://www.fathom.ai/pricing
+google-meet-ai-note-taker	| Otter.ai | 300 min/month, 30 min each | English-focused |	| Otter.ai | 300 min/month, 30 min each | Not named on its pricing page |	https://otter.ai/pricing
+google-meet-ai-note-taker	Tactiq: Free gives 10 transcripts a month	Free gives 10 transcripts and 5 AI credits a month; Pro is $8 per user a month billed annually	https://tactiq.io/pricing
+google-meet-ai-note-taker	recording needs an eligible Workspace edition or a Google One plan with 2 TB or more storage	recording needs 1 of 10 listed Workspace editions, a Workspace Individual subscription or a Google One plan with 2 TB or more storage	https://support.google.com/meet/answer/9308681
+google-meet-ai-note-taker	Read AI Pro costs $15 billed yearly	Pro costs $15 billed yearly, or $19.75 monthly	https://www.read.ai/plans-pricing
+google-meet-ai-note-taker	Fireflies (Pro $10 per seat billed yearly)	Fireflies (Pro $10 per seat billed yearly, $18 monthly)	https://fireflies.ai/pricing
+read-ai-vs-otter-ai	Read AI Enterprise is $22.50 billed yearly and needs at least a 5-license minimum	Read AI Enterprise is $22.50 billed yearly, and only Enterprise+ carries a 5-license minimum	https://www.read.ai/plans-pricing
+read-ai-vs-otter-ai	The Enterprise tier ... requires 5 licenses, so a team of 3 still pays for 5 seats	Enterprise+ adds a 5-license minimum, so a team of 3 that needs HIPAA pays for 5 seats	https://www.read.ai/plans-pricing
+read-ai-vs-otter-ai	| Windows desktop app | Yes | Web app | / | macOS desktop app | Yes | Web app |	| Windows desktop app | Yes | Yes | / | macOS desktop app | Yes | Yes |	https://otter.ai/pricing
+read-ai-vs-otter-ai	team vocabulary on Pro	on Pro, 100 names plus 100 other terms for the team and the same again per user	https://otter.ai/pricing
+read-ai-vs-otter-ai	Read AI lists support for 20+ languages, whereas Otter focuses mainly on English	Read AI reports in 16+ languages (plan card says 20+); Otter names 6 languages	https://otter.ai/pricing
+read-ai-vs-otter-ai	Teams AI recap requires a Microsoft 365 Copilot license	removed (not verified); replaced with Read AI AppSource app and Otter video replay scope	https://otter.ai/pricing
+meeting-agenda-template-word	Free for 5 meetings a month	The free plan covers 5 notes a month	https://lynkk.ai/pricing
+follow-up-email-after-meeting	Under 150 words is the target	Aim for 50 to 125 words	https://www.grammarly.com/blog/emailing/follow-up-email/
+follow-up-email-after-meeting	Wait 2 to 3 business days, then reply in the same thread (body and FAQ)	Wait 3 to 5 business days, then reply in the same thread	https://www.grammarly.com/blog/emailing/follow-up-email/
+follow-up-email-after-meeting	**Day 3:** reply in the thread	**Day 5:** reply in the thread	https://www.grammarly.com/blog/emailing/follow-up-email/
+follow-up-email-after-meeting	After 48 hours, details blur and the email feels like an afterthought	Once a couple of days pass, details blur and the email reads like an afterthought (unsourced 48-hour claim removed)	https://www.grammarly.com/blog/emailing/follow-up-email/
+follow-up-email-after-meeting	Free for 5 meetings a month	Free for 5 notes a month, with recordings up to 2 hours	https://lynkk.ai/pricing
+follow-up-email-after-meeting	It works with Calendly and Cal.com, so booking the next meeting is one step	removed: neither Calendly nor Cal.com appears on the integrations page (connected: Google Calendar, Jira, Slack)	https://lynkk.ai/integrations
+hindi-transcription	choose हिन्दी (भारत)	select Hindi (Google Docs lists "Hindi" in its voice typing languages)	https://support.google.com/docs/answer/4492226
+hindi-transcription	Spoken punctuation commands only work in English	Voice commands, punctuation included, work only in English, and both account and document language must be English	https://support.google.com/docs/answer/4492226
+hindi-transcription	Gboard on Android and the iPhone keyboard both support Hindi dictation for short notes	Gboard types from speech in many languages (Google does not list them); Apple lists Hindi (India) for iPhone dictation	https://www.apple.com/ios/feature-availability/
+hindi-transcription	YouTube auto-captions: processing takes time	processing time depends on the audio; captions publish automatically; live streams are English only	https://support.google.com/youtube/answer/6373554
+hindi-transcription	One-click Jira tickets (listed with free features)	Jira actions on Pro	https://lynkk.ai/pricing
