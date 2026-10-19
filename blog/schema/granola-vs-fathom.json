@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Granola vs Fathom in 2026: Which Fits US Teams Better?",
+      "headline": "Granola vs Fathom in 2026: which AI note taker fits US teams better",
       "description": "Granola vs Fathom for US teams in 2026: bot vs bot-free capture, free plans, real prices, CRM sync and privacy compared, plus when a third option fits better.",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://lynkk.ai/blog/granola-vs-fathom",
@@ -37,7 +37,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Granola vs Fathom in 2026: Which Fits US Teams Better?",
+          "name": "Granola vs Fathom in 2026: which AI note taker fits US teams better",
           "item": "https://lynkk.ai/blog/granola-vs-fathom"
         }
       ]

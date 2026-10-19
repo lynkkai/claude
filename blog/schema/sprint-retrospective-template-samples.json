@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Sprint Retrospective Template for 2026: 40 Questions",
+      "headline": "Sprint Retrospective Samples for US Scrum Teams in 2026: Template, 5 Formats and 40 Questions",
       "description": "Sprint retrospective samples for 2026: a copy-ready template, 5 formats, 40 questions and sample answers for what went well, plus how to turn actions into Jira.",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://lynkk.ai/blog/sprint-retrospective-template-samples",
@@ -37,7 +37,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Sprint Retrospective Template for 2026: 40 Questions",
+          "name": "Sprint Retrospective Samples for US Scrum Teams in 2026: Template, 5 Formats and 40 Questions",
           "item": "https://lynkk.ai/blog/sprint-retrospective-template-samples"
         }
       ]
@@ -58,7 +58,7 @@
           "name": "How long should a sprint retrospective be?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "At most 3 hours for a 1-month sprint, per the Scrum Guide's timebox. Most 2-week sprints use 45 to 90 minutes. Shorter sprints need proportionally less time. A 55-minute agenda with 7 steps fits most 2-week sprints and leaves room to agree on real actions."
+            "text": "At most 3 hours for a 1-month sprint, per the Scrum Guide's timebox, and the guide says shorter sprints usually need less. It sets no floor, so 45 to 90 minutes for a 2-week sprint is convention rather than rule (industry estimate). The 7-part agenda above runs 55 minutes."
           }
         },
         {
@@ -74,7 +74,7 @@
           "name": "How often should sprint retrospectives happen?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Once per sprint. It comes at the end, after the sprint review and before the next sprint planning, and closes out the sprint so the team can carry improvements straight into planning while details are still fresh. Retros held weeks later lose detail."
+            "text": "Once per sprint. The Scrum Guide says the retrospective concludes the Sprint, so it sits after the sprint review and before the next planning. Improvements can go straight into the next Sprint Backlog, which is the part most teams skip when they postpone the retro by a week."
           }
         },
         {
@@ -82,7 +82,7 @@
           "name": "Who attends a sprint retrospective?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Scrum team: developers, the product owner and the Scrum Master. Stakeholders usually attend the sprint review instead, and although some teams invite one occasionally, keeping retros team-only makes people more willing to raise problems honestly. Keep the group small and consistent."
+            "text": "The Scrum team, which the Scrum Guide defines as 1 Scrum Master, 1 Product Owner and the developers, with no sub-teams inside it. Stakeholders belong in the sprint review instead. Keeping retros team-only makes people readier to raise problems honestly, so keep the group small and consistent."
           }
         },
         {
@@ -90,7 +90,7 @@
           "name": "What is the difference between a sprint review and a retrospective?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The sprint review inspects the product increment with stakeholders, while the retrospective inspects how the team worked and plans improvements. Both happen at the end of each sprint, with the review first. Keeping them separate stops product feedback from crowding out the team's own improvements. <!-- HANDOFF Prompts answered: \"sprint retrospective samples\", \"sprint retrospective template\", \"sprint retrospective questions\", \"sprint retrospective examples what went well\", \"what to say in sprint retrospective\". Prompt gaps (createprompt): \"sprint retrospective jira template\". Fan-out source: Ubersuggest googlesuggestions (sample answers, what went well, sample questions, what to say, how often, template, examples for developers) + SERP (canva, parabol, resolution.de, kromatic), 2026-10-17. Inbound links: from /blog/daily-standup-meeting and /blog/meeting-minutes-to-jira. Editor checks: Scrum Guide 2020 timebox (3 hours max for a 1-month sprint) quoted from scrumguides.org. -->"
+            "text": "The sprint review inspects the product increment with stakeholders, while the retrospective inspects how the team worked and plans improvements. Both happen at the end of each sprint, with the review first. Keeping them separate stops product feedback from crowding out the team's own improvements. <!-- HANDOFF Prompts answered: \"sprint retrospective samples\", \"sprint retrospective template\", \"sprint retrospective questions\", \"sprint retrospective examples what went well\", \"what to say in sprint retrospective\". Prompt gaps (createprompt): \"sprint retrospective jira template\". Fan-out source: Ubersuggest googlesuggestions (sample answers, what went well, sample questions, what to say, how often, template, examples for developers) + SERP (canva, parabol, resolution.de, kromatic), 2026-10-17. Inbound links: from /blog/daily-standup-meeting and /blog/meeting-minutes-to-jira. Editor checks: Scrum Guide timeboxes (retrospective 3 hours, review 4 hours, for a 1-month sprint) and the Scrum Team definition quoted from scrumguides.org, fetched 2026-10-19. Prime Directive wording from retrospectivewiki.org. Format names Start Stop Continue, Mad Sad Glad and Timeline are common practice, not taken from a primary source; Parabol confirms 4Ls, Sailboat, Starfish, Rose Thorn Bud, Hopes and Fears and What Went Well. -->"
           }
         }
       ]

@@ -1,5 +1,5 @@
 ---
-title: "Sprint Retrospective Template for 2026: 40 Questions"
+title: "Sprint Retrospective Samples for US Scrum Teams in 2026: Template, 5 Formats and 40 Questions"
 meta_title: "Sprint Retrospective Samples and Template: 40 Questions"
 meta_description: "Sprint retrospective samples for 2026: a copy-ready template, 5 formats, 40 questions and sample answers for what went well, plus how to turn actions into Jira."
 slug: sprint-retrospective-template-samples
@@ -27,7 +27,7 @@ last_updated: 2026-10-17
 featured_image_alt: "Sprint retrospective samples on a board with went well, improve and action columns"
 ---
 
-# Sprint Retrospective Template for 2026: 40 Questions
+# Sprint Retrospective Samples for US Scrum Teams in 2026: Template, 5 Formats and 40 Questions
 
 *By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh), Co-founder, Lynkk.ai · Last updated 17 October 2026*
 
@@ -43,7 +43,7 @@ With these sprint retrospective samples you get everything to run a good retro t
 
 A sprint retrospective is the Scrum event at the end of each sprint where the team inspects how it worked, covering people, process, tools and the definition of done, and agrees on improvements. Per the [Scrum Guide](https://scrumguides.org/scrum-guide.html), it is timeboxed to a maximum of 3 hours for a 1-month sprint; shorter sprints usually need less.
 
-Not the same as a sprint review. A review looks at the product increment with stakeholders, while a retrospective looks at how the team works, usually team-only.
+Not the same as a sprint review. A review looks at the product increment with stakeholders and gets up to 4 hours for a 1-month sprint, while a retrospective looks at how the team works, usually team-only.
 
 ## What does a sprint retrospective template look like?
 
@@ -81,7 +81,7 @@ Total: 55 minutes, which suits a 2-week sprint.
 
 ## Which sprint retrospective formats work best?
 
-Between them, these 5 formats cover most teams; rotate them every few sprints so the retro stays fresh.
+Between them, these 5 sprint retrospective samples cover most teams; rotate them every few sprints so the retro stays fresh. [Parabol](https://www.parabol.co/resources/agile-sprint-retrospective-techniques/) lists 13 formats if you want more.
 
 | Format | Columns | Best for |
 |---|---|---|
@@ -95,7 +95,7 @@ Tired of formats? Skip them and ask 3 well-chosen questions from the list below.
 
 ## How do the Timeline, Starfish and Rose Thorn Bud formats work?
 
-Three more formats help when the usual columns feel stale. Each suits a different kind of sprint.
+Three more sprint retrospective samples help when the usual columns feel stale. Each suits a different kind of sprint.
 
 **Timeline retrospective.** Draw the sprint as a line from day 1 to the last day. Team members add events (releases, incidents, scope changes) and mark how they felt at each point. It works well after eventful sprints, because it rebuilds a shared memory of what happened before anyone judges it.
 
@@ -113,11 +113,11 @@ Three more formats help when the usual columns feel stale. Each suits a differen
 
 **4Ls (Liked, Learned, Lacked, Longed for).** Each person adds notes under 4 headings. Liked covers what went well, Learned covers new knowledge, Lacked covers what was missing, and Longed for covers what the team wishes it had. It suits teams who want to reflect on learning, not just process, and works well after a sprint with new tools or new members.
 
-**Hopes and Fears.** Best at the start of a new project or quarter rather than at the end of a sprint. Team members list what they hope will happen and what they fear might go wrong, then agree on actions to protect the hopes and reduce the fears. It surfaces risks early, before they appear in a retro as problems.
+**Hopes and Fears.** Of these 2 sprint retrospective samples, this is the one for the start of a new project or quarter rather than the end of a sprint. Team members list what they hope will happen and what they fear might go wrong, then agree on actions to protect the hopes and reduce the fears. It surfaces risks early, before they appear in a retro as problems.
 
 ## How do you choose the right retrospective format?
 
-Choose a format by what kind of sprint you just had, not by habit. Some simple rules:
+Choose between the 8 sprint retrospective samples above by what kind of sprint you just had, not by habit. Some simple rules:
 
 1. **Normal sprint:** Went well, Improve, Actions.
 2. **Rough sprint with incidents:** Timeline, to rebuild what happened.
@@ -125,7 +125,7 @@ Choose a format by what kind of sprint you just had, not by habit. Some simple r
 4. **Stable, experienced team:** Starfish, for smaller adjustments.
 5. **Long project or big goal ahead:** Sailboat, to see risks and helps.
 
-Rotate every 3 to 4 sprints so retros do not become routine.
+Rotate every 3 to 4 sprints so retros do not become routine. A quick [standup](https://lynkk.ai/blog/daily-standup-meeting) habit helps here too: issues raised daily rarely wait for the retro.
 
 ## What are 40 good sprint retrospective questions?
 
@@ -188,7 +188,7 @@ Pick 3 to 5 questions per retro, not all 40. Like all sprint retrospective sampl
 
 ## What are sprint retrospective samples for "what went well"?
 
-Good "what went well" answers are specific and name a cause, so the team can repeat it. Below: 8 sprint retrospective samples for what went well:
+Good "what went well" answers are specific and name a cause, so the team can repeat it. Searches for "sprint retrospective examples what went well" usually want specifics, so below are 8 sprint retrospective samples for what went well:
 
 - "We hit the sprint goal 2 days early because the backlog was refined before planning."
 - "Pairing on the payment bug cut the fix time from days to an afternoon."
@@ -203,9 +203,9 @@ Compare these with weak answers like "communication was good". Specific answers 
 
 ## What should you say in a sprint retrospective?
 
-Say what happened, its effect and a suggestion, in that order, using a simple structure: "When X happened, it caused Y. Next time, could we try Z?" Feedback stays about the work, not the person.
+What to say in a sprint retrospective follows 1 structure: "When X happened, it caused Y. Next time, could we try Z?" Say what happened, its effect and a suggestion, in that order, and feedback stays about the work, not the person.
 
-Sample answers for what did not go well:
+These 3 sprint retrospective sample answers cover what did not go well:
 
 - "When stories entered the sprint without acceptance criteria, we spent 2 days clarifying. Could we add a ready check in refinement?"
 - "When the release slipped, stakeholders heard it from support first. Could the PM post a weekly status?"
@@ -213,24 +213,24 @@ Sample answers for what did not go well:
 
 ## What are common sprint retrospective anti-patterns?
 
-Most failing retros show 1 of 6 anti-patterns. Spotting them is half the fix:
+Most failing retros show 1 of 6 anti-patterns, whichever of the sprint retrospective samples above you run. Spotting them is half the fix:
 
 - **No actions, or too many.** Leave with 1 to 3 owned actions, not 0 and not 10.
 - **Same complaints every sprint.** Usually a sign that last retro's actions were never reviewed.
-- **Blame.** Discussion turns to who, not what. Restate the Prime Directive: everyone did their best with what they knew.
+- **Blame.** Discussion turns to who, not what. Restate the [Prime Directive](https://retrospectivewiki.org/index.php?title=The_Prime_Directive): everyone did the best job they could with what they knew at the time.
 - **The manager does the talking.** Ask silent writing first, then discussion.
 - **Skipping retros when busy.** The busiest sprints are the ones that need them most.
 - **Retro theatre.** New games every time, but nothing changes. Format matters less than follow-through.
 
 ## How do you run a remote sprint retrospective?
 
-Remote retrospectives work well with 4 adjustments. Use a shared online board, start with 5 minutes of silent writing so everyone contributes, use dot voting to pick topics, and keep cameras optional but encourage them.
+Remote retrospectives work well with 4 adjustments, and all 8 sprint retrospective samples above run fine online. Use a shared board, start with 5 minutes of silent writing so everyone contributes, use dot voting to pick topics, and keep cameras optional but encourage them.
 
-Record the session or have a note-taker. Why? Remote retros lose the physical board that teams used to photograph at the end. Put the actions straight into your backlog before the call ends, while everyone is still present to confirm owners and dates.
+Record the session or have [the notes written for you](https://lynkk.ai/features/meeting-notes). Why? Remote retros lose the physical board that teams used to photograph at the end. Put the actions straight into your backlog before the call ends, while everyone is still present to confirm owners and dates.
 
 ## How do you run a sprint retrospective step by step?
 
-Run a sprint retrospective in 6 steps:
+Run any of these sprint retrospective samples in 6 steps:
 
 1. **Set the stage.** Remind everyone the goal is improvement, not blame.
 2. **Review last retro's actions.** Done, not done, or dropped.
@@ -243,13 +243,13 @@ Most teams skip Step 2. That is why familiar issues keep returning.
 
 ## How do you make sure retrospective actions get done?
 
-Put retrospective actions in the same backlog as feature work, with an owner and a due date, and review them at the start of the next retro. Actions that live only in a retro board? Usually forgotten by day 3.
+Put retrospective actions in the same backlog as feature work, with an owner and a due date, and review them at the start of the next retro. Our [action items guide](https://lynkk.ai/blog/action-items-examples-template) has the wording that makes them stick. Actions that live only in a retro board? Usually forgotten by day 3.
 
-> **Let Lynkk do it.** Lynkk records your retro on Zoom, Google Meet, Teams or in person and captures the action items with owners and dates. Send them to Jira in one click, and the Meeting Brief before your next retro shows which ones are still open. Free for 5 meetings a month. [Start for free](https://lynkk.ai/)
+> **Let Lynkk do it.** Lynkk records your retro on Zoom, Google Meet, Teams or in person and captures the action items with owners and dates on one task board. Send the note's items to [Jira](https://lynkk.ai/integrations) in 1 step, as 1 issue each, and on Pro a weekly digest sums up what is still open before your next retro. [Free for 5 notes a month](https://lynkk.ai/pricing), 2 hours per recording. [Start for free](https://lynkk.ai/)
 
 See how product teams turn [meeting minutes into Jira issues](https://lynkk.ai/blog/meeting-minutes-to-jira), read our guide to faster [daily standup meetings](https://lynkk.ai/blog/daily-standup-meeting), and for more facilitation ideas, try [Parabol's retrospective techniques](https://www.parabol.co/resources/agile-sprint-retrospective-techniques/), a useful reference.
 
-**More on Lynkk:** [standup and retro notes with Lynkk](https://lynkk.ai/use-cases/team-standups) and [AI action item tracking](https://lynkk.ai/features/action-items).
+**More on Lynkk:** [notes for team standups and retros](https://lynkk.ai/use-cases/team-standups), [AI action item tracking](https://lynkk.ai/features/action-items) and [answers pulled from past meetings](https://lynkk.ai/features/ask-your-meetings).
 
 ## FAQ
 
@@ -259,7 +259,7 @@ A sprint retrospective is a Scrum event at the end of each sprint where the team
 
 ### How long should a sprint retrospective be?
 
-At most 3 hours for a 1-month sprint, per the Scrum Guide's timebox. Most 2-week sprints use 45 to 90 minutes. Shorter sprints need proportionally less time. A 55-minute agenda with 7 steps fits most 2-week sprints and leaves room to agree on real actions.
+At most 3 hours for a 1-month sprint, per the Scrum Guide's timebox, and the guide says shorter sprints usually need less. It sets no floor, so 45 to 90 minutes for a 2-week sprint is convention rather than rule (industry estimate). The 7-part agenda above runs 55 minutes.
 
 ### What are the 3 questions of a sprint retrospective?
 
@@ -267,11 +267,11 @@ The classic 3 questions are: What went well? What did not go well? What will we 
 
 ### How often should sprint retrospectives happen?
 
-Once per sprint. It comes at the end, after the sprint review and before the next sprint planning, and closes out the sprint so the team can carry improvements straight into planning while details are still fresh. Retros held weeks later lose detail.
+Once per sprint. The Scrum Guide says the retrospective concludes the Sprint, so it sits after the sprint review and before the next planning. Improvements can go straight into the next Sprint Backlog, which is the part most teams skip when they postpone the retro by a week.
 
 ### Who attends a sprint retrospective?
 
-The Scrum team: developers, the product owner and the Scrum Master. Stakeholders usually attend the sprint review instead, and although some teams invite one occasionally, keeping retros team-only makes people more willing to raise problems honestly. Keep the group small and consistent.
+The Scrum team, which the Scrum Guide defines as 1 Scrum Master, 1 Product Owner and the developers, with no sub-teams inside it. Stakeholders belong in the sprint review instead. Keeping retros team-only makes people readier to raise problems honestly, so keep the group small and consistent.
 
 ### What is the difference between a sprint review and a retrospective?
 
@@ -282,5 +282,5 @@ Prompts answered: "sprint retrospective samples", "sprint retrospective template
 Prompt gaps (create_prompt): "sprint retrospective jira template".
 Fan-out source: Ubersuggest google_suggestions (sample answers, what went well, sample questions, what to say, how often, template, examples for developers) + SERP (canva, parabol, resolution.de, kromatic), 2026-10-17.
 Inbound links: from /blog/daily-standup-meeting and /blog/meeting-minutes-to-jira.
-Editor checks: Scrum Guide 2020 timebox (3 hours max for a 1-month sprint) quoted from scrumguides.org.
+Editor checks: Scrum Guide timeboxes (retrospective 3 hours, review 4 hours, for a 1-month sprint) and the Scrum Team definition quoted from scrumguides.org, fetched 2026-10-19. Prime Directive wording from retrospectivewiki.org. Format names Start Stop Continue, Mad Sad Glad and Timeline are common practice, not taken from a primary source; Parabol confirms 4Ls, Sailboat, Starfish, Rose Thorn Bud, Hopes and Fears and What Went Well.
 -->
