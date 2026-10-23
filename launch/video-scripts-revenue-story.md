@@ -1,83 +1,82 @@
-# Lynkk Revenue Story: 2 Video Scripts (Issues → Fixes)
+# Lynkk: 2 Short Video Scripts (Problem, then Fix)
 
 Source page: https://lynkk-revenue-story.imsjwagh99.chatgpt.site/#workflow
 
-Both scripts follow the page's "Sound familiar?" problems and the 4-step workflow
-(Capture → Connect → Follow up → Update CRM). They use the page's illustrative
-Acme Corp deal (Priya Shah, VP of Engineering; budget moving from $30K to $50K).
-
-- **Format:** Vertical 9:16 (Reels, Shorts, TikTok, LinkedIn). Also works cut to 16:9.
-- **Length:** About 60 seconds each.
-- **Style:** Talking-head seller (founder or AE) mixed with screen recordings of the Lynkk workspace.
-- **Captions:** Burned in, always on (most people watch muted).
+- **Format:** Vertical video (Reels, Shorts, TikTok, LinkedIn)
+- **Length:** About 60 seconds each
+- **Style:** A salesperson talking to camera, mixed with screen recordings of the Lynkk app
+- **Captions:** Always on (most people watch on mute)
+- **Hook rule:** The very first word is the hook. Say it loud, show it big on screen, before anything else.
+- **Language rule:** Short, everyday words. If a 15-year-old wouldn't get it, rewrite it.
 
 ---
 
-## Video 1: "The deal didn't go cold. The context did."
+## Video 1: "Wait! What did we promise them?"
 
-**Covers:** Issue 01 (before the call) + Issue 02 (after the call)
-**Fix shown:** Capture → Connect → Follow up (Account Memory, Ask Lynkk, follow-up drafts)
-**Goal:** Awareness + "Start free" sign-ups
+**The problem:** You forget what you said to the customer, and your follow-up email never gets sent.
+**The fix:** Lynkk remembers every call and writes the follow-up email for you.
+**Goal:** Get people to try it free.
 
-| Time | Visual | Voiceover / Dialogue | On-screen text |
+| Time | What we see | What we hear | Text on screen |
 |---|---|---|---|
-| **0-3s (HOOK)** | Tight close-up of a seller, frozen mid-call, eyes darting. Zoom ringing in the background. | "Wait... what did we promise them?" | **"Wait, what did we promise them?"** |
-| 3-8s | Fast cuts: five browser tabs, "Call notes.doc", an email thread titled "Re: Re: next steps", a sticky note saying "Who owns this?" | "Five tabs. Three old notes. Ten minutes to piece together a conversation you already had." | 5 tabs. 3 notes. 10 minutes. |
-| 8-14s | Seller ends a call, says "I'll send that by end of day," and immediately gets pulled into the next meeting. Cut to a Gmail draft labeled "Follow-up to Priya: Still in drafts." | "Then the call ends. You say 'I'll send that by end of day.' The next meeting starts. The follow-up waits." | Still in drafts... |
-| 14-18s | Calendar flips forward 3 days. Draft is still unsent. | "And a small promise quietly becomes a missed opportunity." | **The deal didn't go cold. The context did.** |
-| 18-20s | Hard cut to clean Lynkk workspace. Brand sting. | "Here's the fix." | lynkk. |
-| 20-28s | **Step 01, Capture.** Screen recording: Google Meet call "Acme Corp · Discovery call · 47 min" showing "Captured", then the call summary and "3 action items · 2 commitments". | "Lynkk joins your call, or records the in-person meeting, and captures every decision, owner, and action item." | 01 Capture |
-| 28-38s | **Step 02, Connect.** Acme account timeline: Oct 06 "We have $30K set aside." → Oct 13 "Let's bring our IT team in." → Oct 20 "We can stretch to $50K." Then type into Ask Lynkk: "What did we promise Acme, and what's still open?" Answer appears with source links. | "Then it connects every conversation with the account. Ask what you promised, and you get the answer with the exact moment it was said." | 02 Connect |
-| 38-48s | **Step 03, Follow up.** Prompt: "Draft a follow-up to Priya based on today's call." Draft appears listing the security overview, the phased rollout plan, and the IT intro. Seller reviews, tweaks a line, hits send. | "And your follow-up is already drafted, grounded in what was actually said. You review it, make it yours, and send it." | **Follow up in 5 minutes. Not 3 days.** |
-| 48-54s | Back to the seller, relaxed, walking into the next call with the account brief open. | "Your fifth call should start five calls ahead." | Context that compounds. |
-| 54-60s (CTA) | End card: Lynkk logo, "Start free" button, URL. | "Lynkk. Your revenue team's memory. Start free, no credit card." | **Start free at lynkk.ai** 5 meetings/month. No credit card. |
+| **0-3s (HOOK)** | Close-up of a salesperson on a video call. They freeze. Eyes go wide. | **"Wait!"** ... "What did we promise them?" | **WAIT!** |
+| 3-8s | Quick cuts: lots of open tabs, an old notes file, a long email chain. | "Five tabs. Three old notes. Ten minutes just to remember a call you already had." | 5 tabs. 3 notes. 10 minutes. |
+| 8-14s | The call ends. They say "I'll send it today!" Right away, the next meeting starts. | "Then you say, 'I'll send it today.' But the next meeting starts. And the email waits." | Still in drafts... |
+| 14-18s | The calendar jumps 3 days ahead. The email is still not sent. | "Three days later, the customer has moved on." | **The deal didn't go cold. You just forgot.** |
+| 18-20s | Hard cut to the clean Lynkk app. Logo. | "Here's the fix." | lynkk. |
+| 20-28s | **Step 1: Record.** Lynkk joins a Google Meet call. When it ends, a short summary and a to-do list appear. | "Lynkk joins your call, or records your in-person meeting. It writes down what was decided and who has to do what." | Step 1: It listens |
+| 28-38s | **Step 2: Remember.** A timeline of one customer: first call, "We have $30K." Later call, "We can go up to $50K." Someone types: "What did we promise this customer?" The answer pops up. | "It remembers every call with every customer. Just ask, 'What did we promise?' and get the answer in seconds." | Step 2: It remembers |
+| 38-48s | **Step 3: Follow up.** Type: "Write a follow-up email to Priya." A ready email appears with the exact things promised. The salesperson reads it, changes one line, hits send. | "Then it writes your follow-up email, using what was really said on the call. You check it, and hit send." | **Follow up in 5 minutes. Not 3 days.** |
+| 48-54s | The salesperson, relaxed, walks into the next call with all the notes ready. | "Every call makes the next one easier." | Never start from zero again. |
+| 54-60s (CTA) | End screen: Lynkk logo, "Start free" button, website. | "Lynkk. Never forget a customer conversation. Start free today." | **Start free at lynkk.ai** 5 free meetings a month. No credit card. |
 
-**Alternate hooks (A/B test the first 3 seconds):**
-1. "You had the perfect discovery call. So why can't you remember what they said?"
-2. "Your deal didn't die on the call. It died in your drafts folder."
-3. "I lost a $50K deal to a follow-up I forgot to send."
+**Other first-word hooks to test:**
+1. **"Oops."** I forgot to send the email. And I lost the deal.
+2. **"Stop."** Stop losing deals to emails you forgot to send.
+3. **"Forgot?"** What you promised your customer last week?
 
-**Caption for post:**
-The deal didn't go cold. The context did. Lynkk remembers every customer conversation and drafts your follow-up before the next meeting starts. Start free at lynkk.ai
+**Post caption:**
+Wait! What did we promise them? Lynkk remembers every customer call and writes your follow-up email for you. Start free at lynkk.ai
 
-**Hashtags:** #sales #salestips #AInotetaker #B2Bsales #productivity #Lynkk
+**Hashtags:** #sales #salestips #AInotetaker #productivity #Lynkk
 
 ---
 
-## Video 2: "Your CRM says it's closing. Your customer said 'budget is on hold.'"
+## Video 2: "Wrong. Your notes say yes. Your customer said no."
 
-**Covers:** Issue 03 (at the pipeline review)
-**Fix shown:** Update CRM + CUE live coaching + the manager view
-**Goal:** Sales leaders and RevOps, "Book a demo"
+**The problem:** Your sales records say a deal is going well, but the customer actually said "our budget is on hold." Your boss finds out too late.
+**The fix:** Lynkk fills in your sales records from what the customer really said, and helps you live during the call.
+**Goal:** Get sales managers to book a demo.
 
-| Time | Visual | Voiceover / Dialogue | On-screen text |
+| Time | What we see | What we hear | Text on screen |
 |---|---|---|---|
-| **0-3s (HOOK)** | Split screen. Left: CRM deal card with a green "Looking good" badge. Right: call transcript line highlighted in red. | "Your CRM says this deal is closing. Your customer said... 'budget is on hold.'" | **CRM: Looking good** vs **Call: "Budget is on hold."** |
-| 3-9s | Pipeline review meeting. Manager asks, rep answers confidently. | Rep: "I'm pretty sure this one will close." | "I'm pretty sure..." |
-| 9-15s | Forecast chart drops at quarter end. Manager rubs forehead. | "The CRM tells one story. Your customer told another. And the gap shows up in your forecast." | The gap shows up in your forecast. |
-| 15-18s | Manager pings rep on Slack: "quick update?" ×3 | "So managers chase reps for 'quick updates', and reps rebuild deals from memory." | quick update? quick update? quick update? |
-| 18-20s | Hard cut to Lynkk. Brand sting. | "What if your CRM just... listened?" | lynkk. |
-| 20-30s | **Step 04, Update CRM.** Call ends; deal fields fill in automatically: "Budget: $50K · Next step: security overview", "New stakeholder identified", "Finance needs a separate review". Each field shows a source link back to the call moment. | "Lynkk turns what customers actually said into structured deal data: budget, stakeholders, objections, next steps. Every field links back to the call." | **CRM fields that finally tell the truth.** |
-| 30-42s | **CUE live.** Google Meet call "Acme Corp · Commercials · 14:32". Customer asks, "How does this compare to what you quoted us last time?" A private CUE panel ("Only visible to you") slides in: "You discussed $50K. Here's the nuance: phased rollout, subject to IT approval. Earlier budget was $30K." Rep answers smoothly. | "And on the next call, CUE, your private real-time co-pilot, surfaces the last quote, the open objection, and the promise you made. Only you can see it." | CUE: your edge on every call. |
-| 42-52s | **Manager view.** Illustrative pipeline view: each deal shows its latest context. Manager clicks "Open the source behind any deal update" and hears the actual customer quote. | "For leaders, every update comes with the customer conversation behind it. Coach from real moments, spot risk early, and stop asking for quick updates." | **Know every deal. Without the "quick update?"** |
-| 52-60s (CTA) | End card: Lynkk logo, "Book a demo" + "Start free" buttons. | "Lynkk. Bring your pipeline closer to reality. Book a demo or start free today." | **Book a demo at lynkk.ai** Pro from $19/month |
+| **0-3s (HOOK)** | Split screen. Left: a deal marked with a green "Looking good." Right: the customer's real words, in red. | **"Wrong."** ... "Your records say this deal is a yes. Your customer said, 'Our budget is on hold.'" | **WRONG.** |
+| 3-9s | A team meeting. The boss asks about the deal. The salesperson answers with a smile. | Salesperson: "I'm pretty sure this one will close." | "I'm pretty sure..." |
+| 9-15s | End of the month. A chart of expected sales drops. The boss looks stressed. | "The records said one thing. The customer said another. And now the numbers are off." | The surprise comes too late. |
+| 15-18s | The boss sends the same message again and again: "Any update?" | "So bosses keep asking for updates, and salespeople guess from memory." | Any update? Any update? Any update? |
+| 18-20s | Hard cut to the Lynkk app. Logo. | "What if your records just listened?" | lynkk. |
+| 20-30s | **Fix 1: Records that fill themselves.** The call ends. Boxes fill in by themselves: "Budget: $50K", "Next step: send security info", "New person to talk to: IT lead". Each one has a link back to the exact moment in the call. | "After every call, Lynkk fills in your sales records with what the customer really said: budget, who decides, and what's next. Tap any detail to hear where it came from." | **Records that tell the truth.** |
+| 30-42s | **Fix 2: Help during the call.** On a video call, the customer asks: "How does this compare to your last price?" A small private box pops up on the salesperson's screen: "Last time you discussed $50K, if IT says yes." The salesperson answers with confidence. | "And during your next call, Lynkk's helper, called CUE, quietly shows you the last price, the last worry, and the last promise. Only you can see it." | CUE: only you can see it. |
+| 42-52s | **Fix 3: Bosses see the real story.** The boss opens a list of deals. Each one shows the latest real news. They tap one and hear the customer's own words. | "Bosses can see what customers really said. No more chasing people for updates." | **Know every deal. No more "Any update?"** |
+| 52-60s (CTA) | End screen: Lynkk logo, "Book a demo" and "Start free" buttons. | "Lynkk. Sales records that match real conversations. Book a demo or start free today." | **Book a demo at lynkk.ai** Pro from $19 a month |
 
-**Alternate hooks (A/B test the first 3 seconds):**
-1. "Your forecast isn't wrong because of your reps. It's wrong because of your CRM."
-2. "'I'm pretty sure this one will close.' Famous last words in every pipeline review."
-3. "Stop asking your reps for 'a quick update.'"
+**Other first-word hooks to test:**
+1. **"Liar."** That's your sales report. Not your team.
+2. **"Surprise!"** The deal you were sure about? It's not closing.
+3. **"Again?"** Stop asking your team for "a quick update."
 
-**Caption for post:**
-The CRM tells one story. Your customer told another. Lynkk fills your deal fields from what was actually said, with the source behind every update. Book a demo at lynkk.ai
+**Post caption:**
+Wrong. Your records say yes, but your customer said no. Lynkk fills in your sales records from what customers really say. Book a demo at lynkk.ai
 
-**Hashtags:** #salesleadership #RevOps #forecasting #CRM #B2Bsales #Lynkk
+**Hashtags:** #sales #salesmanager #CRM #salestips #Lynkk
 
 ---
 
-## Production notes
+## Tips for filming
 
-- **Hook rule:** The first line must be on screen as text by frame 1. No logo intro before the hook.
-- **Pacing:** Cut every 2-3 seconds in the problem section; let the product shots breathe (4-6 seconds) in the fix section.
-- **Demo data:** Use the page's illustrative Acme Corp data only. Label product shots "Illustrative" if shown in ads.
-- **Localization idea:** A Hinglish cut of Video 1 ("Let's close this." / "हाँ, let's do it.") to show 15+ language support.
-- **Claims to keep accurate:** "Follow up in 5 minutes. Not 3 days." and "5 meetings/month, no credit card" come straight from the page. Team plan ($39/seat) is "coming soon", so don't feature it as live.
+- **First word first:** No logo, no music build-up, no "Hi guys." Open on the hook word, loud and big on screen.
+- **Speed:** In the problem part, change the shot every 2-3 seconds. In the fix part, let each app screen stay for 4-6 seconds so people can read it.
+- **Keep it simple:** Say "sales records" out loud. Only show the word "CRM" in the hashtags.
+- **Demo data:** Use the sample customer from the page (Acme Corp, Priya). Mark app shots as "Example" if used in ads.
+- **Extra version:** Make a Hindi and English mix version of Video 1 ("Let's close this." / "हाँ, let's do it.") to show Lynkk works in 15+ languages.
+- **Stay accurate:** "Follow up in 5 minutes. Not 3 days." and "5 free meetings a month, no credit card" come straight from the page. The Team plan ($39 per person) is "coming soon," so don't show it as available.
