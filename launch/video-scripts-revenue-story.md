@@ -56,7 +56,7 @@ Wait! What did we promise them? Lynkk remembers every customer call and writes y
 
 | Time | What we see | What we hear | Text on screen |
 |---|---|---|---|
-| **0-3s (HOOK)** | Split screen. Left: a deal marked with a green "Looking good." Right: the customer's real words, in red. | **"Wrong."** ... "Your records say yes. Your customer said, 'Our budget is on hold.'" | **WRONG.** |
+| **0-3s (HOOK)** | Split screen. Left: a deal marked with a green "Looking good." Right: the customer's real words, in red. | **"Wrong."** ... "Your records say yes. Your customer said no." | **WRONG.** |
 | **PROBLEM** | | | |
 | 3-8s | On a video call, the customer says: "Our budget is on hold for now." The salesperson nods, distracted, already looking at the next meeting. | "On a busy day, your customer says, 'Budget is on hold.'" | "Budget is on hold." |
 | 8-12s | Later, the salesperson updates the deal from memory and types "Looking good." | "Later, all you remember is 'it went well.'" | Looking good ✅ |
