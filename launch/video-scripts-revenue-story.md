@@ -3,7 +3,7 @@
 Source page: https://lynkk-revenue-story.imsjwagh99.chatgpt.site/#workflow
 
 - **Format:** Vertical video (Reels, Shorts, TikTok, LinkedIn)
-- **Length:** 50 seconds each (about 115 spoken words)
+- **Length:** 50 seconds each (about 90-120 spoken words)
 - **Focus:** Most of the video is the problem. About 30 seconds on the pain, 15 seconds on the fix, 5 seconds on the call to action.
 - **Style:** A salesperson talking to camera, mixed with short acted scenes and screen recordings of the Lynkk app
 - **Captions:** Always on (most people watch on mute)
@@ -58,13 +58,13 @@ Wait! What did we promise them? Lynkk remembers every customer call and writes y
 |---|---|---|---|
 | **0-3s (HOOK)** | Split screen. Left: a deal marked with a green "Looking good." Right: the customer's real words, in red. | **"Wrong."** ... "Your records say yes. Your customer said, 'Our budget is on hold.'" | **WRONG.** |
 | **PROBLEM** | | | |
-| 3-8s | On a video call, the customer says: "Our budget is on hold for now." The salesperson nods, distracted, already looking at the next meeting. | "It happens on a busy Tuesday. The customer says, 'Budget is on hold.'" | "Budget is on hold." |
-| 8-12s | Later, the salesperson updates the deal from memory and types "Looking good." | "But by the time you update your records, all you remember is 'it went well.'" | Looking good ✅ |
+| 3-8s | On a video call, the customer says: "Our budget is on hold for now." The salesperson nods, distracted, already looking at the next meeting. | "On a busy day, your customer says, 'Budget is on hold.'" | "Budget is on hold." |
+| 8-12s | Later, the salesperson updates the deal from memory and types "Looking good." | "Later, all you remember is 'it went well.'" | Looking good ✅ |
 | 12-17s | Team meeting. The boss asks about the deal. The salesperson smiles: "Pretty sure this one will close." | "In the team meeting, you say, 'Pretty sure it'll close.'" | "Pretty sure..." |
-| 17-21s | The boss writes the deal into the monthly plan and shares it with leadership. | "Your boss counts on it. And tells everyone else to count on it too." | Counted on it. |
+| 17-21s | The boss writes the deal into the monthly plan and shares it with leadership. | "Your boss counts on it. So does everyone else." | Counted on it. |
 | 21-26s | End of the month. The deal doesn't close. A sales chart drops. | "Then the month ends. The deal doesn't close." | Didn't close. |
 | 26-30s | The boss, stressed, sends message after message: "Any update?" "Any update?" | "Now everyone is asking what went wrong." | Any update? Any update? |
-| 30-34s | Freeze on the split screen from the hook: "Looking good" vs "Budget is on hold." | "The truth was on the call the whole time. It just never made it to the records." | **The truth was on the call.** |
+| 30-34s | Freeze on the split screen from the hook: "Looking good" vs "Budget is on hold." | "The truth was on the call. It just never reached your records." | **The truth was on the call.** |
 | **FIX** | | | |
 | 34-36s | Hard cut to the Lynkk app. Logo. | "Here's the fix." | lynkk. |
 | 36-41s | The call ends. Boxes fill in by themselves: "Budget: on hold", "Next step: check back in March". Each has a link back to the call. | "Lynkk fills in your sales records with what the customer really said." | **Records that tell the truth.** |
