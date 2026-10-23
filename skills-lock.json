@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "meta-ads-library": {
+      "source": "hyperfx-ai/marketing-skills",
+      "sourceType": "github",
+      "skillPath": "skills/meta-ads-library/SKILL.md",
+      "computedHash": "98f2b12a0a3e9d4da2c4d4acb1e0a11d38d03daa4f2a41a5b0d4177a1a4b5458"
+    }
+  }
+}

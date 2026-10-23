@@ -4,6 +4,23 @@
 > results for lynkk.ai (the site itself was not directly reachable from this environment).
 > Items under "To confirm" must be filled in by the team before submitting.
 
+## Verified on lynkk.ai (2026-10-23)
+
+The site was reachable on this date. Where it conflicts with older notes below, **this section wins**.
+
+- **Positioning now:** AI meeting notes & conversation intelligence for **revenue teams** (sales reps, sales leaders, RevOps). Headline: "Your revenue lives in your conversations. Don't lose it."
+- **Pricing:** Free ($0 forever, no card, unlimited notes up to 2 h each, first 5 h of AI summaries). Pro $15/mo or $117/yr (~$9.75/mo). Enterprise custom, workspace up to 10 members. Paddle is merchant of record. 7-day refund on first Pro payment.
+- **Platforms:** web app, Mac app, Chrome extension. No iOS / Android / Windows app listed.
+- **Meeting platforms:** Zoom, Google Meet, Microsoft Teams (bot). Mac app also captures WebEx, WhatsApp, FaceTime. In-room / offline recording.
+- **Languages:** 17 + Hinglish, on all plans.
+- **Integrations:** Google Calendar, Outlook Calendar, Slack, Jira, custom MCP servers.
+- **CRM:** **no direct sync yet.** Briefs can be copied into Salesforce / HubSpot. Do not claim "CRM fields updated" until this ships.
+- **Live assistant:** "Cue" is beta, Mac only, invite only.
+- **Data regions:** not stated on site. Privacy policy says processing may occur in India and the US. Do not claim region choice until confirmed.
+- **Compliance:** GDPR and India DPDP Act referenced; AES-256-GCM, TLS 1.2+. No SOC 2 / ISO stated.
+- **Contact on site:** admin@lynkk.ai
+- Meta ads plan: `ads/meta-ads-plan.md`
+
 ## Identity
 
 | Field | Value |
