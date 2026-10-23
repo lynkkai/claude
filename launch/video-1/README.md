@@ -3,7 +3,7 @@
 50-second vertical video (1080x1920, 30 fps) with background music, built on the lynkk.ai design kit.
 Script: `../video-scripts-revenue-story.md` (Video 1).
 
-- **Final video:** `lynkk-video-1-wait.mp4` (voiceover + music). `lynkk-video-1-wait-music-only.mp4` has no voice, for recording a human voiceover later.
+- **Final video:** `lynkk-video-1-wait.mp4` (female voice `af_heart` + music) and `lynkk-video-1-wait-male.mp4` (male voice `am_fenrir` + music). `lynkk-video-1-wait-music-only.mp4` has no voice, for recording a human voiceover later.
 - **Look:** lynkk.ai tokens (night `#111` with dot grid and hairline frame, stone day sections, violet `#7063be` pill tags,
   two-tone Inter headlines, Schibsted Grotesk UI text, striped Lynkk mark, warm studio backdrop behind product shots).
 - **Story:** 0-34s problem on night backgrounds, hard cut at 34s to the fix on day backgrounds, 45-50s end card styled like the lynkk.ai hero.
@@ -34,7 +34,7 @@ ffmpeg -i frames.mp4 -i music.wav -i vo.wav -filter_complex "\
   -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 192k -ar 48000 -movflags +faststart lynkk-video-1-wait.mp4
 ```
 
-To change a line, edit `LINES` in `voiceover.py` (start second, latest end second, text). Other voices to try: `am_michael`, `af_bella`, `am_fenrir`.
+To change a line, edit `LINES` in `voiceover.py` (start second, latest end second, text). For the male cut run it with `am_fenrir` instead of `af_heart`. Other voices to try: `am_michael`, `af_bella`.
 
 Edit copy or timing in `scene.src.html`: each scene has `data-in`/`data-out` seconds and each element a `data-t` start time.
 If you move the 34s cut, move `CUT` in `music.py` too.
