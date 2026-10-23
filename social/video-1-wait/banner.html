@@ -41,6 +41,8 @@
   h1 { font-weight: 600; letter-spacing: -.035em; line-height: 1.02; }
   h1 span { color: var(--mute); display: block; }
   h1 > b { font-weight: inherit; }
+  .rb { display: none; }
+  .reel .rb { display: inline; }
   .sub { color: #bdbdbd; line-height: 1.35; letter-spacing: -.01em; }
   .cta-row { display: flex; align-items: center; }
   .cta {
@@ -136,13 +138,27 @@
   .portrait .notif { top: -40px; right: -60px; }
   .portrait .copper { padding-top: 2.6em; }
   .portrait .visual { margin-top: 30px; }
+
+  /* ---- reel cover 1080x1920 (key content kept inside the 1080x1440 grid crop) ---- */
+  .reel .frame { flex-direction: column; justify-content: center; padding: 0 90px 40px; gap: 70px; }
+  .reel .copy { align-items: center; text-align: center; gap: 26px; }
+  .reel .brand { font-size: 46px; }
+  .reel h1 { font-size: 100px; }
+  .reel .sub { font-size: 29px; max-width: 820px; }
+  .reel .cta-row { gap: 30px; justify-content: center; }
+  .reel .cta { font-size: 28px; padding: 17px 30px; }
+  .reel .url { font-size: 29px; }
+  .reel .ticks { font-size: 21px; gap: 8px 28px; justify-content: center; }
+  .reel .visual { width: 860px; font-size: 20px; }
+  .reel .copper { padding-top: 2.6em; }
+  .reel .notif { font-size: 20px; width: 420px; top: -50px; right: -40px; }
 </style>
 </head>
 <body>
 <div class="frame">
   <div class="copy">
     <div class="brand"><img src="lynkk-mark.png" alt="">Lynkk</div>
-    <h1><b>The deal didn't go cold.</b><span>You just forgot.</span></h1>
+    <h1><b>The deal didn't <br class="rb">go cold.</b><span>You just forgot.</span></h1>
     <p class="sub">Lynkk listens to every call and remembers every promise. Your follow-up is written before the next meeting starts.</p>
     <div class="cta-row">
       <span class="cta">Start free <svg width=".9em" height=".9em" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>

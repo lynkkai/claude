@@ -66,5 +66,6 @@ Never forget a customer call. Don't lose the deal. Start free at lynkk.ai
 | `lynkk-banner-landscape.png` | 2400x1256 (1200x628 @2x) | LinkedIn, Facebook, X link/post images |
 | `lynkk-banner-square.png` | 2160x2160 (1080x1080 @2x) | Instagram / LinkedIn square feed |
 | `lynkk-banner-portrait.png` | 2160x2700 (1080x1350 @2x) | Instagram / Facebook portrait feed |
+| `lynkk-reel-cover.png` | 2160x3840 (1080x1920 @2x) | Reel / TikTok / Shorts cover; key content sits inside the 1080x1440 grid crop and above the caption overlay |
 
-Source: `banner.html` (open with `#landscape`, `#square` or `#portrait`). The logo mark `lynkk-mark.png` was cropped from the video's end card; swap in the official SVG when available.
+Source: `banner.html` (open with `#landscape`, `#square`, `#portrait` or `#reel`). The logo mark `lynkk-mark.png` was cropped from the video's end card; swap in the official SVG when available.
