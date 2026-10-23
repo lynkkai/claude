@@ -27,8 +27,8 @@ Source page: https://lynkk-revenue-story.imsjwagh99.chatgpt.site/#workflow
 | 12-16s | Back on the call, they guess. The customer looks confused. | "So you guess. And the customer notices." | You guessed. They noticed. |
 | 16-21s | The call ends. They smile and say: "I'll send that over today!" | "Then you promise, 'I'll send it today.'" | "I'll send it today!" |
 | 21-26s | Meeting after meeting fills the screen. Calendar packed. The email sits in drafts. | "But the next meeting starts. Then another. And another." | Still in drafts... |
-| 26-30s | Late night. They're too tired. Laptop closes. | "By evening, you've forgotten." | Forgotten. |
-| 30-34s | Calendar jumps 3 days. A new email arrives: "Thanks, but we've decided to go another way." | "Three days later, the customer has moved on." | **The deal didn't go cold. You just forgot.** |
+| 26-30s | Late night. They're too tired. Laptop closes. | "By evening, you've forgotten all about it." | Forgotten. |
+| 30-34s | Calendar jumps 3 days. A new email arrives: "Thanks, but we've decided to go another way." | "The deal didn't go cold. You just forgot." | **The deal didn't go cold. You just forgot.** |
 | **FIX** | | | |
 | 34-36s | Hard cut to the clean Lynkk app. Logo. | "Here's the fix." | lynkk. |
 | 36-40s | Lynkk joins a call. When it ends, a summary and a to-do list appear. | "Lynkk listens to your calls and remembers every promise." | It listens. It remembers. |

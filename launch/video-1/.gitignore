@@ -2,3 +2,6 @@ scene.html
 frames.mp4
 music.wav
 sheet*.png
+vo.wav
+*.onnx
+voices-v1.0.bin
