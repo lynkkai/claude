@@ -1,0 +1,17 @@
+{
+  "Category: AI note taker": { "terms": "AI note taker", "days": 90 },
+  "Category: AI meeting assistant": { "terms": "AI meeting assistant", "days": 90 },
+  "Category: meeting notes": { "terms": "meeting notes AI", "days": 90 },
+  "Category: sales call recording": { "terms": "sales call recording", "days": 90 },
+  "Category: conversation intelligence": { "terms": "conversation intelligence", "days": 90 },
+  "Brand: Fathom": { "terms": "Fathom", "search_type": "KEYWORD_EXACT_PHRASE", "days": 180 },
+  "Brand: Fireflies": { "terms": "Fireflies.ai", "search_type": "KEYWORD_EXACT_PHRASE", "days": 180 },
+  "Brand: Otter": { "terms": "Otter.ai", "search_type": "KEYWORD_EXACT_PHRASE", "days": 180 },
+  "Brand: Granola": { "terms": "Granola AI", "search_type": "KEYWORD_EXACT_PHRASE", "days": 180 },
+  "Brand: Read AI": { "terms": "Read AI", "search_type": "KEYWORD_EXACT_PHRASE", "days": 180 },
+  "Brand: tl;dv": { "terms": "tldv", "days": 180 },
+  "Brand: Gong": { "terms": "Gong.io", "search_type": "KEYWORD_EXACT_PHRASE", "days": 180 },
+  "Brand: Avoma": { "terms": "Avoma", "days": 180 },
+  "Brand: Notta": { "terms": "Notta", "days": 180 },
+  "Brand: Plaud": { "terms": "Plaud", "days": 180 }
+}

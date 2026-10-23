@@ -405,6 +405,14 @@ every 2-3 weeks.
 
 ## 9. Ads Library research to run (once Hyper MCP + Apify are connected)
 
+**Official API (ready now):** `ads/scripts/meta_ad_library.py` pulls these from Meta's Ad Library
+API once a token is set in `META_AD_LIBRARY_TOKEN` (setup in `ads/scripts/README.md`). It only
+sees ads delivered in the **EU**, but for those it returns the targeted age, gender and locations
+plus reach by age, gender and country. That's the best data available on who competitors reach.
+For India / US creative, use the Hyper MCP skill below or the Ad Library website.
+
+**Hyper MCP skill:**
+
 These map straight onto the skill's `meta_ad_library_ads_search` tool. Use `active_status="active"`,
 `period="last30d"`, `count=40`.
 
@@ -435,7 +443,8 @@ To check by hand in a browser now:
 - [ ] Install Pixel + CAPI with the events in 5.1.
 - [ ] Confirm mobile-web signup + calendar connect works end to end.
 - [ ] Record 3 UGC videos (one in Hinglish) and 1 founder video.
-- [ ] Connect Hyper MCP + Apify, then run section 9 and update this plan.
+- [ ] Add `META_AD_LIBRARY_TOKEN`, run `ads/scripts/meta_ad_library.py`, update sections 2 and 6.
+- [ ] Connect Hyper MCP + Apify for India / US ad pulls (section 9).
 - [ ] Update the Product Hunt copy: it currently says "CRM updates", which the site doesn't support yet.
 
 ## Sources
