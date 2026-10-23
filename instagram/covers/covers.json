@@ -1,0 +1,73 @@
+[
+  {
+    "id": "01-meet-lynkk",
+    "eyebrow": "Meet Lynkk",
+    "title": "Your AI teammate for *every meeting*",
+    "sub": "Before, during and after the call",
+    "accent": "violet"
+  },
+  {
+    "id": "02-before-the-call",
+    "eyebrow": "Before the meeting",
+    "title": "Start ahead, *not cold*",
+    "sub": "Past context, open items and who said what",
+    "accent": "lavender"
+  },
+  {
+    "id": "03-live-voice",
+    "eyebrow": "During the meeting",
+    "title": "Ask your meeting *out loud*",
+    "sub": "Lynkk joins and speaks when you need it",
+    "accent": "pink",
+    "live": true
+  },
+  {
+    "id": "04-notes-in-30s",
+    "eyebrow": "After the meeting",
+    "title": "Notes in *30 seconds*",
+    "sub": "Summary, action items and owners, done",
+    "accent": "leaf"
+  },
+  {
+    "id": "05-jira-tickets",
+    "eyebrow": "Meetings to Jira",
+    "title": "Tickets that *write themselves*",
+    "sub": "Every task from the call, straight into Jira",
+    "accent": "violet"
+  },
+  {
+    "id": "06-crm-updates",
+    "eyebrow": "For sales teams",
+    "title": "Your CRM, *updated for you*",
+    "sub": "Fields filled from every customer call",
+    "accent": "orange"
+  },
+  {
+    "id": "07-in-person",
+    "eyebrow": "Online or in person",
+    "title": "Record *any* conversation",
+    "sub": "Multilingual, works offline, always searchable",
+    "accent": "lavender"
+  },
+  {
+    "id": "08-search-everything",
+    "eyebrow": "Knowledge graph",
+    "title": "Search *every meeting* you ever had",
+    "sub": "Ask a question, get the answer and the source",
+    "accent": "pink"
+  },
+  {
+    "id": "09-data-residency",
+    "eyebrow": "Privacy built in",
+    "title": "Your data stays in *your region*",
+    "sub": "Pick a region, every model runs there",
+    "accent": "leaf"
+  },
+  {
+    "id": "10-mac-dictation",
+    "eyebrow": "Lynkk for Mac",
+    "title": "Speak. It types *at your cursor*",
+    "sub": "Dictation that works in every app",
+    "accent": "orange"
+  }
+]
