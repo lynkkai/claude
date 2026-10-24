@@ -56,7 +56,7 @@ Clinical documentation is a heavy burden, and AI scribes and dictation tools hav
 
 A general meeting notetaker isn't automatically suitable for clinical use, even if its transcripts are accurate. The questions to ask are about compliance and workflow, not just accuracy. Here's our guide to [medical transcription software and AI dictation](https://lynkk.ai/blog/medical-transcription-software), including what a HIPAA-compliant AI note taker needs and the categories of tools clinicians use.
 
-Being straightforward about our own product: Lynkk is built for business meetings, not clinical documentation, and it doesn't offer a region setting for where data is processed today. If you work in healthcare, use tools designed and contracted for that purpose for anything involving patient information.
+Being straightforward about our own product: Lynkk suits care-team huddles, case reviews and admin meetings, not clinical charting. It doesn't offer a region setting for where data is processed today (processing may happen in countries including India and the United States), and it isn't end-to-end encrypted, because it has to read a recording to transcribe it. If you work in healthcare, get a signed BAA before any patient information goes into any AI tool, Lynkk included, and use tools designed and contracted for charting.
 
 ## The checklist for any regulated profession
 

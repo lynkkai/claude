@@ -63,7 +63,7 @@ If you're evaluating tools to close this gap, ask:
 
 We wrote a longer comparison of [Zoom AI Companion alternatives](https://lynkk.ai/blog/zoom-ai-companion-alternatives), with pricing and bot or bot-free capture for each.
 
-A note on honesty, since we make one of these tools: **Lynkk doesn't sync to CRMs yet.** It writes sales-call notes with customer, stakeholders, pain points and budget sections that a rep can copy into Salesforce or HubSpot, and it records Zoom, Meet, Teams and in-person calls. If automatic field sync is your must-have, test the tools that offer it, and check that the sync does what the demo shows.
+A note on honesty, since we make one of these tools: **Lynkk doesn't sync to CRMs yet.** On Pro, its Sales Call summary shape writes notes with customer, stakeholders, pain points and budget sections that a rep can copy into Salesforce or HubSpot, and on every plan it records Zoom, Meet, Teams and in-person calls and sends action items to Jira. If automatic field sync is your must-have, test the tools that offer it, and check that the sync does what the demo shows.
 
 ## The bigger idea: conversation intelligence
 

@@ -170,7 +170,7 @@ In a team setting, retrieval must respect who can see which meeting. Filter chun
 
 ## What good looks like
 
-A production version of this is what some notetakers now ship as a feature. Lynkk's [Ask Lynkk](https://lynkk.ai/features/ask-your-meetings), for instance, answers questions across your notes with numbered sources you can open down to the moment in the recording, and only reads notes the asker can access. Sales teams use the same idea for deal reviews and call prep; there's more on that in this overview of [conversation intelligence for sales teams](https://lynkk.ai/blog/sales-conversation-intelligence).
+A production version of this is what some notetakers now ship as a feature. Lynkk's [Ask Lynkk](https://lynkk.ai/features/ask-your-meetings) (a Pro feature), for instance, answers questions across your notes with numbered sources you can open down to the moment in the recording, reads only the asker's own notes (plus, for workspace admins, notes members left visible to admins), and only drafts a Jira issue or calendar event after the user confirms. Sales teams use the same idea for deal reviews and call prep; there's more on that in this overview of [conversation intelligence for sales teams](https://lynkk.ai/blog/sales-conversation-intelligence).
 
 For the broader, non-technical picture of turning meetings into team memory (wikis, search, cited answers), see [knowledge management tools for meeting memory](https://lynkk.ai/blog/meeting-knowledge-management).
 

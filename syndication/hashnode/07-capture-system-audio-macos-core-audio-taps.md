@@ -140,7 +140,7 @@ Most bot-free recorders don't record all the time. They watch for a meeting app 
 
 ## Where you'll see this in practice
 
-Lynkk's [Mac app](https://lynkk.ai/download) is one example of a bot-free recorder: it notices calls in Zoom, Teams, Webex, FaceTime, Slack huddles, WhatsApp and Google Meet in the browser, asks whether to record, and keeps the microphone and the call audio on separate channels. It requires Apple silicon and macOS 14.2 or later. The same app does [dictation](https://lynkk.ai/features/dictation) in any text field, which is a different audio path: microphone in, text out. If you just want to use built-in dictation, here's a guide to [dictation on Mac](https://lynkk.ai/blog/dictation-on-mac) and how to fix it when it stops working.
+Lynkk's [Mac app](https://lynkk.ai/download) is one example of a bot-free recorder: it notices calls in Zoom, Teams, Webex, FaceTime, Slack huddles and WhatsApp, plus Meet, Zoom, Teams and Webex in the browser, asks whether to record (or records automatically, if the user chooses), and keeps the microphone and the call audio on separate channels. It requires Apple silicon and macOS 14.2 or later. The same app does [dictation](https://lynkk.ai/features/dictation) in any text field, which is a different audio path: microphone in, text out. If you just want to use built-in dictation, here's a guide to [dictation on Mac](https://lynkk.ai/blog/dictation-on-mac) and how to fix it when it stops working.
 
 ---
 

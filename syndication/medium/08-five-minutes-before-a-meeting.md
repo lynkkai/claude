@@ -60,7 +60,7 @@ There's a lot of noise about AI meeting assistants. Most of them summarize a mee
 - **During:** answering a question in the moment ("what did they say about budget last month?") without leaving the call.
 - **After:** summaries, action items with owners, and follow-ups.
 
-A tool that only helps *after* still leaves you walking in cold. When you compare tools, ask what each one does before and during the call, not just after. Our team looked at [8 AI meeting assistants](https://lynkk.ai/blog/ai-powered-meeting-assistants) through exactly that lens.
+A tool that only helps *after* still leaves you walking in cold. When you compare tools, ask what each one does before and during the call, not just after. Our team looked at [8 AI meeting assistants](https://lynkk.ai/blog/ai-powered-meeting-assistants) through exactly that lens. (Our own attempt at the "during" part is Cue, an on-screen helper in the Lynkk Mac app, currently in beta by invite.)
 
 ## The one-on-one is the clearest case
 

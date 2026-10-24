@@ -112,7 +112,7 @@ Calendar sync ──► Scheduler ──► Bot worker (browser or SDK) ──�
                               Notes app, email recap, Jira, Slack
 ```
 
-Lynkk's [meeting bot](https://lynkk.ai/features/meeting-bot), for example, follows Google Calendar and joins Zoom, Meet and Teams calls when they begin, appears under the user's name, and leaves once it's the last one in the call. For users who don't want a bot at all, the same product records from a Mac app or Chrome extension instead, which is a different capture path with its own trade-offs.
+Lynkk's [meeting bot](https://lynkk.ai/features/meeting-bot), for example, follows Google Calendar and joins Zoom, Meet and Teams calls when they begin, appears under the user's name, and leaves once it's the last one in the call. It doesn't speak or post a consent message, so the product tells users to announce the recording themselves. For users who don't want a bot at all, the same product records from a Mac app or Chrome extension instead, which is a different capture path with its own trade-offs.
 
 ## Build or buy?
 

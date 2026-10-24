@@ -78,7 +78,7 @@ A rough guide:
 | In-person meetings and interviews | Bot-free |
 | Large webinars | Bot, or the platform's own recording |
 
-Many teams end up using both: a bot for routine calls and calls they miss, and a desktop app for everything else. Lynkk, for example, offers a meeting bot for Zoom, Meet and Teams alongside a Mac app and Chrome extension that record without one.
+Many teams end up using both: a bot for routine calls and calls they miss, and a desktop app for everything else. Lynkk, for example, offers a meeting bot for Zoom, Meet and Teams alongside a Mac app and Chrome extension that record without one, and a browser recorder for meetings in the room.
 
 ## Platform matters too
 

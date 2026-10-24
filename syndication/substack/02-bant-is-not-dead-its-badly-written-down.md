@@ -62,7 +62,7 @@ The reason reps compress answers into checkboxes is simple: they're writing from
 
 Recording the call (with the customer's consent) changes that. The exact words are captured. A good note format then pulls budget, stakeholders, pain points and next steps into separate sections, each tied to the moment it was said. The rep's job becomes checking the notes, not writing them.
 
-That's the workflow behind most modern [sales call notetakers](https://lynkk.ai/use-cases/sales-calls), including ours.
+That's the workflow behind most modern [sales call notetakers](https://lynkk.ai/use-cases/sales-calls), including ours (in Lynkk, the sales-call sections come from the Sales Call summary shape on Pro).
 
 ## BANT is best used before the next call
 

@@ -76,6 +76,6 @@ Warmly,
 
 ---
 
-P.S. If you want to include Lynkk in your trial: it records Zoom, Google Meet, Teams and in-person meetings, handles 17 languages plus Hinglish, and its free plan keeps unlimited notes with your first five hours of AI summaries. But run the same test on it as on everything else.
+P.S. If you want to include Lynkk in your trial: it records Zoom, Google Meet and Teams with a bot or without one, plus in-person meetings, and handles 17 languages plus Hinglish. The free plan has unlimited notes (up to 2 hours each) and your first five hours of AI summaries in total; Pro is $15 a month. It doesn't sync to CRMs yet and has no Windows or phone app. Run the same test on it as on everything else.
 
 *This newsletter was drafted with AI assistance and edited by the Lynkk team.*

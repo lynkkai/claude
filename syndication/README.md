@@ -52,13 +52,14 @@ The highest-opportunity pages get two to four (see section 5).
    `/blog/ai-note-taker-microsoft-teams` (875, pos 23.6). These get the most syndicated links and
    go in the first two weeks of the schedule.
 
-### Live site facts used, and a conflict with `memory/lynkk-brand.md`
+### Live site facts used
 
 All product claims come from the **live site** (pricing page "last checked 19 October 2026").
-Several claims in `memory/lynkk-brand.md` are **out of date or not supported by the live site**,
-so these articles avoid them:
+`memory/lynkk-brand.md` was rewritten from the live site on 24 October 2026, and all 30 articles
+were re-checked against it, including its "Do not claim" list. The old memory file had these
+claims, which the articles avoid:
 
-| Brand memory says | Live site says (24 Oct 2026) |
+| Old brand memory said | Live site says (24 Oct 2026) |
 |---|---|
 | "CRM fields updated" after meetings | "No CRM sync yet. Copy any brief into Salesforce or HubSpot." HubSpot listed as not connected |
 | "Pick a region" for data residency | FAQ: "No, there is no region setting today." Data may be processed in India and the US |
@@ -66,8 +67,8 @@ so these articles avoid them:
 | Joins meetings and "speaks when needed" | The bot "does not speak". Live help during calls is **Cue**, in beta, Mac, by invite |
 | Paid tiers: to confirm | Free: unlimited notes (2 hours each), first 5 hours of AI summaries in total. Pro: $15/month or $117/year. Workspaces up to 10 members |
 
-**Recommendation:** update `memory/lynkk-brand.md` before any further submissions. The older
-drafts also say Pro costs **$19**; the live price is **$15**.
+The older drafts also say Pro costs **$19**; the live price is **$15**. Use `memory/lynkk-brand.md`
+as the source of truth for any edits to these articles.
 
 ---
 

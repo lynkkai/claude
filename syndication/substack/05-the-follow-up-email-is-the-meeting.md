@@ -68,7 +68,7 @@ Timing matters more than polish. A follow-up sent within an hour:
 
 A follow-up sent three days later is a history lesson.
 
-If you struggle to find the time, there are two tricks. First, write the email *during* the last five minutes of the meeting, and read it out loud: "Here's what I'm going to send, anything missing?" Second, let a notetaker draft it. Many tools, ours included, can produce the [meeting notes](https://lynkk.ai/features/meeting-notes) (decisions, action items, owners) a few minutes after the call ends, so the follow-up becomes a two-minute edit instead of a ten-minute write.
+If you struggle to find the time, there are two tricks. First, write the email *during* the last five minutes of the meeting, and read it out loud: "Here's what I'm going to send, anything missing?" Second, let a notetaker draft it. Many tools, ours included, write the [meeting notes](https://lynkk.ai/features/meeting-notes) (decisions, action items with owners and due dates) after the call and email you the summary, so the follow-up becomes a two-minute edit instead of a ten-minute write.
 
 ## The hidden benefit: your future self
 
