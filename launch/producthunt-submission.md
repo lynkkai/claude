@@ -1,5 +1,9 @@
 # Lynkk: Product Hunt submission copy
 
+> **Outdated (Oct 2026):** this copy describes features the new site no longer claims (voice
+> assistant, CRM updates, 30-second Jira tickets). Use the Product Hunt section of
+> `launch/directory-listings.md` instead.
+
 Field-by-field, ready to paste. Character counts are for Product Hunt's current limits.
 Anything marked TODO needs a real value before you hit publish.
 

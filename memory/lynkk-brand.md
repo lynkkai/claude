@@ -1,8 +1,8 @@
 # Lynkk.ai: Brand & Product Memory
 
-> Source of truth for tool/directory submissions. Collected 2026-09-27 from web search
-> results for lynkk.ai (the site itself was not directly reachable from this environment).
-> Items under "To confirm" must be filled in by the team before submitting.
+> Source of truth for tool/directory submissions. Updated 2026-10-24 from the live lynkk.ai
+> site (home, pricing, security, FAQ, integrations). Ready-to-paste copy for every directory
+> and profile site: `launch/directory-listings.md`.
 
 ## Identity
 
@@ -10,77 +10,55 @@
 |---|---|
 | Brand name | **Lynkk** (double "k") |
 | Website | https://lynkk.ai/ |
-| Contact email | marketing@lynkk.ai |
+| Contact email | admin@lynkk.ai (on the site), marketing@lynkk.ai (marketing) |
 | Page title | Lynkk: AI Meeting Notes & Conversation Intelligence |
-| Category | AI meeting assistant / AI note taker / conversation intelligence / productivity |
-| Pricing model | Freemium, "Start free" (paid tiers: to confirm) |
+| Category | AI meeting notes / conversation intelligence / sales productivity |
+| Pricing | Free forever; Pro $15/mo or $117/yr ($9.75/mo); Enterprise custom, up to 10 people |
+| Socials | linkedin.com/company/lynkk-ai, x.com/meetlynkk, instagram.com/lynkk.ai, YouTube channel UCeOhV4DzYQ7yLEZ2VgIKfkA |
 
-**Do not confuse with:** Lynk (getlynk.ai, enterprise AI enablement), Lynk AI (getlynk.co, no-code AI agents), Lynk (lynk.run), Linnk AI (document intelligence), Link AI (agentic business suite). Always spell it **Lynkk** / **lynkk.ai**.
+**Do not confuse with:** Lynk (getlynk.ai), Lynk AI (getlynk.co), Lynk (lynk.run), Linnk AI, Link AI. Always spell it **Lynkk** / **lynkk.ai**.
 
-## Positioning
+## Positioning (Oct 2026)
 
-- **One-liner (site copy):** Lynkk turns every meeting, online or in person, into structured, searchable notes, action items, and a knowledge graph.
-- **Tagline (site copy):** Lynkk joins your meetings, speaks when needed, remembers everything, and does the work after.
-- **Differentiator:** One AI across the *entire* meeting lifecycle: before, during and after, not just after.
-- **Secondary line:** Record any conversation, online or in person, and get notes, tasks, and answers automatically. Multilingual. Offline-first.
+Lynkk now targets **sales and revenue teams**: conversation memory, not just a notetaker.
 
-## Features by meeting stage
+- **Headline:** Your revenue lives in your conversations. Don't lose it.
+- **Subhead:** The call ends. The opportunity shouldn't. Lynkk remembers every customer conversation and turns it into follow-ups, action items, and your next best move.
+- **Footer line:** Meeting memory for teams. It records, it writes things down, and it remembers.
+- **Meta description:** Lynkk turns every meeting, online or in person, into structured, searchable notes, action items and answers. 17 languages. Start free.
+- **Differentiator vs notetakers:** a notetaker helps you revisit a call; Lynkk connects your conversations so you can ask what changed, track commitments over time, and get answers with sources.
 
-### Before the meeting: context
-- Surfaces context from past meetings before every call: what was discussed, what's still open, and who said what, "so you start ahead, not cold."
+## Features
 
-### During the meeting: live voice assistant
-- Joins your meeting and **speaks when you need it**.
-- Ask for past context, pull up documents, and get answers live, in the meeting, by voice.
-- Automatic meeting detection and recording.
-
-### After the meeting: within ~30 seconds
-- Structured notes
-- Action items assigned
-- CRM fields updated
-- Jira tickets created
-- Everything searchable (knowledge graph of all meetings)
-
-### Capture & platform
-- Records online meetings **and** in-person conversations.
-- Multilingual capture with instant action items.
-- Offline-first.
-- Web app + Mac desktop app (including dictation: text appears at your cursor as you speak, in other apps).
-
-### Privacy / compliance
-- Data residency: pick a region and every model behind Lynkk processes/answers from that region, which addresses legal & compliance concerns.
+- **Capture:** meeting bot for Zoom, Google Meet, Microsoft Teams (calendar auto-join); Mac app (detects calls incl. WhatsApp and FaceTime, records mic and call as separate channels); Chrome extension; web recorder; in-person conversations.
+- **Languages:** 17 plus Hinglish and auto-detect (homepage says "15+").
+- **Notes:** summary, key takeaways, decisions, action items; Summary Shapes (Brief, Sales Call, General Meeting, Customer Interview) on Pro.
+- **Account memory:** every call with an account sits together.
+- **Ask Lynkk (Pro):** answers across all calls with sources; drafts follow-ups (user sends them); commitments; call prep; deal summaries.
+- **Follow-ups:** email summary to participants from the note.
+- **Hand off:** Tasks board; action items to Jira; answers in Slack (Pro); copy briefs into CRM.
+- **Cue (beta, Mac, Pro, by invite):** panel on screen during the call; Cmd+Return reads screen and conversation. Visible in screen shares; only text leaves the Mac.
+- **Other:** weekly digest every Monday (Pro); Mac dictation; export everything as a zip.
+- **Security:** no AI training on your data; HTTPS everywhere; tool tokens encrypted AES-256-GCM; visible bot named after you; admins' note access is logged; notes can be marked Personal.
 
 ## Integrations
-- Calendar (meetings pulled from your calendar)
-- Jira (tasks/tickets)
-- Calendly and Cal.com (follow-ups / scheduling)
-- CRM (field updates)
-- MCP: "connect anything via MCP"
+Zoom, Google Meet, Microsoft Teams, Webex, WhatsApp and FaceTime (Mac app), Google Calendar, Outlook Calendar, Slack, Jira, custom MCP (any server by URL). **No CRM sync yet** (copy to Salesforce/HubSpot).
 
-## Target users / use cases
-- Sales & customer-facing teams (CRM auto-updates, call prep with past context)
-- Product / engineering teams (Jira tickets from meetings)
-- Founders, managers, consultants with back-to-back meetings
-- Teams in regulated industries or regions needing data residency
-- Multilingual / global teams; in-person meetings and interviews
+## Platforms
+Web app, Mac app (Apple silicon, macOS 14.2+), Chrome extension. No iPhone, Android or Windows app.
 
-## Ready-to-use submission copy (derived from site copy)
+## Use cases (site)
+Sales calls, user interviews, team standups, field interviews, lectures, customer research, lawyers, 1:1 meetings, real estate agents, financial advisors.
 
-- **Name:** Lynkk
-- **Tagline (≤60 chars):** Your AI teammate for every meeting: before, during, after
-- **Short description (≤160 chars):** Lynkk joins your meetings, speaks when needed, remembers everything, and turns every conversation into notes, tasks, CRM updates and Jira tickets.
-- **Long description:**
-  Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and speaks when you need it: ask for past context, pull up documents, and get answers live by voice. Within 30 seconds after, you get structured notes, assigned action items, updated CRM fields, created Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Jira, Calendly, Cal.com, or anything via MCP. Start free.
-- **Tags:** AI meeting assistant, AI note taker, meeting notes, conversation intelligence, transcription, productivity, sales, CRM automation, Jira, knowledge graph, MCP
+## Competitors (site compare pages)
+Otter.ai, Fireflies.ai, Granola, Fathom, Read AI, Notta, Circleback, MeetGeek, Plaud, Gong, Avoma, Clari Copilot.
+
+## No longer true (do not use)
+Voice assistant that speaks in meetings; automatic CRM field updates; Jira tickets within 30 seconds; data residency / region choice; "offline-first"; Calendly and Cal.com integrations; "knowledge graph".
 
 ## To confirm before submitting
-- [ ] Paid plan names, prices, and free-tier limits
-- [ ] Platforms: iOS / Android / Windows availability (Web + Mac confirmed)
-- [ ] Supported meeting platforms (Zoom / Google Meet / Microsoft Teams?)
-- [ ] Which CRMs (HubSpot / Salesforce?)
-- [ ] Number of supported languages
-- [ ] Available data regions (EU / US / India / …)
-- [ ] Company legal name, founding year, HQ location, founders
-- [ ] Social links (LinkedIn, X/Twitter, Product Hunt, YouTube)
-- [ ] Logo files (SVG/PNG, square + wide), screenshots, demo video URL
-- [ ] Security/compliance certifications (SOC 2, GDPR, etc.)
+- [ ] Company legal name, founding year, HQ location, founders, team size
+- [ ] Which LinkedIn URL is real: /company/lynkk-ai (site footer) or /company/lynkk
+- [ ] Logo files, screenshots, demo video URL
+- [ ] Direct Mac download and Chrome Web Store links
+- [ ] Security/compliance certifications (none claimed on the site)
