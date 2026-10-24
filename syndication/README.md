@@ -155,13 +155,27 @@ issues out.
 
 ---
 
-## 4. Publishing schedule (5 weeks, 6 posts a week)
+## 4. Publishing schedule (10 days, 3 posts a day)
 
-Two posts per platform per week, never more than one per platform per day. The order puts the
-pages with the most GSC impressions and the newest, unlinked posts first.
+One article per platform per day: one Medium, one Hashnode and one Substack. The order puts the
+pages with the most GSC impressions and the newest, unlinked posts first. The same schedule, with
+links to each article file and banner, is in `lynkk-daily-publishing-schedule.csv`. Dates start
+Monday 26 October 2026; shift them as needed but keep the order.
 
-| Week | Medium | Hashnode | Substack |
-|---|---|---|---|
+| Day | Date | Medium | Hashnode | Substack |
+|---|---|---|---|---|
+| 1 | Mon 2026-10-26 | M01 The Google Meet Transcript Nobody Can Find | H01 How Meeting Bots Actually Join a Zoom, Google Meet or Teams Call | S04 Hinglish Is How India Actually Meets. Most Meeting Tools Still Pretend It Isn't. |
+| 2 | Tue 2026-10-27 | M04 Typing Is the Bottleneck. What Voice-to-Text Actually Fixes, and What It Doesn't. | H02 Pulling Google Meet Transcripts With the Meet REST API (Python) | S01 Zoom AI Companion Gave Us Summaries. Our CRM Stayed Empty. |
+| 3 | Wed 2026-10-28 | M09 Voice Memos Are the Most Underrated Note-Taking Tool on Your Phone | H09 Getting Microsoft Teams Meeting Transcripts With the Graph API | S02 BANT Isn't Dead. It's Just Badly Written Down. |
+| 4 | Thu 2026-10-29 | M07 Should an AI Bot Be in Your Meeting? An Honest Look at Bots vs Bot-Free Note Takers | H10 Downloading Zoom Cloud Recording Transcripts With the Zoom API (and Parsing the VTT) | S03 What Gong Costs, and What a 10-Person Sales Team Actually Needs |
+| 5 | Fri 2026-10-30 | M10 How to Choose an AI Note Taker Without Reading 40 Comparison Posts | H04 Code-Switching Breaks Speech Recognition: How to Test Hinglish ASR With WER and CER | S05 The Follow-Up Email Is the Meeting |
+| 6 | Sat 2026-10-31 | M03 Action Items Die in the Chat. Here Are 5 Rules That Keep Them Alive. | H08 Ask Your Meetings: Building Q&A Over Transcripts With Timestamped Citations | S10 Read AI, Otter, Copilot or None of the Above? A Letter to Someone Choosing a Note Taker |
+| 7 | Sun 2026-11-01 | M05 The 15-Minute Standup Nobody Remembers by Lunch | H05 From Meeting Action Items to Jira Issues: A Small Python Service | S06 Board Meetings: The Agenda Is Easy. The Minutes Are Hard. |
+| 8 | Mon 2026-11-02 | M06 Founders Are the Company's Hard Drive. That's a Problem. | H03 Speaker Diarization Explained: Who Said What, With Whisper and pyannote in Python | S07 The One-on-One Is Where Managers Lose the Thread |
+| 9 | Tue 2026-11-03 | M02 Your Meeting Notes Are Not Your Minutes (and Neither Is Your Memory) | H06 Recording Tab Audio and the Microphone in a Chrome MV3 Extension | S08 Recruiters: The Interview Debrief Starts Before the Interview Ends |
+| 10 | Wed 2026-11-04 | M08 The Five Minutes Before a Meeting Decide Everything | H07 Capturing System Audio on macOS Without a Virtual Driver: Core Audio Taps (macOS 14.2+) | S09 Lawyers, Doctors and the Limits of AI Transcription |
+
+---|---|---|---|
 | 1 | M01 Google Meet transcript, M04 Voice-to-text | H01 Meeting bots, H02 Meet REST API | S04 Hinglish (India), S01 Zoom AI Companion and CRM |
 | 2 | M09 Voice memos, M07 Bots vs bot-free | H09 Teams Graph API, H10 Zoom API | S02 BANT, S03 Gong |
 | 3 | M10 Choosing a note taker, M03 Action items | H04 Hinglish WER, H08 Ask your meetings | S05 Follow-up email, S10 Buyer's letter |
