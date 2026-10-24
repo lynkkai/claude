@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<title>Lynkk Newsletter</title>
+<!--
+  Lynkk newsletter, styled to match lynkk.ai (Inter, ink #111, paper #f9f9fa, violet #7063be).
+  Email-safe: table layout, inline styles, no images. Works as the web version too.
+  Replace {{first_name}}, {{view_in_browser_url}} and {{unsubscribe_url}} with your ESP's merge tags.
+-->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Schibsted+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; padding: 0; background: #f9f9fa; }
+  a { color: #7063be; }
+  @media only screen and (max-width: 620px) {
+    .container { width: 100% !important; }
+    .px { padding-left: 20px !important; padding-right: 20px !important; }
+    .stack { display: block !important; width: 100% !important; }
+    .stack-gap { padding: 0 0 12px 0 !important; }
+    .h1 { font-size: 32px !important; line-height: 1.2 !important; }
+    .h2 { font-size: 24px !important; }
+  }
+</style>
+</head>
+<body style="margin:0;padding:0;background:#f9f9fa;">
+
+<!-- Preheader (hidden preview text) -->
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:#f9f9fa;">
+  Lynkk remembers every customer conversation and turns it into follow-ups, action items, and your next best move.
+</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f9f9fa;">
+<tr><td align="center" style="padding:24px 12px;">
+
+<table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:600px;font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#111111;">
+
+  <!-- Top bar -->
+  <tr>
+    <td class="px" style="padding:0 8px 16px 8px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td style="font-family:'Schibsted Grotesk',Inter,Helvetica,Arial,sans-serif;font-size:22px;font-weight:700;letter-spacing:-0.3px;color:#111111;">
+            <a href="https://lynkk.ai" style="color:#111111;text-decoration:none;">Lynkk</a>
+          </td>
+          <td align="right" style="font-size:12px;color:#656567;">
+            <a href="{{view_in_browser_url}}" style="color:#656567;">View in browser</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- Hero -->
+  <tr>
+    <td style="background:#111111;border-radius:20px;" class="px">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="px" style="padding:44px 40px 40px 40px;">
+            <p style="margin:0 0 16px 0;font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:#beb4fb;">The Lynkk Newsletter &middot; October 2026</p>
+            <h1 class="h1" style="margin:0 0 16px 0;font-family:'Schibsted Grotesk',Inter,Helvetica,Arial,sans-serif;font-size:40px;line-height:1.15;font-weight:700;letter-spacing:-0.8px;color:#ffffff;">
+              Your revenue lives in your conversations. Don&rsquo;t lose it.
+            </h1>
+            <p style="margin:0 0 28px 0;font-size:17px;line-height:1.55;color:#ffffffb3;">
+              The call ends. The opportunity shouldn&rsquo;t. Lynkk remembers every customer conversation and turns it into follow-ups, action items, and your next best move.
+            </p>
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td style="border-radius:999px;background:#ffffff;">
+                  <a href="https://lynkk.ai/sign-up" style="display:inline-block;padding:13px 26px;font-size:15px;font-weight:600;color:#111111;text-decoration:none;border-radius:999px;">Start for free</a>
+                </td>
+                <td style="width:12px;"></td>
+                <td style="border-radius:999px;border:1px solid #ffffff4d;">
+                  <a href="https://lynkk.ai/how-it-works" style="display:inline-block;padding:12px 24px;font-size:15px;font-weight:600;color:#ffffff;text-decoration:none;border-radius:999px;">See how it works</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin:20px 0 0 0;font-size:13px;color:#ffffff80;">No credit card &middot; 15+ languages &middot; Online + in person</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr><td style="height:16px;line-height:16px;font-size:0;">&nbsp;</td></tr>
+
+  <!-- Intro -->
+  <tr>
+    <td style="background:#ffffff;border-radius:20px;border:1px solid #efefed;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="px" style="padding:36px 40px;">
+            <p style="margin:0 0 14px 0;font-size:16px;line-height:1.6;">Hi {{first_name}},</p>
+            <p style="margin:0 0 14px 0;font-size:16px;line-height:1.6;">
+              Great conversations happen every day. What happens <em>after</em> them is where revenue gets lost. Do any of these sound familiar?
+            </p>
+
+            <!-- Pain points -->
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:8px;">
+              <tr>
+                <td style="padding:16px 0;border-top:1px solid #efefed;">
+                  <p style="margin:0 0 4px 0;font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#7063be;">01 &middot; Before the call</p>
+                  <p style="margin:0 0 6px 0;font-size:18px;font-weight:600;line-height:1.35;">&ldquo;Wait, what did we promise them?&rdquo;</p>
+                  <p style="margin:0;font-size:15px;line-height:1.55;color:#656567;"><strong style="color:#111111;">With Lynkk:</strong> ask, and get the answer with its source.</p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:16px 0;border-top:1px solid #efefed;">
+                  <p style="margin:0 0 4px 0;font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#7063be;">02 &middot; After the call</p>
+                  <p style="margin:0 0 6px 0;font-size:18px;font-weight:600;line-height:1.35;">&ldquo;I&rsquo;ll send that by the end of the day.&rdquo;</p>
+                  <p style="margin:0;font-size:15px;line-height:1.55;color:#656567;"><strong style="color:#111111;">With Lynkk:</strong> the recap and the follow-up, straight from the call.</p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:16px 0 0 0;border-top:1px solid #efefed;">
+                  <p style="margin:0 0 4px 0;font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#7063be;">03 &middot; At the pipeline review</p>
+                  <p style="margin:0 0 6px 0;font-size:18px;font-weight:600;line-height:1.35;">&ldquo;I&rsquo;m pretty sure this one will close.&rdquo;</p>
+                  <p style="margin:0;font-size:15px;line-height:1.55;color:#656567;"><strong style="color:#111111;">With Lynkk:</strong> what the customer actually said, a click away.</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr><td style="height:16px;line-height:16px;font-size:0;">&nbsp;</td></tr>
+
+  <!-- How it works -->
+  <tr>
+    <td style="background:#ffffff;border-radius:20px;border:1px solid #efefed;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="px" style="padding:36px 40px 28px 40px;">
+            <p style="margin:0 0 8px 0;font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:#7063be;">From first hello to closed-won</p>
+            <h2 class="h2" style="margin:0 0 24px 0;font-family:'Schibsted Grotesk',Inter,Helvetica,Arial,sans-serif;font-size:28px;line-height:1.25;font-weight:700;letter-spacing:-0.4px;">One connected workflow. Less admin between you and your next deal.</h2>
+
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td class="stack stack-gap" width="50%" valign="top" style="padding:0 8px 16px 0;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f9f9fa;border-radius:14px;">
+                    <tr><td style="padding:20px;">
+                      <p style="margin:0 0 6px 0;font-size:13px;font-weight:600;color:#7063be;">01 / Capture</p>
+                      <p style="margin:0 0 6px 0;font-size:17px;font-weight:600;line-height:1.3;">Every call. Every language. Even offline.</p>
+                      <p style="margin:0;font-size:14px;line-height:1.55;color:#656567;">From the Mac app, Chrome extension, meeting bot or the room. 15+ languages, Hinglish-native.</p>
+                    </td></tr>
+                  </table>
+                </td>
+                <td class="stack stack-gap" width="50%" valign="top" style="padding:0 0 16px 8px;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f9f9fa;border-radius:14px;">
+                    <tr><td style="padding:20px;">
+                      <p style="margin:0 0 6px 0;font-size:13px;font-weight:600;color:#7063be;">02 / Connect</p>
+                      <p style="margin:0 0 6px 0;font-size:17px;font-weight:600;line-height:1.3;">Your fifth call starts five calls ahead.</p>
+                      <p style="margin:0;font-size:14px;line-height:1.55;color:#656567;">Every call with an account sits together, and Ask Lynkk answers across them with sources.</p>
+                    </td></tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="stack stack-gap" width="50%" valign="top" style="padding:0 8px 8px 0;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f9f9fa;border-radius:14px;">
+                    <tr><td style="padding:20px;">
+                      <p style="margin:0 0 6px 0;font-size:13px;font-weight:600;color:#7063be;">03 / Follow up</p>
+                      <p style="margin:0 0 6px 0;font-size:17px;font-weight:600;line-height:1.3;">Follow up in 5 minutes. Not 3 days.</p>
+                      <p style="margin:0;font-size:14px;line-height:1.55;color:#656567;">Send the summary from the note, or have Lynkk draft the follow-up. You review it and send it yourself.</p>
+                    </td></tr>
+                  </table>
+                </td>
+                <td class="stack stack-gap" width="50%" valign="top" style="padding:0 0 8px 8px;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f9f9fa;border-radius:14px;">
+                    <tr><td style="padding:20px;">
+                      <p style="margin:0 0 6px 0;font-size:13px;font-weight:600;color:#7063be;">04 / Hand off</p>
+                      <p style="margin:0 0 6px 0;font-size:17px;font-weight:600;line-height:1.3;">Next steps land where work happens.</p>
+                      <p style="margin:0;font-size:14px;line-height:1.55;color:#656567;">Action items go to Jira with owner and date, answers reach Slack, and every brief is ready to copy into your CRM.</p>
+                    </td></tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr><td style="height:16px;line-height:16px;font-size:0;">&nbsp;</td></tr>
+
+  <!-- Ask Lynkk -->
+  <tr>
+    <td style="background:#e2e0f2;border-radius:20px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="px" style="padding:36px 40px;">
+            <p style="margin:0 0 8px 0;font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:#5f53a6;">Ask Lynkk &middot; Pro</p>
+            <h2 class="h2" style="margin:0 0 12px 0;font-family:'Schibsted Grotesk',Inter,Helvetica,Arial,sans-serif;font-size:28px;line-height:1.25;font-weight:700;letter-spacing:-0.4px;color:#231f3a;">Every conversation. One connected memory.</h2>
+            <p style="margin:0 0 20px 0;font-size:15px;line-height:1.6;color:#231f3a;">The budget from Tuesday. The objection from last month. The promise made in the hallway. Ask in plain words and get answers grounded in what was actually said:</p>
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr><td style="padding:0 0 8px 0;"><div style="background:#ffffff;border-radius:12px;padding:13px 16px;font-size:15px;color:#111111;">&ldquo;Draft a follow-up to Priya.&rdquo;</div></td></tr>
+              <tr><td style="padding:0 0 8px 0;"><div style="background:#ffffff;border-radius:12px;padding:13px 16px;font-size:15px;color:#111111;">&ldquo;What did I promise this week?&rdquo;</div></td></tr>
+              <tr><td style="padding:0 0 8px 0;"><div style="background:#ffffff;border-radius:12px;padding:13px 16px;font-size:15px;color:#111111;">&ldquo;Help me prep for next week.&rdquo;</div></td></tr>
+              <tr><td style="padding:0;"><div style="background:#ffffff;border-radius:12px;padding:13px 16px;font-size:15px;color:#111111;">&ldquo;Create a deal summary for my manager.&rdquo;</div></td></tr>
+            </table>
+            <p style="margin:20px 0 0 0;font-size:15px;">
+              <a href="https://lynkk.ai/features/ask-your-meetings" style="color:#5f53a6;font-weight:600;text-decoration:none;">Explore Ask Lynkk &rarr;</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr><td style="height:16px;line-height:16px;font-size:0;">&nbsp;</td></tr>
+
+  <!-- Introducing Cue -->
+  <tr>
+    <td style="background:#111111;border-radius:20px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="px" style="padding:36px 40px;">
+            <p style="margin:0 0 12px 0;">
+              <span style="display:inline-block;font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:#beb4fb;">New: Introducing Cue</span>
+              <span style="display:inline-block;margin-left:8px;padding:2px 8px;border-radius:999px;background:#231f3a;color:#beb4fb;font-size:11px;font-weight:600;">Beta</span>
+            </p>
+            <h2 class="h2" style="margin:0 0 12px 0;font-family:'Schibsted Grotesk',Inter,Helvetica,Arial,sans-serif;font-size:28px;line-height:1.25;font-weight:700;letter-spacing:-0.4px;color:#ffffff;">While you&rsquo;re talking, it&rsquo;s connecting the dots.</h2>
+            <p style="margin:0 0 20px 0;font-size:15px;line-height:1.6;color:#ffffffb3;">
+              Cue sits at the top of your screen during the call. Ask it anything, or press &#8984;&crarr; and it reads your screen and the conversation to help with that moment. Only text leaves your Mac, never a picture.
+            </p>
+            <p style="margin:0;font-size:13px;color:#ffffff80;">In beta in the Mac app, on Pro, by invite.</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr><td style="height:16px;line-height:16px;font-size:0;">&nbsp;</td></tr>
+
+  <!-- Where it works -->
+  <tr>
+    <td style="background:#ffffff;border-radius:20px;border:1px solid #efefed;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="px" align="center" style="padding:32px 40px;">
+            <p style="margin:0 0 14px 0;font-size:16px;font-weight:600;">Wherever the conversation happens, Lynkk is there.</p>
+            <p style="margin:0;font-size:14px;line-height:2.2;color:#111111;">
+              <span style="display:inline-block;padding:4px 12px;margin:0 3px;border-radius:999px;background:#f5f5f5;">Zoom</span>
+              <span style="display:inline-block;padding:4px 12px;margin:0 3px;border-radius:999px;background:#f5f5f5;">Google Meet</span>
+              <span style="display:inline-block;padding:4px 12px;margin:0 3px;border-radius:999px;background:#f5f5f5;">Microsoft Teams</span>
+              <span style="display:inline-block;padding:4px 12px;margin:0 3px;border-radius:999px;background:#f5f5f5;">In person</span>
+              <span style="display:inline-block;padding:4px 12px;margin:0 3px;border-radius:999px;background:#f5f5f5;">WhatsApp &amp; FaceTime</span>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr><td style="height:16px;line-height:16px;font-size:0;">&nbsp;</td></tr>
+
+  <!-- Pricing -->
+  <tr>
+    <td style="background:#ffffff;border-radius:20px;border:1px solid #efefed;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="px" style="padding:36px 40px;">
+            <p style="margin:0 0 8px 0;font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:#7063be;">Big context. Small commitment.</p>
+            <h2 class="h2" style="margin:0 0 24px 0;font-family:'Schibsted Grotesk',Inter,Helvetica,Arial,sans-serif;font-size:28px;line-height:1.25;font-weight:700;letter-spacing:-0.4px;">Start free. Upgrade when you&rsquo;re hooked.</h2>
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td class="stack stack-gap" width="33%" valign="top" style="padding:0 6px 0 0;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #efefed;border-radius:14px;">
+                    <tr><td style="padding:18px;">
+                      <p style="margin:0 0 4px 0;font-size:14px;font-weight:600;">Free</p>
+                      <p style="margin:0 0 8px 0;font-size:24px;font-weight:700;">$0</p>
+                      <p style="margin:0;font-size:13px;line-height:1.5;color:#656567;">Unlimited notes, your first 5 hours of AI summaries, every language.</p>
+                    </td></tr>
+                  </table>
+                </td>
+                <td class="stack stack-gap" width="34%" valign="top" style="padding:0 3px;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #7063be;border-radius:14px;background:#f9f9fa;">
+                    <tr><td style="padding:18px;">
+                      <p style="margin:0 0 4px 0;font-size:14px;font-weight:600;color:#7063be;">Pro</p>
+                      <p style="margin:0 0 8px 0;font-size:24px;font-weight:700;">$15<span style="font-size:13px;font-weight:500;color:#656567;"> /mo</span></p>
+                      <p style="margin:0;font-size:13px;line-height:1.5;color:#656567;">Unlimited summaries, Ask Lynkk across every call, answers in Slack. $9.75/mo billed yearly.</p>
+                    </td></tr>
+                  </table>
+                </td>
+                <td class="stack" width="33%" valign="top" style="padding:0 0 0 6px;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #efefed;border-radius:14px;">
+                    <tr><td style="padding:18px;">
+                      <p style="margin:0 0 4px 0;font-size:14px;font-weight:600;">Enterprise</p>
+                      <p style="margin:0 0 8px 0;font-size:24px;font-weight:700;">Custom</p>
+                      <p style="margin:0;font-size:13px;line-height:1.5;color:#656567;">A shared memory for revenue teams of up to 10, with admin controls.</p>
+                    </td></tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <p style="margin:20px 0 0 0;font-size:15px;">
+              <a href="https://lynkk.ai/pricing" style="color:#7063be;font-weight:600;text-decoration:none;">Compare every feature &rarr;</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr><td style="height:16px;line-height:16px;font-size:0;">&nbsp;</td></tr>
+
+  <!-- Playbook -->
+  <tr>
+    <td style="background:#ffffff;border-radius:20px;border:1px solid #efefed;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="px" style="padding:36px 40px 28px 40px;">
+            <p style="margin:0 0 8px 0;font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:#7063be;">The Lynkk playbook</p>
+            <h2 class="h2" style="margin:0 0 20px 0;font-family:'Schibsted Grotesk',Inter,Helvetica,Arial,sans-serif;font-size:28px;line-height:1.25;font-weight:700;letter-spacing:-0.4px;">A little context. A better sales day.</h2>
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td style="padding:14px 0;border-top:1px solid #efefed;">
+                  <p style="margin:0 0 4px 0;font-size:12px;color:#656567;">Sales playbook &middot; 3 min read</p>
+                  <a href="https://lynkk.ai/blog" style="font-size:16px;font-weight:600;color:#111111;text-decoration:none;">Walk into your next call with the whole story &rarr;</a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:14px 0;border-top:1px solid #efefed;">
+                  <p style="margin:0 0 4px 0;font-size:12px;color:#656567;">Follow-through &middot; 3 min read</p>
+                  <a href="https://lynkk.ai/blog" style="font-size:16px;font-weight:600;color:#111111;text-decoration:none;">A follow-up that proves you were listening &rarr;</a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:14px 0 0 0;border-top:1px solid #efefed;">
+                  <p style="margin:0 0 4px 0;font-size:12px;color:#656567;">Account intelligence &middot; 3 min read</p>
+                  <a href="https://lynkk.ai/blog" style="font-size:16px;font-weight:600;color:#111111;text-decoration:none;">Build an account memory your team can trust &rarr;</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr><td style="height:16px;line-height:16px;font-size:0;">&nbsp;</td></tr>
+
+  <!-- Final CTA -->
+  <tr>
+    <td style="background:#111111;border-radius:20px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="px" align="center" style="padding:44px 40px;">
+            <h2 class="h2" style="margin:0 0 12px 0;font-family:'Schibsted Grotesk',Inter,Helvetica,Arial,sans-serif;font-size:30px;line-height:1.25;font-weight:700;letter-spacing:-0.5px;color:#ffffff;">Make every conversation count.</h2>
+            <p style="margin:0 0 26px 0;font-size:16px;line-height:1.55;color:#ffffffb3;">You build the relationship. Lynkk remembers what moves it forward.</p>
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
+              <tr>
+                <td style="border-radius:999px;background:#ffffff;">
+                  <a href="https://lynkk.ai/sign-up" style="display:inline-block;padding:13px 26px;font-size:15px;font-weight:600;color:#111111;text-decoration:none;border-radius:999px;">Start for free</a>
+                </td>
+                <td style="width:12px;"></td>
+                <td style="border-radius:999px;border:1px solid #ffffff4d;">
+                  <a href="https://lynkk.ai/demo" style="display:inline-block;padding:12px 24px;font-size:15px;font-weight:600;color:#ffffff;text-decoration:none;border-radius:999px;">Book a demo</a>
+                </td>
+              </tr>
+            </table>
+            <p style="margin:20px 0 0 0;font-size:13px;color:#ffffff80;">Free to start. No credit card. Your next deal, remembered.</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- Sign-off -->
+  <tr>
+    <td class="px" style="padding:28px 8px 8px 8px;">
+      <p style="margin:0 0 6px 0;font-size:15px;line-height:1.6;">See you in your next conversation (Lynkk will be there too),</p>
+      <p style="margin:0 0 16px 0;font-size:15px;font-weight:600;">The Lynkk Team</p>
+      <p style="margin:0;font-size:14px;line-height:1.6;color:#656567;"><em>P.S. Forward this to the teammate who always says &ldquo;I&rsquo;ll send that by end of day.&rdquo; They&rsquo;ll thank you.</em></p>
+    </td>
+  </tr>
+
+  <!-- Footer -->
+  <tr>
+    <td class="px" style="padding:24px 8px 8px 8px;border-top:1px solid #dbdad6;">
+      <p style="margin:0 0 10px 0;font-size:13px;">
+        <a href="https://www.linkedin.com/company/lynkk-ai/" style="color:#111111;text-decoration:none;font-weight:600;">LinkedIn</a>
+        &nbsp;&middot;&nbsp;
+        <a href="https://x.com/meetlynkk" style="color:#111111;text-decoration:none;font-weight:600;">X</a>
+        &nbsp;&middot;&nbsp;
+        <a href="https://www.instagram.com/lynkk.ai" style="color:#111111;text-decoration:none;font-weight:600;">Instagram</a>
+        &nbsp;&middot;&nbsp;
+        <a href="https://www.youtube.com/channel/UCeOhV4DzYQ7yLEZ2VgIKfkA" style="color:#111111;text-decoration:none;font-weight:600;">YouTube</a>
+      </p>
+      <p style="margin:0 0 6px 0;font-size:12px;line-height:1.6;color:#656567;">Lynkk: meeting memory for teams. It records, it writes things down, and it remembers.</p>
+      <p style="margin:0;font-size:12px;line-height:1.6;color:#656567;">
+        Questions? Reply to this email or write to <a href="mailto:marketing@lynkk.ai" style="color:#656567;">marketing@lynkk.ai</a>.
+        <a href="https://lynkk.ai/privacy" style="color:#656567;">Privacy</a> &middot;
+        <a href="{{unsubscribe_url}}" style="color:#656567;">Unsubscribe</a>
+      </p>
+    </td>
+  </tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>

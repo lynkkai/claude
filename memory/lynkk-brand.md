@@ -73,6 +73,23 @@
   Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and speaks when you need it: ask for past context, pull up documents, and get answers live by voice. Within 30 seconds after, you get structured notes, assigned action items, updated CRM fields, created Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Jira, Calendly, Cal.com, or anything via MCP. Start free.
 - **Tags:** AI meeting assistant, AI note taker, meeting notes, conversation intelligence, transcription, productivity, sales, CRM automation, Jira, knowledge graph, MCP
 
+## Live site check (2026-10-24)
+
+lynkk.ai was reachable on this date. The site has shifted to **revenue / sales team** positioning.
+Where this section conflicts with older notes above, this section wins.
+
+- **Hero:** "Your revenue lives in your conversations. Don't lose it." / "The call ends. The opportunity shouldn't."
+- **Footer line:** "Meeting memory for teams. It records, it writes things down, and it remembers."
+- **Meeting platforms:** Zoom, Google Meet, Microsoft Teams, in person, WhatsApp and FaceTime calls
+- **Capture:** Mac app, Chrome extension, meeting bot, in the room; 15+ languages, Hinglish-native; online + offline
+- **Integrations:** Google Calendar, Slack (answers in Slack), Jira (action items with owner and date). **CRM sync: "Not yet"** (briefs are copy-to-CRM only). Do not claim automatic CRM updates.
+- **Cue (beta):** live in-call help on Mac, Pro only, by invite
+- **Follow-ups:** drafted by Ask Lynkk, the user reviews and sends; Lynkk never sends without review
+- **Pricing:** Free $0 (unlimited notes up to 2h each, first 5h of AI summaries); Pro $15/mo or $9.75/mo billed yearly; Enterprise custom, up to 10 people
+- **Social:** linkedin.com/company/lynkk-ai, x.com/meetlynkk, instagram.com/lynkk.ai, YouTube channel UCeOhV4DzYQ7yLEZ2VgIKfkA
+- **Site contact:** admin@lynkk.ai
+- Data residency is not mentioned on the current homepage; confirm before claiming it.
+
 ## To confirm before submitting
 - [ ] Paid plan names, prices, and free-tier limits
 - [ ] Platforms: iOS / Android / Windows availability (Web + Mac confirmed)
