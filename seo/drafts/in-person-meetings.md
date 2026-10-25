@@ -18,7 +18,7 @@ on the other use-case pages.
 |---|---|
 | URL | `/use-cases/in-person-meetings` |
 | Title tag | `AI Note Taker for In-Person Meetings, No Device \| Lynkk` (55 chars) |
-| Meta description | `Lynkk records your in-person meeting from your laptop, writes the decisions and tasks, and reminds you what the client said last time. Start free.` (147 chars) |
+| Meta description | `Lynkk records your in-person meeting from your laptop, writes the decisions and tasks, and reminds you what the client said last time. Start free.` (146 chars) |
 | H1 | AI note taker for in-person meetings: notes from the room, with no device to buy. |
 | Breadcrumb | Home > Use cases > In-person meetings |
 | Primary keyword | ai note taker for in person meetings (US 480/mo, peaks 720, SD 40) |
