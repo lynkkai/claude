@@ -1,277 +1,302 @@
-# Draft page: AI note taker for in-person meetings
+# Draft page: AI note taker for in-person meetings (use-case template)
 
-Status: draft for review. Every product fact below is taken from lynkk.ai as published on
-2026-10-25 (/faq, /how-it-works, /download, /web-app, /security, /pricing,
-/features/multilingual-transcription, /use-cases/field-interviews). Lines marked **Confirm**
-need a product check before publishing.
+Status: draft for review, rebuilt on the same template as
+[/use-cases/one-on-one-meetings](https://lynkk.ai/use-cases/one-on-one-meetings): a named
+person, their problem, before / during / after, an example note, "So, what is Lynkk?", "Is Lynkk
+right for you?", before and after, "What else can Lynkk do?", privacy, pricing, questions, more
+use cases. Two extra sections (wearables, room setup) carry the SEO demand the template does not
+cover.
+
+Every product fact is taken from lynkk.ai as published on 2026-10-25 (/pricing, /faq,
+/how-it-works, /download, /web-app, /security, /features/multilingual-transcription). Lines
+marked **Confirm** need a product check. Names and companies in the story are illustrative, like
+on the other use-case pages.
 
 ## SEO setup
 
 | Field | Value |
 |---|---|
 | URL | `/use-cases/in-person-meetings` |
-| Title tag | `AI Note Taker for In-Person Meetings, No Device \| Lynkk` |
-| Meta description | `Record in-person meetings from your laptop, with no device to buy. Lynkk writes the transcript, summary and action items in 17 languages. Start free.` |
-| H1 | The AI note taker for in-person meetings |
-| Primary keyword | ai note taker for in person meetings (US 480/mo, peaks 720, SD 40) |
-| Secondary | best ai note taker for in person meetings (110, SD 65), free ai note taker for in person meetings (50, SD 38), record in person meeting (30, SD 25), in person meeting transcription (30, SD 34), ai note taker device for in-person meetings, best app to record meetings in person |
-| Schema | `WebPage`, `BreadcrumbList`, `SoftwareApplication` (same block as other use-case pages), `HowTo`, `FAQPage` (JSON-LD at the end of this file) |
-| Length | about 1,700 words of body copy, in line with the compare and integration pages |
+| Title tag | `AI Note Taker for In-Person Meetings, No Device \| Lynkk` (55 chars) |
+| Meta description | `Lynkk records your in-person meeting from your laptop, writes the decisions and tasks, and reminds you what the client said last time. Start free.` (147 chars) |
+| H1 | AI note taker for in-person meetings: notes from the room, with no device to buy. |
 | Breadcrumb | Home > Use cases > In-person meetings |
-
-### Why the page is shaped this way
-
-InfraNodus analysis of the US results for these searches shows what people want and what the
-current results miss:
-
-- **What ranks:** Reddit threads ("Is there an AI note taker for in person meetings?"), app
-  store listings, Otter, Plaud, Granola, Read AI, Fireflies and Jamie, and "I tested 5 apps"
-  posts. The main topics are recording setup (phone, laptop, microphone), mobile apps, and
-  transcripts with action items.
-- **What people ask that results answer poorly:** phone versus laptop, whether you need a
-  device, free options, Reddit opinions, and setup.
-
-So the page answers the setup and device questions directly, and is upfront that Lynkk records
-in person from a laptop, not a phone. The "What Lynkk does not do in person yet" section
-matches the pattern the integration pages already use, and it stops the wrong visitors from
-signing up.
+| Primary keyword | ai note taker for in person meetings (US 480/mo, peaks 720, SD 40) |
+| Secondary | best ai note taker for in person meetings (110, SD 65), free ai note taker for in person meetings (50, SD 38), record in person meeting (30, SD 25), in person meeting transcription (30, SD 34), ai note taker device for in-person meetings |
+| Schema | `WebPage`, `BreadcrumbList`, `SoftwareApplication` ("Lynkk for in-person meetings"), `FAQPage` (JSON-LD at the end) |
+| Length | about 1,600 words, in line with /use-cases/one-on-one-meetings (1,638) |
+| Mock UI | Wrap the hero note, the story screens and the slider in `data-nosnippet`, so Google quotes the copy and not the demo names |
 
 ---
 
 ## Page copy
 
-<!-- HERO -->
+<!-- HERO: same layout as the 1:1 page. Left: copy and buttons. Right: the mock note below. -->
 
 Use cases · In-person meetings
 
-# The AI note taker for in-person meetings
+# AI note taker for in-person meetings: notes from the room, with no device to buy.
 
-Put your laptop on the table and press record. Lynkk turns the conversation in the room into a
-transcript with speakers, a summary, decisions and action items, in 17 languages, with no
-device to buy, charge or carry.
+Lynkk records your in-person meeting from the laptop on the table and writes down what you
+agreed. Before the next one, it reminds you what was said.
 
 [Start for free] [Download for Mac]
 
-Free to start. No card. Works in the browser on any computer, and in the Mac app.
+<!-- Hero mock note (data-nosnippet) -->
+> **DA** Daniel · Account manager at Harbor Supply LLC
+> 10:55 Before the visit · 11:00 During the visit · 11:46 After the visit
+>
+> **Quarterly review with Redwood Dental** · In person · 46 min
+> **Decisions** Redwood moves to the 40-seat plan if onboarding starts in March. `18:20`
+> **Tasks** Send the March onboarding plan. **Who:** Daniel **When:** Friday `18:45`
+> Share the new price list with finance. **Who:** Maria **When:** Monday `31:10`
+> **Still open** Does the plan include training for the second office? `39:05`
 
-<!-- SHORT ANSWER: written to be quoted by AI Overviews -->
+The story
 
-> **Can an AI note taker record in-person meetings?**
-> Yes. Lynkk records in-person meetings from your laptop's microphone, either in the Mac app or
-> in any browser at lynkk.ai. When you stop, it writes the meeting notes: a transcript with each
-> speaker labelled, a summary, decisions and action items with owners and dates. The free plan
-> records unlimited meetings of up to 2 hours each.
+## Meet Daniel
 
-## Record the room from the laptop you already have
+Daniel is an account manager at Harbor Supply LLC. He visits his biggest clients in person,
+three or four times a week. Each visit is an hour around a table: prices, dates, and what the
+client needs next.
 
-There are two ways to record a meeting around a table. Both land in the same account and are
-written up the same way.
+## Daniel's problem
 
-### In the Mac app
+Last quarter, Redwood Dental agreed to a bigger plan, but only if onboarding started in March.
+Daniel wrote "40 seats, yes" in his notebook. He missed the condition.
 
-Choose **Record now** from the Lynkk menu bar and leave your Mac on the table. If the Wi-Fi drops,
-or there is none at all, the recording is saved on your Mac and uploads on its own when you are
-back online. The Mac app needs Apple silicon and macOS 14.2 or later.
+His follow-up email promised onboarding in April. The client wrote back to correct him. Daniel
+looked careless in front of his best account.
 
-### In any browser
+He thought about buying an AI recorder to wear. But that is one more device to buy, charge and
+remember, and he already brings his laptop to every meeting.
 
-Open Lynkk on the web, go to **Record** on Home and choose **Offline: capture a room
-conversation on this device**. It records from your laptop's microphone on a Mac, Windows or
-Linux computer. You can pause and carry on, set a countdown before it starts, and a reload does
-not lose the recording. The browser recorder needs an internet connection.
+<!-- Story screen (data-nosnippet): Daniel's notebook page -->
+> **notebook.txt** redwood q3, 40 seats yes, onboarding?? (march or april), price list to maria,
+> training 2nd office
 
-**Confirm:** the Mac app is labelled Beta on /download. Decide whether to say so here.
+## How Lynkk helps Daniel with in-person meetings
 
-## A client visit, start to finish
+Before, during and after
 
-<!-- Timeline component, same style as the integration pages -->
+Daniel asks the client if he can record the meeting, so nobody has to rely on memory. They say
+yes.
 
-**10:55 · Before the meeting**
-Maya sets her laptop in the middle of the table and tells the room she is taking notes with
-Lynkk.
+### Before the visit, Daniel asks Lynkk what Redwood said last time.
 
-**11:00 · Record**
-She presses Record now. Lynkk shows the clock, a pause button and a level, and Maya puts her
-attention back on the client.
+"What did Redwood ask for in the last review?" Lynkk shows the answer, with a link to the moment
+it was said. (Pro)
 
-**11:46 · Stop**
-The meeting ends. The recording uploads with a progress bar, then moves through Transcribing
-and Analyzing.
+<!-- Story screen: Ask Lynkk answer with a source line and "Play from 22:40" -->
 
-**11:50 · The note is ready**
-A summary with the key takeaways, the decisions with the moment each was said, and four action
-items with owners and due dates. Every line of the transcript has a speaker.
+### During the visit, Daniel puts his laptop on the table and just listens.
 
-**12:10 · Follow up**
-Maya shares the note with a link. It carries the summary, the tasks and the decisions, and the
-recording only if she includes it. She sends the action items to Jira.
+He presses **Record now** in the Lynkk Mac app. He doesn't type. He watches the room, not his
+screen. The client's office Wi-Fi is down, so the Mac keeps the recording and uploads it later.
 
-**Next week · Before the next visit**
-She asks Lynkk what the client asked for last time, and gets the answer with the line it came
-from.
+<!-- Story screen: Mac app "Recording the room" with clock, Pause, Stop and "Saved on this Mac" -->
 
-**Confirm:** Ask Lynkk is a Pro feature on /pricing. If the page should stay on free features
-only, label this step "Pro".
+### After the visit, the note is ready.
 
-## What you get after every in-person meeting
+Back in the car, Daniel's Mac is online again. Lynkk writes the decisions, the open questions,
+and the tasks with names and dates. His follow-up email now has the client's exact words.
 
-Every recording becomes one note:
+<!-- Story screen: note card moving through Uploading, Transcribing, Note ready -->
 
-- **A transcript with speakers.** One microphone in the room, with each speaker told apart in
-  the transcript.
-- **An AI summary.** A title, a short abstract, up to eight key takeaways and the topics
-  covered.
-- **Action items.** Each with an owner, a due date and a priority, on your Tasks board, and
-  ready to send to Jira.
-- **Decisions.** What was agreed, and the moment it was said, so you can play it back.
-- **The recording.** Play the meeting from any line of the summary or transcript.
+## Here is the note Lynkk wrote for Daniel (example)
 
-Read a full example on [AI meeting notes](/features/meeting-notes).
+<!-- Full note (data-nosnippet), same component as the 1:1 page -->
+> **Quarterly review with Redwood Dental** · In person · 46 min
+> **Summary** Redwood is happy with delivery times and wants to grow to a second office.
+> **Decisions** Redwood moves to the 40-seat plan if onboarding starts in March. `18:20`
+> **Tasks** Send the March onboarding plan. **Who:** Daniel **When:** Friday `18:45`
+> Share the new price list with finance. **Who:** Maria **When:** Monday `31:10`
+> **Still open** Does the plan include training for the second office? `39:05`
+> **Transcript** Every line, with each speaker labelled.
+
+New to client reviews? Read our guide to [meeting preparation](/blog/meeting-preparation).
+
+## So, what is Lynkk?
+
+Lynkk is an AI note taker for in-person meetings. Put your laptop on the table, press record,
+and Lynkk writes the notes: a transcript with each speaker labelled, a summary, the decisions
+and the tasks. It records from the Mac app or from any browser, with no device to buy.
+
+With Lynkk, you get three things:
+
+**01 Clear notes:** decisions, tasks and open questions, each linked to the moment it was said.
+
+**02 Tasks with names and dates:** on the Tasks board, and ready to send to Jira.
+
+**03 Memory:** ask about any past meeting before the next one (Pro).
+
+## Is Lynkk right for you?
+
+Lynkk is for you if:
+
+- You meet clients, patients or partners in person.
+- You run workshops, interviews or meetings around a table.
+- You already bring a laptop to your meetings.
+- Your meetings mix languages, like Hindi and English.
+
+Lynkk is not right for you yet if:
+
+- You need to record on your phone. There is no iPhone or Android app yet.
+- You want to upload recordings you made on another device. Lynkk records from the start.
+- Your sessions run longer than 2 hours without a break. Each recording can run up to 2 hours.
+
+## In-person meetings, before and after Lynkk
+
+<!-- Slider (data-nosnippet): notebook page on the left, the Lynkk note on the right -->
+
+| Without Lynkk | With Lynkk |
+|---|---|
+| Half the meeting ends up in your notebook | Every word, with each speaker labelled |
+| You type and miss what the room is saying | You listen |
+| The follow-up email is written from memory | The follow-up uses the client's exact words |
+| One more device to buy and charge | The laptop you already brought |
+
+## What else can Lynkk do?
+
+### Record with no internet.
+
+Client office with no Wi-Fi? The Mac app saves the recording on your Mac and uploads it when you
+are back online.
+
+### Speak more than one language.
+
+17 languages, plus Hinglish and auto-detect, on every plan. Read about
+[Hinglish transcription](/features/hinglish-transcription).
+
+### Record your calls too.
+
+Zoom, Google Meet and Microsoft Teams, with the [meeting bot](/features/meeting-bot), the
+[Chrome extension](/features/chrome-extension) or the Mac app. In-person and online notes sit
+in one list.
+
+### Work with your tools.
+
+Send tasks to Jira, get answers in Slack (Pro), and let the bot join from Google Calendar.
 
 ## Do you need an AI wearable or a voice recorder?
 
-Not for meetings at a table. Wearables, pendants and pocket recorders are built for capturing
-conversations when no laptop is around: on a walk, on a site visit, in a car. For a meeting
-room, a client office or a coffee table, the laptop you already bring records the same
-conversation, and there is nothing extra to buy, charge, pair or remember.
+Not for meetings at a table. Wearables and pocket recorders are made for places where a laptop
+does not fit: a walk, a site visit, a car. For a meeting room or a client office, the laptop you
+already bring records the same conversation.
 
 | | AI wearable or recorder | Lynkk on your laptop |
 |---|---|---|
 | Extra hardware | Yes, bought separately | No |
 | Charging and pairing | Yes | No |
 | Records online calls too | Depends on the device | Yes: Zoom, Google Meet, Teams |
-| Works where a laptop does not belong | Yes | No |
-| Free plan | Varies by device and plan | Yes |
+| Works where a laptop does not fit | Yes | No |
+| Free plan | Varies | Yes |
 
-Comparing a specific device? Read [Lynkk vs Plaud](/compare/plaud).
-
-## Meetings that switch languages
-
-Lynkk transcribes 17 languages, plus Hinglish and auto-detect: English, Hindi, Spanish, French,
-German, Portuguese, Italian, Dutch, Japanese, Chinese, Korean, Arabic and Russian, with Tamil,
-Telugu, Marathi and Bengali in beta. When a meeting moves between Hindi and English mid-sentence,
-choose Hinglish and the transcript keeps both. Every language is on every plan, Free included.
-
-More on [Hinglish transcription](/features/hinglish-transcription) and
-[multilingual transcription](/features/multilingual-transcription).
-
-## In the room and on the call, in one place
-
-Most weeks mix both. Lynkk records Zoom, Google Meet and Microsoft Teams calls with a
-[meeting bot](/features/meeting-bot), from the [Chrome extension](/features/chrome-extension)
-with no bot in the call, or from the Mac app, and records the room with the same account. In the
-web app, filter your notes to **Online** or **Offline**, or search across all of them.
+Comparing a device? Read [Lynkk vs Plaud](/compare/plaud).
 
 ## How to get a clear recording in a meeting room
 
-1. **Put the laptop in the middle of the table,** not at one end, so every voice reaches the
-   microphone.
-2. **Keep it away from noise:** projector fans, air vents, coffee machines and the door.
-3. **Ask people not to talk over each other** for the parts that matter, like prices, dates and
-   decisions.
-4. **Say names and roles at the start.** It makes the transcript and the action items easier to
-   check.
-5. **Split long sessions.** Each recording runs up to 2 hours. For a full-day workshop, start a
-   new recording after each block.
-6. **Tell everyone you are recording** before you start (see below).
+1. **Put the laptop in the middle of the table,** so every voice reaches the microphone.
+2. **Keep it away from noise:** projector fans, air vents and the door.
+3. **Say names and roles at the start.** It makes the tasks easier to check.
+4. **Ask people not to talk over each other** when you agree prices, dates and decisions.
+5. **Start a new recording after 2 hours** for a long workshop.
 
-**Confirm:** whether to add "For a large room, set a USB conference microphone as your
-computer's input." It is good general advice, but only if it works with both recorders.
+No Mac? Open Lynkk in your browser on any computer, go to **Record** on Home and choose
+**Offline** to record the room. The browser needs an internet connection.
 
-## Who records in-person meetings with Lynkk
+**Confirm:** whether to add a tip on using a USB conference microphone in large rooms.
 
-- **Sales teams** at client visits and on-site demos. [Sales calls](/use-cases/sales-calls)
-- **Researchers** on field visits with no internet. [Field interviews](/use-cases/field-interviews)
-- **Product teams** in user interviews and usability sessions. [User interviews](/use-cases/user-interviews)
-- **Managers** in one-on-ones. [One-on-one meetings](/use-cases/one-on-one-meetings)
-- **Lawyers, financial advisors and real estate agents** in client meetings.
-  [Lawyers](/use-cases/lawyers), [Financial advisors](/use-cases/financial-advisors),
-  [Real estate agents](/use-cases/real-estate-agents)
-- **Students** in lectures and study groups. [Lectures](/use-cases/lectures)
+## Your in-person meetings stay private
 
-## Privacy and consent in the room
+Your notes are private unless you share them. Your data is encrypted and stays in the region you
+choose. Lynkk never uses your meetings to train AI.
 
-- **Nothing records until you press Record.** Lynkk does not announce itself out loud, so tell
-  people at the start that you are recording, and how you will use it. Recording laws differ
-  from place to place.
-- **Your notes are private unless you share them.** A share link stops working after 30 days,
-  and you can turn it off sooner.
-- **Encrypted, in the region you choose.** Your data stays in the region you pick.
-- **Never used to train AI.** Lynkk does not use your recordings, transcripts or notes to train
-  AI models.
-- **Yours to take.** Export every note, transcript and recording as one zip from Settings.
-
-Read more on [security](/security).
-
-## What Lynkk does not do in person yet
-
-- **No phone app.** There is no iPhone or Android app. Record in-person meetings from a laptop.
-- **No Windows app.** On Windows or Linux, use the browser recorder at lynkk.ai.
-- **No file uploads.** You cannot upload audio you recorded on another device. Record with Lynkk
-  from the start.
-- **2 hours per recording.** On every plan. Start a new recording for longer sessions.
-- **The browser needs internet.** For a room with no connection, use the Mac app, which saves
-  the recording and uploads it later.
+[Read about security](/security)
 
 ## Simple pricing
 
-**Free, $0.** Unlimited notes of up to 2 hours each, your first 5 hours of AI summaries, every
-language including Hinglish, search, the Tasks board and Jira, the Mac app, the Chrome extension
-and the web app.
-
-**Pro, $15 a month.** Everything in Free, plus unlimited AI summaries, Ask Lynkk across all your
-notes, answers in Slack, Summary Shapes for each kind of meeting, meeting video from the bot and
-a weekly digest.
-
 [Compare plans](/pricing)
 
-## Questions about recording in-person meetings
+**Free, $0.** Record meetings and get AI notes and tasks. Unlimited notes of up to 2 hours each,
+and your first 5 hours of AI summaries. No credit card.
+[Start for free]
+
+**Pro, $15 a month.** Everything in Free, plus unlimited AI summaries, asking Lynkk about past
+meetings, answers in Slack and the weekly digest.
+[Upgrade to Pro]
+
+Note: this follows /pricing. The 1:1 page lists "unlimited notes" under Pro, which contradicts
+/pricing (Free already has unlimited notes). Fix that page, not this one.
+
+## Questions people ask
 
 **Can an AI note taker record in-person meetings?**
-Yes. Lynkk records the room from your laptop's microphone, in the Mac app or in any browser, and
-writes a transcript with speakers, a summary, decisions and action items when you stop.
+Yes. Lynkk records the room from your laptop's microphone, in the Mac app or in the browser, and
+writes the transcript, summary, decisions and tasks when you stop.
 
-**Is there a free AI note taker for in-person meetings?**
-Yes. Lynkk's free plan records unlimited in-person meetings of up to 2 hours each and writes AI
-summaries for your first 5 hours of meetings. Recording, transcripts, tasks and sharing stay free
-after that.
+**Is it free?**
+Yes, there's a free plan. Asking Lynkk about past meetings is part of Pro.
 
-**Can I record an in-person meeting on my phone?**
-Not with Lynkk yet. There is no iPhone or Android app. Put a laptop on the table and record from
-the Mac app or the browser.
+**Can I record on my phone?**
+Not yet. There is no iPhone or Android app. Record from a laptop with the Mac app or the browser.
 
-**Does it work without internet?**
-The Mac app does. It saves the recording on your Mac and uploads it when you are back online,
-then writes the note. The browser recorder needs a connection.
+**Does it work with no internet?**
+The Mac app does. It saves the recording and uploads it when you're back online. The browser
+needs a connection.
 
-**How does Lynkk tell speakers apart with one microphone?**
-Lynkk separates voices in the recording and labels each speaker in the transcript, so action
-items and decisions are attributed to the right person.
+**How does Lynkk know who is speaking with one microphone?**
+It tells the voices apart and labels each speaker in the transcript.
 
-**How long can an in-person recording be?**
-Up to 2 hours per note, on every plan, with no limit on how many notes you record. The Mac app
-warns you five minutes before the limit.
+**Should I tell people I'm recording?**
+Yes. Ask first, and explain how you will use the notes. Recording laws differ from place to
+place.
 
-**Do I need permission to record a meeting in person?**
-Always ask the people in the room first, and tell them how you will use the recording. Recording
-laws differ from place to place.
+**How long can a recording be?**
+Up to 2 hours, on every plan. For a longer session, start a new recording.
 
-**Can I upload a recording I made somewhere else?**
-No. Lynkk records through the Mac app, the browser recorder, the Chrome extension and the meeting
-bot, and does not import files recorded elsewhere.
+**Does the client need Lynkk?**
+No. You record, and you can share the note with them by link.
+
+## Other conversations people record with Lynkk.
+
+More use cases. Nine more stories, each with the note that kind of conversation produces. Or see
+[all Lynkk use cases](/use-cases) on one page.
+
+- [AI for sales calls](/use-cases/sales-calls): You talk, Lynkk writes the notes: the next steps,
+  who will do them, and by when.
+- [AI for managers: 1:1 meetings](/use-cases/one-on-one-meetings): Notes that remember what you
+  promised last time.
+- [Field interviews with no internet](/use-cases/field-interviews): Record on your Mac with no
+  internet. It uploads later, with Hindi, Hinglish and more.
+- [Interview transcription for user interviews](/use-cases/user-interviews): Every word with each
+  speaker labelled, the main points and the questions still open.
+- [A lecture recorder for students](/use-cases/lectures): Record the lecture and get the main
+  points, the topics and every word.
+- [AI for lawyers](/use-cases/lawyers): With your client's permission, the key facts, the
+  documents to collect and the next steps.
+- [AI for real estate agents](/use-cases/real-estate-agents): Each client's budget, must-haves
+  and your next steps, written down after every call.
+- [AI for financial advisors](/use-cases/financial-advisors): Client review notes written for
+  you: goals, what changed, and tasks with names and dates.
+- [Voice of customer research for marketing teams](/use-cases/customer-research): Record customer
+  calls and focus groups, then ask what customers said, in their exact words.
 
 ## Related guides
 
-- [The best AI note takers in 2026, online and in person](/blog/best-ai-note-takers)
-- [Best free AI note takers in 2026](/blog/best-free-ai-note-takers)
-- [AI voice recorders compared](/blog/ai-voice-recorders)
-- [Lynkk vs Plaud](/compare/plaud) · [Lynkk vs Granola](/compare/granola)
+From the blog. [See every guide](/blog)
+
+- [The Best AI Note Takers in the US for 2026, Compared Online and In Person](/blog/best-ai-note-takers)
+- [Best Free AI Note Takers in the USA for 2026 and What Each Plan Includes](/blog/best-free-ai-note-takers)
+- [Action Items: What They Are, Examples, a Free Template, and How to Track Them](/blog/action-items-examples-template)
 
 <!-- CLOSING CTA -->
 
-## Your next in-person meeting, written up for you.
+In-person meetings
 
-Put the laptop on the table. Lynkk takes it from there.
+## Be like Daniel. Remember every word said at the table.
+
+Try Lynkk in your next in-person meeting. It's free to start.
 
 [Start for free] [Download for Mac]
 
@@ -279,21 +304,33 @@ Put the laptop on the table. Lynkk takes it from there.
 
 ## Structured data
 
-Add alongside the site's standard `WebPage`, `BreadcrumbList`, `Organization` and
-`SoftwareApplication` blocks. FAQ answers must match the visible text exactly.
+Same blocks as the other use-case pages. FAQ answers must match the visible text exactly.
 
 ```json
 {
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to record an in-person meeting with Lynkk",
-  "description": "Record a meeting around a table from your laptop and get a transcript, summary, decisions and action items.",
-  "tool": [{ "@type": "HowToTool", "name": "A Mac with the Lynkk app, or any computer with a browser" }],
-  "step": [
-    { "@type": "HowToStep", "position": 1, "name": "Put your laptop in the middle of the table", "text": "Place the laptop where every voice reaches the microphone, away from projector fans and vents." },
-    { "@type": "HowToStep", "position": 2, "name": "Tell the room you are recording", "text": "Ask the people in the room first, and tell them how you will use the recording." },
-    { "@type": "HowToStep", "position": 3, "name": "Start recording", "text": "In the Mac app, choose Record now from the menu bar. In the browser, go to Record on Home and choose Offline." },
-    { "@type": "HowToStep", "position": 4, "name": "Stop and read the note", "text": "Press Stop. Lynkk uploads the recording and writes a transcript with speakers, a summary, decisions and action items." }
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lynkk.ai" },
+    { "@type": "ListItem", "position": 2, "name": "Use cases", "item": "https://lynkk.ai/use-cases" },
+    { "@type": "ListItem", "position": 3, "name": "In-person meetings", "item": "https://lynkk.ai/use-cases/in-person-meetings" }
+  ],
+  "@id": "https://lynkk.ai/use-cases/in-person-meetings#breadcrumb"
+}
+```
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Lynkk for in-person meetings",
+  "description": "Lynkk records your in-person meeting from your laptop, writes the decisions and tasks, and reminds you what the client said last time. Start free.",
+  "url": "https://lynkk.ai/use-cases/in-person-meetings",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "macOS, Web",
+  "offers": [
+    { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD" },
+    { "@type": "Offer", "name": "Pro", "price": "15", "priceCurrency": "USD" }
   ]
 }
 ```
@@ -303,14 +340,14 @@ Add alongside the site's standard `WebPage`, `BreadcrumbList`, `Organization` an
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    { "@type": "Question", "name": "Can an AI note taker record in-person meetings?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Lynkk records the room from your laptop's microphone, in the Mac app or in any browser, and writes a transcript with speakers, a summary, decisions and action items when you stop." } },
-    { "@type": "Question", "name": "Is there a free AI note taker for in-person meetings?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Lynkk's free plan records unlimited in-person meetings of up to 2 hours each and writes AI summaries for your first 5 hours of meetings. Recording, transcripts, tasks and sharing stay free after that." } },
-    { "@type": "Question", "name": "Can I record an in-person meeting on my phone?", "acceptedAnswer": { "@type": "Answer", "text": "Not with Lynkk yet. There is no iPhone or Android app. Put a laptop on the table and record from the Mac app or the browser." } },
-    { "@type": "Question", "name": "Does it work without internet?", "acceptedAnswer": { "@type": "Answer", "text": "The Mac app does. It saves the recording on your Mac and uploads it when you are back online, then writes the note. The browser recorder needs a connection." } },
-    { "@type": "Question", "name": "How does Lynkk tell speakers apart with one microphone?", "acceptedAnswer": { "@type": "Answer", "text": "Lynkk separates voices in the recording and labels each speaker in the transcript, so action items and decisions are attributed to the right person." } },
-    { "@type": "Question", "name": "How long can an in-person recording be?", "acceptedAnswer": { "@type": "Answer", "text": "Up to 2 hours per note, on every plan, with no limit on how many notes you record. The Mac app warns you five minutes before the limit." } },
-    { "@type": "Question", "name": "Do I need permission to record a meeting in person?", "acceptedAnswer": { "@type": "Answer", "text": "Always ask the people in the room first, and tell them how you will use the recording. Recording laws differ from place to place." } },
-    { "@type": "Question", "name": "Can I upload a recording I made somewhere else?", "acceptedAnswer": { "@type": "Answer", "text": "No. Lynkk records through the Mac app, the browser recorder, the Chrome extension and the meeting bot, and does not import files recorded elsewhere." } }
+    { "@type": "Question", "name": "Can an AI note taker record in-person meetings?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Lynkk records the room from your laptop's microphone, in the Mac app or in the browser, and writes the transcript, summary, decisions and tasks when you stop." } },
+    { "@type": "Question", "name": "Is it free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, there's a free plan. Asking Lynkk about past meetings is part of Pro." } },
+    { "@type": "Question", "name": "Can I record on my phone?", "acceptedAnswer": { "@type": "Answer", "text": "Not yet. There is no iPhone or Android app. Record from a laptop with the Mac app or the browser." } },
+    { "@type": "Question", "name": "Does it work with no internet?", "acceptedAnswer": { "@type": "Answer", "text": "The Mac app does. It saves the recording and uploads it when you're back online. The browser needs a connection." } },
+    { "@type": "Question", "name": "How does Lynkk know who is speaking with one microphone?", "acceptedAnswer": { "@type": "Answer", "text": "It tells the voices apart and labels each speaker in the transcript." } },
+    { "@type": "Question", "name": "Should I tell people I'm recording?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Ask first, and explain how you will use the notes. Recording laws differ from place to place." } },
+    { "@type": "Question", "name": "How long can a recording be?", "acceptedAnswer": { "@type": "Answer", "text": "Up to 2 hours, on every plan. For a longer session, start a new recording." } },
+    { "@type": "Question", "name": "Does the client need Lynkk?", "acceptedAnswer": { "@type": "Answer", "text": "No. You record, and you can share the note with them by link." } }
   ]
 }
 ```
@@ -319,26 +356,25 @@ Add alongside the site's standard `WebPage`, `BreadcrumbList`, `Organization` an
 
 ## Links to add after publishing
 
-Inbound links make a new page rank. Add these in body text, not only in menus:
-
 | From | Anchor text | Where |
 |---|---|---|
-| Homepage | in-person meetings | FAQ "Does it work for in-person meetings too?" answer, and the "Real conversations" section |
+| /use-cases (index) | In-person meetings | New card: "AI note taker for in-person meetings: notes from the room, with no device to buy." |
+| Every use-case page | AI note taker for in-person meetings | "Other conversations people record with Lynkk." list |
+| /use-cases/one-on-one-meetings | Record in person | "What else can Lynkk do?" item "Record in person." |
+| Homepage | in-person meetings | FAQ "Does it work for in-person meetings too?" |
 | /blog/best-ai-note-takers | AI note taker for in-person meetings | Section "Can an AI note taker record in-person meetings?" |
 | /blog/best-free-ai-note-takers | free AI note taker for in-person meetings | Section "Which free AI note taker works for in-person meetings?" |
 | /compare/plaud | record in-person meetings from your laptop | "The room and the call in one place" |
-| /compare/granola | in-person meetings | H1 area or "Pick Lynkk if" |
-| /use-cases/field-interviews | in-person meetings | "More use cases" |
 | /features/meeting-notes | in-person meetings | "However the meeting happens, you get the same note." |
-| /use-cases (index) | In-person meetings | New card |
 
 Also add the URL to `sitemap.xml` and request indexing in Search Console.
 
 ## Open items
 
-- [ ] **Confirm** whether to mention that the Mac app is in beta.
-- [ ] **Confirm** whether Ask Lynkk (Pro) belongs in the timeline, or label it Pro.
-- [ ] **Confirm** the external microphone tip.
-- [ ] Design: timeline component and the wearable comparison table (use a real `<table>` with
-      `<thead>`).
-- [ ] Wrap the timeline's mock UI in `data-nosnippet` if it uses demo names.
+- [ ] **Confirm** the USB microphone tip.
+- [ ] **Confirm** the Mac app's beta label: the template does not mention it on other use-case
+      pages, so this draft follows that.
+- [ ] Design: hero note, four story screens, the slider, and the wearable table (real `<table>`
+      with `<thead>`).
+- [ ] Use-case index: the "Nine more stories" line on every use-case page becomes "Ten more
+      stories" once this page is live.
