@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "infranodus-skills": {
+      "source": {
+        "source": "github",
+        "repo": "infranodus/skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "infranodus-all@infranodus-skills": true
+  }
+}
