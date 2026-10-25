@@ -154,7 +154,8 @@ one thing most competitors (Otter, Fireflies, Fathom, Read AI) do not do well. S
 structure:
 
 - URL: `/use-cases/in-person-meetings` (or `/features/in-person-meetings`)
-- Title (58 chars): `AI Note Taker for In-Person Meetings, No Device Needed | Lynkk`
+- Title (55 chars): `AI Note Taker for In-Person Meetings, No Device | Lynkk`
+  (full draft: `seo/drafts/in-person-meetings.md`)
 - Meta description: `Record in-person meetings, interviews and client visits on your
   laptop. Lynkk writes notes and action items in 17 languages. Start free.`
 - H1: `The AI note taker for in-person meetings`
