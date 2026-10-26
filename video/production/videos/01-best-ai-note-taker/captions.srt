@@ -1,0 +1,212 @@
+1
+00:00:00,600 --> 00:00:09,225
+We ran the same sales call through six AI note takers and scored them on five things that matter after the call ends.
+
+2
+00:00:09,575 --> 00:00:14,825
+The winner depends on one question: what do you do with your notes next?
+
+3
+00:00:15,175 --> 00:00:26,425
+In the next few minutes: how each one captures your call, where the summaries actually differ, and at the end, exactly which tool we'd pick for which kind of work.
+
+4
+00:00:26,775 --> 00:00:28,650
+Welcome to the Lynkk channel.
+
+5
+00:00:29,000 --> 00:00:32,375
+Quick disclosure: we make one of these six tools.
+
+6
+00:00:32,725 --> 00:00:39,100
+So we'll show you our scoring, and we'll tell you where another tool is the better pick.
+
+7
+00:00:39,450 --> 00:00:43,575
+The six are Otter, Fireflies, Fathom, Granola, Read AI and Lynkk.
+
+8
+00:00:43,925 --> 00:00:49,925
+Same recorded discovery call, scored on capture, summary quality, follow-up, memory across calls, and price.
+
+9
+00:00:51,850 --> 00:00:52,600
+First, capture.
+
+10
+00:00:52,950 --> 00:00:56,325
+There are three ways these tools get your audio.
+
+11
+00:00:56,675 --> 00:01:00,050
+One: a bot joins the call as a participant.
+
+12
+00:01:00,400 --> 00:01:03,400
+That's how Otter, Fireflies and Fathom usually work.
+
+13
+00:01:03,750 --> 00:01:06,750
+It's reliable, but everyone sees "Notetaker has joined."
+
+14
+00:01:07,100 --> 00:01:08,225
+Two: no bot.
+
+15
+00:01:08,575 --> 00:01:12,700
+The tool records from your own computer, the way Granola does.
+
+16
+00:01:13,050 --> 00:01:18,300
+Three: in the room, for meetings that don't have a video link at all.
+
+17
+00:01:18,650 --> 00:01:27,650
+Lynkk covers all three: a meeting bot if you want one, a Chrome extension or Mac app if you don't, and in-room recording.
+
+18
+00:01:29,350 --> 00:01:30,100
+Summary quality.
+
+19
+00:01:30,450 --> 00:01:33,075
+Every tool gave us a usable summary.
+
+20
+00:01:33,425 --> 00:01:35,675
+The differences were in the details.
+
+21
+00:01:36,025 --> 00:01:37,900
+Did it catch the budget?
+
+22
+00:01:38,250 --> 00:01:39,375
+The decision maker?
+
+23
+00:01:39,725 --> 00:01:41,975
+The next step, with a date?
+
+24
+00:01:42,325 --> 00:01:51,700
+Fireflies is the one reviewers usually single out for summaries and action items, so if a clean auto-summary is all you need, start there.
+
+25
+00:01:53,725 --> 00:01:55,225
+Follow-ups and tasks.
+
+26
+00:01:55,575 --> 00:01:58,575
+This is where most notes go to die.
+
+27
+00:01:58,925 --> 00:02:04,175
+A summary is nice, but the deal moves when the follow-up goes out.
+
+28
+00:02:04,525 --> 00:02:10,900
+Lynkk drafts the follow-up email from what was actually said, and you review and send it.
+
+29
+00:02:11,250 --> 00:02:13,500
+It never sends on its own.
+
+30
+00:02:13,850 --> 00:02:19,475
+Action items come out as tasks with owners and due dates, on a Kanban board.
+
+31
+00:02:21,225 --> 00:02:22,350
+Memory across calls.
+
+32
+00:02:22,700 --> 00:02:26,075
+Most tools treat every meeting as a separate file.
+
+33
+00:02:26,425 --> 00:02:33,550
+Lynkk groups every call with the same account into one history, and tracks budget, stakeholders and objections over time.
+
+34
+00:02:33,900 --> 00:02:40,650
+On Pro, you can ask a question across all those calls and get the answer with its source.
+
+35
+00:02:41,000 --> 00:02:44,750
+One honest gap: Lynkk doesn't sync to your CRM yet.
+
+36
+00:02:45,100 --> 00:02:48,100
+You copy the brief into Salesforce or HubSpot.
+
+37
+00:02:48,450 --> 00:02:52,950
+If automatic CRM sync is a must-have today, factor that in.
+
+38
+00:02:54,350 --> 00:02:54,725
+Pricing.
+
+39
+00:02:55,075 --> 00:02:58,825
+Fathom's free plan is the one reviewers call most generous.
+
+40
+00:02:59,175 --> 00:03:02,175
+Otter's free plan has a monthly minutes cap.
+
+41
+00:03:02,525 --> 00:03:05,900
+Granola's free tier covers a limited number of meetings.
+
+42
+00:03:06,250 --> 00:03:14,875
+Lynkk's free plan gives you unlimited notes up to two hours each, plus your first five hours of AI summaries, no credit card.
+
+43
+00:03:15,225 --> 00:03:19,725
+Pro is fifteen dollars a month, or $9.75 a month billed yearly.
+
+44
+00:03:21,225 --> 00:03:23,100
+So who should pick which?
+
+45
+00:03:23,450 --> 00:03:27,575
+If you want the most generous free recording, look at Fathom.
+
+46
+00:03:27,925 --> 00:03:32,800
+If you like typing your own notes and want them cleaned up, Granola.
+
+47
+00:03:33,150 --> 00:03:37,650
+Rolling out to a whole team and mainly want strong summaries? Fireflies.
+
+48
+00:03:38,000 --> 00:03:42,500
+Already living in Otter for mobile and in-person transcription? Otter's fine.
+
+49
+00:03:42,850 --> 00:03:44,350
+Meeting analytics? Read AI.
+
+50
+00:03:44,700 --> 00:03:55,200
+And if you sell for a living and need every call with an account remembered, with the follow-up already drafted, that's exactly what we built Lynkk for.
+
+51
+00:03:56,850 --> 00:03:59,850
+The full scoring table is in the description.
+
+52
+00:04:00,200 --> 00:04:06,950
+Subscribe to the Lynkk channel for more honest tool breakdowns, and you can try Lynkk free at lynkk.ai.
+
+53
+00:04:07,300 --> 00:04:12,925
+Next, watch our video on the best free AI note takers. It's on screen now.
+

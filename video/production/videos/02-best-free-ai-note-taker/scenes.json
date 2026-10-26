@@ -1,0 +1,322 @@
+{
+  "id": "02-best-free-ai-note-taker",
+  "title": "Best Free AI Note Taker 2026: The Fine Print on 5 Plans",
+  "palette_note": "Meeting Brief content reuses the fictional example from Lynkk's in-person video. Recording cap screen is an illustration.",
+  "scenes": [
+    {
+      "layout": "title",
+      "next": "Minute caps",
+      "pill": "Free AI note takers",
+      "head": [
+        "Free isn't free",
+        "in the same way."
+      ],
+      "headAt": [
+        0,
+        0
+      ],
+      "chips": [
+        {
+          "text": "Caps your minutes",
+          "at": 1
+        },
+        {
+          "text": "Caps your meetings",
+          "at": 1
+        },
+        {
+          "text": "Caps the AI",
+          "at": 1
+        }
+      ],
+      "crit": {
+        "text": "Which limit you hit first is the whole game.",
+        "at": 6
+      },
+      "body": "Lynkk has a free plan too, so it's in the same table.",
+      "bodyAt": 4,
+      "vo": [
+        "Free AI note takers aren't free in the same way.",
+        "One caps your minutes, one caps your meetings, one caps the AI.",
+        "Here's the fine print, side by side.",
+        "We'll cover the three kinds of free limits, how the big plans compare, and at the end, the three signs it's actually time to pay.",
+        "This is the Lynkk channel, and yes, Lynkk has a free plan too, so we'll put ours in the same table as everyone else's.",
+        "Every free plan limits you in one of three ways: total minutes per month, length or number of meetings, or how much AI you get on top of the recording.",
+        "Knowing which limit you'll hit first is the whole game."
+      ]
+    },
+    {
+      "layout": "split",
+      "next": "Meeting caps",
+      "pill": "Limit 1",
+      "head": [
+        "Minute caps.",
+        "Fine for a few calls."
+      ],
+      "headAt": [
+        0,
+        3
+      ],
+      "body": "Otter's free plan works this way.",
+      "bodyAt": 2,
+      "card": {
+        "type": "meter",
+        "palette": "lilac",
+        "at": 1,
+        "fillAt": 4,
+        "formulaAt": 5,
+        "resultAt": 6,
+        "title": "Free plan",
+        "label": "Minutes used this month",
+        "capText": "Cap reached",
+        "formulaLabel": "Your monthly need",
+        "formula": "Weekly meeting hours × 4",
+        "result": "Compare this number with the cap."
+      },
+      "vo": [
+        "Monthly minute caps.",
+        "Some tools give you a bucket of minutes each month.",
+        "Otter's free plan works this way.",
+        "It's great if you have a few short calls a week.",
+        "But if you're in back-to-back meetings, you can burn through the bucket in a few days, and then you're back to typing.",
+        "Ask yourself: how many hours of meetings do you have in a normal week?",
+        "Multiply by four.",
+        "That's the number to compare against."
+      ]
+    },
+    {
+      "layout": "split",
+      "next": "AI caps",
+      "pill": "Limit 2",
+      "head": [
+        "Length and count caps.",
+        "Watch the long demos."
+      ],
+      "headAt": [
+        0,
+        3
+      ],
+      "body": "Granola's free tier covers a limited number of meetings.",
+      "bodyAt": 2,
+      "card": {
+        "type": "recording",
+        "palette": "green",
+        "at": 3,
+        "stopAt": 4,
+        "tag": "Illustration",
+        "title": "Demo call · Recording",
+        "clockFrom": 1500,
+        "clockTo": 1800,
+        "clockDur": 4,
+        "capLabel": "30-minute cap",
+        "cut": "Buyer: \"So our budget for this is...\"",
+        "toast": "Recording stopped: cap reached"
+      },
+      "vo": [
+        "Meeting-length and meeting-count caps.",
+        "Other tools let you record as often as you want, but cap how long each meeting can be, or how many meetings you get.",
+        "Granola's free tier, for example, covers a limited number of meetings.",
+        "Length caps are sneaky.",
+        "A 30-minute cap sounds fine until your demo runs long, and the recording stops right when the buyer starts talking about budget."
+      ]
+    },
+    {
+      "layout": "split",
+      "next": "Side by side",
+      "pill": "Limit 3",
+      "head": [
+        "AI caps.",
+        "A transcript isn't notes."
+      ],
+      "headAt": [
+        0,
+        3
+      ],
+      "body": "Fathom: unlimited recordings, with some advanced AI held back for paid plans.",
+      "bodyAt": 2,
+      "card": {
+        "type": "brief",
+        "palette": "warm",
+        "at": 1,
+        "briefAt": 3,
+        "title": "Design review",
+        "transcript": [
+          "00:02 So let's start with the beta timeline, I think we said",
+          "00:41 Right, and the security review, does that come before",
+          "01:15 I'd rather not commit until legal has looked at the",
+          "02:03 Okay, so who's signing off on the onboarding copy",
+          "02:47 Can someone take the first pass on that this week",
+          "03:30 Let's move the beta to the 21st and revisit"
+        ],
+        "rows": [
+          {
+            "k": "04:12",
+            "v": "Beta moves to the 21st"
+          },
+          {
+            "k": "Decision",
+            "v": "Security review comes first"
+          },
+          {
+            "k": "Open",
+            "v": "Who signs off on the copy"
+          },
+          {
+            "task": true,
+            "v": "Update the onboarding copy",
+            "chip": "Sam · Fri"
+          },
+          {
+            "task": true,
+            "v": "Book the security review",
+            "chip": "Priya · High"
+          }
+        ]
+      },
+      "vo": [
+        "AI summary caps.",
+        "The third type records everything but limits the smart part: the summaries, the action items, the questions you can ask.",
+        "Fathom is known for a generous free plan with unlimited recordings, with some of the advanced AI features held back for paid plans.",
+        "This matters because a transcript alone isn't notes.",
+        "If you have to read a 40-minute transcript to find the next step, you haven't saved much time."
+      ]
+    },
+    {
+      "layout": "title",
+      "next": "When to pay",
+      "pill": "Side by side",
+      "head": [
+        "How the free plans line up."
+      ],
+      "headAt": [
+        0
+      ],
+      "table": {
+        "header": {
+          "cells": [
+            "Tool",
+            "Limit type",
+            "Free plan"
+          ],
+          "at": 0
+        },
+        "rows": [
+          {
+            "cells": [
+              "Otter",
+              "Minutes",
+              "Monthly minutes cap"
+            ],
+            "at": 0,
+            "delay": 0.3
+          },
+          {
+            "cells": [
+              "Granola",
+              "Meetings",
+              "Limited number of meetings"
+            ],
+            "at": 0,
+            "delay": 0.6
+          },
+          {
+            "cells": [
+              "Fathom",
+              "AI features",
+              "Unlimited recordings, some AI on paid plans"
+            ],
+            "at": 0,
+            "delay": 0.9
+          },
+          {
+            "cells": [
+              "Lynkk",
+              "Meeting length",
+              "Unlimited notes up to 2 hours each, first 5 hours of AI summaries"
+            ],
+            "at": 1,
+            "hl": true
+          }
+        ],
+        "note": {
+          "text": "Lynkk Pro: $15/month, or $9.75/month billed yearly, with unlimited AI summaries. Free plans change: check the links in the description.",
+          "at": 3
+        }
+      },
+      "vo": [
+        "Here's how it lines up.",
+        "Lynkk's free plan gives you unlimited notes, up to two hours each, so long workshops and demos fit.",
+        "You also get your first five hours of AI summaries, and you don't need a credit card.",
+        "After that, Pro is fifteen dollars a month, or $9.75 a month billed yearly, and AI summaries are unlimited.",
+        "Free plans change often, so check each link in the description before you decide."
+      ],
+      "extraTop": 260
+    },
+    {
+      "layout": "title",
+      "next": "Start free",
+      "pill": "When to pay",
+      "head": [
+        "Three signs",
+        "it's time to pay."
+      ],
+      "headAt": [
+        0,
+        1
+      ],
+      "columns": [
+        {
+          "title": "Capped by mid-month",
+          "desc": "You hit your limit before the month is half over.",
+          "at": 2
+        },
+        {
+          "title": "Reading transcripts",
+          "desc": "The AI part ran out, so you're skimming raw text.",
+          "at": 3
+        },
+        {
+          "title": "Missing features",
+          "desc": "Like asking across all your past calls. On Lynkk, that's Ask Lynkk, on Pro.",
+          "at": 4
+        }
+      ],
+      "body": "None of these? Stay free. Use one plan every day for two weeks first.",
+      "bodyAt": 6,
+      "vo": [
+        "So when is paying worth it?",
+        "Three signs.",
+        "One: you hit your cap before the month is half over.",
+        "Two: you're spending time reading transcripts because the AI part ran out.",
+        "Three: you need features free plans rarely include, like asking questions across all your past calls.",
+        "On Lynkk, that's Ask Lynkk, and it's a Pro feature.",
+        "If none of those apply, stay free.",
+        "Seriously.",
+        "Pick the free plan whose limit you're least likely to hit, and use it every day for two weeks before paying for anything."
+      ]
+    },
+    {
+      "layout": "outro",
+      "next": "Subscribe for more",
+      "minDuration": 20,
+      "pill": "Start free",
+      "head": [
+        "Pick the limit",
+        "you won't hit."
+      ],
+      "headAt": [
+        0,
+        0
+      ],
+      "sub": "Lynkk: unlimited notes up to 2 hours each, first 5 hours of AI summaries, no credit card.",
+      "subAt": 0,
+      "cta": "Start free at lynkk.ai",
+      "ctaAt": 1,
+      "vo": [
+        "If this helped, subscribe to the Lynkk channel.",
+        "And if you want to try ours, Lynkk is free to start at lynkk.ai.",
+        "Next, watch our video on the best AI note takers. It's on screen now."
+      ]
+    }
+  ]
+}

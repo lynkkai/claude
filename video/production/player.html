@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lynkk video player</title>
+<style>
+:root {
+  --bg: #111111; --gutter: #101010; --line: #2b2d2d;
+  --white: #f2f2f2; --grey: #8a8a8a; --body: #939393; --dim: #5d5d5d;
+  --pill-bg: #e3dff3; --pill-text: #6c5fc7; --orange: #e8740f;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1920px; height: 1080px; background: var(--bg); overflow: hidden; }
+body { font-family: 'Inter', sans-serif; color: var(--white); -webkit-font-smoothing: antialiased; }
+#stage { position: absolute; inset: 0; background: var(--bg); }
+.gutter { position: absolute; top: 0; bottom: 0; width: 86px; background-color: var(--gutter);
+  background-image: radial-gradient(#1b1b1b 1px, transparent 1.2px); background-size: 6px 6px; }
+.gutter.l { left: 0; } .gutter.r { right: 0; }
+.vline { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--line); }
+.hline { position: absolute; left: 86px; right: 86px; height: 1px; background: var(--line); }
+#brand { position: absolute; left: 145px; top: 33px; display: flex; align-items: center; gap: 17px; }
+#brand img { width: 48px; height: 48px; }
+#brand span { font-size: 40px; font-weight: 500; letter-spacing: -0.01em; }
+#counter { position: absolute; right: 145px; top: 36px; font-size: 32px; font-weight: 500; font-variant-numeric: tabular-nums; }
+#counter .tot { color: var(--grey); }
+#site { position: absolute; left: 145px; top: 1008px; font-size: 30px; color: var(--grey); }
+#nextlbl { position: absolute; right: 145px; top: 1008px; font-size: 30px; font-weight: 500; display: flex; gap: 16px; align-items: center; }
+.scene { position: absolute; left: 154px; top: 173px; width: 1612px; height: 743px; display: none; }
+.el { will-change: opacity, transform; }
+.pill { display: inline-block; background: var(--pill-bg); color: var(--pill-text); font-size: 26px; font-weight: 500;
+  padding: 13px 29px; border-radius: 40px; }
+.head { font-size: 84px; font-weight: 500; letter-spacing: -0.025em; line-height: 1.07; margin-top: 44px; }
+.head .l2 { color: var(--grey); display: block; }
+.head .l1 { display: block; }
+.body { font-size: 36px; color: var(--body); line-height: 1.45; max-width: 760px; }
+/* split layout */
+.split .left { position: absolute; left: 0; top: 0; width: 820px; height: 743px; display: flex; flex-direction: column; justify-content: center; }
+.split .left .body { margin-top: 56px; }
+.split .head { font-size: 72px; }
+.gcard { position: absolute; left: 840px; top: 0; width: 772px; height: 743px; border-radius: 22px; overflow: hidden; }
+.blob { position: absolute; border-radius: 50%; filter: blur(70px); }
+.rings { position: absolute; inset: 0; background: repeating-radial-gradient(circle at 50% 50%, transparent 0 158px, rgba(255,255,255,0.13) 159px 160px, transparent 161px 300px); opacity: .55; }
+.win { position: absolute; left: 38px; right: 38px; border-radius: 24px; background: rgba(255,255,255,0.16);
+  border: 1px solid rgba(255,255,255,0.25); backdrop-filter: blur(6px); padding: 0 6px 6px; }
+.win .bar { height: 66px; display: flex; align-items: center; justify-content: center; position: relative; color: #fff; font-size: 26px; font-weight: 500; }
+.win .bar .dots { position: absolute; left: 26px; display: flex; gap: 12px; }
+.win .bar .dots i { width: 18px; height: 18px; border-radius: 50%; background: rgba(255,255,255,0.55); display: block; }
+.win .pane { background: #fff; border-radius: 20px; color: #151515; padding: 30px 34px; font-size: 25px; }
+.pane .t { font-size: 28px; font-weight: 500; margin-bottom: 14px; }
+.row { display: flex; align-items: center; gap: 14px; padding: 15px 0; border-top: 1px solid #ececec; }
+.row:first-of-type { border-top: none; }
+.k { color: #8b8b8b; min-width: 0; }
+.chip { margin-left: auto; background: #f1f1f1; color: #6f6f6f; border-radius: 20px; padding: 6px 14px; font-size: 21px; white-space: nowrap; }
+.box { width: 26px; height: 26px; border: 2px solid #c9c9c9; border-radius: 6px; flex: none; }
+.dot { width: 14px; height: 14px; border-radius: 50%; background: #d8d8d8; flex: none; }
+.dot.on { background: #6c5fc7; }
+.tag { position: absolute; top: 22px; right: 24px; background: rgba(0,0,0,0.35); color: #fff; font-size: 19px; padding: 6px 14px; border-radius: 16px; }
+.btn { display: inline-block; padding: 12px 22px; border-radius: 10px; font-size: 23px; font-weight: 500; }
+.btn.dark { background: #111; color: #fff; } .btn.light { background: #f1f1f1; color: #555; }
+.meter { height: 16px; border-radius: 8px; background: #eeeeee; overflow: hidden; margin: 18px 0 10px; }
+.meter b { display: block; height: 100%; background: #111; border-radius: 8px; }
+.ask { border: 1px solid #e4e4e4; border-radius: 14px; padding: 14px 18px; margin-top: 18px; font-size: 24px; min-height: 58px; }
+.ans { margin-top: 12px; font-size: 24px; }
+.src { display: inline-block; margin-top: 8px; background: #efedfb; color: #6c5fc7; border-radius: 14px; padding: 5px 12px; font-size: 20px; }
+.toast { position: absolute; left: 50%; transform: translateX(-50%); bottom: 26px; background: #111; color: #fff; border-radius: 12px; padding: 12px 22px; font-size: 22px; white-space: nowrap; }
+.tline { height: 12px; background: #e9e9e9; border-radius: 6px; margin: 12px 0; }
+/* title layout extras */
+.title .top { position: absolute; left: 0; top: 0; }
+.title .extra { position: absolute; left: 0; right: 0; top: 340px; }
+.title .bottom { position: absolute; left: 0; bottom: 0px; }
+.chips { display: flex; gap: 18px; flex-wrap: wrap; }
+.tchip { border: 1px solid #333; border-radius: 16px; padding: 18px 28px; font-size: 32px; font-weight: 500; background: #161616; }
+.tchip.hl { border-color: var(--pill-bg); }
+.crit { font-size: 28px; color: var(--grey); margin-top: 26px; }
+.cols { display: flex; border-top: 1px solid var(--line); }
+.col { flex: 1; padding: 26px 34px 0 0; }
+.col + .col { border-left: 1px solid var(--line); padding-left: 34px; }
+.col .n { color: var(--dim); font-size: 22px; font-variant-numeric: tabular-nums; }
+.col .ct { font-size: 34px; font-weight: 500; margin-top: 12px; }
+.col .cd { font-size: 26px; color: var(--body); margin-top: 12px; line-height: 1.45; }
+.tbl { width: 100%; border-top: 1px solid var(--line); font-size: 28px; }
+.tr { display: flex; padding: 16px 0; border-bottom: 1px solid var(--line); align-items: center; }
+.tr .a { width: 300px; font-weight: 500; flex: none; } .tr .b { width: 470px; color: var(--grey); flex: none; } .tr .c { color: var(--body); flex: 1; }
+.tr.hd { font-size: 22px; color: var(--dim); padding: 14px 0; }
+.tr.hd .a, .tr.hd .b, .tr.hd .c { color: var(--dim); font-weight: 400; }
+.tr.hl .a { color: #fff; } .tr.hl .c { color: var(--white); }
+.lyn { display: inline-block; background: var(--pill-bg); color: var(--pill-text); border-radius: 30px; padding: 4px 16px; font-size: 26px; }
+.note { font-size: 26px; color: var(--grey); margin-top: 26px; }
+.picks .tr .a { width: 760px; font-weight: 400; color: var(--body); } .picks .tr .c { color: #fff; font-weight: 500; }
+/* outro */
+.outro .ocard { position: absolute; inset: 0; border-radius: 22px; overflow: hidden; background: var(--orange); }
+.outro .inner { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.outro .pill { background: rgba(255,255,255,0.22); color: #fff; }
+.outro .head { font-size: 92px; margin-top: 54px; }
+.outro .head .l2 { color: #fff; }
+.outro .sub { font-size: 36px; color: rgba(255,255,255,0.86); margin-top: 40px; max-width: 900px; line-height: 1.4; }
+.outro .cta { margin-top: 56px; background: #fff; color: #111; font-size: 38px; font-weight: 500; padding: 26px 48px; border-radius: 8px; }
+.grain { position: absolute; inset: -50%; opacity: .32; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+.typed::after { content: ''; display: inline-block; width: 2px; height: 1em; background: #111; margin-left: 2px; vertical-align: -0.15em; opacity: var(--caret, 0); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="gutter l"></div><div class="gutter r"></div>
+  <div class="vline" style="left:86px"></div><div class="vline" style="left:1833px"></div>
+  <div class="hline" style="top:114px"></div><div class="hline" style="top:974px"></div>
+  <div id="brand"><img src="assets/lynkk-mark.png" alt=""><span>Lynkk</span></div>
+  <div id="counter"><span class="cur">01</span><span class="tot"> / 01</span></div>
+  <div id="site">lynkk.ai</div>
+  <div id="nextlbl"><span id="nexttxt"></span><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+  <div id="scenes"></div>
+</div>
+<script>
+const PALETTES = {
+  warm:  ['#f4ead8', '#b46a3c', '#7a4a33', '#e0a24a', '#c97a62', '#8fa596'],
+  green: ['#7aa36a', '#f0c9a8', '#cfe4f1', '#3f6b3a', '#a9c46a', '#2f6b6e'],
+  blue:  ['#9fb7e8', '#e9d9f5', '#5d7fc4', '#f2e3d0', '#7fa9c9', '#c9b4ea'],
+  lilac: ['#d9cdf7', '#f6dccd', '#8f7ad6', '#f1eee6', '#b39be6', '#e8b9a0'],
+};
+const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+let TL = null, nodes = [];
+
+function gradientCard(pal) {
+  const c = PALETTES[pal] || PALETTES.warm;
+  const spots = [[10, 5, 520], [70, 0, 560], [85, 55, 520], [20, 70, 560], [55, 95, 480], [40, 40, 420]];
+  return '<div class="gcard">' + spots.map((s, i) =>
+    `<div class="blob" data-i="${i}" style="left:${s[0]}%;top:${s[1]}%;width:${s[2]}px;height:${s[2]}px;margin:-${s[2]/2}px 0 0 -${s[2]/2}px;background:${c[i]}"></div>`).join('') +
+    '<div class="rings"></div>';
+}
+function A(at, html, extra = '') { return `<div class="el" data-at="${at}" ${extra}>${html}</div>`; }
+function head(h, at) {
+  return `<div class="head"><span class="l1 el" data-at="${at[0] ?? 0}">${esc(h[0])}</span>` +
+    (h[1] ? `<span class="l2 el" data-at="${at[1] ?? at[0] ?? 0}">${esc(h[1])}</span>` : '') + '</div>';
+}
+function card(c) {
+  let h = gradientCard(c.palette);
+  const tag = c.tag ? `<div class="tag">${esc(c.tag)}</div>` : '';
+  if (c.type === 'checklist') {
+    h += `<div class="win el" data-at="${c.at}" style="top:${c.top||190}px"><div class="bar"><div class="dots"><i></i><i></i><i></i></div>${esc(c.title)}</div><div class="pane">` +
+      `<div class="t">${esc(c.subtitle)}</div>` +
+      c.items.map(it => `<div class="row el" data-at="${it.at}"><span class="dot" data-on="${it.at}"></span><span>${esc(it.text)}</span>${it.chip ? `<span class="chip">${esc(it.chip)}</span>` : ''}</div>`).join('') +
+      `</div></div>`;
+  } else if (c.type === 'email') {
+    h += `<div class="win el" data-at="${c.at}" style="top:70px"><div class="bar"><div class="dots"><i></i><i></i><i></i></div>${esc(c.title)}</div><div class="pane">` +
+      `<div class="row"><span class="k">To</span><span>${esc(c.to)}</span></div>` +
+      `<div class="row"><span class="k">Subject</span><span>${esc(c.subject)}</span></div>` +
+      `<div class="row" style="display:block;line-height:1.45"><span class="typed" data-type="${c.at}" data-dur="5" data-text="${esc(c.text)}"></span></div>` +
+      `<div class="row"><span class="btn light">Edit</span><span class="btn dark el" data-at="${c.sendAt}">Review and send</span><span class="chip el" data-at="${c.sendAt}">You send it</span></div>` +
+      `</div></div>`;
+    if (c.tasks) h += `<div class="win el" data-at="${c.tasksAt}" style="top:520px"><div class="pane" style="padding:14px 30px">` +
+      c.tasks.map(t => `<div class="row"><span class="box"></span><span>${esc(t[0])}</span><span class="chip">${esc(t[1])}</span></div>`).join('') + `</div></div>`;
+  } else if (c.type === 'account') {
+    h += `<div class="win el" data-at="${c.at}" style="top:70px"><div class="bar"><div class="dots"><i></i><i></i><i></i></div>${esc(c.title)}</div><div class="pane">` +
+      c.rows.map(r => `<div class="row el" data-at="${r.at ?? c.at}"><span class="k" style="width:170px">${esc(r.k)}</span><span>${esc(r.v)}</span>${r.chip ? `<span class="chip">${esc(r.chip)}</span>` : ''}</div>`).join('') +
+      `<div class="ask el" data-at="${c.askAt}"><span class="typed" data-type="${c.askAt}" data-dur="2.2" data-text="${esc(c.ask)}"></span></div>` +
+      `<div class="ans el" data-at="${c.askAt}" data-delay="2.6">${esc(c.answer)}<br><span class="src">${esc(c.source)}</span></div>` +
+      `</div></div>`;
+  } else if (c.type === 'meter') {
+    h += `<div class="win el" data-at="${c.at}" style="top:120px"><div class="bar"><div class="dots"><i></i><i></i><i></i></div>${esc(c.title)}</div><div class="pane">` +
+      `<div class="t">${esc(c.label)}</div><div class="meter"><b data-fill="${c.fillAt}" data-dur="3"></b></div>` +
+      `<div style="display:flex;color:#8b8b8b;font-size:22px"><span>0</span><span style="margin-left:auto" class="el" data-at="${c.fillAt}" data-delay="3">${esc(c.capText)}</span></div></div></div>` +
+      `<div class="win el" data-at="${c.formulaAt}" style="top:430px"><div class="pane"><div class="k" style="font-size:22px">${esc(c.formulaLabel)}</div>` +
+      `<div style="font-size:40px;font-weight:500;margin-top:8px">${esc(c.formula)}</div><div class="k el" data-at="${c.resultAt}" style="margin-top:8px">${esc(c.result)}</div></div></div>`;
+  } else if (c.type === 'recording') {
+    h += `<div class="win el" data-at="${c.at}" style="top:180px"><div class="bar"><div class="dots"><i></i><i></i><i></i></div>${esc(c.title)}</div><div class="pane" style="position:relative;padding-bottom:96px">` +
+      `<div class="row"><span style="color:#e5483b">●</span><span class="clock" data-clock="${c.at}" data-from="${c.clockFrom}" data-to="${c.clockTo}" data-dur="${c.clockDur}">00:00</span><span class="chip">${esc(c.capLabel)}</span></div>` +
+      `<div class="meter" style="position:relative;overflow:visible"><b data-fill="${c.at}" data-dur="${c.clockDur}"></b></div>` +
+      `<div class="k el" data-at="${c.stopAt}" style="font-size:23px;margin-top:10px">${esc(c.cut)}</div>` +
+      `<div class="toast el" data-at="${c.stopAt}">${esc(c.toast)}</div></div></div>`;
+  } else if (c.type === 'brief') {
+    h += `<div class="win el" data-at="${c.at}" data-out="${c.briefAt}" style="top:150px"><div class="pane" style="color:#9a9a9a;font-size:20px;line-height:1.7">` +
+      c.transcript.map(l => `<div>${esc(l)}</div>`).join('') + `</div></div>` +
+      `<div class="win el" data-at="${c.briefAt}" style="top:200px"><div class="bar"><div class="dots"><i></i><i></i><i></i></div>Meeting Brief</div><div class="pane">` +
+      `<div class="t">${esc(c.title)}</div>` +
+      c.rows.map(r => r.task ? `<div class="row"><span class="box"></span><span>${esc(r.v)}</span><span class="chip">${esc(r.chip)}</span></div>`
+        : `<div class="row"><span class="k">${esc(r.k)}</span><span>${esc(r.v)}</span></div>`).join('') + `</div></div>`;
+  }
+  return h + tag + '</div>';
+}
+function build(s) {
+  let h = '';
+  if (s.layout === 'split') {
+    h = `<div class="left">${A(s.pillAt ?? 0, `<span class="pill">${esc(s.pill)}</span>`)}${head(s.head, s.headAt || [0, 1])}` +
+      (s.body ? `<div class="body el" data-at="${s.bodyAt}">${esc(s.body)}</div>` : '') + `</div>` + card(s.card);
+  } else if (s.layout === 'title') {
+    h = `<div class="top">${A(s.pillAt ?? 0, `<span class="pill">${esc(s.pill)}</span>`)}${head(s.head, s.headAt || [0, 1])}</div><div class="extra" style="${s.extraTop ? `top:${s.extraTop}px` : ''}">`;
+    if (s.chips) h += `<div class="chips">` + s.chips.map((c, i) => `<div class="tchip el ${c.hl ? 'hl' : ''}" data-at="${c.at}" data-delay="${(c.delay ?? i * 0.18)}">${esc(c.text)}</div>`).join('') + `</div>` +
+      (s.crit ? `<div class="crit el" data-at="${s.crit.at}">${esc(s.crit.text)}</div>` : '');
+    if (s.columns) h += `<div class="cols">` + s.columns.map((c, i) => `<div class="col el" data-at="${c.at}"><div class="n">${String(i + 1).padStart(2, '0')}</div><div class="ct">${esc(c.title)}</div><div class="cd">${esc(c.desc)}</div></div>`).join('') + `</div>`;
+    if (s.table) h += `<div class="tbl ${s.table.picks ? 'picks' : ''}">` + (s.table.header ? `<div class="tr hd el" data-at="${s.table.header.at}">${s.table.header.cells.map((x, j) => `<span class="${'abc'[j]}">${esc(x)}</span>`).join('')}</div>` : '') +
+      s.table.rows.map((r, i) => `<div class="tr el ${r.hl ? 'hl' : ''}" data-at="${r.at}" data-delay="${r.delay ?? 0}">${r.cells.map((x, j) => `<span class="${'abc'[j]}">${(r.hl && j === (s.table.picks ? 2 : 0)) ? `<span class="lyn">${esc(x)}</span>` : esc(x)}</span>`).join('')}</div>`).join('') + `</div>` +
+      (s.table.note ? `<div class="note el" data-at="${s.table.note.at}">${esc(s.table.note.text)}</div>` : '');
+    h += `</div>` + (s.body ? `<div class="bottom"><div class="body el" data-at="${s.bodyAt}" style="max-width:1300px">${esc(s.body)}</div></div>` : '');
+  } else if (s.layout === 'outro') {
+    h = `<div class="ocard"><div class="blob" data-i="0" style="left:5%;top:0%;width:900px;height:900px;margin:-450px 0 0 -450px;background:#f59a12"></div>` +
+      `<div class="blob" data-i="1" style="left:72%;top:25%;width:800px;height:800px;margin:-400px 0 0 -400px;background:#5c3424"></div>` +
+      `<div class="blob" data-i="2" style="left:95%;top:95%;width:900px;height:900px;margin:-450px 0 0 -450px;background:#ec6a12"></div>` +
+      `<div class="blob" data-i="3" style="left:30%;top:110%;width:800px;height:700px;margin:-350px 0 0 -400px;background:#d9590f"></div><div class="grain"></div>` +
+      `<div class="inner">${A(0, `<span class="pill">${esc(s.pill)}</span>`)}${head(s.head, s.headAt || [0, 0])}` +
+      `<div class="sub el" data-at="${s.subAt ?? 0}" data-delay="0.6">${esc(s.sub)}</div>` +
+      `<div class="cta el" data-at="${s.ctaAt ?? 1}">${esc(s.cta)}</div></div></div>`;
+  }
+  return h;
+}
+const ease = p => p <= 0 ? 0 : p >= 1 ? 1 : 1 - Math.pow(1 - p, 3);
+const clamp = x => Math.max(0, Math.min(1, x));
+
+window.loadTimeline = function (tl) {
+  TL = tl;
+  const root = document.getElementById('scenes'); root.innerHTML = '';
+  nodes = tl.scenes.map((s, i) => {
+    const d = document.createElement('div');
+    d.className = 'scene ' + s.layout; d.innerHTML = build(s); root.appendChild(d);
+    return d;
+  });
+  document.getElementById('counter').querySelector('.tot').textContent = ' / ' + String(tl.scenes.length).padStart(2, '0');
+  return Promise.all([document.fonts.ready, ...[...document.images].map(im => im.complete ? 1 : new Promise(r => { im.onload = im.onerror = r; }))]);
+};
+
+window.setTime = function (t) {
+  const S = TL.scenes;
+  let k = S.findIndex(s => t >= s.start && t < s.end); if (k < 0) k = t < S[0].start ? 0 : S.length - 1;
+  const s = S[k];
+  nodes.forEach((n, i) => n.style.display = i === k ? 'block' : 'none');
+  const n = nodes[k];
+  // scene exit: fade content out in the last 0.4s (dip through background)
+  const outP = k < S.length - 1 ? clamp((s.end - t) / 0.4) : 1;
+  n.style.opacity = outP;
+  const beat = a => s.beats[Math.min(+a, s.beats.length - 1)];
+  n.querySelectorAll('.el').forEach(e => {
+    const t0 = beat(e.dataset.at) + (+(e.dataset.delay || 0));
+    const p = ease(clamp((t - t0) / 0.6));
+    const q = e.dataset.out ? 1 - ease(clamp((t - beat(e.dataset.out)) / 0.5)) : 1;
+    e.style.opacity = p * q; e.style.transform = `translateY(${(1 - p) * 26 - (1 - q) * 20}px)`;
+  });
+  n.querySelectorAll('[data-on]').forEach(e => e.classList.toggle('on', t >= beat(e.dataset.on) + 0.2));
+  n.querySelectorAll('.typed').forEach(e => {
+    const t0 = beat(e.dataset.type) + 0.4, dur = +e.dataset.dur, txt = e.dataset.text;
+    const p = clamp((t - t0) / dur), m = Math.floor(p * txt.length);
+    e.textContent = txt.slice(0, m);
+    e.style.setProperty('--caret', p > 0 && p < 1 ? (Math.floor(t * 2) % 2 ? 1 : 0.2) : 0);
+  });
+  n.querySelectorAll('[data-fill]').forEach(e => {
+    const p = ease(clamp((t - beat(e.dataset.fill) - 0.3) / +e.dataset.dur));
+    e.style.width = (p * 100) + '%';
+    if (e.closest('.meter') && p >= 1) e.style.background = '#e8740f'; else e.style.background = '#111';
+  });
+  n.querySelectorAll('[data-clock]').forEach(e => {
+    const p = clamp((t - beat(e.dataset.clock) - 0.3) / +e.dataset.dur);
+    const sec = Math.round(+e.dataset.from + p * (+e.dataset.to - +e.dataset.from));
+    e.textContent = String(Math.floor(sec / 60)).padStart(2, '0') + ':' + String(sec % 60).padStart(2, '0');
+  });
+  // slow drift on gradient blobs so cards feel alive
+  n.querySelectorAll('.blob').forEach(b => {
+    const i = +b.dataset.i;
+    b.style.transform = `translate(${Math.sin(t * 0.21 + i * 1.7) * 40}px, ${Math.cos(t * 0.17 + i * 2.3) * 34}px) scale(${1 + Math.sin(t * 0.13 + i) * 0.05})`;
+  });
+  const cp = clamp((t - s.start) / 0.35);
+  const ctr = document.getElementById('counter');
+  ctr.querySelector('.cur').textContent = String(k + 1).padStart(2, '0');
+  ctr.style.opacity = k === 0 ? 1 : 0.4 + 0.6 * cp;
+  document.getElementById('nexttxt').textContent = s.next;
+  document.getElementById('nextlbl').style.opacity = Math.min(outP, k === 0 ? 1 : cp);
+};
+</script>
+</body>
+</html>

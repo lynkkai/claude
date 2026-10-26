@@ -1,0 +1,506 @@
+{
+ "id": "01-best-ai-note-taker",
+ "duration": 256.25,
+ "bpm": 96.0,
+ "scenes": [
+  {
+   "layout": "title",
+   "next": "Capture",
+   "pill": "Tested on one sales call",
+   "head": [
+    "Six AI note takers. One sales call.",
+    "What happens to your notes next?"
+   ],
+   "headAt": [
+    0,
+    1
+   ],
+   "chips": [
+    {
+     "text": "Otter",
+     "at": 6
+    },
+    {
+     "text": "Fireflies",
+     "at": 6
+    },
+    {
+     "text": "Fathom",
+     "at": 6
+    },
+    {
+     "text": "Granola",
+     "at": 6
+    },
+    {
+     "text": "Read AI",
+     "at": 6
+    },
+    {
+     "text": "Lynkk",
+     "at": 6,
+     "hl": true
+    }
+   ],
+   "crit": {
+    "text": "Scored on capture, summaries, follow-up, memory across calls and price.",
+    "at": 7
+   },
+   "body": "We make Lynkk. We'll tell you where another tool is the better pick.",
+   "bodyAt": 4,
+   "start": 0.0,
+   "end": 51.25,
+   "beats": [
+    0.6,
+    9.575,
+    15.175,
+    26.775,
+    29.0,
+    32.725,
+    39.45,
+    43.925
+   ],
+   "vo": [
+    "We ran the same sales call through six AI note takers and scored them on five things that matter after the call ends.",
+    "The winner depends on one question: what do you do with your notes next?",
+    "In the next few minutes: how each one captures your call, where the summaries actually differ, and at the end, exactly which tool we'd pick for which kind of work.",
+    "Welcome to the Lynkk channel.",
+    "Quick disclosure: we make one of these six tools.",
+    "So we'll show you our scoring, and we'll tell you where another tool is the better pick.",
+    "The six are Otter, Fireflies, Fathom, Granola, Read AI and Lynkk.",
+    "Same recorded discovery call, scored on capture, summary quality, follow-up, memory across calls, and price."
+   ]
+  },
+  {
+   "layout": "title",
+   "next": "Summary quality",
+   "pill": "Capture",
+   "head": [
+    "Three ways to capture.",
+    "Bot, no bot, in the room."
+   ],
+   "headAt": [
+    0,
+    1
+   ],
+   "columns": [
+    {
+     "title": "Meeting bot",
+     "desc": "Joins as a participant. Otter, Fireflies and Fathom usually work this way.",
+     "at": 2
+    },
+    {
+     "title": "No bot",
+     "desc": "Records from your own computer, the way Granola does.",
+     "at": 5
+    },
+    {
+     "title": "In the room",
+     "desc": "For meetings that don't have a video link at all.",
+     "at": 7
+    }
+   ],
+   "body": "Lynkk does all three: a meeting bot, a Chrome extension or Mac app, and in-room recording.",
+   "bodyAt": 8,
+   "start": 51.25,
+   "end": 88.75,
+   "beats": [
+    51.85,
+    52.95,
+    56.675,
+    60.4,
+    63.75,
+    67.1,
+    68.575,
+    73.05,
+    78.65
+   ],
+   "vo": [
+    "First, capture.",
+    "There are three ways these tools get your audio.",
+    "One: a bot joins the call as a participant.",
+    "That's how Otter, Fireflies and Fathom usually work.",
+    "It's reliable, but everyone sees \"Notetaker has joined.\"",
+    "Two: no bot.",
+    "The tool records from your own computer, the way Granola does.",
+    "Three: in the room, for meetings that don't have a video link at all.",
+    "Lynkk covers all three: a meeting bot if you want one, a Chrome extension or Mac app if you don't, and in-room recording."
+   ]
+  },
+  {
+   "layout": "split",
+   "next": "Follow-ups and tasks",
+   "pill": "Summary quality",
+   "head": [
+    "Every tool summarizes.",
+    "The details decide."
+   ],
+   "headAt": [
+    1,
+    2
+   ],
+   "body": "Reviewers often single out Fireflies for summaries and action items.",
+   "bodyAt": 6,
+   "card": {
+    "type": "checklist",
+    "palette": "warm",
+    "at": 2,
+    "top": 210,
+    "title": "Summary check",
+    "subtitle": "Same discovery call. Did it catch:",
+    "items": [
+     {
+      "text": "The budget",
+      "at": 3
+     },
+     {
+      "text": "The decision maker",
+      "at": 4
+     },
+     {
+      "text": "The next step, with a date",
+      "at": 5
+     }
+    ]
+   },
+   "start": 88.75,
+   "end": 113.125,
+   "beats": [
+    89.35,
+    90.45,
+    93.425,
+    96.025,
+    98.25,
+    99.725,
+    102.325
+   ],
+   "vo": [
+    "Summary quality.",
+    "Every tool gave us a usable summary.",
+    "The differences were in the details.",
+    "Did it catch the budget?",
+    "The decision maker?",
+    "The next step, with a date?",
+    "Fireflies is the one reviewers usually single out for summaries and action items, so if a clean auto-summary is all you need, start there."
+   ]
+  },
+  {
+   "layout": "split",
+   "next": "Memory across calls",
+   "pill": "Follow-ups and tasks",
+   "head": [
+    "Notes don't close deals.",
+    "Follow-ups do."
+   ],
+   "headAt": [
+    0,
+    2
+   ],
+   "body": "Lynkk drafts it from the call. You review and send it.",
+   "bodyAt": 4,
+   "card": {
+    "type": "email",
+    "palette": "green",
+    "at": 3,
+    "sendAt": 4,
+    "tasksAt": 5,
+    "title": "Follow-up draft",
+    "to": "Sam Rivera",
+    "subject": "Next steps from today",
+    "text": "Hi Sam, thanks for today. You mentioned onboarding takes three weeks and you want it under one. Next step: security review with your IT lead, Thursday at 2.",
+    "tasks": [
+     [
+      "Send the security doc",
+      "Priya \u00b7 Wed"
+     ],
+     [
+      "Book the IT review",
+      "Sam \u00b7 Thu"
+     ]
+    ]
+   },
+   "start": 113.125,
+   "end": 140.625,
+   "beats": [
+    113.725,
+    115.575,
+    118.925,
+    124.525,
+    131.25,
+    133.85
+   ],
+   "vo": [
+    "Follow-ups and tasks.",
+    "This is where most notes go to die.",
+    "A summary is nice, but the deal moves when the follow-up goes out.",
+    "Lynkk drafts the follow-up email from what was actually said, and you review and send it.",
+    "It never sends on its own.",
+    "Action items come out as tasks with owners and due dates, on a Kanban board."
+   ]
+  },
+  {
+   "layout": "split",
+   "next": "Pricing",
+   "pill": "Memory across calls",
+   "head": [
+    "Most tools forget.",
+    "Lynkk remembers."
+   ],
+   "headAt": [
+    1,
+    2
+   ],
+   "body": "No CRM sync yet. Copy the brief into Salesforce or HubSpot.",
+   "bodyAt": 4,
+   "card": {
+    "type": "account",
+    "palette": "blue",
+    "at": 2,
+    "askAt": 3,
+    "tag": "Example",
+    "title": "Northwind \u00b7 Account history",
+    "rows": [
+     {
+      "k": "Call 1",
+      "v": "Budget",
+      "chip": "$30K"
+     },
+     {
+      "k": "Call 3",
+      "v": "Budget",
+      "chip": "$50K"
+     },
+     {
+      "k": "Stakeholders",
+      "v": "CFO joined on call 3"
+     },
+     {
+      "k": "Objection",
+      "v": "Security review first"
+     }
+    ],
+    "ask": "What did the CFO say about pricing?",
+    "answer": "Asked for annual pricing before the pilot.",
+    "source": "Source: Call 3 \u00b7 12:40"
+   },
+   "start": 140.625,
+   "end": 173.75,
+   "beats": [
+    141.225,
+    142.7,
+    146.425,
+    153.9,
+    161.0,
+    165.1,
+    168.45
+   ],
+   "vo": [
+    "Memory across calls.",
+    "Most tools treat every meeting as a separate file.",
+    "Lynkk groups every call with the same account into one history, and tracks budget, stakeholders and objections over time.",
+    "On Pro, you can ask a question across all those calls and get the answer with its source.",
+    "One honest gap: Lynkk doesn't sync to your CRM yet.",
+    "You copy the brief into Salesforce or HubSpot.",
+    "If automatic CRM sync is a must-have today, factor that in."
+   ]
+  },
+  {
+   "layout": "title",
+   "next": "Who should pick which",
+   "pill": "Free plans and pricing",
+   "head": [
+    "Free plans differ.",
+    "Here's the fine print."
+   ],
+   "headAt": [
+    0,
+    0
+   ],
+   "table": {
+    "header": {
+     "cells": [
+      "Tool",
+      "Free plan",
+      ""
+     ],
+     "at": 0
+    },
+    "rows": [
+     {
+      "cells": [
+       "Fathom",
+       "Most generous, per reviewers",
+       ""
+      ],
+      "at": 1
+     },
+     {
+      "cells": [
+       "Otter",
+       "Monthly minutes cap",
+       ""
+      ],
+      "at": 2
+     },
+     {
+      "cells": [
+       "Granola",
+       "Limited number of meetings",
+       ""
+      ],
+      "at": 3
+     },
+     {
+      "cells": [
+       "Lynkk",
+       "Unlimited notes, 2 hours each",
+       "First 5 hours of AI summaries. No card."
+      ],
+      "at": 4,
+      "hl": true
+     }
+    ],
+    "note": {
+     "text": "Lynkk Pro: $15/month, or $9.75/month billed yearly. Check current pricing for every tool: links in the description.",
+     "at": 5
+    }
+   },
+   "start": 173.75,
+   "end": 200.625,
+   "beats": [
+    174.35,
+    175.075,
+    179.175,
+    182.525,
+    186.25,
+    195.225
+   ],
+   "vo": [
+    "Pricing.",
+    "Fathom's free plan is the one reviewers call most generous.",
+    "Otter's free plan has a monthly minutes cap.",
+    "Granola's free tier covers a limited number of meetings.",
+    "Lynkk's free plan gives you unlimited notes up to two hours each, plus your first five hours of AI summaries, no credit card.",
+    "Pro is fifteen dollars a month, or $9.75 a month billed yearly."
+   ]
+  },
+  {
+   "layout": "title",
+   "next": "Start free",
+   "pill": "Our picks",
+   "head": [
+    "Who should pick which?"
+   ],
+   "headAt": [
+    0
+   ],
+   "table": {
+    "picks": true,
+    "rows": [
+     {
+      "cells": [
+       "The most generous free recording",
+       "",
+       "Fathom"
+      ],
+      "at": 1
+     },
+     {
+      "cells": [
+       "Your own typed notes, cleaned up",
+       "",
+       "Granola"
+      ],
+      "at": 2
+     },
+     {
+      "cells": [
+       "Strong summaries for a whole team",
+       "",
+       "Fireflies"
+      ],
+      "at": 3
+     },
+     {
+      "cells": [
+       "Mobile and in-person transcription",
+       "",
+       "Otter"
+      ],
+      "at": 4
+     },
+     {
+      "cells": [
+       "Meeting analytics",
+       "",
+       "Read AI"
+      ],
+      "at": 5
+     },
+     {
+      "cells": [
+       "Every account remembered, follow-up drafted",
+       "",
+       "Lynkk"
+      ],
+      "at": 6,
+      "hl": true
+     }
+    ]
+   },
+   "extraTop": 230,
+   "start": 200.625,
+   "end": 236.25,
+   "beats": [
+    201.225,
+    203.45,
+    207.925,
+    213.15,
+    218.0,
+    222.85,
+    224.7
+   ],
+   "vo": [
+    "So who should pick which?",
+    "If you want the most generous free recording, look at Fathom.",
+    "If you like typing your own notes and want them cleaned up, Granola.",
+    "Rolling out to a whole team and mainly want strong summaries? Fireflies.",
+    "Already living in Otter for mobile and in-person transcription? Otter's fine.",
+    "Meeting analytics? Read AI.",
+    "And if you sell for a living and need every call with an account remembered, with the follow-up already drafted, that's exactly what we built Lynkk for."
+   ]
+  },
+  {
+   "layout": "outro",
+   "next": "Subscribe for more",
+   "minDuration": 20,
+   "pill": "Start free",
+   "head": [
+    "Six tools. One question.",
+    "What happens to your notes next?"
+   ],
+   "headAt": [
+    0,
+    0
+   ],
+   "sub": "Lynkk remembers every account and drafts the follow-up. Full scoring table in the description.",
+   "subAt": 0,
+   "cta": "Start free at lynkk.ai",
+   "ctaAt": 1,
+   "start": 236.25,
+   "end": 256.25,
+   "beats": [
+    236.85,
+    240.2,
+    247.3
+   ],
+   "vo": [
+    "The full scoring table is in the description.",
+    "Subscribe to the Lynkk channel for more honest tool breakdowns, and you can try Lynkk free at lynkk.ai.",
+    "Next, watch our video on the best free AI note takers. It's on screen now."
+   ]
+  }
+ ],
+ "vo_clips": [],
+ "estimated": true
+}
