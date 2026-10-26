@@ -25,8 +25,8 @@
 1. Best AI Note Taker 2026: 6 Tools Tested on One Sales Call (Result, 57 chars)
 2. 6 Best AI Note Takers in 2026, Ranked for Sales Calls (Listicle, 53 chars)
 3. Best AI Note Taker? Most Reviews Miss This One Thing (Curiosity gap, 52 chars)
-4. Otter vs Fireflies vs Fathom vs Granola vs Lynkk (2026) (Versus, 55 chars)
-5. Is Your AI Note Taker Losing Deals? 6 Tools Tested (Question, 50 chars)
+4. Best AI Note Taker for Sales: Otter vs Fireflies vs Lynkk (Versus, 57 chars)
+5. Best AI Note Taker for Sales Calls? We Tested 6 (Question, 47 chars)
 
 Recommended: #1
 
@@ -172,10 +172,10 @@ EMOTION: Suspicion turning into curiosity
 **Title options**
 
 1. Best AI Note Taker for In-Person Meetings (2026 Room Test) (Result, 58 chars)
-2. How to Get AI Notes From In-Person Meetings (How-to, 43 chars)
-3. AI Notes Without Zoom: Recording In-Person Meetings (How-to, 51 chars)
-4. In-Person Meeting Notes: Phone vs Laptop vs Wearable (Versus, 52 chars)
-5. Your Best Meetings Have No Zoom Link. Record Them Right. (Curiosity gap, 56 chars)
+2. AI Note Taker for In-Person Meetings: How to Set It Up (How-to, 54 chars)
+3. AI Note Taker for In-Person Meetings: Phone vs Laptop (Versus, 53 chars)
+4. No Zoom Link? AI Note Taker for In-Person Meetings (Question, 50 chars)
+5. AI Note Taker for In-Person Meetings That Works Offline (Result, 55 chars)
 
 Recommended: #1
 
@@ -234,7 +234,7 @@ LAYOUT: host on left third, text on right third (channel standard)
 EMOTION: Relief
 ```
 
-## 4. AI Note Taker Without a Bot: How Bot-Free Recording Works
+## 4. Bot-Free AI Note Taker: How Recording Without a Bot Works
 
 **Working title:** AI Note Taker Without a Bot: How Bot-Free Recording Works  
 **Primary keyword:** bot free ai note taker  
@@ -242,11 +242,11 @@ EMOTION: Relief
 
 **Title options**
 
-1. AI Note Taker Without a Bot: How Bot-Free Recording Works (How-to, 57 chars)
+1. Bot-Free AI Note Taker: How Recording Without a Bot Works (How-to, 57 chars)
 2. Bot-Free AI Note Taker: Set It Up in 2 Minutes (Result, 46 chars)
-3. Why Prospects Remove Your Meeting Bot (and the Fix) (Curiosity gap, 51 chars)
-4. Meeting Bot vs Bot-Free Note Taker: Which Is Better? (Versus, 52 chars)
-5. Stop Sending Bots to Your Sales Calls (Mistake, 37 chars)
+3. Prospects Remove Bots. Use a Bot-Free AI Note Taker (Curiosity gap, 51 chars)
+4. Meeting Bot vs Bot-Free AI Note Taker: Which Is Better? (Versus, 55 chars)
+5. Bot-Free AI Note Taker for Sales Calls (How-to, 38 chars)
 
 Recommended: #1
 
@@ -314,10 +314,10 @@ EMOTION: Satisfaction
 **Title options**
 
 1. Microsoft Teams AI Note Taker: Copilot vs Third-Party (Versus, 53 chars)
-2. Best AI Note Taker for Microsoft Teams (2026) (Listicle, 45 chars)
-3. Is Teams Copilot Enough for Meeting Notes? (Question, 42 chars)
-4. How to Add an AI Note Taker to Microsoft Teams (How-to, 46 chars)
-5. 3 Gaps in Teams' Built-In AI Meeting Notes (Mistake, 42 chars)
+2. Best Microsoft Teams AI Note Taker (2026) (Listicle, 41 chars)
+3. Is Copilot Enough? Microsoft Teams AI Note Taker Guide (Question, 54 chars)
+4. How to Add a Microsoft Teams AI Note Taker (How-to, 42 chars)
+5. Microsoft Teams AI Note Taker: 3 Gaps in Built-In Notes (Mistake, 55 chars)
 
 Recommended: #1
 
@@ -388,10 +388,10 @@ EMOTION: Curiosity
 **Title options**
 
 1. Google Meet AI Note Taker: Built-In vs Dedicated (2026) (Versus, 55 chars)
-2. Best AI Note Taker for Google Meet in 2026 (Listicle, 42 chars)
-3. Does Google Meet Take Notes for You? Here's the Catch (Question, 53 chars)
-4. Google Meet Notes With Gemini: What They Miss (Secret/Hidden, 45 chars)
-5. How to Get AI Notes in Google Meet Without a Bot (How-to, 48 chars)
+2. Best Google Meet AI Note Taker in 2026 (Listicle, 38 chars)
+3. Google Meet AI Note Taker: Gemini Notes and the Catch (Secret/Hidden, 53 chars)
+4. Google Meet AI Note Taker Without a Bot (How-to, 39 chars)
+5. Google Meet AI Note Taker: What Gemini Misses (Secret/Hidden, 45 chars)
 
 Recommended: #1
 
@@ -462,10 +462,10 @@ EMOTION: Relief
 **Title options**
 
 1. AI Note Taker for Zoom: 3 Ways to Set It Up (2026) (How-to, 50 chars)
-2. How to Add an AI Note Taker to Zoom (How-to, 35 chars)
-3. Zoom AI Notes: Companion vs Bot vs No Bot (Versus, 41 chars)
+2. AI Note Taker for Zoom: How to Add One in Minutes (How-to, 49 chars)
+3. AI Note Taker for Zoom: Companion vs Bot vs No Bot (Versus, 50 chars)
 4. Best AI Note Taker for Zoom Meetings (Setup Guide) (Listicle, 50 chars)
-5. Get AI Notes From Any Zoom Call, Even as a Guest (Result, 48 chars)
+5. AI Note Taker for Zoom Calls, Even as a Guest (Result, 45 chars)
 
 Recommended: #1
 
@@ -536,10 +536,10 @@ EMOTION: Clarity
 **Title options**
 
 1. Conversation Intelligence Platform for Small Sales Teams (How-to, 56 chars)
-2. Best Conversation Intelligence Software for Small Teams (Listicle, 55 chars)
-3. Do Small Sales Teams Need Conversation Intelligence? (Question, 52 chars)
-4. 5 Must-Haves in Conversation Intelligence Software (Listicle, 50 chars)
-5. Gong-Level Call Insights for a 5-Person Team? (Question, 45 chars)
+2. Best Conversation Intelligence Platform for Small Teams (Listicle, 55 chars)
+3. Do Small Teams Need a Conversation Intelligence Platform? (Question, 57 chars)
+4. 5 Must-Haves in a Conversation Intelligence Platform (Listicle, 52 chars)
+5. Conversation Intelligence Platform for a 5-Person Team (Result, 54 chars)
 
 Recommended: #1
 
@@ -610,11 +610,11 @@ EMOTION: Validation
 
 **Title options**
 
-1. Real-Time AI Meeting Assistant: Live Help During Calls (How-to, 54 chars)
+1. Live AI Meeting Assistant: Real-Time Help During Calls (How-to, 54 chars)
 2. Live AI Meeting Assistant: Can the Other Side See It? (Question, 53 chars)
-3. AI That Helps You Mid-Call: An Honest Look at Cue (Versus, 49 chars)
-4. Should Your AI Meeting Assistant Be Invisible? No. (Question, 50 chars)
-5. 3 Shortcuts for Live AI Help on Sales Calls (Listicle, 43 chars)
+3. Live AI Meeting Assistant: An Honest Look at Cue (Versus, 48 chars)
+4. Should a Live AI Meeting Assistant Be Invisible? No. (Question, 52 chars)
+5. Live AI Meeting Assistant: 3 Shortcuts for Sales Calls (Listicle, 54 chars)
 
 Recommended: #2
 
@@ -682,10 +682,10 @@ EMOTION: Curiosity
 **Title options**
 
 1. Software for Meeting Minutes: Let AI Write Them (How-to, 47 chars)
-2. AI Meeting Minutes Generator: How It Works (How-to, 42 chars)
-3. Stop Taking Meeting Minutes by Hand (Mistake, 35 chars)
-4. 5 Things Good AI Meeting Minutes Need (Listicle, 37 chars)
-5. How to Automate Meeting Minutes With AI (How-to, 39 chars)
+2. Best Software for Meeting Minutes (AI, 2026) (Listicle, 44 chars)
+3. Software for Meeting Minutes: Stop Writing Them by Hand (Mistake, 55 chars)
+4. 5 Things to Look for in Software for Meeting Minutes (Listicle, 52 chars)
+5. Software for Meeting Minutes: How AI Drafts Them (How-to, 48 chars)
 
 Recommended: #1
 
@@ -744,7 +744,7 @@ LAYOUT: host on left third, text on right third (channel standard)
 EMOTION: Relief
 ```
 
-## 11. Best AI Note Taker for Lectures and Students (2026)
+## 11. Lecture AI Note Taker: Best Setup for Students (2026)
 
 **Working title:** Best AI Note Taker for Students and Lectures  
 **Primary keyword:** lecture ai note taker  
@@ -752,11 +752,11 @@ EMOTION: Relief
 
 **Title options**
 
-1. Best AI Note Taker for Lectures and Students (2026) (Listicle, 51 chars)
-2. AI Notes for College Lectures: Setup and Rules (How-to, 46 chars)
-3. How Students Use AI Note Takers in Class (How-to, 40 chars)
-4. Record a Lecture, Ask It Questions Later (Result, 40 chars)
-5. Lecture AI Note Taker: The Rule to Check First (Mistake, 46 chars)
+1. Lecture AI Note Taker: Best Setup for Students (2026) (How-to, 53 chars)
+2. Lecture AI Note Taker: Record Class, Ask Questions Later (Result, 56 chars)
+3. Lecture AI Note Taker for College: Rules to Check First (Mistake, 55 chars)
+4. How Students Use a Lecture AI Note Taker (How-to, 40 chars)
+5. Free Lecture AI Note Taker: How Far It Goes (Question, 43 chars)
 
 Recommended: #1
 
@@ -815,7 +815,7 @@ LAYOUT: host on left third, text on right third (channel standard)
 EMOTION: Relief
 ```
 
-## 12. Best Otter.ai Alternatives (2026): Which One Fits You?
+## 12. Best Otter AI Alternative (2026): Which One Fits You?
 
 **Working title:** Otter.ai Alternatives in 2026: 5 Options Compared for Sales and Teams  
 **Primary keyword:** otter ai alternative  
@@ -823,11 +823,11 @@ EMOTION: Relief
 
 **Title options**
 
-1. Best Otter.ai Alternatives (2026): Which One Fits You? (Listicle, 54 chars)
-2. 5 Otter.ai Alternatives Compared for Sales and Teams (Listicle, 52 chars)
-3. Why People Switch From Otter (and Where They Go) (Curiosity gap, 48 chars)
-4. Otter vs Fathom vs Fireflies vs Granola vs Lynkk (Versus, 48 chars)
-5. Leaving Otter.ai? Match Your Reason to a Tool (Question, 45 chars)
+1. Best Otter AI Alternative (2026): Which One Fits You? (Listicle, 53 chars)
+2. Otter AI Alternative for Sales Teams: 5 Compared (Listicle, 48 chars)
+3. Why People Switch: Finding the Right Otter AI Alternative (Curiosity gap, 57 chars)
+4. Free Otter AI Alternative? 5 Options Compared (Question, 45 chars)
+5. Leaving Otter? Pick the Right Otter AI Alternative (Question, 50 chars)
 
 Recommended: #1
 
@@ -900,9 +900,9 @@ EMOTION: Curiosity
 
 1. Fireflies vs Otter vs Fathom: 4 Differences That Matter (Versus, 55 chars)
 2. Fireflies vs Otter: Which AI Note Taker Is Better? (Versus, 50 chars)
-3. Fathom vs Fireflies vs Otter: Honest Comparison (2026) (Versus, 54 chars)
-4. Otter, Fireflies or Fathom? Pick by Use Case (Question, 44 chars)
-5. The AI Note Taker Difference Most Reviews Miss (Secret/Hidden, 46 chars)
+3. Fireflies vs Otter vs Fathom: Honest Comparison (2026) (Versus, 54 chars)
+4. Fireflies vs Otter vs Fathom: Pick by Use Case (How-to, 46 chars)
+5. Fireflies vs Otter: The Difference Most Reviews Miss (Secret/Hidden, 52 chars)
 
 Recommended: #1
 
@@ -974,10 +974,10 @@ EMOTION: Curiosity
 **Title options**
 
 1. Granola Alternatives for Teams: AI Note Takers Compared (Listicle, 55 chars)
-2. Granola AI Alternative: When Personal Notes Aren't Enough (Curiosity gap, 57 chars)
-3. Granola vs Lynkk: Solo Notes vs Team Memory (Versus, 43 chars)
-4. Who Should Stay on Granola (and Who Shouldn't) (Question, 46 chars)
-5. Outgrowing Granola? Here's What Teams Use (Question, 41 chars)
+2. Granola Alternative: When Personal Notes Aren't Enough (Curiosity gap, 54 chars)
+3. Granola Alternative for Teams: Solo Notes vs Team Memory (Versus, 56 chars)
+4. Do You Need a Granola Alternative? Who Should Stay (Question, 50 chars)
+5. Outgrowing Granola? The Granola Alternative Teams Use (Question, 53 chars)
 
 Recommended: #1
 
@@ -1048,9 +1048,9 @@ EMOTION: Curiosity
 **Title options**
 
 1. Gong Alternatives for Small Sales Teams (2026) (Listicle, 46 chars)
-2. Do You Need Gong for a 5-Person Sales Team? (Question, 43 chars)
-3. Gong vs Lightweight Conversation Intelligence (Versus, 45 chars)
-4. The 80/20 of Gong for Startups (Secret/Hidden, 30 chars)
+2. Gong Alternative for a 5-Person Sales Team (Result, 42 chars)
+3. Gong Alternative: Lightweight Conversation Intelligence (Versus, 55 chars)
+4. Gong Alternative for Startups: The 80/20 (Secret/Hidden, 40 chars)
 5. Gong Alternative: What You Give Up, Honestly (Mistake, 44 chars)
 
 Recommended: #1
@@ -1197,10 +1197,10 @@ EMOTION: Curiosity
 **Title options**
 
 1. Does Teams Have an AI Note Taker? (Plus Meet and Zoom) (Question, 54 chars)
-2. Do Teams, Meet and Zoom Have AI Note Takers? (Question, 44 chars)
-3. Built-In AI Note Takers: Teams vs Meet vs Zoom (Versus, 46 chars)
-4. Teams Copilot vs Gemini vs Zoom AI Companion (Versus, 44 chars)
-5. Built-In Meeting AI: The Catch on Every Platform (Secret/Hidden, 48 chars)
+2. Does Teams Have an AI Note Taker? Short Answer + Catch (Question, 54 chars)
+3. Does Teams Have an AI Note Taker? Copilot Explained (How-to, 51 chars)
+4. Does Teams Have an AI Note Taker? What Meet and Zoom Do (Versus, 55 chars)
+5. Does Teams Have an AI Note Taker? (2026 Answer) (Question, 47 chars)
 
 Recommended: #1
 
@@ -1272,10 +1272,10 @@ EMOTION: Curiosity
 **Title options**
 
 1. Wearable AI Note Taker vs App: Do You Need a Plaud? (Versus, 51 chars)
-2. Plaud vs an App: Is AI Note Taking Hardware Worth It? (Question, 53 chars)
-3. AI Note Taker Device or Laptop? Honest Comparison (Versus, 49 chars)
-4. Do You Need an AI Recorder? Plaud, Pocket and Apps (Question, 50 chars)
-5. Who Should Buy an AI Note Taking Device (How-to, 39 chars)
+2. Is a Wearable AI Note Taker Worth It? Plaud vs Apps (Question, 51 chars)
+3. Wearable AI Note Taker or Laptop? Honest Comparison (Versus, 51 chars)
+4. Wearable AI Note Taker: Plaud, Pocket or an App? (Question, 48 chars)
+5. Who Should Buy a Wearable AI Note Taker (How-to, 39 chars)
 
 Recommended: #1
 
@@ -1337,7 +1337,7 @@ LAYOUT: host on left third, text on right third (channel standard)
 EMOTION: Curiosity
 ```
 
-## 19. Can ChatGPT Take Meeting Minutes? ChatGPT vs Note Takers
+## 19. Can You Use ChatGPT for Meeting Minutes? (2026)
 
 **Working title:** ChatGPT vs an AI Note Taker for Meeting Minutes: Which Should You Use?  
 **Primary keyword:** chatgpt for meeting minutes  
@@ -1345,13 +1345,13 @@ EMOTION: Curiosity
 
 **Title options**
 
-1. Can ChatGPT Take Meeting Minutes? ChatGPT vs Note Takers (Question, 56 chars)
+1. ChatGPT for Meeting Minutes vs an AI Note Taker (Versus, 47 chars)
 2. ChatGPT for Meeting Minutes: Where It Breaks (Secret/Hidden, 44 chars)
-3. ChatGPT vs AI Note Taker for Meeting Minutes (Versus, 44 chars)
+3. Can You Use ChatGPT for Meeting Minutes? (2026) (Question, 47 chars)
 4. How to Use ChatGPT for Meeting Minutes (and Its Limits) (How-to, 55 chars)
-5. Why Pay for an AI Note Taker When ChatGPT Exists? (Question, 49 chars)
+5. ChatGPT for Meeting Minutes: Is a Note Taker Worth It? (Question, 54 chars)
 
-Recommended: #1
+Recommended: #3
 
 **Description**
 
@@ -1493,9 +1493,9 @@ EMOTION: Clarity
 
 1. How to Record a Zoom Meeting as a Participant or Host (How-to, 53 chars)
 2. How to Record a Zoom Meeting (2026 Guide) (How-to, 41 chars)
-3. No Record Button in Zoom? Here's Why and What to Do (Question, 51 chars)
-4. How to Get a Transcript of a Zoom Meeting (How-to, 41 chars)
-5. Zoom Recording: Host, Participant, Mac and Transcripts (Listicle, 54 chars)
+3. How to Record a Zoom Meeting With No Record Button (Question, 50 chars)
+4. How to Record a Zoom Meeting and Get a Transcript (How-to, 49 chars)
+5. How to Record a Zoom Meeting on Mac, Step by Step (How-to, 49 chars)
 
 Recommended: #1
 
@@ -1564,8 +1564,8 @@ EMOTION: Frustration turning to relief
 
 1. Sales Follow-Up Email After a Call: 5 Templates (Listicle, 47 chars)
 2. Sales Follow-Up Email Examples That Get Replies (Listicle, 47 chars)
-3. Why Your Sales Follow-Up Emails Get Ignored (Mistake, 43 chars)
-4. The Break-Up Email That Gets Replies (Curiosity gap, 36 chars)
+3. Why Your Sales Follow-Up Email Gets Ignored (Mistake, 43 chars)
+4. The Break-Up Sales Follow-Up Email That Gets Replies (Curiosity gap, 52 chars)
 5. 5 Sales Follow-Up Emails to Copy After Every Call (Listicle, 49 chars)
 
 Recommended: #1
@@ -1635,10 +1635,10 @@ EMOTION: Desire
 **Title options**
 
 1. How to Take Meeting Notes People Actually Use (How-to, 45 chars)
-2. Meeting Notes Template: 3 Sections, Every Time (Listicle, 46 chars)
-3. Why Nobody Reads Your Meeting Notes (Mistake, 35 chars)
-4. How to Take Better Meeting Notes (With AI) (How-to, 42 chars)
-5. The Simple Meeting Notes Format That Works (Secret/Hidden, 42 chars)
+2. How to Take Meeting Notes: 3 Sections, Every Time (Listicle, 49 chars)
+3. How to Take Meeting Notes Nobody Ignores (Curiosity gap, 40 chars)
+4. How to Take Meeting Notes With AI, Better and Faster (How-to, 52 chars)
+5. How to Take Meeting Notes: The Simple Format That Works (Secret/Hidden, 55 chars)
 
 Recommended: #1
 
@@ -1707,10 +1707,10 @@ EMOTION: Recognition
 **Title options**
 
 1. What Is Conversation Intelligence? Explained Simply (Question, 51 chars)
-2. Conversation Intelligence vs AI Note Taker (Versus, 42 chars)
-3. Conversation Intelligence for Small Teams, Explained (How-to, 52 chars)
-4. What Conversation Intelligence Tracks on Sales Calls (Listicle, 52 chars)
-5. Do You Need Conversation Intelligence? (Question, 38 chars)
+2. What Is Conversation Intelligence vs an AI Note Taker? (Versus, 54 chars)
+3. What Is Conversation Intelligence for Small Teams? (Question, 50 chars)
+4. What Is Conversation Intelligence? Sales Call Examples (How-to, 54 chars)
+5. What Is Conversation Intelligence, and Do You Need It? (Question, 54 chars)
 
 Recommended: #1
 
@@ -1769,7 +1769,7 @@ LAYOUT: host on left third, text on right third (channel standard)
 EMOTION: Intrigue
 ```
 
-## 25. Is It Legal to Record a Meeting? US Consent Rules
+## 25. Is It Legal to Record a Meeting at Work? US Consent Rules
 
 **Working title:** Is It Legal to Record a Meeting? One-Party vs All-Party Consent in the US  
 **Primary keyword:** is it legal to record a meeting at work  
@@ -1777,11 +1777,11 @@ EMOTION: Intrigue
 
 **Title options**
 
-1. Is It Legal to Record a Meeting? US Consent Rules (Question, 49 chars)
-2. One-Party vs All-Party Consent, Explained (Versus, 41 chars)
-3. Do You Need Consent to Use an AI Note Taker? (Question, 44 chars)
-4. Recording Zoom Calls: What's Legal in the US (How-to, 44 chars)
-5. Before You Record a Meeting, Know This Rule (Mistake, 43 chars)
+1. Is It Legal to Record a Meeting at Work? US Consent Rules (Question, 57 chars)
+2. Is It Legal to Record a Meeting at Work? One-Party Consent (Versus, 58 chars)
+3. Is It Legal to Record a Meeting at Work With AI? (Question, 48 chars)
+4. Is It Legal to Record a Meeting at Work on Zoom? (Question, 48 chars)
+5. Is It Legal to Record a Meeting at Work? (Plain English) (Question, 56 chars)
 
 Recommended: #1
 
@@ -1850,10 +1850,10 @@ EMOTION: Concern
 **Title options**
 
 1. Are AI Note Takers Safe? 7 Privacy Questions to Ask (Question, 51 chars)
-2. AI Note Taker Privacy: 7 Questions Before You Buy (Listicle, 49 chars)
-3. Is Your AI Meeting Assistant Training on Your Data? (Question, 51 chars)
-4. AI Note Taker Security Checklist (2026) (Listicle, 39 chars)
-5. Should Your AI Note Taker Be Invisible? No. (Question, 43 chars)
+2. Are AI Note Takers Safe? 7 Questions Before You Buy (Listicle, 51 chars)
+3. Are AI Note Takers Safe, or Training on Your Data? (Question, 50 chars)
+4. Are AI Note Takers Safe? A 2026 Security Checklist (Listicle, 50 chars)
+5. Are AI Note Takers Safe If They're Invisible? No. (Question, 49 chars)
 
 Recommended: #1
 
@@ -1914,7 +1914,7 @@ LAYOUT: host on left third, text on right third (channel standard)
 EMOTION: Caution
 ```
 
-## 27. How Do AI Note Takers Work? Explained in 4 Steps
+## 27. How Does an AI Note Taker Work? Explained in 4 Steps
 
 **Working title:** How Do AI Note Takers Work? Transcription, Speaker Labels and Summaries Explained  
 **Primary keyword:** how does ai note taker work  
@@ -1922,11 +1922,11 @@ EMOTION: Caution
 
 **Title options**
 
-1. How Do AI Note Takers Work? Explained in 4 Steps (How-to, 48 chars)
-2. How AI Meeting Notes Are Made: Capture to Summary (How-to, 49 chars)
-3. How Accurate Are AI Note Takers? (Question, 32 chars)
-4. Why AI Note Takers Get Names and Numbers Wrong (Mistake, 46 chars)
-5. AI Note Takers Explained: Transcripts and Summaries (How-to, 51 chars)
+1. How Does an AI Note Taker Work? Explained in 4 Steps (How-to, 52 chars)
+2. How Does an AI Note Taker Work, From Capture to Summary? (How-to, 56 chars)
+3. How Does an AI Note Taker Work, and How Accurate Is It? (Question, 55 chars)
+4. How Does an AI Note Taker Work? Why Names Go Wrong (Mistake, 50 chars)
+5. How Does an AI Note Taker Work? Transcripts to Summaries (How-to, 56 chars)
 
 Recommended: #1
 
@@ -1985,7 +1985,7 @@ LAYOUT: host on left third, text on right third (channel standard)
 EMOTION: Curiosity
 ```
 
-## 28. Meeting Action Items Template: From Meeting to Done
+## 28. Meeting Minutes Template With Action Items That Get Done
 
 **Working title:** Meeting Action Items Template: From Meeting to Done (Tasks and Jira)  
 **Primary keyword:** meeting minutes template action items  
@@ -1993,11 +1993,11 @@ EMOTION: Curiosity
 
 **Title options**
 
-1. Meeting Action Items Template: From Meeting to Done (How-to, 51 chars)
-2. How to Track Meeting Action Items (Free Template) (How-to, 49 chars)
-3. An Action Item Without an Owner Is a Wish (Curiosity gap, 41 chars)
-4. Meeting Action Items to Jira Without Retyping (Result, 45 chars)
-5. 4 Parts Every Meeting Action Item Needs (Listicle, 39 chars)
+1. Meeting Minutes Template With Action Items That Get Done (How-to, 56 chars)
+2. Meeting Minutes Template: Action Items, Owners, Dates (Listicle, 53 chars)
+3. Meeting Minutes Template for Action Items (Free) (How-to, 48 chars)
+4. Meeting Minutes Template: Action Items Need an Owner (Mistake, 52 chars)
+5. Meeting Minutes Template: Action Items to Jira (Result, 46 chars)
 
 Recommended: #1
 
@@ -2057,7 +2057,7 @@ LAYOUT: host on left third, text on right third (channel standard)
 EMOTION: Satisfaction
 ```
 
-## 29. Hinglish Meeting Transcription That Actually Works
+## 29. Hinglish Transcription for Meetings That Actually Works
 
 **Working title:** Hindi and English in the Same Meeting: Getting Accurate Hinglish Transcripts  
 **Primary keyword:** hinglish transcription  
@@ -2065,11 +2065,11 @@ EMOTION: Satisfaction
 
 **Title options**
 
-1. Hinglish Meeting Transcription That Actually Works (Result, 50 chars)
-2. AI Notes for Hindi and English in One Meeting (How-to, 45 chars)
-3. Best AI Note Taker for Hindi-English Meetings (Listicle, 45 chars)
-4. Why Transcription Tools Break on Hinglish (Mistake, 41 chars)
-5. Hinglish Calls: How to Get Clean AI Notes (How-to, 41 chars)
+1. Hinglish Transcription for Meetings That Actually Works (Result, 55 chars)
+2. Hinglish Transcription: AI Notes for Hindi and English (How-to, 54 chars)
+3. Best Hinglish Transcription for Hindi-English Meetings (Listicle, 54 chars)
+4. Why Hinglish Transcription Breaks Most Tools (Mistake, 44 chars)
+5. Hinglish Transcription: How to Get Clean AI Notes (How-to, 49 chars)
 
 Recommended: #1
 
@@ -2135,11 +2135,11 @@ EMOTION: Curiosity
 
 **Title options**
 
-1. How to Analyze Customer Interviews With AI (How-to, 42 chars)
+1. Customer Interview Analysis With AI: A Simple Workflow (How-to, 54 chars)
 2. Customer Interview Analysis: From Calls to Themes (How-to, 49 chars)
-3. 10 Customer Interviews, Zero Synthesis? Fix It (Curiosity gap, 46 chars)
-4. AI Research Synthesis Workflow for Product Teams (How-to, 48 chars)
-5. Customer Quotes You Can Trust, With Sources (Result, 43 chars)
+3. Customer Interview Analysis: 10 Interviews, Zero Synthesis? (Curiosity gap, 59 chars)
+4. Customer Interview Analysis for Product Teams With AI (How-to, 53 chars)
+5. Customer Interview Analysis: Quotes You Can Trust (Result, 49 chars)
 
 Recommended: #2
 

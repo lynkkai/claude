@@ -25,44 +25,44 @@
 
 ## Quick index
 
-| # | Title | Primary keyword | Use case |
+| # | Title (keyword-first) | Primary keyword | Use case |
 |---|---|---|---|
-| 1 | Your Follow-Up Is 3 Days Late | sales follow-up email after call | Sales reps |
-| 2 | Stop Typing During Discovery Calls | AI note taker for sales calls | Sales reps |
-| 3 | The Recap Email Nobody Sends | send meeting summary to attendees | Any team |
-| 4 | One Summary Format Doesn't Fit All | meeting summary template | Sales, research, ops |
-| 5 | AI That Emails Your Client Without Asking? Nope. | AI follow-up email generator | Sales reps |
-| 6 | Walk Into Every Call Warm | sales call preparation | Sales reps |
-| 7 | The Budget Changed and Nobody Noticed | track deal changes across calls | Account execs |
-| 8 | "What Did the CFO Say About Pricing?" | search meeting transcripts | Sales reps, AEs |
-| 9 | Ask Your Meetings From Slack | meeting notes in Slack | Teams on Slack |
-| 10 | What Are Customers Objecting To This Quarter? | conversation intelligence for sales teams | Sales leaders, RevOps |
-| 11 | Why Your CRM Is Always Empty | update CRM after sales call | Sales reps, RevOps |
-| 12 | Prospects Hate Meeting Bots | AI note taker without bot | Sales, consultants |
-| 13 | Your Best Meeting Happened In Person | record in-person meetings | Field sales, founders |
-| 14 | The Wi-Fi Died Mid-Meeting | offline meeting recorder | Field teams, travelers |
-| 15 | Not Every Call Happens on Zoom | WhatsApp call notes on Mac | Freelancers, global teams |
-| 16 | Zoom, Meet, Teams: One Notetaker | AI note taker for Zoom, Google Meet and Teams | Mixed-platform teams |
-| 17 | A Free AI Note Taker That Doesn't Quit at 30 Minutes | free AI note taker | Budget-conscious users |
-| 18 | You Blanked on an Objection Mid-Call | real-time sales call assistant | Sales reps |
-| 19 | The Customer Asked Something You Don't Know | live AI assistant for support calls | Support, CS |
-| 20 | Interview Day Nerves | AI interview prep assistant | Hiring managers, researchers |
-| 21 | Can the Customer See My AI? | is AI meeting assistant visible on screen share | Trust / objection handling |
-| 22 | Your Meeting Copilot, Your Rules | AI meeting copilot for Mac | Power users |
-| 23 | Action Items Go to Die in Meeting Notes | meeting action items tracker | Managers |
-| 24 | From Meeting to Jira Ticket | create Jira tickets from meetings | Product, engineering |
-| 25 | Standups That Actually Move Work | standup meeting notes | Eng and ops teams |
-| 26 | Forgot to Hit Record. Again. | AI note taker with calendar integration | Back-to-back schedulers |
-| 27 | Connect Your Meetings to Anything with MCP | MCP meeting notes | Builders, ops |
-| 28 | Hinglish Breaks Most Notetakers | Hindi English meeting transcription | Indian and global teams |
-| 29 | 10 Customer Interviews, Zero Synthesis | user interview notes AI | Product, UX research |
-| 30 | Client Meetings for Realtors, Advisors and Lawyers | client meeting notes app | Client-facing pros |
+| 1 | Sales Follow-Up Email After a Call: Send It in 5 Minutes | sales follow-up email after call | Sales reps |
+| 2 | AI Note Taker for Sales Calls: Stop Typing on Discovery | AI note taker for sales calls | Sales reps |
+| 3 | Send Meeting Summary to Attendees: The Recap Nobody Sends | send meeting summary to attendees | Any team |
+| 4 | Meeting Summary Template: One Format Doesn't Fit All | meeting summary template | Sales, research, ops |
+| 5 | AI Follow-Up Email Generator That Waits for You | AI follow-up email generator | Sales reps |
+| 6 | Sales Call Preparation: Walk Into Every Call Warm | sales call preparation | Sales reps |
+| 7 | Track Deal Changes Across Calls Before You Miss One | track deal changes across calls | Account execs |
+| 8 | Search Meeting Transcripts: What Did the CFO Say? | search meeting transcripts | Sales reps, AEs |
+| 9 | Meeting Notes in Slack: Ask Your Meetings Anything | meeting notes in Slack | Teams on Slack |
+| 10 | Conversation Intelligence for Sales Teams: Top Objections | conversation intelligence for sales teams | Sales leaders, RevOps |
+| 11 | Update CRM After Sales Calls Without Retyping Them | update CRM after sales call | Sales reps, RevOps |
+| 12 | AI Note Taker Without a Bot: Prospects Will Thank You | AI note taker without bot | Sales, consultants |
+| 13 | Record In-Person Meetings With AI, Coffee to Boardroom | record in-person meetings | Field sales, founders |
+| 14 | Offline Meeting Recorder: When the Wi-Fi Dies Mid-Meeting | offline meeting recorder | Field teams, travelers |
+| 15 | WhatsApp Call Notes on Mac: Not Every Call Is on Zoom | WhatsApp call notes on Mac | Freelancers, global teams |
+| 16 | AI Note Taker for Zoom, Google Meet and Teams | AI note taker for Zoom, Google Meet and Teams | Mixed-platform teams |
+| 17 | Free AI Note Taker That Doesn't Quit at 30 Minutes | free AI note taker | Budget-conscious users |
+| 18 | Real-Time Sales Call Assistant for When You Blank | real-time sales call assistant | Sales reps |
+| 19 | Live AI Assistant for Support Calls: Stay on the Line | live AI assistant for support calls | Support, CS |
+| 20 | AI Interview Prep Assistant for Hiring Managers | AI interview prep assistant | Hiring managers, researchers |
+| 21 | Is Your AI Meeting Assistant Visible on Screen Share? | is AI meeting assistant visible on screen share | Trust / objection handling |
+| 22 | AI Meeting Copilot for Mac: 3 Shortcuts, Your Rules | AI meeting copilot for Mac | Power users |
+| 23 | Meeting Action Items Tracker: Owner, Date, Done | meeting action items tracker | Managers |
+| 24 | Create Jira Tickets From Meetings Without Retyping | create Jira tickets from meetings | Product, engineering |
+| 25 | Standup Meeting Notes That Actually Move Work | standup meeting notes | Eng and ops teams |
+| 26 | AI Note Taker With Calendar Integration: Stop Forgetting | AI note taker with calendar integration | Back-to-back schedulers |
+| 27 | MCP Meeting Notes: Connect Your Meetings to Anything | MCP meeting notes | Builders, ops |
+| 28 | Hindi English Meeting Transcription That Handles Hinglish | Hindi English meeting transcription | Indian and global teams |
+| 29 | User Interview Notes With AI: 10 Calls to Themes | user interview notes AI | Product, UX research |
+| 30 | Client Meeting Notes App for Realtors, Advisors, Lawyers | client meeting notes app | Client-facing pros |
 
 ---
 
 ## Cluster A: Sales follow-ups
 
-### 1. Your Follow-Up Is 3 Days Late
+### 1. Sales Follow-Up Email After a Call: Send It in 5 Minutes
 - **Feature:** Follow-up drafts + email summaries
 - **Use case:** Sales reps after a discovery call
 - **Primary keyword:** sales follow-up email after call
@@ -81,7 +81,7 @@
 - **On-screen text:** "Follow up in 5 minutes. Not 3 days." / "You review. You send."
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 2. Stop Typing During Discovery Calls
+### 2. AI Note Taker for Sales Calls: Stop Typing on Discovery
 - **Feature:** Meeting notes (summary, decisions, action items, transcript with speaker labels)
 - **Use case:** Sales discovery calls
 - **Primary keyword:** AI note taker for sales calls
@@ -99,7 +99,7 @@
 - **On-screen text:** "Present, not preoccupied." / Summary, Decisions, Action items, Transcript
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 3. The Recap Email Nobody Sends
+### 3. Send Meeting Summary to Attendees: The Recap Nobody Sends
 - **Feature:** Email summaries (sent after you confirm recipients)
 - **Use case:** Any team meeting with external or internal attendees
 - **Primary keyword:** send meeting summary to attendees
@@ -117,7 +117,7 @@
 - **On-screen text:** "Confirm recipients > Send" / "Same page. Every time."
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 4. One Summary Format Doesn't Fit All
+### 4. Meeting Summary Template: One Format Doesn't Fit All
 - **Feature:** Summary shapes: Sales Call, General Meeting, Customer Interview
 - **Use case:** Teams running different meeting types
 - **Primary keyword:** meeting summary template
@@ -134,7 +134,7 @@
 - **On-screen text:** Side-by-side of three summary shapes
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 5. AI That Emails Your Client Without Asking? Nope.
+### 5. AI Follow-Up Email Generator That Waits for You
 - **Feature:** Follow-up drafts with human review
 - **Use case:** Reps worried about AI going rogue
 - **Primary keyword:** AI follow-up email generator
@@ -156,7 +156,7 @@
 
 ## Cluster B: Account memory & answers
 
-### 6. Walk Into Every Call Warm
+### 6. Sales Call Preparation: Walk Into Every Call Warm
 - **Feature:** Account memory (calls grouped per account)
 - **Use case:** Call prep for repeat buyers
 - **Primary keyword:** sales call preparation
@@ -174,7 +174,7 @@
 - **On-screen text:** "Walk in warm." / Budget, Stakeholders, Objections
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 7. The Budget Changed and Nobody Noticed
+### 7. Track Deal Changes Across Calls Before You Miss One
 - **Feature:** Account memory tracking changes over time
 - **Use case:** Account executives managing multi-call deals
 - **Primary keyword:** track deal changes across calls
@@ -191,7 +191,7 @@
 - **On-screen text:** "$30K > $50K" (labeled as example) / "Context that compounds."
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 8. "What Did the CFO Say About Pricing?"
+### 8. Search Meeting Transcripts: What Did the CFO Say?
 - **Feature:** Ask Lynkk (Pro): answers across calls with sources
 - **Use case:** Sales reps and AEs searching past conversations
 - **Primary keyword:** search meeting transcripts
@@ -208,7 +208,7 @@
 - **On-screen text:** Typed question, answer with source chip
 - **CTA:** Subscribe to Lynkk on YouTube; start free, upgrade to Pro at lynkk.ai
 
-### 9. Ask Your Meetings From Slack
+### 9. Meeting Notes in Slack: Ask Your Meetings Anything
 - **Feature:** Ask Lynkk in Slack
 - **Use case:** Teams living in Slack
 - **Primary keyword:** meeting notes in Slack
@@ -225,7 +225,7 @@
 - **On-screen text:** Slack message > sourced answer
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 10. What Are Customers Objecting To This Quarter?
+### 10. Conversation Intelligence for Sales Teams: Top Objections
 - **Feature:** Workspace admin Q&A across all notes
 - **Use case:** Sales leaders and RevOps
 - **Primary keyword:** conversation intelligence for sales teams
@@ -242,7 +242,7 @@
 - **On-screen text:** "Ask across every call in your workspace"
 - **CTA:** Subscribe to Lynkk on YouTube; book a look at lynkk.ai
 
-### 11. Why Your CRM Is Always Empty
+### 11. Update CRM After Sales Calls Without Retyping Them
 - **Feature:** Copy-ready briefs for Salesforce or HubSpot (no native CRM sync yet)
 - **Use case:** Reps and RevOps fighting CRM hygiene
 - **Primary keyword:** update CRM after sales call
@@ -264,7 +264,7 @@
 
 ## Cluster C: Capture anywhere
 
-### 12. Prospects Hate Meeting Bots
+### 12. AI Note Taker Without a Bot: Prospects Will Thank You
 - **Feature:** Chrome extension (no bot) + Mac app
 - **Use case:** Sales and consulting calls with external guests
 - **Primary keyword:** AI note taker without bot
@@ -283,7 +283,7 @@
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 - **Note:** Remind viewers to tell attendees they're recording (see production notes).
 
-### 13. Your Best Meeting Happened In Person
+### 13. Record In-Person Meetings With AI, Coffee to Boardroom
 - **Feature:** In-room recording
 - **Use case:** Field sales, founders, client lunches, workshops
 - **Primary keyword:** record in-person meetings
@@ -300,7 +300,7 @@
 - **On-screen text:** "Online or in person."
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 14. The Wi-Fi Died Mid-Meeting
+### 14. Offline Meeting Recorder: When the Wi-Fi Dies Mid-Meeting
 - **Feature:** Offline recording
 - **Use case:** Field teams, travelers, spotty venues
 - **Primary keyword:** offline meeting recorder
@@ -317,7 +317,7 @@
 - **On-screen text:** "No signal? Still recording."
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 15. Not Every Call Happens on Zoom
+### 15. WhatsApp Call Notes on Mac: Not Every Call Is on Zoom
 - **Feature:** Mac app support for Webex, WhatsApp, FaceTime
 - **Use case:** Freelancers, global teams, client calls on messaging apps
 - **Primary keyword:** WhatsApp call notes on Mac
@@ -334,7 +334,7 @@
 - **On-screen text:** Logos row: Webex, WhatsApp, FaceTime ("Mac app")
 - **CTA:** Subscribe to Lynkk on YouTube; get the Mac app at lynkk.ai
 
-### 16. Zoom, Meet, Teams: One Notetaker
+### 16. AI Note Taker for Zoom, Google Meet and Teams
 - **Feature:** Works with Zoom, Google Meet, Microsoft Teams
 - **Use case:** Teams whose clients all use different platforms
 - **Primary keyword:** AI note taker for Zoom, Google Meet and Teams
@@ -351,7 +351,7 @@
 - **On-screen text:** "Nothing slips through."
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 17. A Free AI Note Taker That Doesn't Quit at 30 Minutes
+### 17. Free AI Note Taker That Doesn't Quit at 30 Minutes
 - **Feature:** Free plan: unlimited notes up to 2 hours each + first 5 hours of AI summaries, no credit card
 - **Use case:** Budget-conscious users, trial-stage buyers
 - **Primary keyword:** free AI note taker
@@ -374,7 +374,7 @@
 
 ## Cluster D: Cue live help (beta, Mac app, by invite)
 
-### 18. You Blanked on an Objection Mid-Call
+### 18. Real-Time Sales Call Assistant for When You Blank
 - **Feature:** Cue Sales mode
 - **Use case:** Sales reps on live calls
 - **Primary keyword:** real-time sales call assistant
@@ -391,7 +391,7 @@
 - **On-screen text:** Keycap graphic "⌘ + Return" / "Cue (beta)"
 - **CTA:** Subscribe to Lynkk on YouTube; request Cue access at lynkk.ai
 
-### 19. The Customer Asked Something You Don't Know
+### 19. Live AI Assistant for Support Calls: Stay on the Line
 - **Feature:** Cue Support mode
 - **Use case:** Customer support and customer success calls
 - **Primary keyword:** live AI assistant for support calls
@@ -408,7 +408,7 @@
 - **On-screen text:** "Support mode"
 - **CTA:** Subscribe to Lynkk on YouTube; request Cue access at lynkk.ai
 
-### 20. Interview Day Nerves
+### 20. AI Interview Prep Assistant for Hiring Managers
 - **Feature:** Cue Interview prep mode
 - **Use case:** Hiring managers and researchers preparing for interviews
 - **Primary keyword:** AI interview prep assistant
@@ -425,7 +425,7 @@
 - **On-screen text:** "Interview prep mode"
 - **CTA:** Subscribe to Lynkk on YouTube; request Cue access at lynkk.ai
 
-### 21. Can the Customer See My AI?
+### 21. Is Your AI Meeting Assistant Visible on Screen Share?
 - **Feature:** Cue transparency: visible in screen shares, only text leaves the Mac
 - **Use case:** Trust and objection handling for buyers evaluating Cue
 - **Primary keyword:** is AI meeting assistant visible on screen share
@@ -443,7 +443,7 @@
 - **On-screen text:** "Never hidden from a screen share." / "Only text leaves your Mac."
 - **CTA:** Subscribe to Lynkk on YouTube; learn more at lynkk.ai
 
-### 22. Your Meeting Copilot, Your Rules
+### 22. AI Meeting Copilot for Mac: 3 Shortcuts, Your Rules
 - **Feature:** Cue custom modes + keyboard shortcuts
 - **Use case:** Power users with unique call types
 - **Primary keyword:** AI meeting copilot for Mac
@@ -465,7 +465,7 @@
 
 ## Cluster E: Tasks & team workflows
 
-### 23. Action Items Go to Die in Meeting Notes
+### 23. Meeting Action Items Tracker: Owner, Date, Done
 - **Feature:** Tasks with owners, due dates, Kanban view, completion tracking
 - **Use case:** Managers and project leads
 - **Primary keyword:** meeting action items tracker
@@ -483,7 +483,7 @@
 - **On-screen text:** Kanban board animation / "Owner. Due date. Done."
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 24. From Meeting to Jira Ticket
+### 24. Create Jira Tickets From Meetings Without Retyping
 - **Feature:** Jira integration
 - **Use case:** Product and engineering teams
 - **Primary keyword:** create Jira tickets from meetings
@@ -501,7 +501,7 @@
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 - **Note:** Confirm the exact Jira flow (auto-create vs one-click push) with product before filming.
 
-### 25. Standups That Actually Move Work
+### 25. Standup Meeting Notes That Actually Move Work
 - **Feature:** Meeting notes + tasks for team standups
 - **Use case:** Engineering and ops standups
 - **Primary keyword:** standup meeting notes
@@ -518,7 +518,7 @@
 - **On-screen text:** "Missed standup? Read it in 30 seconds."
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 26. Forgot to Hit Record. Again.
+### 26. AI Note Taker With Calendar Integration: Stop Forgetting
 - **Feature:** Google Calendar and Outlook Calendar integration
 - **Use case:** People with back-to-back meetings
 - **Primary keyword:** AI note taker with calendar integration
@@ -536,7 +536,7 @@
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 - **Note:** Confirm whether calendar connection triggers auto-join or just lists meetings, and adjust wording.
 
-### 27. Connect Your Meetings to Anything with MCP
+### 27. MCP Meeting Notes: Connect Your Meetings to Anything
 - **Feature:** Custom MCP server by URL
 - **Use case:** Builders, ops, and AI-forward teams
 - **Primary keyword:** MCP meeting notes
@@ -557,7 +557,7 @@
 
 ## Cluster F: Languages & industries
 
-### 28. Hinglish Breaks Most Notetakers
+### 28. Hindi English Meeting Transcription That Handles Hinglish
 - **Feature:** 17 languages, including Hindi and Hinglish in the same call
 - **Use case:** Indian and multilingual global teams
 - **Primary keyword:** Hindi English meeting transcription
@@ -575,7 +575,7 @@
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 - **Note:** US voice VO, but consider a bilingual cut with a Hinglish speaker for India audiences.
 
-### 29. 10 Customer Interviews, Zero Synthesis
+### 29. User Interview Notes With AI: 10 Calls to Themes
 - **Feature:** Customer Interview summary shape + Ask Lynkk across calls
 - **Use case:** Product managers and UX researchers
 - **Primary keyword:** user interview notes AI
@@ -593,7 +593,7 @@
 - **On-screen text:** "Customer Interview" summary / question across 10 calls
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
-### 30. Client Meetings for Realtors, Advisors and Lawyers
+### 30. Client Meeting Notes App for Realtors, Advisors, Lawyers
 - **Feature:** Meeting notes, account memory, in-person recording, follow-up drafts
 - **Use case:** Real estate agents, financial advisors, lawyers
 - **Primary keyword:** client meeting notes app
