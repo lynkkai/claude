@@ -1,6 +1,7 @@
 # Lynkk YouTube Long-Form Plan: 30 Topics for Search Rankings and AI Citations
 
 > Built 2026-10-26. Keyword data: Ubersuggest, United States (Google web search volume per month, SEO difficulty 0-100, CPC in USD), pulled 2026-10-26.
+> Channel: Lynkk on YouTube, https://www.youtube.com/channel/UCeOhV4DzYQ7yLEZ2VgIKfkA (linked from the lynkk.ai footer). Full scripts: `video/lynkk-youtube-longform-scripts.md`.
 > Product facts: live copy on https://lynkk.ai/ (same claims check as `video/lynkk-shorts-topic-cluster.md`).
 > Voice: US English, conversational, presenter on camera plus screen demos.
 > Runtime: every video is under 5 minutes (3:00-5:00), about 450-700 spoken words at 150 words per minute.
@@ -550,6 +551,12 @@ High CPC on low-volume comparison terms ("gong alternative", "fireflies vs otter
 **Off YouTube (this is how you reach ChatGPT)**
 - Publish each video as a blog post on lynkk.ai: embedded video, cleaned transcript, a short FAQ and VideoObject schema.
 - Share the useful parts (not just the link) in relevant Reddit and community threads where self-promotion is allowed. ChatGPT cites Reddit about 60x more often than YouTube.
+
+**Channel setup (Lynkk YouTube channel)**
+- Upload every video to the Lynkk channel above, as a regular 16:9 video, not a Short.
+- Group videos into three playlists: AI Note Taker Buyer's Guides, AI Note Taker Comparisons, Meeting Productivity Guides (set per video in the CSV).
+- Set a custom handle for the channel (the footer link uses only the channel ID) and add lynkk.ai to the channel links.
+- Add an end screen pointing to the next video in the same playlist, and a pinned comment with the lynkk.ai link.
 
 **Measure**
 - Track 50-100 real buyer questions (the "AI prompts to win" above are the starter set) in a citation tracker such as OtterlyAI, Peec AI or Ubersuggest AI visibility. Expect 2-4 weeks before citations appear.
