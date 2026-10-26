@@ -5,6 +5,7 @@ const SIZES = [
   { name: 'banner-1200x628.png', w: 1200, h: 628, q: '' },                         // LinkedIn, Facebook, X link posts
   { name: 'banner-1280x720.png', w: 1280, h: 720, q: '?h=675&scale=1.0666667' },   // YouTube thumbnail
   { name: 'banner-1080x1350.png', w: 1080, h: 1350, q: '?layout=portrait' },        // Instagram feed
+  { name: 'reel-cover-1080x1920.png', w: 1080, h: 1920, q: '?layout=reel' },        // Reels / Shorts cover
 ];
 (async () => {
   const browser = await chromium.launch();
