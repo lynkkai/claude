@@ -1,168 +1,168 @@
 1
-00:00:00,600 --> 00:00:04,350
+00:00:00,600 --> 00:00:03,197
 Free AI note takers aren't free in the same way.
 
 2
-00:00:04,700 --> 00:00:09,200
+00:00:03,647 --> 00:00:07,284
 One caps your minutes, one caps your meetings, one caps the AI.
 
 3
-00:00:09,550 --> 00:00:12,175
+00:00:07,734 --> 00:00:09,749
 Here's the fine print, side by side.
 
 4
-00:00:12,525 --> 00:00:21,900
+00:00:10,199 --> 00:00:17,389
 We'll cover the three kinds of free limits, how the big plans compare, and at the end, the three signs it's actually time to pay.
 
 5
-00:00:22,250 --> 00:00:31,250
+00:00:17,839 --> 00:00:24,799
 This is the Lynkk channel, and yes, Lynkk has a free plan too, so we'll put ours in the same table as everyone else's.
 
 6
-00:00:31,600 --> 00:00:42,850
+00:00:25,249 --> 00:00:34,158
 Every free plan limits you in one of three ways: total minutes per month, length or number of meetings, or how much AI you get on top of the recording.
 
 7
-00:00:43,200 --> 00:00:46,950
+00:00:34,608 --> 00:00:37,319
 Knowing which limit you'll hit first is the whole game.
 
 8
-00:00:48,725 --> 00:00:49,850
+00:00:38,725 --> 00:00:39,913
 Monthly minute caps.
 
 9
-00:00:50,200 --> 00:00:53,950
+00:00:40,363 --> 00:00:42,964
 Some tools give you a bucket of minutes each month.
 
 10
-00:00:54,300 --> 00:00:56,550
+00:00:43,414 --> 00:00:45,125
 Otter's free plan works this way.
 
 11
-00:00:56,900 --> 00:01:01,025
+00:00:45,575 --> 00:00:47,947
 It's great if you have a few short calls a week.
 
 12
-00:01:01,375 --> 00:01:10,375
+00:00:48,397 --> 00:00:54,020
 But if you're in back-to-back meetings, you can burn through the bucket in a few days, and then you're back to typing.
 
 13
-00:01:10,725 --> 00:01:15,975
+00:00:54,470 --> 00:00:58,335
 Ask yourself: how many hours of meetings do you have in a normal week?
 
 14
-00:01:16,325 --> 00:01:17,450
+00:00:58,786 --> 00:00:59,927
 Multiply by four.
 
 15
-00:01:17,800 --> 00:01:20,050
+00:01:00,377 --> 00:01:02,042
 That's the number to compare against.
 
 16
-00:01:21,850 --> 00:01:24,100
+00:01:03,725 --> 00:01:05,530
 Meeting-length and meeting-count caps.
 
 17
-00:01:24,450 --> 00:01:33,450
+00:01:05,980 --> 00:01:13,148
 Other tools let you record as often as you want, but cap how long each meeting can be, or how many meetings you get.
 
 18
-00:01:33,800 --> 00:01:37,925
+00:01:13,598 --> 00:01:17,602
 Granola's free tier, for example, covers a limited number of meetings.
 
 19
-00:01:38,275 --> 00:01:39,775
+00:01:18,052 --> 00:01:19,378
 Length caps are sneaky.
 
 20
-00:01:40,125 --> 00:01:48,750
+00:01:19,828 --> 00:01:27,433
 A 30-minute cap sounds fine until your demo runs long, and the recording stops right when the buyer starts talking about budget.
 
 21
-00:01:50,600 --> 00:01:51,725
+00:01:29,350 --> 00:01:30,537
 AI summary caps.
 
 22
-00:01:52,075 --> 00:01:59,575
+00:01:30,987 --> 00:01:37,972
 The third type records everything but limits the smart part: the summaries, the action items, the questions you can ask.
 
 23
-00:01:59,925 --> 00:02:08,550
+00:01:38,422 --> 00:01:46,903
 Fathom is known for a generous free plan with unlimited recordings, with some of the advanced AI features held back for paid plans.
 
 24
-00:02:08,900 --> 00:02:11,900
+00:01:47,353 --> 00:01:50,074
 This matters because a transcript alone isn't notes.
 
 25
-00:02:12,250 --> 00:02:19,375
+00:01:50,524 --> 00:01:55,805
 If you have to read a 40-minute transcript to find the next step, you haven't saved much time.
 
 26
-00:02:21,225 --> 00:02:23,100
+00:01:57,475 --> 00:01:58,595
 Here's how it lines up.
 
 27
-00:02:23,450 --> 00:02:30,200
+00:01:59,045 --> 00:02:05,096
 Lynkk's free plan gives you unlimited notes, up to two hours each, so long workshops and demos fit.
 
 28
-00:02:30,550 --> 00:02:36,925
+00:02:05,546 --> 00:02:10,677
 You also get your first five hours of AI summaries, and you don't need a credit card.
 
 29
-00:02:37,275 --> 00:02:44,400
+00:02:11,127 --> 00:02:18,739
 After that, Pro is fifteen dollars a month, or $9.75 a month billed yearly, and AI summaries are unlimited.
 
 30
-00:02:44,750 --> 00:02:50,000
+00:02:19,189 --> 00:02:23,911
 Free plans change often, so check each link in the description before you decide.
 
 31
-00:02:51,850 --> 00:02:54,100
+00:02:25,600 --> 00:02:26,920
 So when is paying worth it?
 
 32
-00:02:54,450 --> 00:02:55,200
+00:02:27,370 --> 00:02:28,216
 Three signs.
 
 33
-00:02:55,550 --> 00:02:59,675
+00:02:28,666 --> 00:02:31,347
 One: you hit your cap before the month is half over.
 
 34
-00:03:00,025 --> 00:03:04,525
+00:02:31,797 --> 00:02:36,059
 Two: you're spending time reading transcripts because the AI part ran out.
 
 35
-00:03:04,875 --> 00:03:10,875
+00:02:36,509 --> 00:02:42,523
 Three: you need features free plans rarely include, like asking questions across all your past calls.
 
 36
-00:03:11,225 --> 00:03:14,975
+00:02:42,973 --> 00:02:45,392
 On Lynkk, that's Ask Lynkk, and it's a Pro feature.
 
 37
-00:03:15,325 --> 00:03:17,950
+00:02:45,842 --> 00:02:47,483
 If none of those apply, stay free.
 
 38
-00:03:18,300 --> 00:03:18,675
+00:02:47,933 --> 00:02:48,694
 Seriously.
 
 39
-00:03:19,025 --> 00:03:27,650
+00:02:49,144 --> 00:02:55,765
 Pick the free plan whose limit you're least likely to hit, and use it every day for two weeks before paying for anything.
 
 40
-00:03:29,350 --> 00:03:32,350
+00:02:57,475 --> 00:02:59,608
 If this helped, subscribe to the Lynkk channel.
 
 41
-00:03:32,700 --> 00:03:37,950
+00:03:00,058 --> 00:03:04,022
 And if you want to try ours, Lynkk is free to start at lynkk.ai.
 
 42
-00:03:38,300 --> 00:03:43,550
+00:03:04,472 --> 00:03:09,069
 Next, watch our video on the best AI note takers. It's on screen now.
 

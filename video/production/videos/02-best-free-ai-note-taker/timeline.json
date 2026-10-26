@@ -1,6 +1,6 @@
 {
  "id": "02-best-free-ai-note-taker",
- "duration": 228.75,
+ "duration": 196.875,
  "bpm": 96.0,
  "scenes": [
   {
@@ -36,15 +36,15 @@
    "body": "Lynkk has a free plan too, so it's in the same table.",
    "bodyAt": 4,
    "start": 0.0,
-   "end": 48.125,
+   "end": 38.125,
    "beats": [
     0.6,
-    4.7,
-    9.55,
-    12.525,
-    22.25,
-    31.6,
-    43.2
+    3.647,
+    7.734,
+    10.199,
+    17.839,
+    25.249,
+    34.608
    ],
    "vo": [
     "Free AI note takers aren't free in the same way.",
@@ -84,17 +84,17 @@
     "formula": "Weekly meeting hours \u00d7 4",
     "result": "Compare this number with the cap."
    },
-   "start": 48.125,
-   "end": 81.25,
+   "start": 38.125,
+   "end": 63.125,
    "beats": [
-    48.725,
-    50.2,
-    54.3,
-    56.9,
-    61.375,
-    70.725,
-    76.325,
-    77.8
+    38.725,
+    40.363,
+    43.414,
+    45.575,
+    48.397,
+    54.47,
+    58.785,
+    60.377
    ],
    "vo": [
     "Monthly minute caps.",
@@ -135,14 +135,14 @@
     "cut": "Buyer: \"So our budget for this is...\"",
     "toast": "Recording stopped: cap reached"
    },
-   "start": 81.25,
-   "end": 110.0,
+   "start": 63.125,
+   "end": 88.75,
    "beats": [
-    81.85,
-    84.45,
-    93.8,
-    98.275,
-    100.125
+    63.725,
+    65.98,
+    73.598,
+    78.052,
+    79.828
    ],
    "vo": [
     "Meeting-length and meeting-count caps.",
@@ -205,14 +205,14 @@
      }
     ]
    },
-   "start": 110.0,
-   "end": 140.625,
+   "start": 88.75,
+   "end": 116.875,
    "beats": [
-    110.6,
-    112.075,
-    119.925,
-    128.9,
-    132.25
+    89.35,
+    90.987,
+    98.422,
+    107.353,
+    110.524
    ],
    "vo": [
     "AI summary caps.",
@@ -285,14 +285,14 @@
     }
    },
    "extraTop": 260,
-   "start": 140.625,
-   "end": 171.25,
+   "start": 116.875,
+   "end": 145.0,
    "beats": [
-    141.225,
-    143.45,
-    150.55,
-    157.275,
-    164.75
+    117.475,
+    119.045,
+    125.546,
+    131.127,
+    139.189
    ],
    "vo": [
     "Here's how it lines up.",
@@ -333,18 +333,18 @@
    ],
    "body": "None of these? Stay free. Use one plan every day for two weeks first.",
    "bodyAt": 6,
-   "start": 171.25,
-   "end": 208.75,
+   "start": 145.0,
+   "end": 176.875,
    "beats": [
-    171.85,
-    174.45,
-    175.55,
-    180.025,
-    184.875,
-    191.225,
-    195.325,
-    198.3,
-    199.025
+    145.6,
+    147.37,
+    148.666,
+    151.797,
+    156.509,
+    162.973,
+    165.842,
+    167.933,
+    169.144
    ],
    "vo": [
     "So when is paying worth it?",
@@ -375,12 +375,12 @@
    "subAt": 0,
    "cta": "Start free at lynkk.ai",
    "ctaAt": 1,
-   "start": 208.75,
-   "end": 228.75,
+   "start": 176.875,
+   "end": 196.875,
    "beats": [
-    209.35,
-    212.7,
-    218.3
+    177.475,
+    180.058,
+    184.472
    ],
    "vo": [
     "If this helped, subscribe to the Lynkk channel.",
@@ -389,6 +389,35 @@
    ]
   }
  ],
- "vo_clips": [],
- "estimated": true
+ "vo_clips": [
+  {
+   "file": "vo/scene_01.wav",
+   "at": 0.6
+  },
+  {
+   "file": "vo/scene_02.wav",
+   "at": 38.725
+  },
+  {
+   "file": "vo/scene_03.wav",
+   "at": 63.725
+  },
+  {
+   "file": "vo/scene_04.wav",
+   "at": 89.35
+  },
+  {
+   "file": "vo/scene_05.wav",
+   "at": 117.475
+  },
+  {
+   "file": "vo/scene_06.wav",
+   "at": 145.6
+  },
+  {
+   "file": "vo/scene_07.wav",
+   "at": 177.475
+  }
+ ],
+ "estimated": false
 }

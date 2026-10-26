@@ -1,6 +1,6 @@
 {
  "id": "01-best-ai-note-taker",
- "duration": 256.25,
+ "duration": 227.5,
  "bpm": 96.0,
  "scenes": [
   {
@@ -49,16 +49,16 @@
    "body": "We make Lynkk. We'll tell you where another tool is the better pick.",
    "bodyAt": 4,
    "start": 0.0,
-   "end": 51.25,
+   "end": 44.375,
    "beats": [
     0.6,
-    9.575,
-    15.175,
-    26.775,
-    29.0,
-    32.725,
-    39.45,
-    43.925
+    8.386,
+    12.691,
+    21.872,
+    23.639,
+    26.71,
+    31.491,
+    36.127
    ],
    "vo": [
     "We ran the same sales call through six AI note takers and scored them on five things that matter after the call ends.",
@@ -102,18 +102,18 @@
    ],
    "body": "Lynkk does all three: a meeting bot, a Chrome extension or Mac app, and in-room recording.",
    "bodyAt": 8,
-   "start": 51.25,
-   "end": 88.75,
+   "start": 44.375,
+   "end": 76.875,
    "beats": [
-    51.85,
-    52.95,
-    56.675,
-    60.4,
-    63.75,
-    67.1,
-    68.575,
-    73.05,
-    78.65
+    44.975,
+    46.391,
+    49.132,
+    52.092,
+    55.528,
+    59.103,
+    60.406,
+    64.369,
+    68.304
    ],
    "vo": [
     "First, capture.",
@@ -163,16 +163,16 @@
      }
     ]
    },
-   "start": 88.75,
-   "end": 113.125,
+   "start": 76.875,
+   "end": 98.125,
    "beats": [
-    89.35,
-    90.45,
-    93.425,
-    96.025,
-    98.25,
-    99.725,
-    102.325
+    77.475,
+    78.944,
+    81.554,
+    83.68,
+    85.36,
+    86.881,
+    88.609
    ],
    "vo": [
     "Summary quality.",
@@ -219,15 +219,15 @@
      ]
     ]
    },
-   "start": 113.125,
-   "end": 140.625,
+   "start": 98.125,
+   "end": 120.0,
    "beats": [
-    113.725,
-    115.575,
-    118.925,
-    124.525,
-    131.25,
-    133.85
+    98.725,
+    100.418,
+    102.654,
+    106.811,
+    112.31,
+    114.065
    ],
    "vo": [
     "Follow-ups and tasks.",
@@ -283,16 +283,16 @@
     "answer": "Asked for annual pricing before the pilot.",
     "source": "Source: Call 3 \u00b7 12:40"
    },
-   "start": 140.625,
-   "end": 173.75,
+   "start": 120.0,
+   "end": 150.0,
    "beats": [
-    141.225,
-    142.7,
-    146.425,
-    153.9,
-    161.0,
-    165.1,
-    168.45
+    120.6,
+    122.322,
+    125.494,
+    133.014,
+    138.449,
+    141.962,
+    145.062
    ],
    "vo": [
     "Memory across calls.",
@@ -365,15 +365,15 @@
      "at": 5
     }
    },
-   "start": 173.75,
-   "end": 200.625,
+   "start": 150.0,
+   "end": 176.25,
    "beats": [
-    174.35,
-    175.075,
-    179.175,
-    182.525,
-    186.25,
-    195.225
+    150.6,
+    151.735,
+    155.583,
+    158.325,
+    162.01,
+    170.623
    ],
    "vo": [
     "Pricing.",
@@ -449,16 +449,16 @@
     ]
    },
    "extraTop": 230,
-   "start": 200.625,
-   "end": 236.25,
+   "start": 176.25,
+   "end": 207.5,
    "beats": [
-    201.225,
-    203.45,
-    207.925,
-    213.15,
-    218.0,
-    222.85,
-    224.7
+    176.85,
+    178.466,
+    182.079,
+    186.078,
+    190.851,
+    195.805,
+    198.016
    ],
    "vo": [
     "So who should pick which?",
@@ -487,12 +487,12 @@
    "subAt": 0,
    "cta": "Start free at lynkk.ai",
    "ctaAt": 1,
-   "start": 236.25,
-   "end": 256.25,
+   "start": 207.5,
+   "end": 227.5,
    "beats": [
-    236.85,
-    240.2,
-    247.3
+    208.1,
+    210.845,
+    217.818
    ],
    "vo": [
     "The full scoring table is in the description.",
@@ -501,6 +501,39 @@
    ]
   }
  ],
- "vo_clips": [],
- "estimated": true
+ "vo_clips": [
+  {
+   "file": "vo/scene_01.wav",
+   "at": 0.6
+  },
+  {
+   "file": "vo/scene_02.wav",
+   "at": 44.975
+  },
+  {
+   "file": "vo/scene_03.wav",
+   "at": 77.475
+  },
+  {
+   "file": "vo/scene_04.wav",
+   "at": 98.725
+  },
+  {
+   "file": "vo/scene_05.wav",
+   "at": 120.6
+  },
+  {
+   "file": "vo/scene_06.wav",
+   "at": 150.6
+  },
+  {
+   "file": "vo/scene_07.wav",
+   "at": 176.85
+  },
+  {
+   "file": "vo/scene_08.wav",
+   "at": 208.1
+  }
+ ],
+ "estimated": false
 }

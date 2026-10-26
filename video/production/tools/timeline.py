@@ -38,7 +38,7 @@ def main():
             rel = v['sentence_starts']
             ends = v['sentence_ends']
             vo_len = v['duration']
-            vo_clips.append({'file': f'vo/scene_{i + 1:02d}.mp3', 'at': start + LEAD})
+            vo_clips.append({'file': v.get('file', f'vo/scene_{i + 1:02d}.mp3'), 'at': start + LEAD})
         else:
             rel, ends, x = [], [], 0.0
             for sent in s['vo']:
