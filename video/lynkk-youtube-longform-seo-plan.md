@@ -455,7 +455,7 @@ High CPC on low-volume comparison terms ("gong alternative", "fireflies vs otter
 - **Secondary keywords:** zoom ai companion security concerns (40), ai note taker privacy (not measured)
 - **AI prompts to win:** "Are AI note takers safe?" / "What happens to my data with AI meeting assistants?"
 - **Hook (first 15s):** "Your meetings have pricing, roadmaps and people's names in them. Here are seven questions to ask any AI note taker before you hit record."
-- **Chapters:** 0:00 Why this matters | 0:25 Where is my data stored? | 1:00 Who can see my notes? | 1:40 Is my data used for training? | 2:15 Can I delete it? | 2:40 Can others see the assistant? | 3:15 The checklist
+- **Chapters:** 0:00 Why this matters | 0:25 Where is your data stored? | 1:00 Who can see your notes? | 1:40 Is your data used for training? | 2:15 Can you delete it? | 2:40 Can others see the assistant? | 3:15 The checklist
 - **Lynkk angle:** Point to lynkk.ai/privacy and the security page; Cue is visible on screen share; only text leaves the Mac; follow-ups are never sent without review.
 - **Notes:** Only make claims the security page confirms. No certifications (SOC 2, HIPAA, GDPR) until they're confirmed.
 

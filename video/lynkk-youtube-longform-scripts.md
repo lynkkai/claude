@@ -12,7 +12,7 @@
 [0:00 Test setup and scoring]
 We ran the same sales call through six AI note takers and scored them on five things that matter after the call ends. The winner depends on one question: what do you do with your notes next?
 
-In the next few minutes: how each one captures your call, where the summaries actually differ, and at the end, exactly which tool I'd pick for which kind of work.
+In the next few minutes: how each one captures your call, where the summaries actually differ, and at the end, exactly which tool we'd pick for which kind of work.
 
 In the next few minutes: how each one captures your call, where the summaries actually differ, and at the end, exactly which tool we'd pick for which kind of work.
 
@@ -60,7 +60,7 @@ This is the Lynkk channel, and yes, Lynkk has a free plan too, so we'll put ours
 [0:40 Monthly minute caps]
 Monthly minute caps. Some tools give you a bucket of minutes each month. Otter's free plan works this way. It's great if you have a few short calls a week. But if you're in back-to-back meetings, you can burn through the bucket in a few days, and then you're back to typing.
 
-Ask yourself: how many hours of meetings do I have in a normal week? Multiply by four. That's the number to compare against.
+Ask yourself: how many hours of meetings do you have in a normal week? Multiply by four. That's the number to compare against.
 
 [1:35 Meeting-length caps]
 Meeting-length and meeting-count caps. Other tools let you record as often as you want, but cap how long each meeting can be, or how many meetings you get. Granola's free tier, for example, covers a limited number of meetings.
@@ -93,7 +93,7 @@ If this helped, subscribe to the Lynkk channel. And if you want to try ours, Lyn
 [0:00 Why in-person is harder]
 Most AI note takers need a Zoom link. Your best conversations don't have one. Here's how to get the same notes from a conference room, a coffee shop or a site visit.
 
-Coming up: which device to use, a live in-room demo, and at the end, the setup I'd pick for coffee meetings, team rooms and all-day workshops.
+Coming up: which device to use, a live in-room demo, and at the end, the setup we'd pick for coffee meetings, team rooms and all-day workshops.
 
 Coming up: which device to use, a live in-room demo, and at the end, the setup we'd pick for coffee meetings, team rooms and all-day workshops.
 
@@ -153,7 +153,7 @@ When is a bot actually better? Honestly, sometimes. If you want notes from a mee
 [3:10 You still have to tell people]
 Here's the rule you can't skip: bot-free does not mean secret. In many US states, and in many countries, everyone on a call has to agree to being recorded. A bot announces itself. Without one, you have to do the announcing.
 
-Make it easy: "Mind if I record so I can focus on you instead of my notes?" Almost everyone says yes. Put it in the calendar invite too.
+Make it easy: "Mind if we record so we can focus on you instead of our notes?" Almost everyone says yes. Put it in the calendar invite too.
 
 [3:45 Setup walkthrough]
 Setup takes about two minutes. Install the Lynkk Chrome extension or the Mac app. Connect your Google or Outlook calendar so your meetings show up in Lynkk. Then on your next call, ask for consent, start capturing, and check your notes when the call ends. [ON SCREEN: setup steps]
@@ -194,7 +194,7 @@ Pricing reality. If you already have Copilot, it's included in what you pay for.
 [4:15 Picks]
 So here are the picks. If everyone you meet is on Teams and you already have Copilot, use Copilot. If you're on Teams but your customers aren't, or you need account memory and drafted follow-ups, add a cross-platform tool like Lynkk.
 
-And "AI note taker for teams" can also mean "for my team." If that's you, look for shared workspaces and admin features. Lynkk lets workspace admins ask questions across all the notes in the workspace.
+And "AI note taker for teams" can also mean "for our team." If that's you, look for shared workspaces and admin features. Lynkk lets workspace admins ask questions across all the notes in the workspace.
 
 Subscribe to the Lynkk channel for more guides, and try Lynkk free at lynkk.ai.
 
@@ -237,7 +237,7 @@ Lynkk's free plan covers notes up to two hours each, plus your first five hours 
 [0:00 Three setup options]
 There are three ways to get AI notes from Zoom: Zoom's own AI, a bot that joins, or capture from your own computer. Each has a trade-off. Let's set up all three.
 
-We'll set up all three options, and at the end I'll tell you which one to pick based on whether you host or join.
+We'll set up all three options, and at the end we'll tell you which one to pick based on whether you host or join.
 
 We'll set up all three options, and at the end we'll tell you which one to pick based on whether you host or join.
 
@@ -262,7 +262,7 @@ Which should you pick? If you host most of your calls, only use Zoom and already
 If you also take calls on Meet, Teams or in person, pick a tool that works everywhere, so your notes end up in one place.
 
 [3:45 Calendar auto-setup]
-Last step: calendar setup. Connect Lynkk to Google Calendar or Outlook Calendar and your upcoming meetings show up in Lynkk, ready to capture. Fewer "I forgot to hit record" moments.
+Last step: calendar setup. Connect Lynkk to Google Calendar or Outlook Calendar and your upcoming meetings show up in Lynkk, ready to capture. Fewer "we forgot to hit record" moments.
 
 Subscribe to the Lynkk channel for more Zoom tips, and try Lynkk free at lynkk.ai.
 
@@ -406,7 +406,7 @@ The three reasons: the free plan's monthly minute cap runs out, they want better
 Best for free users: Fathom. Reviewers consistently call its free plan one of the most generous, with unlimited recordings, though some advanced AI features are held back for paid plans. If Otter's minute cap is your only problem, start there.
 
 [1:25 Best for sales teams]
-Best for sales teams. If you sell, the question isn't "did I get a transcript?" It's "did the follow-up go out, and do I remember what this account told us three calls ago?"
+Best for sales teams. If you sell, the question isn't "did we get a transcript?" It's "did the follow-up go out, and do we remember what this account told us three calls ago?"
 
 That's what Lynkk is built for. Every call with an account lands in one history, with budget, stakeholders and objections tracked over time. Lynkk drafts the follow-up from the call, and you review and send it. Fireflies is also popular with teams, and reviewers rate its summaries and action items highly.
 
@@ -677,7 +677,7 @@ We'll cover hosts, participants, Mac, transcripts, and at the end, the consent r
 Welcome to the Lynkk channel. If you're the host, you have two choices. Local recording saves the video to your computer. Cloud recording saves it to your Zoom account, on paid plans. Click Record in the meeting toolbar and pick one. Everyone in the meeting gets a notice that recording has started. [VERIFY: current plan rules]
 
 [0:50 Participants: how to get permission]
-If you're a participant, the Record button is either missing or grayed out. That's on purpose. The host has to give you permission. Ask in the chat: "Mind if I record this for my notes?" The host can allow it from the participants list. Please don't try to get around this with screen recorders. It's the host's call, and in a lot of places, recording without consent breaks the law.
+If you're a participant, the Record button is either missing or grayed out. That's on purpose. The host has to give you permission. Ask in the chat: "Mind if we record this for our notes?" The host can allow it from the participants list. Please don't try to get around this with screen recorders. It's the host's call, and in a lot of places, recording without consent breaks the law.
 
 [1:25 Recording on a Mac]
 Recording on a Mac. It works the same in the Zoom desktop app on Mac. Local recordings save to a Zoom folder inside your Documents folder by default. If you can't find it, open Zoom, go to Settings, then Recording, and you'll see the location. [VERIFY: default path]
@@ -705,7 +705,7 @@ Five templates coming up, and at the end, how to get the quote and the date in t
 Welcome to the Lynkk channel. Most follow-ups get ignored for one reason: they're about you. "Great chatting! Here's our deck." The ones that get replies are about the buyer: their words, their problem, their next step. And they go out fast, the same day.
 
 [0:40 Template 1: recap and next step]
-Template one: recap and next step. [ON SCREEN: template] "Hi Sam, thanks for today. You mentioned onboarding takes your team three weeks and you want it under one. Here's what we agreed: I'll send the security doc by Wednesday, and we'll meet Thursday at 2 with your IT lead." The detail that makes it work: one quote, one next step, one date.
+Template one: recap and next step. [ON SCREEN: template] "Hi Sam, thanks for today. You mentioned onboarding takes your team three weeks and you want it under one. Here's what we agreed: we'll send the security doc by Wednesday, and we'll meet Thursday at 2 with your IT lead." The detail that makes it work: one quote, one next step, one date.
 
 [1:15 Template 2: answering an objection]
 Template two: answering an objection. "You asked whether this works with your current setup. Short answer: yes. Here's a two-minute video showing exactly that." Answer the objection they actually raised, in their words, and make it easy to forward.
@@ -717,7 +717,7 @@ Template three: multiple stakeholders. "Adding Dana from finance, since budget c
 Template four: the no-show. "Looks like today got away from you. No worries. Here are two times that work this week, or grab any slot here." No guilt. Make rebooking one click.
 
 [3:10 Template 5: the break-up email]
-Template five: the break-up email. "I haven't heard back, so I'll assume timing isn't right. If onboarding speed becomes a priority again, I'm one reply away." It's polite, it closes the loop, and it gets a surprising number of replies.
+Template five: the break-up email. "We haven't heard back, so we'll assume timing isn't right. If onboarding speed becomes a priority again, we're one reply away." It's polite, it closes the loop, and it gets a surprising number of replies.
 
 [3:45 Drafting from the call with AI]
 Drafting from the call with AI. The hard part of every template is the detail: the quote, the number, the date. That's in the call, not in your memory. Lynkk drafts the follow-up from the actual conversation, so the specifics are already in there. You review it, edit it, and you send it. Lynkk never sends on its own.
@@ -803,7 +803,7 @@ Calls across state lines. Here's where it gets tricky. If you're in a one-party 
 International calls. Outside the US, rules can be stricter. In many countries, privacy laws cover how recordings are stored and used, not just whether you can record. If you talk to customers abroad, check with your legal team, and keep your consent habits consistent.
 
 [2:35 How to ask for consent]
-How to ask for consent. Keep it simple and early. Put a line in the calendar invite: "This call may be recorded for note-taking." Then say it at the start: "Mind if I record so I can focus on you instead of my notes?" If anyone says no, don't record. Write notes the old-fashioned way.
+How to ask for consent. Keep it simple and early. Put a line in the calendar invite: "This call may be recorded for note-taking." Then say it at the start: "Mind if we record so we can focus on you instead of our notes?" If anyone says no, don't record. Write notes the old-fashioned way.
 
 [3:15 How note takers tell people they're recording]
 How note takers tell people. A meeting bot shows up in the participant list, so people can see it. Zoom, Teams and Meet show their own recording notices. If you use a bot-free note taker that records from your computer, nothing announces it for you, so you have to. Bot-free is not a loophole.
@@ -821,23 +821,23 @@ Seven questions, one checklist, and at the end, the two questions most people fo
 
 Welcome to the Lynkk channel. Yes, we make an AI note taker. These questions apply to every tool, including ours, and we'll tell you where to find Lynkk's answers.
 
-[0:25 Where is my data stored?]
-Question one: where is my data stored? Ask which cloud provider and which country or region your recordings and notes live in. If your company has rules about where data can be stored, this one can rule a tool out fast.
+[0:25 Where is your data stored?]
+Question one: where is your data stored? Ask which cloud provider and which country or region your recordings and notes live in. If your company has rules about where data can be stored, this one can rule a tool out fast.
 
-[1:00 Who can see my notes?]
-Question two: who can see my notes? By default, are notes private to you, shared with your team, or visible to the whole company? Can admins see everything? Get this right before you record a sensitive one-on-one.
+[1:00 Who can see your notes?]
+Question two: who can see your notes? By default, are notes private to you, shared with your team, or visible to the whole company? Can admins see everything? Get this right before you record a sensitive one-on-one.
 
-[1:40 Is my data used for training?]
-Question three: is my data used to train AI models? Some vendors say no, some say yes unless you opt out, and some don't say clearly. Read the privacy policy, and if it's vague, ask in writing. For Lynkk, the privacy policy is at lynkk.ai/privacy.
+[1:40 Is your data used for training?]
+Question three: is your data used to train AI models? Some vendors say no, some say yes unless you opt out, and some don't say clearly. Read the privacy policy, and if it's vague, ask in writing. For Lynkk, the privacy policy is at lynkk.ai/privacy.
 
-[2:15 Can I delete it?]
-Question four: can I delete it? You should be able to delete a recording, a note or your whole account, and know how long deleted data sticks around. Lynkk's privacy policy explains how data is collected, used, stored and deleted.
+[2:15 Can you delete it?]
+Question four: can you delete it? You should be able to delete a recording, a note or your whole account, and know how long deleted data sticks around. Lynkk's privacy policy explains how data is collected, used, stored and deleted.
 
 [2:40 Can others see the assistant?]
 Question five: can other people see the assistant? Some tools are designed to be invisible. That should worry you, not reassure you. Lynkk's live helper, Cue, is never hidden from screen shares. If you share your screen, people see it. Only text leaves your Mac, never a picture, and nothing is saved unless you choose.
 
 [3:15 The checklist]
-The last two questions, plus the checklist. Question six: does it send anything without me? Lynkk won't send follow-ups without your review, and email summaries only go out after you confirm the recipients. Question seven: what security reviews has it passed? Ask for documentation, and check the vendor's security page. Lynkk's is linked in the footer of lynkk.ai. [VERIFY: only cite confirmed certifications]
+The last two questions, plus the checklist. Question six: does it send anything without you? Lynkk won't send follow-ups without your review, and email summaries only go out after you confirm the recipients. Question seven: what security reviews has it passed? Ask for documentation, and check the vendor's security page. Lynkk's is linked in the footer of lynkk.ai. [VERIFY: only cite confirmed certifications]
 
 So the checklist: storage, access, training, deletion, visibility, auto-sending, security. Seven questions, ten minutes of reading, a lot less risk. Subscribe to the Lynkk channel for more.
 
@@ -884,7 +884,7 @@ Welcome to the Lynkk channel. A good action item has four parts: one owner, a ve
 Here's the template. [ON SCREEN: template table] Columns: action, owner, due date, status, and a link back to the meeting where it came from. That last one matters. When someone asks "why are we doing this?" you can point straight to the conversation. Grab the template free at lynkk.ai, link in the description.
 
 [1:20 Assigning owners in the meeting]
-Assign owners in the meeting, not after. Before the meeting ends, read the action items out loud and get a yes from each owner. It takes 60 seconds and saves a week of "I thought you were doing that." If nobody will own it, it's not an action item. Move it to open questions.
+Assign owners in the meeting, not after. Before the meeting ends, read the action items out loud and get a yes from each owner. It takes 60 seconds and saves a week of "wait, who was doing that?" If nobody will own it, it's not an action item. Move it to open questions.
 
 [1:55 Tracking on a Kanban board]
 Track them on a board. A list in a doc gets forgotten. A board gets looked at. In Lynkk, action items from your meetings become tasks with owners and due dates, and you can see them on a Kanban board and track completion. [ON SCREEN: Lynkk Kanban view]

@@ -112,7 +112,7 @@
   > Sound familiar? Nobody sends the recap, so marketing heard one thing, sales heard another, and the client heard a third.
   > Lynkk fixes that. When the meeting ends, you've got a structured summary. Confirm the recipients, and Lynkk emails it to everyone who was there.
   > Same decisions. Same next steps. Same page.
-  > It takes about ten seconds, and it saves you a week of "wait, I thought we said..."
+  > It takes about ten seconds, and it saves you a week of "wait, didn't we say..."
   > Try it free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Confirm recipients > Send" / "Same page. Every time."
 - **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
@@ -139,11 +139,11 @@
 - **Use case:** Reps worried about AI going rogue
 - **Primary keyword:** AI follow-up email generator
 - **Secondary keywords:** AI sales email writer, human in the loop AI email, safe AI follow-up
-- **Hook (0-3s):** "Would you let an AI email your biggest client without checking first? Yeah, me neither."
+- **Hook (0-3s):** "Would you let an AI email your biggest client without checking first? Yeah, neither would we."
 - **Issue:** Auto-send AI tools can get facts wrong in front of buyers.
 - **Fix:** Lynkk drafts; you review and send. It never sends follow-ups without you.
 - **Script (VO):**
-  > Would you let an AI email your biggest client without checking first? Yeah, me neither.
+  > Would you let an AI email your biggest client without checking first? Yeah, neither would we.
   > A lot of AI tools want to auto-send everything. One wrong number, one wrong name, and that's your credibility.
   > Lynkk takes a different approach. It drafts the follow-up using the context of the actual conversation. Then it waits for you.
   > You read it, tweak it, and you send it. Lynkk will never send a follow-up without your review.
@@ -201,7 +201,7 @@
 - **Fix:** Ask Lynkk answers across multiple calls and shows the source.
 - **Script (VO):**
   > Quick, what did their CFO say about pricing two calls ago?
-  > If the answer is "let me rewatch a 47-minute recording," there's a better way.
+  > If the answer is "let's rewatch a 47-minute recording," there's a better way.
   > With Ask Lynkk, you just ask. In plain English. It searches across all your calls and gives you the answer, with the source, so you can see exactly where it came from.
   > No guessing. No hallucinated quotes. Just receipts.
   > Ask Lynkk is part of Lynkk Pro. Start free at lynkk.ai. Subscribe to Lynkk for more.
@@ -401,7 +401,7 @@
 - **Fix:** Cue Support mode offers live help on screen while you stay on the call.
 - **Script (VO):**
   > "Can it do this?" And you honestly have no idea.
-  > On support calls, every "let me get back to you" costs trust. And putting someone on hold to search the docs? Brutal.
+  > On support calls, every "let us get back to you" costs trust. And putting someone on hold to search the docs? Brutal.
   > Cue, from Lynkk, has a Support mode. It listens when you tell it to, and gives you help right on your screen while you keep talking.
   > Stay on the call. Stay calm. Sound like the expert.
   > Cue is in beta for Mac, by invite. Request access at lynkk.ai. Subscribe to Lynkk for more.
@@ -474,7 +474,7 @@
 - **Issue:** Action items sit in notes with no owner or deadline.
 - **Fix:** Lynkk turns action items into tasks with owners and due dates, on a Kanban board.
 - **Script (VO):**
-  > Somebody said "I'll take that." Nobody remembers who.
+  > Somebody said "On it." Nobody remembers who.
   > That's where action items go to die: buried in meeting notes, no owner, no deadline.
   > Lynkk pulls the action items out of every meeting and turns them into real tasks, with an owner and a due date.
   > See them all on a Kanban board, and track what actually got done.

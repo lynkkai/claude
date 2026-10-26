@@ -1875,10 +1875,10 @@ Key takeaways:
 
 Chapters:
 0:00 Why this matters
-0:25 Where is my data stored?
-1:00 Who can see my notes?
-1:40 Is my data used for training?
-2:15 Can I delete it?
+0:25 Where is your data stored?
+1:00 Who can see your notes?
+1:40 Is your data used for training?
+2:15 Can you delete it?
 2:40 Can others see the assistant?
 3:15 The checklist
 
