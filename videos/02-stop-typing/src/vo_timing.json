@@ -1,0 +1,426 @@
+[
+ {
+  "start": 0.3,
+  "end": 1.879,
+  "text": "Your buyer can hear you typing.",
+  "words": [
+   {
+    "w": "Your",
+    "t": 0.3
+   },
+   {
+    "w": "buyer",
+    "t": 0.506
+   },
+   {
+    "w": "can",
+    "t": 0.781
+   },
+   {
+    "w": "hear",
+    "t": 0.987
+   },
+   {
+    "w": "you",
+    "t": 1.193
+   },
+   {
+    "w": "typing.",
+    "t": 1.399
+   }
+  ],
+  "length_scale": 1.0
+ },
+ {
+  "start": 2.45,
+  "end": 3.952,
+  "text": "And they can tell you're not listening.",
+  "words": [
+   {
+    "w": "And",
+    "t": 2.45
+   },
+   {
+    "w": "they",
+    "t": 2.617
+   },
+   {
+    "w": "can",
+    "t": 2.784
+   },
+   {
+    "w": "tell",
+    "t": 2.951
+   },
+   {
+    "w": "you're",
+    "t": 3.117
+   },
+   {
+    "w": "not",
+    "t": 3.284
+   },
+   {
+    "w": "listening.",
+    "t": 3.507
+   }
+  ],
+  "length_scale": 1.0
+ },
+ {
+  "start": 5.4,
+  "end": 7.716,
+  "text": "Discovery calls are where deals are won,",
+  "words": [
+   {
+    "w": "Discovery",
+    "t": 5.4
+   },
+   {
+    "w": "calls",
+    "t": 5.979
+   },
+   {
+    "w": "are",
+    "t": 6.326
+   },
+   {
+    "w": "where",
+    "t": 6.558
+   },
+   {
+    "w": "deals",
+    "t": 6.905
+   },
+   {
+    "w": "are",
+    "t": 7.253
+   },
+   {
+    "w": "won,",
+    "t": 7.485
+   }
+  ],
+  "length_scale": 1.0
+ },
+ {
+  "start": 8.0,
+  "end": 10.738,
+  "text": "but most reps spend them half-listening, half-typing.",
+  "words": [
+   {
+    "w": "but",
+    "t": 8.0
+   },
+   {
+    "w": "most",
+    "t": 8.2
+   },
+   {
+    "w": "reps",
+    "t": 8.534
+   },
+   {
+    "w": "spend",
+    "t": 8.801
+   },
+   {
+    "w": "them",
+    "t": 9.135
+   },
+   {
+    "w": "half-listening,",
+    "t": 9.335
+   },
+   {
+    "w": "half-typing.",
+    "t": 10.07
+   }
+  ],
+  "length_scale": 1.0
+ },
+ {
+  "start": 12.1,
+  "end": 13.509,
+  "text": "Lynkk takes the notes for you.",
+  "words": [
+   {
+    "w": "Lynkk",
+    "t": 12.1
+   },
+   {
+    "w": "takes",
+    "t": 12.335
+   },
+   {
+    "w": "the",
+    "t": 12.628
+   },
+   {
+    "w": "notes",
+    "t": 12.746
+   },
+   {
+    "w": "for",
+    "t": 13.039
+   },
+   {
+    "w": "you.",
+    "t": 13.274
+   }
+  ],
+  "length_scale": 1.0
+ },
+ {
+  "start": 14.9,
+  "end": 18.498,
+  "text": "Every call gets a summary, the decisions, the action items,",
+  "words": [
+   {
+    "w": "Every",
+    "t": 14.9
+   },
+   {
+    "w": "call",
+    "t": 15.279
+   },
+   {
+    "w": "gets",
+    "t": 15.594
+   },
+   {
+    "w": "a",
+    "t": 15.91
+   },
+   {
+    "w": "summary,",
+    "t": 16.036
+   },
+   {
+    "w": "the",
+    "t": 16.541
+   },
+   {
+    "w": "decisions,",
+    "t": 16.794
+   },
+   {
+    "w": "the",
+    "t": 17.425
+   },
+   {
+    "w": "action",
+    "t": 17.677
+   },
+   {
+    "w": "items,",
+    "t": 18.119
+   }
+  ],
+  "length_scale": 1.0
+ },
+ {
+  "start": 18.9,
+  "end": 23.127,
+  "text": "and a full transcript with speaker labels, so you know exactly who said what.",
+  "words": [
+   {
+    "w": "and",
+    "t": 18.9
+   },
+   {
+    "w": "a",
+    "t": 19.108
+   },
+   {
+    "w": "full",
+    "t": 19.177
+   },
+   {
+    "w": "transcript",
+    "t": 19.385
+   },
+   {
+    "w": "with",
+    "t": 20.078
+   },
+   {
+    "w": "speaker",
+    "t": 20.286
+   },
+   {
+    "w": "labels,",
+    "t": 20.702
+   },
+   {
+    "w": "so",
+    "t": 21.256
+   },
+   {
+    "w": "you",
+    "t": 21.464
+   },
+   {
+    "w": "know",
+    "t": 21.672
+   },
+   {
+    "w": "exactly",
+    "t": 21.879
+   },
+   {
+    "w": "who",
+    "t": 22.434
+   },
+   {
+    "w": "said",
+    "t": 22.642
+   },
+   {
+    "w": "what.",
+    "t": 22.85
+   }
+  ],
+  "length_scale": 1.0
+ },
+ {
+  "start": 24.2,
+  "end": 27.833,
+  "text": "That means you can actually ask the second question. And the third.",
+  "words": [
+   {
+    "w": "That",
+    "t": 24.2
+   },
+   {
+    "w": "means",
+    "t": 24.475
+   },
+   {
+    "w": "you",
+    "t": 24.805
+   },
+   {
+    "w": "can",
+    "t": 25.026
+   },
+   {
+    "w": "actually",
+    "t": 25.246
+   },
+   {
+    "w": "ask",
+    "t": 25.741
+   },
+   {
+    "w": "the",
+    "t": 25.961
+   },
+   {
+    "w": "second",
+    "t": 26.182
+   },
+   {
+    "w": "question.",
+    "t": 26.567
+   },
+   {
+    "w": "And",
+    "t": 27.062
+   },
+   {
+    "w": "the",
+    "t": 27.283
+   },
+   {
+    "w": "third.",
+    "t": 27.503
+   }
+  ],
+  "length_scale": 1.0
+ },
+ {
+  "start": 28.7,
+  "end": 30.474,
+  "text": "The ones that uncover real pain.",
+  "words": [
+   {
+    "w": "The",
+    "t": 28.7
+   },
+   {
+    "w": "ones",
+    "t": 28.836
+   },
+   {
+    "w": "that",
+    "t": 29.109
+   },
+   {
+    "w": "uncover",
+    "t": 29.314
+   },
+   {
+    "w": "real",
+    "t": 29.723
+   },
+   {
+    "w": "pain.",
+    "t": 30.133
+   }
+  ],
+  "length_scale": 1.0
+ },
+ {
+  "start": 31.9,
+  "end": 33.683,
+  "text": "Be present, not preoccupied.",
+  "words": [
+   {
+    "w": "Be",
+    "t": 31.9
+   },
+   {
+    "w": "present,",
+    "t": 32.084
+   },
+   {
+    "w": "not",
+    "t": 32.576
+   },
+   {
+    "w": "preoccupied.",
+    "t": 32.822
+   }
+  ],
+  "length_scale": 1.0
+ },
+ {
+  "start": 35.1,
+  "end": 37.03,
+  "text": "Get Lynkk free at lynkk.ai.",
+  "words": [
+   {
+    "w": "Get",
+    "t": 35.1
+   },
+   {
+    "w": "Lynkk",
+    "t": 35.397
+   },
+   {
+    "w": "free",
+    "t": 35.842
+   },
+   {
+    "w": "at",
+    "t": 36.213
+   },
+   {
+    "w": "lynkk.ai.",
+    "t": 36.436
+   }
+  ],
+  "length_scale": 1.0
+ }
+]

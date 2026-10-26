@@ -83,16 +83,23 @@ def keystrokes(start, end, text, seed=7):
 def main():
     here = Path(__file__).parent
     keys = keystrokes(0.12, SCENES["reveal"][0] - 0.12, NOTES)
+    lines = [
+        {"start": l[0], "end": l[1], "text": l[2], "caption": l[3] if len(l) > 3 else True,
+         "words": words_with_times(l[0], l[1], l[2])}
+        for l in LINES
+    ]
+    # A recorded or scratch VO's measured timing (vo_timing.json) wins over the estimates above.
+    vo = here / "vo_timing.json"
+    if vo.exists():
+        for line, m in zip(lines, json.loads(vo.read_text())):
+            assert line["text"] == m["text"], f"vo_timing.json is stale: {m['text']!r}"
+            line.update(start=m["start"], end=m["end"], words=m["words"])
     tl = {
         "fps": FPS,
         "duration": DURATION,
         "beat": BEAT,
         "scenes": SCENES,
-        "lines": [
-            {"start": l[0], "end": l[1], "text": l[2], "caption": l[3] if len(l) > 3 else True,
-             "words": words_with_times(l[0], l[1], l[2])}
-            for l in LINES
-        ],
+        "lines": lines,
         "keys": keys,
     }
     (here / "timeline.js").write_text("window.TL = " + json.dumps(tl) + ";\n")

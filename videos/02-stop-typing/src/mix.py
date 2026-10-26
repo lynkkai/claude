@@ -81,8 +81,11 @@ def main():
         vo = load(vo_path)[:n]
         vo = np.pad(vo, ((0, n - len(vo)), (0, 0)))
         env = np.convolve(np.abs(vo).mean(1), np.ones(SR // 10) / (SR // 10), mode="same")
-        duck = 1 - 0.6 * np.clip(env / (env.max() * 0.2 + 1e-9), 0, 1)
-        mix = music * duck[:, None] + sfx + vo
+        # about -12 dB of music under speech, with a 250ms release so it doesn't pump between words
+        env = np.clip(env / (env.max() * 0.2 + 1e-9), 0, 1)
+        tail = np.convolve(env, np.ones(SR // 4) / (SR // 4), mode="full")[:n]  # trailing average = release
+        duck = 1 - 0.75 * np.clip(np.maximum(env, tail), 0, 1)
+        mix = music * duck[:, None] + sfx + vo * 1.5
 
     mix /= max(1e-9, np.abs(mix).max() / 0.89)
     WORK.mkdir(exist_ok=True)
