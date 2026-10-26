@@ -10,7 +10,7 @@ Each one opens with high-volume keywords (AI Meeting Assistant, AI Note Taker, M
 - X and YouTube are plain text on purpose: X counts each Unicode bold character as 2, and YouTube search ignores it.
 - Written from the Lynkk brand memory (before, during and after the meeting). If the video shows only one feature,
   trim the other sections to match.
-- Banners: `banner-16x9.png` (2560x1440: YouTube thumbnail, X, Facebook, LinkedIn) and `banner-1x1.png` (2160x2160: Instagram, LinkedIn square). Source: `banner.html`.
+- Banners: `banner-16x9.png` (2560x1440: YouTube thumbnail, X, Facebook, LinkedIn) and `banner-1x1.png` (2160x2160: Instagram, LinkedIn square). Source: `banner.html`, styled to match lynkk.ai (logo, dusk plate and platform icons in `assets/` come from the site).
 
 ---
 
