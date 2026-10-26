@@ -13,7 +13,7 @@ Vertical short (1080x1920, 30fps, 38.8s) built from row 2 of `lynkk-shorts-conte
 python3 src/timeline.py   # timing: scene cuts, VO lines, keystrokes
 node src/render.js        # frames -> work/video.mp4 (needs Playwright + Chromium)
 python3 src/mix.py        # music + SFX (+ src/assets/vo.wav if present) -> work/brag-noposter.mp4
-ffmpeg -y -ss 1.8 -i work/video.mp4 -frames:v 1 -q:v 2 brag.jpg
+ffmpeg -y -ss 1.5 -i work/video.mp4 -frames:v 1 -q:v 2 brag.jpg
 ffmpeg -y -i work/brag-noposter.mp4 -i brag.jpg -filter_complex "[0:v][1:v]overlay=enable='eq(n\,0)'[v]" \
   -map "[v]" -map 0:a -c:v libx264 -crf 16 -pix_fmt yuv420p -c:a copy -movflags +faststart brag.mp4
 ```
