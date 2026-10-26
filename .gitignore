@@ -1,3 +1,5 @@
 brag-output/
 video/production/out/
 video/production/out-*.log
+video/production/videos/*/vo/*.wav
+video/production/samples/
