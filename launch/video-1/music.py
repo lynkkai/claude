@@ -1,6 +1,8 @@
-"""Synthesize a 50s background track for Lynkk Video 1.
-Act 1 (0-34s): tense A minor, ticking clock, pulsing bass, heartbeat kick, riser into the cut.
-Act 2 (34-50s): bright C major groove (I-V-vi-IV), plucked arpeggio, soft four-on-the-floor.
+"""Music and sound effects for Lynkk Video 1 (brag edition), written as one piece.
+120 BPM, beat 0.5s, bar 2s, counted from frame 0, so every whole-second scene cut is on a beat.
+Act 1 (0-34s): A minor, clock ticks, bass on 8ths, heartbeat kick from the promise, quiet evening, riser, 1/16 silence.
+Act 2 (34-50s): C major I-V-vi-IV, plucks on 8ths, four-on-the-floor.
+SFX are in key (A minor pentatonic in act 1, C major in act 2), on the 1/16 grid, through one short room.
 """
 import sys, wave
 import numpy as np
@@ -10,7 +12,7 @@ DUR = 50.0
 N = int(SR * DUR)
 L = np.zeros(N); R = np.zeros(N)
 rng = np.random.default_rng(7)
-BEAT = 60 / 100  # 100 BPM
+BEAT = 60 / 120  # 120 BPM
 
 def hz(note):
     names = {'C':0,'C#':1,'D':2,'D#':3,'E':4,'F':5,'F#':6,'G':7,'G#':8,'A':9,'A#':10,'B':11}
@@ -103,76 +105,130 @@ def riser(t0, d, gain):
     tone = np.sin(2*np.pi*np.cumsum(180 + 700*x**2)/SR) * x**2 * 0.35
     add(s + tone, t0, gain)
 
+def ping(t0, gain, f1=1318.51, f2=1760.0, pan=0.0):   # E6 + A6, in key
+    t = tt(0.6)
+    s = (np.sin(2*np.pi*f1*t) + 0.5*np.sin(2*np.pi*f2*t)*np.exp(-t*3)) * np.exp(-t*7)
+    s[:40] *= np.linspace(0, 1, 40)
+    sfx(s, t0, gain, pan)
+
+# ---- SFX bus: everything here gets the same short room so it blends with the music ----
+SL = np.zeros(N); SR_ = np.zeros(N)
+def sfx(sig, t0, gain=1.0, pan=0.0):
+    i = int(t0 * SR)
+    if i >= N: return
+    sig = sig[: N - i]
+    l = np.cos((pan + 1) * np.pi / 4); r = np.sin((pan + 1) * np.pi / 4)
+    SL[i:i+len(sig)] += sig * gain * l * 1.414
+    SR_[i:i+len(sig)] += sig * gain * r * 1.414
+
+def whoosh(t_cut, gain=0.10, d=0.375):        # swells into the cut, ends exactly on it
+    t = tt(d); x = t / d
+    s = band(rng.standard_normal(len(t)), 300, 5000) * (x ** 2.5) * (1 - np.clip((x - 0.96) / 0.04, 0, 1))
+    sfx(s, t_cut - d, gain)
+
+def pop(note, t0, gain=0.12, pan=0.0):        # soft pitched UI pop, in key
+    t = tt(0.35); f = hz(note)
+    s = (np.sin(2*np.pi*f*t) + 0.25*np.sin(2*np.pi*2*f*t)) * np.exp(-t*14)
+    s[:30] *= np.linspace(0, 1, 30)
+    sfx(s, t0, gain, pan)
+
+def clicks(t0, t1, gain=0.035):              # quiet typing on the 1/16 grid
+    step = BEAT / 4; t = t0; k = 0
+    while t < t1:
+        c = tt(0.02); s = band(rng.standard_normal(len(c)), 2000, 8000) * np.exp(-c*300)
+        sfx(s, t, gain * (1.0 if k % 2 == 0 else 0.7), 0.15 if k % 2 else -0.15)
+        t += step; k += 1
+
 # ---------------- ACT 1: the problem (0 - 34s) ----------------
 CUT = 34.0
-# drone under everything
-pad(['A2', 'E3', 'A3'], 0.0, 16.4, 0.20, bright=0.15)
-impact(0.35, 0.95)                         # WAIT! slam
-# clock ticks on every beat, tick-tock
-b = 0; t = 0.9
-while t < 26.0:
-    tick(t, 0.20 if b % 2 == 0 else 0.13, 2400 if b % 2 == 0 else 1800, 0.35 if b % 2 == 0 else -0.35)
+pad(['A2', 'E3', 'A3'], 0.0, 16.4, 0.18, bright=0.15)
+impact(0.25, 0.95)                          # Wait!
+b = 0; t = 1.0
+while t < 26.0:                             # clock on quarter notes
+    tick(t, 0.13 if b % 2 == 0 else 0.09, 2637 if b % 2 == 0 else 1760, 0.35 if b % 2 == 0 else -0.35)
     t += BEAT; b += 1
-# pulsing bass from 3s
 prog1 = [('A1', ['A2','C3','E3']), ('F1', ['F2','A2','C3']), ('D2', ['D3','F3','A3']), ('E1', ['E2','G#2','B2'])]
 t = 3.0; i = 0
 while t < 26.0:
     root, chord = prog1[(i // 8) % 4]
-    g = 0.33 if t < 16 else 0.42
-    bass(root, t, BEAT/2*0.95, g * (1.0 if i % 2 == 0 else 0.7))
+    g = 0.30 if t < 16 else 0.40
+    bass(root, t, BEAT/2*0.95, g * (1.0 if i % 2 == 0 else 0.65))
     if i % 8 == 0 and t >= 16.0:
-        pad(chord, t, BEAT*4.1, 0.16, bright=0.3)
+        pad(chord, t, BEAT*4.1, 0.15, bright=0.3)
     t += BEAT/2; i += 1
-# heartbeat kick from the promise onward
 t = 16.0
-while t < 26.0:
-    kick(t, 0.55); kick(t + 0.18, 0.32)
-    t += BEAT*2
-# night (26-30): sparse, low, slow ticks
-pad(['A2', 'C3', 'E3'], 26.0, 4.6, 0.22, bright=0.1)
+while t < 26.0:                             # heartbeat from the promise
+    kick(t, 0.55); kick(t + BEAT/4, 0.30)
+    t += BEAT*4
+pad(['A2', 'C3', 'E3'], 26.0, 4.4, 0.22, bright=0.1)   # evening: sparse
 for k in range(4):
-    tick(26.3 + k*1.2, 0.10, 1600, 0.0)
-bass('A1', 26.0, 1.4, 0.35)
-# three days later (30-34): accelerating ticks + riser
-t = 30.0; gap = 0.5
-while t < CUT - 0.1:
-    tick(t, 0.16, 2400, 0.3); t += gap; gap = max(0.09, gap*0.86)
+    tick(26.5 + k*1.0, 0.08, 1760, 0.0)
+bass('A1', 26.0, 1.4, 0.32)
+t = 30.0; gap = 0.5                         # three days later: ticks speed up on the 1/16 grid
+while t < CUT - 0.13:
+    tick(t, 0.14, 2637, 0.3); t += gap; gap = max(0.125, gap - 0.0625)
 pad(['E2', 'B2', 'E3', 'G#3'], 30.0, 4.0, 0.18, bright=0.4)
-riser(30.4, CUT - 30.4 - 0.08, 0.32)
-impact(32.0, 0.45)                         # "The deal didn't go cold"
+riser(30.5, CUT - 30.5 - 0.125, 0.30)
+impact(32.0, 0.42)                          # "The deal didn't go cold"
 
-# hard silence right before the cut
-gap_i, cut_i = int((CUT - 0.08)*SR), int(CUT*SR)
-L[gap_i:cut_i] *= np.linspace(1, 0, cut_i - gap_i)[::-1] * 0 ; R[gap_i:cut_i] *= 0
-L[cut_i:] = 0; R[cut_i:] = 0   # act 1 tails never bleed into act 2
+# act 1 SFX
+for c in (3, 8, 12, 16, 21, 26, 30):
+    whoosh(c)
+clicks(4.25, 5.5)                           # searching the inbox
+pop('E5', 5.5, 0.10)                        # 0 results
+for n, tp in (('A4', 5.75), ('C5', 6.0), ('E5', 6.25)):
+    pop(n, tp, 0.09)                        # sticky notes
+for n, tp in (('C5', 8.25), ('E5', 10.0), ('A4', 10.75)):
+    pop(n, tp, 0.09)                        # chat messages
+pop('E5', 16.25, 0.12); pop('A4', 17.5, 0.08); pop('C5', 18.25, 0.10)
+for n, tp in zip(['A4', 'C5', 'D5', 'E5', 'G5', 'A5'], [21.5, 22.0, 22.5, 23.0, 23.25, 23.75]):
+    pop(n, tp, 0.07)                        # meetings pile up
+pop('A3', 24.25, 0.14)                      # "Still in drafts" lands
+pop('A3', 29.5, 0.12)                       # laptop closes
+ping(31.0, 0.12)                            # Priya's email
+
+gap_i = int((CUT - BEAT/4)*SR)
+L[gap_i:] = 0; R[gap_i:] = 0; SL[gap_i:] = 0; SR_[gap_i:] = 0
 
 # ---------------- ACT 2: the fix (34 - 50s) ----------------
 impact(CUT, 0.55)
 prog2 = [('C2', ['C3','E3','G3','C4']), ('G1', ['G2','B2','D3','G3']), ('A1', ['A2','C3','E3','A3']), ('F1', ['F2','A2','C3','F3'])]
 arps = {'C2':['C4','E4','G4','C5'], 'G1':['B3','D4','G4','B4'], 'A1':['C4','E4','A4','C5'], 'F1':['C4','F4','A4','C5']}
 bar = BEAT*4
-for k in range(7):
+for k in range(8):
     t0 = CUT + k*bar
     if t0 >= DUR: break
     root, chord = prog2[k % 4]
-    pad(chord, t0, bar*1.05 if k < 6 else DUR - t0, 0.17, bright=0.35)
+    pad(chord, t0, min(bar*1.05, DUR - t0), 0.16, bright=0.35)
     for s in range(8):
         tb = t0 + s*BEAT/2
         if tb >= DUR - 0.3: break
-        bass(root if s % 4 != 3 else root, tb, BEAT/2*0.9, 0.30 if s % 2 == 0 else 0.2)
-        notes = arps[root]
-        if k >= 0:
-            pluck(notes[[0,1,2,3,2,1,2,3][s]], tb, 0.20, (-0.4 if s % 2 else 0.4))
-    if k >= 1:
+        bass(root, tb, BEAT/2*0.9, 0.28 if s % 2 == 0 else 0.18)
+        pluck(arps[root][[0,1,2,3,2,1,2,3][s]], tb, 0.17, (-0.4 if s % 2 else 0.4))
+    if t0 >= 36.0:
         for q in range(4):
             tb = t0 + q*BEAT
             if tb < DUR - 0.5:
-                kick(tb, 0.42)
-                hat(tb + BEAT/2, 0.10)
-                if q in (1, 3): clap(tb, 0.22)
-# end card sparkle
+                kick(tb, 0.40)
+                hat(tb + BEAT/2, 0.09)
+                if q in (1, 3): clap(tb, 0.20)
 for j, n in enumerate(['C5', 'E5', 'G5', 'C6']):
-    pluck(n, 45.0 + j*0.12, 0.14, -0.3 + j*0.2)
+    pluck(n, 45.0 + j*0.125, 0.13, -0.3 + j*0.2)
+
+# act 2 SFX
+for c in (36, 40, 45):
+    whoosh(c, 0.08)
+pop('E5', 36.75, 0.09); pop('G5', 37.5, 0.09)       # summary reveals
+pop('C6', 38.0, 0.12); pop('E5', 38.5, 0.10)        # ring on the decision, toast
+for k, (n, tp) in enumerate(zip(['C5', 'D5', 'E5', 'G5', 'A5'], [40.75, 41.25, 41.75, 42.25, 42.75])):
+    pop(n, tp, 0.08, -0.3 + 0.15*k)                 # the draft writes itself
+pop('C6', 43.0, 0.12); pop('G5', 43.5, 0.10); pop('C6', 43.625, 0.07)   # ring on the promise, toast
+pop('C5', 46.0, 0.10); pop('G5', 46.125, 0.08)      # Start free
+
+room = lambda x, d, g: np.concatenate([np.zeros(int(d*SR)), x[:-int(d*SR)]]) * g
+SLw = SL + room(SL, 0.043, 0.30) + room(SR_, 0.071, 0.22) + room(SL, 0.113, 0.12)
+SRw = SR_ + room(SR_, 0.051, 0.30) + room(SL, 0.067, 0.22) + room(SR_, 0.127, 0.12)
+L += SLw; R += SRw
 
 # ---------------- master ----------------
 mix = np.stack([L, R], 1)

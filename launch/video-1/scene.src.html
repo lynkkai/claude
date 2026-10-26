@@ -186,6 +186,77 @@ body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
 .checks{display:flex;gap:30px;font-size:28px;color:var(--muted-night);font-weight:500}
 .checks span{display:flex;align-items:center;gap:10px}
 .checks svg{width:26px;height:26px;stroke:var(--muted-night);stroke-width:2.6;fill:none;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---- Video 2 components ---- */
+.slam{position:absolute;left:0;right:0;top:600px;text-align:center;font-family:var(--display);font-size:300px;font-weight:600;letter-spacing:-.065em;color:var(--live);line-height:1;pointer-events:none;text-shadow:0 30px 80px #000}
+.split{display:flex;flex-direction:column;gap:26px}
+.kv{display:grid;grid-template-columns:210px 1fr;gap:20px 24px;padding:30px;font-size:32px;align-items:center}
+.kv .k{color:var(--muted-night);font-size:27px}
+.kv .v{font-weight:500}
+.ok-pill{justify-self:start;font-size:27px;font-weight:600;padding:8px 20px;border-radius:999px;background:#93b45c26;color:#b9d48f}
+.bad-pill{justify-self:start;font-size:27px;font-weight:600;padding:8px 20px;border-radius:999px;background:#ff3b3026;color:var(--live-soft)}
+.quote{padding:30px;display:flex;flex-direction:column;gap:22px}
+.qwho{display:flex;align-items:center;gap:18px;font-size:28px;font-weight:600}
+.qwho .av{width:70px;height:70px;font-size:26px}
+.qwho span{display:block;font-size:22px;color:var(--muted-night);font-weight:500}
+.qtext{font-family:var(--display);font-size:60px;font-weight:500;letter-spacing:-.04em;line-height:1.1}
+.hl{background:linear-gradient(transparent 58%,#ff3b3066 58%)}
+.gap{display:flex;align-items:center;justify-content:center;gap:18px;color:var(--live-soft);font-family:var(--display);font-size:32px;font-weight:600}
+.gap i{flex:1;height:0;border-top:3px dashed #ff3b3080}
+.notif{position:absolute;top:16px;left:16px;right:16px;background:#fff;color:var(--ink);border-radius:14px;padding:14px 18px;font-size:22px;font-weight:600;display:flex;gap:10px;align-items:center;box-shadow:0 12px 30px #0008}
+.notif small{color:var(--muted);font-weight:500}
+.field{display:flex;flex-direction:column;gap:10px}
+.field label{font-size:24px;color:var(--muted-night);font-weight:500}
+.input{border:2px solid var(--rule-night);border-radius:12px;padding:20px 22px;font-size:32px;background:var(--coal-2);min-height:80px}
+.input.focus{border-color:var(--lavender)}
+.formbody{padding:30px;display:flex;flex-direction:column;gap:24px}
+.savebtn{align-self:flex-end;font-family:var(--display);font-size:30px;font-weight:500;background:#fff;color:#111;padding:18px 44px;border-radius:10px}
+.grid4{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:20px}
+.grid4 .tile{height:250px}
+.grid4 .av{width:110px;height:110px;font-size:38px}
+.av.mr{background:var(--lavender)}.av.al{background:var(--sand)}.av.tk{background:#9fc9e8}
+.tbl{padding:10px 30px 30px}
+.tr{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:16px;padding:22px 16px;font-size:31px;border-bottom:2px solid var(--rule-night);border-radius:12px;align-items:center}
+.tr.th{font-size:23px;color:var(--muted-night);font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.tr .num{font-family:var(--display);font-variant-numeric:tabular-nums;font-weight:500}
+.tr.hot{background:#231f3a;border-color:transparent}
+.tr.total{border-bottom:0;font-weight:600}
+.share{align-self:flex-start;display:flex;align-items:center;gap:12px;font-size:26px;font-weight:600;padding:12px 24px;border-radius:999px;background:var(--violet-deep);color:var(--violet-soft)}
+.share svg{width:28px;height:28px;stroke:var(--violet-soft);stroke-width:2.4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.chart{padding:24px 30px 10px}
+.chart svg{width:100%;height:auto;display:block}
+.dealrow{display:flex;align-items:center;gap:18px;margin:0 30px 30px;padding:22px 24px;border:2px solid var(--rule-night);border-radius:14px;font-size:31px;font-weight:500}
+.dealrow .num{font-family:var(--display);color:var(--muted-night)}
+.swap{display:grid;margin-left:auto}
+.swap > *{grid-area:1/1;justify-self:end}
+.dm .msg .mtxt{font-size:40px}
+.df{display:grid;grid-template-columns:190px 1fr auto;gap:18px;align-items:center;padding:16px 0;border-top:2px solid var(--rule-night);font-size:30px}
+.df .k{color:var(--muted-night);font-size:25px}
+.df .v{font-weight:600;min-height:38px}
+.src{display:flex;align-items:center;gap:8px;font-size:22px;font-weight:600;color:var(--violet-soft);background:var(--violet-deep);padding:8px 14px;border-radius:999px;white-space:nowrap}
+.src svg{width:20px;height:20px;fill:var(--violet-soft);stroke:none}
+.synced{align-self:flex-start;display:flex;align-items:center;gap:12px;font-size:26px;font-weight:600;padding:12px 22px;border-radius:999px;background:#93b45c26;color:#b9d48f}
+.synced svg{width:26px;height:26px;stroke:#b9d48f;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.cue{position:relative;margin:-40px 26px 0;background:#fff;color:var(--ink);border-radius:22px;padding:28px 30px;display:flex;flex-direction:column;gap:14px;box-shadow:0 30px 70px #0007}
+.cuetag{align-self:flex-start;display:flex;align-items:center;gap:10px;font-family:var(--display);font-size:24px;font-weight:600;padding:8px 18px;border-radius:999px;background:var(--violet-tint);color:var(--violet)}
+.cuetag svg{width:24px;height:24px;stroke:var(--violet);stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.cuetag small{font-weight:500;color:#8a80c8;margin-left:4px}
+.cuelab{font-size:21px;font-weight:700;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+.cueh{font-family:var(--display);font-size:42px;font-weight:600;letter-spacing:-.035em;line-height:1.1}
+.cueb{font-size:28px;line-height:1.4;color:#3b3b39}
+.cuesrc{font-size:22px;color:var(--muted);font-weight:500}
+.btnrow{display:flex;gap:22px;align-items:center}
+.cta2{display:inline-flex;align-items:center;gap:16px;font-family:var(--display);font-size:42px;font-weight:500;background:var(--coal-2);color:#fff;border:2px solid var(--rule-night);padding:28px 48px;border-radius:12px}
+.cta2 svg{width:36px;height:36px;stroke:#fff;stroke-width:2.4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+
+.realwin{position:relative;border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 40px 90px #3a221466;line-height:0}
+.realwin.dark{background:#111}
+.realimg{display:block;width:100%;height:auto;object-fit:cover;object-position:left top}
+.realwin canvas{display:block;width:100%;height:auto}
+.rmask{position:absolute;left:12%;right:0;background:#fff}
+.ring{position:absolute;left:14%;right:2%;border:4px solid var(--violet);border-radius:14px;box-shadow:0 0 0 8px #7063be22}
+.realwin.dark .rmask{background:#111}
+.rmask.w{background:#fff}
 </style>
 </head>
 <body>
@@ -193,7 +264,7 @@ body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
 
 <!-- 1 HOOK 0-3 -->
 <section class="scene night" data-in="0" data-out="3">
-  <div class="tag anim" data-t="0.05" data-fx="fade">Acme Corp · Discovery call</div>
+  <div class="tag anim" data-t="0" data-fx="fade">Corvane Logistics · Discovery call</div>
   <div class="win call anim cam" data-t="0" data-fx="none" data-dim="0.3">
     <div class="winbar"><span class="livedot"></span><span data-rec="2812"></span><span>·</span><span>Google Meet</span></div>
     <div class="tiles">
@@ -203,45 +274,45 @@ body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
     <div class="sub"><b>Priya:</b> So, what did you promise us last time?</div>
     <div class="callbar"><div class="cb"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div><div class="cb"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3"/></svg></div><div class="cb end"><svg viewBox="0 0 24 24"><path d="M3 14c5-5 13-5 18 0l-2 3-4-1v-3c-2-1-4-1-6 0v3l-4 1z"/></svg></div></div>
   </div>
-  <div class="wait anim" data-t="0.35" data-fx="slam">Wait!</div>
-  <div class="cap anim" data-t="1.0" data-fx="up">What did we promise them?</div>
+  <div class="wait anim" data-t="0.25" data-fx="slam">Wait!</div>
+  <div class="cap anim" data-t="0.5" data-fx="up">What did we promise them?</div>
 </section>
 
 <!-- 2 TABS 3-8 -->
 <section class="scene night" data-in="3" data-out="8">
-  <div class="tag anim" data-t="3.0" data-fx="fade">Before the call</div>
-  <div class="win anim cam" data-t="3.0" data-fx="up">
+  <div class="tag anim" data-t="3" data-fx="fade">Before the call</div>
+  <div class="win anim cam" data-t="3" data-fx="up">
     <div class="tabs">
-      <div class="tab anim" data-t="3.15" data-fx="pop">Call notes.doc</div>
-      <div class="tab anim" data-t="3.35" data-fx="pop">Re: Re: next steps</div>
-      <div class="tab anim" data-t="3.55" data-fx="pop">Acme · CRM</div>
+      <div class="tab anim" data-t="3.25" data-fx="pop">Call notes.doc</div>
+      <div class="tab anim" data-t="3.25" data-fx="pop">Re: Re: next steps</div>
+      <div class="tab anim" data-t="3.5" data-fx="pop">Corvane · CRM</div>
       <div class="tab anim" data-t="3.75" data-fx="pop">notes_final_v2</div>
-      <div class="tab act anim" data-t="3.95" data-fx="pop">Search mail</div>
+      <div class="tab act anim" data-t="4" data-fx="pop">Search mail</div>
     </div>
     <div class="bbody">
-      <div class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span><span data-type="what did we promise acme" data-t="4.2" data-cps="22"></span><span class="caret" data-blink="1"></span></span></div>
+      <div class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span><span data-type="what did we promise corvane" data-t="4.25" data-cps="22"></span><span class="caret" data-blink="1"></span></span></div>
       <div class="noresult anim" data-t="5.5" data-fx="pop">0 results</div>
       <div class="lines"><div class="ln" style="width:92%"></div><div class="ln" style="width:70%"></div><div class="ln" style="width:84%"></div></div>
     </div>
   </div>
   <div class="notes">
-    <div class="note anim" data-t="5.9" data-fx="drop" data-rot="-4"><small>Oct 06</small>budget 30k??</div>
-    <div class="note anim" data-t="6.1" data-fx="drop" data-rot="3"><small>Oct 13</small>follow up ... on what?</div>
-    <div class="note anim" data-t="6.3" data-fx="drop" data-rot="-2"><small>no date</small>who owns this?</div>
+    <div class="note anim" data-t="5.75" data-fx="drop" data-rot="-4"><small>Oct 06</small>budget 30k??</div>
+    <div class="note anim" data-t="6" data-fx="drop" data-rot="3"><small>Oct 13</small>follow up ... on what?</div>
+    <div class="note anim" data-t="6.25" data-fx="drop" data-rot="-2"><small>no date</small>who owns this?</div>
   </div>
-  <div class="cap anim" data-t="4.3" data-fx="up">Five tabs. Three old notes. <span class="m">Still nothing.</span></div>
+  <div class="cap anim" data-t="4.25" data-fx="up">Five tabs. Three old notes. <span class="m">Still nothing.</span></div>
 </section>
 
 <!-- 3 CHAT 8-12 -->
 <section class="scene night" data-in="8" data-out="12">
-  <div class="tag anim" data-t="8.0" data-fx="fade">Asking the team</div>
+  <div class="tag anim" data-t="8" data-fx="fade">Asking the team</div>
   <div class="win chat cam">
-    <div class="winbar"><span class="lights"><i></i><i></i><i></i></span># acme-deal</div>
+    <div class="winbar"><span class="lights"><i></i><i></i><i></i></span># corvane-deal</div>
     <div class="body">
-      <div class="msg anim" data-t="8.15" data-fx="up"><div class="av jd">JD</div><div><div class="mwho">You <span>2:07 PM</span></div><div class="mtxt">Quick one. Does anyone remember what we told Acme last time?</div></div></div>
-      <div class="typing anim" data-t="9.0" data-fx="fade" data-until="9.9" data-dots="1"><i></i><i></i><i></i></div>
-      <div class="msg anim" data-t="9.9" data-fx="up"><div class="av sk">SK</div><div><div class="mwho">Sam <span>2:07 PM</span></div><div class="mtxt">No idea. Check your notes?</div></div></div>
-      <div class="msg anim" data-t="10.8" data-fx="up"><div class="av jd">JD</div><div><div class="mwho">You <span>2:08 PM</span></div><div class="mtxt">Which notes...</div></div></div>
+      <div class="msg anim" data-t="8.25" data-fx="up"><div class="av jd">JD</div><div><div class="mwho">You <span>2:07 PM</span></div><div class="mtxt">Quick one. Does anyone remember what we told Corvane last time?</div></div></div>
+      <div class="typing anim" data-t="9" data-fx="fade" data-until="10" data-dots="1"><i></i><i></i><i></i></div>
+      <div class="msg anim" data-t="10" data-fx="up"><div class="av sk">SK</div><div><div class="mwho">Sam <span>2:07 PM</span></div><div class="mtxt">No idea. Check your notes?</div></div></div>
+      <div class="msg anim" data-t="10.75" data-fx="up"><div class="av jd">JD</div><div><div class="mwho">You <span>2:08 PM</span></div><div class="mtxt">Which notes...</div></div></div>
     </div>
   </div>
   <div class="cap anim" data-t="8.5" data-fx="up">You ask your team. <span class="m">Nobody remembers either.</span></div>
@@ -249,7 +320,7 @@ body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
 
 <!-- 4 GUESS 12-16 -->
 <section class="scene night" data-in="12" data-out="16">
-  <div class="tag anim" data-t="12.0" data-fx="fade">Back on the call</div>
+  <div class="tag anim" data-t="12" data-fx="fade">Back on the call</div>
   <div class="win call cam">
     <div class="winbar"><span class="livedot"></span><span data-rec="2826"></span><span>·</span><span>Google Meet</span></div>
     <div class="tiles">
@@ -257,53 +328,53 @@ body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
       <div class="tile" data-talk="13.6,16"><div class="av ps">PS</div><div class="tname">Priya Shah</div></div>
     </div>
     <div style="display:grid;justify-items:center;padding-bottom:22px">
-      <div class="sub anim" style="grid-area:1/1" data-t="12.2" data-fx="fade" data-until="13.6"><b>You:</b> Uh... I think it was the pricing deck?</div>
-      <div class="sub anim" style="grid-area:1/1" data-t="13.6" data-fx="fade"><b>Priya:</b> Hmm. That's not what we talked about.</div>
+      <div class="sub anim" style="grid-area:1/1" data-t="12.25" data-fx="fade" data-until="13.5"><b>You:</b> Uh... I think it was the pricing deck?</div>
+      <div class="sub anim" style="grid-area:1/1" data-t="13.5" data-fx="fade"><b>Priya:</b> Hmm. That's not what we talked about.</div>
     </div>
   </div>
-  <div class="cap anim" data-t="12.6" data-fx="up">So you guess. <span class="m">And the customer notices.</span></div>
+  <div class="cap anim" data-t="12.5" data-fx="up">So you guess. <span class="m">And the customer notices.</span></div>
 </section>
 
 <!-- 5 PROMISE 16-21 -->
 <section class="scene night" data-in="16" data-out="21">
-  <div class="tag anim" data-t="16.0" data-fx="fade">End of the call</div>
+  <div class="tag anim" data-t="16" data-fx="fade">End of the call</div>
   <div class="cam" style="display:flex;flex-direction:column;gap:44px">
     <div>
-      <div class="bubble anim" data-t="16.2" data-fx="pop">I'll send it over today!</div>
-      <div class="who anim" data-t="16.6" data-fx="fade">You, 2:47 PM</div>
+      <div class="bubble anim" data-t="16.25" data-fx="pop">I'll send it over today!</div>
+      <div class="who anim" data-t="16.5" data-fx="fade">You, 2:47 PM</div>
     </div>
-    <div class="ended anim" data-t="17.4" data-fx="pop"><span class="livedot" style="background:#555;box-shadow:none"></span>Call ended · 47 min</div>
-    <div class="win todo anim" data-t="18.2" data-fx="up"><span class="box"></span>Send follow-up to Priya<span class="due">Due today</span></div>
+    <div class="ended anim" data-t="17.5" data-fx="pop"><span class="livedot" style="background:#555;box-shadow:none"></span>Call ended · 47 min</div>
+    <div class="win todo anim" data-t="18.25" data-fx="up"><span class="box"></span>Send follow-up to Priya<span class="due">Due today</span></div>
   </div>
-  <div class="cap anim" data-t="17.0" data-fx="up"><span class="m">Then you promise,</span> "I'll send it today."</div>
+  <div class="cap anim" data-t="17" data-fx="up"><span class="m">Then you promise,</span> "I'll send it today."</div>
 </section>
 
 <!-- 6 CALENDAR 21-26 -->
 <section class="scene night" data-in="21" data-out="26">
-  <div class="tag anim" data-t="21.0" data-fx="fade">The rest of your day</div>
+  <div class="tag anim" data-t="21" data-fx="fade">The rest of your day</div>
   <div class="win cal cam">
     <div class="winbar"><span class="lights"><i></i><i></i><i></i></span>Tuesday, Oct 20</div>
     <div class="body">
-      <div class="ev done"><time>2:00</time>Acme Corp · Discovery call</div>
-      <div class="ev anim" data-t="21.4" data-fx="left"><time>3:00</time>Team sync</div>
-      <div class="ev anim" data-t="21.9" data-fx="left"><time>3:30</time>Demo · Globex</div>
-      <div class="ev anim" data-t="22.4" data-fx="left"><time>4:00</time>1:1 with your manager</div>
-      <div class="ev anim" data-t="22.9" data-fx="left"><time>4:30</time>Onboarding · Initech</div>
-      <div class="ev anim" data-t="23.3" data-fx="left"><time>5:00</time>Forecast review</div>
-      <div class="ev anim" data-t="23.7" data-fx="left"><time>5:30</time>Call · Umbrella Co</div>
+      <div class="ev done"><time>2:00</time>Corvane Logistics · Discovery call</div>
+      <div class="ev anim" data-t="21.5" data-fx="left"><time>3:00</time>Team sync</div>
+      <div class="ev anim" data-t="22" data-fx="left"><time>3:30</time>Demo · Globex</div>
+      <div class="ev anim" data-t="22.5" data-fx="left"><time>4:00</time>1:1 with your manager</div>
+      <div class="ev anim" data-t="23" data-fx="left"><time>4:30</time>Onboarding · Initech</div>
+      <div class="ev anim" data-t="23.25" data-fx="left"><time>5:00</time>Forecast review</div>
+      <div class="ev anim" data-t="23.75" data-fx="left"><time>5:30</time>Call · Umbrella Co</div>
     </div>
-    <div class="draft anim" data-t="24.2" data-fx="drop" data-rot="-3"><div class="t">Draft</div><div class="h">Follow-up to Priya</div><div class="badge" data-pulse="1">Still in drafts</div></div>
+    <div class="draft anim" data-t="24.25" data-fx="drop" data-rot="-3"><div class="t">Draft</div><div class="h">Follow-up to Priya</div><div class="badge" data-pulse="1">Still in drafts</div></div>
   </div>
-  <div class="cap anim" data-t="21.6" data-fx="up">The next meeting starts. <span class="m">Then another. And another.</span></div>
+  <div class="cap anim" data-t="21.5" data-fx="up">The next meeting starts. <span class="m">Then another. And another.</span></div>
 </section>
 
 <!-- 7 EVENING 26-30 -->
 <section class="scene night" data-in="26" data-out="30">
-  <div class="tag anim" data-t="26.0" data-fx="fade">That evening</div>
+  <div class="tag anim" data-t="26" data-fx="fade">That evening</div>
   <div class="eve cam">
     <div class="clock"><span data-clock="1"></span><small>PM</small></div>
     <div class="laptop">
-      <div class="lid" data-lid="28.4,29.4"><div class="draft"><div class="t">Draft</div><div class="h">Follow-up to Priya</div><div class="badge">Still in drafts</div></div></div>
+      <div class="lid" data-lid="28.5,29.5"><div class="draft"><div class="t">Draft</div><div class="h">Follow-up to Priya</div><div class="badge">Still in drafts</div></div></div>
       <div class="base"></div>
     </div>
   </div>
@@ -312,74 +383,63 @@ body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
 
 <!-- 8 THREE DAYS LATER 30-34 -->
 <section class="scene night" data-in="30" data-out="34">
-  <div class="tag anim" data-t="30.0" data-fx="fade">Three days later</div>
+  <div class="tag anim" data-t="30" data-fx="fade">Three days later</div>
   <div class="date cam"><span class="d" data-days="1"></span><span class="w" data-wd="1"></span></div>
-  <div class="mail anim cam" data-t="31.0" data-fx="drop" data-rot="0" data-dim="32.2">
+  <div class="mail anim cam" data-t="31" data-fx="drop" data-rot="0" data-dim="32.2">
     <div class="top"><div class="av ps">PS</div><div class="from">Priya Shah<span>Re: Next steps</span></div></div>
     <div class="body">Thanks, but we've decided to go another way.</div>
   </div>
-  <div class="cap anim" data-t="32.0" data-fx="up">The deal didn't go cold. <span class="m">You just forgot.</span></div>
+  <div class="cap anim" data-t="32" data-fx="up">The deal didn't go cold. <span class="m">You just forgot.</span></div>
 </section>
 
 <!-- 9 FIX 34-36 -->
 <section class="scene day center" data-in="34" data-out="36">
-  <div class="logo biglogo anim" data-t="34.0" data-fx="pop"><span class="anim" data-t="34.0" data-fx="spin" style="display:inline-flex">%%LOGO%%</span>Lynkk</div>
-  <div class="fixline anim" data-t="34.6" data-fx="up">Here's the fix.</div>
+  <div class="logo biglogo anim" data-t="34" data-fx="pop"><span class="anim" data-t="34" data-fx="spin" style="display:inline-flex">%%LOGO%%</span>Lynkk</div>
+  <div class="fixline anim" data-t="34.5" data-fx="up">Here's the fix.</div>
 </section>
 
-<!-- 10 LISTENS 36-40 -->
+<!-- 10 REAL UI: lynkk.ai call summary 36-40 (captured from the lynkk.ai hero preview) -->
 <section class="scene day" data-in="36" data-out="40">
-  <div class="tag anim" data-t="36.0" data-fx="fade">It listens. It remembers.</div>
-  <div class="studio anim cam" data-t="36.0" data-fx="up">
-    <div class="win">
-      <div class="winbar"><span class="lights"><i></i><i></i><i></i></span><span class="logo" style="font-size:28px;color:#fff">%%LOGO%%Lynkk</span></div>
-      <div class="appbody">
-        <div class="mt">Acme Corp · Discovery call</div>
-        <div class="meta"><span class="av ps mini">PS</span>Priya Shah + 2 others · Google Meet · 47 min</div>
-        <div class="tabsrow"><span class="on2">Call summary</span><span>Action items 3</span><span>Account memory</span></div>
-        <div class="glance anim" data-t="36.6" data-fx="fade">Budget moved to $50K for a phased rollout. IT approval is needed before the final proposal.</div>
-        <div>
-          <div class="ai anim" data-t="37.2" data-fx="up"><span class="box" data-check="37.9"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></span>Send security overview to Priya<span class="who2">You · Fri</span></div>
-          <div class="ai anim" data-t="37.4" data-fx="up"><span class="box" data-check="38.2"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></span>Share a phased rollout plan<span class="who2">You</span></div>
-          <div class="ai anim" data-t="37.6" data-fx="up"><span class="box" data-check="38.5"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></span>Introduce the IT review lead<span class="who2">Priya</span></div>
-        </div>
-      </div>
+  <div class="tag anim" data-t="36" data-fx="fade">It listens. It remembers.</div>
+  <div class="studio anim cam" data-t="36" data-fx="up" style="padding:40px 34px 70px">
+    <div class="realwin dark">
+      <img class="realimg" src="brag-output/work/summary.png" alt="">
+      <span class="rmask anim" style="left:0;top:44%;height:28%" data-t="36.75" data-fx="out"></span>
+      <span class="rmask anim" style="left:0;top:71%;height:29%" data-t="37.5" data-fx="out"></span>
+      <span class="rmask" style="left:93.4%;right:0;top:69%;height:31%;opacity:1"></span>
+      <span class="ring anim" style="left:1%;right:7.5%;top:72%;height:26%" data-t="38" data-fx="pop"></span>
     </div>
-    <div class="toast anim" style="left:-14px;bottom:-46px" data-t="38.8" data-fx="pop"><span class="ic g"><svg viewBox="0 0 24 24"><path d="M4 7l2 2 3-3M4 15l2 2 3-3M13 8h7M13 16h7"/></svg></span><div><b>Nothing slips through.</b><span>3 action items · 2 commitments</span></div></div>
+    <div class="toast anim" style="left:-14px;bottom:-30px" data-t="38.5" data-fx="pop"><span class="ic g"><svg viewBox="0 0 24 24"><path d="M4 7l2 2 3-3M4 15l2 2 3-3M13 8h7M13 16h7"/></svg></span><div><b>Nothing slips through.</b><span>3 action items · 2 commitments</span></div></div>
   </div>
-  <div class="cap sm anim" data-t="36.4" data-fx="up">Lynkk listens to every call. <span class="m">And remembers every promise.</span></div>
+  <div class="cap sm anim" data-t="36.25" data-fx="up">Lynkk listens to every call. <span class="m">And remembers every promise.</span></div>
 </section>
 
-<!-- 11 FOLLOW UP 40-45 -->
+<!-- 11 REAL UI: lynkk.ai Ask Lynkk follow-up draft 40-45 (captured from lynkk.ai) -->
 <section class="scene day" data-in="40" data-out="45">
-  <div class="tag anim" data-t="40.0" data-fx="fade">Your follow-up, already written</div>
-  <div class="studio anim cam" data-t="40.0" data-fx="up">
-    <div class="win">
-      <div class="winbar"><span class="lights"><i></i><i></i><i></i></span>Ask Lynkk</div>
-      <div class="appbody">
-        <div class="ask"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg><span><span data-type="Write a follow-up email to Priya." data-t="40.3" data-cps="26"></span><span class="caret" data-blink="1" data-until="41.8"></span></span></div>
-        <div class="email anim" data-t="41.9" data-fx="up">
-          <div class="erow">To <b>Priya Shah</b> · Subject <b>Next steps from today</b></div>
-          <div class="ebody">Hi Priya, thanks for today. As promised:
-            <ul><li class="anim" data-t="42.3" data-fx="fade">Security overview, by Friday</li><li class="anim" data-t="42.5" data-fx="fade">Phased rollout plan for 15 people</li><li class="anim" data-t="42.7" data-fx="fade">Next step: meet your IT review lead</li></ul>
-          </div>
-          <div class="efoot"><span class="grounded">Based on what was said on the call</span><span class="send" data-press="43.6"><svg viewBox="0 0 24 24"><path d="M4 12l16-8-6 16-3-7z"/></svg><span data-sent="43.75">Send</span></span></div>
-        </div>
-      </div>
+  <div class="tag anim" data-t="40" data-fx="fade">Your follow-up, already written</div>
+  <div class="studio anim cam" data-t="40" data-fx="up" style="padding:34px">
+    <div class="realwin">
+      <img class="realimg" src="brag-output/work/ask.png" alt="">
+      <span class="rmask w anim" style="left:0;top:16%;height:15%" data-t="40.75" data-fx="out"></span>
+      <span class="rmask w anim" style="left:0;top:31%;height:19%" data-t="41.25" data-fx="out"></span>
+      <span class="rmask w anim" style="left:0;top:50%;height:14%" data-t="41.75" data-fx="out"></span>
+      <span class="rmask w anim" style="left:0;top:64%;height:18%" data-t="42.25" data-fx="out"></span>
+      <span class="rmask w anim" style="left:0;top:82%;height:18%" data-t="42.75" data-fx="out"></span>
+      <span class="ring anim" style="left:12%;right:2%;top:65.3%;height:16.6%" data-t="43" data-fx="pop"></span>
     </div>
-    <div class="toast anim" style="right:-14px;bottom:-50px" data-t="43.9" data-fx="pop"><span class="ic v"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><div><b>Follow-up sent.</b><span>Grounded in what was actually said.</span></div><span class="ok"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></span></div>
+    <div class="toast anim" style="right:-14px;bottom:-40px" data-t="43.5" data-fx="pop"><span class="ic v"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><div><b>Follow-up, ready when you ask.</b><span>Grounded in what was actually said.</span></div><span class="ok"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></span></div>
   </div>
-  <div class="cap sm anim" data-t="42.0" data-fx="up">Follow up in 5&nbsp;minutes. <span class="m">Not 3&nbsp;days.</span></div>
+  <div class="cap sm anim" data-t="41.75" data-fx="up">Follow up in 5&nbsp;minutes. <span class="m">Not 3&nbsp;days.</span></div>
 </section>
 
 <!-- 12 END 45-50 (lynkk.ai hero style) -->
 <section class="scene night center" data-in="45" data-out="50.1">
-  <div class="logo endlogo anim" data-t="45.0" data-fx="pop">%%LOGO%%Lynkk</div>
-  <div class="endh anim" data-t="45.4" data-fx="up">Never forget a customer call. <span class="m">Don't lose the deal.</span></div>
+  <div class="logo endlogo anim" data-t="45" data-fx="pop">%%LOGO%%Lynkk</div>
+  <div class="endh anim" data-t="45.5" data-fx="up">Never forget a customer call. <span class="m">Don't lose the deal.</span></div>
   <div class="btns">
-    <div class="cta anim" data-t="46.0" data-fx="pop">Start free <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
-    <div class="url anim" data-t="46.4" data-fx="fade">lynkk.ai</div>
-    <div class="checks anim" data-t="46.7" data-fx="fade"><span><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>No credit card</span><span><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>15+ languages</span><span><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>Online + in person</span></div>
+    <div class="cta anim" data-t="46" data-fx="pop">Start free <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+    <div class="url anim" data-t="46.5" data-fx="fade">lynkk.ai</div>
+    <div class="checks anim" data-t="46.75" data-fx="fade"><span><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>No credit card</span><span><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>15+ languages</span><span><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>Online + in person</span></div>
   </div>
 </section>
 
@@ -390,7 +450,7 @@ const easeOut=x=>1-Math.pow(1-x,3);
 const back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
 const $$=s=>Array.from(document.querySelectorAll(s));
 const scenes=$$('.scene').map(el=>({el,a:+el.dataset.in,b:+el.dataset.out}));
-const anims=$$('.anim').map(el=>({el,t:+el.dataset.t,fx:el.dataset.fx,until:el.dataset.until?+el.dataset.until:null,rot:+(el.dataset.rot||0),dim:el.dataset.dim?+el.dataset.dim:null}));
+const anims=$$('.anim').map(el=>({el,t:+el.dataset.t,fx:el.dataset.fx,until:el.dataset.until?+el.dataset.until:null,rot:+(el.dataset.rot||0),dim:el.dataset.dim?el.dataset.dim.split(',').map(Number):null}));
 const typers=$$('[data-type]').map(el=>({el,txt:el.dataset.type,t:+el.dataset.t,cps:+el.dataset.cps}));
 
 function fxStyle(a,t){
@@ -398,6 +458,7 @@ function fxStyle(a,t){
   let o=1,tr='';
   switch(a.fx){
     case 'none': o=t>=a.t?1:0; break;
+    case 'out': {const q=easeOut(clamp((t-a.t)/0.45)); o=1-q; tr=`translateY(${q*24}px)`; if(t<a.t){a.el.style.opacity=1;a.el.style.transform='';return;} break;}
     case 'fade': o=easeOut(clamp((t-a.t)/0.35)); break;
     case 'up': o=e; tr=`translateY(${(1-e)*70}px)`; break;
     case 'left': o=e; tr=`translateX(${(1-e)*-120}px)`; break;
@@ -412,7 +473,7 @@ function fxStyle(a,t){
   }
   if(t<a.t) o=0;
   if(a.until!==null) o*=1-clamp((t-a.until)/0.2);
-  if(a.dim!==null) o*=1-0.6*clamp((t-a.dim)/0.4);
+  if(a.dim!==null) o*=1-0.6*(clamp((t-a.dim[0])/0.4)-(a.dim.length>1?clamp((t-a.dim[1])/0.4):0));
   a.el.style.opacity=o; a.el.style.transform=tr;
 }
 function fmtRec(s){s=Math.floor(s);return 'REC '+String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0')}
@@ -436,9 +497,17 @@ window.render=function(t){
   const days=[[30.0,'Oct 20','Tue'],[30.35,'Oct 21','Wed'],[30.65,'Oct 22','Thu'],[30.95,'Oct 23','Fri']];
   S.querySelectorAll('[data-days]').forEach(d=>{let cur=days[0];for(const x of days)if(t>=x[0])cur=x;d.textContent=cur[1];S.querySelector('[data-wd]').textContent=cur[2];const ph=t-cur[0];d.style.transform=`translateY(${(1-easeOut(clamp(ph/0.18)))*-40}px)`;d.style.opacity=clamp(ph/0.12);});
   S.querySelectorAll('[data-check]').forEach(b=>{const c=+b.dataset.check,on=t>=c;b.classList.toggle('ok',on);b.querySelector('svg').style.opacity=on?1:0;b.style.transform=on?`scale(${1+0.25*Math.max(0,1-(t-c)/0.25)})`:'';});
-  S.querySelectorAll('[data-press]').forEach(b=>{const d=t-+b.dataset.press;b.style.transform=(d>0&&d<0.25)?'scale(0.92)':'scale(1)';const lab=b.querySelector('[data-sent]');const sent=t>=+lab.dataset.sent;lab.textContent=sent?'Sent':'Send';b.style.background=sent?'var(--forest)':'';b.style.color=sent?'#fff':'';});
+  S.querySelectorAll('[data-press]').forEach(b=>{const p=+b.dataset.press,d=t-p;b.style.transform=(d>0&&d<0.25)?'scale(0.92)':'scale(1)';const lab=b.querySelector('[data-sent]');
+    if(lab){const sent=t>=+lab.dataset.sent;lab.textContent=sent?'Sent':'Send';b.style.background=sent?'var(--forest)':'';b.style.color=sent?'#fff':'';}
+    else{const done=t>=p+0.15;b.textContent=done?'Saved':'Save';b.style.background=done?'var(--forest)':'';b.style.color=done?'#fff':'';}});
+  S.querySelectorAll('[data-draw]').forEach(l=>{const [a,dur]=l.dataset.draw.split(',').map(Number);const len=l.getTotalLength();l.style.strokeDasharray=len;l.style.strokeDashoffset=len*(1-easeOut(clamp((t-a)/dur)));});
+  S.querySelectorAll('canvas[data-seq]').forEach(c=>{const [a,b,n]=c.dataset.seq.split(',').map(Number);const imgs=SEQ[c.dataset.seq];if(!imgs)return;const i=Math.min(n-1,Math.max(0,Math.floor((t-a)/(b-a)*(n-1))));c.getContext('2d').drawImage(imgs[i],0,0,c.width,c.height);});
+  S.querySelectorAll('[data-hot]').forEach(r=>r.classList.toggle('hot',t>=+r.dataset.hot));
 };
-window.ready=document.fonts.ready.then(()=>{window.render(0);return true});
+const SEQ={};
+const loadSeq=c=>{const [a,b,n,pat]=c.dataset.seq.split(',');const imgs=[];for(let i=0;i<+n;i++){const im=new Image();im.src=pat.replace('%04d',String(i).padStart(4,'0'));imgs.push(im);}SEQ[c.dataset.seq]=imgs;return Promise.all(imgs.map(im=>im.decode()));};
+const loadImgs=()=>Promise.all($$('img').map(im=>im.complete?Promise.resolve():im.decode()));
+window.ready=Promise.all([document.fonts.ready,loadImgs(),...$$('canvas[data-seq]').map(loadSeq)]).then(()=>{window.render(0);return true});
 </script>
 </body>
 </html>
