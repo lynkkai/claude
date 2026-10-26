@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lynkk Banner</title>
+<style>
+  :root {
+    --bg: #0b0b1a;
+    --ink: #ffffff;
+    --muted: #b7b9d6;
+    --violet: #8b5cf6;
+    --indigo: #6366f1;
+    --cyan: #22d3ee;
+    --green: #34d399;
+    --card: rgba(255,255,255,0.06);
+    --line: rgba(255,255,255,0.12);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); }
+  body { font-family: "Inter", sans-serif; color: var(--ink); }
+
+  .frame {
+    position: relative; overflow: hidden;
+    width: var(--w); height: var(--h);
+    background:
+      radial-gradient(60% 70% at 85% 20%, rgba(139,92,246,0.45), transparent 70%),
+      radial-gradient(50% 60% at 10% 100%, rgba(34,211,238,0.25), transparent 70%),
+      linear-gradient(135deg, #0b0b1a 0%, #141233 100%);
+    display: grid;
+  }
+  .frame::before {
+    content: ""; position: absolute; inset: 0;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 48px 48px; opacity: 0.25;
+    mask-image: radial-gradient(70% 70% at 50% 50%, #000, transparent);
+  }
+
+  /* 16:9 */
+  .wide { --w: 1280px; --h: 720px; grid-template-columns: 1.15fr 0.85fr; padding: 64px 72px; gap: 40px; align-items: center; }
+  /* 1:1 */
+  .square { --w: 1080px; --h: 1080px; grid-template-rows: auto 1fr; padding: 72px 80px; gap: 40px; }
+
+  .copy { position: relative; display: flex; flex-direction: column; gap: 22px; }
+
+  .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 30px; letter-spacing: -0.02em; }
+  .mark {
+    width: 40px; height: 40px; border-radius: 12px;
+    background: linear-gradient(135deg, var(--violet), var(--cyan));
+    display: grid; place-items: center;
+  }
+
+  .eyebrow {
+    align-self: flex-start;
+    font-weight: 700; font-size: 17px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: #e9e5ff; padding: 9px 16px; border-radius: 999px;
+    background: rgba(139,92,246,0.18); border: 1px solid rgba(139,92,246,0.5);
+  }
+
+  h1 { font-family: "Inter Display", "Inter", sans-serif; font-weight: 800; font-size: 76px; line-height: 1.0; letter-spacing: -0.035em; }
+  h1 .grad { background: linear-gradient(90deg, #c4b5fd, var(--cyan)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .square h1 { font-size: 88px; }
+
+  .sub { font-size: 24px; line-height: 1.4; color: var(--muted); max-width: 36ch; }
+  .square .sub { font-size: 28px; max-width: 36ch; }
+
+  .steps { display: flex; gap: 10px; flex-wrap: wrap; }
+  .step {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 16px; border-radius: 14px;
+    background: var(--card); border: 1px solid var(--line);
+    font-size: 17px; font-weight: 600;
+  }
+  .step b { font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--cyan); }
+  .square .step { font-size: 21px; padding: 12px 18px; }
+  .square .step b { font-size: 14px; }
+
+  .cta { display: flex; align-items: center; gap: 14px; margin-top: 6px; }
+  .btn {
+    font-weight: 800; font-size: 20px; padding: 14px 24px; border-radius: 14px;
+    background: linear-gradient(135deg, var(--violet), var(--indigo)); box-shadow: 0 10px 30px rgba(99,102,241,0.45);
+  }
+  .url { font-weight: 700; font-size: 20px; color: #e9e5ff; }
+  .square .btn, .square .url { font-size: 24px; }
+
+  /* Product visual */
+  .visual { position: relative; display: flex; flex-direction: column; gap: 16px; }
+  .square .visual { flex-direction: row; align-items: stretch; gap: 20px; }
+
+  .live {
+    align-self: flex-start;
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 20px; border-radius: 18px;
+    background: rgba(17,16,40,0.85); border: 1px solid rgba(34,211,238,0.45);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+    font-weight: 600; font-size: 17px;
+  }
+  .square .live { align-self: auto; flex-direction: column; justify-content: center; gap: 18px; padding: 28px; width: 300px; font-size: 20px; text-align: center; }
+  .wave { display: flex; align-items: center; gap: 4px; height: 28px; }
+  .wave i { display: block; width: 4px; border-radius: 4px; background: var(--cyan); }
+  .square .wave { height: 56px; gap: 6px; }
+  .square .wave i { width: 7px; }
+
+  .card {
+    border-radius: 22px; padding: 24px;
+    background: rgba(17,16,40,0.88); border: 1px solid var(--line);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.45);
+    display: flex; flex-direction: column; gap: 14px;
+  }
+  .square .card { flex: 1; padding: 30px; }
+  .card-head { display: flex; justify-content: space-between; align-items: center; }
+  .card-title { font-weight: 800; font-size: 20px; }
+  .badge { font-size: 13px; font-weight: 700; color: #052e1f; background: var(--green); padding: 5px 10px; border-radius: 999px; }
+  .row {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 14px; border-radius: 12px; background: rgba(255,255,255,0.05);
+    font-size: 16px; font-weight: 600;
+  }
+  .square .card-title { font-size: 24px; }
+  .square .badge { font-size: 15px; }
+  .square .row { font-size: 20px; padding: 14px 16px; }
+  .check { flex: none; width: 22px; height: 22px; border-radius: 50%; background: var(--green); display: grid; place-items: center; }
+  .tag { margin-left: auto; font-size: 12px; font-weight: 700; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+  .square .tag { font-size: 14px; }
+</style>
+</head>
+<body>
+<div id="frame" class="frame wide">
+  <div class="copy">
+    <div class="brand">
+      <span class="mark">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"><path d="M10 14a4 4 0 0 0 5.66 0l3-3a4 4 0 0 0-5.66-5.66l-1 1"/><path d="M14 10a4 4 0 0 0-5.66 0l-3 3a4 4 0 0 0 5.66 5.66l1-1"/></svg>
+      </span>
+      Lynkk
+    </div>
+    <span class="eyebrow">AI Meeting Assistant &middot; AI Note Taker</span>
+    <h1>One AI for <span class="grad">every meeting.</span></h1>
+    <p class="sub">Context before, a voice assistant during, notes and tasks 30 seconds after.</p>
+    <div class="steps">
+      <span class="step"><b>Before</b> Past context</span>
+      <span class="step"><b>During</b> Live by voice</span>
+      <span class="step"><b>After</b> Notes in 30s</span>
+    </div>
+    <div class="cta"><span class="btn">Start free</span><span class="url">lynkk.ai</span></div>
+  </div>
+
+  <div class="visual">
+    <div class="live">
+      <div class="wave" id="wave"></div>
+      <span>Lynkk is answering live</span>
+    </div>
+    <div class="card">
+      <div class="card-head"><span class="card-title">Meeting notes</span><span class="badge">Ready in 30s</span></div>
+      <div class="row"><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#052e1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>Structured summary<span class="tag">Notes</span></div>
+      <div class="row"><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#052e1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>3 action items assigned<span class="tag">Tasks</span></div>
+      <div class="row"><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#052e1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>Deal stage updated<span class="tag">CRM</span></div>
+      <div class="row"><span class="check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#052e1f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>2 tickets created<span class="tag">Jira</span></div>
+    </div>
+  </div>
+</div>
+<script>
+  const size = new URLSearchParams(location.search).get("size");
+  if (size === "square") document.getElementById("frame").className = "frame square";
+  const heights = [10, 18, 26, 14, 22, 28, 12, 20, 26, 16, 8, 18, 24, 12];
+  document.getElementById("wave").innerHTML = heights.map(h => `<i style="height:${size === "square" ? h * 2 : h}px"></i>`).join("");
+</script>
+</body>
+</html>
