@@ -53,6 +53,7 @@ def main():
         for b in range(8):  # bass on beats 1 and 3
             if b % 2 == 0:
                 bs = note(r, beat * 1.8, 'bass'); bi = int((t0 + b * beat) * SR); bj = min(n, bi + len(bs))
+                if bi >= n: continue
                 mix[bi:bj] += 0.22 * bs[: bj - bi, None]
         t0 += 2 * bar; k += 1
     # soft kick every beat, shaker on off-beats (starts after 2 bars)
