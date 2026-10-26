@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "youtube-content-creator": {
+      "source": "genfeedai/skills",
+      "sourceType": "github",
+      "skillPath": "youtube-content-creator/SKILL.md",
+      "computedHash": "11a60a581cfdb89f1a4874a98d3b18727a1b789ec4a5e973efa72bf579f92ac0"
+    }
+  }
+}

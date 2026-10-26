@@ -4,13 +4,15 @@
 > Companion to `video/lynkk-youtube-longform-seo-plan.md`. Titles, keywords and chapters come from that plan.
 > Voice: US English, one on-camera host, screen demos where marked.
 > `[0:00 Chapter title]` lines mark chapter starts, using the timestamps from the plan.
-> Runtime: the voiceover runs about 1:50-3:45 at 150 words per minute. Screen demos, on-screen tables and pauses bring each cut to roughly 3-4.5 minutes, under the 5-minute cap. Set the final chapter timestamps from the edited video before uploading.
+> Runtime: the voiceover runs about 2:00-4:00 at 150 words per minute. Screen demos, on-screen tables and pauses bring each cut to roughly 3-4.5 minutes, under the 5-minute cap. Set the final chapter timestamps from the edited video before uploading.
 > `[ON SCREEN: ...]` is a visual cue, not spoken. `[TEST RESULT]` and `[VERIFY]` must be filled in or checked on filming day.
 
 ## 1. What's the Best AI Note Taker in 2026? I Tested 6 on the Same Sales Call
 
 [0:00 Test setup and scoring]
 I ran the same sales call through six AI note takers and scored them on five things that matter after the call ends. The winner depends on one question: what do you do with your notes next?
+
+In the next few minutes: how each one captures your call, where the summaries actually differ, and at the end, exactly which tool I'd pick for which kind of work.
 
 Welcome to the Lynkk channel. Quick disclosure: we make one of these six tools. So we'll show you our scoring, and we'll tell you where another tool is the better pick.
 
@@ -35,17 +37,21 @@ Memory across calls. Most tools treat every meeting as a separate file. Lynkk gr
 One honest gap: Lynkk doesn't sync to your CRM yet. You copy the brief into Salesforce or HubSpot. If automatic CRM sync is a must-have today, factor that in.
 
 [3:40 Free plans and pricing]
-Pricing. Fathom's free plan is the one reviewers call most generous. Otter's free plan has a monthly minutes cap. Granola's free tier covers a limited number of meetings. Lynkk's free plan gives you unlimited notes up to two hours each, plus your first five hours of AI summaries, no credit card. Pro is fifteen dollars a month, or $9.75 a month billed yearly. Prices change, so every pricing page is linked in the description with the date we checked.
+Pricing. Fathom's free plan is the one reviewers call most generous. Otter's free plan has a monthly minutes cap. Granola's free tier covers a limited number of meetings. Lynkk's free plan gives you unlimited notes up to two hours each, plus your first five hours of AI summaries, no credit card. Pro is fifteen dollars a month, or $9.75 a month billed yearly.
 
 [4:15 Who should pick which]
 So who should pick which? If you want the most generous free recording, look at Fathom. If you like typing your own notes and want them cleaned up, Granola. Rolling out to a whole team and mainly want strong summaries? Fireflies. Already living in Otter for mobile and in-person transcription? Otter's fine. Meeting analytics? Read AI. And if you sell for a living and need every call with an account remembered, with the follow-up already drafted, that's exactly what we built Lynkk for.
 
 The full scoring table is in the description. Subscribe to the Lynkk channel for more honest tool breakdowns, and you can try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on the best free AI note takers. It's on screen now.
+
 ## 2. Best Free AI Note Taker in 2026: What You Actually Get Without Paying
 
 [0:00 Three kinds of free limits]
 Free AI note takers aren't free in the same way. One caps your minutes, one caps your meetings, one caps the AI. Here's the fine print, side by side.
+
+We'll cover the three kinds of free limits, how the big plans compare, and at the end, the three signs it's actually time to pay.
 
 This is the Lynkk channel, and yes, Lynkk has a free plan too, so we'll put ours in the same table as everyone else's. Every free plan limits you in one of three ways: total minutes per month, length or number of meetings, or how much AI you get on top of the recording. Knowing which limit you'll hit first is the whole game.
 
@@ -78,10 +84,14 @@ If none of those apply, stay free. Seriously. Pick the free plan whose limit you
 
 If this helped, subscribe to the Lynkk channel. And if you want to try ours, Lynkk is free to start at lynkk.ai.
 
+[END SCREEN] Next, watch our video on the best AI note takers. It's on screen now.
+
 ## 3. Best AI Note Taker for In-Person Meetings (No Zoom Link Needed)
 
 [0:00 Why in-person is harder]
 Most AI note takers need a Zoom link. Your best conversations don't have one. Here's how to get the same notes from a conference room, a coffee shop or a site visit.
+
+Coming up: which device to use, a live in-room demo, and at the end, the setup I'd pick for coffee meetings, team rooms and all-day workshops.
 
 Welcome to the Lynkk channel. In-person is harder than video for three reasons. There's no clean audio feed, there are several voices in one room, and there's no "recording" banner telling everyone what's going on. So you need the right device, decent audio, and a quick heads-up to the room.
 
@@ -114,10 +124,14 @@ Whatever you use, tell people you're recording. It's the law in a lot of places,
 
 Subscribe to the Lynkk channel for more guides like this, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on bot-free note taking. It's on screen now.
+
 ## 4. AI Note Taker Without a Bot: How Bot-Free Recording Works
 
 [0:00 Bot vs no bot explained]
 "Notetaker has joined the meeting." On a first call, that line can cost you the deal. Here's how bot-free note taking works, and the one rule you still can't skip.
+
+You'll see both bot-free methods, the cases where a bot is actually better, and at the end, a two-minute setup you can copy.
 
 This is the Lynkk channel. Let's start with the difference. A meeting bot is a fake participant. It joins the call, records the audio, and sends you notes afterward. It works, but it shows up in the participant list, and some hosts remove it on sight.
 
@@ -142,10 +156,14 @@ Setup takes about two minutes. Install the Lynkk Chrome extension or the Mac app
 
 That's bot-free note taking. Subscribe to the Lynkk channel for more, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on AI notes for in-person meetings. It's on screen now.
+
 ## 5. Best AI Note Taker for Microsoft Teams: Built-In Copilot vs Third-Party
 
 [0:00 What Teams gives you natively]
 Teams already has Copilot. So why are so many people still searching for a different Teams note taker? It comes down to licenses, memory and what happens after the call.
+
+We'll cover what Teams gives you, the three gaps, a live demo, and at the end, a simple rule for when Copilot is enough.
 
 Welcome to the Lynkk channel. Disclosure up front: we make Lynkk, a third-party note taker that works with Teams. We'll show you when the built-in option is all you need.
 
@@ -176,10 +194,14 @@ And "AI note taker for teams" can also mean "for my team." If that's you, look f
 
 Subscribe to the Lynkk channel for more guides, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on built-in AI note takers in Teams, Meet and Zoom. It's on screen now.
+
 ## 6. Best AI Note Taker for Google Meet in 2026
 
 [0:00 Built-in Meet notes: what you get]
 Google Meet can take notes for you now, if you're on the right plan. Here's what the built-in option does, what it doesn't, and when a dedicated note taker is worth it.
+
+Up next: what Gemini notes cover, their limits, a quick demo, and at the end, how to decide between built-in and dedicated.
 
 This is the Lynkk channel. We make a note taker, so take our picks with that in mind, but we'll start with what Google gives you for free.
 
@@ -204,10 +226,14 @@ So here's how to choose. If you're on an eligible Workspace plan and you only us
 
 Lynkk's free plan covers notes up to two hours each, plus your first five hours of AI summaries, no credit card. Subscribe to the Lynkk channel for more, and try it at lynkk.ai.
 
+[END SCREEN] Next, watch our video on built-in AI note takers in Teams, Meet and Zoom. It's on screen now.
+
 ## 7. AI Note Taker for Zoom: Setup Guide and the Best Options
 
 [0:00 Three setup options]
 There are three ways to get AI notes from Zoom: Zoom's own AI, a bot that joins, or capture from your own computer. Each has a trade-off. Let's set up all three.
+
+We'll set up all three options, and at the end I'll tell you which one to pick based on whether you host or join.
 
 Welcome to the Lynkk channel. We make one of the options here, so we'll be clear about when the others are the better choice.
 
@@ -234,10 +260,14 @@ Last step: calendar setup. Connect Lynkk to Google Calendar or Outlook Calendar 
 
 Subscribe to the Lynkk channel for more Zoom tips, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on Zoom AI Companion. It's on screen now.
+
 ## 8. Best Conversation Intelligence Software for Small Sales Teams
 
 [0:00 What conversation intelligence does]
 Enterprise conversation intelligence is built for 200-rep teams with a RevOps department. If you're five reps and a founder, here's what you actually need.
+
+In the next few minutes: the five must-haves, a demo, pricing, and at the end, a clear rule for enterprise versus lightweight.
 
 Welcome to the Lynkk channel. Disclosure: we built Lynkk for exactly this kind of team, so we're biased, but this checklist works for any tool.
 
@@ -267,10 +297,14 @@ So, picks. If you have a big team, a RevOps function and you need forecasting an
 
 Subscribe to the Lynkk channel for more sales tips, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on Gong alternatives for small teams. It's on screen now.
+
 ## 9. Real-Time AI Meeting Assistants: Live Help During Calls, Explained Honestly
 
 [0:00 What live assistants do]
 AI that feeds you answers mid-call sounds amazing, until someone asks whether the other side can see it. Here's how live assistants work, and where the line is.
+
+Coming up: the modes, the shortcuts, what leaves your computer, and at the end, who this is for and who it isn't.
 
 This is the Lynkk channel. A live meeting assistant listens to your call as it happens and gives you help on your screen: a suggestion when you get an objection, a reminder of what you were going to ask, a fact you need right now. Notes after the call are useful. Help during the call is a different thing.
 
@@ -291,10 +325,14 @@ So who's it for? Reps who know their stuff but blank under pressure. Support fol
 
 Cue is in beta by invite. You can request access at lynkk.ai. Subscribe to the Lynkk channel for more.
 
+[END SCREEN] Next, watch our video on AI note taker privacy. It's on screen now.
+
 ## 10. AI Meeting Minutes Generator: Turn Any Meeting into Minutes Automatically
 
 [0:00 Minutes vs notes vs transcript]
 Whoever takes the minutes is the one person in the meeting who isn't really in it. Here's how to hand that job to AI without losing accuracy.
+
+We'll cover what good minutes need, a demo, and at the end, the 30-second check to run before you hit send.
 
 Welcome to the Lynkk channel. First, three terms people mix up. A transcript is every word, word for word. Notes are the useful parts, in any format. Minutes are the official record: what was decided, who's doing what, and by when.
 
@@ -315,10 +353,14 @@ Before you send, run a 30-second check. Are names spelled right? Is every action
 
 That's AI meeting minutes. Subscribe to the Lynkk channel for more, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on how to write meeting minutes. It's on screen now.
+
 ## 11. Best AI Note Taker for Students and Lectures
 
 [0:00 Check your school's recording policy]
 A 90-minute lecture, and you wrote down maybe a third of it. Here's how students are using AI note takers, and the one rule to check first.
+
+We'll cover the setup, a lecture demo, exam-time questions, and at the end, exactly how far the free plan goes.
 
 Welcome to the Lynkk channel. That rule: check your school's recording policy, and your professor's. Some classes allow it, some don't, and some need permission. Ask first. If you have an accommodation for note-taking, your disability services office can help.
 
@@ -341,10 +383,14 @@ Free plan math. Lynkk's free plan gives you unlimited notes up to two hours each
 
 Subscribe to the Lynkk channel for more, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on AI notes for in-person meetings. It's on screen now.
+
 ## 12. Otter.ai Alternatives in 2026: 5 Options Compared for Sales and Teams
 
 [0:00 Why people switch]
 Otter is the name everyone knows. But people who switch usually have one of three reasons. Let's match each reason to the right alternative.
+
+We'll go reason by reason, then show a comparison table, and at the end, how to switch without losing anything.
 
 Welcome to the Lynkk channel. Disclosure: Lynkk is one of the alternatives here. We'll be straight about where the others fit better.
 
@@ -372,10 +418,14 @@ How to switch. Export what you need from Otter first. Then run both tools side b
 
 Subscribe to the Lynkk channel for more comparisons, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on Fireflies vs Otter vs Fathom. It's on screen now.
+
 ## 13. Fireflies vs Otter vs Fathom: Which AI Note Taker Should You Use?
 
 [0:00 The four differences that matter]
 Fireflies, Otter and Fathom all record, transcribe and summarize. So the real differences hide in four places. Let's go through them.
+
+We'll go through the four differences, give a verdict for each use case, and at the end, show you a fourth option if you sell for a living.
 
 This is the Lynkk channel. We make a different note taker, so we've got no horse in this three-way race, and we'll mention ours once at the end. The four places to look: how they capture, how good the summaries are, what the free plan really covers, and what they do for teams.
 
@@ -399,10 +449,14 @@ And here's the fourth option we promised, if you sell for a living. All three tr
 
 Subscribe to the Lynkk channel for more comparisons, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on Otter alternatives. It's on screen now.
+
 ## 14. Granola Alternatives: When You Need More Than Personal Notes
 
 [0:00 What Granola does well]
 Granola is great for your own notes. But what happens when your whole team needs the history of every call with a customer?
+
+We'll cover where solo notes hit a wall, how team memory works, and at the end, exactly who should stay on Granola.
 
 Welcome to the Lynkk channel. Disclosure: Lynkk is one of the alternatives we'll cover. And let's be fair about Granola first.
 
@@ -425,10 +479,14 @@ So who should stay on Granola? If you work mostly solo, you like typing your own
 
 Subscribe to the Lynkk channel for more comparisons, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on Otter alternatives. It's on screen now.
+
 ## 15. Gong Alternatives for Small Sales Teams: What You Actually Need
 
 [0:00 What Gong is built for]
 Gong is incredible, and it's priced for companies with a RevOps team. If you're a startup, here's the 20% of conversation intelligence that does 80% of the work.
+
+Coming up: the 80/20, a demo, what you give up, and at the end, how the pricing actually compares.
 
 Welcome to the Lynkk channel. Disclosure: Lynkk is a lightweight alternative, so we're biased. We'll be clear about what you give up.
 
@@ -453,10 +511,14 @@ Pricing comparison. Enterprise platforms typically quote custom pricing, often w
 
 Subscribe to the Lynkk channel for more sales tips, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on conversation intelligence for small teams. It's on screen now.
+
 ## 16. Zoom AI Companion Review: What It Does, How to Turn It On or Off, and Alternatives
 
 [0:00 What it is]
 Zoom AI Companion is probably already switched on in your account. Here's what it captures, where the notes go, how to turn it off, and when you'd want something else.
+
+We'll turn it on, turn it off, find your summaries, and at the end, cover when you'd want something else.
 
 Welcome to the Lynkk channel. Zoom AI Companion is Zoom's built-in AI assistant. It's available on paid Zoom plans, and its best-known job is the meeting summary: after the call, you get a recap of what was discussed and the next steps. It can also answer questions during a meeting. [VERIFY: current plan availability]
 
@@ -479,10 +541,14 @@ Disclosure: we make one. Lynkk captures on Zoom, Google Meet and Microsoft Teams
 
 If you only use Zoom and you host your calls, AI Companion may be all you need. Subscribe to the Lynkk channel for more, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on setting up AI notes in Zoom. It's on screen now.
+
 ## 17. Do Teams, Google Meet and Zoom Have Built-In AI Note Takers?
 
 [0:00 The short answer]
 Yes, yes and yes. But each one comes with a catch, and the catches are different. Here's the short answer, then the details.
+
+Short answer first, then the catch on each platform, and at the end, when a third-party tool actually makes sense.
 
 Welcome to the Lynkk channel. Short answer: Microsoft Teams has Copilot, Google Meet has "Take notes for me" with Gemini, and Zoom has AI Companion. All three can summarize meetings. The catch is almost always your plan or license, and the fact that each only works inside its own app.
 
@@ -505,10 +571,14 @@ Disclosure: Lynkk is one of those tools. It works with Zoom, Meet and Teams, wit
 
 Subscribe to the Lynkk channel for more answers like this, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on AI note takers for Microsoft Teams. It's on screen now.
+
 ## 18. Wearable AI Note Takers vs Apps: Do You Need a Plaud or Pocket?
 
 [0:00 What AI recording devices do]
 A dedicated AI recorder clipped to your shirt, or the laptop already in front of you? Here's when hardware makes sense, and when it's one more thing to charge.
+
+We'll cover where devices win, the hidden costs, a demo, and at the end, exactly who should buy hardware.
 
 Welcome to the Lynkk channel. Disclosure: we make app-based software, not hardware. So we'll give the devices their due.
 
@@ -531,10 +601,14 @@ So who should buy hardware? If you're on your feet all day and your best convers
 
 Subscribe to the Lynkk channel for more, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on AI notes for in-person meetings. It's on screen now.
+
 ## 19. ChatGPT vs an AI Note Taker for Meeting Minutes: Which Should You Use?
 
 [0:00 The paste-a-transcript workflow]
 You can paste a transcript into ChatGPT and get decent minutes. So why would anyone pay for an AI note taker? Three reasons, and the biggest one is memory.
+
+We'll cover the DIY workflow, where it breaks, and at the end, a simple rule for when to use which.
 
 Welcome to the Lynkk channel. Here's the DIY workflow. Record the meeting, get a transcript, paste it into ChatGPT or another assistant, and ask for minutes with decisions and action items. Honestly? For a one-off meeting, that works pretty well.
 
@@ -555,10 +629,14 @@ So here's our recommendation. One-off meeting, you already have a transcript, no
 
 Subscribe to the Lynkk channel for more, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on AI meeting minutes. It's on screen now.
+
 ## 20. How to Write Meeting Minutes: Template and Real Examples
 
 [0:00 What minutes are (and aren't)]
 Good meeting minutes answer three questions: what did we decide, who's doing what, and by when. Everything else is optional. Here's the template.
+
+We'll cover the template, two real examples, and at the end, how to get AI to write the first draft.
 
 Welcome to the Lynkk channel. Meeting minutes are the official record of a meeting. They're not a transcript, and they're not your personal notes. Minutes are short, factual and written for someone who wasn't there.
 
@@ -581,10 +659,14 @@ Automating minutes with AI. The hardest part of minutes is writing them while yo
 
 Subscribe to the Lynkk channel for more, and grab the free template at lynkk.ai.
 
+[END SCREEN] Next, watch our video on AI meeting minutes. It's on screen now.
+
 ## 21. How to Record a Zoom Meeting (Even If You're Not the Host) and Get a Transcript
 
 [0:00 Host recording: local and cloud]
 No record button? Not the host? Here are the right ways to capture a Zoom meeting, plus how to get a searchable transcript out of it.
+
+We'll cover hosts, participants, Mac, transcripts, and at the end, the consent rule that matters most.
 
 Welcome to the Lynkk channel. If you're the host, you have two choices. Local recording saves the video to your computer. Cloud recording saves it to your Zoom account, on paid plans. Click Record in the meeting toolbar and pick one. Everyone in the meeting gets a notice that recording has started. [VERIFY: current plan rules]
 
@@ -605,10 +687,14 @@ Consent rules. Whatever method you use, tell people. In the US, some states only
 
 Subscribe to the Lynkk channel for more Zoom tips, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on setting up AI notes in Zoom. It's on screen now.
+
 ## 22. Sales Follow-Up Email After a Call: 5 Templates That Get Replies
 
 [0:00 Why most follow-ups get ignored]
 The best follow-up email quotes the buyer back to themselves. Here are five templates, and the one detail that makes each one work.
+
+Five templates coming up, and at the end, how to get the quote and the date in there without retyping the call.
 
 Welcome to the Lynkk channel. Most follow-ups get ignored for one reason: they're about you. "Great chatting! Here's our deck." The ones that get replies are about the buyer: their words, their problem, their next step. And they go out fast, the same day.
 
@@ -632,10 +718,14 @@ Drafting from the call with AI. The hard part of every template is the detail: t
 
 Follow up in five minutes, not three days. Subscribe to the Lynkk channel for more sales tips, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on conversation intelligence for small teams. It's on screen now.
+
 ## 23. How to Take Meeting Notes People Actually Use
 
 [0:00 Why notes die]
 Most meeting notes are written once and never read again. Here's a format built for the person reading it next week, not the person typing it today.
+
+We'll cover the three sections, the owner rule, and at the end, the template you can copy.
 
 Welcome to the Lynkk channel. Notes die for three reasons: they're too long, they're in a weird place, and nobody can find the one thing they need. So the goal isn't to capture everything. It's to capture what someone will look for later.
 
@@ -658,10 +748,14 @@ Here's the template one more time: date and meeting name, decisions, actions wit
 
 Subscribe to the Lynkk channel for more, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on how to write meeting minutes. It's on screen now.
+
 ## 24. What Is Conversation Intelligence? Explained for Teams That Aren't Enterprise
 
 [0:00 The one-sentence definition]
 Conversation intelligence sounds like enterprise jargon. It really means your calls remember things for you. Here's what that looks like in practice.
+
+One-sentence definition first, then how it works, and at the end, a quick test for whether you need it.
 
 Welcome to the Lynkk channel. In one sentence: conversation intelligence is software that records your customer conversations, turns them into structured notes, and keeps track of what was said across calls, so your team can act on it.
 
@@ -682,10 +776,14 @@ Do you need it? If you have repeat conversations with the same customers, sales,
 
 Subscribe to the Lynkk channel for more, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on conversation intelligence for small teams. It's on screen now.
+
 ## 25. Is It Legal to Record a Meeting? One-Party vs All-Party Consent in the US
 
 [0:00 This isn't legal advice]
 Before you turn on any AI note taker, you need to know one thing: does your state require everyone's consent? Here's the plain-English version.
+
+We'll cover consent rules, cross-state calls, and at the end, how note takers announce themselves, or don't.
 
 Welcome to the Lynkk channel. Quick but important: this is general information, not legal advice. Laws change and situations differ, so if you're unsure, ask a lawyer or your company's legal team.
 
@@ -706,10 +804,14 @@ How note takers tell people. A meeting bot shows up in the participant list, so 
 
 Lynkk gives you both options, and either way, the rule is the same: always ask, always announce. Subscribe to the Lynkk channel for more.
 
+[END SCREEN] Next, watch our video on bot-free note taking. It's on screen now.
+
 ## 26. Are AI Note Takers Safe? 7 Privacy Questions to Ask Before You Buy
 
 [0:00 Why this matters]
 Your meetings have pricing, roadmaps and people's names in them. Here are seven questions to ask any AI note taker before you hit record.
+
+Seven questions, one checklist, and at the end, the two questions most people forget to ask.
 
 Welcome to the Lynkk channel. Yes, we make an AI note taker. These questions apply to every tool, including ours, and we'll tell you where to find Lynkk's answers.
 
@@ -733,10 +835,14 @@ The last two questions, plus the checklist. Question six: does it send anything 
 
 So the checklist: storage, access, training, deletion, visibility, auto-sending, security. Seven questions, ten minutes of reading, a lot less risk. Subscribe to the Lynkk channel for more.
 
+[END SCREEN] Next, watch our video on recording consent rules. It's on screen now.
+
 ## 27. How Do AI Note Takers Work? Transcription, Speaker Labels and Summaries Explained
 
 [0:00 The four steps]
 An AI note taker does four jobs in about a minute: capture, transcribe, work out who spoke, and summarize. Here's what happens at each step, and where errors creep in.
+
+Four steps, one at a time, and at the end, a four-point accuracy test you can run today.
 
 Welcome to the Lynkk channel. Knowing how these tools work makes you better at spotting their mistakes. So let's go step by step.
 
@@ -757,10 +863,14 @@ How to check accuracy yourself. Run one of your own recordings through the tool 
 
 Subscribe to the Lynkk channel for more explainers, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on the best AI note takers. It's on screen now.
+
 ## 28. Meeting Action Items Template: From Meeting to Done (Tasks and Jira)
 
 [0:00 Anatomy of an action item]
 An action item without an owner and a date is just a wish. Here's a template that fixes that, and how to get items into Jira without retyping them.
+
+We'll cover the template, assigning owners, tracking, and at the end, the ten-minute habit that beats any tool.
 
 Welcome to the Lynkk channel. A good action item has four parts: one owner, a verb, a specific thing, and a due date. "Jordan will update the onboarding doc by Thursday." Not "we should look at onboarding."
 
@@ -781,10 +891,14 @@ The weekly review habit. Once a week, spend ten minutes on open action items. Cl
 
 Subscribe to the Lynkk channel for more, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on taking meeting notes people actually use. It's on screen now.
+
 ## 29. Hindi and English in the Same Meeting: Getting Accurate Hinglish Transcripts
 
 [0:00 Why code-switching breaks transcripts]
 Most transcription tools pick one language and stick to it. Real meetings in India don't. Here's how to get clean notes when people switch mid-sentence.
+
+We'll cover what to test, a real demo, and at the end, the number check that saves you embarrassment.
 
 Welcome to the Lynkk channel. Switching languages mid-sentence is called code-switching, and it breaks a lot of transcription tools. The tool decides the call is in English, hits a Hindi phrase, and either skips it or guesses badly. Names, numbers and product terms get mangled, and the summary misses the point.
 
@@ -802,10 +916,14 @@ Lynkk supports 17 languages, including Hindi and Hinglish, so it fits teams that
 
 Subscribe to the Lynkk channel for more, and try Lynkk free at lynkk.ai.
 
+[END SCREEN] Next, watch our video on Otter alternatives. It's on screen now.
+
 ## 30. How to Analyze Customer Interviews with AI: A Research Synthesis Workflow
 
 [0:00 Interview setup and consent]
 Ten interviews in, you've got hours of recordings and no synthesis. Here's a workflow that gets you from raw calls to themes, with quotes you can trust.
+
+We'll go from setup to synthesis, and at the end, how to share findings so stakeholders actually trust them.
 
 Welcome to the Lynkk channel. Start before the first interview. Write down the three questions your research has to answer, and ask every participant for consent to record. Put it in the invite and confirm it on the call. You'll need those recordings later, so get the permission right.
 
@@ -825,3 +943,5 @@ Pull quotes with their sources. Every answer from Ask Lynkk shows its source, so
 Sharing findings. Keep the readout simple: the three research questions, the top themes with a short quote each, and what you recommend. Link each quote back to its interview so stakeholders can check it themselves. Research in an afternoon, not a week.
 
 Subscribe to the Lynkk channel for more, and try Lynkk free at lynkk.ai.
+
+[END SCREEN] Next, watch our video on what conversation intelligence is. It's on screen now.
