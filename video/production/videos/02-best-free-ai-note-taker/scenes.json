@@ -253,7 +253,6 @@
       "extraTop": 260
     },
     {
-      "layout": "title",
       "next": "Start free",
       "pill": "When to pay",
       "head": [
@@ -264,7 +263,21 @@
         0,
         1
       ],
-      "columns": [
+      "vo": [
+        "So when is paying worth it?",
+        "Three signs.",
+        "One: you hit your cap before the month is half over.",
+        "Two: you're spending time reading transcripts because the AI part ran out.",
+        "Three: you need features free plans rarely include, like asking questions across all your past calls.",
+        "On Lynkk, that's Ask Lynkk, and it's a Pro feature.",
+        "If none of those apply, stay free.",
+        "Seriously.",
+        "Pick the free plan whose limit you're least likely to hit, and use it every day for two weeks before paying for anything."
+      ],
+      "body": "None of these? Stay free. Use one plan every day for two weeks first.",
+      "bodyAt": 6,
+      "layout": "split",
+      "points": [
         {
           "title": "Capped by mid-month",
           "desc": "You hit your limit before the month is half over.",
@@ -281,19 +294,16 @@
           "at": 4
         }
       ],
-      "body": "None of these? Stay free. Use one plan every day for two weeks first.",
-      "bodyAt": 6,
-      "vo": [
-        "So when is paying worth it?",
-        "Three signs.",
-        "One: you hit your cap before the month is half over.",
-        "Two: you're spending time reading transcripts because the AI part ran out.",
-        "Three: you need features free plans rarely include, like asking questions across all your past calls.",
-        "On Lynkk, that's Ask Lynkk, and it's a Pro feature.",
-        "If none of those apply, stay free.",
-        "Seriously.",
-        "Pick the free plan whose limit you're least likely to hit, and use it every day for two weeks before paying for anything."
-      ]
+      "card": {
+        "type": "image",
+        "palette": "lilac",
+        "images": [
+          {
+            "src": "assets/site/ask-lynkk.png",
+            "at": 1
+          }
+        ]
+      }
     },
     {
       "layout": "outro",
@@ -318,5 +328,21 @@
         "Next, watch our video on the best AI note takers. It's on screen now."
       ]
     }
-  ]
+  ],
+  "poster_scene": 5,
+  "share_copy": "Free AI note takers cap you in three different ways: minutes, meetings, or the AI itself. We put the free plans side by side, ours included, plus the three signs it's actually time to pay.",
+  "plan": {
+    "what": "A three-minute YouTube guide to the fine print of free AI note taker plans, made by Lynkk for its own channel.",
+    "who": "Anyone choosing a free AI note taker; it shows which limit they will hit first and when paying is worth it.",
+    "angle": "Free plans are not free in the same way: minutes, meetings or AI. Know which limit you hit first.",
+    "hook": "\"Free isn't free in the same way.\" with three cap chips landing on the beat.",
+    "highlights": [
+      "A minutes meter filling to its cap, plus the weekly hours x 4 rule",
+      "A recording that stops at a 30-minute cap mid-sentence (labeled illustration)",
+      "A transcript turning into a Meeting Brief, then the real Ask Lynkk panel from lynkk.ai"
+    ],
+    "punchline": "Pick the limit you won't hit. Start free at lynkk.ai.",
+    "tone": "polished, adapted to long-form",
+    "caption": "Free AI note takers cap minutes, meetings or the AI. Here is the fine print."
+  }
 }

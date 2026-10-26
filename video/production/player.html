@@ -7,7 +7,7 @@
 :root {
   --bg: #111111; --gutter: #101010; --line: #2b2d2d;
   --white: #f2f2f2; --grey: #8a8a8a; --body: #939393; --dim: #5d5d5d;
-  --pill-bg: #e3dff3; --pill-text: #6c5fc7; --orange: #e8740f;
+  --pill-bg: #e3dff3; --pill-text: #7063be; --lav: #beb4fb; --orange: #e8740f;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html, body { width: 1920px; height: 1080px; background: var(--bg); overflow: hidden; }
@@ -19,7 +19,7 @@ body { font-family: 'Inter', sans-serif; color: var(--white); -webkit-font-smoot
 .vline { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--line); }
 .hline { position: absolute; left: 86px; right: 86px; height: 1px; background: var(--line); }
 #brand { position: absolute; left: 145px; top: 33px; display: flex; align-items: center; gap: 17px; }
-#brand img { width: 48px; height: 48px; }
+#brand img { width: 44px; height: 44px; }
 #brand span { font-size: 40px; font-weight: 500; letter-spacing: -0.01em; }
 #counter { position: absolute; right: 145px; top: 36px; font-size: 32px; font-weight: 500; font-variant-numeric: tabular-nums; }
 #counter .tot { color: var(--grey); }
@@ -97,6 +97,13 @@ body { font-family: 'Inter', sans-serif; color: var(--white); -webkit-font-smoot
 .outro .cta { margin-top: 56px; background: #fff; color: #111; font-size: 38px; font-weight: 500; padding: 26px 48px; border-radius: 8px; }
 .grain { position: absolute; inset: -50%; opacity: .32; mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+.shot { position: absolute; left: 34px; right: 34px; top: 34px; bottom: 34px; display: flex; align-items: center; justify-content: center; }
+.shot img { max-width: 100%; max-height: 100%; border-radius: 14px; box-shadow: 0 24px 60px rgba(0,0,0,0.35); transform-origin: 50% 40%; }
+.src-tag { position: absolute; left: 24px; bottom: 20px; background: rgba(0,0,0,0.45); color: #fff; font-size: 18px; padding: 6px 14px; border-radius: 14px; }
+.points { margin-top: 44px; }
+.pt { display: flex; gap: 18px; align-items: baseline; font-size: 32px; color: var(--white); padding: 12px 0; border-top: 1px solid var(--line); }
+.pt .pn { color: var(--dim); font-size: 22px; font-variant-numeric: tabular-nums; width: 34px; flex: none; }
+.pt .pd { color: var(--body); font-size: 26px; display: block; margin-top: 4px; }
 .typed::after { content: ''; display: inline-block; width: 2px; height: 1em; background: #111; margin-left: 2px; vertical-align: -0.15em; opacity: var(--caret, 0); }
 </style>
 </head>
@@ -105,7 +112,7 @@ body { font-family: 'Inter', sans-serif; color: var(--white); -webkit-font-smoot
   <div class="gutter l"></div><div class="gutter r"></div>
   <div class="vline" style="left:86px"></div><div class="vline" style="left:1833px"></div>
   <div class="hline" style="top:114px"></div><div class="hline" style="top:974px"></div>
-  <div id="brand"><img src="assets/lynkk-mark.png" alt=""><span>Lynkk</span></div>
+  <div id="brand"><img src="assets/lynkk-logo-white.svg" alt=""><span>Lynkk</span></div>
   <div id="counter"><span class="cur">01</span><span class="tot"> / 01</span></div>
   <div id="site">lynkk.ai</div>
   <div id="nextlbl"><span id="nexttxt"></span><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
@@ -136,7 +143,12 @@ function head(h, at) {
 function card(c) {
   let h = gradientCard(c.palette);
   const tag = c.tag ? `<div class="tag">${esc(c.tag)}</div>` : '';
-  if (c.type === 'checklist') {
+  if (c.type === 'image') {
+    h += c.images.map((im, k) => {
+      const nxt = c.images[k + 1];
+      return `<div class="shot el" data-at="${im.at}" ${nxt ? `data-out="${nxt.at}"` : ''}><img src="${im.src}" data-kb="${im.at}" style="${im.maxw ? `max-width:${im.maxw}px;` : ''}"></div>`;
+    }).join('') + `<div class="src-tag">${esc(c.source || 'Real Lynkk UI · illustrative data · lynkk.ai')}</div>`;
+  } else if (c.type === 'checklist') {
     h += `<div class="win el" data-at="${c.at}" style="top:${c.top||190}px"><div class="bar"><div class="dots"><i></i><i></i><i></i></div>${esc(c.title)}</div><div class="pane">` +
       `<div class="t">${esc(c.subtitle)}</div>` +
       c.items.map(it => `<div class="row el" data-at="${it.at}"><span class="dot" data-on="${it.at}"></span><span>${esc(it.text)}</span>${it.chip ? `<span class="chip">${esc(it.chip)}</span>` : ''}</div>`).join('') +
@@ -182,6 +194,7 @@ function build(s) {
   let h = '';
   if (s.layout === 'split') {
     h = `<div class="left">${A(s.pillAt ?? 0, `<span class="pill">${esc(s.pill)}</span>`)}${head(s.head, s.headAt || [0, 1])}` +
+      (s.points ? `<div class="points">` + s.points.map((q, k) => `<div class="pt el" data-at="${q.at}"><span class="pn">${String(k + 1).padStart(2, '0')}</span><span>${esc(q.title)}${q.desc ? `<span class="pd">${esc(q.desc)}</span>` : ''}</span></div>`).join('') + `</div>` : '') +
       (s.body ? `<div class="body el" data-at="${s.bodyAt}">${esc(s.body)}</div>` : '') + `</div>` + card(s.card);
   } else if (s.layout === 'title') {
     h = `<div class="top">${A(s.pillAt ?? 0, `<span class="pill">${esc(s.pill)}</span>`)}${head(s.head, s.headAt || [0, 1])}</div><div class="extra" style="${s.extraTop ? `top:${s.extraTop}px` : ''}">`;
@@ -250,6 +263,10 @@ window.setTime = function (t) {
     const p = clamp((t - beat(e.dataset.clock) - 0.3) / +e.dataset.dur);
     const sec = Math.round(+e.dataset.from + p * (+e.dataset.to - +e.dataset.from));
     e.textContent = String(Math.floor(sec / 60)).padStart(2, '0') + ':' + String(sec % 60).padStart(2, '0');
+  });
+  n.querySelectorAll('img[data-kb]').forEach(im => {
+    const p = clamp((t - beat(im.dataset.kb)) / 14);
+    im.style.transform = `scale(${1 + 0.035 * p})`;
   });
   // slow drift on gradient blobs so cards feel alive
   n.querySelectorAll('.blob').forEach(b => {

@@ -5,7 +5,7 @@
 # and this script times the visuals to the real voice and mixes it in.
 set -euo pipefail
 cd "$(dirname "$0")/.."
-V="$1"; ID="$(basename "$V")"; OUT="out/$ID"; mkdir -p "$OUT/work"
+V="$1"; ID="$(basename "$V")"; OUT="../../brag-output/$ID"; mkdir -p "$OUT/work"
 BPM=96
 python3 tools/timeline.py "$V" --bpm $BPM
 DUR=$(python3 -c "import json;print(json.load(open('$V/timeline.json'))['duration'])")
@@ -30,4 +30,14 @@ else
   ffmpeg -v error -y -i "$OUT/work/video.mp4" -i "$OUT/work/music.wav" -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest "$OUT/$ID-draft-no-voice.mp4"
 fi
 cp "$V/captions.srt" "$OUT/$ID.srt"
+# brag deliverables: poster (strongest settled frame) baked in as frame 0, brag.jpg, share copy, plan
+FINAL=$(ls "$OUT"/$ID*.mp4 | head -1)
+PT=$(python3 -c "import json;tl=json.load(open('$V/timeline.json'));s=tl['scenes'][json.load(open('$V/scenes.json')).get('poster_scene',0)];print(f"{s['end']-0.6:.2f}")")
+node tools/render.mjs "$V" "$OUT/work/poster" --stills "$PT"
+ffmpeg -v error -y -i "$OUT/work/poster/still_${PT}.png" -q:v 2 "$OUT/brag.jpg"
+ffmpeg -v error -y -i "$FINAL" -i "$OUT/work/poster/still_${PT}.png" -filter_complex "[0:v][1:v]overlay=enable='eq(n,0)'[v]" -map "[v]" -map 0:a -c:v libx264 -crf 18 -preset medium -pix_fmt yuv420p -c:a copy "$OUT/work/with-poster.mp4"
+mv "$OUT/work/with-poster.mp4" "$FINAL"
+python3 -c "import json;print(json.load(open('$V/scenes.json'))['share_copy'])" > "$OUT/share-copy.txt"
+python3 tools/plan.py "$V" "$OUT/brag-plan.md"
+cp "$OUT/share-copy.txt" "$OUT/brag-plan.md" "$V/"
 echo "done: $OUT"

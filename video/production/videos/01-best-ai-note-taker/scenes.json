@@ -1,7 +1,7 @@
 {
   "id": "01-best-ai-note-taker",
   "title": "Best AI Note Taker 2026: 6 Tools Tested on One Sales Call",
-  "palette_note": "Fictional names (Sam Rivera, Priya, Northwind) are illustrative stand-ins, not real customers.",
+  "palette_note": "Product panels are real Lynkk UI captured from lynkk.ai (illustrative data, labeled on screen).",
   "scenes": [
     {
       "layout": "title",
@@ -60,7 +60,6 @@
       ]
     },
     {
-      "layout": "title",
       "next": "Summary quality",
       "pill": "Capture",
       "head": [
@@ -71,25 +70,6 @@
         0,
         1
       ],
-      "columns": [
-        {
-          "title": "Meeting bot",
-          "desc": "Joins as a participant. Otter, Fireflies and Fathom usually work this way.",
-          "at": 2
-        },
-        {
-          "title": "No bot",
-          "desc": "Records from your own computer, the way Granola does.",
-          "at": 5
-        },
-        {
-          "title": "In the room",
-          "desc": "For meetings that don't have a video link at all.",
-          "at": 7
-        }
-      ],
-      "body": "Lynkk does all three: a meeting bot, a Chrome extension or Mac app, and in-room recording.",
-      "bodyAt": 8,
       "vo": [
         "First, capture.",
         "There are three ways these tools get your audio.",
@@ -100,10 +80,43 @@
         "The tool records from your own computer, the way Granola does.",
         "Three: in the room, for meetings that don't have a video link at all.",
         "Lynkk covers all three: a meeting bot if you want one, a Chrome extension or Mac app if you don't, and in-room recording."
-      ]
+      ],
+      "layout": "split",
+      "points": [
+        {
+          "title": "Meeting bot",
+          "desc": "Otter, Fireflies and Fathom usually work this way.",
+          "at": 2
+        },
+        {
+          "title": "No bot",
+          "desc": "Records from your own computer, like Granola.",
+          "at": 5
+        },
+        {
+          "title": "In the room",
+          "desc": "For meetings with no video link at all.",
+          "at": 7
+        }
+      ],
+      "body": "Lynkk does all three.",
+      "bodyAt": 8,
+      "card": {
+        "type": "image",
+        "palette": "warm",
+        "images": [
+          {
+            "src": "assets/site/capture-top.png",
+            "at": 0
+          },
+          {
+            "src": "assets/site/capture-bottom.png",
+            "at": 5
+          }
+        ]
+      }
     },
     {
-      "layout": "split",
       "next": "Follow-ups and tasks",
       "pill": "Summary quality",
       "head": [
@@ -114,30 +127,6 @@
         1,
         2
       ],
-      "body": "Reviewers often single out Fireflies for summaries and action items.",
-      "bodyAt": 6,
-      "card": {
-        "type": "checklist",
-        "palette": "warm",
-        "at": 2,
-        "top": 210,
-        "title": "Summary check",
-        "subtitle": "Same discovery call. Did it catch:",
-        "items": [
-          {
-            "text": "The budget",
-            "at": 3
-          },
-          {
-            "text": "The decision maker",
-            "at": 4
-          },
-          {
-            "text": "The next step, with a date",
-            "at": 5
-          }
-        ]
-      },
       "vo": [
         "Summary quality.",
         "Every tool gave us a usable summary.",
@@ -146,7 +135,34 @@
         "The decision maker?",
         "The next step, with a date?",
         "Fireflies is the one reviewers usually single out for summaries and action items, so if a clean auto-summary is all you need, start there."
-      ]
+      ],
+      "body": "Reviewers often single out Fireflies for summaries and action items.",
+      "bodyAt": 6,
+      "layout": "split",
+      "points": [
+        {
+          "title": "The budget?",
+          "at": 3
+        },
+        {
+          "title": "The decision maker?",
+          "at": 4
+        },
+        {
+          "title": "The next step, with a date?",
+          "at": 5
+        }
+      ],
+      "card": {
+        "type": "image",
+        "palette": "lilac",
+        "images": [
+          {
+            "src": "assets/site/workspace-main.png",
+            "at": 1
+          }
+        ]
+      }
     },
     {
       "layout": "split",
@@ -163,24 +179,17 @@
       "body": "Lynkk drafts it from the call. You review and send it.",
       "bodyAt": 4,
       "card": {
-        "type": "email",
+        "type": "image",
         "palette": "green",
-        "at": 3,
-        "sendAt": 4,
-        "tasksAt": 5,
-        "title": "Follow-up draft",
-        "to": "Sam Rivera",
-        "subject": "Next steps from today",
-        "text": "Hi Sam, thanks for today. You mentioned onboarding takes three weeks and you want it under one. Next step: security review with your IT lead, Thursday at 2.",
-        "tasks": [
-          [
-            "Send the security doc",
-            "Priya · Wed"
-          ],
-          [
-            "Book the IT review",
-            "Sam · Thu"
-          ]
+        "images": [
+          {
+            "src": "assets/site/email-summary-crop.png",
+            "at": 3
+          },
+          {
+            "src": "assets/site/tasks-crop.png",
+            "at": 5
+          }
         ]
       },
       "vo": [
@@ -207,35 +216,18 @@
       "body": "No CRM sync yet. Copy the brief into Salesforce or HubSpot.",
       "bodyAt": 4,
       "card": {
-        "type": "account",
+        "type": "image",
         "palette": "blue",
-        "at": 2,
-        "askAt": 3,
-        "tag": "Example",
-        "title": "Northwind · Account history",
-        "rows": [
+        "images": [
           {
-            "k": "Call 1",
-            "v": "Budget",
-            "chip": "$30K"
+            "src": "assets/site/account-memory.png",
+            "at": 2
           },
           {
-            "k": "Call 3",
-            "v": "Budget",
-            "chip": "$50K"
-          },
-          {
-            "k": "Stakeholders",
-            "v": "CFO joined on call 3"
-          },
-          {
-            "k": "Objection",
-            "v": "Security review first"
+            "src": "assets/site/ask-lynkk.png",
+            "at": 3
           }
-        ],
-        "ask": "What did the CFO say about pricing?",
-        "answer": "Asked for annual pricing before the pilot.",
-        "source": "Source: Call 3 · 12:40"
+        ]
       },
       "vo": [
         "Memory across calls.",
@@ -415,5 +407,21 @@
         "Next, watch our video on the best free AI note takers. It's on screen now."
       ]
     }
-  ]
+  ],
+  "poster_scene": 4,
+  "share_copy": "We ran one sales call through six AI note takers: Otter, Fireflies, Fathom, Granola, Read AI and Lynkk. Every summary looked fine; the difference was what happened next. Here's which one fits which kind of work, including where we'd pick someone else.",
+  "plan": {
+    "what": "A four-minute YouTube comparison of six AI note takers, made by Lynkk for its own channel.",
+    "who": "Sales reps, founders and small sales teams choosing a note taker; it helps them pick by what happens after the call.",
+    "angle": "Every summary looks fine. The real difference is what happens next: follow-up, tasks and memory across calls.",
+    "hook": "\"We ran the same sales call through six AI note takers\" over the six tool names landing one by one (first 2 seconds: pill + headline).",
+    "highlights": [
+      "Real Lynkk Capture panel: meeting bot, Mac app, Chrome extension, in the room",
+      "Real Email summary and Tasks Kanban from lynkk.ai as the follow-up proof",
+      "Real Ask Lynkk answer with sources: budget moved from $30K to $50K"
+    ],
+    "punchline": "Six tools. One question: what happens to your notes next? Start free at lynkk.ai.",
+    "tone": "polished (serious, restrained, long holds, soft fades), adapted to long-form",
+    "caption": "Six AI note takers, one sales call: here's which one fits which job."
+  }
 }

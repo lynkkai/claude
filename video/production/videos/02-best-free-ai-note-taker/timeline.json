@@ -303,7 +303,6 @@
    ]
   },
   {
-   "layout": "title",
    "next": "Start free",
    "pill": "When to pay",
    "head": [
@@ -314,7 +313,10 @@
     0,
     1
    ],
-   "columns": [
+   "body": "None of these? Stay free. Use one plan every day for two weeks first.",
+   "bodyAt": 6,
+   "layout": "split",
+   "points": [
     {
      "title": "Capped by mid-month",
      "desc": "You hit your limit before the month is half over.",
@@ -331,8 +333,16 @@
      "at": 4
     }
    ],
-   "body": "None of these? Stay free. Use one plan every day for two weeks first.",
-   "bodyAt": 6,
+   "card": {
+    "type": "image",
+    "palette": "lilac",
+    "images": [
+     {
+      "src": "assets/site/ask-lynkk.png",
+      "at": 1
+     }
+    ]
+   },
    "start": 145.0,
    "end": 176.875,
    "beats": [
