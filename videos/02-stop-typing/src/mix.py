@@ -85,7 +85,11 @@ def main():
         env = np.clip(env / (env.max() * 0.2 + 1e-9), 0, 1)
         tail = np.convolve(env, np.ones(SR // 4) / (SR // 4), mode="full")[:n]  # trailing average = release
         duck = 1 - 0.75 * np.clip(np.maximum(env, tail), 0, 1)
-        mix = music * duck[:, None] + sfx + vo * 1.5
+        # set the voice ~11 dB over the ducked bed while it speaks, whatever the source level
+        bed = music * duck[:, None] + sfx
+        talk = env > 0.5
+        rms = lambda x: np.sqrt((x[talk] ** 2).mean()) + 1e-9
+        mix = bed + vo * (rms(bed) * 10 ** (11 / 20) / rms(vo))
 
     mix /= max(1e-9, np.abs(mix).max() / 0.89)
     WORK.mkdir(exist_ok=True)

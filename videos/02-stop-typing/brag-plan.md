@@ -51,10 +51,10 @@ then goes quiet the moment Lynkk takes over the notes. Silence becomes the produ
 
 ## VO
 
-Scratch VO from Piper TTS (`en_US-lessac-high`, natural speed; every line fit its slot without speeding up).
-Measured timing lives in `src/vo_timing.json` and drives captions, tab clicks, the question counter and the
-pain chip. Replace it with a real US read before publishing (see README). Burned-in captions stay on regardless,
-since most shorts are watched muted.
+Scratch VO from Kokoro TTS, voice `am_fenrir` at speed 1.1: the same voice as the earlier Lynkk short
+(`brag-male.mp4`, verified by matching its audio). Every line fits its slot at that speed. Measured timing lives in
+`src/vo_timing.json` and drives captions, tab clicks, the question counter and the pain chip.
+Burned-in captions stay on regardless, since most shorts are watched muted.
 
 ## Safe zones
 
