@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;background:#121212;font-family:Inter,sans-serif;color:#fff;overflow:hidden}
+.bg{position:absolute;inset:0;background-image:radial-gradient(#2a2a2a 1.4px,transparent 1.6px);background-size:22px 22px}
+.rail{position:absolute;top:0;bottom:0;width:1px;background:#2b2b30}
+.glow{position:absolute;left:50%;top:960px;width:1100px;height:900px;transform:translate(-50%,-50%);background:radial-gradient(closest-side,rgba(120,100,255,.10),transparent)}
+.wrap{position:absolute;left:84px;right:84px;top:306px}
+.pill{display:inline-block;background:#26214a;color:#b9b1ff;font-size:34px;font-weight:500;padding:14px 32px;border-radius:40px}
+h1{font-family:'Inter Display',Inter;font-weight:600;font-size:118px;line-height:.98;letter-spacing:-3.5px;margin-top:36px}
+h1 .g{color:#8b8b8b}
+.card{margin-top:0;border:1.5px solid #2c2c30;border-radius:26px;background:#181818}
+.bar{display:flex;align-items:center;gap:12px;padding:26px 30px;border-bottom:1.5px solid #2c2c30;color:#9a9a9a;font-size:28px}
+.dot{width:16px;height:16px;border-radius:50%;background:#3a3a3e}
+.row{display:flex;align-items:center;padding:24px 30px;font-size:30px;color:#9a9a9a}
+.tag{margin-left:180px;background:#26301f;color:#c9e3a0;font-weight:600;padding:10px 24px;border-radius:30px}
+.gap{display:flex;align-items:center;gap:22px;margin:18px 0;color:#ff7a6e;font-size:34px;font-weight:600}
+.gap i{flex:1;border-top:2.5px dashed #a83a33}
+.rec{width:18px;height:18px;border-radius:50%;background:#ff3b30;box-shadow:0 0 0 6px rgba(255,59,48,.18)}
+.quote{padding:28px 30px 34px;font-size:54px;font-weight:500;letter-spacing:-1px}
+.quote u{text-decoration:none;background:linear-gradient(transparent 58%,#8a2620 58%,#8a2620 92%,transparent 92%)}
+.cards{margin-top:46px}
+.brand{margin-top:44px;display:flex;flex-direction:column;align-items:center;gap:16px}
+.brand img{height:84px}
+.brand p{font-size:40px;font-weight:600;letter-spacing:-.5px}
+.brand p span{color:#8b8b8b;font-weight:500}
+</style></head><body>
+<div class="bg"></div><div class="glow"></div>
+<div class="rail" style="left:44px"></div><div class="rail" style="right:44px"></div>
+<div class="wrap">
+  <span class="pill">AI Sales Assistant</span>
+  <h1>Your records<br>say yes.<br><span class="g">Your customer<br>said no.</span></h1>
+  <div class="cards">
+    <div class="card">
+      <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>&nbsp;Your CRM</div>
+      <div class="row">Status <span class="tag">Looking good</span></div>
+    </div>
+    <div class="gap"><i></i>The gap<i></i></div>
+    <div class="card">
+      <div class="bar"><span class="rec"></span>&nbsp;The call · Oct 20 · 18:42</div>
+      <div class="quote">"Our <u>budget is on hold</u> for now."</div>
+    </div>
+  </div>
+<div class="brand"><img src="logo_white.png"><p>No more surprises. <span>lynkk.ai</span></p></div>
+</div>
+</body></html>
