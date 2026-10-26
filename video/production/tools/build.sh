@@ -32,7 +32,7 @@ fi
 cp "$V/captions.srt" "$OUT/$ID.srt"
 # brag deliverables: poster (strongest settled frame) baked in as frame 0, brag.jpg, share copy, plan
 FINAL=$(ls "$OUT"/$ID*.mp4 | head -1)
-PT=$(python3 -c "import json;tl=json.load(open('$V/timeline.json'));s=tl['scenes'][json.load(open('$V/scenes.json')).get('poster_scene',0)];print(f"{s['end']-0.6:.2f}")")
+PT=$(python3 tools/poster_time.py "$V")
 node tools/render.mjs "$V" "$OUT/work/poster" --stills "$PT"
 ffmpeg -v error -y -i "$OUT/work/poster/still_${PT}.png" -q:v 2 "$OUT/brag.jpg"
 ffmpeg -v error -y -i "$FINAL" -i "$OUT/work/poster/still_${PT}.png" -filter_complex "[0:v][1:v]overlay=enable='eq(n,0)'[v]" -map "[v]" -map 0:a -c:v libx264 -crf 18 -preset medium -pix_fmt yuv420p -c:a copy "$OUT/work/with-poster.mp4"
