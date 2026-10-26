@@ -16,7 +16,7 @@
 
 ## 1. Best AI Note Taker 2026: 6 Tools Tested on One Sales Call
 
-**Working title:** What's the Best AI Note Taker in 2026? I Tested 6 on the Same Sales Call  
+**Working title:** What's the Best AI Note Taker in 2026? We Tested 6 on the Same Sales Call  
 **Primary keyword:** best ai note taker  
 **End screen:** #2: Best Free AI Note Taker in 2026: What You Actually Get Without Paying
 
@@ -35,9 +35,9 @@ Recommended: #1
 ```
 What's the best AI note taker in 2026? We ran one real sales call through Otter, Fireflies, Fathom, Granola, Read AI and Lynkk, and scored capture, summaries, follow-up, memory and price.
 
-You'll see how bot, bot-free and in-room capture differ, which free plans hold up, and which tool fits which kind of work. Lynkk made this video, so we show our scoring and say where another tool is the better pick.
+You'll see how bot, bot-free and in-room capture differ, which free plans hold up, and which tool fits which kind of work. We make Lynkk, so we show our scoring and say where another tool is the better pick.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - What's the best AI note taker in 2026?
@@ -93,7 +93,7 @@ EMOTION: Curiosity
 
 **Working title:** Best Free AI Note Taker in 2026: What You Actually Get Without Paying  
 **Primary keyword:** free ai note taker  
-**End screen:** #1: What's the Best AI Note Taker in 2026? I Tested 6 on the Same Sales Call
+**End screen:** #1: What's the Best AI Note Taker in 2026? We Tested 6 on the Same Sales Call
 
 **Title options**
 
@@ -110,9 +110,9 @@ Recommended: #1
 ```
 Looking for the best free AI note taker in 2026? Free plans limit you in three ways: monthly minutes, meeting length or count, and AI summaries. Here's how to pick one you won't outgrow.
 
-We compare free plans side by side, including Otter, Fathom, Granola and Lynkk, and show the three signs it's time to pay. Lynkk made this video, and our own free plan is in the same table.
+We compare free plans side by side, including Otter, Fathom, Granola and Lynkk, and show the three signs it's time to pay. We make Lynkk, and our own free plan is in the same table.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - Is there a free AI note taker with no time limit?
@@ -326,9 +326,9 @@ Recommended: #1
 ```
 Looking for a Microsoft Teams AI note taker? Teams has Copilot, depending on your license. Here's what built-in notes cover, where they fall short, and when to add a third-party note taker.
 
-We demo Lynkk on a Teams call, compare costs, and answer the 'AI note taker for my team' question too. Lynkk made this video, and we show when Copilot is all you need.
+We demo Lynkk on a Teams call, compare costs, and answer the 'AI note taker for my team' question too. We make Lynkk, and we show when Copilot is all you need.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - What's the best AI note taker for Microsoft Teams?
@@ -400,9 +400,9 @@ Recommended: #1
 ```
 Google Meet can take notes for you with Gemini on eligible Workspace plans. Here's what the built-in Google Meet AI note taker does, what it misses, and when a dedicated note taker is worth it.
 
-We demo a no-bot Chrome extension option with Lynkk, connect Google Calendar, and help you choose. Lynkk made this video, and we start with what Google gives you for free.
+We demo a no-bot Chrome extension option with Lynkk, connect Google Calendar, and help you choose. We make Lynkk, and we start with what Google gives you for free.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - Does Google Meet have a built-in note taker?
@@ -474,9 +474,9 @@ Recommended: #1
 ```
 There are three ways to add an AI note taker to Zoom: Zoom AI Companion, a meeting bot, or no-bot capture from your own computer. Here's how to set up each one and which to pick.
 
-We walk through all three options, the trade-offs for hosts and guests, and calendar setup so you stop forgetting to record. Lynkk made this video and covers when Zoom's own AI is enough.
+We walk through all three options, the trade-offs for hosts and guests, and calendar setup so you stop forgetting to record. We make Lynkk, and we cover when Zoom's own AI is enough.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - How do I add an AI note taker to Zoom?
@@ -548,9 +548,9 @@ Recommended: #1
 ```
 The best conversation intelligence platform for a small sales team captures every call, remembers each account and helps you follow up fast. Here are the five must-haves and how to pick.
 
-We compare enterprise and lightweight tools, demo account memory and asking across calls in Lynkk, and cover pricing. Lynkk is built for small teams, so we also flag what we don't do yet.
+We compare enterprise and lightweight tools, demo account memory and asking across calls in Lynkk, and cover pricing. We built Lynkk for small teams, so we also flag what we don't do yet.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - What's the best conversation intelligence tool for a small sales team?
@@ -836,9 +836,9 @@ Recommended: #1
 ```
 Looking for an Otter.ai alternative? Most people switch for one of three reasons: free plan limits, sales follow-through or not wanting a bot. Here's the right alternative for each.
 
-We compare Fathom, Fireflies, Granola and Lynkk, cover multilingual calls, and share how to switch without migrating everything. Lynkk made this video and says where others fit better.
+We compare Fathom, Fireflies, Granola and Lynkk, cover multilingual calls, and share how to switch without migrating everything. We make Lynkk, and we say where others fit better.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - What are the best alternatives to Otter.ai?
@@ -911,9 +911,9 @@ Recommended: #1
 ```
 Fireflies vs Otter vs Fathom: all three record, transcribe and summarize, so the real differences are in capture, summaries, free plans and team features. Here's how to choose.
 
-We go through all four differences and give a verdict by use case. Lynkk made this video and isn't in the three-way race, but we cover a fourth option for sales teams at the end.
+We go through all four differences and give a verdict by use case. We make Lynkk, which isn't in this three-way race, but we cover a fourth option for sales teams at the end.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - Fireflies or Otter: which is better?
@@ -986,9 +986,9 @@ Recommended: #1
 ```
 Looking for a Granola alternative? Granola is great for personal notes, but teams need shared account memory and follow-through. Here's when to switch and when to stay.
 
-We cover what Granola does well, where solo notes hit a wall, team memory and follow-ups in Lynkk, and pricing. Lynkk made this video.
+We cover what Granola does well, where solo notes hit a wall, team memory and follow-ups in Lynkk, and pricing. We make Lynkk.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - What are alternatives to Granola for teams?
@@ -1060,9 +1060,9 @@ Recommended: #1
 ```
 Looking for a Gong alternative for a small sales team? Here's the 20% of conversation intelligence that does 80% of the work, what you give up with a lightweight tool, and how pricing compares.
 
-We demo deal memory and coaching with questions across the workspace in Lynkk, and spell out what Lynkk doesn't do yet. Lynkk made this video.
+We demo deal memory and coaching with questions across the workspace in Lynkk, and spell out what Lynkk doesn't do yet. We make Lynkk.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - What's a cheaper alternative to Gong for startups?
@@ -1134,9 +1134,9 @@ Recommended: #2
 ```
 Zoom AI Companion is Zoom's built-in AI assistant on paid plans. Here's how to turn it on, how to turn it off, where meeting summaries go, and when you'd want something else.
 
-We walk through the settings, explain host control, cover the limits for guests and in-person meetings, and show cross-platform alternatives. Lynkk made this video.
+We walk through the settings, explain host control, cover the limits for guests and in-person meetings, and show cross-platform alternatives. We make Lynkk.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - What is Zoom AI Companion?
@@ -1209,9 +1209,9 @@ Recommended: #1
 ```
 Does Teams have an AI note taker? Yes, and so do Google Meet and Zoom. Each one comes with a catch, usually your plan or license. Here's the short answer, then the details.
 
-We cover Teams Copilot, Google Meet with Gemini and Zoom AI Companion, what none of them do, and when a third-party note taker makes sense. Lynkk made this video.
+We cover Teams Copilot, Google Meet with Gemini and Zoom AI Companion, what none of them do, and when a third-party note taker makes sense. We make Lynkk.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - Does Microsoft Teams have an AI note taker?
@@ -1284,9 +1284,9 @@ Recommended: #1
 ```
 A wearable AI note taker like Plaud or Pocket records all day, but so can the phone or laptop you already own. Here's when AI note-taking hardware is worth it and when an app is enough.
 
-We compare costs, charging and consent, demo app-based in-room recording with Lynkk, and help you decide. Lynkk makes software, not hardware, and we give devices their due.
+We compare costs, charging and consent, demo app-based in-room recording with Lynkk, and help you decide. We make software, not hardware, and we give devices their due.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - Is Plaud worth it?
@@ -1358,9 +1358,9 @@ Recommended: #1
 ```
 Can ChatGPT take meeting minutes? Yes, if you paste in a transcript. Here's where that workflow breaks, why memory across meetings matters, and when a dedicated AI note taker is worth it.
 
-We cover capture, speaker labels and context, answers with sources in Lynkk, and connecting meeting notes to your AI tools with MCP. Lynkk made this video.
+We cover capture, speaker labels and context, answers with sources in Lynkk, and connecting meeting notes to your AI tools with MCP. We make Lynkk.
 
-Disclosure: Lynkk makes one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
+Disclosure: we make Lynkk, one of the tools in this video. Pricing and features were checked on [FILMING DATE]; links below.
 
 Questions this video answers:
 - Can ChatGPT take meeting minutes?
@@ -1862,7 +1862,7 @@ Recommended: #1
 ```
 Are AI note takers safe? Your meetings hold pricing, roadmaps and names. Here are seven privacy questions to ask any AI note taker before you hit record, and where to find the answers.
 
-We cover data storage, access, training, deletion, visibility, auto-sending and security reviews, including where to find Lynkk's answers.
+We cover data storage, access, training, deletion, visibility, auto-sending and security reviews, including where to find our answers for Lynkk.
 
 Questions this video answers:
 - Are AI note takers safe?
@@ -1918,7 +1918,7 @@ EMOTION: Caution
 
 **Working title:** How Do AI Note Takers Work? Transcription, Speaker Labels and Summaries Explained  
 **Primary keyword:** how does ai note taker work  
-**End screen:** #1: What's the Best AI Note Taker in 2026? I Tested 6 on the Same Sales Call
+**End screen:** #1: What's the Best AI Note Taker in 2026? We Tested 6 on the Same Sales Call
 
 **Title options**
 

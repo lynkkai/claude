@@ -2,7 +2,8 @@
 
 > Built 2026-10-26 from live copy on https://lynkk.ai/ (home page, pricing, FAQ).
 > Voice: US English, casual, second person, contractions, short punchy lines.
-> Format: vertical 9:16 (Reels, TikTok, YouTube Shorts, LinkedIn). Target 45-55 seconds total: 60-100 spoken words plus demo footage and an end card.
+> Channel: posted as YouTube Shorts on the Lynkk channel, https://www.youtube.com/channel/UCeOhV4DzYQ7yLEZ2VgIKfkA (can be reshared to Reels, TikTok and LinkedIn).
+> Format: vertical 9:16. Target 45-55 seconds total: 60-100 spoken words plus demo footage and an end card.
 > Every script follows the same frame: **Hook (0-3s) > Issue (3-12s) > Fix with Lynkk (12-45s) > CTA (45-55s).**
 
 ## Pillar
@@ -76,9 +77,9 @@
   > Or send the summary to everyone on the call, straight from the note.
   > Either way, you hit send. Not the AI. You.
   > Follow up in five minutes. Not three days.
-  > Try Lynkk free at lynkk.ai.
+  > Try Lynkk free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Follow up in 5 minutes. Not 3 days." / "You review. You send."
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 2. Stop Typing During Discovery Calls
 - **Feature:** Meeting notes (summary, decisions, action items, transcript with speaker labels)
@@ -94,9 +95,9 @@
   > Lynkk takes the notes for you. Every call gets a summary, the decisions, the action items, and a full transcript with speaker labels, so you know exactly who said what.
   > That means you can actually ask the second question. And the third. The ones that uncover real pain.
   > Be present, not preoccupied.
-  > Get Lynkk free at lynkk.ai.
+  > Get Lynkk free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Present, not preoccupied." / Summary, Decisions, Action items, Transcript
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 3. The Recap Email Nobody Sends
 - **Feature:** Email summaries (sent after you confirm recipients)
@@ -112,9 +113,9 @@
   > Lynkk fixes that. When the meeting ends, you've got a structured summary. Confirm the recipients, and Lynkk emails it to everyone who was there.
   > Same decisions. Same next steps. Same page.
   > It takes about ten seconds, and it saves you a week of "wait, I thought we said..."
-  > Try it free at lynkk.ai.
+  > Try it free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Confirm recipients > Send" / "Same page. Every time."
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 4. One Summary Format Doesn't Fit All
 - **Feature:** Summary shapes: Sales Call, General Meeting, Customer Interview
@@ -129,9 +130,9 @@
   > A sales call needs budget, stakeholders, and objections. A customer interview needs pain points and quotes. A general meeting needs decisions and owners. One generic summary misses all of it.
   > Lynkk gives you summary shapes. Pick Sales Call, General Meeting, or Customer Interview, and the note comes back with the sections that actually matter for that conversation.
   > Less scrolling. More signal.
-  > Try Lynkk free at lynkk.ai.
+  > Try Lynkk free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** Side-by-side of three summary shapes
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 5. AI That Emails Your Client Without Asking? Nope.
 - **Feature:** Follow-up drafts with human review
@@ -147,9 +148,9 @@
   > Lynkk takes a different approach. It drafts the follow-up using the context of the actual conversation. Then it waits for you.
   > You read it, tweak it, and you send it. Lynkk will never send a follow-up without your review.
   > All the speed of AI. None of the "who sent that?" moments.
-  > Start free at lynkk.ai.
+  > Start free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Lynkk drafts. You decide."
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ---
 
@@ -169,9 +170,9 @@
   > Lynkk keeps account memory. Every call with the same account lands in one history: budget, stakeholders, objections, all tracked over time.
   > Open the account, skim it in a minute, and you walk in knowing exactly where you left off.
   > Walk in warm.
-  > Try Lynkk free at lynkk.ai.
+  > Try Lynkk free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Walk in warm." / Budget, Stakeholders, Objections
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 7. The Budget Changed and Nobody Noticed
 - **Feature:** Account memory tracking changes over time
@@ -186,9 +187,9 @@
   > It happens all the time. The buyer mentions it once, on call number three, and it never makes it into anyone's notes.
   > Lynkk remembers. Every call with the account adds to one running history, so when the budget moves, a new stakeholder shows up, or an old objection comes back, you see it.
   > Context that compounds. It gets richer with every call.
-  > Don't leave money in the transcript. Try Lynkk free at lynkk.ai.
+  > Don't leave money in the transcript. Try Lynkk free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "$30K > $50K" (labeled as example) / "Context that compounds."
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 8. "What Did the CFO Say About Pricing?"
 - **Feature:** Ask Lynkk (Pro): answers across calls with sources
@@ -203,9 +204,9 @@
   > If the answer is "let me rewatch a 47-minute recording," there's a better way.
   > With Ask Lynkk, you just ask. In plain English. It searches across all your calls and gives you the answer, with the source, so you can see exactly where it came from.
   > No guessing. No hallucinated quotes. Just receipts.
-  > Ask Lynkk is part of Lynkk Pro. Start free at lynkk.ai.
+  > Ask Lynkk is part of Lynkk Pro. Start free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** Typed question, answer with source chip
-- **CTA:** Start free, upgrade to Pro at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free, upgrade to Pro at lynkk.ai
 
 ### 9. Ask Your Meetings From Slack
 - **Feature:** Ask Lynkk in Slack
@@ -220,9 +221,9 @@
   > You know the thread: "Hey, did they agree to the timeline?" Then you wait. And wait.
   > With Lynkk, you ask your meetings directly, right in Slack. Ask Lynkk pulls the answer from the actual conversation and shows you the source.
   > Your teammate gets their afternoon back. You get your answer in seconds.
-  > Ask Lynkk is on the Pro plan. Try Lynkk free at lynkk.ai.
+  > Ask Lynkk is on the Pro plan. Try Lynkk free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** Slack message > sourced answer
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 10. What Are Customers Objecting To This Quarter?
 - **Feature:** Workspace admin Q&A across all notes
@@ -237,9 +238,9 @@
   > Right now, you probably learn what customers are pushing back on in a pipeline review. Secondhand. Weeks late.
   > With Lynkk, workspace admins can ask questions across all the notes in the workspace. "What objections came up most this month?" "Which deals mentioned a competitor?"
   > You get answers from real conversations, not hunches.
-  > Coach faster. Forecast smarter. See it at lynkk.ai.
+  > Coach faster. Forecast smarter. See it at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Ask across every call in your workspace"
-- **CTA:** Book a look at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; book a look at lynkk.ai
 
 ### 11. Why Your CRM Is Always Empty
 - **Feature:** Copy-ready briefs for Salesforce or HubSpot (no native CRM sync yet)
@@ -254,9 +255,9 @@
   > After a 45-minute call, nobody wants to rebuild it field by field.
   > Lynkk does the hard part. Every call becomes a tight brief: the summary, decisions, next steps, plus the budget, stakeholders, and objections Lynkk's been tracking on that account.
   > Copy it, paste it into Salesforce or HubSpot, done. Thirty seconds instead of fifteen minutes.
-  > Clean CRM. Happy RevOps. Start free at lynkk.ai.
+  > Clean CRM. Happy RevOps. Start free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Copy > Paste into your CRM"
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 - **Note:** Do not say "syncs" or "auto-updates your CRM." The site says CRM sync is "Not yet."
 
 ---
@@ -277,9 +278,9 @@
   > With Lynkk, you don't need a bot at all. Use the Chrome extension or the Mac app, and Lynkk captures the conversation from your side.
   > Same notes, same summary, same action items. Just no extra guest in the room.
   > And if you do want a bot, that's an option too. Your call.
-  > Try Lynkk free at lynkk.ai.
+  > Try Lynkk free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "No bot. Still notes."
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 - **Note:** Remind viewers to tell attendees they're recording (see production notes).
 
 ### 13. Your Best Meeting Happened In Person
@@ -295,9 +296,9 @@
   > It happened over coffee. In a conference room. On a site visit. And most AI notetakers can't help you there.
   > Lynkk can. Hit record in the room, and you get the same thing you'd get from a video call: summary, decisions, action items, and a full transcript with who said what.
   > Online or in person, every conversation counts.
-  > Make it count with Lynkk. Free at lynkk.ai.
+  > Make it count with Lynkk. Free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Online or in person."
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 14. The Wi-Fi Died Mid-Meeting
 - **Feature:** Offline recording
@@ -312,9 +313,9 @@
   > Hotel lobbies. Trade show floors. Client offices with guest Wi-Fi from 2009. If your notetaker needs a connection, that's a lost conversation.
   > Lynkk records offline. No signal, no problem. You keep capturing, and when you're back online, you get your notes.
   > Because the important stuff doesn't wait for a good connection.
-  > Try Lynkk free at lynkk.ai.
+  > Try Lynkk free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "No signal? Still recording."
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 15. Not Every Call Happens on Zoom
 - **Feature:** Mac app support for Webex, WhatsApp, FaceTime
@@ -329,9 +330,9 @@
   > Most tools stop at Zoom, Meet, and Teams. But real business happens everywhere: a quick FaceTime, a WhatsApp call, a Webex with that one enterprise client.
   > The Lynkk Mac app covers those too. Webex, WhatsApp, FaceTime. Same summary, same action items, same searchable history.
   > Wherever the call happens, Lynkk's got it.
-  > Download the Mac app at lynkk.ai.
+  > Download the Mac app at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** Logos row: Webex, WhatsApp, FaceTime ("Mac app")
-- **CTA:** Get the Mac app at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; get the Mac app at lynkk.ai
 
 ### 16. Zoom, Meet, Teams: One Notetaker
 - **Feature:** Works with Zoom, Google Meet, Microsoft Teams
@@ -346,9 +347,9 @@
   > And your notes? Scattered across three apps and a sticky note.
   > Lynkk works with Zoom, Google Meet, and Microsoft Teams. Every call, from every platform, lands in one place, grouped by account, fully searchable.
   > One notetaker. Every platform. Nothing slips through.
-  > Start free at lynkk.ai.
+  > Start free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Nothing slips through."
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 17. A Free AI Note Taker That Doesn't Quit at 30 Minutes
 - **Feature:** Free plan: unlimited notes up to 2 hours each + first 5 hours of AI summaries, no credit card
@@ -364,9 +365,9 @@
   > Lynkk's free plan gives you unlimited notes, up to two hours each, plus your first five hours of AI summaries. No credit card.
   > Want unlimited AI summaries? Pro is fifteen bucks a month, or $9.75 a month billed yearly.
   > Big context. Small commitment.
-  > Start free at lynkk.ai.
+  > Start free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Free: unlimited notes up to 2 hrs" / "Pro: $15/mo"
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 - **Note:** Re-check pricing on the site right before publishing.
 
 ---
@@ -386,9 +387,9 @@
   > Every rep has been there. You know the answer. You just can't find it in the moment.
   > Meet Cue, Lynkk's live helper for Mac. It sits in its own panel on your screen. Hit Command Return, and Cue gives you help right then, in Sales mode, tuned for calls like this one.
   > Not a script. Just the nudge you need to get back on track.
-  > Cue is in beta, by invite. Request access at lynkk.ai.
+  > Cue is in beta, by invite. Request access at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** Keycap graphic "⌘ + Return" / "Cue (beta)"
-- **CTA:** Request Cue access at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; request Cue access at lynkk.ai
 
 ### 19. The Customer Asked Something You Don't Know
 - **Feature:** Cue Support mode
@@ -403,9 +404,9 @@
   > On support calls, every "let me get back to you" costs trust. And putting someone on hold to search the docs? Brutal.
   > Cue, from Lynkk, has a Support mode. It listens when you tell it to, and gives you help right on your screen while you keep talking.
   > Stay on the call. Stay calm. Sound like the expert.
-  > Cue is in beta for Mac, by invite. Request access at lynkk.ai.
+  > Cue is in beta for Mac, by invite. Request access at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Support mode"
-- **CTA:** Request Cue access at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; request Cue access at lynkk.ai
 
 ### 20. Interview Day Nerves
 - **Feature:** Cue Interview prep mode
@@ -420,9 +421,9 @@
   > So every candidate gets the same generic questions, and you learn nothing new.
   > Cue, Lynkk's live helper for Mac, has an Interview prep mode. Use it to get ready, and keep it handy in its own panel so you can ask better follow-ups.
   > Then Lynkk takes the notes, so you can actually focus on the person in front of you.
-  > Cue is in beta, by invite. Request access at lynkk.ai.
+  > Cue is in beta, by invite. Request access at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Interview prep mode"
-- **CTA:** Request Cue access at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; request Cue access at lynkk.ai
 
 ### 21. Can the Customer See My AI?
 - **Feature:** Cue transparency: visible in screen shares, only text leaves the Mac
@@ -438,9 +439,9 @@
   > Cue works differently. It's a separate panel, not part of the call. If you share your screen, it shows. Simple.
   > Only text leaves your Mac, never a picture. And nothing is saved unless you choose.
   > Helpful, not sneaky.
-  > Learn more at lynkk.ai.
+  > Learn more at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Never hidden from a screen share." / "Only text leaves your Mac."
-- **CTA:** Learn more at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; learn more at lynkk.ai
 
 ### 22. Your Meeting Copilot, Your Rules
 - **Feature:** Cue custom modes + keyboard shortcuts
@@ -456,9 +457,9 @@
   > That's it. No clicking around while someone's talking.
   > And Cue isn't stuck with one personality. Use Sales, Support, or Interview prep mode, or build your own custom mode for the calls you actually run.
   > Your copilot. Your rules.
-  > Cue is in beta for Mac, by invite. Request access at lynkk.ai.
+  > Cue is in beta for Mac, by invite. Request access at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** Keycaps: "⌘ Return", "⌘ \", "⌘ Shift \"
-- **CTA:** Request Cue access at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; request Cue access at lynkk.ai
 
 ---
 
@@ -478,9 +479,9 @@
   > Lynkk pulls the action items out of every meeting and turns them into real tasks, with an owner and a due date.
   > See them all on a Kanban board, and track what actually got done.
   > Meetings that end in action, not "wait, who had that?"
-  > Try Lynkk free at lynkk.ai.
+  > Try Lynkk free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** Kanban board animation / "Owner. Due date. Done."
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 24. From Meeting to Jira Ticket
 - **Feature:** Jira integration
@@ -495,9 +496,9 @@
   > Product reviews, customer calls, sprint planning: tons of real work gets discussed, and then someone has to manually turn it into tickets. Spoiler: they don't.
   > Lynkk integrates with Jira. Action items from your meeting come out with context attached, ready for your backlog.
   > Less copy-paste. Fewer "did anyone file that?" moments.
-  > Connect Jira and try Lynkk free at lynkk.ai.
+  > Connect Jira and try Lynkk free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Meeting > Task > Jira"
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 - **Note:** Confirm the exact Jira flow (auto-create vs one-click push) with product before filming.
 
 ### 25. Standups That Actually Move Work
@@ -513,9 +514,9 @@
   > Blockers get mentioned, everyone nods, and by tomorrow the same blocker shows up again.
   > Let Lynkk sit in. You get a quick summary, the decisions, and action items with owners. Missed standup? Read it in 30 seconds.
   > Same meeting. Way more follow-through.
-  > Try Lynkk free at lynkk.ai.
+  > Try Lynkk free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Missed standup? Read it in 30 seconds."
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 26. Forgot to Hit Record. Again.
 - **Feature:** Google Calendar and Outlook Calendar integration
@@ -530,9 +531,9 @@
   > When your calendar is wall-to-wall, remembering to start your notetaker is one more thing you'll drop.
   > Connect Lynkk to Google Calendar or Outlook Calendar, and it already knows your schedule. Your meetings show up in Lynkk, ready to capture.
   > Less setup. Fewer "oh no" moments.
-  > Connect your calendar at lynkk.ai.
+  > Connect your calendar at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Google Calendar / Outlook Calendar"
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 - **Note:** Confirm whether calendar connection triggers auto-join or just lists meetings, and adjust wording.
 
 ### 27. Connect Your Meetings to Anything with MCP
@@ -548,9 +549,9 @@
   > Every team has that one internal tool or niche app that never gets an official integration.
   > Lynkk supports MCP, the Model Context Protocol. Just add a custom MCP server by URL, and connect your meeting knowledge to the tools you actually use.
   > Your meetings, plugged into your stack. Your way.
-  > Check it out at lynkk.ai.
+  > Check it out at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "Add MCP server: https://..."
-- **CTA:** Learn more at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; learn more at lynkk.ai
 
 ---
 
@@ -569,9 +570,9 @@
   > If your team or your customers switch languages mid-call, you've seen the garbage transcripts.
   > Lynkk handles it. It supports 17 languages, including Hindi and Hinglish, even when they're mixed in the same conversation.
   > Clean notes. Real action items. No matter how you talk.
-  > Lynkk speaks your language. Try it free at lynkk.ai.
+  > Lynkk speaks your language. Try it free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "17 languages" / "Hindi + English, same call"
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 - **Note:** US voice VO, but consider a bilingual cut with a Hinglish speaker for India audiences.
 
 ### 29. 10 Customer Interviews, Zero Synthesis
@@ -588,9 +589,9 @@
   > With Lynkk, every interview comes back in the Customer Interview format, built for research. Then ask Lynkk across all ten: "What frustrates people most about onboarding?"
   > You get the answer, with sources pointing back to the exact calls.
   > Research synthesis in an afternoon, not a week.
-  > Start free at lynkk.ai. Ask Lynkk is on Pro.
+  > Start free at lynkk.ai. Ask Lynkk is on Pro. Subscribe to Lynkk for more.
 - **On-screen text:** "Customer Interview" summary / question across 10 calls
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 
 ### 30. Client Meetings for Realtors, Advisors and Lawyers
 - **Feature:** Meeting notes, account memory, in-person recording, follow-up drafts
@@ -605,9 +606,9 @@
   > Realtors, financial advisors, lawyers: your business runs on remembering the details. Must-haves. Risk tolerance. That one thing they mentioned once.
   > Lynkk captures every client conversation, at the office or on a call, and keeps one history per client. Before the next meeting, you're caught up in a minute. After it, your follow-up is already drafted, ready for your review.
   > Clients feel heard. You look sharp.
-  > Try Lynkk free at lynkk.ai.
+  > Try Lynkk free at lynkk.ai. Subscribe to Lynkk for more.
 - **On-screen text:** "One history per client."
-- **CTA:** Start free at lynkk.ai
+- **CTA:** Subscribe to Lynkk on YouTube; start free at lynkk.ai
 - **Note:** Don't make compliance claims (FINRA, privilege, HIPAA) without legal sign-off.
 
 ---

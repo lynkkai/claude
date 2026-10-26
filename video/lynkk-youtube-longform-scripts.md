@@ -7,12 +7,14 @@
 > Runtime: the voiceover runs about 2:00-4:00 at 150 words per minute. Screen demos, on-screen tables and pauses bring each cut to roughly 3-4.5 minutes, under the 5-minute cap. Set the final chapter timestamps from the edited video before uploading.
 > `[ON SCREEN: ...]` is a visual cue, not spoken. `[TEST RESULT]` and `[VERIFY]` must be filled in or checked on filming day.
 
-## 1. What's the Best AI Note Taker in 2026? I Tested 6 on the Same Sales Call
+## 1. What's the Best AI Note Taker in 2026? We Tested 6 on the Same Sales Call
 
 [0:00 Test setup and scoring]
-I ran the same sales call through six AI note takers and scored them on five things that matter after the call ends. The winner depends on one question: what do you do with your notes next?
+We ran the same sales call through six AI note takers and scored them on five things that matter after the call ends. The winner depends on one question: what do you do with your notes next?
 
 In the next few minutes: how each one captures your call, where the summaries actually differ, and at the end, exactly which tool I'd pick for which kind of work.
+
+In the next few minutes: how each one captures your call, where the summaries actually differ, and at the end, exactly which tool we'd pick for which kind of work.
 
 Welcome to the Lynkk channel. Quick disclosure: we make one of these six tools. So we'll show you our scoring, and we'll tell you where another tool is the better pick.
 
@@ -92,6 +94,8 @@ If this helped, subscribe to the Lynkk channel. And if you want to try ours, Lyn
 Most AI note takers need a Zoom link. Your best conversations don't have one. Here's how to get the same notes from a conference room, a coffee shop or a site visit.
 
 Coming up: which device to use, a live in-room demo, and at the end, the setup I'd pick for coffee meetings, team rooms and all-day workshops.
+
+Coming up: which device to use, a live in-room demo, and at the end, the setup we'd pick for coffee meetings, team rooms and all-day workshops.
 
 Welcome to the Lynkk channel. In-person is harder than video for three reasons. There's no clean audio feed, there are several voices in one room, and there's no "recording" banner telling everyone what's going on. So you need the right device, decent audio, and a quick heads-up to the room.
 
@@ -234,6 +238,8 @@ Lynkk's free plan covers notes up to two hours each, plus your first five hours 
 There are three ways to get AI notes from Zoom: Zoom's own AI, a bot that joins, or capture from your own computer. Each has a trade-off. Let's set up all three.
 
 We'll set up all three options, and at the end I'll tell you which one to pick based on whether you host or join.
+
+We'll set up all three options, and at the end we'll tell you which one to pick based on whether you host or join.
 
 Welcome to the Lynkk channel. We make one of the options here, so we'll be clear about when the others are the better choice.
 

@@ -61,7 +61,7 @@ High CPC on low-volume comparison terms ("gong alternative", "fireflies vs otter
 
 ## Buying intent (bottom of funnel)
 
-### 1. What's the Best AI Note Taker in 2026? I Tested 6 on the Same Sales Call
+### 1. What's the Best AI Note Taker in 2026? We Tested 6 on the Same Sales Call
 - **Priority:** P1
 - **Intent:** Buying
 - **Funnel stage:** Bottom
@@ -71,7 +71,7 @@ High CPC on low-volume comparison terms ("gong alternative", "fireflies vs otter
 - **US volume / SD / CPC:** 1,900 / 36 / $5.68
 - **Secondary keywords:** ai note taker (27,100), best ai note taker for meetings (260), what is the best ai note taker (170), best ai note taker app (140), ai note taker review (90)
 - **AI prompts to win:** "What's the best AI note taker in 2026?" / "Which AI note taker is best for sales calls?"
-- **Hook (first 15s):** "I ran the same sales call through six AI note takers and scored them on five things that matter after the call ends. The winner depends on one question: what do you do with your notes next?"
+- **Hook (first 15s):** "We ran the same sales call through six AI note takers and scored them on five things that matter after the call ends. The winner depends on one question: what do you do with your notes next?"
 - **Chapters:** 0:00 Test setup and scoring | 0:25 Capture: bot, no bot, in-room | 1:15 Summary quality on the same call | 2:05 Follow-ups and tasks | 2:55 Memory across calls | 3:40 Free plans and pricing | 4:15 Who should pick which
 - **Lynkk angle:** Account memory, Ask Lynkk with sources, follow-up drafts you review before sending. Say plainly that CRM sync isn't available yet.
 - **Notes:** Test Otter, Fireflies, Fathom, Granola, Read AI and Lynkk (all on Lynkk's own comparison list). Say on camera that Lynkk made the video. Check competitor pricing on filming day.
