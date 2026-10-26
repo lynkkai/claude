@@ -248,6 +248,13 @@ body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
 .btnrow{display:flex;gap:22px;align-items:center}
 .cta2{display:inline-flex;align-items:center;gap:16px;font-family:var(--display);font-size:42px;font-weight:500;background:var(--coal-2);color:#fff;border:2px solid var(--rule-night);padding:28px 48px;border-radius:12px}
 .cta2 svg{width:36px;height:36px;stroke:#fff;stroke-width:2.4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+
+.realwin{position:relative;border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 40px 90px #3a221466;line-height:0}
+.realwin.dark{background:#111}
+.realimg{display:block;width:100%;height:auto;object-fit:cover;object-position:left top}
+.realwin canvas{display:block;width:100%;height:auto}
+.rmask{position:absolute;left:12%;right:0;background:#fff}
+.ring{position:absolute;left:14%;right:2%;border:4px solid var(--violet);border-radius:14px;box-shadow:0 0 0 8px #7063be22}
 </style>
 </head>
 <body>
@@ -255,10 +262,10 @@ body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
 
 <!-- 1 HOOK 0-3 -->
 <section class="scene night" data-in="0" data-out="3">
-  <div class="tag anim" data-t="0.05" data-fx="fade">Acme Corp · Q4 deal</div>
-  <div class="split anim cam" data-t="0" data-fx="none" data-dim="0.3,1.45">
+  <div class="tag anim" data-t="0" data-fx="fade">Corvane Logistics · Q4 deal</div>
+  <div class="split anim cam" data-t="0" data-fx="none" data-dim="0.25,1.25">
     <div class="win">
-      <div class="winbar"><span class="lights"><i></i><i></i><i></i></span>Your records · Acme Corp</div>
+      <div class="winbar"><span class="lights"><i></i><i></i><i></i></span>Your records · Corvane Logistics</div>
       <div class="kv"><span class="k">Stage</span><span class="v">Commit</span><span class="k">Amount</span><span class="v">$50,000</span><span class="k">Status</span><span class="ok-pill">Looking good</span></div>
     </div>
     <div class="win">
@@ -266,44 +273,44 @@ body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
       <div class="quote"><div class="qwho"><span class="av ps">PS</span><div>Priya Shah<span>VP of Engineering</span></div></div><div class="qtext">"Our <span class="hl">budget is on hold</span> for now."</div></div>
     </div>
   </div>
-  <div class="slam anim" data-t="0.35" data-fx="slam" data-until="1.45">Wrong.</div>
-  <div class="cap anim" data-t="1.0" data-fx="up">Your records say yes. <span class="m">Your customer said no.</span></div>
+  <div class="slam anim" data-t="0.25" data-fx="slam" data-until="1.25">Wrong.</div>
+  <div class="cap anim" data-t="0.5" data-fx="up">Your records say yes. <span class="m">Your customer said no.</span></div>
 </section>
 
 <!-- 2 ON THE CALL 3-8 -->
 <section class="scene night" data-in="3" data-out="8">
-  <div class="tag anim" data-t="3.0" data-fx="fade">On a busy Tuesday</div>
+  <div class="tag anim" data-t="3" data-fx="fade">On a busy Tuesday</div>
   <div class="win call cam">
     <div class="winbar"><span class="livedot"></span><span data-rec="1118"></span><span>·</span><span>Google Meet</span></div>
     <div class="tiles">
       <div class="tile talk"><div class="av ps">PS</div><div class="tname">Priya Shah</div></div>
-      <div class="tile"><div class="av jd">JD</div><div class="tname">You</div><div class="notif anim" data-t="4.6" data-fx="drop" data-rot="0">Demo · Globex <small>in 2 min</small></div></div>
+      <div class="tile"><div class="av jd">JD</div><div class="tname">You</div><div class="notif anim" data-t="4.5" data-fx="drop" data-rot="0">Demo · Globex <small>in 2 min</small></div></div>
     </div>
     <div style="display:grid;justify-items:center;padding-bottom:22px">
-      <div class="sub anim" data-t="3.3" data-fx="fade"><b>Priya:</b> Our budget is on hold for now.</div>
+      <div class="sub anim" data-t="3.25" data-fx="fade"><b>Priya:</b> Our budget is on hold for now.</div>
     </div>
   </div>
-  <div class="cap anim" data-t="3.6" data-fx="up"><span class="m">Your customer says,</span> "Our budget is on hold."</div>
+  <div class="cap anim" data-t="3.5" data-fx="up"><span class="m">Your customer says,</span> "Our budget is on hold."</div>
 </section>
 
 <!-- 3 UPDATE RECORDS 8-12 -->
 <section class="scene night" data-in="8" data-out="12">
-  <div class="tag anim" data-t="8.0" data-fx="fade">Later that day</div>
-  <div class="win anim cam" data-t="8.0" data-fx="up">
-    <div class="winbar"><span class="lights"><i></i><i></i><i></i></span>Update deal · Acme Corp</div>
+  <div class="tag anim" data-t="8" data-fx="fade">Later that day</div>
+  <div class="win anim cam" data-t="8" data-fx="up">
+    <div class="winbar"><span class="lights"><i></i><i></i><i></i></span>Update deal · Corvane Logistics</div>
     <div class="formbody">
       <div class="field"><label>Stage</label><div class="input">Commit</div></div>
       <div class="field"><label>Status</label><div class="input focus"><span data-type="Looking good" data-t="8.5" data-cps="18"></span></div></div>
-      <div class="field"><label>Notes</label><div class="input"><span data-type="Call went well. Should close this month." data-t="9.4" data-cps="26"></span></div></div>
-      <div class="savebtn" data-press="11.2">Save</div>
+      <div class="field"><label>Notes</label><div class="input"><span data-type="Call went well. Should close this month." data-t="9.5" data-cps="26"></span></div></div>
+      <div class="savebtn" data-press="11.25">Save</div>
     </div>
   </div>
-  <div class="cap anim" data-t="8.4" data-fx="up"><span class="m">Later, all you remember is</span> "It went well."</div>
+  <div class="cap anim" data-t="8.5" data-fx="up"><span class="m">Later, all you remember is</span> "It went well."</div>
 </section>
 
 <!-- 4 TEAM MEETING 12-17 -->
 <section class="scene night" data-in="12" data-out="17">
-  <div class="tag anim" data-t="12.0" data-fx="fade">Team meeting</div>
+  <div class="tag anim" data-t="12" data-fx="fade">Team meeting</div>
   <div class="win call cam">
     <div class="winbar"><span class="livedot"></span>Pipeline review · Google Meet</div>
     <div class="grid4">
@@ -313,33 +320,33 @@ body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
       <div class="tile"><div class="av tk">TK</div><div class="tname">Tara</div></div>
     </div>
     <div style="display:grid;justify-items:center;padding-bottom:22px">
-      <div class="sub anim" style="grid-area:1/1" data-t="12.3" data-fx="fade" data-until="14.4"><b>Manager:</b> And Acme? Where are we?</div>
-      <div class="sub anim" style="grid-area:1/1" data-t="14.4" data-fx="fade"><b>You:</b> Pretty sure this one will close.</div>
+      <div class="sub anim" style="grid-area:1/1" data-t="12.25" data-fx="fade" data-until="14.5"><b>Manager:</b> And Corvane? Where are we?</div>
+      <div class="sub anim" style="grid-area:1/1" data-t="14.5" data-fx="fade"><b>You:</b> Pretty sure this one will close.</div>
     </div>
   </div>
-  <div class="cap anim" data-t="12.6" data-fx="up"><span class="m">In the team meeting, you say,</span> "Pretty sure it'll close."</div>
+  <div class="cap anim" data-t="12.5" data-fx="up"><span class="m">In the team meeting, you say,</span> "Pretty sure it'll close."</div>
 </section>
 
 <!-- 5 FORECAST 17-21 -->
 <section class="scene night" data-in="17" data-out="21">
-  <div class="tag anim" data-t="17.0" data-fx="fade">October forecast</div>
+  <div class="tag anim" data-t="17" data-fx="fade">October forecast</div>
   <div class="win cam">
     <div class="winbar"><span class="lights"><i></i><i></i><i></i></span>Forecast · October</div>
     <div class="tbl">
       <div class="tr th"><span>Account</span><span>Amount</span><span>Stage</span></div>
       <div class="tr"><span>Globex</span><span class="num">$20,000</span><span>Commit</span></div>
-      <div class="tr anim" data-t="17.5" data-fx="left" data-hot="17.9"><span>Acme Corp</span><span class="num">$50,000</span><span>Commit</span></div>
+      <div class="tr anim" data-t="17.5" data-fx="left" data-hot="18"><span>Corvane Logistics</span><span class="num">$50,000</span><span>Commit</span></div>
       <div class="tr"><span>Initech</span><span class="num">$15,000</span><span>Maybe</span></div>
       <div class="tr total"><span>Total</span><span class="num">$70,000</span><span>Commit</span></div>
     </div>
   </div>
-  <div class="share anim" data-t="18.8" data-fx="pop"><svg viewBox="0 0 24 24"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M16 6l-4-4-4 4M12 2v13"/></svg>Shared with leadership</div>
-  <div class="cap anim" data-t="17.4" data-fx="up">Your boss counts on it. <span class="m">So does everyone else.</span></div>
+  <div class="share anim" data-t="18.75" data-fx="pop"><svg viewBox="0 0 24 24"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M16 6l-4-4-4 4M12 2v13"/></svg>Shared with leadership</div>
+  <div class="cap anim" data-t="17.5" data-fx="up">Your boss counts on it. <span class="m">So does everyone else.</span></div>
 </section>
 
 <!-- 6 MONTH ENDS 21-26 -->
 <section class="scene night" data-in="21" data-out="26">
-  <div class="tag anim" data-t="21.0" data-fx="fade">End of the month</div>
+  <div class="tag anim" data-t="21" data-fx="fade">End of the month</div>
   <div class="win cam">
     <div class="winbar"><span class="lights"><i></i><i></i><i></i></span>October · Forecast vs closed</div>
     <div class="chart">
@@ -348,31 +355,31 @@ body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
         <g fill="#ffffff80" font-family="Inter,sans-serif" font-size="22"><text x="0" y="68">$70K</text><text x="0" y="188">$45K</text><text x="0" y="308">$20K</text><text x="0" y="408">$0</text></g>
         <polyline points="60,400 840,60" fill="none" stroke="#ffffff57" stroke-width="4" stroke-dasharray="14 12"/>
         <text x="700" y="44" fill="#ffffff80" font-family="Inter,sans-serif" font-size="22" font-weight="600">Forecast</text>
-        <polyline data-draw="21.2,2.0" points="60,400 260,360 420,300 600,300 840,300" fill="none" stroke="#fff" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
-        <g class="anim" data-t="23.0" data-fx="fade">
+        <polyline data-draw="21.25,2.0" points="60,400 260,360 420,300 600,300 840,300" fill="none" stroke="#fff" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+        <g class="anim" data-t="23" data-fx="fade">
           <line x1="840" y1="70" x2="840" y2="290" stroke="#ff3b30" stroke-width="4" stroke-dasharray="10 8"/>
           <rect x="672" y="150" width="150" height="56" rx="12" fill="#ff3b30"/>
           <text x="747" y="188" fill="#fff" font-family="Inter,sans-serif" font-size="30" font-weight="700" text-anchor="middle">-$50K</text>
         </g>
       </svg>
     </div>
-    <div class="dealrow">Acme Corp <span class="num">$50,000</span>
-      <span class="swap"><span class="ok-pill anim" data-t="21.0" data-fx="none" data-until="22.6">Commit</span><span class="bad-pill anim" data-t="22.6" data-fx="pop">Lost · budget on hold</span></span>
+    <div class="dealrow">Corvane Logistics <span class="num">$50,000</span>
+      <span class="swap"><span class="ok-pill anim" data-t="21" data-fx="none" data-until="22.5">Commit</span><span class="bad-pill anim" data-t="22.5" data-fx="pop">Lost · budget on hold</span></span>
     </div>
   </div>
-  <div class="cap anim" data-t="21.6" data-fx="up">Then the month ends. <span class="m">The deal doesn't close.</span></div>
+  <div class="cap anim" data-t="21.5" data-fx="up">Then the month ends. <span class="m">The deal doesn't close.</span></div>
 </section>
 
 <!-- 7 ANY UPDATE 26-30 -->
 <section class="scene night" data-in="26" data-out="30">
-  <div class="tag anim" data-t="26.0" data-fx="fade">Monday morning</div>
+  <div class="tag anim" data-t="26" data-fx="fade">Monday morning</div>
   <div class="win chat dm cam">
     <div class="winbar"><span class="lights"><i></i><i></i><i></i></span>Message · Your manager</div>
     <div class="body">
-      <div class="msg anim" data-t="26.15" data-fx="up" data-ping="1"><div class="av mr">MR</div><div><div class="mwho">Your manager <span>9:02 AM</span></div><div class="mtxt">Any update on Acme?</div></div></div>
-      <div class="msg anim" data-t="26.95" data-fx="up" data-ping="1"><div class="av mr">MR</div><div><div class="mwho">Your manager <span>9:15 AM</span></div><div class="mtxt">We missed the number by $50K.</div></div></div>
+      <div class="msg anim" data-t="26.25" data-fx="up" data-ping="1"><div class="av mr">MR</div><div><div class="mwho">Your manager <span>9:02 AM</span></div><div class="mtxt">Any update on Corvane?</div></div></div>
+      <div class="msg anim" data-t="27" data-fx="up" data-ping="1"><div class="av mr">MR</div><div><div class="mwho">Your manager <span>9:15 AM</span></div><div class="mtxt">We missed the number by $50K.</div></div></div>
       <div class="msg anim" data-t="27.75" data-fx="up" data-ping="1"><div class="av mr">MR</div><div><div class="mwho">Your manager <span>9:16 AM</span></div><div class="mtxt">What happened?</div></div></div>
-      <div class="msg anim" data-t="28.55" data-fx="up" data-ping="1"><div class="av mr">MR</div><div><div class="mwho">Your manager <span>9:40 AM</span></div><div class="mtxt">Any update?</div></div></div>
+      <div class="msg anim" data-t="28.5" data-fx="up" data-ping="1"><div class="av mr">MR</div><div><div class="mwho">Your manager <span>9:40 AM</span></div><div class="mtxt">Any update?</div></div></div>
     </div>
   </div>
   <div class="cap anim" data-t="26.5" data-fx="up">Now everyone is asking <span class="m">what went wrong.</span></div>
@@ -380,78 +387,62 @@ body{font-family:var(--ui);-webkit-font-smoothing:antialiased}
 
 <!-- 8 THE GAP 30-34 -->
 <section class="scene night" data-in="30" data-out="34">
-  <div class="tag anim" data-t="30.0" data-fx="fade">The real problem</div>
+  <div class="tag anim" data-t="30" data-fx="fade">The real problem</div>
   <div class="split cam">
-    <div class="win anim" data-t="30.0" data-fx="up">
+    <div class="win anim" data-t="30" data-fx="up">
       <div class="winbar"><span class="lights"><i></i><i></i><i></i></span>Your records</div>
       <div class="kv"><span class="k">Status</span><span class="ok-pill">Looking good</span></div>
     </div>
-    <div class="gap anim" data-t="30.6" data-fx="fade"><i></i>The gap<i></i></div>
-    <div class="win anim" data-t="30.3" data-fx="up">
+    <div class="gap anim" data-t="30.5" data-fx="fade"><i></i>The gap<i></i></div>
+    <div class="win anim" data-t="30.25" data-fx="up">
       <div class="winbar"><span class="livedot"></span>The call · Oct 20 · 18:42</div>
       <div class="quote"><div class="qtext">"Our <span class="hl">budget is on hold</span> for now."</div></div>
     </div>
   </div>
-  <div class="cap anim" data-t="31.0" data-fx="up">The truth was on the call. <span class="m">It never reached your records.</span></div>
+  <div class="cap anim" data-t="30.25" data-fx="up">The truth was on the call. <span class="m">It never reached your records.</span></div>
 </section>
 
 <!-- 9 FIX 34-36 -->
 <section class="scene day center" data-in="34" data-out="36">
-  <div class="logo biglogo anim" data-t="34.0" data-fx="pop"><span class="anim" data-t="34.0" data-fx="spin" style="display:inline-flex">%%LOGO%%</span>Lynkk</div>
-  <div class="fixline anim" data-t="34.6" data-fx="up">Here's the fix.</div>
+  <div class="logo biglogo anim" data-t="34" data-fx="pop"><span class="anim" data-t="34" data-fx="spin" style="display:inline-flex">%%LOGO%%</span>Lynkk</div>
+  <div class="fixline anim" data-t="34.5" data-fx="up">Here's the fix.</div>
 </section>
 
-<!-- 10 RECORDS FILL THEMSELVES 36-41 -->
+<!-- 10 REAL UI: lynkk.ai Sales Call note 36-41 (captured from lynkk.ai, Budget row text swapped) -->
 <section class="scene day" data-in="36" data-out="41">
-  <div class="tag anim" data-t="36.0" data-fx="fade">Records that tell the truth</div>
-  <div class="studio anim cam" data-t="36.0" data-fx="up">
-    <div class="win">
-      <div class="winbar"><span class="lights"><i></i><i></i><i></i></span><span class="logo" style="font-size:28px;color:#fff">%%LOGO%%Lynkk</span></div>
-      <div class="appbody">
-        <div class="mt">Acme Corp · Commercials call</div>
-        <div class="meta"><span class="av ps mini">PS</span>Priya Shah + 2 others · Google Meet · 52 min</div>
-        <div class="tabsrow"><span>Call summary</span><span class="on2">Deal fields</span><span>Account memory</span></div>
-        <div>
-          <div class="df"><span class="k">Budget</span><span class="v"><span data-type="On hold" data-t="36.6" data-cps="20"></span></span><span class="src anim" data-t="37.0" data-fx="pop"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>18:42</span></div>
-          <div class="df"><span class="k">Decision</span><span class="v"><span data-type="Waiting on IT review" data-t="37.2" data-cps="30"></span></span><span class="src anim" data-t="37.8" data-fx="pop"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>24:10</span></div>
-          <div class="df"><span class="k">Next step</span><span class="v"><span data-type="Send security overview" data-t="38.0" data-cps="30"></span></span><span class="src anim" data-t="38.6" data-fx="pop"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>32:19</span></div>
-          <div class="df"><span class="k">Deal risk</span><span class="v" style="color:var(--live-soft)"><span data-type="High: budget paused" data-t="38.8" data-cps="30"></span></span><span class="src anim" data-t="39.4" data-fx="pop"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>18:42</span></div>
-        </div>
-        <div class="synced anim" data-t="39.8" data-fx="pop"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>Synced to your records</div>
-      </div>
+  <div class="tag anim" data-t="36" data-fx="fade">Records that tell the truth</div>
+  <div class="studio anim cam" data-t="36" data-fx="up" style="padding:34px 34px 0">
+    <div class="realwin">
+      <img class="realimg" src="brag-output/work/note.png" alt="">
+      <span class="rmask anim" style="top:28.1%;height:17.2%" data-t="36.5" data-fx="out"></span>
+      <span class="rmask anim" style="top:46%;height:16.7%" data-t="37" data-fx="out"></span>
+      <span class="rmask anim" style="top:64%;height:16.7%" data-t="37.5" data-fx="out"></span>
+      <span class="rmask anim" style="top:81.9%;height:18.1%" data-t="38" data-fx="out"></span>
+      <span class="ring anim" style="top:88.1%;height:9.6%" data-t="38.5" data-fx="pop"></span>
     </div>
+    <div class="toast anim" style="right:-14px;top:-30px" data-t="39.25" data-fx="pop"><span class="ic v"><svg viewBox="0 0 24 24"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg></span><div><b>Every item links back to the call.</b><span>Budget · 18:42</span></div></div>
   </div>
-  <div class="cap sm anim" data-t="36.4" data-fx="up">Lynkk fills in your records. <span class="m">With what customers really said.</span></div>
+  <div class="cap sm anim" data-t="36.5" data-fx="up">Lynkk fills in your records. <span class="m">With what customers really said.</span></div>
 </section>
 
-<!-- 11 CUE 41-45 -->
+<!-- 11 REAL UI: lynkk.ai Cue demo in Google Meet 41-45 (frame sequence captured from lynkk.ai) -->
 <section class="scene day" data-in="41" data-out="45">
-  <div class="tag anim" data-t="41.0" data-fx="fade">Next call, with Cue</div>
-  <div class="studio anim cam" data-t="41.0" data-fx="up">
-    <div class="win call">
-      <div class="winbar"><span class="livedot"></span><span data-rec="852"></span><span>·</span><span>Google Meet</span></div>
-      <div class="tiles" style="grid-template-columns:1fr"><div class="tile talk" style="height:300px"><div class="av ps">PS</div><div class="tname">Priya Shah</div></div></div>
-      <div style="display:grid;justify-items:center;padding-bottom:60px"><div class="sub anim" data-t="41.3" data-fx="fade"><b>Priya:</b> So, where did we land on pricing?</div></div>
-    </div>
-    <div class="cue anim" data-t="42.2" data-fx="up">
-      <span class="cuetag"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg>Cue <small>Only visible to you</small></span>
-      <div class="cuelab">Context from your last call</div>
-      <div class="cueh">Budget is on hold until IT signs off.</div>
-      <div class="cueb">Priya paused the $50K budget. Ask what the IT review needs to restart it.</div>
-      <div class="cuesrc">Commercials · Oct 20 · 18:42</div>
-    </div>
+  <div class="tag anim" data-t="41" data-fx="fade">Cue, on your next call</div>
+  <div class="studio anim cam" data-t="41" data-fx="up" style="padding:34px">
+    <div class="realwin dark"><canvas class="seq" width="1280" height="940" data-seq="41.0,44.5,150,brag-output/work/cue/f%04d.png"></canvas></div>
+    <div class="toast anim" style="left:-14px;bottom:-40px" data-t="41.75" data-fx="pop"><span class="ic v"><svg viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></span><div><b>Only visible to you.</b><span>Never shown to the customer.</span></div></div>
   </div>
-  <div class="cap sm anim" data-t="41.6" data-fx="up">Help on your screen during the call. <span class="m">Only you can see it.</span></div>
+  <div class="cap sm anim" data-t="41.25" data-fx="up">Help on your screen during the call. <span class="m">Only you can see it.</span></div>
 </section>
 
 <!-- 12 END 45-50 (lynkk.ai hero style) -->
 <section class="scene night center" data-in="45" data-out="50.1">
-  <div class="logo endlogo anim" data-t="45.0" data-fx="pop">%%LOGO%%Lynkk</div>
-  <div class="endh anim" data-t="45.4" data-fx="up">No more surprises. <span class="m">Book a demo or start free.</span></div>
+  <div class="logo endlogo anim" data-t="45" data-fx="pop">%%LOGO%%Lynkk</div>
+  <div class="endh anim" data-t="45.5" data-fx="up">No more surprises. <span class="m">Book a demo or start free.</span></div>
   <div class="btns">
-    <div class="btnrow anim" data-t="46.0" data-fx="pop"><div class="cta">Book a demo</div><div class="cta2">Start free <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
-    <div class="url anim" data-t="46.4" data-fx="fade">lynkk.ai</div>
-    <div class="checks anim" data-t="46.7" data-fx="fade"><span><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>No credit card</span><span><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>15+ languages</span><span><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>Online + in person</span></div>
+    <div class="btnrow anim" data-t="46" data-fx="pop"><div class="cta">Book a demo</div><div class="cta2">Start free <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
+    <div class="url anim" data-t="46.5" data-fx="fade">lynkk.ai</div>
+    <div class="checks anim" data-t="46.75" data-fx="fade"><span><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>No credit card</span><span><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>15+ languages</span><span><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>Online + in person</span></div>
   </div>
 </section>
 
@@ -470,6 +461,7 @@ function fxStyle(a,t){
   let o=1,tr='';
   switch(a.fx){
     case 'none': o=t>=a.t?1:0; break;
+    case 'out': {const q=easeOut(clamp((t-a.t)/0.45)); o=1-q; tr=`translateY(${q*24}px)`; if(t<a.t){a.el.style.opacity=1;a.el.style.transform='';return;} break;}
     case 'fade': o=easeOut(clamp((t-a.t)/0.35)); break;
     case 'up': o=e; tr=`translateY(${(1-e)*70}px)`; break;
     case 'left': o=e; tr=`translateX(${(1-e)*-120}px)`; break;
@@ -512,9 +504,13 @@ window.render=function(t){
     if(lab){const sent=t>=+lab.dataset.sent;lab.textContent=sent?'Sent':'Send';b.style.background=sent?'var(--forest)':'';b.style.color=sent?'#fff':'';}
     else{const done=t>=p+0.15;b.textContent=done?'Saved':'Save';b.style.background=done?'var(--forest)':'';b.style.color=done?'#fff':'';}});
   S.querySelectorAll('[data-draw]').forEach(l=>{const [a,dur]=l.dataset.draw.split(',').map(Number);const len=l.getTotalLength();l.style.strokeDasharray=len;l.style.strokeDashoffset=len*(1-easeOut(clamp((t-a)/dur)));});
+  S.querySelectorAll('canvas[data-seq]').forEach(c=>{const [a,b,n]=c.dataset.seq.split(',').map(Number);const imgs=SEQ[c.dataset.seq];if(!imgs)return;const i=Math.min(n-1,Math.max(0,Math.floor((t-a)/(b-a)*(n-1))));c.getContext('2d').drawImage(imgs[i],0,0,c.width,c.height);});
   S.querySelectorAll('[data-hot]').forEach(r=>r.classList.toggle('hot',t>=+r.dataset.hot));
 };
-window.ready=document.fonts.ready.then(()=>{window.render(0);return true});
+const SEQ={};
+const loadSeq=c=>{const [a,b,n,pat]=c.dataset.seq.split(',');const imgs=[];for(let i=0;i<+n;i++){const im=new Image();im.src=pat.replace('%04d',String(i).padStart(4,'0'));imgs.push(im);}SEQ[c.dataset.seq]=imgs;return Promise.all(imgs.map(im=>im.decode()));};
+const loadImgs=()=>Promise.all($$('img').map(im=>im.complete?Promise.resolve():im.decode()));
+window.ready=Promise.all([document.fonts.ready,loadImgs(),...$$('canvas[data-seq]').map(loadSeq)]).then(()=>{window.render(0);return true});
 </script>
 </body>
 </html>
