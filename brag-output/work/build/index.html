@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lynkk demo video</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+  <div id="bg">
+    <div class="glow g1"></div><div class="glow g2"></div>
+    <div class="dots"></div>
+  </div>
+
+  <div id="cam">
+
+  <!-- ============ S1 HOOK ============ -->
+  <section id="s1" class="scene">
+    <div class="hook-copy">
+      <h1 class="kin" id="h1a">Your buyer can hear you&nbsp;typing.</h1>
+      <h1 class="kin dim" id="h1b">And they can tell you're <span class="red">not&nbsp;listening.</span></h1>
+    </div>
+    <div class="callwin" id="callwin">
+      <div class="win-bar">
+        <span class="tl"></span><span class="tl"></span><span class="tl"></span>
+        <span class="win-title"><span class="meet-dot"></span>Corvane · Discovery call</span>
+        <span class="win-time mono" id="calltime">12:04</span>
+      </div>
+      <div class="call-body">
+        <div class="tile buyer" id="buyertile">
+          <div class="ring" id="buyerring"></div>
+          <div class="avatar big">PS</div>
+          <div class="bars" id="buyerbars"></div>
+          <div class="tile-name">Priya Shah <span>· VP of Engineering</span></div>
+          <div class="bubble" id="bubble">Sorry, are you still with me?</div>
+        </div>
+        <div class="tile you">
+          <div class="avatar">JD</div>
+          <div class="tile-name sm">You</div>
+          <div class="typing-pill" id="typingpill"><span class="kbd-ico"></span>typing…</div>
+        </div>
+      </div>
+      <div class="notes-pad">
+        <div class="pad-head mono">untitled note.txt</div>
+        <pre class="mono" id="pad"></pre>
+      </div>
+    </div>
+    <div id="keycaps"></div>
+  </section>
+
+  <!-- ============ S2 REVEAL ============ -->
+  <section id="s2" class="scene">
+    <svg id="graph" width="1920" height="1080"></svg>
+    <h1 class="kin center" id="stop">So stop typing.</h1>
+    <div class="lockup" id="lockup">
+      <div class="logo" id="biglogo"></div>
+      <div class="wordmark" id="wordmark">Lynkk</div>
+    </div>
+    <div class="pill eyebrow" id="s2eyebrow"><span class="live-dot"></span>The AI meeting assistant</div>
+    <h2 class="kin center" id="s2line">that remembers every <span class="hl">sales conversation</span> for you.</h2>
+  </section>
+
+  <!-- ============ S3 ANYWHERE ============ -->
+  <section id="s3" class="scene">
+    <div class="s3-left">
+      <div class="pill eyebrow" id="s3eyebrow">01 / Capture</div>
+      <h2 class="kin" id="s3h">Every call.<br>Every language.<br><span class="dim">Even offline.</span></h2>
+      <div class="lang" id="lang">
+        <div class="lang-num mono" id="langnum">17</div>
+        <div class="lang-r">
+          <div class="lang-label">languages</div>
+          <div class="lang-hello" id="hello"></div>
+        </div>
+      </div>
+      <div class="chips" id="s3chips">
+        <span class="chip">Hinglish-native</span>
+        <span class="chip" id="offchip"><span class="wifi-off"></span>Works offline</span>
+      </div>
+    </div>
+    <div class="bed orange" id="s3bed">
+      <div class="cap" id="cap1">
+        <div class="cap-h"><span class="pf zoom"></span>Zoom<span class="cap-k">Meeting bot</span></div>
+        <div class="cap-b">
+          <div class="mini-tiles"><div class="mt">PS</div><div class="mt">JD</div><div class="mt bot"><span class="logo sm"></span></div></div>
+          <div class="cap-note">Jamie's Notetaker joined</div>
+        </div>
+      </div>
+      <div class="cap" id="cap2">
+        <div class="cap-h"><span class="pf meet"></span>Google Meet<span class="cap-k">Chrome extension</span></div>
+        <div class="cap-b">
+          <div class="rec-row"><span class="live-dot"></span>Recording this tab<span class="mono" id="cap2t">00:24</span></div>
+          <div class="wave" id="wave2"></div>
+        </div>
+      </div>
+      <div class="cap" id="cap3">
+        <div class="cap-h"><span class="pf teams"></span>Microsoft Teams<span class="cap-k">Mac app</span></div>
+        <div class="cap-b">
+          <div class="detect"><b>Teams call detected</b><span>Lynkk can record it from this Mac</span></div>
+          <div class="btns"><span class="btn w" id="recbtn">Record</span><span class="btn g">Not now</span></div>
+        </div>
+      </div>
+      <div class="cap dark" id="cap4">
+        <div class="cap-h"><span class="pf room"></span>In the room<span class="cap-k" id="offbadge">Offline</span></div>
+        <div class="cap-b">
+          <div class="rec-row"><span class="live-dot"></span>Recording<span class="mono" id="cap4t">08:12</span></div>
+          <div class="wave" id="wave4"></div>
+          <div class="btns"><span class="btn g">Pause</span><span class="btn w">Stop</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ S4 NOTES ============ -->
+  <section id="s4" class="scene">
+    <h2 class="kin center top" id="s4h">Every call becomes <span class="w">notes,</span> <span class="w">decisions,</span> <span class="w">and action&nbsp;items.</span></h2>
+    <div class="bed sunset" id="s4bed">
+      <div class="app" id="app">
+        <div class="app-side">
+          <div class="side-brand"><span class="logo sm"></span>Lynkk</div>
+          <div class="side-search">Search<span class="mono">⌘K</span></div>
+          <div class="side-i">Today</div>
+          <div class="side-i on">Notes<span>12</span></div>
+          <div class="side-i">Ask Lynkk<span class="pro">Pro</span></div>
+          <div class="side-i">Tasks<span id="taskcount">0</span></div>
+          <div class="side-sec mono">This week</div>
+          <div class="side-i sm on2">Corvane · Discovery<span>2:00</span></div>
+          <div class="side-i sm">Brightmoor Foods · Demo<span>Tue</span></div>
+          <div class="side-i sm">Pipeline review<span>Fri</span></div>
+          <div class="side-user"><span class="avatar xs">JD</span>Jamie Davis</div>
+        </div>
+        <div class="app-main">
+          <div class="crumb mono">Notes / Corvane Logistics</div>
+          <div class="note-when mono">TODAY, 2:00 PM</div>
+          <div class="note-title">Corvane Logistics · Discovery call <span class="captured" id="captured">● Captured</span></div>
+          <div class="note-meta"><span class="avatar xs">PS</span><span class="avatar xs">JD</span>Priya Shah + 2 others · Google Meet · 47 min</div>
+          <div class="tabs"><span class="on">Call summary</span><span>Action items <b id="aicount">3</b></span><span>Account memory</span></div>
+          <div class="sum-h">The conversation, at a glance</div>
+          <p class="sum" id="sum"></p>
+          <div class="cards">
+            <div class="kcard" id="kc1"><div class="k-eb mono">KEY DECISION</div><div class="k-t">Start with a 15-person pilot</div><div class="k-s">Commercials to follow IT review.</div></div>
+            <div class="kcard" id="kc2"><div class="k-eb mono">NEXT STEP</div><div class="k-t">Send the security overview</div><div class="k-s">Jamie Davis · Due Friday</div></div>
+          </div>
+          <div class="askbar">Ask anything about this conversation…</div>
+        </div>
+      </div>
+    </div>
+    <div class="toast" id="toast1"><span class="t-ico green">✓</span><div><b>Nothing slips through.</b><span>3 action items · 2 commitments</span></div></div>
+    <div class="toast" id="toast2"><span class="t-ico violet">✉</span><div><b>Follow-up, ready when you ask.</b><span>Grounded in what was actually said.</span></div></div>
+  </section>
+
+  <!-- ============ S5 ASK ============ -->
+  <section id="s5" class="scene">
+    <div class="side-copy">
+      <div class="pill eyebrow" id="s5eb">02 / Before the call</div>
+      <h2 class="kin quote" id="s5q">“Wait, what did we promise them?”</h2>
+      <div class="with" id="s5w"><span class="mono">WITH LYNKK</span>Ask, and get the answer with its source.</div>
+    </div>
+    <div class="bed violet" id="s5bed">
+      <div class="askpanel" id="askpanel">
+        <div class="ask-head"><span class="logo sm"></span>Ask Lynkk <span class="pro">Pro</span><span class="ask-ctx">Corvane · 3 conversations</span></div>
+        <div class="ask-q" id="askq"><span id="askqt"></span><span class="caret" id="askcaret"></span></div>
+        <div class="ask-ground mono" id="ground">GROUNDED IN 3 CONVERSATIONS</div>
+        <div class="ask-a" id="aska"></div>
+        <div class="sources" id="sources">
+          <div class="src" id="src1"><span class="n">1</span>Oct 06 · Discovery<i>“We have $30K set aside.”</i></div>
+          <div class="src" id="src2"><span class="n">2</span>Oct 13 · Product demo<i>“Let's bring our IT team in.”</i></div>
+          <div class="src" id="src3"><span class="n">3</span>Oct 20 · Commercials<i>“We can stretch to $50K.”</i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ S6 FOLLOW-UP ============ -->
+  <section id="s6" class="scene">
+    <div class="side-copy">
+      <div class="pill eyebrow" id="s6eb">03 / After the call</div>
+      <h2 class="kin quote" id="s6q">“I'll send that by the end of the day.”</h2>
+      <div class="flip" id="flip">
+        <div class="flip-row"><span class="fl">Follow up in</span><span class="fv" id="fv5">5 minutes.</span></div>
+        <div class="flip-row dim"><span class="fl">Not</span><span class="fv strike" id="fv3">3 days.</span></div>
+      </div>
+    </div>
+    <div class="bed orange" id="s6bed">
+      <div class="mail" id="mail">
+        <div class="mail-h"><b>Email summary</b><span>Send this meeting's summary to its participants. Nothing sends until you confirm.</span></div>
+        <div class="mail-sec mono">PARTICIPANTS</div>
+        <div class="person" id="p1"><span class="avatar xs l">PS</span>Priya Shah<span class="addr">priya@corvane.co</span></div>
+        <div class="person" id="p2"><span class="avatar xs l">NK</span>Neha Kapoor<span class="addr">neha.kapoor@corvane.co</span></div>
+        <div class="mail-sec mono">KEY TAKEAWAYS</div>
+        <div class="take" id="tk1">Budget moves to $50K for a phased rollout</div>
+        <div class="take" id="tk2">15 people go first</div>
+        <div class="take" id="tk3">Security overview by Friday</div>
+        <div class="mail-f"><span class="mono">2 recipients</span><span class="btn dk" id="sendbtn">Send to 2</span></div>
+      </div>
+      <div class="cursor" id="cursor"></div>
+      <div class="toast light" id="toast3"><span class="t-ico dkk">✓</span><div><b>Summary sent to Priya and Neha.</b></div></div>
+    </div>
+  </section>
+
+  <!-- ============ S7 HAND OFF ============ -->
+  <section id="s7" class="scene">
+    <div class="pill eyebrow center-eb" id="s7eb">04 / Hand off</div>
+    <h2 class="kin center top2" id="s7h">Next steps that land <span class="dim">where work happens.</span></h2>
+    <svg id="wires" width="1920" height="1080"></svg>
+    <div class="srcnote" id="srcnote">
+      <div class="mono sn-eb">ACTION ITEMS · 3</div>
+      <div class="sn-t">Corvane · Discovery</div>
+      <div class="sn-i" id="ai1"><span class="cb"></span>Send Priya the security overview</div>
+      <div class="sn-i" id="ai2"><span class="cb"></span>Write the phased rollout plan</div>
+      <div class="sn-i" id="ai3"><span class="cb"></span>Share the demo recording</div>
+    </div>
+    <div class="dest" id="d1">
+      <div class="d-h"><span class="dlogo jira"></span>Jira</div>
+      <div class="d-card"><span class="mono jkey">HW-218</span>Send Priya the security overview<div class="d-tags"><span class="tag hi">High</span><span class="tag">Jamie Davis</span><span class="tag">Oct 23</span></div></div>
+    </div>
+    <div class="dest" id="d2">
+      <div class="d-h"><span class="dlogo slack"></span>Slack <span class="d-ch">#corvane-deal</span></div>
+      <div class="d-card"><b>Lynkk</b> Corvane's budget moved from $30K to $50K, pending IT approval.</div>
+    </div>
+    <div class="dest" id="d3">
+      <div class="d-h"><span class="dlogo crm"></span>Your CRM</div>
+      <div class="d-card"><b>Brief ready to copy</b><div class="d-tags"><span class="tag">Stage: Proposal</span><span class="tag">Budget $50K</span><span class="tag">Next: security review</span></div></div>
+    </div>
+    <div class="toast light" id="toast4"><span class="t-ico dkk">✓</span><div><b>2 issues created in Jira,</b><span>each linked to the Corvane call.</span></div></div>
+  </section>
+
+  <!-- ============ S8 OUTRO ============ -->
+  <section id="s8" class="scene">
+    <h1 class="kin center" id="o1">The call ends.</h1>
+    <h1 class="kin center dim" id="o2">The opportunity shouldn't.</h1>
+    <div class="lockup end" id="endlock">
+      <div class="logo" id="endlogo"></div>
+      <div class="wordmark">Lynkk</div>
+    </div>
+    <div class="end-sub" id="endsub">The AI meeting assistant that remembers every sales conversation.</div>
+    <div class="cta" id="cta"><span class="btn w big">Start free →</span><span class="url mono">lynkk.ai</span></div>
+    <div class="trust mono" id="trust"><span>✓ No credit card</span><span>✓ 17 languages</span><span>✓ Online + in person</span></div>
+  </section>
+
+  </div>
+  <div id="grain"></div>
+</div>
+<script src="logo.js"></script>
+<script src="timing.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
