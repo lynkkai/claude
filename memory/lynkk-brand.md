@@ -4,6 +4,25 @@
 > results for lynkk.ai (the site itself was not directly reachable from this environment).
 > Items under "To confirm" must be filled in by the team before submitting.
 
+## Live site check (2026-10-27): overrides older notes below
+
+lynkk.ai is now positioned for **GTM / sales teams**, not general meetings.
+
+- **Hero:** "The AI meeting assistant that remembers every sales conversation"
+- **Audience:** sales reps, sales leaders, RevOps ("Built for your whole revenue team")
+- **Key features:** account memory (one timeline per account: budgets, objections,
+  stakeholders, promises), Ask Lynkk (answers across calls, cites sources), pre-call prep,
+  action items with owners and due dates, follow-up email drafts to review and send,
+  deal summaries for managers, coaching and forecasting evidence for leaders
+- **Capture:** meeting bot, Chrome extension, Mac app, in-person
+- **Cue (Beta, by invite):** live in-call assistant on Mac
+- **Languages:** 17, including Hindi and Hinglish; works offline
+- **Integrations:** Zoom, Google Meet, Microsoft Teams, Webex, WhatsApp, FaceTime (Mac app),
+  Google Calendar, Outlook Calendar, Slack, Jira, custom MCP servers
+- **CRM: NO sync yet.** Users copy briefs into Salesforce / HubSpot manually. Do not claim
+  "CRM fields updated" or "CRM automation" anywhere until this ships.
+- **CTAs:** Start free (no credit card), Book a demo, Take the product tour
+
 ## Identity
 
 | Field | Value |

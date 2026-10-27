@@ -13,9 +13,13 @@ Lynkk
 
 ## Business description (750 chars)
 ```
-Lynkk is an AI meeting assistant and note taker that turns every meeting, online or in person, into structured notes, action items and searchable knowledge. Before a call, Lynkk surfaces context from past meetings: what was discussed, what is still open and who said what. During the meeting, it joins and speaks when you need it, answering questions and pulling up documents by voice. Within about 30 seconds after, you get notes, assigned tasks, updated CRM fields and new Jira tickets. Lynkk is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Jira, Calendly, Cal.com and more through MCP. Built for sales, product and leadership teams with back-to-back meetings.
+Lynkk is an AI meeting assistant and note taker for sales and revenue teams. It records every customer conversation, online or in person, and turns it into summaries, action items with owners and due dates, and follow-up emails ready to review and send. Every call with an account joins one timeline of budgets, objections, stakeholders and promises, so reps prep in minutes, and Ask Lynkk answers questions across calls with sources cited. Sales leaders get real call evidence for coaching and forecasting, and RevOps gets consistent notes and linked tasks. Lynkk works with Zoom, Google Meet, Microsoft Teams, Slack and Jira, supports 17 languages including Hindi and Hinglish, and works offline.
 ```
-(737 chars)
+(698 chars)
+
+Written for the GTM / sales positioning on lynkk.ai (checked 2026-10-27): sales reps, sales
+leaders and RevOps. It does not claim CRM sync, because the site says there is none yet
+(briefs are copied into Salesforce or HubSpot by hand). Add it once the sync ships.
 
 Left out on purpose, per Google's description guidelines: URLs (the website has its own field),
 pricing or offers such as "Start free", and comparisons with other products.
