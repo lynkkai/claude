@@ -41,18 +41,31 @@ Product UI is rebuilt from the site's own illustrative data (Corvane Logistics, 
 Jamie Davis). These are the fictional sample accounts lynkk.ai already shows, so no real customer
 data appears.
 
-## Storyboard (47s, 1920x1080, 30fps, cuts on a 120 BPM grid)
+## Storyboard (84s, 1920x1080, 30fps, cuts on a 120 BPM grid)
+
+The first 19 seconds (hook, reveal, capture, the note) are unchanged from v1.
 
 | Time | Scene | Voice | On screen |
 |---|---|---|---|
-| 0.0-4.0 | **Hook** | "Your buyer can hear you typing, and they can tell you're not listening." | Live call with Priya. Messy notes type in, keycaps fly, her voice bars go flat, bubble: "Sorry, are you still with me?" Headline words land with the voice; "not listening." in red. |
-| 4.0-8.0 | **Reveal** | "So stop typing. Lynkk remembers every sales conversation for you." | "So stop typing." Then the Lynkk mark spins in, wordmark, a memory graph draws out from the logo (Discovery, $30K to $50K, IT review...). "that remembers every sales conversation for you." |
-| 8.0-13.5 | **01 / Capture** | "On Zoom, Meet, Teams, or in the room. Seventeen languages, even offline." | "Every call. Every language. Even offline." Four capture cards pop on each platform name (meeting bot, Chrome extension, Mac app, in the room). 17 counter with greetings cycling, "Hinglish-native", "Works offline". |
-| 13.5-19.0 | **The note** | "Every call becomes clear notes, decisions, and action items." | Lynkk app window on a warm bed. Summary streams in, Key decision and Next step cards pop as they are named, "Nothing slips through: 3 action items, 2 commitments". |
-| 19.0-26.0 | **02 / Before the call** | "Before your next call, just ask: what did we promise them? You get the answer, with its source." | "Wait, what did we promise them?" Ask Lynkk types the question, answer streams with citations, three source calls appear. |
-| 26.0-33.0 | **03 / After the call** | "After the call, your follow-up is already drafted. Follow up in five minutes, not three days." | Email summary drafts itself, cursor clicks "Send to 2", toast "Summary sent". "Follow up in 5 minutes. Not 3 days." with the strike. |
-| 33.0-39.5 | **04 / Hand off** | "Action items land in Jira, answers reach Slack, and every brief is ready for your CRM." | Action items wire out to Jira, Slack and CRM cards as each is named; checkboxes tick. |
-| 39.5-47.0 | **Outro** | "The call ends. The opportunity shouldn't. Lynkk. Start free at lynkk.ai." | Site's own line, then the logo lockup, "Start free" and lynkk.ai, trust row. |
+| 0.0-4.0 | **Hook** | "Your buyer can hear you typing, and they can tell you're not listening." | Live call with Priya. Messy notes type in, keycaps fly, her voice bars go flat, bubble: "Sorry, are you still with me?" "not listening." in red. |
+| 4.0-8.0 | **Reveal** | "So stop typing. Lynkk remembers every sales conversation for you." | Lynkk mark spins in, wordmark, a memory graph draws out from the logo. |
+| 8.0-13.5 | **01 / Capture** | "On Zoom, Meet, Teams, or in the room. Seventeen languages, even offline." | Four capture cards pop on each platform name, 17 counter with greetings, "Hinglish-native", "Works offline". |
+| 13.5-19.0 | **The note** | "Every call becomes clear notes, decisions, and action items." | Lynkk app: summary streams in, Key decision and Next step cards, "3 action items, 2 commitments". |
+| 19.0-26.0 | **02 / Before the call** | "Before your next call, just ask: what did we promise them? You get the answer, with its source." | Ask Lynkk types the question, answer streams with citations, three source calls. |
+| 26.0-37.5 | **03 / Account memory** | "Every conversation becomes one connected memory. Thirty K at discovery. IT at the demo. Fifty K at commercials. Lynkk keeps the whole story." | The site's Corvane timeline: Oct 06 "We have $30K set aside", Oct 13 "Let's bring our IT team in", Oct 20 "We can stretch to $50K", each landing as it is spoken. A budget bar fills from $30K to $50K. |
+| 37.5-46.5 | **04 / During the call: Cue (Beta)** | "During the call, Cue sits at the top of your screen. Ask it anything, or press command return, and it reads the conversation for you." | Mac screen with a live call. The buyer asks "How does this compare to what you quoted us last time?" Cue drops in at the top, ⌘↩ is pressed, and the answer appears. Footnote: "In beta in the Mac app, by invite. Only text leaves your Mac." |
+| 46.5-54.0 | **05 / After the call** | "After the call, your follow-up is already drafted. Follow up in five minutes, not three days." | Email summary, cursor clicks "Send to 2", "Follow up in 5 minutes. Not 3 days." |
+| 54.0-60.5 | **06 / Hand off** | "Action items land in Jira, answers reach Slack, and every brief is ready for your CRM." | Action items wire out to Jira, Slack and CRM. |
+| 60.5-67.5 | **07 / Dictation** | "On your Mac, just hold one key and talk. Your words are typed at the cursor, in any app." | "Hold one key and talk." A mail draft types itself word by word while the dictation pill listens. |
+| 67.5-76.0 | **08 / Privacy** | "Your conversations stay yours. Lynkk never trains AI on them, and you can export everything, any time." | Four tiles from the security page: No AI training, Export everything, HTTPS everywhere, Only text leaves your Mac. |
+| 76.0-84.0 | **Outro** | "The call ends. The opportunity shouldn't. Lynkk. Start free at lynkk.ai." | Logo lockup, "Start free", lynkk.ai, trust row. |
+
+### Why there is no data residency scene
+
+The security page (last reviewed 18 October 2026) says Lynkk and its providers "may process your
+data in countries other than yours, including India and the United States". A "choose your
+region" scene would contradict it, so the scene shows the privacy claims the site makes today.
+If region selection ships, scene 08 is where it goes.
 
 ## Sound
 
