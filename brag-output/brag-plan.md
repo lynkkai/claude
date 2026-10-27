@@ -15,7 +15,7 @@ own design system as it appears on https://lynkk.ai today.
 
 - **What is it?** An AI meeting assistant that remembers every sales conversation and turns it into
   notes, follow-ups, action items and your next move.
-- **Who is it for?** Sales and customer-facing teams who live on calls.
+- **Who is it for?** Sales and GTM teams: reps, sales leaders and RevOps, matching the site's "Built for your whole revenue team" section.
 - **What sets it apart?** Memory across calls (ask a question, get the answer with its source),
   plus capture anywhere: Zoom, Meet, Teams, in person, 17 languages, offline.
 - **Hook:** the pain everyone recognises: typing notes while the buyer is talking.
@@ -41,7 +41,7 @@ Product UI is rebuilt from the site's own illustrative data (Corvane Logistics, 
 Jamie Davis). These are the fictional sample accounts lynkk.ai already shows, so no real customer
 data appears.
 
-## Storyboard (84s, 1920x1080, 30fps, cuts on a 120 BPM grid)
+## Storyboard (102s, 1920x1080, 30fps, cuts on a 120 BPM grid)
 
 The first 19 seconds (hook, reveal, capture, the note) are unchanged from v1.
 
@@ -56,16 +56,17 @@ The first 19 seconds (hook, reveal, capture, the note) are unchanged from v1.
 | 37.5-46.5 | **04 / During the call: Cue (Beta)** | "During the call, Cue sits at the top of your screen. Ask it anything, or press command return, and it reads the conversation for you." | Mac screen with a live call. The buyer asks "How does this compare to what you quoted us last time?" Cue drops in at the top, ⌘↩ is pressed, and the answer appears. Footnote: "In beta in the Mac app, by invite. Only text leaves your Mac." |
 | 46.5-54.0 | **05 / After the call** | "After the call, your follow-up is already drafted. Follow up in five minutes, not three days." | Email summary, cursor clicks "Send to 2", "Follow up in 5 minutes. Not 3 days." |
 | 54.0-60.5 | **06 / Hand off** | "Action items land in Jira, answers reach Slack, and every brief is ready for your CRM." | Action items wire out to Jira, Slack and CRM. |
-| 60.5-67.5 | **07 / Dictation** | "On your Mac, just hold one key and talk. Your words are typed at the cursor, in any app." | "Hold one key and talk." A mail draft types itself word by word while the dictation pill listens. |
-| 67.5-76.0 | **08 / Privacy** | "Your conversations stay yours. Lynkk never trains AI on them, and you can export everything, any time." | Four tiles from the security page: No AI training, Export everything, HTTPS everywhere, Only text leaves your Mac. |
-| 76.0-84.0 | **Outro** | "The call ends. The opportunity shouldn't. Lynkk. Start free at lynkk.ai." | Logo lockup, "Start free", lynkk.ai, trust row. |
+| 60.5-79.0 | **07 / For revenue teams** | "Lynkk is built for your whole revenue team. Reps walk into every call prepped, with the whole story." / "Sales leaders know every deal, without the quick update. Just ask what's blocking." / "And RevOps gets clean, consistent notes, connected to your calendar, Slack, and Jira." | The site's "Built for your whole revenue team" section, tabbed like the site. **Sales reps:** "Sell more. Type less." Ask Lynkk preps next week's calls. **Sales leaders:** "Know every deal. Without the 'quick update?'" Ask Lynkk answers "What's blocking our open deals?" with sources. **RevOps:** "Clean notes. Connected systems. Less chasing." Sales Call summary shape plus Calendar, Slack and Jira. |
+| 79.0-86.0 | **08 / Dictation** | "On your Mac, just hold one key and talk. Your words are typed at the cursor, in any app." | "Hold one key and talk." A mail draft types itself while the dictation pill listens. |
+| 86.0-94.5 | **09 / Privacy** | "Your conversations stay yours. Lynkk never trains AI on them, and you can export everything, any time." | Four tiles from the security page: No AI training, Export everything, HTTPS everywhere, Only text leaves your Mac. |
+| 94.5-102.5 | **Outro** | "The call ends. The opportunity shouldn't. Lynkk. Start free at lynkk.ai." | Logo lockup, "Conversation intelligence for sales reps, leaders and RevOps.", "Start free", lynkk.ai, trust row. |
 
 ### Why there is no data residency scene
 
 The security page (last reviewed 18 October 2026) says Lynkk and its providers "may process your
 data in countries other than yours, including India and the United States". A "choose your
 region" scene would contradict it, so the scene shows the privacy claims the site makes today.
-If region selection ships, scene 08 is where it goes.
+If region selection ships, scene 09 is where it goes.
 
 ## Sound
 

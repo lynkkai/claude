@@ -107,7 +107,7 @@ place(fx, r, m0 - 0.7, db(-30))
 # reveal
 place(fx, soft, wt('l2', 3) - 0.08, db(-12))
 # capture cards
-for t in [8.0, 13.5, 19.0, 26.0]: place(fx, slide, t, db(-26))
+for sid in ['s3', 's4', 's5', 'sM', 's6', 'sD']: place(fx, slide, T['scenes'][sid][0], db(-26))
 for i in [1, 2, 3, 7]: place(fx, pop, wt('l3', i) - 0.08, db(-20))
 place(fx, tick, wt('l3', 10) - 0.05, db(-22))
 # notes
@@ -121,6 +121,19 @@ place(fx, press, click, db(-14)); place(fx, bong, click + 0.2, db(-24))
 # hand off
 for i in [4, 7, 10]: place(fx, pop, wt('l7', i) - 0.05, db(-19))
 place(fx, bong, wt('l7', 5) - 0.2, db(-26))
+# new scenes
+def ww(line, w, n=0):
+    L = T['lines'][line]; c = 0
+    for x in L['words']:
+        if ''.join(ch for ch in x['w'].lower() if ch.isalnum()).startswith(w) and c == n: return L['start'] + x['s']
+        if ''.join(ch for ch in x['w'].lower() if ch.isalnum()).startswith(w): c += 1
+    return L['start']
+for w in ['30', 'it', '50']: place(fx, pop, ww('lm', w) - 0.1, db(-20))
+place(fx, pop, ww('lc', 'queue') - 0.1, db(-20)); place(fx, press, ww('lc', 'command'), db(-14))
+place(fx, tick, ww('ld', 'hold'), db(-18))
+for t in [ww('ld', 'talk') + 0.15 + i * 0.14 for i in range(19)]: place(fx, rng.choice(keys), t, db(-38))
+for t in [ww('lp', 'never'), ww('lp', 'export')]: place(fx, pop, t - 0.1, db(-20))
+for k in ['lg1', 'lg2', 'lg3']: place(fx, slide, T['lines'][k]['start'] - 0.15, db(-27))
 # outro
 place(fx, soft, wt('l8', 6) - 0.1, db(-12))
 place(fx, pop, wt('l8', 7) - 0.05, db(-20))

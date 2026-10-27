@@ -13,6 +13,13 @@ const E = {
 };
 const P = (t, s, d, e = E.out) => e(clamp((t - s) / d));
 const wt = (line, i) => T.lines[line].start + T.lines[line].words[i].s;
+// time of the nth spoken word starting with `w` (case and punctuation ignored)
+const norm = s => s.toLowerCase().replace(/[^a-z0-9]/g, '');
+function wtw(line, w, n = 0) {
+  const L = T.lines[line]; let c = 0;
+  for (const x of L.words) if (norm(x.w).startsWith(norm(w)) && c++ === n) return L.start + x.s;
+  console.error('word not found', line, w); return L.start;
+}
 function rnd(seed) { let a = seed >>> 0; return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
 
 function st(el, o) {
@@ -96,10 +103,16 @@ function init() {
   // answer text
   $('aska').innerHTML = 'A <span class="mark">15-person pilot</span><span class="cite">1</span>, and the <span class="mark">security overview</span> before the proposal<span class="cite">2</span>. Jamie sends it by Friday<span class="cite">3</span>.';
   ASK = splitWords($('aska'));
+  SGH = splitWords($('sGh')); SMH = splitWords($('sMh')); SCH = splitWords($('sCh')); SDH = splitWords($('sDh')); SPH = splitWords($('sPh'));
+  $('cueans').innerHTML = 'On Oct 06 the budget was <span class="mark">$30K</span>. Since then the scope grew, and Priya said they can stretch to <span class="mark">$50K</span> for a phased rollout.';
+  CUEA = splitWords($('cueans'));
+  for (let i = 0; i < 9; i++) $('cuebars').appendChild(document.createElement('i'));
+  for (let i = 0; i < 26; i++) $('dwave').appendChild(document.createElement('i'));
   ASKC = [...$('aska').querySelectorAll('.cite')];
   SUMTXT = 'Corvane wants to give its sales team a single source of customer context. Priya confirmed budget and a phased rollout, pending IT approval.';
 }
-let ASK, ASKC, SUMTXT;
+let SGH, ASK, ASKC, SUMTXT, SMH, SCH, SDH, SPH, CUEA;
+const DICT = 'Hi Priya, attaching the security overview we promised. Happy to walk your IT team through it on Friday.';
 
 // knowledge-graph constellation behind the logo reveal
 function buildGraph() {
@@ -415,6 +428,108 @@ function s8(t) {
   const btn = $('cta').querySelector('.btn'); btn.style.boxShadow = `0 0 ${40 + 20 * Math.sin(t * 3)}px rgba(246,178,92,${0.35 * P(t, wt('l8', 7), 0.6)})`;
 }
 
+const exitOf = id => { const b = T.scenes[id][1]; return P(window.__t, b - 0.3, 0.3, E.in); };
+function fadeScene(id, ex) { const el = $(id); el.style.opacity = 1 - ex; el.style.filter = ex > 0.02 ? `blur(${ex * 8}px)` : 'none'; }
+function bedIn(id, t, a, ex) { const k = P(t, a, 0.6); st($(id), { o: k, x: (1 - k) * 120 + ex * 60 }); }
+
+function sM(t) {
+  if (!sceneOn('sM', t)) return;
+  const [a] = T.scenes.sM, ex = exitOf('sM'); fadeScene('sM', ex);
+  inout($('sMeb'), P(t, a + 0.05, 0.4));
+  words(SMH, stagger(a + 0.15, SMH.length, 0.09), t);
+  bedIn('sMbed', t, a, ex);
+  const mp = P(t, a + 0.15, 0.6); st($('mem'), { o: mp, y: (1 - mp) * 60 });
+  const e1 = wtw('lm', '30'), e2 = wtw('lm', 'it'), e3 = wtw('lm', '50');
+  [e1, e2, e3].forEach((e, i) => { const k = P(t, e - 0.1, 0.5, E.back); st($('ev' + (i + 1)), { o: P(t, e - 0.1, 0.2), x: (1 - k) * 40 }); });
+  $('tlfill').style.transform = `scaleY(${P(t, e1 - 0.1, e3 - e1 + 0.5, E.inout)})`;
+  inout($('budget'), P(t, e1 - 0.1, 0.45));
+  $('bfill').style.transform = `scaleX(${P(t, e1 + 0.2, e3 - e1, E.inout)})`;
+  const k5 = P(t, e3, 0.45, E.back); st($('b50'), { o: P(t, e3, 0.2), s: lerp(0.6, 1, k5) });
+  inout($('sMw'), P(t, wtw('lm', 'keeps') - 0.1, 0.5));
+}
+
+function sC(t) {
+  if (!sceneOn('sC', t)) return;
+  const [a] = T.scenes.sC, ex = exitOf('sC'); fadeScene('sC', ex);
+  inout($('sCeb'), P(t, a + 0.05, 0.4));
+  words(SCH, stagger(a + 0.15, SCH.length, 0.09), t);
+  const mk = P(t, a + 0.1, 0.7); st($('mac'), { o: mk, y: (1 - mk) * 100 });
+  inout($('cl1'), P(t, a + 0.5, 0.4), 0, { dy: 16, blur: 4 });
+  inout($('cl2'), P(t, a + 1.2, 0.4), 0, { dy: 16, blur: 4 });
+  const talk = 1 - P(t, a + 1.0, 0.3);
+  [...$('cuebars').children].forEach((b, i) => { const v = Math.abs(Math.sin(t * 12 + i * 1.7) * Math.sin(t * 4.1 + i)); b.style.height = `${8 + talk * 28 * v}px`; b.style.opacity = 0.4 + talk * 0.6; });
+  const c0 = wtw('lc', 'queue') - 0.1, ck = P(t, c0, 0.55, E.back);
+  st($('cue'), { o: P(t, c0, 0.2), y: (1 - ck) * -30, s: lerp(0.9, 1, ck) });
+  const press = wtw('lc', 'command');
+  const pr = P(t, press, 0.08) * (1 - P(t, press + 0.25, 0.2));
+  st($('cuek'), { s: 1 - pr * 0.12 }); $('cuek').style.background = t >= press ? '#7063be' : '#2e2e2e';
+  const rd = wtw('lc', 'reads');
+  $('cuein').textContent = t < press ? 'Ask Cue anything…' : t < rd ? 'Reading your screen and the call…' : 'Help with this moment';
+  $('cuein').style.color = t < press ? '#8a8a8e' : '#fff';
+  const op = P(t, rd - 0.2, 0.5, E.out3);
+  $('cueans').style.maxHeight = `${op * 140}px`; $('cueans').style.paddingBottom = `${op * 20}px`;
+  words(CUEA, stagger(rd, CUEA.length, 0.07), t, 0.3, 10);
+  inout($('cuefoot'), P(t, rd + 1.0, 0.5));
+}
+
+function sG(t) {
+  if (!sceneOn('sG', t)) return;
+  const [a] = T.scenes.sG, ex = exitOf('sG'); fadeScene('sG', ex);
+  inout($('sGeb'), P(t, a + 0.05, 0.4));
+  words(SGH, stagger(wtw('lg1', 'built') - 0.1, SGH.length, 0.1), t);
+  inout($('gtabs'), P(t, a + 0.3, 0.5));
+  bedIn('sGbed', t, a + 0.2, ex);
+  // each role takes over at the start of its line
+  const sw = [a, T.lines.lg2.start - 0.15, T.lines.lg3.start - 0.15, 1e9];
+  for (let i = 0; i < 3; i++) {
+    const k = i === 0 ? P(t, wtw('lg1', 'reps') - 0.15, 0.5) : P(t, sw[i], 0.5), q = P(t, sw[i + 1] - 0.3, 0.3, E.in);
+    inout($('gr' + (i + 1)), k, q, { dy: 30, blur: 8, dyOut: -20 });
+    const pk = i === 0 ? P(t, a + 0.5, 0.6) : P(t, sw[i], 0.5), pq = P(t, sw[i + 1] - 0.3, 0.3, E.in);
+    st($('gp' + (i + 1)), { o: pk * (1 - pq), y: (1 - pk) * 40, x: -pq * 40, b: pq * 6 });
+    const on = t >= (i === 0 ? wtw('lg1', 'reps') - 0.15 : sw[i]) && t < sw[i + 1];
+    const tab = $('gt' + (i + 1)); tab.style.background = on ? '#fff' : 'transparent'; tab.style.color = on ? '#111' : '#8a8a8e';
+    [...$('gr' + (i + 1)).querySelectorAll('li')].forEach((li, j) => inout(li, P(t, (i === 0 ? wtw('lg1', 'reps') : sw[i]) + 0.5 + j * 0.25, 0.4), 0, { dy: 12, blur: 3 }));
+  }
+  const pop = (id, s) => { const k = P(t, s, 0.45, E.back); st($(id), { o: P(t, s, 0.2), y: (1 - k) * 24 }); };
+  const r0 = wtw('lg1', 'reps');
+  pop('g1a', r0 + 0.3); pop('g1b', r0 + 0.8); pop('g1c', r0 + 1.3);
+  const l0 = T.lines.lg2.start;
+  pop('g2a', l0 + 0.6); pop('g2b', l0 + 1.2); pop('g2c', l0 + 1.8); pop('g2d', l0 + 2.4);
+  const o0 = T.lines.lg3.start;
+  pop('g3a', wtw('lg3', 'clean') - 0.1); pop('g3b', wtw('lg3', 'consistent')); pop('g3c', wtw('lg3', 'notes')); pop('g3d', wtw('lg3', 'connected') - 0.2);
+  pop('g3e', wtw('lg3', 'calendar') - 0.1);
+}
+
+function sD(t) {
+  if (!sceneOn('sD', t)) return;
+  const [a] = T.scenes.sD, ex = exitOf('sD'); fadeScene('sD', ex);
+  inout($('sDeb'), P(t, a + 0.05, 0.4));
+  const h0 = wtw('ld', 'hold');
+  words(SDH, [h0, wtw('ld', 'one'), wtw('ld', 'key'), wtw('ld', 'and'), wtw('ld', 'talk')], t);
+  inout($('sDw'), P(t, wtw('ld', 'typed') - 0.1, 0.5));
+  bedIn('sDbed', t, a, ex);
+  const cp = P(t, a + 0.15, 0.6); st($('compose'), { o: cp, y: (1 - cp) * 60 });
+  const dk = P(t, h0 - 0.1, 0.5, E.back); st($('dict'), { o: P(t, h0 - 0.1, 0.2), y: (1 - dk) * 40 });
+  const d0 = wtw('ld', 'talk') + 0.15, ws = DICT.split(' ');
+  const n = Math.max(0, Math.min(ws.length, Math.floor((t - d0) / 0.14) + 1));
+  const typing = t >= d0 && n < ws.length;
+  $('cpbody').innerHTML = (t >= d0 ? ws.slice(0, n).join(' ') : '') + '<span class="ic" style="opacity:' + (typing || Math.floor(t * 3) % 2 ? 1 : 0) + '"></span>';
+  const held = t >= h0 && t < d0 + ws.length * 0.14 + 0.2;
+  $('dk').style.background = held ? '#7063be' : '#2e2e2e'; $('dk').style.color = held ? '#fff' : '#cfcfd2';
+  $('dl').textContent = held ? 'Listening' : 'Done';
+  [...$('dwave').children].forEach((b, i) => { const v = held ? Math.abs(Math.sin(t * 9 + i * 0.8) * Math.sin(t * 3.3 + i * 0.4)) : 0.05; b.style.height = `${4 + v * 26}px`; });
+}
+
+function sP(t) {
+  if (!sceneOn('sP', t)) return;
+  const [a] = T.scenes.sP, ex = exitOf('sP'); fadeScene('sP', ex);
+  inout($('sPeb'), P(t, a + 0.05, 0.4));
+  const y0 = wtw('lp', 'your');
+  words(SPH, [y0, wtw('lp', 'conversations'), wtw('lp', 'stay'), wtw('lp', 'yours')], t);
+  const n0 = wtw('lp', 'never'), x0 = wtw('lp', 'export');
+  [n0, x0, n0 + 0.5, x0 + 0.5].forEach((s, i) => { const k = P(t, s - 0.1, 0.55, E.back); st($('pt' + (i + 1)), { o: P(t, s - 0.1, 0.2), y: (1 - k) * 50, s: lerp(0.92, 1, k) }); });
+}
+
 function camera(t) {
   // slow push-in per scene, reset at each cut
   const id = Object.keys(T.scenes).filter(k => t >= T.scenes[k][0]).pop();
@@ -424,8 +539,8 @@ function camera(t) {
 }
 
 window.render = function (t) {
-  bg(t);
-  s1(t); s2(t); s3(t); s4(t); s5(t); s6(t); s7(t); s8(t);
+  window.__t = t; bg(t);
+  s1(t); s2(t); s3(t); s4(t); s5(t); sM(t); sC(t); s6(t); s7(t); sG(t); sD(t); sP(t); s8(t);
 };
 window.ready = (async () => {
   await document.fonts.ready;
