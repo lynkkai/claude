@@ -5,6 +5,7 @@ Three feeds are used, all read only:
   thread    https://www.reddit.com/r/<sub>/comments/<id>/.rss   (post + comments)
   comments  https://www.reddit.com/r/<a>+<b>/comments.rss        (latest comments)
   rules     https://www.reddit.com/r/<sub>/about/rules.json      (subreddit rules)
+            or https://oauth.reddit.com/r/<sub>/about/rules with API credentials
 
 Reddit's search does not cover comments, so comments come from threads of
 matching posts and from the watched subreddits' latest comments.
@@ -23,8 +24,9 @@ PAGE = 100
 
 
 class RssSource:
-    def __init__(self, http: Http):
+    def __init__(self, http: Http, token=None):
         self.http = http
+        self.token = token  # oauth.AppToken, used for rules only
 
     def search(self, q: str, subreddits: list[str] | None, t: str, after: str = "") -> tuple[list[Item], int, str]:
         """One page of newest posts. Returns items, entries on the page, and the next cursor."""
@@ -53,6 +55,9 @@ class RssSource:
 
     def rules(self, subreddit: str) -> str:
         """The subreddit's rules as raw JSON ("" if it doesn't exist)."""
+        if self.token:
+            from .oauth import API_BASE
+            return self.http.get(f"{API_BASE}/r/{quote(subreddit)}/about/rules", self.token.header())
         return self.http.get(f"{BASE}/r/{quote(subreddit)}/about/rules.json")
 
     def latest_comments(self, subreddits: list[str]) -> list[Item]:

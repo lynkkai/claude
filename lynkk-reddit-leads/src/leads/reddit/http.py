@@ -1,6 +1,7 @@
 """A polite HTTP client for Reddit's public feeds: throttled, retried, logged.
 
-Read only. It sends GET requests and nothing else, so it cannot post, comment
+Read only. It sends GET requests, plus one POST to Reddit's token endpoint when
+API credentials are set (to read subreddit rules), so it cannot post, comment
 or vote.
 """
 
@@ -55,7 +56,7 @@ class Http:
     def remaining(self) -> int:
         return max(0, self.max_requests - self.requests)
 
-    def get(self, url: str) -> str:
+    def get(self, url: str, headers: dict[str, str] | None = None) -> str:
         for attempt in range(self.max_retries + 1):
             if self.requests >= self.max_requests:
                 raise BudgetSpent(f"used all {self.max_requests} requests for this run")
@@ -63,7 +64,7 @@ class Http:
             if waited > 5:
                 print(f"    waiting {waited:.0f}s for Reddit's rate limit", flush=True)
             self.requests += 1
-            resp = self._fetch(url)
+            resp = self._fetch(url, headers)
             self._log(url, resp)
             self.throttle.update(resp.headers)
             if resp.status == 200:
@@ -87,8 +88,8 @@ class Http:
             self.throttle.back_off(wait)
         raise RuntimeError(f"gave up on {url} after {self.max_retries + 1} attempts")
 
-    def _fetch(self, url: str) -> Response:
-        req = urllib.request.Request(url, headers={"User-Agent": self.user_agent})
+    def _fetch(self, url: str, headers: dict[str, str] | None = None, data: bytes | None = None) -> Response:
+        req = urllib.request.Request(url, data=data, headers={"User-Agent": self.user_agent, **(headers or {})})
         try:
             with self.opener(req, timeout=30) as r:
                 body = r.read().decode("utf-8", errors="replace")

@@ -60,7 +60,11 @@ def cmd_rules(args) -> int:
         max_requests=limit,
         log_path=cfg.log_dir / "requests.log",
     )
-    fetched, unavailable = fetch_rules(cfg, db, RssSource(http), log=lambda m: print(m, flush=True), limit=limit)
+    from .reddit.oauth import AppToken
+    token = AppToken.from_env(http)
+    print("Reading rules through the Reddit API (REDDIT_CLIENT_ID is set)." if token else
+          "Reading rules from Reddit's public JSON. If Reddit refuses (403), set REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET.", flush=True)
+    fetched, unavailable = fetch_rules(cfg, db, RssSource(http, token), log=lambda m: print(m, flush=True), limit=limit)
     print(f"Done. Rules read for {fetched} subreddits, {unavailable} unavailable.")
     db.close()
     return 0
