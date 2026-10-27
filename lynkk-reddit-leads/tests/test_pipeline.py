@@ -1,6 +1,7 @@
 """Fetch to review to export, with recorded Reddit feeds instead of the network."""
 
 import json
+from datetime import datetime, timezone
 
 import pandas as pd
 from conftest import fixture
@@ -71,7 +72,9 @@ def test_keywords_from_every_query_are_merged(cfg, db):
 
 
 def test_comments_get_parent_context(cfg, db):
-    Fetcher(cfg, db, FakeSource(), log=lambda *_: None).run()
+    # Threads are only read for posts from the last 7 days, so pin "now" to just after the fixture thread.
+    now = datetime(2026, 10, 11, tzinfo=timezone.utc)
+    Fetcher(cfg, db, FakeSource(), log=lambda *_: None, now=now).run()
     comments = [i for i in db.all_items() if i["type"] == "comment" and i["source"] == "thread"]
     assert comments
     c = comments[0]

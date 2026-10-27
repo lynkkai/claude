@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 import pytest
@@ -19,7 +20,8 @@ def fixture(name: str) -> str:
 def cfg(tmp_path):
     """The real config.toml, but writing into a temp folder."""
     text = (ROOT / "config.toml").read_text(encoding="utf-8")
-    text = text.replace('time_range = "7d"', 'time_range = "custom"').replace('since = ""', 'since = "2020-01-01"')
+    text = re.sub(r'^time_range = ".*?"', 'time_range = "custom"', text, flags=re.M)
+    text = re.sub(r'^since = ".*?"', 'since = "2020-01-01"', text, flags=re.M)
     p = tmp_path / "config.toml"
     p.write_text(text, encoding="utf-8")
     return config_mod.load(p)
