@@ -10,7 +10,7 @@ Every caption opens with the keyword, as requested. Links point to https://lynkk
 
 ## YouTube (long video)
 
-**Title** (68 characters):
+**Title** (72 characters, YouTube allows 100):
 
 > AI Meeting Assistant for Sales: Lynkk AI Note Taker for Every Sales Call
 
