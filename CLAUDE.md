@@ -11,3 +11,7 @@ These apply to all Lynkk copy, marketing text, and anything written in this repo
 
 - **Never use em dashes (—) or en dashes (–).** Use a comma, colon, parentheses, or
   split the sentence instead. Use a plain hyphen for ranges and compound words.
+- **Never mention Jira.** Not in features, integrations, examples, tags, image plans or
+  alt text. Where copy needs a named platform that Lynkk sends meeting output to, use CRM
+  platforms such as Salesforce and HubSpot instead (e.g. "CRM updates in Salesforce or
+  HubSpot", not "Jira tickets").

@@ -35,15 +35,15 @@ AI notes for every conversation, online or in person
 ## Description (260 chars)
 Primary:
 ```
-Lynkk joins your meetings, brings context from past calls, answers by voice when you need it, and within 30 seconds turns the conversation into notes, action items, CRM updates and Jira tickets. Online or in person. Multilingual. Offline-first.
+Lynkk joins your meetings, brings context from past calls, answers by voice when you need it, and within 30 seconds turns the conversation into notes, action items and CRM updates in Salesforce or HubSpot. Online or in person. Multilingual. Offline-first.
 ```
-(241 chars)
+(255 chars)
 
 Alternate, benefit-first:
 ```
-Most AI notetakers start working after the call. Lynkk is there for all of it: context before, a voice assistant during, and notes, action items, CRM updates and Jira tickets 30 seconds after. Online or in person, multilingual, offline-first.
+Most AI notetakers start working after the call. Lynkk is there for all of it: context before, a voice assistant during, and notes, action items and Salesforce or HubSpot updates 30 seconds after. Online or in person, multilingual, offline-first.
 ```
-(239 chars)
+(246 chars)
 
 ## Links
 - Website: https://lynkk.ai
@@ -73,19 +73,19 @@ Freemium, "Free options" (Start free). TODO: confirm paid tier names/prices befo
 >
 > **During:** it joins the call and speaks when you need it. Ask it for past context, pull up a document, get an answer out loud, mid-meeting.
 >
-> **After:** within about 30 seconds: structured notes, action items assigned, CRM fields updated, Jira tickets created, everything searchable as a knowledge graph across all your meetings.
+> **After:** within about 30 seconds: structured notes, action items assigned, CRM fields updated in Salesforce or HubSpot, everything searchable as a knowledge graph across all your meetings.
 >
 > A few things we care about:
 > - **In-person counts too.** Not every meeting has a dial-in. Lynkk records the room.
 > - **Multilingual and offline-first**, so it works on a plane and in whatever language the meeting actually happens in.
 > - **Pick your region.** Every model behind Lynkk runs from the region you choose, which matters if your legal team has opinions.
-> - **Connects to your stack**: calendar, Jira, Calendly, Cal.com, CRM, or anything else via MCP.
+> - **Connects to your stack**: calendar, Salesforce, HubSpot, Calendly, Cal.com, or anything else via MCP.
 >
 > It's free to start, and we'd love for you to try it on your next call and tell us where it falls short. We're here all day for questions, feature requests and hard ones. 🙏
 
 ## Short version of the first comment (if you want something tighter)
 
-> Hey PH 👋 Every AI notetaker shows up after the call. Lynkk is there for the whole thing: context from past meetings before, a voice assistant you can ask questions mid-call, and notes, action items, CRM updates and Jira tickets ~30 seconds after. Works for in-person meetings too, multilingual, offline-first, and you pick the region your data is processed in. Free to start. Tell us what breaks. 🙏
+> Hey PH 👋 Every AI notetaker shows up after the call. Lynkk is there for the whole thing: context from past meetings before, a voice assistant you can ask questions mid-call, and notes, action items and Salesforce or HubSpot updates ~30 seconds after. Works for in-person meetings too, multilingual, offline-first, and you pick the region your data is processed in. Free to start. Tell us what breaks. 🙏
 
 ---
 
@@ -97,7 +97,7 @@ Product Hunt shows the first image everywhere, so make it count.
 2. Pre-meeting context card: "here's what's still open from last time."
 3. The live voice assistant answering a question mid-call.
 4. Post-meeting output: notes + action items, side by side.
-5. Integrations: Jira ticket and CRM field created automatically.
+5. Integrations: Salesforce or HubSpot fields updated automatically.
 6. Search / knowledge graph across past meetings.
 7. Region picker or privacy screen (this is a real differentiator, so show it).
 8. Optional: 30-60s demo video of one meeting end to end.

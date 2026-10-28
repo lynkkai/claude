@@ -37,8 +37,7 @@
 ### After the meeting: within ~30 seconds
 - Structured notes
 - Action items assigned
-- CRM fields updated
-- Jira tickets created
+- CRM fields updated (Salesforce, HubSpot)
 - Everything searchable (knowledge graph of all meetings)
 
 ### Capture & platform
@@ -51,15 +50,16 @@
 - Data residency: pick a region and every model behind Lynkk processes/answers from that region, which addresses legal & compliance concerns.
 
 ## Integrations
+> Never mention Jira in any copy. Name CRM platforms (Salesforce, HubSpot) instead.
+
 - Calendar (meetings pulled from your calendar)
-- Jira (tasks/tickets)
 - Calendly and Cal.com (follow-ups / scheduling)
-- CRM (field updates)
+- CRM: Salesforce, HubSpot (field updates)
 - MCP: "connect anything via MCP"
 
 ## Target users / use cases
 - Sales & customer-facing teams (CRM auto-updates, call prep with past context)
-- Product / engineering teams (Jira tickets from meetings)
+- Product teams (every customer conversation searchable)
 - Founders, managers, consultants with back-to-back meetings
 - Teams in regulated industries or regions needing data residency
 - Multilingual / global teams; in-person meetings and interviews
@@ -68,10 +68,10 @@
 
 - **Name:** Lynkk
 - **Tagline (≤60 chars):** Your AI teammate for every meeting: before, during, after
-- **Short description (≤160 chars):** Lynkk joins your meetings, speaks when needed, remembers everything, and turns every conversation into notes, tasks, CRM updates and Jira tickets.
+- **Short description (≤160 chars):** Lynkk joins your meetings, speaks when needed, remembers everything, and turns every conversation into notes, tasks and Salesforce or HubSpot updates.
 - **Long description:**
-  Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and speaks when you need it: ask for past context, pull up documents, and get answers live by voice. Within 30 seconds after, you get structured notes, assigned action items, updated CRM fields, created Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Jira, Calendly, Cal.com, or anything via MCP. Start free.
-- **Tags:** AI meeting assistant, AI note taker, meeting notes, conversation intelligence, transcription, productivity, sales, CRM automation, Jira, knowledge graph, MCP
+  Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and speaks when you need it: ask for past context, pull up documents, and get answers live by voice. Within 30 seconds after, you get structured notes, assigned action items, updated CRM fields in Salesforce or HubSpot, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Salesforce, HubSpot, Calendly, Cal.com, or anything via MCP. Start free.
+- **Tags:** AI meeting assistant, AI note taker, meeting notes, conversation intelligence, transcription, productivity, sales, CRM automation, Salesforce, HubSpot, knowledge graph, MCP
 
 ## To confirm before submitting
 - [ ] Paid plan names, prices, and free-tier limits
