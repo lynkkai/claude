@@ -8,7 +8,9 @@ description: >
   product demo video, teaser, trailer, show reel, animated logo, "motion graphics", a
   9:16 / vertical cut, or asks to animate a UI, a Figma design or a screenshot, and also
   when they just say "make something that shows off X" and a moving picture is the obvious
-  answer. Use it even if they do not say the word "video".
+  answer. Use it even if they do not say the word "video". This repo's videos are Lynkk
+  videos: for any Lynkk piece, read references/lynkk.md first, since it carries the
+  approved story, the on-screen lines, the spelling and claim rules, and ready shot lists.
 ---
 
 # Motion graphics video, rendered from code
@@ -72,9 +74,13 @@ videos reuse it rather than re-deriving it. If something is missing, ask once fo
 things that would visibly change the output (logo, fonts, screenshots) and proceed with
 documented stand-ins for the rest.
 
-In this repo, Lynkk brand facts live in `memory/lynkk-brand.md` and the house writing
-rules in `CLAUDE.md`. Read both for any Lynkk video and follow the no-dashes rule in
-every on-screen word.
+**For Lynkk, start from the preset.** `references/lynkk.md` has the approved
+before/during/after story, the on-screen lines drawn from site copy, the spelling and
+claim rules, the asset gate and three ready shot lists (15 second launch film, 20 second
+explainer with voiceover, 10 second vertical cut). Read it together with
+`memory/lynkk-brand.md` and the writing rules in `CLAUDE.md`, and use
+`assets/lynkk-tokens.css` as a clearly labelled stand-in until the real logo, colors and
+fonts arrive.
 
 ### 2. Set the direction, in motion language
 
@@ -183,6 +189,7 @@ the timeline, not by cropping the 16:9 master, since cropping destroys the compo
 
 ## Reference files
 
+- `references/lynkk.md`: the Lynkk preset. Read first for any Lynkk video.
 - `references/motion-studio-rules.md`: the render contract, banned generic patterns,
   motion craft rules. Read before building the timeline.
 - `references/reference-mining.md`: turning a reference video into a style guide.
@@ -193,4 +200,5 @@ the timeline, not by cropping the 16:9 master, since cropping destroys the compo
 - `references/critique-loop.md`: the scoring rubric and the iteration protocol.
 - `references/delivery.md`: aspect ratios, encode settings, caption burn-in.
 - `assets/timeline-template.html`: contract-compliant starter timeline.
+- `assets/lynkk-tokens.css`: placeholder Lynkk tokens, to be replaced with real ones.
 - `scripts/render.mjs`: the frame-by-frame renderer and encoder.

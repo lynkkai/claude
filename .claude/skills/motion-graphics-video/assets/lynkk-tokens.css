@@ -1,0 +1,36 @@
+/* PLACEHOLDER Lynkk tokens.
+   These are neutral stand-ins so a build can start before the real brand assets land.
+   They are NOT Lynkk's palette or type. Replace every value here with the confirmed
+   brand tokens before anything ships, and say in the handover that a build used
+   placeholders. Guessing a palette is how a video ends up looking like a different
+   company with a similar name. */
+
+:root {
+  /* Base */
+  --bg:        #0e1014;  /* deep neutral, reads well behind product UI */
+  --bg-soft:   #171a20;
+  --ink:       #f4f6f8;
+  --ink-muted: #a4adba;
+  --line:      #262b33;
+
+  /* Accent: one color, used only where attention belongs */
+  --accent:     #4c7dff;
+  --accent-ink: #ffffff;
+
+  /* Semantic, for the after-meeting beats */
+  --done:   #35c08a;  /* action item assigned, ticket created */
+  --live:   #ff5a5f;  /* recording or in-meeting indicator */
+
+  /* Type: replace with the licensed brand family */
+  --font-display: system-ui, "Segoe UI", sans-serif;
+  --font-ui:      system-ui, "Segoe UI", sans-serif;
+  --tracking-display: -0.02em;
+
+  /* Motion */
+  --ease-entrance: cubic-bezier(.22, 1, .36, 1);
+  --ease-exit:     cubic-bezier(.4, 0, 1, 1);
+  --stagger:       0.06s;  /* 60 ms between members of a group */
+
+  /* Safe margins: keep type and logos inside this on every aspect */
+  --safe: 6%;
+}
