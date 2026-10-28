@@ -130,6 +130,66 @@ Lynkk: pick the region where every model processes your data [Platform]. Instant
 
 ---
 
+## Part 3: More pain points
+
+### Knowledge and onboarding
+
+**29. Knowledge walks out the door when people leave.**
+About 42% of institutional knowledge is unique to one employee (Panopto, via HR Dive). ([HR Dive](https://www.hrdive.com/news/inefficient-knowledge-sharing-costs-large-us-businesses-47m-a-year/527892/))
+Lynkk: every customer and team conversation stays in the knowledge graph [Platform], and Ask Lynkk answers from it [Mac, Pro]. *To confirm: team sharing and what happens to a departing user's notes.*
+
+**30. New hires take months to ramp up.**
+Estimates for full productivity range from about 5 to 12 months. ([Stealth Agents](https://stealthagents.com/research/remote-work-knowledge-transfer-statistics-2026))
+Lynkk: new reps can read and search real past calls to learn how deals and customers were handled. [Mac, Pro] *Same team sharing caveat as above.*
+
+### Remote and async teams
+
+**31. Meetings across time zones mean someone always misses out.**
+Roughly 1 in 3 meetings cross time zones (Microsoft telemetry, via Stealth Agents). 68% of employees say they lack enough focus time (Microsoft Work Trend Index 2024). ([Stealth Agents](https://stealthagents.com/research/remote-work-time-zone-management-statistics-2026))
+Lynkk: whoever attends records it, and everyone else catches up from the summary and action items in two minutes. [Mac]
+
+### Tools and IT
+
+**32. Paying for a notetaker and a separate dictation app.**
+45% of employees say switching between tools makes them less productive (Lokalise). ([Lokalise](https://lokalise.com/blog/blog-tool-fatigue-productivity-report/))
+Lynkk: one menu bar app for call notes and dictation in any app. [Mac]
+
+**33. Notetakers ask for full calendar and email access.**
+Security teams push back on tools that read every calendar and inbox.
+Lynkk: the Mac app needs no calendar connection. It asks for three permissions (Microphone, System audio, Accessibility), is signed and notarized by Apple, and is about 6 MB. [Mac]
+
+**34. Recording tools clutter the screen during demos.**
+Lynkk: lives in the menu bar, and the recording card tucks into a tab at the screen edge. [Mac]
+
+**35. It's hard to prove a tool's value to finance.**
+Lynkk: the dictation dashboard tracks words dictated, time saved and words per minute. [Mac]
+
+### Health and accessibility
+
+**36. Typing all day is tiring and can hurt.**
+In Great Britain, about 511,000 workers had a work-related musculoskeletal disorder in 2024/25 (HSE, all causes, not just keyboards). ([Yaps](https://www.yaps.ai/blog/voice-input-rsi-accessibility.md))
+Lynkk: hold fn and speak instead of typing, or press fn twice for hands-free mode. [Mac] *Say "type less", not medical claims like "prevents RSI".*
+
+### More roles
+
+**37. Founders lose track of dozens of investor conversations.**
+Lynkk: ask "Which investors asked about churn?" across every call [Mac, Pro], and get context before each follow-up [Platform].
+
+**38. Freelancers and agencies fight scope creep.**
+Clients say "that was included" months later.
+Lynkk: the transcript, with timestamps, shows what was actually agreed. [Mac]
+
+**39. Managers forget what they promised in 1:1s.**
+Lynkk: action items from each 1:1 [Mac] and context before the next one [Platform]. *Only with the report's consent. 1:1s are sensitive.*
+
+**40. Researchers, journalists and podcasters spend hours transcribing interviews.**
+Lynkk: a full transcript of FaceTime, WhatsApp and Zoom interviews [Mac] and of in-person interviews [Platform], with timestamps to check quotes. *Always get consent.*
+
+**41. Calls happen on whatever app the customer prefers.**
+Lynkk: the same capture on Zoom, Meet, Teams, Slack huddles, WhatsApp, FaceTime and Webex, so nobody has to switch platforms. [Mac]
+
+---
+
 ## Suggested headline for each team
 
 | Team | Headline |
