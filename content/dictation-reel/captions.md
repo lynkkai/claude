@@ -122,3 +122,98 @@ Dictation is one piece of Lynkk. The rest of it joins your meetings, remembers w
 Curious: how much of your day is still spent typing things you could have just said? 💜
 
 #Productivity #AI #FutureOfWork #VoiceAI #Dictation #Lynkk #RemoteWork
+
+---
+
+## X / Twitter
+
+X has no bold button, and Unicode bold characters count as 𝟮 against the 280
+limit (and read badly in screen readers). So: plain text for the 280 version,
+Unicode bold only in the longer Premium version below.
+
+### Option A: single post, with the video (recommended)
+
+⌨️ Your keyboard can finally talk back.
+
+Hold fn. Say it messy. Clean text lands wherever your cursor is.
+
+🎙️ ums and uhs cleaned up
+💬 works in any app
+🌍 Hinglish, in English letters
+🗣️ 18 languages
+⏱️ unlimited words
+
+✨ Free on every plan.
+
+🍎 Mac: lynkk.ai
+
+### Option B: short and punchy
+
+⌨️ Hold fn. Talk however it comes out.
+
+Lynkk Dictation drops clean text wherever your cursor is, in any app on your Mac.
+
+18 languages. Hinglish in English letters. Unlimited words.
+
+✨ Free on every plan 👉 lynkk.ai
+
+### Option C: the Hinglish angle
+
+⌨️ Most dictation apps break the second you say:
+
+"kal meeting shift kar dete hain, Friday better rahega"
+
+Lynkk Dictation writes it back exactly like that, in English letters. 18 languages, mid sentence switching, unlimited words.
+
+✨ Free on every plan 🍎 lynkk.ai
+
+### Option D: thread (post the reel on tweet 1)
+
+𝟭/
+⌨️ Your keyboard can finally talk back.
+
+Hold fn, say it however it comes out, and clean text appears wherever your cursor is.
+
+Here is 30 seconds of it 👇
+
+𝟮/
+🎙️ You do not have to speak in finished sentences.
+
+Ums, uhs, "so like", false starts, restarts. Say it messy. You get the clean version.
+
+𝟯/
+💬 It works in any app, not in its own window.
+
+Slack, Chrome, Notion, email, your code editor. Wherever the cursor is, that is where the text goes.
+
+𝟰/
+🌍 And it speaks the way people actually speak.
+
+"kal meeting shift kar dete hain" comes back in English letters, exactly like that. 18 languages, switchable mid sentence.
+
+𝟱/
+⏱️ No word counter. No trial countdown.
+
+✨ Lynkk Dictation is free on every plan, with unlimited words.
+
+🍎 Download for Mac: lynkk.ai
+(Apple silicon, macOS 14.2 or later)
+
+### Premium (long post) version, with Unicode bold
+
+⌨️ 𝗬𝗼𝘂𝗿 𝗸𝗲𝘆𝗯𝗼𝗮𝗿𝗱 𝗰𝗮𝗻 𝗳𝗶𝗻𝗮𝗹𝗹𝘆 𝘁𝗮𝗹𝗸 𝗯𝗮𝗰𝗸.
+
+Hold 𝗳𝗻, say it messy, and Lynkk Dictation drops clean text wherever your cursor is.
+
+🎙️ 𝗦𝗮𝘆 𝗶𝘁 𝗺𝗲𝘀𝘀𝘆. Ums, uhs and half sentences get cleaned up.
+💬 𝗔𝗻𝘆 𝗮𝗽𝗽. Slack, Chrome, Notion, email, your editor.
+🌍 𝗛𝗶𝗻𝗴𝗹𝗶𝘀𝗵, 𝗶𝗻 𝗘𝗻𝗴𝗹𝗶𝘀𝗵 𝗹𝗲𝘁𝘁𝗲𝗿𝘀. Speak how you actually speak.
+🗣️ 𝟭𝟴 𝗹𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀, switchable mid sentence.
+⏱️ 𝗧𝗮𝗹𝗸 𝗮𝗹𝗹 𝗱𝗮𝘆. Unlimited words.
+
+✨ 𝗙𝗿𝗲𝗲 𝗼𝗻 𝗲𝘃𝗲𝗿𝘆 𝗽𝗹𝗮𝗻. Not a trial.
+
+🍎 Download for Mac: 𝗹𝘆𝗻𝗸𝗸.𝗮𝗶
+Apple silicon, macOS 14.2 or later.
+
+Stop typing what you could just say. 💜
