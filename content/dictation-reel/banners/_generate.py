@@ -151,7 +151,58 @@ def thumb(w, h):
 HEAD = 'Hold <em>fn</em>.<br>Say it messy.'
 SUB  = 'Lynkk Dictation turns your voice into clean text, right where your cursor is. In any app on your Mac.'
 
+
+def reel(w, h, guides=False):
+    g = ""
+    if guides:
+        g = """<div class="g gtop"></div><div class="g gbot"></div>
+        <div class="g gright"></div><div class="grid"></div>
+        <div class="glabel gl1">top UI zone</div>
+        <div class="glabel gl2">caption / buttons zone</div>
+        <div class="glabel gl3">profile grid crop (1:1)</div>"""
+    body = f"""
+    <div class="col">
+      <div class="hero">{KEYCAP}{ROBOT}</div>
+      <div class="free">Free on every plan</div>
+      <h1>Hold <em>fn</em>.<br>Say it messy.</h1>
+      <div class="sub">Clean text appears right where your<br>cursor is. In any app on your Mac.</div>
+      <div class="pills"><div class="pill">Any app</div><div class="pill">18 languages</div>
+        <div class="pill">Unlimited words</div></div>
+      <div class="foot">{LOGO}<div><div class="brand">Lynkk Dictation</div>
+        <div class="url">lynkk.ai &middot; Download for Mac</div></div></div>
+    </div>""" + g
+    extra = """
+    .col{flex:1;padding:330px 80px 430px;display:flex;flex-direction:column;
+      align-items:center;text-align:center;justify-content:center;gap:30px}
+    .hero{position:relative;width:420px;height:330px;display:flex;align-items:center;
+      justify-content:center;margin-bottom:14px}
+    .free{padding:13px 30px;font-size:30px}
+    h1{font-size:116px}
+    .sub{font-size:36px;line-height:1.38}
+    .pills{gap:14px;justify-content:center}
+    .pill{padding:13px 26px;font-size:27px}
+    .foot{gap:20px;margin-top:22px}
+    .foot img{width:84px;height:84px}
+    .brand{font-size:38px} .url{font-size:29px;margin-top:4px}
+    .keytop{width:300px;height:300px} .keytop span{font-size:130px}
+    .bot{width:178px;right:-14px;top:-26px}
+    .g{position:absolute;left:0;right:0;z-index:9;background:rgba(255,80,80,.17);
+       border-top:2px dashed rgba(255,120,120,.75);border-bottom:2px dashed rgba(255,120,120,.75)}
+    .gtop{top:0;height:250px}
+    .gbot{bottom:0;height:420px}
+    .gright{top:250px;bottom:420px;left:auto;right:0;width:180px;
+       background:rgba(255,80,80,.12);border:2px dashed rgba(255,120,120,.6)}
+    .grid{position:absolute;z-index:9;left:0;width:1080px;height:1080px;top:420px;
+       border:3px solid rgba(90,220,255,.85)}
+    .glabel{position:absolute;z-index:10;color:#fff;font-size:26px;font-weight:700;
+       font-family:'Inter',sans-serif;left:28px}
+    .gl1{top:104px} .gl2{bottom:190px} .gl3{top:440px;color:#5ADCFF}
+    """
+    return page(w, h, body, extra)
+
 VARIANTS = [
+    ("instagram-reel-cover-1080x1920.png", 1080, 1920, reel(1080,1920)),
+    ("instagram-reel-cover-1080x1920-SAFEZONE.png", 1080, 1920, reel(1080,1920,True)),
     ("instagram-1080x1350.png", 1080, 1350, vertical(1080,1350,HEAD,SUB,1.0)),
     ("instagram-square-1080x1080.png", 1080, 1080, vertical(1080,1080,HEAD,SUB,0.92)),
     ("facebook-1200x630.png", 1200, 630, horizontal(1200,630,HEAD,SUB,1.0)),
