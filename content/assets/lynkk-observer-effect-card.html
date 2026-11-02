@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --surface:#0B0F14;
+    --surface-lift:#121821;
+    --ink:#F4F7FA;
+    --ink-secondary:#AEBAC7;
+    --ink-muted:#6B7A8A;
+    --accent:#4DA3FF;
+    --hairline:rgba(244,247,250,.10);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px}
+  body{
+    background:var(--surface);
+    font-family:Inter,system-ui,sans-serif;
+    color:var(--ink);
+    display:flex;flex-direction:column;
+    padding:84px 88px;
+    position:relative;overflow:hidden;
+  }
+  .glow{
+    position:absolute;width:900px;height:900px;border-radius:50%;
+    background:radial-gradient(circle,rgba(77,163,255,.16) 0%,rgba(77,163,255,0) 68%);
+    top:-190px;right:-300px;pointer-events:none;
+  }
+  .eyebrow{
+    display:flex;align-items:center;gap:14px;
+    font-size:21px;font-weight:600;letter-spacing:.20em;
+    text-transform:uppercase;color:var(--ink-muted);
+  }
+  .eyebrow .dot{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+  .mid{flex:1;display:flex;flex-direction:column;justify-content:center;padding-bottom:4px}
+  .figure{
+    font-size:372px;line-height:.86;font-weight:800;
+    letter-spacing:-.045em;color:var(--accent);
+  }
+  .figure .pct{font-size:190px;letter-spacing:-.02em}
+  .caption{
+    margin-top:44px;
+    font-size:61px;line-height:1.24;font-weight:600;
+    letter-spacing:-.018em;max-width:878px;color:var(--ink);
+  }
+  .caption em{color:var(--ink-secondary);font-style:normal}
+  .src{margin-top:40px;font-size:23px;font-weight:500;color:var(--ink-muted);letter-spacing:.01em}
+  .turn{
+    border-top:1px solid var(--hairline);
+    padding-top:40px;display:flex;align-items:flex-end;justify-content:space-between;gap:40px;
+  }
+  .turn p{font-size:33px;line-height:1.42;font-weight:500;color:var(--ink-secondary);max-width:640px}
+  .turn p b{color:var(--ink);font-weight:600}
+  .mark{font-size:36px;font-weight:800;letter-spacing:-.02em;color:var(--ink);white-space:nowrap}
+  .mark span{color:var(--accent)}
+</style>
+</head>
+<body>
+  <div class="glow"></div>
+  <div class="eyebrow"><span class="dot"></span>The observer effect</div>
+  <div class="mid">
+    <div class="figure">84<span class="pct">%</span></div>
+    <div class="caption">of people change how they speak <em>when an AI notetaker is in the room.</em></div>
+    <div class="src">Source: Fellow survey, 2026</div>
+  </div>
+  <div class="turn">
+    <p><b>We build meeting AI.</b> So let's talk about what recording does to the conversation itself.</p>
+    <div class="mark">lynkk<span>.ai</span></div>
+  </div>
+</body>
+</html>
