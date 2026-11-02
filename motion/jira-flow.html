@@ -1,0 +1,118 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#070a12;
+  font-family:"Inter Display","Inter",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.stage{position:relative;width:1920px;height:1080px;
+  background:radial-gradient(1200px 700px at 20% -10%,#17203a 0%,#0a0e18 55%,#070a12 100%)}
+.panel{position:absolute;border-radius:22px;background:#0f1522;
+  border:1px solid rgba(255,255,255,.07);box-shadow:0 30px 80px rgba(0,0,0,.55)}
+#note{left:120px;top:170px;width:780px;height:740px;padding:40px 42px}
+#board{right:120px;top:170px;width:720px;height:740px;padding:40px 38px}
+.eyebrow{font-size:19px;letter-spacing:.14em;text-transform:uppercase;color:#6c7a94;font-weight:600}
+h2{font-size:38px;color:#eef2fa;margin-top:14px;font-weight:600;letter-spacing:-.01em}
+.sub{font-size:21px;color:#7f8da6;margin-top:10px}
+.item{display:flex;gap:18px;align-items:flex-start;margin-top:26px;padding:20px 22px;
+  border-radius:16px;background:#141c2d;border:1px solid rgba(255,255,255,.06);opacity:0}
+.check{width:26px;height:26px;border-radius:8px;border:2px solid #7c5cff;flex:0 0 26px;margin-top:3px;
+  position:relative}
+.check:after{content:"";position:absolute;inset:4px;border-radius:4px;background:#7c5cff;opacity:0}
+.itxt{font-size:23px;color:#dde4f0;line-height:1.45}
+.who{font-size:18px;color:#7a88a2;margin-top:8px}
+#btn{position:absolute;left:42px;bottom:40px;display:flex;align-items:center;gap:14px;
+  padding:18px 30px;border-radius:14px;background:#1b2436;border:1px solid rgba(124,92,255,.35);
+  font-size:22px;color:#cfd7e6;font-weight:600;opacity:0}
+#btn .jd{width:26px;height:26px;border-radius:6px;background:#2684ff}
+#ripple{position:absolute;left:42px;bottom:40px;width:300px;height:62px;border-radius:14px;
+  background:#7c5cff;opacity:0}
+#cursor{position:absolute;left:0;top:0;width:28px;height:28px;z-index:40;opacity:0;
+  filter:drop-shadow(0 4px 10px rgba(0,0,0,.6))}
+.ticket{display:flex;gap:16px;align-items:flex-start;margin-top:24px;padding:22px 24px;
+  border-radius:16px;background:#131b2b;border:1px solid rgba(38,132,255,.28);opacity:0}
+.jicon{width:34px;height:34px;border-radius:8px;background:#2684ff;flex:0 0 34px;
+  display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px;font-weight:700}
+.key{font-size:17px;color:#5fa8ff;font-weight:700;letter-spacing:.06em}
+.sum{font-size:21px;color:#dde4f0;margin-top:6px;line-height:1.4}
+.chip{display:inline-block;margin-top:12px;padding:6px 14px;border-radius:999px;
+  font-size:15px;font-weight:600;color:#9fb2cc;background:#1b2436;border:1px solid rgba(255,255,255,.08)}
+#toast{position:absolute;left:50%;bottom:72px;transform:translateX(-50%);
+  display:flex;align-items:center;gap:16px;padding:20px 34px;border-radius:999px;
+  background:rgba(12,18,30,.92);border:1px solid rgba(124,92,255,.4);
+  box-shadow:0 20px 60px rgba(0,0,0,.6);font-size:24px;color:#eef2fa;font-weight:600;opacity:0}
+#toast .dot{width:30px;height:30px;border-radius:50%;background:#7c5cff;
+  display:flex;align-items:center;justify-content:center;color:#fff;font-size:17px;font-weight:800}
+</style></head>
+<body><div class="stage">
+  <div class="panel" id="note">
+    <div class="eyebrow">Meeting note</div>
+    <h2>Sprint planning, 2 Nov</h2>
+    <div class="sub">Lynkk captured 3 action items</div>
+    <div class="item" id="i0"><div class="check"></div><div>
+      <div class="itxt">Fix onboarding drop-off on step 2</div><div class="who">Priya, due Fri</div></div></div>
+    <div class="item" id="i1"><div class="check"></div><div>
+      <div class="itxt">Draft pricing page copy for the new tier</div><div class="who">Shubham, due Thu</div></div></div>
+    <div class="item" id="i2"><div class="check"></div><div>
+      <div class="itxt">Spike: offline sync conflict handling</div><div class="who">Arjun, due next sprint</div></div></div>
+    <div id="ripple"></div>
+    <div id="btn"><div class="jd"></div>Send to Jira</div>
+  </div>
+  <div class="panel" id="board">
+    <div class="eyebrow">Jira, project LYN</div>
+    <h2>Team board</h2>
+    <div class="sub">One issue per action item</div>
+    <div class="ticket" id="t0"><div class="jicon">J</div><div>
+      <div class="key">LYN-142</div><div class="sum">Fix onboarding drop-off on step 2</div>
+      <div class="chip">To Do</div></div></div>
+    <div class="ticket" id="t1"><div class="jicon">J</div><div>
+      <div class="key">LYN-143</div><div class="sum">Draft pricing page copy for the new tier</div>
+      <div class="chip">To Do</div></div></div>
+    <div class="ticket" id="t2"><div class="jicon">J</div><div>
+      <div class="key">LYN-144</div><div class="sum">Spike: offline sync conflict handling</div>
+      <div class="chip">To Do</div></div></div>
+  </div>
+  <svg id="cursor" viewBox="0 0 24 24"><path d="M5 2l14 9-6 1.2 3.2 6.3-2.6 1.3-3.2-6.3L6 17z" fill="#fff" stroke="#111" stroke-width="1"/></svg>
+  <div id="toast"><div class="dot">&#10003;</div>3 issues created in LYN</div>
+</div>
+<script>
+const E=document.querySelector.bind(document);
+const EASE='cubic-bezier(.22,.8,.26,1)';
+const A=[];
+function anim(el,kf,opt){const a=el.animate(kf,{fill:'both',easing:EASE,...opt});a.pause();A.push(a);return a}
+// action items stagger in
+[0,1,2].forEach(i=>{
+  anim(E('#i'+i),[{opacity:0,transform:'translateY(26px) scale(.985)'},{opacity:1,transform:'none'}],
+       {duration:520,delay:500+i*260});
+  anim(E('#i'+i+' .check').querySelector?E('#i'+i):E('#i'+i),[{}],{duration:1});
+});
+// checkmarks fill
+[0,1,2].forEach(i=>{
+  const c=E('#i'+i+' .check');
+  const a=c.animate([{opacity:0},{opacity:1}],{fill:'both',duration:1});a.pause();
+  const b=document.querySelector('#i'+i+' .check');
+  const s=b.animate([{boxShadow:'0 0 0 0 rgba(124,92,255,0)'},{boxShadow:'0 0 0 6px rgba(124,92,255,.18)'},{boxShadow:'0 0 0 0 rgba(124,92,255,0)'}],
+    {fill:'both',duration:700,delay:600+i*260});s.pause();A.push(a,s);
+});
+anim(E('#btn'),[{opacity:0,transform:'translateY(14px)'},{opacity:1,transform:'none'}],{duration:420,delay:1500});
+// cursor path
+const cur=E('#cursor');
+anim(cur,[{opacity:0},{opacity:1}],{duration:260,delay:2050});
+anim(cur,[{transform:'translate(1180px,760px)'},{transform:'translate(300px,905px)'}],{duration:850,delay:2150});
+anim(cur,[{transform:'scale(1)'},{transform:'scale(.82)'},{transform:'scale(1)'}],{duration:260,delay:3050,composite:'add'});
+anim(cur,[{opacity:1},{opacity:0}],{duration:300,delay:3500});
+// button press + ripple
+anim(E('#btn'),[{transform:'scale(1)'},{transform:'scale(.96)'},{transform:'scale(1)'}],{duration:280,delay:3050,composite:'add'});
+anim(E('#ripple'),[{opacity:.0,transform:'scale(.9)'},{opacity:.30,transform:'scale(1.06)'},{opacity:0,transform:'scale(1.3)'}],
+     {duration:760,delay:3080});
+// tickets fly in
+[0,1,2].forEach(i=>{
+  anim(E('#t'+i),[{opacity:0,transform:'translateX(-120px) translateY(10px) scale(.94)'},
+                  {opacity:1,transform:'none'}],{duration:640,delay:3450+i*300});
+  anim(E('#t'+i),[{boxShadow:'0 0 0 0 rgba(38,132,255,0)'},{boxShadow:'0 0 0 8px rgba(38,132,255,.14)'},
+                  {boxShadow:'0 0 0 0 rgba(38,132,255,0)'}],{duration:900,delay:3500+i*300});
+});
+anim(E('#toast'),[{opacity:0,transform:'translateX(-50%) translateY(20px)'},
+                  {opacity:1,transform:'translateX(-50%) translateY(0)'}],{duration:480,delay:5300});
+window.__seek=t=>{A.forEach(a=>{a.currentTime=t});};
+window.__seek(0);
+</script></body></html>
