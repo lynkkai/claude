@@ -7,8 +7,9 @@ author_role: "[Author Title]"
 category: "How-To Guides"
 tags: ["ai note taker", "in-person meetings", "transcription", "sales", "meeting notes"]
 image: "/images/blog/2026-11-02-ai-note-taker-in-person-meetings/cover.png"
-image_alt: "A phone and a laptop on a meeting room table between four people, recording"
-cover_concept: "Overhead shot of a table with a laptop open and a phone placed between two seats, not in the centre. Illustrates the mic-placement point."
+image_alt: "Overhead plan of a meeting table with four seats, a recorder placed off-centre, and its pickup range covering only the two nearest seats"
+cover_theme: dark (site dark section style); light variant at cover-light.png
+cover_concept: "Table plan in the site dark theme: recorder on the table nearer the right-hand pair, concentric pickup rings centred on it, left seats falling outside the range."
 draft: true
 featured: false
 reading_time: "8 min read"

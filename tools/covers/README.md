@@ -9,7 +9,8 @@ Builds 1200x630 blog/Medium cover images from the **live lynkk.ai design kit**, 
 python3 -I build.py && node shoot.js
 ```
 
-Output lands in `out/<slug>.png`. Copy into `content/blog/images/<slug>/cover.png`.
+Output lands in `out/<slug>.png` (dark, the primary) and `out-light/<slug>.png` (light variant).
+Copy into `content/blog/images/<slug>/cover.png` and `cover-light.png`.
 
 ## Where the design tokens came from
 
@@ -45,3 +46,29 @@ dict at the top of `build.py`:
 - Fonts load from Google Fonts at render time, so rendering needs network access.
 - Each cover's illustration is hand-built SVG/HTML per article, not a reusable template. Adding a
   fifth cover means writing a fifth `art` block.
+
+## Dark theme (the default output)
+
+The marketing site runs the `grid` token set, whose dark variant lives on
+`html[data-ds=round][data-tokens=grid].dark, [data-tokens=grid] .theme-dark`. Those exact values:
+
+| Token | Dark value | Source |
+|---|---|---|
+| background | `#111111` | `--lk-bg` -> `--gr-black` |
+| surface | `#171717` | `--lk-surface` -> `--gr-coal` |
+| fill | `#1d1d1d` | `--lk-fill` -> `--gr-coal-2` |
+| line | `#292c31` | `--lk-line` -> `--gr-rule-night` |
+| line-soft | `#1f2125` | `--lk-line-soft` |
+| ink | `#ffffff` | `--lk-ink` -> `--gr-white` |
+| ink-2 / ink-3 | `#ffffff80` / `#ffffff57` | `--lk-ink-2` / `--lk-ink-3` |
+| hairline / ring | `#ffffff1a` | `--gr-ring` |
+
+Two substitutions the token set does not make for you, both deliberate:
+
+- **Accent text** uses `--gr-lavender` `#beb4fb` rather than `--gr-violet` `#7063be`, which is too
+  dark to read as text on `#111`. Violet is still used for fills and strokes.
+- **Live red** uses `--lk-live-400` `#ff6157` with `--lk-live-300` `#ff8a82` for text, rather than
+  `--lk-live-500` `#e5484d`, for the same reason.
+
+The table surface swaps `--gr-sand` for `--gr-coal-3` `#2e2e2e`, and the dot grid inverts to white
+at low alpha, mirroring how `--gr-ring` handles hairlines on dark.

@@ -7,8 +7,9 @@ author_role: "[Author Title]"
 category: "Industry Analysis"
 tags: ["crm", "sales", "revenue operations", "forecasting", "ai note taker"]
 image: "/images/blog/2026-11-02-crm-graveyard-call-notes/cover.png"
-image_alt: "A CRM deal record with an almost empty notes field reading 'good call, sending proposal'"
-cover_concept: "A screenshot-style crop of a deal record where the notes field holds four words. The emptiness is the image."
+image_alt: "A CRM deal record whose call notes field holds four words in an otherwise empty box"
+cover_theme: dark (site dark section style); light variant at cover-light.png
+cover_concept: "Deal record in the site dark theme, with the notes field as a recessed well holding four words and a cursor. The emptiness is the image."
 draft: true
 featured: false
 reading_time: "6 min read"

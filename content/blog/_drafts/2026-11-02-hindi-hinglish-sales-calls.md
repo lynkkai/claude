@@ -7,8 +7,9 @@ author_role: "[Author Title]"
 category: "How-To Guides"
 tags: ["hinglish", "hindi transcription", "india", "sales", "ai note taker"]
 image: "/images/blog/2026-11-02-hindi-hinglish-sales-calls/cover.png"
-image_alt: "A transcript line showing a sentence switching between Hindi and English mid-way"
-cover_concept: "A single transcript line rendered large, with the Hindi and English segments in different weights to show the switch point."
+image_alt: "A transcript line where the opening Hinglish clause is highlighted and the rest of the sentence continues in English"
+cover_theme: dark (site dark section style); light variant at cover-light.png
+cover_concept: "Transcript line in the site dark theme, with the Hinglish clause on a violet bed and the switch point visible mid-sentence."
 draft: true
 featured: false
 reading_time: "5 min read"

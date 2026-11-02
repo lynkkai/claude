@@ -7,8 +7,9 @@ author_role: "[Author Title]"
 category: "Industry Analysis"
 tags: ["ai note taker", "bot free", "meeting bot", "privacy", "sales"]
 image: "/images/blog/2026-11-02-bot-free-ai-note-takers/cover.png"
-image_alt: "A video call participant list showing an unnamed notetaker bot among the people"
-cover_concept: "A participant list where every tile is a person except one, labelled 'Priya's Notetaker'. Makes the whole argument in one image."
+image_alt: "A video call participant list of three named people and one dashed, highlighted row for a notetaker bot"
+cover_theme: dark (site dark section style); light variant at cover-light.png
+cover_concept: "Participant list in the site dark theme: three plain rows, then the bot row picked out in dashed red. Makes the whole argument in one image."
 draft: true
 featured: false
 reading_time: "5 min read"
