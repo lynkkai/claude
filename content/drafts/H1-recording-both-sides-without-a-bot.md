@@ -68,7 +68,7 @@ asking for "screen recording" in order to capture audio, and users reasonably fi
 
 > **[ENGINEER INPUT REQUIRED]** Which API does the Lynkk Mac app actually use, and what is the
 > permission copy? This section needs the real implementation and the real prompt text, plus the
-> minimum supported macOS version. I have described the general landscape, not our build, and I am
+> minimum supported macOS version. I have described the general approaches, not our build, and I am
 > not going to guess at our own code.
 
 Three constraints fall out of whichever route you take:
