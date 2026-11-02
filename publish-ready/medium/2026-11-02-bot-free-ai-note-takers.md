@@ -1,7 +1,5 @@
 # AI Note Takers That Do Not Join Your Meeting
 
-*Disclosure: I work on Lynkk, which offers both capture models described here. Lynkk appears once, in a marked section at the end.*
-
 ---
 
 There is a particular silence on a sales call when a notetaker bot joins. The customer stops, looks at the participant list, and says "what's that?"
@@ -74,7 +72,7 @@ Treating this as a vendor-level religious position is the mistake. It is a per-m
 
 ## How Lynkk does it
 
-As disclosed, I work on Lynkk, so this is the vendor's own account.
+I work on Lynkk, so this is the vendor's own account.
 
 Lynkk offers both, for the reason above: neither model covers every meeting. There is a [meeting bot](https://lynkk.ai/features/meeting-bot) you send with a call link or via calendar auto-join, which is on the free plan, and a [Chrome extension](https://lynkk.ai/features/chrome-extension) that records with no bot in the call at all. The Mac app also notices calls, records both sides locally, and records in person.
 

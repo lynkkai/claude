@@ -26,8 +26,6 @@ primary_keyword: CRM hygiene / sales workflow cluster. Weakest search case of th
      On Medium: upload it as the feature image, then DELETE this image line and this
      comment, or the cover will appear twice. -->
 
-*Disclosure: I work on Lynkk, an AI meeting assistant. This post is about the CRM hygiene problem in general. Lynkk appears once, in a marked section at the end.*
-
 **What this covers:** why the incentive is upside down, what bad notes cost in four specific places, what good looks like, and how to roll a fix out without a mutiny.
 
 ---
@@ -101,7 +99,7 @@ That one change does more than any process. It also introduces two new failure m
 
 ## Where Lynkk fits
 
-As disclosed, I work on Lynkk, so treat this as the vendor's account rather than a review.
+I work on Lynkk, so treat this as the vendor's account rather than a review.
 
 Lynkk records Zoom, Google Meet, Microsoft Teams and in-person sales conversations, then writes the notes: a summary, decisions, action items with owners and dates, and a transcript with speakers labelled, where clicking a line plays the call from that moment. The summary and next steps log against the deal in [HubSpot](https://lynkk.ai/integrations/hubspot), [Salesforce](https://lynkk.ai/integrations/salesforce), Pipedrive, Zoho or Attio.
 

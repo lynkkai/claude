@@ -26,8 +26,6 @@ primary_keyword: Hindi / Hinglish transcription for sales calls
      On Medium: upload it as the feature image, then DELETE this image line and this
      comment, or the cover will appear twice. -->
 
-*Disclosure: I work on Lynkk, an AI meeting assistant with a Hinglish mode. Lynkk appears once, in a marked section at the end.*
-
 ---
 
 Here is a sentence from a real kind of sales call:
@@ -94,7 +92,7 @@ The legal position varies by jurisdiction, and India's DPDP Act adds obligations
 
 ## Where Lynkk fits
 
-As disclosed, I work on Lynkk.
+I work on Lynkk.
 
 Lynkk has a dedicated [Hinglish mode](https://lynkk.ai/features/hinglish-transcription) for conversations that switch inside a sentence, which exists because that is the register Indian sales calls are conducted in. It records Zoom, Google Meet and Microsoft Teams calls, and in-person conversations on the Mac, which records with no internet and uploads later. That matters for field sales outside metros.
 

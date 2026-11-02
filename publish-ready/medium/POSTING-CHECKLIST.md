@@ -5,6 +5,10 @@ cover is removed because Medium takes it as the feature image instead.
 
 ## Before you post anything
 
+- [ ] **The affiliation is no longer stated in the text.** The top disclosure line was removed on
+      2026-11-02 at your request. The product section still says "I work on Lynkk". If a post goes
+      out from an account or publication that does not make the Lynkk connection obvious, make it
+      evident in the bio or the publication name.
 - [ ] **A named human edits each draft.** Medium's Distribution Guidelines class AI-generated
       content and content marketing as low-value. These are AI-assisted drafts. Edit them and add
       at least one thing only you know: a real room that went badly, a real blocked bot, a real

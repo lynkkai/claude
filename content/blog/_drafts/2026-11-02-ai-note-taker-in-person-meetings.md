@@ -26,8 +26,6 @@ primary_keyword: "ai note taker for in person meetings" (480/mo, SD 40, CPC $14.
      On Medium: upload it as the feature image, then DELETE this image line and this
      comment, or the cover will appear twice. -->
 
-*Disclosure: I work on Lynkk, an AI meeting assistant. This post covers the in-person capture problem generally. Lynkk appears once, in a marked section at the end.*
-
 **What this covers:** why room audio is a harder problem than call audio, the four ways people capture in person, microphone placement, consent, what a usable note contains, and a checklist for choosing.
 
 ---
@@ -124,7 +122,7 @@ Question 7 deserves more weight than it gets. You are recording other people, of
 
 ## How Lynkk handles it, including the limits
 
-As disclosed, I work on Lynkk, so treat this as the vendor's account rather than a review.
+I work on Lynkk, so treat this as the vendor's account rather than a review.
 
 Lynkk records in-person conversations through the Mac app, and those notes land alongside notes from Zoom, Google Meet and Microsoft Teams calls in one searchable place. You get a summary, decisions, action items with owners, and a transcript with speakers labelled, where clicking a line plays the call from that moment. Action items go to Jira only when you press send.
 
