@@ -28,9 +28,6 @@ people actually ask.
 
 This is about why, and what you have to build instead.
 
-I work on Lynkk, a meeting assistant with account-level memory, so this is written from the
-shipping side rather than the paper side.
-
 ## The queries that break flat RAG
 
 Start from the questions, because the architecture follows from them. In a sales context the real

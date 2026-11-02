@@ -40,7 +40,7 @@ Encryption in transit and at rest. SOC 2, or SOC 2 in progress. We take your pri
 
 Those three sentences appear on essentially every security page in this category, and not one of them answers what a buyer actually wants to know: **what happens to the recording of my customer's voice, and who can hear it?**
 
-I work on a meeting assistant, so I am implicated. That is partly why I want to argue for an uncomfortable standard: in this category, the useful security page is the one that tells you what the product **cannot** do.
+So I want to argue for an uncomfortable standard: in this category, the useful security page is the one that tells you what the product **cannot** do.
 
 ## Four claims that sound like answers
 
@@ -54,13 +54,13 @@ I work on a meeting assistant, so I am implicated. That is partly why I want to 
 
 ## Five questions that discriminate
 
-If I were buying one of these tools, including mine, I would ask these and treat a vague answer as a no.
+If I were buying one of these tools, I would ask these and treat a vague answer as a no.
 
 **Do you train models on my conversations?** The only acceptable answers are "no, never" or a clear description of the opt-in. "We may use aggregated anonymised data to improve our services" is a yes wearing a coat. Get it in the contract, not the marketing page.
 
 **Who are your sub-processors, by name?** Every tool here sends audio to a speech-to-text provider and a language model provider, usually third parties. Your customer's voice is processed by at least two companies you never evaluated. A vendor that will not name them is asking you to accept a supply chain you cannot see.
 
-**Where is it processed, and can I constrain that?** Not where the company is incorporated. Where the audio physically goes. Many vendors, mine included, process across multiple jurisdictions, and the honest ones say so on the page.
+**Where is it processed, and can I constrain that?** Not where the company is incorporated. Where the audio physically goes. Many vendors process across multiple jurisdictions, and the honest ones say so on the page.
 
 **What is the retention default?** How long do you hold the audio, the transcript and the derived notes, and are those three different? Most buyers assume deleting a note deletes the recording.
 
@@ -74,7 +74,7 @@ That is not a flaw to be engineered away. It is the shape of the thing. An end-t
 
 So when a security page leads with "encrypted in transit and at rest" and never mentions this, it is not lying. It is allowing you to form a conclusion the vendor knows is wrong. The buyer walks away believing their customer conversations are sealed, and they are not sealed. They are readable by the service, briefly, to do the job you hired it for.
 
-**I would rather a vendor said that in one sentence.** Lynkk's security page does: "Lynkk isn't end-to-end encrypted, because it has to read a recording to write the note." That sentence is worth more to a buyer than any badge, and not because my employer wrote it. It is worth more because it tells you what else on the page you can trust.
+**I would rather a vendor said that in one sentence.** Lynkk's security page does: "Lynkk isn't end-to-end encrypted, because it has to read a recording to write the note." That sentence is worth more to a buyer than any badge, because it tells you what else on the page you can trust.
 
 ## What a security page should contain
 

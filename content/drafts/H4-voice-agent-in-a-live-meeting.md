@@ -28,9 +28,9 @@ An assistant that participates in a live conversation has none of that. It has r
 one attempt, and a human who will repeat what it says out loud to a customer. Almost every
 architectural decision changes.
 
-I work on Lynkk. Our live assistant, Spotter, is **in development with early access on the Mac
-app**, so this is a post about building toward this problem rather than a claim to have solved it.
-Where I do not have a measured number, I say so.
+Lynkk's live assistant, Spotter, is **in development with early access on the Mac app**, so this is
+a post about building toward this problem rather than a claim to have solved it. Where there is no
+measured number, this says so.
 
 ## The latency budget is the whole design
 

@@ -25,9 +25,6 @@ keeping it right for ninety minutes, across overlapping speech, on one microphon
 where meeting products actually fail. This is about the five failures that matter in production
 and how to measure them.
 
-I work on Lynkk, a meeting assistant, so this is written from the perspective of someone who has
-to ship this rather than benchmark it.
-
 ## The pipeline, briefly
 
 A typical diarization pipeline does four things:

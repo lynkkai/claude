@@ -38,7 +38,7 @@ Three years ago you left a meeting with nothing, or with half a page of your own
 
 Now the harder question: did the follow-through get better?
 
-For most teams I have seen, no. **We replaced the unread handwritten note with an unread AI summary, at considerable expense, and called the problem solved because the artefact got better looking.** I work on a tool in this category, which is part of why I think this needs saying out loud.
+For most teams I have seen, no. **We replaced the unread handwritten note with an unread AI summary, at considerable expense, and called the problem solved because the artefact got better looking.**
 
 ## A summary is retrospective. Follow-through is prospective.
 
@@ -82,7 +82,7 @@ Not through carelessness. They said it out loud in the middle of a conversation 
 
 ## The part no software fixes
 
-A meaningful share of this is not solvable by anybody's product, including mine.
+A meaningful share of this is not solvable by anybody's product.
 
 If your team has back-to-back calls from nine to six, no amount of automated follow-through fixes it, because there is no hour in which follow-through could happen. The recap is not the bottleneck. The calendar is.
 

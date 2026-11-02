@@ -38,7 +38,7 @@ Everything in the AI meeting category so far has been retrospective. The softwar
 
 The next step is visible already, and it is a different thing: software that acts while the conversation is happening. Surfacing the number somebody is trying to remember, pulling up what this customer was quoted four months ago, answering a question the person on the call cannot answer.
 
-**I work on a product building toward this, so read accordingly.** The interesting part is not whether it is technically possible. It is what it does to the social contract of a meeting.
+The interesting part is not whether it is technically possible. It is what it does to the social contract of a meeting.
 
 ## Three things break the moment the AI is live
 

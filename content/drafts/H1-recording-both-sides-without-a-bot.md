@@ -22,7 +22,7 @@ Most meeting assistants join your call as a participant. There is a good enginee
 that, and there is a real alternative. This is about the alternative: capturing both halves of a
 conversation locally, why it is harder than it sounds, and the specific places it goes wrong.
 
-I work on Lynkk, which does both. This post is about the local capture path.
+This post is about the local capture path.
 
 ## Why bots exist, stated fairly
 

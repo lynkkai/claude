@@ -40,7 +40,7 @@ Thirty seconds after a call ends, you have a tidy artefact: bullet points, decis
 
 Nobody wakes up wanting a recap of Tuesday's call. They want to know whether a deal is real, what a customer has been promised, and what has changed since anyone last spoke to them. Those are not questions about a meeting.
 
-They are questions about a relationship, and the answer lives across fifteen conversations rather than inside one. **I work on Lynkk, so I have a stake in this.** The argument stands or falls on its own.
+They are questions about a relationship, and the answer lives across fifteen conversations rather than inside one.
 
 ## Notes inherit a model built for governance
 

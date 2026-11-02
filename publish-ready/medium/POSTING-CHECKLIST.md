@@ -14,7 +14,8 @@ cover is removed because Medium takes it as the feature image instead.
       at least one thing only you know: a real room that went badly, a real blocked bot, a real
       CRM note that cost a deal.
 - [ ] **Decide the byline.** The drafts carry `[Author Name]` placeholders in their frontmatter.
-      Whoever posts needs the "I work on Lynkk" disclosure kept in, at the top, regardless.
+      The top disclosure line has been removed from all 12 articles at your request, so nothing
+      states the affiliation until the product section near the end.
 - [ ] **The Hinglish post needs a Hindi speaker** to check the example sentences and the consent
       line before it goes out.
 - [ ] **Settle the language count.** The site says 17 in the homepage FAQ, "every language" on
