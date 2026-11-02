@@ -59,7 +59,7 @@ circleback, clari-copilot, gong, meetgeek, notta, plaud) and a full set of `/fea
 | **M4** Otter vs Fireflies vs Granola vs Lynkk | "Best Otter.ai Alternatives, Tested (2026)" + 12 `/compare/` pages | **Cut as written.** Heavily covered. |
 | **S3** Where does your meeting audio go | "Is It Legal to Record a Meeting? Consent Rules by State and Country" | **Reframe.** The consent angle is taken. The unclaimed angle is what the /security page admits. |
 | **S1** The meeting is the database | "Meeting Notes vs Minutes" (secondary only) | **Keep.** Thesis is distinct. |
-| **H1** MCP server | Nothing. But see section 3. | **Cut.** Not a product capability. |
+| **H1** MCP server | Nothing. But see section 3. | **Cut, closed.** Not a product capability and not on the roadmap. |
 
 **M2 (bot-free capture)** survives and is now stronger than I thought: `/features/chrome-extension`
 and `/features/meeting-bot` exist as supporting pages, but there is no blog post on the choice
@@ -68,7 +68,10 @@ no in-person capture guide. **H2, H3, H4, S2, S4** are untouched by existing con
 
 ---
 
-## 3. The MCP topic has to go, and it was my top recommendation
+## 3. The MCP topic is cut. It was my top recommendation
+
+> **Resolved 2026-11-02:** the team confirmed **MCP is not on the roadmap**. This topic is closed,
+> not parked. Do not revive it, and do not let the keyword volume tempt it back into a future plan.
 
 I recommended H1 ("mcp server", 60,500/mo at SD 23) as the single biggest opening. I was working
 from the brand memory line "connect anything via MCP".
@@ -79,9 +82,11 @@ Calendar, Slack and Jira. Calendly and Cal.com, also in the old memory file, are
 
 So the keyword opening is real, but Lynkk cannot credibly claim it today. Publishing an MCP build
 post would mean either writing about something Lynkk does not do, or writing a generic MCP tutorial
-with no product tie, which earns traffic that never converts. **Cut unless product confirms MCP is
-shipped or imminent.** If it is on the roadmap, this is worth revisiting, because 60,500/mo at
-SD 23 is still the largest low-difficulty opening I found.
+with no product tie, which earns traffic that never converts. **Cut.** The 60,500/mo at SD 23 was
+the largest low-difficulty opening in the research set, and dropping it is a real cost, but
+ranking for it would bring developers looking for an integration Lynkk does not have. The nearest
+honest substitute is H1-new in section 5, which targets the same developer audience on something
+Lynkk did build.
 
 ---
 
@@ -156,7 +161,6 @@ sales-team positioning:
   participant-list bot exists at all. Targets `bot free ai note taker` (110) and the dev-adjacent
   tail, and it is a real thing Lynkk built. This replaces the MCP post with something Lynkk can
   actually claim.
-- **Hold in reserve:** the MCP post, if product confirms MCP.
 
 ---
 
@@ -191,7 +195,6 @@ external post with matching anchors competing on the same query helps nobody.
    has real query data, and that matters more than anything above. Several of these posts are
    probably ranking on page 2 for terms worth a title rewrite instead of a new article. Export
    Queries and Pages, 6 months, or connect the connector.
-2. **Confirm MCP**: shipped, roadmap or never?
 3. **Confirm accuracy**: is there a measured figure, measured how? If not, we publish none.
 4. **Spotter GA date**, so H4 and S4 describe it correctly.
 5. **Check the full blog list.** I read the `/blog` index, which showed about 28 posts; if there

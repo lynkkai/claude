@@ -71,8 +71,9 @@ Always spell it **Lynkk** / **lynkk.ai**.
 - **Slack** (reads only its mentions, DMs and /lynkk)
 - **Jira**
 - **NOT on the site: MCP, Calendly, Cal.com.** The earlier claims of "connect anything via MCP"
-  and Calendly/Cal.com integrations are **not supported anywhere on lynkk.ai**. Do not publish
-  them until product confirms.
+  and Calendly/Cal.com integrations are **not supported anywhere on lynkk.ai**.
+  **MCP is confirmed NOT on the roadmap (team, 2026-11-02). Never publish it as a Lynkk
+  capability.** Calendly and Cal.com remain unconfirmed; do not publish until product confirms.
 
 ## Security and privacy: what the /security page actually says **[CORRECTED, important]**
 
@@ -102,7 +103,7 @@ opposite of what the site says.** Verbatim from /security:
 - **"AES-256 encryption"** as a blanket claim: token-only in reality.
 - **"GDPR compliant"** as a certification: the site claims data rights, not an audit.
 - **"Data residency / pick a region"**: contradicted by the live security page.
-- **"MCP"**: not a product capability on the site.
+- **"MCP"**: not a product capability, and **confirmed not on the roadmap (2026-11-02)**. Closed.
 - **"Knowledge graph"**: the homepage uses the phrase twice, but the user-facing framing is
   "one connected memory" and "Ask Lynkk". Prefer the site's own words.
 
@@ -149,4 +150,3 @@ real estate agents.
 - [ ] Spotter GA date
 - [ ] Company legal name, founding year, HQ, founders
 - [ ] Logo files, screenshots, demo video URL
-- [ ] Whether MCP is on the roadmap at all

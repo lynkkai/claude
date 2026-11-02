@@ -1,5 +1,12 @@
 # Lynkk: 12 Registered Titles with Primary Target, Secondary Targets and Search Intent
 
+> **SUPERSEDED IN PART, 2026-11-02.** Written before lynkk.ai was reachable. Read
+> `content/site-audit-and-plan-revision.md` first: it corrects the positioning (Lynkk is a sales
+> product), lists the ~28 existing blog posts and 12 compare pages that collide with topics here,
+> and **cuts the MCP topic entirely, since the team confirmed MCP is not on the roadmap.** The
+> keyword and SERP data in this document is still valid. The topic and link recommendations are not.
+
+
 **Prepared:** 2026-11-02
 **Companion to:** `content/12-topic-plan-medium-hashnode-substack.md`
 **Data:** Ubersuggest keyword metrics, live SERP analysis and Ubersuggest's own title engine
