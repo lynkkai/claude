@@ -3,6 +3,7 @@
 For https://www.linkedin.com/company/lynkk-ai/. Positioned for sales and
 customer-facing teams: pipeline, call prep, CRM hygiene and follow-through.
 LinkedIn limits: Tagline 120 characters, About 2,000 characters.
+About is kept under 750 characters here, roughly what LinkedIn shows before "see more".
 Anything marked TODO needs a real value before you publish.
 
 ---
@@ -29,33 +30,18 @@ AI for revenue teams: every call captured, every next step owned, every CRM fiel
 ```
 (90)
 
-## Long description (About, 2,000 char limit)
+## Long description (About, under 750 characters)
 
 ```
-Lynkk is the AI teammate for sales and customer-facing teams. One AI across the entire call lifecycle: before, during and after. Not another recorder that hands your reps a transcript they will never read.
+Lynkk is the AI teammate for sales teams. One AI across the whole call lifecycle: before, during and after.
 
-Before the call, Lynkk briefs the rep: what was discussed last time, what is still open, who said what, and what you promised. No more opening a call cold or re-reading three months of notes in the five minutes beforehand.
+Before a call, Lynkk briefs the rep: what was discussed last time, what is still open, what you promised. During the call, it joins and answers by voice, so you can pull up context or pricing while the prospect is still on the line. Within about 30 seconds after, you get structured notes, assigned next steps, updated CRM fields and Jira tickets. Your pipeline reflects reality without a rep touching a form.
 
-During the call, Lynkk joins and speaks when you need it. Ask for past context, pull up pricing or a document, or get an answer live, by voice, while the prospect is still on the line.
-
-After the call, within about 30 seconds: structured notes, action items assigned, CRM fields updated, and follow-up tickets created in Jira. Your pipeline reflects reality without a rep touching a form. Every conversation lands in a searchable knowledge graph, so "what did we commit to in March?" is one query away, for the rep, the manager and whoever inherits the account.
-
-What that changes for a revenue team:
-
-- CRM hygiene stops being a negotiation. Fields update from what was actually said.
-- Managers get the real story of a deal, not the version written up at 6pm.
-- Handoffs and territory changes stop losing context.
-- Discovery, demos, QBRs and in-person meetings are all captured, online or not.
-- Multilingual, so global teams work the same way in every market.
-- Offline-first, so a bad hotel connection does not cost you the meeting.
-- Data residency you choose. Pick a region and every model behind Lynkk processes and answers from that region, which keeps legal, security and compliance on board.
-- Connects to your calendar, CRM, Jira, Calendly, Cal.com, or anything else via MCP.
-
-Used by sales teams, account managers, customer success, founders selling, and the consultants who live in back-to-back calls.
+Online or in person. Multilingual, offline-first, and processed in the data region you choose. Connects to your calendar, CRM, Jira, Calendly, Cal.com, or anything via MCP.
 
 Start free at https://lynkk.ai
 ```
-(1,878 chars of 2,000)
+(724 chars)
 
 ## Supporting page fields
 
