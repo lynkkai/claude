@@ -1,0 +1,139 @@
+Priority,Tier,Site,Submit URL,Type,Competitor precedent,Effort,Notes
+1,Entity,Crunchbase,https://www.crunchbase.com/add-new,Company database,"tl;dv, MeetGeek, Circleback",Low,All competitors have one and Lynkk does not
+1,Entity,Wikidata,https://www.wikidata.org,Knowledge graph,None,Low,Strongest fix for Lynkk vs Lynk brand confusion
+1,Entity,LinkedIn company page,https://www.linkedin.com/company/setup,Company profile,All,Low,Add Products tab entry too
+1,Review,G2,https://www.g2.com,Review platform,All,Low,Free vendor profile and AI search citations
+1,Review,Capterra,https://vendors.capterra.com,Review platform,All,Low,One form also creates GetApp and Software Advice listings
+1,Review,TrustRadius,https://www.trustradius.com,Review platform,Most,Low,Free basic vendor profile
+1,Review,SourceForge,https://sourceforge.net/software/vendors,Review platform,Some,Low,One form also lists you on Slashdot
+1,Review,Gartner Peer Insights,https://www.gartner.com/reviews,Review platform,Enterprise ones,Medium,Good fit for your data residency story
+1,Alternatives,AlternativeTo,https://alternativeto.net,Comparison engine,"Fireflies, Granola",Low,Then add Lynkk as an alternative on each competitor page
+1,Alternatives,SaaSHub,https://www.saashub.com,Comparison engine,Most,Low,Free listing reported dofollow
+1,Reciprocal,Cal.com app store,https://cal.com/apps,Marketplace,None,Low,You already list them as an integration so ask for the reciprocal
+1,Reciprocal,Calendly integrations,https://calendly.com/integrations,Marketplace,MeetGeek,Low,Same reciprocal ask
+1,Reciprocal,n8n integrations,https://n8n.io/integrations,Marketplace,None,Low,A community node is enough
+2,MCP,Official MCP Registry,https://registry.modelcontextprotocol.io,Registry,None,Medium,Publish first since other directories mirror this one
+2,MCP,mcp.so,https://mcp.so,Registry,None,Low,Form plus review
+2,MCP,Glama,https://glama.ai/mcp/servers,Registry,None,Low,Mirrors official registry
+2,MCP,mcp.directory,https://mcp.directory,Registry,None,Low,Mirrors official registry
+2,MCP,Awesome MCP Servers,https://github.com/punkpeye/awesome-mcp-servers,GitHub list,None,Low,Pull request and dofollow
+2,MCP,Smithery,https://smithery.ai,Registry,None,Low,Confirm current submission terms
+2,MCP,Claude connector directory,https://claude.ai/directory/manage,Registry,None,Medium,Separate review from the public registry
+2,MCP,Cursor directory,https://cursor.directory,Registry,None,Low,Developer audience
+2,MCP,Docker MCP Catalog,https://hub.docker.com,Registry,None,Medium,Review gated pull request
+2,MCP,ClaudePro Directory,https://claudepro.directory,Registry,None,Low,
+2,Agents,AI Agent Store,https://aiagentstore.ai,Directory,None,Low,Your live voice assistant qualifies
+2,Agents,AI Agents Directory,https://aiagentsdirectory.com,Directory,None,Low,
+2,Agents,AgentHunter,https://www.agenthunter.io,Directory,None,Low,
+3,Marketplace,Slack Marketplace,https://slack.com/marketplace,Marketplace,"Fireflies, Circleback, MeetGeek",Medium,Post notes and action items to channels
+3,Marketplace,Atlassian Marketplace,https://marketplace.atlassian.com,Marketplace,None,Medium,Direct fit since you already create Jira tickets
+3,Marketplace,HubSpot App Marketplace,https://ecosystem.hubspot.com/marketplace/apps,Marketplace,Fathom,Medium,Same slot Fathom occupies
+3,Marketplace,Chrome Web Store,https://chromewebstore.google.com,App store,"MeetGeek, tl;dv",Medium,
+3,Marketplace,Webex App Hub,https://apphub.webex.com,Marketplace,Fireflies,Medium,Low competition
+3,Marketplace,Zoho Marketplace,https://marketplace.zoho.com,Marketplace,Fireflies,Medium,Zoho CRM field updates
+3,Marketplace,Raycast Store,https://www.raycast.com/store,App store,None,Low,Fits your Mac dictation feature
+3,Marketplace,Zapier app directory,https://zapier.com/apps,Marketplace,Fireflies,Medium,
+3,Marketplace,Make.com apps,https://www.make.com/en/integrations,Marketplace,Some,Medium,
+3,Marketplace,Notion integrations gallery,https://www.notion.com/integrations,Marketplace,Some,Medium,
+3,Marketplace,Pipedrive Marketplace,https://www.pipedrive.com/en/marketplace,Marketplace,Some,Medium,Underserved
+3,Marketplace,monday.com apps,https://monday.com/marketplace,Marketplace,Some,Medium,
+4,Marketplace,Zoom App Marketplace,https://developers.zoom.us/docs/distribute,Marketplace,Fathom,High,Needs a Technical Design Document and full review
+4,Marketplace,Google Workspace Marketplace,https://workspace.google.com/marketplace,Marketplace,"Granola, tl;dv",High,Calendar add-on is the natural route
+4,Marketplace,Microsoft AppSource and Teams,https://appsource.microsoft.com,Marketplace,Some,High,
+4,Marketplace,Salesforce AppExchange,https://appexchange.salesforce.com,Marketplace,Some,High,Enterprise credibility
+4,Marketplace,Apple App Store,https://appstoreconnect.apple.com,App store,"Fireflies, Granola, Circleback, MeetGeek, tl;dv",High,DA 99 link
+4,Marketplace,Setapp,https://setapp.com/vendors,App bundle,None,Medium,Curated Mac audience
+5,Downloads,Uptodown,https://en.uptodown.com,Download catalog,"Fireflies, Granola, MeetGeek, tl;dv",Low,Four of six competitors are here
+5,Downloads,Softpedia,https://www.softpedia.com,Download catalog,Some,Low,
+5,Downloads,MacUpdate,https://www.macupdate.com/developers,Download catalog,Some,Low,Mac native
+5,Downloads,TechSpot Downloads,https://www.techspot.com/downloads,Download catalog,Granola,Low,
+5,Downloads,Clubic,https://www.clubic.com/telecharger,Download catalog,"Granola, tl;dv",Low,French
+5,Downloads,FileHorse,https://www.filehorse.com,Download catalog,Some,Low,
+5,Downloads,FileHippo,https://filehippo.com,Download catalog,Some,Low,
+5,Downloads,Logitheque,https://www.logitheque.com,Download catalog,None,Low,French and low competition
+5,Downloads,heise Download,https://www.heise.de/download,Download catalog,None,Low,German and high authority
+6,Launch,BetaList,https://betalist.com/submit,Launch platform,Some,Low,
+6,Launch,Peerlist Launchpad,https://peerlist.io/launchpad,Launch platform,Some,Low,Weekly cycle
+6,Launch,Uneed,https://www.uneed.best,Launch platform,Some,Low,Free tier available
+6,Launch,Fazier,https://fazier.com,Launch platform,Some,Low,Free with a badge requirement
+6,Launch,Startup Fame,https://startupfa.me,Launch platform,Some,Low,Badge exchange speeds up review
+6,Launch,Smol Launch,https://smollaunch.com,Launch platform,None,Low,Dofollow activates after badge verification
+6,Launch,Microlaunch,https://microlaunch.net,Launch platform,Some,Low,
+6,Launch,Launching Next,https://www.launchingnext.com,Launch platform,Some,Low,
+6,Launch,DevHunt,https://devhunt.org,Launch platform,None,Low,Developer audience
+6,Launch,Tiny Launch,https://tinylaun.ch,Launch platform,None,Low,
+6,Launch,Kick Product,https://kickproduct.com,Launch platform,None,Low,
+6,Launch,OpenHunts,https://openhunts.com,Launch platform,None,Low,
+6,Launch,Earlyhunt,https://earlyhunt.com,Launch platform,None,Low,
+6,Launch,Indie Hackers Products,https://www.indiehackers.com/products,Community,Some,Low,
+6,Launch,Hacker News Show HN,https://news.ycombinator.com/showhn,Community,"Fathom, Granola, tl;dv",Low,Nofollow but high traffic
+7,GitHub,awesome-generative-ai,https://github.com/steven2358/awesome-generative-ai,GitHub list,Fireflies,Low,DA 96 and dofollow
+7,GitHub,awesome-ai-tools,https://github.com/mahseema/awesome-ai-tools,GitHub list,Some,Low,
+7,GitHub,awesome-ai-devtools,https://github.com/jamesmurdza/awesome-ai-devtools,GitHub list,Some,Low,
+7,GitHub,Hugging Face org page,https://huggingface.co,Profile,Fireflies,Low,
+8,Alternatives,Toolify.ai,https://www.toolify.ai,Directory,Most,Low,
+8,Alternatives,TopAI.tools,https://topai.tools,Directory,Most,Low,
+8,Alternatives,Futurepedia,https://www.futurepedia.io,Directory,Most,Low,
+8,Alternatives,There's An AI For That,https://theresanaiforthat.com,Directory,Most,Low,Free queue is slow
+8,Alternatives,FutureTools,https://www.futuretools.io,Directory,Most,Low,Fast and free but reportedly nofollow
+8,Alternatives,Insidr AI,https://www.insidr.ai/ai-tools,Directory,Some,Low,
+8,Alternatives,OpenTools,https://opentools.ai,Directory,Some,Low,
+8,Alternatives,EliteAI.tools,https://eliteai.tools,Directory,Some,Low,
+8,Alternatives,StackShare,https://stackshare.io,Tech profile,Some,Low,
+8,Alternatives,Slant,https://www.slant.co,Comparison,Some,Low,
+9,Review,Crozdesk,https://crozdesk.com,Review platform,Some,Low,
+9,Review,Tekpon,https://tekpon.com,Review platform,Some,Low,
+9,Review,SaaSworthy,https://www.saasworthy.com,Review platform,Some,Low,
+9,Review,GoodFirms,https://www.goodfirms.co,Review platform,Some,Low,
+9,Review,Serchen,https://www.serchen.com,Review platform,Some,Low,
+9,Review,FinancesOnline,https://financesonline.com,Review platform,Some,Low,
+9,Review,SoftwareSuggest,https://www.softwaresuggest.com,Review platform,Some,Low,Strong in India and APAC
+9,Review,Trustpilot,https://business.trustpilot.com,Reviews,Some,Low,Brand trust rather than SEO
+9,Entity,Wellfound,https://wellfound.com,Company database,Fireflies,Low,
+9,Entity,F6S,https://www.f6s.com,Company database,Some,Low,
+9,Entity,Dealroom,https://dealroom.co,Company database,Some,Low,
+9,Entity,Tracxn,https://tracxn.com,Company database,Some,Low,
+9,Entity,Owler,https://www.owler.com,Company database,Some,Low,
+9,Entity,Golden,https://golden.com,Knowledge graph,Some,Low,
+9,Entity,Startup Ranking,https://www.startupranking.com,Company database,Some,Low,
+9,Entity,Growjo,https://growjo.com,Company database,Some,Low,
+10,Editorial,TechRepublic best AI meeting note takers 2026,https://www.techrepublic.com/article/news-best-ai-meeting-note-takers-2026/,Roundup inclusion,"Fireflies, Granola",High,DA 88 and ranks for your main keyword
+10,Editorial,Jotform best AI meeting assistant,https://www.jotform.com/ai/agents/best-ai-meeting-assistant/,Roundup inclusion,"MeetGeek, tl;dv",High,DA 92
+10,Editorial,Jotform Otter alternatives,https://www.jotform.com/ai/otter-ai-alternatives/,Roundup inclusion,Fireflies,High,DA 92
+10,Editorial,Shopify best AI note taking app,https://www.shopify.com/blog/best-ai-note-taking-app,Roundup inclusion,"Fathom, Granola",High,DA 95
+10,Editorial,DigitalOcean AI meeting tools,https://www.digitalocean.com/resources/articles/ai-meeting-tools,Roundup inclusion,Fathom,High,DA 86
+10,Editorial,Zendesk conversational intelligence software,https://www.zendesk.com/service/ai/conversational-intelligence-software/,Roundup inclusion,"Fathom, Fireflies",High,DA 93
+10,Editorial,Salesforce AI meeting assistant,https://www.salesforce.com/au/artificial-intelligence/ai-meeting-assistant/,Roundup inclusion,"Fireflies, Granola, MeetGeek, tl;dv",High,DA 92
+10,Editorial,MSPoweruser Otter alternatives,https://mspoweruser.com/otter-ai-alternatives/,Roundup inclusion,tl;dv,Medium,DA 89
+10,Editorial,TIME Charter best AI note taking tools,https://time.com/partner-content/charter/6987522/the-best-ai-note-taking-tools-for-meetings/,Roundup inclusion,"Granola, Circleback",High,DA 94
+10,Editorial,Entrepreneur 50 best AI tools,https://www.entrepreneur.com/science-technology/these-are-the-50-best-ai-tools-right-now/490264,Roundup inclusion,Granola,High,DA 92
+10,Editorial,freeCodeCamp AI assistants for productivity,https://www.freecodecamp.org/news/ai-assistants-for-productivity/,Roundup inclusion,Fireflies,Medium,DA 86
+10,Editorial,Upwork AI transcription tools,https://www.upwork.com/resources/ai-transcription-tools,Roundup inclusion,MeetGeek,Medium,DA 89
+10,Editorial,DreamHost AI productivity tools,https://www.dreamhost.com/blog/ai-productivity-tools/,Roundup inclusion,tl;dv,Medium,DA 88
+10,Editorial,Small Business Trends AI tools,https://smallbiztrends.com/ai-tools-for-business/,Roundup inclusion,Fireflies,Medium,DA 86
+10,Editorial,BigCommerce voice intelligence glossary,https://www.bigcommerce.com/glossary/voice-intelligence/,Roundup inclusion,tl;dv,Medium,DA 91
+10,Editorial,Cult of Mac best AI apps for Mac,https://www.cultofmac.com/reviews/best-ai-apps-for-mac,Roundup inclusion,Granola,Medium,DA 88
+10,Editorial,Gizmodo best transcription services,https://gizmodo.com/the-best-transcription-services-that-are-free-to-try-2000377213,Roundup inclusion,MeetGeek,High,DA 93
+11,Edu,Cornell IT manage AI notes,https://it.cornell.edu/ai-strategy/manageainotes,Resource page,Fireflies,Medium,Lead with data residency and privacy
+11,Edu,Harvard Chan IT AI meeting assistants,https://hsph.harvard.edu/information-technology/news/how-to-effectively-manage-ai-meeting-assistants-aka-bots-in-your-zoom-sessions/,Resource page,Fireflies,Medium,
+11,Edu,CMU library AI guide,https://guides.library.cmu.edu/c.php?g=1453451,Resource page,"Fathom, Fireflies",Medium,
+11,Edu,Indiana University library guide,https://guides.libraries.indiana.edu/c.php?g=995240,Resource page,Fireflies,Medium,
+11,Edu,University of Oregon AI software,https://blogs.uoregon.edu/artificialintelligence/ai-software/,Resource page,Fireflies,Medium,
+11,Edu,University of Delaware business AI guide,https://guides.lib.udel.edu/businessAI/business,Resource page,Fireflies,Medium,
+11,Edu,Illinois DRES note taking software,https://dres.illinois.edu/accommodations/ams/assitive-technology/note-taking-software/,Resource page,tl;dv,Medium,Accessibility angle
+12,PR,Featured,https://featured.com,Journalist requests,None,Medium,Answer AI meeting etiquette and consent questions
+12,PR,Qwoted,https://www.qwoted.com,Journalist requests,None,Medium,
+12,PR,Help a B2B Writer,https://helpab2bwriter.com,Journalist requests,None,Medium,
+12,PR,SourceBottle,https://www.sourcebottle.com,Journalist requests,None,Medium,
+12,PR,Vendor case studies,Ask your own stack vendors,Case study,tl;dv on Stripe,Medium,tl;dv has stripe.com/customers/tldv at DA 92
+12,PR,Podcast guesting,Various,Interview,All,Medium,One episode yields feed plus host plus aggregator links
+12,PR,GlobeNewswire,https://www.globenewswire.com,Press release,Fireflies,Medium,Use for funding or feature news only
+12,PR,EU-Startups,https://www.eu-startups.com,Startup press,Some,Medium,If EU relevant
+13,Intl,note.com,https://note.com,Japanese blog platform,"Fathom, Fireflies, Granola, Circleback, tl;dv",Medium,All competitors have Japanese coverage
+13,Intl,Qiita,https://qiita.com,Japanese dev community,Granola,Medium,
+13,Intl,Hatena Bookmark,https://b.hatena.ne.jp,Japanese social,"Fireflies, Granola, Circleback, tl;dv",Low,
+13,Intl,Habr,https://habr.com,Russian tech,"Fathom, Fireflies, Circleback, MeetGeek, tl;dv",Medium,
+13,Intl,Xataka,https://www.xataka.com,Spanish tech,"Fathom, Fireflies",Medium,
+13,Intl,TecMundo,https://www.tecmundo.com.br,Brazilian tech,tl;dv,Medium,
+13,Intl,startuplist.in,https://startuplist.in,Indian startup directory,None,Low,Free backlinks reported
+13,Intl,desifounder.com,https://desifounder.com/spotlight,Indian startup directory,None,Low,
