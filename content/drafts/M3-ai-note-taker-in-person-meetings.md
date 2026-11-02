@@ -23,6 +23,9 @@ the meeting happens in a room, and how to set up for it.
 
 ---
 
+*Disclosure: I work on Lynkk, an AI meeting assistant. This post covers the in-person capture
+problem generally; Lynkk comes up by name once, in a clearly marked section at the end.*
+
 Every AI note taker on the market was designed around a single assumption: there is a link.
 
 You paste a Zoom or Google Meet URL, a bot joins the call, and the platform hands it a clean audio
@@ -186,7 +189,8 @@ vendor that publishes what it does **not** do over one that just says "enterpris
 
 ## How Lynkk handles it, including the limits
 
-Full disclosure: I work on Lynkk, so take this as the vendor's own account rather than a review.
+As disclosed up top, I work on Lynkk, so take this as the vendor's own account rather than a
+review.
 
 Lynkk records in-person conversations through the Mac app, and the same notes land alongside notes
 from Zoom, Google Meet and Microsoft Teams calls, in one searchable place. When the recording ends
@@ -239,6 +243,20 @@ doing none of them with the best hardware on the market.
 **Canonical:** publish Medium-first, no canonical to lynkk.ai. This post is written to rank on
 Medium's authority for a query lynkk.ai does not currently have a page for. Do not cross-post to
 the Lynkk blog without rewriting, or the two will compete.
+
+**Platform compliance (see `content/platform-compliance.md`):**
+- Medium's Distribution Guidelines list **content marketing and PR pieces as low-value content**,
+  disqualified from General Distribution. This post will most likely get **Network Distribution**,
+  reaching your followers only. That is expected and does not break the strategy: the target is
+  Google, and a Medium post currently ranks position 3 for this exact keyword.
+- **Affiliation is disclosed in the first screen**, as Medium expects, not only at the end.
+- **Three lynkk.ai links, and that is the ceiling.** Two are product pages
+  (`/use-cases/field-interviews`, `/features/meeting-notes`) and one is a non-commercial guide
+  (`/blog/is-it-legal-to-record-a-meeting`). If an editor wants it leaner, cut
+  `/features/meeting-notes`; the other two earn their place in the text.
+- **This draft is AI-assisted and must be genuinely edited before it goes out.** Medium names
+  AI-generated content as low-value. Add at least one thing only a person at Lynkk knows: a real
+  room that went badly, a real transcript excerpt, a screenshot. Publish it as your own work.
 
 **Open items before publishing:**
 1. ~~Confirm the "is it legal to record a meeting" blog URL.~~ **Verified 2026-11-02:**
