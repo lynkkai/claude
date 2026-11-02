@@ -6,9 +6,17 @@ secondary_keywords: ["system audio capture macos", "record system audio and micr
 intent: Informational, practitioner
 internal_links: [https://lynkk.ai/features/chrome-extension]  # ONE commercial link max per Hashnode CoC
 word_count: ~1,500 as drafted, expect ~2,000 with code
+cover: images/H1-recording-both-sides-without-a-bot/cover.png
+cover_alt: "Two waveform tracks, microphone and system audio, aligned on one shared timeline with a drift marker"
 ---
 
 # Recording Both Sides of a Call Without Putting a Bot in the Room
+
+![Two waveform tracks, microphone and system audio, aligned on one shared timeline with a drift marker](images/H1-recording-both-sides-without-a-bot/cover.png)
+<!-- Cover: dark theme, 2400x1260 (2x of 1200x630). Light variant at
+     images/H1-recording-both-sides-without-a-bot/cover-light.png
+     Hashnode: upload as the post cover, then delete this image line and comment.
+     Substack/LinkedIn: upload as the header image, same. -->
 
 Most meeting assistants join your call as a participant. There is a good engineering reason for
 that, and there is a real alternative. This is about the alternative: capturing both halves of a

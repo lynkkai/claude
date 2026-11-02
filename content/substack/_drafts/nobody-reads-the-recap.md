@@ -20,9 +20,17 @@ notes: |
   The "we are selling into a problem we partly created" section should be checked by whoever
   owns positioning. I think it is why the piece gets shared, but you have to mean it.
   Byline required.
+cover: ../images/S2-nobody-reads-the-recap/cover.png
+cover_alt: "An unread recap header above three unticked action items, noting none reached anyone's queue"
 ---
 
 # Nobody Reads the Recap
+
+![An unread recap header above three unticked action items, noting none reached anyone's queue](../images/S2-nobody-reads-the-recap/cover.png)
+<!-- Cover: dark theme, 2400x1260 (2x of 1200x630). Light variant at
+     ../images/S2-nobody-reads-the-recap/cover-light.png
+     Hashnode: upload as the post cover, then delete this image line and comment.
+     Substack/LinkedIn: upload as the header image, same. -->
 
 **We solved meeting capture, called it meeting productivity, and changed nothing about follow-through.**
 

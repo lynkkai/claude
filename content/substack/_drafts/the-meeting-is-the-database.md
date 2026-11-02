@@ -22,9 +22,17 @@ notes: |
   whether Lynkk runs a Substack at all is still open. See content/platform-compliance.md.
   Recommended home either way: LinkedIn, then the lynkk.ai blog.
   Byline required before publishing. This is an argument and needs an owner.
+cover: ../images/S1-the-meeting-is-the-database/cover.png
+cover_alt: "Three stacked meeting cards feeding into a single query pill asking how a budget has moved"
 ---
 
 # The Meeting Is the Database
+
+![Three stacked meeting cards feeding into a single query pill asking how a budget has moved](../images/S1-the-meeting-is-the-database/cover.png)
+<!-- Cover: dark theme, 2400x1260 (2x of 1200x630). Light variant at
+     ../images/S1-the-meeting-is-the-database/cover-light.png
+     Hashnode: upload as the post cover, then delete this image line and comment.
+     Substack/LinkedIn: upload as the header image, same. -->
 
 **Every tool in this category summarises one call. The questions people actually ask span fifteen.**
 

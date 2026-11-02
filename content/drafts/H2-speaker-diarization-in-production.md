@@ -6,9 +6,17 @@ secondary_keywords: ["whisper transcription" (2,400, SD 65), "diarization error 
 intent: Informational, practitioner
 internal_links: [https://lynkk.ai/features/hinglish-transcription]  # ONE commercial link
 word_count: ~1,600 as drafted
+cover: images/H2-speaker-diarization-in-production/cover.png
+cover_alt: "A speaker segment timeline with an overlapping region marked in red, above a commitment credited to the wrong speaker"
 ---
 
 # Speaker Diarization in Production: Five Ways "Who Said What" Breaks
+
+![A speaker segment timeline with an overlapping region marked in red, above a commitment credited to the wrong speaker](images/H2-speaker-diarization-in-production/cover.png)
+<!-- Cover: dark theme, 2400x1260 (2x of 1200x630). Light variant at
+     images/H2-speaker-diarization-in-production/cover-light.png
+     Hashnode: upload as the post cover, then delete this image line and comment.
+     Substack/LinkedIn: upload as the header image, same. -->
 
 Transcription is mostly a solved problem. Attribution is not.
 

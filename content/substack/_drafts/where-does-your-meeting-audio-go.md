@@ -22,9 +22,17 @@ notes: |
   PLATFORM WARNING: see content/platform-compliance.md. No product CTA.
   Collision: lynkk.ai/blog/is-it-legal-to-record-a-meeting covers consent law. This avoids that
   angle entirely and argues about vendor disclosure instead.
+cover: ../images/S3-where-does-your-meeting-audio-go/cover.png
+cover_alt: "A flow from a call to a vendor, branching to two dashed, unnamed sub-processor boxes marked with question marks"
 ---
 
 # Where Does Your Meeting Audio Go?
+
+![A flow from a call to a vendor, branching to two dashed, unnamed sub-processor boxes marked with question marks](../images/S3-where-does-your-meeting-audio-go/cover.png)
+<!-- Cover: dark theme, 2400x1260 (2x of 1200x630). Light variant at
+     ../images/S3-where-does-your-meeting-audio-go/cover-light.png
+     Hashnode: upload as the post cover, then delete this image line and comment.
+     Substack/LinkedIn: upload as the header image, same. -->
 
 **Every notetaker says the same three things about security. None of them answers the question buyers are asking.**
 

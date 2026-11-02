@@ -72,3 +72,31 @@ Two substitutions the token set does not make for you, both deliberate:
 
 The table surface swaps `--gr-sand` for `--gr-coal-3` `#2e2e2e`, and the dot grid inverts to white
 at low alpha, mirroring how `--gr-ring` handles hairlines on dark.
+
+## The three cover sets
+
+`build.py` produces 12 covers in each theme, in three treatments matched to the audience:
+
+| Set | Treatment | Covers |
+|---|---|---|
+| **Medium** (4) | Product-UI cards: table plan, participant list, deal record, transcript line | `2026-11-02-*` |
+| **Hashnode** (4) | Engineering diagrams in mono: two-track waveforms on one clock, a diarization timeline with an overlap, an account graph with a supersession edge, a stacked latency budget | `H1-*` to `H4-*` |
+| **Essays** (4) | Quieter, type-led, one motif each | `S1-*` to `S4-*` |
+
+Categorical colours come from the site's own chart tokens `--gr-series-1..5`
+(`#e0692a`, `#7063be`, `#2f7a4a`, `#c24fb0`, `#7a9a3e`), lifted slightly for the dark build.
+
+### Geometry constraint
+
+The art column is 448px and the panel pads 24px with a 1px border, so **the SVG viewport cannot
+exceed 398px**. The dev set was initially 400px and lost its right edge. Content must also stay
+inside the `viewBox`, since SVG clips to it: a label that overflows is silently truncated
+(`sub-processors` became `sub-proces`). When adding a cover, render and look at it.
+
+### Honesty markers kept in the art
+
+- H4's latency bar is labelled **"illustrative, not measured"** on the image itself, because those
+  numbers are a budget shape rather than Lynkk measurements.
+- S4's motif is labelled **"in development"**, since Spotter is not shipped.
+
+Both must survive any redesign.

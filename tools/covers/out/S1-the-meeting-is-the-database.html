@@ -1,0 +1,64 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Schibsted+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1200px; height:630px; }
+  body {
+    font-family:"Inter",ui-sans-serif,system-ui,sans-serif;
+    background:#111111;
+    background-image:radial-gradient(#ffffff0a 1px, transparent 1px);
+    background-size:7.3px 7.3px;
+    color:#ffffff; -webkit-font-smoothing:antialiased;
+    display:flex; flex-direction:column; justify-content:space-between;
+    padding:48px 60px 44px;
+  }
+  .eyebrow {
+    font-size:12px; line-height:1.5; font-weight:600; letter-spacing:.08em;
+    text-transform:uppercase; color:#beb4fb;
+    display:flex; align-items:center; gap:10px;
+  }
+  .eyebrow .mark { width:7px; height:7px; border-radius:999px; background:#beb4fb; }
+  h1 {
+    font-family:"Schibsted Grotesk","Inter",sans-serif;
+    font-weight:700; font-size:46px; line-height:1.2; letter-spacing:-.04em;
+    max-width:13ch;
+  }
+  .sub { font-size:18px; line-height:1.5; color:#ffffff80; max-width:46ch; margin-top:14px; }
+  .foot { display:flex; align-items:center; justify-content:space-between; }
+  .brand {
+    font-family:"Schibsted Grotesk","Inter",sans-serif;
+    font-weight:700; font-size:20px; letter-spacing:-.02em;
+  }
+  .brand span { color:#beb4fb; }
+  .top { display:flex; gap:52px; align-items:center; justify-content:space-between; flex:1 1 auto; }
+  .copy { flex:1 1 0; min-width:0; }
+  .art { flex:0 0 448px; }
+  .panel {
+    background:#171717; border:1px solid #292c31; border-radius:24px;
+    box-shadow:0 18px 44px -14px #00000099, inset 0 1px 0 #ffffff1a; padding:20px;
+  }
+  .mono { font-family:"JetBrains Mono",ui-monospace,monospace; }
+</style></head><body>
+<div class="top">
+  <div class="copy">
+    <div class="eyebrow"><span class="mark"></span>Essay</div>
+    <h1 style="margin-top:18px">The meeting is the database</h1>
+    <div class="sub">Notes are the wrong unit of work. The useful object is the relationship.</div>
+  </div>
+  <div class="art"><div class="panel" style="padding:26px">
+<svg width="372" height="214" viewBox="0 0 330 200">
+  <rect x="0" y="0" width="196" height="30" rx="7" fill="#171717" stroke="#292c31" stroke-width="1"/><text x="12" y="19" style="font-family:"JetBrains Mono",ui-monospace,monospace;font-size:9.5px" fill="#ffffff80">Mar call</text><rect x="10" y="40" width="196" height="30" rx="7" fill="#171717" stroke="#292c31" stroke-width="1"/><text x="22" y="59" style="font-family:"JetBrains Mono",ui-monospace,monospace;font-size:9.5px" fill="#ffffff80">Jun call</text><rect x="20" y="80" width="196" height="30" rx="7" fill="#171717" stroke="#292c31" stroke-width="1"/><text x="32" y="99" style="font-family:"JetBrains Mono",ui-monospace,monospace;font-size:9.5px" fill="#ffffff80">Oct call</text>
+  <path d="M232,55 L288,55 288,120 246,120" fill="none" stroke="#7063be" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <path d="M254,112 L246,120 254,128" fill="none" stroke="#7063be" stroke-width="1.4"/>
+  <rect x="34" y="158" width="250" height="34" rx="17" fill="#231f3a" stroke="#b4abe0"/>
+  <text x="50" y="180" style="font-family:"JetBrains Mono",ui-monospace,monospace;font-size:10px" fill="#ffffff">how has their budget moved?</text>
+</svg></div></div>
+</div>
+<div class="foot">
+  <div class="brand">Lynkk<span>.</span></div>
+  <div style="font-size:13px;color:#ffffff57">lynkk.ai</div>
+</div>
+</body></html>

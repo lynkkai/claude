@@ -9,9 +9,17 @@ word_count: ~1,650 as drafted
 constraint: |
   Spotter is IN DEVELOPMENT, early access on Pro by request. This draft must not describe it as
   shipped. Keep that in any edit.
+cover: images/H4-voice-agent-in-a-live-meeting/cover.png
+cover_alt: "A stacked latency budget bar broken into pipeline stages, ending just short of a two second limit line"
 ---
 
 # Building a Voice Agent That Speaks Inside a Live Meeting: Latency, Turn-Taking, Interrupts
+
+![A stacked latency budget bar broken into pipeline stages, ending just short of a two second limit line](images/H4-voice-agent-in-a-live-meeting/cover.png)
+<!-- Cover: dark theme, 2400x1260 (2x of 1200x630). Light variant at
+     images/H4-voice-agent-in-a-live-meeting/cover-light.png
+     Hashnode: upload as the post cover, then delete this image line and comment.
+     Substack/LinkedIn: upload as the header image, same. -->
 
 Post-meeting summarisation is a batch job. You have thirty seconds, nobody is waiting, and if the
 first attempt is bad you can retry.

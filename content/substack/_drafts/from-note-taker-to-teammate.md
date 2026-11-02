@@ -20,9 +20,17 @@ notes: |
   as shipped. Stated twice in the body. Keep that wording through any edit.
   PLATFORM WARNING: see content/platform-compliance.md. No product CTA.
   Byline required.
+cover: ../images/S4-from-note-taker-to-teammate/cover.png
+cover_alt: "A before, during and after timeline with the during point emphasised and labelled in development"
 ---
 
 # From Note Taker to Teammate
+
+![A before, during and after timeline with the during point emphasised and labelled in development](../images/S4-from-note-taker-to-teammate/cover.png)
+<!-- Cover: dark theme, 2400x1260 (2x of 1200x630). Light variant at
+     ../images/S4-from-note-taker-to-teammate/cover-light.png
+     Hashnode: upload as the post cover, then delete this image line and comment.
+     Substack/LinkedIn: upload as the header image, same. -->
 
 **The next step in this category is software that participates while you are still talking. Almost nobody is discussing what that does to a meeting.**
 

@@ -10,9 +10,17 @@ collision_check: |
   lynkk.ai has /blog/meeting-knowledge-management, but that is a non-technical FAQ page targeting
   "knowledge management tools" queries. This post is purely an engineering piece and does not
   overlap. Keep it technical; if it drifts into "what is knowledge management", it collides.
+cover: images/H3-meetings-into-account-memory/cover.png
+cover_alt: "A small graph: an account linked to three calls, with an older budget fact struck through and superseded by a newer one"
 ---
 
 # Turning Meetings Into Account Memory: Schema, Extraction and Retrieval
+
+![A small graph: an account linked to three calls, with an older budget fact struck through and superseded by a newer one](images/H3-meetings-into-account-memory/cover.png)
+<!-- Cover: dark theme, 2400x1260 (2x of 1200x630). Light variant at
+     images/H3-meetings-into-account-memory/cover-light.png
+     Hashnode: upload as the post cover, then delete this image line and comment.
+     Substack/LinkedIn: upload as the header image, same. -->
 
 Chunk the transcripts, embed them, stick them in a vector store, answer questions over the top.
 That is the obvious design for "ask questions about your meetings", and it fails on the questions
