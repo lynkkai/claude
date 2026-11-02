@@ -19,6 +19,13 @@ primary_keyword: "ai note taker for in person meetings" (480/mo, SD 40, CPC $14.
 
 # AI Note Taker for In-Person Meetings: What Works With No Meeting Link
 
+![Overhead plan of a meeting table with four seats, a recorder placed off-centre, and its pickup range covering only the two nearest seats](../images/2026-11-02-ai-note-taker-in-person-meetings/cover.png)
+<!-- Cover: dark theme, 2400x1260 (2x of 1200x630). Light variant alongside at
+     ../images/2026-11-02-ai-note-taker-in-person-meetings/cover-light.png
+     On the lynkk.ai blog this file is served from: /images/blog/2026-11-02-ai-note-taker-in-person-meetings/cover.png
+     On Medium: upload it as the feature image, then DELETE this image line and this
+     comment, or the cover will appear twice. -->
+
 *Disclosure: I work on Lynkk, an AI meeting assistant. This post covers the in-person capture problem generally. Lynkk appears once, in a marked section at the end.*
 
 **What this covers:** why room audio is a harder problem than call audio, the four ways people capture in person, microphone placement, consent, what a usable note contains, and a checklist for choosing.

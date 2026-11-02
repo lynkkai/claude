@@ -19,6 +19,13 @@ primary_keyword: "ai note taker that doesn't join meetings" (90/mo, SD 30, CPC $
 
 # AI Note Takers That Do Not Join Your Meeting
 
+![A video call participant list of three named people and one dashed, highlighted row for a notetaker bot](../images/2026-11-02-bot-free-ai-note-takers/cover.png)
+<!-- Cover: dark theme, 2400x1260 (2x of 1200x630). Light variant alongside at
+     ../images/2026-11-02-bot-free-ai-note-takers/cover-light.png
+     On the lynkk.ai blog this file is served from: /images/blog/2026-11-02-bot-free-ai-note-takers/cover.png
+     On Medium: upload it as the feature image, then DELETE this image line and this
+     comment, or the cover will appear twice. -->
+
 *Disclosure: I work on Lynkk, which offers both capture models described here. Lynkk appears once, in a marked section at the end.*
 
 ---

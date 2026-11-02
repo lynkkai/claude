@@ -19,6 +19,13 @@ primary_keyword: CRM hygiene / sales workflow cluster. Weakest search case of th
 
 # Your CRM Is a Graveyard of Half-Written Call Notes
 
+![A CRM deal record whose call notes field holds four words in an otherwise empty box](../images/2026-11-02-crm-graveyard-call-notes/cover.png)
+<!-- Cover: dark theme, 2400x1260 (2x of 1200x630). Light variant alongside at
+     ../images/2026-11-02-crm-graveyard-call-notes/cover-light.png
+     On the lynkk.ai blog this file is served from: /images/blog/2026-11-02-crm-graveyard-call-notes/cover.png
+     On Medium: upload it as the feature image, then DELETE this image line and this
+     comment, or the cover will appear twice. -->
+
 *Disclosure: I work on Lynkk, an AI meeting assistant. This post is about the CRM hygiene problem in general. Lynkk appears once, in a marked section at the end.*
 
 **What this covers:** why the incentive is upside down, what bad notes cost in four specific places, what good looks like, and how to roll a fix out without a mutiny.

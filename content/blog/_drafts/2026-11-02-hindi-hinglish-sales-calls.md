@@ -19,6 +19,13 @@ primary_keyword: Hindi / Hinglish transcription for sales calls
 
 # AI Note Takers for Hindi and Hinglish Sales Calls
 
+![A transcript line where the opening Hinglish clause is highlighted and the rest of the sentence continues in English](../images/2026-11-02-hindi-hinglish-sales-calls/cover.png)
+<!-- Cover: dark theme, 2400x1260 (2x of 1200x630). Light variant alongside at
+     ../images/2026-11-02-hindi-hinglish-sales-calls/cover-light.png
+     On the lynkk.ai blog this file is served from: /images/blog/2026-11-02-hindi-hinglish-sales-calls/cover.png
+     On Medium: upload it as the feature image, then DELETE this image line and this
+     comment, or the cover will appear twice. -->
+
 *Disclosure: I work on Lynkk, an AI meeting assistant with a Hinglish mode. Lynkk appears once, in a marked section at the end.*
 
 ---
