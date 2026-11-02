@@ -30,7 +30,10 @@ bot, automatic Mac capture, in-person on Mac. **Spotter**, the live in-call assi
 
 ---
 
-## 2. The blog is not empty. It has roughly 28 posts and they are good
+## 2. The blog is not empty. It has **53** posts and they are good
+
+> **Corrected 2026-11-02:** I first counted about 28 from the visible index. Pulling every
+> `/blog/` href gives **53 published posts**. The extra 25 add two adjacencies noted below.
 
 This is the finding that most changes the plan. `/blog` is positioned as
 "Plain answers and straight comparisons on AI note takers, transcription and dictation, from the
@@ -197,5 +200,14 @@ external post with matching anchors competing on the same query helps nobody.
    Queries and Pages, 6 months, or connect the connector.
 3. **Confirm accuracy**: is there a measured figure, measured how? If not, we publish none.
 4. **Spotter GA date**, so H4 and S4 describe it correctly.
-5. **Check the full blog list.** I read the `/blog` index, which showed about 28 posts; if there
-   is pagination I have not seen the tail, so there may be further collisions.
+5. ~~Check the full blog list.~~ **Done:** 53 posts. No post covers in-person capture, offline
+   recording, field work, diarization, CRM note hygiene or privacy, so the revised set stands.
+   Two adjacencies to check against before drafting:
+   - **M2 (bot-free capture)** vs `/blog/zoom-bot-join-meeting` and
+     `/blog/zoom-ai-companion-alternatives`. Both look Zoom-specific, so M2's
+     bot-versus-no-bot framing is probably still distinct, but read them first.
+   - **H3 (account memory)** vs `/blog/meeting-knowledge-management`. This is the closest
+     collision left in the set. Read it before writing H3, and if it already covers cross-call
+     memory, H3 should go purely technical (entity resolution, retrieval) or be dropped.
+   - Also worth knowing: `/blog/best-free-ai-note-takers`, `/blog/ai-powered-meeting-assistants`
+     and `/blog/sales-conversation-intelligence` exist, which further confirms cutting M1 and M4.

@@ -241,9 +241,9 @@ Medium's authority for a query lynkk.ai does not currently have a page for. Do n
 the Lynkk blog without rewriting, or the two will compete.
 
 **Open items before publishing:**
-1. **Confirm the "is it legal to record a meeting" blog URL.** I have linked
-   `/blog/is-it-legal-to-record-a-meeting` from the post title seen on the blog index, but I did
-   not verify the slug. Check it resolves before publishing.
+1. ~~Confirm the "is it legal to record a meeting" blog URL.~~ **Verified 2026-11-02:**
+   `/blog/is-it-legal-to-record-a-meeting` is the real slug. Both other internal links
+   (`/use-cases/field-interviews`, `/features/meeting-notes`) are verified live too.
 2. **Confirm the language count.** The pricing page says "every language, Hinglish included", the
    homepage FAQ says 17 languages, and the field interviews page lists 13 named plus 4 in beta.
    I used the specific list rather than the number. Worth aligning site-wide.
