@@ -1,0 +1,1223 @@
+<meta name="dash-one-writer">
+<style>
+.lx { font-family: var(--font-anthropic-sans); color: var(--color-fg); font-variant-numeric: tabular-nums; }
+.lx h1, .lx h2, .lx h3, .lx p, .lx ul, .lx ol { margin: 0; }
+.lx-head { display: flex; flex-direction: column; gap: var(--cds-gap-xs); padding-block: var(--cds-pad-md) var(--cds-pad-sm); }
+.lx-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); line-height: 1.2; text-wrap: balance; }
+.lx-period { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); letter-spacing: .04em; text-transform: uppercase; }
+.lx-take { font-size: var(--cds-font-size-body); line-height: 1.55; max-width: 62ch; color: var(--color-fg); }
+.lx-take b { font-weight: var(--cds-font-weight-medium); }
+.lx-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); padding-block: var(--cds-pad-sm); margin-bottom: var(--cds-pad-lg); }
+.lx-tab { font: inherit; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); background: none; border: 1px solid transparent; border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; }
+.lx-tab:hover { color: var(--color-fg); }
+.lx-tab[aria-selected="true"] { color: var(--color-fg); background: var(--color-panel); border-color: var(--color-border-line); font-weight: var(--cds-font-weight-medium); }
+.lx-sec { display: flex; flex-direction: column; gap: var(--cds-gap-lg); padding-bottom: var(--cds-pad-xl); }
+.lx-h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+.lx-note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); line-height: 1.5; max-width: 72ch; }
+.lx-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: var(--cds-gap-md); }
+.lx-grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: var(--cds-gap-md); }
+.lx-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+.lx-card-head { display: flex; flex-direction: column; gap: 2px; }
+.lx-card-title { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+.lx-card-note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); line-height: 1.45; }
+.lx-tile-label { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.lx-tile-val { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: calc(var(--cds-font-size-title) * 1.35); line-height: 1.1; }
+.lx-tile-sub { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.lx-chart { position: relative; min-width: 0; }
+.lx-chart svg { display: block; overflow: visible; }
+.lx-tip { position: absolute; pointer-events: none; opacity: 0; transition: opacity var(--cds-dur-fast); background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; z-index: 5; }
+.lx-tip-head { color: var(--cds-text-secondary); margin-bottom: 2px; }
+.lx-tip-row { display: flex; align-items: center; gap: 6px; }
+.lx-sw { width: 8px; height: 8px; border-radius: 2px; flex: none; }
+.lx-tablewrap { overflow: auto; max-height: 30rem; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); }
+.lx table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); }
+.lx th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); white-space: nowrap; border-bottom: 1px solid var(--color-border-line); z-index: 1; }
+.lx th button { font: inherit; font-weight: inherit; color: var(--color-fg); background: none; border: 0; padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; width: 100%; text-align: inherit; }
+.lx th.lx-num, .lx td.lx-num { text-align: right; }
+.lx td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+.lx tbody tr:last-child td { border-bottom: 0; }
+.lx td.lx-q { max-width: 28rem; min-width: 12rem; }
+.lx-search { font: inherit; font-size: var(--cds-font-size-caption); color: var(--color-fg); background: var(--color-bg); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm); width: min(100%, 22rem); }
+.lx-bar { height: 6px; border-radius: 3px; background: var(--cds-chart-muted); }
+.lx-pill { display: inline-block; font-size: var(--cds-font-size-caption); padding: 1px 7px; border-radius: 999px; border: 1px solid var(--color-border-line); white-space: nowrap; }
+.lx-pill-bad { color: var(--color-bad); }
+.lx-pill-warn { color: var(--color-warn); }
+.lx-pill-ok { color: var(--color-ok); }
+.lx-list { display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+.lx-act { display: grid; grid-template-columns: auto 1fr; gap: var(--cds-gap-sm) var(--cds-pad-md); align-items: start; }
+.lx-act-n { font-family: var(--font-anthropic-serif); color: var(--color-fg-muted); font-size: var(--cds-font-size-heading); line-height: 1.3; }
+.lx-act-b { display: flex; flex-direction: column; gap: 2px; }
+.lx-act-t { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); }
+.lx-act-d { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); line-height: 1.5; }
+.lx-kv { display: grid; grid-template-columns: 1fr auto; gap: var(--cds-gap-xs) var(--cds-pad-md); font-size: var(--cds-font-size-caption); }
+.lx-kv dt { color: var(--color-fg-muted); }
+.lx-kv dd { margin: 0; font-weight: var(--cds-font-weight-medium); }
+[data-dash-source-state="empty"] { color: transparent; }
+[data-dash-source-state="refreshing"] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+@media (prefers-reduced-motion: no-preference) {
+  .lx-fade { animation: lx-fade var(--cds-dur-slow) var(--cds-ease-out) both; }
+  @keyframes lx-fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+}
+</style>
+
+<div class="lx">
+  <header class="lx-head">
+    <p class="lx-period">Organic search performance · October 2026 · lynkk.ai</p>
+    <h1 class="lx-title">Lynkk SEO report, October 2026</h1>
+    <p class="lx-take">October was an impressions month, not a clicks month. Lynkk collected
+      <b data-draw="t_impr" data-source="kpi" data-field="impressions" data-row="0">—</b> impressions and
+      <b data-draw="t_clicks" data-source="kpi" data-field="clicks" data-row="0">—</b> clicks, a click-through rate of
+      <b data-draw="t_ctr" data-source="kpi" data-field="ctr" data-row="0">—</b>. Demand is not the constraint: ranking is.
+      <b data-draw="t_deep" data-source="posdist" data-field="share" data-where="bucket=Past%2020">—</b>
+      of ranking keywords sit past position 20, and the pages that do rank well are mostly informational, so they pull
+      impressions without pulling the click.</p>
+  </header>
+
+  <nav class="lx-tabs" aria-label="Report sections">
+    <button class="lx-tab" type="button" id="tab-overview" aria-selected="true" aria-controls="sec-overview">Overview</button>
+    <button class="lx-tab" type="button" id="tab-keywords" aria-selected="false" aria-controls="sec-keywords">Keywords</button>
+    <button class="lx-tab" type="button" id="tab-content" aria-selected="false" aria-controls="sec-content">Content</button>
+    <button class="lx-tab" type="button" id="tab-audience" aria-selected="false" aria-controls="sec-audience">Audience</button>
+    <button class="lx-tab" type="button" id="tab-technical" aria-selected="false" aria-controls="sec-technical">Technical</button>
+    <button class="lx-tab" type="button" id="tab-actions" aria-selected="false" aria-controls="sec-actions">Next month</button>
+  </nav>
+
+  <section class="lx-sec" id="sec-overview" aria-labelledby="tab-overview">
+    <div class="lx-grid-3">
+      <div class="lx-card">
+        <p class="lx-tile-label">Clicks</p>
+        <p class="lx-tile-val" data-draw="k_clicks" data-source="kpi" data-field="clicks" data-row="0" data-fetchpriority="high">—</p>
+        <p class="lx-tile-sub">31 days, web search</p>
+      </div>
+      <div class="lx-card">
+        <p class="lx-tile-label">Impressions</p>
+        <p class="lx-tile-val" data-draw="k_impr" data-source="kpi" data-field="impressions" data-row="0" data-fetchpriority="high">—</p>
+        <p class="lx-tile-sub">Up <b data-draw="k_growth" data-source="weekly" data-field="growth_label" data-where="week=5">—</b> per day, week 1 to week 5</p>
+      </div>
+      <div class="lx-card">
+        <p class="lx-tile-label">Click-through rate</p>
+        <p class="lx-tile-val" data-draw="k_ctr" data-source="kpi" data-field="ctr" data-row="0">—</p>
+        <p class="lx-tile-sub">Site-wide across all queries</p>
+      </div>
+      <div class="lx-card">
+        <p class="lx-tile-label">Average position</p>
+        <p class="lx-tile-val" data-draw="k_pos" data-source="kpi" data-field="position" data-row="0">—</p>
+        <p class="lx-tile-sub">Weighted by impressions</p>
+      </div>
+      <div class="lx-card">
+        <p class="lx-tile-label">Ranking keywords</p>
+        <p class="lx-tile-val" data-draw="k_kw" data-source="qtotals" data-field="keywords" data-row="0">—</p>
+        <p class="lx-tile-sub">Capped at 1,000 rows by Search Console</p>
+      </div>
+      <div class="lx-card">
+        <p class="lx-tile-label">Pages earning impressions</p>
+        <p class="lx-tile-val" data-draw="k_pg" data-source="ptotals" data-field="pages" data-row="0">—</p>
+        <p class="lx-tile-sub"><b data-draw="k_pgzero" data-source="ptotals" data-field="zero" data-row="0">—</b> of them took no click</p>
+      </div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Impressions per day</h2>
+        <p class="lx-card-note">Impressions climbed roughly sixfold through the month. The step change around 13 October
+          looks like indexing catching up with the blog rather than a demand shift.</p>
+      </div>
+      <div class="lx-chart" data-draw="c_impr" data-source="daily"></div>
+    </div>
+
+    <div class="lx-grid">
+      <div class="lx-card">
+        <div class="lx-card-head">
+          <h2 class="lx-card-title">Clicks per day</h2>
+          <p class="lx-card-note">Clicks are still in single digits most days, so day-to-day moves are noise.</p>
+        </div>
+        <div class="lx-chart" data-draw="c_clicks" data-source="daily"></div>
+      </div>
+      <div class="lx-card">
+        <div class="lx-card-head">
+          <h2 class="lx-card-title">Average position per day</h2>
+          <p class="lx-card-note">Lower is better. Position held steady while impressions grew, which means the new
+            visibility arrived at roughly the same depth as the old.</p>
+        </div>
+        <div class="lx-chart" data-draw="c_pos" data-source="daily"></div>
+      </div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Week by week</h2>
+        <p class="lx-card-note">Week 5 covers 29 to 31 October only, so compare its rates, not its totals.</p>
+      </div>
+      <div class="lx-tablewrap">
+        <table data-source="weekly" data-row-key="label">
+          <thead><tr>
+            <th data-field="label">Week</th>
+            <th class="lx-num" data-field="clicks">Clicks</th>
+            <th class="lx-num" data-field="impressions">Impressions</th>
+            <th class="lx-num" data-field="ctr">CTR</th>
+            <th class="lx-num" data-field="position">Avg position</th>
+            <th class="lx-num" data-field="impr_per_day">Impressions / day</th>
+          </tr></thead>
+          <tbody data-draw="t_weekly"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="lx-sec" id="sec-keywords" aria-labelledby="tab-keywords" hidden>
+    <div class="lx-grid">
+      <div class="lx-card">
+        <div class="lx-card-head">
+          <h2 class="lx-card-title">Where the keywords rank</h2>
+          <p class="lx-card-note">Keyword counts by average position. Almost nothing sits in the top three, and the bulk
+            of the portfolio is deep enough that impressions never convert to clicks.</p>
+        </div>
+        <div class="lx-chart" data-draw="c_posdist" data-source="posdist"></div>
+      </div>
+      <div class="lx-card">
+        <div class="lx-card-head">
+          <h2 class="lx-card-title">Query types</h2>
+          <p class="lx-card-note">Brand queries are <b data-draw="q_brandshare" data-source="qtypes" data-field="click_share" data-where="query_type=Brand">—</b>
+            of all clicks on <b data-draw="q_brandimpr" data-source="qtypes" data-field="impr_share" data-where="query_type=Brand">—</b> of impressions.
+            Non-brand search is doing the volume and almost none of the converting.</p>
+        </div>
+        <div class="lx-chart" data-draw="c_qtypes" data-source="qtypes"></div>
+      </div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Topic clusters by impressions</h2>
+        <p class="lx-card-note">Each of the 1,000 ranking queries is assigned to one cluster by keyword match, first
+          match wins. Bars show impressions; the number at the end is the cluster's average position.</p>
+      </div>
+      <div class="lx-chart" data-draw="c_themes" data-source="themes"></div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Striking distance: page two, no clicks</h2>
+        <p class="lx-card-note">Queries averaging position 4 to 20 with at least 20 impressions and zero clicks. These
+          need title and intro rewrites plus internal links, not new articles.</p>
+      </div>
+      <div class="lx-tablewrap">
+        <table data-source="striking" data-row-key="query">
+          <thead><tr>
+            <th data-field="query">Query</th>
+            <th class="lx-num" data-field="impressions">Impressions</th>
+            <th class="lx-num" data-field="position">Avg position</th>
+            <th data-field="theme">Cluster</th>
+          </tr></thead>
+          <tbody data-draw="t_striking"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Keyword opportunity, scored on US volume</h2>
+        <p class="lx-card-note">Search volume, SEO difficulty and cost per click come from Ubersuggest for the United
+          States; position and impressions come from Search Console for October. Potential clicks assume a top-three
+          finish.</p>
+      </div>
+      <div class="lx-tablewrap">
+        <table data-source="keywords" data-row-key="keyword">
+          <thead><tr>
+            <th><button type="button" data-sort="keyword">Keyword</button></th>
+            <th class="lx-num" data-field="us_volume"><button type="button" data-sort="us_volume">US volume</button></th>
+            <th class="lx-num" data-field="seo_difficulty"><button type="button" data-sort="seo_difficulty">Difficulty</button></th>
+            <th class="lx-num" data-field="cpc_usd"><button type="button" data-sort="cpc_usd">CPC</button></th>
+            <th class="lx-num" data-field="gsc_position"><button type="button" data-sort="gsc_position">Current position</button></th>
+            <th class="lx-num" data-field="gsc_impressions"><button type="button" data-sort="gsc_impressions">Impressions</button></th>
+            <th class="lx-num" data-source="kwopp" data-field="potential_clicks"><button type="button" data-sort="potential_clicks">Clicks at top three</button></th>
+          </tr></thead>
+          <tbody data-draw="t_keywords"></tbody>
+        </table>
+      </div>
+      <p class="lx-note">Difficulty is Ubersuggest's 0 to 100 scale. Keyword column is not sorted by default; it keeps
+        the volume order the data arrived in.</p>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Conversational queries, the AI-surface signal</h2>
+        <p class="lx-card-note">Queries of ten words or more, the shape of AI Mode and AI Overview prompts. They average
+          <b data-draw="cv_pos" data-source="qtypes" data-field="position" data-where="query_type=Conversational%20%2F%20AI-style">—</b>
+          across <b data-draw="cv_kw" data-source="qtypes" data-field="keywords" data-where="query_type=Conversational%20%2F%20AI-style">—</b>
+          queries and <b data-draw="cv_impr" data-source="qtypes" data-field="impressions" data-where="query_type=Conversational%20%2F%20AI-style">—</b>
+          impressions, yet returned zero clicks. Lynkk is being cited inside answers without being visited.</p>
+      </div>
+      <div class="lx-tablewrap">
+        <table data-source="conversational" data-row-key="query">
+          <thead><tr>
+            <th data-field="query">Query</th>
+            <th class="lx-num" data-field="impressions">Impressions</th>
+            <th class="lx-num" data-field="position">Avg position</th>
+          </tr></thead>
+          <tbody data-draw="t_conv"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Every ranking query</h2>
+        <p class="lx-card-note">All 1,000 rows Search Console returned for October. Search filters by text; the headers sort.</p>
+      </div>
+      <input class="lx-search" id="lx-q-search" type="search" placeholder="Filter queries" aria-label="Filter queries">
+      <div class="lx-tablewrap">
+        <table data-source="queries" data-row-key="query">
+          <thead><tr>
+            <th><button type="button" data-sort="query">Query</button></th>
+            <th class="lx-num" data-field="clicks"><button type="button" data-sort="clicks">Clicks</button></th>
+            <th class="lx-num" data-field="impressions"><button type="button" data-sort="impressions">Impressions</button></th>
+            <th class="lx-num" data-field="ctr"><button type="button" data-sort="ctr">CTR</button></th>
+            <th class="lx-num" data-field="position"><button type="button" data-sort="position">Position</button></th>
+            <th data-field="theme"><button type="button" data-sort="theme">Cluster</button></th>
+          </tr></thead>
+          <tbody data-draw="t_queries"></tbody>
+        </table>
+      </div>
+      <p class="lx-note">Showing <b data-draw="q_shown">—</b> rows.</p>
+    </div>
+  </section>
+
+  <section class="lx-sec" id="sec-content" aria-labelledby="tab-content" hidden>
+    <div class="lx-grid">
+      <div class="lx-card">
+        <div class="lx-card-head">
+          <h2 class="lx-card-title">Impressions by site section</h2>
+          <p class="lx-card-note">The blog carries the visibility. Comparison, use-case and integration pages, the ones
+            closest to a signup, barely register.</p>
+        </div>
+        <div class="lx-chart" data-draw="c_sections" data-source="sections"></div>
+      </div>
+      <div class="lx-card">
+        <div class="lx-card-head">
+          <h2 class="lx-card-title">Clicks by site section</h2>
+          <p class="lx-card-note">The homepage converts best by far at <b data-draw="s_homectr" data-source="pages" data-field="ctr" data-where="path=%2F">—</b>,
+            because the queries reaching it are branded.</p>
+        </div>
+        <div class="lx-chart" data-draw="c_sectionclicks" data-source="sections"></div>
+      </div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Section summary</h2>
+        <p class="lx-card-note">Average position is weighted by impressions within each section.</p>
+      </div>
+      <div class="lx-tablewrap">
+        <table data-source="sections" data-row-key="section">
+          <thead><tr>
+            <th data-field="section">Section</th>
+            <th class="lx-num" data-field="pages">Pages</th>
+            <th class="lx-num" data-field="clicks">Clicks</th>
+            <th class="lx-num" data-field="impressions">Impressions</th>
+            <th class="lx-num" data-field="ctr">CTR</th>
+            <th class="lx-num" data-field="position">Avg position</th>
+          </tr></thead>
+          <tbody data-draw="t_sections"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Every page with impressions</h2>
+        <p class="lx-card-note">All 114 pages Search Console reported in October, sorted by impressions. Headers sort.</p>
+      </div>
+      <input class="lx-search" id="lx-p-search" type="search" placeholder="Filter pages" aria-label="Filter pages">
+      <div class="lx-tablewrap">
+        <table data-source="pages" data-row-key="path">
+          <thead><tr>
+            <th><button type="button" data-sort="path">Page</button></th>
+            <th data-field="section"><button type="button" data-sort="section">Section</button></th>
+            <th class="lx-num" data-field="clicks"><button type="button" data-sort="clicks">Clicks</button></th>
+            <th class="lx-num" data-field="impressions"><button type="button" data-sort="impressions">Impressions</button></th>
+            <th class="lx-num" data-field="ctr"><button type="button" data-sort="ctr">CTR</button></th>
+            <th class="lx-num" data-field="position"><button type="button" data-sort="position">Avg position</button></th>
+          </tr></thead>
+          <tbody data-draw="t_pages"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="lx-sec" id="sec-audience" aria-labelledby="tab-audience" hidden>
+    <div class="lx-grid">
+      <div class="lx-card">
+        <div class="lx-card-head">
+          <h2 class="lx-card-title">Clicks by device</h2>
+          <p class="lx-card-note">Desktop supplies the impressions; mobile converts slightly better and ranks seven
+            places higher on average.</p>
+        </div>
+        <div class="lx-chart" data-draw="c_devices" data-source="devices"></div>
+      </div>
+      <div class="lx-card">
+        <div class="lx-card-head">
+          <h2 class="lx-card-title">Device detail</h2>
+          <p class="lx-card-note">Same month, split by the device the search happened on.</p>
+        </div>
+        <div class="lx-tablewrap">
+          <table data-source="devices" data-row-key="device">
+            <thead><tr>
+              <th data-field="device">Device</th>
+              <th class="lx-num" data-field="clicks">Clicks</th>
+              <th class="lx-num" data-field="impressions">Impressions</th>
+              <th class="lx-num" data-field="ctr">CTR</th>
+              <th class="lx-num" data-field="position">Avg position</th>
+            </tr></thead>
+            <tbody data-draw="t_devices"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">The India and United States split</h2>
+        <p class="lx-card-note">The United States generates most of the impressions and almost none of the clicks;
+          India generates a fraction of the impressions and a third of the clicks. The gap is position, not intent.</p>
+      </div>
+      <div class="lx-chart" data-draw="c_countries" data-source="countries"></div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Top 20 countries by impressions</h2>
+        <p class="lx-card-note">181 countries returned at least one impression. <b data-draw="a_zero" data-source="ctotals" data-field="zero" data-row="0">—</b>
+          of them produced no click at all.</p>
+      </div>
+      <div class="lx-tablewrap">
+        <table data-source="topcountries" data-row-key="country">
+          <thead><tr>
+            <th data-field="country">Country</th>
+            <th class="lx-num" data-field="clicks">Clicks</th>
+            <th class="lx-num" data-field="impressions">Impressions</th>
+            <th class="lx-num" data-field="ctr">CTR</th>
+            <th class="lx-num" data-field="position">Avg position</th>
+          </tr></thead>
+          <tbody data-draw="t_countries"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="lx-sec" id="sec-technical" aria-labelledby="tab-technical" hidden>
+    <div class="lx-grid-3">
+      <div class="lx-card">
+        <p class="lx-tile-label">Site health score</p>
+        <p class="lx-tile-val" data-draw="x_health" data-source="authority" data-field="value" data-where="metric=Site%20health%20score">—</p>
+        <p class="lx-tile-sub">Ubersuggest crawl of <b data-draw="x_crawled" data-source="authority" data-field="value" data-where="metric=Pages%20crawled">—</b> pages</p>
+      </div>
+      <div class="lx-card">
+        <p class="lx-tile-label">Domain authority</p>
+        <p class="lx-tile-val" data-draw="x_da" data-source="authority" data-field="value" data-where="metric=Domain%20authority%20%280-100%29">—</p>
+        <p class="lx-tile-sub">The binding constraint on rankings</p>
+      </div>
+      <div class="lx-card">
+        <p class="lx-tile-label">Referring domains</p>
+        <p class="lx-tile-val" data-draw="x_rd" data-source="authority" data-field="value" data-where="metric=Referring%20domains">—</p>
+        <p class="lx-tile-sub"><b data-draw="x_follow" data-source="authority" data-field="value" data-where="metric=Follow%20backlinks">—</b> follow links out of
+          <b data-draw="x_bl" data-source="authority" data-field="value" data-where="metric=Total%20backlinks">—</b></p>
+      </div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Crawl issues</h2>
+        <p class="lx-card-note">On-page issues from the Ubersuggest site audit. Nothing structural is broken: no dead
+          links, no duplicate titles, no missing meta descriptions. What remains is thin pages and title hygiene.</p>
+      </div>
+      <div class="lx-tablewrap">
+        <table data-source="audit" data-row-key="issue">
+          <thead><tr>
+            <th data-field="issue">Issue</th>
+            <th data-field="severity">Severity</th>
+            <th data-field="seo_impact">SEO impact</th>
+            <th class="lx-num" data-field="pages_affected">Pages</th>
+            <th data-field="fix_difficulty">Effort</th>
+          </tr></thead>
+          <tbody data-draw="t_audit"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Core Web Vitals, desktop against mobile</h2>
+        <p class="lx-card-note">Desktop is comfortable. Mobile is the problem: a 4.7 second largest contentful paint and
+          a 10.1 second time to interactive, against a 2.5 second good threshold for LCP. Mobile is also where Lynkk's
+          click-through rate is highest, so this costs real clicks.</p>
+      </div>
+      <div class="lx-chart" data-draw="c_speed" data-source="speed"></div>
+      <div class="lx-tablewrap">
+        <table data-source="speed" data-row-key="metric">
+          <thead><tr>
+            <th data-field="metric">Metric</th>
+            <th class="lx-num" data-field="desktop">Desktop</th>
+            <th class="lx-num" data-field="mobile">Mobile</th>
+          </tr></thead>
+          <tbody data-draw="t_speed"></tbody>
+        </table>
+      </div>
+      <p class="lx-note">The audit named three savings on mobile: 202 KB of unused JavaScript, 528 ms of server response
+        time, and 630 ms lost to redirects.</p>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Authority snapshot</h2>
+        <p class="lx-card-note">Every number here comes from the Ubersuggest backlink index on 3 November 2026.</p>
+      </div>
+      <div class="lx-tablewrap">
+        <table data-source="authority" data-row-key="metric">
+          <thead><tr>
+            <th data-field="metric">Metric</th>
+            <th class="lx-num" data-field="value">Value</th>
+          </tr></thead>
+          <tbody data-draw="t_authority"></tbody>
+        </table>
+      </div>
+      <p class="lx-note">Nine backlinks from five domains, none of them follow links. Ubersuggest sees three ranking
+        keywords against Search Console's 1,000, which is normal for a domain this new: third-party indexes lag
+        Search Console by weeks.</p>
+    </div>
+  </section>
+
+  <section class="lx-sec" id="sec-actions" aria-labelledby="tab-actions" hidden>
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">What October says to do in November</h2>
+        <p class="lx-card-note">Ordered by expected clicks per hour of work, not by how interesting the work is.</p>
+      </div>
+      <div class="lx-act">
+        <p class="lx-act-n">1</p>
+        <div class="lx-act-b">
+          <p class="lx-act-t">Rewrite titles and intros for the 28 striking-distance queries</p>
+          <p class="lx-act-d">These already rank between positions 4 and 20 and took zero clicks on
+            <b data-draw="a_sdimpr" data-source="strikingtotal" data-field="impressions" data-row="0">—</b> impressions.
+            Lead with the answer in the first 40 words, put the query in the title, and link each page from the homepage
+            or its feature page. No new content needed.</p>
+        </div>
+        <p class="lx-act-n">2</p>
+        <div class="lx-act-b">
+          <p class="lx-act-t">Fix mobile performance before anything else technical</p>
+          <p class="lx-act-d">Mobile LCP is 4.7 seconds against a 2.5 second threshold, and time to interactive is 10.1
+            seconds. Trimming the 202 KB of unused JavaScript and removing the redirect chain is the single highest
+            leverage engineering task on this list.</p>
+        </div>
+        <p class="lx-act-n">3</p>
+        <div class="lx-act-b">
+          <p class="lx-act-t">Start link acquisition, because authority is the ceiling</p>
+          <p class="lx-act-d">Five referring domains and zero follow links explain the deep average position better than
+            any content gap. Target product directories, the comparison and alternatives pages already published, and the
+            tool-submission copy in the brand memory file. Aim for 20 to 30 referring domains by the end of Q1.</p>
+        </div>
+        <p class="lx-act-n">4</p>
+        <div class="lx-act-b">
+          <p class="lx-act-t">Build out the conversational and AI-surface answers</p>
+          <p class="lx-act-d">120 queries of ten words or more averaged position 7.8 and returned no clicks. They ask
+            about SSO and SCIM, transcript retention, which third-party models see call data, volume discounts and
+            source-linked search. Each is a short, factual page or an FAQ block, and each maps onto something Lynkk
+            already does. This is also the traffic least likely to click, so treat it as brand presence inside answers.</p>
+        </div>
+        <p class="lx-act-n">5</p>
+        <div class="lx-act-b">
+          <p class="lx-act-t">Push the commercial pages, not just the blog</p>
+          <p class="lx-act-d">Comparison, use-case and integration pages took one click between them on 672 impressions.
+            Competitor pricing queries (granola pricing, fathom pricing) already rank on page two and are the cheapest
+            route from a competitor search to a Lynkk comparison page.</p>
+        </div>
+        <p class="lx-act-n">6</p>
+        <div class="lx-act-b">
+          <p class="lx-act-t">Pick one cluster to own instead of spreading thin</p>
+          <p class="lx-act-d">Dictation and voice-to-text is the largest cluster by impressions and the worst by position,
+            which means it is competitive and Lynkk is not winning it. Google Meet is the opposite: strong average
+            position, real volume, a near miss. Concentrate November on Google Meet and Zoom and park the generic
+            voice-to-text articles.</p>
+        </div>
+        <p class="lx-act-n">7</p>
+        <div class="lx-act-b">
+          <p class="lx-act-t">Clear the small crawl issues</p>
+          <p class="lx-act-d">Four thin pages, six short titles, one page blocked by a meta robots tag, one 302 redirect
+            and five unfriendly URLs. An afternoon of work, and it keeps the health score from drifting as the site grows.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="lx-card">
+      <div class="lx-card-head">
+        <h2 class="lx-card-title">Reading this report</h2>
+        <p class="lx-card-note">What the numbers are, and what they are not.</p>
+      </div>
+      <dl class="lx-kv">
+        <dt>Period</dt><dd>1 to 31 October 2026</dd>
+        <dt>Search type</dt><dd>Web, text based</dd>
+        <dt>Search Console data</dt><dd>Export of 3 November 2026</dd>
+        <dt>Ubersuggest data</dt><dd>Pulled 3 November 2026, United States</dd>
+        <dt>Month-on-month change</dt><dd>Not available, September was not exported</dd>
+        <dt>Conversions and signups</dt><dd>Not available, no analytics export</dd>
+      </dl>
+      <p class="lx-note">Three caveats worth keeping in mind. Search Console caps the query export at 1,000 rows, so the
+        keyword totals here are a floor, not a full count, and they do not add up to the site totals. Query, page,
+        country and device tables each use Google's own anonymisation, so their sums differ slightly from the daily
+        totals. And Search Console counts an impression whenever a result appears, including inside AI answers, so the
+        falling click-through rate through October partly reflects where Lynkk is appearing rather than how well its
+        titles work.</p>
+    </div>
+  </section>
+</div>
+
+<script>
+window.lxFmt = {
+  n: d3.format(','),
+  c: (v) => Intl.NumberFormat('en', {notation: 'compact', maximumFractionDigits: 1}).format(v),
+  pct: d3.format('.2%'),
+  pct1: d3.format('.1%'),
+  pos: d3.format('.1f'),
+  usd: d3.format('$.2f'),
+  day: (s) => d3.utcFormat('%b %-d')(new Date(s + 'T00:00:00Z'))
+};
+window.lxRows = (id) => { const d = dash.data(id); return d.status === 'ok' && Array.isArray(d.data) ? d.data : []; };
+window.lxNum = (v) => { const n = Number(v); return Number.isFinite(n) ? n : 0; };
+window.lxTip = (box) => {
+  let tip = box.querySelector('.lx-tip');
+  if (!tip) { tip = document.createElement('div'); tip.className = 'lx-tip'; box.appendChild(tip); }
+  return {
+    show(x, y, head, rows) {
+      tip.replaceChildren();
+      const h = document.createElement('div'); h.className = 'lx-tip-head'; h.textContent = head; tip.appendChild(h);
+      rows.forEach((r) => {
+        const line = document.createElement('div'); line.className = 'lx-tip-row';
+        if (r.color) { const sw = document.createElement('span'); sw.className = 'lx-sw'; sw.style.background = r.color; line.appendChild(sw); }
+        const t = document.createElement('span'); t.textContent = r.text; line.appendChild(t);
+        tip.appendChild(line);
+      });
+      tip.style.opacity = '1';
+      const w = tip.offsetWidth, bw = box.clientWidth;
+      tip.style.left = Math.max(0, Math.min(bw - w, x - w / 2)) + 'px';
+      tip.style.top = Math.max(0, y) + 'px';
+    },
+    hide() { tip.style.opacity = '0'; }
+  };
+};
+window.lxSvg = (box, h) => {
+  const w = Math.max(240, box.clientWidth);
+  box.style.minHeight = h + 'px';
+  const old = box.querySelector('svg'); if (old) old.remove();
+  const svg = d3.select(box).insert('svg', '.lx-tip').attr('viewBox', [0, 0, w, h]).attr('width', '100%').attr('height', h)
+    .attr('role', 'img').style('max-width', '100%');
+  return {svg, w, h};
+};
+window.lxAxis = (g) => g.attr('font-size', null).attr('font-family', null)
+  .call((s) => s.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)'))
+  .call((s) => s.selectAll('line, path').attr('stroke', 'var(--cds-chart-axis)'));
+window.lxFail = (box, status) => {
+  if (status === 'ok') return false;
+  box.replaceChildren();
+  box.style.display = 'flex'; box.style.alignItems = 'center'; box.style.justifyContent = 'center'; box.style.minHeight = '200px';
+  if (status === 'loading') { box.classList.add('dash-skeleton'); return true; }
+  box.classList.remove('dash-skeleton');
+  const dot = document.createElement('span');
+  dot.style.cssText = 'width:.375rem;height:.375rem;border-radius:50%;background:var(--color-bad);margin-right:.5rem';
+  const t = document.createElement('span');
+  t.style.cssText = 'color:var(--color-fg-muted);font-size:var(--cds-font-size-caption)';
+  t.textContent = 'Failed to load';
+  box.append(dot, t);
+  return true;
+};
+window.lxCell = (tr, text, cls) => {
+  const td = document.createElement('td');
+  if (cls) td.className = cls;
+  td.textContent = text;
+  tr.appendChild(td);
+  return td;
+};
+window.lxFill = (tbody, rows, keyField, build) => {
+  tbody.replaceChildren();
+  rows.forEach((r) => { const tr = document.createElement('tr'); tr.dataset.key = String(r[keyField]); build(tr, r); tbody.appendChild(tr); });
+};
+window.lxSortable = (table, rows, state) => {
+  table.querySelectorAll('th button[data-sort]').forEach((b) => {
+    const key = b.dataset.sort;
+    b.parentElement.setAttribute('aria-sort', state.key === key ? (state.dir === 1 ? 'ascending' : 'descending') : 'none');
+    b.onclick = () => { if (state.key === key) state.dir = -state.dir; else { state.key = key; state.dir = -1; } state.redraw(); };
+  });
+  if (!state.key) return rows;
+  const num = rows.length && Number.isFinite(Number(rows[0][state.key])) && rows[0][state.key] !== '';
+  return rows.slice().sort((a, b) => {
+    const x = num ? Number(a[state.key]) : String(a[state.key]).toLowerCase();
+    const y = num ? Number(b[state.key]) : String(b[state.key]).toLowerCase();
+    return (x < y ? -1 : x > y ? 1 : 0) * state.dir;
+  });
+};
+</script>
+
+<script>
+dash.calc('kpi', {
+  inputs: ['daily'],
+  title: 'October totals',
+  description: 'Clicks and impressions summed over the 31 days; position weighted by each day’s impressions.',
+  fn: (daily) => {
+    const clicks = d3.sum(daily, (r) => Number(r.clicks));
+    const impressions = d3.sum(daily, (r) => Number(r.impressions));
+    const position = d3.sum(daily, (r) => Number(r.position) * Number(r.impressions)) / impressions;
+    return [{clicks, impressions, ctr: clicks / impressions, position, days: daily.length}];
+  }
+});
+
+dash.calc('weekly', {
+  inputs: ['daily'],
+  title: 'Weeks of October',
+  description: 'Days grouped into five calendar weeks; week 5 holds 29 to 31 October only.',
+  fn: (daily) => {
+    const weekOf = (day) => Math.min(5, Math.floor((Number(day.slice(8, 10)) - 1) / 7) + 1);
+    const labels = {1: 'Oct 1-7', 2: 'Oct 8-14', 3: 'Oct 15-21', 4: 'Oct 22-28', 5: 'Oct 29-31'};
+    const weeks = d3.groups(daily, (r) => weekOf(r.day)).sort((a, b) => a[0] - b[0]);
+    const perDay = weeks.map(([, rs]) => d3.sum(rs, (r) => Number(r.impressions)) / rs.length);
+    return weeks.map(([week, rs], i) => {
+      const clicks = d3.sum(rs, (r) => Number(r.clicks));
+      const impressions = d3.sum(rs, (r) => Number(r.impressions));
+      return {
+        week, label: labels[week], clicks, impressions, ctr: clicks / impressions, days: rs.length,
+        position: d3.sum(rs, (r) => Number(r.position) * Number(r.impressions)) / impressions,
+        impr_per_day: Math.round(perDay[i]),
+        growth_label: Math.round((perDay[i] / perDay[0]) * 10) / 10 + 'x'
+      };
+    });
+  }
+});
+
+dash.calc('qtotals', {
+  inputs: ['queries'],
+  title: 'Query count',
+  description: 'How many query rows the export returned, and their totals.',
+  fn: (queries) => [{
+    keywords: queries.length,
+    clicks: d3.sum(queries, (r) => Number(r.clicks)),
+    impressions: d3.sum(queries, (r) => Number(r.impressions))
+  }]
+});
+
+dash.calc('ptotals', {
+  inputs: ['pages'],
+  title: 'Page count',
+  description: 'Pages with at least one impression, and how many of those took no click.',
+  fn: (pages) => [{pages: pages.length, zero: pages.filter((r) => Number(r.clicks) === 0).length}]
+});
+
+dash.calc('ctotals', {
+  inputs: ['countries'],
+  title: 'Country count',
+  description: 'Countries with at least one impression, and how many took no click.',
+  fn: (countries) => [{countries: countries.length, zero: countries.filter((r) => Number(r.clicks) === 0).length}]
+});
+
+dash.calc('posdist', {
+  inputs: ['queries'],
+  title: 'Keywords by position band',
+  description: 'Each query counted once in the band its average position falls in.',
+  fn: (queries) => {
+    const band = (p) => p <= 3 ? 'Top 3' : p <= 10 ? '4 to 10' : p <= 20 ? '11 to 20' : p <= 50 ? '21 to 50' : 'Past 50';
+    const order = ['Top 3', '4 to 10', '11 to 20', '21 to 50', 'Past 50'];
+    const rows = order.map((bucket) => {
+      const rs = queries.filter((r) => band(Number(r.position)) === bucket);
+      return {bucket, keywords: rs.length, impressions: d3.sum(rs, (r) => Number(r.impressions)), clicks: d3.sum(rs, (r) => Number(r.clicks))};
+    });
+    const deep = queries.filter((r) => Number(r.position) > 20).length;
+    rows.push({bucket: 'Past 20', keywords: deep, impressions: 0, clicks: 0, share: deep / queries.length});
+    return rows;
+  }
+});
+
+dash.calc('qtypes', {
+  inputs: ['queries'],
+  title: 'Query types',
+  description: 'Brand, then queries of ten words or more, then four to nine words, then shorter.',
+  fn: (queries) => {
+    const total = d3.sum(queries, (r) => Number(r.clicks));
+    const totalImpr = d3.sum(queries, (r) => Number(r.impressions));
+    return d3.groups(queries, (r) => r.query_type).map(([query_type, rs]) => {
+      const clicks = d3.sum(rs, (r) => Number(r.clicks));
+      const impressions = d3.sum(rs, (r) => Number(r.impressions));
+      return {
+        query_type, keywords: rs.length, clicks, impressions, ctr: clicks / impressions,
+        position: d3.sum(rs, (r) => Number(r.position) * Number(r.impressions)) / impressions,
+        click_share: clicks / total, impr_share: impressions / totalImpr
+      };
+    }).sort((a, b) => b.impressions - a.impressions);
+  }
+});
+
+dash.calc('themes', {
+  inputs: ['queries'],
+  title: 'Topic clusters',
+  description: 'Queries grouped by the cluster assigned in the export, summed and position-weighted.',
+  fn: (queries) => d3.groups(queries, (r) => r.theme).map(([theme, rs]) => {
+    const clicks = d3.sum(rs, (r) => Number(r.clicks));
+    const impressions = d3.sum(rs, (r) => Number(r.impressions));
+    return {
+      theme, keywords: rs.length, clicks, impressions, ctr: clicks / impressions,
+      position: d3.sum(rs, (r) => Number(r.position) * Number(r.impressions)) / impressions
+    };
+  }).sort((a, b) => b.impressions - a.impressions)
+});
+
+dash.calc('striking', {
+  inputs: ['queries'],
+  title: 'Striking distance queries',
+  description: 'Position 4 to 20, at least 20 impressions, no clicks, and under ten words.',
+  fn: (queries) => queries
+    .filter((r) => Number(r.position) >= 4 && Number(r.position) <= 20 && Number(r.impressions) >= 20 && Number(r.clicks) === 0 && Number(r.word_count) < 10)
+    .sort((a, b) => Number(b.impressions) - Number(a.impressions))
+});
+
+dash.calc('strikingtotal', {
+  inputs: ['striking'],
+  title: 'Striking distance total',
+  description: 'How many striking-distance queries there are and what they were seen for.',
+  fn: (striking) => [{queries: striking.length, impressions: d3.sum(striking, (r) => Number(r.impressions))}]
+});
+
+dash.calc('conversational', {
+  inputs: ['queries'],
+  title: 'Conversational queries',
+  description: 'Queries of ten words or more, the twenty most seen.',
+  fn: (queries) => queries
+    .filter((r) => Number(r.word_count) >= 10)
+    .sort((a, b) => Number(b.impressions) - Number(a.impressions))
+    .slice(0, 20)
+});
+
+dash.calc('sections', {
+  inputs: ['pages'],
+  title: 'Site sections',
+  description: 'Pages grouped by the section in the export, summed and position-weighted.',
+  fn: (pages) => d3.groups(pages, (r) => r.section).map(([section, rs]) => {
+    const clicks = d3.sum(rs, (r) => Number(r.clicks));
+    const impressions = d3.sum(rs, (r) => Number(r.impressions));
+    return {
+      section, pages: rs.length, clicks, impressions, ctr: clicks / impressions,
+      position: d3.sum(rs, (r) => Number(r.position) * Number(r.impressions)) / impressions
+    };
+  }).sort((a, b) => b.impressions - a.impressions)
+});
+
+dash.calc('topcountries', {
+  inputs: ['countries'],
+  title: 'Top countries',
+  description: 'The twenty countries with the most impressions.',
+  fn: (countries) => countries.slice().sort((a, b) => Number(b.impressions) - Number(a.impressions)).slice(0, 20)
+});
+
+dash.calc('kwopp', {
+  inputs: ['keywords'],
+  title: 'Clicks at a top-three finish',
+  description: 'US monthly volume multiplied by 0.11, the share of clicks a top-three result typically takes.',
+  fn: (keywords) => keywords.map((r) => ({keyword: r.keyword, potential_clicks: Math.round(Number(r.us_volume) * 0.11)}))
+});
+</script>
+
+<script>
+(function tabs() {
+  const buttons = Array.from(document.querySelectorAll('.lx-tab'));
+  const show = (id) => {
+    buttons.forEach((b) => {
+      const on = b.id === id;
+      b.setAttribute('aria-selected', on ? 'true' : 'false');
+      const sec = document.getElementById(b.getAttribute('aria-controls'));
+      if (sec) sec.hidden = !on;
+    });
+  };
+  buttons.forEach((b) => { b.onclick = () => { show(b.id); dash.setLink(b.getAttribute('aria-controls')); }; });
+  const named = (location.hash || '').slice(1);
+  const match = buttons.find((b) => b.getAttribute('aria-controls') === named);
+  if (match) show(match.id);
+})();
+</script>
+
+<script>
+const tile = (field, fmt, source) => (el) => {
+  const d = dash.data(source || 'kpi');
+  if (d.status !== 'ok') { el.textContent = '—'; el.classList.add('dash-skeleton'); return; }
+  el.classList.remove('dash-skeleton');
+  const rows = Array.isArray(d.data) ? d.data : [];
+  el.textContent = rows.length ? fmt(rows[0][field]) : '—';
+};
+dash.draw('k_clicks', tile('clicks', (v) => lxFmt.n(lxNum(v))));
+dash.draw('k_impr', tile('impressions', (v) => lxFmt.c(lxNum(v))));
+dash.draw('k_ctr', tile('ctr', (v) => lxFmt.pct(lxNum(v))));
+dash.draw('k_pos', tile('position', (v) => lxFmt.pos(lxNum(v))));
+dash.draw('t_clicks', tile('clicks', (v) => lxFmt.n(lxNum(v))));
+dash.draw('t_impr', tile('impressions', (v) => lxFmt.n(lxNum(v))));
+dash.draw('t_ctr', tile('ctr', (v) => lxFmt.pct(lxNum(v))));
+dash.draw('k_kw', tile('keywords', (v) => lxFmt.n(lxNum(v)), 'qtotals'));
+dash.draw('k_pg', tile('pages', (v) => lxFmt.n(lxNum(v)), 'ptotals'));
+dash.draw('k_pgzero', tile('zero', (v) => lxFmt.n(lxNum(v)), 'ptotals'));
+dash.draw('a_zero', tile('zero', (v) => lxFmt.n(lxNum(v)), 'ctotals'));
+dash.draw('a_sdimpr', tile('impressions', (v) => lxFmt.n(lxNum(v)), 'strikingtotal'));
+
+const pick = (source, match, field, fmt) => (el) => {
+  const rows = lxRows(source);
+  const row = rows.find(match);
+  el.textContent = row ? fmt(row[field]) : '—';
+};
+dash.draw('t_deep', pick('posdist', (r) => r.bucket === 'Past 20', 'share', (v) => lxFmt.pct1(lxNum(v))));
+dash.draw('k_growth', pick('weekly', (r) => Number(r.week) === 5, 'growth_label', (v) => String(v)));
+dash.draw('q_brandshare', pick('qtypes', (r) => r.query_type === 'Brand', 'click_share', (v) => lxFmt.pct1(lxNum(v))));
+dash.draw('q_brandimpr', pick('qtypes', (r) => r.query_type === 'Brand', 'impr_share', (v) => lxFmt.pct1(lxNum(v))));
+dash.draw('cv_pos', pick('qtypes', (r) => r.query_type === 'Conversational / AI-style', 'position', (v) => lxFmt.pos(lxNum(v))));
+dash.draw('cv_kw', pick('qtypes', (r) => r.query_type === 'Conversational / AI-style', 'keywords', (v) => lxFmt.n(lxNum(v))));
+dash.draw('cv_impr', pick('qtypes', (r) => r.query_type === 'Conversational / AI-style', 'impressions', (v) => lxFmt.n(lxNum(v))));
+dash.draw('s_homectr', pick('pages', (r) => r.path === '/', 'ctr', (v) => lxFmt.pct1(lxNum(v))));
+dash.draw('x_health', pick('authority', (r) => r.metric === 'Site health score', 'value', (v) => lxFmt.n(lxNum(v))));
+dash.draw('x_crawled', pick('authority', (r) => r.metric === 'Pages crawled', 'value', (v) => lxFmt.n(lxNum(v))));
+dash.draw('x_da', pick('authority', (r) => r.metric === 'Domain authority (0-100)', 'value', (v) => lxFmt.n(lxNum(v))));
+dash.draw('x_rd', pick('authority', (r) => r.metric === 'Referring domains', 'value', (v) => lxFmt.n(lxNum(v))));
+dash.draw('x_follow', pick('authority', (r) => r.metric === 'Follow backlinks', 'value', (v) => lxFmt.n(lxNum(v))));
+dash.draw('x_bl', pick('authority', (r) => r.metric === 'Total backlinks', 'value', (v) => lxFmt.n(lxNum(v))));
+</script>
+
+<script>
+const dayBars = (field, color, fmtY, label) => (box) => {
+  const d = dash.data('daily');
+  if (lxFail(box, d.status)) return;
+  box.classList.remove('dash-skeleton');
+  box.style.display = ''; box.style.alignItems = ''; box.style.justifyContent = '';
+  const rows = (Array.isArray(d.data) ? d.data : []).slice().sort((a, b) => a.day < b.day ? -1 : 1);
+  const h = 260;
+  const {svg, w} = lxSvg(box, h);
+  if (!rows.length) return;
+  const maxV = d3.max(rows, (r) => Number(r[field])) || 1;
+  const yTmp = d3.scaleLinear([0, maxV], [h, 0]).nice();
+  const probe = svg.append('text').style('font-size', 'var(--cds-font-size-caption)').attr('opacity', 0);
+  const labelW = d3.max(yTmp.ticks(5), (t) => { probe.text(fmtY(t)); return probe.node().getComputedTextLength(); }) || 20;
+  probe.remove();
+  const m = {top: 8, right: 8, bottom: 26, left: Math.ceil(labelW) + 10};
+  const y = d3.scaleLinear(yTmp.domain(), [h - m.bottom, m.top]);
+  const x = d3.scaleBand(rows.map((r) => r.day), [m.left, w - m.right]).padding(0.25);
+  svg.append('g').attr('transform', `translate(${m.left},0)`)
+    .call(d3.axisLeft(y).ticks(5).tickFormat(fmtY).tickSize(-(w - m.left - m.right)))
+    .call(lxAxis)
+    .call((g) => g.selectAll('.tick line').attr('stroke', 'var(--cds-chart-grid)'))
+    .call((g) => g.select('.domain').remove());
+  const everyN = w < 520 ? 7 : w < 760 ? 4 : 2;
+  svg.append('g').attr('transform', `translate(0,${h - m.bottom})`)
+    .call(d3.axisBottom(x).tickValues(rows.map((r) => r.day).filter((_, i) => i % everyN === 0)).tickFormat(lxFmt.day).tickSizeOuter(0))
+    .call(lxAxis);
+  const tip = lxTip(box);
+  svg.append('g').selectAll('rect').data(rows).join('rect')
+    .attr('x', (r) => x(r.day)).attr('width', Math.min(32, x.bandwidth()))
+    .attr('y', (r) => y(Number(r[field]))).attr('height', (r) => Math.max(0, y(0) - y(Number(r[field]))))
+    .attr('rx', 2).attr('fill', color)
+    .on('pointerenter pointermove', (ev, r) => tip.show(x(r.day) + x.bandwidth() / 2, Math.max(0, y(Number(r[field])) - 52), lxFmt.day(r.day), [{text: `${label}: ${fmtY(Number(r[field]))}`, color}]))
+    .on('pointerleave', tip.hide);
+};
+dash.draw('c_impr', dayBars('impressions', dash.colors[0], (v) => lxFmt.c(v), 'Impressions'));
+dash.draw('c_clicks', dayBars('clicks', dash.colors[1], (v) => lxFmt.n(v), 'Clicks'));
+
+dash.draw('c_pos', (box) => {
+  const d = dash.data('daily');
+  if (lxFail(box, d.status)) return;
+  box.classList.remove('dash-skeleton');
+  box.style.display = ''; box.style.alignItems = ''; box.style.justifyContent = '';
+  const rows = (Array.isArray(d.data) ? d.data : []).slice().sort((a, b) => a.day < b.day ? -1 : 1);
+  const h = 260;
+  const {svg, w} = lxSvg(box, h);
+  if (!rows.length) return;
+  const m = {top: 10, right: 12, bottom: 26, left: 36};
+  const y = d3.scaleLinear([d3.max(rows, (r) => Number(r.position)), 0], [h - m.bottom, m.top]).nice();
+  const x = d3.scaleUtc(d3.extent(rows, (r) => new Date(r.day + 'T00:00:00Z')), [m.left, w - m.right]);
+  svg.append('g').attr('transform', `translate(${m.left},0)`)
+    .call(d3.axisLeft(y).ticks(5).tickSize(-(w - m.left - m.right))).call(lxAxis)
+    .call((g) => g.selectAll('.tick line').attr('stroke', 'var(--cds-chart-grid)'))
+    .call((g) => g.select('.domain').remove());
+  svg.append('g').attr('transform', `translate(0,${h - m.bottom})`)
+    .call(d3.axisBottom(x).ticks(w < 520 ? 4 : 7).tickFormat(d3.utcFormat('%b %-d')).tickSizeOuter(0)).call(lxAxis);
+  const line = d3.line().x((r) => x(new Date(r.day + 'T00:00:00Z'))).y((r) => y(Number(r.position)));
+  svg.append('path').datum(rows).attr('fill', 'none').attr('stroke', dash.colors[2]).attr('stroke-width', 2)
+    .attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round').attr('d', line);
+  const tip = lxTip(box);
+  svg.append('g').selectAll('circle').data(rows).join('circle')
+    .attr('cx', (r) => x(new Date(r.day + 'T00:00:00Z'))).attr('cy', (r) => y(Number(r.position)))
+    .attr('r', 9).attr('fill', 'transparent')
+    .on('pointerenter pointermove', (ev, r) => tip.show(x(new Date(r.day + 'T00:00:00Z')), Math.max(0, y(Number(r.position)) - 52), lxFmt.day(r.day), [{text: `Position: ${lxFmt.pos(Number(r.position))}`, color: dash.colors[2]}]))
+    .on('pointerleave', tip.hide);
+});
+</script>
+
+<script>
+const hBars = (source, nameField, valueField, opts) => (box) => {
+  const d = dash.data(source);
+  if (lxFail(box, d.status)) return;
+  box.classList.remove('dash-skeleton');
+  box.style.display = ''; box.style.alignItems = ''; box.style.justifyContent = '';
+  let rows = Array.isArray(d.data) ? d.data.slice() : [];
+  if (opts.filter) rows = rows.filter(opts.filter);
+  rows.sort((a, b) => Number(b[valueField]) - Number(a[valueField]));
+  if (opts.limit) rows = rows.slice(0, opts.limit);
+  const h = Math.max(140, rows.length * 30 + 36);
+  const {svg, w} = lxSvg(box, h);
+  if (!rows.length) return;
+  const probe = svg.append('text').style('font-size', 'var(--cds-font-size-caption)').attr('opacity', 0);
+  const nameW = d3.max(rows, (r) => { probe.text(r[nameField]); return probe.node().getComputedTextLength(); }) || 60;
+  probe.remove();
+  const left = Math.min(Math.ceil(nameW) + 10, Math.max(90, Math.floor(w * 0.42)));
+  const right = opts.endLabel ? 54 : 12;
+  const x = d3.scaleLinear([0, d3.max(rows, (r) => Number(r[valueField])) || 1], [left, w - right]);
+  const y = d3.scaleBand(rows.map((r) => r[nameField]), [16, h - 12]).padding(0.28);
+  svg.append('g').attr('transform', 'translate(0,16)')
+    .call(d3.axisTop(x).ticks(w < 480 ? 3 : 5).tickFormat(opts.fmt).tickSize(-(h - 28))).call(lxAxis)
+    .call((g) => g.selectAll('.tick line').attr('stroke', 'var(--cds-chart-grid)'))
+    .call((g) => g.select('.domain').remove());
+  const tip = lxTip(box);
+  const g = svg.append('g');
+  g.selectAll('rect').data(rows).join('rect')
+    .attr('x', left).attr('y', (r) => y(r[nameField])).attr('height', Math.min(26, y.bandwidth()))
+    .attr('width', (r) => Math.max(1, x(Number(r[valueField])) - left)).attr('rx', 2)
+    .attr('fill', (r, i) => opts.color ? opts.color(r, i) : dash.colors[0])
+    .on('pointerenter pointermove', (ev, r) => tip.show(left + 120, Math.max(0, y(r[nameField]) - 46), String(r[nameField]), (opts.tipRows || ((row) => [{text: opts.fmt(Number(row[valueField])), color: dash.colors[0]}]))(r)))
+    .on('pointerleave', tip.hide);
+  g.selectAll('text.lx-name').data(rows).join('text').attr('class', 'lx-name')
+    .attr('x', left - 8).attr('y', (r) => y(r[nameField]) + Math.min(26, y.bandwidth()) / 2)
+    .attr('dy', '0.35em').attr('text-anchor', 'end').attr('fill', 'var(--color-fg)')
+    .style('font-size', 'var(--cds-font-size-caption)').text((r) => r[nameField]);
+  if (opts.endLabel) {
+    g.selectAll('text.lx-end').data(rows).join('text').attr('class', 'lx-end')
+      .attr('x', (r) => Math.min(w - 6, x(Number(r[valueField])) + 6)).attr('y', (r) => y(r[nameField]) + Math.min(26, y.bandwidth()) / 2)
+      .attr('dy', '0.35em').attr('fill', 'var(--color-fg-muted)')
+      .style('font-size', 'var(--cds-font-size-caption)').text(opts.endLabel);
+  }
+};
+
+dash.draw('c_posdist', hBars('posdist', 'bucket', 'keywords', {
+  filter: (r) => r.bucket !== 'Past 20',
+  fmt: (v) => lxFmt.n(v),
+  color: (r) => r.bucket === 'Top 3' || r.bucket === '4 to 10' ? dash.colors[0] : 'var(--cds-chart-muted)',
+  endLabel: (r) => lxFmt.n(Number(r.keywords)),
+  tipRows: (r) => [{text: `${lxFmt.n(Number(r.keywords))} keywords`, color: dash.colors[0]}, {text: `${lxFmt.n(Number(r.impressions))} impressions`}]
+}));
+dash.draw('c_qtypes', hBars('qtypes', 'query_type', 'impressions', {
+  fmt: (v) => lxFmt.c(v),
+  endLabel: (r) => `${lxFmt.n(Number(r.clicks))} clicks`,
+  tipRows: (r) => [{text: `${lxFmt.n(Number(r.impressions))} impressions`, color: dash.colors[0]}, {text: `${lxFmt.n(Number(r.clicks))} clicks, CTR ${lxFmt.pct(Number(r.ctr))}`}]
+}));
+dash.draw('c_themes', hBars('themes', 'theme', 'impressions', {
+  fmt: (v) => lxFmt.c(v),
+  color: (r) => Number(r.position) <= 25 ? dash.colors[0] : 'var(--cds-chart-muted)',
+  endLabel: (r) => `pos ${lxFmt.pos(Number(r.position))}`,
+  tipRows: (r) => [{text: `${lxFmt.n(Number(r.impressions))} impressions`, color: dash.colors[0]}, {text: `${lxFmt.n(Number(r.keywords))} keywords, ${lxFmt.n(Number(r.clicks))} clicks`}, {text: `Average position ${lxFmt.pos(Number(r.position))}`}]
+}));
+dash.draw('c_sections', hBars('sections', 'section', 'impressions', {
+  fmt: (v) => lxFmt.c(v),
+  endLabel: (r) => `${lxFmt.n(Number(r.pages))} pages`,
+  tipRows: (r) => [{text: `${lxFmt.n(Number(r.impressions))} impressions`, color: dash.colors[0]}, {text: `${lxFmt.n(Number(r.clicks))} clicks, CTR ${lxFmt.pct(Number(r.ctr))}`}]
+}));
+dash.draw('c_sectionclicks', hBars('sections', 'section', 'clicks', {
+  fmt: (v) => lxFmt.n(v),
+  color: () => dash.colors[1],
+  endLabel: (r) => lxFmt.pct(Number(r.ctr)),
+  tipRows: (r) => [{text: `${lxFmt.n(Number(r.clicks))} clicks`, color: dash.colors[1]}, {text: `CTR ${lxFmt.pct(Number(r.ctr))}`}]
+}));
+dash.draw('c_devices', hBars('devices', 'device', 'impressions', {
+  fmt: (v) => lxFmt.c(v),
+  endLabel: (r) => `${lxFmt.n(Number(r.clicks))} clicks`,
+  tipRows: (r) => [{text: `${lxFmt.n(Number(r.impressions))} impressions`, color: dash.colors[0]}, {text: `${lxFmt.n(Number(r.clicks))} clicks, CTR ${lxFmt.pct(Number(r.ctr))}`}, {text: `Average position ${lxFmt.pos(Number(r.position))}`}]
+}));
+dash.draw('c_countries', hBars('countries', 'country', 'impressions', {
+  limit: 10,
+  fmt: (v) => lxFmt.c(v),
+  color: (r) => Number(r.clicks) >= 5 ? dash.colors[0] : 'var(--cds-chart-muted)',
+  endLabel: (r) => `${lxFmt.n(Number(r.clicks))} clicks`,
+  tipRows: (r) => [{text: `${lxFmt.n(Number(r.impressions))} impressions`, color: dash.colors[0]}, {text: `${lxFmt.n(Number(r.clicks))} clicks, CTR ${lxFmt.pct(Number(r.ctr))}`}, {text: `Average position ${lxFmt.pos(Number(r.position))}`}]
+}));
+
+dash.draw('c_speed', (box) => {
+  const d = dash.data('speed');
+  if (lxFail(box, d.status)) return;
+  box.classList.remove('dash-skeleton');
+  box.style.display = ''; box.style.alignItems = ''; box.style.justifyContent = '';
+  const rows = (Array.isArray(d.data) ? d.data : []).filter((r) => r.unit === 's');
+  const h = Math.max(160, rows.length * 44 + 40);
+  const {svg, w} = lxSvg(box, h);
+  if (!rows.length) return;
+  const probe = svg.append('text').style('font-size', 'var(--cds-font-size-caption)').attr('opacity', 0);
+  const nameW = d3.max(rows, (r) => { probe.text(r.metric); return probe.node().getComputedTextLength(); }) || 80;
+  probe.remove();
+  const left = Math.min(Math.ceil(nameW) + 10, Math.max(90, Math.floor(w * 0.44)));
+  const x = d3.scaleLinear([0, d3.max(rows, (r) => Math.max(Number(r.desktop), Number(r.mobile))) || 1], [left, w - 40]);
+  const y = d3.scaleBand(rows.map((r) => r.metric), [18, h - 12]).padding(0.3);
+  const inner = d3.scaleBand(['desktop', 'mobile'], [0, y.bandwidth()]).padding(0.18);
+  svg.append('g').attr('transform', 'translate(0,18)')
+    .call(d3.axisTop(x).ticks(w < 480 ? 3 : 5).tickFormat((v) => v + 's').tickSize(-(h - 30))).call(lxAxis)
+    .call((g) => g.selectAll('.tick line').attr('stroke', 'var(--cds-chart-grid)'))
+    .call((g) => g.select('.domain').remove());
+  const colors = {desktop: dash.colors[0], mobile: dash.colors[3]};
+  const tip = lxTip(box);
+  const g = svg.append('g');
+  ['desktop', 'mobile'].forEach((k) => {
+    g.selectAll(`rect.lx-${k}`).data(rows).join('rect').attr('class', `lx-${k}`)
+      .attr('x', left).attr('y', (r) => y(r.metric) + inner(k)).attr('height', Math.min(16, inner.bandwidth()))
+      .attr('width', (r) => Math.max(1, x(Number(r[k])) - left)).attr('rx', 2).attr('fill', colors[k])
+      .on('pointerenter pointermove', (ev, r) => tip.show(left + 110, Math.max(0, y(r.metric) - 50), r.metric, [
+        {text: `Desktop ${Number(r.desktop)}s`, color: colors.desktop},
+        {text: `Mobile ${Number(r.mobile)}s`, color: colors.mobile}
+      ]))
+      .on('pointerleave', tip.hide);
+  });
+  g.selectAll('text.lx-name').data(rows).join('text').attr('class', 'lx-name')
+    .attr('x', left - 8).attr('y', (r) => y(r.metric) + y.bandwidth() / 2).attr('dy', '0.35em')
+    .attr('text-anchor', 'end').attr('fill', 'var(--color-fg)')
+    .style('font-size', 'var(--cds-font-size-caption)').text((r) => r.metric);
+});
+</script>
+
+<script>
+dash.draw('t_weekly', (tbody) => {
+  lxFill(tbody, lxRows('weekly'), 'label', (tr, r) => {
+    lxCell(tr, r.label);
+    lxCell(tr, lxFmt.n(lxNum(r.clicks)), 'lx-num');
+    lxCell(tr, lxFmt.n(lxNum(r.impressions)), 'lx-num');
+    lxCell(tr, lxFmt.pct(lxNum(r.ctr)), 'lx-num');
+    lxCell(tr, lxFmt.pos(lxNum(r.position)), 'lx-num');
+    lxCell(tr, lxFmt.n(lxNum(r.impr_per_day)), 'lx-num');
+  });
+});
+
+dash.draw('t_striking', (tbody) => {
+  lxFill(tbody, lxRows('striking'), 'query', (tr, r) => {
+    lxCell(tr, r.query, 'lx-q');
+    lxCell(tr, lxFmt.n(lxNum(r.impressions)), 'lx-num');
+    lxCell(tr, lxFmt.pos(lxNum(r.position)), 'lx-num');
+    lxCell(tr, r.theme);
+  });
+});
+
+dash.draw('t_conv', (tbody) => {
+  lxFill(tbody, lxRows('conversational'), 'query', (tr, r) => {
+    lxCell(tr, r.query, 'lx-q');
+    lxCell(tr, lxFmt.n(lxNum(r.impressions)), 'lx-num');
+    lxCell(tr, lxFmt.pos(lxNum(r.position)), 'lx-num');
+  });
+});
+
+dash.draw('t_sections', (tbody) => {
+  lxFill(tbody, lxRows('sections'), 'section', (tr, r) => {
+    lxCell(tr, r.section);
+    lxCell(tr, lxFmt.n(lxNum(r.pages)), 'lx-num');
+    lxCell(tr, lxFmt.n(lxNum(r.clicks)), 'lx-num');
+    lxCell(tr, lxFmt.n(lxNum(r.impressions)), 'lx-num');
+    lxCell(tr, lxFmt.pct(lxNum(r.ctr)), 'lx-num');
+    lxCell(tr, lxFmt.pos(lxNum(r.position)), 'lx-num');
+  });
+});
+
+dash.draw('t_devices', (tbody) => {
+  lxFill(tbody, lxRows('devices'), 'device', (tr, r) => {
+    lxCell(tr, r.device);
+    lxCell(tr, lxFmt.n(lxNum(r.clicks)), 'lx-num');
+    lxCell(tr, lxFmt.n(lxNum(r.impressions)), 'lx-num');
+    lxCell(tr, lxFmt.pct(lxNum(r.ctr)), 'lx-num');
+    lxCell(tr, lxFmt.pos(lxNum(r.position)), 'lx-num');
+  });
+});
+
+dash.draw('t_countries', (tbody) => {
+  lxFill(tbody, lxRows('topcountries'), 'country', (tr, r) => {
+    lxCell(tr, r.country);
+    lxCell(tr, lxFmt.n(lxNum(r.clicks)), 'lx-num');
+    lxCell(tr, lxFmt.n(lxNum(r.impressions)), 'lx-num');
+    lxCell(tr, lxFmt.pct(lxNum(r.ctr)), 'lx-num');
+    lxCell(tr, lxFmt.pos(lxNum(r.position)), 'lx-num');
+  });
+});
+
+dash.draw('t_audit', (tbody) => {
+  lxFill(tbody, lxRows('audit'), 'issue', (tr, r) => {
+    lxCell(tr, r.issue);
+    const td = lxCell(tr, '');
+    const pill = document.createElement('span');
+    pill.className = 'lx-pill ' + (r.severity === 'Error' ? 'lx-pill-bad' : r.severity === 'Warning' ? 'lx-pill-warn' : 'lx-pill-ok');
+    pill.textContent = r.severity;
+    td.replaceChildren(pill);
+    lxCell(tr, r.seo_impact);
+    lxCell(tr, lxFmt.n(lxNum(r.pages_affected)), 'lx-num');
+    lxCell(tr, r.fix_difficulty);
+  });
+});
+
+dash.draw('t_speed', (tbody) => {
+  lxFill(tbody, lxRows('speed'), 'metric', (tr, r) => {
+    lxCell(tr, r.metric);
+    lxCell(tr, r.unit === 's' ? Number(r.desktop) + 's' : String(r.desktop), 'lx-num');
+    lxCell(tr, r.unit === 's' ? Number(r.mobile) + 's' : String(r.mobile), 'lx-num');
+  });
+});
+
+dash.draw('t_authority', (tbody) => {
+  lxFill(tbody, lxRows('authority'), 'metric', (tr, r) => {
+    lxCell(tr, r.metric);
+    lxCell(tr, lxFmt.n(lxNum(r.value)), 'lx-num');
+  });
+});
+
+const kwState = {key: null, dir: -1, redraw: () => dash.draw('t_keywords')};
+dash.draw('t_keywords', (tbody) => {
+  const table = tbody.closest('table');
+  const opp = new Map(lxRows('kwopp').map((r) => [r.keyword, r.potential_clicks]));
+  let rows = lxRows('keywords').map((r) => ({...r, potential_clicks: opp.get(r.keyword) ?? ''}));
+  rows = lxSortable(table, rows, kwState);
+  lxFill(tbody, rows, 'keyword', (tr, r) => {
+    lxCell(tr, r.keyword);
+    lxCell(tr, lxFmt.n(lxNum(r.us_volume)), 'lx-num');
+    lxCell(tr, lxFmt.n(lxNum(r.seo_difficulty)), 'lx-num');
+    lxCell(tr, lxFmt.usd(lxNum(r.cpc_usd)), 'lx-num');
+    lxCell(tr, lxFmt.pos(lxNum(r.gsc_position)), 'lx-num');
+    lxCell(tr, lxFmt.n(lxNum(r.gsc_impressions)), 'lx-num');
+    lxCell(tr, r.potential_clicks === '' ? '—' : lxFmt.n(lxNum(r.potential_clicks)), 'lx-num');
+  });
+});
+
+const qState = {key: 'impressions', dir: -1, text: '', redraw: () => dash.draw('t_queries')};
+dash.draw('t_queries', (tbody) => {
+  const table = tbody.closest('table');
+  let rows = lxRows('queries');
+  if (qState.text) rows = rows.filter((r) => (r.query + ' ' + r.theme).toLowerCase().includes(qState.text));
+  rows = lxSortable(table, rows, qState);
+  qState.count = rows.length;
+  lxFill(tbody, rows, 'query', (tr, r) => {
+    lxCell(tr, r.query, 'lx-q');
+    lxCell(tr, lxFmt.n(lxNum(r.clicks)), 'lx-num');
+    lxCell(tr, lxFmt.n(lxNum(r.impressions)), 'lx-num');
+    lxCell(tr, lxFmt.pct(lxNum(r.ctr)), 'lx-num');
+    lxCell(tr, lxFmt.pos(lxNum(r.position)), 'lx-num');
+    lxCell(tr, r.theme);
+  });
+  dash.draw('q_shown');
+});
+dash.draw('q_shown', (el) => { el.textContent = qState.count === undefined ? '—' : lxFmt.n(qState.count); });
+document.querySelectorAll('#lx-q-search').forEach((input) => {
+  input.oninput = () => { qState.text = input.value.trim().toLowerCase(); qState.redraw(); };
+});
+
+const pState = {key: 'impressions', dir: -1, text: '', redraw: () => dash.draw('t_pages')};
+dash.draw('t_pages', (tbody) => {
+  const table = tbody.closest('table');
+  let rows = lxRows('pages');
+  if (pState.text) rows = rows.filter((r) => (r.path + ' ' + r.section).toLowerCase().includes(pState.text));
+  rows = lxSortable(table, rows, pState);
+  lxFill(tbody, rows, 'path', (tr, r) => {
+    lxCell(tr, r.path, 'lx-q');
+    lxCell(tr, r.section);
+    lxCell(tr, lxFmt.n(lxNum(r.clicks)), 'lx-num');
+    lxCell(tr, lxFmt.n(lxNum(r.impressions)), 'lx-num');
+    lxCell(tr, lxFmt.pct(lxNum(r.ctr)), 'lx-num');
+    lxCell(tr, lxFmt.pos(lxNum(r.position)), 'lx-num');
+  });
+});
+document.querySelectorAll('#lx-p-search').forEach((input) => {
+  input.oninput = () => { pState.text = input.value.trim().toLowerCase(); pState.redraw(); };
+});
+</script>

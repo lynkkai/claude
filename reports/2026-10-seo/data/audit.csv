@@ -1,0 +1,13 @@
+issue,severity,seo_impact,pages_affected,fix_difficulty
+Thin content (under 200 words),Error,High,4,Moderate
+Page blocked by meta robots,Error,High,1,Moderate
+Title tag too short,Warning,Medium,6,Easy
+Non-SEO-friendly URL,Warning,Medium,5,Easy
+Title tag too long,Warning,Medium,1,Easy
+Temporary (302) redirect,Recommendation,Low,1,Moderate
+Missing H1,Warning,Medium,0,Easy
+Duplicate titles,Error,High,0,Easy
+Duplicate meta descriptions,Error,High,0,Moderate
+Broken links (4xx),Warning,Medium,0,Moderate
+Missing meta description,Warning,Medium,0,Moderate
+Slow page load,Error,High,0,Hard

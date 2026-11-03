@@ -1,0 +1,7 @@
+metric,desktop,mobile,unit
+Largest Contentful Paint,0.843,4.7,s
+First Contentful Paint,0.521,2.0,s
+Time to Interactive,1.6,10.1,s
+Speed Index,3.3,8.8,s
+Total Blocking Time,0.259,0.267,s
+Cumulative Layout Shift,0,0,score
