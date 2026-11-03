@@ -20,7 +20,7 @@ So the diagnosis is not a content gap. **It is 115 pages competing for 3 keyword
 
 That changes the plan in three ways:
 
-1. **This is a keyword assignment plan, not a content production plan.** Most work below is mapping a target keyword to a page that already exists, then optimizing it. Only 11 genuinely new pages are recommended.
+1. **This is a keyword assignment plan, not a content production plan.** Most work below is mapping a target keyword to a page that already exists, then optimizing it: 44 keyword assignments across 42 existing URLs, against 14 new pages over 12 months.
 2. **Link acquisition is the gating factor, not content volume.** Publishing page 116 before fixing the link profile will not move anything. Section 7 covers this.
 3. **Cannibalization is now a real problem.** Six pages target Zoom. Four target otter.ai. Four target general transcription. Section 6 resolves these.
 
@@ -98,7 +98,7 @@ Item 19 needs a decision: the page currently targets a competitor-versus-competi
 
 ### 3.5 New pages (Wave 1)
 
-Only four new pages in the first quarter. All four target Lynkk's actual differentiators, where demand exists and nobody is competing.
+Five new pages in the first quarter. All five target Lynkk's actual differentiators, where demand exists and nobody is competing.
 
 | # | URL | Action | Primary keyword | Vol | SD | Secondary keywords | Why |
 |---|---|---|---|---|---|---|---|
@@ -108,7 +108,7 @@ Only four new pages in the first quarter. All four target Lynkk's actual differe
 | 23 | `/use-cases/therapists` | **NEW** | **ai note taker for therapists** | 90 | 35 | simple practice ai note taker (390 / **15**), hipaa compliant ai note taker (260 / 31) | CPC $50.63, almost no competition. Pairs with existing data-residency capability. |
 | 24 | `/security/hipaa` | **NEW** | **hipaa compliant ai note taker** | 260 | 31 | hipaa compliant note taker, hipaa ai transcription (CPC $31.04) | Compliance buyers convert at the highest rate in the category. |
 
-**Wave 1 totals:** 20 pages optimized, 4 created. Combined primary-keyword volume roughly 23,500/mo at average SD 25.
+**Wave 1 totals:** 19 pages optimized, 5 created, 24 in all. Combined primary-keyword volume 23,150/mo at average SD 25.
 
 ---
 
@@ -139,7 +139,7 @@ Only four new pages in the first quarter. All four target Lynkk's actual differe
 | `/blog/how-to-record-a-meeting-webex` | **NEW** | how to record a meeting on webex | 590 | 29 | webex how to record a meeting (260 / 32) |
 | `/blog/how-to-record-a-meeting-google-meet` | **NEW** | how to record a meeting in google meet | 170 | **24** | how to record a meeting on google meet (140 / 28) |
 
-**Wave 2 totals:** 15 pages optimized, 7 created. Combined primary volume roughly 19,000/mo at average SD 33.
+**Wave 2 totals:** 15 pages optimized, 7 created, 22 in all. Combined primary volume 19,480/mo at average SD 33.
 
 The three "how to record" pages complete a cluster where Lynkk will already own the Zoom variant from Wave 1. Clusters rank better complete than partial.
 
