@@ -8,6 +8,8 @@ internal_links: [https://lynkk.ai/features/hinglish-transcription]  # ONE commer
 word_count: ~1,600 as drafted
 cover: images/H2-speaker-diarization-in-production/cover.png
 cover_alt: "A speaker segment timeline with an overlapping region marked in red, above a commitment credited to the wrong speaker"
+meta_title: "Speaker Diarization in Production: 5 Failure Modes"
+meta_description: "Why attribution breaks in real meetings: speaker count, overlap, single-mic rooms, cross-session identity and code-switching. Plus what to measure."
 ---
 
 # Speaker Diarization in Production: Five Ways "Who Said What" Breaks

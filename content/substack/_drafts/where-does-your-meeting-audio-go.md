@@ -24,6 +24,8 @@ notes: |
   angle entirely and argues about vendor disclosure instead.
 cover: ../images/S3-where-does-your-meeting-audio-go/cover.png
 cover_alt: "A flow from a call to a vendor, branching to two dashed, unnamed sub-processor boxes marked with question marks"
+meta_title: "Where Does Your Meeting Audio Go?"
+meta_description: "Five questions that separate notetaker vendors on privacy, and why no meeting assistant in this category can be end-to-end encrypted."
 ---
 
 # Where Does Your Meeting Audio Go?

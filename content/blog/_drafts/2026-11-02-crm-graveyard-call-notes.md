@@ -1,6 +1,6 @@
 ---
 title: "Your CRM Is a Graveyard of Half-Written Call Notes"
-description: "Sales leaders know the pipeline data is wrong. The cause is not discipline, it is an upside-down incentive, and that is fixable."
+description: "Bad pipeline data is an incentive problem, not a discipline one. What a good call note contains, and how automatic capture changes the maths."
 date: 2026-11-02
 author: "[Author Name]"
 author_role: "[Author Title]"
@@ -15,6 +15,8 @@ featured: false
 reading_time: "6 min read"
 platform: Medium (primary). Strip this frontmatter before pasting.
 primary_keyword: CRM hygiene / sales workflow cluster. Weakest search case of the four; judge on referral quality.
+meta_title: "Why CRM Call Notes Are Always Half-Written"
+meta_description: "Bad pipeline data is an incentive problem, not a discipline one. What a good call note contains, and how automatic capture changes the maths."
 ---
 
 # Your CRM Is a Graveyard of Half-Written Call Notes

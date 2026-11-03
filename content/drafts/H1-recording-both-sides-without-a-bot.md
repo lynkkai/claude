@@ -8,6 +8,8 @@ internal_links: [https://lynkk.ai/features/chrome-extension]  # ONE commercial l
 word_count: ~1,500 as drafted, expect ~2,000 with code
 cover: images/H1-recording-both-sides-without-a-bot/cover.png
 cover_alt: "Two waveform tracks, microphone and system audio, aligned on one shared timeline with a drift marker"
+meta_title: "Recording Both Sides of a Call Without a Bot"
+meta_description: "Two-track local audio capture: microphone plus system output on one clock, the permission wall, clock drift, and five production failure modes."
 ---
 
 # Recording Both Sides of a Call Without Putting a Bot in the Room

@@ -1,6 +1,6 @@
 ---
 title: "AI Note Takers That Do Not Join Your Meeting"
-description: "Bot-free capture explained: why a notetaker bot in the participant list is a product decision, and when you want the other option."
+description: "Bot-free meeting capture explained: how it works, what you give up, and when a bot is still the better option. Plus questions to ask vendors."
 date: 2026-11-02
 author: "[Author Name]"
 author_role: "[Author Title]"
@@ -15,6 +15,8 @@ featured: false
 reading_time: "5 min read"
 platform: Medium (primary). Strip this frontmatter before pasting.
 primary_keyword: "ai note taker that doesn't join meetings" (90/mo, SD 30, CPC $21.61)
+meta_title: "AI Note Takers That Don't Join Your Meeting"
+meta_description: "Bot-free meeting capture explained: how it works, what you give up, and when a bot is still the better option. Plus questions to ask vendors."
 ---
 
 # AI Note Takers That Do Not Join Your Meeting

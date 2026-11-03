@@ -24,6 +24,8 @@ notes: |
   Byline required before publishing. This is an argument and needs an owner.
 cover: ../images/S1-the-meeting-is-the-database/cover.png
 cover_alt: "Three stacked meeting cards feeding into a single query pill asking how a budget has moved"
+meta_title: "The Meeting Is the Database"
+meta_description: "Meeting summaries answer the wrong question. Change, silence and commitments live between the notes, not inside any one of them."
 ---
 
 # The Meeting Is the Database

@@ -12,6 +12,8 @@ collision_check: |
   overlap. Keep it technical; if it drifts into "what is knowledge management", it collides.
 cover: images/H3-meetings-into-account-memory/cover.png
 cover_alt: "A small graph: an account linked to three calls, with an older budget fact struck through and superseded by a newer one"
+meta_title: "Meetings as Account Memory: Schema and Retrieval"
+meta_description: "Flat RAG handles lookup but not comparison, aggregation or absence. A minimal schema, supersession edges, and citation-first retrieval."
 ---
 
 # Turning Meetings Into Account Memory: Schema, Extraction and Retrieval

@@ -11,6 +11,8 @@ constraint: |
   shipped. Keep that in any edit.
 cover: images/H4-voice-agent-in-a-live-meeting/cover.png
 cover_alt: "A stacked latency budget bar broken into pipeline stages, ending just short of a two second limit line"
+meta_title: "Building a Voice Agent for Live Meetings"
+meta_description: "A two-second latency budget, turn-taking, barge-in and bounded retrieval. Why the hard part is deciding when not to speak."
 ---
 
 # Building a Voice Agent That Speaks Inside a Live Meeting: Latency, Turn-Taking, Interrupts

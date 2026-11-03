@@ -22,6 +22,8 @@ notes: |
   Byline required.
 cover: ../images/S2-nobody-reads-the-recap/cover.png
 cover_alt: "An unread recap header above three unticked action items, noting none reached anyone's queue"
+meta_title: "Nobody Reads the Recap"
+meta_description: "AI solved meeting capture and did nothing for follow-through. Why action items die in documents instead of reaching anyone's queue."
 ---
 
 # Nobody Reads the Recap

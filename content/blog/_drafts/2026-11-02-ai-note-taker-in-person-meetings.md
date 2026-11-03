@@ -1,6 +1,6 @@
 ---
 title: "AI Note Taker for In-Person Meetings: What Works With No Meeting Link"
-description: "Every AI note taker assumes a Zoom link. Here is what changes in a room: diarization, mic distance, consent, and how to set up for it."
+description: "How to capture in-person meetings: microphone placement, speaker labels, a consent script, and what to ask vendors before you buy."
 date: 2026-11-02
 author: "[Author Name]"
 author_role: "[Author Title]"
@@ -15,6 +15,8 @@ featured: false
 reading_time: "8 min read"
 platform: Medium (primary). Strip this frontmatter before pasting.
 primary_keyword: "ai note taker for in person meetings" (480/mo, SD 40, CPC $14.62)
+meta_title: "AI Note Taker for In-Person Meetings: What Works"
+meta_description: "How to capture in-person meetings: microphone placement, speaker labels, a consent script, and what to ask vendors before you buy."
 ---
 
 # AI Note Taker for In-Person Meetings: What Works With No Meeting Link

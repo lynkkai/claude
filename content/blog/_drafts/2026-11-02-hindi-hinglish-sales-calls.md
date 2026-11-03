@@ -1,6 +1,6 @@
 ---
 title: "AI Note Takers for Hindi and Hinglish Sales Calls"
-description: "Most tools support Hindi. Few survive a sentence that starts in Hindi and ends in English, which is how the call actually happens."
+description: "Most tools support Hindi but fail on code-switching. A 20-minute test for whether a vendor survives a real Hinglish sales call."
 date: 2026-11-02
 author: "[Author Name]"
 author_role: "[Author Title]"
@@ -15,6 +15,8 @@ featured: false
 reading_time: "5 min read"
 platform: Medium (primary). Strip this frontmatter before pasting.
 primary_keyword: Hindi / Hinglish transcription for sales calls
+meta_title: "AI Note Takers for Hindi and Hinglish Sales Calls"
+meta_description: "Most tools support Hindi but fail on code-switching. A 20-minute test for whether a vendor survives a real Hinglish sales call."
 ---
 
 # AI Note Takers for Hindi and Hinglish Sales Calls

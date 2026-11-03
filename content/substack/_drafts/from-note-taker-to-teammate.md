@@ -22,6 +22,8 @@ notes: |
   Byline required.
 cover: ../images/S4-from-note-taker-to-teammate/cover.png
 cover_alt: "A before, during and after timeline with the during point emphasised and labelled in development"
+meta_title: "From Note Taker to Teammate"
+meta_description: "What changes when a meeting assistant speaks during the call: latency as etiquette, false confidence, and the disclosure problem."
 ---
 
 # From Note Taker to Teammate
