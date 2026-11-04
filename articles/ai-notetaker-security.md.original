@@ -1,6 +1,6 @@
 ---
-title: "AI Notetaker Security: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts"
-meta_title: "AI Notetaker Security Checklist 2026: SSO, SCIM, Retention"
+title: "AI Notetaker Security in 2026: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts"
+meta_title: "AI Notetaker Security in 2026: SSO, SCIM, Retention"
 meta_description: "AI notetaker security in five checks: SSO and SCIM, named LLM subprocessors, retention, audit logs and consent. What to ask vendors, and the red flags."
 slug: "ai-notetaker-security"
 brand: "Lynkk"
@@ -34,7 +34,7 @@ featured_image_alt: "AI notetaker security checklist showing SSO, SCIM, retentio
 tldr: "AI notetaker security rests on five checks: SAML SSO and SCIM for sign-in and offboarding, a named list of the speech-to-text and LLM providers that process your calls, retention you can set per data type, an exportable audit log, and enforced recording notice. SSO and SCIM usually sit on the top tier, so ask about seat minimums before you shortlist anyone."
 ---
 
-# AI Notetaker Security: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts
+# AI Notetaker Security in 2026: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts
 
 By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh) · 4 November 2026 · Checked against the linked vendor docs, standards and reports in November 2026
 
@@ -228,7 +228,7 @@ For a small team, Lynkk's [security page](https://lynkk.ai/security) follows one
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "AI Notetaker Security: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts",
+    "headline": "AI Notetaker Security in 2026: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts",
     "description": "AI notetaker security in five checks: SSO and SCIM, named LLM subprocessors, retention, audit logs and consent. What to ask vendors, and the red flags.",
     "inLanguage": "en",
     "author": {
@@ -264,7 +264,7 @@ For a small team, Lynkk's [security page](https://lynkk.ai/security) follows one
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "AI Notetaker Security: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts",
+        "name": "AI Notetaker Security in 2026: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts",
         "item": "https://lynkk.ai/blog/ai-notetaker-security"
       }
     ]

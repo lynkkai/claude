@@ -1,6 +1,6 @@
 ---
-title: "How to Record Audio on a Mac, Including System Audio"
-meta_title: "How to Record Audio on a Mac (Including System Audio)"
+title: "How to Record Audio on a Mac in 2026, Including System Audio"
+meta_title: "How to Record Audio on a Mac in 2026 (With System Audio)"
 meta_description: "How to record audio on a Mac with QuickTime, Voice Memos and Shift-Command-5, why macOS blocks system audio, and how to capture internal sound properly."
 slug: "record-audio-on-mac"
 canonical: "https://lynkk.ai/blog/record-audio-on-mac"
@@ -25,7 +25,7 @@ keywords:
 tldr: "To record audio on a Mac, use QuickTime Player (File, then New Audio Recording), Voice Memos, or Shift-Command-5 for screen recordings with a microphone. None of them capture system audio on their own, because macOS treats internal sound as a separate input. For that you need a virtual audio device, or an app that records the call directly."
 ---
 
-# How to Record Audio on a Mac, Including System Audio
+# How to Record Audio on a Mac in 2026, Including System Audio
 
 By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh) · 4 November 2026 · Steps checked against Apple's macOS User Guide in November 2026
 
@@ -149,7 +149,7 @@ For your own voice, QuickTime or Voice Memos takes seconds. For the Mac's own so
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "How to Record Audio on a Mac, Including System Audio",
+    "headline": "How to Record Audio on a Mac in 2026, Including System Audio",
     "description": "How to record audio on a Mac with QuickTime, Voice Memos and Shift-Command-5, why macOS blocks system audio, and how to capture internal sound properly.",
     "inLanguage": "en",
     "author": {
@@ -185,7 +185,7 @@ For your own voice, QuickTime or Voice Memos takes seconds. For the Mac's own so
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "How to Record Audio on a Mac, Including System Audio",
+        "name": "How to Record Audio on a Mac in 2026, Including System Audio",
         "item": "https://lynkk.ai/blog/record-audio-on-mac"
       }
     ]

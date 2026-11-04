@@ -59,6 +59,43 @@ Three pairs sit in one cluster each and were deliberately scoped apart. Each nee
 - **Lynkk's gaps are stated plainly** in every listicle: no CRM sync, no deal scoring, no forecasting, no SSO or SCIM on the published plans, workspaces capped at 10, and it is not a general note-taking app. That honesty is deliberate, and it is what lets these pages be cited on comparison prompts. It is still a positioning call: review before publishing.
 - **Fathom correction found during fact-checking:** AI scorecards and coaching metrics are Business-plan only ($34/user/month, $25 yearly), not "paid plans" generally. Worth correcting anywhere else this appears.
 
+## Title revision, 4 November 2026
+
+Titles were revisited to add "How" and "best ... in 2026" where the format earns it. The skill's
+rules governed the choices: "Best/Top 10" styling is placed higher but cited less at equal
+position, so it is taken from the SERP format rather than habit, and the year helps discovery on
+recency prompts while slightly hurting citation, so it goes on contested topics only. Slugs stay
+evergreen and none gained a year.
+
+| Slug | Added | New H1 |
+|---|---|---|
+| objection-handling | How | Objection Handling: How to Use the LAER Framework, With Scripts and Examples |
+| discovery-call-questions | Best | The Best Discovery Call Questions: 35 to Ask, With an Agenda and Script |
+| speech-to-text-mac | How + 2026 | How to Use Speech to Text on Mac in 2026: 5 Ways Compared |
+| record-audio-on-mac | 2026 | How to Record Audio on a Mac in 2026, Including System Audio |
+| live-caption-apps | 2026 | Live Caption Apps and Chrome Extensions in 2026: What's Built In, and What Isn't |
+| ai-notetaker-security | 2026 | AI Notetaker Security in 2026: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts |
+| real-time-ai-interview-assistant | 2026 | Real-Time AI Interview Assistants in 2026: How They Work, and When It's Fair |
+| sales-call-recording-software | Best + 2026 | Best Sales Call Recording Software in 2026: 6 Tools and the Consent Rules |
+
+Left unchanged, with the reason:
+
+- **best-second-brain-apps, best-mac-note-taking-app, call-coaching-software:** already carry
+  both "Best" and "2026".
+- **personal-knowledge-management:** deliberately evergreen. PARA and Zettelkasten do not date,
+  so a year would cost citation for no discovery gain. It already opens with "How to Start".
+- **live-caption-apps and real-time-ai-interview-assistant got no "Best":** the first argues you
+  do not need an app, the second refuses to rank live-answer copilots. "Best" would promise a
+  ranking neither article delivers.
+
+All 12 H1s sit at 9 to 15 words, every meta title is 47 to 56 characters with the primary keyword
+inside the first 50, and all 12 re-passed Gate A structural checks and Gate B after the change.
+
+**Method note.** The H1 and frontmatter are frozen after humanization (C8, headings_identical), so
+the edit was applied identically to each article and its `.md.original` backup, then the schema
+blocks were regenerated from the new title on both. Gate B therefore still compares humanized
+prose against a structurally identical baseline rather than being waved through.
+
 ## Per-article notes
 
 ## #3 objection-handling

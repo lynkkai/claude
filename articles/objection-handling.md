@@ -1,6 +1,6 @@
 ---
-title: "Objection Handling: Frameworks, Scripts and Live Examples"
-meta_title: "Objection Handling: Frameworks, Scripts and Live Examples"
+title: "Objection Handling: How to Use the LAER Framework, With Scripts and Examples"
+meta_title: "Objection Handling: How to Do It, Scripts and Examples"
 meta_description: "Objection handling in sales: the LAER and 5-step frameworks, word-for-word scripts for price, timing and budget objections, and two live call examples."
 slug: "objection-handling"
 canonical: "https://lynkk.ai/blog/objection-handling"
@@ -30,7 +30,7 @@ targeted_prompts:
 tldr: "Objection handling is how a rep answers a buyer's concern so the deal keeps moving. The reliable pattern is LAER: listen, acknowledge, explore with a question, then respond. Gong's study of 67,149 demo calls found top reps pause after an objection and answer with a question, while average reps launch into a 21-second monologue. Scripts help, but the question you ask first matters most."
 ---
 
-# Objection Handling: Frameworks, Scripts and Live Examples
+# Objection Handling: How to Use the LAER Framework, With Scripts and Examples
 
 By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh) · 4 November 2026 · Research checked against the linked sources in November 2026
 
@@ -233,7 +233,7 @@ If you want a framework for the questions that come earlier in the deal, read ou
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Objection Handling: Frameworks, Scripts and Live Examples",
+    "headline": "Objection Handling: How to Use the LAER Framework, With Scripts and Examples",
     "description": "Objection handling in sales: the LAER and 5-step frameworks, word-for-word scripts for price, timing and budget objections, and two live call examples.",
     "inLanguage": "en",
     "author": {
@@ -269,7 +269,7 @@ If you want a framework for the questions that come earlier in the deal, read ou
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Objection Handling: Frameworks, Scripts and Live Examples",
+        "name": "Objection Handling: How to Use the LAER Framework, With Scripts and Examples",
         "item": "https://lynkk.ai/blog/objection-handling"
       }
     ]
