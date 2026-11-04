@@ -1,0 +1,268 @@
+---
+title: "Live Caption Apps and Chrome Extensions: What's Built In, and What Isn't"
+meta_title: "Live Caption Apps and Chrome Extensions (2026 Guide)"
+meta_description: "Live caption apps compared: Chrome Live Caption, macOS Live Captions, Teams and Google Meet captions, what each costs, and why captions aren't a transcript."
+slug: "live-caption-apps"
+canonical: "https://lynkk.ai/blog/live-caption-apps"
+brand: "Lynkk"
+author: "Samarth Wagh"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
+cluster: "Dictation and transcription"
+generated_date: "2026-11-04"
+internal_link_target: "https://lynkk.ai/features/chrome-extension"
+featured_image_path: "PENDING: no Lynkk image-gen skill on this machine"
+featured_image_alt: "Live caption apps compared, showing Chrome Live Caption and macOS Live Captions on screen"
+keywords:
+  - "live caption app"
+  - "live caption chrome extension"
+  - "live captions"
+  - "live caption app for mac"
+  - "free live caption app"
+  - "live caption app for windows"
+  - "teams live captions"
+  - "google meet captions"
+  - "live caption vs transcript"
+tldr: "Most people don't need a live caption app, because captions are already built into Chrome, macOS, Windows 11, Microsoft Teams and Google Meet, free. Chrome processes captions locally and never stores them, and macOS Live Captions runs on device on Apple silicon. The catch: captions disappear. Teams deletes them after the meeting, so use transcription if you need a record."
+---
+
+# Live Caption Apps and Chrome Extensions: What's Built In, and What Isn't
+
+By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh) · 4 November 2026 · Platform features checked against vendor documentation in November 2026
+
+> **Quick answer:** You probably don't need a live caption app, because captions are built into **5** places you already have: **Chrome**, **macOS**, **Windows 11**, **Microsoft Teams** and **Google Meet**, all free. Chrome processes all audio and captions locally and never stores them, and macOS Live Captions runs on device on Apple silicon. The catch: captions vanish, so use transcription when you need a record.
+
+Live captions turn speech into text on screen as it's spoken. They're an accessibility feature first. That's why the best versions ship with the operating system or the browser, rather than as a paid app.
+
+## What is the best live caption app?
+
+The best one is already on your machine. Chrome's Live Caption handles anything playing in the browser, and a free live caption app for Mac is built into macOS for audio from any app. Both run on device.
+
+| Tool | Captions what | Cost | On device |
+|---|---|---|---|
+| Chrome Live Caption | Audio playing in Chrome | Free | Yes, processed locally |
+| macOS Live Captions | Any app, or the room | Free, Apple silicon only | Yes |
+| Windows live captions | Any audio on the PC | Free, Windows 11 22H2+ | Yes |
+| Microsoft Teams captions | Teams meetings | Included with Teams | Not stated |
+| Google Meet captions | Meet calls | Included; translation needs some Workspace editions | Not stated |
+| Third-party apps | Varies by app | Free to paid | Varies |
+
+## How do you turn on live captions in Chrome?
+
+Open More, then Settings, then Accessibility, and turn on Live Caption. Google says it captions "videos, podcasts, live streams, and video calls" playing in the browser, [per Chrome's support page](https://support.google.com/chrome/answer/10538231).
+
+On privacy, Google is unusually direct. Google states that "all audio and captions are processed locally, are never stored, and never leave your device". Live Translate is the exception. Translating means sending the caption text to Google.
+
+### Do you need a live caption Chrome extension?
+
+Usually not. Chrome's own Live Caption does the same job with nothing to install. Extensions are worth considering for 2 things the built-in feature doesn't do: saving captions as text, and translating in ways Chrome doesn't support.
+
+Be careful with extensions that promise to save or export captions. That means the caption text leaves your machine, so check where it goes before you install.
+
+## How do you use live captions on a Mac?
+
+Open System Settings, then Accessibility, then Live Captions, and turn it on. Apple's guide says it gives "a real-time transcription of spoken audio", captions audio from all apps by default, and that "audio is processed on device", [per Apple's macOS User Guide](https://support.apple.com/guide/mac-help/get-captions-of-spoken-and-computer-audio-mchldd11f4fd/mac).
+
+Two requirements matter. It runs only on Macs with Apple silicon. And the first run downloads language data, so you need a connection to set it up. You can also switch the source to the microphone to caption a conversation in the room.
+
+## How do you turn on live captions in Teams?
+
+To use live captions in Teams, select More actions in the meeting, then Captions. On mobile, tap More options and choose Turn on live captions, [per Microsoft's support page](https://support.microsoft.com/en-us/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260).
+
+Teams live captions are deliberately temporary. Microsoft is explicit that "Teams doesn't save captions", and that caption data is "permanently deleted after the meeting is over". Want a record? Turn on transcription instead, then download it afterwards.
+
+One more thing: setting the meeting's spoken language to match what people actually speak improves accuracy more than anything else you can change.
+
+## How do you turn on captions in Google Meet?
+
+Hover over Captions and translation at the bottom of the meeting, then select Turn on captions. Translated captions are chosen from the same menu, or under More options, then Settings, then Captions, [per Google's support page](https://support.google.com/meet/answer/10964115).
+
+Translated captions are limited to certain Google Workspace editions, including Business Standard and Plus, and Enterprise Standard and Plus. You can scroll back through captions during the call, but only for the parts you attended with captions on. That's the live-caption limitation in one sentence.
+
+## What is the difference between live captions and a transcript?
+
+The live caption vs transcript distinction is simple: captions appear and disappear, while a transcript is a file you keep. It's the difference that catches people out after an important meeting.
+
+| | Live captions | Transcript |
+|---|---|---|
+| Purpose | Follow along in real time | Review and search afterwards |
+| Lifespan | Gone when the call ends | Saved as a file |
+| Searchable | No | Yes |
+| Speaker labels | Sometimes | Usually |
+| Typical use | Accessibility, noisy rooms | Notes, records, compliance |
+
+Been copying captions into a document to keep them? What you want is transcription. Our guide to [transcribing audio to text](https://lynkk.ai/blog/transcribe-audio-to-text) covers the options.
+
+## Are live captions free?
+
+Yes, on every major platform. Chrome, macOS, Windows 11, Teams and Google Meet all include captions at no extra cost, though Google Meet's translated captions need particular Workspace editions.
+
+Paid live caption apps mostly sell 3 things:
+
+1. **Saving captions** as text you can keep.
+2. **Translation** beyond what the built-in tools cover.
+3. **Cross-app captions** on platforms without a native option.
+ If you only need captions on screen while something plays, the free built-in option is the right call.
+
+## Are live captions accurate?
+
+Accuracy is good for clear speech in a quiet room. It drops with accents, crosstalk, background noise and technical vocabulary. Microsoft's own advice is to set the meeting's spoken language correctly, which is the single biggest accuracy lever most people ignore.
+
+Treat captions as an aid, not a record. Where the exact words matter, use a recording and a transcript you can check:
+
+- **Contract and pricing discussions**, where a number gets misheard.
+- **Interviews**, where you quote someone later.
+- **Medical or legal conversations**, where accuracy is the whole point.
+
+## How do you get a record of what was said?
+
+Record the conversation and transcribe it. Captions are designed to disappear, and that's the gap people hit after the call, when they need the decision rather than the gist.
+
+Lynkk records Zoom, Google Meet and Teams calls with a [meeting bot](https://lynkk.ai/features/meeting-bot), or on your Mac with no bot, and writes up notes with action items. Its [Chrome extension](https://lynkk.ai/features/chrome-extension) records a tab you're in. Tell people before you record, since some places need everyone's consent, as our guide to [whether it's legal to record a meeting](https://lynkk.ai/blog/is-it-legal-to-record-a-meeting) explains.
+
+## FAQ
+
+### Does Chrome Live Caption work offline?
+
+Yes, for captions. Google says all audio and captions are processed locally, never stored, and never leave your device, so captioning works without a connection once language packs are downloaded. Live Translate is different, because translating captions means sending the caption text to Google.
+
+### Is there a live caption app for Windows?
+
+Yes, and it's built in. Windows 11 version 22H2 or later includes live captions for any audio on the PC, opened with the Windows key, Ctrl and L, and Microsoft says all processing happens on device. Chrome and Teams add their own, so most Windows users need no separate app.
+
+### Can live captions be saved?
+
+Not usually, and that's deliberate. Microsoft says Teams doesn't save captions and deletes caption data permanently after the meeting. Chrome never stores captions at all. If you need a record, turn on transcription or record the call, then keep the transcript as a file you can search later.
+
+### Do live captions work for in-person conversations?
+
+Yes, on some platforms. macOS Live Captions lets you switch the source to your microphone, so it captions people in the room rather than app audio. Phone accessibility features do the same. Accuracy drops in noisy rooms and with several people talking over each other.
+
+### What languages do live captions support?
+
+It varies by platform. Chrome supports additional caption languages through downloadable language packs, and its translation covers over 100 target languages on supported devices. Teams supports many spoken languages, and Google Meet supports translation across a long list, with some still rolling out or in beta.
+
+### Are live captions the same as subtitles?
+
+No. Subtitles are prepared in advance and attached to a video file, while live captions are generated in real time by speech recognition. Subtitles are usually more accurate because a human checked them. Live captions win on immediacy, which is what makes them useful in meetings and calls.
+
+## Conclusion
+
+Before installing a live caption app, check what's already on your machine. Chrome, macOS, Teams and Google Meet all caption for free, and the first two do it on device. Just remember captions are built to vanish. When you need the words later, record and transcribe instead.
+
+**Try Lynkk.** Captions disappear, but Lynkk keeps the transcript, the summary and the action items. [Start for free](https://lynkk.ai/).
+
+---CITATIONS---
+1. Google Chrome Help, "Use Live Caption" (Settings > Accessibility; "All audio and captions are processed locally, are never stored, and never leave your device"; Live Translate sends caption text): https://support.google.com/chrome/answer/10538231
+2. Apple, "Get captions of spoken and computer audio on Mac" (System Settings > Accessibility > Live Captions; transcribes audio from all apps; audio processed on device; Apple silicon only; downloads language data on first use): https://support.apple.com/guide/mac-help/get-captions-of-spoken-and-computer-audio-mchldd11f4fd/mac
+3. Microsoft, "Use live captions in Microsoft Teams meetings" (More actions > Captions; "Teams doesn't save captions"; caption data permanently deleted after the meeting; set the spoken language): https://support.microsoft.com/en-us/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260
+4. Google Meet Help, "Use captions and translated captions" (Captions and translation menu; translated captions limited to some Workspace editions): https://support.google.com/meet/answer/10964115
+5. Microsoft, "Use live captions to better understand audio" (Windows 11 22H2 or later; Windows key + Ctrl + L; "All processing of audio and generation of captions from detected voice data occurs on-device"; translation needs a Copilot+ PC on 24H2 or later): https://support.microsoft.com/en-us/windows/use-live-captions-to-better-understand-audio-b52da59c-14b8-4031-aeeb-f6a47e6055df
+6. Lynkk Chrome extension and meeting bot: https://lynkk.ai/features/chrome-extension
+
+---SCHEMA---
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Live Caption Apps and Chrome Extensions: What's Built In, and What Isn't",
+    "description": "Live caption apps compared: Chrome Live Caption, macOS Live Captions, Teams and Google Meet captions, what each costs, and why captions aren't a transcript.",
+    "inLanguage": "en",
+    "author": {
+      "@type": "Person",
+      "name": "Samarth Wagh",
+      "url": "https://lynkk.ai/blog/authors/samarth-wagh"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Lynkk",
+      "url": "https://lynkk.ai/"
+    },
+    "datePublished": "2026-11-04",
+    "dateModified": "2026-11-04",
+    "mainEntityOfPage": "https://lynkk.ai/blog/live-caption-apps"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://lynkk.ai/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://lynkk.ai/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Live Caption Apps and Chrome Extensions: What's Built In, and What Isn't",
+        "item": "https://lynkk.ai/blog/live-caption-apps"
+      }
+    ]
+  }
+]
+```
+
+---FAQ_JSON---
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Chrome Live Caption work offline?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, for captions. Google says all audio and captions are processed locally, never stored, and never leave your device, so captioning works without a connection once language packs are downloaded. Live Translate is different, because translating captions means sending the caption text to Google."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a live caption app for Windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and it's built in. Windows 11 version 22H2 or later includes live captions for any audio on the PC, opened with the Windows key, Ctrl and L, and Microsoft says all processing happens on device. Chrome and Teams add their own, so most Windows users need no separate app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can live captions be saved?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not usually, and that's deliberate. Microsoft says Teams doesn't save captions and deletes caption data permanently after the meeting. Chrome never stores captions at all. If you need a record, turn on transcription or record the call, then keep the transcript as a file you can search later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do live captions work for in-person conversations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, on some platforms. macOS Live Captions lets you switch the source to your microphone, so it captions people in the room rather than app audio. Phone accessibility features do the same. Accuracy drops in noisy rooms and with several people talking over each other."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What languages do live captions support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It varies by platform. Chrome supports additional caption languages through downloadable language packs, and its translation covers over 100 target languages on supported devices. Teams supports many spoken languages, and Google Meet supports translation across a long list, with some still rolling out or in beta."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are live captions the same as subtitles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Subtitles are prepared in advance and attached to a video file, while live captions are generated in real time by speech recognition. Subtitles are usually more accurate because a human checked them. Live captions win on immediacy, which is what makes them useful in meetings and calls."
+      }
+    }
+  ]
+}
+```
