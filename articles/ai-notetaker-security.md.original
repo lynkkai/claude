@@ -1,0 +1,331 @@
+---
+title: "AI Notetaker Security: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts"
+meta_title: "AI Notetaker Security Checklist 2026: SSO, SCIM, Retention"
+meta_description: "AI notetaker security in five checks: SSO and SCIM, named LLM subprocessors, retention, audit logs and consent. What to ask vendors, and the red flags."
+slug: "ai-notetaker-security"
+brand: "Lynkk"
+author: "Samarth Wagh"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
+generated_date: "2026-11-04"
+cluster: "Meeting security and compliance"
+internal_link_target: "https://lynkk.ai/security"
+keywords:
+  - "ai notetaker security"
+  - "are ai notetakers secure"
+  - "ai note taker security risks"
+  - "ai note taker privacy"
+  - "ai notetaker sso"
+  - "scim"
+  - "transcript retention"
+  - "audit trail"
+  - "ai note taker policy"
+  - "ai note taker hipaa"
+targeted_prompts:
+  - "which third-party llm providers get to see prospect call transcripts that an ai notetaker processes?"
+  - "rolling out an ai notetaker to 300 reps: which plans include sso, scim and an admin dashboard?"
+  - "looking for options besides zoom ai companion for regulated teams that need configurable transcript retention and an audit trail"
+  - "does microsoft copilot in teams give us enough retention, consent and audit control for meeting notes, or do regulated teams look at other notetakers?"
+  - "which ai notetakers let admins enforce a recording notice for everyone on the call without a bot joining? we're roughly 300 employees."
+  - "does a 40-person sales team really need sso for an ai notetaker, or is google login fine?"
+  - "which popular ai notetakers are genuinely enterprise-grade, and which are really built for individuals?"
+canonical: "https://lynkk.ai/blog/ai-notetaker-security"
+featured_image_path: "PENDING: no Lynkk image-gen skill on this machine"
+featured_image_alt: "AI notetaker security checklist showing SSO, SCIM, retention, audit log and consent checks"
+tldr: "AI notetaker security rests on five checks: SAML SSO and SCIM for sign-in and offboarding, a named list of the speech-to-text and LLM providers that process your calls, retention you can set per data type, an exportable audit log, and enforced recording notice. SSO and SCIM usually sit on the top tier, so ask about seat minimums before you shortlist anyone."
+---
+
+# AI Notetaker Security: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts
+
+By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh) · 4 November 2026 · Checked against the linked vendor docs, standards and reports in November 2026
+
+> **Quick answer:** AI notetaker security comes down to five checks: who can sign in (SSO and SCIM), which AI providers read the transcript, how long recordings are kept, whether every access is logged, and how people on the call are told. It matters because IBM's 2025 breach report found heavy shadow AI added **$670,000** to the average breach.
+
+AI notetaker security is the set of controls that decide who can open a recorded meeting, where its audio and transcript travel, and how long both survive. Most reviews stop at "do you have SOC 2?". That misses the question buyers now ask most: which model providers read the call.
+
+> **Disclosure:** This guide is published by Lynkk, which makes an AI note taker. Where we describe Lynkk, we only use what its [security page](https://lynkk.ai/security) and [pricing page](https://lynkk.ai/pricing) say today, including the gaps.
+
+## The five controls at a glance
+
+| Control | What to ask the vendor | Red flag |
+|---|---|---|
+| Sign-in (SSO and SCIM) | Is SAML SSO with Okta or Microsoft Entra ID on our plan, and does SCIM remove leavers? | SSO only above a seat minimum you won't reach |
+| AI subprocessors | Which speech-to-text and LLM providers process our audio and transcripts, on what retention terms? | "Trusted partners" with no names |
+| Retention | Can admins set deletion periods for audio, transcripts and summaries separately? | One fixed setting, or deletion only by email request |
+| Audit trail | Is every admin read, export and share logged, and can compliance export the log? | No record of who opened which note |
+| Consent | Can we enforce a recording notice, or capture without a bot joining? | A bot that auto-joins from calendar sync without telling anyone |
+
+## Are AI notetakers secure?
+
+An AI notetaker is as secure as its weakest control, and for most teams that control is sign-in, not encryption. A tool with a current SOC 2 Type II report, SAML SSO and zero-retention AI contracts is a reasonable risk. One a rep connected with a personal Gmail account is not.
+
+SOC 2 is an attestation framework run by the [AICPA](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2). A Type II report means an auditor tested the controls over a period of months, not on a single day. Ask for the report itself and check the dates it covers.
+
+### What are the security risks of AI note takers?
+
+The four AI note taker security risks that show up in practice are shadow AI, silent recording, over-shared notes and transcripts reused for training. According to [Help Net Security's summary of IBM's 2025 Cost of a Data Breach report](https://www.helpnetsecurity.com/2025/08/04/ibm-cost-data-breach-report-2025/), 97% of organisations with an AI-related breach had no AI access controls, and 63% had no AI governance policy or were still writing one.
+
+- **Shadow AI:** staff sign up with a work calendar and nobody in IT knows the tool exists.
+- **Silent recording:** in August 2025 a proposed class action accused Otter.ai of recording meetings without every participant's consent and using them for AI training, [according to NPR](https://www.npr.org/2025/08/15/g-s1-83087/otter-ai-transcription-class-action-lawsuit). Otter said recording only starts when a user starts it.
+- **Over-shared notes:** a summary forwarded beyond the people who need it can waive legal privilege, a risk the insurance broker [Lockton](https://global.lockton.com/gb/en/news-insights/ai-notetaking-and-transcription-risk-management-considerations-and-best) lists alongside misattributed quotes.
+- **Training reuse:** vendor terms that allow model training on your calls turn a confidential deal review into training data, which is the AI note taker privacy issue most contracts leave vague.
+
+## Which third-party LLM providers get to see call transcripts an AI notetaker processes?
+
+Two kinds of provider usually see a call: a speech-to-text service that turns audio into words, and one or more large language model providers that write the summary. Few notetakers train their own frontier models, so models from OpenAI, Anthropic or Google commonly sit behind the notes.
+
+Zoom is a useful benchmark because it publishes the list. Its [AI Companion whitepaper](https://library.zoom.com/ai/ai-whitepaper/models-processing-storage-and-usage) names Anthropic, OpenAI and Google Gemini models in its federated approach. It says those providers work under zero data retention, with limited exceptions for trust and safety.
+
+| Stage | Who processes it | What to confirm in writing |
+|---|---|---|
+| Audio | Speech-to-text provider | Processing region, retention period, no training |
+| Transcript | One or more LLM providers | Zero data retention, no training, named company |
+| Stored notes | The notetaker's cloud host | Encryption at rest, region, who holds the keys |
+
+If a vendor describes this flow without naming companies, ask for the subprocessor list before you sign. Lynkk's security page is in that group today: it says audio goes to a speech-to-text provider and transcripts to AI model providers over HTTPS, with no AI training on your conversations, but it doesn't name them publicly.
+
+## Which AI notetaker plans include SSO, SCIM and an admin dashboard?
+
+SSO, SCIM and a full admin console almost always sit on the top, sales-quoted tier, often with a seat minimum before they switch on. The practice is common enough that [sso.tax](https://sso.tax/) tracks it across SaaS. Its Zoom row shows SSO lifting the price from $15.99 to $19.99 per user per month, a 25% jump.
+
+SCIM is the IETF standard, published as [RFC 7644](https://www.rfc-editor.org/info/rfc7644) in 2015, that lets your identity provider create and remove accounts automatically. For a 300-rep rollout, SCIM matters more than SSO. It's the part that shuts a leaver out on their last day.
+
+### Do AI notetakers support SAML SSO with Okta or Microsoft Entra ID?
+
+Enterprise-tier tools generally support SAML 2.0, the protocol both Okta and Microsoft Entra ID use, so AI notetaker SSO is rarely a yes-or-no question. It's a question of which plan unlocks it. Before you buy, ask three things:
+
+1. Which plan includes SAML SSO, and what is the minimum seat count?
+2. Does SCIM deprovisioning delete a leaver's recordings, or transfer them to a manager?
+3. Can the admin dashboard show seat use, sharing settings and audit events in one place?
+
+## Does a 40-person sales team really need SSO for an AI notetaker, or is Google login fine?
+
+A 40-person team can run safely on Google or Microsoft login, provided that account already enforces MFA and IT disables leavers the day they go. Google login is still identity-provider login, so most of the protection is already there.
+
+SSO starts to pay for itself when one of these is true:
+
+- A customer contract or security questionnaire asks for it by name.
+- You're working toward your own SOC 2 audit, where auditors review access to every system.
+- Turnover is high enough that someone forgets to remove a departed rep from the notetaker.
+
+The gap to watch is offboarding. Without SCIM, a rep who leaves with, say, six months of call history keeps access until someone deletes the account by hand.
+
+## How should regulated teams handle transcript retention and an audit trail?
+
+Regulated teams should run 3 separate transcript retention clocks, for audio, transcripts and AI summaries, and keep an audit trail of every view, export and share. Microsoft's own docs make the point: Teams deletes recordings and transcripts after 120 days by default, but that expiry "doesn't enforce compliance requirements", per [Microsoft Learn](https://learn.microsoft.com/en-us/microsoftteams/manage-meeting-recording-options).
+
+Look for these retention and audit controls:
+
+1. **Separate clocks:** delete audio early, keep the text summary longer.
+2. **Admin-set, not user-set:** users shouldn't be able to extend or skip deletion.
+3. **Legal hold:** pause deletion for a matter without changing the global policy.
+4. **Logged admin access:** every time an admin opens a member's note, it's recorded.
+5. **Exportable logs:** compliance can pull the trail without a support ticket.
+
+Sector rules add more. In US healthcare, any vendor handling protected health information needs a business associate agreement, as the [Department of Health and Human Services](https://www.hhs.gov/hipaa/for-professionals/covered-entities/sample-business-associate-agreement-provisions/index.html) sets out. The American Bar Association's Formal Opinion 512, issued in July 2024, asks lawyers to understand how a generative AI tool handles client information before they use it.
+
+## Does Microsoft Copilot in Teams give enough retention, consent and audit control?
+
+For meetings that stay inside Teams, Copilot gives strong control, because Microsoft Purview retention, sensitivity labels and a participant agreement prompt all apply. Admins can require people to agree to recording before they unmute or turn on a camera, and those consent results land in the attendance report.
+
+The limits are narrower than they look. On the same Microsoft Learn page, the only Copilot policy setting an admin can enforce is "On with saved transcript required", and for retention Microsoft points to Purview policies on a SharePoint library rather than the expiry timer. Calls on Zoom, Google Meet or in person fall outside all of it. Teams that meet across platforms usually end up comparing options like those in our [guide to AI note takers for Microsoft Teams](https://lynkk.ai/blog/ai-note-taker-microsoft-teams).
+
+## Can admins enforce a recording notice for everyone on the call without a bot joining?
+
+Yes, in 2 ways: a platform consent prompt, like the Teams participant agreement, or bot-free capture that records on the user's own device. Neither removes the legal duty to tell people. About a dozen US states, including California, Florida and Pennsylvania, need everyone's consent, as our guide to [whether it's legal to record a meeting](https://lynkk.ai/blog/is-it-legal-to-record-a-meeting) explains.
+
+Lynkk does both visibly. Its meeting bot joins as a participant named after you, for example "Maya's Notetaker", and stays in the participant list, though it doesn't announce itself out loud. The Mac app can also notice a Zoom, Meet or Teams call and record it on the laptop with no bot, as the [integrations page](https://lynkk.ai/integrations) shows. Either way, say you're recording at the start.
+
+## Which popular AI notetakers are genuinely enterprise-grade, and which are built for individuals?
+
+A notetaker is enterprise-grade when an admin, not each user, controls sign-in, retention, sharing and offboarding. Most freemium tools start as individual products and add those controls later, often only on the top plan.
+
+| Capability | Built for individuals | Enterprise-grade |
+|---|---|---|
+| Sign-in | Personal Google or email login | SAML SSO plus SCIM |
+| Retention | Set by each user | Set by admins, with legal hold |
+| Sharing | Public links on by default | Domain-restricted links, admin policy |
+| AI providers | Described, not named | Named subprocessors in the DPA |
+| Audit | None | Exportable log of reads and exports |
+
+Lynkk sits in between today, and it says so. [Workspaces](https://lynkk.ai/features/workspaces) cover up to 10 members on Pro, with admins who invite, remove and set roles. Admins can read workspace notes but never the recording, and Lynkk logs every time they open one. Any member can mark a note Personal to keep it private.
+
+The security page adds the specifics: connected-tool tokens are encrypted with AES-256-GCM, upload links expire after 10 minutes, playback links after 1 hour, and the Mac app deletes its local copy 7 days after upload. Its pricing and security pages don't list SAML SSO or SCIM as of November 2026, and data may be processed outside your country, including in India and the US. A 300-rep rollout that needs both controls should shortlist enterprise tiers elsewhere.
+
+## What should an AI notetaker security policy include?
+
+A workable AI note taker policy fits on one page and covers 7 points. Write it before the first pilot, not after the first complaint.
+
+1. **Approved tools:** name them, and block the rest at the calendar or browser level.
+2. **Off-limits meetings:** legal advice, HR cases, board sessions and anything under NDA.
+3. **Consent wording:** one sentence every host reads at the start of the call.
+4. **Retention periods:** a default for audio, transcripts and summaries, plus who can change it.
+5. **Sharing rules:** who can share outside the company, and whether recordings can go too.
+6. **Offboarding:** what happens to a leaver's notes within 24 hours of their exit.
+7. **Human review:** someone checks AI summaries before they enter a CRM, a ticket or a contract.
+
+### What mistakes do teams make when approving an AI notetaker?
+
+Teams usually approve the tool and forget the data flows behind it. Five mistakes come up again and again:
+
+- **Trusting the badge:** a SOC 2 logo, without reading which period the report covers.
+- **Skipping subprocessors:** never asking which LLM providers see the transcript.
+- **Ignoring personal accounts:** staff who signed up before the rollout keep their old history.
+- **One retention clock:** audio kept as long as the summary, though it carries far more risk.
+- **No in-person rule:** policies written for Zoom that say nothing about recording a room.
+
+## FAQ
+
+### Do AI notetakers train on my meeting data?
+
+It depends on the vendor's terms, so read them rather than the marketing page. Many business tools promise no training on customer content, and Zoom and Lynkk both state this publicly. The risk sits in free tiers and vague wording like "to improve our services", so ask for a written no-training clause in your contract.
+
+### Is an AI note taker HIPAA compliant?
+
+An AI note taker is only usable for patient conversations when the vendor signs a business associate agreement and its subprocessors are covered too. A HIPAA badge on a website isn't enough by itself. Confirm which plan includes the BAA, where audio is processed, and how long transcripts containing health information are kept.
+
+### Can an AI note taker affect attorney-client privilege?
+
+Yes. Sharing a transcript beyond the people who need it, or letting a vendor reuse it, can put privilege at risk. Many firms bar notetakers from privileged calls entirely. If you allow them, turn off auto-join, restrict sharing to named people, and label the transcripts as privileged and confidential.
+
+### Are AI note takers legal?
+
+AI note takers are legal in most places when everyone on the call knows they're being recorded and the required people agree. About a dozen US states need consent from every participant, and the GDPR adds rules on how recordings are stored. Announcing the notetaker at the start of every call covers most situations.
+
+### Can employees start using an AI notetaker without a company-wide IT rollout?
+
+They can, and that's how shadow AI starts. Individual sign-ups are fine for a short pilot if the tool uses company login and IT knows about it. Set a review date, agree which meetings are off-limits, and move the pilot onto an admin-managed workspace before more than a handful of people depend on it.
+
+### Do AI notetakers offer volume discounts if we start small and roll out later?
+
+Most vendors price per seat and negotiate on volume at the sales-led tier, but the terms vary and are rarely published. Ask whether a pilot price carries over to the wider rollout, and whether SSO or SCIM arrive only above a seat minimum. Lynkk lists Pro at $15 a month, or $117 a year.
+
+## Conclusion
+
+AI notetaker security isn't one feature. It's five checks: who signs in, who else reads the call, how long it lives, who looked at it and who was told. Ask every vendor the same five questions in writing, and the shortlist sorts itself.
+
+For a small team, Lynkk's [security page](https://lynkk.ai/security) follows one recording from start to finish. Still comparing? Start with the [best AI note takers](https://lynkk.ai/blog/best-ai-note-takers) or the [Zoom AI Companion alternatives](https://lynkk.ai/blog/zoom-ai-companion-alternatives) for regulated teams.
+
+**Try Lynkk.** It records your meetings, online and in person, and tells you exactly where each recording goes. [Start for free](https://lynkk.ai/).
+
+---CITATIONS---
+1. IBM Cost of a Data Breach Report 2025, via Help Net Security (4 Aug 2025): https://www.helpnetsecurity.com/2025/08/04/ibm-cost-data-breach-report-2025/
+2. IBM Cost of a Data Breach report hub: https://www.ibm.com/reports/data-breach
+3. NPR, "Class-action suit claims Otter AI secretly records private work conversations" (15 Aug 2025): https://www.npr.org/2025/08/15/g-s1-83087/otter-ai-transcription-class-action-lawsuit
+4. Lockton, AI notetaking and transcription: risk management considerations: https://global.lockton.com/gb/en/news-insights/ai-notetaking-and-transcription-risk-management-considerations-and-best
+5. Zoom AI Companion whitepaper, Models, processing, storage and usage: https://library.zoom.com/ai/ai-whitepaper/models-processing-storage-and-usage
+6. AICPA, SOC 2: https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2
+7. IETF RFC 7644, SCIM Protocol (Sep 2015): https://www.rfc-editor.org/info/rfc7644
+8. sso.tax, the SSO wall of shame: https://sso.tax/
+9. Microsoft Learn, Manage Teams meeting recording and transcription options: https://learn.microsoft.com/en-us/microsoftteams/manage-meeting-recording-options
+10. US HHS, Sample business associate agreement provisions: https://www.hhs.gov/hipaa/for-professionals/covered-entities/sample-business-associate-agreement-provisions/index.html
+11. American Bar Association, Formal Opinion 512 on generative AI tools (29 Jul 2024), named, not linked
+12. Lynkk security page (last reviewed 18 Oct 2026): https://lynkk.ai/security
+13. Lynkk pricing page (plans last checked 19 Oct 2026): https://lynkk.ai/pricing
+
+---SCHEMA---
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "AI Notetaker Security: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts",
+    "description": "AI notetaker security in five checks: SSO and SCIM, named LLM subprocessors, retention, audit logs and consent. What to ask vendors, and the red flags.",
+    "inLanguage": "en",
+    "author": {
+      "@type": "Person",
+      "name": "Samarth Wagh",
+      "url": "https://lynkk.ai/blog/authors/samarth-wagh"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Lynkk",
+      "url": "https://lynkk.ai/"
+    },
+    "datePublished": "2026-11-04",
+    "dateModified": "2026-11-04",
+    "mainEntityOfPage": "https://lynkk.ai/blog/ai-notetaker-security"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://lynkk.ai/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://lynkk.ai/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI Notetaker Security: SSO, SCIM, Retention, Audit Logs and Who Sees Your Transcripts",
+        "item": "https://lynkk.ai/blog/ai-notetaker-security"
+      }
+    ]
+  }
+]
+```
+
+---FAQ_JSON---
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do AI notetakers train on my meeting data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the vendor's terms, so read them rather than the marketing page. Many business tools promise no training on customer content, and Zoom and Lynkk both state this publicly. The risk sits in free tiers and vague wording like \"to improve our services\", so ask for a written no-training clause in your contract."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is an AI note taker HIPAA compliant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An AI note taker is only usable for patient conversations when the vendor signs a business associate agreement and its subprocessors are covered too. A HIPAA badge on a website isn't enough by itself. Confirm which plan includes the BAA, where audio is processed, and how long transcripts containing health information are kept."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can an AI note taker affect attorney-client privilege?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Sharing a transcript beyond the people who need it, or letting a vendor reuse it, can put privilege at risk. Many firms bar notetakers from privileged calls entirely. If you allow them, turn off auto-join, restrict sharing to named people, and label the transcripts as privileged and confidential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are AI note takers legal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI note takers are legal in most places when everyone on the call knows they're being recorded and the required people agree. About a dozen US states need consent from every participant, and the GDPR adds rules on how recordings are stored. Announcing the notetaker at the start of every call covers most situations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can employees start using an AI notetaker without a company-wide IT rollout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They can, and that's how shadow AI starts. Individual sign-ups are fine for a short pilot if the tool uses company login and IT knows about it. Set a review date, agree which meetings are off-limits, and move the pilot onto an admin-managed workspace before more than a handful of people depend on it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do AI notetakers offer volume discounts if we start small and roll out later?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most vendors price per seat and negotiate on volume at the sales-led tier, but the terms vary and are rarely published. Ask whether a pilot price carries over to the wider rollout, and whether SSO or SCIM arrive only above a seat minimum. Lynkk lists Pro at $15 a month, or $117 a year."
+      }
+    }
+  ]
+}
+```
