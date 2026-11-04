@@ -46,7 +46,7 @@ Three pairs sit in one cluster each and were deliberately scoped apart. Each nee
 
 ## Handoff: what a human still has to do
 
-1. **Inbound links (HARD gate, not done; no CMS access).** Every article needs 1-2 inbound links from live sibling pages before it counts as launched. Candidates are listed per article in the notes below.
+1. **Inbound links (HARD gate, specced but not applied; no CMS access).** Every article needs 1-2 inbound links from live sibling pages before it counts as launched. `articles/INBOUND-LINKS.md` carries the full insertion spec: 25 links across 12 articles, each with the source page, the exact host sentence to find, the replacement sentence with the link in place, and the anchor text. Every row was validated against the live page (host sentence present, anchor not already used there, target not already linked). Re-validate before pasting with `python3 -I scripts/spec_check.py`.
 2. **Banner images.** `featured_image_path` is a placeholder on all 11; alt text is written. No Lynkk image-gen skill exists on this machine.
 3. **Tracked prompts.** The `targeted_prompts` in each frontmatter came from GSC or autocomplete. Register them if Lynkk runs a prompt tracker (prompt gap -> create_prompt).
 4. **Publishing** needs explicit per-article approval. Strip the `---CITATIONS---`, `---SCHEMA---` and `---FAQ_JSON---` markers into CMS fields on push, and publish the wave together so the batch-dependent links resolve.
