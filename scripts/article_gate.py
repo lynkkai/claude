@@ -238,7 +238,7 @@ def gate_a(path, live):
                                 if len(words(strip_md(t))) > 300 and not has3]
     rep['h2_section_words'] = [(h[:50], len(words(strip_md(t)))) for h, t, _ in h2_sections(body)]
     # dashes / banned / artifacts
-    rep['em_en_dashes_file'] = text.count('—') + text.count('–')
+    rep['em_en_dashes_file'] = text.count('\u2014') + text.count('\u2013')
     low = strip_md(body).lower()
     rep['banned_hits'] = [w for w in BANNED if re.search(r'\b' + re.escape(w) + r'\b', low)]
     rep['draft_artifacts'] = [p for p in DRAFT_ARTIFACTS if re.search(p, body, re.I)]
@@ -301,7 +301,7 @@ def gate_b(path, orig):
     lo = set(re.findall(r'\]\((https?://[^)]+)\)', b_o))
     out['C4_C7_links_missing'] = sorted(lo - lc)
     out['C4_C7_links_added'] = sorted(lc - lo)
-    out['C5_dashes'] = cur.count('—') + cur.count('–')
+    out['C5_dashes'] = cur.count('\u2014') + cur.count('\u2013')
     out['C6_banned'] = [w for w in BANNED if re.search(r'\b' + re.escape(w) + r'\b', strip_md(b_c).lower())]
     out['C8_frontmatter_unchanged'] = fm_c == fm_o
     out['C9_citations_unchanged'] = c_c == c_o
