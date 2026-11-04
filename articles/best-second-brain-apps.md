@@ -1,0 +1,295 @@
+---
+title: "Best Second Brain Apps in 2026: 7 Tools Compared, Free to Paid"
+meta_title: "Best Second Brain Apps in 2026: 7 Tools Compared"
+meta_description: "The best second brain apps compared: Obsidian, Notion, Logseq, Capacities, Tana, Apple Notes and Lynkk, with real prices and who each one suits."
+slug: "best-second-brain-apps"
+canonical: "https://lynkk.ai/blog/best-second-brain-apps"
+brand: "Lynkk"
+author: "Samarth Wagh"
+author_url: "https://lynkk.ai/blog/authors/samarth-wagh"
+generated_date: "2026-11-04"
+cluster: "Knowledge management"
+internal_link_target: "https://lynkk.ai/blog/meeting-knowledge-management"
+featured_image_path: "PENDING: no Lynkk image-gen skill on this machine"
+featured_image_alt: "Best second brain apps compared, showing Obsidian, Notion, Logseq and Capacities side by side"
+keywords:
+  - "best second brain apps"
+  - "second brain app"
+  - "second brain app free"
+  - "best second brain app for adhd"
+  - "second brain note taking app"
+  - "ai second brain app"
+  - "second brain app open source"
+  - "second brain app mac"
+  - "building a second brain"
+tldr: "The best second brain app depends on how you think, not which one has the most features. Obsidian is free for personal use and stores plain files on your machine. Notion suits shared workspaces from $10 a member a month. Logseq is open source, Capacities starts free, Tana's Pro is $15 a member a month, and Apple Notes is already on your Mac."
+---
+
+# Best Second Brain Apps in 2026: 7 Tools Compared, Free to Paid
+
+By [Samarth Wagh](https://lynkk.ai/blog/authors/samarth-wagh) · 4 November 2026 · App prices checked against each vendor's pricing page in November 2026
+
+> **Quick answer:** For most people the best second brain app is **Obsidian**, free for personal use, with your notes as plain files on your own disk. **Notion** wins for shared workspaces from **$10** a member a month, **Logseq** for open source, and **Apple Notes** if you want zero setup. Pick for how you think, not the feature list.
+
+A second brain app is where you keep notes, links and ideas so you can find them again and build on them later, instead of rediscovering the same article for the third time and wondering why none of it stuck. The term comes from Tiago Forte's book Building a Second Brain, and a good second brain note taking app is simply the place you actually put one.
+
+> **Disclosure:** Lynkk makes a meeting recorder, listed last. It isn't a general note-taking app, and we say what it doesn't do. Competitor prices come from each vendor's own pricing page, checked in November 2026.
+
+## Our quick picks
+
+| App | Best for | Price |
+|---|---|---|
+| Obsidian | Plain files you own, offline | Free for personal use; Sync $5 a month |
+| Notion | Teams and databases | Free; Plus $10, Business $20 a member a month |
+| Logseq | Open source and outlining | Free, open source |
+| Capacities | Visual thinkers and objects | Basic free; Pro $11.99 a month |
+| Tana | Structured notes and AI | Free; Pro $15 a member a month, billed yearly |
+| Apple Notes | Zero setup on a Mac | Free with macOS |
+| Lynkk | Meetings as part of your notes | Free; Pro $15 a month |
+
+## What is a second brain app?
+
+A second brain app is a single place to capture what you read, think and decide, organised so you can get it back later. Forte's method behind the term is CODE: capture, organise, distill, express, and his [PARA system](https://fortelabs.com/blog/para/) sorts notes by how actionable they are rather than by subject.
+
+The method is tool-agnostic. An app makes capture fast and search reliable. What it can't do is create the habit of going back to what you saved.
+
+## What are the best second brain apps?
+
+The best second brain apps in 2026 are Obsidian, Notion, Logseq, Capacities, Tana, Apple Notes and, for meetings, Lynkk. Here's who each one suits, and where it gets in the way.
+
+### 1. Obsidian: best overall, and best for owning your files
+
+Obsidian keeps every note as a markdown file in a folder on your computer. Your notes outlive the app, which is the whole point.
+
+It's free for personal use. No limits, no sign-up. Sync costs $5 a user a month and Publish $10 a site a month, per [Obsidian's pricing page](https://obsidian.md/pricing). Commercial use asks for a $50 a year licence, which Obsidian encourages rather than requires.
+
+- **Pick it if:** you want plain files, offline access and a big plugin ecosystem.
+- **Look elsewhere if:** you want a polished shared workspace with no setup.
+
+### 2. Notion: best for teams and databases
+
+Notion is the best second brain app for anyone whose notes get shared. Databases, permissions and templates are its core. Free covers personal use, Plus is $10 and Business $20 a member a month, with up to 20% off yearly, per [Notion's pricing page](https://www.notion.com/pricing). One catch: AI is only a trial on Free and Plus, and the fuller AI features sit on Business.
+
+- **Pick it if:** your second brain is partly a team wiki.
+- **Look elsewhere if:** you want local files or fast offline capture.
+
+### 3. Logseq: the best second brain app open source users pick
+
+Logseq is a privacy-first, open-source knowledge base built around outlining and daily notes. It suits people who think in bullet points and linked blocks. Open source also means you can inspect it, self-host the sync, and keep using it whatever happens to the company.
+
+- **Pick it if:** open source and an outliner structure matter most.
+- **Look elsewhere if:** you want a mature mobile app and polished sync.
+
+### 4. Capacities: best for visual thinkers
+
+Capacities treats notes as typed objects. A book, a person and a meeting each get their own structure, instead of all being another page. Basic is free, and generous with it: unlimited objects, sync, offline support and 5GB of uploads. Pro is $11.99 a month, or about $9.99 billed yearly, per [Capacities' pricing](https://capacities.io/pricing).
+
+- **Pick it if:** you want structure without building databases by hand.
+- **Look elsewhere if:** you prefer plain text files.
+
+### 5. Tana: best for structured notes with AI
+
+Tana combines an outliner with supertags, so your notes become structured data you can query. It leans on AI for capture and summarising too. There's a free-forever plan, Pro at $15 a member a month billed yearly, and Business from $35, per [Tana's pricing](https://tana.inc/pricing).
+
+- **Pick it if:** you want your notes to behave like a database.
+- **Look elsewhere if:** you want something simple on day one.
+
+### 6. Apple Notes: the second brain app Mac users already have
+
+It's already installed. Apple Notes syncs across your devices, and now records and transcribes audio inside a note, with searchable transcripts, [per Apple's Notes guide](https://support.apple.com/guide/notes/record-and-transcribe-audio-apd4b3cf2a2f/mac). For plenty of people, it's the second brain they already have and never had to set up.
+
+- **Pick it if:** you want zero setup and no subscription.
+- **Look elsewhere if:** you want backlinks, graphs or plugins.
+
+### 7. Lynkk: best for making meetings part of your second brain
+
+Most second brain apps assume you typed everything yourself, so the hours you spend talking never make it in.
+
+Lynkk records meetings on Zoom, Google Meet and Teams, or in a room from the Mac app, and turns each into a transcript, summary and action items. On Pro, [Ask Lynkk](https://lynkk.ai/features/ask-your-meetings) answers questions across every note and shows the note and minute behind each answer. Free includes unlimited recordings with the first 5 hours of AI notes, and Pro is $15 a month, per [Lynkk's pricing](https://lynkk.ai/pricing).
+
+- **Pick it if:** most of your undocumented knowledge is said out loud in meetings.
+- **Look elsewhere if:** you want a general note-taking app for articles and ideas. Lynkk doesn't do that, and it pairs with one rather than replacing it.
+
+## What is the best second brain app free of charge?
+
+Obsidian and Apple Notes are the strongest second brain app free options, for different reasons. Obsidian is free for personal use with no feature limits, while Apple Notes costs nothing and needs no setup at all. Logseq is free and open source, and Capacities and Tana both have free plans.
+
+Paid tiers mostly buy sync, collaboration or AI. Work on one machine? The free versions are genuinely enough.
+
+## Which is the best second brain app for ADHD?
+
+The best second brain app for ADHD is whichever one captures a thought in the fewest taps, because friction at capture is where systems fail. Apple Notes and Obsidian with a quick-capture shortcut both do this well, and so does any app with a global hotkey.
+
+Three things matter more than which app you pick:
+
+- **One inbox:** everything lands in a single place, sorted later.
+- **Fast capture:** a keyboard shortcut or widget, not three screens.
+- **Search over structure:** finding things again shouldn't depend on perfect filing.
+
+## Do AI second brain apps actually work?
+
+AI helps with retrieval. It won't do the thinking for you. An AI second brain app earns its place when it answers a question across everything you've saved and shows the source, so you can check it.
+
+Two things to watch. AI summaries that replace the note you'd have written yourself, which is how you stop learning the material. And tools that ship your whole archive to a model provider. Check what the vendor says about training and retention before you upload years of notes.
+
+## How do you choose a second brain app?
+
+Choose by how you capture and how you retrieve, then check the exit. The costly mistake is a system you can't get your notes out of in 3 years.
+
+1. **Capture:** how many taps from thought to saved note?
+2. **Retrieval:** does search actually find things, or do you rely on filing?
+3. **Ownership:** are notes plain files, or locked in a database?
+4. **Export:** can you get everything out, in a readable format?
+5. **Cost:** what's the price once sync and AI are included?
+
+Whatever you choose, the meetings problem stays: our guide to a [meeting knowledge base](https://lynkk.ai/blog/meeting-knowledge-management) covers how teams capture what gets said rather than typed, and [founders' meeting notes](https://lynkk.ai/blog/founders-meeting-notes) covers the same thing for people in back-to-back calls.
+
+## FAQ
+
+### Is Obsidian or Notion better for a second brain?
+
+Obsidian suits people who want plain markdown files on their own machine, offline access and plugins. Notion suits people whose notes are shared, structured in databases, or used by a team. Obsidian is free for personal use; Notion's Plus plan is $10 a member a month. Many people use both, with Obsidian for thinking and Notion for sharing.
+
+### Can Apple Notes be a second brain?
+
+Yes, for most people. Apple Notes syncs across devices, handles folders, tags and search, and can record and transcribe audio inside a note. It lacks backlinks, graph views and plugins, so it suits simple capture better than heavy linking. If it's already where your notes land, that's a point in its favour.
+
+### What is the difference between a second brain and a Zettelkasten?
+
+A second brain is a general system for capturing and reusing what you learn, usually organised around projects. A Zettelkasten is a specific method of writing small, atomic notes in your own words and linking them densely so ideas emerge from the connections. Many Zettelkasten users run theirs inside a second brain app.
+
+### Do you need a second brain app at all?
+
+No. A plain folder of text files, or one notebook, works if you actually review it. Apps help by making capture fast and search reliable, which matters more as the archive grows. Start with whatever you already have, and switch only when you hit a real limit, not a feature you read about.
+
+### Which second brain app works best on a Mac?
+
+Obsidian, Capacities, Tana and Apple Notes all run natively on macOS, and Apple Notes is already installed. If meetings are a big part of your work, a Mac recorder helps: Lynkk records calls and in-person conversations on Apple silicon Macs running macOS 14.2 or later, and sends action items to Jira.
+
+### How do you start building a second brain?
+
+Start by picking one app and one inbox, then capture for two weeks without organising anything. After that, sort what you captured by how actionable it is, which is what Forte's PARA system does, and write one short summary of anything you want to keep. The habit of reviewing matters more than the structure.
+
+## Conclusion
+
+So: Obsidian for files you own, Notion for teams, Logseq for open source, Capacities and Tana for structure, and Apple Notes if you want to start this afternoon with nothing to install. Whichever you pick, decide how meetings get in. That's where most teams quietly lose what they know. Our guide to [personal knowledge management](https://lynkk.ai/blog/personal-knowledge-management) covers the systems behind the tools.
+
+**Try Lynkk.** It records your meetings so the spoken half of your second brain stops disappearing. [Start for free](https://lynkk.ai/).
+
+---CITATIONS---
+1. Forte Labs, "The PARA Method" (Projects, Areas, Resources, Archives; organise by actionability): https://fortelabs.com/blog/para/
+2. Obsidian pricing (free for personal use; Sync $5 a user a month; Publish $10 a site a month; $50 a year commercial licence): https://obsidian.md/pricing
+3. Notion pricing (Free; Plus $10; Business $20 a member a month; up to 20% off yearly; AI trial on Free and Plus): https://www.notion.com/pricing
+4. Capacities pricing (Basic free with 5GB uploads; Pro $11.99 monthly, $119.88 yearly): https://capacities.io/pricing
+5. Tana pricing (Free forever; Pro $15 a member a month billed yearly; Business from $35): https://tana.inc/pricing
+6. Logseq (privacy-first, open-source knowledge base): https://logseq.com/
+7. Apple, "Record and transcribe audio in Notes on Mac": https://support.apple.com/guide/notes/record-and-transcribe-audio-apd4b3cf2a2f/mac
+8. Lynkk pricing (Free with first 5 hours of AI notes; Pro $15 a month): https://lynkk.ai/pricing
+
+---SCHEMA---
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Second Brain Apps in 2026: 7 Tools Compared, Free to Paid",
+    "description": "The best second brain apps compared: Obsidian, Notion, Logseq, Capacities, Tana, Apple Notes and Lynkk, with real prices and who each one suits.",
+    "inLanguage": "en",
+    "author": {
+      "@type": "Person",
+      "name": "Samarth Wagh",
+      "url": "https://lynkk.ai/blog/authors/samarth-wagh"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Lynkk",
+      "url": "https://lynkk.ai/"
+    },
+    "datePublished": "2026-11-04",
+    "dateModified": "2026-11-04",
+    "mainEntityOfPage": "https://lynkk.ai/blog/best-second-brain-apps"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://lynkk.ai/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://lynkk.ai/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Best Second Brain Apps in 2026: 7 Tools Compared, Free to Paid",
+        "item": "https://lynkk.ai/blog/best-second-brain-apps"
+      }
+    ]
+  }
+]
+```
+
+---FAQ_JSON---
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Obsidian or Notion better for a second brain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Obsidian suits people who want plain markdown files on their own machine, offline access and plugins. Notion suits people whose notes are shared, structured in databases, or used by a team. Obsidian is free for personal use; Notion's Plus plan is $10 a member a month. Many people use both, with Obsidian for thinking and Notion for sharing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Apple Notes be a second brain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, for most people. Apple Notes syncs across devices, handles folders, tags and search, and can record and transcribe audio inside a note. It lacks backlinks, graph views and plugins, so it suits simple capture better than heavy linking. If it's already where your notes land, that's a point in its favour."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a second brain and a Zettelkasten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A second brain is a general system for capturing and reusing what you learn, usually organised around projects. A Zettelkasten is a specific method of writing small, atomic notes in your own words and linking them densely so ideas emerge from the connections. Many Zettelkasten users run theirs inside a second brain app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you need a second brain app at all?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A plain folder of text files, or one notebook, works if you actually review it. Apps help by making capture fast and search reliable, which matters more as the archive grows. Start with whatever you already have, and switch only when you hit a real limit, not a feature you read about."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which second brain app works best on a Mac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Obsidian, Capacities, Tana and Apple Notes all run natively on macOS, and Apple Notes is already installed. If meetings are a big part of your work, a Mac recorder helps: Lynkk records calls and in-person conversations on Apple silicon Macs running macOS 14.2 or later, and sends action items to Jira."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you start building a second brain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start by picking one app and one inbox, then capture for two weeks without organising anything. After that, sort what you captured by how actionable it is, which is what Forte's PARA system does, and write one short summary of anything you want to keep. The habit of reviewing matters more than the structure."
+      }
+    }
+  ]
+}
+```
