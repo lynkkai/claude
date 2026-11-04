@@ -78,14 +78,14 @@ Freemium, "Free options" (Start free). TODO: confirm paid tier names/prices befo
 > A few things we care about:
 > - **In-person counts too.** Not every meeting has a dial-in. Lynkk records the room.
 > - **Multilingual and offline-first**, so it works on a plane and in whatever language the meeting actually happens in.
-> - **Pick your region.** Every model behind Lynkk runs from the region you choose, which matters if your legal team has opinions.
+> - **We say where your data goes.** One page follows a recording end to end: no AI training on your conversations, admin reads logged, export or delete any time.
 > - **Connects to your stack**: calendar, Jira, Calendly, Cal.com, CRM, or anything else via MCP.
 >
 > It's free to start, and we'd love for you to try it on your next call and tell us where it falls short. We're here all day for questions, feature requests and hard ones. 🙏
 
 ## Short version of the first comment (if you want something tighter)
 
-> Hey PH 👋 Every AI notetaker shows up after the call. Lynkk is there for the whole thing: context from past meetings before, a voice assistant you can ask questions mid-call, and notes, action items, CRM updates and Jira tickets ~30 seconds after. Works for in-person meetings too, multilingual, offline-first, and you pick the region your data is processed in. Free to start. Tell us what breaks. 🙏
+> Hey PH 👋 Every AI notetaker shows up after the call. Lynkk is there for the whole thing: context from past meetings before, a voice assistant you can ask questions mid-call, and notes, action items, CRM updates and Jira tickets ~30 seconds after. Works for in-person meetings too, multilingual, offline-first, and we publish exactly what happens to each recording. Free to start. Tell us what breaks. 🙏
 
 ---
 

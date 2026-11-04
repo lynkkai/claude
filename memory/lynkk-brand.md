@@ -3,6 +3,12 @@
 > Source of truth for tool/directory submissions. Collected 2026-09-27 from web search
 > results for lynkk.ai (the site itself was not directly reachable from this environment).
 > Items under "To confirm" must be filled in by the team before submitting.
+>
+> **Updated 2026-11-04:** the Privacy / compliance section below was rewritten against the
+> live https://lynkk.ai/security page (last reviewed 18 October 2026), read directly. The
+> earlier data-residency claim contradicted that page and has been corrected. Anything in
+> this file still sourced only from search results is marked, and the security page wins
+> wherever the two disagree.
 
 ## Identity
 
@@ -48,7 +54,36 @@
 - Web app + Mac desktop app (including dictation: text appears at your cursor as you speak, in other apps).
 
 ### Privacy / compliance
-- Data residency: pick a region and every model behind Lynkk processes/answers from that region, which addresses legal & compliance concerns.
+> Every line here is from the live `/security` page (last reviewed 18 October 2026). Do not
+> re-add a data-residency or region-choice claim without checking that page first.
+
+- **No region picker, and no residency promise.** "Your data may be processed outside your
+  country, including in India and the US."
+- **No AI training.** Lynkk does not use your recordings, transcripts or notes to train AI
+  models. To write a note, audio goes to a speech-to-text provider and the transcript to AI
+  model providers, over HTTPS. The providers are not named publicly.
+- **Legal rights.** Under the GDPR and India's DPDP Act, you can see, correct, export or
+  delete your data.
+- **In transit.** Everything between your devices and Lynkk travels over HTTPS. Upload links
+  are signed and stop working after 10 minutes; playback links expire after 1 hour.
+- **At rest.** Tokens for connected tools (Google Calendar, Jira, Slack) are encrypted with
+  AES-256-GCM, with keys kept outside the database. The database has no public address.
+  Lynkk is **not** end-to-end encrypted, because it has to read a recording to write the note.
+- **Retention.** The Mac app removes its local copy 7 days after upload. Dictated words are
+  erased from Lynkk's servers after 7 days.
+- **Access.** In a workspace, admins can read a member's note by default, transcript included
+  but never the recording, and every admin read is logged. Marking a note Personal blocks
+  admin access. Share links work for 30 days and can be switched off; "anyone with the link"
+  is off by default.
+- **Recording notice.** The notetaker joins as a participant named after the user, for example
+  "Maya's Notetaker", and stays in the participant list. It does not announce itself out loud,
+  so the user has to say they are recording.
+- **Export and deletion.** Export my data, under Privacy and data in Settings, emails a link to
+  one zip with every note and recording. Account deletion is by request to admin@lynkk.ai.
+- **Slack scope.** Lynkk for Slack reads only its mentions, its DMs and `/lynkk`.
+- **Not published:** SOC 2 or other certifications, named subprocessors, SAML SSO, SCIM, a
+  configurable retention policy, or a HIPAA BAA. Do not claim any of these.
+- Security contact: admin@lynkk.ai.
 
 ## Integrations
 - Calendar (meetings pulled from your calendar)
@@ -61,7 +96,9 @@
 - Sales & customer-facing teams (CRM auto-updates, call prep with past context)
 - Product / engineering teams (Jira tickets from meetings)
 - Founders, managers, consultants with back-to-back meetings
-- Teams in regulated industries or regions needing data residency
+- Teams that want a clear, readable account of what happens to a recording (see Privacy /
+  compliance). Note: Lynkk does **not** offer data residency, so it is not a fit for teams whose
+  requirement is in-region processing.
 - Multilingual / global teams; in-person meetings and interviews
 
 ## Ready-to-use submission copy (derived from site copy)
@@ -70,7 +107,7 @@
 - **Tagline (≤60 chars):** Your AI teammate for every meeting: before, during, after
 - **Short description (≤160 chars):** Lynkk joins your meetings, speaks when needed, remembers everything, and turns every conversation into notes, tasks, CRM updates and Jira tickets.
 - **Long description:**
-  Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and speaks when you need it: ask for past context, pull up documents, and get answers live by voice. Within 30 seconds after, you get structured notes, assigned action items, updated CRM fields, created Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Jira, Calendly, Cal.com, or anything via MCP. Start free.
+  Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and speaks when you need it: ask for past context, pull up documents, and get answers live by voice. Within 30 seconds after, you get structured notes, assigned action items, updated CRM fields, created Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, does not train AI models on your conversations, and connects to your calendar, Jira, Calendly, Cal.com, or anything via MCP. Start free.
 - **Tags:** AI meeting assistant, AI note taker, meeting notes, conversation intelligence, transcription, productivity, sales, CRM automation, Jira, knowledge graph, MCP
 
 ## To confirm before submitting
@@ -79,8 +116,8 @@
 - [ ] Supported meeting platforms (Zoom / Google Meet / Microsoft Teams?)
 - [ ] Which CRMs (HubSpot / Salesforce?)
 - [ ] Number of supported languages
-- [ ] Available data regions (EU / US / India / …)
+- [x] ~~Available data regions~~: none offered. `/security` states data may be processed outside your country, including in India and the US (checked 2026-11-04).
 - [ ] Company legal name, founding year, HQ location, founders
 - [ ] Social links (LinkedIn, X/Twitter, Product Hunt, YouTube)
 - [ ] Logo files (SVG/PNG, square + wide), screenshots, demo video URL
-- [ ] Security/compliance certifications (SOC 2, GDPR, etc.)
+- [ ] Security/compliance certifications (SOC 2 etc.): none published on `/security` as of 2026-11-04, so do not claim any. GDPR and India's DPDP data rights ARE stated there.
