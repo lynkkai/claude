@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Lynkk Diwali pricing post, dark</title>
+<title>Lynkk Diwali pricing post</title>
 <style>
   /* ---- real lynkk.ai brand faces, pulled from the live site ---- */
   @font-face{font-family:"Schibsted Grotesk";src:url("fonts/schibsted-grotesk-var.woff2") format("woff2");
@@ -10,127 +10,119 @@
   @font-face{font-family:"Inter";src:url("fonts/inter-var.woff2") format("woff2");
              font-weight:100 900;font-style:normal;font-display:block}
 
-  /* ---- lynkk.ai design kit, dark theme tokens ---- */
   :root{
-    --lk-bg:#111;            --lk-surface:#171717;    --lk-fill:#1d1d1d;
-    --lk-line:#292c31;       --lk-line-soft:#1f2125;
-    --lk-ink:#fff;           --lk-ink-2:#ffffff80;    --lk-ink-3:#ffffff57;
-    --lk-accent:#7063be;     --lk-accent-bed:#231f3a; --lk-accent-ink:#b4abe0;
-    --lk-accent-bright:#8b7df0;
-    --lk-live:#ff453a;       --lk-live-ink:#ff8a82;   --lk-live-tint:#ff453a1f;
-    --lk-r-sm:10px; --lk-r-lg:18px; --lk-r-xl:25px; --lk-r-full:999px;
-    --lk-shadow-panel:0 1px 2px #00000059, 0 8px 20px -8px #00000080;
+    /* lynkk.ai dark surfaces */
+    --bg:#111;            --surface:#171717;    --line:#2a2b2f;
+    --ink:#fff;           --ink-2:#ffffff8c;    --ink-3:#ffffff57;
+    /* Diwali gold */
+    --gold:#f0b429;       --gold-bright:#ffc94d; --gold-soft:#ffd97a;
+    --gold-bed:#2e2113;   --gold-edge:#f0b42959;
+    --red:#ff8a82;        --red-tint:#ff453a1f;
+    --r-sm:10px; --r-lg:18px; --r-xl:25px; --r-full:999px;
   }
   *{margin:0;padding:0;box-sizing:border-box}
-  html,body{background:var(--lk-bg)}
+  html,body{background:var(--bg)}
   body{
     width:1080px;height:1350px;overflow:hidden;
     font-family:Inter,ui-sans-serif,system-ui,sans-serif;
-    color:var(--lk-ink);-webkit-font-smoothing:antialiased;
+    color:var(--ink);-webkit-font-smoothing:antialiased;
     font-feature-settings:"tnum" 1;letter-spacing:-.02em;
   }
   .card{
-    width:1080px;height:1350px;padding:54px 56px 50px;display:flex;flex-direction:column;
+    width:1080px;height:1350px;padding:50px 56px 46px;display:flex;flex-direction:column;
     background:
-      radial-gradient(880px 520px at 84% -12%, #7063be2e, transparent 60%),
-      radial-gradient(700px 440px at 4% -6%, #ffb02024, transparent 62%),
-      var(--lk-bg);
+      radial-gradient(880px 520px at 84% -12%, #f0b42933, transparent 60%),
+      radial-gradient(680px 430px at 2% -4%, #ff8a3824, transparent 62%),
+      var(--bg);
   }
 
   /* header */
   .top{display:flex;align-items:center;justify-content:space-between}
-  .brand{display:flex;align-items:center;gap:12px}
-  .mark{width:36px;height:36px;border-radius:var(--lk-r-sm);background:var(--lk-ink);color:#111;
-        display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:600;letter-spacing:-.05em}
-  .wordmark{font-size:27px;font-weight:600;letter-spacing:-.04em}
-  .pill{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:var(--lk-r-full);
-        background:var(--lk-accent-bed);color:var(--lk-accent-ink);border:1px solid #7063be66;
+  .brand{display:flex;align-items:center;gap:14px}
+  .brand img{width:46px;height:46px;display:block}
+  .wordmark{font-size:31px;font-weight:600;letter-spacing:-.04em}
+  .pill{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:var(--r-full);
+        background:var(--gold-bed);color:var(--gold-soft);border:1px solid var(--gold-edge);
         font-size:14px;font-weight:600;letter-spacing:-.01em}
-  .pill .dot{width:6px;height:6px;border-radius:50%;background:var(--lk-accent-ink)}
+  .pill .dot{width:6px;height:6px;border-radius:50%;background:var(--gold)}
 
-  /* big Diwali lockup, set in Schibsted Grotesk */
-  .hero{margin-top:30px}
+  /* big Diwali lockup */
+  .hero{margin-top:26px}
   .big{
     font-family:"Schibsted Grotesk",Inter,sans-serif;
-    font-size:95px;line-height:1;font-weight:800;letter-spacing:-.045em;
-    color:#fff;text-shadow:0 0 54px #8b7df061, 0 0 18px #ffffff1f;
+    font-size:92px;line-height:1;font-weight:800;letter-spacing:-.045em;
+    background:linear-gradient(96deg,#fff 0%,#ffe6a8 38%,var(--gold) 72%,#e09b18 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    filter:drop-shadow(0 0 46px #f0b42961);
   }
-  .big em{font-style:normal;color:var(--lk-accent-ink);text-shadow:0 0 48px #8b7df07a}
-  .deck{
-    margin-top:16px;font-size:30px;line-height:1.26;font-weight:500;letter-spacing:-.035em;
-    color:var(--lk-ink-2);
-  }
+  .deck{margin-top:15px;font-size:29px;line-height:1.26;font-weight:500;letter-spacing:-.035em;color:var(--ink-2)}
   .deck b{color:#fff;font-weight:600}
-  .deck s{color:var(--lk-ink-3);text-decoration-thickness:2px}
+  .deck s{color:var(--ink-3);text-decoration-thickness:2px}
 
   /* comparison grid */
   .grid{
-    margin-top:30px;background:var(--lk-surface);border:1px solid var(--lk-line);
-    border-radius:var(--lk-r-xl);box-shadow:var(--lk-shadow-panel);
-    padding:26px 28px;position:relative;overflow:hidden;
+    margin-top:26px;background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--r-xl);padding:24px 28px;overflow:hidden;
+    box-shadow:0 1px 2px #00000059, 0 8px 20px -8px #00000080;
   }
   table{width:100%;border-collapse:collapse;table-layout:fixed}
-  col.lab{width:262px}
-  col.cl{width:165px}
+  col.lab{width:258px}
+  col.cl{width:167px}
 
-  thead th{vertical-align:bottom;padding:0 0 16px;text-align:center}
+  thead th{vertical-align:bottom;padding:0 0 15px;text-align:center}
   thead th.lab{text-align:left}
-  .plan{font-size:16.5px;font-weight:500;letter-spacing:-.025em;color:var(--lk-ink-3)}
-  .tier{margin-top:2px;font-size:12px;font-weight:400;color:#ffffff40;letter-spacing:0}
-  /* competitor prices sit back */
-  .cost{margin-top:11px;font-size:34px;font-weight:500;letter-spacing:-.04em;line-height:1;color:#ffffff66}
-  .permo{margin-top:5px;font-size:12px;color:#ffffff40;letter-spacing:0}
+  .logo{height:30px;display:flex;align-items:center;justify-content:center;margin-bottom:9px}
+  .logo img{height:30px;width:auto;max-width:34px;object-fit:contain;display:block;opacity:.92}
+  .plan{font-size:16.5px;font-weight:500;letter-spacing:-.025em;color:var(--ink-3)}
+  .tier{margin-top:2px;font-size:12px;font-weight:400;color:#ffffff40}
+  .cost{margin-top:10px;font-size:33px;font-weight:500;letter-spacing:-.04em;line-height:1;color:#ffffff66}
+  .permo{margin-top:4px;font-size:11.5px;color:#ffffff40}
 
-  /* Lynkk column: the bright one */
-  .hl{background:var(--lk-accent-bed)}
-  thead th.hl{border-radius:var(--lk-r-lg) var(--lk-r-lg) 0 0;padding-top:15px;
-              box-shadow:inset 0 0 0 1px #7063be5c}
+  /* Lynkk column */
+  .hl{background:var(--gold-bed)}
+  thead th.hl{border-radius:var(--r-lg) var(--r-lg) 0 0;padding-top:14px;box-shadow:inset 0 0 0 1px var(--gold-edge)}
+  thead th.hl .logo{height:40px}
+  thead th.hl .logo img{height:40px;width:40px;max-width:40px;opacity:1;
+    filter:drop-shadow(0 0 14px #f0b42966)}
   thead th.hl .plan{color:#fff;font-weight:600;font-size:17.5px}
-  thead th.hl .tier{color:#b4abe0cc}
-  thead th.hl .cost{
-    color:#fff;font-size:60px;font-weight:700;letter-spacing:-.05em;margin-top:9px;
-    text-shadow:0 0 34px #8b7df08a;
-  }
-  thead th.hl .permo{color:#b4abe0cc}
-  tbody tr:last-child td.hl{border-radius:0 0 var(--lk-r-lg) var(--lk-r-lg)}
-  td.hl{box-shadow:inset 1px 0 0 #7063be33, inset -1px 0 0 #7063be33}
-  .tag{display:inline-block;margin-bottom:8px;padding:4px 11px;border-radius:var(--lk-r-full);
-       background:var(--lk-accent-bright);color:#fff;font-size:11px;font-weight:700;
-       letter-spacing:.04em;text-transform:uppercase;box-shadow:0 0 18px #8b7df066}
-  .wasin{margin-top:6px;font-size:13px;color:#b4abe0cc;letter-spacing:0}
+  thead th.hl .tier{color:#ffd97acc}
+  thead th.hl .cost{color:#fff;font-size:58px;font-weight:700;letter-spacing:-.05em;margin-top:8px;
+                    text-shadow:0 0 32px #f0b42999}
+  thead th.hl .permo{color:#ffd97acc}
+  tbody tr:last-child td.hl{border-radius:0 0 var(--r-lg) var(--r-lg)}
+  td.hl{box-shadow:inset 1px 0 0 #f0b42933, inset -1px 0 0 #f0b42933}
+  .tag{display:inline-block;margin-bottom:7px;padding:4px 11px;border-radius:var(--r-full);
+       background:var(--gold);color:#2a1c05;font-size:11px;font-weight:700;
+       letter-spacing:.04em;text-transform:uppercase;box-shadow:0 0 18px #f0b42980}
+  .wasin{margin-top:5px;font-size:12.5px;color:#ffd97acc}
   .wasin s{text-decoration-thickness:1.5px}
 
-  tbody td{height:68px;text-align:center;border-top:1px solid var(--lk-line);vertical-align:middle}
+  tbody td{height:62px;text-align:center;border-top:1px solid var(--line);vertical-align:middle}
   tbody td.lab{text-align:left;font-size:16.5px;font-weight:500;color:#ffffffe0;letter-spacing:-.022em;padding-right:14px}
-  tbody td.lab small{display:block;margin-top:2px;font-size:12px;font-weight:400;color:var(--lk-ink-3);letter-spacing:0}
+  tbody td.lab small{display:block;margin-top:2px;font-size:12px;font-weight:400;color:var(--ink-3);letter-spacing:0}
 
-  /* tick / cross / ring marks */
-  .m{display:inline-flex;align-items:center;justify-content:center;
-     width:32px;height:32px;border-radius:50%;line-height:1}
-  .m svg{display:block;width:19px;height:19px;fill:none;stroke-linecap:round;stroke-linejoin:round}
-  /* competitor ticks recede */
+  /* marks */
+  .m{display:inline-flex;align-items:center;justify-content:center;width:31px;height:31px;border-radius:50%}
+  .m svg{display:block;width:18px;height:18px;fill:none;stroke-linecap:round;stroke-linejoin:round}
   .yes{background:#ffffff0d;box-shadow:inset 0 0 0 1px #ffffff14}
   .yes svg{stroke:#ffffff73;stroke-width:2.4}
-  /* Lynkk ticks: bright white, lit */
-  td.hl .yes{
-    width:36px;height:36px;background:var(--lk-accent-bright);
-    box-shadow:0 0 0 5px #8b7df029, 0 0 22px #8b7df08a;
-  }
+  td.hl .yes{width:36px;height:36px;background:linear-gradient(160deg,var(--gold-bright),var(--gold));
+             box-shadow:0 0 0 5px #f0b42926, 0 0 22px #f0b42999}
   td.hl .yes svg{stroke:#fff;stroke-width:3.1;width:22px;height:22px}
-  .no{background:var(--lk-live-tint)}
-  .no svg{stroke:var(--lk-live-ink);stroke-width:2.8;width:18px;height:18px}
+  .no{background:var(--red-tint)}
+  .no svg{stroke:var(--red);stroke-width:2.8;width:17px;height:17px}
   .part{background:#ffffff0f}
-  .part svg{stroke:#ffffff8c;stroke-width:2.6;width:20px;height:20px}
+  .part svg{stroke:#ffffff8c;stroke-width:2.6;width:19px;height:19px}
 
-  .legend{margin-top:20px;display:flex;gap:26px;align-items:center;font-size:12.5px;color:var(--lk-ink-3);letter-spacing:0}
+  .legend{margin-top:18px;display:flex;gap:24px;align-items:center;font-size:12.5px;color:var(--ink-3);letter-spacing:0}
   .legend span{display:inline-flex;align-items:center;gap:8px}
-  .legend .m{width:20px;height:20px}
-  .legend .m svg{width:12px;height:12px}
+  .legend .m{width:19px;height:19px}
+  .legend .m svg{width:11px;height:11px}
 
-  .foot{margin-top:auto;padding-top:24px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
+  .foot{margin-top:auto;padding-top:22px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
   .cta{font-size:24px;font-weight:600;letter-spacing:-.035em}
-  .cta span{color:var(--lk-accent-ink)}
-  .fine{font-size:12px;line-height:1.5;color:#ffffff4d;text-align:right;max-width:392px;letter-spacing:0}
+  .cta span{color:var(--gold-soft)}
+  .fine{font-size:11.5px;line-height:1.5;color:#ffffff4d;text-align:right;max-width:400px;letter-spacing:0}
 </style>
 </head>
 <body>
@@ -143,12 +135,12 @@
   </svg>
 
   <div class="top">
-    <div class="brand"><div class="mark">L</div><div class="wordmark">Lynkk</div></div>
+    <div class="brand"><img src="logos/lynkk-logo-white.svg" alt="Lynkk"><div class="wordmark">Lynkk</div></div>
     <div class="pill"><span class="dot"></span>Limited time</div>
   </div>
 
   <div class="hero">
-    <div class="big">DIWALI <em>SALE</em></div>
+    <div class="big">DIWALI SALE</div>
     <div class="deck">Lynkk Pro is now <b>$4 a month</b>, or <b>&#8377;250</b> in India.<br>Down from <s>$15</s>. Here is how that sits next to the others.</div>
   </div>
 
@@ -159,16 +151,20 @@
         <tr>
           <th class="lab"></th>
           <th class="hl">
+            <div class="logo"><img src="logos/lynkk-logo-white.svg" alt="Lynkk"></div>
             <div class="tag">Diwali price</div>
             <div class="plan">Lynkk</div><div class="tier">Pro</div>
             <div class="cost">$4</div><div class="permo">per month</div>
             <div class="wasin"><s>$15</s> &#183; &#8377;250</div>
           </th>
-          <th><div class="plan">Granola</div><div class="tier">Business</div>
+          <th><div class="logo"><img src="logos/granola-180.png" alt="Granola"></div>
+              <div class="plan">Granola</div><div class="tier">Business</div>
               <div class="cost">$14</div><div class="permo">per user, per month</div></th>
-          <th><div class="plan">Fireflies</div><div class="tier">Pro</div>
+          <th><div class="logo"><img src="logos/fireflies-512.png" alt="Fireflies"></div>
+              <div class="plan">Fireflies</div><div class="tier">Pro</div>
               <div class="cost">$18</div><div class="permo">per seat, per month</div></th>
-          <th><div class="plan">Wispr Flow</div><div class="tier">Pro</div>
+          <th><div class="logo"><img src="logos/wispr-180.png" alt="Wispr Flow"></div>
+              <div class="plan">Wispr Flow</div><div class="tier">Pro</div>
               <div class="cost">$15</div><div class="permo">per user, per month</div></th>
         </tr>
       </thead>
@@ -183,29 +179,29 @@
           <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
           <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
           <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
-          <td><i class="m no"><svg><use href="#cross"/></svg></i></td></tr>
-
-        <tr><td class="lab">Speaks during the meeting<small>Ask it out loud, mid call</small></td>
-          <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
-          <td><i class="m no"><svg><use href="#cross"/></svg></i></td>
-          <td><i class="m no"><svg><use href="#cross"/></svg></i></td>
-          <td><i class="m no"><svg><use href="#cross"/></svg></i></td></tr>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td></tr>
 
         <tr><td class="lab">Dictation at your cursor</td>
           <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
-          <td><i class="m no"><svg><use href="#cross"/></svg></i></td>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
           <td><i class="m no"><svg><use href="#cross"/></svg></i></td>
           <td><i class="m yes"><svg><use href="#tick"/></svg></i></td></tr>
-
-        <tr><td class="lab">CRM and Jira updates</td>
-          <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
-          <td><i class="m part"><svg><use href="#part"/></svg></i></td>
-          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
-          <td><i class="m no"><svg><use href="#cross"/></svg></i></td></tr>
 
         <tr><td class="lab">Records in person</td>
           <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
           <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td></tr>
+
+        <tr><td class="lab">Speaks during the meeting<small>Ask it out loud, mid call</small></td>
+          <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td>
+          <td><i class="m part"><svg><use href="#part"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td></tr>
+
+        <tr><td class="lab">CRM and Jira updates</td>
+          <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m part"><svg><use href="#part"/></svg></i></td>
           <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
           <td><i class="m no"><svg><use href="#cross"/></svg></i></td></tr>
 
@@ -231,7 +227,7 @@
 
   <div class="foot">
     <div class="cta">Start free at <span>lynkk.ai</span></div>
-    <div class="fine">Competitor list prices on monthly billing, checked November 2026. Annual plans cost less. Prices exclude tax.</div>
+    <div class="fine">Competitor features and list prices from vendor docs and pricing pages, November 2026. Monthly billing; annual costs less. Excludes tax. Logos belong to their respective owners.</div>
   </div>
 
 </div>
