@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lynkk pricing comparison post, dark</title>
+<style>
+  /* ---- lynkk.ai design kit, dark theme tokens (read from the live site) ---- */
+  :root{
+    --lk-bg:#111;            --lk-surface:#171717;    --lk-fill:#1d1d1d;
+    --lk-line:#292c31;       --lk-line-soft:#1f2125;
+    --lk-ink:#fff;           --lk-ink-2:#ffffff80;    --lk-ink-3:#ffffff57;
+    --lk-accent:#7063be;     --lk-accent-bed:#231f3a; --lk-accent-ink:#b4abe0;
+    --lk-live:#ff453a;       --lk-live-ink:#ff8a82;   --lk-live-tint:#ff453a1f;
+    --lk-r-sm:10px; --lk-r-lg:18px; --lk-r-xl:25px; --lk-r-full:999px;
+    --lk-shadow-panel:0 1px 2px #00000059, 0 8px 20px -8px #00000080;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{background:var(--lk-bg)}
+  body{
+    width:1080px;height:1350px;overflow:hidden;
+    font-family:Inter,"Inter Fallback",ui-sans-serif,system-ui,sans-serif;
+    color:var(--lk-ink);-webkit-font-smoothing:antialiased;
+    font-feature-settings:"tnum" 1;letter-spacing:-.02em;
+  }
+  .card{
+    width:1080px;height:1350px;padding:56px;display:flex;flex-direction:column;
+    background:
+      radial-gradient(900px 520px at 88% -10%, #7063be26, transparent 60%),
+      radial-gradient(680px 420px at 6% -4%, #ffb0201a, transparent 62%),
+      var(--lk-bg);
+  }
+
+  /* header */
+  .top{display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:center;gap:12px}
+  .mark{width:36px;height:36px;border-radius:var(--lk-r-sm);background:var(--lk-ink);color:#111;
+        display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:600;letter-spacing:-.05em}
+  .wordmark{font-size:27px;font-weight:600;letter-spacing:-.04em}
+  .pill{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:var(--lk-r-full);
+        background:var(--lk-accent-bed);color:var(--lk-accent-ink);border:1px solid #7063be4d;
+        font-size:14px;font-weight:600;letter-spacing:-.01em}
+  .pill .dot{width:6px;height:6px;border-radius:50%;background:var(--lk-accent-ink)}
+
+  h1{margin-top:44px;font-size:60px;line-height:1.08;font-weight:500;letter-spacing:-.042em}
+  h1 em{font-style:normal;color:var(--lk-accent-ink)}
+  .sub{margin-top:15px;font-size:19.5px;line-height:1.45;color:var(--lk-ink-2);letter-spacing:-.015em}
+  .sub b{color:var(--lk-ink);font-weight:500}
+  .sub s{color:var(--lk-ink-3);text-decoration-thickness:1.5px}
+
+  /* comparison grid */
+  .grid{
+    margin-top:34px;background:var(--lk-surface);border:1px solid var(--lk-line);
+    border-radius:var(--lk-r-xl);box-shadow:var(--lk-shadow-panel);
+    padding:30px;position:relative;overflow:hidden;
+  }
+  table{width:100%;border-collapse:collapse;table-layout:fixed}
+  col.lab{width:266px}
+  col.cl{width:168px}
+
+  thead th{vertical-align:bottom;padding:0 0 18px;text-align:center}
+  thead th.lab{text-align:left}
+  .plan{font-size:17px;font-weight:500;letter-spacing:-.025em;color:var(--lk-ink-2)}
+  .tier{margin-top:2px;font-size:12.5px;font-weight:400;color:var(--lk-ink-3);letter-spacing:0}
+  .cost{margin-top:12px;font-size:37px;font-weight:500;letter-spacing:-.04em;line-height:1;color:var(--lk-ink-2)}
+  .permo{margin-top:5px;font-size:12.5px;color:var(--lk-ink-3);letter-spacing:0}
+
+  /* highlighted Lynkk column */
+  .hl{background:var(--lk-accent-bed)}
+  thead th.hl{border-radius:var(--lk-r-lg) var(--lk-r-lg) 0 0;padding-top:16px}
+  thead th.hl .plan{color:var(--lk-accent-ink);font-weight:600}
+  thead th.hl .tier{color:#b4abe0b8}
+  thead th.hl .cost{color:var(--lk-accent-ink);font-size:54px;font-weight:600;letter-spacing:-.05em;margin-top:10px}
+  thead th.hl .permo{color:#b4abe0b8}
+  tbody tr:last-child td.hl{border-radius:0 0 var(--lk-r-lg) var(--lk-r-lg)}
+  .tag{display:inline-block;margin-bottom:9px;padding:4px 10px;border-radius:var(--lk-r-full);
+       background:var(--lk-accent);color:#fff;font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase}
+  .wasin{margin-top:6px;font-size:13px;color:#b4abe0b8;letter-spacing:0}
+  .wasin s{text-decoration-thickness:1.5px}
+
+  tbody td{height:74px;text-align:center;border-top:1px solid var(--lk-line);vertical-align:middle}
+  tbody td.lab{text-align:left;font-size:17px;font-weight:500;color:var(--lk-ink);letter-spacing:-.022em;padding-right:14px}
+  tbody td.lab small{display:block;margin-top:2px;font-size:12.5px;font-weight:400;color:var(--lk-ink-3);letter-spacing:0}
+
+  /* tick / cross / partial badges */
+  .m{display:inline-flex;align-items:center;justify-content:center;
+     width:32px;height:32px;border-radius:50%;line-height:1}
+  .m svg{display:block;width:19px;height:19px}
+  .no svg{width:18px;height:18px;stroke-width:2.8}
+  .part svg{width:20px;height:20px}
+  .yes{background:#ffffff14}
+  .yes svg{stroke:#ffffffd9}
+  td.hl .yes{background:var(--lk-accent);box-shadow:0 0 0 4px #7063be33}
+  td.hl .yes svg{stroke:#fff;stroke-width:2.8;width:20px;height:20px}
+  .no{background:var(--lk-live-tint)}
+  .no svg{stroke:var(--lk-live-ink)}
+  .part{background:#ffffff0f}
+  .part svg{stroke:#ffffff8c}
+
+  .legend{margin-top:22px;display:flex;gap:26px;align-items:center;font-size:12.5px;color:var(--lk-ink-3);letter-spacing:0}
+  .legend span{display:inline-flex;align-items:center;gap:8px}
+  .legend .m{width:20px;height:20px}
+  .legend .m svg{width:12px;height:12px}
+
+  .foot{margin-top:auto;padding-top:26px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
+  .cta{font-size:24px;font-weight:500;letter-spacing:-.035em}
+  .cta span{color:var(--lk-accent-ink)}
+  .fine{font-size:12px;line-height:1.5;color:var(--lk-ink-3);text-align:right;max-width:392px;letter-spacing:0}
+</style>
+</head>
+<body>
+<div class="card">
+
+  <!-- reusable marks -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="tick" viewBox="0 0 24 24"><path d="M5 12.8 10 17.6 19 7.2" fill="none"
+      stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="cross" viewBox="0 0 24 24"><path d="M7 7 17 17 M17 7 7 17" fill="none"
+      stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="part" viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.4" fill="none" stroke-width="2.6"/></symbol>
+  </svg>
+
+  <div class="top">
+    <div class="brand"><div class="mark">L</div><div class="wordmark">Lynkk</div></div>
+    <div class="pill"><span class="dot"></span>Diwali sale</div>
+  </div>
+
+  <h1>Lynkk Pro is now <em>$4</em> a month.</h1>
+  <div class="sub"><b>&#8377;250 in India this Diwali.</b> Down from <s>$15</s>. Here is how that sits next to the others.</div>
+
+  <div class="grid">
+    <table>
+      <colgroup><col class="lab"><col class="cl"><col class="cl"><col class="cl"><col class="cl"></colgroup>
+      <thead>
+        <tr>
+          <th class="lab"></th>
+          <th class="hl">
+            <div class="tag">Diwali price</div>
+            <div class="plan">Lynkk</div><div class="tier">Pro</div>
+            <div class="cost">$4</div><div class="permo">per month</div>
+            <div class="wasin"><s>$15</s> &#183; &#8377;250</div>
+          </th>
+          <th><div class="plan">Granola</div><div class="tier">Business</div>
+              <div class="cost">$14</div><div class="permo">per user, per month</div></th>
+          <th><div class="plan">Fireflies</div><div class="tier">Pro</div>
+              <div class="cost">$18</div><div class="permo">per seat, per month</div></th>
+          <th><div class="plan">Wispr Flow</div><div class="tier">Pro</div>
+              <div class="cost">$15</div><div class="permo">per user, per month</div></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="lab">Free plan</td>
+          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td></tr>
+
+        <tr><td class="lab">AI meeting notes</td>
+          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td></tr>
+
+        <tr><td class="lab">Speaks during the meeting<small>Ask it out loud, mid call</small></td>
+          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td></tr>
+
+        <tr><td class="lab">Dictation at your cursor</td>
+          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
+          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td></tr>
+
+        <tr><td class="lab">CRM and Jira updates</td>
+          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
+          <td><i class="m part"><svg width="18" height="18"><use href="#part"/></svg></i></td>
+          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td></tr>
+
+        <tr><td class="lab">Records in person</td>
+          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td></tr>
+
+        <tr><td class="lab">Pick your data region</td>
+          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
+          <td><i class="m part"><svg width="18" height="18"><use href="#part"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td></tr>
+
+        <tr><td class="lab">Priced in rupees</td>
+          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
+          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td></tr>
+      </tbody>
+    </table>
+    <div class="legend">
+      <span><i class="m yes"><svg><use href="#tick"/></svg></i> Included</span>
+      <span><i class="m part"><svg><use href="#part"/></svg></i> Limited or enterprise only</span>
+      <span><i class="m no"><svg><use href="#cross"/></svg></i> Not available</span>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div class="cta">Start free at <span>lynkk.ai</span></div>
+    <div class="fine">Competitor list prices on monthly billing, checked November 2026. Annual plans cost less. Prices exclude tax.</div>
+  </div>
+
+</div>
+</body>
+</html>
