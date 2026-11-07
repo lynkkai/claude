@@ -2,14 +2,21 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Lynkk pricing comparison post, dark</title>
+<title>Lynkk Diwali pricing post, dark</title>
 <style>
-  /* ---- lynkk.ai design kit, dark theme tokens (read from the live site) ---- */
+  /* ---- real lynkk.ai brand faces, pulled from the live site ---- */
+  @font-face{font-family:"Schibsted Grotesk";src:url("fonts/schibsted-grotesk-var.woff2") format("woff2");
+             font-weight:400 900;font-style:normal;font-display:block}
+  @font-face{font-family:"Inter";src:url("fonts/inter-var.woff2") format("woff2");
+             font-weight:100 900;font-style:normal;font-display:block}
+
+  /* ---- lynkk.ai design kit, dark theme tokens ---- */
   :root{
     --lk-bg:#111;            --lk-surface:#171717;    --lk-fill:#1d1d1d;
     --lk-line:#292c31;       --lk-line-soft:#1f2125;
     --lk-ink:#fff;           --lk-ink-2:#ffffff80;    --lk-ink-3:#ffffff57;
     --lk-accent:#7063be;     --lk-accent-bed:#231f3a; --lk-accent-ink:#b4abe0;
+    --lk-accent-bright:#8b7df0;
     --lk-live:#ff453a;       --lk-live-ink:#ff8a82;   --lk-live-tint:#ff453a1f;
     --lk-r-sm:10px; --lk-r-lg:18px; --lk-r-xl:25px; --lk-r-full:999px;
     --lk-shadow-panel:0 1px 2px #00000059, 0 8px 20px -8px #00000080;
@@ -18,15 +25,15 @@
   html,body{background:var(--lk-bg)}
   body{
     width:1080px;height:1350px;overflow:hidden;
-    font-family:Inter,"Inter Fallback",ui-sans-serif,system-ui,sans-serif;
+    font-family:Inter,ui-sans-serif,system-ui,sans-serif;
     color:var(--lk-ink);-webkit-font-smoothing:antialiased;
     font-feature-settings:"tnum" 1;letter-spacing:-.02em;
   }
   .card{
-    width:1080px;height:1350px;padding:56px;display:flex;flex-direction:column;
+    width:1080px;height:1350px;padding:54px 56px 50px;display:flex;flex-direction:column;
     background:
-      radial-gradient(900px 520px at 88% -10%, #7063be26, transparent 60%),
-      radial-gradient(680px 420px at 6% -4%, #ffb0201a, transparent 62%),
+      radial-gradient(880px 520px at 84% -12%, #7063be2e, transparent 60%),
+      radial-gradient(700px 440px at 4% -6%, #ffb02024, transparent 62%),
       var(--lk-bg);
   }
 
@@ -37,95 +44,113 @@
         display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:600;letter-spacing:-.05em}
   .wordmark{font-size:27px;font-weight:600;letter-spacing:-.04em}
   .pill{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:var(--lk-r-full);
-        background:var(--lk-accent-bed);color:var(--lk-accent-ink);border:1px solid #7063be4d;
+        background:var(--lk-accent-bed);color:var(--lk-accent-ink);border:1px solid #7063be66;
         font-size:14px;font-weight:600;letter-spacing:-.01em}
   .pill .dot{width:6px;height:6px;border-radius:50%;background:var(--lk-accent-ink)}
 
-  h1{margin-top:44px;font-size:60px;line-height:1.08;font-weight:500;letter-spacing:-.042em}
-  h1 em{font-style:normal;color:var(--lk-accent-ink)}
-  .sub{margin-top:15px;font-size:19.5px;line-height:1.45;color:var(--lk-ink-2);letter-spacing:-.015em}
-  .sub b{color:var(--lk-ink);font-weight:500}
-  .sub s{color:var(--lk-ink-3);text-decoration-thickness:1.5px}
+  /* big Diwali lockup, set in Schibsted Grotesk */
+  .hero{margin-top:30px}
+  .big{
+    font-family:"Schibsted Grotesk",Inter,sans-serif;
+    font-size:95px;line-height:1;font-weight:800;letter-spacing:-.045em;
+    color:#fff;text-shadow:0 0 54px #8b7df061, 0 0 18px #ffffff1f;
+  }
+  .big em{font-style:normal;color:var(--lk-accent-ink);text-shadow:0 0 48px #8b7df07a}
+  .deck{
+    margin-top:16px;font-size:30px;line-height:1.26;font-weight:500;letter-spacing:-.035em;
+    color:var(--lk-ink-2);
+  }
+  .deck b{color:#fff;font-weight:600}
+  .deck s{color:var(--lk-ink-3);text-decoration-thickness:2px}
 
   /* comparison grid */
   .grid{
-    margin-top:34px;background:var(--lk-surface);border:1px solid var(--lk-line);
+    margin-top:30px;background:var(--lk-surface);border:1px solid var(--lk-line);
     border-radius:var(--lk-r-xl);box-shadow:var(--lk-shadow-panel);
-    padding:30px;position:relative;overflow:hidden;
+    padding:26px 28px;position:relative;overflow:hidden;
   }
   table{width:100%;border-collapse:collapse;table-layout:fixed}
-  col.lab{width:266px}
-  col.cl{width:168px}
+  col.lab{width:262px}
+  col.cl{width:165px}
 
-  thead th{vertical-align:bottom;padding:0 0 18px;text-align:center}
+  thead th{vertical-align:bottom;padding:0 0 16px;text-align:center}
   thead th.lab{text-align:left}
-  .plan{font-size:17px;font-weight:500;letter-spacing:-.025em;color:var(--lk-ink-2)}
-  .tier{margin-top:2px;font-size:12.5px;font-weight:400;color:var(--lk-ink-3);letter-spacing:0}
-  .cost{margin-top:12px;font-size:37px;font-weight:500;letter-spacing:-.04em;line-height:1;color:var(--lk-ink-2)}
-  .permo{margin-top:5px;font-size:12.5px;color:var(--lk-ink-3);letter-spacing:0}
+  .plan{font-size:16.5px;font-weight:500;letter-spacing:-.025em;color:var(--lk-ink-3)}
+  .tier{margin-top:2px;font-size:12px;font-weight:400;color:#ffffff40;letter-spacing:0}
+  /* competitor prices sit back */
+  .cost{margin-top:11px;font-size:34px;font-weight:500;letter-spacing:-.04em;line-height:1;color:#ffffff66}
+  .permo{margin-top:5px;font-size:12px;color:#ffffff40;letter-spacing:0}
 
-  /* highlighted Lynkk column */
+  /* Lynkk column: the bright one */
   .hl{background:var(--lk-accent-bed)}
-  thead th.hl{border-radius:var(--lk-r-lg) var(--lk-r-lg) 0 0;padding-top:16px}
-  thead th.hl .plan{color:var(--lk-accent-ink);font-weight:600}
-  thead th.hl .tier{color:#b4abe0b8}
-  thead th.hl .cost{color:var(--lk-accent-ink);font-size:54px;font-weight:600;letter-spacing:-.05em;margin-top:10px}
-  thead th.hl .permo{color:#b4abe0b8}
+  thead th.hl{border-radius:var(--lk-r-lg) var(--lk-r-lg) 0 0;padding-top:15px;
+              box-shadow:inset 0 0 0 1px #7063be5c}
+  thead th.hl .plan{color:#fff;font-weight:600;font-size:17.5px}
+  thead th.hl .tier{color:#b4abe0cc}
+  thead th.hl .cost{
+    color:#fff;font-size:60px;font-weight:700;letter-spacing:-.05em;margin-top:9px;
+    text-shadow:0 0 34px #8b7df08a;
+  }
+  thead th.hl .permo{color:#b4abe0cc}
   tbody tr:last-child td.hl{border-radius:0 0 var(--lk-r-lg) var(--lk-r-lg)}
-  .tag{display:inline-block;margin-bottom:9px;padding:4px 10px;border-radius:var(--lk-r-full);
-       background:var(--lk-accent);color:#fff;font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase}
-  .wasin{margin-top:6px;font-size:13px;color:#b4abe0b8;letter-spacing:0}
+  td.hl{box-shadow:inset 1px 0 0 #7063be33, inset -1px 0 0 #7063be33}
+  .tag{display:inline-block;margin-bottom:8px;padding:4px 11px;border-radius:var(--lk-r-full);
+       background:var(--lk-accent-bright);color:#fff;font-size:11px;font-weight:700;
+       letter-spacing:.04em;text-transform:uppercase;box-shadow:0 0 18px #8b7df066}
+  .wasin{margin-top:6px;font-size:13px;color:#b4abe0cc;letter-spacing:0}
   .wasin s{text-decoration-thickness:1.5px}
 
-  tbody td{height:74px;text-align:center;border-top:1px solid var(--lk-line);vertical-align:middle}
-  tbody td.lab{text-align:left;font-size:17px;font-weight:500;color:var(--lk-ink);letter-spacing:-.022em;padding-right:14px}
-  tbody td.lab small{display:block;margin-top:2px;font-size:12.5px;font-weight:400;color:var(--lk-ink-3);letter-spacing:0}
+  tbody td{height:68px;text-align:center;border-top:1px solid var(--lk-line);vertical-align:middle}
+  tbody td.lab{text-align:left;font-size:16.5px;font-weight:500;color:#ffffffe0;letter-spacing:-.022em;padding-right:14px}
+  tbody td.lab small{display:block;margin-top:2px;font-size:12px;font-weight:400;color:var(--lk-ink-3);letter-spacing:0}
 
-  /* tick / cross / partial badges */
+  /* tick / cross / ring marks */
   .m{display:inline-flex;align-items:center;justify-content:center;
      width:32px;height:32px;border-radius:50%;line-height:1}
-  .m svg{display:block;width:19px;height:19px}
-  .no svg{width:18px;height:18px;stroke-width:2.8}
-  .part svg{width:20px;height:20px}
-  .yes{background:#ffffff14}
-  .yes svg{stroke:#ffffffd9}
-  td.hl .yes{background:var(--lk-accent);box-shadow:0 0 0 4px #7063be33}
-  td.hl .yes svg{stroke:#fff;stroke-width:2.8;width:20px;height:20px}
+  .m svg{display:block;width:19px;height:19px;fill:none;stroke-linecap:round;stroke-linejoin:round}
+  /* competitor ticks recede */
+  .yes{background:#ffffff0d;box-shadow:inset 0 0 0 1px #ffffff14}
+  .yes svg{stroke:#ffffff73;stroke-width:2.4}
+  /* Lynkk ticks: bright white, lit */
+  td.hl .yes{
+    width:36px;height:36px;background:var(--lk-accent-bright);
+    box-shadow:0 0 0 5px #8b7df029, 0 0 22px #8b7df08a;
+  }
+  td.hl .yes svg{stroke:#fff;stroke-width:3.1;width:22px;height:22px}
   .no{background:var(--lk-live-tint)}
-  .no svg{stroke:var(--lk-live-ink)}
+  .no svg{stroke:var(--lk-live-ink);stroke-width:2.8;width:18px;height:18px}
   .part{background:#ffffff0f}
-  .part svg{stroke:#ffffff8c}
+  .part svg{stroke:#ffffff8c;stroke-width:2.6;width:20px;height:20px}
 
-  .legend{margin-top:22px;display:flex;gap:26px;align-items:center;font-size:12.5px;color:var(--lk-ink-3);letter-spacing:0}
+  .legend{margin-top:20px;display:flex;gap:26px;align-items:center;font-size:12.5px;color:var(--lk-ink-3);letter-spacing:0}
   .legend span{display:inline-flex;align-items:center;gap:8px}
   .legend .m{width:20px;height:20px}
   .legend .m svg{width:12px;height:12px}
 
-  .foot{margin-top:auto;padding-top:26px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
-  .cta{font-size:24px;font-weight:500;letter-spacing:-.035em}
+  .foot{margin-top:auto;padding-top:24px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
+  .cta{font-size:24px;font-weight:600;letter-spacing:-.035em}
   .cta span{color:var(--lk-accent-ink)}
-  .fine{font-size:12px;line-height:1.5;color:var(--lk-ink-3);text-align:right;max-width:392px;letter-spacing:0}
+  .fine{font-size:12px;line-height:1.5;color:#ffffff4d;text-align:right;max-width:392px;letter-spacing:0}
 </style>
 </head>
 <body>
 <div class="card">
 
-  <!-- reusable marks -->
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <symbol id="tick" viewBox="0 0 24 24"><path d="M5 12.8 10 17.6 19 7.2" fill="none"
-      stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
-    <symbol id="cross" viewBox="0 0 24 24"><path d="M7 7 17 17 M17 7 7 17" fill="none"
-      stroke-width="2.4" stroke-linecap="round"/></symbol>
-    <symbol id="part" viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.4" fill="none" stroke-width="2.6"/></symbol>
+    <symbol id="tick" viewBox="0 0 24 24"><path d="M5 12.8 10 17.6 19 7.2"/></symbol>
+    <symbol id="cross" viewBox="0 0 24 24"><path d="M7 7 17 17 M17 7 7 17"/></symbol>
+    <symbol id="part" viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.4"/></symbol>
   </svg>
 
   <div class="top">
     <div class="brand"><div class="mark">L</div><div class="wordmark">Lynkk</div></div>
-    <div class="pill"><span class="dot"></span>Diwali sale</div>
+    <div class="pill"><span class="dot"></span>Limited time</div>
   </div>
 
-  <h1>Lynkk Pro is now <em>$4</em> a month.</h1>
-  <div class="sub"><b>&#8377;250 in India this Diwali.</b> Down from <s>$15</s>. Here is how that sits next to the others.</div>
+  <div class="hero">
+    <div class="big">DIWALI <em>SALE</em></div>
+    <div class="deck">Lynkk Pro is now <b>$4 a month</b>, or <b>&#8377;250</b> in India.<br>Down from <s>$15</s>. Here is how that sits next to the others.</div>
+  </div>
 
   <div class="grid">
     <table>
@@ -149,52 +174,52 @@
       </thead>
       <tbody>
         <tr><td class="lab">Free plan</td>
-          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
-          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
-          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
-          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td></tr>
+          <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td></tr>
 
         <tr><td class="lab">AI meeting notes</td>
-          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
-          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
-          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td></tr>
+          <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td></tr>
 
         <tr><td class="lab">Speaks during the meeting<small>Ask it out loud, mid call</small></td>
-          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td></tr>
+          <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td></tr>
 
         <tr><td class="lab">Dictation at your cursor</td>
-          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
-          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td></tr>
+          <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td></tr>
 
         <tr><td class="lab">CRM and Jira updates</td>
-          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
-          <td><i class="m part"><svg width="18" height="18"><use href="#part"/></svg></i></td>
-          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td></tr>
+          <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m part"><svg><use href="#part"/></svg></i></td>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td></tr>
 
         <tr><td class="lab">Records in person</td>
-          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
-          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
-          <td><i class="m yes"><svg width="18" height="18"><use href="#tick"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td></tr>
+          <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td></tr>
 
         <tr><td class="lab">Pick your data region</td>
-          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
-          <td><i class="m part"><svg width="18" height="18"><use href="#part"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td></tr>
+          <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td>
+          <td><i class="m part"><svg><use href="#part"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td></tr>
 
         <tr><td class="lab">Priced in rupees</td>
-          <td class="hl"><i class="m yes"><svg width="19" height="19"><use href="#tick"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td>
-          <td><i class="m no"><svg width="17" height="17"><use href="#cross"/></svg></i></td></tr>
+          <td class="hl"><i class="m yes"><svg><use href="#tick"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td>
+          <td><i class="m no"><svg><use href="#cross"/></svg></i></td></tr>
       </tbody>
     </table>
     <div class="legend">
