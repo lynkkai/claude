@@ -404,7 +404,7 @@ Diagnosis key: **Working** (good CTR) · **Snippet problem** (ranks #1-12, low C
 | google-meet-ai-note-taker | 280 | 11 | 3.93% | 5.9 | Working | **Optimize:** Working (3.9% CTR). Expand toward "ai note taker for google meets" (170/mo, SD 24) and "best ai note taker for google meet" (SD 16). |
 | best-ai-meeting-notes-for-teams | 1 | 0 | 0.00% | 1.0 | New (<3 weeks) | **Hold:** 1 impression and not in the sitemap. Check it is meant to be live. If yes, add it to the sitemap; if not, 301 it to best-ai-note-takers. |
 | ai-voice-recorders | 0 | 0 | 0.00% |  | Not indexed | **Optimize:** Not indexed. Low priority: hardware-device intent (Plaud) does not suit Lynkk. Request indexing once, then leave. |
-| best-free-ai-note-takers | 0 | 0 | 0.00% |  | Not indexed | **Optimize:** Not indexed despite 24 internal links. Request indexing. Reposition: Lynkk no longer has a free plan, so present it as 5 free hours then the lowest paid price ($4). Expect fewer sign-ups from "free ai note taker" (2,400/mo) than from paid-intent keywords. |
+| best-free-ai-note-takers | 0 | 0 | 0.00% |  | Not indexed | **Optimize:** Not indexed despite 24 internal links. Request indexing. Keep it as an honest comparison of free plans, with Lynkk shown as 5 free hours then $4 a month. Not a target keyword in the plan. |
 
 ### Transcription (8 posts, 47 clicks, 7,833 impressions)
 
