@@ -1,0 +1,88 @@
+priority,hub,target_page,page_action,keyword,market,monthly_volume,seo_difficulty,funnel,current_gsc_position,target_position,projected_monthly_clicks
+P1,Meeting templates,/blog/meeting-minutes-sample,Optimize (India MoM),template for meeting minutes,IN,14800,10,TOFU,,5,694
+P1,Sales meetings,/blog/sales-follow-up-email,New,follow up email to sales call,US,8100,7,TOFU,,5,346
+P1,Meeting templates,/blog/meeting-notes-vs-minutes,Optimize (India),meeting minutes means,IN,4400,14,TOFU,,5,206
+P1,Meeting templates,/blog/daily-standup-meeting,Optimize,scrum stand up meeting,US,2400,6,TOFU,,3,189
+P1,Meeting templates,/blog/meeting-minutes-sample,Optimize (India MoM),meeting minutes example,IN,4400,15,TOFU,,5,188
+P1,Meeting templates,/blog/meeting-minutes-sample,Optimize (India MoM),meeting minutes example,US,2900,22,TOFU,22.6,5,124
+P1,Meeting templates,/blog/one-on-one-meeting,Optimize,121 meeting agenda template,US,2400,19,TOFU,,5,113
+P1,Meeting templates,/blog/meeting-notes-vs-minutes,Optimize (India),what is meeting minutes,IN,2400,23,TOFU,,5,113
+P1,Meeting platform guides,/blog/how-to-transcribe-zoom-meetings,Rewrite as Zoom transcript guide,transcribe zoom,US,2400,21,TOFU,,5,102
+P1,Sales meetings,/blog/sales-follow-up-email,New,follow up email sales sample,US,2400,22,TOFU,,5,102
+P1,AI note takers,/blog/best-free-ai-note-takers,Fix indexing,free ai note taker,US,2400,25,MOFU,,5,102
+P1,Product pages,/,Optimize,ai meeting assistant,US,4400,11,BOFU,,8,85
+P1,Compare tools,/blog/otter-ai-pricing,Optimize,otter ai pricing,US,1900,24,BOFU,,5,81
+P1,Meeting platform guides,/blog/google-meet-transcript,Optimize,google meet transcript,US,1000,53,TOFU,12.9,3,79
+P1,Meeting templates,/blog/meeting-minutes-sample,Optimize (India MoM),meeting minutes format pdf,IN,1000,6,TOFU,,3,79
+P1,Meeting templates,/blog/meeting-notes-template,New,meeting notes template free,US,880,14,TOFU,,3,69
+P1,Meeting templates,/blog/one-on-one-meeting,Optimize,sample one on one meeting template,US,1600,24,TOFU,,5,68
+P1,Transcription and languages,/blog/hindi-transcription,Optimize,hindi audio to text converter,IN,590,17,TOFU,8.3,3,57
+P1,Compare tools,/blog/jamie-ai-review,New,jamie ai note taker,US,1300,17,MOFU,,5,56
+P1,AI note takers,/blog/ai-powered-meeting-assistants,Optimize,meeting assistant ai,IN,480,18,MOFU,8.0,3,47
+P1,Meeting platform guides,/blog/how-to-record-teams-meeting,New,how to recording teams meeting,UK,590,6,TOFU,,3,46
+P1,Meeting templates,/blog/meeting-minutes-sample,Optimize (India MoM),board of directors meeting minutes example,US,590,14,TOFU,,3,46
+P1,Meeting templates,/blog/action-items-examples-template,Optimize,action items template,US,480,32,TOFU,15.0,3,38
+P1,Compare tools,/blog/granola-ai-pricing,Optimize,granola ai pricing,US,320,23,BOFU,13.2,3,25
+P1,Product pages,/,Optimize,meeting assistant software,IN,260,13,BOFU,,3,25
+P1,Product pages,/features/meeting-notes,Optimize,minutes of meeting recorder,IN,260,10,BOFU,,3,25
+P1,Meeting templates,/blog/meeting-notes-template,New,project management meeting notes template,US,260,14,TOFU,,3,20
+P1,AI note takers,/blog/ai-note-taker-microsoft-teams,Optimize,does teams have an ai note taker,US,260,14,MOFU,,3,20
+P1,Compare tools,/blog/granola-ai-pricing,Optimize,is granola free,US,210,19,BOFU,12.2,3,17
+P1,Product pages,/features/meeting-notes,Optimize,ai powered meeting notes app,US,170,5,BOFU,,3,17
+P1,Meeting templates,/blog/meeting-notes-template,New,how to write meeting notes template,US,170,9,TOFU,,3,13
+P1,Compare tools,/blog/granola-vs-otter,New,granola vs otter ai,US,110,11,MOFU,,3,9
+P1,Compare tools,/blog/granola-vs-fathom,New,granola vs fathom,US,110,14,MOFU,,3,9
+P1,Compare tools,/blog/fireflies-alternatives,New,fireflies alternatives,US,110,14,BOFU,,3,9
+P1,Meeting platform guides,/blog/google-meet-transcript,Optimize,where to find google meet transcript,US,,,TOFU,6.9,3,0
+P2,Sales meetings,/blog/sales-follow-up-email,New,sales call follow up email,US,9900,26,TOFU,,8,191
+P2,Meeting platform guides,/blog/how-to-record-google-meet,New,how to record a google meet,US,1600,28,TOFU,,8,31
+P2,Transcription and languages,/blog/voice-memo-transcription,Optimize,voice memo transcription,US,1600,27,TOFU,,8,31
+P2,Meeting platform guides,/blog/how-to-record-teams-meeting,New,how to record teams meeting,US,1300,34,TOFU,,8,25
+P2,Meeting templates,/blog/one-on-one-meeting,Optimize,one on one meeting template,US,1300,27,TOFU,,8,25
+P2,AI note takers,/blog/ai-note-taker-microsoft-teams,Optimize,ai note taker for teams,US,590,29,MOFU,,5,25
+P2,AI note takers,/blog/ai-note-taker-microsoft-teams,Optimize,microsoft teams ai note taker,US,590,26,MOFU,,5,25
+P2,Transcription and languages,/blog/recruiting-interview-transcription,Optimize,interview transcription,US,1300,25,MOFU,,8,25
+P2,Meeting templates,/blog/daily-standup-meeting,Optimize,stand up meeting agenda,US,480,35,TOFU,18.1,5,20
+P2,Transcription and languages,/blog/transcribe-audio-to-text,Optimize,audio to text transcription software,IN,390,20,MOFU,,5,18
+P2,Meeting platform guides,/blog/how-to-transcribe-zoom-meetings,Rewrite as Zoom transcript guide,zoom transcript,US,880,28,TOFU,,8,17
+P2,Meeting platform guides,/blog/teams-transcript,New,teams meeting transcription,US,390,22,TOFU,,5,17
+P2,Meeting platform guides,/blog/zoom-meeting-recorders,Fix indexing,zoom meeting recorder,IN,880,32,MOFU,,8,17
+P2,Compare tools,/blog/fireflies-pricing,Optimize,fireflies ai price,US,880,26,BOFU,,8,17
+P2,Transcription and languages,/blog/ai-transcription-software,Optimize (India),transcription software,IN,320,17,MOFU,,5,15
+P2,Meeting platform guides,/blog/how-to-record-google-meet,New,how to record a google meet call,US,320,24,TOFU,,5,14
+P2,Compare tools,/blog/read-ai-pricing,New,read ai pricing,US,260,20,BOFU,,5,11
+P2,Meeting templates,/blog/follow-up-email-after-meeting,Optimize,follow up email after meeting,US,210,26,TOFU,15.9,5,10
+P2,Meeting platform guides,/blog/how-to-transcribe-zoom-meetings,Rewrite as Zoom transcript guide,how to download zoom transcript,US,210,24,TOFU,,5,9
+P2,AI note takers,/blog/zoom-note-taker,Optimize,ai note taker for zoom,US,480,33,MOFU,,8,9
+P2,Product pages,/compare/otter,Optimize,otter ai alternative,US,480,34,BOFU,,8,9
+P2,Meeting templates,/blog/meeting-summary-template,Optimize,meeting summary,US,390,35,TOFU,,8,8
+P2,Transcription and languages,/blog/ai-transcription-software,Optimize (India),automatic transcription software,IN,170,19,MOFU,,5,8
+P2,AI note takers,/blog/google-meet-ai-note-taker,Optimize,ai note taker for google meets,US,170,24,MOFU,,5,7
+P2,Compare tools,/blog/granola-vs-otter,New,otter ai vs granola,US,90,12,MOFU,,3,7
+P2,AI note takers,/blog/zoom-note-taker,Optimize,does zoom have an ai note taker,US,140,16,MOFU,,5,6
+P2,Compare tools,/blog/granola-alternatives,New,granola alternative,US,320,28,BOFU,,8,6
+P2,Compare tools,/blog/granola-vs-fathom,New,fathom vs granola,US,110,17,MOFU,,5,5
+P2,Compare tools,/blog/fireflies-vs-otter,New,fireflies vs otter,US,110,21,MOFU,,5,5
+P2,Meeting templates,/blog/action-items-examples-template,Optimize,meeting action items template,US,90,21,TOFU,,5,4
+P2,Sales meetings,/blog/gong-alternatives,New,gong alternative,US,210,28,BOFU,,8,4
+P2,Compare tools,/blog/fireflies-vs-otter,New,otter ai vs fireflies,US,90,17,MOFU,,5,4
+P2,Transcription and languages,/blog/voice-memo-transcription,Optimize,ios voice memo transcription,US,50,11,TOFU,,3,4
+P2,Meeting platform guides,/blog/teams-transcript,New,how to download teams meeting transcript,US,30,6,TOFU,,3,3
+P2,AI note takers,/blog/zoom-note-taker,Optimize,best ai note taker for zoom,US,40,12,MOFU,,3,3
+P2,AI note takers,/blog/best-ai-note-takers,Optimize,what is the best ai note taker for meetings,US,70,18,MOFU,,5,3
+P2,Compare tools,/blog/fathom-vs-otter,New,otter ai vs fathom,US,70,24,MOFU,,5,3
+P2,Compare tools,/blog/fathom-vs-otter,New,fathom vs otter ai,US,40,7,MOFU,,3,3
+P2,Product pages,/features/meeting-notes,Optimize,ai meeting summarizer,US,170,34,BOFU,,8,3
+P2,Meeting templates,/blog/daily-standup-meeting,Optimize,how to run a stand up meeting,US,50,19,TOFU,,5,2
+P2,Meeting templates,/blog/meeting-summary-template,Optimize,meeting recap email example,US,110,26,TOFU,,8,2
+P2,Sales meetings,/blog/sales-call-recording-software,Link up,sales call recording software,US,110,31,MOFU,,8,2
+P2,AI note takers,/blog/google-meet-ai-note-taker,Optimize,best ai note taker for google meet,US,40,16,MOFU,,5,2
+P2,AI note takers,/blog/ai-note-taker-in-person-meetings,New,is there an ai note taker for in person meetings,US,20,11,MOFU,,3,2
+P2,Product pages,/features/chrome-extension,Optimize,ai note taker that doesn't join meetings,US,90,30,BOFU,,8,2
+P2,Product pages,/compare/fireflies,Optimize,fireflies alternative,US,70,29,BOFU,,8,1
+P2,Product pages,/use-cases/financial-advisors,Optimize,ai note taker for financial advisors,US,30,30,BOFU,,8,1
+P3,Compare tools,/blog/fathom-ai-pricing,Optimize,fathom pricing,US,590,37,BOFU,,5,25
+P3,AI note takers,/blog/best-ai-note-takers,Optimize,best ai note taker,US,1900,36,MOFU,,10,23
+P3,Product pages,/use-cases/sales-calls,Optimize,conversation intelligence platform,US,880,37,BOFU,,10,11
+P3,AI note takers,/blog/ai-note-taker-in-person-meetings,New,ai note taker for in person meetings,US,480,40,MOFU,,10,6
+P3,Product pages,/features/meeting-bot,Optimize,meeting bot,US,70,37,BOFU,17.3,8,1
