@@ -1,0 +1,66 @@
+url,hub,funnel,clicks,impressions,ctr_pct,avg_position,diagnosis,action_type,action
+/blog/zoom-note-taker,AI note takers,MOFU,4,2457,0.16,25.17,Page 2 push,Optimize,"Retitle to ""AI Note Taker for Zoom"" (480/mo, SD 33). Add ""best AI note taker for Zoom"" (40/mo, SD 12) as an H2 with a ranked table."
+/blog/ai-note-taker-microsoft-teams,AI note takers,MOFU,1,2309,0.04,20.39,Page 2 push,Optimize,"Rewrite title and meta (card 3). Put a comparison table in the first screen. Add ""how to add an AI note taker to Teams""."
+/blog/ai-powered-meeting-assistants,AI note takers,MOFU,7,2009,0.35,29.58,Page 2 push,Optimize,"Retitle to ""What Is an AI Meeting Assistant?"" and let the homepage own the commercial term. In India it ranks #8 for ""meeting ai assistant"" (590/mo)."
+/blog/best-ai-note-takers,AI note takers,MOFU,3,1697,0.18,33.45,Wrong target,Optimize,"Head terms are long-term (#34). Add H2s ""best AI note taker for Zoom"" (you rank #7 for this) and ""what is the best AI note taker for meetings"" (70/mo, SD 18)."
+/blog/google-meet-ai-note-taker,AI note takers,MOFU,11,280,3.93,5.92,Working,Optimize,"Working (3.9% CTR). Expand toward ""ai note taker for google meets"" (170/mo, SD 24) and ""best ai note taker for google meet"" (SD 16)."
+/blog/best-ai-meeting-notes-for-teams,AI note takers,MOFU,0,1,0.0,1.0,New (<3 weeks),Hold,"1 impression and not in the sitemap. Check it is meant to be live. If yes, add it to the sitemap; if not, 301 it to best-ai-note-takers."
+/blog/ai-voice-recorders,AI note takers,MOFU,0,0,0,0.0,Not indexed,Optimize,"Not indexed. Low priority: hardware-device intent (Plaud) does not suit Lynkk. Request indexing once, then leave."
+/blog/best-free-ai-note-takers,AI note takers,MOFU,0,0,0,0.0,Not indexed,Optimize,"Not indexed despite 24 internal links. Request indexing. Target ""free ai note taker"" (2,400/mo, SD 25). Add a ""free plan limits"" table, which no other Lynkk page has."
+/blog/granola-ai-pricing,Competitors,BOFU,0,1628,0.0,9.77,Snippet problem,Optimize,"1,628 impr at #9.8, 0 clicks. New title with prices, and ""Is Granola free?"" as the 2nd H2 (card 4)."
+/blog/zoom-ai-companion-alternatives,Competitors,BOFU,0,953,0.0,6.39,Snippet problem,Optimize,"953 impr at #6.4 and 0 clicks, almost all from long AI-search questions. Answer each question as its own H2 (card 2)."
+/blog/fathom-ai-pricing,Competitors,BOFU,2,805,0.25,11.59,Snippet problem,Optimize,"Same pricing fix as Granola. ""fathom pricing"" 253 impr at #17."
+/blog/gong-pricing,Competitors,BOFU,3,577,0.52,17.59,Page 2 push,Optimize,"Page 2. Add a ""Gong alternatives for small teams"" section ($64 CPC keyword)."
+/blog/fireflies-pricing,Competitors,BOFU,0,265,0.0,12.09,Page 2 push,Optimize,"Same pricing fix. Target ""fireflies ai price"" (880/mo, SD 26)."
+/blog/otter-ai-alternatives,Competitors,BOFU,0,219,0.0,74.68,Wrong target,Optimize,"#75. Rewrite in the format Bluedot uses to rank #2: comparison table first, then Lynkk labelled ""our product""."
+/blog/read-ai-vs-otter-ai,Competitors,MOFU,3,148,2.03,16.91,Working,Optimize,Working (2% CTR). Use it as the template for new vs pages.
+/blog/otter-ai-pricing,Competitors,BOFU,0,108,0.0,26.76,Page 2 push,Optimize,"Same pricing fix. ""otter ai pricing"" is 1,900/mo at SD 24, and the page sits at #27."
+/blog/voice-to-text-apps,Mac & dictation,MOFU,4,3028,0.13,41.93,Wrong target,Optimize,"3,028 impr at #42: the head terms are too hard. Retarget to the long tail it does reach: ""best dictation software for small business"", ""voice to email software"". Lead with Lynkk's Mac dictation."
+/blog/dictate-in-microsoft-word,Mac & dictation,TOFU,0,365,0.0,46.0,Wrong target,Stop,Ranks #46 for Microsoft-owned terms. No further work. Keep as a support page for the dictation feature.
+/blog/dictation-on-mac,Mac & dictation,TOFU,0,40,0.0,27.85,Low impressions,Merge,40 impressions in 3 months. Merge into speech-to-text-mac with a 301 redirect.
+/blog/best-mac-note-taking-app,Mac & dictation,MOFU,0,0,0,0.0,New (<3 weeks),Hold,New. Make sure it links to /download (Mac app).
+/blog/record-audio-on-mac,Mac & dictation,TOFU,0,0,0,0.0,New (<3 weeks),Hold,"New. Wait 4-6 weeks, then review. Link to /features/dictation and the Mac download."
+/blog/speech-to-text-mac,Mac & dictation,TOFU,0,0,0,0.0,New (<3 weeks),Hold,"New. Overlaps dictation-on-mac. Once it has data, 301 dictation-on-mac into it."
+/blog/meeting-preparation,Meeting prep & knowledge,TOFU,7,488,1.43,8.65,Snippet problem,Optimize,"Working (1.4%). Add an ""AI meeting prep tools"" H2 (""ai meeting preparation tool"" #19) featuring Lynkk's pre-call briefing."
+/blog/founders-meeting-notes,Meeting prep & knowledge,TOFU,0,388,0.0,6.69,Snippet problem,Optimize,"388 impr at #6.7, 0 clicks, all from AI-search questions. Answer them word for word in H2s so AI answers name Lynkk."
+/blog/meeting-knowledge-management,Meeting prep & knowledge,TOFU,0,297,0.0,8.93,Page 2 push,Optimize,"297 impr at #8.9, 0 clicks, from AI-search questions. Add a direct answer FAQ and a Lynkk knowledge graph demo."
+/blog/meeting-minutes-to-jira,Meeting prep & knowledge,MOFU,0,142,0.0,10.24,Page 2 push,Optimize,"#10, low volume. Link to /integrations/jira and add ""meeting action items jira"" as an H2."
+/blog/best-second-brain-apps,Meeting prep & knowledge,MOFU,0,11,0.0,4.18,New (<3 weeks),Hold,New. Ranks #4 already on 11 impressions.
+/blog/personal-knowledge-management,Meeting prep & knowledge,TOFU,0,0,0,0.0,New (<3 weeks),Hold,"New. Ubersuggest: these KM keywords are SD 36-62, so treat them as long-term."
+/blog/google-meet-transcript,Platform how-tos,TOFU,33,10422,0.32,8.84,Snippet problem,Optimize,"Rewrite title and meta (see card 1). Add a 3-step answer box with screenshots, a ""download the transcript"" H2, a plan table and a free-transcript CTA."
+/blog/zoom-bot-join-meeting,Platform how-tos,TOFU,23,1788,1.29,11.55,Snippet problem,Optimize,"Retitle around ""meeting bot"" (238 impr, #17). Add a comparison of which note takers send a bot vs record without one, linking to /features/meeting-bot."
+/blog/how-to-transcribe-zoom-meetings,Platform how-tos,TOFU,2,535,0.37,49.31,Wrong target,Optimize,"Rewrite this URL into the Zoom transcript guide (find, download, save, without recording). Ubersuggest: ""transcribe zoom"" 2,400/mo at SD 21, Lynkk #67."
+/blog/zoom-meeting-recorders,Platform how-tos,MOFU,0,0,0,0.0,Not indexed,Optimize,"Not indexed. Request indexing in GSC, link to it from google-meet-transcript and zoom-note-taker. India: ""zoom meeting recorder"" 880/mo at SD 32."
+/blog/revenue-operations,Sales,TOFU,0,615,0.0,56.91,Wrong target,Stop,"#57, off-topic. No further work. Do not write more RevOps content."
+/blog/spin-selling,Sales,TOFU,3,386,0.78,20.78,Page 2 push,Optimize,"Re-angle with a ""SPIN discovery call notes template"" and a CTA to /use-cases/sales-calls."
+/blog/sales-enablement-tools,Sales,MOFU,0,365,0.0,9.25,Snippet problem,Optimize,"#2 for ""what does sales enablement software typically cost?"" (AI search). Add a cost table near the top."
+/blog/quarterly-business-review-template,Sales,TOFU,0,169,0.0,55.61,Wrong target,Stop,#56. No further work.
+/blog/sales-forecast-template,Sales,TOFU,1,146,0.68,10.44,Page 2 push,Stop,146 impr at #10. Leave as is.
+/blog/mutual-action-plan,Sales,TOFU,0,128,0.0,34.96,Wrong target,Stop,128 impr at #35. No further work.
+/blog/lead-qualification,Sales,TOFU,0,85,0.0,21.15,Low impressions,Stop,85 impr. No further work.
+/blog/sales-conversation-intelligence,Sales,MOFU,0,72,0.0,16.18,Low impressions,Optimize,"72 impr. Target ""conversation intelligence platform"" (880/mo, SD 37), already tracked in Ubersuggest."
+/blog/key-account-planning-process,Sales,TOFU,0,34,0.0,24.53,Low impressions,Stop,34 impr. No further work.
+/blog/meddic-sales,Sales,TOFU,0,33,0.0,67.09,Low impressions,Optimize,#67. Add a MEDDIC call notes template. Otherwise stop.
+/blog/bant-sales-qualification,Sales,TOFU,0,29,0.0,22.62,Low impressions,Optimize,Add a BANT call notes template. Otherwise stop.
+/blog/call-coaching-software,Sales,MOFU,0,5,0.0,24.2,New (<3 weeks),Hold,New. Links to /use-cases/sales-calls.
+/blog/objection-handling,Sales,TOFU,0,3,0.0,7.67,New (<3 weeks),Hold,"New. Avoma ranks with this topic but gets little traffic, so keep expectations low."
+/blog/sales-call-recording-software,Sales,MOFU,0,0,0,0.0,New (<3 weeks),Hold,"New, 4 internal links. ""sales call recording software"" is 110/mo at SD 31 and a $108 CPC: link to it from every sales post."
+/blog/discovery-call-questions,Sales,TOFU,0,0,0,0.0,New (<3 weeks),Hold,"New, 5 internal links. Link to it from spin-selling, bant and use-cases/sales-calls."
+/blog/is-it-legal-to-record-a-meeting,Security,TOFU,0,95,0.0,14.62,Low impressions,Optimize,"Retitle to ""Is It Legal to Record a Meeting? One-Party vs Two-Party States"". Otter ranks #4 for ""is it illegal to record a conversation"" (1,600/mo)."
+/blog/ai-notetaker-security,Security,MOFU,0,6,0.0,4.17,New (<3 weeks),Hold,"New. Matches the regulated-team AI-search questions (SSO, SCIM, retention). Link to it from zoom-ai-companion-alternatives."
+/blog/action-items-examples-template,Templates,TOFU,4,3082,0.13,24.58,Page 2 push,Optimize,"3,082 impr at #25. Downloadable Sheets/Excel/Notion files plus an ""action item list"" H2 (card 6)."
+/blog/follow-up-email-after-meeting,Templates,TOFU,12,2304,0.52,15.9,Page 2 push,Optimize,"12 clicks, #15.9. Add a sales follow-up section, or link to a new sales follow-up page (8,100/mo, SD 7)."
+/blog/daily-standup-meeting,Templates,TOFU,3,1884,0.16,25.66,Page 2 push,Optimize,"1,884 impr at #25.7. Lead the title with ""Template"" (that is what people type). Add Scrum and async templates as files."
+/blog/meeting-summary-template,Templates,TOFU,7,1819,0.38,23.47,Page 2 push,Optimize,"1,819 impr at #23.5. Retitle ""Meeting Summary Template + Examples"", put the template first, and add ""meeting recap template"" and ""synopsis"" as H3s."
+/blog/meeting-minutes-sample,Templates,TOFU,4,1620,0.25,22.65,Page 2 push,Optimize,"1,620 impr at #22.6. Add a MoM format section for India and a board minutes example (card 7)."
+/blog/board-meeting-agenda,Templates,TOFU,2,1353,0.15,21.32,Page 2 push,Optimize,"""ai agenda templates for board meetings"" is at #5 (156 impr). Add an ""AI board agenda template"" H2 and a nonprofit first-meeting sample."
+/blog/meeting-notes-vs-minutes,Templates,TOFU,0,154,0.0,30.28,Wrong target,Optimize,"Retitle to ""What Are Meeting Minutes? Meaning, Format, vs Notes"". In India, ""meeting minutes means"" is 4,400/mo at SD 14."
+/blog/one-on-one-meeting,Templates,TOFU,1,60,1.67,25.87,Low impressions,Optimize,"Retitle to ""1:1 Meeting Agenda Template"". ""121 meeting agenda template"" gets 2,400/mo at SD 19."
+/blog/voice-memo-transcription,Transcription,TOFU,8,2506,0.32,11.74,Snippet problem,Optimize,"2,506 impr at #11.7. Small title fix and a ""voice memo to transcript"" H2 (card 5)."
+/blog/medical-transcription-software,Transcription,MOFU,1,1876,0.05,31.61,Wrong target,Hold,"1,876 impr at #31.6 but no HIPAA proof. Do not expand until compliance is confirmed."
+/blog/recruiting-interview-transcription,Transcription,MOFU,3,1302,0.23,23.02,Page 2 push,Optimize,"1,302 impr at #23. Queries are generic (""interview transcript"" #6.5). Broaden the title beyond recruiters."
+/blog/transcribe-audio-to-text,Transcription,MOFU,26,1019,2.55,37.74,Working,Optimize,"Working on long tail (26 clicks). Retitle to ""Best Software to Transcribe Audio to Text"". India: ""audio to text transcription software"" 390/mo at SD 20."
+/blog/hindi-transcription,Transcription,TOFU,8,914,0.88,8.32,Snippet problem,Optimize,"914 impr at #8.3. Put Hinglish in the title, since the queries are ""hinglish transcribe"" and ""hinglish transcription""."
+/blog/ai-transcription-software,Transcription,MOFU,1,216,0.46,8.17,Page 2 push,Optimize,"216 impr at #8.2. Retitle to ""AI Transcription Software"" for India (""transcription software"" 320/mo at SD 17, ""automatic transcription software"" 170 at SD 19)."
+/blog/real-time-ai-interview-assistant,Transcription,MOFU,0,0,0,0.0,New (<3 weeks),Hold,"New. India: ""real time ai meeting assistant"" 70/mo at SD 6. Add that phrase to an H2."
+/blog/legal-transcription-service,Transcription,MOFU,0,0,0,0.0,Not indexed,Optimize,Not indexed. Request indexing once. Low priority unless lawyers are a target segment.
