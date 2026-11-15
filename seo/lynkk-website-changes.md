@@ -8,41 +8,18 @@ Pricing used throughout: **Starter** ₹0 (first 5 hours of AI notes), **Pro** $
 
 ## Contents
 
-1. [Decisions needed first](#1-decisions-needed-first)
-2. [Order of work](#2-order-of-work)
-3. [Remove free-plan claims](#3-remove-free-plan-claims)
-4. [Homepage and product pages](#4-homepage-and-product-pages)
-5. [Blog rewrites: high impressions, low clicks](#5-blog-rewrites-high-impressions-low-clicks)
-6. [New pages to create](#6-new-pages-to-create)
-7. [Every blog post: diagnosis and action](#7-every-blog-post-diagnosis-and-action)
-8. [Site structure and internal links](#8-site-structure-and-internal-links)
-9. [Technical fixes](#9-technical-fixes)
-10. [Appendix: every free-plan claim with replacement](#10-appendix-every-free-plan-claim-with-replacement)
+1. [Remove free-plan claims](#1-remove-free-plan-claims)
+2. [Homepage and product pages](#2-homepage-and-product-pages)
+3. [Blog rewrites: high impressions, low clicks](#3-blog-rewrites-high-impressions-low-clicks)
+4. [New pages to create](#4-new-pages-to-create)
+5. [Every blog post: diagnosis and action](#5-every-blog-post-diagnosis-and-action)
+6. [Site structure and internal links](#6-site-structure-and-internal-links)
+7. [Technical fixes](#7-technical-fixes)
+8. [Appendix: every free-plan claim with replacement](#8-appendix-every-free-plan-claim-with-replacement)
 
-## 1. Decisions needed first
+## 1. Remove free-plan claims
 
-These change what the copy is allowed to say. Rows marked **[CONFIRM]** below depend on them.
-
-| Question | Why it matters |
-|---|---|
-| **Is CRM sync live?** | The homepage plan table says CRM sync is "Not yet" on every plan. The HubSpot, Salesforce and integrations pages (and the sales calls title "Sync to Your CRM") say calls are logged on the deal, set up by the sales team. One of them is wrong. |
-| Are dictation and the audio meeting bot included on Starter? | Six pages say dictation is "free on every plan"; several say the bot is free. |
-| Does Starter need a credit card? | The homepage says "No credit card required". |
-| What happens on Starter after the 5 hours? | Decides whether copy can say notes keep working after 5 hours. |
-| Refund and terms pages | Both have a "Free plan" section. Needs legal review. |
-
-## 2. Order of work
-
-| When | What |
-|---|---|
-| Week 1 | Remove free-plan claims (section 3): header/footer button, pricing page, homepage, titles and metas. Rename the plan table column "Free" to "Starter". |
-| Week 1-2 | Homepage and product page changes (section 4). Titles and metas for the 10 blog rewrites (section 5). Request indexing for the 6 unindexed pages (section 9). |
-| Week 3-6 | New P1 pages (section 6): sales-follow-up-email, meeting-notes-template, jamie-ai-review, how-to-record-teams-meeting, granola-vs-otter, granola-vs-fathom, fireflies-alternatives. Rewrite how-to-transcribe-zoom-meetings into the Zoom transcript guide. |
-| Week 7-12 | New P2 pages: how-to-record-google-meet, teams-transcript, read-ai-pricing, granola-alternatives, fireflies-vs-otter, gong-alternatives, fathom-vs-otter, ai-note-taker-in-person-meetings. Integration pages once CRM status is settled. Review GSC and give pages at #4-15 a second pass. |
-
-## 3. Remove free-plan claims
-
-The live site still sells a free plan. Besides the header/footer button, **184 changes on 71 pages** are listed in the appendix (section 10). The most common ones:
+The live site still sells a free plan. Besides the header/footer button, **165 changes on 68 pages** are listed in the appendix (section 8). The most common ones:
 
 | Now | Where | Change to |
 |---|---|---|
@@ -53,15 +30,13 @@ The live site still sells a free plan. Besides the header/footer button, **184 c
 | There is no trial to run out: the free plan has no end date. | 12 compare pages | **Start on Starter: your first 5 hours of AI notes cost nothing. After that, Pro is $4 (₹250) a month.** |
 | ... Start free. (end of meta description) | Homepage, meeting notes, 9 use-case pages | **... First 5 hours free.** |
 | Free stays free for everyone. | Homepage | **Everyone starts with 5 hours of AI notes on us.** |
-| No credit card required. | Homepage, pricing | Keep only if Starter needs no card **[CONFIRM]** |
 | Is there a free trial of Pro? No, because Free doesn't run out. | Pricing FAQ | **Is there a free trial? Starter works as the trial: your first 5 hours of AI notes are free, with no deadline to use them.** |
-| 2. Free plan | /refund | Rewrite for Starter **[legal review]** |
 
 **Keep "free" where it is true:** free templates, competitors' free plans, Zoom's free plan, a free Gmail account.
 
 **Wording rules from now on:** use "Try 5 hours on us", "Start with 5 free hours" or "Get Lynkk Pro, $4/mo". Never "Start free", "free plan", "free forever" or "free AI note taker" about Lynkk.
 
-## 4. Homepage and product pages
+## 2. Homepage and product pages
 
 ### Homepage
 
@@ -81,7 +56,7 @@ The live site still sells a free plan. Besides the header/footer button, **184 c
 | Plan table column | Free | **Starter** |
 
 - Add a "Works on every meeting" section: Zoom, Google Meet, Microsoft Teams and In person, each linking to its page.
-- Add a "Free meeting templates and guides" block linking to the 6 blog hub pages (section 8). This passes homepage authority to the blog.
+- Add a "Free meeting templates and guides" block linking to the 6 blog hub pages (section 6). This passes homepage authority to the blog.
 - FAQ: "Is it Lynkk or Lynk?" Answer: "Lynkk, with two k's (lynkk.ai)." GSC shows misspellings such as linnnk, linnkk and liknkk.
 - FAQ: "What is the best AI meeting assistant for sales teams?" Two sentences and a link to /compare.
 - The homepage title drops "for Sales Teams" to reach wider searches. Keep it if sales positioning matters more.
@@ -154,7 +129,6 @@ The live site still sells a free plan. Besides the header/footer button, **184 c
 | Element | Now | Change to |
 |---|---|---|
 | Title | Free AI Meeting Bot for Zoom, Google Meet & Teams \| Lynkk | **AI Meeting Bot for Zoom, Google Meet & Teams \| Lynkk** |
-| H2 | Free, audio only | **Starter and Pro, audio only [CONFIRM the bot is on Starter]** |
 | New H2 | (new) | **Meeting bot vs no bot: which should you send?** |
 
 - Link from zoom-bot-join-meeting with the anchor "AI meeting bot".
@@ -172,20 +146,9 @@ The live site still sells a free plan. Besides the header/footer button, **184 c
 | H1 | AI for sales calls: you talk, Lynkk writes the notes. | **Keep** |
 | New H2s | (new) | **"The follow-up email, drafted from the call" · "Lynkk vs Gong and Fireflies for sales teams" · "From call to follow-up email, in one example"** |
 
-- Add a real example: call summary, next steps and the follow-up email it drafts. Add a CRM example only once CRM sync is live.
+- Add a real example: call summary, next steps and the follow-up email it drafts.
 - Link to it from all 15 sales blog posts and the new sales follow-up email page.
 - The /use-cases hub gets 0 blog links: link to it from the homepage and the blog hubs.
-
-### Integrations
-
-`/integrations, /integrations/hubspot, /integrations/salesforce, pipedrive, attio, zoho-crm`
-
-**Why:** Resolve the CRM question first (section 1). The CRM pages also share up to 55% of their text, get 0 blog links, and Pipedrive and Zoho are not indexed.
-
-| Element | Now | Change to |
-|---|---|---|
-| If CRM logging is live | Plan table says "Not yet" | **Fix the plan table. Then give each CRM page unique content: which fields sync, a before-and-after deal record, setup steps with screenshots.** |
-| If it is not live | Pages describe logging on the deal | **Label the CRM pages "Coming soon" with a waitlist, and remove CRM claims from the homepage meta, /use-cases/sales-calls and /integrations.** |
 
 ### Compare pages
 
@@ -225,11 +188,11 @@ The live site still sells a free plan. Besides the header/footer button, **184 c
 | Google Meet title | Free AI Note Taker for Google Meet (Bot or Chrome Extension) | **AI Note Taker for Google Meet, No Workspace Plan Needed** |
 | Google Meet meta | Free AI note taker for Google Meet, no Workspace plan needed... | **An AI note taker for Google Meet with no Workspace plan needed. A notetaker joins from your calendar, or the Chrome extension records your tab. From $4/mo.** |
 
-## 5. Blog rewrites: high impressions, low clicks
+## 3. Blog rewrites: high impressions, low clicks
 
 These pages already show on page 1-3 but win few clicks. Ordered by expected gain. Numbers are GSC, 14 Aug to 13 Nov.
 
-### 5.1 `/blog/google-meet-transcript`
+### 3.1 `/blog/google-meet-transcript`
 
 10,422 impr · 33 clicks · 0.32% CTR · #8.8
 
@@ -245,7 +208,7 @@ These pages already show on page 1-3 but win few clicks. Ordered by expected gai
   - CTA after step 3: "No Workspace plan? Lynkk transcribes Google Meet on any account. Your first 5 hours are on us."
   - Move the Zoom AI Companion questions to that post and link to it.
 
-### 5.2 `/blog/zoom-ai-companion-alternatives`
+### 3.2 `/blog/zoom-ai-companion-alternatives`
 
 953 impr · 0 clicks · #6.4
 
@@ -256,11 +219,11 @@ These pages already show on page 1-3 but win few clicks. Ordered by expected gai
 - **New meta (156 chars):** Zoom AI Companion only works in Zoom. Compare 7 alternatives that also cover Google Meet, Teams and in-person meetings, on retention, CRM support and price.
 - **On the page:**
   - One H2 per real question: "Which alternatives sync notes to the CRM?", "Which also cover Google Meet and in-person interviews?", "Which offer retention controls and an audit trail?"
-  - Start each answer with a one-sentence verdict. Answer the CRM question honestly and list Lynkk only once CRM sync is live.
+  - Start each answer with a one-sentence verdict that names Lynkk where it fits. On the CRM question, name the tools that sync to a CRM today; Lynkk's plan table lists CRM sync as "Not yet".
   - Comparison table with a row per question.
   - Link to /blog/ai-notetaker-security and /compare.
 
-### 5.3 `/blog/ai-note-taker-microsoft-teams`
+### 3.3 `/blog/ai-note-taker-microsoft-teams`
 
 2,309 impr · 1 click · #20.4
 
@@ -276,7 +239,7 @@ These pages already show on page 1-3 but win few clicks. Ordered by expected gai
   - H2 "How to add an AI note taker to a Teams meeting".
   - Link from /integrations/microsoft-teams.
 
-### 5.4 `/blog/granola-ai-pricing`
+### 3.4 `/blog/granola-ai-pricing`
 
 1,628 impr · 0 clicks · #9.8
 
@@ -291,7 +254,7 @@ These pages already show on page 1-3 but win few clicks. Ordered by expected gai
   - Team cost table for 5 and 10 users, with Lynkk Pro at $4 as the last row.
   - Same pattern on the Fathom, Fireflies, Otter and Gong pricing posts. Fathom title: "Fathom Pricing (Nov 2026): Free vs $16, $15 and $25 Plans".
 
-### 5.5 `/blog/voice-memo-transcription`
+### 3.5 `/blog/voice-memo-transcription`
 
 2,506 impr · 8 clicks · #11.7
 
@@ -305,7 +268,7 @@ These pages already show on page 1-3 but win few clicks. Ordered by expected gai
   - H2 "Apple voice memo transcription accuracy".
   - CTA: "Recording a meeting, not a memo? Lynkk adds speakers and action items." ("Free" here refers to Apple's feature.)
 
-### 5.6 `/blog/action-items-examples-template`
+### 3.6 `/blog/action-items-examples-template`
 
 3,082 impr · 4 clicks · #24.6
 
@@ -319,7 +282,7 @@ These pages already show on page 1-3 but win few clicks. Ordered by expected gai
   - Exact-match H2 "Action item list example".
   - Under the template: "Lynkk fills this in for you after every meeting. Try 5 hours on us."
 
-### 5.7 `/blog/meeting-minutes-sample`
+### 3.7 `/blog/meeting-minutes-sample`
 
 1,620 impr · 4 clicks · #22.6
 
@@ -334,7 +297,7 @@ These pages already show on page 1-3 but win few clicks. Ordered by expected gai
   - Downloadable Word and PDF versions.
   - Hinglish note linking to /features/hinglish-transcription.
 
-### 5.8 `/blog/daily-standup-meeting`
+### 3.8 `/blog/daily-standup-meeting`
 
 1,884 impr · 3 clicks · #25.7
 
@@ -348,7 +311,7 @@ These pages already show on page 1-3 but win few clicks. Ordered by expected gai
   - H2s "Scrum stand up meeting" and "Async standup template".
   - Link to /use-cases/team-standups.
 
-### 5.9 `/blog/follow-up-email-after-meeting`
+### 3.9 `/blog/follow-up-email-after-meeting`
 
 2,304 impr · 12 clicks · #15.9
 
@@ -362,7 +325,7 @@ These pages already show on page 1-3 but win few clicks. Ordered by expected gai
   - H2 "How to write a follow-up email after a meeting".
   - CTA: "Lynkk drafts this email from your meeting notes."
 
-### 5.10 `/blog/hindi-transcription`
+### 3.10 `/blog/hindi-transcription`
 
 914 impr · 8 clicks · #8.3
 
@@ -375,11 +338,11 @@ These pages already show on page 1-3 but win few clicks. Ordered by expected gai
   - H2 "Hinglish transcription: why most tools split the sentence".
   - Link to /features/hinglish-transcription.
 
-Smaller title changes from the per-post table (section 7): ai-powered-meeting-assistants → "What Is an AI Meeting Assistant? Before, During and After"; transcribe-audio-to-text → "Best Software to Transcribe Audio to Text (2026): 5 Picks"; one-on-one-meeting → "1:1 Meeting Agenda Template"; meeting-notes-vs-minutes → "What Are Meeting Minutes? Meaning, Format, vs Notes"; is-it-legal-to-record-a-meeting → "Is It Legal to Record a Meeting? One-Party vs Two-Party States"; zoom-note-taker → "AI Note Taker for Zoom: 7 Best Tools, Free and Paid".
+Smaller title changes from the per-post table (section 5): ai-powered-meeting-assistants → "What Is an AI Meeting Assistant? Before, During and After"; transcribe-audio-to-text → "Best Software to Transcribe Audio to Text (2026): 5 Picks"; one-on-one-meeting → "1:1 Meeting Agenda Template"; meeting-notes-vs-minutes → "What Are Meeting Minutes? Meaning, Format, vs Notes"; is-it-legal-to-record-a-meeting → "Is It Legal to Record a Meeting? One-Party vs Two-Party States"; zoom-note-taker → "AI Note Taker for Zoom: 7 Best Tools, Free and Paid".
 
-## 6. New pages to create
+## 4. New pages to create
 
-From the keyword plan. Projected clicks use Ubersuggest's click model at the target position, so treat them as a ranking of the work, not a forecast.
+From the keyword plan, highest priority first. Projected clicks use Ubersuggest's click model at the target position, so treat them as a ranking of the work, not a forecast.
 
 | Priority | New page | Hub | Target keywords (volume/mo, SD) | Clicks/mo at target |
 |---|---|---|---|---|
@@ -405,7 +368,7 @@ Also rewrite `/blog/how-to-transcribe-zoom-meetings` into the Zoom transcript gu
 
 **Outline for the sales follow-up email page:** when to send · template after a discovery call · after a demo · no reply after a proposal · after a pricing call · subject lines · write it in 2 minutes from your call notes (Lynkk drafts it).
 
-## 7. Every blog post: diagnosis and action
+## 5. Every blog post: diagnosis and action
 
 Diagnosis key: **Working** (good CTR) · **Snippet problem** (ranks #1-12, low CTR: fix title and meta) · **Page 2 push** (#13-30: improve content and links) · **Wrong target** (#30+: retarget to the long tail or stop) · **Low impressions** · **Not indexed** · **New** (under 3 weeks).
 
@@ -413,7 +376,7 @@ Diagnosis key: **Working** (good CTR) · **Snippet problem** (ranks #1-12, low C
 
 | Post | Impr. | Clicks | CTR | Pos | Diagnosis | Action |
 |---|---|---|---|---|---|---|
-| google-meet-transcript | 10,422 | 33 | 0.32% | 8.8 | Snippet problem | **Optimize:** Rewrite title and meta (see card 1). Add a 3-step answer box with screenshots, a "download the transcript" H2, a plan table and a free-transcript CTA. |
+| google-meet-transcript | 10,422 | 33 | 0.32% | 8.8 | Snippet problem | **Optimize:** Rewrite title and meta (see section 3.1). Add a 3-step answer box with screenshots, a "download the transcript" H2, a plan table and a free-transcript CTA. |
 | zoom-bot-join-meeting | 1,788 | 23 | 1.29% | 11.6 | Snippet problem | **Optimize:** Retitle around "meeting bot" (238 impr, #17). Add a comparison of which note takers send a bot vs record without one, linking to /features/meeting-bot. |
 | how-to-transcribe-zoom-meetings | 535 | 2 | 0.37% | 49.3 | Wrong target | **Optimize:** Rewrite this URL into the Zoom transcript guide (find, download, save, without recording). Ubersuggest: "transcribe zoom" 2,400/mo at SD 21, Lynkk #67. |
 | zoom-meeting-recorders | 0 | 0 | 0.00% |  | Not indexed | **Optimize:** Not indexed. Request indexing in GSC, link to it from google-meet-transcript and zoom-note-taker. India: "zoom meeting recorder" 880/mo at SD 32. |
@@ -422,11 +385,11 @@ Diagnosis key: **Working** (good CTR) · **Snippet problem** (ranks #1-12, low C
 
 | Post | Impr. | Clicks | CTR | Pos | Diagnosis | Action |
 |---|---|---|---|---|---|---|
-| action-items-examples-template | 3,082 | 4 | 0.13% | 24.6 | Page 2 push | **Optimize:** 3,082 impr at #25. Downloadable Sheets/Excel/Notion files plus an "action item list" H2 (card 6). |
+| action-items-examples-template | 3,082 | 4 | 0.13% | 24.6 | Page 2 push | **Optimize:** 3,082 impr at #25. Downloadable Sheets/Excel/Notion files plus an "action item list" H2 (section 3.6). |
 | follow-up-email-after-meeting | 2,304 | 12 | 0.52% | 15.9 | Page 2 push | **Optimize:** 12 clicks, #15.9. Add a sales follow-up section, or link to a new sales follow-up page (8,100/mo, SD 7). |
 | daily-standup-meeting | 1,884 | 3 | 0.16% | 25.7 | Page 2 push | **Optimize:** 1,884 impr at #25.7. Lead the title with "Template" (that is what people type). Add Scrum and async templates as files. |
 | meeting-summary-template | 1,819 | 7 | 0.38% | 23.5 | Page 2 push | **Optimize:** 1,819 impr at #23.5. Retitle "Meeting Summary Template + Examples", put the template first, and add "meeting recap template" and "synopsis" as H3s. |
-| meeting-minutes-sample | 1,620 | 4 | 0.25% | 22.6 | Page 2 push | **Optimize:** 1,620 impr at #22.6. Add a MoM format section for India and a board minutes example (card 7). |
+| meeting-minutes-sample | 1,620 | 4 | 0.25% | 22.6 | Page 2 push | **Optimize:** 1,620 impr at #22.6. Add a MoM format section for India and a board minutes example (section 3.7). |
 | board-meeting-agenda | 1,353 | 2 | 0.15% | 21.3 | Page 2 push | **Optimize:** "ai agenda templates for board meetings" is at #5 (156 impr). Add an "AI board agenda template" H2 and a nonprofit first-meeting sample. |
 | meeting-notes-vs-minutes | 154 | 0 | 0.00% | 30.3 | Wrong target | **Optimize:** Retitle to "What Are Meeting Minutes? Meaning, Format, vs Notes". In India, "meeting minutes means" is 4,400/mo at SD 14. |
 | one-on-one-meeting | 60 | 1 | 1.67% | 25.9 | Low impressions | **Optimize:** Retitle to "1:1 Meeting Agenda Template". "121 meeting agenda template" gets 2,400/mo at SD 19. |
@@ -436,7 +399,7 @@ Diagnosis key: **Working** (good CTR) · **Snippet problem** (ranks #1-12, low C
 | Post | Impr. | Clicks | CTR | Pos | Diagnosis | Action |
 |---|---|---|---|---|---|---|
 | zoom-note-taker | 2,457 | 4 | 0.16% | 25.2 | Page 2 push | **Optimize:** Retitle to "AI Note Taker for Zoom" (480/mo, SD 33). Add "best AI note taker for Zoom" (40/mo, SD 12) as an H2 with a ranked table. |
-| ai-note-taker-microsoft-teams | 2,309 | 1 | 0.04% | 20.4 | Page 2 push | **Optimize:** Rewrite title and meta (card 3). Put a comparison table in the first screen. Add "how to add an AI note taker to Teams". |
+| ai-note-taker-microsoft-teams | 2,309 | 1 | 0.04% | 20.4 | Page 2 push | **Optimize:** Rewrite title and meta (section 3.3). Put a comparison table in the first screen. Add "how to add an AI note taker to Teams". |
 | ai-powered-meeting-assistants | 2,009 | 7 | 0.35% | 29.6 | Page 2 push | **Optimize:** Retitle to "What Is an AI Meeting Assistant?" and let the homepage own the commercial term. In India it ranks #8 for "meeting ai assistant" (590/mo). |
 | best-ai-note-takers | 1,697 | 3 | 0.18% | 33.5 | Wrong target | **Optimize:** Head terms are long-term (#34). Add H2s "best AI note taker for Zoom" (you rank #7 for this) and "what is the best AI note taker for meetings" (70/mo, SD 18). |
 | google-meet-ai-note-taker | 280 | 11 | 3.93% | 5.9 | Working | **Optimize:** Working (3.9% CTR). Expand toward "ai note taker for google meets" (170/mo, SD 24) and "best ai note taker for google meet" (SD 16). |
@@ -448,7 +411,7 @@ Diagnosis key: **Working** (good CTR) · **Snippet problem** (ranks #1-12, low C
 
 | Post | Impr. | Clicks | CTR | Pos | Diagnosis | Action |
 |---|---|---|---|---|---|---|
-| voice-memo-transcription | 2,506 | 8 | 0.32% | 11.7 | Snippet problem | **Optimize:** 2,506 impr at #11.7. Small title fix and a "voice memo to transcript" H2 (card 5). |
+| voice-memo-transcription | 2,506 | 8 | 0.32% | 11.7 | Snippet problem | **Optimize:** 2,506 impr at #11.7. Small title fix and a "voice memo to transcript" H2 (section 3.5). |
 | medical-transcription-software | 1,876 | 1 | 0.05% | 31.6 | Wrong target | **Hold:** 1,876 impr at #31.6 but no HIPAA proof. Do not expand until compliance is confirmed. |
 | recruiting-interview-transcription | 1,302 | 3 | 0.23% | 23.0 | Page 2 push | **Optimize:** 1,302 impr at #23. Queries are generic ("interview transcript" #6.5). Broaden the title beyond recruiters. |
 | transcribe-audio-to-text | 1,019 | 26 | 2.55% | 37.7 | Working | **Optimize:** Working on long tail (26 clicks). Retitle to "Best Software to Transcribe Audio to Text". India: "audio to text transcription software" 390/mo at SD 20. |
@@ -461,8 +424,8 @@ Diagnosis key: **Working** (good CTR) · **Snippet problem** (ranks #1-12, low C
 
 | Post | Impr. | Clicks | CTR | Pos | Diagnosis | Action |
 |---|---|---|---|---|---|---|
-| granola-ai-pricing | 1,628 | 0 | 0.00% | 9.8 | Snippet problem | **Optimize:** 1,628 impr at #9.8, 0 clicks. New title with prices, and "Is Granola free?" as the 2nd H2 (card 4). |
-| zoom-ai-companion-alternatives | 953 | 0 | 0.00% | 6.4 | Snippet problem | **Optimize:** 953 impr at #6.4 and 0 clicks, almost all from long AI-search questions. Answer each question as its own H2 (card 2). |
+| granola-ai-pricing | 1,628 | 0 | 0.00% | 9.8 | Snippet problem | **Optimize:** 1,628 impr at #9.8, 0 clicks. New title with prices, and "Is Granola free?" as the 2nd H2 (section 3.4). |
+| zoom-ai-companion-alternatives | 953 | 0 | 0.00% | 6.4 | Snippet problem | **Optimize:** 953 impr at #6.4 and 0 clicks, almost all from long AI-search questions. Answer each question as its own H2 (section 3.2). |
 | fathom-ai-pricing | 805 | 2 | 0.25% | 11.6 | Snippet problem | **Optimize:** Same pricing fix as Granola. "fathom pricing" 253 impr at #17. |
 | gong-pricing | 577 | 3 | 0.52% | 17.6 | Page 2 push | **Optimize:** Page 2. Add a "Gong alternatives for small teams" section ($64 CPC keyword). |
 | fireflies-pricing | 265 | 0 | 0.00% | 12.1 | Page 2 push | **Optimize:** Same pricing fix. Target "fireflies ai price" (880/mo, SD 26). |
@@ -519,7 +482,7 @@ Diagnosis key: **Working** (good CTR) · **Snippet problem** (ranks #1-12, low C
 | is-it-legal-to-record-a-meeting | 95 | 0 | 0.00% | 14.6 | Low impressions | **Optimize:** Retitle to "Is It Legal to Record a Meeting? One-Party vs Two-Party States". Otter ranks #4 for "is it illegal to record a conversation" (1,600/mo). |
 | ai-notetaker-security | 6 | 0 | 0.00% | 4.2 | New (<3 weeks) | **Hold:** New. Matches the regulated-team AI-search questions (SSO, SCIM, retention). Link to it from zoom-ai-companion-alternatives. |
 
-## 8. Site structure and internal links
+## 6. Site structure and internal links
 
 Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of posts). Every post links up to its hub, across to 2-3 sibling posts, and to one product page.
 
@@ -538,10 +501,10 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 - MOFU post → comparison table with Lynkk as a row, linking to its /compare page.
 - Homepage → "Free meeting templates and guides" block linking to all 6 hubs.
 - Anchor text = the target keyword of the page you link to ("AI note taker for Teams", not "click here").
-- Under-linked today (blog links): /features 0, /use-cases 0, HubSpot 0, Salesforce 0, Teams integration 2, team standups 2, Hinglish 5.
+- Under-linked today (blog links): /features 0, /use-cases 0, Teams integration 2, team standups 2, Hinglish 5.
 - Park (no new posts): sales theory (RevOps, BANT, MEDDIC, QBR), medical (until HIPAA status is confirmed), extra Mac/dictation posts. Merge dictation-on-mac into speech-to-text-mac with a 301.
 
-## 9. Technical fixes
+## 7. Technical fixes
 
 | Fix | Detail |
 |---|---|
@@ -552,9 +515,9 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Ubersuggest tracked keywords | Remove the 10 knowledge-management terms. Add: ai note taker for teams, ai note taker for zoom, granola vs otter ai, otter ai vs fireflies, fathom vs otter ai, granola pricing, fathom pricing, google meet transcript, zoom transcript, action items template, daily standup meeting template; India: zoom meeting recorder, meeting assistant software, transcription software, template for meeting minutes, hindi audio to text converter. |
 | Ubersuggest "page not allowed" warning | Lists sign-in and sign-up URLs, which are correctly noindexed. Dismiss it. |
 
-## 10. Appendix: every free-plan claim with replacement
+## 8. Appendix: every free-plan claim with replacement
 
-184 rows from `seo/2026-11-starter-tier-copy/free-claims-copy-changes.csv`. **[CONFIRM]** rows depend on section 1.
+165 changes, page by page.
 
 ### `/`
 
@@ -630,7 +593,6 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 |---|---|---|
 | Meta | Fathom for free recording, Otter for live transcripts, Lynkk for bot or no bot and in-person notes. Ten AI note takers with free limits, prices and how we scored them. | Fathom for free recording, Otter for live transcripts, Lynkk for bot or no bot and in-person notes from $4/mo. Ten AI note takers with free limits, prices and scores. |
 | Body | Lynkk starts free, Pro is | Lynkk starts with 5 hours of AI notes at ₹0, then Pro at $4 a month, Pro is |
-| Body | Lynkk works on free Zoom accounts, with the bot, the Mac app or the Chrome extension, and keeps Zoom, Meet, Teams and in-person notes in one searchable place. | Lynkk works on Starter Zoom accounts, with the bot, the Mac app or the Chrome extension, and keeps Zoom, Meet, Teams and in-person notes in one searchable place. |
 | Body | Try Lynkk free | Try Lynkk: 5 hours on us |
 | Body | or no bot at all, Lynkk (free, Pro | or no bot at all, Lynkk (5 hours free, then Pro |
 
@@ -711,10 +673,8 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 
 | Element | Now | Change to |
 |---|---|---|
-| Body | A note taker such as Lynkk also works on a free Zoom account. | No change (refers to Zoom's free plan). |
 | Body | For a transcript on any Zoom plan, plus notes and tasks you can send to Jira after the call, Lynkk transcribes Zoom on free and paid accounts. | For a transcript on any Zoom plan, plus notes and tasks you can send to Jira after the call, Lynkk transcribes Zoom on Starter and paid accounts. |
 | Body | Lynkk records Zoom with a free bot or no bot, even on free Zoom, while AI Companion needs a paid plan. | Lynkk records Zoom with a bot or no bot, even on free Zoom accounts, for $4 a month, while AI Companion needs a paid Zoom plan. |
-| Body | On a free Zoom account, use a third-party note taker such as Lynkk, which works on free Zoom and transcribes 17 languages. | On a free Zoom account, use a third-party note taker such as Lynkk, which works on Starter Zoom and transcribes 17 languages. |
 | Body | Sign up free, | Start on Starter, |
 | Body | Start free with Lynkk | Try Lynkk: your first 5 hours of AI notes are on us |
 | Body | To transcribe Zoom meetings with Lynkk, sign up free, then connect Google Calendar or paste a Zoom link so the meeting bot joins. | To transcribe Zoom meetings with Lynkk, start on Starter (5 hours of AI notes at ₹0), then connect Google Calendar or paste a Zoom link so the meeting bot joins. |
@@ -796,11 +756,8 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 
 | Element | Now | Change to |
 |---|---|---|
-| H2 | 1. Lynkk (our product): best for free Zoom accounts and calls logged in your CRM | [CONFIRM] 'free Zoom' is fine, but 'calls logged in your CRM' conflicts with CRM sync 'Not yet' in the plan table. |
-| Body | Lynkk (our product): best for free Zoom accounts and calls logged in your CRM | [CONFIRM] 'free Zoom' is fine, but 'calls logged in your CRM' conflicts with CRM sync 'Not yet' in the plan table. |
 | Body | Lynkk records Zoom with a free bot or no bot, even on free Zoom, while AI Companion needs a paid plan. | Lynkk records Zoom with a bot or no bot, even on free Zoom accounts, for $4 a month, while AI Companion needs a paid Zoom plan. |
 | Body | Lynkk starts free and covers Zoom, Teams, Google Meet and in-person meetings. | Lynkk starts with 5 hours of AI notes at ₹0, then Pro at $4 a month and covers Zoom, Teams, Google Meet and in-person meetings. |
-| Body | Lynkk works on free Zoom accounts, also records Teams, Google Meet and in-person meetings, sends action items to Jira and logs sales calls in your CRM. | Lynkk works on Starter Zoom accounts, also records Teams, Google Meet and in-person meetings, sends action items to Jira and logs sales calls in your CRM. |
 | Body | Lynkk works on free and paid Zoom accounts alike, with a meeting bot, a Mac app or a Chrome extension. | Lynkk works on Starter and paid Zoom accounts alike, with a meeting bot, a Mac app or a Chrome extension. |
 | Body | Sign up free | Start with 5 hours on us |
 | Body | Start free with Lynkk | Try Lynkk: your first 5 hours of AI notes are on us |
@@ -811,15 +768,12 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 |---|---|---|
 | Body | Lynkk records Zoom with a free bot or no bot, even on free Zoom, while AI Companion needs a paid plan. | Lynkk records Zoom with a bot or no bot, even on free Zoom accounts, for $4 a month, while AI Companion needs a paid Zoom plan. |
 | Body | Start free with Lynkk | Try Lynkk: your first 5 hours of AI notes are on us |
-| Body | The Lynkk Zoom bot is free and records audio. | [CONFIRM] The Lynkk Zoom bot records audio on Starter and Pro (if the bot is on Starter). |
-| Body | The Lynkk Zoom bot is free on every plan and records audio in Zoom, Google Meet and Teams, with a live transcript during the call and notes afterward. | [CONFIRM] Is this included on Starter? If yes, say 'included on Starter and Pro' |
 
 ### `/blog/zoom-meeting-recorders`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | Lynkk records Zoom with a free bot or no bot, even on free Zoom, while AI Companion needs a paid plan. | Lynkk records Zoom with a bot or no bot, even on free Zoom accounts, for $4 a month, while AI Companion needs a paid Zoom plan. |
-| Body | Lynkk works on free Zoom accounts and adds a transcript, notes and action items to the call. | Lynkk works on Starter Zoom accounts and adds a transcript, notes and action items to the call. |
 | Body | Lynkk works on free and paid Zoom accounts alike, and it covers Teams, Google Meet and in-person meetings on the same account. | Lynkk works on Starter and paid Zoom accounts alike, and it covers Teams, Google Meet and in-person meetings on the same account. |
 | Body | Start free with Lynkk | Try Lynkk: your first 5 hours of AI notes are on us |
 | Body | That is the gap an AI Zoom meeting recorder fills, and Fathom and Lynkk both have free plans that work with free Zoom. | That is the gap an AI Zoom meeting recorder fills: Fathom has a free plan, and Lynkk gives you 5 free hours then costs $4 a month, both on free Zoom. |
@@ -879,7 +833,6 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 
 | Element | Now | Change to |
 |---|---|---|
-| Body | Lynkk's bot is on the free plan and records audio; video is Pro. | [CONFIRM] Lynkk's bot is on Starter and records audio; video is Pro (if the bot is on Starter). |
 | Body | Sign up free. | Start on Starter: 5 hours of AI notes at ₹0. |
 | Body | There is no trial to run out: the free plan has no end date. | Start on Starter: your first 5 hours of AI notes cost nothing. After that, Pro is $4 (₹250) a month. |
 
@@ -961,12 +914,6 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 |---|---|---|
 | Body | Is the Lynkk Chrome extension free? | Is the Lynkk Chrome extension Starter? |
 
-### `/features/dictation`
-
-| Element | Now | Change to |
-|---|---|---|
-| Meta | Hold fn and speak. Lynkk types your words into any app on your Mac, cleans up the ums, and lets you circle anything on screen. Free on every plan. | [CONFIRM] Is this included on Starter? If yes, say 'included on Starter and Pro' |
-
 ### `/features/hinglish-transcription`
 
 | Element | Now | Change to |
@@ -978,8 +925,6 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Element | Now | Change to |
 |---|---|---|
 | Title | Free AI Meeting Bot for Zoom, Google Meet & Teams \| Lynkk | AI Meeting Bot for Zoom, Google Meet & Teams \| Lynkk |
-| H2 | Free, audio only | [CONFIRM] Starter and Pro, audio only (if the bot is on Starter) |
-| Body | Free, audio only | [CONFIRM] Starter and Pro, audio only (if the bot is on Starter) |
 
 ### `/features/meeting-notes`
 
@@ -995,7 +940,6 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Title | Free AI Note Taker for Google Meet (Bot or Chrome Extension) | AI Note Taker for Google Meet, No Workspace Plan Needed |
 | Meta | Free AI note taker for Google Meet, no Workspace plan needed. A notetaker joins from your calendar, or the Chrome extension records your tab. | An AI note taker for Google Meet with no Workspace plan needed. A notetaker joins from your calendar, or the Chrome extension records your tab. From $4/mo. |
 | H2 | Free AI note taker for Google Meet, on any Google account | AI note taker for Google Meet, on any Google account |
-| Body | Does Lynkk work with a free Gmail account? | No change (refers to a free Gmail account). |
 | Body | Lynkk's free plan includes the notetaker for Meet (audio) and the Chrome extension, with unlimited notes of up to 2 hours each and the first 5 hours of AI notes. | Lynkk Starter (first 5 hours of AI notes at ₹0) includes the notetaker for Meet (audio) and the Chrome extension, with unlimited notes of up to 2 hours each and the first 5 hours of AI notes. |
 | Body | Sign up free. | Start on Starter: 5 hours of AI notes at ₹0. |
 
@@ -1018,21 +962,6 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Body | Lynkk is a free AI note taker for Zoom. | Lynkk is an AI note taker for Zoom: 5 hours free, then $4 a month. |
 | Body | Lynkk's free plan has unlimited notes of up to 2 hours each and the first 5 hours of AI notes, with no card needed, and it works on a free Zoom account. | Lynkk Starter (first 5 hours of AI notes at ₹0) has unlimited notes of up to 2 hours each and the first 5 hours of AI notes, with no card needed, and it works on a free Zoom account. |
 | Body | Sign up free. | Start on Starter: 5 hours of AI notes at ₹0. |
-
-### `/meeting-and-dictation`
-
-| Element | Now | Change to |
-|---|---|---|
-| Title | Meeting Notes and Free AI Dictation in One Mac App \| Lynkk | [CONFIRM] If dictation stays free on Starter, keep. If not: Meeting Notes and AI Dictation in One Mac App \| Lynkk |
-| Meta | Lynkk writes up your meetings and types what you say into any app on your Mac. Dictation is free on every plan, with unlimited words. | [CONFIRM] Is this included on Starter? If yes, say 'included on Starter and Pro' |
-| H2 | Unlimited words. Free. | [CONFIRM] Unlimited words, on Starter and Pro (if dictation stays unlimited on Starter) |
-| Body | Is Lynkk dictation really free? | [CONFIRM] Depends on whether dictation is included on Starter. |
-
-### `/refund`
-
-| Element | Now | Change to |
-|---|---|---|
-| H2 | 2. Free plan | 2. Starter (₹0) [legal review needed] |
 
 ### `/support`
 
