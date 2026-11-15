@@ -352,7 +352,6 @@ From the keyword plan, highest priority first. Projected clicks use Ubersuggest'
 | P1 | `/blog/jamie-ai-review` | Compare tools | jamie ai note taker (1,300, SD 17) | 56 |
 | P1 | `/blog/granola-vs-otter` | Compare tools | granola vs otter ai (110, SD 11); otter ai vs granola (90, SD 12) | 16 |
 | P1 | `/blog/granola-vs-fathom` | Compare tools | granola vs fathom (110, SD 14); fathom vs granola (110, SD 17) | 14 |
-| P1 | `/blog/fireflies-alternatives` | Compare tools | fireflies alternatives (110, SD 14) | 9 |
 | P2 | `/blog/how-to-record-google-meet` | Meeting platform guides | how to record a google meet (1,600, SD 28); how to record a google meet call (320, SD 24) | 45 |
 | P2 | `/blog/teams-transcript` | Meeting platform guides | teams meeting transcription (390, SD 22); how to download teams meeting transcript (30, SD 6) | 20 |
 | P2 | `/blog/read-ai-pricing` | Compare tools | read ai pricing (260, SD 20) | 11 |
