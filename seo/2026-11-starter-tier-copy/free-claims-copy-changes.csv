@@ -1,5 +1,6 @@
 page,element,current_text,proposed_text
-/,Meta,"Lynkk is the AI meeting assistant that takes notes on Zoom, Meet, Teams and in person, then drafts your follow-ups. 17 languages. Start free.","The AI meeting assistant for Zoom, Google Meet, Teams and in-person meetings. Notes, action items and CRM updates. First 5 hours free, then $4/mo."
+/,Plan table,"Free (column header in ""Find the right plan for the way you sell"")",Starter
+/,Meta,"Lynkk is the AI meeting assistant that takes notes on Zoom, Meet, Teams and in person, then drafts your follow-ups. 17 languages. Start free.","The AI meeting assistant for Zoom, Google Meet, Teams and in-person meetings. Notes, action items and follow-up emails. First 5 hours free, then $4/mo."
 /,H2,"Pricing: a free AI note taker, Pro at $4₹250 a month","Start with 5 hours on us, then Pro at $4 a month"
 /,Body,Free stays free for everyone.,Everyone starts with 5 hours of AI notes on us.
 /pricing,Title,"Pricing: Free AI Meeting Notes, Pro at $4 a Month | Lynkk","Lynkk Pricing: Pro at $4 a Month, First 5 Hours Free"
@@ -74,8 +75,8 @@ page,element,current_text,proposed_text
 /blog/recruiting-interview-transcription,Body,Start free with Lynkk,Try Lynkk: your first 5 hours of AI notes are on us
 /blog/sales-call-recording-software,Body,Lynkk's free plan covers unlimited recordings and the first 5 hours of AI notes.,Lynkk Starter (first 5 hours of AI notes at ₹0) covers unlimited recordings and the first 5 hours of AI notes.
 /blog/sales-conversation-intelligence,Body,Start free with Lynkk,Try Lynkk: your first 5 hours of AI notes are on us
-/blog/zoom-ai-companion-alternatives,H2,1. Lynkk (our product): best for free Zoom accounts and calls logged in your CRM,No change (refers to Zoom's free plan).
-/blog/zoom-ai-companion-alternatives,Body,Lynkk (our product): best for free Zoom accounts and calls logged in your CRM,No change (refers to Zoom's free plan).
+/blog/zoom-ai-companion-alternatives,H2,1. Lynkk (our product): best for free Zoom accounts and calls logged in your CRM,"[CONFIRM] 'free Zoom' is fine, but 'calls logged in your CRM' conflicts with CRM sync 'Not yet' in the plan table."
+/blog/zoom-ai-companion-alternatives,Body,Lynkk (our product): best for free Zoom accounts and calls logged in your CRM,"[CONFIRM] 'free Zoom' is fine, but 'calls logged in your CRM' conflicts with CRM sync 'Not yet' in the plan table."
 /blog/zoom-ai-companion-alternatives,Body,"Lynkk records Zoom with a free bot or no bot, even on free Zoom, while AI Companion needs a paid plan.","Lynkk records Zoom with a bot or no bot, even on free Zoom accounts, for $4 a month, while AI Companion needs a paid Zoom plan."
 /blog/zoom-ai-companion-alternatives,Body,"Lynkk starts free and covers Zoom, Teams, Google Meet and in-person meetings.","Lynkk starts with 5 hours of AI notes at ₹0, then Pro at $4 a month and covers Zoom, Teams, Google Meet and in-person meetings."
 /blog/zoom-ai-companion-alternatives,Body,"Lynkk works on free Zoom accounts, also records Teams, Google Meet and in-person meetings, sends action items to Jira and logs sales calls in your CRM.","Lynkk works on Starter Zoom accounts, also records Teams, Google Meet and in-person meetings, sends action items to Jira and logs sales calls in your CRM."

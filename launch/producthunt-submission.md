@@ -20,11 +20,11 @@ One AI for every meeting: before, during and after
 
 Alternates:
 ```
-Your AI teammate that joins, speaks and does the follow-up
+Your AI teammate that joins, remembers and does the follow-up
 ```
 (57)
 ```
-Meetings in. Notes, tasks and CRM updates out.
+Meetings in. Notes, tasks and follow-ups out.
 ```
 (45)
 ```
@@ -35,13 +35,13 @@ AI notes for every conversation, online or in person
 ## Description (260 chars)
 Primary:
 ```
-Lynkk joins your meetings, brings context from past calls, answers by voice when you need it, and within 30 seconds turns the conversation into notes, action items, CRM updates and Jira tickets. Online or in person. Multilingual. Offline-first.
+Lynkk joins your meetings, brings context from past calls, answers live with Spotter (early access), and turns the conversation into notes, action items, a follow-up email and Jira tickets. Online or in person. Multilingual. Offline-first.
 ```
 (241 chars)
 
 Alternate, benefit-first:
 ```
-Most AI notetakers start working after the call. Lynkk is there for all of it: context before, a voice assistant during, and notes, action items, CRM updates and Jira tickets 30 seconds after. Online or in person, multilingual, offline-first.
+Most AI notetakers start working after the call. Lynkk is there for all of it: context before, a live assistant during (early access), and notes, action items, follow-ups and Jira tickets after. Online or in person, multilingual, offline-first.
 ```
 (239 chars)
 
@@ -71,21 +71,21 @@ Paid, with a starter allowance: choose "Paid (with free trial or plan)" on Produ
 >
 > **Before:** it surfaces context from past meetings: what was discussed, what's still open, who said what. You start ahead instead of cold.
 >
-> **During:** it joins the call and speaks when you need it. Ask it for past context, pull up a document, get an answer out loud, mid-meeting.
+> **During:** it joins the call and records. With Spotter (in early access), you can ask it for past context and get an answer mid-meeting.
 >
-> **After:** within about 30 seconds: structured notes, action items assigned, CRM fields updated, Jira tickets created, everything searchable as a knowledge graph across all your meetings.
+> **After:** structured notes, action items assigned, a drafted follow-up email, Jira tickets created, everything searchable as a knowledge graph across all your meetings.
 >
 > A few things we care about:
 > - **In-person counts too.** Not every meeting has a dial-in. Lynkk records the room.
 > - **Multilingual and offline-first**, so it works on a plane and in whatever language the meeting actually happens in.
 > - **Pick your region.** Every model behind Lynkk runs from the region you choose, which matters if your legal team has opinions.
-> - **Connects to your stack**: calendar, Jira, Calendly, Cal.com, CRM, or anything else via MCP.
+> - **Connects to your stack**: calendar, Jira, Slack, or anything else via MCP.
 >
 > Your first 5 hours of AI notes are on us, then Pro is $4 a month. We'd love for you to try it on your next call and tell us where it falls short. We're here all day for questions, feature requests and hard ones. 🙏
 
 ## Short version of the first comment (if you want something tighter)
 
-> Hey PH 👋 Every AI notetaker shows up after the call. Lynkk is there for the whole thing: context from past meetings before, a voice assistant you can ask questions mid-call, and notes, action items, CRM updates and Jira tickets ~30 seconds after. Works for in-person meetings too, multilingual, offline-first, and you pick the region your data is processed in. First 5 hours on us, then $4/mo. Tell us what breaks. 🙏
+> Hey PH 👋 Every AI notetaker shows up after the call. Lynkk is there for the whole thing: context from past meetings before, a live assistant you can ask mid-call (early access), and notes, action items, follow-ups and Jira tickets after. Works for in-person meetings too, multilingual, offline-first, and you pick the region your data is processed in. First 5 hours on us, then $4/mo. Tell us what breaks. 🙏
 
 ---
 
@@ -95,9 +95,9 @@ Product Hunt shows the first image everywhere, so make it count.
 
 1. **Thumbnail / first image:** the product name plus the one-line promise, over a clean shot of the notes view.
 2. Pre-meeting context card: "here's what's still open from last time."
-3. The live voice assistant answering a question mid-call.
+3. Spotter (early access) answering a question mid-call. Label it "early access" on the image.
 4. Post-meeting output: notes + action items, side by side.
-5. Integrations: Jira ticket and CRM field created automatically.
+5. Integrations: a Jira ticket created from an action item.
 6. Search / knowledge graph across past meetings.
 7. Region picker or privacy screen (this is a real differentiator, so show it).
 8. Optional: 30-60s demo video of one meeting end to end.
