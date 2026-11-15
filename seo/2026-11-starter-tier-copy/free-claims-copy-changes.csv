@@ -85,7 +85,7 @@ page,element,current_text,proposed_text
 /blog/zoom-ai-companion-alternatives,Body,Start free with Lynkk,Try Lynkk: your first 5 hours of AI notes are on us
 /blog/zoom-bot-join-meeting,Body,"Lynkk records Zoom with a free bot or no bot, even on free Zoom, while AI Companion needs a paid plan.","Lynkk records Zoom with a bot or no bot, even on free Zoom accounts, for $4 a month, while AI Companion needs a paid Zoom plan."
 /blog/zoom-bot-join-meeting,Body,Start free with Lynkk,Try Lynkk: your first 5 hours of AI notes are on us
-/blog/zoom-bot-join-meeting,Body,The Lynkk Zoom bot is free and records audio.,The Lynkk Zoom bot records audio on Starter and Pro.
+/blog/zoom-bot-join-meeting,Body,The Lynkk Zoom bot is free and records audio.,[CONFIRM] The Lynkk Zoom bot records audio on Starter and Pro (if the bot is on Starter).
 /blog/zoom-bot-join-meeting,Body,"The Lynkk Zoom bot is free on every plan and records audio in Zoom, Google Meet and Teams, with a live transcript during the call and notes afterward.","[CONFIRM] Is this included on Starter? If yes, say 'included on Starter and Pro'"
 /blog/zoom-meeting-recorders,Body,"Lynkk records Zoom with a free bot or no bot, even on free Zoom, while AI Companion needs a paid plan.","Lynkk records Zoom with a bot or no bot, even on free Zoom accounts, for $4 a month, while AI Companion needs a paid Zoom plan."
 /blog/zoom-meeting-recorders,Body,"Lynkk works on free Zoom accounts and adds a transcript, notes and action items to the call.","Lynkk works on Starter Zoom accounts and adds a transcript, notes and action items to the call."
@@ -113,7 +113,7 @@ page,element,current_text,proposed_text
 /compare/fathom,Body,"Lynkk's free plan has no cap on notes either, but its AI notes stop after the first 5 hours in total, while Fathom's advanced summaries come back every month.","Lynkk Starter (first 5 hours of AI notes at ₹0) has no cap on notes either, but its AI notes stop after the first 5 hours in total, while Fathom's advanced summaries come back every month."
 /compare/fathom,Body,Sign up free.,Start on Starter: 5 hours of AI notes at ₹0.
 /compare/fathom,Body,There is no trial to run out: the free plan has no end date.,"Start on Starter: your first 5 hours of AI notes cost nothing. After that, Pro is $4 (₹250) a month."
-/compare/fireflies,Body,Lynkk's bot is on the free plan and records audio; video is Pro.,Lynkk's bot is on Starter and records audio; video is Pro.
+/compare/fireflies,Body,Lynkk's bot is on the free plan and records audio; video is Pro.,[CONFIRM] Lynkk's bot is on Starter and records audio; video is Pro (if the bot is on Starter).
 /compare/fireflies,Body,Sign up free.,Start on Starter: 5 hours of AI notes at ₹0.
 /compare/fireflies,Body,There is no trial to run out: the free plan has no end date.,"Start on Starter: your first 5 hours of AI notes cost nothing. After that, Pro is $4 (₹250) a month."
 /compare/gong,Body,"Lynkk has a free plan that keeps recording, and puts asking across meetings in its","Lynkk has Pro at $4 a month, with a 5-hour Starter to try it first, and puts asking across meetings in its"
@@ -147,8 +147,8 @@ page,element,current_text,proposed_text
 /features/dictation,Meta,"Hold fn and speak. Lynkk types your words into any app on your Mac, cleans up the ums, and lets you circle anything on screen. Free on every plan.","[CONFIRM] Is this included on Starter? If yes, say 'included on Starter and Pro'"
 /features/hinglish-transcription,Title,"Hinglish Transcription Software for Meetings, Free | Lynkk",Hinglish Transcription Software for Meetings | Lynkk
 /features/meeting-bot,Title,"Free AI Meeting Bot for Zoom, Google Meet & Teams | Lynkk","AI Meeting Bot for Zoom, Google Meet & Teams | Lynkk"
-/features/meeting-bot,H2,"Free, audio only","Starter and Pro, audio only"
-/features/meeting-bot,Body,"Free, audio only","Starter and Pro, audio only"
+/features/meeting-bot,H2,"Free, audio only","[CONFIRM] Starter and Pro, audio only (if the bot is on Starter)"
+/features/meeting-bot,Body,"Free, audio only","[CONFIRM] Starter and Pro, audio only (if the bot is on Starter)"
 /features/meeting-notes,Meta,"Lynkk's AI note taker writes your meeting notes when the call ends: AI summary, decisions, action items and minutes, online or in person. Start free.","Lynkk's AI note taker writes your meeting notes when the call ends: AI summary, decisions, action items and minutes, online or in person. First 5 hours free."
 /features/meeting-notes,Body,Is Lynkk a free AI note taking app?,"Is Lynkk free? (Answer: your first 5 hours of AI notes are free on Starter; after that, Pro is $4 a month.)"
 /integrations/google-meet,Title,Free AI Note Taker for Google Meet (Bot or Chrome Extension),"AI Note Taker for Google Meet, No Workspace Plan Needed"
