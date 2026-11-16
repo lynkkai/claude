@@ -1678,7 +1678,7 @@ Lynkk has no free plan any more, so this post no longer ranks Lynkk as a free to
 
 - **URL:** keep `/blog/best-free-ai-note-takers` (it already exists; changing it loses what it has built up)
 - **Meta title (55 chars):** Best Free AI Note Takers in 2026: 7 Free Plans Compared
-- **Meta description (150 chars):** Free AI note taker plans compared: Fathom's unlimited recording, Otter's 300 minutes, Granola's 30-day history and 4 more, plus the cheapest upgrade.
+- **Meta description (149 chars):** Free AI note taker plans compared: Fathom's unlimited recording, Otter's 300 minutes, Granola's 30-day history and 4 more, plus the cheapest upgrade.
 - **Byline line:** By Samarth Wagh · 3 October 2026 · Updated 16 November 2026 · Competitor pricing checked 30 September 2026
 - **CTA buttons on this page:** "Download for Mac" and "Get Lynkk Pro, $4 a month" (replace "Start for free")
 
@@ -1880,8 +1880,8 @@ Every free AI note taker has a limit, so pick the one whose limit you will not h
 This post said Lynkk "starts free" in 10 places. Lynkk stays the #1 pick, now as a paid tool at $4 a month, which is still the cheapest paid option for Teams. The page also gets the fixes from the GSC deep dive: it has 2,309 impressions and 1 click at an average position of 20.4, so the title and meta are rewritten and the how-to section is renamed to match "how to add an AI note taker to Teams" searches. Microsoft and competitor facts are unchanged from the live post (checked 30 September 2026); recheck them before publishing.
 
 - **URL:** keep `/blog/ai-note-taker-microsoft-teams`
-- **Meta title (55 chars):** AI Note Taker for Microsoft Teams: 7 Picks, No Copilot
-- **Meta description (147 chars):** Copilot costs $30 a user. Compare Teams Premium recap, free Teams transcription, Otter, Fireflies, Fathom and Lynkk ($4/mo) for a 10-person team.
+- **Meta title (54 chars):** AI Note Taker for Microsoft Teams: 7 Picks, No Copilot
+- **Meta description (145 chars):** Copilot costs $30 a user. Compare Teams Premium recap, free Teams transcription, Otter, Fireflies, Fathom and Lynkk ($4/mo) for a 10-person team.
 - **Byline line:** By Samarth Wagh · 4 October 2026 · Updated 16 November 2026 · Pricing checked 30 September 2026
 - **CTA buttons on this page:** "Download for Mac" and "Get Lynkk Pro, $4 a month" (replace "Start for free")
 
