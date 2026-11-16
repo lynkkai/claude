@@ -94,6 +94,145 @@ Found in the repo on 2026-11-16. The live Instagram profile (instagram.com/lynkk
 - **Test with Trial Reels.** Post two hooks as Trial Reels to non-followers, then share the winner to the grid.
 - **Collab with creators.** Use Instagram Collab posts with 2-3 Indian corporate-comedy creators for the Hinglish series.
 
+## Story Reels: standalone stories
+
+Story-first Reels (45-60s) with a character to root for, a conflict and a payoff. Post one a week, on Sunday, alongside the calendar below. Each also cuts for LinkedIn as native video.
+
+- **One person to root for.** Every story has a main character with something to lose: a job, a reputation, a parent's pride. Viewers share stories about people, not features.
+- **Conflict in the first 5 seconds.** Open on the moment things go wrong, then rewind if needed.
+- **Lynkk is the turn, not the hero.** The person wins. Lynkk is the thing that lets them. It appears once, at the turning point, for 3-5 seconds.
+- **End on a feeling.** The last beat is a reaction: a laugh, a nod, a parent's smile. Then one brand line. No feature list.
+- **Real places, real Hinglish.** Shoot in real shops, offices and homes. Let people talk the way they talk.
+- **Series beat one-offs.** The season keeps people coming back. End each episode on a question.
+
+### S1. Papa's Shop (60s)
+
+**Logline:** A daughter sets up Lynkk for her father's 30-year-old textile business. He thinks it's nonsense, until a buyer disputes the price they agreed on.
+
+**Cast:** Papa (58, textile trader, Surat), Riya (26, his daughter, back home after an MBA), Mr. Khanna (a big buyer)
+
+- 0-4s: HOOK. Papa slams a ledger shut: "Tees saal se business chala raha hoon. Mujhe robot nahi chahiye." (Thirty years in business. I don't need a robot.) Text: "Papa vs technology"
+- 4-14s: SETUP. Riya quietly puts her MacBook on the shop counter during a meeting with Mr. Khanna. Fabric rolls, chai glasses, ceiling fan. They agree: "₹420 a meter, 2,000 meters, delivery on the 10th." Handshake.
+- 14-26s: CONFLICT. Two weeks later, on the phone. Khanna: "₹420? Humne ₹380 bola tha." (We said ₹380.) Papa goes pale. The ledger says nothing. His pride is on the line in front of his staff.
+- 26-38s: TURN. Riya opens the Lynkk note from that day. Taps the timestamp. Khanna's own voice plays: "Theek hai, ₹420, final." Papa holds the phone up to the laptop speaker.
+- 38-50s: PAYOFF. Silence on the line. Then Khanna laughs: "Arre, aapki yaad toh kamaal ki hai." (Your memory is amazing.) Papa winks at Riya.
+- 50-60s: Next morning, Papa to Riya, pointing at the laptop: "Isko har meeting mein le aana." (Bring this to every meeting.) Text: "Lynkk. Remembers what was said, in the language it was said."
+
+**Caption:** Papa said he didn't need a robot. Then a buyer forgot the price. Hinglish meeting notes for in-person meetings.
+
+**Why it spreads:** Every Indian kid has tried to modernize a parent's business. Send-to-sibling energy.
+
+**Check before filming:** Lynkk records in person on the Mac and transcribes Hindi and Hinglish; timestamps play the moment. Everyone in the meeting knows it is recording (show Riya telling Khanna). Don't present the note as legal evidence.
+
+### S2. The Quiet One (50s)
+
+**Logline:** An intern says the one idea that solves the problem. Nobody hears it. Her manager finds it in the transcript the next day.
+
+**Cast:** Ananya (22, intern, first job), Vikram (her manager), the loud team
+
+- 0-4s: HOOK. Close-up of Ananya unmuting, then muting again. Text: "She spoke once in that meeting. Nobody heard."
+- 4-16s: SETUP. A tense meeting: the client launch is broken. Everyone talks over each other. Ananya says, softly: "What if we just move the launch to the app first?" Someone talks over her. She shrinks.
+- 16-26s: CONFLICT. That night, the team is still stuck. Ananya on her bed, typing a message to Vikram, deleting it, typing again. Never sends.
+- 26-36s: TURN. Next morning, Vikram reads the meeting transcript with his coffee. Stops. A line with her name on it: "Ananya: What if we just move the launch to the app first?" He reads it twice.
+- 36-46s: PAYOFF. Team meeting. Vikram: "Ananya had the answer yesterday. Ananya, take us through it." She looks up, stunned. Then starts talking. Everyone listens.
+- 46-50s: Text: "Every voice, on the record." Lynkk logo.
+
+**Caption:** She spoke once in that meeting. Nobody heard. Her manager found it in the transcript.
+
+**Why it spreads:** Everyone has been the quiet one, or talked over the quiet one. Tag-your-team story.
+
+**Check before filming:** Transcripts carry speaker labels. Keep the product moment to the transcript line.
+
+### S3. Her Last Day (55s)
+
+**Logline:** Meera is leaving after 8 years. Every client relationship lives in her head. The new hire has two weeks to take over.
+
+**Cast:** Meera (account lead, leaving), Kabir (new hire), a long-time client
+
+- 0-4s: HOOK. Farewell cake on a desk. Text: "Meera is leaving. 8 years. 40 clients. All in her head."
+- 4-14s: SETUP. Kabir, nervous, with a notebook: "How do I learn 8 years in two weeks?" Meera laughs: "You don't. You just have to know what they care about."
+- 14-26s: CONFLICT. His first call alone. The client: "Meera always remembered my daughter's exams were in March. You know we hate Friday calls, na?" Kabir freezes.
+- 26-38s: TURN. Before the next call, Kabir asks Lynkk about the client. The answer, with sources from Meera's old meetings: "Prefers Tuesday calls. Daughter's board exams in March. Worried about the Q3 price rise."
+- 38-50s: PAYOFF. Next call, Kabir: "Tuesday works better for you, right? And best of luck to your daughter for March." Long pause. Client: "Meera trained you well." Kabir smiles at the camera.
+- 50-55s: Meera's farewell card on his desk: "You'll be fine." Text: "People leave. What they knew doesn't have to."
+
+**Caption:** She left after 8 years. What she knew about every client didn't leave with her.
+
+**Why it spreads:** Handover panic is universal. Strong for LinkedIn too.
+
+**Check before filming:** Asking across past meetings is Ask Lynkk (Pro); seeing a colleague's notes needs a shared workspace (Enterprise). Notes shared only with consent and per workspace settings.
+
+### S4. Co-founders, Round 7 (50s)
+
+**Logline:** Two co-founders have the same fight every month: who promised what. This time the notes settle it, and nobody wins.
+
+**Cast:** Arjun and Sana, co-founders of a 6-person startup
+
+- 0-4s: HOOK. Arjun, furious: "You said we'd launch in March." Sana: "I said maybe March." Text: "Co-founder fight. Round 7."
+- 4-16s: SETUP. Flashback montage of rounds 1 to 6: same kitchen, same fight, different T-shirts. The team quietly puts on headphones every time.
+- 16-28s: CONFLICT. It gets real. Sana: "Maybe this isn't working." Arjun stops. The team freezes.
+- 28-40s: TURN. The intern, terrified, slides a laptop between them: the investor-update meeting from December. Sana's voice: "March, if the payments partner signs by January." Arjun's voice, right after: "They'll sign by January." They didn't.
+- 40-50s: PAYOFF. Both stare. Both were half right. Sana starts laughing first. Arjun: "Round 7 is a draw." The team takes their headphones off. Text: "Settle it with what was said. Not what you remember."
+
+**Caption:** Co-founder fight, round 7. This time the meeting notes settled it. Nobody won.
+
+**Why it spreads:** Founders and anyone who's had a 'you said, I said' fight. Comment bait: whose side?
+
+**Check before filming:** Recording internal meetings with everyone's knowledge. Product moment is the transcript and timestamp.
+
+### S5. First Client Call in English (45s)
+
+**Logline:** A brilliant engineer from Indore dreads her first call with a US client. She thinks in Hinglish. Her notes let her stop translating and start talking.
+
+**Cast:** Pooja (engineer, first client call), the US client, her friend on video
+
+- 0-4s: HOOK. Pooja rehearsing to her mirror: "Hi, I am Pooja, I will be... no." Text: "Her first client call. In English."
+- 4-14s: SETUP. Her friend on video: "Bas bol de, jaise mujhse baat karti hai." (Just talk like you talk to me.) Pooja: "Main sochti Hindi mein hoon, yaar." (I think in Hindi.)
+- 14-26s: CONFLICT. On the call, she's so busy writing notes and translating in her head that she misses a question. Awkward pause. Client repeats it. Her face burns.
+- 26-36s: TURN. Next call, she closes her notebook. Lynkk is recording. She stops writing, looks at the camera, and just explains, mixing in a Hindi word to herself here and there.
+- 36-45s: PAYOFF. After the call, the note is clean, in English, with the client's three asks. Client on screen: "That was the clearest explanation we've had." Pooja dances in her chair. Text: "Think in any language. Lynkk takes the notes."
+
+**Caption:** She thinks in Hinglish. Her first client call was in English. She stopped taking notes and started talking.
+
+**Why it spreads:** Millions of Indian professionals live this. Very shareable to friends and siblings.
+
+**Check before filming:** 17 languages plus Hinglish with auto-detect. Don't claim live translation.
+
+### S6. The Interview She Almost Lost (60s)
+
+**Logline:** A hiring manager runs eight interviews in a day. She remembers the confident candidate. The quiet one with the best answer nearly gets rejected.
+
+**Cast:** Nisha (hiring manager), Imran (candidate, nervous, from a small college), a confident candidate
+
+- 0-4s: HOOK. Nisha's calendar: 8 interviews back to back. Text: "Interview 6 of 8. Her brain is full."
+- 4-16s: SETUP. Quick cuts of candidates. A confident one with a slick pitch. Then Imran: nervous, stumbles on his intro, but then gives a sharp, specific answer about fixing a slow database. Nisha is checking Slack during it.
+- 16-28s: CONFLICT. Debrief: "Hire the confident one. Imran was... fine?" Her mouse hovers over Reject.
+- 28-40s: TURN. Before clicking, she opens Imran's interview notes and reads his answer properly for the first time. Plays the moment. Stops. Leans in.
+- 40-52s: PAYOFF. Phone call. Imran on a crowded bus, answering. Nisha: "Imran? We'd like you to join the team." Imran covers his mouth. The bus aunty next to him claps.
+- 52-60s: Text: "The best answer isn't always the loudest one." Lynkk logo.
+
+**Caption:** Interview 6 of 8. She almost rejected the best answer of the day.
+
+**Why it spreads:** Job seekers and hiring managers both share it. Strong on LinkedIn.
+
+**Check before filming:** Tell candidates the interview is recorded and get consent. Show the consent line on screen at the start.
+
+## Serialized story: Chai & Code, Season 1
+
+A 7-person Bengaluru startup has 6 weeks to land its first big client, Mehta Group. The recurring meeting characters from the Instagram skits are the team. Each episode is one meeting, 45-60 seconds, and ends on a cliffhanger. Lynkk appears once per episode at most.
+
+**Cast:** Rohan (CEO, "I'll keep it short"), Priya (CTO, the only one who decides), Aman (sales, "just to add on"), Aditya (design, camera always off), Neha (ops), Ananya (intern, the quiet one), Mr. Mehta (the client who never smiles)
+
+- **Ep 1: The Pitch.** Rohan promises Mr. Mehta a demo in 2 weeks. Priya, under her breath: "We don't have a demo." Cliffhanger: Mehta says, "Two weeks. Don't be late."
+- **Ep 2: Who Said Two Weeks?.** Panic standup. Everyone remembers Rohan's promise differently. Ananya quietly points to the line in the notes. Rohan: "Okay. I said it." Cliffhanger: Aditya, camera off: "Guys... the designs are gone."
+- **Ep 3: The Missing Designs.** Aditya's laptop died. The designs were only on it. Late-night meeting, pizza boxes. They rebuild the flow from what Mehta asked for in the pitch, read back from the notes. Cliffhanger: a text from Mehta's assistant: "Can we move the demo up to Friday?"
+- **Ep 4: Friday.** Demo day. Everything breaks. Aman keeps saying "just to add on" to fill silence. Priya fixes it live. Mehta says nothing for 9 seconds. Cliffhanger: "I have one question. Who wrote this?" Everyone looks at Ananya.
+- **Ep 5: Ananya.** Mehta asks the intern to explain her part. She freezes, then nails it. Mehta almost smiles. Cliffhanger: "Send me the contract. But I want one change."
+- **Ep 6: The Change.** Mehta's one change: Ananya leads the project. The team erupts. Rohan: "I'll keep it short." Everyone: "NO." End card: "Season 2? Comment 'chai'."
+
+Post one episode a week (Wednesday evening), pinned as a Reels series. Recap the last cliffhanger in the first 2 seconds of each episode.
+
+
 ## Before posting
 
 - Publish after the website changes go live. The site still says "Start for free"; posts that say $4 a month would contradict it.

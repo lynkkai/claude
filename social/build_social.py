@@ -5,6 +5,7 @@ Usage: python3 social/build_social.py [path/to/page.html]
 import html, json, os, sys
 
 sys.path.insert(0, os.path.dirname(__file__))
+from social_stories import STORY_RULES, STORIES, SEASON
 from social_data import IG_POSTS, IG_STORIES, IG_HIGHLIGHTS, LI_COMPANY, LI_FOUNDER, USED, USED_THEMES, VIRAL_RULES
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -120,6 +121,17 @@ def build_md():
     L += [f"| {a} | {b} | `{c}` |" for a, b, c in USED]
     L += ["", "**Themes that are used up:** " + "; ".join(USED_THEMES) + ".", ""]
     L += ["## How the Instagram content is built to go viral", ""] + [f"- **{a}.** {b}" for a, b in VIRAL_RULES]
+    L += ["", "## Story Reels: standalone stories", "",
+          "Story-first Reels (45-60s) with a character to root for, a conflict and a payoff. Post one a week, on Sunday, alongside the calendar below. Each also cuts for LinkedIn as native video.", ""]
+    L += [f"- **{a}.** {c}" for a, c in STORY_RULES]
+    L.append("")
+    for st in STORIES:
+        L += [f"### {st['id']}. {st['title']} ({st['length']})", "", f"**Logline:** {st['logline']}", "", f"**Cast:** {st['cast']}", ""]
+        L += [f"- {x}" for x in st["beats"]]
+        L += ["", f"**Caption:** {st['caption']}", "", f"**Why it spreads:** {st['spread']}", "", f"**Check before filming:** {st['check']}", ""]
+    L += [f"## Serialized story: {SEASON['title']}", "", SEASON["premise"], "", f"**Cast:** {SEASON['cast']}", ""]
+    L += [f"- **{a}.** {c}" for a, c in SEASON["episodes"]]
+    L += ["", "Post one episode a week (Wednesday evening), pinned as a Reels series. Recap the last cliffhanger in the first 2 seconds of each episode.", ""]
     L += ["", "## Before posting", ""] + [f"- {b}" for b in BEFORE]
     L += ["", "## Instagram: 4-week calendar (20 posts)", ""] + md_posts(IG_POSTS)
     L += ["### Stories, every week", "", "| Day | Type | Idea |", "|---|---|---|"]
@@ -133,7 +145,7 @@ def build_md():
 
 def build_html(template_path):
     t = open(template_path).read()
-    data = dict(used=USED, used_themes=USED_THEMES, viral=VIRAL_RULES, research=RESEARCH, caveat=CAVEAT, types=CONTENT_TYPES, cadence=CADENCE, before=BEFORE,
+    data = dict(story_rules=STORY_RULES, story_reels=STORIES, season=SEASON, used=USED, used_themes=USED_THEMES, viral=VIRAL_RULES, research=RESEARCH, caveat=CAVEAT, types=CONTENT_TYPES, cadence=CADENCE, before=BEFORE,
                 guard=GUARDRAILS, stories=IG_STORIES, highlights=IG_HIGHLIGHTS,
                 posts=[dict(p, ch="Instagram") for p in IG_POSTS]
                 + [dict(p, ch="LinkedIn page") for p in LI_COMPANY]
