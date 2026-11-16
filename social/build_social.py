@@ -5,7 +5,7 @@ Usage: python3 social/build_social.py [path/to/page.html]
 import html, json, os, sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from social_data import IG_POSTS, IG_STORIES, IG_HIGHLIGHTS, LI_COMPANY, LI_FOUNDER
+from social_data import IG_POSTS, IG_STORIES, IG_HIGHLIGHTS, LI_COMPANY, LI_FOUNDER, USED, USED_THEMES, VIRAL_RULES
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -37,9 +37,10 @@ CAVEAT = ("Most of these figures come from social media tool vendors with differ
 
 CONTENT_TYPES = {
     "Instagram": [
-        ("Reel: meeting life", "Reach and sends", "Relatable 10-20s skits about meetings, built to be forwarded to a colleague. Product appears in the last beat only.", "2 a week"),
-        ("Reel: how-to or product in 30 seconds", "Reach and search", "Screen-recorded answers to one search question (Google Meet transcript, record a Teams meeting) or one Lynkk workflow.", "1-2 a week"),
-        ("Carousel: template or comparison", "Saves", "Copy-ready templates and fair comparisons, 6-10 slides, keyword on the cover. The format people save for later.", "2 a week"),
+        ("Reel: recurring-cast skit", "Reach and sends", "\"Types of people in meetings\" and \"Intern vs Manager\": the same cast every week, 12-20s, Lynkk only as the punchline.", "2 a week"),
+        ("Reel: Corporate Hinglish", "Reach in India", "Says vs means subtitle skits. Ends on Lynkk turning Hinglish into a real action item.", "1 a week"),
+        ("Reel: street interview or game", "Comments and sends", "Vox pops at tech parks and coworking spaces; \"guess the meeting\" games.", "Every other week"),
+        ("Carousel: interactive", "Saves and tags", "Bingo cards, dictionaries, red flags, \"which character are you\". Made to be screenshotted and tagged.", "1 a week"),
         ("Stories", "Keep followers warm", "Daily polls, quizzes and reposts; the one place a link sticker works. Pin highlights for evergreen sets.", "Daily"),
         ("Trial Reels", "Test hooks safely", "Try two hooks for the same Reel with non-followers before sharing to the main feed.", "As needed"),
     ],
@@ -67,6 +68,8 @@ BEFORE = [
     "Instagram: set up comment-to-DM automation (for example ManyChat) before the \"Comment MOM\" and \"Comment ACTION\" posts, or change those CTAs to \"link in bio\".",
     "Check every competitor price on posting day and show the date on the slide.",
     "Founder posts are drafts for the founder to rewrite in their own voice. Don't post them as written.",
+    "Skits: everyone on camera signs a release. Vox pops: ask before filming and get written consent. Use staged sample transcripts, never real customer calls.",
+    "Hinglish humor pokes fun at office habits, never at a region, religion, accent or language group.",
 ]
 
 GUARDRAILS = [
@@ -111,6 +114,12 @@ def build_md():
         L.append("")
     L += ["## Weekly rhythm", "", "| Channel | Schedule |", "|---|---|"]
     L += [f"| {a} | {b} |" for a, b in CADENCE]
+    L += ["", "## Already made: don't reuse", "",
+          "Found in the repo on 2026-11-16. The live Instagram profile (instagram.com/lynkk.ai) could not be read from here, so which of these went live is unconfirmed.", "",
+          "| Content | What it was | Where |", "|---|---|---|"]
+    L += [f"| {a} | {b} | `{c}` |" for a, b, c in USED]
+    L += ["", "**Themes that are used up:** " + "; ".join(USED_THEMES) + ".", ""]
+    L += ["## How the Instagram content is built to go viral", ""] + [f"- **{a}.** {b}" for a, b in VIRAL_RULES]
     L += ["", "## Before posting", ""] + [f"- {b}" for b in BEFORE]
     L += ["", "## Instagram: 4-week calendar (20 posts)", ""] + md_posts(IG_POSTS)
     L += ["### Stories, every week", "", "| Day | Type | Idea |", "|---|---|---|"]
@@ -124,7 +133,7 @@ def build_md():
 
 def build_html(template_path):
     t = open(template_path).read()
-    data = dict(research=RESEARCH, caveat=CAVEAT, types=CONTENT_TYPES, cadence=CADENCE, before=BEFORE,
+    data = dict(used=USED, used_themes=USED_THEMES, viral=VIRAL_RULES, research=RESEARCH, caveat=CAVEAT, types=CONTENT_TYPES, cadence=CADENCE, before=BEFORE,
                 guard=GUARDRAILS, stories=IG_STORIES, highlights=IG_HIGHLIGHTS,
                 posts=[dict(p, ch="Instagram") for p in IG_POSTS]
                 + [dict(p, ch="LinkedIn page") for p in LI_COMPANY]

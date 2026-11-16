@@ -22,9 +22,10 @@
 
 | Type | Job | What it is | How often |
 |---|---|---|---|
-| Reel: meeting life | Reach and sends | Relatable 10-20s skits about meetings, built to be forwarded to a colleague. Product appears in the last beat only. | 2 a week |
-| Reel: how-to or product in 30 seconds | Reach and search | Screen-recorded answers to one search question (Google Meet transcript, record a Teams meeting) or one Lynkk workflow. | 1-2 a week |
-| Carousel: template or comparison | Saves | Copy-ready templates and fair comparisons, 6-10 slides, keyword on the cover. The format people save for later. | 2 a week |
+| Reel: recurring-cast skit | Reach and sends | "Types of people in meetings" and "Intern vs Manager": the same cast every week, 12-20s, Lynkk only as the punchline. | 2 a week |
+| Reel: Corporate Hinglish | Reach in India | Says vs means subtitle skits. Ends on Lynkk turning Hinglish into a real action item. | 1 a week |
+| Reel: street interview or game | Comments and sends | Vox pops at tech parks and coworking spaces; "guess the meeting" games. | Every other week |
+| Carousel: interactive | Saves and tags | Bingo cards, dictionaries, red flags, "which character are you". Made to be screenshotted and tagged. | 1 a week |
 | Stories | Keep followers warm | Daily polls, quizzes and reposts; the one place a link sticker works. Pin highlights for evergreen sets. | Daily |
 | Trial Reels | Test hooks safely | Try two hooks for the same Reel with non-followers before sharing to the main feed. | As needed |
 
@@ -52,6 +53,47 @@
 | LinkedIn company page | Tue document, Wed document or video, Thu video or image, 10am-1pm local time |
 | Team | Comment on or reshare each company post within the first hour |
 
+## Already made: don't reuse
+
+Found in the repo on 2026-11-16. The live Instagram profile (instagram.com/lynkk.ai) could not be read from here, so which of these went live is unconfirmed.
+
+| Content | What it was | Where |
+|---|---|---|
+| "Wait! What did we promise them?" | 50s Reel. Deal goes cold, follow-up sits in drafts till 9:47 PM. "Follow up in 5 minutes, not 3 days." Hooks: "Oops", "Stop", "Forgot?" | `social/video-1-wait, launch/video-scripts-revenue-story.md` |
+| "Your records say yes. Your customer said no." | 50s Reel. "Budget is on hold", "pretty sure it'll close", $50K deal slips. | `social/brag-video-captions.md` |
+| "The Deal That Almost Slipped" | 90s story. Maya, Raj, a WhatsApp call, the CFO Priya, CRM left blank. | `content/scripts/crm-and-offline-calls-video-script.md` |
+| "Your buyer can hear you typing" | Short and demo. Stop typing on discovery calls. | `videos/02-stop-typing, social/social-captions.md` |
+| "So... what did we decide last week?" | 40s Reel. Nobody remembers; "follow up???" next to a cat; Mark's frozen screen, summary in his inbox. | `lynkk-post-kit/posts/conversational-brain-40s-video` |
+| "The meeting is over. Nobody remembers what was decided." | 7-slide carousel: four meeting problems at work. | `lynkk-post-kit/posts/corporate-meeting-problems` |
+| "A meeting has three parts. Most notetakers cover one." | Before, during, after carousel; Substack post "Your AI notetaker shows up too late". | `lynkk-post-kit/posts/example-lynkk-vs-notetakers, substack-01-banner` |
+| "Record the call. Lynkk writes the rest." | Launch-week carousel: four ways to record. | `lynkk-post-kit/posts/launch-week` |
+| "Your meeting ended. The work didn't." | 20s fast-cut Reel, plus hooks "POV: you never write meeting notes again", "Nobody on the call took notes. Lynkk did." | `lynkk-post-kit/posts/lynkk-reel-15s` |
+| Dictation Reels | "Your keyboard can finally talk back", "Brain 400 words a minute, fingers 40", "Let's shop it" to the CEO, "Keyboard is out of office". | `content/dictation-reel, lynkk-post-kit/posts/dictation-30s-video` |
+| AI dictation on Mac / Google Docs voice typing | Long video and Reel: 6 fixes for Google Docs voice typing. | `youtube/videos/02-google-docs-voice-typing` |
+| "You had the answer. It was said in a meeting." | 48s Ask Lynkk Short. | `youtube/videos/ask-lynkk-video/shorts` |
+| "You don't need a bot to record a Teams meeting" | 40s Short and 3:41 tutorial: 3 ways to record Teams. | `social/teams-recording, video/teams-recording-*` |
+| "Stuck on a call? Press ⌘↩." | 32s Spotter film with Remi the mascot. | `video/spotter-film` |
+| Lynkk vs Otter.ai, Lynkk vs Granola | Comparison Reels and long videos (Otter's 30-minute limit; Granola drops the audio). | `youtube/videos/lynkk-vs-otter, lynkk-vs-granola` |
+| Use-case videos | Sales ("every follow-up owned"), HR, consulting. | `youtube/videos/use-cases` |
+| Product video and demo | Before, during, after lifecycle video; 1:42 sales demo. | `social/lynkk-product-video, social/social-captions.md` |
+| Record in-person meetings | Long video. | `youtube/videos/01-record-in-person-meetings` |
+| "Remind me where we landed" | Substack post 2: the five-minute pre-call brief. | `lynkk-post-kit/posts/substack-02-banner` |
+| 30-day plan posts (12 Oct to 10 Nov) | Meeting that could have been an email; worst forgotten follow-up; "what we decided last week" skit; 5-line prep template; 7 rules for AI note takers; Halloween "Can you see my screen? / Quick sync? / Let's take this offline"; "Wi-Fi died mid-meeting" skit; Ask Lynkk and 30 Seconds After series; data region and offline-first founder posts. | `research/social-media-30-day-plan.md` |
+
+**Themes that are used up:** Forgotten follow-ups and "5 minutes, not 3 days"; "What did we decide last week?" and forgotten decisions; Typing during calls / never taking notes again; Before, during, after (the meeting lifecycle); Deals slipping because the CRM was empty; Wi-Fi dying mid-meeting; "Can you see my screen?", "Quick sync?", "Let's take this offline", "could have been an email"; Four ways to record, and bot-free Teams recording.
+
+## How the Instagram content is built to go viral
+
+- **Entertainment first, product last.** About 80% of each Reel is the joke. Lynkk shows up in the final 2-3 seconds as the punchline, never as a pitch. People share jokes, not demos.
+- **Recurring cast.** Same 4-5 people, same office, every week. Followers come back for characters (the model tl;dv and ClickUp Comedy used).
+- **Lo-fi beats polished.** Shoot on a phone in a real office. Unpolished, funny Reels are what people say they prefer.
+- **Hook in the first second.** Text on screen from frame 1. No logo, no intro.
+- **Built to be sent.** Every Reel names who to send it to ("tag the 'I'll keep it short' person"). Sends are what reach non-followers.
+- **Loop the ending.** End on a frame that cuts back cleanly to the start, so replays count.
+- **India first.** Corporate Hinglish humor is a huge genre on Indian Instagram, and Lynkk is one of the few note takers that handles Hinglish. That's the unfair advantage.
+- **Test with Trial Reels.** Post two hooks as Trial Reels to non-followers, then share the winner to the grid.
+- **Collab with creators.** Use Instagram Collab posts with 2-3 Indian corporate-comedy creators for the Hinglish series.
+
 ## Before posting
 
 - Publish after the website changes go live. The site still says "Start for free"; posts that say $4 a month would contradict it.
@@ -59,299 +101,286 @@
 - Instagram: set up comment-to-DM automation (for example ManyChat) before the "Comment MOM" and "Comment ACTION" posts, or change those CTAs to "link in bio".
 - Check every competitor price on posting day and show the date on the slide.
 - Founder posts are drafts for the founder to rewrite in their own voice. Don't post them as written.
+- Skits: everyone on camera signs a release. Vox pops: ask before filming and get written consent. Use staged sample transcripts, never real customer calls.
+- Hinglish humor pokes fun at office habits, never at a region, religion, accent or language group.
 
 ## Instagram: 4-week calendar (20 posts)
 
-### IG1. The note taker isn't in the meeting
+### IG1. The "I'll keep it short" guy
 - **When:** Week 1, Mon
-- **Format:** Reel
-- **Pillar:** Meeting life
-- **From YouTube topic:** 21
-- **Hook:** On-screen: "The person taking notes is the only one not in the meeting."
+- **Format:** Reel (skit, 20s)
+- **Pillar:** Types of people in meetings, ep 1
+- **Hook:** On-screen: "Him: 'I'll keep it short.'"
 - **Outline:**
-  - 0-2s: someone typing fast while three people talk over each other
-  - 2-6s: "...so what do you think?" Silence. They were typing.
-  - 6-10s: same meeting, laptop closed, they're talking. Cut to the Lynkk note: summary, decisions, action items
-  - End card: Lynkk, AI meeting notes for every call
-- **Caption / post text:** AI meeting notes, so nobody has to be the note taker.
-- **CTA:** Send this to the person who always takes the notes.
+  - 0-2s: Rohan leans into the call: "I'll keep it short." Everyone relaxes.
+  - 2-6s: Wall clock 9:02. Jump cut, 9:17. Jump cut, 9:33. Colleague's coffee goes from full to empty to a second cup.
+  - 6-10s: Intern slowly lowers her head onto the desk. Someone's laptop battery hits 1%.
+  - 10-14s: Rohan: "So, to summarize..." Everyone: visible pain.
+  - 14-18s: Cut to the Lynkk note on screen: "Summary: Launch moves to Friday." One line.
+  - 18-20s: Text: "41 minutes. 1 line." Loop back to "I'll keep it short."
+- **Caption / post text:** Tag the person who will "keep it short". 41 minutes, one line of meeting notes.
+- **CTA:** Tag them. They know who they are.
 
-### IG2. Sales follow-up email after a call: 5 templates
+### IG2. Meeting bingo
 - **When:** Week 1, Tue
-- **Format:** Carousel
-- **Pillar:** Templates
-- **From YouTube topic:** 19
-- **Hook:** Cover: "The follow-up email that gets a reply quotes the buyer back to themselves."
+- **Format:** Carousel (bingo card)
+- **Pillar:** Interactive
+- **Hook:** Cover: "Meeting bingo. Screenshot this before your next call."
 - **Outline:**
-  - Slide 2: when to send (discovery: same day, demo: within 2 hours, no reply: 3, 7, 14 business days)
-  - Slide 3: the five parts (specific thanks, their problem in their words, what you agreed, next step with a date, only what you promised)
-  - Slides 4-7: one template each: discovery call, demo, pricing call, no reply to a proposal
-  - Slide 8: 6 subject lines that get opened
-  - Slide 9: "Lynkk drafts this from your call. You review and send."
-- **Caption / post text:** Sales follow-up email templates for every kind of call. Save this for your next one.
-- **CTA:** Save for your next call.
+  - Slide 2: a 5x5 bingo card: "You're on mute", "Sorry, go ahead. No, you go", "Let's take a step back", "We're at time", "Can we push this to next week?", "Just to add on", "Ek minute, network issue", "Who's taking notes?", "Let's circle back", dog barks, "I have a hard stop", someone eating on camera, free square: "I'll keep it short"
+  - Slide 3: "Bingo rules: first to 5 in a row unmutes and says 'bingo'. Good luck."
+  - Slide 4: "Lynkk's job: catch the one sentence that actually mattered."
+- **Caption / post text:** Meeting bingo for your next call. Screenshot it, then send it to your team.
+- **CTA:** Send it to your team chat before Monday's standup.
 
-### IG3. Where your Google Meet transcript actually goes
+### IG3. Corporate Hinglish, translated
 - **When:** Week 1, Wed
-- **Format:** Reel
-- **Pillar:** How-to in 30 seconds
-- **From YouTube topic:** 20
-- **Hook:** On-screen: "Your Google Meet transcript isn't lost. It's in someone else's Drive."
-- **Outline:**
-  - Screen recording: the organizer's Google Drive, Meet Recordings folder, open the doc (3 steps, one per beat)
-  - "Not there?" 3 quick reasons: plan, transcription not turned on, you weren't the organizer
-  - Last 3s: "No Workspace plan? Lynkk transcribes any Google Meet."
-- **Caption / post text:** Google Meet transcript: where to find it in 3 steps.
-- **CTA:** Send it to whoever always asks "did anyone record that?"
-
-### IG4. When the meeting is half Hindi, half English
-- **When:** Week 1, Thu
-- **Format:** Reel
-- **Pillar:** India and Hinglish
+- **Format:** Reel (subtitle skit, 15s)
+- **Pillar:** Corporate Hinglish, ep 1
 - **From YouTube topic:** 27
-- **Hook:** On-screen: "Your transcription tool when someone says 'haan, let's close this by Friday'"
+- **Hook:** On-screen: "Corporate Hinglish, translated"
 - **Outline:**
-  - A Hinglish sentence spoken on a call, then a garbled one-language transcript on screen
-  - Same sentence in a Lynkk note: clean transcript, action item with owner and date
-  - Presenter switches naturally between Hindi and English throughout
-  - End card: 17 languages plus Hinglish. Lynkk Pro, ₹250 a month.
-- **Caption / post text:** Hinglish transcription that keeps up when people switch mid-sentence.
-- **CTA:** Tag the colleague who switches languages every other sentence.
+  - Manager on a call, deadpan: "Please do the needful." Subtitle: "Translation: I also don't know what to do."
+  - "Kindly revert." Subtitle: "Reply. But make it sound like 2004."
+  - "PFA." Subtitle: "I forgot the attachment. Again."
+  - "Noted with thanks." Subtitle: "I will not be doing this."
+  - Last 3s: Lynkk note shows "Do the needful" turned into "Action item: Rahul sends the revised quote by Friday." Text: "Lynkk speaks Hinglish. Even 'do the needful'."
+- **Caption / post text:** Corporate Hinglish, translated. Lynkk turns "please do the needful" into an actual action item.
+- **CTA:** Send this to the colleague who says "kindly revert".
 
-### IG5. Minutes of meeting (MoM) format
+### IG4. "Sorry, go ahead." "No, you go."
+- **When:** Week 1, Thu
+- **Format:** Reel (loop, 12s)
+- **Pillar:** Meeting moments
+- **Hook:** On-screen: "Two people unmute at the same time:"
+- **Outline:**
+  - Split screen, two people: "Oh sorry, go ahead." "No no, you go." "No please." "You go."
+  - It keeps going, faster each time, as both start laughing. A third person quietly leaves the call.
+  - Last 3s: Lynkk transcript with clean speaker labels, "Priya: ..." "Aman: ..." Text: "Talking over each other? Lynkk still knows who said what."
+  - Hard cut back to the first "Sorry, go ahead" so it loops.
+- **Caption / post text:** Two people unmute at the same time. Speaker labels that still know who said what.
+- **CTA:** Send it to the person you always do this with.
+
+### IG5. "What's the longest meeting you've been in?"
 - **When:** Week 1, Fri
-- **Format:** Carousel
-- **Pillar:** Templates
-- **From YouTube topic:** 23
-- **Hook:** Cover: "MoM format: the 6 parts every minutes of meeting needs"
+- **Format:** Reel (vox pop, 30s)
+- **Pillar:** Street interviews
+- **Hook:** On-screen: "We asked people at a Bengaluru tech park: what's the longest meeting you've survived?"
 - **Outline:**
-  - Slide 2: what minutes mean (decisions, owners, dates; not a transcript)
-  - Slides 3-4: the 6-part MoM format, filled in for a team meeting
-  - Slide 5: board meeting example
-  - Slide 6: 3 mistakes (writing everything, no owners, sending it a week later)
-  - Slide 7: "Lynkk writes the MoM after every call, Hinglish included."
-- **Caption / post text:** Minutes of meeting (MoM) format with a filled-in example. Save it before your next review.
-- **CTA:** Save it. Comment MOM if you want the Word file.
+  - Fast cuts, 5-7 answers, best and funniest only: "4 hours. It was about a font." "Ours had a lunch break inside it." "Still going, honestly."
+  - Final person: "Six hours, and nobody knows what we decided."
+  - Last 3s: Text: "Your 6-hour meeting, in one page." Lynkk summary slides in.
+- **Caption / post text:** We asked strangers about the longest meeting they've survived. Answers got worse.
+- **CTA:** Comment your record. We'll feature the best in part 2.
 
-### IG6. "Notetaker has joined the meeting"
+### IG6. The "just to add on" person
 - **When:** Week 2, Mon
-- **Format:** Reel
-- **Pillar:** Meeting life
-- **From YouTube topic:** 6
-- **Hook:** On-screen: "First call with a big prospect. Then this pops up."
+- **Format:** Reel (skit, 20s)
+- **Pillar:** Types of people in meetings, ep 2
+- **Hook:** On-screen: "Every meeting has one."
 - **Outline:**
-  - Zoom tile: "Notetaker has joined." The prospect's face changes.
-  - "Who's that?" Awkward pause.
-  - Rewind. Same call, recorded from the Chrome extension. No extra tile. Rep says up front that they're taking AI notes.
-  - End card: "Bot or no bot, you pick. Always tell people."
-- **Caption / post text:** An AI note taker that doesn't have to join your meeting.
-- **CTA:** Send this to your sales team.
+  - Priya makes a point: "We should launch on Friday."
+  - Aman: "Just to add on... we should launch on Friday."
+  - Neha: "Building on that, Friday works for launch."
+  - Aman again: "Just to add on to the add-on..." Priya stares into the camera, Office-style.
+  - Last 3s: Lynkk transcript with three identical lines highlighted, each labeled with a different speaker. Text: "Same point. 3 speakers. 1 action item."
+- **Caption / post text:** The "just to add on" person, in every meeting. Tag yours.
+- **CTA:** Tag the person who always adds on.
 
-### IG7. A meeting notes template people actually read
+### IG7. Corporate Hinglish dictionary: 12 phrases decoded
 - **When:** Week 2, Tue
-- **Format:** Carousel
-- **Pillar:** Templates
-- **From YouTube topic:** 24
-- **Hook:** Cover: "Most meeting notes are written once and never read again."
+- **Format:** Carousel (save and share)
+- **Pillar:** Corporate Hinglish
+- **From YouTube topic:** 27
+- **Hook:** Cover: "Corporate Hinglish dictionary. Save it before your next standup."
 - **Outline:**
-  - Slide 2: write for the person reading it next week
-  - Slide 3: the template: decisions, action items (owner, date), open questions, context
-  - Slide 4: filled-in example from a project meeting
-  - Slide 5: what to leave out
-  - Slide 6: "Lynkk fills this in after every meeting."
-- **Caption / post text:** Meeting notes template: decisions, actions, open questions. Copy it.
-- **CTA:** Save it for your next project kickoff.
+  - One phrase per slide with its "real meaning": "Do the needful", "Kindly revert", "Small doubt" (30-minute question), "Let's connect tomorrow" (never), "I'll check and get back", "Ek minute, network issue" (I'm in traffic), "Revert back", "Good morning team" at 11:40, "Take your time" (by EOD), "Same to same", "Prepone", "PFA"
+  - Last slide: "Lynkk transcribes Hinglish and turns it into action items. ₹250 a month."
+- **Caption / post text:** Corporate Hinglish dictionary: 12 phrases every Indian office uses, decoded.
+- **CTA:** Save it. Send it to your team group.
 
-### IG8. Record a Teams meeting in 3 clicks
+### IG8. Intern vs Manager: the meeting invite
 - **When:** Week 2, Wed
-- **Format:** Reel
-- **Pillar:** How-to in 30 seconds
-- **From YouTube topic:** 22
-- **Hook:** On-screen: "The record button is easy. Finding the file is the hard part."
+- **Format:** Reel (two-person debate, 20s)
+- **Pillar:** Intern vs Manager
+- **Hook:** On-screen: "Intern vs Manager: the meeting invite"
 - **Outline:**
-  - Screen recording: More actions, Record and transcribe, Start recording
-  - Where it saves: OneDrive or SharePoint, depending on the meeting type
-  - "No record button?" Your admin turned it off.
-  - Last 3s: "Want notes without Copilot? Lynkk."
-- **Caption / post text:** How to record a Microsoft Teams meeting and find the recording.
-- **CTA:** Save it for the next time someone asks.
+  - Intern: "What's the agenda?" Manager: "We'll figure it out in the meeting."
+  - Intern: "How long?" Manager: "30 minutes. Maybe 90."
+  - Intern: "Who needs to be there?" Manager: "Everyone. Just in case."
+  - Intern turns to camera: "Who's right?" Text: "Comment: Team Intern or Team Manager"
+  - Last 2s: Lynkk note sorts the chaos into topics, decisions, owners.
+- **Caption / post text:** Meeting with no agenda: Team Intern or Team Manager? Comment below.
+- **CTA:** Comment your team. Send to your manager (if you dare).
 
-### IG9. What was said vs what ended up in the notes
+### IG9. POV: your calendar on Monday
 - **When:** Week 2, Thu
-- **Format:** Reel
-- **Pillar:** Meeting life
-- **Hook:** On-screen: "What was said in the meeting" vs "What ended up in the notes"
+- **Format:** Reel (trending audio, 10s)
+- **Pillar:** Meeting moments
+- **Hook:** On-screen: "POV: you open your calendar on Monday"
 - **Outline:**
-  - Split screen. Left: 4 minutes on pricing, 3 objections, a deadline. Right: "discussed pricing"
-  - Left: "Can you send that by Friday?" Right: (nothing)
-  - Final beat: the Lynkk note with the deadline, owner and the buyer's exact words
-- **Caption / post text:** Meeting notes that keep the part that matters: who's doing what, by when.
-- **CTA:** Send it to your team's notes channel.
+  - Screen recording of a calendar, zooming out slowly over a trending dramatic sound: 9:00, 9:30, 10:00... back-to-back blocks, one titled "Sync about the sync", lunch blocked by "Quick catch-up"
+  - Person's face in the corner, slowly losing hope
+  - Last 2s: each block flips to a Lynkk note icon. Text: "8 meetings. 8 notes. You just show up."
+- **Caption / post text:** POV: your calendar on Monday. Eight meetings, eight sets of AI meeting notes.
+- **CTA:** Send it to someone with a worse calendar.
 
-### IG10. Bot vs no bot: which AI note taker should you use?
+### IG10. What Indian meetings say vs mean
 - **When:** Week 2, Fri
-- **Format:** Carousel
-- **Pillar:** Compare
-- **From YouTube topic:** 6, 12
-- **Hook:** Cover: "Bot or no bot? It depends on the call."
+- **Format:** Reel (subtitle skit, 15s)
+- **Pillar:** Corporate Hinglish, ep 2
+- **From YouTube topic:** 27
+- **Hook:** On-screen: "What they say in Indian meetings vs what they mean"
 - **Outline:**
-  - Slide 2: how a meeting bot works (joins as a participant, records everyone)
-  - Slide 3: how bot-free works (records from your computer)
-  - Slide 4: when a bot is better (you're not on the call, big internal meetings)
-  - Slide 5: when no bot is better (first calls, external clients)
-  - Slide 6: either way, tell people you're recording
-  - Slide 7: "Lynkk does both: meeting bot, Chrome extension or Mac app."
-- **Caption / post text:** Bot vs no bot AI note takers, explained in 7 slides.
-- **CTA:** Save it before you pick a note taker.
+  - "Small doubt." Subtitle: "Clear your evening."
+  - "Haan, am I audible?" Subtitle: "Nobody has heard anything for 4 minutes."
+  - "We'll take this forward." Subtitle: "Nobody will take this forward."
+  - "Let's connect tomorrow." Subtitle: "See you in 2027."
+  - Last 3s: Lynkk note: "Next step: Neha, pricing call, Thursday 4 PM." Text: "Lynkk writes down what you actually decided."
+- **Caption / post text:** What they say in Indian meetings vs what they mean. Hinglish meeting notes that keep the real next step.
+- **CTA:** Send it to your office group. Ek baar.
 
-### IG11. The Wi-Fi died mid client meeting
+### IG11. The camera-off legend
 - **When:** Week 3, Mon
-- **Format:** Reel
-- **Pillar:** Meeting life
-- **From YouTube topic:** 3
-- **Hook:** On-screen: "Client's office. Big meeting. 'Sorry, our guest Wi-Fi is down.'"
+- **Format:** Reel (skit, 18s)
+- **Pillar:** Types of people in meetings, ep 3
+- **Hook:** On-screen: "Every call has one black tile."
 - **Outline:**
-  - Phone shows no signal, everyone shrugs, meeting carries on
-  - Mac on the table, Lynkk still recording
-  - Back at the hotel: the note uploads with speaker labels and action items
-  - End card: "Records the room, even offline. Mac app."
-- **Caption / post text:** AI note taker for in-person meetings that keeps recording when the Wi-Fi drops.
-- **CTA:** Send to someone who's always on site visits.
+  - Grid of faces, one black tile: "Aditya 🍜"
+  - Manager: "Aditya, your thoughts?" Silence. Then loud chewing. Then: "Haan, haan, agreed."
+  - Manager: "Great, so you'll own it." Long pause from the black tile.
+  - Last 3s: Lynkk note: "Action item: Aditya owns the client deck, due Friday." Text: "Camera off. Still got an action item."
+- **Caption / post text:** Camera off, still got an action item. Tag your camera-off legend.
+- **CTA:** Tag the black tile.
 
-### IG12. Action item template: owner, date, done
+### IG12. Meeting red flags vs green flags
 - **When:** Week 3, Tue
-- **Format:** Carousel
-- **Pillar:** Templates
-- **From YouTube topic:** 28
-- **Hook:** Cover: "An action item without an owner and a date is just a wish."
+- **Format:** Carousel (red flags vs green flags)
+- **Pillar:** Interactive
+- **Hook:** Cover: "Meeting red flags 🚩 vs green flags 🟢"
 - **Outline:**
-  - Slide 2: anatomy of an action item (verb, owner, due date, done-when)
-  - Slides 3-5: 6 bad vs good examples
-  - Slide 6: the template (Sheets, Excel, Notion)
-  - Slide 7: the weekly review habit
-  - Slide 8: "Lynkk pulls action items with owners and dates, then sends them to Jira."
-- **Caption / post text:** Action item template plus 6 before-and-after examples.
-- **CTA:** Save it. Comment ACTION for the Sheets copy.
+  - Red flags, one per slide: no agenda; 12 people, 2 talking; "let's not decide today"; the deck has 47 slides; "I have a hard stop" from the person who booked it
+  - Green flags: ends 5 minutes early; one owner per task; decisions written before people leave; the notes arrive before you're back at your desk
+  - Last slide: "Lynkk handles that last green flag."
+- **Caption / post text:** Meeting red flags vs green flags. How many red flags did your last meeting have?
+- **CTA:** Comment your count. Send it to your team.
 
-### IG13. Zoom AI Companion is probably on. Here's how to turn it off.
+### IG13. Gen Z intern vs millennial manager: taking notes
 - **When:** Week 3, Wed
-- **Format:** Reel
-- **Pillar:** How-to in 30 seconds
-- **From YouTube topic:** 13
-- **Hook:** On-screen: "Zoom AI Companion is probably already on in your account."
+- **Format:** Reel (two-person debate, 20s)
+- **Pillar:** Intern vs Manager
+- **Hook:** On-screen: "How they take meeting notes"
 - **Outline:**
-  - Screen recording: Settings, AI Companion, toggles (on and off)
-  - Where the summaries go
-  - "Meetings not all on Zoom?" One note taker across Zoom, Meet, Teams and in person
-- **Caption / post text:** How to turn Zoom AI Companion on or off, step by step.
-- **CTA:** Send to the person who manages your Zoom account.
+  - Manager: color-coded notebook, three pens, sticky notes, highlighter. Writes furiously.
+  - Intern: phone face down, just listening, sipping chai.
+  - Next day. Manager flips pages: "Where did I write the budget..." Intern types one question into Lynkk, gets the answer with the source.
+  - Text: "Who's right?" Manager hugs the notebook defensively.
+- **Caption / post text:** Gen Z intern vs millennial manager: who takes better meeting notes? Comment your side.
+- **CTA:** Comment your side. Tag your notebook person.
 
-### IG14. The 15-minute standup, minute 38
+### IG14. Meeting bingo, played live
 - **When:** Week 3, Thu
-- **Format:** Reel
-- **Pillar:** Meeting life
-- **From YouTube topic:** 26
-- **Hook:** On-screen timer: "Daily standup, minute 1" ... "minute 38"
+- **Format:** Reel (real-time game, 25s)
+- **Pillar:** Meeting moments
+- **Hook:** On-screen: "Playing meeting bingo in a real all-hands"
 - **Outline:**
-  - Timer speeds up while one update turns into a design debate
-  - Cut: the 3-question version, timer stops at 12:40
-  - Blockers land as tasks in Jira from the Lynkk note
-- **Caption / post text:** Daily standup meeting that actually ends in 15 minutes.
-- **CTA:** Send it to your scrum master. Gently.
+  - Bingo card from IG2 in the corner, squares lighting up as a staged all-hands plays out: "You're on mute", dog barks, "We're at time", "Let's circle back"
+  - Tension builds: one square left, "Ek minute, network issue"
+  - It happens. Person silently fist-pumps on camera.
+  - Last 2s: Lynkk note: "Decisions: 1." Text: "Bingo in 14 minutes. 1 decision in 60."
+- **Caption / post text:** We played meeting bingo during an all-hands. Bingo in 14 minutes.
+- **CTA:** Send it to whoever would win at your company.
 
-### IG15. Daily standup template: Scrum and async
+### IG15. Guess the meeting from one line
 - **When:** Week 3, Fri
-- **Format:** Carousel
-- **Pillar:** Templates
-- **From YouTube topic:** 26
-- **Hook:** Cover: "The daily standup template that keeps it to 15 minutes"
+- **Format:** Reel (vox pop game, 30s)
+- **Pillar:** Street interviews
+- **Hook:** On-screen: "We read one line from a meeting. Strangers guess what it was about."
 - **Outline:**
-  - Slide 2: the 3 questions
-  - Slide 3: 15-minute agenda
-  - Slide 4: Scrum stand-up rules
-  - Slide 5: async standup template to paste into Slack
-  - Slide 6: tracking blockers
-  - Slide 7: "Lynkk turns standup notes into Jira tickets."
-- **Caption / post text:** Daily standup template: a 15-minute agenda plus an async version for Slack.
-- **CTA:** Save it for Monday.
+  - Line 1 (staged sample transcript): "Can everyone just... not use Comic Sans?" Guesses: "Design review." "A breakup?"
+  - Line 2: "So we agree we disagree, and we'll meet again Tuesday." Guesses: "Every meeting ever."
+  - Line 3: "Who ordered 400 samosas?" Guesses get wild.
+  - Last 3s: Text: "Lynkk remembers every line. Even the samosa one."
+- **Caption / post text:** Guess the meeting from one line of the transcript. Strangers did not get it.
+- **CTA:** Comment your guess for line 3.
 
-### IG16. The follow-up email in 2 minutes
+### IG16. "Let's not decide today"
 - **When:** Week 4, Mon
-- **Format:** Reel
-- **Pillar:** Product in 30 seconds
-- **From YouTube topic:** 19
-- **Hook:** On-screen: "Call ended 2 minutes ago. Follow-up already sent."
+- **Format:** Reel (time-lapse skit, 20s)
+- **Pillar:** Types of people in meetings, ep 4
+- **Hook:** On-screen: "Week 1 of deciding the logo color"
 - **Outline:**
-  - Call ends, the Lynkk note appears: summary, decisions, next steps
-  - Ask Lynkk for the follow-up; the draft quotes the buyer
-  - Rep edits one line and hits send. "You send it. Not the AI."
-  - End card: Lynkk Pro, $4 a month
-- **Caption / post text:** AI follow-up email drafted from your sales call, reviewed by you.
-- **CTA:** Link in bio: get Lynkk Pro, $4 a month.
+  - Same meeting room, same 4 people. Manager: "Let's not decide today."
+  - Text: "Week 2." Same line. Text: "Week 3." A plant in the corner has grown. "Week 6." Someone has a cast on their arm.
+  - New hire walks in: "So, what color are we going with?" Everyone stares.
+  - Last 3s: Ask Lynkk: "How many meetings about the logo?" Answer: "6 meetings. No decision yet."
+- **Caption / post text:** Six weeks of "let's not decide today". Ask your meetings how many times you've had this one.
+- **CTA:** Tag the person who never decides.
 
-### IG17. What AI note takers cost for a team of 10
+### IG17. Which meeting character are you?
 - **When:** Week 4, Tue
-- **Format:** Carousel
-- **Pillar:** Compare
-- **From YouTube topic:** 16
-- **Hook:** Cover: "AI note taker prices for a team of 10 (checked [date])"
+- **Format:** Carousel (tag a friend)
+- **Pillar:** Types of people in meetings
+- **Hook:** Cover: "Which meeting character are you? Be honest."
 - **Outline:**
-  - One slide per tool with the published monthly price per user and the total for 10: Microsoft Copilot, Otter, Fireflies, Granola, Fathom, Read AI
-  - Summary slide: all six side by side, plus Lynkk Pro at $4 a month as the last row
-  - Last slide: "Prices change. Check each pricing page before you buy."
-- **Caption / post text:** AI note taker pricing compared for a 10-person team, checked [date].
-- **CTA:** Save it for your next budget review.
+  - One character per slide, drawn as the recurring cast: the "I'll keep it short" guy, the "just to add on" person, the camera-off legend, the "let's not decide today" manager, the 47-slide presenter, the one who actually reads the notes
+  - Each slide: a one-line trait and a "tag them" prompt
+  - Last slide: "Every character gets an action item. Lynkk makes sure."
+- **Caption / post text:** Which meeting character are you? Tag your team's cast.
+- **CTA:** Tag one person per character.
 
-### IG18. Is it legal to record this meeting?
+### IG18. Manager says vs manager means
 - **When:** Week 4, Wed
-- **Format:** Reel
-- **Pillar:** How-to in 30 seconds
-- **From YouTube topic:** 29
-- **Hook:** On-screen: "Before you hit record: does everyone need to agree?"
+- **Format:** Reel (subtitle skit, 15s)
+- **Pillar:** Corporate Hinglish, ep 3
+- **From YouTube topic:** 27
+- **Hook:** On-screen: "Indian manager says vs means"
 - **Outline:**
-  - "Not legal advice" up front
-  - One-party vs all-party consent in 15 seconds
-  - Calls across state lines: follow the stricter rule
-  - The easy fix: say it at the start. "Mind if I take AI notes?"
-- **Caption / post text:** Is it legal to record a meeting? One-party vs all-party consent, in plain English.
-- **CTA:** Send it to anyone who records calls.
+  - "Take your time." Subtitle: "By EOD."
+  - "Just a 2-minute call." Subtitle: "Cancel your lunch."
+  - "Good effort." Subtitle: "Redo it."
+  - "Let's discuss in the meeting." Subtitle: "There will be another meeting about this meeting."
+  - Last 3s: Lynkk note: "Deadline: Friday 6 PM." Text: "Lynkk writes down the real deadline."
+- **Caption / post text:** Indian manager says vs means. The real deadline, written down in your Hinglish meeting notes.
+- **CTA:** Send it to your manager. Brave move.
 
-### IG19. One app for Zoom, Meet, Teams and the meeting in the room
+### IG19. Remi's first corporate meeting
 - **When:** Week 4, Thu
-- **Format:** Reel
-- **Pillar:** Product in 30 seconds
-- **From YouTube topic:** 21
-- **Hook:** On-screen: "Zoom at 10. Meet at 11. Client's office at 2. One set of notes."
+- **Format:** Reel (animated mascot, 15s)
+- **Pillar:** Remi
+- **Hook:** On-screen: "Remi joins its first corporate meeting"
 - **Outline:**
-  - Quick cuts: bot on Zoom, Chrome extension on Meet, Mac app in a meeting room
-  - All three land in one place; ask a question across them
-  - Brand beat: "Lynkk. Two k's."
-- **Caption / post text:** An AI meeting assistant for Zoom, Google Meet, Teams and in-person meetings.
-- **CTA:** Link in bio: Lynkk Pro, $4 a month.
+  - Remi (the Lynkk mascot from the Spotter film) floats into a call, excited.
+  - Jargon flies at it as text bubbles: "synergy", "circle back", "low-hanging fruit", "do the needful". Remi's eyes spin.
+  - Remi short-circuits, sparks, then reboots and prints a clean list: 2 decisions, 3 action items.
+  - Text: "Remi survived. Barely."
+- **Caption / post text:** Remi joins its first corporate meeting. Jargon in, action items out.
+- **CTA:** Comment the jargon that would break you.
 
-### IG20. 7 questions to ask before an AI note taker joins your meeting
+### IG20. The 47-slide deck for a 15-minute sync
 - **When:** Week 4, Fri
-- **Format:** Carousel
-- **Pillar:** Compare
-- **From YouTube topic:** 30
-- **Hook:** Cover: "Your meetings have prices, roadmaps and names in them."
+- **Format:** Reel (skit, 20s)
+- **Pillar:** Types of people in meetings, ep 5
+- **Hook:** On-screen: "15-minute sync. He brought 47 slides."
 - **Outline:**
-  - One slide per question: where is data stored, who can see notes, is it used for training, can you delete it, SSO and retention, does the bot show up, are follow-ups sent without review
-  - Last slide: "Ask every vendor. Including us." Link to the Lynkk security page.
-- **Caption / post text:** Are AI note takers safe? 7 questions to ask before you buy.
-- **CTA:** Save it for your next vendor review.
+  - Presenter: "Quick context before we start." Slide counter: 1/47.
+  - Jump cuts: slide 12, someone is asleep; slide 30, it's dark outside; slide 46, the cleaner is mopping around them.
+  - Slide 47: "The ask: approve ₹20,000 budget." Everyone: "Yes. Obviously. Can we go?"
+  - Last 3s: Lynkk note: "Slides 1-46: context. Slide 47: approved."
+- **Caption / post text:** 15-minute sync, 47 slides. The meeting summary is one line.
+- **CTA:** Tag the person with the deck.
 
 ### Stories, every week
 
 | Day | Type | Idea |
 |---|---|---|
-| Mon | Poll | "Bot or no bot in your meetings?" Share the result Wednesday with the IG10 carousel. |
-| Tue | Repost | Share the day's carousel to Stories with a "new" sticker and a question box: "Which template should we make next?" |
-| Wed | Quiz | Quick quiz tied to the how-to Reel, e.g. "Where does Google Meet save transcripts?" |
-| Thu | Behind the scenes | 15-second clip from filming or the product team, no script. |
-| Fri | Link sticker | Link to the companion page of the week's YouTube video (stories are the one place a link works). |
+| Mon | Poll | "Which meeting character are you?" with 4 options from the cast. Share results on Tuesday. |
+| Tue | Quiz | "What does 'do the needful' actually mean?" with joke answers. |
+| Wed | Question box | "Send us your corporate Hinglish phrase." Best ones go into the next Hinglish episode. |
+| Thu | Behind the scenes | Bloopers from filming the skits. Bloopers often travel further than the skit. |
+| Fri | Link sticker | Link to this week's YouTube video or companion page. |
 
-**Highlights:** Templates, How-tos, Bot vs no bot, Hinglish, Pricing.
+**Highlights:** Meeting characters, Corporate Hinglish, Street interviews, Intern vs Manager, Lynkk.
 
 ## LinkedIn company page: 4-week calendar (12 posts)
 
@@ -379,17 +408,16 @@
 - **Caption / post text:** Written for founders and first sales leaders.
 - **CTA:** Ask what they'd cut first.
 
-### LC2. From call to follow-up email, one real example
+### LC2. The "I'll keep it short" guy (LinkedIn cut)
 - **When:** Week 1, Thu
-- **Format:** Native video (60-90s, square, captions)
-- **Pillar:** Product
-- **From YouTube topic:** 19
-- **Hook:** First 3s on screen: "Discovery call ended at 2:00. Follow-up sent at 2:04."
+- **Format:** Native video (skit, 30-45s, captions)
+- **Pillar:** Comedy
+- **Hook:** First frame: "Him: 'I'll keep it short.'"
 - **Outline:**
-  - Screen recording: the note (summary, next steps), Ask Lynkk for the follow-up, edit, send
-  - Narration: you stay in control; nothing is sent without your review
-- **Caption / post text:** "Here's the whole workflow from one real discovery call (details changed)."
-- **CTA:** Link in the first comment to /use-cases/sales-calls.
+  - Same skit as Instagram IG1, recut square with burned-in captions
+  - Ends on the one-line Lynkk summary: "41 minutes. 1 line."
+- **Caption / post text:** "Every company has one. Ours is Rohan." Two lines, no pitch.
+- **CTA:** Ask people to tag their "I'll keep it short" colleague.
 
 ### LC3. AI notes in Microsoft Teams: what 10 seats really cost
 - **When:** Week 2, Tue
@@ -483,30 +511,30 @@
 - **Caption / post text:** Short and factual. No "free" anywhere.
 - **CTA:** Link in the first comment to /pricing.
 
-### LC8. What an AI meeting assistant does: before, during, after
+### LC8. Meeting red flags vs green flags
 - **When:** Week 4, Thu
-- **Format:** Image (single infographic)
-- **Pillar:** Category
-- **From YouTube topic:** 21
-- **Hook:** "An AI meeting assistant has three jobs, and most tools only do the last one."
+- **Format:** Document (PDF carousel)
+- **Pillar:** Comedy
+- **Hook:** "How many of these did your last meeting have?"
 - **Outline:**
-  - One graphic with three columns: before (context from past calls), during (record with a bot, Chrome or Mac; Spotter in early access), after (notes, action items, Jira, Slack)
-- **Caption / post text:** Post text explains one example per column in plain words.
-- **CTA:** Ask which of the three jobs matters most to them.
+  - LinkedIn version of Instagram IG12: 5 red flags, 4 green flags, one per page
+  - Last page: the green flag Lynkk handles (notes before you're back at your desk)
+- **Caption / post text:** Post text: "Count your red flags. Be honest."
+- **CTA:** Ask for their count in the comments.
 
 ## LinkedIn founder and team: 4-week calendar (12 posts)
 
-### LF1. The person taking notes isn't in the meeting
+### LF1. No agenda, no meeting
 - **When:** Week 1, Mon
 - **Format:** Text post
-- **Pillar:** Building Lynkk
-- **Hook:** "In every meeting there's one person who isn't really there. They're typing."
+- **Pillar:** Point of view
+- **Hook:** "We have one meeting rule at Lynkk: no agenda, no meeting. It cut our meetings by [X]%."
 - **Outline:**
-  - A specific moment from a real call where taking notes cost something
-  - Why we started Lynkk: let everyone be in the meeting
-  - One question for readers about who takes notes on their team
-- **Caption / post text:** 150-250 words, short paragraphs, no link.
-- **CTA:** End with a question.
+  - The meeting that made us start the rule (a real one)
+  - How the rule works in practice, and the one exception
+  - What changed (use a real number or drop the claim)
+- **Caption / post text:** 150-250 words, no link.
+- **CTA:** Ask for their team's one meeting rule.
 
 ### LF2. 17% of our search traffic is one boring question
 - **When:** Week 1, Wed
@@ -598,18 +626,17 @@
 - **Caption / post text:** Opinion post.
 - **CTA:** Ask if they trust vendor comparisons.
 
-### LF9. The question I ask before every customer call
+### LF9. Why a B2B company is posting meeting skits
 - **When:** Week 3, Fri
 - **Format:** Text post
-- **Pillar:** Sales craft
-- **From YouTube topic:** 8
-- **Hook:** "Before every customer call I ask one question: what did they tell us last time that we haven't acted on?"
+- **Pillar:** Building Lynkk
+- **Hook:** "We started posting comedy skits about meetings. Our investors asked if we were OK."
 - **Outline:**
-  - Why prep with past context beats a fresh CRM glance
-  - How we answer it with Ask Lynkk (sources included)
-  - A 2-minute prep routine anyone can copy
-- **Caption / post text:** Practical post.
-- **CTA:** Ask for their prep routine.
+  - Why: people share jokes, not product demos
+  - What the numbers said after 3 weeks (real numbers only)
+  - Behind the scenes: who plays the characters
+- **Caption / post text:** Build-in-public post. Add a blooper photo.
+- **CTA:** Ask which meeting character they are.
 
 ### LF10. What 3 months of Search Console taught a small SaaS
 - **When:** Week 4, Mon
