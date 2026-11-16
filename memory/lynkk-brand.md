@@ -13,21 +13,21 @@
 | Contact email | marketing@lynkk.ai |
 | Page title | Lynkk: AI Meeting Notes & Conversation Intelligence |
 | Category | AI meeting assistant / AI note taker / conversation intelligence / productivity |
-| Pricing model | Paid. No free plan (ended Nov 2026). Starter ₹0 = first 5 hours of AI notes; Pro $4 / ₹250 a month |
+| Pricing model | Paid only. Users must pay before using Lynkk (Nov 2026). Pro $4 / ₹250 a month; Enterprise custom |
 
-## Pricing (confirmed by the team, 2026-11-15)
+## Pricing (confirmed by the team, 2026-11-16)
 
-- **There is no free plan.** Never write "Start free", "free forever", "free plan" or "free AI note taker" about Lynkk.
-- **Starter (₹0):** for your first conversations. Unlimited notes up to 2 hours each, your first 5 hours of AI notes, 17 languages (Hinglish included), Mac app, Chrome extension and web app.
+- **Lynkk is paid only.** Users must pay before they can use the platform. There is no free plan, no free tier (the ₹0 Starter allowance has ended) and no free trial. Never write "Start free", "free forever", "free plan", "free trial", "5 hours free" or "free AI note taker" about Lynkk.
 - **Pro:** $4 a month (₹250 in India), launch price down from $15. Unlimited AI notes and Ask Lynkk.
 - **Enterprise:** custom price, set up on a call. Shared workspace for up to 10 people, everyone gets Pro, admins can ask across the whole workspace.
-- **CTA wording:** "Try 5 hours on us", "Start with 5 free hours", "Get Lynkk Pro, $4/mo".
+- **CTA wording:** "Get Lynkk Pro", "Get Lynkk Pro, $4/mo", "From $4 a month".
 - "Free" is still fine for things that are free: a free template, a competitor's free plan, Zoom's free plan.
-- To confirm: whether dictation and the audio meeting bot stay included on Starter, and whether Starter needs a card.
 
 ### Plan table (live homepage, "Find the right plan for the way you sell", 2026-11-15)
 
-| Feature | Starter (site still labels it "Free") | Pro | Enterprise |
+The live table still has a "Free" column. It should be removed: only Pro and Enterprise exist now.
+
+| Feature | Free (column to remove) | Pro | Enterprise |
 |---|---|---|---|
 | Notes | Unlimited | Unlimited | Unlimited |
 | AI notes | First 5 hours | Unlimited | Unlimited |
@@ -95,7 +95,7 @@
 - **Tagline (≤60 chars):** Your AI teammate for every meeting: before, during, after
 - **Short description (≤160 chars):** Lynkk joins your meetings, remembers everything, and turns every conversation into notes, action items, follow-up emails and Jira tickets.
 - **Long description:**
-  Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and records, and with Spotter (early access) you can ask for past context and get answers live. After the call, you get structured notes, assigned action items, a drafted follow-up email, Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Jira, Calendly, Cal.com, or anything via MCP. Try your first 5 hours of AI notes on us, then Pro is $4 a month.
+  Lynkk is one AI across the entire meeting lifecycle. Before a call, it surfaces context from past meetings: what was discussed, what's still open, and who said what. During the meeting, it joins and records, and with Spotter (early access) you can ask for past context and get answers live. After the call, you get structured notes, assigned action items, a drafted follow-up email, Jira tickets, and everything searchable in a knowledge graph. Lynkk records online and in-person conversations, is multilingual and offline-first, lets you choose the region where your data is processed, and connects to your calendar, Jira, Calendly, Cal.com, or anything via MCP. Lynkk Pro is $4 a month.
 - **Tags:** AI meeting assistant, AI note taker, meeting notes, conversation intelligence, transcription, productivity, sales, Jira, knowledge graph, MCP
 
 ## To confirm before submitting

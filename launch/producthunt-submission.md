@@ -57,7 +57,7 @@ Recommended: **Productivity**, **Artificial Intelligence**, **Meetings** (or **N
 Other relevant ones: Remote Work, Sales, Task Management, Developer Tools
 
 ## Pricing
-Paid, with a starter allowance: choose "Paid (with free trial or plan)" on Product Hunt. Starter is ₹0 for your first 5 hours of AI notes; Pro is $4 a month (₹250 in India). There is no free plan, so do not pick "Free".
+Paid: choose "Paid" on Product Hunt. Pro is $4 a month (₹250 in India); Enterprise is custom. Users must pay before using Lynkk, so do not pick "Free" or "Paid (with free trial or plan)".
 
 ---
 
@@ -81,11 +81,11 @@ Paid, with a starter allowance: choose "Paid (with free trial or plan)" on Produ
 > - **Pick your region.** Every model behind Lynkk runs from the region you choose, which matters if your legal team has opinions.
 > - **Connects to your stack**: calendar, Jira, Slack, or anything else via MCP.
 >
-> Your first 5 hours of AI notes are on us, then Pro is $4 a month. We'd love for you to try it on your next call and tell us where it falls short. We're here all day for questions, feature requests and hard ones. 🙏
+> Lynkk Pro is $4 a month. We'd love for you to try it on your next call and tell us where it falls short. We're here all day for questions, feature requests and hard ones. 🙏
 
 ## Short version of the first comment (if you want something tighter)
 
-> Hey PH 👋 Every AI notetaker shows up after the call. Lynkk is there for the whole thing: context from past meetings before, a live assistant you can ask mid-call (early access), and notes, action items, follow-ups and Jira tickets after. Works for in-person meetings too, multilingual, offline-first, and you pick the region your data is processed in. First 5 hours on us, then $4/mo. Tell us what breaks. 🙏
+> Hey PH 👋 Every AI notetaker shows up after the call. Lynkk is there for the whole thing: context from past meetings before, a live assistant you can ask mid-call (early access), and notes, action items, follow-ups and Jira tickets after. Works for in-person meetings too, multilingual, offline-first, and you pick the region your data is processed in. $4 a month. Tell us what breaks. 🙏
 
 ---
 
@@ -104,7 +104,7 @@ Product Hunt shows the first image everywhere, so make it count.
 
 ## Launch-day checklist
 
-- [x] Confirm pricing tiers so the pricing label is accurate (Starter ₹0 for 5 hours of AI notes, Pro $4 / ₹250 a month)
+- [x] Confirm pricing tiers so the pricing label is accurate (paid only: Pro $4 / ₹250 a month, Enterprise custom)
 - [ ] Logo: 240x240 square, PNG or JPG
 - [ ] Gallery images: 1270x760
 - [ ] Maker accounts claimed and added
