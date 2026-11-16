@@ -19,12 +19,16 @@ Pricing used throughout: **Pro** $4 a month (₹250 in India), **Enterprise** cu
 
 ## 1. Remove free-plan claims
 
-The live site still sells a free plan. Besides the header/footer button, **172 changes on 70 pages** are listed in the appendix (section 8). The most common ones:
+The live site still sells a free plan. Besides the header/footer button, **354 changes on 89 pages** are listed in the appendix (section 8). The most common ones:
 
 | Now | Where | Change to |
 |---|---|---|
 | Start for free (button) | Header and footer, all 126 pages (477 times) | **Get Lynkk Pro** |
 | Free (plan table column) | Homepage plan table | **Remove the column. Show Pro and Enterprise only.** |
+| Free plan card: Free · $0 · ₹0 / forever · For your first conversations. | Homepage, pricing | **Remove the card. Show Pro ($4 / ₹250 a month) and Enterprise only.** |
+| Lynkk · Free · $0 (row in "Pricing, side by side") | 12 compare pages | **Remove Lynkk's Free row. Keep Pro and Enterprise.** |
+| Free to start, on your Mac or in the browser ... Free includes the first 5 hours of AI notes. | 12 compare pages (sign-up block) | **Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes.** |
+| 5 hours of AI notes on the free plan · | Strip under the footer button, 25 pages | **Lynkk Pro from $4 a month ·** |
 | Start free with Lynkk | 19 blog posts | **Get Lynkk Pro, $4 a month** |
 | Sign up free. | 15 pages | **Get Lynkk Pro for $4 (₹250) a month.** |
 | There is no trial to run out: the free plan has no end date. | 12 compare pages | **Lynkk Pro is $4 a month (₹250 in India).** |
@@ -77,6 +81,7 @@ The live site still sells a free plan. Besides the header/footer button, **172 c
 | H2 | Start free today. Upgrade when you need more. | **Get Lynkk Pro for $4 a month.** |
 | New H2 | (new) | **How Lynkk's price compares with Otter, Fireflies, Fathom and Granola** |
 
+- Remove every Free section: the Free plan card ($0 / ₹0 / forever), "Free, really", "What Free keeps, for good", "After the 5 hours" with the "5 / 5 hours used" meter, "Still yours on Free", the Free column in the comparison table, "Free to Pro, in Settings", "Go back to Free", and the FAQ answers about Free ("No trial, because Free doesn't run out", "What happens to my notes if I go back to Free?", "No card needed"). Each line is in the appendix.
 - Comparison table: Lynkk Pro $4 vs Otter ($8.33), Fireflies ($10), Granola ($14), Fathom ($15-16), each row linking to that tool's pricing post and /compare page.
 - A cost row for a team of 10.
 
@@ -516,22 +521,37 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 
 ## 8. Appendix: every free-plan claim with replacement
 
-172 changes, page by page.
+354 changes, page by page.
+
+### `Site template (25 pages)`
+
+| Element | Now | Change to |
+|---|---|---|
+| Footer CTA strip | 5 hours of AI notes on the free plan · | Lynkk Pro from $4 a month · |
 
 ### `/`
 
 | Element | Now | Change to |
 |---|---|---|
 | Plan table | Free (column in "Find the right plan for the way you sell") | Remove the Free column. Show Pro and Enterprise only. |
+| Plan card / price table | Free · $0 · ₹0 / forever | Remove the Free plan card. Show Pro ($4 / ₹250 a month) and Enterprise only. |
 | Meta | Lynkk is the AI meeting assistant that takes notes on Zoom, Meet, Teams and in person, then drafts your follow-ups. 17 languages. Start free. | The AI meeting assistant for Zoom, Google Meet, Teams and in-person meetings. Notes, action items and follow-up emails after every call. From $4/mo. |
 | H2 | Pricing: a free AI note taker, Pro at $4₹250 a month | Lynkk Pro: $4 a month |
 | Body | Free stays free for everyone. | Remove (Lynkk has no free plan). |
+| Body | / forever | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | For your first conversations. | Remove (part of the Free plan card). |
+| Body | Your first 5 hours of AI notes | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Everything in Free | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | First 5 hours | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Unlimited notes, up to 2 hours each, and your first 5 hours of AI notes. No credit card is required. Pro adds unlimited summaries and Ask Lynkk across every call. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/pricing`
 
 | Element | Now | Change to |
 |---|---|---|
 | Title | Pricing: Free AI Meeting Notes, Pro at $4 a Month \| Lynkk | Lynkk Pricing: Pro at $4 a Month, Enterprise for Teams |
+| Plan card / price table | Free · $0 · ₹0 / forever | Remove the Free plan card. Show Pro ($4 / ₹250 a month) and Enterprise only. |
 | Meta | Lynkk is free for unlimited meeting notes and your first 5 hours of AI notes. Pro is $4 a month, with unlimited summaries and Ask Lynkk. | Lynkk Pro is $4 (₹250) a month for unlimited AI notes and Ask Lynkk. Enterprise gives teams of up to 10 a shared workspace. |
 | H1 | Lynkk pricing: free to start, $4₹250 a month for Pro. | Lynkk pricing: Pro at $4 a month, Enterprise for teams. |
 | H2 | Free has no time limit and no note count. | Pro: unlimited notes and AI notes for $4 a month. |
@@ -542,6 +562,28 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Body | Is Lynkk really free? | How much does Lynkk cost? |
 | Body | Is there a free trial of Pro? | Is there a free trial? |
 | Body | Lynkk pricing: free to start, | Lynkk pricing: Pro at $4 a month, |
+| Body | Every plan records and transcribes as many meetings as you like. Free includes your first 5 hours of AI notes. Pro removes that limit and adds Ask Lynkk, answers in Slack and more. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | forever | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Your first 5 hours of AI notes | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Everything in Free | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | No card needed for Free. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free, really | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Record every meeting you have, each up to 2 hours. Your first 5 hours of AI notes are included, and everything you record stays yours. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | What Free keeps, for good | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | After the 5 hours | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | The 5 hours count the length of the meetings Lynkk summarises, over the life of your account, not per month. Deleting notes doesn't give hours back. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | 5 / 5 hours used | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Still yours on Free | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | No note count · 5 hours of AI notes | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free and Pro | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | First 5 hours, in total | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to Pro, in Settings | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Go back to Free and every note, transcript, recording and summary stays where it is. Only the Pro features lock again. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free has no time limit, so there is nothing to trial. Use it for as long as you like, and upgrade when you want more. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Yes. Free has no time limit and no cap on notes. Record as many meetings as you like, each up to 2 hours, and keep every recording, transcript and search result. Your first 5 hours of AI notes are included. You don't need a card to sign up. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | New notes still record, transcribe and show up in search. They just don't get a summary or action items. The 5 hours count the length of the meetings Lynkk summarises, over the life of your account, and deleting notes doesn't give hours back. Upgrade to Pro and you can retry the summary on any of those notes. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | What happens to my notes if I go back to Free? | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | No card needed. Every meeting you record on Free stays yours. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog`
 
@@ -566,12 +608,16 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Body | Lynkk starts free, and Pro is | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Lynkk starts free, covers Zoom, Google Meet and in-person meetings as well as Teams, and lets you send tasks to Jira from the meeting. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
+| Body | No SSO on Free or Pro; workspaces of up to 10, Enterprise set up with the Lynkk team | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | You can get free AI notes in Teams without Copilot. Teams' own transcript costs nothing but has no summary. Fathom's free plan includes unlimited recordings and AI summaries, Otter's free plan gives 300 minutes a month, Fireflies has a free plan with 400 minutes of storage, and Lynkk's Free plan includes your first 5 hours of AI summaries. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Unlimited recordings up to 2 hours each, first 5 hours of AI summaries in total | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/ai-powered-meeting-assistants`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
+| Body | Unlimited notes up to 2 hours each; first 5 hours of AI summaries in total | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/ai-transcription-software`
 
@@ -579,12 +625,20 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 |---|---|---|
 | Body | Five tools in this guide have free transcription, each with a limit: Lynkk's Free plan, Otter's 300 minutes a month, Fireflies' free plan, Descript's hour a month, and Word Transcribe if you already pay for Microsoft 365. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | For meetings on Zoom, Teams, Google Meet and in person, Lynkk's Free plan records and transcribes unlimited notes and includes the meeting bot (audio) and your first 5 hours of AI summaries. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
+| Body | every plan records and transcribes unlimited notes, up to 2 hours each; Free includes your first 5 hours of AI summaries, and Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | For meetings on Zoom, Teams, Google Meet and in person, Lynkk's Free plan records and transcribes unlimited notes and includes the meeting bot (audio) and your first 5 hours of AI summaries. For files, Word Transcribe and Otter are the most generous. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/authors/samarth-wagh`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | Lynkk records Zoom with a free bot or no bot, even on free Zoom, while AI Companion needs a paid plan. | Lynkk records Zoom with a bot or no bot, even on free Zoom accounts, for $4 a month, while AI Companion needs a paid Zoom plan. |
+
+### `/blog/bant-sales-qualification`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | ), Ask Lynkk searches every call you have recorded, so "what did the buyer say about budget?" comes back with the answer and numbered sources. Lynkk does not sync with a CRM today, so you copy the summary into the deal record yourself. The free plan includes unlimited notes and your first 5 hours of AI summaries ( | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/best-ai-note-takers`
 
@@ -594,6 +648,7 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Body | Lynkk starts free, Pro is | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Try Lynkk free | Get Lynkk Pro |
 | Body | or no bot at all, Lynkk (free, Pro | or no bot at all, Lynkk (Pro |
+| Body | Free has unlimited notes of up to 2 hours each and the first 5 hours of AI summaries in total. Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/best-free-ai-note-takers`
 
@@ -608,12 +663,36 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Body | Lynkk's bot joins Teams on Free; see | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
 | Body | What can you do with Lynkk for free? | Remove (Lynkk has no free use). |
+| Body | A free AI note taker records your meetings and writes notes and action items at no cost, within limits on minutes, meetings or history. Fathom offers unlimited free recording for video calls, Otter gives 300 minutes a month, and Granola keeps 30 days of history. Lynkk's Free plan gives you unlimited notes of up to 2 hours each, your first 5 hours of | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | 2 hours per note, 5 hours of AI summaries in total | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | The Free plan gives you unlimited notes of up to 2 hours each and your first 5 hours of AI summaries in total, not per month. Every note has a transcript with speaker labels, in 17 languages, and you get search, the task board and Jira on Free. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Unlimited notes up to 2 hours each, 5 hours of AI summaries in total | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Every free AI note taker has a limit, so pick the one whose limit you will not hit. Lynkk's Free plan includes unlimited recording and transcripts, the meeting bot and your first 5 hours of AI summaries, and Pro at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
+### `/blog/best-mac-note-taking-app`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | with action items and decisions. On Pro, Ask Lynkk answers questions across every note with the minute behind each answer. Free includes unlimited recordings and the first 5 hours of AI notes, with Pro at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
+### `/blog/best-second-brain-apps`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | answers questions across every note and shows the note and minute behind each answer. Free includes unlimited recordings with the first 5 hours of AI notes, and Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
+### `/blog/board-meeting-agenda`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | . When the meeting ends you get a note with a summary, decisions, action items with owners and due dates, and a transcript with speaker labels. The free plan includes your first 5 hours of AI summaries; | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/call-coaching-software`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | Fathom has a free-forever plan for recording, with scorecards on its Business plan, and Lynkk's free plan records unlimited meetings with the first 5 hours of AI notes included. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
+| Body | Few coaching tools are fully free. Fathom has a free-forever plan for recording, with scorecards on its Business plan, and Lynkk's free plan records unlimited meetings with the first 5 hours of AI notes included. Gong and Clari Copilot have no free plan, and Avoma offers a 14-day trial instead. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/daily-standup-meeting`
 
@@ -626,12 +705,27 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Element | Now | Change to |
 |---|---|---|
 | Body | Fathom's free plan is the more generous of the two on summaries, since Lynkk Free stops summarizing after the first 5 hours. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
+| Body | app with one flat Pro price. Free is $0 with no card: unlimited notes of up to 2 hours each and the first 5 hours of AI summaries in total. Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
+### `/blog/fireflies-pricing`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | with no storage pool and no credits. Its free plan is $0 with no card: unlimited notes of up to 2 hours each and the first 5 hours of AI summaries in total. Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
+### `/blog/follow-up-email-after-meeting`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | records unlimited notes up to 2 hours each and includes your first 5 hours of AI summaries. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/founders-meeting-notes`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
+| Body | joins online calls on every plan (audio on Free), and the | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | You can start on the free plan, which records and transcribes unlimited notes and includes the first 5 hours of AI summaries; Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/gong-pricing`
 
@@ -644,6 +738,7 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Element | Now | Change to |
 |---|---|---|
 | Body | Lynkk records Zoom with a free bot or no bot, even on free Zoom, while AI Companion needs a paid plan. | Lynkk records Zoom with a bot or no bot, even on free Zoom accounts, for $4 a month, while AI Companion needs a paid Zoom plan. |
+| Body | you can send to Jira. On Pro, Ask Lynkk answers across all your meetings. Free covers unlimited notes of up to 2 hours each and your first 5 hours of AI summaries; Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/google-meet-transcript`
 
@@ -653,6 +748,7 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Body | Lynkk records Zoom with a free bot or no bot, even on free Zoom, while AI Companion needs a paid plan. | Lynkk records Zoom with a bot or no bot, even on free Zoom accounts, for $4 a month, while AI Companion needs a paid Zoom plan. |
 | Body | Lynkk's free plan records Google Meet with its meeting bot or Chrome extension and returns a transcript with speaker labels, plus your first 5 hours of AI summaries in total, with no Workspace plan needed. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
+| Body | Yes. A third-party note taker can transcribe the call instead. Lynkk's free plan records Google Meet with its meeting bot or Chrome extension and returns a transcript with speaker labels, plus your first 5 hours of AI summaries in total, with no Workspace plan needed. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/granola-ai-pricing`
 
@@ -660,6 +756,8 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 |---|---|---|
 | Body | Granola's free plan limits how long you keep notes; Lynkk's free plan keeps every note and limits AI summaries to the first 5 hours in total, so nothing disappears after 30 days. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Lynkk's free plan keeps every note with no time window and limits only AI summaries, to the first 5 hours. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
+| Body | you keep. Its free plan is $0 with no card: unlimited notes of up to 2 hours each, kept with no 30-day window, and the first 5 hours of AI summaries in total. Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | They leave your meeting history, so you can no longer look back at them on Basic. Upgrading to Business at $14 per user a month restores unlimited history. Lynkk's free plan keeps every note with no time window and limits only AI summaries, to the first 5 hours. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/hindi-transcription`
 
@@ -667,6 +765,8 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 |---|---|---|
 | Body | For meetings that mix Hindi and English, Lynkk's free plan has a | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | try Lynkk free | get Lynkk Pro |
+| Body | Unlimited transcripts, first 5 hours of AI summaries | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Lynkk covers 17 languages plus auto-detect, with Tamil, Telugu, Marathi and Bengali in beta. Every plan transcribes unlimited notes in every language; Free includes the first 5 hours of AI summaries, and Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/how-to-transcribe-zoom-meetings`
 
@@ -676,12 +776,20 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Body | Sign up free, | Get Lynkk Pro, |
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
 | Body | To transcribe Zoom meetings with Lynkk, sign up free, then connect Google Calendar or paste a Zoom link so the meeting bot joins. | To transcribe Zoom meetings with Lynkk, get Lynkk Pro ($4 a month), then connect Google Calendar or paste a Zoom link so the meeting bot joins. |
+| Body | joins as a visible participant named after you, on every plan (audio on Free, video on Pro). With no bot, the | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | handles speakers who switch languages mid-sentence. Free covers unlimited notes of up to 2 hours each and the first 5 hours of AI summaries in total; Pro, at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/legal-transcription-service`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | Lynkk is a flat plan instead: free, or | Lynkk is a flat plan instead: |
+
+### `/blog/medical-transcription-software`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | join (audio on Free, video on Pro) or record in the room. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/meeting-knowledge-management`
 
@@ -694,12 +802,20 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Element | Now | Change to |
 |---|---|---|
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
+| Body | joins online on every plan (audio on Free), and the Mac app records in-person meetings in the room. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/meeting-minutes-to-jira`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
+| Body | joins on every plan (audio on Free), or the Mac app records in the room with no bot. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
+### `/blog/meeting-notes-vs-minutes`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | , then gives you a summary, decisions, and action items with owners and due dates, plus a transcript with speaker labels. Turning them into approved minutes takes a quick review instead of an hour of typing. The free plan includes your first 5 hours of AI summaries; | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/meeting-preparation`
 
@@ -707,11 +823,18 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 |---|---|---|
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
 
+### `/blog/meeting-summary-template`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | includes your first 5 hours of AI summaries. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
 ### `/blog/one-on-one-meeting`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
+| Body | joins on every plan (audio on Free), or the | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/otter-ai-alternatives`
 
@@ -719,18 +842,22 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 |---|---|---|
 | Body | Start for free with Lynkk | Get Lynkk Pro, $4 a month |
 | Body | Try Lynkk free | Get Lynkk Pro |
+| Body | Free gives unlimited notes of up to 2 hours each, the meeting bot (audio) and your first 5 hours of AI summaries in total. Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Hunting for Otter AI alternatives that are free instead? Fathom gives unlimited recordings, and Lynkk gives unlimited notes with the task board and Jira send included, plus your first 5 hours of AI summaries. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/otter-ai-pricing`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | If you only want notes without metered minutes, Lynkk's free plan records unlimited notes up to 2 hours each. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
+| Body | that does not meter minutes. Its free plan is $0 with no card and records unlimited notes of up to 2 hours each, with the first 5 hours of AI summaries in total. Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/read-ai-vs-otter-ai`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | Try Lynkk free | Get Lynkk Pro |
+| Body | , Hinglish included. Free gives unlimited notes of up to 2 hours each and your first 5 hours of AI summaries in total, and | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/recruiting-interview-transcription`
 
@@ -743,12 +870,20 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Element | Now | Change to |
 |---|---|---|
 | Body | Lynkk's free plan covers unlimited recordings and the first 5 hours of AI notes. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
+| Body | , or without one from the Mac app, which also records a conversation across a table. Each call becomes a transcript, summary and action items, and on Pro, Ask Lynkk answers questions across every call with the minute behind each answer. Free includes unlimited recordings and the first 5 hours of AI notes, with Pro at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Fathom is the strongest free option, with a free-forever recording plan. Lynkk's free plan covers unlimited recordings and the first 5 hours of AI notes. Zoom includes local recording on its free tier with limits. Free plans usually restrict AI summaries, CRM sync or scorecards rather than the recording itself. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/sales-conversation-intelligence`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
+
+### `/blog/sales-enablement-tools`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | answers questions across all your notes with numbered sources. Lynkk does not sync with a CRM today, so you copy summaries into your CRM yourself. Free is $0 with unlimited notes and the first 5 hours of AI summaries; Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/zoom-ai-companion-alternatives`
 
@@ -758,6 +893,7 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Body | Lynkk starts free and covers Zoom, Teams, Google Meet and in-person meetings. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free | Get Lynkk Pro |
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
+| Body | Free is $0 with no card, unlimited notes up to 2 hours each, and the first 5 hours of AI summaries in total. Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/zoom-bot-join-meeting`
 
@@ -767,6 +903,7 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
 | Body | The Lynkk Zoom bot is free and records audio. | The Lynkk Zoom bot records audio. |
 | Body | The Lynkk Zoom bot is free on every plan and records audio in Zoom, Google Meet and Teams, with a live transcript during the call and notes afterward. | The Lynkk Zoom bot is included with Lynkk Pro and records audio in Zoom, Google Meet and Teams, with a live transcript during the call and notes afterward. |
+| Body | On Free, your first 5 hours of meetings get AI summaries; after that, meetings are still recorded, transcribed and searchable. Lynkk does not train AI models on your conversations. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/zoom-meeting-recorders`
 
@@ -775,6 +912,7 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Body | Lynkk records Zoom with a free bot or no bot, even on free Zoom, while AI Companion needs a paid plan. | Lynkk records Zoom with a bot or no bot, even on free Zoom accounts, for $4 a month, while AI Companion needs a paid Zoom plan. |
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
 | Body | That is the gap an AI Zoom meeting recorder fills, and Fathom and Lynkk both have free plans that work with free Zoom. | That is the gap an AI Zoom meeting recorder fills: Fathom has a free plan, and Lynkk costs $4 a month. Both work with free Zoom. |
+| Body | Free is $0 with no card: unlimited notes of up to 2 hours each and the first 5 hours of AI summaries in total. Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/blog/zoom-note-taker`
 
@@ -782,6 +920,8 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 |---|---|---|
 | Meta | Lynkk records Zoom with a free bot or no bot, even on free Zoom, while AI Companion needs a paid plan. Seven Zoom note takers with free limits and prices. | Lynkk records Zoom with a bot or no bot, even on free Zoom, from $4 a month, while AI Companion needs a paid plan. Seven Zoom note takers with prices. |
 | Body | Start free with Lynkk | Get Lynkk Pro, $4 a month |
+| Body | Free has unlimited notes of up to 2 hours each, the first 5 hours of AI summaries in total, the meeting bot (audio), tasks and Jira send. Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Unlimited notes up to 2 hours each; first 5 hours of AI summaries in total; meeting bot records audio | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/compare`
 
@@ -789,110 +929,178 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 |---|---|---|
 | Body | Is Lynkk free? | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Lynkk has a free plan that keeps recording, and puts asking across meetings in its | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | Notta has phone and Windows apps and file upload, and sells translation as an add-on. Lynkk has every language and Hinglish on every plan, and 2-hour notes on Free. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Yes. The free plan has unlimited notes of up to 2 hours each, the meeting bot (audio), the Mac app, the Chrome extension and every language, and AI notes for your first 5 hours of meetings. Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free and Pro, line by line. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Record a meeting the way you usually would, and read the note. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/compare/avoma`
 
 | Element | Now | Change to |
 |---|---|---|
+| Plan card / price table | Lynkk · Free · $0 | Remove Lynkk's Free row from the price table. Keep Pro ($4 a month) and Enterprise. |
 | Meta | Looking for an Avoma alternative? Compare Lynkk and Avoma on the free plan, add-ons, asking across meetings and in-person recording, as of October 2026. | Looking for an Avoma alternative? Compare Lynkk and Avoma on price, add-ons, asking across meetings and in-person recording, as of October 2026. |
 | H1 | Lynkk vs Avoma: an Avoma alternative with a free plan that keeps recording | Lynkk vs Avoma: an Avoma alternative from $4 a month, with in-person recording |
 | Body | Lynkk Free has no end date: unlimited notes of up to 2 hours, with AI notes for the first 5 hours in total. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
 | Body | There is no trial to run out: the free plan has no end date. | Lynkk Pro is $4 a month (₹250 in India). |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | After Avoma's 14-day trial, accounts drop to a Viewer role that cannot record. Lynkk Free has no end date: unlimited notes of up to 2 hours, with AI notes for the first 5 hours in total. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Unlimited notes, up to 2 hours each, and the first 5 hours of AI notes in total. The meeting bot (audio), the Mac app, the Chrome extension, the web app and every language. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Every plan has unlimited notes of up to 2 hours, and Free includes the first 5 hours of AI notes. | Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes. |
 
 ### `/compare/circleback`
 
 | Element | Now | Change to |
 |---|---|---|
+| Plan card / price table | Lynkk · Free · $0 | Remove Lynkk's Free row from the price table. Keep Pro ($4 a month) and Enterprise. |
 | Body | Lynkk's free plan has unlimited notes of up to 2 hours each, with AI notes for the first 5 hours in total. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Lynkk's free plan has unlimited notes too, but its AI notes stop after the first 5 hours in total. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
 | Body | There is no trial to run out: the free plan has no end date. | Lynkk Pro is $4 a month (₹250 in India). |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | Circleback's free plan writes notes for unlimited meetings and keeps 30 days of history. Lynkk's free plan has unlimited notes too, but its AI notes stop after the first 5 hours in total. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Circleback offers an API, MCP and a CLI, even on Free. Lynkk has no public API. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Unlimited notes, up to 2 hours each, and the first 5 hours of AI notes in total. The meeting bot (audio), the Mac app, the Chrome extension, the web app and every language. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Yes: unlimited meetings with 30 days of history on 2 teams. Lynkk's free plan has unlimited notes of up to 2 hours each, with AI notes for the first 5 hours in total. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Every plan has unlimited notes of up to 2 hours, and Free includes the first 5 hours of AI notes. | Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes. |
 
 ### `/compare/clari-copilot`
 
 | Element | Now | Change to |
 |---|---|---|
+| Plan card / price table | Lynkk · Free · $0 | Remove Lynkk's Free row from the price table. Keep Pro ($4 a month) and Enterprise. |
 | Body | Lynkk has a free plan that keeps recording, and puts asking across meetings in its | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
 | Body | There is no trial to run out: the free plan has no end date. | Lynkk Pro is $4 a month (₹250 in India). |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | Unlimited notes, up to 2 hours each, and the first 5 hours of AI notes in total. The meeting bot (audio), the Mac app, the Chrome extension, the web app and every language. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Yes. The free plan has unlimited notes of up to 2 hours each and AI notes for the first 5 hours in total, and it has no end date. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Every plan has unlimited notes of up to 2 hours, and Free includes the first 5 hours of AI notes. | Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes. |
 
 ### `/compare/fathom`
 
 | Element | Now | Change to |
 |---|---|---|
+| Plan card / price table | Lynkk · Free · $0 | Remove Lynkk's Free row from the price table. Keep Pro ($4 a month) and Enterprise. |
 | Body | Does Lynkk have a free plan like Fathom's? | Does Lynkk have a free plan like Fathom's? (Answer: no. Lynkk Pro is $4 a month.) |
 | Body | Lynkk has a free plan with unlimited notes of up to 2 hours each and the first 5 hours of AI notes in total. | Lynkk Pro ($4 / ₹250 a month) has unlimited notes and unlimited AI notes. |
 | Body | Lynkk's free plan has no cap on notes either, but its AI notes stop after the first 5 hours in total, while Fathom's advanced summaries come back every month. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
 | Body | There is no trial to run out: the free plan has no end date. | Lynkk Pro is $4 a month (₹250 in India). |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | Fathom's free plan records, transcribes and stores your calls without a monthly cap and keeps them until you delete them. Lynkk's free plan has no cap on notes either, but its AI notes stop after the first 5 hours in total, while Fathom's advanced summaries come back every month. If cost is the deciding factor and your calls are online, Fathom gives more for nothing. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Unlimited notes, up to 2 hours each, and the first 5 hours of AI notes in total. The meeting bot (audio), the Mac app, the Chrome extension, the web app and every language. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Lynkk has a free plan with unlimited notes of up to 2 hours each and the first 5 hours of AI notes in total. Past those hours a note still gets its recording, transcript and search, but no summary. Fathom's free plan records and stores calls without a monthly cap and gives advanced summaries on the first 5 calls every month, so over time it gives more summaries for free. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Every plan has unlimited notes of up to 2 hours, and Free includes the first 5 hours of AI notes. | Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes. |
 
 ### `/compare/fireflies`
 
 | Element | Now | Change to |
 |---|---|---|
+| Plan card / price table | Lynkk · Free · $0 | Remove Lynkk's Free row from the price table. Keep Pro ($4 a month) and Enterprise. |
 | Body | Lynkk's bot is on the free plan and records audio; video is Pro. | Lynkk's bot records audio; video recording is a Pro feature. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
 | Body | There is no trial to run out: the free plan has no end date. | Lynkk Pro is $4 a month (₹250 in India). |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | Unlimited notes, up to 2 hours each, and the first 5 hours of AI notes in total. The meeting bot (audio), the Mac app, the Chrome extension, the web app and every language. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Every plan has unlimited notes of up to 2 hours, and Free includes the first 5 hours of AI notes. | Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes. |
 
 ### `/compare/gong`
 
 | Element | Now | Change to |
 |---|---|---|
+| Plan card / price table | Lynkk · Free · $0 | Remove Lynkk's Free row from the price table. Keep Pro ($4 a month) and Enterprise. |
 | Body | Lynkk has a free plan that keeps recording, and puts asking across meetings in its | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free, with no sales call and no trial clock. | Get Lynkk Pro for $4 a month, with no sales call. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
 | Body | There is no trial to run out: the free plan has no end date. | Lynkk Pro is $4 a month (₹250 in India). |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | Unlimited notes, up to 2 hours each, and the first 5 hours of AI notes in total. The meeting bot (audio), the Mac app, the Chrome extension, the web app and every language. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Every plan has unlimited notes of up to 2 hours, and Free includes the first 5 hours of AI notes. | Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes. |
 
 ### `/compare/granola`
 
 | Element | Now | Change to |
 |---|---|---|
+| Plan card / price table | Lynkk · Free · $0 | Remove Lynkk's Free row from the price table. Keep Pro ($4 a month) and Enterprise. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
 | Body | There is no trial to run out: the free plan has no end date. | Lynkk Pro is $4 a month (₹250 in India). |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | Unlimited notes, up to 2 hours each, and the first 5 hours of AI notes in total. The meeting bot (audio), the Mac app, the Chrome extension, the web app and every language. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Every plan has unlimited notes of up to 2 hours, and Free includes the first 5 hours of AI notes. | Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes. |
 
 ### `/compare/meetgeek`
 
 | Element | Now | Change to |
 |---|---|---|
+| Plan card / price table | Lynkk · Free · $0 | Remove Lynkk's Free row from the price table. Keep Pro ($4 a month) and Enterprise. |
 | Meta | Looking for a MeetGeek alternative? Compare Lynkk and MeetGeek on languages, bot-free recording, free plans and asking across meetings, as of October 2026. | Looking for a MeetGeek alternative? Compare Lynkk and MeetGeek on languages, bot-free recording, price and asking across meetings, as of October 2026. |
 | Body | Lynkk Free has unlimited notes of up to 2 hours each, with AI notes for the first 5 hours in total. | Lynkk Pro ($4 / ₹250 a month) has unlimited notes and unlimited AI notes. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
 | Body | There is no trial to run out: the free plan has no end date. | Lynkk Pro is $4 a month (₹250 in India). |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | Lynkk Free has unlimited notes of up to 2 hours each, with AI notes for the first 5 hours in total. MeetGeek Free has 3 hours of transcription a month and keeps the audio for a month. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Unlimited notes, up to 2 hours each, and the first 5 hours of AI notes in total. The meeting bot (audio), the Mac app, the Chrome extension, the web app and every language. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Every plan has unlimited notes of up to 2 hours, and Free includes the first 5 hours of AI notes. | Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes. |
 
 ### `/compare/notta`
 
 | Element | Now | Change to |
 |---|---|---|
+| Plan card / price table | Lynkk · Free · $0 | Remove Lynkk's Free row from the price table. Keep Pro ($4 a month) and Enterprise. |
 | Meta | Looking for a Notta alternative? Compare Lynkk and Notta on languages, Hinglish, bot-free recording and the free plan, with both price lists as of October 2026. | Looking for a Notta alternative? Compare Lynkk and Notta on languages, Hinglish, bot-free recording and price, with both price lists as of October 2026. |
 | Body | Lynkk Free has unlimited notes of up to 2 hours each, with AI notes for the first 5 hours in total. | Lynkk Pro ($4 / ₹250 a month) has unlimited notes and unlimited AI notes. |
 | Body | Lynkk's free plan has unlimited notes of up to 2 hours each, and AI notes for the first 5 hours in total. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
 | Body | There is no trial to run out: the free plan has no end date. | Lynkk Pro is $4 a month (₹250 in India). |
+| Body | Longest note on Free | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | Lynkk Free has unlimited notes of up to 2 hours each, with AI notes for the first 5 hours in total. Notta's free plan stops each conversation at 3 minutes. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Unlimited notes, up to 2 hours each, and the first 5 hours of AI notes in total. The meeting bot (audio), the Mac app, the Chrome extension, the web app and every language. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | For short clips. Notta's free plan stops each conversation at 3 minutes. Lynkk's free plan has unlimited notes of up to 2 hours each, and AI notes for the first 5 hours in total. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Every plan has unlimited notes of up to 2 hours, and Free includes the first 5 hours of AI notes. | Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes. |
 
 ### `/compare/otter`
 
 | Element | Now | Change to |
 |---|---|---|
+| Plan card / price table | Lynkk · Free · $0 | Remove Lynkk's Free row from the price table. Keep Pro ($4 a month) and Enterprise. |
 | Body | Lynkk's free plan records unlimited meetings of up to 2 hours each, includes your first 5 hours of AI notes, and works with Zoom, Google Meet, Teams and in-person meetings. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
 | Body | There is no trial to run out: the free plan has no end date. | Lynkk Pro is $4 a month (₹250 in India). |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | Unlimited notes, up to 2 hours each, and the first 5 hours of AI notes in total. The meeting bot (audio), the Mac app, the Chrome extension, the web app and every language. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | a month and Otter Pro is $8.33. The plans limit different things: Otter counts minutes, while Lynkk gives every plan unlimited notes of up to 2 hours each and, on Free, counts the first 5 hours of AI notes in total. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Lynkk's free plan records unlimited meetings of up to 2 hours each, includes your first 5 hours of AI notes, and works with Zoom, Google Meet, Teams and in-person meetings. Pro is | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Every plan has unlimited notes of up to 2 hours, and Free includes the first 5 hours of AI notes. | Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes. |
 
 ### `/compare/plaud`
 
 | Element | Now | Change to |
 |---|---|---|
+| Plan card / price table | Lynkk · Free · $0 | Remove Lynkk's Free row from the price table. Keep Pro ($4 a month) and Enterprise. |
 | Body | Lynkk Free has unlimited notes and costs nothing. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
 | Body | There is no trial to run out: the free plan has no end date. | Lynkk Pro is $4 a month (₹250 in India). |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | Unlimited notes, up to 2 hours each, and the first 5 hours of AI notes in total. The meeting bot (audio), the Mac app, the Chrome extension, the web app and every language. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Lynkk counts notes, not minutes. Every plan has unlimited notes of up to 2 hours each, and Free includes AI notes for the first 5 hours in total. Plaud Pro gives 1,200 transcription minutes a month unless you pay for Unlimited. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Every plan has unlimited notes of up to 2 hours, and Free includes the first 5 hours of AI notes. | Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes. |
 
 ### `/compare/read-ai`
 
 | Element | Now | Change to |
 |---|---|---|
+| Plan card / price table | Lynkk · Free · $0 | Remove Lynkk's Free row from the price table. Keep Pro ($4 a month) and Enterprise. |
 | Body | Lynkk Free has unlimited notes of up to 2 hours each and AI notes for the first 5 hours in total; Read AI Free has 5 transcripts a month of up to 1 hour. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
 | Body | There is no trial to run out: the free plan has no end date. | Lynkk Pro is $4 a month (₹250 in India). |
+| Body | Unlimited notes, 2 hours per note, the first 5 hours of AI notes | No free plan. Pro: unlimited notes and AI notes, $4 a month |
+| Body | Unlimited notes, up to 2 hours each, and the first 5 hours of AI notes in total. The meeting bot (audio), the Mac app, the Chrome extension, the web app and every language. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | a month and Read AI Pro is $15. Lynkk Free has unlimited notes of up to 2 hours each and AI notes for the first 5 hours in total; Read AI Free has 5 transcripts a month of up to 1 hour. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Every plan has unlimited notes of up to 2 hours, and Free includes the first 5 hours of AI notes. | Lynkk Pro is $4 a month, on your Mac or in the browser, with unlimited notes and AI notes. |
 
 ### `/download`
 
@@ -906,12 +1114,23 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 |---|---|---|
 | Meta | Answers about Lynkk: the meeting bot, the Mac app, languages, what a note holds, Ask Lynkk, privacy, and what Free and Pro include. Search or browse by topic. | Answers about Lynkk: the meeting bot, the Mac app, languages, what a note holds, Ask Lynkk, privacy, and what Pro and Enterprise include. |
 | Body | There is no trial, because Free has no time limit. | There is no free plan or trial: Pro is $4 (₹250) a month. |
+| Body | or the browser. Your first 5 hours of AI notes are free, in total rather than per month. After that, new notes still get their recording, transcript and search, without the summary and action items. Free also has unlimited dictation on the Mac, every language, Jira send, share links and the full export. No card needed. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | . To cancel, open Settings, Account and press Manage subscription, which opens Paddle's billing page. Pro keeps running until the end of the period you paid for, and going back to Free deletes nothing. If a workspace pays for your Pro, the workspace owner handles billing. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. Record a meeting and see what Lynkk writes. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
+### `/features/action-items`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | Free for your first 5 hours of AI notes, then Pro at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Action items, the task board and Send to Jira work on the free plan, for meetings within your 5 hours of AI notes. Pro, at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/features/chrome-extension`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | Is the Lynkk Chrome extension free? | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
+| Body | Meet, Zoom, Teams · Audio only · Works on Free | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/features/dictation`
 
@@ -924,6 +1143,8 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Element | Now | Change to |
 |---|---|---|
 | Title | Hinglish Transcription Software for Meetings, Free \| Lynkk | Hinglish Transcription Software for Meetings \| Lynkk |
+| Body | Hinglish is on every plan, Free included, like every other language. The free plan writes AI notes for your first 5 hours of meetings. Pro, at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Every plan, Free included. Language is never a paid feature. The free plan records and transcribes unlimited notes and writes AI notes for your first 5 hours of meetings; Pro, at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/features/meeting-bot`
 
@@ -932,6 +1153,7 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Title | Free AI Meeting Bot for Zoom, Google Meet & Teams \| Lynkk | AI Meeting Bot for Zoom, Google Meet & Teams \| Lynkk |
 | H2 | Free, audio only | Audio only |
 | Body | Free, audio only | Audio only |
+| Body | The bot is on every plan. On the free plan it records audio, and your first 5 hours of meetings get AI notes and action items. After that, meetings are still recorded and transcribed, and you can search them, but no summary is written. Pro, at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/features/meeting-notes`
 
@@ -939,6 +1161,24 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 |---|---|---|
 | Meta | Lynkk's AI note taker writes your meeting notes when the call ends: AI summary, decisions, action items and minutes, online or in person. Start free. | Lynkk's AI note taker writes your meeting notes when the call ends: AI summary, decisions, action items and minutes, online or in person. From $4 a month. |
 | Body | Is Lynkk a free AI note taking app? | Is Lynkk free? (Answer: no. Lynkk Pro is $4 (₹250) a month.) |
+
+### `/features/multilingual-transcription`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | Every language is on every plan, Free included. Every plan records and transcribes unlimited notes in every language, Hinglish included, and the free plan writes AI notes for your first 5 hours of meetings. Pro, at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
+### `/integrations`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | Free to start, on your Mac or in the browser. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
+### `/integrations/google-calendar`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | Free to start. The notetaker joins your next Zoom, Meet or Teams meeting. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/integrations/google-meet`
 
@@ -949,6 +1189,15 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | H2 | Free AI note taker for Google Meet, on any Google account | AI note taker for Google Meet, on any Google account |
 | Body | Lynkk's free plan includes the notetaker for Meet (audio) and the Chrome extension, with unlimited notes of up to 2 hours each and the first 5 hours of AI notes. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
+| Body | Every Lynkk plan records and transcribes unlimited Meet calls, up to 2 hours each, in 17 languages with speaker labels. Free also writes AI notes for your first 5 hours of meetings: a summary, action items with owners and decisions. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Yes. Lynkk's free plan includes the notetaker for Meet (audio) and the Chrome extension, with unlimited notes of up to 2 hours each and the first 5 hours of AI notes. Pro, at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start. Connect Google Calendar and the notetaker joins your next Meet call. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
+### `/integrations/jira`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | Free to start. Send the action items from your next call. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/integrations/microsoft-teams`
 
@@ -958,6 +1207,9 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Body | Lynkk Free | Lynkk Pro ($4 a month) |
 | Body | Lynkk's free plan includes the notetaker for Teams (audio), unlimited notes of up to 2 hours each and the first 5 hours of AI notes. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
+| Body | Every plan records and transcribes unlimited Teams calls, up to 2 hours each, in 17 languages. Free also writes AI notes for your first 5 hours of meetings, with no Microsoft license and no admin setup. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Yes. Lynkk's free plan includes the notetaker for Teams (audio), unlimited notes of up to 2 hours each and the first 5 hours of AI notes. Pro, at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, with no Microsoft license needed. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/integrations/zoom`
 
@@ -969,6 +1221,11 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Body | Lynkk is a free AI note taker for Zoom. | Lynkk is an AI note taker for Zoom, from $4 a month. |
 | Body | Lynkk's free plan has unlimited notes of up to 2 hours each and the first 5 hours of AI notes, with no card needed, and it works on a free Zoom account. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
 | Body | Sign up free. | Get Lynkk Pro for $4 (₹250) a month. |
+| Body | Every plan records and transcribes unlimited Zoom calls, up to 2 hours each, in 17 languages. Free also writes AI notes for your first 5 hours of meetings, with no card needed. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | After the first 5 hours, calls are still recorded, transcribed and searchable. Pro, at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | No card needed. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Yes. Lynkk's free plan has unlimited notes of up to 2 hours each and the first 5 hours of AI notes, with no card needed, and it works on a free Zoom account. After that you keep the transcript and search. Pro, at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start. Record with no bot from your Mac, or let the notetaker join. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/meeting-and-dictation`
 
@@ -978,12 +1235,30 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Meta | Lynkk writes up your meetings and types what you say into any app on your Mac. Dictation is free on every plan, with unlimited words. | Lynkk writes up your meetings and types what you say into any app on your Mac. Dictation is included with Lynkk Pro, with unlimited words. |
 | H2 | Unlimited words. Free. | Unlimited words, included with Pro. |
 | Body | Is Lynkk dictation really free? | Is dictation included in Lynkk Pro? |
+| Body | A Mac with Apple silicon on macOS 14.2 (Sonoma) or later. The free plan also includes unlimited meeting notes and your first 5 hours of AI summaries. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
+### `/security`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | Free to start, on your Mac or in the browser. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/support`
 
 | Element | Now | Change to |
 |---|---|---|
 | Body | The agreement for using Lynkk, on Free and on Pro. | [REWRITE] Remove the free claim. Lynkk has no free plan or trial: Pro is $4 (₹250) a month. |
+| Body | Pro keeps running to the end of the period you paid for, and going back to Free deletes nothing. If a workspace pays for your Pro, there is no button: the workspace owner handles billing. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | On Free, the first 5 hours of AI notes are free, in total. After that, new notes still get their recording, transcript and search, without a summary or action items. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | If you're on Pro, or under the 5 hours, and a note still has no summary, write to us with its link. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | What Free includes and what Pro adds. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start, on your Mac or in the browser. If anything goes wrong, a person reads your email. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+
+### `/use-cases`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | Yes. The free plan includes 5 hours of AI notes and recordings of up to 2 hours each. Pro adds unlimited AI notes, Ask Lynkk across your notes and Summary Shapes. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
 ### `/use-cases/customer-research`
 
@@ -1039,4 +1314,11 @@ Create 6 blog hub pages at `/blog/topic/[hub]` (300-500 words plus a list of pos
 | Element | Now | Change to |
 |---|---|---|
 | Meta | Record user and customer interviews on a call or in person. Lynkk writes the transcript with speaker labels, the key points and open questions. Start free. | Record user and customer interviews on a call or in person. Lynkk writes the transcript with speaker labels, the key points and open questions. From $4 a month. |
+
+### `/web-app`
+
+| Element | Now | Change to |
+|---|---|---|
+| Body | Yes. Recording, transcripts, tasks and sharing are free, and the free plan includes 5 hours of AI notes. Pro, at | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
+| Body | Free to start. Read the note here when the meeting ends. | [REWRITE] Remove: this describes the old free plan. Lynkk Pro is $4 (₹250) a month with unlimited notes and AI notes. |
 
