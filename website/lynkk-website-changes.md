@@ -2,7 +2,7 @@
 
 Every recommended change to lynkk.ai in one place: what to change, why, and the new copy.
 Compiled 15 November 2026, updated 16 November 2026, from the Search Console export (14 Aug to 13 Nov), a crawl of all 126 sitemap URLs, Ubersuggest data and the live plan table.
-**Nothing here has been applied to the site yet.** Full copy for the 14 new pages is in section 11. The pricing page and the legal pages (terms, refund) are left out on purpose: they will be handled separately.
+**Nothing here has been applied to the site yet.** Full copy for the 14 new pages is in section 12. The pricing page and the legal pages (terms, refund) are left out on purpose: they will be handled separately.
 
 Pricing used throughout: **Pro** $4 a month (₹250 in India), **Enterprise** custom. Users must pay before they can use Lynkk: there is no free plan, free tier or free trial.
 
@@ -18,7 +18,8 @@ Pricing used throughout: **Pro** $4 a month (₹250 in India), **Enterprise** cu
 8. [Free to paid: service pages, find and replace](#8-free-to-paid-service-pages-find-and-replace)
 9. [Free to paid: blog posts, find and replace](#9-free-to-paid-blog-posts-find-and-replace)
 10. [Full blog rewrites](#10-full-blog-rewrites)
-11. [New page content](#11-new-page-content)
+11. [Homepage screenshot in listicle posts](#11-homepage-screenshot-in-listicle-posts)
+12. [New page content](#12-new-page-content)
 
 ## 1. Remove free-plan claims
 
@@ -336,7 +337,7 @@ Smaller title changes from the per-post table (section 5): ai-powered-meeting-as
 
 ## 4. New pages to create
 
-**Done: full page copy for all 14 pages is in section 11.** From the keyword plan, highest priority first. Projected clicks use Ubersuggest's click model at the target position, so treat them as a ranking of the work, not a forecast.
+**Done: full page copy for all 14 pages is in section 12.** From the keyword plan, highest priority first. Projected clicks use Ubersuggest's click model at the target position, so treat them as a ranking of the work, not a forecast.
 
 | Priority | New page | Hub | Target keywords (volume/mo, SD) | Clicks/mo at target |
 |---|---|---|---|---|
@@ -1677,7 +1678,7 @@ Lynkk has no free plan any more, so this post no longer ranks Lynkk as a free to
 
 - **URL:** keep `/blog/best-free-ai-note-takers` (it already exists; changing it loses what it has built up)
 - **Meta title (55 chars):** Best Free AI Note Takers in 2026: 7 Free Plans Compared
-- **Meta description (149 chars):** Free AI note taker plans compared: Fathom's unlimited recording, Otter's 300 minutes, Granola's 30-day history and 4 more, plus the cheapest upgrade.
+- **Meta description (150 chars):** Free AI note taker plans compared: Fathom's unlimited recording, Otter's 300 minutes, Granola's 30-day history and 4 more, plus the cheapest upgrade.
 - **Byline line:** By Samarth Wagh · 3 October 2026 · Updated 16 November 2026 · Competitor pricing checked 30 September 2026
 - **CTA buttons on this page:** "Download for Mac" and "Get Lynkk Pro, $4 a month" (replace "Start for free")
 
@@ -1879,8 +1880,8 @@ Every free AI note taker has a limit, so pick the one whose limit you will not h
 This post said Lynkk "starts free" in 10 places. Lynkk stays the #1 pick, now as a paid tool at $4 a month, which is still the cheapest paid option for Teams. The page also gets the fixes from the GSC deep dive: it has 2,309 impressions and 1 click at an average position of 20.4, so the title and meta are rewritten and the how-to section is renamed to match "how to add an AI note taker to Teams" searches. Microsoft and competitor facts are unchanged from the live post (checked 30 September 2026); recheck them before publishing.
 
 - **URL:** keep `/blog/ai-note-taker-microsoft-teams`
-- **Meta title (54 chars):** AI Note Taker for Microsoft Teams: 7 Picks, No Copilot
-- **Meta description (145 chars):** Copilot costs $30 a user. Compare Teams Premium recap, free Teams transcription, Otter, Fireflies, Fathom and Lynkk ($4/mo) for a 10-person team.
+- **Meta title (55 chars):** AI Note Taker for Microsoft Teams: 7 Picks, No Copilot
+- **Meta description (147 chars):** Copilot costs $30 a user. Compare Teams Premium recap, free Teams transcription, Otter, Fireflies, Fathom and Lynkk ($4/mo) for a 10-person team.
 - **Byline line:** By Samarth Wagh · 4 October 2026 · Updated 16 November 2026 · Pricing checked 30 September 2026
 - **CTA buttons on this page:** "Download for Mac" and "Get Lynkk Pro, $4 a month" (replace "Start for free")
 
@@ -2098,8 +2099,40 @@ Yes, Lynkk can. After a Teams meeting, open the note and send its action items t
 
 Microsoft's Teams AI features work well if you live entirely inside Microsoft 365 and can pay $30 per user per month. For everyone else, Lynkk Pro costs $4 a month, records Teams with or without a bot, lets you send action items from meetings to Jira, and covers Zoom, Google Meet and in-person meetings too. [Get Lynkk Pro](/pricing).
 
+## 11. Homepage screenshot in listicle posts
 
-## 11. New page content
+Add a screenshot of the Lynkk homepage to the Lynkk entry in every listicle (posts that rank several tools). It shows readers the product next to the competitors and makes the Lynkk entry stand out.
+
+- **Image file:** `seo/images/lynkk-homepage.png` (2880 x 1800, desktop homepage hero with the app preview).
+- **Wording on the image:** it already uses the paid wording ("Get Lynkk Pro", "From $4 a month") that the homepage will have after section 8. The live homepage still says "Start for free" and "No credit card", so do not screenshot the live page until section 8 is applied.
+- **Where:** directly under the Lynkk heading, before the first paragraph of the Lynkk entry.
+- **Alt text:** Lynkk homepage: the AI meeting assistant that turns conversations into follow-ups and action items, from $4 a month
+- **Caption:** Lynkk's homepage. Lynkk Pro is $4 a month (₹250 in India).
+- **File name on the site:** `lynkk-ai-meeting-assistant-homepage.png`, compressed to WebP under 200 KB, with width and height set so the page does not shift.
+
+| # | Blog post | Put the screenshot under this heading |
+|---|---|---|
+| 1 | /blog/ai-note-taker-microsoft-teams | 1. Lynkk (our product): best for Teams plus Zoom, Google Meet and in-person meetings (section 10.2) |
+| 2 | /blog/ai-transcription-software | 1. Lynkk (our product): best for meetings and in-person conversations |
+| 3 | /blog/ai-voice-recorders | 1. Lynkk (our product): best for in-person and online meetings in one place |
+| 4 | /blog/best-ai-note-takers | 1. Lynkk (our product): best for notes before, during and after the call |
+| 5 | /blog/best-free-ai-note-takers | Outgrown your free plan? Lynkk Pro is $4 a month (section 10.1) |
+| 6 | /blog/best-mac-note-taking-app | 7. Lynkk: best for notes you don't type |
+| 7 | /blog/best-second-brain-apps | 7. Lynkk: best for making meetings part of your second brain |
+| 8 | /blog/call-coaching-software | 5. Lynkk: best for small teams that coach from recordings |
+| 9 | /blog/google-meet-ai-note-taker | 1. Lynkk (our product): best for Hindi and Hinglish meetings |
+| 10 | /blog/otter-ai-alternatives | 1. Lynkk (our product): best for notes, tasks and Jira from every meeting |
+| 11 | /blog/sales-call-recording-software | 6. Lynkk: best for calls and in-person meetings |
+| 12 | /blog/transcribe-audio-to-text | 5. Lynkk (our product): best for meetings you have not recorded yet |
+| 13 | /blog/voice-to-text-apps | 1. Lynkk (our product): best for dictation in any Mac app plus meeting notes |
+| 14 | /blog/zoom-ai-companion-alternatives | 1. Lynkk (our product): best for free Zoom accounts and calls logged in your CRM (heading changes once CRM is confirmed) |
+| 15 | /blog/zoom-meeting-recorders | 1. Lynkk (our product): best for recording Zoom with or without a bot |
+| 16 | /blog/zoom-note-taker | 1. Lynkk (our product): best for capturing Zoom with or without a bot |
+| 17 | /blog/ai-note-taker-in-person-meetings (new, section 12.11) | 1. Lynkk: best for in-person meetings on a Mac |
+| 18 | /blog/granola-alternatives (new, section 12.12) | 1. Lynkk: best low-cost Granola alternative |
+| 19 | /blog/gong-alternatives (new, section 12.14) | 6. Lynkk: call notes and follow-up emails for $4 |
+
+## 12. New page content
 
 Full copy for the 14 new pages planned in section 4, ready to paste, in priority order. Each page follows the outline and target keywords in section 4 and the linking rules in section 6.
 
@@ -2109,26 +2142,27 @@ Full copy for the 14 new pages planned in section 4, ready to paste, in priority
 - **Recheck platform steps.** The Microsoft Teams and Google Meet steps follow Microsoft Support and Google Meet Help as of November 2026. Menu names change often: click through each step once and add screenshots.
 - **Lynkk facts** match the rest of this document: Lynkk Pro $4 a month (₹250 in India), Enterprise custom, no free plan or trial, no CRM sync yet, Google Calendar only, no phone app.
 - **Byline and buttons:** "By Samarth Wagh · [publish date] · Pricing checked [date]". CTA buttons on every page: "Download for Mac" and "Get Lynkk Pro, $4 a month".
+- **Homepage screenshot:** three of these pages are listicles with a Lynkk entry (12.11, 12.12, 12.14). Add the homepage screenshot from section 11 under the Lynkk heading, as listed in the section 11 table.
 - **Hub links:** add each page to its hub list (section 6) and link to it from the posts named under "Link to this page from".
 
 | # | Page | Hub | Priority |
 |---|---|---|---|
-| 11.1 | `/blog/sales-follow-up-email` | Sales meetings | P1 |
-| 11.2 | `/blog/meeting-notes-template` | Meeting templates | P1 |
-| 11.3 | `/blog/how-to-record-teams-meeting` | Meeting platform guides | P1 |
-| 11.4 | `/blog/jamie-ai-review` | Compare tools | P1 |
-| 11.5 | `/blog/granola-vs-otter` | Compare tools | P1 |
-| 11.6 | `/blog/granola-vs-fathom` | Compare tools | P1 |
-| 11.7 | `/blog/how-to-record-google-meet` | Meeting platform guides | P2 |
-| 11.8 | `/blog/teams-transcript` | Meeting platform guides | P2 |
-| 11.9 | `/blog/read-ai-pricing` | Compare tools | P2 |
-| 11.10 | `/blog/fireflies-vs-otter` | Compare tools | P2 |
-| 11.11 | `/blog/ai-note-taker-in-person-meetings` | AI note takers | P2 |
-| 11.12 | `/blog/granola-alternatives` | Compare tools | P2 |
-| 11.13 | `/blog/fathom-vs-otter` | Compare tools | P2 |
-| 11.14 | `/blog/gong-alternatives` | Sales meetings | P2 |
+| 12.1 | `/blog/sales-follow-up-email` | Sales meetings | P1 |
+| 12.2 | `/blog/meeting-notes-template` | Meeting templates | P1 |
+| 12.3 | `/blog/how-to-record-teams-meeting` | Meeting platform guides | P1 |
+| 12.4 | `/blog/jamie-ai-review` | Compare tools | P1 |
+| 12.5 | `/blog/granola-vs-otter` | Compare tools | P1 |
+| 12.6 | `/blog/granola-vs-fathom` | Compare tools | P1 |
+| 12.7 | `/blog/how-to-record-google-meet` | Meeting platform guides | P2 |
+| 12.8 | `/blog/teams-transcript` | Meeting platform guides | P2 |
+| 12.9 | `/blog/read-ai-pricing` | Compare tools | P2 |
+| 12.10 | `/blog/fireflies-vs-otter` | Compare tools | P2 |
+| 12.11 | `/blog/ai-note-taker-in-person-meetings` | AI note takers | P2 |
+| 12.12 | `/blog/granola-alternatives` | Compare tools | P2 |
+| 12.13 | `/blog/fathom-vs-otter` | Compare tools | P2 |
+| 12.14 | `/blog/gong-alternatives` | Sales meetings | P2 |
 
-### 11.1 `/blog/sales-follow-up-email`
+### 12.1 `/blog/sales-follow-up-email`
 
 - **Meta title (55 chars):** Sales Follow-Up Email: 12 Templates for Every Call Type
 - **Meta description (156 chars):** Copy 12 sales follow-up email templates for discovery calls, demos, pricing calls and proposals with no reply, plus subject lines and when to send each one.
@@ -2386,7 +2420,7 @@ Yes, if it works from what was actually said. A generic AI writer guesses; a mee
 
 A good sales follow-up email is fast, short and specific: send it within 24 hours, recap the buyer's problem in their words and end with a dated next step. Copy the template that fits your call above, or let Lynkk draft it from your call notes for $4 a month. [Get Lynkk Pro](/pricing).
 
-### 11.2 `/blog/meeting-notes-template`
+### 12.2 `/blog/meeting-notes-template`
 
 - **Meta title (53 chars):** Meeting Notes Template: 6 Free Formats to Copy (2026)
 - **Meta description (154 chars):** Copy a free meeting notes template for team meetings, 1:1s, projects, clients and boards, with Google Docs, Word and Notion versions and a filled example.
@@ -2637,7 +2671,7 @@ Write in short bullet points, record outcomes rather than discussion, and use th
 
 Copy the general template for most meetings, or the project, team, 1:1, client or board version when you need more structure. The parts that matter most are decisions and action items with owners. If you would rather take part than take notes, Lynkk fills in the template for you after every meeting, from $4 a month. [Get Lynkk Pro](/pricing).
 
-### 11.3 `/blog/how-to-record-teams-meeting`
+### 12.3 `/blog/how-to-record-teams-meeting`
 
 - **Meta title (59 chars):** How to Record a Teams Meeting: Steps, Where It Saves, Fixes
 - **Meta description (142 chars):** Record a Teams meeting in 3 clicks on desktop, web or phone, find the recording in OneDrive or SharePoint, and fix a greyed-out Record button.
@@ -2751,7 +2785,7 @@ Usually, yes. Starting a recording also starts the transcript if your admin allo
 
 Recording a Teams meeting takes three clicks: **More actions**, **Record and transcribe**, **Start recording**. The recording lands in OneDrive or SharePoint and in the meeting chat. If you want the notes and action items, not just the video, Lynkk records Teams with or without a bot for $4 a month. [Get Lynkk Pro](/pricing).
 
-### 11.4 `/blog/jamie-ai-review`
+### 12.4 `/blog/jamie-ai-review`
 
 - **Meta title (58 chars):** Jamie AI Note Taker Review (2026): Bot-Free, But Worth It?
 - **Meta description (155 chars):** Jamie records meetings without a bot and keeps data in the EU. Our review covers the free plan's 30-minute limit, paid prices, pros, cons and alternatives.
@@ -2859,7 +2893,7 @@ For bot-free notes at a lower price, Lynkk Pro is $4 a month and records without
 
 Jamie is a solid bot-free note taker with EU data hosting, held back by a 30-minute free plan and a paid price that starts around €25 a month. If you want bot-free recording plus a meeting bot, 17 languages and Jira, Lynkk Pro does it for $4 a month. [Get Lynkk Pro](/pricing).
 
-### 11.5 `/blog/granola-vs-otter`
+### 12.5 `/blog/granola-vs-otter`
 
 - **Meta title (50 chars):** Granola vs Otter (2026): Which AI Note Taker Wins?
 - **Meta description (154 chars):** Granola writes notes with no bot; Otter gives you a live transcript. Compare capture, free plans, prices for a team of 10 and which one fits how you meet.
@@ -2946,7 +2980,7 @@ Yes, both. Granola records on your computer or phone, and Otter records in its m
 
 Granola is the pick for bot-free notes written around your own; Otter is the pick for a live transcript and a bot that covers missed meetings. If you want both ways of recording, 17 languages and Jira in one tool, Lynkk Pro is $4 a month. [Get Lynkk Pro](/pricing).
 
-### 11.6 `/blog/granola-vs-fathom`
+### 12.6 `/blog/granola-vs-fathom`
 
 - **Meta title (52 chars):** Granola vs Fathom (2026): Bot-Free Notes vs Free Bot
 - **Meta description (151 chars):** Granola records with no bot; Fathom sends a free bot with unlimited recordings. Compare capture, free plans, CRM, team prices and the best fit for you.
@@ -3031,7 +3065,7 @@ On free plans, Fathom gives more: unlimited recordings with no history limit. On
 
 Fathom wins on its free plan and for video calls; Granola wins on bot-free, in-person and self-written notes. If you want both bot and no-bot recording, unlimited history, 17 languages and Jira for $4 a month, try Lynkk. [Get Lynkk Pro](/pricing).
 
-### 11.7 `/blog/how-to-record-google-meet`
+### 12.7 `/blog/how-to-record-google-meet`
 
 - **Meta title (57 chars):** How to Record a Google Meet: Steps, Where It Saves, Fixes
 - **Meta description (153 chars):** Record a Google Meet call in 3 clicks, find it in Google Drive, and fix a missing Record button. Plus how to record Google Meet without a Workspace plan.
@@ -3134,7 +3168,7 @@ Open the organizer's Google Drive and look in the **Meet Recordings** folder, or
 
 Recording a Google Meet takes three clicks, **Activities**, **Recording**, **Start recording**, but only on a Workspace plan that includes it. The file lands in the organizer's Drive. To record on any account and get the notes too, Lynkk Pro is $4 a month. [Get Lynkk Pro](/pricing).
 
-### 11.8 `/blog/teams-transcript`
+### 12.8 `/blog/teams-transcript`
 
 - **Meta title (56 chars):** Teams Meeting Transcript: How to Turn On, Find, Download
 - **Meta description (154 chars):** Start a Microsoft Teams transcript in 2 clicks, find it in the Recap tab, download it as Word or VTT, and fix a missing transcript. Step by step for 2026.
@@ -3229,7 +3263,7 @@ Open the meeting's **Recap**, select **Transcript**, then **Download** and **Dow
 
 Teams transcription is free and takes two clicks to start: **Record and transcribe**, **Start transcription**. Find it in the Recap tab and download it as Word or VTT. If you want the summary and action items without a Copilot license, Lynkk Pro does it for $4 a month. [Get Lynkk Pro](/pricing).
 
-### 11.9 `/blog/read-ai-pricing`
+### 12.9 `/blog/read-ai-pricing`
 
 - **Meta title (51 chars):** Read AI Pricing (Nov 2026): Free, $15, $22.50 Plans
 - **Meta description (153 chars):** Read AI is free for 5 meetings a month. Pro is $15, Enterprise $22.50 and Enterprise+ $29.75 per user a month, billed yearly. Every limit and team costs.
@@ -3317,7 +3351,7 @@ Lynkk Pro at $4 a month, Otter Pro at $8.33 and Fireflies Pro at $10 per user pe
 
 Read AI is free for 5 meetings a month and costs $15 to $29.75 per user per month on paid plans billed yearly. It is worth it for meeting analytics; for notes, tasks and answers across calls, Lynkk Pro does it for $4 a month. [Get Lynkk Pro](/pricing).
 
-### 11.10 `/blog/fireflies-vs-otter`
+### 12.10 `/blog/fireflies-vs-otter`
 
 - **Meta title (52 chars):** Fireflies vs Otter (2026): Features, Prices, Verdict
 - **Meta description (151 chars):** Fireflies builds a searchable call library in 100+ languages; Otter gives a live transcript. Compare free plans, limits, team prices and the best pick.
@@ -3403,7 +3437,7 @@ Fireflies, with 100+ languages. Otter supports English, Spanish and French.
 
 Otter is the pick for live transcripts in English at the lowest price; Fireflies is the pick for a searchable call library in many languages. If you want bot and no-bot recording, in-person meetings and Jira for $4 a month, try Lynkk. [Get Lynkk Pro](/pricing).
 
-### 11.11 `/blog/ai-note-taker-in-person-meetings`
+### 12.11 `/blog/ai-note-taker-in-person-meetings`
 
 - **Meta title (55 chars):** AI Note Taker for In-Person Meetings: 6 Tools That Work
 - **Meta description (153 chars):** Yes, AI note takers work in person. Compare 6 apps and devices that record a room, label speakers and write notes, plus tips for clear audio in meetings.
@@ -3509,7 +3543,7 @@ On a Mac, Lynkk ($4 a month) records the room offline in 17 languages and covers
 
 AI note takers work in person when they have a good microphone in the middle of the table. Pick by your device: Lynkk on a Mac, Otter or Granola on a phone, Plaud as a separate recorder. For one account that covers in-person and online meetings for $4 a month, try Lynkk. [Get Lynkk Pro](/pricing).
 
-### 11.12 `/blog/granola-alternatives`
+### 12.12 `/blog/granola-alternatives`
 
 - **Meta title (52 chars):** 7 Granola Alternatives (2026): Cheaper, With History
 - **Meta description (157 chars):** Granola's free plan hides notes after 30 days and Business is $14. Compare 7 Granola alternatives on bot-free recording, history limits, languages and price.
@@ -3603,7 +3637,7 @@ Yes, Granola runs on Mac and Windows, plus iPhone and Android. Lynkk's desktop a
 
 Granola is a good bot-free note taker, but its free plan hides old notes and its paid plans start at $14. Lynkk gives you bot-free recording, a meeting bot and unlimited history for $4 a month. [Get Lynkk Pro](/pricing).
 
-### 11.13 `/blog/fathom-vs-otter`
+### 12.13 `/blog/fathom-vs-otter`
 
 - **Meta title (51 chars):** Fathom vs Otter (2026): Free Plans, Prices, Verdict
 - **Meta description (152 chars):** Fathom records unlimited calls free; Otter gives 300 minutes and a live transcript. Compare free plans, paid prices, in-person recording and team costs.
@@ -3685,7 +3719,7 @@ No. Fathom is built for Zoom, Google Meet and Teams calls. For in-person meeting
 
 Fathom is the free pick for video calls; Otter is the pick for live transcripts and in-person recording on a phone. For bot and no-bot recording, in-person meetings on a Mac and Jira for $4 a month, try Lynkk. [Get Lynkk Pro](/pricing).
 
-### 11.14 `/blog/gong-alternatives`
+### 12.14 `/blog/gong-alternatives`
 
 - **Meta title (48 chars):** 7 Gong Alternatives for Small Sales Teams (2026)
 - **Meta description (149 chars):** Gong has no public price and needs an annual contract. Compare 7 Gong alternatives for small sales teams on call notes, coaching, CRM sync and price.
