@@ -2,7 +2,7 @@
 
 Lynkk is paid only: no free plan, free tier or free trial. Lynkk Pro is $4 a month (₹250 in India) and Enterprise is priced on a call.
 
-**55 pages, 349 changes**, plus the site-wide fixes below. Blog posts are in `blogs-free-to-paid.md`.
+**52 pages, 308 changes**, plus the site-wide fixes below. Blog posts are in `blogs-free-to-paid.md`. The pricing page and the legal pages (terms, refund) are left out on purpose and will be handled separately.
 
 For each page, find the text in the "Find" column and replace it with the "Replace with" column. Some lines are fragments: replace exactly that text and leave the words around it. "…" means the sentence continues unchanged.
 
@@ -18,11 +18,10 @@ For each page, find the text in the "Find" column and replace it with the "Repla
 
 ## Confirm before publishing
 
-- **Cancelling Pro:** the pricing, FAQ and support pages promise that "going back to Free deletes nothing". With no free plan, the team needs to decide what happens to a user's notes after they cancel. Those lines are marked [Confirm first].
-- **Annual price:** pricing and compare pages say "$40 a year (₹2,500), two months free" and "2 months free" on the Yearly toggle. Keep only if the annual plan is still sold. ("Two months free" here is a discount, not a free plan, so it is fine if the plan exists.)
+- **Cancelling Pro:** the FAQ and support pages promise that "going back to Free deletes nothing". With no free plan, the team needs to decide what happens to a user's notes after they cancel. Those lines are marked [Confirm first].
+- **Annual price:** compare pages and the FAQ say "$40 a year (₹2,500), two months free" and "2 months free" on the Yearly toggle. Keep only if the annual plan is still sold. ("Two months free" here is a discount, not a free plan, so it is fine if the plan exists.)
 - **Meeting video:** Pro included video from the bot, and only Pro is left, so the bot labels now say "audio and video". Check this is right.
 - **CRM:** the CRM integration pages and the integrations hub say calls are logged in the CRM, but the plan table lists CRM sync as "Not yet".
-- **Terms and refund pages:** both still describe a Free plan. These need legal review, not copy edits.
 
 ## Homepage
 
@@ -48,52 +47,7 @@ For each page, find the text in the "Find" column and replace it with the "Repla
 | FAQ question | What’s included in the free plan? | What’s included in Lynkk Pro? |
 | FAQ answer | …record from the Chrome extension with no bot, or let the Mac app notice the call. The bot is on the free plan. | …record from the Chrome extension with no bot, or let the Mac app notice the call. The bot is included with Lynkk Pro. |
 
-## Pricing and core pages
-
-### /pricing
-
-38 changes · https://lynkk.ai/pricing
-
-| Where | Find | Replace with |
-|---|---|---|
-| Title | Pricing: Free AI Meeting Notes, Pro at $4 a Month \| Lynkk | Lynkk Pricing: Pro at $4 a Month, Enterprise for Teams |
-| Plan card / price table | Free · $0 · ₹0 / forever | Remove the Free plan card. Show Pro ($4 / ₹250 a month) and Enterprise only. |
-| Meta | Lynkk is free for unlimited meeting notes and your first 5 hours of AI notes. Pro is $4 a month, with unlimited summaries and Ask Lynkk. | Lynkk Pro is $4 (₹250) a month for unlimited AI notes and Ask Lynkk. Enterprise gives teams of up to 10 a shared workspace. |
-| H1 | Lynkk pricing: free to start, $4₹250 a month for Pro. | Lynkk pricing: Pro at $4 a month, Enterprise for teams. |
-| H2 | Free has no time limit and no note count. | Pro: unlimited notes and AI notes for $4 a month. |
-| H2 | Free and Pro, line by line. | Pro and Enterprise, line by line. |
-| H2 | Start free today. Upgrade when you need more. | Get Lynkk Pro for $4 a month. |
-| Body | Free has no time limit and no cap on notes. | Remove (Lynkk has no free plan). |
-| Body | Free has no time limit, so there is nothing to trial. | Remove (Lynkk has no free plan). |
-| Body | Is Lynkk really free? | How much does Lynkk cost? |
-| Body | Is there a free trial of Pro? | Is there a free trial? |
-| Body | Lynkk pricing: free to start, | Lynkk pricing: Pro at $4 a month, |
-| Body | Every plan records and transcribes as many meetings as you like. Free includes your first 5 hours of AI notes. Pro removes that limit and adds Ask Lynkk, answers in Slack and more. | Lynkk Pro records and transcribes as many meetings as you like, with unlimited AI notes, Ask Lynkk, answers in Slack and more. |
-| Body | forever | Remove (text of the Lynkk Free plan card, which is removed). |
-| Body | Your first 5 hours of AI notes | Remove (text of the Lynkk Free plan card, which is removed). |
-| Body | Everything in Free | Unlimited notes, up to 2 hours each, the meeting bot, every language, search, the Tasks board and Jira |
-| Body | No card needed for Free. | Remove. |
-| Body | Free, really | Lynkk Pro |
-| Body | Record every meeting you have, each up to 2 hours. Your first 5 hours of AI notes are included, and everything you record stays yours. | Record every meeting you have, each up to 2 hours. Every meeting gets AI notes, and everything you record stays yours. |
-| Body | What Free keeps, for good | What Pro includes |
-| Body | After the 5 hours | Remove this block. |
-| Body | The 5 hours count the length of the meetings Lynkk summarises, over the life of your account, not per month. Deleting notes doesn't give hours back. | Remove this block. |
-| Body | 5 / 5 hours used | Remove the AI-notes usage meter illustration ("5 / 5 hours used", "AI notes paused"). |
-| Body | Still yours on Free | Remove (part of the usage meter illustration). |
-| Body | No note count · 5 hours of AI notes | Remove (part of the usage meter illustration). |
-| Body | Free and Pro | Pro and Enterprise |
-| Body | First 5 hours, in total | Remove (Free column of the plan table). |
-| Body | Free to Pro, in Settings | Pro, in Settings |
-| Body | Go back to Free and every note, transcript, recording and summary stays where it is. Only the Pro features lock again. | [Confirm first] Remove for now. Replace once the team confirms what happens to a user's notes when Pro is cancelled, since Lynkk now blocks use without payment. |
-| Body | Free has no time limit, so there is nothing to trial. Use it for as long as you like, and upgrade when you want more. | Lynkk has no free plan or trial. Pro is $4 a month, and your first payment has a 7-day money-back guarantee. |
-| Body | Yes. Free has no time limit and no cap on notes. Record as many meetings as you like, each up to 2 hours, and keep every recording, transcript and search result. Your first 5 hours of AI notes are included. You don't need a card to sign up. | Lynkk Pro is $4 a month (₹250 in India), a launch price down from $15. It records as many meetings as you like, each up to 2 hours, with unlimited AI notes. Enterprise is priced on a call. |
-| Body | New notes still record, transcribe and show up in search. They just don't get a summary or action items. The 5 hours count the length of the meetings Lynkk summarises, over the life of your account, and deleting notes doesn't give hours back. Upgrade to Pro and you can retry the summary on any of those notes. | Remove this question and answer. |
-| Body | What happens to my notes if I go back to Free? | What happens to my notes if I cancel Pro? [Confirm first] Remove for now. Replace once the team confirms what happens to a user's notes when Pro is cancelled, since Lynkk now blocks use without payment. |
-| Body | No card needed. Every meeting you record on Free stays yours. | Get Lynkk Pro for $4 a month. |
-| Heading | No trial, because Free doesn't run out | No free trial |
-| FAQ question | What happens after the 5 free hours of AI notes? | Remove this question and its answer. |
-| FAQ answer (free trial question) | No, because Free doesn't run out. Use Free for as long as you like, and upgrade when you want unlimited summaries, Ask Lynkk or answers in Slack. If Pro isn't for you, you can ask for a full refund within 7 days of your first payment. | No. Lynkk has no free plan or trial. If Pro isn't for you, you can ask for a full refund within 7 days of your first payment. |
-| Body | Dictation is free on every plan, with everything included. Every plan records every recording up to 2 hours, and nothing is deleted when a plan changes. | Dictation is included with Lynkk Pro, with everything included. Every recording can run up to 2 hours. |
+## Core pages
 
 ### /faq
 
@@ -752,23 +706,4 @@ For each page, find the text in the "Find" column and replace it with the "Repla
 | Comparison table label | Free plan | Change the row label to "Lynkk plans" (the Lynkk cell is replaced above). |
 | Comparison table | 2 hours on every plan, Free included | 2 hours per note |
 | Body | …plus 17 languages and auto-detect, on every plan, Free included. | …plus 17 languages and auto-detect, on every plan. |
-
-## Legal pages (need legal review)
-
-### /refund
-
-2 changes · https://lynkk.ai/refund
-
-| Where | Find | Replace with |
-|---|---|---|
-| H2 | 2. Free plan | [legal review] Rewrite the refund terms for a paid-only product. |
-| Section 2 | The Free plan is free forever. There is no charge and nothing to refund. You can use it for as long as you like without entering payment details. | [Legal review] Remove the "2. Free plan" section and renumber. |
-
-### /terms
-
-1 change · https://lynkk.ai/terms
-
-| Where | Find | Replace with |
-|---|---|---|
-| Section text | The Service is offered on a Free plan and a paid … The Free plan is provided at no cost and may have usage limits. | [Legal review] Terms still describe a Free plan. Update for a paid-only service. |
 
