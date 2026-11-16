@@ -18,6 +18,7 @@ Pricing used throughout: **Pro** $4 a month (₹250 in India), **Enterprise** cu
 8. [Free to paid: service pages, find and replace](#8-free-to-paid-service-pages-find-and-replace)
 9. [Free to paid: blog posts, find and replace](#9-free-to-paid-blog-posts-find-and-replace)
 10. [Full blog rewrites](#10-full-blog-rewrites)
+11. [Homepage screenshot in listicle posts](#11-homepage-screenshot-in-listicle-posts)
 
 ## 1. Remove free-plan claims
 
@@ -2096,3 +2097,33 @@ Yes, Lynkk can. After a Teams meeting, open the note and send its action items t
 ##### Conclusion
 
 Microsoft's Teams AI features work well if you live entirely inside Microsoft 365 and can pay $30 per user per month. For everyone else, Lynkk Pro costs $4 a month, records Teams with or without a bot, lets you send action items from meetings to Jira, and covers Zoom, Google Meet and in-person meetings too. [Get Lynkk Pro](/pricing).
+
+## 11. Homepage screenshot in listicle posts
+
+Add a screenshot of the Lynkk homepage to the Lynkk entry in every listicle (posts that rank several tools). It shows readers the product next to the competitors and makes the Lynkk entry stand out.
+
+- **Image file:** `seo/images/lynkk-homepage.png` (2880 x 1800, desktop homepage hero with the app preview).
+- **Wording on the image:** it already uses the paid wording ("Get Lynkk Pro", "From $4 a month") that the homepage will have after section 8. The live homepage still says "Start for free" and "No credit card", so do not screenshot the live page until section 8 is applied.
+- **Where:** directly under the Lynkk heading, before the first paragraph of the Lynkk entry.
+- **Alt text:** Lynkk homepage: the AI meeting assistant that turns conversations into follow-ups and action items, from $4 a month
+- **Caption:** Lynkk's homepage. Lynkk Pro is $4 a month (₹250 in India).
+- **File name on the site:** `lynkk-ai-meeting-assistant-homepage.png`, compressed to WebP under 200 KB, with width and height set so the page does not shift.
+
+| # | Blog post | Put the screenshot under this heading |
+|---|---|---|
+| 1 | /blog/ai-note-taker-microsoft-teams | 1. Lynkk (our product): best for Teams plus Zoom, Google Meet and in-person meetings (section 10.2) |
+| 2 | /blog/ai-transcription-software | 1. Lynkk (our product): best for meetings and in-person conversations |
+| 3 | /blog/ai-voice-recorders | 1. Lynkk (our product): best for in-person and online meetings in one place |
+| 4 | /blog/best-ai-note-takers | 1. Lynkk (our product): best for notes before, during and after the call |
+| 5 | /blog/best-free-ai-note-takers | Outgrown your free plan? Lynkk Pro is $4 a month (section 10.1) |
+| 6 | /blog/best-mac-note-taking-app | 7. Lynkk: best for notes you don't type |
+| 7 | /blog/best-second-brain-apps | 7. Lynkk: best for making meetings part of your second brain |
+| 8 | /blog/call-coaching-software | 5. Lynkk: best for small teams that coach from recordings |
+| 9 | /blog/google-meet-ai-note-taker | 1. Lynkk (our product): best for Hindi and Hinglish meetings |
+| 10 | /blog/otter-ai-alternatives | 1. Lynkk (our product): best for notes, tasks and Jira from every meeting |
+| 11 | /blog/sales-call-recording-software | 6. Lynkk: best for calls and in-person meetings |
+| 12 | /blog/transcribe-audio-to-text | 5. Lynkk (our product): best for meetings you have not recorded yet |
+| 13 | /blog/voice-to-text-apps | 1. Lynkk (our product): best for dictation in any Mac app plus meeting notes |
+| 14 | /blog/zoom-ai-companion-alternatives | 1. Lynkk (our product): best for free Zoom accounts and calls logged in your CRM (heading changes once CRM is confirmed) |
+| 15 | /blog/zoom-meeting-recorders | 1. Lynkk (our product): best for recording Zoom with or without a bot |
+| 16 | /blog/zoom-note-taker | 1. Lynkk (our product): best for capturing Zoom with or without a bot |
