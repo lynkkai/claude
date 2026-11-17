@@ -124,7 +124,7 @@ Legend: **A** = presenter on camera in the room. **B** = filmed B-roll. **SCR** 
 | Time | Bars | Picture | VO / on camera | On-screen text | Sound |
 | --- | --- | --- | --- | --- | --- |
 | 1:40 to 1:42 | 50 | **G chapter card 5.** | none | **"My picks."** | impact |
-| 1:42 to 1:48 | 51 to 53 | **G8 picks board**, row 1 stamps in and holds lit, Remi points. | "On a Mac, Lynkk. The room, every speaker, 17 languages, offline. Four dollars a month." | **1. Lynkk** · Mac · offline · 17 languages · $4/mo | tick |
+| 1:42 to 1:48 | 51 to 53 | **G8 picks board**, row 1 stamps in and holds lit, Remi points. | "On a Mac, Lynkk. The room, every speaker, 17 languages. Four dollars a month." | **1. Lynkk** · Mac · offline · 17 languages · $4/mo | tick |
 | 1:48 to 1:54 | 54 to 56 | rows 2 to 6 stamp in on beats, one every 1.5 s, Remi flying down the column. | "On a phone, Otter or Granola. Fireflies for teams. A recorder, Plaud. Or Voice Memos." | **2. Otter** · free 300 min · $8.33/user/mo · **3. Granola** · $14/user/mo · **4. Fireflies** · $10/seat/mo · **5. Plaud** · recorder, offline · **6. Apple Voice Memos** · free, transcript only | a tick per row |
 | 1:54 to 2:00 | 57 to 59 | **G9 end card.** Remi's trail draws a circle that locks into the Lynkk sphere. **Lynkk**, **Get Lynkk Pro**, **$4 a month (₹250 in India)**, **lynkk.ai**, fine print one beat apart. Remi lands on the button on 1:58.0 and waves. | "If that's a Mac on your table, link's below." | Lynkk · Get Lynkk Pro · $4 a month (₹250 in India) · lynkk.ai · *Apple silicon · macOS 14.2 or later* | impact on the sphere, final chord on 1:58.0 as Remi lands, ring out |
 
@@ -133,8 +133,10 @@ Legend: **A** = presenter on camera in the room. **B** = filmed B-roll. **SCR** 
 A scratch audio track for the whole 2:00 is built and in this folder: `in-person-2min-scratch-audio.mp3`. It is the
 voice-over at the timecodes in the tables, under the music bed, so you can hear the pacing before anyone films.
 
-**The voice is a stand-in, not the final track.** It is a local text-to-speech voice, used to measure whether the
-copy fits. The real voice-over is the presenter, recorded on a lav at the shoot.
+**The voice is a stand-in, not the final track.** It is Ryan, a local text-to-speech voice, used to measure whether
+the copy fits. Nothing is sent anywhere to make it. The real voice-over is the presenter, recorded on a lav at the
+shoot. There was no voice called Adam in the local set, and the stand-in costs nothing to re-render if you want a
+different one: Joe, John, Norman and Bryce are the other American male voices, Alan is British.
 
 **Why the copy got shorter.** The first 2:00 draft read as 138 seconds of speech in a 120 second video: 16 of its 17
 lines overran their windows, the worst by 6 seconds. Every line was cut until it fits with a little room to breathe.
@@ -142,17 +144,18 @@ The voice-over is now 256 words. The lines in the tables above are the measured 
 
 | Line | Window | Spoken | Room left |
 |---|---|---|---|
-| Opening, "Most AI note takers need a Zoom link" | 10.0 s | 7.3 s | 2.7 s |
-| "Online, a bot hears everyone cleanly" | 6.0 s | 5.3 s | 0.7 s |
-| "A laptop is on the table already" | 10.0 s | 8.7 s | 1.3 s |
+| Opening, "Most AI note takers need a Zoom link" | 10.0 s | 7.2 s | 2.8 s |
+| "Online, a bot hears everyone cleanly" | 6.0 s | 5.1 s | 0.9 s |
+| "A laptop is on the table already" | 10.0 s | 9.5 s | 0.6 s |
 | "Setup is most of the result" | 8.0 s | 5.5 s | 2.5 s |
-| "Stop, and you get the same note" | 8.0 s | 6.3 s | 1.7 s |
-| "One mic, four people" | 10.0 s | 9.1 s | 0.9 s |
+| "Stop, and you get the same note" | 8.0 s | 6.6 s | 1.4 s |
+| "One mic, four people" | 10.0 s | 9.0 s | 1.0 s |
 | "Wi-Fi off, mid-meeting" | 8.0 s | 7.0 s | 1.0 s |
-| "On a Mac, Lynkk" | 6.0 s | 5.4 s | 0.6 s |
-| "On a phone, Otter or Granola" | 6.0 s | 5.7 s | 0.3 s |
+| "On a Mac, Lynkk" | 6.0 s | 5.2 s | 0.8 s |
+| "On a phone, Otter or Granola" | 6.0 s | 5.6 s | 0.4 s |
 
-The pace is about 150 words a minute. A presenter who runs faster will have more room, not less.
+Speech totals 82 seconds inside the 120, at an unhurried pace with no speed-up applied. Every line has room to
+breathe, so a presenter can be slower or more expressive than the stand-in and still fit.
 
 **Music:** "Ramp It Up" by Ahjay Stelino, from Mixkit, under the Mixkit Stock Music Free License. It is the same
 track as the Lynkk for Mac teaser, already cleared and credited by the video kit, and it runs at 120 BPM, which is
@@ -165,9 +168,9 @@ The ambient breakdown in the middle of the track is cut out, so the energy never
 | Check | Result | Gate |
 |---|---|---|
 | Integrated loudness | -13.9 LUFS | -14 plus or minus 0.5 |
-| True peak | -3.7 dBFS | at or under -1 dBTP |
-| Loudness range | 3.8 LU | |
-| Quietest chapter against the loudest | 0.6 LU | no chapter more than about 3 LU down |
+| True peak | -4.8 dBFS | at or under -1 dBTP |
+| Loudness range | 4.1 LU | |
+| Quietest chapter against the loudest | 1.4 LU | no chapter more than about 3 LU down |
 | Length | 120.000 s | exactly the film's length |
 
 **What I could not check:** I cannot hear. These are measurements, not judgements. Listen to the opening 10 seconds
