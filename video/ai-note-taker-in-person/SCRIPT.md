@@ -78,28 +78,28 @@ Legend: **A** = presenter on camera in the room. **B** = filmed B-roll. **SCR** 
 | Time | Bars | Picture | VO / on camera | On-screen text | Sound |
 | --- | --- | --- | --- | --- | --- |
 | 0:00 to 0:04 | 0 to 1 | **G1 cold open.** Black. Remi's eyes blink open. A generic "Zoom Meeting" window slides in, Remi flies at it, the window shatters on bar 1 and the shards fall away to reveal the real conference room (B, locked wide). | none | **"No link?"** then **"No problem."** word by word | swell, glockenspiel blip on the eyes, impact on the shatter at 0:02.0 as the groove enters |
-| 0:04 to 0:14 | 2 to 6 | **A.** Presenter at the head of a real meeting table, laptop open in the middle. Slow push-in. | "Most AI note takers need a Zoom link. Your best conversations don't have one. Here's how to get the same notes from a conference room or a client's office, in two minutes." | lower third: presenter name | bed under voice |
-| 0:14 to 0:20 | 7 to 9 | **B** montage on bar lines: a glass-walled room, a client's office, a site visit. | "Online, a bot joins the call and every voice comes in clean. In a room, one microphone has to hear everyone, over the fan and the echo." | **"One mic."** / **"Every voice."** | room tone, cuts on bars |
+| 0:04 to 0:14 | 2 to 6 | **A.** Presenter at the head of a real meeting table, laptop open in the middle. Slow push-in. | "Most AI note takers need a Zoom link. Your best conversations don't have one. Here's how to get the same notes from a room, in two minutes." | lower third: presenter name | bed under voice |
+| 0:14 to 0:20 | 7 to 9 | **B** montage on bar lines: a glass-walled room, a client's office, a site visit. | "Online, a bot hears everyone cleanly. In a room, one mic fights the fan and the echo." | **"One mic."** / **"Every voice."** | room tone, cuts on bars |
 
 ### 2. Phone, laptop or recorder (0:20 to 0:40, bars 10 to 19)
 
 | Time | Bars | Picture | VO / on camera | On-screen text | Sound |
 | --- | --- | --- | --- | --- | --- |
 | 0:20 to 0:22 | 10 | **G chapter card 1.** Remi stamps the title. | none | **"Phone, laptop or recorder?"** | impact on 0:20.0 |
-| 0:22 to 0:28 | 11 to 13 | **A** with the three on the table: a MacBook, a phone, a small recorder. | "Three ways to get a room into an AI note taker. Quick disclosure: I work on Lynkk, so Lynkk is in this list. The rest is from their own websites." | **"Disclosure: I work on Lynkk."** | bed |
-| 0:28 to 0:38 | 14 to 18 | **G3 comparison board.** Three columns slide in, one per bar, Lynkk's row first. Rows fill on beats: *Records on*, *Offline*, *Speaker labels*, *Price*. | "A laptop is already on the table and plugged in: that's Lynkk on a Mac, and Granola. A phone is always with you but sits wherever your pocket was: Otter, Granola, Fireflies. A recorder you clip on and sync later: Plaud." | column heads **Laptop** · **Phone** · **Recorder**; stamp "checked November 2026" | a tick per row, whoosh per column |
-| 0:38 to 0:40 | 19 | **A** taps the MacBook. | "Lynkk has no phone app, so this demo is on a Mac." | **"Lynkk: Mac and browser."** | whoosh into the card |
+| 0:22 to 0:28 | 11 to 13 | **A** with the three on the table: a MacBook, a phone, a small recorder. | "Three ways to get a room into an AI note taker. Disclosure: I work on Lynkk." | **"Disclosure: I work on Lynkk."** and, small, "Other tools: their own sites, Nov 2026" | bed |
+| 0:28 to 0:38 | 14 to 18 | **G3 comparison board.** Three columns slide in, one per bar, Lynkk's row first. Rows fill on beats: *Records on*, *Offline*, *Speaker labels*, *Price*. | "A laptop is on the table already: Lynkk on a Mac, or Granola. A phone goes everywhere: Otter, Granola, Fireflies. A recorder you clip on: Plaud." | column heads **Laptop** · **Phone** · **Recorder**; stamp "checked November 2026" | a tick per row, whoosh per column |
+| 0:38 to 0:40 | 19 | **A** taps the MacBook. | "Lynkk has no phone app." | **"Lynkk: Mac and browser."** | whoosh into the card |
 
 ### 3. Demo: recording the room on a Mac (0:40 to 1:10, bars 20 to 34)
 
 | Time | Bars | Picture | VO / on camera | On-screen text | Sound |
 | --- | --- | --- | --- | --- | --- |
 | 0:40 to 0:42 | 20 | **G chapter card 2.** | none | **"Record the room."** | impact |
-| 0:42 to 0:50 | 21 to 24 | **G4 mic placement map.** Top-down drawing of the table: laptop in the middle, a ring for "clear voice" reaching every seat; red crosses on a laptop at the far end, one by the projector, one on a phone in a pocket. | "Setup is most of the result. Device in the middle of the table, lid open, away from the air conditioning. Don't type on the laptop that's recording. Big room, use an external mic." | **"Middle of the table."** | tick per placement, buzz on each cross |
-| 0:50 to 0:54 | 25 to 26 | **A** to the room. | "And ask first. Recording a private conversation usually needs everyone's consent. Everyone here said yes on camera." | **"Ask first."** | bed |
-| 0:54 to 0:58 | 27 to 28 | **SCR** menu bar, then **G5a** close-up redraw: the Lynkk sphere opens, cursor on **Record now**. | "In the Mac app it's the menu bar: Record now. No invite, no link, nothing joins anything." | **"Record now."** | one real trackpad click on the press |
-| 0:58 to 1:02 | 29 to 30 | **B** the meeting running (4 people), cut with **G5b**: the recording column on the right edge, clock running, live words arriving. | "A column on the right edge shows the clock and the words as they come in, so you can see it's hearing the far end." | none | room audio up, bed down |
-| 1:02 to 1:10 | 31 to 34 | **SCR** Stop, then **G5c**: the note stamps in (summary, decisions, action items with owner and due date, open questions). Remi lands on an action item. | "Stop, and you get the same note as a Zoom or Google Meet call: the summary, the decisions, action items with owners and due dates, and the full transcript." | **"Same note as a call."** | three stamps on beats, a light hit as Remi lands |
+| 0:42 to 0:50 | 21 to 24 | **G4 mic placement map.** Top-down drawing of the table: laptop in the middle, a ring for "clear voice" reaching every seat; red crosses on a laptop at the far end, one by the projector, one on a phone in a pocket. | "Setup is most of the result. Middle of the table, lid open, away from the fan. Don't type on it." | **"Middle of the table."** | tick per placement, buzz on each cross |
+| 0:50 to 0:54 | 25 to 26 | **A** to the room. | "And ask first. Everyone here agreed on camera." | **"Ask first."** | bed |
+| 0:54 to 0:58 | 27 to 28 | **SCR** menu bar, then **G5a** close-up redraw: the Lynkk sphere opens, cursor on **Record now**. | "Menu bar, Record now. No link, nothing joins." | **"Record now."** | one real trackpad click on the press |
+| 0:58 to 1:02 | 29 to 30 | **B** the meeting running (4 people), cut with **G5b**: the recording column on the right edge, clock running, live words arriving. | "The column shows it hearing the far end." | none | room audio up, bed down |
+| 1:02 to 1:10 | 31 to 34 | **SCR** Stop, then **G5c**: the note stamps in (summary, decisions, action items with owner and due date, open questions). Remi lands on an action item. | "Stop, and you get the same note as a Zoom call: summary, decisions, action items with owners, full transcript." | **"Same note as a call."** | three stamps on beats, a light hit as Remi lands |
 
 ### 4. Speaker labels in a room (1:10 to 1:26, bars 35 to 42)
 
@@ -108,25 +108,74 @@ Legend: **A** = presenter on camera in the room. **B** = filmed B-roll. **SCR** 
 | Time | Bars | Picture | VO / on camera | On-screen text | Sound |
 | --- | --- | --- | --- | --- | --- |
 | 1:10 to 1:12 | 35 | **G chapter card 3.** | none | **"Who said what?"** | impact |
-| 1:12 to 1:22 | 36 to 40 | **SCR** the transcript scrolling, then **G6** callout: one passage with its speaker labels highlighted against the B-roll of who was talking, then a label being renamed. | "One mic hears all four of us, and the AI separates us by voice: Speaker 1, Speaker 2, and you rename them once. Lynkk does this in 17 languages, Hinglish included. Here's how it did in this room: [RESULT FROM THE TEST]." | **"Split by speaker."** / **"17 languages."** | tick on each highlighted label |
-| 1:22 to 1:26 | 41 to 42 | **A.** | "One at a time helps, and say names when you hand over. Over to you, Priya." | **"Say names early."** | whoosh into the card |
+| 1:12 to 1:22 | 36 to 40 | **SCR** the transcript scrolling, then **G6** callout: one passage with its speaker labels highlighted against the B-roll of who was talking, then a label being renamed. | "One mic, four people, and the AI splits us by voice: Speaker 1, Speaker 2. Rename once. Lynkk does 17 languages, Hinglish included. [RESULT FROM THE TEST]" | **"Split by speaker."** / **"17 languages."** | tick on each highlighted label |
+| 1:22 to 1:26 | 41 to 42 | **A.** | "One at a time, and say names. Over to you, Priya." | **"Say names early."** | whoosh into the card |
 
 ### 5. When the Wi-Fi drops (1:26 to 1:40, bars 43 to 49)
 
 | Time | Bars | Picture | VO / on camera | On-screen text | Sound |
 | --- | --- | --- | --- | --- | --- |
 | 1:26 to 1:28 | 43 | **G chapter card 4.** | none | **"No Wi-Fi?"** | impact |
-| 1:28 to 1:36 | 44 to 47 | **SCR** on camera: Wi-Fi switched off mid-recording, the clock keeps running. **G7**: a drawn disk icon filling as the audio is written. | "Wi-Fi off, mid-meeting. It keeps recording. The audio is written to the Mac's disk from the first second, so nothing waits on the network. Lynkk is offline-first, and so is Plaud." | **"Still recording."** | a soft off-click, the bed carries on |
-| 1:36 to 1:40 | 48 to 49 | **SCR** Wi-Fi back on; the upload resumes; the note arrives. | "Back online, the upload picks up where it stopped. One recording runs up to two hours." | **"Uploads when you're back."** | rising tick, a light hit when the note lands |
+| 1:28 to 1:36 | 44 to 47 | **SCR** on camera: Wi-Fi switched off mid-recording, the clock keeps running. **G7**: a drawn disk icon filling as the audio is written. | "Wi-Fi off, mid-meeting. Still recording. It writes to disk from the first second. Lynkk is offline-first. So is Plaud." | **"Still recording."** | a soft off-click, the bed carries on |
+| 1:36 to 1:40 | 48 to 49 | **SCR** Wi-Fi back on; the upload resumes; the note arrives. | "Back online, the upload resumes. Two hours per recording." | **"Uploads when you're back."** | rising tick, a light hit when the note lands |
 
 ### 6. Picks by setup (1:40 to 2:00, bars 50 to 59)
 
 | Time | Bars | Picture | VO / on camera | On-screen text | Sound |
 | --- | --- | --- | --- | --- | --- |
 | 1:40 to 1:42 | 50 | **G chapter card 5.** | none | **"My picks."** | impact |
-| 1:42 to 1:46 | 51 to 52 | **G8 picks board**, row 1 stamps in and holds lit, Remi points. | "On a Mac, Lynkk. It records the room, labels each speaker in 17 languages, keeps going offline, and it's four dollars a month, two hundred and fifty rupees in India." | **1. Lynkk** · Mac · offline · 17 languages · $4/mo | tick |
-| 1:46 to 1:54 | 53 to 56 | rows 2 to 6 stamp in on beats, one every 1.5 s, Remi flying down the column. | "On a phone, Otter for a live transcript, or Granola if you type your own notes. Fireflies if your team is already there. A separate recorder, Plaud. Just want a free transcript and you'll write the notes yourself? Voice Memos." | **2. Otter** · free 300 min · $8.33/user/mo · **3. Granola** · $14/user/mo · **4. Fireflies** · $10/seat/mo · **5. Plaud** · recorder, offline · **6. Apple Voice Memos** · free, transcript only | a tick per row |
+| 1:42 to 1:48 | 51 to 53 | **G8 picks board**, row 1 stamps in and holds lit, Remi points. | "On a Mac, Lynkk. The room, every speaker, 17 languages, offline. Four dollars a month." | **1. Lynkk** · Mac · offline · 17 languages · $4/mo | tick |
+| 1:48 to 1:54 | 54 to 56 | rows 2 to 6 stamp in on beats, one every 1.5 s, Remi flying down the column. | "On a phone, Otter or Granola. Fireflies for teams. A recorder, Plaud. Or Voice Memos." | **2. Otter** · free 300 min · $8.33/user/mo · **3. Granola** · $14/user/mo · **4. Fireflies** · $10/seat/mo · **5. Plaud** · recorder, offline · **6. Apple Voice Memos** · free, transcript only | a tick per row |
 | 1:54 to 2:00 | 57 to 59 | **G9 end card.** Remi's trail draws a circle that locks into the Lynkk sphere. **Lynkk**, **Get Lynkk Pro**, **$4 a month (₹250 in India)**, **lynkk.ai**, fine print one beat apart. Remi lands on the button on 1:58.0 and waves. | "If that's a Mac on your table, link's below." | Lynkk · Get Lynkk Pro · $4 a month (₹250 in India) · lynkk.ai · *Apple silicon · macOS 14.2 or later* | impact on the sphere, final chord on 1:58.0 as Remi lands, ring out |
+
+## Voice-over and music
+
+A scratch audio track for the whole 2:00 is built and in this folder: `in-person-2min-scratch-audio.mp3`. It is the
+voice-over at the timecodes in the tables, under the music bed, so you can hear the pacing before anyone films.
+
+**The voice is a stand-in, not the final track.** It is a local text-to-speech voice, used to measure whether the
+copy fits. The real voice-over is the presenter, recorded on a lav at the shoot.
+
+**Why the copy got shorter.** The first 2:00 draft read as 138 seconds of speech in a 120 second video: 16 of its 17
+lines overran their windows, the worst by 6 seconds. Every line was cut until it fits with a little room to breathe.
+The voice-over is now 256 words. The lines in the tables above are the measured versions.
+
+| Line | Window | Spoken | Room left |
+|---|---|---|---|
+| Opening, "Most AI note takers need a Zoom link" | 10.0 s | 7.3 s | 2.7 s |
+| "Online, a bot hears everyone cleanly" | 6.0 s | 5.3 s | 0.7 s |
+| "A laptop is on the table already" | 10.0 s | 8.7 s | 1.3 s |
+| "Setup is most of the result" | 8.0 s | 5.5 s | 2.5 s |
+| "Stop, and you get the same note" | 8.0 s | 6.3 s | 1.7 s |
+| "One mic, four people" | 10.0 s | 9.1 s | 0.9 s |
+| "Wi-Fi off, mid-meeting" | 8.0 s | 7.0 s | 1.0 s |
+| "On a Mac, Lynkk" | 6.0 s | 5.4 s | 0.6 s |
+| "On a phone, Otter or Granola" | 6.0 s | 5.7 s | 0.3 s |
+
+The pace is about 150 words a minute. A presenter who runs faster will have more room, not less.
+
+**Music:** "Ramp It Up" by Ahjay Stelino, from Mixkit, under the Mixkit Stock Music Free License. It is the same
+track as the Lynkk for Mac teaser, already cleared and credited by the video kit, and it runs at 120 BPM, which is
+the grid this script is written on. The edit is cut at bar lines: a 2 second intro, the groove through the body,
+the track's own drop placed on 1:40 where the picks chapter starts, and its closing hit on 1:58 under the end card.
+The ambient breakdown in the middle of the track is cut out, so the energy never dips.
+
+**Measured on the finished mix:**
+
+| Check | Result | Gate |
+|---|---|---|
+| Integrated loudness | -13.9 LUFS | -14 plus or minus 0.5 |
+| True peak | -3.7 dBFS | at or under -1 dBTP |
+| Loudness range | 3.8 LU | |
+| Quietest chapter against the loudest | 0.6 LU | no chapter more than about 3 LU down |
+| Length | 120.000 s | exactly the film's length |
+
+**What I could not check:** I cannot hear. These are measurements, not judgements. Listen to the opening 10 seconds
+for whether the music enters hard enough on the shatter, 1:40 for whether the drop lands with the picks board, and
+1:58 for whether the last hit sits under Remi's landing.
+
+**Content ID:** Mixkit music may not be registered with YouTube Content ID. The CC BY credits go in the video
+description.
 
 ## The graphics package (what the kit builds)
 
