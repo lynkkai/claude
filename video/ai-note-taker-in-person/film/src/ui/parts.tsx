@@ -54,7 +54,15 @@ export const ChapterCard: React.FC<{ f: number; at: number; n: number; title: st
   const out = tween(f, at + 46, at + 56, 0, 1, expoOut);
   const words = title.split(" ");
   return (
-    <div style={{ position: "absolute", inset: 0, opacity: 1 - out, transform: `translateX(${-out * 160}px)` }}>
+    <div
+      style={{
+        position: "absolute",
+        inset: 0,
+        opacity: 1 - out,
+        transformOrigin: "30% 50%",
+        transform: `translateX(${-out * 160}px) scale(${1.05 - 0.05 * tween(f, at, at + 56, 0, 1, (t) => t)})`,
+      }}
+    >
       <Plate o={0.98} />
       <div
         style={{
@@ -163,7 +171,15 @@ export const Slate: React.FC<{ f: number; kind: "A-ROLL" | "B-ROLL" | "SCREEN" |
 }) => {
   const k = tween(f, 0, 3);
   return (
-    <div style={{ position: "absolute", inset: 0, opacity: k }}>
+    <div
+      style={{
+        position: "absolute",
+        inset: 0,
+        opacity: k,
+        transformOrigin: "50% 45%",
+        transform: `scale(${1 + 0.035 * tween(f, 0, 150, 0, 1, (t) => t)})`,
+      }}
+    >
       <div style={{ position: "absolute", inset: 0, background: "#0a0a0e" }} />
       <div
         style={{

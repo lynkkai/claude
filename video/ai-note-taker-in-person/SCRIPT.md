@@ -130,80 +130,28 @@ Legend: **A** = presenter on camera in the room. **B** = filmed B-roll. **SCR** 
 
 ## Voice-over and music
 
-A scratch audio track for the whole 2:00 is built and in this folder: `in-person-2min-scratch-audio.mp3`. It is the
-voice-over at the timecodes in the tables, under the music bed, so you can hear the pacing before anyone films.
+**The presenter records the narration.** `NARRATION.md` is the sheet to read from: every line with its in and out
+point on the 2:00 timeline, the window length, and which lines land on a music bar. Record each line as its own
+take with room tone either side, and they drop onto the grid in the edit.
 
-**The voice is a stand-in, not the final track.** It is Ryan, a local text-to-speech voice, used to measure whether
-the copy fits. Nothing is sent anywhere to make it. The real voice-over is the presenter, recorded on a lav at the
-shoot. There was no voice called Adam in the local set, and the stand-in costs nothing to re-render if you want a
-different one: Joe, John, Norman and Bryce are the other American male voices, Alan is British.
+Speech totals about 82 seconds of the 120, at an unhurried pace, so a presenter can be slower or more expressive
+than the budget and still fit. The copy was cut to make that true: the first 2:00 draft ran 138 seconds of speech
+in a 120 second video, with 16 of its 17 lines over their windows. The lines in the tables above are the measured
+versions.
 
-**Why the copy got shorter.** The first 2:00 draft read as 138 seconds of speech in a 120 second video: 16 of its 17
-lines overran their windows, the worst by 6 seconds. Every line was cut until it fits with a little room to breathe.
-The voice-over is now 256 words. The lines in the tables above are the measured versions.
+An earlier synthetic read of these lines was scrapped: it was the wrong instrument for a host-led video.
 
-| Line | Window | Spoken | Room left |
-|---|---|---|---|
-| Opening, "Most AI note takers need a Zoom link" | 10.0 s | 7.2 s | 2.8 s |
-| "Online, a bot hears everyone cleanly" | 6.0 s | 5.1 s | 0.9 s |
-| "A laptop is on the table already" | 10.0 s | 9.5 s | 0.6 s |
-| "Setup is most of the result" | 8.0 s | 5.5 s | 2.5 s |
-| "Stop, and you get the same note" | 8.0 s | 6.6 s | 1.4 s |
-| "One mic, four people" | 10.0 s | 9.0 s | 1.0 s |
-| "Wi-Fi off, mid-meeting" | 8.0 s | 7.0 s | 1.0 s |
-| "On a Mac, Lynkk" | 6.0 s | 5.2 s | 0.8 s |
-| "On a phone, Otter or Granola" | 6.0 s | 5.6 s | 0.4 s |
+**Music:** "Ramp It Up" by Ahjay Stelino, from Mixkit, under the Mixkit Stock Music Free License. The same track as
+the Lynkk for Mac teaser, already cleared and credited by the video kit, and already at 120 BPM, the grid this
+script is written on. Cut at bar lines: a short intro, the groove through the body, the track's own drop placed on
+1:40 where the picks chapter starts, and its closing hit on 1:58 under the end card. The ambient breakdown in the
+middle of the track is cut out, so the energy never dips.
 
-Speech totals 82 seconds inside the 120, at an unhurried pace with no speed-up applied. Every line has room to
-breathe, so a presenter can be slower or more expressive than the stand-in and still fit.
+The bed on the previz measures -15.0 LUFS integrated, true peak -4.4 dBFS, 120.000 s. It sits a little under the
+-14 delivery target on purpose: once the presenter's voice is on top, the whole mix gets balanced to -14 with the
+music ducked about 12 dB under the voice.
 
-**Music:** "Ramp It Up" by Ahjay Stelino, from Mixkit, under the Mixkit Stock Music Free License. It is the same
-track as the Lynkk for Mac teaser, already cleared and credited by the video kit, and it runs at 120 BPM, which is
-the grid this script is written on. The edit is cut at bar lines: a 2 second intro, the groove through the body,
-the track's own drop placed on 1:40 where the picks chapter starts, and its closing hit on 1:58 under the end card.
-The ambient breakdown in the middle of the track is cut out, so the energy never dips.
-
-**Measured on the finished mix:**
-
-| Check | Result | Gate |
-|---|---|---|
-| Integrated loudness | -13.9 LUFS | -14 plus or minus 0.5 |
-| True peak | -4.8 dBFS | at or under -1 dBTP |
-| Loudness range | 4.1 LU | |
-| Quietest chapter against the loudest | 1.4 LU | no chapter more than about 3 LU down |
-| Length | 120.000 s | exactly the film's length |
-
-**What I could not check:** I cannot hear. These are measurements, not judgements. Listen to the opening 10 seconds
-for whether the music enters hard enough on the shatter, 1:40 for whether the drop lands with the picks board, and
-1:58 for whether the last hit sits under Remi's landing.
-
-**Content ID:** Mixkit music may not be registered with YouTube Content ID. The CC BY credits go in the video
-description.
-
-## The graphics package (what the kit builds)
-
-All built in a new 1920x1080 composition on the kit's engine (`Wide`, next to `Reel` and `Post`), from Remi,
-the drawn Mac parts, the camera and the effects. **Verified:** the `Wide` format is added and renders (see
-"Format and framing" above). The YouTube edit itself (A-roll, B-roll, screen recordings) is cut
-in an editor; the inserts are rendered as separate clips with the timecodes above.
-
-| ID | Insert | Length | Built from |
-|---|---|---|---|
-| G1 | Cold open: call window shatters into the room | 4 s | `CallWindow`, `Shatter`, `TitleSlam`, Remi; the room plate is a still from the shoot |
-| Cards 1 to 5 | Chapter cards | 2 s each | one template: title slam + whip out |
-| G3 | Laptop / phone / recorder board | 10 s | new drawn board, Grid tokens, Lynkk's row first |
-| G4 | Mic placement map | 8 s | new top-down table drawing |
-| G5a to c | Record now, recording column, note | 4 s + 4 s + 8 s | `Desktop`, `RecordColumn`, `NoteCard`, redrawn for an in-person recording |
-| G6 | Speaker label callout and rename | 10 s | new transcript callout, strings from the real test |
-| G7 | Still recording / disk filling | 8 s | new, small |
-| G8 | Picks board, 6 rows | 12 s | new board, same look as G3 |
-| G9 | End card | 6 s | the engine's `EndCard`, retimed for 16:9 and the new CTA |
-| Short | 30 s 9:16 cut of the hook for YouTube Shorts | 30 s | the kit's native `Reel` |
-
-Total rendered graphics: about 1 minute 20 seconds, down from 2 minutes 20.
-
-**Competitor names on screen:** plain text in the video's own typeface. No competitor logos, no screenshots of their
-apps, no recreations of their UI. Lynkk is row 1 on both boards; the rest follow the companion page's order.
+Mixkit music may not be registered with YouTube Content ID, and the CC BY credits go in the video description.
 
 ## The graphics are built
 
@@ -219,9 +167,13 @@ watched end to end now and the pacing judged before anyone books a room.
 | The presenter on camera, the room montage, the three devices, asking consent, the label tips | slates naming the shot and its voice-over |
 
 **Checked on the render:** 3600 frames, 1920x1080 at 30 fps, 120.000 s, and the audio runs the full length.
-Key frames were rendered and looked at, which caught five things now fixed: speed lines hanging on after the
-cold open, the chapter number sitting on its own label, the recording column drawn off frame (it positions
-itself in Mac points), the mic-map tips running off the bottom, and the footage slates flashing up from black.
+
+**The first build was slideware and was rebuilt.** It had no camera moves at all, every cut landed on a static
+frame, scenes held still for 8 to 12 seconds, and Remi appeared in four of eleven scenes. The rebuild follows the
+kit's motion rules: every scene has a camera that is always moving (`src/ui/motion.tsx`), every cut carries motion
+across it (a whip, a punch-in or a slam down), and Remi flies through every scene and triggers what arrives: it
+bonks Record now, rides the transcript and knocks a speaker label into its real name, points out each bad mic
+placement, and lands on the action item and on the CTA.
 
 **What is still a stand-in in the graphics:** the transcript lines in the speaker-label insert, and the room
 behind the cold open (a kit wallpaper, not your room). Both are one-line swaps once the test is filmed, and

@@ -4,6 +4,7 @@ import { HITS, SCENES } from "./timing";
 import { FORMATS, FmtContext, type FmtName } from "./lib";
 import { shakeAt } from "./fx/fx";
 import { ChapterCard, Slate } from "./ui/parts";
+import { Trans, type TransKind } from "./ui/motion";
 import { Hook } from "./scenes/Hook";
 import { DeviceBoard, PicksBoard } from "./scenes/Boards";
 import { MicMap } from "./scenes/MicMap";
@@ -13,13 +14,40 @@ import { Offline, Online } from "./scenes/Offline";
 import { End } from "./scenes/End";
 
 /**
- * The 2:00 timeline. Remi's graphics are rendered here; the footage the team
- * films is held by a slate that says what the shot is and the line said over
- * it, so the whole two minutes can be watched against the soundtrack before
- * anybody books a room.
+ * The 2:00 timeline. Every scene arrives and leaves on a move (a whip, a
+ * punch-in, a slam down), so no cut lands on a frame that is standing still,
+ * and every scene has its own camera running underneath.
+ *
+ * Remi's graphics are rendered here; the footage the team films is held by a
+ * slate that says what the shot is and the line said over it.
  */
 
 const S = SCENES;
+
+/** One piece of the timeline, with the move it makes on the way in and out. */
+const Beat: React.FC<{
+  from: number;
+  dur: number;
+  name: string;
+  into?: TransKind;
+  out?: TransKind;
+  children: React.ReactNode;
+}> = ({ from, dur, name, into, out, children }) => (
+  <Sequence from={from} durationInFrames={dur} name={name}>
+    <Inner from={from} dur={dur} into={into} out={out} id={name.replace(/\W+/g, "-")}>
+      {children}
+    </Inner>
+  </Sequence>
+);
+
+const Inner: React.FC<{ from: number; dur: number; into?: TransKind; out?: TransKind; id: string; children: React.ReactNode }> = ({ from, dur, into, out, id, children }) => {
+  const f = useCurrentFrame() + from;
+  return (
+    <Trans f={f} from={from} dur={dur} into={into} out={out} id={id}>
+      {children}
+    </Trans>
+  );
+};
 
 const Card: React.FC<{ n: number; title: string; accent?: string }> = ({ n, title, accent }) => {
   const f = useCurrentFrame();
@@ -37,11 +65,11 @@ export const Teaser: React.FC<{ fmt: FmtName }> = ({ fmt }) => {
     <FmtContext.Provider value={FORMATS[fmt]}>
       <AbsoluteFill style={{ background: "#000", overflow: "hidden" }}>
         <AbsoluteFill style={{ transform: `${shakeAt(f, HITS)} scale(1.02)` }}>
-          <Sequence from={S.hook.from} durationInFrames={S.hook.dur} name="G1 cold open">
+          <Beat from={S.hook.from} dur={S.hook.dur} name="G1 cold open" into="none" out="whipL">
             <Hook />
-          </Sequence>
+          </Beat>
 
-          <Sequence from={S.shotIntro.from} durationInFrames={S.shotIntro.dur} name="Shot: the problem">
+          <Beat from={S.shotIntro.from} dur={S.shotIntro.dur} name="Shot the problem" into="whipL" out="whipL">
             <Shot
               kind="A-ROLL + SCREEN"
               what="Presenter at the head of the table, then the rooms: a glass-walled office, a client visit, a site visit."
@@ -49,12 +77,12 @@ export const Teaser: React.FC<{ fmt: FmtName }> = ({ fmt }) => {
               from="0:04"
               to="0:20"
             />
-          </Sequence>
+          </Beat>
 
-          <Sequence from={S.card1.from} durationInFrames={S.card1.dur} name="Card 1">
+          <Beat from={S.card1.from} dur={S.card1.dur} name="Card 1" into="drop" out="whipL">
             <Card n={1} title="Phone, laptop or recorder?" accent="recorder?" />
-          </Sequence>
-          <Sequence from={S.shotDevices.from} durationInFrames={S.shotDevices.dur} name="Shot: three devices">
+          </Beat>
+          <Beat from={S.shotDevices.from} dur={S.shotDevices.dur} name="Shot three devices" into="whipL" out="whipL">
             <Shot
               kind="A-ROLL"
               what="The three on the table: a MacBook, a phone, a small recorder. Disclosure to camera."
@@ -62,62 +90,62 @@ export const Teaser: React.FC<{ fmt: FmtName }> = ({ fmt }) => {
               from="0:22"
               to="0:28"
             />
-          </Sequence>
-          <Sequence from={S.board.from} durationInFrames={S.board.dur} name="G3 device board">
+          </Beat>
+          <Beat from={S.board.from} dur={S.board.dur} name="G3 device board" into="ramp" out="whipL">
             <DeviceBoard />
-          </Sequence>
-          <Sequence from={S.shotNoPhone.from} durationInFrames={S.shotNoPhone.dur} name="Shot: no phone app">
+          </Beat>
+          <Beat from={S.shotNoPhone.from} dur={S.shotNoPhone.dur} name="Shot no phone app" into="whipL" out="whipL">
             <Shot kind="A-ROLL" what="Presenter taps the MacBook." vo="Lynkk has no phone app." from="0:38" to="0:40" />
-          </Sequence>
+          </Beat>
 
-          <Sequence from={S.card2.from} durationInFrames={S.card2.dur} name="Card 2">
+          <Beat from={S.card2.from} dur={S.card2.dur} name="Card 2" into="drop" out="whipL">
             <Card n={2} title="Record the room." accent="room." />
-          </Sequence>
-          <Sequence from={S.micMap.from} durationInFrames={S.micMap.dur} name="G4 mic map">
+          </Beat>
+          <Beat from={S.micMap.from} dur={S.micMap.dur} name="G4 mic map" into="rise" out="whipL">
             <MicMap />
-          </Sequence>
-          <Sequence from={S.shotConsent.from} durationInFrames={S.shotConsent.dur} name="Shot: ask first">
+          </Beat>
+          <Beat from={S.shotConsent.from} dur={S.shotConsent.dur} name="Shot ask first" into="whipL" out="whipL">
             <Shot kind="A-ROLL" what="Presenter asks the room, on camera, before recording." vo="And ask first. Everyone here agreed on camera." from="0:50" to="0:54" />
-          </Sequence>
-          <Sequence from={S.record.from} durationInFrames={S.record.dur} name="G5a Record now">
+          </Beat>
+          <Beat from={S.record.from} dur={S.record.dur} name="G5a Record now" into="ramp" out="whipL">
             <RecordNow />
-          </Sequence>
-          <Sequence from={S.column.from} durationInFrames={S.column.dur} name="G5b recording column">
+          </Beat>
+          <Beat from={S.column.from} dur={S.column.dur} name="G5b recording column" into="whipL" out="whipL">
             <Column />
-          </Sequence>
-          <Sequence from={S.note.from} durationInFrames={S.note.dur} name="G5c the note">
+          </Beat>
+          <Beat from={S.note.from} dur={S.note.dur} name="G5c the note" into="rise" out="ramp">
             <NoteIn />
-          </Sequence>
+          </Beat>
 
-          <Sequence from={S.card3.from} durationInFrames={S.card3.dur} name="Card 3">
+          <Beat from={S.card3.from} dur={S.card3.dur} name="Card 3" into="drop" out="whipL">
             <Card n={3} title="Who said what?" accent="what?" />
-          </Sequence>
-          <Sequence from={S.labels.from} durationInFrames={S.labels.dur} name="G6 speaker labels">
+          </Beat>
+          <Beat from={S.labels.from} dur={S.labels.dur} name="G6 speaker labels" into="whipL" out="whipL">
             <Labels />
-          </Sequence>
-          <Sequence from={S.shotTips.from} durationInFrames={S.shotTips.dur} name="Shot: label tips">
+          </Beat>
+          <Beat from={S.shotTips.from} dur={S.shotTips.dur} name="Shot label tips" into="whipL" out="whipL">
             <Shot kind="A-ROLL" what="Presenter, to camera." vo="One at a time, and say names. Over to you, Priya." from="1:22" to="1:26" />
-          </Sequence>
+          </Beat>
 
-          <Sequence from={S.card4.from} durationInFrames={S.card4.dur} name="Card 4">
+          <Beat from={S.card4.from} dur={S.card4.dur} name="Card 4" into="drop" out="whipL">
             <Card n={4} title="No Wi-Fi?" accent="Wi-Fi?" />
-          </Sequence>
-          <Sequence from={S.offline.from} durationInFrames={S.offline.dur} name="G7 offline">
+          </Beat>
+          <Beat from={S.offline.from} dur={S.offline.dur} name="G7 offline" into="ramp" out="whipL">
             <Offline />
-          </Sequence>
-          <Sequence from={S.online.from} durationInFrames={S.online.dur} name="G7b back online">
+          </Beat>
+          <Beat from={S.online.from} dur={S.online.dur} name="G7b back online" into="whipL" out="ramp">
             <Online />
-          </Sequence>
+          </Beat>
 
-          <Sequence from={S.card5.from} durationInFrames={S.card5.dur} name="Card 5">
+          <Beat from={S.card5.from} dur={S.card5.dur} name="Card 5" into="drop" out="whipL">
             <Card n={5} title="My picks." accent="picks." />
-          </Sequence>
-          <Sequence from={S.picks.from} durationInFrames={S.picks.dur} name="G8 picks board">
+          </Beat>
+          <Beat from={S.picks.from} dur={S.picks.dur} name="G8 picks board" into="whipL" out="ramp">
             <PicksBoard />
-          </Sequence>
-          <Sequence from={S.end.from} durationInFrames={S.end.dur} name="G9 end card">
+          </Beat>
+          <Beat from={S.end.from} dur={S.end.dur} name="G9 end card" into="ramp" out="none">
             <End />
-          </Sequence>
+          </Beat>
         </AbsoluteFill>
       </AbsoluteFill>
     </FmtContext.Provider>
