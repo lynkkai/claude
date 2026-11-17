@@ -8,7 +8,7 @@ Status: **draft for sign-off** (remi-video step 2). Nothing is built until the o
 | Keyword | ai note taker for in person meetings (vol 480, SD 40, CPC $14.62) |
 | Companion page | lynkk.ai/blog/ai-note-taker-in-person-meetings (new page, section 11.11) |
 | AI prompts to win | "How do I get AI notes from an in-person meeting?" / "Is there an AI note taker for in-person meetings?" |
-| Formats | YouTube 1920x1080 (main). Bonus: a 30 s 9:16 Short from the cold open, made natively by the kit |
+| Format | **YouTube 16:9, 1920x1080 at 30 fps.** Optional extra: a 30 s 9:16 Short cut from the same timeline |
 | CTA | **Get Lynkk Pro, $4 a month (₹250 in India)**, lynkk.ai. Fine print: Apple silicon · macOS 14.2 or later |
 
 **Source of truth:** `lynkk-website-changes_3.md`, section 11.11 (the companion page), plus the pricing rules in
@@ -26,6 +26,23 @@ cut lands on a bar line. Chapter cards are 1 bar, not 2. The camera is never sti
 the five chapter cards and the end card. Final chord on 1:58.0, the last picture beat (Remi lands on the CTA).
 
 **Length:** 2:00 exactly (60 bars). Voice-over is about 300 words, which is a brisk but comfortable 150 a minute.
+
+## Format and framing
+
+Landscape YouTube, 1920x1080 at 30 fps, not a vertical reel. Checked, not assumed: a `Wide` 1920x1080 composition
+was added to the kit's engine (`src/lib.ts` FORMATS, `src/index.tsx`) and test frames render through it.
+
+| Setting | Value |
+|---|---|
+| Frame | 1920x1080, 16:9, 30 fps |
+| Title centre line | y 880, 86 px type, 1640 px wide |
+| Remi on screen | 165 px |
+| Keep clear | the bottom 60 px, where YouTube's progress bar sits on hover |
+| Safe zones | the kit's reel zones (top 250, bottom 420) do not apply |
+
+The reference film packs its UI into a narrow column because a vertical reel sees only about 520 points of the Mac
+screen across. Rendered at 16:9 that leaves wide empty margins. The wide scenes get roughly twice the width, so the
+boards, the note and the mic map lay out across the frame instead of stacking down a column.
 
 ## What the cut from 4:12 removed
 
@@ -113,8 +130,9 @@ Legend: **A** = presenter on camera in the room. **B** = filmed B-roll. **SCR** 
 
 ## The graphics package (what the kit builds)
 
-All built in a new 1920x1080 composition on the kit's engine (`Landscape`, next to `Reel` and `Post`), from Remi,
-the drawn Mac parts, the camera and the effects. The YouTube edit itself (A-roll, B-roll, screen recordings) is cut
+All built in a new 1920x1080 composition on the kit's engine (`Wide`, next to `Reel` and `Post`), from Remi,
+the drawn Mac parts, the camera and the effects. **Verified:** the `Wide` format is added and renders (see
+"Format and framing" above). The YouTube edit itself (A-roll, B-roll, screen recordings) is cut
 in an editor; the inserts are rendered as separate clips with the timecodes above.
 
 | ID | Insert | Length | Built from |
