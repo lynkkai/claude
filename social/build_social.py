@@ -6,6 +6,7 @@ import html, json, os, sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 from social_stories import STORY_RULES, STORIES, SEASON
+from social_usecases import UC_SERIES, USE_CASES, UC_CAROUSELS
 from social_data import IG_POSTS, IG_STORIES, IG_HIGHLIGHTS, LI_COMPANY, LI_FOUNDER, USED, USED_THEMES, VIRAL_RULES
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -132,6 +133,14 @@ def build_md():
     L += [f"## Serialized story: {SEASON['title']}", "", SEASON["premise"], "", f"**Cast:** {SEASON['cast']}", ""]
     L += [f"- **{a}.** {c}" for a, c in SEASON["episodes"]]
     L += ["", "Post one episode a week (Wednesday evening), pinned as a Reels series. Recap the last cliffhanger in the first 2 seconds of each episode.", ""]
+    L += [f"## Use-case series: {UC_SERIES['name']}", "", UC_SERIES["format"], "", f"**When:** {UC_SERIES['cadence']}", "", f"**Cover:** {UC_SERIES['cover']}", ""]
+    for u in USE_CASES:
+        L += [f"### {u['id']}. {u['job']}: {u['title']}", "", f"**Page:** `{u['page']}`", "", f"- **Hook:** {u['hook']}"]
+        L += [f"- {x}" for x in u["beats"]]
+        L += [f"- **Caption:** {u['caption']}", f"- **CTA:** {u['cta']}", f"- **Check before filming:** {u['check']}", ""]
+    L += ["### Use-case carousels", ""]
+    for c in UC_CAROUSELS:
+        L += [f"**{c['id']}. {c['title']}**", "", f"- **Hook:** {c['hook']}"] + [f"- {x}" for x in c["beats"]] + [f"- **Caption:** {c['caption']}", f"- **CTA:** {c['cta']}", ""]
     L += ["", "## Before posting", ""] + [f"- {b}" for b in BEFORE]
     L += ["", "## Instagram: 4-week calendar (20 posts)", ""] + md_posts(IG_POSTS)
     L += ["### Stories, every week", "", "| Day | Type | Idea |", "|---|---|---|"]
@@ -145,7 +154,7 @@ def build_md():
 
 def build_html(template_path):
     t = open(template_path).read()
-    data = dict(story_rules=STORY_RULES, story_reels=STORIES, season=SEASON, used=USED, used_themes=USED_THEMES, viral=VIRAL_RULES, research=RESEARCH, caveat=CAVEAT, types=CONTENT_TYPES, cadence=CADENCE, before=BEFORE,
+    data = dict(uc_series=UC_SERIES, use_cases=USE_CASES, uc_carousels=UC_CAROUSELS, story_rules=STORY_RULES, story_reels=STORIES, season=SEASON, used=USED, used_themes=USED_THEMES, viral=VIRAL_RULES, research=RESEARCH, caveat=CAVEAT, types=CONTENT_TYPES, cadence=CADENCE, before=BEFORE,
                 guard=GUARDRAILS, stories=IG_STORIES, highlights=IG_HIGHLIGHTS,
                 posts=[dict(p, ch="Instagram") for p in IG_POSTS]
                 + [dict(p, ch="LinkedIn page") for p in LI_COMPANY]

@@ -232,6 +232,177 @@ A 7-person Bengaluru startup has 6 weeks to land its first big client, Mehta Gro
 
 Post one episode a week (Wednesday evening), pinned as a Reels series. Recap the last cliffhanger in the first 2 seconds of each episode.
 
+## Use-case series: Lynkk at work
+
+30-45s vertical Reel. Opens on the job title and one real pain, follows one person through one moment, ends on "Lynkk for [job]" and the page link in bio.
+
+**When:** One a week, Saturday. Pin all of them in an Instagram highlight called "Lynkk at work".
+
+**Cover:** Cover text: the job title, big. Same layout for all 10 so the grid reads as a series.
+
+### U1. Real estate agents: The NRI buyer who changed her mind 4 times
+
+**Page:** `/use-cases/real-estate-agents`
+
+- **Hook:** On-screen: "Real estate agent. 23 buyers. Every one wants something different."
+- Pune agent Sameer on a Zoom call at 11 PM with a buyer in Dubai: "3BHK, near a school, under ₹1.2 crore."
+- Quick cuts, next three calls: "Actually, 2BHK is fine." "Wait, my husband wants a balcony." "Can we stretch to ₹1.4?"
+- Sameer's sticky notes are a mess. He mixes her up with another buyer on the next call. She notices.
+- Turn: before the next call he opens her Lynkk note. Budget, must-haves and what changed, in order.
+- Payoff: "So, 2BHK, balcony for your husband, near a school, up to ₹1.4. I found three." She smiles: "You actually listened."
+- End card: "Lynkk for real estate agents. Every buyer's budget and must-haves, written down."
+- **Caption:** Real estate agent with 23 buyers, each one changing their mind. AI notes that keep every buyer's budget and must-haves straight.
+- **CTA:** Send it to an agent who lives on Zoom calls.
+- **Check before filming:** Lynkk records online calls and in-person meetings on a Mac. There's no phone app, so don't show it recording a site walk-through on a phone.
+
+### U2. Lawyers: Client intake, without the scribbling
+
+**Page:** `/use-cases/lawyers`
+
+- **Hook:** On-screen: "Lawyer. First client meeting. 40 minutes of facts."
+- Advocate Kavya meets a nervous client about a property dispute. He talks fast: dates, names, a lost sale deed.
+- She writes as fast as she can. He pauses: "Are you even listening?" She is, but she's writing.
+- Next meeting she asks permission to record, puts the Mac down and just listens. He visibly relaxes.
+- After: the note lists the facts in order, the documents to collect (sale deed, tax receipts 2019-2024) and next steps.
+- End card: "Lynkk for lawyers. You listen. It writes the facts and the documents to collect."
+- **Caption:** AI notes for lawyers: client meetings turned into the facts, documents to collect and next steps.
+- **CTA:** Send it to a lawyer friend still writing everything by hand.
+- **Check before filming:** Show Kavya asking the client's permission on camera. No privilege, compliance or data-region claims; say lawyers should check their bar council and firm rules.
+
+### U3. Financial advisors: The life change she mentioned once
+
+**Page:** `/use-cases/financial-advisors`
+
+- **Hook:** On-screen: "Financial advisor. 60 clients. One sentence nearly missed."
+- Annual review. The client, in passing: "Oh, and we're expecting in June." The advisor is on to the next slide.
+- Six months later, the client's plan still has no child education goal. The client notices before he does.
+- Rewind. Same review with Lynkk. The note lists goals and life changes: "Baby due June. Start an education fund."
+- Next review, the advisor opens with: "Congratulations. Let's set up the education fund." The client tears up a little.
+- End card: "Lynkk for financial advisors. Goals, life changes and tasks from every review."
+- **Caption:** An AI note taker for financial advisors: every client's goals and life changes, from every review.
+- **CTA:** Send it to your advisor. Gently.
+- **Check before filming:** No compliance or data-region claims. Tell the client the review is recorded. Don't give financial advice in the script.
+
+### U4. Students and lectures: Exam week, 14 lectures behind
+
+**Page:** `/use-cases/lectures`
+
+- **Hook:** On-screen: "Exam in 3 days. 14 lectures. Notes from 4."
+- Hostel room, 2 AM. Riya flips through a notebook that stops at week 4.
+- Her roommate: "Professor said what's coming in the exam, na? Week 9?" Riya: "I was sick in week 9."
+- Turn: she remembers she recorded the lectures in the browser. Opens week 9. The note: "Exam: chapters 6 and 8, one numerical from 7."
+- She turns her laptop to the roommate. They both scream quietly.
+- End card: "Lynkk for lectures. Check your college's recording rules first."
+- **Caption:** Exam in 3 days and 14 lectures behind. AI notes for lectures, recorded in the browser or on your Mac.
+- **CTA:** Send it to your study group.
+- **Check before filming:** Say to check the college's recording policy. Recordings are up to 2 hours each. Lynkk Pro is $4 a month, ₹250 in India.
+
+### U5. Field researchers: 40 interviews, zero network
+
+**Page:** `/use-cases/field-interviews`
+
+- **Hook:** On-screen: "Field researcher. Village in Rajasthan. No network for 3 days."
+- NGO researcher Farah sets up a MacBook in a courtyard. A farmer talks about water in Hindi. The phone shows no signal.
+- Old way, flashback: back in the city, 40 hours of audio and a laptop full of half-typed notes. She's still transcribing a month later.
+- This trip, the Mac keeps recording with no network. At night by a lantern, a stack of recordings waits.
+- Back in Jaipur, Wi-Fi connects. Notes and Hindi transcripts appear one by one. Farah exhales.
+- End card: "Lynkk for field interviews. Records with no internet, writes the notes later."
+- **Caption:** 40 field interviews, no network for 3 days. Records offline on a Mac, with Hindi and Hinglish transcripts once you're back online.
+- **CTA:** Send it to someone who does fieldwork.
+- **Check before filming:** Offline recording is on the Mac app; notes are written after upload. Get each interviewee's consent on camera.
+
+### U6. Product managers (user interviews): Twelve interviews, one sentence
+
+**Page:** `/use-cases/user-interviews`
+
+- **Hook:** On-screen: "PM. 12 user interviews. The answer was in interview 7."
+- PM Dev presents a new feature to the team. The designer asks: "Did users actually ask for this?" Silence.
+- Dev scrolls through 12 interview docs, each in a different format.
+- Turn: he asks Lynkk across all 12: "What did users say about exporting?" The answer quotes interview 7 with the user's exact words and a link to the moment.
+- He plays it in the meeting. The user's voice: "If I can't export it, my boss won't let me use it."
+- Designer: "Okay. Build it." End card: "Lynkk for user interviews. Every interview, searchable in your users' own words."
+- **Caption:** 12 user interviews and the answer was in number 7. Search every interview in your users' own words.
+- **CTA:** Send it to your PM.
+- **Check before filming:** Asking across interviews is Ask Lynkk (Pro). Tell interviewees they're recorded.
+
+### U7. Marketers (customer research): The headline was in the focus group
+
+**Page:** `/use-cases/customer-research`
+
+- **Hook:** On-screen: "Marketer. 9 headline drafts. All rejected."
+- Marketer Tara's screen: "Headline v9 FINAL final." Her boss: "It sounds like us, not like customers."
+- She remembers last month's focus group. Asks Lynkk: "How do customers describe the problem?"
+- The answer, with exact quotes. One customer: "I just want my evenings back."
+- Cut to the billboard mockup: "Get your evenings back." Boss: "Where did you get that?" Tara: "From them."
+- End card: "Lynkk for customer research. Your customers' exact words, ready to use."
+- **Caption:** Nine headline drafts rejected. The winning line was in the focus group recording.
+- **CTA:** Send it to a marketer stuck on a headline.
+- **Check before filming:** Ask Lynkk (Pro). Get consent from focus group participants, and from the customer before quoting them in an ad.
+
+### U8. Managers (one-on-ones): She said it three 1:1s ago
+
+**Page:** `/use-cases/one-on-one-meetings`
+
+- **Hook:** On-screen: "Manager. 8 direct reports. One quiet warning sign."
+- 1:1 in March. Asha, softly: "I'm not sure I'm growing here." The manager nods and moves on.
+- 1:1 in April: "Haven't done anything new in a while." Nod. Move on.
+- Before May's 1:1, he reads what's still open from the last three. Sees the pattern for the first time. Stops.
+- May 1:1, he opens with: "You've mentioned growth twice. Want to lead the new project?" Asha looks up, surprised: "You remembered?"
+- End card: "Lynkk for one-on-ones. Remember what they told you."
+- **Caption:** She said it three 1:1s ago. A 1:1 meeting note that reminds you what's still open before the next one.
+- **CTA:** Send it to a manager who does it right.
+- **Check before filming:** Recording a 1:1 needs the employee's clear agreement; show it. Asking across past 1:1s is part of Pro.
+
+### U9. Remote teams (standups): The teammate who's asleep during standup
+
+**Page:** `/use-cases/team-standups`
+
+- **Hook:** On-screen: "Standup is at 10 AM in Pune. It's 11:30 PM in Seattle."
+- Split screen: Pune team doing standup, energetic. Seattle dev Mark asleep, phone face down.
+- Next morning in Seattle, Mark's Slack: "What did I miss?" Nobody replies; they're offline.
+- Turn: the standup note is already there: yesterday, today, blockers, and his task with a due date.
+- Mark fixes the blocker before Pune wakes up. Pune standup next day: "Who fixed this?" Mark's tile, coffee in hand: "Morning."
+- End card: "Lynkk for team standups. Yesterday, today, blockers and owners, for everyone."
+- **Caption:** Standup in Pune, teammate asleep in Seattle. Standup notes with blockers and owners, for every time zone.
+- **CTA:** Send it to your distributed team.
+- **Check before filming:** Bot joins the standup or the Mac records it. Tasks can go to Jira.
+
+### U10. Inside sales (India): Call 37 of the day, in two languages
+
+**Page:** `/use-cases/sales-calls`
+
+- **Hook:** On-screen: "Inside sales rep. 40 calls a day. Hindi, English, and both at once."
+- SDR Rahul in a busy Mumbai office, headset on, switching from Hindi to English mid-sentence with each prospect.
+- Call 37: the prospect asks, "Last time I told you about our GST issue, right?" Rahul has no idea which call that was.
+- Turn: he asks Lynkk while the prospect is talking. The note from 9 days ago: "GST invoices need Hindi labels, wants a demo for the finance head."
+- Rahul: "Haan sir, the GST invoices. I've booked the demo for your finance head." Prospect: "Very good." Rahul does a silent fist pump; the whole floor sees.
+- End card: "Lynkk for sales calls. 17 languages plus Hinglish. ₹250 a month."
+- **Caption:** Inside sales rep, 40 calls a day in Hindi and English. AI sales call notes that remember every prospect.
+- **CTA:** Send it to the SDR who's always on a headset.
+- **Check before filming:** Use a call recorded on the Mac or with the bot; Lynkk has no phone dialer integration. Ask Lynkk is Pro.
+
+### Use-case carousels
+
+**UC1. One app, ten jobs**
+
+- **Hook:** Cover: "What does an AI note taker do for your job?"
+- One slide per job (agent, lawyer, advisor, student, field researcher, PM, marketer, manager, remote team, sales rep): the one thing Lynkk writes down for that job
+- Last slide: "Find yours in the 'Lynkk at work' highlight."
+- **Caption:** What an AI note taker writes down for 10 different jobs. Find yours.
+- **CTA:** Tag someone in each job.
+
+**UC2. What to write down in a client meeting, by job**
+
+- **Hook:** Cover: "The client meeting cheat sheet, by job"
+- Real estate: budget, must-haves, deal-breakers, timeline
+- Lawyers: facts in order, documents to collect, deadlines
+- Financial advisors: goals, life changes, risk comfort, next review
+- User interviews: the problem in their words, workarounds, what they'd pay for
+- 1:1s: wins, worries, what's still open
+- Last slide: "Or let Lynkk write it down. From $4 a month."
+- **Caption:** Client meeting notes cheat sheet: what to write down, by job. Save it.
+- **CTA:** Save it for your next client meeting.
+
 
 ## Before posting
 
