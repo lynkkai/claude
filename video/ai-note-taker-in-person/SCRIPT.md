@@ -205,6 +205,28 @@ Total rendered graphics: about 1 minute 20 seconds, down from 2 minutes 20.
 **Competitor names on screen:** plain text in the video's own typeface. No competitor logos, no screenshots of their
 apps, no recreations of their UI. Lynkk is row 1 on both boards; the rest follow the companion page's order.
 
+## The graphics are built
+
+All ten inserts and the five chapter cards are built and rendered, in `film/` (the code) with
+`in-person-2min-previz.mp4` beside it: the whole 2:00 at 1920x1080, with the scratch soundtrack on it.
+
+Where the team's footage goes, a slate names the shot and prints the line said over it, so the two minutes can be
+watched end to end now and the pacing judged before anyone books a room.
+
+| Built | Shown as |
+|---|---|
+| G1 cold open, chapter cards 1 to 5, G3 device board, G4 mic map, G5a Record now, G5b recording column, G5c the note, G6 speaker labels, G7 offline and back online, G8 picks board, G9 end card | finished frames |
+| The presenter on camera, the room montage, the three devices, asking consent, the label tips | slates naming the shot and its voice-over |
+
+**Checked on the render:** 3600 frames, 1920x1080 at 30 fps, 120.000 s, and the audio runs the full length.
+Key frames were rendered and looked at, which caught five things now fixed: speed lines hanging on after the
+cold open, the chapter number sitting on its own label, the recording column drawn off frame (it positions
+itself in Mac points), the mic-map tips running off the bottom, and the footage slates flashing up from black.
+
+**What is still a stand-in in the graphics:** the transcript lines in the speaker-label insert, and the room
+behind the cold open (a kit wallpaper, not your room). Both are one-line swaps once the test is filmed, and
+`film/README.md` says where.
+
 ## Shoot list (for the team)
 
 - **Room:** a real conference room with a glass wall or hard surfaces (so the echo is honest), seats for 4 to 6.
