@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>What 10 seats cost, story · Lynkk post</title>
+<!-- Instagram Story teaser for the team-pricing-10-seats carousel.
+     Prices checked 18 Nov 2026, same sources as post.html. -->
+<meta name="lynkk-allow" content="competitors, prices" />
+<link rel="stylesheet" href="../../kit/post.css" />
+<style>
+  /* Price table: the compare grid with a raised Lynkk row instead of a raised column. */
+  .price-table { --cols: 1.25fr 1fr 1fr; }
+  .price-table > .row > :not(:first-child) { text-align: right; justify-content: flex-end; }
+  .price-table > .row > :first-child { font-size: 27px; color: var(--gr-ink-2); padding-left: 0; }
+  .price-table > .row.head > * { color: var(--gr-ink-2); }
+  .price-table > .row.lynkk > * { color: var(--gr-ink); background: var(--gr-raised); }
+  .price-table > .row.lynkk > :first-child { padding-left: 26px; display: flex; align-items: center; gap: 12px; }
+  .price-table .tile { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; background: var(--gr-violet); color: var(--gr-white); }
+  .price-table .tile i { width: 24px; height: 24px; }
+  .post .cells.stack > .cell:nth-child(n) { padding: 34px 1px; }
+  .cells.stack .stat-n { font-size: 108px; }
+  .price-table > .row > * { padding-block: 38px; font-size: 32px; }
+  .price-table > .row > :first-child { font-size: 30px; }
+  .big-n { font-size: 200px; line-height: 1; letter-spacing: var(--gr-track-tight); }
+  /* Competitor app icons: identify the product, never larger than the Lynkk tile. */
+  .co-logo { width: 40px; height: 40px; border-radius: 10px; flex: none; }
+  .bill .glass-body { gap: 0; }
+  .bill .m-row { font-size: 24px; display: flex; align-items: center; gap: 16px; padding-block: 16px; }
+  .bill .m-row b { margin-left: auto; font-weight: 500; }
+  .bill .m-row.us { margin-top: 10px; padding: 18px 16px; border-radius: 12px; background: var(--gr-black); color: var(--gr-white); border: 0; }
+  .bill .m-row.us .tile { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; background: var(--gr-violet); color: var(--gr-white); }
+  .bill .m-row.us .tile i { width: 24px; height: 24px; }
+  .bill .m-row.us .m-chip { margin-left: auto; background: var(--gr-violet-tint); color: var(--gr-violet); }
+  .bill .m-row.us b { margin-left: 0; }
+  .cell-head { display: flex; align-items: center; gap: 22px; }
+  .cell-head .co-logo { width: 72px; height: 72px; border-radius: 16px; }
+  .price-table > .row > .name { display: flex; align-items: center; gap: 14px; }
+</style>
+<style>
+  .story-bill .m-row { font-size: 30px; padding-block: 22px; }
+  .story-bill .co-logo, .story-bill .m-row.us .tile { width: 52px; height: 52px; }
+  .story-bill .m-row.us .tile i { width: 30px; height: 30px; }
+</style>
+</head>
+<body>
+
+<section class="post" id="story" data-size="story" data-next="Tap the post">
+  <main class="post-body" data-dots>
+    <span class="eyebrow" data-tone="quiet">For teams of 10</span>
+    <h1 class="t-display">How much does your team pay <span class="ink-2">for meeting notes?</span></h1>
+    <div class="plate plate-night scene mt-xl bill story-bill" data-rings style="--scene-h: 820px; --card-w: 820px">
+      <div class="glass" data-size="l">
+        <div class="glass-title">Yearly bill, 10 seats</div>
+        <div class="glass-body">
+          <div class="m-row"><img class="co-logo" src="../../kit/assets/logos/competitors/granola.png" alt=""><span class="m-k">Granola Business</span><b>$1,680</b></div>
+          <div class="m-row"><img class="co-logo" src="../../kit/assets/logos/competitors/fireflies.png" alt=""><span class="m-k">Fireflies Pro</span><b>$1,200</b></div>
+          <div class="m-row"><img class="co-logo" src="../../kit/assets/logos/competitors/otter.png" alt=""><span class="m-k">Otter Pro</span><b>$1,000</b></div>
+          <div class="m-row us"><span class="tile"><i data-mark></i></span><span>Lynkk Pro</span><span class="m-chip">Save $1,200</span><b>$480</b></div>
+        </div>
+      </div>
+    </div>
+    <p class="t-lead mt-l">The full breakdown is in our latest post.</p>
+    <p class="t-small ink-2 mt-auto">Public list prices, checked 18 Nov 2026.</p>
+  </main>
+</section>
+
+<script src="../../kit/post.js"></script>
+</body>
+</html>

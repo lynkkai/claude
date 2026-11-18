@@ -22,6 +22,32 @@ What does your team pay for meeting notes today?
 
 **First comment:** See what's in Lynkk Pro: https://lynkk.ai/pricing?utm_source=linkedin&utm_medium=social
 
+## Instagram caption (feed carousel, same 7 slides)
+
+AI meeting notes for a team of 10: what you really pay in a year.
+
+Granola Business: $1,680
+Fireflies Pro: $1,200
+Otter Pro: $1,000
+Lynkk Pro: $480
+
+Same team, same meetings. A brief after every call, tasks sent to Jira, and answers from all your notes, online or in the room, in 17 languages.
+
+Save this for your next tools review, and send it to whoever pays for your team's software.
+
+lynkk.ai, link in bio.
+
+#aimeetingnotes #meetingnotes #productivitytools #saastools #startupteams #lynkk
+
+## Instagram Story (out/story.png, 1080 x 1920)
+
+Post it right after the carousel goes live.
+- Add a **link sticker** to lynkk.ai/pricing?utm_source=instagram&utm_medium=story, placed under "The full breakdown is in our latest post."
+- Or **share the carousel to your Story** and lay this image over it, so a tap opens the post.
+- Optional engagement: add a **poll sticker**, "What does your team use?" with the options "One of these" and "Nothing yet".
+
+Alt text: Story. Headline: "How much does your team pay for meeting notes?" A card titled "Yearly bill, 10 seats" lists Granola Business $1,680, Fireflies Pro $1,200 and Otter Pro $1,000 with their app icons, and a highlighted Lynkk Pro row at $480 with a "Save $1,200" chip. "The full breakdown is in our latest post."
+
 ## Alt text
 
 1. Cover. Headline: "$1,680 a year for meeting notes. Or $480." A card titled "Yearly bill, 10 seats" lists Granola Business $1,680, Fireflies Pro $1,200 and Otter Pro $1,000, each with its app icon, then a highlighted Lynkk Pro row at $480 with a "Save $1,200" chip. Public list prices, checked 18 Nov 2026.
