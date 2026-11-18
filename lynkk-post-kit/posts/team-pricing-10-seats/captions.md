@@ -24,7 +24,7 @@ What does your team pay for meeting notes today?
 
 ## Alt text
 
-1. Cover. Headline: "Your team is overpaying for meeting notes." A card titled "Yearly bill, 10 seats" lists Granola Business $1,680, Fireflies Pro $1,200, Otter Pro $1,000. Public list prices, checked 18 Nov 2026.
+1. Cover. Headline: "$1,680 a year for meeting notes. Or $480." A card titled "Yearly bill, 10 seats" lists Granola Business $1,680, Fireflies Pro $1,200 and Otter Pro $1,000, each with its app icon, then a highlighted Lynkk Pro row at $480 with a "Save $1,200" chip. Public list prices, checked 18 Nov 2026.
 2. Headline: "Same team. Three yearly bills." $1,680 for Granola Business at $14 a user a month, $1,200 for Fireflies Pro at $10 a seat a month, $1,000 for Otter Pro at $8.33 a user a month, each for 10 people over 12 months.
 3. Headline: "10 people on Lynkk Pro. $4 a month each." A large $480, a year for the whole team: $1,200 less than Granola Business, $720 less than Fireflies Pro, $520 less than Otter Pro.
 4. Headline: "Same meetings. A smaller bill." A table of price per user per month and per 10 seats per year, with the Lynkk Pro row highlighted at $4 and $480.

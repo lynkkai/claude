@@ -24,25 +24,36 @@
   .price-table > .row > * { padding-block: 38px; font-size: 32px; }
   .price-table > .row > :first-child { font-size: 30px; }
   .big-n { font-size: 200px; line-height: 1; letter-spacing: var(--gr-track-tight); }
-  .bill .m-row { font-size: 22px; }
-  .bill .m-row .m-k { min-width: 190px; }
+  /* Competitor app icons: identify the product, never larger than the Lynkk tile. */
+  .co-logo { width: 40px; height: 40px; border-radius: 10px; flex: none; }
+  .bill .glass-body { gap: 0; }
+  .bill .m-row { font-size: 24px; display: flex; align-items: center; gap: 16px; padding-block: 16px; }
   .bill .m-row b { margin-left: auto; font-weight: 500; }
+  .bill .m-row.us { margin-top: 10px; padding: 18px 16px; border-radius: 12px; background: var(--gr-black); color: var(--gr-white); border: 0; }
+  .bill .m-row.us .tile { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; background: var(--gr-violet); color: var(--gr-white); }
+  .bill .m-row.us .tile i { width: 24px; height: 24px; }
+  .bill .m-row.us .m-chip { margin-left: auto; background: var(--gr-violet-tint); color: var(--gr-violet); }
+  .bill .m-row.us b { margin-left: 0; }
+  .cell-head { display: flex; align-items: center; gap: 22px; }
+  .cell-head .co-logo { width: 72px; height: 72px; border-radius: 16px; }
+  .price-table > .row > .name { display: flex; align-items: center; gap: 14px; }
 </style>
 </head>
 <body>
 
-<!-- 01 · cover. A yearly bill on a plate: the tension. -->
-<section class="post" id="s1" data-size="portrait" data-count="01 / 07" data-next="Swipe">
+<!-- 01 · cover. The bill they pay, then the one they could pay. -->
+<section class="post" id="s1" data-size="portrait" data-count="01 / 07" data-next="Swipe to see the math">
   <main class="post-body" data-dots>
-    <span class="eyebrow" data-tone="quiet">Meeting notes for a team of 10</span>
-    <h1 class="t-display">Your team is overpaying <span class="ink-2">for meeting notes.</span></h1>
-    <div class="plate plate-night scene mt-l bill" data-rings style="--scene-h: 560px; --card-w: 640px">
+    <span class="eyebrow" data-tone="quiet">For teams of 10</span>
+    <h1 class="t-display">$1,680 a year for meeting notes. <span class="ink-2">Or $480.</span></h1>
+    <div class="plate plate-night scene mt-l bill" data-rings style="--scene-h: 560px; --card-w: 700px">
       <div class="glass" data-size="l">
         <div class="glass-title">Yearly bill, 10 seats</div>
         <div class="glass-body">
-          <div class="m-row"><span class="m-k">Granola Business</span><b>$1,680</b></div>
-          <div class="m-row"><span class="m-k">Fireflies Pro</span><b>$1,200</b></div>
-          <div class="m-row"><span class="m-k">Otter Pro</span><b>$1,000</b></div>
+          <div class="m-row"><img class="co-logo" src="../../kit/assets/logos/competitors/granola.png" alt=""><span class="m-k">Granola Business</span><b>$1,680</b></div>
+          <div class="m-row"><img class="co-logo" src="../../kit/assets/logos/competitors/fireflies.png" alt=""><span class="m-k">Fireflies Pro</span><b>$1,200</b></div>
+          <div class="m-row"><img class="co-logo" src="../../kit/assets/logos/competitors/otter.png" alt=""><span class="m-k">Otter Pro</span><b>$1,000</b></div>
+          <div class="m-row us"><span class="tile"><i data-mark></i></span><span>Lynkk Pro</span><span class="m-chip">Save $1,200</span><b>$480</b></div>
         </div>
       </div>
     </div>
@@ -56,9 +67,9 @@
     <span class="eyebrow">What 10 seats cost today</span>
     <h2 class="t-h2">Same team. <span class="ink-2">Three yearly bills.</span></h2>
     <div class="cells stack mt-l" style="--n: 1">
-      <div class="cell"><p class="stat-n">$1,680</p><p class="cell-b">Granola Business. $14 a user a month, 10 people, 12 months.</p></div>
-      <div class="cell"><p class="stat-n">$1,200</p><p class="cell-b">Fireflies Pro. $10 a seat a month, 10 people, 12 months.</p></div>
-      <div class="cell"><p class="stat-n">$1,000</p><p class="cell-b">Otter Pro. $8.33 a user a month, 10 people, 12 months.</p></div>
+      <div class="cell"><div class="cell-head"><img class="co-logo" src="../../kit/assets/logos/competitors/granola.png" alt=""><p class="stat-n">$1,680</p></div><p class="cell-b">Granola Business. $14 a user a month, 10 people, 12 months.</p></div>
+      <div class="cell"><div class="cell-head"><img class="co-logo" src="../../kit/assets/logos/competitors/fireflies.png" alt=""><p class="stat-n">$1,200</p></div><p class="cell-b">Fireflies Pro. $10 a seat a month, 10 people, 12 months.</p></div>
+      <div class="cell"><div class="cell-head"><img class="co-logo" src="../../kit/assets/logos/competitors/otter.png" alt=""><p class="stat-n">$1,000</p></div><p class="cell-b">Otter Pro. $8.33 a user a month, 10 people, 12 months.</p></div>
     </div>
     <p class="t-small ink-2 mt-auto">Fireflies and Otter billed yearly. Prices checked 18 Nov 2026.</p>
   </main>
@@ -87,9 +98,9 @@
     <h2 class="t-h2">Same meetings. <span class="ink-2">A smaller bill.</span></h2>
     <div class="compare price-table mt-xl">
       <div class="row head"><span></span><span>A user, a month</span><span>10 seats, a year</span></div>
-      <div class="row"><span>Granola Business</span><span>$14</span><span>$1,680</span></div>
-      <div class="row"><span>Fireflies Pro</span><span>$10</span><span>$1,200</span></div>
-      <div class="row"><span>Otter Pro</span><span>$8.33</span><span>$1,000</span></div>
+      <div class="row"><span class="name"><img class="co-logo" src="../../kit/assets/logos/competitors/granola.png" alt="">Granola Business</span><span>$14</span><span>$1,680</span></div>
+      <div class="row"><span class="name"><img class="co-logo" src="../../kit/assets/logos/competitors/fireflies.png" alt="">Fireflies Pro</span><span>$10</span><span>$1,200</span></div>
+      <div class="row"><span class="name"><img class="co-logo" src="../../kit/assets/logos/competitors/otter.png" alt="">Otter Pro</span><span>$8.33</span><span>$1,000</span></div>
       <div class="row lynkk"><span><span class="tile"><i data-mark></i></span>Lynkk Pro</span><span>$4</span><span>$480</span></div>
     </div>
     <p class="t-small ink-2 mt-auto">Fireflies and Otter billed yearly. Prices checked 18 Nov 2026.</p>
