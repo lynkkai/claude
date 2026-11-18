@@ -39,6 +39,38 @@ lynkk.ai, link in bio.
 
 #aimeetingnotes #meetingnotes #productivitytools #saastools #startupteams #lynkk
 
+## X post (up to 4 images: s1, s3, s4, s7)
+
+A 10-person team pays this much a year for AI meeting notes:
+
+Granola Business: $1,680
+Fireflies Pro: $1,200
+Otter Pro: $1,000
+Lynkk Pro: $480
+
+Same meetings. A smaller bill.
+
+lynkk.ai/pricing
+
+**Optional reply (thread):** What $4 a month gets you: a brief after every call, action items sent to Jira, Ask Lynkk across all your notes, and answers in Slack. Bot or no bot, online or in the room, in 17 languages.
+
+## Facebook post (all 7 slides as a carousel)
+
+What does a team of 10 really pay for AI meeting notes in a year? 👇
+
+Granola Business: $1,680
+Fireflies Pro: $1,200
+Otter Pro: $1,000
+Lynkk Pro: $480
+
+That's up to $1,200 back in your budget, for the same team and the same meetings.
+
+With Lynkk Pro you get a brief after every call, action items sent to Jira, answers from all your past notes, and recording online or in the room, in 17 languages.
+
+See what's included: https://lynkk.ai/pricing?utm_source=facebook&utm_medium=social
+
+Prices checked 18 Nov 2026.
+
 ## Instagram Story (out/story.png, 1080 x 1920)
 
 Post it right after the carousel goes live.
