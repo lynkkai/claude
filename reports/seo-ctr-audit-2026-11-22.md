@@ -232,3 +232,31 @@ Format: a side-by-side table, a verdict in the first 100 words, a "when to choos
 - Export **query + page** pairs (GSC API or Looker Studio) to confirm cannibalisation exactly.
 - Ubersuggest has no competitor data for lynkk.ai yet (the domain is too new). Re-run in 60 days.
 - Confirm pricing, HIPAA/SOC 2 status, and supported CRMs before publishing Tier 4 and the review posts (see "To confirm" in `memory/lynkk-brand.md`).
+
+---
+
+## 8. Addendum: long-tail, high-volume queries not yet covered (Ubersuggest, US, 22 Nov 2026)
+
+Checked against all 76 live blog URLs. "Fit" says whether Lynkk can do what the reader is trying to do (this decides whether the traffic converts).
+
+| # | Proposed post | Main long-tail query | Vol | SD | CPC | Cluster vol | Fit |
+|---|---|---|---|---|---|---|---|
+| 1 | How to Record a Zoom Meeting (Without Being the Host, Even on Free Zoom) | how to record a meeting on zoom | 9,900 | 24 | $14.28 | ~16,500 | Strong |
+| 2 | How to Record a Phone Call on iPhone (Free, Plus Auto Transcripts) | how to record a phone call on iphone | 49,500 | 27 | $3.03 | ~120,000 | Only if Lynkk records calls on iOS |
+| 3 | How to Record a Phone Call on Android (Samsung, Pixel, Any Phone) | how to record a phone call on an android | 12,100 | 15 | $1.58 | ~33,000 | Only if Lynkk records calls on Android |
+| 4 | Meeting Agenda Template: 15 Free Samples (Word, Google Docs) | sample for meeting agenda | 18,100 | 32 | $4.39 | ~45,000 | Medium (template intent) |
+| 5 | How to Transcribe a Conversation (In Person, Phone or Online) | how to transcribe a conversation | 6,600 | 48 | $6.41 | ~6,600 | Strong |
+| 6 | How to Transcribe a Video to Text (Free, 4 Ways) | how to transcribe a video | 2,900 | 32 | $7.04 | ~7,000 | Only if file upload is supported |
+| 7 | How to Record a Meeting on iPhone (In Person or Online) | how to record a meeting on iphone | 480 | 26 | $5.33 | ~700 | Strong if iOS/mobile web works |
+| 8 | How to Record a Webex Meeting (Host or Participant) | how to record a meeting on webex | 590 | 29 | $3.37 | ~850 | Check Webex support |
+| 9 | How to Take Meeting Notes: 7 Steps (Plus Let AI Do It) | how to take meeting notes | 590 | 45 | $5.38 | ~800 | Strong |
+| 10 | How to Transcribe Audio in Word (and When It Fails) | how to transcribe audio in word | 170 | 24 | $7.39 | ~770 | Medium |
+
+Add to existing pages instead of writing new posts (cannibalisation risk):
+- voice recorder with transcription (22,200, SD 32): retarget /blog/ai-voice-recorders
+- how to transcribe audio to text (4,400) / from audio to text (1,900, SD 12): add a how-to section to /blog/transcribe-audio-to-text
+- how to write minutes (720) / of a meeting (880) / as a secretary (210, SD 14): add to /blog/meeting-minutes-sample
+- 121 meeting agenda template (2,400, SD 19) / 1on1 meeting agenda (720, SD 14): retitle /blog/one-on-one-meeting
+- board meeting agenda format (1,300) / sample (1,300): /blog/board-meeting-agenda
+- how to transcribe a teams meeting (170): /blog/teams-transcript
+- how to transcribe voice memo (1,300): /blog/voice-memo-transcription
