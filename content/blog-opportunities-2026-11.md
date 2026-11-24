@@ -592,8 +592,8 @@ Method: every primary and long-tail query was matched against the 1,074 queries 
 
 | Post | Existing GSC impressions for this topic | Risk | Action |
 |---|---|---|---|
-| 1 iPhone call recording | None. Only voice memo queries, owned by voice-memo-transcription | None | Link to voice memo and legal posts |
-| 2 Android call recording | None | None | None |
+| Dropped: 1 iPhone call recording | None. Only voice memo queries, owned by voice-memo-transcription | None | Link to voice memo and legal posts |
+| Dropped: 2 Android call recording | None | None | None |
 | 3 Transcribe video to text | None for "video". transcribe-audio-to-text does not get video queries | Low | Keep the audio post about audio, link both ways |
 | 4 Meeting agenda template | 46 agenda queries, all board, standup or QBR agendas, owned by those posts | Low if rules followed | Never make a board, standup, 1:1 or QBR agenda an H2/H3 in the hub. Keep /blog/topic/meeting-templates titled "Meeting templates", not "Meeting agenda template" |
 | 5 YouTube transcript | None | None | Keep video-file queries in #3 |
