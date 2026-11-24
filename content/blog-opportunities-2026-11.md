@@ -292,8 +292,8 @@ Volumes are US monthly (Ubersuggest, Nov 2026). Format: query (volume, SD).
 - Do not target: meeting preparation (meeting-preparation), recording consent (is-it-legal-to-record-a-meeting)
 
 ### 15. Otter AI Review
-- otter ai free (480, 55): one H2, link otter-ai-pricing for plan detail
-- "is otter.ai still worth paying for in 2026, or should i look at other notetakers?" (GSC: 67 impressions, position 7.4)
+- otter ai free (480, 55): moved to the otter-ai-pricing refresh, not this post
+- "is otter.ai still worth paying for in 2026, or should i look at other notetakers?" (GSC: 67 impressions, position 7.4): on hold, an existing page already ranks for it
 - FAQ: otter ai accuracy, otter ai for interviews, otter ai for interpreters, otter ai review 2026 (no measured volume)
 - Do not target: otter ai pricing (otter-ai-pricing), otter ai alternatives (otter-ai-alternatives), otter vs fireflies/granola/fathom/read ai (existing comparison posts)
 
@@ -537,8 +537,30 @@ Placement key: Title + H1 + URL + meta = primary query. H2 = its own section. H3
 | Query | US vol | SD | Where to target |
 |---|---|---|---|
 | otter ai review | 590 | 49 | Title + H1 + URL + meta |
-| otter ai free | 480 | 55 | H2 (summary only, link pricing post) |
-| is otter.ai still worth paying for in 2026 (GSC query) | 67 | 0 | H2 'Verdict' + FAQ |
+| otter ai free | 480 | 55 | Do not target: move to otter-ai-pricing refresh (same intent as pricing) |
+| is otter.ai still worth paying for in 2026 (GSC query) | 67 | 0 | Hold: already ranks at position 7.4 on an existing page. Check which URL in GSC before using |
 | otter ai accuracy | 0 | 4 | H2 |
 | otter ai for interviews | 0 | 4 | H3 under 'Who should use it' |
 | otter ai review 2026 | 0 | 4 | Title year |
+
+## Cannibalization audit (GSC check, 2026-11-24)
+
+Method: every primary and long-tail query was matched against the 1,074 queries lynkk.ai already gets impressions for in GSC (last 3 months) and against all existing URLs.
+
+| Post | Existing GSC impressions for this topic | Risk | Action |
+|---|---|---|---|
+| 1 iPhone call recording | None. Only voice memo queries, owned by voice-memo-transcription | None | Link to voice memo and legal posts |
+| 2 Android call recording | None | None | None |
+| 3 Transcribe video to text | None for "video". transcribe-audio-to-text does not get video queries | Low | Keep the audio post about audio, link both ways |
+| 4 Meeting agenda template | 46 agenda queries, all board, standup or QBR agendas, owned by those posts | Low if rules followed | Never make a board, standup, 1:1 or QBR agenda an H2/H3 in the hub. Keep /blog/topic/meeting-templates titled "Meeting templates", not "Meeting agenda template" |
+| 5 YouTube transcript | None | None | Keep video-file queries in #3 |
+| 6 RACI chart | None | None | None |
+| 7 Record a Zoom meeting | "best free zoom meeting recorder with transcription" (113, pos 3.3), "zoom meeting recorder" (30), "zoom meeting recorder free" (19) rank via zoom-meeting-recorders; "zoom bot recording" via zoom-bot-join-meeting | Medium | #7 targets only "how to record" steps. Never use "recorder", "best", "free recorder" or "bot" in its title or headings. Link to zoom-meeting-recorders as the tool list |
+| 8 Skip level meeting | None | None | None |
+| 9 All hands meeting | None | None | None |
+| 10 Project status report | None | None | None |
+| 11 Cold call script | None | None | None |
+| 12 Notion AI meeting notes | None | None | None |
+| 13 Project kickoff agenda | None | Low (vs #4) | #4 keeps only a short "project meeting agenda" H3 that links here |
+| 14 Meeting etiquette | None | None | None |
+| 15 Otter AI review | 13 Otter queries. Lynkk already has 7 Otter URLs (pricing, alternatives, compare/otter, 4 vs posts). "otter ai alternative(s)" sits at position 77-87 | High | Write only after the Otter cluster is cleaned up. Check in GSC whether compare/otter and /blog/otter-ai-alternatives split "otter alternative" queries. "otter ai free" moved to the pricing post. Swap in "Sprint Retrospective Template" if you want 15 zero-risk posts now |
