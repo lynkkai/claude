@@ -12,12 +12,12 @@ Every topic below was checked against all 77 posts and the compare/feature pages
 | # | Working title | Primary keyword | US vol | SD | Secondary keywords | Closest existing post and how to keep them apart |
 |---|---|---|---|---|---|---|
 | 1 | How to Record a Phone Call on iPhone (Free and Legal Ways, 2026) | how to record a phone call on iphone | 49,500 | 27 | how to record a meeting on iphone (480) | is-it-legal-to-record-a-meeting: link to it for consent rules; do not repeat state-by-state law |
-| 2 | How to Record a Call on Android: Built-in and App Options | how to record a call on android | 12,100 | 46 | call recorder android | None. Pairs with #1; cross-link both |
+| 2 | How to Record a Call on Android: Built-in and App Options | how to record a call on android | 12,100 | 46 | how to record a call on android phone (9,900, SD 30) | None. Pairs with #1; cross-link both |
 | 3 | Transcribe Video to Text: 5 Free and AI Methods | transcribe video to text | 14,800 | 24 | free transcribe video to text (4,400), how to transcribe video to text (480) | transcribe-audio-to-text targets audio files. Keep this post about MP4, screen and meeting recordings; link out for audio |
 | 4 | Meeting Agenda Template: 10 Free Formats (Word, Google Docs) | meeting agenda template | 14,800 | 36 | example meeting agenda template (3,600), meeting agenda template word (1,600), team meeting agenda (720), staff meeting agenda template (720) | Hub page. Link down to board-meeting-agenda, one-on-one-meeting, daily-standup-meeting; only summarize those formats, never fully reproduce them |
-| 5 | How to Get a YouTube Transcript (Desktop, Mobile, AI) | youtube transcript | 110,000 | 51 | youtube video to text (1,600) | #3 handles uploaded video files; this one handles YouTube URLs only. Upper end of medium, so publish after #3 |
-| 6 | RACI Chart: Template, Examples, and How to Assign Owners in Meetings | raci chart | 18,100 | 31 | raci matrix, raci template | action-items-examples-template covers task lists. Keep RACI about roles and accountability; link to action items post |
-| 7 | How to Record a Zoom Meeting (Host, Participant, Without Permission) | how to record a zoom meeting | 9,900 | 39 | how to record a zoom meeting on iphone (320) | zoom-meeting-recorders is a tool listicle; how-to-transcribe-zoom-meetings is about transcripts. This is the step-by-step how-to. Matches existing Google Meet and Teams recording posts |
+| 5 | YouTube Transcript Generator: How to Get, Copy and Download Any Transcript | youtube transcript generator (33,100, SD 25) + youtube transcript | 110,000 | 51 | youtube transcript extractor (4,400), youtube transcript download (3,600), youtube video to text (1,600) | #3 handles uploaded video files; this one handles YouTube URLs only. Upper end of medium, so publish after #3 |
+| 6 | RACI Chart: Template, Examples, and How to Assign Owners in Meetings | raci chart | 18,100 | 31 | raci chart definition (12,100), raci chart meaning (12,100), raci chart template (3,600) | action-items-examples-template covers task lists. Keep RACI about roles and accountability; link to action items post |
+| 7 | How to Record a Zoom Meeting as Host or Participant (Desktop and Mobile) | how to record a zoom meeting | 9,900 | 39 | how to record a zoom meeting on iphone (320) | zoom-meeting-recorders is a tool listicle; how-to-transcribe-zoom-meetings is about transcripts. This is the step-by-step how-to. Matches existing Google Meet and Teams recording posts |
 | 8 | Skip Level Meeting: 30 Questions and an Agenda Template | skip level meeting | 2,900 | 19 | skip level meeting questions | one-on-one-meeting covers manager and direct report. Keep this strictly about skip-level |
 | 9 | All Hands Meeting Agenda: Template, Ideas, and Town Hall Format | all hands meeting | 1,600 | 28 | town hall meeting (4,400, mixed civic intent) | None |
 | 10 | Project Status Report Template (Weekly, With Examples) | project status report template | 1,300 | 43 | weekly status report template | meeting-summary-template is per meeting. Keep this about project-level weekly reporting |
@@ -25,16 +25,18 @@ Every topic below was checked against all 77 posts and the compare/feature pages
 | 12 | Notion AI Meeting Notes: How It Works, Limits, and Alternatives | notion ai meeting notes | 880 | 33 | notion ai transcription | Fits the existing Granola/Otter/Fathom review cluster. High CPC ($14) means buyer intent |
 | 13 | Project Kickoff Meeting Agenda: Template and Checklist | agenda for project kickoff meeting | 720 | 21 | project kickoff meeting (720), project kickoff meeting template (320) | #4 links here; do not include a full kickoff agenda in #4 |
 | 14 | Meeting Etiquette: 15 Rules for In-Person and Virtual Meetings | meeting etiquette | 590 | 30 | how to run effective meetings (320, SD 9) | meeting-preparation is a pre-meeting checklist. Keep this about behavior during the meeting |
-| 15 | Otter AI Review (2026): Accuracy, Free Plan, and Who Should Use It | otter ai review | 590 | 49 | otter ai free (480) | otter-ai-pricing owns plan prices; otter-ai-alternatives owns "alternatives". Review links to both and does not repeat the price table |
+| 15 | Sprint Retrospective Template: Formats, Questions and Examples | sprint retrospective template | 390 | 37 | sprint retrospective (1,000, 42), sprint retrospective samples (480, 20), sprint review vs sprint retrospective (390, 32) | None. No retro queries in GSC; daily-standup-meeting is a different ceremony. Link to it and to meeting-minutes-to-jira |
 
-Reserve topics if any of the above is cut: sprint retrospective template (390, SD 37), decision log template (320, SD 37), webex transcript (140, SD 23), chatgpt record mode (210, SD 22).
+Reserve topics if any of the above is cut: decision log template (320, SD 37), webex transcript (140, SD 23), chatgpt record mode (210, SD 22).
 
 ## Suggested publishing order
 
 1. Quick wins (low SD, clear gap): #8, #13, #3, #1, #9
-2. High volume, medium SD: #4, #6, #7, #2
-3. Commercial / brand-adjacent: #12, #15, #11
+2. High volume, medium SD: #4, #6, #7, #2, #15
+3. Commercial / brand-adjacent: #12, #11
 4. Harder, publish once #3 has links: #5, #10, #14
+
+On hold: Otter AI Review (otter ai review, 590, SD 49). High cannibalization risk with the 7 existing Otter URLs; revisit after the Otter cluster cleanup (see audit).
 
 ## Refresh, don't create (from GSC)
 
@@ -58,7 +60,6 @@ These queries already have a Lynkk URL with impressions. Improve the existing pa
 
 | Topic | Primary keyword | US vol | SD | Note |
 |---|---|---|---|---|
-| Sprint Retrospective Template | sprint retrospective template | 390 | 37 | Fits product/engineering audience and the Jira angle. Also covers "retrospective meeting" (320, SD 39) |
 | Decision Log Template | decision log template | 320 | 37 | Strong product fit: decisions captured from meetings |
 | Sprint Planning Meeting: Agenda and Checklist | sprint planning meeting | 260 | 29 | Pair with the retro post and daily-standup-meeting |
 | ChatGPT Record Mode: How It Works and Limits | chatgpt record mode | 210 | 22 | Comparison angle, same cluster as Notion AI (#12) |
@@ -291,7 +292,26 @@ Volumes are US monthly (Ubersuggest, Nov 2026). Format: query (volume, SD).
 - meeting etiquette do's and don'ts (20, 8)
 - Do not target: meeting preparation (meeting-preparation), recording consent (is-it-legal-to-record-a-meeting)
 
-### 15. Otter AI Review
+### 15. Sprint Retrospective Template
+- sprint retrospective (1,000, 42)
+- sprint retrospective model (880, 44)
+- sprint retrospective samples (480, 20); sample (390, 40); example (110, 33)
+- sprint review vs sprint retrospective (390, 32)
+- retrospective template agile (320, 16); agile retrospective template (210, 48)
+- retrospective meeting (320, 39)
+- jira retrospective template (260, 29); confluence (210, 28); miro (110, 24)
+- what is sprint retrospective (210, 35)
+- sprint retrospective ideas (170, 40)
+- project retrospective template (170, 24)
+- retrospective questions (170, 22); sprint retrospective questions (70, 28)
+- sprint retrospective tools (140, 33)
+- when is a sprint retrospective meeting held (140, 35)
+- sprint retrospective what went well (110, 35)
+- sailboat (40, 39), 4L (50, 20), starfish (30, 31) retrospective templates
+- how to run sprint retrospective (40, 13)
+- Do not target: daily standup (daily-standup-meeting), sprint planning (backup post), Jira tickets from meetings (meeting-minutes-to-jira)
+
+### On hold: Otter AI Review
 - otter ai free (480, 55): moved to the otter-ai-pricing refresh, not this post
 - "is otter.ai still worth paying for in 2026, or should i look at other notetakers?" (GSC: 67 impressions, position 7.4): on hold, an existing page already ranks for it
 - FAQ: otter ai accuracy, otter ai for interviews, otter ai for interpreters, otter ai review 2026 (no measured volume)
@@ -532,7 +552,32 @@ Placement key: Title + H1 + URL + meta = primary query. H2 = its own section. H3
 | team meeting etiquette | 40 | 30 | H3 under 'Business' |
 | how to run effective meetings | 320 | 9 | H2 |
 
-### 15. Otter AI Review (/blog/otter-ai-review)
+### 15. Sprint Retrospective Template (/blog/sprint-retrospective-template)
+
+| Query | US vol | SD | Where to target |
+|---|---|---|---|
+| sprint retrospective template | 390 | 37 | Title + H1 + URL + meta |
+| sprint retrospective | 1,000 | 42 | Title + H1 (both phrasings) |
+| what is sprint retrospective | 210 | 35 | First H2 |
+| sprint retrospective model | 880 | 44 | Body copy in first H2 |
+| when is a sprint retrospective meeting held | 140 | 35 | H3 under first H2 |
+| retrospective meeting | 320 | 39 | Body copy in first H2 |
+| sprint review vs sprint retrospective | 390 | 32 | H2 |
+| retrospective template agile | 320 | 16 | H2 'Templates' |
+| agile retrospective template | 210 | 48 | Body copy in 'Templates' |
+| sailboat / 4L / starfish retrospective template | 50 | 20 | H3s under 'Templates' |
+| jira retrospective template | 260 | 29 | H2 'In Jira, Confluence, Miro' |
+| retrospective template confluence | 210 | 28 | H3 under 'In Jira, Confluence, Miro' |
+| miro retrospective template | 110 | 24 | H3 under 'In Jira, Confluence, Miro' |
+| project retrospective template | 170 | 24 | H2 |
+| sprint retrospective samples / sample / example | 480 | 20 | H2 'Examples' |
+| sprint retrospective what went well | 110 | 35 | H3 under 'Examples' |
+| retrospective questions / sprint retrospective questions | 170 | 22 | H2 |
+| sprint retrospective ideas | 170 | 40 | H2 |
+| sprint retrospective tools | 140 | 33 | H2 (Lynkk angle) |
+| how to run sprint retrospective | 40 | 13 | FAQ |
+
+### On hold: Otter AI Review (/blog/otter-ai-review)
 
 | Query | US vol | SD | Where to target |
 |---|---|---|---|
@@ -563,4 +608,5 @@ Method: every primary and long-tail query was matched against the 1,074 queries 
 | 12 Notion AI meeting notes | None | None | None |
 | 13 Project kickoff agenda | None | Low (vs #4) | #4 keeps only a short "project meeting agenda" H3 that links here |
 | 14 Meeting etiquette | None | None | None |
-| 15 Otter AI review | 13 Otter queries. Lynkk already has 7 Otter URLs (pricing, alternatives, compare/otter, 4 vs posts). "otter ai alternative(s)" sits at position 77-87 | High | Write only after the Otter cluster is cleaned up. Check in GSC whether compare/otter and /blog/otter-ai-alternatives split "otter alternative" queries. "otter ai free" moved to the pricing post. Swap in "Sprint Retrospective Template" if you want 15 zero-risk posts now |
+| 15 Sprint retrospective template | No retro or sprint queries in GSC | None | Link to daily-standup-meeting and meeting-minutes-to-jira |
+| On hold: Otter AI review | 13 Otter queries. Lynkk already has 7 Otter URLs (pricing, alternatives, compare/otter, 4 vs posts). "otter ai alternative(s)" sits at position 77-87 | High | Write only after the Otter cluster is cleaned up. Check in GSC whether compare/otter and /blog/otter-ai-alternatives split "otter alternative" queries. "otter ai free" moved to the pricing post. Swap in "Sprint Retrospective Template" if you want 15 zero-risk posts now |

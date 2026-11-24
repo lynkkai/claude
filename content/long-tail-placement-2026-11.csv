@@ -160,9 +160,29 @@ Post #,Post,Suggested URL,Query,US volume,SD,Where to target
 14,Meeting Etiquette,/blog/meeting-etiquette,business meeting etiquette,70,27,H2
 14,Meeting Etiquette,/blog/meeting-etiquette,team meeting etiquette,40,30,H3 under 'Business'
 14,Meeting Etiquette,/blog/meeting-etiquette,how to run effective meetings,320,9,H2
-15,Otter AI Review,/blog/otter-ai-review,otter ai review,590,49,Title + H1 + URL + meta
-15,Otter AI Review,/blog/otter-ai-review,otter ai free,480,55,Do not target: move to otter-ai-pricing refresh
-15,Otter AI Review,/blog/otter-ai-review,is otter.ai still worth paying for in 2026 (GSC query),67,0,Hold: already ranks at position 7.4 on an existing page
-15,Otter AI Review,/blog/otter-ai-review,otter ai accuracy,0,4,H2
-15,Otter AI Review,/blog/otter-ai-review,otter ai for interviews,0,4,H3 under 'Who should use it'
-15,Otter AI Review,/blog/otter-ai-review,otter ai review 2026,0,4,Title year
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,sprint retrospective template,390,37,Title + H1 + URL + meta
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,sprint retrospective,1000,42,Title + H1 (both phrasings)
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,what is sprint retrospective,210,35,First H2
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,sprint retrospective model,880,44,Body copy in first H2
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,when is a sprint retrospective meeting held,140,35,H3 under first H2
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,retrospective meeting,320,39,Body copy in first H2
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,sprint review vs sprint retrospective,390,32,H2
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,retrospective template agile,320,16,H2 'Templates'
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,agile retrospective template,210,48,Body copy in 'Templates'
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,sailboat / 4L / starfish retrospective template,50,20,H3s under 'Templates'
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,jira retrospective template,260,29,"H2 'In Jira, Confluence, Miro'"
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,retrospective template confluence,210,28,"H3 under 'In Jira, Confluence, Miro'"
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,miro retrospective template,110,24,"H3 under 'In Jira, Confluence, Miro'"
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,project retrospective template,170,24,H2
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,sprint retrospective samples / sample / example,480,20,H2 'Examples'
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,sprint retrospective what went well,110,35,H3 under 'Examples'
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,retrospective questions / sprint retrospective questions,170,22,H2
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,sprint retrospective ideas,170,40,H2
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,sprint retrospective tools,140,33,H2 (Lynkk angle)
+15,Sprint Retrospective Template,/blog/sprint-retrospective-template,how to run sprint retrospective,40,13,FAQ
+On hold,Otter AI Review,/blog/otter-ai-review,otter ai review,590,49,Title + H1 + URL + meta
+On hold,Otter AI Review,/blog/otter-ai-review,otter ai free,480,55,Do not target: move to otter-ai-pricing refresh
+On hold,Otter AI Review,/blog/otter-ai-review,is otter.ai still worth paying for in 2026 (GSC query),67,0,Hold: already ranks at position 7.4 on an existing page
+On hold,Otter AI Review,/blog/otter-ai-review,otter ai accuracy,0,4,H2
+On hold,Otter AI Review,/blog/otter-ai-review,otter ai for interviews,0,4,H3 under 'Who should use it'
+On hold,Otter AI Review,/blog/otter-ai-review,otter ai review 2026,0,4,Title year
