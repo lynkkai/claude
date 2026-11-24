@@ -7,11 +7,10 @@ SD = SEO difficulty (0-100). "Medium" here means SD 19-51.
 
 Every topic below was checked against all 77 posts and the compare/feature pages. A topic was dropped if an existing URL already targets the same primary query or the same search intent. Examples dropped: "best AI meeting assistant" (ai-powered-meeting-assistants, best-ai-note-takers), "team meeting agenda" (folded into #4), "how to take meeting notes" (too close to meeting-notes-template), "speech to text iPhone" (voice-memo-transcription, voice-to-text-apps), "Fathom/Fireflies alternatives" (volume 50-110, and compare pages exist).
 
-## The blogs (14 active; #1 dropped by the team on 2026-11-24, numbers kept for reference)
+## The blogs (13 active; #1 and #2 dropped by the team on 2026-11-24, numbers kept for reference)
 
 | # | Working title | Primary keyword | US vol | SD | Secondary keywords | Closest existing post and how to keep them apart |
 |---|---|---|---|---|---|---|
-| 2 | How to Record a Call on Android: Built-in and App Options | how to record a call on android | 12,100 | 46 | how to record a call on android phone (9,900, SD 30) | None. Pairs with #1; cross-link both |
 | 3 | Transcribe Video to Text: 5 Free and AI Methods | transcribe video to text | 14,800 | 24 | free transcribe video to text (4,400), how to transcribe video to text (480) | transcribe-audio-to-text targets audio files. Keep this post about MP4, screen and meeting recordings; link out for audio |
 | 4 | Meeting Agenda Template: 10 Free Formats (Word, Google Docs) | meeting agenda template | 14,800 | 36 | example meeting agenda template (3,600), meeting agenda template word (1,600), team meeting agenda (720), staff meeting agenda template (720) | Hub page. Link down to board-meeting-agenda, one-on-one-meeting, daily-standup-meeting; only summarize those formats, never fully reproduce them |
 | 5 | YouTube Transcript Generator: How to Get, Copy and Download Any Transcript | youtube transcript generator (33,100, SD 25) + youtube transcript | 110,000 | 51 | youtube transcript extractor (4,400), youtube transcript download (3,600), youtube video to text (1,600) | #3 handles uploaded video files; this one handles YouTube URLs only. Upper end of medium, so publish after #3 |
@@ -31,7 +30,7 @@ Reserve topics if any of the above is cut: decision log template (320, SD 37), w
 ## Suggested publishing order
 
 1. Quick wins (low SD, clear gap): #8, #13, #3, #9
-2. High volume, medium SD: #4, #6, #7, #2, #15
+2. High volume, medium SD: #4, #6, #7, #15
 3. Commercial / brand-adjacent: #12, #11
 4. Harder, publish once #3 has links: #5, #10, #14
 
@@ -124,7 +123,7 @@ Volumes are US monthly (Ubersuggest, Nov 2026). Format: query (volume, SD).
 - FAQ: how to record a phone call on iphone with transcript (product angle)
 - Do not target: call recording laws (owned by is-it-legal-to-record-a-meeting), voice memo transcription (voice-memo-transcription)
 
-### 2. How to Record a Call on Android
+### Dropped: 2. How to Record a Call on Android
 - how to record a call on android phone (9,900, 30)
 - how to record a call on android without announcement (50, 31)
 - how to record a call on android samsung (30, 28)
@@ -335,7 +334,7 @@ Placement key: Title + H1 + URL + meta = primary query. H2 = its own section. H3
 | how to record a phone call on iphone whatsapp / facetime | 20 | 8 | H3s under 'Other apps' |
 | how to record a phone call on iphone with transcript | 0 | 4 | H2 (Lynkk product section) |
 
-### 2. How to Record a Call on Android (/blog/record-call-android)
+### Dropped: 2. How to Record a Call on Android (/blog/record-call-android)
 
 | Query | US vol | SD | Where to target |
 |---|---|---|---|
@@ -617,7 +616,6 @@ Fit: how naturally the post can show Lynkk (Strong / Medium / Weak).
 
 | # | Blog | Search intent | Funnel | Lynkk features to show | Pages to link | Fit |
 |---|---|---|---|---|---|---|
-| 2 | Record a call on Android | Informational (how-to) | TOFU | In-person and call recording, multilingual transcription, meeting notes | /features/meeting-notes, /features/multilingual-transcription | Weak: Android app not confirmed. Keep the Lynkk section to "record on your laptop or web app" |
 | 3 | Transcribe video to text | Informational + tool seeking | TOFU / MOFU | Multilingual transcription, Hinglish transcription, meeting notes | /features/multilingual-transcription, /features/hinglish-transcription | Medium: confirm file upload support before claiming it |
 | 4 | Meeting agenda template | Template | TOFU | Before-meeting context (past discussion, open items), Google Calendar, meeting notes | /how-it-works, /integrations/google-calendar, /features/meeting-notes | Strong |
 | 5 | YouTube transcript generator | Informational + tool seeking | TOFU | Chrome extension, Ask your meetings (summaries) | /features/chrome-extension, /features/ask-your-meetings | Weak: traffic play; confirm the extension can capture tab audio |
