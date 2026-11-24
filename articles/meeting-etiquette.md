@@ -80,7 +80,7 @@ Here are the meeting etiquette do's and don'ts in 1 table you can share with you
 
 ## What is virtual meeting etiquette?
 
-Virtual meeting etiquette is the extra set of rules for video calls on Zoom, Google Meet or Microsoft Teams, where audio, video and chat replace body language. Stanford's IT team publishes [video conferencing etiquette guidance](https://uit.stanford.edu/videoconferencing/meeting-etiquette) covering preparation, communication and technology.
+Virtual meeting etiquette is the extra set of rules for video calls on Zoom, Google Meet or Microsoft Teams, where audio, video and chat replace body language. The US National Science Foundation says [the same etiquette expected for in-person business meetings applies to remote events](https://www.nsf.gov/about/meetings/virtual), and asks attendees to mute when not speaking. The US Office of Personnel Management's [telework etiquette tips](https://www.opm.gov/telework/telework-employees/telework-etiquette-quick-tips/) give the same advice for conference calls. Stanford's IT team publishes [video conferencing etiquette guidance](https://uit.stanford.edu/videoconferencing/meeting-etiquette) covering preparation, communication and technology.
 
 ### Virtual meeting etiquette tips
 
@@ -171,6 +171,7 @@ Avoid eating during meetings unless the host has said it is a working lunch. On 
 ### What is the etiquette for meeting minutes?
 
 The etiquette for meeting minutes is to send them within 24 hours, keep them factual, record decisions and owners rather than every comment, and let attendees correct errors. See our [meeting minutes format](https://lynkk.ai/blog/meeting-minutes-sample) guide for a template.
+
 
 <!--
 JSON-LD (inject in page head on publish; generated from the FAQ section, keep in sync)

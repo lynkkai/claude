@@ -263,6 +263,7 @@ Gong's data shows Wednesday and Thursday are the 2 best days for cold calls. Wit
 Cold calling is hard because you interrupt someone who did not ask to hear from you, and most calls end in voicemail or a quick "no." A clear reason for calling in the first 10 seconds is the biggest single fix.
 
 
+
 <!--
 JSON-LD (inject in page head on publish; generated from the FAQ section, keep in sync)
 {

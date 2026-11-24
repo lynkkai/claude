@@ -135,7 +135,7 @@ The 10 example meeting agenda templates below cover the most common business mee
 | Decisions needed | 15 min |
 | Next steps and owners | 10 min |
 
-Starting a new project? Use a dedicated kickoff agenda instead, with goals, scope and roles.
+Starting a new project? Use a dedicated kickoff agenda instead, with goals, scope and roles. The US Department of Energy's [sample kickoff agenda](https://www.energy.gov/node/758886) shows how public-sector teams structure one.
 
 ### 6. Business or client meeting agenda template (60 minutes)
 
@@ -238,6 +238,7 @@ Formal meetings, such as board, committee and HOA meetings, usually approve the 
 ### What makes a good meeting agenda?
 
 A good meeting agenda has 1 clear goal, 3 to 5 timed topics, an owner for each, links to pre-reads, and space for decisions and action items. It is sent at least 24 hours ahead.
+
 
 <!--
 JSON-LD (inject in page head on publish; generated from the FAQ section, keep in sync)

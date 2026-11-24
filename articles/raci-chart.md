@@ -81,6 +81,8 @@ The main benefits are fewer dropped tasks, faster decisions and fewer surprise e
 
 ## RACI chart template
 
+California's Child Welfare Digital Services defines RACI as [a responsibility assignment chart](https://cwds.ca.gov/glossary/111) that maps every task, milestone or key decision to the people involved. The US Department of Health and Human Services also published a [RACI diagram tool](https://www.opa.hhs.gov/sites/default/files/2020-12/short-lesson-learned-raci-diagram-tool.pdf) after using it on a multi-stakeholder program evaluation.
+
 Copy this RACI grid into a spreadsheet or document. Replace tasks and names, and fill each cell with R, A, C, I or leave it blank.
 
 | Task or deliverable | [Person 1] | [Person 2] | [Person 3] |
@@ -190,7 +192,7 @@ A simple habit: end every project meeting by reading out new action items with t
 
 An AI meeting assistant can do this step for you. [Lynkk](https://lynkk.ai/) turns meetings into structured notes and [action items with owners](https://lynkk.ai/features/action-items) about 30 seconds after the call. With its Jira integration, it can create the tickets too. You review the owners instead of retyping them.
 
-For a ready-made list format, see our [action items template](https://lynkk.ai/blog/action-items-examples-template).
+For a ready-made list format, see our [action items template](https://lynkk.ai/blog/action-items-examples-template). To push owners straight into your tracker, see how to turn [meeting minutes into Jira issues](https://lynkk.ai/blog/meeting-minutes-to-jira) or use Lynkk's [Jira integration](https://lynkk.ai/integrations/jira).
 
 ## FAQ
 
@@ -213,6 +215,7 @@ RACI is usually pronounced "RAY-see," like the word "racy." Some teams spell it 
 ### What is the difference between Consulted and Informed?
 
 Consulted is two-way: those people give input before the work is done. Informed is one-way: those people are told about the result. Keep Consulted to the 1 to 3 people whose input changes the outcome.
+
 
 
 

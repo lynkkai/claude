@@ -68,7 +68,7 @@ Participants can record only to their own computer, not to the host's cloud. If 
 
 ### Can you record a Zoom meeting if you are not the host?
 
-Yes, but only with the host's permission through **Allow Record**, or if the host makes you a co-host on an account that allows co-hosts to record. Recording without the host's knowledge using other tools may break your company policy or recording laws. See our guide on [whether it is legal to record a meeting](https://lynkk.ai/blog/is-it-legal-to-record-a-meeting) before you do.
+Yes, but only with the host's permission through **Allow Record**, or if the host makes you a co-host on an account that allows co-hosts to record. Recording without the host's knowledge using other tools may break your company policy or recording laws. In the US, the federal wiretap law ([18 U.S.C. § 2511](https://www.law.cornell.edu/uscode/text/18/2511)) allows recording when 1 party consents, but many states require every party's consent. See our guide on [whether it is legal to record a meeting](https://lynkk.ai/blog/is-it-legal-to-record-a-meeting) before you do.
 
 ## How do you record a Zoom meeting on iPhone or iPad?
 
@@ -144,6 +144,7 @@ No, unless the host or admin turns on automatic recording in Settings > Recordin
 ### Can recorded Zoom meetings be transcribed?
 
 Yes. Cloud recordings on 1 of Zoom's paid plans can generate an audio transcript, and AI meeting assistants can transcribe and summarize meetings automatically. See [how to transcribe Zoom meetings](https://lynkk.ai/blog/how-to-transcribe-zoom-meetings) for the steps.
+
 
 
 

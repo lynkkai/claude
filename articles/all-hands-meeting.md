@@ -113,7 +113,7 @@ To run it well, choose one host, prepare speakers a week ahead, collect question
 
 ### How do you run a virtual or hybrid all hands?
 
-For a virtual or hybrid session, keep slides simple, put remote questions first, and use 1 moderator to watch the chat. Record the session and share it with time-stamped chapters so people can jump to the part they need.
+The US Office of Personnel Management's [telework etiquette tips](https://www.opm.gov/telework/telework-employees/telework-etiquette-quick-tips/) recommend asking remote attendees to mute when they are not talking. For a virtual or hybrid session, keep slides simple, put remote questions first, and use 1 moderator to watch the chat. Record the session and share it with time-stamped chapters so people can jump to the part they need.
 
 ## What are some all hands meeting ideas to make it engaging?
 
@@ -146,7 +146,7 @@ Use a simple [meeting notes template](https://lynkk.ai/blog/meeting-notes-templa
 
 ### How can AI help summarize a company meeting?
 
-An AI meeting assistant can turn a 45-minute company meeting into structured notes and action items about 30 seconds after the call ends. [Lynkk](https://lynkk.ai/) also lets employees [ask questions across past meetings](https://lynkk.ai/features/ask-your-meetings), such as "what did the CEO say about hiring in Q3?", and get an answer from the actual conversation. It is multilingual, which helps global teams that follow the meeting in a second language.
+An AI meeting assistant can turn a 45-minute company meeting into structured notes and action items about 30 seconds after the call ends. [Lynkk](https://lynkk.ai/) also lets employees [ask questions across past meetings](https://lynkk.ai/features/ask-your-meetings), such as "what did the CEO say about hiring in Q3?", and get an answer from the actual conversation. It offers [multilingual transcription](https://lynkk.ai/features/multilingual-transcription), which helps global teams that follow the meeting in a second language.
 
 ## FAQ
 
@@ -169,6 +169,7 @@ They feel like a waste of time when they are one-way slide reviews with no Q&A. 
 ### Should you record your all hands?
 
 Yes. Record them so people in 2 or more time zones, on leave or in customer meetings can watch later. Tell attendees at the start that the session is being recorded, and check the [rules on recording meetings](https://lynkk.ai/blog/is-it-legal-to-record-a-meeting) where you operate.
+
 
 
 

@@ -216,6 +216,8 @@ The hardest part is remembering what was said three months later. An AI meeting 
 
 Always ask for consent before recording. Check the [rules on recording meetings](https://lynkk.ai/blog/is-it-legal-to-record-a-meeting) where you work.
 
+The US Office of Personnel Management also advises supervisors to [record regular feedback sessions](https://www.opm.gov/policy-data-oversight/performance-management/performance-management-toolkit/best-practices/performance-management-roadmap-for-supervisors) in their performance system, which makes themes easier to track across quarters.
+
 Close the loop within a week. A short [follow-up email after the meeting](https://lynkk.ai/blog/follow-up-email-after-meeting) that lists what you heard and what you will do shows the meeting mattered.
 
 ## FAQ
@@ -240,41 +242,95 @@ Yes. Tell the direct manager at least 2 days before, and explain why. Surprising
 
 A one-on-one happens every 1 to 2 weeks between an employee and their own manager about daily work. A skip happens about once a quarter with a leader two levels up, focused on feedback, culture and growth.
 
+
 <!--
-JSON-LD (inject in page head on publish; keep FAQ text in sync with the body)
+JSON-LD (inject in page head on publish; generated from the FAQ section, keep in sync)
 {
-  "@context": "https://schema.org",
-  "@graph": [
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "headline": "What Is a Skip Level Meeting, and How Do You Run One That Actually Helps?",
+   "description": "A skip level meeting connects a senior leader with their manager's direct reports. Get the agenda, 30 questions, an invite email and note-taking tips.",
+   "author": {
+    "@type": "Person",
+    "name": "Samarth Wagh",
+    "url": "https://lynkk.ai/blog/authors/samarth-wagh"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Lynkk",
+    "url": "https://lynkk.ai/"
+   },
+   "datePublished": "2026-11-24",
+   "dateModified": "2026-11-24",
+   "inLanguage": "en",
+   "mainEntityOfPage": "https://lynkk.ai/blog/skip-level-meeting",
+   "image": "https://lynkk.ai/images/skip-level-meeting-agenda.png"
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
     {
-      "@type": "Article",
-      "headline": "What Is a Skip Level Meeting, and How Do You Run One That Actually Helps?",
-      "description": "A skip level meeting connects a senior leader with their manager's direct reports. Get the agenda, 30 questions, an invite email and note-taking tips.",
-      "author": {"@type": "Person", "name": "Samarth Wagh", "url": "https://lynkk.ai/blog/authors/samarth-wagh"},
-      "publisher": {"@type": "Organization", "name": "Lynkk", "url": "https://lynkk.ai/"},
-      "datePublished": "2026-11-24",
-      "dateModified": "2026-11-24",
-      "inLanguage": "en",
-      "mainEntityOfPage": "https://lynkk.ai/blog/skip-level-meeting",
-      "image": "https://lynkk.ai/images/skip-level-meeting-agenda.png"
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Blog",
+     "item": "https://lynkk.ai/blog"
     },
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Blog", "item": "https://lynkk.ai/blog"},
-        {"@type": "ListItem", "position": 2, "name": "Skip Level Meeting", "item": "https://lynkk.ai/blog/skip-level-meeting"}
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {"@type": "Question", "name": "Are skip level meetings confidential?", "acceptedAnswer": {"@type": "Answer", "text": "They are confidential in spirit, but not secret. Share themes with the manager within 1 week, without naming who said what. Say at the start what will and will not be shared."}},
-        {"@type": "Question", "name": "What is a skip level meeting with HR?", "acceptedAnswer": {"@type": "Answer", "text": "A skip level meeting with HR is led by an HR business partner instead of a senior manager. The HR partner meets employees 2 levels down to gather feedback. It follows the same agenda and confidentiality rules as a leader-led skip."}},
-        {"@type": "Question", "name": "What is another name for a skip level meeting?", "acceptedAnswer": {"@type": "Answer", "text": "There are at least 5 other names: skip, skip level 1:1, skip level check-in, skip level session and boss's boss meeting. Group versions are often called listening sessions."}},
-        {"@type": "Question", "name": "Should the direct manager know about a skip level meeting?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Tell the direct manager at least 2 days before, and explain why. Surprising a manager damages trust in both directions."}},
-        {"@type": "Question", "name": "What is the difference between a skip level meeting and a one-on-one?", "acceptedAnswer": {"@type": "Answer", "text": "A one-on-one happens every 1 to 2 weeks between an employee and their own manager about daily work. A skip happens about once a quarter with a leader two levels up, focused on feedback, culture and growth."}}
-      ]
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Skip Level Meeting",
+     "item": "https://lynkk.ai/blog/skip-level-meeting"
     }
-  ]
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Are skip level meetings confidential?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "They are confidential in spirit, but not secret. Share themes with the manager within 1 week, without naming who said what. Say at the start what will and will not be shared."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is a skip level meeting with HR?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A skip level meeting with HR is led by an HR business partner instead of a senior manager. The HR partner meets employees 2 levels down to gather feedback. It follows the same agenda and confidentiality rules as a leader-led skip."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is another name for a skip level meeting?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There are at least 5 other names: skip, skip level 1:1, skip level check-in, skip level session and boss's boss meeting. Group versions are often called listening sessions."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Should the direct manager know about a skip level meeting?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Tell the direct manager at least 2 days before, and explain why. Surprising a manager damages trust in both directions."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is the difference between a skip level meeting and a one-on-one?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A one-on-one happens every 1 to 2 weeks between an employee and their own manager about daily work. A skip happens about once a quarter with a leader two levels up, focused on feedback, culture and growth."
+     }
+    }
+   ]
+  }
+ ]
 }
 -->
 

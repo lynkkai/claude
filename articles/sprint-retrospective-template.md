@@ -171,7 +171,7 @@ Here is a filled-in sprint retrospective sample for a 2-week sprint, showing how
 | Request API access before sprint planning | Priya | Sprint 15 planning |
 | Timebox standup to 15 min, park discussions | Scrum master | Next standup |
 
-Each action is specific, has 1 owner and can be checked at the next retro. For standup formats that stay short, see our [daily standup meeting template](https://lynkk.ai/blog/daily-standup-meeting).
+Each action is specific, has 1 owner and can be checked at the next retro. Lynkk's [team standups use case](https://lynkk.ai/use-cases/team-standups) shows how to carry these actions into daily check-ins. For standup formats that stay short, see our [daily standup meeting template](https://lynkk.ai/blog/daily-standup-meeting).
 
 ## How do you run a sprint retrospective?
 
@@ -183,7 +183,7 @@ To run a retro, follow 5 steps: set the stage, gather data, generate insights, d
 4. **Decide what to do (10 min).** Vote and choose 1 to 3 actions with owners.
 5. **Close (5 min).** Quick feedback on the retro itself.
 
-Atlassian's [retrospective play](https://www.atlassian.com/team-playbook/plays/retrospective) follows the same flow and is a good reference for first-time facilitators.
+Government teams run retros too: the Login.gov team at the US General Services Administration documents its [sprint review and retrospective ceremonies](https://handbook.login.gov/articles/sprint-ceremonies.html) in a public handbook. Atlassian's [retrospective play](https://www.atlassian.com/team-playbook/plays/retrospective) follows the same flow and is a good reference for first-time facilitators.
 
 ### How do you make a sprint retrospective fun?
 
@@ -226,6 +226,7 @@ It can be. Anonymous notes help in the first 2 or 3 retros or when trust is low.
 ### What is a project retrospective template?
 
 A project retrospective template is a longer version used once at the end of a project rather than every sprint. It adds 3 sections: timeline review, goals vs results, and lessons to share with other teams.
+
 
 
 <!--

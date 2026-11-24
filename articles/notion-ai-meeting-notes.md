@@ -109,7 +109,7 @@ The main limits are plan cost, a desktop-app dependency for full audio, and a su
 
 ### Does Notion AI Meeting Notes notify other participants?
 
-Notion adds 0 bots to the call, so nothing announces itself. Notion provides a consent message you can share, and you are responsible for telling attendees they are being recorded. Check the [rules on recording meetings](https://lynkk.ai/blog/is-it-legal-to-record-a-meeting) where you work.
+Notion adds 0 bots to the call, so nothing announces itself. Notion provides a consent message you can share, and you are responsible for telling attendees they are being recorded. Check the [rules on recording meetings](https://lynkk.ai/blog/is-it-legal-to-record-a-meeting) where you work. US federal law ([18 U.S.C. § 2511](https://www.law.cornell.edu/uscode/text/18/2511)) permits recording with 1 party's consent, but several states require all parties to agree.
 
 ### Does Notion AI Meeting Notes work with headphones?
 
@@ -176,6 +176,7 @@ No. Notion AI Meeting Notes does not add a bot to your call. The desktop app cap
 ### Where are Notion AI Meeting Notes saved?
 
 Notes are saved in the Notion page where you started the meeting block, and you can set 1 default database for AI Meeting Notes so every meeting is filed in the same place.
+
 
 
 <!--

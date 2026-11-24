@@ -87,7 +87,7 @@ If you only have 30 minutes, keep goals, scope, roles and next steps, and move b
 
 ### What should be discussed in each block?
 
-Each block answers one question the team will otherwise ask again in week 3:
+Government project offices use the same structure. Washington State's IT agency lists [5 kickoff topics](https://watech.wa.gov/sites/default/files/2024-03/Project-Kickoff-Meeting-updated_3-1-24.pdf): purpose and objectives, funding, schedule, governance, and known high risks. Each block below answers one question the team will otherwise ask again in week 3:
 
 1. **Introductions.** Name, role on this project, and one thing each person needs from the others.
 2. **Background.** The business problem, the customer or user affected, and what happens if nothing changes.
@@ -96,7 +96,7 @@ Each block answers one question the team will otherwise ask again in week 3:
 5. **Roles and decision rights.** Who is responsible, who approves, who is consulted and who is kept informed.
 6. **Timeline and milestones.** The first 3 dated milestones, not the full Gantt chart.
 7. **Risks and dependencies.** Anything that could slip the timeline, each with an owner.
-8. **Ways of working.** Status meeting cadence, where documents live, how decisions are recorded, and the first action items.
+8. **Ways of working.** Status meeting cadence, where documents live, how decisions are recorded, and the first [action items](https://lynkk.ai/blog/action-items-examples-template).
 
 ## How do you prepare for a project kickoff meeting?
 
@@ -113,7 +113,7 @@ To prepare, finish 6 tasks at least 2 days ahead: confirm the charter, draft goa
 - [ ] Note taker or AI meeting assistant set up
 - [ ] Sponsor briefed on what they will present
 
-For a general pre-meeting routine, see our [meeting preparation checklist](https://lynkk.ai/blog/meeting-preparation).
+For a general pre-meeting routine, see our [meeting preparation checklist](https://lynkk.ai/blog/meeting-preparation). For a public-sector example, the US Department of Energy publishes a [sample kickoff meeting agenda](https://www.energy.gov/node/758886) for energy savings projects.
 
 ## How long should a project kickoff meeting be?
 
@@ -200,7 +200,7 @@ A strong follow-up includes:
 - Action items with owners and due dates
 - Date of the first status meeting
 
-Use our [follow-up email after a meeting](https://lynkk.ai/blog/follow-up-email-after-meeting) templates for the recap, and see how to turn [meeting action items into Jira issues](https://lynkk.ai/blog/meeting-minutes-to-jira) so nothing is retyped by hand.
+Capture the discussion with a [meeting notes template](https://lynkk.ai/blog/meeting-notes-template). Use our [follow-up email after a meeting](https://lynkk.ai/blog/follow-up-email-after-meeting) templates for the recap, and see how to turn [meeting action items into Jira issues](https://lynkk.ai/blog/meeting-minutes-to-jira) so nothing is retyped by hand.
 
 ### How can AI help with kickoff meeting notes?
 
@@ -264,6 +264,7 @@ Both of the 2 spellings are correct. "Kickoff" (one word) is more common in US b
 ### What is a project kickoff meeting checklist?
 
 A project kickoff meeting checklist is a list of 6 to 10 tasks to finish before the meeting, such as approving the charter, drafting goals and scope, confirming attendees, and sending the agenda 2 to 3 days ahead.
+
 
 
 

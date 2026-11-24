@@ -106,7 +106,7 @@ The whole update is under 120 words, and the sponsor knows exactly what to appro
 
 ## What is RAG status in a project status report?
 
-RAG status is a 3-color rating, Red, Amber and Green, that shows a project's overall health at a glance. Define the colors once for your team so "amber" means the same thing in every report.
+RAG status is a 3-color rating, Red, Amber and Green, that shows a project's overall health at a glance. Government IT offices publish their definitions. Missouri's IT services division, for example, rates schedule [green if completion is expected within the planned schedule](https://oa.mo.gov/sites/default/files/ITSD-Status-Report-Template.pdf), yellow if it may not be, and red if scheduling decisions are required. Define the colors once for your team so "amber" means the same thing in every report.
 
 | Color | Meaning | Example rule |
 |---|---|---|
@@ -192,7 +192,7 @@ AI can draft most of a status report from what was already said in your project 
 
 [Lynkk](https://lynkk.ai/) turns each meeting into structured notes and assigned action items about 30 seconds after the call. It also connects every meeting in a searchable knowledge graph. You can [ask your meetings](https://lynkk.ai/features/ask-your-meetings) a question like "what risks were raised on Project Atlas this week?" and get an answer from the actual conversations. Paste those answers into the template and review them.
 
-For single-meeting recaps, use our [meeting summary template](https://lynkk.ai/blog/meeting-summary-template).
+For single-meeting recaps, use our [meeting summary template](https://lynkk.ai/blog/meeting-summary-template), and track owners with an [action items template](https://lynkk.ai/blog/action-items-examples-template). If your team works in Jira, see how to turn [meeting minutes into Jira issues](https://lynkk.ai/blog/meeting-minutes-to-jira).
 
 ## FAQ
 
@@ -215,6 +215,7 @@ A good report is 1 page, leads with an honest RAG status, lists specific risks w
 ### Can you create a project status report in Jira?
 
 Yes. Jira dashboards can show sprint progress, issue counts and burn-down charts, which cover the metrics section. You still need 2 or 3 written sentences for the summary, risks and asks.
+
 
 
 <!--
