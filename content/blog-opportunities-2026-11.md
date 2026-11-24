@@ -7,11 +7,10 @@ SD = SEO difficulty (0-100). "Medium" here means SD 19-51.
 
 Every topic below was checked against all 77 posts and the compare/feature pages. A topic was dropped if an existing URL already targets the same primary query or the same search intent. Examples dropped: "best AI meeting assistant" (ai-powered-meeting-assistants, best-ai-note-takers), "team meeting agenda" (folded into #4), "how to take meeting notes" (too close to meeting-notes-template), "speech to text iPhone" (voice-memo-transcription, voice-to-text-apps), "Fathom/Fireflies alternatives" (volume 50-110, and compare pages exist).
 
-## The 15 blogs
+## The blogs (14 active; #1 dropped by the team on 2026-11-24, numbers kept for reference)
 
 | # | Working title | Primary keyword | US vol | SD | Secondary keywords | Closest existing post and how to keep them apart |
 |---|---|---|---|---|---|---|
-| 1 | How to Record a Phone Call on iPhone (Free and Legal Ways, 2026) | how to record a phone call on iphone | 49,500 | 27 | how to record a meeting on iphone (480) | is-it-legal-to-record-a-meeting: link to it for consent rules; do not repeat state-by-state law |
 | 2 | How to Record a Call on Android: Built-in and App Options | how to record a call on android | 12,100 | 46 | how to record a call on android phone (9,900, SD 30) | None. Pairs with #1; cross-link both |
 | 3 | Transcribe Video to Text: 5 Free and AI Methods | transcribe video to text | 14,800 | 24 | free transcribe video to text (4,400), how to transcribe video to text (480) | transcribe-audio-to-text targets audio files. Keep this post about MP4, screen and meeting recordings; link out for audio |
 | 4 | Meeting Agenda Template: 10 Free Formats (Word, Google Docs) | meeting agenda template | 14,800 | 36 | example meeting agenda template (3,600), meeting agenda template word (1,600), team meeting agenda (720), staff meeting agenda template (720) | Hub page. Link down to board-meeting-agenda, one-on-one-meeting, daily-standup-meeting; only summarize those formats, never fully reproduce them |
@@ -31,7 +30,7 @@ Reserve topics if any of the above is cut: decision log template (320, SD 37), w
 
 ## Suggested publishing order
 
-1. Quick wins (low SD, clear gap): #8, #13, #3, #1, #9
+1. Quick wins (low SD, clear gap): #8, #13, #3, #9
 2. High volume, medium SD: #4, #6, #7, #2, #15
 3. Commercial / brand-adjacent: #12, #11
 4. Harder, publish once #3 has links: #5, #10, #14
@@ -114,7 +113,7 @@ fireflies alternatives (110), fathom alternatives (50), customer interview quest
 Use these as H2s, H3s and FAQ questions inside each post. Every query was checked against the existing 77 posts and against the other 14 new posts so that each query has exactly one owner. "Do not target" lists queries that belong to another URL; link to that URL instead of covering it.
 Volumes are US monthly (Ubersuggest, Nov 2026). Format: query (volume, SD).
 
-### 1. How to Record a Phone Call on iPhone
+### Dropped: 1. How to Record a Phone Call on iPhone
 - how to record a meeting on iphone (480, 29)
 - how to record a phone call on iphone without notification (260, 25)
 - how to record a phone call on iphone without announcement (170, 25)
@@ -321,7 +320,7 @@ Volumes are US monthly (Ubersuggest, Nov 2026). Format: query (volume, SD).
 
 Placement key: Title + H1 + URL + meta = primary query. H2 = its own section. H3 = sub-section under the named H2. Body copy = use the phrase naturally, no heading (same intent as a nearby heading). FAQ = question in the FAQ block (add FAQ schema). Volume 0 = no measured volume, kept for product angle or completeness. Same data as CSV: content/long-tail-placement-2026-11.csv
 
-### 1. How to Record a Phone Call on iPhone (/blog/record-phone-call-iphone)
+### Dropped: 1. How to Record a Phone Call on iPhone (/blog/record-phone-call-iphone)
 
 | Query | US vol | SD | Where to target |
 |---|---|---|---|
@@ -610,3 +609,25 @@ Method: every primary and long-tail query was matched against the 1,074 queries 
 | 14 Meeting etiquette | None | None | None |
 | 15 Sprint retrospective template | No retro or sprint queries in GSC | None | Link to daily-standup-meeting and meeting-minutes-to-jira |
 | On hold: Otter AI review | 13 Otter queries. Lynkk already has 7 Otter URLs (pricing, alternatives, compare/otter, 4 vs posts). "otter ai alternative(s)" sits at position 77-87 | High | Write only after the Otter cluster is cleaned up. Check in GSC whether compare/otter and /blog/otter-ai-alternatives split "otter alternative" queries. "otter ai free" moved to the pricing post. Swap in "Sprint Retrospective Template" if you want 15 zero-risk posts now |
+
+## Feature mapping and search intent
+
+Intent: Informational = learn or how-to; Template = wants a copyable format; Commercial = comparing tools before buying. Funnel: TOFU = awareness, MOFU = evaluating a solution, BOFU = ready to choose a tool.
+Fit: how naturally the post can show Lynkk (Strong / Medium / Weak).
+
+| # | Blog | Search intent | Funnel | Lynkk features to show | Pages to link | Fit |
+|---|---|---|---|---|---|---|
+| 2 | Record a call on Android | Informational (how-to) | TOFU | In-person and call recording, multilingual transcription, meeting notes | /features/meeting-notes, /features/multilingual-transcription | Weak: Android app not confirmed. Keep the Lynkk section to "record on your laptop or web app" |
+| 3 | Transcribe video to text | Informational + tool seeking | TOFU / MOFU | Multilingual transcription, Hinglish transcription, meeting notes | /features/multilingual-transcription, /features/hinglish-transcription | Medium: confirm file upload support before claiming it |
+| 4 | Meeting agenda template | Template | TOFU | Before-meeting context (past discussion, open items), Google Calendar, meeting notes | /how-it-works, /integrations/google-calendar, /features/meeting-notes | Strong |
+| 5 | YouTube transcript generator | Informational + tool seeking | TOFU | Chrome extension, Ask your meetings (summaries) | /features/chrome-extension, /features/ask-your-meetings | Weak: traffic play; confirm the extension can capture tab audio |
+| 6 | RACI chart | Informational + template | TOFU | Action items with owners, Jira tickets | /features/action-items, /integrations/jira | Medium |
+| 7 | Record a Zoom meeting | Informational (how-to), commercial undertone | MOFU | Meeting bot, Zoom integration, notes and action items in 30 seconds | /features/meeting-bot, /integrations/zoom, /blog/zoom-meeting-recorders | Strong |
+| 8 | Skip level meeting | Informational + template | TOFU | Before-meeting context from past meetings, meeting notes, workspaces | /use-cases/one-on-one-meetings, /features/workspaces | Medium |
+| 9 | All hands meeting | Informational + template | TOFU | Multilingual transcription for global teams, Ask your meetings, meeting notes | /features/multilingual-transcription, /features/ask-your-meetings | Medium |
+| 10 | Project status report template | Template | TOFU / MOFU | Ask your meetings and knowledge graph (pull status from calls), action items, Jira | /features/ask-your-meetings, /features/knowledge-graph, /integrations/jira | Strong |
+| 11 | Cold call script | Template (sales) | TOFU | Live voice assistant during calls, CRM field updates, call notes | /use-cases/sales-calls, /integrations/hubspot, /integrations/salesforce | Strong |
+| 12 | Notion AI meeting notes | Commercial investigation | MOFU / BOFU | Bot and in-person capture, multilingual, Jira and CRM sync, Ask your meetings, data residency | /compare, /pricing, /features/meeting-bot, /security | Strong: highest buying intent |
+| 13 | Project kickoff meeting agenda | Template | TOFU | Action items, Jira tickets, before-meeting context | /features/action-items, /integrations/jira | Strong |
+| 14 | Meeting etiquette | Informational | TOFU | Meeting bot (how to introduce a note taker politely), recording consent, live voice assistant | /features/meeting-bot, /blog/is-it-legal-to-record-a-meeting, /security | Medium |
+| 15 | Sprint retrospective template | Template | TOFU | Jira tickets from meetings, action items, Ask your meetings across sprints | /integrations/jira, /use-cases/team-standups, /blog/meeting-minutes-to-jira | Strong |
