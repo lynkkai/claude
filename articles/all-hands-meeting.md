@@ -41,7 +41,7 @@ The name comes from the naval order "all hands on deck," meaning every crew memb
 
 ## What is the purpose of an all hands meeting?
 
-Its purpose is to align everyone on the same goals and give employees direct access to leadership. Gallup reports that only [16% of US employees strongly agree their leadership communicates effectively](https://www.gallup.com/workplace/716321/leadership-communication-at-work.aspx), so a regular company-wide meeting closes a real gap.
+The all hands meeting purpose is to align everyone on the same goals and give employees direct access to leadership. Gallup reports that only [16% of US employees strongly agree their leadership communicates effectively](https://www.gallup.com/workplace/716321/leadership-communication-at-work.aspx), so a regular company-wide meeting closes a real gap.
 
 A well-run all hands does 5 things:
 
@@ -71,7 +71,7 @@ They are usually expected but not strictly mandatory. Most companies ask everyon
 
 ## What is the difference between an all hands meeting and a town hall meeting?
 
-An all hands is a broad update for everyone, while a town hall meeting is built around questions from employees, often with an executive panel. In practice, the 2 overlap, and many companies use the terms interchangeably.
+An all hands is a broad update for everyone, while a town hall meeting is built around questions from employees, often with an executive panel. In practice, all hands meeting vs town hall is a fuzzy line: the 2 overlap, and many companies use the terms interchangeably.
 
 | | All hands | Town hall |
 |---|---|---|
@@ -169,6 +169,7 @@ They feel like a waste of time when they are one-way slide reviews with no Q&A. 
 ### Should you record your all hands?
 
 Yes. Record them so people in 2 or more time zones, on leave or in customer meetings can watch later. Tell attendees at the start that the session is being recorded, and check the [rules on recording meetings](https://lynkk.ai/blog/is-it-legal-to-record-a-meeting) where you operate.
+
 
 
 

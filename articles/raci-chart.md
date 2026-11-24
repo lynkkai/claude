@@ -38,11 +38,11 @@ Below you will find the definition, what each letter means and a free template. 
 
 A RACI chart is a responsibility matrix that assigns 4 types of involvement to every task in a project: Responsible, Accountable, Consulted and Informed. Its purpose is to make ownership visible, so work does not stall while people wait for someone else.
 
-In plain terms, the RACI chart meaning is "who does what, who decides, who to ask and who to tell." Teams use it in project management, operations, HR, IT service management and anywhere several teams share work.
+The RACI chart definition is short, and in plain terms the RACI chart meaning is "who does what, who decides, who to ask and who to tell." Teams use it in project management, operations, HR, IT service management and anywhere several teams share work.
 
 ### What does RACI stand for?
 
-RACI is an acronym for 4 roles. Each person on a task gets one letter, and some tasks will not involve everyone.
+The RACI chart acronym stands for 4 roles. Each person on a task gets one letter, and some tasks will not involve everyone.
 
 | Letter | Role | What it means | How many per task |
 |---|---|---|---|
@@ -81,7 +81,7 @@ The main benefits are fewer dropped tasks, faster decisions and fewer surprise e
 
 ## RACI chart template
 
-Copy this template into a spreadsheet or document. Replace tasks and names, and fill each cell with R, A, C, I or leave it blank.
+Copy this RACI grid into a spreadsheet or document. Replace tasks and names, and fill each cell with R, A, C, I or leave it blank.
 
 | Task or deliverable | [Person 1] | [Person 2] | [Person 3] |
 |---|---|---|---|
@@ -96,7 +96,7 @@ Teams with more than 4 people can list roles (for example "Product manager") ins
 
 ## What does a RACI chart example look like?
 
-Here are 3 examples for common situations. Each shows how 1 Accountable person anchors every row.
+Each example RACI chart below covers a common situation. Each shows how 1 Accountable person anchors every row.
 
 ### Example 1: Website launch (project management)
 
@@ -114,12 +114,12 @@ This website launch has 5 tasks and 4 roles, with the project manager accountabl
 
 This hiring process has 4 steps, and the hiring manager stays accountable for 3 of them.
 
-| Task | Hiring manager | Recruiter | Interview panel | HR |
-|---|---|---|---|---|
-| Write job description | A | R | C | C |
-| Source candidates | I | R | I | A |
-| Interview | A | C | R | I |
-| Make offer | A | R | I | C |
+| Task | Hiring manager | Recruiter or HR | Interview panel |
+|---|---|---|---|
+| Write job description | A | R | C |
+| Source candidates | I | A, R | I |
+| Interview | A | C | R |
+| Make offer | A | R | I |
 
 ### Example 3: Agile RACI chart for a sprint
 
@@ -136,7 +136,7 @@ In an agile RACI chart, the team often shares "A" for delivery while the product
 
 ## How do you make a RACI chart?
 
-You make a RACI chart in 6 steps: list the tasks, list the people or roles, assign the Accountable person first, then Responsible, Consulted and Informed, review it with the team, and share it where work is tracked.
+Here is how to make a RACI chart in 6 steps: list the tasks, list the people or roles, assign the Accountable person first, then Responsible, Consulted and Informed, review it with the team, and share it where work is tracked.
 
 1. **List tasks or deliverables.** Use 8 to 20 rows. More than that, and nobody reads it.
 2. **List people or roles.** Include everyone who touches the work, including approvers.
@@ -172,7 +172,7 @@ Yes, they are still widely used, especially in project management, IT and operat
 
 ## When should you not use a RACI chart?
 
-Skip a RACI chart when a task has only 1 or 2 people, when the work changes every few days, or when the team already has clear owners. In those cases the chart costs more time to maintain than it saves.
+Skip the chart when a task has only 1 or 2 people, when the work changes every few days, or when the team already has clear owners. In those cases the chart costs more time to maintain than it saves.
 
 It also fails when it is built once and never shared. A chart that lives in a forgotten spreadsheet gives false confidence. If you will not review it at least once a month, a simple owner column in your task tool is the better choice.
 
@@ -213,6 +213,8 @@ RACI is usually pronounced "RAY-see," like the word "racy." Some teams spell it 
 ### What is the difference between Consulted and Informed?
 
 Consulted is two-way: those people give input before the work is done. Informed is one-way: those people are told about the result. Keep Consulted to the 1 to 3 people whose input changes the outcome.
+
+
 
 
 <!--

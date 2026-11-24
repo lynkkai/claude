@@ -70,7 +70,7 @@ A project kickoff meeting agenda should include 8 blocks: introductions, project
 
 ### Project kickoff meeting agenda template (60 minutes)
 
-Copy this kick off meeting agenda template and adjust the times:
+Copy this kick off meeting agenda template and adjust the times. The same project kickoff meeting template works for internal and client kickoffs:
 
 | Time | Agenda item | Owner | Outcome |
 |---|---|---|---|
@@ -264,6 +264,7 @@ Both of the 2 spellings are correct. "Kickoff" (one word) is more common in US b
 ### What is a project kickoff meeting checklist?
 
 A project kickoff meeting checklist is a list of 6 to 10 tasks to finish before the meeting, such as approving the charter, drafting goals and scope, confirming attendees, and sending the agenda 2 to 3 days ahead.
+
 
 
 

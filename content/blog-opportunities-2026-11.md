@@ -629,3 +629,10 @@ Fit: how naturally the post can show Lynkk (Strong / Medium / Weak).
 | 13 | Project kickoff meeting agenda | Template | TOFU | Action items, Jira tickets, before-meeting context | /features/action-items, /integrations/jira | Strong |
 | 14 | Meeting etiquette | Informational | TOFU | Meeting bot (how to introduce a note taker politely), recording consent, live voice assistant | /features/meeting-bot, /blog/is-it-legal-to-record-a-meeting, /security | Medium |
 | 15 | Sprint retrospective template | Template | TOFU | Jira tickets from meetings, action items, Ask your meetings across sprints | /integrations/jira, /use-cases/team-standups, /blog/meeting-minutes-to-jira | Strong |
+
+## Production status (2026-11-24)
+
+Written with the Unveilr skill pipeline (seo-research brief, seo-article, seo-score), files in articles/:
+skip-level-meeting, project-kickoff-meeting-agenda, all-hands-meeting, meeting-agenda-template, raci-chart, how-to-record-zoom-meeting, sprint-retrospective-template, notion-ai-meeting-notes, cold-call-script, project-status-report-template, meeting-etiquette. All score 88 to 90 and pass G1 to G4.
+
+Stopped at the skill's G1 gate (search results are tool pages, not articles): #3 Transcribe Video to Text, #5 YouTube Transcript Generator.
