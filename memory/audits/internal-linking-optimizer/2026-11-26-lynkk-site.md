@@ -11,6 +11,151 @@ Companion files:
 
 ---
 
+# Solution: changes to implement
+
+All 81 changes are below, grouped in the order to ship them. The same list is in
+`2026-11-26-lynkk-link-changes.csv`, with a reason column added. The analysis behind the changes follows after this section.
+
+**Rules for every link**
+- Use a normal `<a href>` with a relative path (e.g. `/compare/otter`) and no `nofollow`.
+- Put contextual links inside the body copy where the "Where" column says, not in a list at the bottom of the page.
+- "Related block" means the existing related-guides or card section on that page; add a card or link there.
+- Do not remove any existing links.
+
+## 0. Blocker: confirm before shipping C40-C44
+
+| ID | Priority | On page | Link to | Anchor text | Where |
+|---|---|---|---|---|---|
+| C0 | Blocker | `9 pages (see report)` | `/integrations/hubspot, /integrations/salesforce` | n/a | FAQ / body copy that says "Lynkk does not connect to a CRM" |
+
+Pages with the wrong "does not connect to a CRM" copy: `/blog/sales-conversation-intelligence`, `/blog/sales-enablement-tools`,
+`/blog/revenue-operations`, `/blog/lead-qualification`, `/blog/bant-sales-qualification`, `/blog/sales-forecast-template`,
+`/compare/gong`, `/compare/fireflies`, `/compare/fathom`. Update the visible copy **and** the FAQPage JSON-LD on each.
+
+## 1. Sitewide template changes (layout files, one change each)
+
+| ID | Priority | On page | Link to | Anchor text | Where |
+|---|---|---|---|---|---|
+| S1 | High | `Footer (all pages)` | `/integrations/zoom, /integrations/google-meet, /integrations/microsoft-teams, /integrations/hubspot, /integrations/salesforce, /integrations/jira` | Zoom, Google Meet, Teams, HubSpot, Salesforce, Jira | New "Integrations" footer column |
+| S2 | Medium | `Footer (all pages)` | `/features/meeting-bot, /features/chrome-extension, /features/action-items, /features/multilingual-transcription` | Meeting bot, Chrome extension, Action items, Multilingual transcription | Features footer column |
+| S3 | Medium | `Footer (all pages)` | `/demo` | Watch a demo | Product column |
+| S4 | Low | `Primary nav` | `/features, /integrations` | Features, Integrations | Primary nav (or a Product dropdown) |
+| S5 | Medium | `All 78 blog posts` | `/blog/topic/<cluster>` | e.g. "more sales meeting guides" | Replace "See every guide" CTA |
+| S6 | Low | `89 pages` | `/how-it-works` | vary: "how Lynkk works before, during and after a call", "see the meeting workflow" | "See how it works" CTA |
+| S7 | Medium | `Sitewide` | `/integrations/zoom vs /blog/zoom-note-taker` | Integration page: "Lynkk for Zoom"; blog: "best AI note takers for Zoom" | All links using "AI note taker for Zoom" |
+
+## 2. Week 1: page-level links
+
+| ID | Priority | On page | Link to | Anchor text | Where |
+|---|---|---|---|---|---|
+| C1 | High | `/blog/sales-conversation-intelligence` | `/compare/gong` | how Lynkk compares with Gong | Intro: "Gong is the best-known enterprise platform" |
+| C2 | High | `/blog/fireflies-vs-otter` | `/compare/otter` | Lynkk vs Otter | Quick verdict paragraph ("Choose Otter if...") |
+| C3 | High | `/compare/otter` | `/blog/otter-ai-pricing` | Otter pricing, plan by plan | Pricing section or Related guides block |
+| C4 | High | `/compare/otter` | `/blog/otter-ai-alternatives` | more Otter alternatives | Related guides block |
+| C5 | Medium | `/compare/otter` | `/blog/read-ai-vs-otter-ai` | Read AI vs Otter | Related guides block |
+| C6 | High | `/compare/fireflies` | `/blog/fireflies-pricing` | what Fireflies costs on each plan | Pricing comparison section |
+| C7 | High | `/compare/granola` | `/blog/granola-ai-pricing` | Granola pricing explained | Pricing comparison section |
+| C8 | High | `/compare/fathom` | `/blog/fathom-ai-pricing` | Fathom pricing and free plan limits | Pricing comparison section |
+| C9 | High | `/compare/gong` | `/blog/gong-pricing` | what Gong really costs | Pricing comparison section |
+| C10 | Medium | `/compare/gong` | `/blog/call-coaching-software` | call coaching software | Related guides block |
+| C11 | Medium | `/compare/gong` | `/blog/sales-call-recording-software` | sales call recording tools | Related guides block |
+| C12 | Medium | `/compare/avoma` | `/blog/gong-alternatives` | Gong alternatives for small teams | Related guides block |
+| C13 | Medium | `/compare/clari-copilot` | `/blog/call-coaching-software` | call coaching software compared | Related guides block |
+| C14 | Medium | `/compare/plaud` | `/blog/ai-note-taker-in-person-meetings` | AI note takers for in-person meetings | Related guides block |
+| C15 | High | `/blog/best-ai-note-takers` | `/compare/circleback` | Lynkk vs Circleback | "Other tools we looked at" line or comparison table footnote |
+| C16 | High | `/blog/best-ai-note-takers` | `/compare/meetgeek` | Lynkk vs MeetGeek | Same as above |
+| C17 | High | `/blog/otter-ai-alternatives` | `/compare/meetgeek` | MeetGeek | Add to "other alternatives" list |
+| C18 | High | `/blog/granola-alternatives` | `/compare/circleback` | Circleback | Add to "other alternatives" list |
+| C19 | High | `/blog/transcribe-audio-to-text` | `/compare/notta` | Lynkk vs Notta | Tool list or FAQ about transcription apps |
+| C20 | Medium | `/blog/hindi-transcription` | `/compare/notta` | Notta | Converter list |
+| C21 | Medium | `/blog/voice-memo-transcription` | `/compare/plaud` | Plaud | Section on hardware recorders |
+| C22 | High | `/compare` | `15 competitor blog posts` | pricing and head-to-head guides | New section "Pricing and head-to-head guides" under the comparison grid |
+| C23 | Medium | `/blog/gong-alternatives` | `/compare` | all Lynkk comparisons | Conclusion |
+| C24 | Medium | `/blog/best-free-ai-note-takers` | `/compare` | compare Lynkk with each tool | "For comparison, Lynkk Pro ($4 a month)..." sentence |
+| C30 | High | `/integrations` | `/integrations/jira` | Jira | Integrations grid |
+| C31 | Medium | `/integrations/jira` | `/features/action-items` | action items with owners and due dates | How it works section |
+| C32 | Medium | `/integrations/jira` | `/use-cases/team-standups` | standup notes | Use case section |
+| C70 | High | `/blog/is-it-legal-to-record-a-meeting` | `/security` | how Lynkk stores and protects recordings | "A business that records people usually has data protection duties" |
+| C71 | Medium | `/blog/is-it-legal-to-record-a-meeting` | `/use-cases/lawyers` | AI note taker for lawyers | Section on client calls / professional duties |
+| C72 | Medium | `/security` | `/blog/is-it-legal-to-record-a-meeting` | is it legal to record a meeting? | Related guides block |
+| C73 | Medium | `/security` | `/use-cases/lawyers` | law firms | Data residency / compliance section |
+| C74 | Medium | `/security` | `/use-cases/financial-advisors` | financial advisors | Data residency / compliance section |
+| C75 | High | `/features/workspaces` | `/features/ask-your-meetings` | ask questions across your team's meetings | Feature description |
+| C76 | Medium | `/features/workspaces` | `/slack` | Lynkk for Slack | Sharing section |
+| C77 | Medium | `/features/workspaces` | `/security` | security and access controls | Admin / Enterprise section |
+| C78 | Medium | `/features/ask-your-meetings` | `/features/workspaces` | Enterprise workspace | "Members of an Enterprise workspace get Pro" |
+| C80 | High | `/features/dictation` | `/meeting-and-dictation` | meetings and dictation in one app | Intro ("Hold fn and talk") |
+| C81 | Medium | `/features/meeting-notes` | `/meeting-and-dictation` | meeting notes and dictation together | Mac app section |
+| C82 | Medium | `/download` | `/meeting-and-dictation` | one app for meetings and dictation | Mac app description |
+
+## 3. Weeks 2-3: page-level links
+
+| ID | Priority | On page | Link to | Anchor text | Where |
+|---|---|---|---|---|---|
+| C33 | Medium | `/integrations/zoom` | `/blog/zoom-meeting-recorders` | Zoom meeting recorders compared | Related guides block |
+| C34 | Medium | `/integrations/zoom` | `/blog/zoom-ai-companion-alternatives` | Zoom AI Companion alternatives | Related guides block |
+| C35 | Medium | `/integrations/hubspot` | `/use-cases/sales-calls` | AI for sales calls | Intro or use case section |
+| C36 | Medium | `/integrations/salesforce` | `/use-cases/sales-calls` | AI for sales calls | Intro or use case section |
+| C50 | High | `/blog/topic/zoom-meet-teams` | `/blog/ai-note-taker-microsoft-teams` | AI note taker for Microsoft Teams | Topic hub list |
+| C51 | Medium | `/blog/topic/zoom-meet-teams` | `/blog/live-caption-apps` | live caption apps | Topic hub list |
+| C52 | High | `/blog/ai-note-taker-microsoft-teams` | `/blog/topic/zoom-meet-teams` | Zoom, Meet and Teams guides | Replace "See every guide" CTA |
+| C53 | Medium | `/blog/live-caption-apps` | `/blog/topic/zoom-meet-teams` | more Zoom, Meet and Teams guides | Paragraph listing "Microsoft Teams and Google Meet" captions |
+| C54 | Medium | `/blog/topic/sales-meetings` | `/blog/gong-pricing` | Gong pricing | Topic hub list |
+| C55 | Medium | `/blog/gong-pricing` | `/blog/topic/sales-meetings` | sales meeting guides | Replace "See every guide" CTA |
+| C57 | Medium | `/blog/ai-transcription-software` | `/blog/speech-to-text-mac` | speech to text on a Mac | Section on desktop / Mac tools |
+| C58 | Medium | `/blog/ai-transcription-software` | `/blog/dictate-in-microsoft-word` | dictate in Microsoft Word | Section on dictation vs transcription |
+| C59 | Medium | `/blog/ai-transcription-software` | `/blog/ai-voice-recorders` | AI voice recorders | Section on in-person recording |
+| C60 | Medium | `/blog/speech-to-text-mac` | `/blog/ai-transcription-software` | a meeting transcription tool | Intro list item "a meeting transcription tool" |
+| C61 | Medium | `/blog/voice-to-text-apps` | `/blog/ai-transcription-software` | transcribe meetings with other people | "it does not record or transcribe meetings with other people" |
+| C63 | Medium | `/blog/personal-knowledge-management` | `/blog/meeting-knowledge-management` | a searchable meeting knowledge base | "Meetings are the biggest gap in most PKM systems" |
+| C64 | Medium | `/blog/best-second-brain-apps` | `/blog/ai-powered-meeting-assistants` | AI meeting assistant | Lynkk entry ("Lynkk makes a meeting recorder") |
+| C65 | Medium | `/blog/ai-powered-meeting-assistants` | `/blog/real-time-ai-interview-assistant` | real-time AI interview assistant | "During the meeting" section |
+| C79 | Medium | `/blog/meeting-knowledge-management` | `/features/workspaces` | shared team workspace | "searchable store of your team's meeting notes" |
+| C83 | Medium | `/features/dictation` | `/download` | download the Mac app | Setup section |
+| C84 | Medium | `/blog/best-mac-note-taking-app` | `/features/dictation` | Lynkk dictation | Lynkk entry |
+| C85 | Medium | `/blog/best-mac-note-taking-app` | `/compare/granola` | Lynkk vs Granola | Granola entry (if listed) or Lynkk entry |
+| C86 | Medium | `/features/spotter` | `/use-cases/sales-calls` | sales calls | "Sales mode" paragraph |
+| C87 | Medium | `/features/spotter` | `/use-cases/user-interviews` | user interviews | Interview mode paragraph |
+| C88 | Medium | `/use-cases/user-interviews` | `/blog/real-time-ai-interview-assistant` | real-time interview assistant | Related guides block |
+| C89 | Medium | `/features/hinglish-transcription` | `/blog/hindi-transcription` | free Hindi and Hinglish converters | Related guides block |
+| C90 | Medium | `/features/multilingual-transcription` | `/blog/hindi-transcription` | Hindi transcription | Language list section |
+
+## 4. New pages to create
+
+| ID | Priority | On page | Link to | Anchor text | Where |
+|---|---|---|---|---|---|
+| C56 | High | `/blog (new topic page)` | `/blog/topic/transcription-dictation` | Transcription and dictation guides | New topic page linking the 12 transcription posts; add it to /blog and home |
+| C62 | Medium | `/blog (new topic page)` | `/blog/topic/ai-meeting-assistants` | AI meeting assistant and knowledge guides | New topic page for assistant / knowledge / second brain posts |
+
+Each new topic page should follow the existing `/blog/topic/*` template: list every post in the topic, link the matching feature
+and compare pages, add it to `/blog` and the home page topic list, and have each listed post link back to it.
+
+- `/blog/topic/transcription-dictation`: ai-transcription-software, transcribe-audio-to-text, voice-to-text-apps, speech-to-text-mac,
+  dictate-in-microsoft-word, voice-memo-transcription, hindi-transcription, medical-transcription-software, legal-transcription-service,
+  recruiting-interview-transcription, ai-voice-recorders, record-audio-on-mac.
+- `/blog/topic/ai-meeting-assistants`: ai-powered-meeting-assistants, meeting-knowledge-management, personal-knowledge-management,
+  best-second-brain-apps, best-mac-note-taking-app, real-time-ai-interview-assistant, ai-note-taker-in-person-meetings, ai-notetaker-security.
+
+## 5. After C0 is resolved: CRM links
+
+| ID | Priority | On page | Link to | Anchor text | Where |
+|---|---|---|---|---|---|
+| C40 | High | `/blog/sales-conversation-intelligence` | `/integrations/hubspot` | log calls to HubSpot | FAQ "Does Lynkk connect to a CRM?" (rewrite answer) |
+| C41 | High | `/blog/sales-conversation-intelligence` | `/integrations/salesforce` | Salesforce | Same FAQ |
+| C42 | High | `/blog/sales-call-recording-software` | `/integrations/hubspot` | CRM updates | Intro: "sales call transcription, coaching, CRM updates" |
+| C43 | Medium | `/blog/revenue-operations` | `/integrations/salesforce` | the CRM and data model | "A RevOps team typically owns the CRM..." |
+| C44 | Medium | `/blog/sales-follow-up-email` | `/integrations/hubspot` | logged on the HubSpot deal | Section on logging the follow-up |
+
+## Definition of done
+- Every row above shipped, or marked as skipped with a reason.
+- Re-crawl shows no page with 0 contextual inlinks and no compare page under 5.
+- All 78 posts belong to a topic page.
+
+---
+
+# Analysis
+
+
 ## Scope
 
 | In scope | Count |
