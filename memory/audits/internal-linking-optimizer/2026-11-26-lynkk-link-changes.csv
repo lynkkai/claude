@@ -1,0 +1,82 @@
+id,phase,priority,type,from_page,to_page,anchor_text,where_to_place,reason
+C0,Week 1,Blocker,Content fix,9 pages (see report),"/integrations/hubspot, /integrations/salesforce",n/a,"FAQ / body copy that says ""Lynkk does not connect to a CRM""","Copy contradicts the CRM integration pages. Confirm the truth, fix copy, then add CRM links in rows C40-C44."
+C1,Week 1,High,Contextual,/blog/sales-conversation-intelligence,/compare/gong,how Lynkk compares with Gong,"Intro: ""Gong is the best-known enterprise platform""",Strongest sales post (32 inlinks) mentions Gong but does not link the Gong comparison.
+C2,Week 1,High,Contextual,/blog/fireflies-vs-otter,/compare/otter,Lynkk vs Otter,"Quick verdict paragraph (""Choose Otter if..."")",Head-to-head post links Fireflies comparison but not Otter comparison.
+C3,Week 1,High,Related block,/compare/otter,/blog/otter-ai-pricing,"Otter pricing, plan by plan",Pricing section or Related guides block,"Bidirectional link: pricing post links here, compare page does not link back."
+C4,Week 1,High,Related block,/compare/otter,/blog/otter-ai-alternatives,more Otter alternatives,Related guides block,Bidirectional cluster link.
+C5,Week 1,Medium,Related block,/compare/otter,/blog/read-ai-vs-otter-ai,Read AI vs Otter,Related guides block,Bidirectional cluster link.
+C6,Week 1,High,Contextual,/compare/fireflies,/blog/fireflies-pricing,what Fireflies costs on each plan,Pricing comparison section,Bidirectional link (pricing post already links here).
+C7,Week 1,High,Contextual,/compare/granola,/blog/granola-ai-pricing,Granola pricing explained,Pricing comparison section,Bidirectional link.
+C8,Week 1,High,Contextual,/compare/fathom,/blog/fathom-ai-pricing,Fathom pricing and free plan limits,Pricing comparison section,Bidirectional link.
+C9,Week 1,High,Contextual,/compare/gong,/blog/gong-pricing,what Gong really costs,Pricing comparison section,Bidirectional link.
+C10,Week 1,Medium,Related block,/compare/gong,/blog/call-coaching-software,call coaching software,Related guides block,Gong buyers research coaching tools.
+C11,Week 1,Medium,Related block,/compare/gong,/blog/sales-call-recording-software,sales call recording tools,Related guides block,Bidirectional link.
+C12,Week 1,Medium,Related block,/compare/avoma,/blog/gong-alternatives,Gong alternatives for small teams,Related guides block,Avoma is listed in that post; compare page only has 5 contextual inlinks.
+C13,Week 1,Medium,Related block,/compare/clari-copilot,/blog/call-coaching-software,call coaching software compared,Related guides block,Clari page has 6 contextual inlinks.
+C14,Week 1,Medium,Related block,/compare/plaud,/blog/ai-note-taker-in-person-meetings,AI note takers for in-person meetings,Related guides block,Bidirectional link.
+C15,Week 1,High,Contextual,/blog/best-ai-note-takers,/compare/circleback,Lynkk vs Circleback,"""Other tools we looked at"" line or comparison table footnote",Circleback compare page has only 1 contextual inlink (footer only otherwise).
+C16,Week 1,High,Contextual,/blog/best-ai-note-takers,/compare/meetgeek,Lynkk vs MeetGeek,Same as above,MeetGeek compare page has only 1 contextual inlink.
+C17,Week 1,High,Contextual,/blog/otter-ai-alternatives,/compare/meetgeek,MeetGeek,"Add to ""other alternatives"" list",Footer-only page needs a contextual inlink.
+C18,Week 1,High,Contextual,/blog/granola-alternatives,/compare/circleback,Circleback,"Add to ""other alternatives"" list",Footer-only page needs a contextual inlink.
+C19,Week 1,High,Contextual,/blog/transcribe-audio-to-text,/compare/notta,Lynkk vs Notta,Tool list or FAQ about transcription apps,Notta compare page has 2 contextual inlinks.
+C20,Week 1,Medium,Contextual,/blog/hindi-transcription,/compare/notta,Notta,Converter list,Notta is a common Hindi transcription pick.
+C21,Week 1,Medium,Contextual,/blog/voice-memo-transcription,/compare/plaud,Plaud,Section on hardware recorders,Topical match.
+C22,Week 1,High,Hub section,/compare,15 competitor blog posts,pricing and head-to-head guides,"New section ""Pricing and head-to-head guides"" under the comparison grid","Pillar does not link 15 of 18 cluster posts (pricing, vs, alternatives)."
+C23,Week 1,Medium,Contextual,/blog/gong-alternatives,/compare,all Lynkk comparisons,Conclusion,Cluster post does not link back to pillar.
+C24,Week 1,Medium,Contextual,/blog/best-free-ai-note-takers,/compare,compare Lynkk with each tool,"""For comparison, Lynkk Pro ($4 a month)..."" sentence",Cluster post does not link back to pillar.
+C30,Week 1,High,Hub fix,/integrations,/integrations/jira,Jira,Integrations grid,Hub lists 9 of 10 integrations; Jira missing (only 7 inlinks).
+C31,Week 1,Medium,Contextual,/integrations/jira,/features/action-items,action items with owners and due dates,How it works section,Bidirectional link.
+C32,Week 1,Medium,Contextual,/integrations/jira,/use-cases/team-standups,standup notes,Use case section,Bidirectional link.
+C33,Week 2,Medium,Related block,/integrations/zoom,/blog/zoom-meeting-recorders,Zoom meeting recorders compared,Related guides block,Bidirectional link.
+C34,Week 2,Medium,Related block,/integrations/zoom,/blog/zoom-ai-companion-alternatives,Zoom AI Companion alternatives,Related guides block,Bidirectional link.
+C35,Week 2,Medium,Contextual,/integrations/hubspot,/use-cases/sales-calls,AI for sales calls,Intro or use case section,Bidirectional link.
+C36,Week 2,Medium,Contextual,/integrations/salesforce,/use-cases/sales-calls,AI for sales calls,Intro or use case section,Bidirectional link.
+C40,After C0,High,Contextual,/blog/sales-conversation-intelligence,/integrations/hubspot,log calls to HubSpot,"FAQ ""Does Lynkk connect to a CRM?"" (rewrite answer)",Only after copy is corrected.
+C41,After C0,High,Contextual,/blog/sales-conversation-intelligence,/integrations/salesforce,Salesforce,Same FAQ,Only after copy is corrected.
+C42,After C0,High,Contextual,/blog/sales-call-recording-software,/integrations/hubspot,CRM updates,"Intro: ""sales call transcription, coaching, CRM updates""",Only after copy is corrected.
+C43,After C0,Medium,Contextual,/blog/revenue-operations,/integrations/salesforce,the CRM and data model,"""A RevOps team typically owns the CRM...""",Only after copy is corrected.
+C44,After C0,Medium,Contextual,/blog/sales-follow-up-email,/integrations/hubspot,logged on the HubSpot deal,Section on logging the follow-up,Only after copy is corrected.
+C50,Week 2,High,Hub fix,/blog/topic/zoom-meet-teams,/blog/ai-note-taker-microsoft-teams,AI note taker for Microsoft Teams,Topic hub list,Cluster post missing from its pillar (and does not link back).
+C51,Week 2,Medium,Hub fix,/blog/topic/zoom-meet-teams,/blog/live-caption-apps,live caption apps,Topic hub list,Cluster post missing from its pillar.
+C52,Week 2,High,Contextual,/blog/ai-note-taker-microsoft-teams,/blog/topic/zoom-meet-teams,"Zoom, Meet and Teams guides","Replace ""See every guide"" CTA",Cluster -> pillar link missing.
+C53,Week 2,Medium,Contextual,/blog/live-caption-apps,/blog/topic/zoom-meet-teams,"more Zoom, Meet and Teams guides","Paragraph listing ""Microsoft Teams and Google Meet"" captions",Cluster -> pillar link missing.
+C54,Week 2,Medium,Hub fix,/blog/topic/sales-meetings,/blog/gong-pricing,Gong pricing,Topic hub list,Cluster post missing from its pillar.
+C55,Week 2,Medium,Contextual,/blog/gong-pricing,/blog/topic/sales-meetings,sales meeting guides,"Replace ""See every guide"" CTA",Cluster -> pillar link missing.
+C56,Week 2-3,High,New hub,/blog (new topic page),/blog/topic/transcription-dictation,Transcription and dictation guides,New topic page linking the 12 transcription posts; add it to /blog and home,No pillar for 12 transcription/dictation posts (36 of 78 posts sit in no topic hub).
+C57,Week 2-3,Medium,Contextual,/blog/ai-transcription-software,/blog/speech-to-text-mac,speech to text on a Mac,Section on desktop / Mac tools,Interim pillar -> cluster link until C56 ships.
+C58,Week 2-3,Medium,Contextual,/blog/ai-transcription-software,/blog/dictate-in-microsoft-word,dictate in Microsoft Word,Section on dictation vs transcription,Interim pillar -> cluster link.
+C59,Week 2-3,Medium,Contextual,/blog/ai-transcription-software,/blog/ai-voice-recorders,AI voice recorders,Section on in-person recording,Interim pillar -> cluster link.
+C60,Week 2-3,Medium,Contextual,/blog/speech-to-text-mac,/blog/ai-transcription-software,a meeting transcription tool,"Intro list item ""a meeting transcription tool""",Cluster -> pillar.
+C61,Week 2-3,Medium,Contextual,/blog/voice-to-text-apps,/blog/ai-transcription-software,transcribe meetings with other people,"""it does not record or transcribe meetings with other people""",Cluster -> pillar.
+C62,Week 2-3,Medium,New hub,/blog (new topic page),/blog/topic/ai-meeting-assistants,AI meeting assistant and knowledge guides,New topic page for assistant / knowledge / second brain posts,"8 posts (PKM, second brain, Mac notes, security, legality) have no pillar."
+C63,Week 2-3,Medium,Contextual,/blog/personal-knowledge-management,/blog/meeting-knowledge-management,a searchable meeting knowledge base,"""Meetings are the biggest gap in most PKM systems""",Bridge into the meeting knowledge cluster.
+C64,Week 2-3,Medium,Contextual,/blog/best-second-brain-apps,/blog/ai-powered-meeting-assistants,AI meeting assistant,"Lynkk entry (""Lynkk makes a meeting recorder"")",Cluster -> pillar.
+C65,Week 2-3,Medium,Contextual,/blog/ai-powered-meeting-assistants,/blog/real-time-ai-interview-assistant,real-time AI interview assistant,"""During the meeting"" section",Pillar -> cluster.
+C70,Week 1,High,Contextual,/blog/is-it-legal-to-record-a-meeting,/security,how Lynkk stores and protects recordings,"""A business that records people usually has data protection duties""",Strongest blog page (53 inlinks) has only 9 outlinks and none to /security.
+C71,Week 1,Medium,Contextual,/blog/is-it-legal-to-record-a-meeting,/use-cases/lawyers,AI note taker for lawyers,Section on client calls / professional duties,Pass equity from the top authority post to a money page.
+C72,Week 1,Medium,Related block,/security,/blog/is-it-legal-to-record-a-meeting,is it legal to record a meeting?,Related guides block,Bidirectional topical pair.
+C73,Week 1,Medium,Contextual,/security,/use-cases/lawyers,law firms,Data residency / compliance section,Bidirectional link.
+C74,Week 1,Medium,Contextual,/security,/use-cases/financial-advisors,financial advisors,Data residency / compliance section,Bidirectional link.
+C75,Week 1,High,Contextual,/features/workspaces,/features/ask-your-meetings,ask questions across your team's meetings,Feature description,Page has only 1 contextual outlink (/pricing).
+C76,Week 1,Medium,Contextual,/features/workspaces,/slack,Lynkk for Slack,Sharing section,Dead-end feature page.
+C77,Week 1,Medium,Contextual,/features/workspaces,/security,security and access controls,Admin / Enterprise section,Dead-end feature page.
+C78,Week 1,Medium,Contextual,/features/ask-your-meetings,/features/workspaces,Enterprise workspace,"""Members of an Enterprise workspace get Pro""",Natural anchor already in the copy.
+C79,Week 2,Medium,Contextual,/blog/meeting-knowledge-management,/features/workspaces,shared team workspace,"""searchable store of your team's meeting notes""",Topical match; workspaces has 11 contextual inlinks.
+C80,Week 1,High,Contextual,/features/dictation,/meeting-and-dictation,meetings and dictation in one app,"Intro (""Hold fn and talk"")",/meeting-and-dictation has 0 contextual inlinks.
+C81,Week 1,Medium,Contextual,/features/meeting-notes,/meeting-and-dictation,meeting notes and dictation together,Mac app section,/meeting-and-dictation has 0 contextual inlinks.
+C82,Week 1,Medium,Contextual,/download,/meeting-and-dictation,one app for meetings and dictation,Mac app description,/meeting-and-dictation has 0 contextual inlinks.
+C83,Week 2,Medium,Contextual,/features/dictation,/download,download the Mac app,Setup section,Feature page links only to blog posts.
+C84,Week 2,Medium,Contextual,/blog/best-mac-note-taking-app,/features/dictation,Lynkk dictation,Lynkk entry,Mac post does not link the Mac dictation feature.
+C85,Week 2,Medium,Contextual,/blog/best-mac-note-taking-app,/compare/granola,Lynkk vs Granola,Granola entry (if listed) or Lynkk entry,Granola is the main Mac competitor.
+C86,Week 2,Medium,Contextual,/features/spotter,/use-cases/sales-calls,sales calls,"""Sales mode"" paragraph",Feature page links only to blog posts.
+C87,Week 2,Medium,Contextual,/features/spotter,/use-cases/user-interviews,user interviews,Interview mode paragraph,Feature page links only to blog posts.
+C88,Week 2,Medium,Contextual,/use-cases/user-interviews,/blog/real-time-ai-interview-assistant,real-time interview assistant,Related guides block,Bidirectional link.
+C89,Week 2,Medium,Contextual,/features/hinglish-transcription,/blog/hindi-transcription,free Hindi and Hinglish converters,Related guides block,Bidirectional link.
+C90,Week 2,Medium,Contextual,/features/multilingual-transcription,/blog/hindi-transcription,Hindi transcription,Language list section,Bidirectional link.
+S1,Week 2,High,Footer,Footer (all pages),"/integrations/zoom, /integrations/google-meet, /integrations/microsoft-teams, /integrations/hubspot, /integrations/salesforce, /integrations/jira","Zoom, Google Meet, Teams, HubSpot, Salesforce, Jira","New ""Integrations"" footer column",Integration child pages get 7-22 inlinks vs 142 for footer pages.
+S2,Week 2,Medium,Footer,Footer (all pages),"/features/meeting-bot, /features/chrome-extension, /features/action-items, /features/multilingual-transcription","Meeting bot, Chrome extension, Action items, Multilingual transcription",Features footer column,Footer lists 5 of 10 feature pages.
+S3,Week 2,Medium,Footer,Footer (all pages),/demo,Watch a demo,Product column,/demo has 7 inlinks and is not in nav or footer.
+S4,Week 2,Low,Nav,Primary nav,"/features, /integrations","Features, Integrations",Primary nav (or a Product dropdown),Nav has 5 page links; features and integrations hubs rely on footer.
+S5,Week 3,Medium,Anchor,All 78 blog posts,/blog/topic/<cluster>,"e.g. ""more sales meeting guides""","Replace ""See every guide"" CTA",133 identical generic anchors to /blog; point each post to its own topic hub instead.
+S6,Week 3,Low,Anchor,89 pages,/how-it-works,"vary: ""how Lynkk works before, during and after a call"", ""see the meeting workflow""","""See how it works"" CTA",95% of anchors to /how-it-works are identical.
+S7,Week 3,Medium,Anchor,Sitewide,/integrations/zoom vs /blog/zoom-note-taker,"Integration page: ""Lynkk for Zoom""; blog: ""best AI note takers for Zoom""","All links using ""AI note taker for Zoom""","Same anchor points to 2 pages (cannibalization). Same for Microsoft Teams and ""Zoom bot / Google Meet bot / Teams bot""."
